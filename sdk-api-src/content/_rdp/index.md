@@ -2,7 +2,7 @@
 UID: TP:rdp
 ms.assetid: f2fdbe9c-5378-3329-bc7e-5993852bc608
 ms.author: windowssdkdev
-ms.date: 08/23/2018
+ms.date: 09/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,5 +19,5 @@ Overview of the Windows Desktop Sharing technology.
 The Windows Desktop Sharing technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Windows Desktop Sharing](/previous-versions/windows/desktop/api/_rdp/index)
+* [Windows Desktop Sharing](/previous-versions/windows/desktop/rdp)
 

@@ -2,7 +2,7 @@
 UID: TP:tapi3
 ms.assetid: 64ae5436-6ff5-354b-8cdb-80f9efe7c1c9
 ms.author: windowssdkdev
-ms.date: 08/23/2018
+ms.date: 09/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -30,5 +30,5 @@ To develop Telephony Application Programming Interfaces, you need these headers:
  * [termmgr.h](../termmgr/index.md)
 
 For programming guidance for this technology, see:
-* [Telephony Application Programming Interfaces](/previous-versions/windows/desktop/api/_automat/index)
+* [Telephony Application Programming Interfaces](/windows/desktop/tapi)
 

@@ -1,0 +1,22 @@
+---
+UID: NA:tvratings
+ms.assetid: 781bf555-7067-324a-badb-3c29797eba39
+ms.author: windowssdkdev
+ms.date: 09/10/2018
+ms.keywords: 
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: portal
+tech.root: mstv
+archived: true
+---
+
+# Tvratings.h header
+
+
+## -description
+
+
+This header is used by Microsoft TV Technologies. For more information, see:
+
+- [Microsoft TV Technologies](../_mstv)
