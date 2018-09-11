@@ -4,17 +4,16 @@ title: IPart::EnumPartsOutgoing
 author: windows-sdk-content
 description: The EnumPartsOutgoing method retrieves a list of all the outgoing parts&#8212;that is, the parts that reside on data paths that are downstream from this part.
 old-location: coreaudio\ipart_enumpartsoutgoing.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: f1892e6d-a2d8-45c7-8a36-6040f4538c1e
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: EnumPartsOutgoing, EnumPartsOutgoing method [Core Audio], EnumPartsOutgoing method [Core Audio],IPart interface, IPart interface [Core Audio],EnumPartsOutgoing method, IPart.EnumPartsOutgoing, IPart::EnumPartsOutgoing, IPartEnumPartsOutgoing, coreaudio.ipart_enumpartsoutgoing, devicetopology/IPart::EnumPartsOutgoing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPart.EnumPartsOutgoing
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPart::EnumPartsOutgoing

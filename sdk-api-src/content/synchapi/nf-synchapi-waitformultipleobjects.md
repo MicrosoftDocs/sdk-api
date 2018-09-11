@@ -4,17 +4,16 @@ title: WaitForMultipleObjects function
 author: windows-sdk-content
 description: Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses.
 old-location: base\waitformultipleobjects.htm
-old-project: sync
+tech.root: Sync
 ms.assetid: 51afb13c-ea7a-407a-9f21-345d84f3b96b
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WaitForMultipleObjects, WaitForMultipleObjects function, _win32_waitformultipleobjects, base.waitformultipleobjects, synchapi/WaitForMultipleObjects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ITEMPROP, *LPITEMPROP
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - WaitForMultipleObjects
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # WaitForMultipleObjects function

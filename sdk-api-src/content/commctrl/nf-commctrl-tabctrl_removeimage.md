@@ -4,17 +4,16 @@ title: TabCtrl_RemoveImage macro
 author: windows-sdk-content
 description: Removes an image from a tab control's image list. You can use this macro or send the TCM_REMOVEIMAGE message explicitly.
 old-location: controls\TabCtrl_RemoveImage.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_removeimage.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TabCtrl_RemoveImage, TabCtrl_RemoveImage macro [Windows Controls], _win32_TabCtrl_RemoveImage, _win32_TabCtrl_RemoveImage_cpp, commctrl/TabCtrl_RemoveImage, controls.TabCtrl_RemoveImage, controls._win32_TabCtrl_RemoveImage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TabCtrl_RemoveImage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # TabCtrl_RemoveImage macro

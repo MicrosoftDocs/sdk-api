@@ -4,17 +4,16 @@ title: WerUnregisterMemoryBlock function
 author: windows-sdk-content
 description: Removes a memory block from the list of data to be collected during error reporting for the application.
 old-location: wer\werunregistermemoryblock.htm
-old-project: wer
+tech.root: wer
 ms.assetid: 016800e8-4a03-40f6-9dba-54cd9082eb48
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WerUnregisterMemoryBlock, WerUnregisterMemoryBlock function [Windows Error Reporting], base.werunregistermemoryblock, wer.werunregistermemoryblock, werapi/WerUnregisterMemoryBlock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WerUnregisterMemoryBlock
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WerUnregisterMemoryBlock function

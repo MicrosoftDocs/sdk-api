@@ -4,17 +4,16 @@ title: "_SECURITY_USER_DATA"
 author: windows-sdk-content
 description: The SecurityUserData structure contains information about the user of a security support provider/authentication package. This structure is used by the SpGetUserInfo function.
 old-location: security\securityuserdata.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 1a56203a-ed6a-4f32-9e7c-b498ba61a64b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSECURITY_USER_DATA, *PSecurityUserData, PSECURITY_USER_DATA, PSECURITY_USER_DATA structure pointer [Security], PSecurityUserData, PSecurityUserData structure pointer [Security], SECURITY_USER_DATA, SECURITY_USER_DATA structure [Security], SecurityUserData, SecurityUserData structure [Security], _SECURITY_USER_DATA, _ssp_securityuserdata, ntsecpkg/PSECURITY_USER_DATA, ntsecpkg/PSecurityUserData, ntsecpkg/SecurityUserData, security.securityuserdata"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECURITY_USER_DATA, *PSECURITY_USER_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECURITY_USER_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECURITY_USER_DATA, *PSECURITY_USER_DATA
+req.redist: 
 ---
 
 # _SECURITY_USER_DATA structure

@@ -4,17 +4,16 @@ title: IEnterpriseDropTarget::IsEvaluatingEdpPolicy
 author: windows-sdk-content
 description: Indicates whether the drop target is intends to handle the evaluation of the enterprise protection policy.
 old-location: com\isevaluatingedppolicy_isevaluatingedppolicy.htm
-old-project: com
+tech.root: com
 ms.assetid: EB28FF02-E747-4898-AEEF-811BAF7A6DBC
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnterpriseDropTarget interface [COM],IsEvaluatingEdpPolicy method, IEnterpriseDropTarget.IsEvaluatingEdpPolicy, IEnterpriseDropTarget::IsEvaluatingEdpPolicy, IsEvaluatingEdpPolicy, IsEvaluatingEdpPolicy method [COM], IsEvaluatingEdpPolicy method [COM],IEnterpriseDropTarget interface, com.isevaluatingedppolicy_isevaluatingedppolicy, com.isevaluatingedppolicy_requestaccessforappwithmessageforwindowasync, oleidl/IEnterpriseDropTarget::IsEvaluatingEdpPolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnterpriseDropTarget.IsEvaluatingEdpPolicy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnterpriseDropTarget::IsEvaluatingEdpPolicy

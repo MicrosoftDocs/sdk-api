@@ -4,17 +4,16 @@ title: IDirectDraw7::GetScanLine
 author: windows-sdk-content
 description: Retrieves the scan line that is currently being drawn on the monitor.
 old-location: directdraw\idirectdraw7_getscanline.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 0bccb384-2de3-49a5-962a-31ad2a751e28
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetScanLine, GetScanLine method [DirectDraw], GetScanLine method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetScanLine method, IDirectDraw7.GetScanLine, IDirectDraw7::GetScanLine, ddraw/IDirectDraw7::GetScanLine, directdraw.idirectdraw7_getscanline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDraw7.GetScanLine
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDraw7::GetScanLine

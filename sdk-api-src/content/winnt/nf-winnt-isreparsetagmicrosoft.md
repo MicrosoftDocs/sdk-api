@@ -4,17 +4,16 @@ title: IsReparseTagMicrosoft macro
 author: windows-sdk-content
 description: Determines whether a reparse point tag indicates a Microsoft reparse point.
 old-location: fs\isreparsetagmicrosoft.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: f64378a7-084e-41c7-9331-dcffa11e0ae9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IsReparseTagMicrosoft, IsReparseTagMicrosoft macro [Files], _win32_isreparsetagmicrosoft, base.isreparsetagmicrosoft, fs.isreparsetagmicrosoft, winnt/IsReparseTagMicrosoft
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IsReparseTagMicrosoft
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IsReparseTagMicrosoft macro

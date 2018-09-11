@@ -4,17 +4,16 @@ title: IDeviceModelPlugIn
 author: windows-sdk-content
 description: Describes the methods that are defined for the IDeviceModelPlugIn Component Object Model (COM) interface.
 old-location: wcs\idevicemodelplugin.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: 90541ec2-c0ab-4f98-906b-3e58f8f5cc03
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: IDeviceModelPlugIn, IDeviceModelPlugIn interface [Windows Color System], IDeviceModelPlugIn interface [Windows Color System],described, _color_IDeviceModelPlugIn, wcs.idevicemodelplugin, wcsplugin/IDeviceModelPlugIn
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDeviceModelPlugIn
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceModelPlugIn interface

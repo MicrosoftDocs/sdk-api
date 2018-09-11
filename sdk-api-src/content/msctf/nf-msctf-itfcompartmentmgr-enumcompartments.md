@@ -4,17 +4,16 @@ title: ITfCompartmentMgr::EnumCompartments
 author: windows-sdk-content
 description: The ITfCompartmentMgr::EnumCompartments method obtains an enumerator that contains the GUID of the compartments within the compartment manager.
 old-location: tsf\itfcompartmentmgr_enumcompartments.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: d8c90637-dd6d-425f-9d5d-44c7dbfcf8a5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EnumCompartments, EnumCompartments method [Text Services Framework], EnumCompartments method [Text Services Framework],ITfCompartmentMgr interface, ITfCompartmentMgr interface [Text Services Framework],EnumCompartments method, ITfCompartmentMgr.EnumCompartments, ITfCompartmentMgr::EnumCompartments, _tsf_itfcompartmentmgr_enumcompartments_ref, msctf/ITfCompartmentMgr::EnumCompartments, tsf.itfcompartmentmgr_enumcompartments
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfCompartmentMgr.EnumCompartments
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfCompartmentMgr::EnumCompartments

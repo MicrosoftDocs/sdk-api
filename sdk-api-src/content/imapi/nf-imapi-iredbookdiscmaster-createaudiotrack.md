@@ -4,17 +4,16 @@ title: IRedbookDiscMaster::CreateAudioTrack
 author: windows-sdk-content
 description: Begins staging a new audio track. It can be called only when there are no open audio tracks in the image.
 old-location: imapi\iredbookdiscmaster_createaudiotrack.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: b0300cd8-08e9-434e-9c1b-c33a19148e7e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CreateAudioTrack, CreateAudioTrack method [IMAPI], CreateAudioTrack method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],CreateAudioTrack method, IRedbookDiscMaster.CreateAudioTrack, IRedbookDiscMaster::CreateAudioTrack, _win32_iredbookdiscmaster_createaudiotrack, base.iredbookdiscmaster_createaudiotrack, imapi.iredbookdiscmaster_createaudiotrack, imapi/IRedbookDiscMaster::CreateAudioTrack
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRedbookDiscMaster.CreateAudioTrack
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRedbookDiscMaster::CreateAudioTrack

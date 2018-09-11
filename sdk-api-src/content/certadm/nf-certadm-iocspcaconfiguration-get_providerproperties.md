@@ -4,17 +4,16 @@ title: IOCSPCAConfiguration::get_ProviderProperties
 author: windows-sdk-content
 description: Gets or sets information that provides certificate status responses.
 old-location: security\iocspcaconfiguration_providerproperties_method.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 60ac0123-9696-4893-ae2a-278b4e70c098
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],ProviderProperties property, IOCSPCAConfiguration.ProviderProperties, IOCSPCAConfiguration.get_ProviderProperties, IOCSPCAConfiguration::ProviderProperties, IOCSPCAConfiguration::get_ProviderProperties, IOCSPCAConfiguration::put_ProviderProperties, ProviderProperties property [Security], ProviderProperties property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::ProviderProperties, certadm/IOCSPCAConfiguration::get_ProviderProperties, certadm/IOCSPCAConfiguration::put_ProviderProperties, get_ProviderProperties, security.iocspcaconfiguration_providerproperties_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IOCSPCAConfiguration.put_ProviderProperties
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPCAConfiguration::get_ProviderProperties

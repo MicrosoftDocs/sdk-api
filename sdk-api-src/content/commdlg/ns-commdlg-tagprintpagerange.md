@@ -4,17 +4,16 @@ title: tagPRINTPAGERANGE
 author: windows-sdk-content
 description: Represents a range of pages in a print job. A print job can have more than one page range. This information is supplied in the PRINTDLGEX structure when calling the PrintDlgEx function.
 old-location: dlgbox\printpagerange_str.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\printpagerange.htm
 ms.author: windowssdkdev
-ms.date: 08/21/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPPRINTPAGERANGE, LPPRINTPAGERANGE, LPPRINTPAGERANGE structure pointer [Dialog Boxes], PRINTPAGERANGE, PRINTPAGERANGE structure [Dialog Boxes], _win32_PRINTPAGERANGE_str, _win32_printpagerange_str_cpp, commdlg/LPPRINTPAGERANGE, commdlg/PRINTPAGERANGE, dlgbox.printpagerange_str, tagPRINTPAGERANGE, winui._win32_printpagerange_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: commdlg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRINTPAGERANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PRINTPAGERANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: PRINTPAGERANGE
+req.redist: 
 ---
 
 # tagPRINTPAGERANGE structure

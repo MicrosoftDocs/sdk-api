@@ -4,17 +4,16 @@ title: IInkRenderer::PixelToInkSpaceFromPoints
 author: windows-sdk-content
 description: Converts an array of locations in pixel space coordinates to an array of locations in ink space coordinates.
 old-location: tablet\inkrenderer_pixeltoinkspacefrompoints.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 1427ab50-1b04-43a8-a987-838f2d6893cc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 1427ab50-1b04-43a8-a987-838f2d6893cc, IInkRenderer, IInkRenderer interface [Tablet PC],PixelToInkSpaceFromPoints method, IInkRenderer.PixelToInkSpaceFromPoints, IInkRenderer::PixelToInkSpaceFromPoints, PixelToInkSpaceFromPoints, PixelToInkSpaceFromPoints method [Tablet PC], PixelToInkSpaceFromPoints method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::PixelToInkSpaceFromPoints, tablet.inkrenderer_pixeltoinkspacefrompoints
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkRenderer.PixelToInkSpaceFromPoints
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRenderer::PixelToInkSpaceFromPoints
@@ -66,7 +64,7 @@ Converts an array of locations in pixel space coordinates to an array of locatio
 
 ### -param hDC
 
-
+TBD
 
 
 ### -param Points [in, out]

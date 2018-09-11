@@ -4,17 +4,16 @@ title: IDirect3DDevice9Ex::CheckResourceResidency
 author: windows-sdk-content
 description: Checks an array of resources to determine if it is likely that they will cause a large stall at Draw time because the system must make the resources GPU-accessible.
 old-location: direct3d9\idirect3ddevice9ex_checkresourceresidency.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_checkresourceresidency.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 3b00074b-be34-94d5-7702-c5e8f870e68f, CheckResourceResidency, CheckResourceResidency method [Direct3D 9], CheckResourceResidency method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],CheckResourceResidency method, IDirect3DDevice9Ex.CheckResourceResidency, IDirect3DDevice9Ex::CheckResourceResidency, d3d9/IDirect3DDevice9Ex::CheckResourceResidency, direct3d9.idirect3ddevice9ex_checkresourceresidency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DDevice9Ex.CheckResourceResidency
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9Ex::CheckResourceResidency

@@ -4,17 +4,16 @@ title: IAzObjectPicker
 author: windows-sdk-content
 description: Displays a dialog box that allows users to select one or more principals from a list.
 old-location: security\iazobjectpicker.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 767f30c9-6071-4f04-876d-b8b2392e650c
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IAzObjectPicker, IAzObjectPicker interface [Security], IAzObjectPicker interface [Security],described, azroles/IAzObjectPicker, security.iazobjectpicker
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzObjectPicker
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzObjectPicker interface

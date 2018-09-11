@@ -4,17 +4,16 @@ title: NetworkIsolationGetEnterpriseIdClose function
 author: windows-sdk-content
 description: This API is used for closing the handle returned by NetworkIsolationGetEnterpriseIdAsync as well as for synchronizing the operation.
 old-location: ics\networkisolationgetenterpriseidclose.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 85FE7431-CC20-4CD2-9853-9B81BB8B7160
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: NetworkIsolationGetEnterpriseIdClose, NetworkIsolationGetEnterpriseIdClose function [ICS/ICF], ics.networkisolationgetenterpriseidclose, netfw/NetworkIsolationGetEnterpriseIdClose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: Firewallapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetworkIsolationGetEnterpriseIdClose
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Firewallapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NetworkIsolationGetEnterpriseIdClose function

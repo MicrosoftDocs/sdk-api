@@ -4,7 +4,7 @@ title: "_WTS_SYSTEMTIME"
 author: windows-sdk-content
 description: Specifies date and time information for transitions between standard time and daylight saving time.
 old-location: termserv\wts_systemtime.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 3d123666-c13c-4061-9c03-a84cc3ab2a51
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_SYSTEMTIME, *PWTS_SYSTEMTIME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTS_SYSTEMTIME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WTS_SYSTEMTIME, *PWTS_SYSTEMTIME
+req.redist: 
 ---
 
 # _WTS_SYSTEMTIME structure

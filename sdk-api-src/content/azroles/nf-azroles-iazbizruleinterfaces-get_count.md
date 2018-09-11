@@ -4,17 +4,16 @@ title: IAzBizRuleInterfaces::get_Count
 author: windows-sdk-content
 description: Specifies the number of interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces_count_method.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: f6838790-2223-4ae8-9cee-9d881d071ba0
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: Count property [Security], Count property [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],Count property, IAzBizRuleInterfaces.Count, IAzBizRuleInterfaces.get_Count, IAzBizRuleInterfaces::Count, IAzBizRuleInterfaces::get_Count, azroles/IAzBizRuleInterfaces::Count, azroles/IAzBizRuleInterfaces::get_Count, get_Count, security.iazbizruleinterfaces_count_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAzBizRuleInterfaces.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzBizRuleInterfaces::get_Count

@@ -4,17 +4,16 @@ title: "_QUERY_CHANGES_VIRTUAL_DISK_RANGE"
 author: windows-sdk-content
 description: Identifies an area on a virtual hard disk (VHD) that has changed as tracked by resilient change tracking (RCT).
 old-location: vhd\query_changes_virtual_disk_range.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 9DA53F46-AE1E-425B-BA50-05DC4A327F75
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PQUERY_CHANGES_VIRTUAL_DISK_RANGE, PQUERY_CHANGES_VIRTUAL_DISK_RANGE, PQUERY_CHANGES_VIRTUAL_DISK_RANGE structure pointer [VHD], QUERY_CHANGES_VIRTUAL_DISK_RANGE, QUERY_CHANGES_VIRTUAL_DISK_RANGE structure [VHD], _QUERY_CHANGES_VIRTUAL_DISK_RANGE, __QUERY_CHANGES_VIRTUAL_DISK_RANGE, vdssys/PQUERY_CHANGES_VIRTUAL_DISK_RANGE, vdssys/QUERY_CHANGES_VIRTUAL_DISK_RANGE, vhd.query_changes_virtual_disk_range, virtdisk/PQUERY_CHANGES_VIRTUAL_DISK_RANGE, virtdisk/QUERY_CHANGES_VIRTUAL_DISK_RANGE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QUERY_CHANGES_VIRTUAL_DISK_RANGE, *PQUERY_CHANGES_VIRTUAL_DISK_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - QUERY_CHANGES_VIRTUAL_DISK_RANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: QUERY_CHANGES_VIRTUAL_DISK_RANGE, *PQUERY_CHANGES_VIRTUAL_DISK_RANGE
+req.redist: 
 ---
 
 # _QUERY_CHANGES_VIRTUAL_DISK_RANGE structure

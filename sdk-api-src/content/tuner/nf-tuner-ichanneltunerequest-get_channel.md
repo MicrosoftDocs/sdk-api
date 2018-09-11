@@ -4,17 +4,16 @@ title: IChannelTuneRequest::get_Channel
 author: windows-sdk-content
 description: The get_Channel method gets the channel to be tuned.
 old-location: mstv\ichanneltunerequest_get_channel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1a529416-9b7a-41f4-961a-741b1a581d5f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IChannelTuneRequest interface [Microsoft TV Technologies],get_Channel method, IChannelTuneRequest.get_Channel, IChannelTuneRequest::get_Channel, IChannelTuneRequestget_Channel, get_Channel, get_Channel method [Microsoft TV Technologies], get_Channel method [Microsoft TV Technologies],IChannelTuneRequest interface, mstv.ichanneltunerequest_get_channel, tuner/IChannelTuneRequest::get_Channel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IChannelTuneRequest.get_Channel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IChannelTuneRequest::get_Channel
@@ -63,7 +61,7 @@ The <b>get_Channel</b> method gets the channel to be tuned.
 
 ### -param Channel
 
-
+TBD
 
 
 

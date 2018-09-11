@@ -4,7 +4,7 @@ title: "_HTTP_SSL_CLIENT_CERT_INFO"
 author: windows-sdk-content
 description: Contains data about a Secure Sockets Layer (SSL) client certificate that can be used to determine whether the certificate is valid.
 old-location: http\http_ssl_client_cert_info.htm
-old-project: http
+tech.root: http
 ms.assetid: bfe6a9a9-6117-4403-a83f-e9448615500b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_SSL_CLIENT_CERT_INFO, *PHTTP_SSL_CLIENT_CERT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_SSL_CLIENT_CERT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_SSL_CLIENT_CERT_INFO, *PHTTP_SSL_CLIENT_CERT_INFO
+req.redist: 
 ---
 
 # _HTTP_SSL_CLIENT_CERT_INFO structure

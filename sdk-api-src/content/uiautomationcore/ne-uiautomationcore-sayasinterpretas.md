@@ -4,7 +4,7 @@ title: SayAsInterpretAs
 author: windows-sdk-content
 description: Defines the values that indicate how a text-to-speech engine should interpret specific data.
 old-location: winauto\uiauto_SayAsInterpretAs.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 70F6AA0E-52CB-49D4-BBAF-2B6367D5E44D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: UIAutomationClient.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SayAsInterpretAs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # SayAsInterpretAs enumeration

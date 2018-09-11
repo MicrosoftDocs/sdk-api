@@ -4,17 +4,16 @@ title: UShortSub function
 author: windows-sdk-content
 description: Subtracts one value of type USHORT from another.
 old-location: shell\UShortSub.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 29365c4b-317f-4351-b684-a77b06593c2d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: UShortSub, UShortSub function [Windows Shell], WordSub, _shell_UShortSub, intsafe/UShortSub, shell.UShortSub
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UShortSub
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # UShortSub function

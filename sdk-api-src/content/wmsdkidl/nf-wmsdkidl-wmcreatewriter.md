@@ -4,17 +4,16 @@ title: WMCreateWriter function
 author: windows-sdk-content
 description: The WMCreateWriter function creates a writer object.
 old-location: wmformat\wmcreatewriter.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 26d42213-40a1-4e2c-805b-c0803ee015b4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WMCreateWriter, WMCreateWriter function [windows Media Format], wmformat.wmcreatewriter, wmsdkidl/WMCreateWriter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib
+req.dll: Wmvcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMCreateWriter
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib
-req.dll: Wmvcore.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WMCreateWriter function

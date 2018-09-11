@@ -4,17 +4,16 @@ title: MgmTakeInterfaceOwnership function
 author: windows-sdk-content
 description: The MgmTakeInterfaceOwnership function is called by a client (such as a routing protocol) when it is enabled on an interface.
 old-location: rras\mgmtakeinterfaceownership.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: b072c884-0b84-4dd9-a14c-185f5d327017
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MgmTakeInterfaceOwnership, MgmTakeInterfaceOwnership function [RAS], _mpr_mgmtakeinterfaceownership, mgm/MgmTakeInterfaceOwnership, rras.mgmtakeinterfaceownership
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mgm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MGM_ENUM_TYPES
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MgmTakeInterfaceOwnership
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MgmTakeInterfaceOwnership function

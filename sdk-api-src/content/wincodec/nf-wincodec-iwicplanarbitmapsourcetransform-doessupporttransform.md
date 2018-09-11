@@ -4,17 +4,16 @@ title: IWICPlanarBitmapSourceTransform::DoesSupportTransform
 author: windows-sdk-content
 description: Use this method to determine if a desired planar output is supported and allow the caller to choose an optimized code path if it is.
 old-location: wic\iwicplanarbitmapsourcetransform_doessupporttransform.htm
-old-project: wic
+tech.root: wic
 ms.assetid: CB601454-591B-4292-A8BF-EA9D1F060AB3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DoesSupportTransform, DoesSupportTransform method [Windows Imaging Component], DoesSupportTransform method [Windows Imaging Component],IWICPlanarBitmapSourceTransform interface, IWICPlanarBitmapSourceTransform interface [Windows Imaging Component],DoesSupportTransform method, IWICPlanarBitmapSourceTransform.DoesSupportTransform, IWICPlanarBitmapSourceTransform::DoesSupportTransform, wic.iwicplanarbitmapsourcetransform_doessupporttransform, wincodec/IWICPlanarBitmapSourceTransform::DoesSupportTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICPlanarBitmapSourceTransform.DoesSupportTransform
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICPlanarBitmapSourceTransform::DoesSupportTransform
@@ -125,7 +123,7 @@ WIC JPEG Decoder: The Cb and Cr planes can be a different size from the values r
 
 ### -param pPlaneDescriptions
 
-
+TBD
 
 
 ### -param cPlanes

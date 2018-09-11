@@ -4,17 +4,16 @@ title: ImmConfigureIMEA function
 author: windows-sdk-content
 description: Displays the configuration dialog box for the IME of the specified input locale identifier.
 old-location: intl\immconfigureime.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: acefb3a0-82c7-4af6-8ef0-aba561f570c1
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IME_CONFIG_GENERAL, IME_CONFIG_REGISTERWORD, IME_CONFIG_SELECTDICTIONARY, ImmConfigureIME, ImmConfigureIME function [Internationalization for Windows Applications], ImmConfigureIMEA, ImmConfigureIMEW, _win32_ImmConfigureIME, imm/ImmConfigureIME, imm/ImmConfigureIMEA, imm/ImmConfigureIMEW, intl.immconfigureime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ImmConfigureIMEW
 product: Windows
 targetos: Windows
-req.lib: Imm32.lib
-req.dll: Imm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ImmConfigureIMEA function

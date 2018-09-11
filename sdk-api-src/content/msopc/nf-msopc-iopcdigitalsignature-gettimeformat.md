@@ -4,17 +4,16 @@ title: IOpcDigitalSignature::GetTimeFormat
 author: windows-sdk-content
 description: Gets the format of the string returned by the GetSigningTime method.
 old-location: opc\iopcdigitalsignature_gettimeformat.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: df142c4d-27dc-4db3-9a37-78c5703c8119
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetTimeFormat, GetTimeFormat method [Open Packaging Conventions], GetTimeFormat method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetTimeFormat method, IOpcDigitalSignature.GetTimeFormat, IOpcDigitalSignature::GetTimeFormat, msopc/IOpcDigitalSignature::GetTimeFormat, opc.iopcdigitalsignature_gettimeformat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcDigitalSignature.GetTimeFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcDigitalSignature::GetTimeFormat

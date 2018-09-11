@@ -4,17 +4,16 @@ title: SHILCreateFromPath function
 author: windows-sdk-content
 description: SHILCreateFromPath may be altered or unavailable.
 old-location: shell\SHILCreateFromPath.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 08700af7-9dbd-4162-8578-bfa47e3db6bf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHILCreateFromPath, SHILCreateFromPath function [Windows Shell], _win32_SHILCreateFromPath, shell.SHILCreateFromPath, shlobj_core/SHILCreateFromPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHILCreateFromPath
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHILCreateFromPath function

@@ -4,17 +4,16 @@ title: ITsSbProvider::CreateLoadBalanceResultObject
 author: windows-sdk-content
 description: Creates an ITsSbLoadBalanceResult load-balancing result object.
 old-location: termserv\itssbprovider_createloadbalanceresultobject.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: aaa13ec1-d79c-4458-9340-3cc42bbcd948
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateLoadBalanceResultObject, CreateLoadBalanceResultObject method [Remote Desktop Services], CreateLoadBalanceResultObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateLoadBalanceResultObject method, ITsSbProvider.CreateLoadBalanceResultObject, ITsSbProvider::CreateLoadBalanceResultObject, sbtsv/ITsSbProvider::CreateLoadBalanceResultObject, termserv.itssbprovider_createloadbalanceresultobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbProvider.CreateLoadBalanceResultObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbProvider::CreateLoadBalanceResultObject

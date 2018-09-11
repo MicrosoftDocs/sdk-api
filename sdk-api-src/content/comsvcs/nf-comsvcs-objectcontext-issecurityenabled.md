@@ -4,17 +4,16 @@ title: ObjectContext::IsSecurityEnabled
 author: windows-sdk-content
 description: Indicates whether security is enabled for the current object.
 old-location: cos\objectcontext_issecurityenabled.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: c7b3a301-9f94-40de-a3d2-5387fb4e0596
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IsSecurityEnabled, IsSecurityEnabled method [COM+], IsSecurityEnabled method [COM+],ObjectContext interface, ObjectContext interface [COM+],IsSecurityEnabled method, ObjectContext.IsSecurityEnabled, ObjectContext::IsSecurityEnabled, _cos_ObjectContext_IsSecurityEnabled, comsvcs/ObjectContext::IsSecurityEnabled, cos.objectcontext_issecurityenabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ObjectContext.IsSecurityEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ObjectContext::IsSecurityEnabled

@@ -4,17 +4,16 @@ title: ITfSystemLangBarItemSink::OnMenuSelect
 author: windows-sdk-content
 description: ITfSystemLangBarItemSink::OnMenuSelect method
 old-location: tsf\itfsystemlangbaritemsink_onmenuselect.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 43c20f95-64b5-458a-8469-0d8b284b66dd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfSystemLangBarItemSink interface [Text Services Framework],OnMenuSelect method, ITfSystemLangBarItemSink.OnMenuSelect, ITfSystemLangBarItemSink::OnMenuSelect, OnMenuSelect, OnMenuSelect method [Text Services Framework], OnMenuSelect method [Text Services Framework],ITfSystemLangBarItemSink interface, _tsf_itfsystemlangbaritemsink_onmenuselect_ref, ctfutb/ITfSystemLangBarItemSink::OnMenuSelect, tsf.itfsystemlangbaritemsink_onmenuselect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfSystemLangBarItemSink.OnMenuSelect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfSystemLangBarItemSink::OnMenuSelect

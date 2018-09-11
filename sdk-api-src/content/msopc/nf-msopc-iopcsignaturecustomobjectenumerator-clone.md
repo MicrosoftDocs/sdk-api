@@ -4,17 +4,16 @@ title: IOpcSignatureCustomObjectEnumerator::Clone
 author: windows-sdk-content
 description: Creates a copy of the current IOpcSignatureCustomObjectEnumerator interface pointer and all its descendants.
 old-location: opc\iopcsignaturecustomobjectenumerator_clone.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 51dd3758-26c6-4d4f-a956-61a9ff1f67c5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcSignatureCustomObjectEnumerator interface, IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],Clone method, IOpcSignatureCustomObjectEnumerator.Clone, IOpcSignatureCustomObjectEnumerator::Clone, msopc/IOpcSignatureCustomObjectEnumerator::Clone, opc.iopcsignaturecustomobjectenumerator_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcSignatureCustomObjectEnumerator.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcSignatureCustomObjectEnumerator::Clone

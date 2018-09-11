@@ -4,17 +4,16 @@ title: X3DAudioInitialize function
 author: windows-sdk-content
 description: Sets all global 3D audio constants.
 old-location: xaudio2\x3daudioinitialize.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.x3daudio.X3DAudioInitialize(UINT32,FLOAT32,X3DAUDIO_HANDLE@)
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: X3DAudioInitialize, X3DAudioInitialize function [XAudio2 Audio Mixing APIs], x3daudio/X3DAudioInitialize, xaudio2.x3daudioinitialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: x3daudio.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ServerSelection
+req.lib: XAudio2.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - X3DAudioInitialize
 product: Windows
 targetos: Windows
-req.lib: XAudio2.lib
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # X3DAudioInitialize function

@@ -4,17 +4,16 @@ title: DnsModifyRecordsInSet_A function
 author: windows-sdk-content
 description: Function adds, modifies or removes a Resource Record (RR) set that may have been previously registered with DNS servers.
 old-location: dns\dnsmodifyrecordsinset.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 4287b4e1-a7a2-4b73-b5bb-21bc639bae73
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DnsModifyRecordsInSet, DnsModifyRecordsInSet function [DNS], DnsModifyRecordsInSet_A, DnsModifyRecordsInSet_UTF8, DnsModifyRecordsInSet_W, _dns_dnsmodifyrecordsinset, dns.dnsmodifyrecordsinset, windns/DnsModifyRecordsInSet, windns/DnsModifyRecordsInSet_A, windns/DnsModifyRecordsInSet_UTF8, windns/DnsModifyRecordsInSet_W
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_FREE_TYPE
+req.lib: Dnsapi.lib
+req.dll: Dnsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - DnsModifyRecordsInSet_UTF8
 product: Windows
 targetos: Windows
-req.lib: Dnsapi.lib
-req.dll: Dnsapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DnsModifyRecordsInSet_A function

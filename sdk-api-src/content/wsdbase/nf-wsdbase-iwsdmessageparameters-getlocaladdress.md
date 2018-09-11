@@ -4,17 +4,16 @@ title: IWSDMessageParameters::GetLocalAddress
 author: windows-sdk-content
 description: Retrieves the generic address object representing the local address that received the message.
 old-location: ncd\iwsdmessageparameters_getlocaladdress.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: 97eab68f-9a77-46ae-a50e-be6267e25040
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetLocalAddress, GetLocalAddress method, GetLocalAddress method,IWSDMessageParameters interface, IWSDMessageParameters interface,GetLocalAddress method, IWSDMessageParameters.GetLocalAddress, IWSDMessageParameters::GetLocalAddress, ncd.iwsdmessageparameters_getlocaladdress, wsdbase/IWSDMessageParameters::GetLocalAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_CONFIG_PARAM_TYPE
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDMessageParameters.GetLocalAddress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDMessageParameters::GetLocalAddress

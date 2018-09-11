@@ -4,17 +4,16 @@ title: RASDIALFUNC1
 author: windows-sdk-content
 description: A RasDialFunc1 function is called by the RasDial function when a change of state occurs during a remote access connection process.
 old-location: rras\rasdialfunc1.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: f0b0dbbc-8544-4711-819a-48bb714a67d9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ERROR_AUTH_INTERNAL, ERROR_CANNOT_GET_LANA, ERROR_NETBIOS_ERROR, ERROR_SERVER_NOT_RESPONDING, RasDialFunc1, RasDialFunc1 callback, RasDialFunc1 callback function [RAS], _ras_rasdialfunc1, ras/RasDialFunc1, rras.rasdialfunc1
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_STATUS_INFO, *LPRSVP_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RasDialFunc1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RASDIALFUNC1 callback function

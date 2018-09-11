@@ -4,17 +4,16 @@ title: IInkTablet::get_Name
 author: windows-sdk-content
 description: Gets the name of the object.
 old-location: tablet\iinktablet_name.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 8388ca02-b464-47e4-9911-1c55ce398557
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkTablet interface [Tablet PC],Name property, IInkTablet.Name, IInkTablet.get_Name, IInkTablet::Name, IInkTablet::get_Name, Name property [Tablet PC], Name property [Tablet PC],IInkTablet interface, get_Name, msinkaut/IInkTablet::Name, msinkaut/IInkTablet::get_Name, tablet.iinktablet_name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkTablet.get_Name
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkTablet::get_Name

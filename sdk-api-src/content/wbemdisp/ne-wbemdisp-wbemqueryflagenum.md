@@ -4,17 +4,16 @@ title: WbemQueryFlagEnum
 author: windows-sdk-content
 description: Define the depth of enumeration or query, which determines how many objects are returned by a call.
 old-location: wmi\wbemqueryflagenum.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 5da897fa-3dba-4360-bbbe-287da5717205
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: WbemQueryFlagEnum, WbemQueryFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemqueryflagenum, wbemQueryFlagDeep, wbemQueryFlagPrototype, wbemQueryFlagShallow, wbemdisp/WbemQueryFlagEnum, wbemdisp/wbemQueryFlagDeep, wbemdisp/wbemQueryFlagPrototype, wbemdisp/wbemQueryFlagShallow, wmi.wbemqueryflagenum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemQueryFlagEnum
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WbemQueryFlagEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WbemQueryFlagEnum
+req.redist: 
 ---
 
 # WbemQueryFlagEnum enumeration

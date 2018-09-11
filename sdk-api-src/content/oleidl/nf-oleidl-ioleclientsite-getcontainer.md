@@ -4,17 +4,16 @@ title: IOleClientSite::GetContainer
 author: windows-sdk-content
 description: Retrieves a pointer to the object's container.
 old-location: com\ioleclientsite_getcontainer.htm
-old-project: com
+tech.root: com
 ms.assetid: 8f0caf07-f059-4e0c-9c28-c7ad0cc149e3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetContainer, GetContainer method [COM], GetContainer method [COM],IOleClientSite interface, IOleClientSite interface [COM],GetContainer method, IOleClientSite.GetContainer, IOleClientSite::GetContainer, _ole_ioleclientsite_getcontainer, com.ioleclientsite_getcontainer, oleidl/IOleClientSite::GetContainer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleClientSite.GetContainer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleClientSite::GetContainer

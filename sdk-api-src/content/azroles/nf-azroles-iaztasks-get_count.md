@@ -4,17 +4,16 @@ title: IAzTasks::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IAzTask objects in the collection.
 old-location: security\iaztasks_count.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 505768ce-27a3-4f36-aeea-081cf8e45d14
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzTasks object [Security],Count property, Count property [Security], Count property [Security],AzTasks object, Count property [Security],IAzTasks interface, IAzTasks interface [Security],Count property, IAzTasks.Count, IAzTasks.get_Count, IAzTasks::Count, IAzTasks::get_Count, azroles/IAzTasks::Count, azroles/IAzTasks::get_Count, get_Count, security.iaztasks_count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzTasks.Count
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzTasks::get_Count

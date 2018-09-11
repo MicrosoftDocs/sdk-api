@@ -4,17 +4,16 @@ title: IWbemObjectAccess::ReadQWORD
 author: windows-sdk-content
 description: The ReadQWORD method reads 64 bits of property data identified by a property handle.
 old-location: wmi\iwbemobjectaccess_readqword.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: cb76eb26-e407-411a-9ccb-a03eaa8bf22e
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],ReadQWORD method, IWbemObjectAccess.ReadQWORD, IWbemObjectAccess::ReadQWORD, ReadQWORD, ReadQWORD method [Windows Management Instrumentation], ReadQWORD method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_readqword, wbemcli/IWbemObjectAccess::ReadQWORD, wmi.iwbemobjectaccess_readqword
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Esscli.dll; Fastprox.dll; Wbemess.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IWbemObjectAccess.ReadQWORD
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Esscli.dll; Fastprox.dll; Wbemess.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemObjectAccess::ReadQWORD

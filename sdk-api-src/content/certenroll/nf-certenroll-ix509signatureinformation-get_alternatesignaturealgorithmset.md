@@ -4,17 +4,16 @@ title: IX509SignatureInformation::get_AlternateSignatureAlgorithmSet
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the AlternateSignatureAlgorithm property has been explicitly set by a caller.
 old-location: security\ix509signatureinformation_alternatesignaturealgorithmset_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: fd28072f-9b79-4068-b4dd-61a6a4f8beda
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AlternateSignatureAlgorithmSet property [Security], AlternateSignatureAlgorithmSet property [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],AlternateSignatureAlgorithmSet property, IX509SignatureInformation.AlternateSignatureAlgorithmSet, IX509SignatureInformation.get_AlternateSignatureAlgorithmSet, IX509SignatureInformation::AlternateSignatureAlgorithmSet, IX509SignatureInformation::get_AlternateSignatureAlgorithmSet, certenroll/IX509SignatureInformation::AlternateSignatureAlgorithmSet, certenroll/IX509SignatureInformation::get_AlternateSignatureAlgorithmSet, get_AlternateSignatureAlgorithmSet, security.ix509signatureinformation_alternatesignaturealgorithmset_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509SignatureInformation.get_AlternateSignatureAlgorithmSet
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509SignatureInformation::get_AlternateSignatureAlgorithmSet

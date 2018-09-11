@@ -4,17 +4,16 @@ title: IRealTimeStylus::get_ChildRealTimeStylusPlugin
 author: windows-sdk-content
 description: Gets or sets a RealTimeStylus object as an asynchronous plug-in of the current RealTimeStylus object.
 old-location: tablet\irealtimestylus_childrealtimestylusplugin.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 269c133c-6950-40e0-8de9-e38bfa06995e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 269c133c-6950-40e0-8de9-e38bfa06995e, ChildRealTimeStylusPlugin property [Tablet PC], ChildRealTimeStylusPlugin property [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],ChildRealTimeStylusPlugin property, IRealTimeStylus.ChildRealTimeStylusPlugin, IRealTimeStylus.get_ChildRealTimeStylusPlugin, IRealTimeStylus.put_ChildRealTimeStylusPlugin, IRealTimeStylus::ChildRealTimeStylusPlugin, IRealTimeStylus::get_ChildRealTimeStylusPlugin, IRealTimeStylus::put_ChildRealTimeStylusPlugin, get_ChildRealTimeStylusPlugin, rtscom/IRealTimeStylus::ChildRealTimeStylusPlugin, rtscom/IRealTimeStylus::get_ChildRealTimeStylusPlugin, rtscom/IRealTimeStylus::put_ChildRealTimeStylusPlugin, tablet.irealtimestylus_childrealtimestylusplugin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - IRealTimeStylus.put_ChildRealTimeStylusPlugin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRealTimeStylus::get_ChildRealTimeStylusPlugin

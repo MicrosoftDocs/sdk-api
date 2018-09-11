@@ -4,17 +4,16 @@ title: ITMSPAddress::CreateMSPCall
 author: windows-sdk-content
 description: The CreateMSPCall method creates an MSP Call object. TAPI aggregates this onto the main Call object and exposes the ITStreamControl interface.
 old-location: tapi3\itmspaddress_createmspcall.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 56ed10e3-e711-43ae-aad6-65a5992fca0f
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CreateMSPCall, CreateMSPCall method [TAPI 2.2], CreateMSPCall method [TAPI 2.2],ITMSPAddress interface, ITMSPAddress interface [TAPI 2.2],CreateMSPCall method, ITMSPAddress.CreateMSPCall, ITMSPAddress::CreateMSPCall, _tapi3_itmspaddress_createmspcall, msp/ITMSPAddress::CreateMSPCall, tapi3.itmspaddress_createmspcall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITMSPAddress.CreateMSPCall
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITMSPAddress::CreateMSPCall

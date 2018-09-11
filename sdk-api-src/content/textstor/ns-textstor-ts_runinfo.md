@@ -4,7 +4,7 @@ title: TS_RUNINFO
 author: windows-sdk-content
 description: The TS_RUNINFO structure specifies the properties of text run data.
 old-location: tsf\ts_runinfo.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 601cd6b0-0064-4cd3-99cd-850104a861a5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_RUNINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TS_RUNINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TS_RUNINFO
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # TS_RUNINFO structure

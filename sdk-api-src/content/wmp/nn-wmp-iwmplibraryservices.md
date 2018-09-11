@@ -4,7 +4,7 @@ title: IWMPLibraryServices
 author: windows-sdk-content
 description: The IWMPLibraryServices interface provides methods to enumerate libraries.
 old-location: wmp\iwmplibraryservices.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 9ed6d02e-15ca-425f-8642-e32a5adfaa55
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPLibraryServices
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPLibraryServices interface

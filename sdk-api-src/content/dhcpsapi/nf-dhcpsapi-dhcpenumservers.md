@@ -4,17 +4,16 @@ title: DhcpEnumServers function
 author: windows-sdk-content
 description: The DhcpEnumServers function returns an enumerated list of DHCP servers found in the directory service.
 old-location: dhcp\dhcpenumservers.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: c8b4d241-19d4-4a97-9129-c2954d63b6ac
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpEnumServers, DhcpEnumServers function [DHCP], dhcp.dhcpenumservers, dhcpsapi/DhcpEnumServers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpEnumServers
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpEnumServers function

@@ -4,17 +4,16 @@ title: GetClusterGroupState function
 author: windows-sdk-content
 description: Returns the current state of a group.
 old-location: mscs\getclustergroupstate.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 5f794dee-aeee-4906-ba63-c154bfda4d17
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetClusterGroupState, GetClusterGroupState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_GROUP_STATE, PCLUSAPI_GET_CLUSTER_GROUP_STATE function [Failover Cluster], _wolf_getclustergroupstate, clusapi/GetClusterGroupState, clusapi/PCLUSAPI_GET_CLUSTER_GROUP_STATE, mscs.getclustergroupstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - GetClusterGroupState
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetClusterGroupState function

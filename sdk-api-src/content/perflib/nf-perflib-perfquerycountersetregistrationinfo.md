@@ -4,17 +4,16 @@ title: PerfQueryCounterSetRegistrationInfo function
 author: windows-sdk-content
 description: Gets information about a counter set on the specified system.
 old-location: perf\perfquerycountersetregistrationinfo.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: E8E83E47-2445-42AE-855F-6710FC8F789E
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PerfQueryCounterSetRegistrationInfo, PerfQueryCounterSetRegistrationInfo function [Perf], perf.perfquerycountersetregistrationinfo, perflib/PerfQueryCounterSetRegistrationInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PerfRegInfoType
+req.lib: AdvAPI32.lib
+req.dll: AdvAPI32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - PerfQueryCounterSetRegistrationInfo
 product: Windows
 targetos: Windows
-req.lib: AdvAPI32.lib
-req.dll: AdvAPI32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PerfQueryCounterSetRegistrationInfo function

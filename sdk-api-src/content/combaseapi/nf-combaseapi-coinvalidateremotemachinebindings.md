@@ -4,17 +4,16 @@ title: CoInvalidateRemoteMachineBindings function
 author: windows-sdk-content
 description: Tells the service control manager to flush any cached RPC binding handles for the specified computer.
 old-location: com\coinvalidateremotemachinebindings.htm
-old-project: com
+tech.root: com
 ms.assetid: 6d0fa512-a9e9-44ff-929d-00b9c826da99
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoInvalidateRemoteMachineBindings, CoInvalidateRemoteMachineBindings function [COM], _com_CoInvalidateRemoteMachineBindings, com.coinvalidateremotemachinebindings, combaseapi/CoInvalidateRemoteMachineBindings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - CoInvalidateRemoteMachineBindings
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoInvalidateRemoteMachineBindings function

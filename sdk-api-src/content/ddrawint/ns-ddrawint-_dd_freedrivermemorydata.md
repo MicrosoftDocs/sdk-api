@@ -4,7 +4,7 @@ title: "_DD_FREEDRIVERMEMORYDATA"
 author: windows-sdk-content
 description: The DD_FREEDRIVERMEMORYDATA structure contains the details of the free request.
 old-location: display\dd_freedrivermemorydata.htm
-old-project: display
+tech.root: display
 ms.assetid: 48a42f19-bb4f-4325-b68b-91f59a674771
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_FREEDRIVERMEMORYDATA, DD_FREEDRIVERMEMORYDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_FREEDRIVERMEMORYDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_FREEDRIVERMEMORYDATA, DD_FREEDRIVERMEMORYDATA"
+req.redist: 
 ---
 
 # _DD_FREEDRIVERMEMORYDATA structure

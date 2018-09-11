@@ -4,17 +4,16 @@ title: TSPI_lineDial function
 author: windows-sdk-content
 description: The TSPI_lineDial function dials the specified dialable number on the specified call.
 old-location: tspi\tspi_linedial.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 8b24b9a3-af97-45dc-aaaf-d95ce9007ba8
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineDial, TSPI_lineDial function [TAPI 2.2], _tspi_tspi_linedial, tspi.tspi_linedial, tspi/TSPI_lineDial
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineDial
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineDial function

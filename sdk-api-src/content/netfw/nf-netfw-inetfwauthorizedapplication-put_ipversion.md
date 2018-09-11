@@ -4,17 +4,16 @@ title: INetFwAuthorizedApplication::put_IpVersion
 author: windows-sdk-content
 description: Specifies the IP version setting for this application.
 old-location: ics\inetfwauthorizedapplication_ipversion.htm
-old-project: ics
+tech.root: ics
 ms.assetid: f0a4127f-4f81-4b71-a5c5-ba9e30927820
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],IpVersion property, INetFwAuthorizedApplication.IpVersion, INetFwAuthorizedApplication.put_IpVersion, INetFwAuthorizedApplication::IpVersion, INetFwAuthorizedApplication::get_IpVersion, INetFwAuthorizedApplication::put_IpVersion, IpVersion property [ICS/ICF], IpVersion property [ICS/ICF],INetFwAuthorizedApplication interface, ics.inetfwauthorizedapplication_ipversion, netfw/INetFwAuthorizedApplication::IpVersion, netfw/INetFwAuthorizedApplication::get_IpVersion, netfw/INetFwAuthorizedApplication::put_IpVersion, put_IpVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwAuthorizedApplication.put_IpVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwAuthorizedApplication::put_IpVersion

@@ -4,17 +4,16 @@ title: ITextDocument2::GetStory
 author: windows-sdk-content
 description: Retrieves the story that corresponds to a particular index.
 old-location: controls\itextdocument2_getstory.htm
-old-project: controls
+tech.root: controls
 ms.assetid: bb1322e9-47b2-4770-b5de-c5eeda70eed1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetStory, GetStory method [Windows Controls], GetStory method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetStory method, ITextDocument2.GetStory, ITextDocument2::GetStory, controls.itextdocument2_getstory, tom/ITextDocument2::GetStory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextDocument2.GetStory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextDocument2::GetStory

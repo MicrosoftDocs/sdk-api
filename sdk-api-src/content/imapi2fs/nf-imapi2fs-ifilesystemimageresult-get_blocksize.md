@@ -4,17 +4,16 @@ title: IFileSystemImageResult::get_BlockSize
 author: windows-sdk-content
 description: Retrieves the size, in bytes, of a block of data.
 old-location: imapi\ifilesystemimageresult_get_blocksize.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: fe6d14d7-f3ae-4634-b8b4-1793f8007826
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_BlockSize method, IFileSystemImageResult.get_BlockSize, IFileSystemImageResult::get_BlockSize, get_BlockSize, get_BlockSize method [IMAPI], get_BlockSize method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_blocksize, imapi2fs/IFileSystemImageResult::get_BlockSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImageResult.get_BlockSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImageResult::get_BlockSize

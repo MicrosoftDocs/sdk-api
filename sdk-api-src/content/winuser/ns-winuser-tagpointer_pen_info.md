@@ -4,7 +4,7 @@ title: tagPOINTER_PEN_INFO
 author: windows-sdk-content
 description: Defines basic pen information common to all pointer types.
 old-location: inputmsg\pointer_pen_info_struct.htm
-old-project: InputMsg
+tech.root: InputMsg
 ms.assetid: fee176ba-ad07-4141-ab4d-1b8c335fd111
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POINTER_PEN_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POINTER_PEN_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: POINTER_PEN_INFO
+req.redist: 
 ---
 
 # tagPOINTER_PEN_INFO structure

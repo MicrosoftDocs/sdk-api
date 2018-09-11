@@ -4,17 +4,16 @@ title: INDESPolicy::VerifyRequest
 author: windows-sdk-content
 description: Verifies the NDES certificate request for submission to the CA.
 old-location: security\indespolicy_verifyrequest.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 420ef521-07ff-466c-a3c2-cbffd896ca16
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: INDESPolicy interface [Security],VerifyRequest method, INDESPolicy.VerifyRequest, INDESPolicy::VerifyRequest, VerifyRequest, VerifyRequest method [Security], VerifyRequest method [Security],INDESPolicy interface, certpol/INDESPolicy::VerifyRequest, security.indespolicy_verifyrequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certpol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509SCEPFailInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - INDESPolicy.VerifyRequest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # INDESPolicy::VerifyRequest

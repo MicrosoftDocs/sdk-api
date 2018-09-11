@@ -4,17 +4,16 @@ title: IRdcLibrary::CreateGeneratorParameters
 author: windows-sdk-content
 description: Returns an IRdcGeneratorParameters interface pointer initialized with the parameters necessary for a signature generator.
 old-location: rdc\irdclibrary_creategeneratorparameters.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: a39e26bc-7493-4def-af6d-cf3620ec8a9f
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: CreateGeneratorParameters, CreateGeneratorParameters method [Remote Differential Compression], CreateGeneratorParameters method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateGeneratorParameters method, IRdcLibrary.CreateGeneratorParameters, IRdcLibrary::CreateGeneratorParameters, fs.irdclibrary_creategeneratorparameters, msrdc/IRdcLibrary::CreateGeneratorParameters, rdc.irdclibrary_creategeneratorparameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsRdc.dll
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcLibrary.CreateGeneratorParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcLibrary::CreateGeneratorParameters

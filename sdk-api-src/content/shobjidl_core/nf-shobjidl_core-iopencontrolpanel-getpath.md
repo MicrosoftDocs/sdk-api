@@ -4,17 +4,16 @@ title: IOpenControlPanel::GetPath
 author: windows-sdk-content
 description: Gets the path of a specified Control Panel item.
 old-location: shell\IOpenControlPanel_GetPath.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2043a56a-cc03-4b05-a746-de4d11ac02e7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetPath, GetPath method [Windows Shell], GetPath method [Windows Shell],IOpenControlPanel interface, IOpenControlPanel interface [Windows Shell],GetPath method, IOpenControlPanel.GetPath, IOpenControlPanel::GetPath, _shell_IOpenControlPanel_GetPath, shell.IOpenControlPanel_GetPath, shobjidl_core/IOpenControlPanel::GetPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpenControlPanel.GetPath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOpenControlPanel::GetPath

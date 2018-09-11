@@ -4,17 +4,16 @@ title: IVideoWindow::GetMinIdealImageSize
 author: windows-sdk-content
 description: The GetMinIdealImageSize method retrieves the minimum ideal size for the video image.
 old-location: dshow\ivideowindow_getminidealimagesize.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b2d1d267-008d-402a-864a-e801e7581fbd
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetMinIdealImageSize, GetMinIdealImageSize method [DirectShow], GetMinIdealImageSize method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetMinIdealImageSize method, IVideoWindow.GetMinIdealImageSize, IVideoWindow::GetMinIdealImageSize, IVideoWindowGetMinIdealImageSize, control/IVideoWindow::GetMinIdealImageSize, dshow.ivideowindow_getminidealimagesize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IVideoWindow.GetMinIdealImageSize
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoWindow::GetMinIdealImageSize

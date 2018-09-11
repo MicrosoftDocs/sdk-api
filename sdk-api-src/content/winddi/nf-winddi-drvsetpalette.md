@@ -4,17 +4,16 @@ title: DrvSetPalette function
 author: windows-sdk-content
 description: The DrvSetPalette function requests that the driver realize the palette for a specified device.
 old-location: display\drvsetpalette.htm
-old-project: display
+tech.root: display
 ms.assetid: b7be48e6-188b-4b23-a494-30adcc18f12e
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvSetPalette, DrvSetPalette function [Display Devices], ddifncs_b76ad321-743e-4e7b-bf58-85f969470e29.xml, display.drvsetpalette, winddi/DrvSetPalette
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvSetPalette
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvSetPalette function

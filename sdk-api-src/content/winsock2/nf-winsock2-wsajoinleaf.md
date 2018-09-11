@@ -4,17 +4,16 @@ title: WSAJoinLeaf function
 author: windows-sdk-content
 description: The WSAJoinLeaf function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the specified FLOWSPEC structures.
 old-location: winsock\wsajoinleaf_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: ef9efa03-feed-4f0d-b874-c646cce745c9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSAJoinLeaf, WSAJoinLeaf function [Winsock], _win32_wsajoinleaf_2, winsock.wsajoinleaf_2, winsock2/WSAJoinLeaf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSAJoinLeaf
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSAJoinLeaf function

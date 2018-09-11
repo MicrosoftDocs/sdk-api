@@ -4,7 +4,7 @@ title: tagEMRFILLPATH
 author: windows-sdk-content
 description: The EMRFILLPATH,&#160;EMRSTROKEANDFILLPATH,&#160; and EMRSTROKEPATH structures contain members for the FillPath, StrokeAndFillPath, and StrokePath enhanced metafile records.
 old-location: gdi\emrfillpath__emrstrokeandfillpath__emrstrokepath.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 9911e0fb-2e0d-4684-bff6-fc876ab8185d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMRFILLPATH, *PEMRFILLPATH, EMRSTROKEANDFILLPATH, *PEMRSTROKEANDFILLPATH, EMRSTROKEPATH, *PEMRSTROKEPATH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EMRFILLPATH
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EMRFILLPATH, *PEMRFILLPATH, EMRSTROKEANDFILLPATH, *PEMRSTROKEANDFILLPATH, EMRSTROKEPATH, *PEMRSTROKEPATH
+req.redist: 
 ---
 
 # tagEMRFILLPATH structure

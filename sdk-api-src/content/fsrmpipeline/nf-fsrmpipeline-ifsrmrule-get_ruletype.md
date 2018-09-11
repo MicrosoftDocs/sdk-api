@@ -4,17 +4,16 @@ title: IFsrmRule::get_RuleType
 author: windows-sdk-content
 description: The type of the rule.
 old-location: fsrm\ifsrmrule_ruletype.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: a1aa2c94-b2f0-4620-8589-27360f5bdf05
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],RuleType property, IFsrmRule.RuleType, IFsrmRule.get_RuleType, IFsrmRule::RuleType, IFsrmRule::get_RuleType, RuleType property [File Server Resource Manager], RuleType property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_ruletype, fsrm.ifsrmrule_ruletype, fsrmpipeline/IFsrmRule::RuleType, fsrmpipeline/IFsrmRule::get_RuleType, get_RuleType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmRule.get_RuleType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmRule::get_RuleType

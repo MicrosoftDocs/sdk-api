@@ -4,17 +4,16 @@ title: ComboBox_GetCurSel macro
 author: windows-sdk-content
 description: Gets the index of the currently selected item in a combo box. You can use this macro or send the CB_GETCURSEL message explicitly.
 old-location: controls\ComboBox_GetCurSel.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getcursel.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ComboBox_GetCurSel, ComboBox_GetCurSel macro [Windows Controls], _win32_ComboBox_GetCurSel, _win32_ComboBox_GetCurSel_cpp, controls.ComboBox_GetCurSel, controls._win32_ComboBox_GetCurSel, windowsx/ComboBox_GetCurSel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ComboBox_GetCurSel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ComboBox_GetCurSel macro

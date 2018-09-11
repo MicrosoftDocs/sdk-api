@@ -4,17 +4,16 @@ title: SetVirtualDiskInformation function
 author: windows-sdk-content
 description: Sets information about a virtual hard disk (VHD).
 old-location: vhd\setvirtualdiskinformation.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: bd4bee14-6812-4a28-8c44-2b8e8d42e697
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SetVirtualDiskInformation, SetVirtualDiskInformation function [VHD], vdssys/SetVirtualDiskInformation, vhd.setvirtualdiskinformation, virtdisk/SetVirtualDiskInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIRTUAL_DISK_ACCESS_MASK
+req.lib: VirtDisk.lib
+req.dll: VirtDisk.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetVirtualDiskInformation
 product: Windows
 targetos: Windows
-req.lib: VirtDisk.lib
-req.dll: VirtDisk.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # SetVirtualDiskInformation function

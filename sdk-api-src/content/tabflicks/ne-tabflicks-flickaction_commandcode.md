@@ -4,17 +4,16 @@ title: FLICKACTION_COMMANDCODE
 author: windows-sdk-content
 description: Defines the possible flick actions that can be assigned to a pen flick.
 old-location: tablet\flickaction_commandmode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: cb923201-5205-494e-bb67-5a908cb570e5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: FLICKACTION_COMMANDCODE, FLICKACTION_COMMANDCODE enumeration [Tablet PC], FLICKACTION_COMMANDCODE_APPCOMMAND, FLICKACTION_COMMANDCODE_CUSTOMKEY, FLICKACTION_COMMANDCODE_KEYMODIFIER, FLICKACTION_COMMANDCODE_NULL, FLICKACTION_COMMANDCODE_SCROLL, cb923201-5205-494e-bb67-5a908cb570e5, tabflicks/FLICKACTION_COMMANDCODE, tabflicks/FLICKACTION_COMMANDCODE_APPCOMMAND, tabflicks/FLICKACTION_COMMANDCODE_CUSTOMKEY, tabflicks/FLICKACTION_COMMANDCODE_KEYMODIFIER, tabflicks/FLICKACTION_COMMANDCODE_NULL, tabflicks/FLICKACTION_COMMANDCODE_SCROLL, tablet.flickaction_commandmode
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: tabflicks.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICKACTION_COMMANDCODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLICKACTION_COMMANDCODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: FLICKACTION_COMMANDCODE
+req.redist: 
 ---
 
 # FLICKACTION_COMMANDCODE enumeration

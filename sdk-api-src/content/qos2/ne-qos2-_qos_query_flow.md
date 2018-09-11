@@ -4,17 +4,16 @@ title: "_QOS_QUERY_FLOW"
 author: windows-sdk-content
 description: The QOS_QUERY_FLOW enumeration indicates the type of information a QOSQueryFlow function will request.
 old-location: qos\qos_query_flow.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: cae09751-0ac8-4fa1-9fdb-d2df3f01e504
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PQOS_QUERY_FLOW, QOSQueryFlowFundamentals, QOSQueryOutgoingRate, QOSQueryPacketPriority, QOS_QUERY_FLOW, QOS_QUERY_FLOW enumeration [QOS], _QOS_QUERY_FLOW, qos.qos_query_flow, qos2/QOSQueryFlowFundamentals, qos2/QOSQueryOutgoingRate, qos2/QOSQueryPacketPriority, qos2/QOS_QUERY_FLOW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: qos2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_QUERY_FLOW, *PQOS_QUERY_FLOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOS_QUERY_FLOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: QOS_QUERY_FLOW, *PQOS_QUERY_FLOW
+req.redist: 
 ---
 
 # _QOS_QUERY_FLOW enumeration

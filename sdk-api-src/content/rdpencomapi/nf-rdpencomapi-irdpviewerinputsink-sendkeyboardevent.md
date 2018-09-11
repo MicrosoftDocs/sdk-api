@@ -4,17 +4,16 @@ title: IRDPViewerInputSink::SendKeyboardEvent
 author: windows-sdk-content
 description: Sends a keyboard event message.
 old-location: rdp\irdpviewerinputsink_sendkeyboardevent.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 28EDA0AD-9669-4232-BD41-4ADEC90CA3A7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendKeyboardEvent method, IRDPViewerInputSink.SendKeyboardEvent, IRDPViewerInputSink::SendKeyboardEvent, SendKeyboardEvent, SendKeyboardEvent method [RDP], SendKeyboardEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendkeyboardevent, rdpencomapi/IRDPViewerInputSink::SendKeyboardEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPViewerInputSink.SendKeyboardEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPViewerInputSink::SendKeyboardEvent

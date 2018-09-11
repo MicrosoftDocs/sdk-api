@@ -4,17 +4,16 @@ title: ITargetInfo::SetProperty
 author: windows-sdk-content
 description: Sets a property value for the offline installation location.
 old-location: smi\itargetinfo_setproperty.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: ecd93710-a9e8-41cf-b30c-97d1efe0fa6f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ITargetInfo interface [SMI],SetProperty method, ITargetInfo.SetProperty, ITargetInfo::SetProperty, SetProperty, SetProperty method [SMI], SetProperty method [SMI],ITargetInfo interface, smi.itargetinfo_setproperty, wcmconfig/ITargetInfo::SetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITargetInfo.SetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITargetInfo::SetProperty

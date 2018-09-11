@@ -4,17 +4,16 @@ title: IPortableDeviceContent2
 author: windows-sdk-content
 description: Defines additional methods that provide access to content found on a device.
 old-location: wpdsdk\iportabledevicecontent2.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 73bf9a24-7fdc-4483-ad37-28d887d146d9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPortableDeviceContent2, IPortableDeviceContent2 interface [Windows Portable Devices SDK], IPortableDeviceContent2 interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceContent2, wpdsdk.iportabledevicecontent2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPortableDeviceContent2
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceContent2 interface

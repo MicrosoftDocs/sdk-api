@@ -4,17 +4,16 @@ title: GetFileInformationByHandleEx function
 author: windows-sdk-content
 description: Retrieves file information for the specified file.
 old-location: fs\getfileinformationbyhandleex.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: e261ea45-d084-490e-94b4-129bd76f6a04
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFileInformationByHandleEx, GetFileInformationByHandleEx function [Files], fileextd/GetFileInformationByHandleEx, fs.getfileinformationbyhandleex, winbase/GetFileInformationByHandleEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: Windows SDK on     Windows Server 2003 and Windows XP.
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib; FileExtd.lib on Windows Server 2003 and Windows XP
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - GetFileInformationByHandleEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib; FileExtd.lib on Windows Server 2003 and Windows XP
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: Windows SDK on     Windows Server 2003 and Windows XP.
 ---
 
 # GetFileInformationByHandleEx function

@@ -4,17 +4,16 @@ title: IntPtrAdd function
 author: windows-sdk-content
 description: Adds two values of type INT_PTR.
 old-location: shell\IntPtrAdd.htm
-old-project: shell
+tech.root: shell
 ms.assetid: eceb36c4-287c-48e6-ad7d-0abf3d0a3893
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IntPtrAdd, IntPtrAdd function [Windows Shell], intsafe/IntPtrAdd, shell.IntPtrAdd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IntPtrAdd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IntPtrAdd function

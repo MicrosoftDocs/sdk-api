@@ -4,17 +4,16 @@ title: IDigitalCableTuningSpace::get_MaxMajorChannel
 author: windows-sdk-content
 description: The get_MaxMajorChannel method retrieves the highest major channel number for this tuning space.
 old-location: mstv\idigitalcabletuningspace_get_maxmajorchannel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 00910dbb-3265-4e90-a5c5-110d7648e161
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],get_MaxMajorChannel method, IDigitalCableTuningSpace.get_MaxMajorChannel, IDigitalCableTuningSpace::get_MaxMajorChannel, IDigitalCableTuningSpaceget_MaxMajorChannel, get_MaxMajorChannel, get_MaxMajorChannel method [Microsoft TV Technologies], get_MaxMajorChannel method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, mstv.idigitalcabletuningspace_get_maxmajorchannel, tuner/IDigitalCableTuningSpace::get_MaxMajorChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDigitalCableTuningSpace.get_MaxMajorChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDigitalCableTuningSpace::get_MaxMajorChannel

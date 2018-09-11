@@ -4,17 +4,16 @@ title: IAMWstDecoder::GetServiceState
 author: windows-sdk-content
 description: Applications use the GetServiceState method to retrieve the current service state.
 old-location: dshow\iamwstdecoder_getservicestate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7a927341-6ff4-41f5-918b-ea5b9e1ebe9a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetServiceState, GetServiceState method [DirectShow], GetServiceState method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetServiceState method, IAMWstDecoder.GetServiceState, IAMWstDecoder::GetServiceState, IAMWstDecoderGetServiceState, dshow.iamwstdecoder_getservicestate, iwstdec/IAMWstDecoder::GetServiceState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_WST_STYLE, *PAM_WST_STYLE
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMWstDecoder.GetServiceState
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMWstDecoder::GetServiceState

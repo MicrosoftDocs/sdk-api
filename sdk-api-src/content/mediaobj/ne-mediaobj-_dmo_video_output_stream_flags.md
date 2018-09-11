@@ -4,7 +4,7 @@ title: "_DMO_VIDEO_OUTPUT_STREAM_FLAGS"
 author: windows-sdk-content
 description: The DMO_VIDEO_OUTPUT_STREAM_FLAGS enumeration defines flags that describe requested features, for video optimizations.
 old-location: dshow\dmo_video_output_stream_flags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: fafacdd8-d918-491a-a7e5-7b59128f574f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mediaobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _DMO_VIDEO_OUTPUT_STREAM_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # _DMO_VIDEO_OUTPUT_STREAM_FLAGS enumeration

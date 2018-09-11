@@ -4,17 +4,16 @@ title: ITILSConfig::put_Port
 author: windows-sdk-content
 description: The put_Port method sets the port number used to connect to the server of a specified ILS directory.
 old-location: tapi3\itilsconfig_put_port.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 9d911a9c-6538-4919-9110-0425c53f91c4
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITILSConfig interface [TAPI 2.2],put_Port method, ITILSConfig.put_Port, ITILSConfig::put_Port, _tapi3_itilsconfig_put_port, put_Port, put_Port method [TAPI 2.2], put_Port method [TAPI 2.2],ITILSConfig interface, rend/ITILSConfig::put_Port, tapi3.itilsconfig_put_port
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITILSConfig.put_Port
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITILSConfig::put_Port

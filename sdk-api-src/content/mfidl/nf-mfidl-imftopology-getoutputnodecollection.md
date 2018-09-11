@@ -4,17 +4,16 @@ title: IMFTopology::GetOutputNodeCollection
 author: windows-sdk-content
 description: Gets the output nodes in the topology.
 old-location: mf\imftopology_getoutputnodecollection.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0862cd4a-4d22-4d8d-a754-0cd376d44b22
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 0862cd4a-4d22-4d8d-a754-0cd376d44b22, GetOutputNodeCollection, GetOutputNodeCollection method [Media Foundation], GetOutputNodeCollection method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetOutputNodeCollection method, IMFTopology.GetOutputNodeCollection, IMFTopology::GetOutputNodeCollection, mf.imftopology_getoutputnodecollection, mfidl/IMFTopology::GetOutputNodeCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTopology.GetOutputNodeCollection
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTopology::GetOutputNodeCollection

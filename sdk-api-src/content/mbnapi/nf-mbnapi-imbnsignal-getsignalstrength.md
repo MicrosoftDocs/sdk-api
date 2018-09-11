@@ -4,17 +4,16 @@ title: IMbnSignal::GetSignalStrength
 author: windows-sdk-content
 description: Gets the signal strength received by the device.
 old-location: mbn\imbnsignal_getsignalstrength.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 9a580232-4cd2-42f4-a6c7-f777d78241b6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSignalStrength, GetSignalStrength method [Microsoft Broadband Networks], GetSignalStrength method [Microsoft Broadband Networks],IMbnSignal interface, IMbnSignal interface [Microsoft Broadband Networks],GetSignalStrength method, IMbnSignal.GetSignalStrength, IMbnSignal::GetSignalStrength, mbn.imbnsignal_getsignalstrength, mbnapi/IMbnSignal::GetSignalStrength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnSignal.GetSignalStrength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSignal::GetSignalStrength

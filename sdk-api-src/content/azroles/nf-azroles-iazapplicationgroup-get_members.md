@@ -4,17 +4,16 @@ title: IAzApplicationGroup::get_Members
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs), in text form, of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_members.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1370fe81-a729-477e-a500-1823abb713e1
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzApplicationGroup object [Security],Members property, IAzApplicationGroup interface [Security],Members property, IAzApplicationGroup.Members, IAzApplicationGroup.get_Members, IAzApplicationGroup::Members, IAzApplicationGroup::get_Members, Members property [Security], Members property [Security],AzApplicationGroup object, Members property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Members, azroles/IAzApplicationGroup::get_Members, get_Members, security.iazapplicationgroup_members
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzApplicationGroup.Members
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplicationGroup::get_Members

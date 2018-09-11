@@ -4,7 +4,7 @@ title: "_MIB_IFTABLE"
 author: windows-sdk-content
 description: Contains a table of interface entries.
 old-location: mib\mib_iftable.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 7c3ca3d0-b6fe-4e1c-858f-82ffb26622e7
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ifmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IFTABLE, *PMIB_IFTABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_IFTABLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_IFTABLE, *PMIB_IFTABLE
+req.redist: 
 ---
 
 # _MIB_IFTABLE structure

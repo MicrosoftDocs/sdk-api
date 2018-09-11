@@ -4,17 +4,16 @@ title: RtwqSetLongRunning function
 author: windows-sdk-content
 description: Indicates that the app will be submitting a hint that long running work will occur on this work queue.
 old-location: base\rtwqsetlongrunning.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 8bf71eb5-d5d5-4b07-93b0-4b12b43e9687
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: RtwqSetLongRunning, RtwqSetLongRunning function, base.rtwqsetlongrunning, rtworkq/RtwqSetLongRunning
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTWQ_WORKQUEUE_TYPE
+req.lib: Rtworkq.lib
+req.dll: RTWorkQ.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtwqSetLongRunning
 product: Windows
 targetos: Windows
-req.lib: Rtworkq.lib
-req.dll: RTWorkQ.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtwqSetLongRunning function

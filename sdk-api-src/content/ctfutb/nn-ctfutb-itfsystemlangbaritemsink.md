@@ -4,7 +4,7 @@ title: ITfSystemLangBarItemSink
 author: windows-sdk-content
 description: The ITfSystemLangBarItemSink interface is implemented by a system language bar menu extension and used by a system language bar menu (host) to allow menu items to be added to an existing system language bar menu.
 old-location: tsf\itfsystemlangbaritemsink.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: a88b20ec-fc54-4814-9ca1-131664b4f377
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfSystemLangBarItemSink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfSystemLangBarItemSink interface

@@ -4,17 +4,16 @@ title: IEnumNames
 author: windows-sdk-content
 description: Enumerates names.
 old-location: cos\ienumnames.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 9f70b554-3cdd-4a4b-b180-c6de6182a46a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumNames, IEnumNames interface [COM+], IEnumNames interface [COM+],described, _cos_IEnumNames, comsvcs/IEnumNames, cos.ienumnames
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumNames
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumNames interface

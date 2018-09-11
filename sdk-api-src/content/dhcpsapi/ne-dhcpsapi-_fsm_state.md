@@ -4,7 +4,7 @@ title: "_FSM_STATE"
 author: windows-sdk-content
 description: The FSM_STATE enumeration defines the set of possible failover relationship states on a DHCPv4 server.
 old-location: dhcp\fsm_state.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: a8d0a455-77b3-494c-886e-90136569aada
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FSM_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - FSM_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: FSM_STATE
+req.redist: 
 ---
 
 # _FSM_STATE enumeration

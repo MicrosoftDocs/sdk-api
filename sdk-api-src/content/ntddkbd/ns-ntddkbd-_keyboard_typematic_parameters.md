@@ -4,7 +4,7 @@ title: "_KEYBOARD_TYPEMATIC_PARAMETERS"
 author: windows-sdk-content
 description: KEYBOARD_TYPEMATIC_PARAMETERS specifies a keyboard's typematic settings.
 old-location: hid\keyboard_typematic_parameters.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 4bbf1699-1ba9-4569-97ac-156a91405586
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KEYBOARD_TYPEMATIC_PARAMETERS, *PKEYBOARD_TYPEMATIC_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KEYBOARD_TYPEMATIC_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: KEYBOARD_TYPEMATIC_PARAMETERS, *PKEYBOARD_TYPEMATIC_PARAMETERS
+req.redist: 
 ---
 
 # _KEYBOARD_TYPEMATIC_PARAMETERS structure

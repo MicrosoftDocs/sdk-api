@@ -4,17 +4,16 @@ title: DrtCreateIpv6UdpTransport function
 author: windows-sdk-content
 description: DrtCreateIpv6UdpTransport function creates a transport based on the IPv6 UDP protocol.
 old-location: p2p\drtcreateipv6udptransport.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: def3120b-98b6-4e31-8166-822cea7fea69
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrtCreateIpv6UdpTransport, DrtCreateIpv6UdpTransport function [Peer Networking], drt/DrtCreateIpv6UdpTransport, p2p.drtcreateipv6udptransport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+req.lib: Drttransport.lib
+req.dll: Drt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DrtCreateIpv6UdpTransport
 product: Windows
 targetos: Windows
-req.lib: Drttransport.lib
-req.dll: Drt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DrtCreateIpv6UdpTransport function

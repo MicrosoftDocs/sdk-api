@@ -4,17 +4,16 @@ title: "_PRINT_OTHER_INFO"
 author: windows-sdk-content
 description: Contains information about a print job.
 old-location: netmgmt\print_other_info_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: f2fd87bc-abde-43c0-b29d-d43cc5f038b8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPPRINT_OTHER_INFO, *PPRINT_OTHER_INFO, LPPRINT_OTHER_INFO, LPPRINT_OTHER_INFO structure pointer [Network Management], PPRINT_OTHER_INFO, PPRINT_OTHER_INFO structure pointer [Network Management], PRINT_OTHER_INFO, PRINT_OTHER_INFO structure [Network Management], PRJOB_COMPLETE, PRJOB_DELETED, PRJOB_DESTNOPAPER, PRJOB_DESTOFFLINE, PRJOB_DESTPAUSED, PRJOB_ERROR, PRJOB_INTERV, PRJOB_NOTIFY, PRJOB_QS_PAUSED, PRJOB_QS_PRINTING, PRJOB_QS_QUEUED, PRJOB_QS_SPOOLING, _PRINT_OTHER_INFO, _win32_print_other_info_str, lmalert/LPPRINT_OTHER_INFO, lmalert/PPRINT_OTHER_INFO, lmalert/PRINT_OTHER_INFO, netmgmt.print_other_info_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmalert.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRINT_OTHER_INFO, *PPRINT_OTHER_INFO, *LPPRINT_OTHER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PRINT_OTHER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: PRINT_OTHER_INFO, *PPRINT_OTHER_INFO, *LPPRINT_OTHER_INFO
+req.redist: 
 ---
 
 # _PRINT_OTHER_INFO structure

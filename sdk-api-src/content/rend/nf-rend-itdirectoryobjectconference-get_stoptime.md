@@ -4,17 +4,16 @@ title: ITDirectoryObjectConference::get_StopTime
 author: windows-sdk-content
 description: The get_StopTime method gets the stop time of the conference. If the end time is zero, the session is not bounded.
 old-location: tapi3\itdirectoryobjectconference_get_stoptime.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: df22b117-8382-4ea2-8e6b-961f87f41b21
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_StopTime method, ITDirectoryObjectConference.get_StopTime, ITDirectoryObjectConference::get_StopTime, _tapi3_itdirectoryobjectconference_get_stoptime, get_StopTime, get_StopTime method [TAPI 2.2], get_StopTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_StopTime, tapi3.itdirectoryobjectconference_get_stoptime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDirectoryObjectConference.get_StopTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITDirectoryObjectConference::get_StopTime

@@ -4,7 +4,7 @@ title: DNS_AAAA_DATA
 author: windows-sdk-content
 description: The DNS_AAAA_DATA structure represents a DNS IPv6 (AAAA) record as specified in RFC 3596.
 old-location: dns\dns_aaaa_data.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 0bc48e86-368c-431c-b67a-b7689dca8d3c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_AAAA_DATA, *PDNS_AAAA_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_AAAA_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_AAAA_DATA, *PDNS_AAAA_DATA
+req.redist: 
 ---
 
 # DNS_AAAA_DATA structure

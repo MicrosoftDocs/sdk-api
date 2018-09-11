@@ -4,7 +4,7 @@ title: "_formatrange"
 author: windows-sdk-content
 description: Information that a rich edit control uses to format its output for a particular device. This structure is used with the EM_FORMATRANGE message.
 old-location: controls\FORMATRANGE.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\formatrange.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FORMATRANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FORMATRANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: FORMATRANGE
+req.redist: 
 ---
 
 # _formatrange structure

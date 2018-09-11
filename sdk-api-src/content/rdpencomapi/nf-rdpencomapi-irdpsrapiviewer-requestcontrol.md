@@ -4,17 +4,16 @@ title: IRDPSRAPIViewer::RequestControl
 author: windows-sdk-content
 description: Requests the sharer to change the control level of the viewer.
 old-location: rdp\irdpsrapiviewer_requestcontrol.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: be913f3c-9a5b-46bd-be9a-1ba0b0c20211
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],RequestControl method, IRDPSRAPIViewer.RequestControl, IRDPSRAPIViewer::RequestControl, RequestControl, RequestControl method [RDP], RequestControl method [RDP],IRDPSRAPIViewer interface, rdp.irdpsrapiviewer_requestcontrol, rdpencomapi/IRDPSRAPIViewer::RequestControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPIViewer.RequestControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIViewer::RequestControl

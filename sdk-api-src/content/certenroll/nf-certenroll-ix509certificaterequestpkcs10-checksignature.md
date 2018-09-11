@@ -4,17 +4,16 @@ title: IX509CertificateRequestPkcs10::CheckSignature
 author: windows-sdk-content
 description: Verifies that the certificate request has been signed and that the signature is valid.
 old-location: security\ix509certificaterequestpkcs10_checksignature_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 8ef520d9-f6d4-46fd-8e91-c2113ea8eb20
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AllowedKeySignature, AllowedNullSignature, CheckSignature, CheckSignature method [Security], CheckSignature method [Security],IX509CertificateRequestPkcs10 interface, IX509CertificateRequestPkcs10 interface [Security],CheckSignature method, IX509CertificateRequestPkcs10.CheckSignature, IX509CertificateRequestPkcs10::CheckSignature, certenroll/IX509CertificateRequestPkcs10::CheckSignature, security.ix509certificaterequestpkcs10_checksignature_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509CertificateRequestPkcs10.CheckSignature
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestPkcs10::CheckSignature

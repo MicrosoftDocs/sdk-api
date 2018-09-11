@@ -4,17 +4,16 @@ title: IMediaEventEx::GetNotifyFlags
 author: windows-sdk-content
 description: The GetNotifyFlags method determines whether event notifications are enabled.
 old-location: dshow\imediaeventex_getnotifyflags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 797c5ee2-5a3c-4e95-b4b8-e29b39460ee0
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetNotifyFlags, GetNotifyFlags method [DirectShow], GetNotifyFlags method [DirectShow],IMediaEventEx interface, IMediaEventEx interface [DirectShow],GetNotifyFlags method, IMediaEventEx.GetNotifyFlags, IMediaEventEx::GetNotifyFlags, IMediaEventExGetNotifyFlags, control/IMediaEventEx::GetNotifyFlags, dshow.imediaeventex_getnotifyflags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IMediaEventEx.GetNotifyFlags
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaEventEx::GetNotifyFlags

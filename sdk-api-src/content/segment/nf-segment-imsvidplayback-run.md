@@ -4,17 +4,16 @@ title: IMSVidPlayback::Run
 author: windows-sdk-content
 description: The Run method runs the playback device.
 old-location: mstv\imsvidplayback_run.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 58374819-82dd-4ffe-8cd7-ad51ea0d7207
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Run method, IMSVidPlayback.Run, IMSVidPlayback::Run, IMSVidPlaybackRun, Run, Run method [Microsoft TV Technologies], Run method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_run, segment/IMSVidPlayback::Run
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidPlayback.Run
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidPlayback::Run

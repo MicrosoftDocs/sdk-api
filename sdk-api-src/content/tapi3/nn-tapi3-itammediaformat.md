@@ -4,7 +4,7 @@ title: ITAMMediaFormat
 author: windows-sdk-content
 description: The ITAMMediaFormat interface sets and gets DirectShow media format.
 old-location: tapi3\itammediaformat.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 82728afe-5743-4b45-86e6-32df021a2a5f
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAMMediaFormat
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAMMediaFormat interface

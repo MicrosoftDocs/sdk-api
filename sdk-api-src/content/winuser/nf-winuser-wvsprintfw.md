@@ -4,17 +4,16 @@ title: wvsprintfW function
 author: windows-sdk-content
 description: Writes formatted data to the specified buffer using a pointer to a list of arguments.
 old-location: menurc\wvsprintf.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\wvsprintf.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "_win32_wvsprintf, _win32_wvsprintf_cpp, menurc.wvsprintf, winui._win32_wvsprintf, winuser/wvsprintf, winuser/wvsprintfA, winuser/wvsprintfW, wvsprintf, wvsprintf function [Menus and Other Resources], wvsprintfA, wvsprintfW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - wvsprintfW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # wvsprintfW function
@@ -64,11 +62,14 @@ Writes formatted data to the specified buffer using a pointer to a list of argum
 
 
 
-### -param param [out]
+### -param arg1
 
-Type: <b>LPTSTR</b>
+TBD
 
-The buffer that is to receive the formatted output. The maximum size of the buffer is 1,024 bytes.
+
+### -param arg2
+
+TBD
 
 
 ### -param arglist [in]
@@ -84,6 +85,13 @@ Each element of this list specifies an argument for the format-control string. T
 Type: <b>LPCTSTR</b>
 
 The format-control specifications. In addition to ordinary ASCII characters, a format specification for each argument appears in this string. For more information about the format specification, see the <a href="https://msdn.microsoft.com/en-us/library/ms647550(v=VS.85).aspx">wsprintf</a> function.
+
+
+#### - param [out]
+
+Type: <b>LPTSTR</b>
+
+The buffer that is to receive the formatted output. The maximum size of the buffer is 1,024 bytes.
 
 
 ## -returns

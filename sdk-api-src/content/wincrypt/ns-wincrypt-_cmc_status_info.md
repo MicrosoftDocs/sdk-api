@@ -4,17 +4,16 @@ title: "_CMC_STATUS_INFO"
 author: windows-sdk-content
 description: Contains status information about Certificate Management Messages over CMS.
 old-location: security\cmc_status_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 008f6de4-bad2-4c63-ba64-8d42ae71d50a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCMC_STATUS_INFO, CMC_FAIL_BAD_ALG, CMC_FAIL_BAD_CERT_ID, CMC_FAIL_BAD_IDENTITY, CMC_FAIL_BAD_MESSAGE_CHECK, CMC_FAIL_BAD_REQUEST, CMC_FAIL_BAD_TIME, CMC_FAIL_INTERNAL_CA_ERROR, CMC_FAIL_MUST_ARCHIVE_KEYS, CMC_FAIL_NO_KEY_REUSE, CMC_FAIL_POP_FAILED, CMC_FAIL_POP_REQUIRED, CMC_FAIL_TRY_LATER, CMC_FAIL_UNSUPORTED_EXT, CMC_STATUS_CONFIRM_REQUIRED, CMC_STATUS_FAILED, CMC_STATUS_INFO, CMC_STATUS_INFO structure [Security], CMC_STATUS_NO_SUPPORT, CMC_STATUS_PENDING, CMC_STATUS_SUCCESS, PCMC_STATUS_INFO, PCMC_STATUS_INFO structure pointer [Security], _CMC_STATUS_INFO, _crypto2_cmc_status_info, security.cmc_status_info, wincrypt/CMC_STATUS_INFO, wincrypt/PCMC_STATUS_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMC_STATUS_INFO, *PCMC_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMC_STATUS_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMC_STATUS_INFO, *PCMC_STATUS_INFO
+req.redist: 
 ---
 
 # _CMC_STATUS_INFO structure

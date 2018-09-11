@@ -4,17 +4,16 @@ title: tagLOGCOLORSPACEW
 author: windows-sdk-content
 description: The LOGCOLORSPACE structure contains information that defines a logical color space.
 old-location: wcs\logcolorspace.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: b08aec07-6ac0-47be-8dc9-d604d94dedde
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPLOGCOLORSPACEW, LOGCOLORSPACE, LOGCOLORSPACE structure [Windows Color System], LOGCOLORSPACEW, LPLOGCOLORSPACE, LPLOGCOLORSPACE structure pointer [Windows Color System], _color_LOGCOLORSPACE_str, tagLOGCOLORSPACEW, wcs.logcolorspace, wingdi/LOGCOLORSPACE, wingdi/LPLOGCOLORSPACE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOGCOLORSPACEW, *LPLOGCOLORSPACEW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LOGCOLORSPACE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: LOGCOLORSPACEW, *LPLOGCOLORSPACEW
+req.redist: 
 ---
 
 # tagLOGCOLORSPACEW structure

@@ -4,17 +4,16 @@ title: DhcpSetSuperScopeV4 function
 author: windows-sdk-content
 description: Sets a subnet as the superscope on a DHCP server.
 old-location: dhcp\dhcpsetsuperscopev4.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 70da0113-0c4a-4c4e-80ae-1e55773f9904
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpSetSuperScopeV4, DhcpSetSuperScopeV4 function [DHCP], dhcp.dhcpsetsuperscopev4, dhcpsapi/DhcpSetSuperScopeV4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpSetSuperScopeV4
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpSetSuperScopeV4 function

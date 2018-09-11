@@ -4,17 +4,16 @@ title: CLUS_PARTITION_INFO_EX
 author: windows-sdk-content
 description: Describes a storage class resource volume and file system.
 old-location: mscs\clus_partition_info_ex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUS_PARTITION_INFO_EX, CLUSPROP_PIFLAG_DEFAULT_QUORUM, CLUSPROP_PIFLAG_REMOVABLE, CLUSPROP_PIFLAG_STICKY, CLUSPROP_PIFLAG_USABLE, CLUS_PARTITION_INFO_EX, CLUS_PARTITION_INFO_EX structure [Failover Cluster], FS_CASE_IS_PRESERVED, FS_CASE_SENSITIVE, FS_PERSISTENT_ACLS, FS_UNICODE_STORED_ON_DISK, PCLUS_PARTITION_INFO_EX, PCLUS_PARTITION_INFO_EX structure pointer [Failover Cluster], clusapi/CLUS_PARTITION_INFO_EX, clusapi/PCLUS_PARTITION_INFO_EX, mscs.clus_partition_info_ex"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_PARTITION_INFO_EX, *PCLUS_PARTITION_INFO_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_PARTITION_INFO_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_PARTITION_INFO_EX, *PCLUS_PARTITION_INFO_EX
+req.redist: 
 ---
 
 # CLUS_PARTITION_INFO_EX structure

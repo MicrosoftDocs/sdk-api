@@ -4,17 +4,16 @@ title: IWMPControls::get_isAvailable
 author: windows-sdk-content
 description: The get_isAvailable method indicates whether a specified type of information is available or a specified action can be performed.
 old-location: wmp\iwmpcontrols_get_isavailable.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 702e09f2-e086-45e3-9ae1-b62ec3e9561f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_isAvailable method, IWMPControls.get_isAvailable, IWMPControls::get_isAvailable, IWMPControlsget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_isavailable, wmp/IWMPControls::get_isAvailable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPControls.get_isAvailable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPControls::get_isAvailable

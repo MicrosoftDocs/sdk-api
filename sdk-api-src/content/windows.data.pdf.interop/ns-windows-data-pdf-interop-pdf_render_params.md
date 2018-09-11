@@ -4,17 +4,16 @@ title: PDF_RENDER_PARAMS
 author: windows-sdk-content
 description: Represents a set of properties for outputting a single page of a Portable Document Format (PDF) file.
 old-location: winrt\pdf_render_params.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 1B2F12FB-E053-4B79-B71D-E66D7A6E5054
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PDF_RENDER_PARAMS, PDF_RENDER_PARAMS structure [Windows Runtime], windows/PDF_RENDER_PARAMS, winrt.pdf_render_params
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: windows.data.pdf.interop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [UWP apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [UWP apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PDF_RENDER_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PDF_RENDER_PARAMS
+req.redist: 
 ---
 
 # PDF_RENDER_PARAMS structure

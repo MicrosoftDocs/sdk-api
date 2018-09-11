@@ -4,17 +4,16 @@ title: IUIAutomationAnnotationPattern::get_CurrentDateTime
 author: windows-sdk-content
 description: Retrieves the date and time that this annotation was created.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentDateTime.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 391F6C44-F1AF-4EB7-87F1-593541FFF3A8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentDateTime property [Windows Accessibility], CurrentDateTime property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentDateTime property, IUIAutomationAnnotationPattern.CurrentDateTime, IUIAutomationAnnotationPattern.get_CurrentDateTime, IUIAutomationAnnotationPattern::CurrentDateTime, IUIAutomationAnnotationPattern::get_CurrentDateTime, get_CurrentDateTime, uiautomationclient/IUIAutomationAnnotationPattern::CurrentDateTime, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentDateTime, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentDateTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationAnnotationPattern.get_CurrentDateTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationAnnotationPattern::get_CurrentDateTime

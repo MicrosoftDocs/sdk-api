@@ -4,7 +4,7 @@ title: "_MIB_IPFORWARD_ROW2"
 author: windows-sdk-content
 description: Stores information about an IP route entry.
 old-location: mib\mib_ipforward_row2.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 3678315d-b6ab-48c8-8522-a57deb63f8c9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IPFORWARD_ROW2, *PMIB_IPFORWARD_ROW2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_IPFORWARD_ROW2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MIB_IPFORWARD_ROW2, *PMIB_IPFORWARD_ROW2
+req.redist: 
 ---
 
 # _MIB_IPFORWARD_ROW2 structure

@@ -4,17 +4,16 @@ title: PdhGetFormattedCounterArrayW function
 author: windows-sdk-content
 description: Returns an array of formatted counter values. Use this function when you want to format the counter values of a counter that contains a wildcard character for the instance name.
 old-location: perf\pdhgetformattedcounterarray.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 0f388c7e-d0c8-461d-908c-48af92166996
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhGetFormattedCounterArray, PdhGetFormattedCounterArray function [Perf], PdhGetFormattedCounterArrayA, PdhGetFormattedCounterArrayW, _win32_pdhgetformattedcounterarray, base.pdhgetformattedcounterarray, pdh/PdhGetFormattedCounterArray, pdh/PdhGetFormattedCounterArrayA, pdh/PdhGetFormattedCounterArrayW, perf.pdhgetformattedcounterarray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PdhGetFormattedCounterArrayW
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhGetFormattedCounterArrayW function

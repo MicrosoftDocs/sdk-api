@@ -4,17 +4,16 @@ title: CM_Get_Version_Ex function
 author: windows-sdk-content
 description: The CM_Get_Version_Ex function returns version 4.0 of the Plug and Play (PnP) Configuration Manager DLL (Cfgmgr32.dll) for a local or a remote machine.
 old-location: devinst\cm_get_version_ex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: f189a417-48a4-436e-bb1c-6b0c9f066c04
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Get_Version_Ex, CM_Get_Version_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Version_Ex, cfgmgrfn_0c27aa6b-5682-4901-b57b-2477a0cb9919.xml, devinst.cm_get_version_ex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CM_Get_Version_Ex
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: Cfgmgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Get_Version_Ex function

@@ -4,17 +4,16 @@ title: SetupGetMultiSzFieldW function
 author: windows-sdk-content
 description: The SetupGetMultiSzField function retrieves multiple strings stored in a line of an INF file, from the specified field to the end of the line.
 old-location: setup\setupgetmultiszfield.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: d884037c-a8d0-47a8-8b3f-70408866be05
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupGetMultiSzField, SetupGetMultiSzField function [Setup API], SetupGetMultiSzFieldA, SetupGetMultiSzFieldW, _setupapi_setupgetmultiszfield, setup.setupgetmultiszfield, setupapi/SetupGetMultiSzField, setupapi/SetupGetMultiSzFieldA, setupapi/SetupGetMultiSzFieldW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - SetupGetMultiSzFieldW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupGetMultiSzFieldW function

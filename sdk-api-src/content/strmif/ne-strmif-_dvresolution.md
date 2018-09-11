@@ -4,7 +4,7 @@ title: "_DVRESOLUTION"
 author: windows-sdk-content
 description: Indicates the digital video (DV) decoding resolution.
 old-location: dshow\_dvresolution.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8ae9b402-e7cc-4e11-b956-974b53fd8934
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _DVRESOLUTION
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # _DVRESOLUTION enumeration

@@ -4,17 +4,16 @@ title: MprAdminConnectionClearStats function
 author: windows-sdk-content
 description: The MprAdminConnectionClearStats function resets the statistics counters for the specified connection.
 old-location: rras\mpradminconnectionclearstats.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: d1d9b218-e376-4c26-a1c0-d06537492622
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminConnectionClearStats, MprAdminConnectionClearStats function [RAS], _mpr_mpradminconnectionclearstats, mprapi/MprAdminConnectionClearStats, rras.mpradminconnectionclearstats
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminConnectionClearStats
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminConnectionClearStats function

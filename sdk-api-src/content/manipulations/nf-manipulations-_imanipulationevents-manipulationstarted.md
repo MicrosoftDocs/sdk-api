@@ -4,17 +4,16 @@ title: "_IManipulationEvents::ManipulationStarted"
 author: windows-sdk-content
 description: Handles the event for when manipulation or inertia begins.
 old-location: wintouch\_imanipulationevents_manipulationstarted.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: c3e63eb7-65e7-4394-89e4-d95d7e7877cf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ManipulationStarted, ManipulationStarted method [Windows Touch], ManipulationStarted method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationStarted method, _IManipulationEvents.ManipulationStarted, _IManipulationEvents::ManipulationStarted, manipulations/_IManipulationEvents::ManipulationStarted, wintouch._imanipulationevents_manipulationstarted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _IManipulationEvents.ManipulationStarted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # _IManipulationEvents::ManipulationStarted

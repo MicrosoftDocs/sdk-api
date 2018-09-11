@@ -4,17 +4,16 @@ title: IAppxBundleWriter3::Close
 author: windows-sdk-content
 description: Finalizes the bundle package by writing footprint files at the end of the package, and closes the writer’s output stream.
 old-location: appxpkg\iappxbundlewriter3_close.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 7AD526CD-9FF2-4A2A-BD12-21A0A9E1BA6E
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxBundleWriter3 interface, IAppxBundleWriter3 interface [App packaging and management],Close method, IAppxBundleWriter3.Close, IAppxBundleWriter3::Close, appxpackaging/IAppxBundleWriter3::Close, appxpkg.iappxbundlewriter3_close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxBundleWriter3.Close
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxBundleWriter3::Close

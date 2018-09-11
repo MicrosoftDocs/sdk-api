@@ -4,17 +4,16 @@ title: IGPMWMIFilterCollection::get_Item
 author: windows-sdk-content
 description: Given an index, returns a WMI filter from the collection.
 old-location: gpmc\igpmwmifiltercollection_get_item.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 9026fae6-020f-40be-8b9d-44cbade89fd0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMWMIFilterCollection class [GPMC],Item property, IGPMWMIFilterCollection interface [GPMC],Item property, IGPMWMIFilterCollection.Item, IGPMWMIFilterCollection.get_Item, IGPMWMIFilterCollection::Item, IGPMWMIFilterCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMWMIFilterCollection class, Item property [GPMC],IGPMWMIFilterCollection interface, _win32_igpmwmifiltercollection_get_item, get_Item, gpmc.igpmwmifiltercollection_get_item, gpmgmt/IGPMWMIFilterCollection::Item, gpmgmt/IGPMWMIFilterCollection::get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GPMWMIFilterCollection.Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMWMIFilterCollection::get_Item

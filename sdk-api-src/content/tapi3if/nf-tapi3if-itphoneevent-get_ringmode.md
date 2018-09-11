@@ -4,17 +4,16 @@ title: ITPhoneEvent::get_RingMode
 author: windows-sdk-content
 description: The get_RingMode method returns a long value specifying the ring mode to which the phone has transitioned. This information is available only when the ITPhoneEvent::get_Event method returns PE_RINGMODE.
 old-location: tapi3\itphoneevent_get_ringmode.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: cd43ce66-bcbf-4863-87cc-db10dd81ba99
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_RingMode method, ITPhoneEvent.get_RingMode, ITPhoneEvent::get_RingMode, _tapi3_itphoneevent_get_ringmode, get_RingMode, get_RingMode method [TAPI 2.2], get_RingMode method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_ringmode, tapi3if/ITPhoneEvent::get_RingMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPhoneEvent.get_RingMode
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPhoneEvent::get_RingMode

@@ -4,17 +4,16 @@ title: IDvdControl2::SetOption
 author: windows-sdk-content
 description: The SetOption method enables or disables an internal behavior flag on the DVD Navigator filter.
 old-location: dshow\idvdcontrol2_setoption.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b3b28da8-b0cb-4d76-8184-93572e4b6d06
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetOption method, IDvdControl2.SetOption, IDvdControl2::SetOption, IDvdControl2SetOption, SetOption, SetOption method [DirectShow], SetOption method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setoption, strmif/IDvdControl2::SetOption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdControl2.SetOption
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl2::SetOption
@@ -71,7 +69,7 @@ Specifies which behavior to modify, as a member of the <a href="https://msdn.mic
 
 ### -param fState
 
-
+TBD
 
 
 

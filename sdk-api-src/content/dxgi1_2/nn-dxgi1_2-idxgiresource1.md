@@ -4,17 +4,16 @@ title: IDXGIResource1
 author: windows-sdk-content
 description: An IDXGIResource1 interface extends the IDXGIResource interface by adding support for creating a subresource surface object and for creating a handle to a shared resource.
 old-location: direct3ddxgi\idxgiresource1.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 0ABA9B8D-BEA4-4455-A312-7CFEDEBBF19A
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIResource1, IDXGIResource1 interface [DXGI], IDXGIResource1 interface [DXGI],described, direct3ddxgi.idxgiresource1, dxgi1_2/IDXGIResource1
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIResource1
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIResource1 interface

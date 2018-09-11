@@ -4,7 +4,7 @@ title: "_CLS_SCAN_CONTEXT"
 author: windows-sdk-content
 description: Contains information about the containers that are being scanned by ScanLogContainers, the kind of scan that is being performed, and a cursor to track which containers have been scanned.
 old-location: fs\clfs_scan_context.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 716fa005-c801-4a5d-99f1-0babe64dc4a8
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLFS_SCAN_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT
+req.redist: 
 ---
 
 # _CLS_SCAN_CONTEXT structure

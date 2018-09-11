@@ -4,17 +4,16 @@ title: EngFindResource function
 author: windows-sdk-content
 description: The EngFindResource function determines the location of a resource in a module.
 old-location: display\engfindresource.htm
-old-project: display
+tech.root: display
 ms.assetid: f83d9112-af06-4b73-84b3-5b1c5b3daffb
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngFindResource, EngFindResource function [Display Devices], display.engfindresource, gdifncs_93a3a136-5dfb-4c3c-afbc-4a1c475ae0c6.xml, winddi/EngFindResource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - EngFindResource
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngFindResource function

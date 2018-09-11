@@ -4,17 +4,16 @@ title: MFCreateDeviceSource function
 author: windows-sdk-content
 description: Creates a media source for a hardware capture device.
 old-location: mf\mfcreatedevicesource.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9f80b604-1cc2-4d0d-b94e-a2b9dab1fdde
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateDeviceSource, MFCreateDeviceSource function [Media Foundation], mf.mfcreatedevicesource, mfidl/MFCreateDeviceSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mf.lib
+req.dll: Mf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateDeviceSource
 product: Windows
 targetos: Windows
-req.lib: Mf.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateDeviceSource function

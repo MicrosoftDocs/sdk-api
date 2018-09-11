@@ -4,17 +4,16 @@ title: ITPhone::put_HookSwitchState
 author: windows-sdk-content
 description: The put_HookSwitchState method sets the current hookswitch state for a particular hookswitch device on the phone.
 old-location: tapi3\itphone_put_hookswitchstate.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: ab0bcd30-6985-4f53-a39d-90230421b6f4
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_HookSwitchState method, ITPhone.put_HookSwitchState, ITPhone::put_HookSwitchState, _tapi3_itphone_put_hookswitchstate, put_HookSwitchState, put_HookSwitchState method [TAPI 2.2], put_HookSwitchState method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_hookswitchstate, tapi3if/ITPhone::put_HookSwitchState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPhone.put_HookSwitchState
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPhone::put_HookSwitchState

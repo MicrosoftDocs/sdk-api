@@ -4,17 +4,16 @@ title: "_USER_ALL_INFORMATION"
 author: windows-sdk-content
 description: Contains information on the session user.
 old-location: security\user_all_information.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 18cf7194-4309-47b6-bfd1-9fb52bfddd56
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PUSER_ALL_INFORMATION, PUSER_ALL_INFORMATION, PUSER_ALL_INFORMATION structure pointer [Security], USER_ALL_INFORMATION, USER_ALL_INFORMATION structure [Security], _USER_ALL_INFORMATION, _lsa_user_all_information, security.user_all_information, subauth/PUSER_ALL_INFORMATION, subauth/USER_ALL_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: subauth.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_ALL_INFORMATION, *PUSER_ALL_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USER_ALL_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: USER_ALL_INFORMATION, *PUSER_ALL_INFORMATION
+req.redist: 
 ---
 
 # _USER_ALL_INFORMATION structure

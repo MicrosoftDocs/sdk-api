@@ -4,17 +4,16 @@ title: IComCRMEvents::OnCRMRecoveryDone
 author: windows-sdk-content
 description: Generated when CRM recovery is done.
 old-location: cos\icomcrmevents_oncrmrecoverydone.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 533148f3-ecb4-495c-81c4-c75db7284ded
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMRecoveryDone method, IComCRMEvents.OnCRMRecoveryDone, IComCRMEvents::OnCRMRecoveryDone, OnCRMRecoveryDone, OnCRMRecoveryDone method [COM+], OnCRMRecoveryDone method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMRecoveryDone, comsvcs/IComCRMEvents::OnCRMRecoveryDone, cos.icomcrmevents_oncrmrecoverydone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComCRMEvents.OnCRMRecoveryDone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComCRMEvents::OnCRMRecoveryDone

@@ -4,17 +4,16 @@ title: Font::GetFamily
 author: windows-sdk-content
 description: The Font::GetFamily method gets the font family on which this font is based.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetFamily_family_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getfamily.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Font class [GDI+],GetFamily method, Font.GetFamily, Font::GetFamily, GetFamily, GetFamily method [GDI+], GetFamily method [GDI+],Font class, _gdiplus_CLASS_Font_GetFamily_family_, gdiplus._gdiplus_CLASS_Font_GetFamily_family_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Font.GetFamily
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

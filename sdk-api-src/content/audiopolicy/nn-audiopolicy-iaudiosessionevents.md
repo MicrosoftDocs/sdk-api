@@ -4,17 +4,16 @@ title: IAudioSessionEvents
 author: windows-sdk-content
 description: The IAudioSessionEvents interface provides notifications of session-related events such as changes in the volume level, display name, and session state.
 old-location: coreaudio\iaudiosessionevents.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: fd287ef7-8a37-4342-b4c2-79b84a56c30e
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioSessionEvents, IAudioSessionEvents interface [Core Audio], IAudioSessionEvents interface [Core Audio],described, audiopolicy/IAudioSessionEvents, coreaudio.iaudiosessionevents
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionEvents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionEvents interface

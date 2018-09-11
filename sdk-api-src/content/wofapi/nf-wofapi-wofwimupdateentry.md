@@ -4,17 +4,16 @@ title: WofWimUpdateEntry function
 author: windows-sdk-content
 description: Updates a WIM entry to point to a different WIM file location.
 old-location: fs\wofwimupdateentry.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 91CAE0F4-C0DB-40CE-BED9-C27E4856D4A0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WofWimUpdateEntry, WofWimUpdateEntry function [Files], fs.wofwimupdateentry, wofapi/WofWimUpdateEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
+req.lib: Wofutil.lib
+req.dll: Wofutil.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WofWimUpdateEntry
 product: Windows
 targetos: Windows
-req.lib: Wofutil.lib
-req.dll: Wofutil.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WofWimUpdateEntry function

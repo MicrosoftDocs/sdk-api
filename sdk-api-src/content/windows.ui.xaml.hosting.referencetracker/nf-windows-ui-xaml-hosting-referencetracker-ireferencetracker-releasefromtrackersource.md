@@ -4,17 +4,16 @@ title: IReferenceTracker::xaml
 author: windows-sdk-content
 description: Indicates each time that a tracker source calls IUnknown::Release on the reference tracker; must be called before the Release call.
 old-location: winrt\ireferencetracker_releasefromtrackersource.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 70ecc98e-30bd-48e6-966b-4b5955a58d8a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IReferenceTracker interface [Windows Runtime],ReleaseFromTrackerSource method, IReferenceTracker.ReleaseFromTrackerSource, IReferenceTracker.xaml, IReferenceTracker::ReleaseFromTrackerSource, IReferenceTracker::xaml, ReleaseFromTrackerSource, ReleaseFromTrackerSource method [Windows Runtime], ReleaseFromTrackerSource method [Windows Runtime],IReferenceTracker interface, windows/IReferenceTracker::ReleaseFromTrackerSource, winrt.ireferencetracker_releasefromtrackersource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IReferenceTracker.ReleaseFromTrackerSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IReferenceTracker::xaml

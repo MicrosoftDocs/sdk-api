@@ -4,17 +4,16 @@ title: IsNativeVhdBoot function
 author: windows-sdk-content
 description: Indicates if the OS was booted from a VHD container.
 old-location: base\isnativevhdboot.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: 8198D4AF-553D-42B3-AF22-EC2C63C0E9AE
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IsNativeVhdBoot, IsNativeVhdBoot , IsNativeVhdBoot function, base.isnativevhdboot, base.isnativevhdboot_, winbase/IsNativeVhdBoot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IsNativeVhdBoot
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IsNativeVhdBoot function

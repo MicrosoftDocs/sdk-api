@@ -4,17 +4,16 @@ title: tagTITLEBARINFO
 author: windows-sdk-content
 description: Contains title bar information.
 old-location: winmsg\titlebarinfo.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\titlebarinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPTITLEBARINFO, *PTITLEBARINFO, LPTITLEBARINFO, LPTITLEBARINFO structure pointer [Windows and Messages], PTITLEBARINFO, PTITLEBARINFO structure pointer [Windows and Messages], STATE_SYSTEM_FOCUSABLE, STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_OFFSCREEN, STATE_SYSTEM_PRESSED, STATE_SYSTEM_UNAVAILABLE, TITLEBARINFO, TITLEBARINFO structure [Windows and Messages], _win32_TITLEBARINFO_str, _win32_titlebarinfo_str_cpp, tagTITLEBARINFO, winmsg.titlebarinfo, winui._win32_titlebarinfo_str, winuser/LPTITLEBARINFO, winuser/PTITLEBARINFO, winuser/TITLEBARINFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TITLEBARINFO, *PTITLEBARINFO, *LPTITLEBARINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TITLEBARINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TITLEBARINFO, *PTITLEBARINFO, *LPTITLEBARINFO
+req.redist: 
 ---
 
 # tagTITLEBARINFO structure

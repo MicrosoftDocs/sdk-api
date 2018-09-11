@@ -4,17 +4,16 @@ title: IGPMBackup::Delete
 author: windows-sdk-content
 description: Removes the Group Policy object (GPO) backup from the backup directory and from the file system.
 old-location: gpmc\igpmbackup_delete.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 096f10ca-1528-4ce7-a135-6fc0007e3374
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],GPMBackup class, Delete method [GPMC],IGPMBackup interface, GPMBackup class [GPMC],Delete method, IGPMBackup interface [GPMC],Delete method, IGPMBackup.Delete, IGPMBackup::Delete, _win32_igpmbackup_delete, gpmc.igpmbackup_delete, gpmgmt/IGPMBackup::Delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMBackup.Delete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMBackup::Delete

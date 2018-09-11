@@ -4,17 +4,16 @@ title: UrlIsA function
 author: windows-sdk-content
 description: Tests whether a URL is a specified type.
 old-location: shell\UrlIs.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2e83c953-b4c5-4411-90ca-49ffb94ee374
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: URLIS_APPLIABLE, URLIS_DIRECTORY, URLIS_FILEURL, URLIS_HASQUERY, URLIS_NOHISTORY, URLIS_OPAQUE, URLIS_URL, UrlIs, UrlIs function [Windows Shell], UrlIsA, UrlIsW, _win32_UrlIs, shell.UrlIs, shlwapi/UrlIs, shlwapi/UrlIsA, shlwapi/UrlIsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - UrlIsW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # UrlIsA function

@@ -4,17 +4,16 @@ title: CLUSTER_CHANGE_RESOURCE_TYPE_V2
 author: windows-sdk-content
 description: Defines the set of notifications that are generated for a resource type.
 old-location: mscs\cluster_change_resource_type_v2.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 2A49AA32-F1E2-4810-B093-F6EC050DA841
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_CHANGE_RESOURCE_TYPE_ALL_V2, CLUSTER_CHANGE_RESOURCE_TYPE_COMMON_PROPERTY_V2, CLUSTER_CHANGE_RESOURCE_TYPE_DELETED_V2, CLUSTER_CHANGE_RESOURCE_TYPE_DLL_UPGRADED_V2, CLUSTER_CHANGE_RESOURCE_TYPE_POSSIBLE_OWNERS_V2, CLUSTER_CHANGE_RESOURCE_TYPE_PRIVATE_PROPERTY_V2, CLUSTER_CHANGE_RESOURCE_TYPE_V2, CLUSTER_CHANGE_RESOURCE_TYPE_V2 enumeration [Failover Cluster], CLUSTER_RESOURCE_TYPE_SPECIFIC_V2, clusapi/CLUSTER_CHANGE_RESOURCE_TYPE_ALL_V2, clusapi/CLUSTER_CHANGE_RESOURCE_TYPE_COMMON_PROPERTY_V2, clusapi/CLUSTER_CHANGE_RESOURCE_TYPE_DELETED_V2, clusapi/CLUSTER_CHANGE_RESOURCE_TYPE_DLL_UPGRADED_V2, clusapi/CLUSTER_CHANGE_RESOURCE_TYPE_POSSIBLE_OWNERS_V2, clusapi/CLUSTER_CHANGE_RESOURCE_TYPE_PRIVATE_PROPERTY_V2, clusapi/CLUSTER_CHANGE_RESOURCE_TYPE_V2, clusapi/CLUSTER_RESOURCE_TYPE_SPECIFIC_V2, msclus/CLUSTER_CHANGE_RESOURCE_TYPE_ALL_V2, msclus/CLUSTER_CHANGE_RESOURCE_TYPE_COMMON_PROPERTY_V2, msclus/CLUSTER_CHANGE_RESOURCE_TYPE_DELETED_V2, msclus/CLUSTER_CHANGE_RESOURCE_TYPE_DLL_UPGRADED_V2, msclus/CLUSTER_CHANGE_RESOURCE_TYPE_POSSIBLE_OWNERS_V2, msclus/CLUSTER_CHANGE_RESOURCE_TYPE_PRIVATE_PROPERTY_V2, msclus/CLUSTER_CHANGE_RESOURCE_TYPE_V2, msclus/CLUSTER_RESOURCE_TYPE_SPECIFIC_V2, mscs.cluster_change_resource_type_v2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_CHANGE_RESOURCE_TYPE_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_CHANGE_RESOURCE_TYPE_V2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_CHANGE_RESOURCE_TYPE_V2
+req.redist: 
 ---
 
 # CLUSTER_CHANGE_RESOURCE_TYPE_V2 enumeration

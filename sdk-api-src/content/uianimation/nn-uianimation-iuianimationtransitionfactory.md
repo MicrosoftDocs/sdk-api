@@ -4,17 +4,16 @@ title: IUIAnimationTransitionFactory
 author: windows-sdk-content
 description: Defines a method for creating transitions from custom interpolators.
 old-location: uianimation\iuianimationtransitionfactory.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 62aec8da-e067-4b61-9465-e07fb5b42b7f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationTransitionFactory, IUIAnimationTransitionFactory interface [Windows Animation], IUIAnimationTransitionFactory interface [Windows Animation],described, uianimation.iuianimationtransitionfactory, uianimation/IUIAnimationTransitionFactory
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationTransitionFactory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationTransitionFactory interface

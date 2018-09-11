@@ -4,7 +4,7 @@ title: peer_people_near_me_tag
 author: windows-sdk-content
 description: Contains information about a peer in the same logical or virtual subnet.
 old-location: p2p\peer_people_near_me.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 15dae06d-0f44-4e7d-b146-6fcd7cc6912e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_PEOPLE_NEAR_ME, *PPEER_PEOPLE_NEAR_ME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_PEOPLE_NEAR_ME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_PEOPLE_NEAR_ME, *PPEER_PEOPLE_NEAR_ME
+req.redist: 
 ---
 
 # peer_people_near_me_tag structure

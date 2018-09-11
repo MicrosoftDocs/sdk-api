@@ -4,17 +4,16 @@ title: "_WKSTA_USER_INFO_1101"
 author: windows-sdk-content
 description: The WKSTA_USER_INFO_1101 structure contains information about the domains accessed by a workstation.
 old-location: netmgmt\wksta_user_info_1101_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 88772ba2-046b-4b03-ae02-d851075e4363
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWKSTA_USER_INFO_1101, *PWKSTA_USER_INFO_1101, LPWKSTA_USER_INFO_1101, LPWKSTA_USER_INFO_1101 structure pointer [Network Management], PWKSTA_USER_INFO_1101, PWKSTA_USER_INFO_1101 structure pointer [Network Management], WKSTA_USER_INFO_1101, WKSTA_USER_INFO_1101 structure [Network Management], _WKSTA_USER_INFO_1101, _win32_wksta_user_info_1101_str, lmwksta/LPWKSTA_USER_INFO_1101, lmwksta/PWKSTA_USER_INFO_1101, lmwksta/WKSTA_USER_INFO_1101, netmgmt.wksta_user_info_1101_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmwksta.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WKSTA_USER_INFO_1101, *PWKSTA_USER_INFO_1101, *LPWKSTA_USER_INFO_1101
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WKSTA_USER_INFO_1101
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: WKSTA_USER_INFO_1101, *PWKSTA_USER_INFO_1101, *LPWKSTA_USER_INFO_1101
+req.redist: 
 ---
 
 # _WKSTA_USER_INFO_1101 structure

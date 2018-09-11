@@ -4,17 +4,16 @@ title: "_SPropValue"
 author: windows-sdk-content
 description: Do not use. Contains the property tag values.
 old-location: wab\_wab_SPropValue.htm
-old-project: wab
+tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropvalue.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSPropValue, SPropValue, SPropValue structure [Windows Address Book], _SPropValue, _wab_SPropValue, wab._wab_SPropValue, wabdefs/SPropValue"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SPropValue, *LPSPropValue
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SPropValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SPropValue, *LPSPropValue
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

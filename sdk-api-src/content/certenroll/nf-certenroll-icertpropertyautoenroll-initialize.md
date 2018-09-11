@@ -4,17 +4,16 @@ title: ICertPropertyAutoEnroll::Initialize
 author: windows-sdk-content
 description: Initializes the object by specifying the name of the template to be used for autoenrollment.
 old-location: security\icertpropertyautoenroll_initialize_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: f9a949c8-acd9-45b2-882e-84daf0acfad4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertPropertyAutoEnroll interface [Security],Initialize method, ICertPropertyAutoEnroll.Initialize, ICertPropertyAutoEnroll::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyAutoEnroll interface, certenroll/ICertPropertyAutoEnroll::Initialize, security.icertpropertyautoenroll_initialize_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertPropertyAutoEnroll.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyAutoEnroll::Initialize

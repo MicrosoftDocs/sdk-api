@@ -4,17 +4,16 @@ title: IEmptyVolumeCache::Deactivate
 author: windows-sdk-content
 description: Notifies the handler that the disk cleanup manager is shutting down.
 old-location: lwef\iemptyvolumecache_deactivate.htm
-old-project: lwef
+tech.root: lwef
 ms.assetid: fb374e09-92f5-4efb-8e93-0ddc2975c2c1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Deactivate, Deactivate method [Legacy Windows Environment Features], Deactivate method [Legacy Windows Environment Features],IEmptyVolumeCache interface, EVCF_REMOVEFROMLIST, IEmptyVolumeCache interface [Legacy Windows Environment Features],Deactivate method, IEmptyVolumeCache.Deactivate, IEmptyVolumeCache::Deactivate, _win32_IEmptyVolumeCache_Deactivate, emptyvc/IEmptyVolumeCache::Deactivate, lwef.iemptyvolumecache_deactivate, shell.iemptyvolumecache_deactivate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: emptyvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMI_VERSION
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEmptyVolumeCache.Deactivate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEmptyVolumeCache::Deactivate

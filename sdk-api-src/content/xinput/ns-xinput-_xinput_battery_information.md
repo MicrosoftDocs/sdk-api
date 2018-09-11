@@ -4,17 +4,16 @@ title: "_XINPUT_BATTERY_INFORMATION"
 author: windows-sdk-content
 description: Contains information on battery type and charge state.
 old-location: xinput\xinput_battery_information.htm
-old-project: xinput
+tech.root: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_BATTERY_INFORMATION
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: "*PXINPUT_BATTERY_INFORMATION, PXINPUT_BATTERY_INFORMATION, PXINPUT_BATTERY_INFORMATION structure pointer [XInput Game Controller APIs], XINPUT_BATTERY_INFORMATION, XINPUT_BATTERY_INFORMATION structure [XInput Game Controller APIs], _XINPUT_BATTERY_INFORMATION, xinput.xinput_battery_information, xinput/PXINPUT_BATTERY_INFORMATION, xinput/XINPUT_BATTERY_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: xinput.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XINPUT_BATTERY_INFORMATION, *PXINPUT_BATTERY_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XINPUT_BATTERY_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: XINPUT_BATTERY_INFORMATION, *PXINPUT_BATTERY_INFORMATION
+req.redist: 
 ---
 
 # _XINPUT_BATTERY_INFORMATION structure

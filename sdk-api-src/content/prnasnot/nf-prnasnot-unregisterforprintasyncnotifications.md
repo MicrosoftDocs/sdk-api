@@ -4,17 +4,16 @@ title: UnRegisterForPrintAsyncNotifications function
 author: windows-sdk-content
 description: Enables an application that has registered to receive notifications from Print Spooler-hosted printing components to unregister.
 old-location: gdi\unregisterforprintasyncnotifications.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 2b039018-71c0-4110-8c0b-702927f58df4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UnRegisterForPrintAsyncNotifications, UnRegisterForPrintAsyncNotifications function [Windows GDI], _win32_UnRegisterForPrintAsyncNotifications, gdi.unregisterforprintasyncnotifications, prnasnot/UnRegisterForPrintAsyncNotifications
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: prnasnot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PrintAsyncNotifyUserFilter
+req.lib: WinSpool.lib
+req.dll: Spoolss.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UnRegisterForPrintAsyncNotifications
 product: Windows
 targetos: Windows
-req.lib: WinSpool.lib
-req.dll: Spoolss.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # UnRegisterForPrintAsyncNotifications function

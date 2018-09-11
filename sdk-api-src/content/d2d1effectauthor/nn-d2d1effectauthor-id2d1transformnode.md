@@ -4,7 +4,7 @@ title: ID2D1TransformNode
 author: windows-sdk-content
 description: Describes a node in a transform topology.
 old-location: direct2d\id2d1transformnode.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 2ACF65DA-A812-4983-B044-71103A9AA450
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_USAGE
+req.lib: D2d1.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID2D1TransformNode
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1TransformNode interface

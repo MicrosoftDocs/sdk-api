@@ -4,7 +4,7 @@ title: MFP_MEDIAPLAYER_STATE
 author: windows-sdk-content
 description: Specifies the current playback state.
 old-location: mf\mfp_mediaplayer_state.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: a0d5c840-a1aa-48cf-bf2e-7e5c35951fb6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFP_MEDIAPLAYER_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFP_MEDIAPLAYER_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFP_MEDIAPLAYER_STATE
+req.redist: 
 ---
 
 # MFP_MEDIAPLAYER_STATE enumeration

@@ -4,17 +4,16 @@ title: SetDisplayConfig function
 author: windows-sdk-content
 description: The SetDisplayConfig function modifies the display topology, source, and target modes by exclusively enabling the specified paths in the current session.
 old-location: display\setdisplayconfig.htm
-old-project: display
+tech.root: display
 ms.assetid: 9f649fa0-ffb2-44c6-9a66-049f888e3b04
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: CCD_Functions_fceeecb0-8c34-4ff0-b201-fc5b7f39f2df.xml, SetDisplayConfig, SetDisplayConfig function [Display Devices], display.setdisplayconfig, winuser/SetDisplayConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetDisplayConfig
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SetDisplayConfig function

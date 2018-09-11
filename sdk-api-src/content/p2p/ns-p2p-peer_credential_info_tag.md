@@ -4,7 +4,7 @@ title: peer_credential_info_tag
 author: windows-sdk-content
 description: The PEER_CREDENTIAL_INFO structure defines information used to obtain and issue a peer's security credentials.
 old-location: p2p\peer_credential_info.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: c47bb38d-eafd-4218-8ac7-1c54ed6948ee
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_CREDENTIAL_INFO, *PPEER_CREDENTIAL_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_CREDENTIAL_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_CREDENTIAL_INFO, *PPEER_CREDENTIAL_INFO
+req.redist: 
 ---
 
 # peer_credential_info_tag structure

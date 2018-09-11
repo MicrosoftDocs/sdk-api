@@ -4,17 +4,16 @@ title: LookupPrivilegeNameW function
 author: windows-sdk-content
 description: Retrieves the name that corresponds to the privilege represented on a specific system by a specified locally unique identifier (LUID).
 old-location: security\lookupprivilegename.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 580fb58f-1470-4389-9f07-8f37403e2bdf
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: LookupPrivilegeName, LookupPrivilegeName function [Security], LookupPrivilegeNameA, LookupPrivilegeNameW, _win32_lookupprivilegename, security.lookupprivilegename, winbase/LookupPrivilegeName, winbase/LookupPrivilegeNameA, winbase/LookupPrivilegeNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - LookupPrivilegeNameW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # LookupPrivilegeNameW function

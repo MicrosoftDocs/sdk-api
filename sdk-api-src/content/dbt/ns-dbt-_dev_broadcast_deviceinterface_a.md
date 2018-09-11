@@ -4,7 +4,7 @@ title: "_DEV_BROADCAST_DEVICEINTERFACE_A"
 author: windows-sdk-content
 description: Contains information about a class of devices.
 old-location: base\dev_broadcast_deviceinterface_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 23e6b2b9-2053-4dfa-9c0a-283279f086b8
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEV_BROADCAST_DEVICEINTERFACE_A, *PDEV_BROADCAST_DEVICEINTERFACE_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DEV_BROADCAST_DEVICEINTERFACE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DEV_BROADCAST_DEVICEINTERFACE_A, *PDEV_BROADCAST_DEVICEINTERFACE_A
+req.redist: 
 ---
 
 # _DEV_BROADCAST_DEVICEINTERFACE_A structure

@@ -4,17 +4,16 @@ title: ITPhone::GetPhoneCapsBuffer
 author: windows-sdk-content
 description: The GetPhoneCapsBuffer method gets a buffer capability/information about the phone, based on the PHONECAPS_BUFFER enum passed in.
 old-location: tapi3\itphone_getphonecapsbuffer.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 239902ca-0e9e-4b8d-927d-ee46a35dd9d8
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: GetPhoneCapsBuffer, GetPhoneCapsBuffer method [TAPI 2.2], GetPhoneCapsBuffer method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],GetPhoneCapsBuffer method, ITPhone.GetPhoneCapsBuffer, ITPhone::GetPhoneCapsBuffer, _tapi3_itphone_getphonecapsbuffer, tapi3.itphone_getphonecapsbuffer, tapi3if/ITPhone::GetPhoneCapsBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPhone.GetPhoneCapsBuffer
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPhone::GetPhoneCapsBuffer

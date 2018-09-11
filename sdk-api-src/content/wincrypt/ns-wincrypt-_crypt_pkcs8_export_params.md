@@ -4,17 +4,16 @@ title: "_CRYPT_PKCS8_EXPORT_PARAMS"
 author: windows-sdk-content
 description: Identifies the private key and a callback function to encrypt the private key. CRYPT_PKCS8_EXPORT_PARAMS is used as a parameter to the CryptExportPKCS8Ex function, which exports a private key in PKCS #8 format.
 old-location: security\crypt_pkcs8_export_params.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 5a60c96e-907a-409e-921c-59055452463f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_PKCS8_EXPORT_PARAMS, AT_KEYEXCHANGE, AT_SIGNATURE, CRYPT_PKCS8_EXPORT_PARAMS, CRYPT_PKCS8_EXPORT_PARAMS structure [Security], PCRYPT_PKCS8_EXPORT_PARAMS, PCRYPT_PKCS8_EXPORT_PARAMS structure pointer [Security], _CRYPT_PKCS8_EXPORT_PARAMS, security.crypt_pkcs8_export_params, wincrypt/CRYPT_PKCS8_EXPORT_PARAMS, wincrypt/PCRYPT_PKCS8_EXPORT_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_PKCS8_EXPORT_PARAMS, *PCRYPT_PKCS8_EXPORT_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_PKCS8_EXPORT_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_PKCS8_EXPORT_PARAMS, *PCRYPT_PKCS8_EXPORT_PARAMS
+req.redist: 
 ---
 
 # _CRYPT_PKCS8_EXPORT_PARAMS structure

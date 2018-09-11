@@ -4,17 +4,16 @@ title: IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation)
 author: windows-sdk-content
 description: Changes the value of the AngleX property of a 2D skew transform.
 old-location: directcomp\idcompositionskewtransform_setanglex_float.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: FE38F14B-69EA-4129-A944-DBBF784B53DE
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetAngleX method, IDCompositionSkewTransform.SetAngleX, IDCompositionSkewTransform.SetAngleX(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleX, IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleX(float), SetAngleX, SetAngleX method [DirectComposition], SetAngleX method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetAngleX, directcomp.idcompositionskewtransform_setanglex_float
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionSkewTransform.SetAngleX
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Changes the value of the AngleX property of a 2D skew transform.   The AngleX pr
 
 ### -param animation
 
-
+TBD
 
 
 

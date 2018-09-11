@@ -4,17 +4,16 @@ title: CertCloseStore function
 author: windows-sdk-content
 description: Closes a certificate store handle and reduces the reference count on the store.
 old-location: security\certclosestore.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: a93fdd65-359e-4046-910d-347c3af01280
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CERT_CLOSE_STORE_CHECK_FLAG, CERT_CLOSE_STORE_FORCE_FLAG, CertCloseStore, CertCloseStore function [Security], _crypto2_certclosestore, security.certclosestore, wincrypt/CertCloseStore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertCloseStore
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertCloseStore function

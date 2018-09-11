@@ -4,17 +4,16 @@ title: IDvdInfo::GetCurrentUOPS
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves which IDvdControl methods are currently valid.
 old-location: dshow\idvdinfo_getcurrentuops.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a6f48a32-c2bb-4924-9a05-469c7b79fc3e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetCurrentUOPS, GetCurrentUOPS method [DirectShow], GetCurrentUOPS method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentUOPS method, IDvdInfo.GetCurrentUOPS, IDvdInfo::GetCurrentUOPS, IDvdInfoGetCurrentUOPS, dshow.idvdinfo_getcurrentuops, strmif/IDvdInfo::GetCurrentUOPS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdInfo.GetCurrentUOPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo::GetCurrentUOPS

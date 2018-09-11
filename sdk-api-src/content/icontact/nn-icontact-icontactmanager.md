@@ -4,17 +4,16 @@ title: IContactManager
 author: windows-sdk-content
 description: Do not use. Used for retrieving a contact, based on a contact ID string.
 old-location: wincontacts\_wincontacts_IContactManager.htm
-old-project: wincontacts
+tech.root: wincontacts
 ms.assetid: d0102659-488c-45db-931b-345013e21eed
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IContactManager, IContactManager interface [Windows Contacts], IContactManager interface [Windows Contacts],described, _wincontacts_IContactManager, icontact/IContactManager, wincontacts._wincontacts_IContactManager
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: icontact.h
 req.include-header: Contact.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContactManager
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wab32.dll (Version 6.0 or later)
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContactManager interface

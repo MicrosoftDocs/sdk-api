@@ -4,7 +4,7 @@ title: "_DD_ENDMOCOMPFRAMEDATA"
 author: windows-sdk-content
 description: The DD_ENDMOCOMPFRAMEDATA structure contains information required to complete a decoded frame.
 old-location: display\dd_endmocompframedata.htm
-old-project: display
+tech.root: display
 ms.assetid: 4e604940-1c0f-43be-bac7-9936df0c4044
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_ENDMOCOMPFRAMEDATA, DD_ENDMOCOMPFRAMEDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_ENDMOCOMPFRAMEDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_ENDMOCOMPFRAMEDATA, DD_ENDMOCOMPFRAMEDATA"
+req.redist: 
 ---
 
 # _DD_ENDMOCOMPFRAMEDATA structure

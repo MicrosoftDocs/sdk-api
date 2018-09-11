@@ -4,17 +4,16 @@ title: DWRITE_FONT_FACE_TYPE
 author: windows-sdk-content
 description: Indicates the file format of a complete font face.
 old-location: directwrite\dwrite_font_face_type.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 839527fb-2560-4472-8115-960bf5b6badd
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_FONT_FACE_TYPE, DWRITE_FONT_FACE_TYPE enumeration [Direct Write], DWRITE_FONT_FACE_TYPE_BITMAP, DWRITE_FONT_FACE_TYPE_CFF, DWRITE_FONT_FACE_TYPE_RAW_CFF, DWRITE_FONT_FACE_TYPE_TRUETYPE, DWRITE_FONT_FACE_TYPE_TRUETYPE_COLLECTION, DWRITE_FONT_FACE_TYPE_TYPE1, DWRITE_FONT_FACE_TYPE_UNKNOWN, DWRITE_FONT_FACE_TYPE_VECTOR, directwrite.dwrite_font_face_type, dwrite/DWRITE_FONT_FACE_TYPE, dwrite/DWRITE_FONT_FACE_TYPE_BITMAP, dwrite/DWRITE_FONT_FACE_TYPE_CFF, dwrite/DWRITE_FONT_FACE_TYPE_RAW_CFF, dwrite/DWRITE_FONT_FACE_TYPE_TRUETYPE, dwrite/DWRITE_FONT_FACE_TYPE_TRUETYPE_COLLECTION, dwrite/DWRITE_FONT_FACE_TYPE_TYPE1, dwrite/DWRITE_FONT_FACE_TYPE_UNKNOWN, dwrite/DWRITE_FONT_FACE_TYPE_VECTOR
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_FONT_FACE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_FONT_FACE_TYPE enumeration

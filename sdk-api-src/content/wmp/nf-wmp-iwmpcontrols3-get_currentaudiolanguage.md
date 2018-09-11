@@ -4,17 +4,16 @@ title: IWMPControls3::get_currentAudioLanguage
 author: windows-sdk-content
 description: The get_currentAudioLanguage method retrieves the locale identifier (LCID) of the audio language for playback.
 old-location: wmp\iwmpcontrols3_get_currentaudiolanguage.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 6ea76479-950d-4bbf-a0e9-0e7b4ddecd52
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],get_currentAudioLanguage method, IWMPControls3.get_currentAudioLanguage, IWMPControls3::get_currentAudioLanguage, IWMPControls3get_currentAudioLanguage, get_currentAudioLanguage, get_currentAudioLanguage method [Windows Media Player], get_currentAudioLanguage method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_get_currentaudiolanguage, wmp/IWMPControls3::get_currentAudioLanguage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPControls3.get_currentAudioLanguage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPControls3::get_currentAudioLanguage

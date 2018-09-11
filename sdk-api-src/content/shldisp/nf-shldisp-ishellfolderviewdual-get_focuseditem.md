@@ -4,17 +4,16 @@ title: IShellFolderViewDual::get_FocusedItem
 author: windows-sdk-content
 description: Gets the FolderItem object that represents the item that has input focus.
 old-location: shell\IShellFolderViewDual_get_FocusedItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e3e70cbe-51df-4749-8c6c-f3a43b33c436
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_FocusedItem method, IShellFolderViewDual.get_FocusedItem, IShellFolderViewDual::get_FocusedItem, _shell_IShellFolderViewDual_get_FocusedItem, get_FocusedItem, get_FocusedItem method [Windows Shell], get_FocusedItem method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_FocusedItem, shldisp/IShellFolderViewDual::get_FocusedItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderViewDual.get_FocusedItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderViewDual::get_FocusedItem

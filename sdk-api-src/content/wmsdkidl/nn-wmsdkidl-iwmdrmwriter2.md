@@ -4,7 +4,7 @@ title: IWMDRMWriter2
 author: windows-sdk-content
 description: The IWMDRMWriter2 interface provides a method that enables you to write content encrypted with Windows Media DRM 10 for Network Devices.An IWMDRMWriter2 interface exists for every writer object.
 old-location: wmformat\iwmdrmwriter2.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 8511b464-1f47-4184-9cb7-9aca0cb6660f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMDRMWriter2
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib
-req.dll: Wmvcore.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDRMWriter2 interface

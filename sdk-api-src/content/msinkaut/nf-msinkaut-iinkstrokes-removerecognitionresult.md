@@ -4,17 +4,16 @@ title: IInkStrokes::RemoveRecognitionResult
 author: windows-sdk-content
 description: Removes the RecognitionResult that is associated with the InkStrokes collection.
 old-location: tablet\inkstrokes_removerecognitionresult.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 1a1a2027-e0b7-40c5-b396-b6b4039d6b5b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 1a1a2027-e0b7-40c5-b396-b6b4039d6b5b, IInkStrokes interface [Tablet PC],RemoveRecognitionResult method, IInkStrokes.RemoveRecognitionResult, IInkStrokes::RemoveRecognitionResult, RemoveRecognitionResult, RemoveRecognitionResult method [Tablet PC], RemoveRecognitionResult method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::RemoveRecognitionResult, tablet.inkstrokes_removerecognitionresult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkStrokes.RemoveRecognitionResult
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkStrokes::RemoveRecognitionResult

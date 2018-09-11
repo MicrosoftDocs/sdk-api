@@ -4,17 +4,16 @@ title: IWMDMLogger::SetLogFileName
 author: windows-sdk-content
 description: The SetLogFileName method sets the full path to the current log file. All subsequent log entries will be placed in this file.
 old-location: wmdm\iwmdmlogger_setlogfilename.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 9ceecf17-01b4-4461-9ca7-229704c5916c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],SetLogFileName method, IWMDMLogger.SetLogFileName, IWMDMLogger::SetLogFileName, IWMDMLoggerSetLogFileName, SetLogFileName, SetLogFileName method [windows Media Device Manager], SetLogFileName method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_setlogfilename, wmdmlog/IWMDMLogger::SetLogFileName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmdmlog.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASF_INDEX_IDENTIFIER
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMLogger.SetLogFileName
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMLogger::SetLogFileName

@@ -4,17 +4,16 @@ title: IDCompositionDevice::CreateScaleTransform3D
 author: windows-sdk-content
 description: Creates a 3D scale transform object.
 old-location: directcomp\idcompositiondevice_createscaletransform3d.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 6B9AEEB9-559A-4B7B-A4B5-1C976B92BE7B
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateScaleTransform3D, CreateScaleTransform3D method [DirectComposition], CreateScaleTransform3D method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateScaleTransform3D method, IDCompositionDevice.CreateScaleTransform3D, IDCompositionDevice::CreateScaleTransform3D, dcomp/IDCompositionDevice::CreateScaleTransform3D, directcomp.idcompositiondevice_createscaletransform3d
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice.CreateScaleTransform3D
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice::CreateScaleTransform3D

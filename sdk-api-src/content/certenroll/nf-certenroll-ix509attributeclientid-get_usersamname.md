@@ -4,17 +4,16 @@ title: IX509AttributeClientId::get_UserSamName
 author: windows-sdk-content
 description: Retrieves the Security Accounts Manager (SAM) name of the user.
 old-location: security\ix509attributeclientid_usersamname_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: a5a5027f-3854-4064-9cf7-675562b4cd57
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509AttributeClientId interface [Security],UserSamName property, IX509AttributeClientId.UserSamName, IX509AttributeClientId.get_UserSamName, IX509AttributeClientId::UserSamName, IX509AttributeClientId::get_UserSamName, UserSamName property [Security], UserSamName property [Security],IX509AttributeClientId interface, certenroll/IX509AttributeClientId::UserSamName, certenroll/IX509AttributeClientId::get_UserSamName, get_UserSamName, security.ix509attributeclientid_usersamname_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509AttributeClientId.get_UserSamName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509AttributeClientId::get_UserSamName

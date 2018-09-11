@@ -4,17 +4,16 @@ title: tagSYSTEM_EVENT_DATA
 author: windows-sdk-content
 description: Contains information about a tablet system event.
 old-location: tablet\system_event_data.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 3a2c33b7-91ca-48eb-a5b9-a1ccb5106f90
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 3a2c33b7-91ca-48eb-a5b9-a1ccb5106f90, SYSTEM_EVENT_DATA, SYSTEM_EVENT_DATA structure [Tablet PC], tablet.system_event_data, tagSYSTEM_EVENT_DATA, tpcshrd/SYSTEM_EVENT_DATA
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: tpcshrd.h
 req.include-header: RTSCom.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_EVENT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYSTEM_EVENT_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SYSTEM_EVENT_DATA
+req.redist: 
 ---
 
 # tagSYSTEM_EVENT_DATA structure

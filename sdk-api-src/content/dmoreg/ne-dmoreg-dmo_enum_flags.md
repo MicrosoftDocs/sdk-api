@@ -4,7 +4,7 @@ title: DMO_ENUM_FLAGS
 author: windows-sdk-content
 description: The DMO_ENUM_FLAGS enumeration defines flags that specify search criteria when enumerating Microsoft DirectX Media Objects (DMOs).
 old-location: dshow\dmo_enum_flags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ef2be8d8-99d9-4200-8edb-284a5b216814
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dmoreg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DMO_ENUM_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib; Msdmo.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DMO_ENUM_FLAGS enumeration

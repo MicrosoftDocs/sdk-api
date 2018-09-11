@@ -4,17 +4,16 @@ title: IMFMediaSourceEx::SetD3DManager
 author: windows-sdk-content
 description: Sets a pointer to the Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager on the media source.
 old-location: mf\imfmediasourceex_setd3dmanager.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9E956E68-9950-4AA1-BF43-C1DCB02393F7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaSourceEx interface [Media Foundation],SetD3DManager method, IMFMediaSourceEx.SetD3DManager, IMFMediaSourceEx::SetD3DManager, SetD3DManager, SetD3DManager method [Media Foundation], SetD3DManager method [Media Foundation],IMFMediaSourceEx interface, mf.imfmediasourceex_setd3dmanager, mfidl/IMFMediaSourceEx::SetD3DManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaSourceEx.SetD3DManager
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSourceEx::SetD3DManager

@@ -4,17 +4,16 @@ title: ID3D10EffectScalarVariable::GetFloat
 author: windows-sdk-content
 description: Get a floating-point variable.
 old-location: direct3d10\id3d10effectscalarvariable_getfloat.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_getfloat.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 82c6ea47-878e-a6aa-0990-a6dfce382da6, GetFloat, GetFloat method [Direct3D 10], GetFloat method [Direct3D 10],ID3D10EffectScalarVariable interface, ID3D10EffectScalarVariable interface [Direct3D 10],GetFloat method, ID3D10EffectScalarVariable.GetFloat, ID3D10EffectScalarVariable::GetFloat, d3d10effect/ID3D10EffectScalarVariable::GetFloat, direct3d10.id3d10effectscalarvariable_getfloat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10EffectScalarVariable.GetFloat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10EffectScalarVariable::GetFloat

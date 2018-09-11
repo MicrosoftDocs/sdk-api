@@ -4,17 +4,16 @@ title: IFsrmQuotaBase::put_QuotaLimit
 author: windows-sdk-content
 description: Retrieves or sets the quota limit for the object.
 old-location: fsrm\ifsrmquotabase_quotalimit.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 2f2b5d8f-70b7-497e-9c51-171dca657c69
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],QuotaLimit property, IFsrmQuotaBase.QuotaLimit, IFsrmQuotaBase.put_QuotaLimit, IFsrmQuotaBase::QuotaLimit, IFsrmQuotaBase::get_QuotaLimit, IFsrmQuotaBase::put_QuotaLimit, QuotaLimit property [File Server Resource Manager], QuotaLimit property [File Server Resource Manager],IFsrmQuotaBase interface, fs.ifsrmquotabase_quotalimit, fsrm.ifsrmquotabase_quotalimit, fsrmquota/IFsrmQuotaBase::QuotaLimit, fsrmquota/IFsrmQuotaBase::get_QuotaLimit, fsrmquota/IFsrmQuotaBase::put_QuotaLimit, put_QuotaLimit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmQuotaBase.put_QuotaLimit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmQuotaBase::put_QuotaLimit

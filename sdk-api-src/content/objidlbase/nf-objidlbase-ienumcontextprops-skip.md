@@ -4,17 +4,16 @@ title: IEnumContextProps::Skip
 author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumcontextprops_skip.htm
-old-project: com
+tech.root: com
 ms.assetid: 22c50b48-a6e2-4153-9604-57f07512d4ce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumContextProps interface [COM],Skip method, IEnumContextProps.Skip, IEnumContextProps::Skip, Skip, Skip method [COM], Skip method [COM],IEnumContextProps interface, _com_ienumcontextprops_skip, com.ienumcontextprops_skip, objidlbase/IEnumContextProps::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumContextProps.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumContextProps::Skip

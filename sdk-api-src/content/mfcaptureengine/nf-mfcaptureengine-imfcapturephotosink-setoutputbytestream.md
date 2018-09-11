@@ -4,17 +4,16 @@ title: IMFCapturePhotoSink::SetOutputByteStream
 author: windows-sdk-content
 description: Specifies a byte stream that will receive the still image data.
 old-location: mf\imfcapturephotosink_setoutputbytestream.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: D67C2D66-FC40-4AF3-9E83-29D0DBF99AD3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFCapturePhotoSink interface [Media Foundation],SetOutputByteStream method, IMFCapturePhotoSink.SetOutputByteStream, IMFCapturePhotoSink::SetOutputByteStream, SetOutputByteStream, SetOutputByteStream method [Media Foundation], SetOutputByteStream method [Media Foundation],IMFCapturePhotoSink interface, mf.imfcapturephotosink_setoutputbytestream, mfcaptureengine/IMFCapturePhotoSink::SetOutputByteStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCapturePhotoSink.SetOutputByteStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCapturePhotoSink::SetOutputByteStream

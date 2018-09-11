@@ -4,17 +4,16 @@ title: IShellIcon
 author: windows-sdk-content
 description: Exposes a method that obtains an icon index for an IShellFolder object.
 old-location: shell\IShellIcon.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 64711453-bc70-4acb-bff7-8b5534cceff5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellIcon, IShellIcon interface [Windows Shell], IShellIcon interface [Windows Shell],described, _win32_IShellIcon, shell.IShellIcon, shobjidl_core/IShellIcon
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellIcon
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellIcon interface

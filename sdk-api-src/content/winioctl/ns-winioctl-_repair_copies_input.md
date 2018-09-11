@@ -4,7 +4,7 @@ title: "_REPAIR_COPIES_INPUT"
 author: windows-sdk-content
 description: Input structure for the FSCTL_REPAIR_COPIES control code.
 old-location: fs\repair_copies_input.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: c3cefb13-4825-4482-a87c-4ba482d3820b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REPAIR_COPIES_INPUT, *PREPAIR_COPIES_INPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - REPAIR_COPIES_INPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: REPAIR_COPIES_INPUT, *PREPAIR_COPIES_INPUT
+req.redist: 
 ---
 
 # _REPAIR_COPIES_INPUT structure

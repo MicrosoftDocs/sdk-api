@@ -4,17 +4,16 @@ title: SetupDiDrawMiniIcon function
 author: windows-sdk-content
 description: The SetupDiDrawMiniIcon function draws the specified mini-icon at the location requested.
 old-location: devinst\setupdidrawminiicon.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 99670376-a338-4001-bede-a4fea57b73a7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiDrawMiniIcon, SetupDiDrawMiniIcon function [Device and Driver Installation], devinst.setupdidrawminiicon, di-rtns_b85627e0-4b6a-4198-b4b9-8a1afaa09a9a.xml, setupapi/SetupDiDrawMiniIcon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetupDiDrawMiniIcon
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiDrawMiniIcon function

@@ -4,17 +4,16 @@ title: ISyncMgrHandler::GetName
 author: windows-sdk-content
 description: Gets the display name of the handler.
 old-location: shell\ISyncMgrHandler_GetName.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2d981cf9-6c0a-4bca-b088-06eb1c820fb3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetName method, ISyncMgrHandler.GetName, ISyncMgrHandler::GetName, _shell_ISyncMgrHandler_GetName, shell.ISyncMgrHandler_GetName, syncmgr/ISyncMgrHandler::GetName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrHandler.GetName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrHandler::GetName

@@ -4,17 +4,16 @@ title: IDiscMasterProgressEvents::NotifyBurnComplete
 author: windows-sdk-content
 description: Notifies an application that a call to IDiscMaster::RecordDisc has finished.
 old-location: imapi\idiscmasterprogressevents_notifyburncomplete.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: deefe7cb-60aa-4255-a7b1-261fb40e6318
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyBurnComplete method, IDiscMasterProgressEvents.NotifyBurnComplete, IDiscMasterProgressEvents::NotifyBurnComplete, NotifyBurnComplete, NotifyBurnComplete method [IMAPI], NotifyBurnComplete method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyburncomplete, base.idiscmasterprogressevents_notifyburncomplete, imapi.idiscmasterprogressevents_notifyburncomplete, imapi/IDiscMasterProgressEvents::NotifyBurnComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscMasterProgressEvents.NotifyBurnComplete
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscMasterProgressEvents::NotifyBurnComplete

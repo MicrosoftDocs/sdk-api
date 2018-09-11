@@ -4,17 +4,16 @@ title: IStreamAsync::ReadAsync
 author: windows-sdk-content
 description: Reads information from a stream asynchronously. For example, the Shell implements this interface on file items when transferring them asynchronously.
 old-location: shell\IStreamAsync_ReadAsync.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c0046a89-1427-465e-a5f3-2398ebff04f3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IStreamAsync interface [Windows Shell],ReadAsync method, IStreamAsync.ReadAsync, IStreamAsync::ReadAsync, ReadAsync, ReadAsync method [Windows Shell], ReadAsync method [Windows Shell],IStreamAsync interface, _shell_IStreamAsync_ReadAsync, shell.IStreamAsync_ReadAsync, shobjidl/IStreamAsync::ReadAsync
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamAsync.ReadAsync
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamAsync::ReadAsync

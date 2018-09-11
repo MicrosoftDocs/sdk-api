@@ -4,7 +4,7 @@ title: "_MIB_TCPROW_OWNER_PID"
 author: windows-sdk-content
 description: Contains information that describes an IPv4 TCP connection with IPv4 addresses, ports used by the TCP connection, and the specific process ID (PID) associated with connection.
 old-location: mib\mib_tcprow_owner_pid.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 220b69a4-b372-4eff-8d5a-eca0d39b8af9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_TCPROW_OWNER_PID, *PMIB_TCPROW_OWNER_PID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_TCPROW_OWNER_PID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: MIB_TCPROW_OWNER_PID, *PMIB_TCPROW_OWNER_PID
+req.redist: 
 ---
 
 # _MIB_TCPROW_OWNER_PID structure

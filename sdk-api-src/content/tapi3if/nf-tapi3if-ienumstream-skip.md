@@ -4,17 +4,16 @@ title: IEnumStream::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumstream_skip.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: aa9f3a77-4e5c-43b7-9526-b621a300c2ec
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IEnumStream interface [TAPI 2.2],Skip method, IEnumStream.Skip, IEnumStream::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumStream interface, _tapi3_ienumstream_skip, tapi3.ienumstream_skip, tapi3if/IEnumStream::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumStream.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumStream::Skip

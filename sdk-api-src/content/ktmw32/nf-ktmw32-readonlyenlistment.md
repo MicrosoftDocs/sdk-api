@@ -4,17 +4,16 @@ title: ReadOnlyEnlistment function
 author: windows-sdk-content
 description: Requests that the specified enlistment be converted to a read-only enlistment. A read-only enlistment cannot participate in the outcome of the transaction and is not durably recorded for recovery.
 old-location: fs\readonlyenlistment.htm
-old-project: ktm
+tech.root: ktm
 ms.assetid: a6411fad-8ad0-4a31-9e09-0c18dd384634
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ReadOnlyEnlistment, ReadOnlyEnlistment function [Files], fs.readonlyenlistment, ktmw32/ReadOnlyEnlistment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+req.lib: Ktmw32.lib
+req.dll: Ktmw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ReadOnlyEnlistment
 product: Windows
 targetos: Windows
-req.lib: Ktmw32.lib
-req.dll: Ktmw32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ReadOnlyEnlistment function

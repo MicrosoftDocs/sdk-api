@@ -4,17 +4,16 @@ title: SHGetIconOverlayIndexA function
 author: windows-sdk-content
 description: Returns the index of the overlay icon in the system image list.
 old-location: shell\SHGetIconOverlayIndex.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 20001ae0-05d0-46a7-8bb8-9bb722f5d795
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IDO_SHGIOI_DEFAULT, IDO_SHGIOI_LINK, IDO_SHGIOI_SHARE, IDO_SHGIOI_SLOWFILE, SHGetIconOverlayIndex, SHGetIconOverlayIndex function [Windows Shell], SHGetIconOverlayIndexA, SHGetIconOverlayIndexW, _win32_SHGetIconOverlayIndex, shell.SHGetIconOverlayIndex, shlobj_core/SHGetIconOverlayIndex, shlobj_core/SHGetIconOverlayIndexA, shlobj_core/SHGetIconOverlayIndexW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHGetIconOverlayIndexW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHGetIconOverlayIndexA function

@@ -4,17 +4,16 @@ title: IVssBackupComponents::ExposeSnapshot
 author: windows-sdk-content
 description: The ExposeSnapshot method exposes a shadow copy as a drive letter, mounted folder, or file share.
 old-location: base\ivssbackupcomponents_exposesnapshot.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 5a0abafa-d770-4529-90e4-0c597729d525
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ExposeSnapshot, ExposeSnapshot method [VSS], ExposeSnapshot method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],ExposeSnapshot method, IVssBackupComponents.ExposeSnapshot, IVssBackupComponents::ExposeSnapshot, _win32_ivssbackupcomponents_exposesnapshot, base.ivssbackupcomponents_exposesnapshot, vsbackup/IVssBackupComponents::ExposeSnapshot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.ExposeSnapshot
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::ExposeSnapshot

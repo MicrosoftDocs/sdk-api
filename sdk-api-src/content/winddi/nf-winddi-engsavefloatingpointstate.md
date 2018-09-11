@@ -4,17 +4,16 @@ title: EngSaveFloatingPointState function
 author: windows-sdk-content
 description: The EngSaveFloatingPointState function saves the current Windows 2000 (and later) kernel floating-point state.
 old-location: display\engsavefloatingpointstate.htm
-old-project: display
+tech.root: display
 ms.assetid: 25e9ae3b-a3a5-438c-84e0-53f2be7ba29c
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngSaveFloatingPointState, EngSaveFloatingPointState function [Display Devices], display.engsavefloatingpointstate, gdifncs_624220d2-de91-4558-86aa-94db622660eb.xml, winddi/EngSaveFloatingPointState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngSaveFloatingPointState
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngSaveFloatingPointState function

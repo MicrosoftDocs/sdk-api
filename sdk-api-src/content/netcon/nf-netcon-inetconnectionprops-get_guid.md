@@ -4,17 +4,16 @@ title: INetConnectionProps::get_Guid
 author: windows-sdk-content
 description: The get_Guid method retrieves the globally-unique identifier (GUID) for the connection.
 old-location: ics\inetconnectionprops_get_guid.htm
-old-project: ics
+tech.root: ics
 ms.assetid: df094bda-2e0f-4ff4-aff5-77d1703f8dee
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_Guid method, INetConnectionProps.get_Guid, INetConnectionProps::get_Guid, _ics_inetconnectionprops_get_guid, get_Guid, get_Guid method [ICS/ICF], get_Guid method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_guid, netcon/INetConnectionProps::get_Guid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetConnectionProps.get_Guid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetConnectionProps::get_Guid

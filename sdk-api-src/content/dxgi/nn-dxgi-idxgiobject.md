@@ -4,17 +4,16 @@ title: IDXGIObject
 author: windows-sdk-content
 description: An IDXGIObject interface is a base interface for all DXGI objects; IDXGIObject supports associating caller-defined (private data) with an object and retrieval of an interface to the parent object.
 old-location: direct3ddxgi\idxgiobject.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIObject, IDXGIObject interface [DXGI], IDXGIObject interface [DXGI],described, ae721ac9-3ed3-d7ef-07a7-3f3acbb19dcd, direct3ddxgi.idxgiobject, dxgi/IDXGIObject
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIObject
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIObject interface

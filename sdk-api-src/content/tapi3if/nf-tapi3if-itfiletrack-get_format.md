@@ -4,17 +4,16 @@ title: ITFileTrack::get_Format
 author: windows-sdk-content
 description: The get_Format method gets the file terminal's format.
 old-location: tapi3\itfiletrack_get_format.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6d489888-49b3-4fcd-9643-82f0a08fe1c6
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITFileTrack interface [TAPI 2.2],get_Format method, ITFileTrack.get_Format, ITFileTrack::get_Format, _tapi3_itfiletrack_get_format, get_Format, get_Format method [TAPI 2.2], get_Format method [TAPI 2.2],ITFileTrack interface, tapi3.itfiletrack_get_format, tapi3if/ITFileTrack::get_Format
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITFileTrack.get_Format
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITFileTrack::get_Format

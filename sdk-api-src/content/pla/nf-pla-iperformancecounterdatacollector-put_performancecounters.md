@@ -4,17 +4,16 @@ title: IPerformanceCounterDataCollector::put_PerformanceCounters
 author: windows-sdk-content
 description: Retrieves or sets the performance counters to query.
 old-location: pla\iperformancecounterdatacollector_performancecounters.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 9c75f560-a161-4659-9fd9-9f73c964fa5b
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IPerformanceCounterDataCollector interface [PLA],PerformanceCounters property, IPerformanceCounterDataCollector.PerformanceCounters, IPerformanceCounterDataCollector.put_PerformanceCounters, IPerformanceCounterDataCollector::PerformanceCounters, IPerformanceCounterDataCollector::get_PerformanceCounters, IPerformanceCounterDataCollector::put_PerformanceCounters, PerformanceCounters property [PLA], PerformanceCounters property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_performancecounters, pla.iperformancecounterdatacollector_performancecounters, pla/IPerformanceCounterDataCollector::PerformanceCounters, pla/IPerformanceCounterDataCollector::get_PerformanceCounters, pla/IPerformanceCounterDataCollector::put_PerformanceCounters, put_PerformanceCounters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IPerformanceCounterDataCollector.put_PerformanceCounters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPerformanceCounterDataCollector::put_PerformanceCounters

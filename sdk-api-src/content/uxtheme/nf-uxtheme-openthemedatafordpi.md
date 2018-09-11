@@ -4,17 +4,16 @@ title: OpenThemeDataForDpi function
 author: windows-sdk-content
 description: A variant of OpenThemeData that opens a theme handle associated with a specific DPI.
 old-location: hidpi\openthemedatafordpi.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: 40044856-82F2-47E2-AD4B-5E4F3868E7B8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: OpenThemeDataForDpi, OpenThemeDataForDpi function [High DPI], hidpi.openthemedatafordpi, uxtheme/OpenThemeDataForDpi
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OpenThemeDataForDpi
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # OpenThemeDataForDpi function

@@ -4,17 +4,16 @@ title: IRendezvousApplication::SetRendezvousSession
 author: windows-sdk-content
 description: Passes IRendezvousSession to the Windows Remote Assistance application. This method is used by the instant messaging application.
 old-location: remoteassist\remoteassist_IRendezvousApplication_SetRendezvousSession.htm
-old-project: remoteassist
+tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvousapplication\setRendezvousSession.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IRendezvousApplication interface [Remote Assistance],SetRendezvousSession method, IRendezvousApplication.SetRendezvousSession, IRendezvousApplication::SetRendezvousSession, SetRendezvousSession, SetRendezvousSession method [Remote Assistance], SetRendezvousSession method [Remote Assistance],IRendezvousApplication interface, remoteassist.remoteassist_IRendezvousApplication_SetRendezvousSession, remoteassist_IRendezvousApplication_SetRendezvousSession, remoteassist_IRendezvousApplicationremoteassist_IRendezvousApplication_SetRendezvousSession_cpp, rendezvoussession/IRendezvousApplication::SetRendezvousSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rendezvoussession.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RendezvousSession.tlb
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRendezvousApplication.SetRendezvousSession
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRendezvousApplication::SetRendezvousSession

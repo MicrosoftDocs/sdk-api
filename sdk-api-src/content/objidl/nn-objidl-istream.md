@@ -4,17 +4,16 @@ title: IStream
 author: windows-sdk-content
 description: The IStream interface lets you read and write data to stream objects.
 old-location: stg\istream.htm
-old-project: stg
+tech.root: Stg
 ms.assetid: c6f60e37-eadc-46a1-94f6-cacc23613531
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IStream, IStream interface [Structured Storage], IStream interface [Structured Storage],described, _stg_istream, objidl/IStream, stg.istream
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStream
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStream interface

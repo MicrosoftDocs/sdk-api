@@ -4,17 +4,16 @@ title: tagMOUSEINPUT
 author: windows-sdk-content
 description: Contains information about a simulated mouse event.
 old-location: inputdev\mouseinput.htm
-old-project: inputdev
+tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputstructures\mouseinput.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPMOUSEINPUT, *PMOUSEINPUT, MOUSEEVENTF_ABSOLUTE, MOUSEEVENTF_HWHEEL, MOUSEEVENTF_LEFTDOWN, MOUSEEVENTF_LEFTUP, MOUSEEVENTF_MIDDLEDOWN, MOUSEEVENTF_MIDDLEUP, MOUSEEVENTF_MOVE, MOUSEEVENTF_MOVE_NOCOALESCE, MOUSEEVENTF_RIGHTDOWN, MOUSEEVENTF_RIGHTUP, MOUSEEVENTF_VIRTUALDESK, MOUSEEVENTF_WHEEL, MOUSEEVENTF_XDOWN, MOUSEEVENTF_XUP, MOUSEINPUT, MOUSEINPUT structure [Keyboard and Mouse Input], PMOUSEINPUT, PMOUSEINPUT structure pointer [Keyboard and Mouse Input], XBUTTON1, XBUTTON2, _win32_MOUSEINPUT_str, _win32_mouseinput_str_cpp, inputdev.mouseinput, tagMOUSEINPUT, winui._win32_mouseinput_str, winuser/MOUSEINPUT, winuser/PMOUSEINPUT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MOUSEINPUT, *PMOUSEINPUT, *LPMOUSEINPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MOUSEINPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: MOUSEINPUT, *PMOUSEINPUT, *LPMOUSEINPUT
+req.redist: 
 ---
 
 # tagMOUSEINPUT structure

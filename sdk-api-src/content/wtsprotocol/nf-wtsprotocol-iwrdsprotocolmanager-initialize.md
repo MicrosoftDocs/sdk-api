@@ -4,17 +4,16 @@ title: IWRdsProtocolManager::Initialize
 author: windows-sdk-content
 description: Initializes the protocol manager.
 old-location: termserv\iwrdsprotocolmanager_initialize.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: c63c794c-41a0-4f07-be93-ba24dc156ca2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],Initialize method, IWRdsProtocolManager.Initialize, IWRdsProtocolManager::Initialize, Initialize, Initialize method [Remote Desktop Services], Initialize method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_initialize, wtsprotocol/IWRdsProtocolManager::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWRdsProtocolManager.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWRdsProtocolManager::Initialize

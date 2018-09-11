@@ -4,17 +4,16 @@ title: LOG_LEVEL
 author: windows-sdk-content
 description: Represents the severity of the log event passed to the LogEvent callback function.
 old-location: mscs\log_level.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 976251d5-6619-47f7-9b6e-2031768100b0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PLOG_LEVEL, LOG_ERROR, LOG_INFORMATION, LOG_LEVEL, LOG_LEVEL enumeration [Failover Cluster], LOG_SEVERE, LOG_WARNING, PLOG_LEVEL, PLOG_LEVEL enumeration pointer [Failover Cluster], mscs.log_level, resapi/LOG_ERROR, resapi/LOG_INFORMATION, resapi/LOG_LEVEL, resapi/LOG_SEVERE, resapi/LOG_WARNING, resapi/PLOG_LEVEL"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_LEVEL, *PLOG_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LOG_LEVEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: LOG_LEVEL, *PLOG_LEVEL
+req.redist: 
 ---
 
 # LOG_LEVEL enumeration

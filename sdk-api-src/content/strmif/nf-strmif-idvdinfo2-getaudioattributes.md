@@ -4,17 +4,16 @@ title: IDvdInfo2::GetAudioAttributes
 author: windows-sdk-content
 description: The GetAudioAttributes method retrieves the attributes of the specified audio stream in the current title or menu.
 old-location: dshow\idvdinfo2_getaudioattributes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 80291efa-f3eb-47f0-94e0-dcde583ff35c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetAudioAttributes, GetAudioAttributes method [DirectShow], GetAudioAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAudioAttributes method, IDvdInfo2.GetAudioAttributes, IDvdInfo2::GetAudioAttributes, IDvdInfo2GetAudioAttributes, dshow.idvdinfo2_getaudioattributes, strmif/IDvdInfo2::GetAudioAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdInfo2.GetAudioAttributes
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo2::GetAudioAttributes

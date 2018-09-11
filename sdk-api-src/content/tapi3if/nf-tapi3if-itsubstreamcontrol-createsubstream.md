@@ -4,17 +4,16 @@ title: ITSubStreamControl::CreateSubStream
 author: windows-sdk-content
 description: The CreateSubStream method creates a substream.
 old-location: tapi3\itsubstreamcontrol_createsubstream.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 00fe0f8f-c814-4ae6-a60b-c58f3dc60b67
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CreateSubStream, CreateSubStream method [TAPI 2.2], CreateSubStream method [TAPI 2.2],ITSubStreamControl interface, ITSubStreamControl interface [TAPI 2.2],CreateSubStream method, ITSubStreamControl.CreateSubStream, ITSubStreamControl::CreateSubStream, _tapi3_itsubstreamcontrol_createsubstream, tapi3.itsubstreamcontrol_createsubstream, tapi3if/ITSubStreamControl::CreateSubStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITSubStreamControl.CreateSubStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITSubStreamControl::CreateSubStream

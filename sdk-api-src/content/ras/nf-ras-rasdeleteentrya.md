@@ -4,17 +4,16 @@ title: RasDeleteEntryA function
 author: windows-sdk-content
 description: The RasDeleteEntry function deletes an entry from a phone book.
 old-location: rras\rasdeleteentry.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 80a6c2d3-917b-4d13-867f-a1399d434105
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RasDeleteEntry, RasDeleteEntry function [RAS], RasDeleteEntryA, RasDeleteEntryW, _ras_rasdeleteentry, ras/RasDeleteEntry, ras/RasDeleteEntryA, ras/RasDeleteEntryW, rras.rasdeleteentry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASPROJECTION_INFO_TYPE
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RasDeleteEntryW
 product: Windows
 targetos: Windows
-req.lib: Rasapi32.lib
-req.dll: Rasapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasDeleteEntryA function
@@ -63,7 +61,12 @@ The
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

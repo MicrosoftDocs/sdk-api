@@ -4,17 +4,16 @@ title: IFileBasedLogInit::InitNew
 author: windows-sdk-content
 description: Create a new log instance on the specified file. If a file with that name already exists, it is overwritten.
 old-location: com\ifilebasedloginit_initnew.htm
-old-project: com
+tech.root: com
 ms.assetid: 729c0cfc-4246-4185-af06-ed90a1955b03
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IFileBasedLogInit interface [COM],InitNew method, IFileBasedLogInit.InitNew, IFileBasedLogInit::InitNew, InitNew, InitNew method [COM], InitNew method [COM],IFileBasedLogInit interface, _com_ifilebasedloginit_initnew, com.ifilebasedloginit_initnew, txlogpub/IFileBasedLogInit::InitNew
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: txlogpub.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECORD_READING_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileBasedLogInit.InitNew
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IFileBasedLogInit::InitNew

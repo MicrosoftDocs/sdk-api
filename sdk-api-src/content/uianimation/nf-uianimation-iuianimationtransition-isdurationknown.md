@@ -4,17 +4,16 @@ title: IUIAnimationTransition::IsDurationKnown
 author: windows-sdk-content
 description: Determines whether a transition's duration is currently known.
 old-location: uianimation\iuianimationtransition_isdurationknown.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 5cb22573-a318-4682-bc82-0a81c9dbdcbe
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationTransition interface [Windows Animation],IsDurationKnown method, IUIAnimationTransition.IsDurationKnown, IUIAnimationTransition::IsDurationKnown, IsDurationKnown, IsDurationKnown method [Windows Animation], IsDurationKnown method [Windows Animation],IUIAnimationTransition interface, uianimation.iuianimationtransition_isdurationknown, uianimation/IUIAnimationTransition::IsDurationKnown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationTransition.IsDurationKnown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationTransition::IsDurationKnown

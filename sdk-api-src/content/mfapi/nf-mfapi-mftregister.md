@@ -4,17 +4,16 @@ title: MFTRegister function
 author: windows-sdk-content
 description: Adds information about a Media Foundation transform (MFT) to the registry.
 old-location: mf\mftregister.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: fb3a2b67-d3e4-4d5f-960a-3979f4780904
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFTRegister, MFTRegister function [Media Foundation], MFT_CODEC_MERIT_Attribute, MFT_ENUM_FLAG_ASYNCMFT, MFT_ENUM_FLAG_FIELDOFUSE, MFT_ENUM_FLAG_HARDWARE, MFT_ENUM_FLAG_SYNCMFT, MFT_ENUM_FLAG_TRANSCODE_ONLY, fb3a2b67-d3e4-4d5f-960a-3979f4780904, mf.mftregister, mfapi/MFTRegister
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFTRegister
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFTRegister function

@@ -4,7 +4,7 @@ title: "_FILE_SET_DEFECT_MGMT_BUFFER"
 author: windows-sdk-content
 description: Specifies the defect management state to be set.
 old-location: fs\file_set_defect_mgmt_buffer.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 4a2ee2d5-8886-4472-85b7-de029eeffd55
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_SET_DEFECT_MGMT_BUFFER, *PFILE_SET_DEFECT_MGMT_BUFFER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILE_SET_DEFECT_MGMT_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FILE_SET_DEFECT_MGMT_BUFFER, *PFILE_SET_DEFECT_MGMT_BUFFER
+req.redist: 
 ---
 
 # _FILE_SET_DEFECT_MGMT_BUFFER structure

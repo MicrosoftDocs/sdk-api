@@ -4,17 +4,16 @@ title: IMDSPStorage2::SetAttributes2
 author: windows-sdk-content
 description: The SetAttributes2 method extends IMDSPStorage::SetAttributes by enabling you to set audio and video formats and extended attributes of a storage object.
 old-location: wmdm\imdspstorage2_setattributes2.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: f9c3f7e4-88b1-4842-aaaa-e6c52e1c3116
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPStorage2 interface [windows Media Device Manager],SetAttributes2 method, IMDSPStorage2.SetAttributes2, IMDSPStorage2::SetAttributes2, IMDSPStorage2SetAttributes2, SetAttributes2, SetAttributes2 method [windows Media Device Manager], SetAttributes2 method [windows Media Device Manager],IMDSPStorage2 interface, mswmdm/IMDSPStorage2::SetAttributes2, wmdm.imdspstorage2_setattributes2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPStorage2.SetAttributes2
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPStorage2::SetAttributes2

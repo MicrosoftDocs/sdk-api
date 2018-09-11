@@ -4,17 +4,16 @@ title: IFileSaveDialog
 author: windows-sdk-content
 description: Extends the IFileDialog interface by adding methods specific to the save dialog, which include those that provide support for the collection of metadata to be persisted with the file.
 old-location: shell\IFileSaveDialog.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 74021f92-54ff-4c02-a8cf-49bcd7b9171e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileSaveDialog, IFileSaveDialog interface [Windows Shell], IFileSaveDialog interface [Windows Shell],described, shell.IFileSaveDialog, shell_IFileSaveDialog, shobjidl_core/IFileSaveDialog
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSaveDialog
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.0.6000 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSaveDialog interface

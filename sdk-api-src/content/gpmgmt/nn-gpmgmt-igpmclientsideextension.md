@@ -4,7 +4,7 @@ title: IGPMClientSideExtension
 author: windows-sdk-content
 description: The IGPMClientSideExtension interface supports methods that allow you to query client-side extension properties when you use the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmclientsideextension.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: b29f4d09-60c0-4c67-b295-05c7d9a05397
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMClientSideExtension
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMClientSideExtension interface

@@ -4,17 +4,16 @@ title: IProgressItems::ProgressItemFromBlock
 author: windows-sdk-content
 description: Retrieves a progress item based on the specified block number.
 old-location: imapi\iprogressitems_progressitemfromblock.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 2b37cf63-24be-42ff-a439-157703db9604
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IProgressItems interface [IMAPI],ProgressItemFromBlock method, IProgressItems.ProgressItemFromBlock, IProgressItems::ProgressItemFromBlock, ProgressItemFromBlock, ProgressItemFromBlock method [IMAPI], ProgressItemFromBlock method [IMAPI],IProgressItems interface, imapi.iprogressitems_progressitemfromblock, imapi2fs/IProgressItems::ProgressItemFromBlock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProgressItems.ProgressItemFromBlock
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IProgressItems::ProgressItemFromBlock

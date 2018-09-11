@@ -4,7 +4,7 @@ title: "_RADIUSPROXYPROPERTIES"
 author: windows-sdk-content
 description: The values in the RADIUSPROXYPROPERTIES enumeration type enumerate properties related to the RADIUS proxy service.
 old-location: nps\SDO_radiusproxyproperties.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 12cf768e-71b2-4b95-9b5a-2b9e3ce80f37
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.unicode-ansi: 
 req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RADIUSPROXYPROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RADIUSPROXYPROPERTIES
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: RADIUSPROXYPROPERTIES
+req.redist: 
 ---
 
 # _RADIUSPROXYPROPERTIES enumeration

@@ -4,17 +4,16 @@ title: PSGetImageReferenceForValue function
 author: windows-sdk-content
 description: Gets an instance of a property description interface for a specified property.
 old-location: properties\PSGetImageReferenceForValue.htm
-old-project: properties
+tech.root: properties
 ms.assetid: E37AF2ED-E3F9-4e50-9317-9DAF03AC543F
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSGetImageReferenceForValue, PSGetImageReferenceForValue function [Windows Properties], _shell_PSGetImageReferenceForValue, properties.PSGetImageReferenceForValue, propsys/PSGetImageReferenceForValue, shell.PSGetImageReferenceForValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: Propsys.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSGetImageReferenceForValue
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PSGetImageReferenceForValue function

@@ -4,17 +4,16 @@ title: IBrowserService2::CreateBrowserPropSheetExt
 author: windows-sdk-content
 description: Deprecated. Allows the derived class to add Folder Options property sheets to the base class.
 old-location: shell\IBrowserService2_CreateBrowserPropSheetExt.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2738e62b-5577-416b-952e-18a189fc717f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CreateBrowserPropSheetExt, CreateBrowserPropSheetExt method [Windows Shell], CreateBrowserPropSheetExt method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],CreateBrowserPropSheetExt method, IBrowserService2.CreateBrowserPropSheetExt, IBrowserService2::CreateBrowserPropSheetExt, shdeprecated/IBrowserService2::CreateBrowserPropSheetExt, shell.IBrowserService2_CreateBrowserPropSheetExt, zone_IBrowserService2_CreateBrowserPropSheetExt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2.CreateBrowserPropSheetExt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

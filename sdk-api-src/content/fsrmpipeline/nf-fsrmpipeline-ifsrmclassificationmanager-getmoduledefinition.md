@@ -4,17 +4,16 @@ title: IFsrmClassificationManager::GetModuleDefinition
 author: windows-sdk-content
 description: Retrieves the specified module definition.
 old-location: fsrm\ifsrmclassificationmanager_getmoduledefinition.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 41272218-25af-4c8f-8730-37a08a7fad4f
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],GetModuleDefinition method, GetModuleDefinition, GetModuleDefinition method [File Server Resource Manager], GetModuleDefinition method [File Server Resource Manager],FsrmClassificationManager class, GetModuleDefinition method [File Server Resource Manager],IFsrmClassificationManager interface, GetModuleDefinition method [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],GetModuleDefinition method, IFsrmClassificationManager.GetModuleDefinition, IFsrmClassificationManager2 interface [File Server Resource Manager],GetModuleDefinition method, IFsrmClassificationManager2::GetModuleDefinition, IFsrmClassificationManager::GetModuleDefinition, fs.ifsrmclassificationmanager_getmoduledefinition, fsrm.ifsrmclassificationmanager_getmoduledefinition, fsrmpipeline/IFsrmClassificationManager2::GetModuleDefinition, fsrmpipeline/IFsrmClassificationManager::GetModuleDefinition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmClassificationManager.GetModuleDefinition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassificationManager::GetModuleDefinition

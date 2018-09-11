@@ -4,17 +4,16 @@ title: IntPtrToUInt function
 author: windows-sdk-content
 description: Converts a value of type INT_PTR to a value of type UINT.
 old-location: shell\IntPtrToUInt.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 51a7d8bb-9a3c-4592-8d76-baa1d1e1f244
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IntPtrToUInt, IntPtrToUInt function [Windows Shell], PtrdiffTToUInt, _shell_IntPtrToUInt, intsafe/IntPtrToUInt, shell.IntPtrToUInt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IntPtrToUInt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IntPtrToUInt function

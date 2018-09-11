@@ -4,7 +4,7 @@ title: IConsoleNameSpace2
 author: windows-sdk-content
 description: The IConsoleNameSpace2 interface is introduced in MMC 1.1.
 old-location: mmc\iconsolenamespace2.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 894f99a6-2189-458d-a50f-497930d4a9dd
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConsoleNameSpace2
 product: Windows
 targetos: Windows
-req.lib: Mmc.lib
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IConsoleNameSpace2 interface

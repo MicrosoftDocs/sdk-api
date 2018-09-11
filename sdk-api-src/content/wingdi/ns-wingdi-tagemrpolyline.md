@@ -4,7 +4,7 @@ title: tagEMRPOLYLINE
 author: windows-sdk-content
 description: The EMRPOLYLINE, EMRPOLYBEZIER, EMRPOLYGON, EMRPOLYBEZIERTO, and EMRPOLYLINETO structures contain members for the Polyline, PolyBezier, Polygon, PolyBezierTo, and PolylineTo enhanced metafile records.
 old-location: gdi\emrpolyline__emrpolybezier__emrpolygon__emrpolybezierto__emrpolylineto.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 47a05287-8950-4277-b981-a19bff918bae
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMRPOLYLINE, *PEMRPOLYLINE, EMRPOLYBEZIER, *PEMRPOLYBEZIER, EMRPOLYGON, *PEMRPOLYGON, EMRPOLYBEZIERTO, *PEMRPOLYBEZIERTO, EMRPOLYLINETO, *PEMRPOLYLINETO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EMRPOLYLINE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EMRPOLYLINE, *PEMRPOLYLINE, EMRPOLYBEZIER, *PEMRPOLYBEZIER, EMRPOLYGON, *PEMRPOLYGON, EMRPOLYBEZIERTO, *PEMRPOLYBEZIERTO, EMRPOLYLINETO, *PEMRPOLYLINETO
+req.redist: 
 ---
 
 # tagEMRPOLYLINE structure

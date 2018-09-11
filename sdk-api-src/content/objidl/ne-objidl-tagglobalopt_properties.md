@@ -4,17 +4,16 @@ title: tagGLOBALOPT_PROPERTIES
 author: windows-sdk-content
 description: Identifies process-global options that you can set or query by using the IGlobalOptions interface.
 old-location: com\globalopt_properties.htm
-old-project: com
+tech.root: com
 ms.assetid: 210BAEAF-D6FF-46E0-A187-D89EBB655B9C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: COMGLB_APPID, COMGLB_EXCEPTION_HANDLING, COMGLB_RO_SETTINGS, COMGLB_RPC_THREADPOOL_SETTING, COMGLB_UNMARSHALING_POLICY, GLOBALOPT_PROPERTIES, GLOBALOPT_PROPERTIES enumeration [COM], com.globalopt_properties, objidl/COMGLB_APPID, objidl/COMGLB_EXCEPTION_HANDLING, objidl/COMGLB_RO_SETTINGS, objidl/COMGLB_RPC_THREADPOOL_SETTING, objidl/COMGLB_UNMARSHALING_POLICY, objidl/GLOBALOPT_PROPERTIES, tagGLOBALOPT_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidl.h
 req.include-header: Objidlbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GLOBALOPT_PROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GLOBALOPT_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: GLOBALOPT_PROPERTIES
+req.redist: 
 ---
 
 # tagGLOBALOPT_PROPERTIES enumeration

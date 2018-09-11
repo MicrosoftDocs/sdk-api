@@ -4,17 +4,16 @@ title: IObjContext
 author: windows-sdk-content
 description: Performs various operations on contexts.
 old-location: com\iobjcontext.htm
-old-project: com
+tech.root: com
 ms.assetid: 983615a1-cfa2-4137-8c7e-42e2ef6923a8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IObjContext, IObjContext interface [COM], IObjContext interface [COM],described, _com_iobjcontext, com.iobjcontext, objidlbase/IObjContext
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - IObjContext.Reserved7
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IObjContext interface

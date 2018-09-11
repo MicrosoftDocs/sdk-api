@@ -4,17 +4,16 @@ title: "_IKEV2_PROJECTION_INFO"
 author: windows-sdk-content
 description: Contains information obtained during Internet Key Exchange (IKE) negotiation.
 old-location: rras\ikev2_projection_info.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 092ccaf9-d109-41a8-aa45-cf39f6bb70ca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PIKEV2_PROJECTION_INFO, IKEV2_PROJECTION_INFO, IKEV2_PROJECTION_INFO structure [RAS], IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, MPRAPI_IKEV2_AUTH_USING_CERT, MPRAPI_IKEV2_AUTH_USING_EAP, PIKEV2_PROJECTION_INFO, PIKEV2_PROJECTION_INFO structure pointer [RAS], _IKEV2_PROJECTION_INFO, mprapi/IKEV2_PROJECTION_INFO, mprapi/PIKEV2_PROJECTION_INFO, rras.ikev2_projection_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEV2_PROJECTION_INFO, *PIKEV2_PROJECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEV2_PROJECTION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEV2_PROJECTION_INFO, *PIKEV2_PROJECTION_INFO
+req.redist: 
 ---
 
 # _IKEV2_PROJECTION_INFO structure

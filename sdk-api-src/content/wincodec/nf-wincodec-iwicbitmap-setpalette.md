@@ -4,17 +4,16 @@ title: IWICBitmap::SetPalette
 author: windows-sdk-content
 description: Provides access for palette modifications.
 old-location: wic\_wic_codec_iwicbitmap_setpalette.htm
-old-project: wic
+tech.root: wic
 ms.assetid: a46c968e-9ff0-479e-8f98-0d2fbbc5d6b0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICBitmap interface [Windows Imaging Component],SetPalette method, IWICBitmap.SetPalette, IWICBitmap::SetPalette, SetPalette, SetPalette method [Windows Imaging Component], SetPalette method [Windows Imaging Component],IWICBitmap interface, _wic_codec_iwicbitmap_setpalette, wic._wic_codec_iwicbitmap_setpalette, wincodec/IWICBitmap::SetPalette
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmap.SetPalette
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmap::SetPalette

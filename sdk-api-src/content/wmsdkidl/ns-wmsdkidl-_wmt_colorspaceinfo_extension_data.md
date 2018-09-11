@@ -4,7 +4,7 @@ title: "_WMT_COLORSPACEINFO_EXTENSION_DATA"
 author: windows-sdk-content
 description: The WMT_COLORSPACEINFO_EXTENSION_DATA structure contains information about the color format of output video samples. It is used as the value for the WM_SampleExtensionGUID_ColorSpaceInfo data unit extension.
 old-location: wmformat\wmt_colorspaceinfo_extension_data.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 0d512d6a-95d5-4ca1-aee2-ca19319e1b83
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMT_COLORSPACEINFO_EXTENSION_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMT_COLORSPACEINFO_EXTENSION_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMT_COLORSPACEINFO_EXTENSION_DATA
+req.redist: 
 ---
 
 # _WMT_COLORSPACEINFO_EXTENSION_DATA structure

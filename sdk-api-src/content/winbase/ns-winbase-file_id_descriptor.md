@@ -4,7 +4,7 @@ title: FILE_ID_DESCRIPTOR
 author: windows-sdk-content
 description: Specifies the type of ID that is being used.
 old-location: fs\file_id_descriptor.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 9092a701-3b47-4c4c-8221-54fa3220d322
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: Windows SDK on     Windows Server 2003 and Windows XP.
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_ID_DESCRIPTOR, *LPFILE_ID_DESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FILE_ID_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FILE_ID_DESCRIPTOR, *LPFILE_ID_DESCRIPTOR
+req.redist: Windows SDK on     Windows Server 2003 and Windows XP.
 ---
 
 # FILE_ID_DESCRIPTOR structure

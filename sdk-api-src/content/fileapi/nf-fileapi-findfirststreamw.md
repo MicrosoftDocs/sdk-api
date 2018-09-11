@@ -4,17 +4,16 @@ title: FindFirstStreamW function
 author: windows-sdk-content
 description: Enumerates the first stream with a ::$DATA stream type in the specified file or directory.
 old-location: fs\findfirststreamw.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: aab3af94-a2e0-45ad-a846-f457408a19d5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FindFirstStreamW, FindFirstStreamW function [Files], FindStreamInfoStandard, _win32_findfirststreamw, base.findfirststreamw, fileapi/FindFirstStreamW, fs.findfirststreamw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - FindFirstStreamW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FindFirstStreamW function

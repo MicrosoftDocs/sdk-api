@@ -4,17 +4,16 @@ title: ISynchronize::Reset
 author: windows-sdk-content
 description: Sets the synchronization object to the nonsignaled state.
 old-location: com\isynchronize_reset.htm
-old-project: com
+tech.root: com
 ms.assetid: 33c56a33-9954-4612-ba0f-396ccdc48bf3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISynchronize interface [COM],Reset method, ISynchronize.Reset, ISynchronize::Reset, Reset, Reset method [COM], Reset method [COM],ISynchronize interface, _com_isynchronize_reset, com.isynchronize_reset, objidlbase/ISynchronize::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISynchronize.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISynchronize::Reset

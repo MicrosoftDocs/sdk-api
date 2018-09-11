@@ -4,17 +4,16 @@ title: IDCompositionVisual::RemoveVisual
 author: windows-sdk-content
 description: Removes a child visual from the children list of this visual.
 old-location: directcomp\idcompositionvisual_removevisual.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: d77161b1-cb35-40a7-a51c-4b44ea320e78
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],RemoveVisual method, IDCompositionVisual.RemoveVisual, IDCompositionVisual::RemoveVisual, RemoveVisual, RemoveVisual method [DirectComposition], RemoveVisual method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::RemoveVisual, directcomp.idcompositionvisual_removevisual
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionVisual.RemoveVisual
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionVisual::RemoveVisual

@@ -4,17 +4,16 @@ title: IEnumWIA_FORMAT_INFO::Next
 author: windows-sdk-content
 description: The IEnumWIA_FORMAT_INFO::Next method returns an array of WIA_FORMAT_INFO structures.
 old-location: wia\_wia_IEnumWIA_FORMAT_INFO_Next.htm
-old-project: wia
+tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_format_info\next.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumWIA_FORMAT_INFO interface [WIA],Next method, IEnumWIA_FORMAT_INFO.Next, IEnumWIA_FORMAT_INFO::Next, Next, Next method [WIA], Next method [WIA],IEnumWIA_FORMAT_INFO interface, _wia_IEnumWIA_FORMAT_INFO_Next, wia._wia_IEnumWIA_FORMAT_INFO_Next, wia_xp/IEnumWIA_FORMAT_INFO::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIAVIDEO_STATE
+req.lib: Wiaguid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEnumWIA_FORMAT_INFO.Next
 product: Windows
 targetos: Windows
-req.lib: Wiaguid.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumWIA_FORMAT_INFO::Next

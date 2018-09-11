@@ -4,17 +4,16 @@ title: INameSpaceTreeAccessible
 author: windows-sdk-content
 description: Exposes methods that perform accessibility actions on a Shell item from a namespace tree control.
 old-location: shell\INameSpaceTreeAccessible.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b14dfe40-e21a-4208-835f-e0febef60783
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeAccessible, INameSpaceTreeAccessible interface [Windows Shell], INameSpaceTreeAccessible interface [Windows Shell],described, _shell_INameSpaceTreeAccessible, shell.INameSpaceTreeAccessible, shobjidl/INameSpaceTreeAccessible
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeAccessible
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Shimgvw.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeAccessible interface

@@ -4,7 +4,7 @@ title: IBitsPeerCacheAdministration
 author: windows-sdk-content
 description: Use IBitsPeerCacheAdministration to manage the pool of peers from which you can download content.
 old-location: bits\ibitspeercacheadministration.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 5fa30b4e-f13c-4341-af65-a2e3d2703b96
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBitsPeerCacheAdministration
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: BitsPrx4.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBitsPeerCacheAdministration interface

@@ -4,17 +4,16 @@ title: IMediaFilter::Run
 author: windows-sdk-content
 description: The Run method runs the filter.
 old-location: dshow\imediafilter_run.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ec422312-bbc2-4b66-b2cd-1a9eebd1eee1
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaFilter interface [DirectShow],Run method, IMediaFilter.Run, IMediaFilter::Run, IMediaFilterRun, Run, Run method [DirectShow], Run method [DirectShow],IMediaFilter interface, dshow.imediafilter_run, strmif/IMediaFilter::Run
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaFilter.Run
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaFilter::Run

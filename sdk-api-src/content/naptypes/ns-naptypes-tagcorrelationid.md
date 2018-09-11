@@ -4,7 +4,7 @@ title: tagCorrelationId
 author: windows-sdk-content
 description: Is used to pair SoHRequests with SoHResponses and uniquely describes an SoH exchange.
 old-location: nap\correlationid_struct.htm
-old-project: nap
+tech.root: nap
 ms.assetid: 99e5bad8-47dd-447b-bd8d-e35ae765808b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CorrelationId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CorrelationId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: CorrelationId
+req.redist: 
 ---
 
 # tagCorrelationId structure

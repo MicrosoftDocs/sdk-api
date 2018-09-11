@@ -4,7 +4,7 @@ title: "_MIB_TCPSTATS2"
 author: windows-sdk-content
 description: Contains statistics for the TCP protocol running on the local computer.
 old-location: mib\mib_tcpstats2.htm
-old-project: mib
+tech.root: mib
 ms.assetid: A32AA866-406B-4BE0-A4F1-5EBC9DFD646D
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_TCPSTATS2, *PMIB_TCPSTATS2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_TCPSTATS2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: MIB_TCPSTATS2, *PMIB_TCPSTATS2
+req.redist: 
 ---
 
 # _MIB_TCPSTATS2 structure

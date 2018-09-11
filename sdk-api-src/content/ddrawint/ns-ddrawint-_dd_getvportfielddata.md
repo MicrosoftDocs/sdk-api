@@ -4,7 +4,7 @@ title: "_DD_GETVPORTFIELDDATA"
 author: windows-sdk-content
 description: The DD_GETVPORTFIELDDATA structure contains the information required for the driver to determine whether the current field of an interlaced signal is even or odd.
 old-location: display\dd_getvportfielddata.htm
-old-project: display
+tech.root: display
 ms.assetid: 549956f8-c39f-4cc3-b72a-b1e3785463e8
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_GETVPORTFIELDDATA, DD_GETVPORTFIELDDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_GETVPORTFIELDDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_GETVPORTFIELDDATA, DD_GETVPORTFIELDDATA"
+req.redist: 
 ---
 
 # _DD_GETVPORTFIELDDATA structure

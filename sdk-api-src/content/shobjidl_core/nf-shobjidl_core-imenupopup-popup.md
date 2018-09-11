@@ -4,17 +4,16 @@ title: IMenuPopup::Popup
 author: windows-sdk-content
 description: Invokes the shortcut menu at a specified onscreen location.
 old-location: shell\IMenuPopup_Popup.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2f889955-9c6d-4b6c-ae04-389d2bff3bd9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IMenuPopup interface [Windows Shell],Popup method, IMenuPopup.Popup, IMenuPopup::Popup, MPPF_ALIGN_LEFT, MPPF_ALIGN_RIGHT, MPPF_BOTTOM, MPPF_FINALSELECT, MPPF_FORCEZORDER, MPPF_INITIALSELECT, MPPF_KEYBOARD, MPPF_LEFT, MPPF_NOANIMATE, MPPF_POS_MASK, MPPF_REPOSITION, MPPF_RIGHT, MPPF_SETFOCUS, MPPF_TOP, Popup, Popup method [Windows Shell], Popup method [Windows Shell],IMenuPopup interface, _win32_IMenuPopup_Popup, shell.IMenuPopup_Popup, shobjidl_core/IMenuPopup::Popup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMenuPopup.Popup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IMenuPopup::Popup

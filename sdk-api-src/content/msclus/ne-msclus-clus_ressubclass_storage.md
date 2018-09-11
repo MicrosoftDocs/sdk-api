@@ -4,17 +4,16 @@ title: CLUS_RESSUBCLASS_STORAGE
 author: windows-sdk-content
 description: Identifies a resource subclass that manages a shared bus.
 old-location: mscs\clus_ressubclass_storage.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 10e2fe05-ea17-4f9d-a26d-eed6aa3abb04
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUS_RESSUBCLASS_STORAGE, CLUS_RESSUBCLASS_STORAGE enumeration [Failover Cluster], CLUS_RESSUBCLASS_STORAGE_DISK, CLUS_RESSUBCLASS_STORAGE_REPLICATION, CLUS_RESSUBCLASS_STORAGE_SHARED_BUS, clusapi/CLUS_RESSUBCLASS_STORAGE, clusapi/CLUS_RESSUBCLASS_STORAGE_DISK, clusapi/CLUS_RESSUBCLASS_STORAGE_REPLICATION, clusapi/CLUS_RESSUBCLASS_STORAGE_SHARED_BUS, msclus/CLUS_RESSUBCLASS_STORAGE, msclus/CLUS_RESSUBCLASS_STORAGE_DISK, msclus/CLUS_RESSUBCLASS_STORAGE_REPLICATION, msclus/CLUS_RESSUBCLASS_STORAGE_SHARED_BUS, mscs.clus_ressubclass_storage
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_RESSUBCLASS_STORAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUS_RESSUBCLASS_STORAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUS_RESSUBCLASS_STORAGE
+req.redist: 
 ---
 
 # CLUS_RESSUBCLASS_STORAGE enumeration

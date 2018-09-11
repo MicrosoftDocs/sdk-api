@@ -4,17 +4,16 @@ title: IWMDRMReader::MonitorLicenseAcquisition
 author: windows-sdk-content
 description: The MonitorLicenseAcquisition method, in non-silent license acquisition, informs the application when a license has been successfully acquired.
 old-location: wmformat\iwmdrmreader_monitorlicenseacquisition.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 0b15dce6-7591-479a-b28e-5006418a1c7b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMDRMReader interface [windows Media Format],MonitorLicenseAcquisition method, IWMDRMReader.MonitorLicenseAcquisition, IWMDRMReader::MonitorLicenseAcquisition, IWMDRMReaderMonitorLicenseAcquisition, MonitorLicenseAcquisition, MonitorLicenseAcquisition method [windows Media Format], MonitorLicenseAcquisition method [windows Media Format],IWMDRMReader interface, wmformat.iwmdrmreader_monitorlicenseacquisition, wmsdkidl/IWMDRMReader::MonitorLicenseAcquisition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: WMStubDRM.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDRMReader.MonitorLicenseAcquisition
 product: Windows
 targetos: Windows
-req.lib: WMStubDRM.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDRMReader::MonitorLicenseAcquisition

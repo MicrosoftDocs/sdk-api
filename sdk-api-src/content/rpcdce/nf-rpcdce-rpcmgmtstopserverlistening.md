@@ -4,17 +4,16 @@ title: RpcMgmtStopServerListening function
 author: windows-sdk-content
 description: The RpcMgmtStopServerListening function tells a server to stop listening for remote procedure calls. This function will not affect auto-listen interfaces. See RpcServerRegisterIfEx for more details.
 old-location: rpc\rpcmgmtstopserverlistening.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: aeb6084a-e2ea-4468-85f8-2ae6cc4dbe84
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcMgmtStopServerListening, RpcMgmtStopServerListening function [RPC], _rpc_rpcmgmtstopserverlistening, rpc.rpcmgmtstopserverlistening, rpcdce/RpcMgmtStopServerListening
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcMgmtStopServerListening
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcMgmtStopServerListening function

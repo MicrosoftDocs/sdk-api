@@ -4,17 +4,16 @@ title: "_WS_SECURITY_BINDING_CONSTRAINT"
 author: windows-sdk-content
 description: The base class for all security binding constraint structures.
 old-location: wsw\ws_security_binding_constraint.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: d79795ea-6780-4d13-9d40-bd1ea7cd5113
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SECURITY_BINDING_CONSTRAINT, WS_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], _WS_SECURITY_BINDING_CONSTRAINT, webservices/WS_SECURITY_BINDING_CONSTRAINT, wsw.ws_security_binding_constraint
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_BINDING_CONSTRAINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SECURITY_BINDING_CONSTRAINT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SECURITY_BINDING_CONSTRAINT
+req.redist: 
 ---
 
 # _WS_SECURITY_BINDING_CONSTRAINT structure

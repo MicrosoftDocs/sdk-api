@@ -4,17 +4,16 @@ title: ICertEncodeBitString::Decode
 author: windows-sdk-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded bit string and stores the resulting bit string in this object.
 old-location: security\icertencodebitstring_decode.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 65856db4-97db-4c9b-ac12-1a9262c7b4e9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertEncodeBitString object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeBitString object, Decode method [Security],ICertEncodeBitString interface, ICertEncodeBitString interface [Security],Decode method, ICertEncodeBitString.Decode, ICertEncodeBitString::Decode, _certsrv_icertencodebitstring_decode, certenc/ICertEncodeBitString::Decode, security.icertencodebitstring_decode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeBitString.Decode
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeBitString::Decode

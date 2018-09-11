@@ -4,17 +4,16 @@ title: ISearchProtocol::CreateAccessor
 author: windows-sdk-content
 description: Creates and initializes an IUrlAccessor object.
 old-location: search\_search_ISearchProtocol_CreateAccessor.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\createaccessor.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CreateAccessor, CreateAccessor method [search], CreateAccessor method [search],ISearchProtocol interface, ISearchProtocol interface [search],CreateAccessor method, ISearchProtocol.CreateAccessor, ISearchProtocol::CreateAccessor, _search_ISearchProtocol_CreateAccessor, search._search_ISearchProtocol_CreateAccessor, searchapi/ISearchProtocol::CreateAccessor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchProtocol.CreateAccessor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # ISearchProtocol::CreateAccessor

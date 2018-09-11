@@ -4,7 +4,7 @@ title: IVideoProcAmp
 author: windows-sdk-content
 description: The IVideoProcAmp interface controls the image adjustment (ProcAmp) settings on a capture device.This interface may be exposed by one or more nodes in a capture filter.
 old-location: dshow\ivideoprocamp.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: efaef34a-688a-4c7d-b8ee-e0f52468e355
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVideoProcAmp
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoProcAmp interface

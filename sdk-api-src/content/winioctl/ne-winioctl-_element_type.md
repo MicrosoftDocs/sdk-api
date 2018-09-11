@@ -4,7 +4,7 @@ title: "_ELEMENT_TYPE"
 author: windows-sdk-content
 description: Specifies the element type of a changer device.
 old-location: base\element_type_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: b026d0f5-133d-4138-a727-80bf4480bb74
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ELEMENT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
+req.redist: 
 ---
 
 # _ELEMENT_TYPE enumeration

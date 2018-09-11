@@ -4,17 +4,16 @@ title: "_SOCKET_PEER_TARGET_NAME"
 author: windows-sdk-content
 description: Contains the IP address and name for a peer target and the type of security protocol to be used on a socket.
 old-location: winsock\socket_peer_target_name.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 6e807cc3-f9de-4d15-b337-4a6b4be910c2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SOCKET_PEER_TARGET_NAME, SOCKET_PEER_TARGET_NAME structure [Winsock], _SOCKET_PEER_TARGET_NAME, mstcpip/SOCKET_PEER_TARGET_NAME, winsock.socket_peer_target_name
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstcpip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKET_PEER_TARGET_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SOCKET_PEER_TARGET_NAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SOCKET_PEER_TARGET_NAME
+req.redist: 
 ---
 
 # _SOCKET_PEER_TARGET_NAME structure

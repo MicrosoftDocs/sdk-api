@@ -4,17 +4,16 @@ title: IStreamBufferRecComp::Cancel
 author: windows-sdk-content
 description: The Cancel method cancels an append operation, if one is in progress. Otherwise, it has no effect.
 old-location: mstv\istreambufferreccomp_cancel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d7355f5d-034c-404f-b6c7-02c04c87285d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Cancel, Cancel method [Microsoft TV Technologies], Cancel method [Microsoft TV Technologies],IStreamBufferRecComp interface, IStreamBufferRecComp interface [Microsoft TV Technologies],Cancel method, IStreamBufferRecComp.Cancel, IStreamBufferRecComp::Cancel, IStreamBufferRecCompCancel, mstv.istreambufferreccomp_cancel, sbe/IStreamBufferRecComp::Cancel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferRecComp.Cancel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferRecComp::Cancel

@@ -4,7 +4,7 @@ title: "_ONEX_REASON_CODE"
 author: windows-sdk-content
 description: Specifies the possible values that indicate the reason that 802.1X authentication failed.
 old-location: nwifi\onex_reason_code.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 9ce6ff56-946c-4058-b9a6-33dab4124c24
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dot1x.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ONEX_REASON_CODE, PONEX_REASON_CODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ONEX_REASON_CODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ONEX_REASON_CODE, PONEX_REASON_CODE
+req.redist: 
 ---
 
 # _ONEX_REASON_CODE enumeration

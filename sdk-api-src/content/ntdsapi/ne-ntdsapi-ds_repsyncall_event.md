@@ -4,7 +4,7 @@ title: DS_REPSYNCALL_EVENT
 author: windows-sdk-content
 description: The DS_REPSYNCALL_EVENT enumeration is used with the DS_REPSYNCALL_UPDATE structure to define which event the DS_REPSYNCALL_UPDATE structure represents.
 old-location: ad\ds_repsyncall_event.htm
-old-project: ad
+tech.root: ad
 ms.assetid: a732a906-0e26-45f6-b89c-58f2277057ba
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPSYNCALL_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DS_REPSYNCALL_EVENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: Any level
-req.product: Rights Management Services client 1.0 or later
+req.typenames: DS_REPSYNCALL_EVENT
+req.redist: 
 ---
 
 # DS_REPSYNCALL_EVENT enumeration

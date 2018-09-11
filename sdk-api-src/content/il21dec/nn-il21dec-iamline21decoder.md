@@ -4,7 +4,7 @@ title: IAMLine21Decoder
 author: windows-sdk-content
 description: The IAMLine21Decoder interface sets and retrieves information about closed captions.The Line 21 Decoder filter exposes this interface.
 old-location: dshow\iamline21decoder.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b6fbb5c3-28af-4db6-8dc4-82271b69bf71
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: il21dec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMLine21Decoder
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMLine21Decoder interface

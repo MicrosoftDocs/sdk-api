@@ -4,17 +4,16 @@ title: IAMBufferNegotiation::GetAllocatorProperties
 author: windows-sdk-content
 description: The GetAllocatorProperties method retrieves the allocator properties that the pin is using.
 old-location: dshow\iambuffernegotiation_getallocatorproperties.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 85bbb900-772c-4091-83e3-f2a5dd198d39
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetAllocatorProperties, GetAllocatorProperties method [DirectShow], GetAllocatorProperties method [DirectShow],IAMBufferNegotiation interface, IAMBufferNegotiation interface [DirectShow],GetAllocatorProperties method, IAMBufferNegotiation.GetAllocatorProperties, IAMBufferNegotiation::GetAllocatorProperties, IAMBufferNegotiationGetAllocatorProperties, dshow.iambuffernegotiation_getallocatorproperties, strmif/IAMBufferNegotiation::GetAllocatorProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMBufferNegotiation.GetAllocatorProperties
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMBufferNegotiation::GetAllocatorProperties

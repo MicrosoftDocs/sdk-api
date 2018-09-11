@@ -4,7 +4,7 @@ title: ITfCandidateListUIElementBehavior
 author: windows-sdk-content
 description: This interface is implemented by a text service that has a candidate list UI and its UI can be controlled by the application. The application QI this interface from ITfUIElement and controls the candidate list behavior.
 old-location: tsf\itfcandidatelistuielementbehavior.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 3e1c53c6-f356-4b60-bb85-0f5a7251219d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfCandidateListUIElementBehavior
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Imekrcic.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfCandidateListUIElementBehavior interface

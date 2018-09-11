@@ -4,17 +4,16 @@ title: IDWriteGdiInterop::ConvertFontFaceToLOGFONT
 author: windows-sdk-content
 description: Initializes a LOGFONT structure based on the GDI-compatible properties of the specified font.
 old-location: directwrite\IDWriteGdiInterop_ConvertFontFaceToLOGFONT.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 1f863d1b-fdf5-4c2b-97ff-682b22c61a81
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: ConvertFontFaceToLOGFONT, ConvertFontFaceToLOGFONT method [Direct Write], ConvertFontFaceToLOGFONT method [Direct Write],IDWriteGdiInterop interface, IDWriteGdiInterop interface [Direct Write],ConvertFontFaceToLOGFONT method, IDWriteGdiInterop.ConvertFontFaceToLOGFONT, IDWriteGdiInterop::ConvertFontFaceToLOGFONT, directwrite.IDWriteGdiInterop_ConvertFontFaceToLOGFONT, dwrite/IDWriteGdiInterop::ConvertFontFaceToLOGFONT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteGdiInterop.ConvertFontFaceToLOGFONT
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteGdiInterop::ConvertFontFaceToLOGFONT

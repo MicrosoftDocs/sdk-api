@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::AddOverlayDirtyRect
 author: windows-sdk-content
 description: The IDirectDrawSurface7::AddOverlayDirtyRect method is not currently implemented.
 old-location: directdraw\idirectdrawsurface7_addoverlaydirtyrect.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 4ddd02ff-9e7f-4962-8954-0032f23959cd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddOverlayDirtyRect, AddOverlayDirtyRect method [DirectDraw], AddOverlayDirtyRect method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],AddOverlayDirtyRect method, IDirectDrawSurface7.AddOverlayDirtyRect, IDirectDrawSurface7::AddOverlayDirtyRect, ddraw/IDirectDrawSurface7::AddOverlayDirtyRect, directdraw.idirectdrawsurface7_addoverlaydirtyrect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.AddOverlayDirtyRect
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::AddOverlayDirtyRect

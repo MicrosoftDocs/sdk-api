@@ -4,17 +4,16 @@ title: SHRegGetBoolValueFromHKCUHKLM function
 author: windows-sdk-content
 description: Evaluates a registry key value and returns a boolean value that reflects whether the value exists and the expected state matches the actual state.
 old-location: shell\SHRegGetBoolValueFromHKCUHKLM.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 05239aef-a6cf-426f-919e-08b70baee3f8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHRegGetBoolValueFromHKCUHKLM, SHRegGetBoolValueFromHKCUHKLM function [Windows Shell], _shell_SHRegGetBoolValueFromHKCUHKLM, shell.SHRegGetBoolValueFromHKCUHKLM, shlwapi/SHRegGetBoolValueFromHKCUHKLM
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHRegGetBoolValueFromHKCUHKLM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHRegGetBoolValueFromHKCUHKLM function

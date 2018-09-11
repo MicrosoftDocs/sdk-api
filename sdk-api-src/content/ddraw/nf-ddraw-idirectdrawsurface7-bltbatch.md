@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::BltBatch
 author: windows-sdk-content
 description: The IDirectDrawSurface7::BltBatch method is not currently implemented.
 old-location: directdraw\idirectdrawsurface7_bltbatch.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 50c071a6-2963-474e-994e-c789b1924d92
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BltBatch, BltBatch method [DirectDraw], BltBatch method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],BltBatch method, IDirectDrawSurface7.BltBatch, IDirectDrawSurface7::BltBatch, ddraw/IDirectDrawSurface7::BltBatch, directdraw.idirectdrawsurface7_bltbatch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.BltBatch
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::BltBatch
@@ -61,9 +60,19 @@ The <b>IDirectDrawSurface7::BltBatch</b> method is not currently implemented.
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
 
 
 

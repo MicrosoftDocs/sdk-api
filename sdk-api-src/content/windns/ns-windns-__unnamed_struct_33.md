@@ -4,7 +4,7 @@ title: DNS_NAPTR_DATAA
 author: windows-sdk-content
 description: The DNS_NAPTR_DATA structure represents a Naming Authority Pointer (NAPTR) DNS Resource Record (RR) as specified in RFC 2915.
 old-location: dns\dns_naptr_data.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 8f576efb-4ef3-4fc0-8cf5-d373460a3b3c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_NAPTR_DATAA, *PDNS_NAPTR_DATAA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_NAPTR_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_NAPTR_DATAA, *PDNS_NAPTR_DATAA
+req.redist: 
 ---
 
 # DNS_NAPTR_DATAA structure

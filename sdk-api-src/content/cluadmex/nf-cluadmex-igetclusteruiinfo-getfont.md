@@ -4,17 +4,16 @@ title: IGetClusterUIInfo::GetFont
 author: windows-sdk-content
 description: Returns a handle to the font to be displayed on property and wizard pages.
 old-location: mscs\igetclusteruiinfo_getfont.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 87dc900d-eee3-4e48-8294-a1d5c3a95179
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetFont, GetFont method [Failover Cluster], GetFont method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetFont method, IGetClusterUIInfo.GetFont, IGetClusterUIInfo::GetFont, _wolf_igetclusteruiinfo_getfont, cluadmex/IGetClusterUIInfo::GetFont, mscs.igetclusteruiinfo_getfont
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetClusterUIInfo.GetFont
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetClusterUIInfo::GetFont

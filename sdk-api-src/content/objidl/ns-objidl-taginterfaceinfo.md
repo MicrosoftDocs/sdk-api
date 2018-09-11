@@ -4,17 +4,16 @@ title: tagINTERFACEINFO
 author: windows-sdk-content
 description: Contains information about incoming calls.
 old-location: com\interfaceinfo.htm
-old-project: com
+tech.root: com
 ms.assetid: 5c2c07bf-1c15-4f21-baef-103837ea24d0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPINTERFACEINFO, INTERFACEINFO, INTERFACEINFO structure [COM], LPINTERFACEINFO, LPINTERFACEINFO structure pointer [COM], _com_INTERFACEINFO, com.interfaceinfo, objidl/INTERFACEINFO, objidl/LPINTERFACEINFO, tagINTERFACEINFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: ObjIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERFACEINFO, *LPINTERFACEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERFACEINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: INTERFACEINFO, *LPINTERFACEINFO
+req.redist: 
 ---
 
 # tagINTERFACEINFO structure

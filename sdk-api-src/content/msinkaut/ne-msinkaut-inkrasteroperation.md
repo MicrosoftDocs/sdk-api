@@ -4,17 +4,16 @@ title: InkRasterOperation
 author: windows-sdk-content
 description: Defines values for performing raster operations on drawn ink.
 old-location: tablet\inkrasteroperation.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 34403724-b883-4c03-8784-fe8f205d3da6
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 34403724-b883-4c03-8784-fe8f205d3da6, IRO_Black, IRO_CopyPen, IRO_MaskNotPen, IRO_MaskPen, IRO_MaskPenNot, IRO_MergeNotPen, IRO_MergePen, IRO_MergePenNot, IRO_NoOperation, IRO_Not, IRO_NotCopyPen, IRO_NotMaskPen, IRO_NotMergePen, IRO_NotXOrPen, IRO_White, IRO_XOrPen, InkRasterOperation, InkRasterOperation enumeration [Tablet PC], msinkaut/IRO_Black, msinkaut/IRO_CopyPen, msinkaut/IRO_MaskNotPen, msinkaut/IRO_MaskPen, msinkaut/IRO_MaskPenNot, msinkaut/IRO_MergeNotPen, msinkaut/IRO_MergePen, msinkaut/IRO_MergePenNot, msinkaut/IRO_NoOperation, msinkaut/IRO_Not, msinkaut/IRO_NotCopyPen, msinkaut/IRO_NotMaskPen, msinkaut/IRO_NotMergePen, msinkaut/IRO_NotXOrPen, msinkaut/IRO_White, msinkaut/IRO_XOrPen, msinkaut/InkRasterOperation, tablet.inkrasteroperation
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRasterOperation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InkRasterOperation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkRasterOperation
+req.redist: 
 ---
 
 # InkRasterOperation enumeration

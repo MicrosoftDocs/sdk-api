@@ -4,17 +4,16 @@ title: IGPM::GetDomain
 author: windows-sdk-content
 description: Creates and returns a GPMDomain object that corresponds to the specified domain.
 old-location: gpmc\igpm_getdomain.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 32aee72f-96fa-4ebd-9ff7-643972b82cf6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPM object [GPMC],GetDomain method, GetDomain, GetDomain method [GPMC], GetDomain method [GPMC],GPM object, GetDomain method [GPMC],IGPM interface, IGPM interface [GPMC],GetDomain method, IGPM.GetDomain, IGPM::GetDomain, _win32_igpm_getdomain, gpmc.igpm_getdomain, gpmgmt/IGPM::GetDomain
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPM.GetDomain
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPM::GetDomain
@@ -89,7 +87,7 @@ If this parameter is set to zero, and a <i>bstrDomainController</i> is specified
 
 ### -param pIGPMDomain
 
-
+TBD
 
 
 

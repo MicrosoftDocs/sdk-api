@@ -4,17 +4,16 @@ title: "_FILESHARE_CHANGE_ENUM"
 author: windows-sdk-content
 description: Contains the possible change events that are used by the FILESHARE_CHANGE structure to describe an entry in a file share event notification list.
 old-location: mscs\fileshare_change_enum.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 36139a95-141c-4f44-9627-9ed6c3fed0c5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PFILESHARE_CHANGE_ENUM, FILESHARE_CHANGE_ADD, FILESHARE_CHANGE_DEL, FILESHARE_CHANGE_ENUM, FILESHARE_CHANGE_ENUM enumeration [Failover Cluster], FILESHARE_CHANGE_MODIFY, FILESHARE_CHANGE_NONE, _FILESHARE_CHANGE_ENUM, clusapi/FILESHARE_CHANGE_ADD, clusapi/FILESHARE_CHANGE_DEL, clusapi/FILESHARE_CHANGE_ENUM, clusapi/FILESHARE_CHANGE_MODIFY, clusapi/FILESHARE_CHANGE_NONE, mscs.fileshare_change_enum"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: CluAdmEx.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILESHARE_CHANGE_ENUM, *PFILESHARE_CHANGE_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - FILESHARE_CHANGE_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: FILESHARE_CHANGE_ENUM, *PFILESHARE_CHANGE_ENUM
+req.redist: 
 ---
 
 # _FILESHARE_CHANGE_ENUM enumeration

@@ -4,17 +4,16 @@ title: Mem_Resource_s
 author: windows-sdk-content
 description: The MEM_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
 old-location: devinst\mem_resource.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 42ecd736-abd3-4ac8-82bb-6bb69af1d96d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PMEM_RESOURCE, MEM_RESOURCE, MEM_RESOURCE structure [Device and Driver Installation], Mem_Resource_s, PMEM_RESOURCE, PMEM_RESOURCE structure pointer [Device and Driver Installation], cfgmgr32/MEM_RESOURCE, cfgmgr32/PMEM_RESOURCE, cfgmgrst_ab2f2f67-e38b-45b4-9b63-617d730f8cc8.xml, devinst.mem_resource"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MEM_RESOURCE, *PMEM_RESOURCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MEM_RESOURCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: MEM_RESOURCE, *PMEM_RESOURCE
+req.redist: 
 ---
 
 # Mem_Resource_s structure

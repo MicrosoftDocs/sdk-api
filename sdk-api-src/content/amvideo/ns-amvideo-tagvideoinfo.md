@@ -4,7 +4,7 @@ title: tagVIDEOINFO
 author: windows-sdk-content
 description: The VIDEOINFO structure is equivalent to a VIDEOINFOHEADER structure, but it contains enough memory to hold three color masks plus a color table with 256 colors.If you are writing a video filter, you can use this structure to guarantee that the format block always has enough memory to contain the largest possible VIDEOINFOHEADER structure.
 old-location: dshow\videoinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f08a449c-fed4-400b-a2fc-817bd59ba3fd
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: amvideo.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIDEOINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - VIDEOINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: VIDEOINFO
+req.redist: 
 ---
 
 # tagVIDEOINFO structure

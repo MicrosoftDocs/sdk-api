@@ -4,17 +4,16 @@ title: IWTSSBPlugin::WTSSBX_MachineChangeNotification
 author: windows-sdk-content
 description: Notifies the plug-in that a change occurred in the server environment.
 old-location: termserv\iwtssbplugin_wtssbx_machinechangenotification.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 226ca68e-6c3d-4160-a569-ca0b92cb9316
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],WTSSBX_MachineChangeNotification method, IWTSSBPlugin.WTSSBX_MachineChangeNotification, IWTSSBPlugin::WTSSBX_MachineChangeNotification, WTSSBX_MachineChangeNotification, WTSSBX_MachineChangeNotification method [Remote Desktop Services], WTSSBX_MachineChangeNotification method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_wtssbx_machinechangenotification, tssbx/IWTSSBPlugin::WTSSBX_MachineChangeNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tssbx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_NOTIFICATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSSBPlugin.WTSSBX_MachineChangeNotification
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSSBPlugin::WTSSBX_MachineChangeNotification

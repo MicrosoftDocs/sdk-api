@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxOutgoingJob.CopyTiff
 title: IFaxOutgoingJob::CopyTiff
 author: windows-sdk-content
-description: The CopyTiff method copies the Tagged Image File Format Class F (TIFF Class F) file associated with the outbound fax job, to a file on the local computer.
-old-location: fax\_mfax_faxoutgoingjob_copytiff_vb.htm
-old-project: Fax
+description: The IFaxOutgoingJob::CopyTiff method copies the Tagged Image File Format Class F (TIFF Class F) file associated with the outbound fax job, to a file on the local computer.
+old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_copytiff_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8mli.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: CopyTiff, CopyTiff method [Fax Service], CopyTiff method [Fax Service],FaxOutgoingJob object, FaxOutgoingJob object [Fax Service],CopyTiff method, FaxOutgoingJob.CopyTiff, IFaxOutgoingJob.CopyTiff, IFaxOutgoingJob::CopyTiff, _mfax_faxoutgoingjob.copytiff, fax._mfax_faxoutgoingjob_copytiff, fax._mfax_faxoutgoingjob_copytiff_vb
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: CopyTiff, CopyTiff method [Fax Service], CopyTiff method [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],CopyTiff method, IFaxOutgoingJob.CopyTiff, IFaxOutgoingJob::CopyTiff, _mfax_faxoutgoingjob.copytiff, fax._mfax_faxoutgoingjob_copytiff, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_copytiff_cpp, faxcomex/IFaxOutgoingJob::CopyTiff
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxOutgoingJob.CopyTiff
+ - IFaxOutgoingJob.CopyTiff
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxOutgoingJob::CopyTiff
@@ -52,7 +50,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>CopyTiff</b> method copies the Tagged Image File Format Class F (TIFF Class F) file associated with the outbound fax job, to a file on the local computer.
+The <b>IFaxOutgoingJob::CopyTiff</b> method copies the Tagged Image File Format Class F (TIFF Class F) file associated with the outbound fax job, to a file on the local computer.
 
 
 ## -parameters
@@ -62,9 +60,20 @@ The <b>CopyTiff</b> method copies the Tagged Image File Format Class F (TIFF Cl
 
 ### -param bstrTiffPath
 
-Type: <b>String</b>
+Type: <b>BSTR</b>
 
 Null-terminated string that contains a fully qualified path and file name on the local computer. The fax service will copy the TIFF Class F file associated with the outbound fax to the specified file.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
 
 
 ## -remarks

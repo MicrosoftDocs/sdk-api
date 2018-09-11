@@ -4,17 +4,16 @@ title: IDCompositionColorMatrixEffect::SetClampOutput
 author: windows-sdk-content
 description: Specifies whether the effect clamps color values to between 0 and 1 before the effects passes the values to the next effect in the chain.
 old-location: directcomp\idcompositioncolormatrixeffect_setclampoutput.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 2C4EF887-18CF-49A2-96F5-02B81939BBA9
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionColorMatrixEffect interface [DirectComposition],SetClampOutput method, IDCompositionColorMatrixEffect.SetClampOutput, IDCompositionColorMatrixEffect::SetClampOutput, SetClampOutput, SetClampOutput method [DirectComposition], SetClampOutput method [DirectComposition],IDCompositionColorMatrixEffect interface, dcomp/IDCompositionColorMatrixEffect::SetClampOutput, directcomp.idcompositioncolormatrixeffect_setclampoutput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionColorMatrixEffect.SetClampOutput
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionColorMatrixEffect::SetClampOutput

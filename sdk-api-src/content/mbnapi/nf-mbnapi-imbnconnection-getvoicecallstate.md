@@ -4,17 +4,16 @@ title: IMbnConnection::GetVoiceCallState
 author: windows-sdk-content
 description: Gets the voice call state of the device.
 old-location: mbn\imbnconnection_getvoicecallstate.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: a715f7c8-a001-41a2-9c1f-ca133568133b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetVoiceCallState, GetVoiceCallState method [Microsoft Broadband Networks], GetVoiceCallState method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],GetVoiceCallState method, IMbnConnection.GetVoiceCallState, IMbnConnection::GetVoiceCallState, mbn.imbnconnection_getvoicecallstate, mbnapi/IMbnConnection::GetVoiceCallState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnection.GetVoiceCallState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnection::GetVoiceCallState

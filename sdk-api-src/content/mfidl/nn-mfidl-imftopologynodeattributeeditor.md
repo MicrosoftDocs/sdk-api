@@ -4,7 +4,7 @@ title: IMFTopologyNodeAttributeEditor
 author: windows-sdk-content
 description: Updates the attributes of one or more nodes in the Media Session's current topology.
 old-location: mf\imftopologynodeattributeeditor.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9ab384b9-0ce9-428c-a683-b09dbd4e07d9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTopologyNodeAttributeEditor
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mfsensorgroup.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTopologyNodeAttributeEditor interface

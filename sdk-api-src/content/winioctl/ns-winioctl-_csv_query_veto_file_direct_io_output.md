@@ -4,7 +4,7 @@ title: "_CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT"
 author: windows-sdk-content
 description: Contains troubleshooting information about why a volume is in redirected mode.
 old-location: fs\csv_query_veto_file_direct_io_output.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 1FEAB857-5C0E-4CD1-A72C-F8BD60AD24B4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT, *PCSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT, *PCSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT
+req.redist: 
 ---
 
 # _CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT structure

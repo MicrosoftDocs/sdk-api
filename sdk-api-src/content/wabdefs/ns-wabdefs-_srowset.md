@@ -4,17 +4,16 @@ title: "_SRowSet"
 author: windows-sdk-content
 description: Do not use. Contains an array of SRow structures. Each SRow structure describes a row from a table.
 old-location: wab\_wab_SRowSet.htm
-old-project: wab
+tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srowset.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSRowSet, SRowSet, SRowSet structure [Windows Address Book], _SRowSet, _wab_SRowSet, wab._wab_SRowSet, wabdefs/SRowSet"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SRowSet, *LPSRowSet
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SRowSet
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SRowSet, *LPSRowSet
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

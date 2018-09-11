@@ -4,17 +4,16 @@ title: ICertEncodeStringArray::GetValue
 author: windows-sdk-content
 description: Returns the specified string from the string array.
 old-location: security\icertencodestringarray_getvalue.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 93f827c6-4dc6-462f-8865-eb631d7fe7bc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertEncodeStringArray object [Security],GetValue method, GetValue, GetValue method [Security], GetValue method [Security],CCertEncodeStringArray object, GetValue method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],GetValue method, ICertEncodeStringArray.GetValue, ICertEncodeStringArray::GetValue, _certsrv_icertencodestringarray_getvalue, certenc/ICertEncodeStringArray::GetValue, security.icertencodestringarray_getvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeStringArray.GetValue
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeStringArray::GetValue

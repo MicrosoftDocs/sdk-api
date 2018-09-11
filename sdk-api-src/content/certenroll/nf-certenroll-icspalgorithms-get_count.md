@@ -4,17 +4,16 @@ title: ICspAlgorithms::get_Count
 author: windows-sdk-content
 description: Retrieves the number of ICspAlgorithm objects in the collection.
 old-location: security\icspalgorithms_count_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 7c3ffb9a-47e7-4985-aa3a-54f5d682de49
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Count property [Security], Count property [Security],ICspAlgorithms interface, ICspAlgorithms interface [Security],Count property, ICspAlgorithms.Count, ICspAlgorithms.get_Count, ICspAlgorithms::Count, ICspAlgorithms::get_Count, certenroll/ICspAlgorithms::Count, certenroll/ICspAlgorithms::get_Count, get_Count, security.icspalgorithms_count_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspAlgorithms.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspAlgorithms::get_Count

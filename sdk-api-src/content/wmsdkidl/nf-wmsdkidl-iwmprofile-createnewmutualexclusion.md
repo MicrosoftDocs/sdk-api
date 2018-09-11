@@ -4,17 +4,16 @@ title: IWMProfile::CreateNewMutualExclusion
 author: windows-sdk-content
 description: The CreateNewMutualExclusion method creates a mutual exclusion object. Mutual exclusion objects are used to specify a set of streams, only one of which can be output at a time.
 old-location: wmformat\iwmprofile_createnewmutualexclusion.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: fcf3a549-5ae1-459a-95b9-923570f59a4a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateNewMutualExclusion, CreateNewMutualExclusion method [windows Media Format], CreateNewMutualExclusion method [windows Media Format],IWMProfile interface, CreateNewMutualExclusion method [windows Media Format],IWMProfile2 interface, CreateNewMutualExclusion method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile.CreateNewMutualExclusion, IWMProfile2 interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile2::CreateNewMutualExclusion, IWMProfile3 interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile3::CreateNewMutualExclusion, IWMProfile::CreateNewMutualExclusion, IWMProfileCreateNewMutualExclusion, wmformat.iwmprofile_createnewmutualexclusion, wmsdkidl/IWMProfile2::CreateNewMutualExclusion, wmsdkidl/IWMProfile3::CreateNewMutualExclusion, wmsdkidl/IWMProfile::CreateNewMutualExclusion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - IWMProfile3.CreateNewMutualExclusion
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMProfile::CreateNewMutualExclusion

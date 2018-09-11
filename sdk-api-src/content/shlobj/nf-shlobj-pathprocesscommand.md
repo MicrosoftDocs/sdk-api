@@ -4,17 +4,16 @@ title: PathProcessCommand function
 author: windows-sdk-content
 description: Deprecated. Processes a string that contains a command line and generates a suitably quoted string, with arguments attached if required.
 old-location: shell\PathProcessCommand.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9dbc39e7-f73b-450f-bb87-17a38e7ab66d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: PPCF_ADDARGUMENTS, PPCF_ADDQUOTES, PPCF_FORCEQUALIFY, PPCF_LONGESTPOSSIBLE, PPCF_NODIRECTORIES, PathProcessCommand, PathProcessCommand function [Windows Shell], _win32_PathProcessCommand, shell.PathProcessCommand, shlobj/PathProcessCommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PathProcessCommand
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PathProcessCommand function

@@ -4,17 +4,16 @@ title: ITextStoreACP2::RequestSupportedAttrs
 author: windows-sdk-content
 description: Get the attributes that are supported in the document.
 old-location: tsf\itextstoreacp2_requestsupportedattrs.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: ce26c2ec-f808-4f59-bc54-b3681b97ad89
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],RequestSupportedAttrs method, ITextStoreACP2.RequestSupportedAttrs, ITextStoreACP2::RequestSupportedAttrs, RequestSupportedAttrs, RequestSupportedAttrs method [Text Services Framework], RequestSupportedAttrs method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::RequestSupportedAttrs, tsf.itextstoreacp2_requestsupportedattrs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreACP2.RequestSupportedAttrs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextStoreACP2::RequestSupportedAttrs

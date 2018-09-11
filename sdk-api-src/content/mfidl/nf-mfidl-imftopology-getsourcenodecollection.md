@@ -4,17 +4,16 @@ title: IMFTopology::GetSourceNodeCollection
 author: windows-sdk-content
 description: Gets the source nodes in the topology.
 old-location: mf\imftopology_getsourcenodecollection.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9da7d4cd-ad83-4d64-9773-699f39625056
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 9da7d4cd-ad83-4d64-9773-699f39625056, GetSourceNodeCollection, GetSourceNodeCollection method [Media Foundation], GetSourceNodeCollection method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetSourceNodeCollection method, IMFTopology.GetSourceNodeCollection, IMFTopology::GetSourceNodeCollection, mf.imftopology_getsourcenodecollection, mfidl/IMFTopology::GetSourceNodeCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTopology.GetSourceNodeCollection
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTopology::GetSourceNodeCollection

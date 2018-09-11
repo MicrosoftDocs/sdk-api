@@ -4,17 +4,16 @@ title: IDXGIAdapter4
 author: windows-sdk-content
 description: This interface represents a display subsystem, and extends this family of interfaces to expose a method to check for an adapter's compatibility with Arbitrary Code Guard (ACG).
 old-location: direct3ddxgi\idxgiadapter4.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 176958F9-94C8-4F80-B9A4-96BC9634292E
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIAdapter4, IDXGIAdapter4 interface [DXGI], IDXGIAdapter4 interface [DXGI],described, direct3ddxgi.idxgiadapter4, dxgi1_6/IDXGIAdapter4
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_6.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
+req.lib: Dxgi.lib
+req.dll: Dxgi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGIAdapter4
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: Dxgi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIAdapter4 interface

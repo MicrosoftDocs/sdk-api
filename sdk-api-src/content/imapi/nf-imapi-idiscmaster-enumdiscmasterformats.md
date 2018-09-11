@@ -4,17 +4,16 @@ title: IDiscMaster::EnumDiscMasterFormats
 author: windows-sdk-content
 description: Retrieves an enumerator for all disc mastering formats supported by this disc master object. A disc master format specifies the structure of the content in a staged image file (data/audio) and the interface that manages the staged image.
 old-location: imapi\idiscmaster_enumdiscmasterformats.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 7190dbf6-6458-4228-a892-428183ea2742
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EnumDiscMasterFormats, EnumDiscMasterFormats method [IMAPI], EnumDiscMasterFormats method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],EnumDiscMasterFormats method, IDiscMaster.EnumDiscMasterFormats, IDiscMaster::EnumDiscMasterFormats, _win32_idiscmaster_enumdiscmasterformats, base.idiscmaster_enumdiscmasterformats, imapi.idiscmaster_enumdiscmasterformats, imapi/IDiscMaster::EnumDiscMasterFormats
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscMaster.EnumDiscMasterFormats
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscMaster::EnumDiscMasterFormats

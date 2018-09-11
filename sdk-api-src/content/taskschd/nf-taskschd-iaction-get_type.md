@@ -4,17 +4,16 @@ title: IAction::get_Type
 author: windows-sdk-content
 description: Gets the type of action.
 old-location: taskschd\iaction_type.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 720aae58-b58c-4948-9e94-94c5a041a2db
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IAction interface [Task Scheduler],Type property, IAction.Type, IAction.get_Type, IAction::Type, IAction::get_Type, TASK_ACTION_COM_HANDLER, TASK_ACTION_EXEC, TASK_ACTION_SEND_EMAIL, TASK_ACTION_SHOW_MESSAGE, Type property [Task Scheduler], Type property [Task Scheduler],IAction interface, get_Type, taskschd.iaction_type, taskschd/IAction::Type, taskschd/IAction::get_Type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAction.get_Type
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAction::get_Type

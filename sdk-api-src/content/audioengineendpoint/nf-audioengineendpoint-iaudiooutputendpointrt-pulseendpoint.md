@@ -4,17 +4,16 @@ title: IAudioOutputEndpointRT::PulseEndpoint
 author: windows-sdk-content
 description: Is reserved.
 old-location: termserv\iaudiooutputendpointrt_pulseendpoint.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 8ab117d6-5b13-4420-9cf2-865ff2011806
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAudioOutputEndpointRT interface [Remote Desktop Services],PulseEndpoint method, IAudioOutputEndpointRT.PulseEndpoint, IAudioOutputEndpointRT::PulseEndpoint, PulseEndpoint, PulseEndpoint method [Remote Desktop Services], PulseEndpoint method [Remote Desktop Services],IAudioOutputEndpointRT interface, audioengineendpoint/IAudioOutputEndpointRT::PulseEndpoint, termserv.iaudiooutputendpointrt_pulseendpoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioOutputEndpointRT.PulseEndpoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioOutputEndpointRT::PulseEndpoint

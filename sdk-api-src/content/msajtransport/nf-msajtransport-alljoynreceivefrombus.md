@@ -4,17 +4,16 @@ title: AllJoynReceiveFromBus function
 author: windows-sdk-content
 description: Receives data from the bus via named pipe.
 old-location: alljoyn\alljoynreceivefrombus.htm
-old-project: AllJoyn
+tech.root: AllJoyn
 ms.assetid: 5E11BCDC-319C-4C53-914E-73B2FEC4747E
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: AllJoynReceiveFromBus, AllJoynReceiveFromBus function [AllJoyn API], alljoyn.alljoynreceivefrombus, msajtransport/AllJoynReceiveFromBus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msajtransport.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACMSTREAMHEADER, *PACMSTREAMHEADER, *LPACMSTREAMHEADER
+req.lib: MSAJApi.lib
+req.dll: MSAJApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AllJoynReceiveFromBus
 product: Windows
 targetos: Windows
-req.lib: MSAJApi.lib
-req.dll: MSAJApi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # AllJoynReceiveFromBus function

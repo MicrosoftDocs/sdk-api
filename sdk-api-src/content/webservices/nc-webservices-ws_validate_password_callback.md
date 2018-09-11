@@ -4,17 +4,16 @@ title: WS_VALIDATE_PASSWORD_CALLBACK
 author: windows-sdk-content
 description: Validates a username/password pair on the receiver side.
 old-location: wsw\ws_validate_password_callback.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 3cf8f2a1-61b4-4702-954e-e5eb260820c7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_VALIDATE_PASSWORD_CALLBACK, WS_VALIDATE_PASSWORD_CALLBACK callback, WS_VALIDATE_PASSWORD_CALLBACK callback function [Web Services for Windows], webservices/WS_VALIDATE_PASSWORD_CALLBACK, wsw.ws_validate_password_callback
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_VALIDATE_PASSWORD_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WS_VALIDATE_PASSWORD_CALLBACK callback function

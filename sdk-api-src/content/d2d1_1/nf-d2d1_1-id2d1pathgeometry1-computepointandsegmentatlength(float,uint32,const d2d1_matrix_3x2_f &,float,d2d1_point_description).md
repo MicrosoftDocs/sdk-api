@@ -4,17 +4,16 @@ title: ID2D1PathGeometry1::ComputePointAndSegmentAtLength(FLOAT,UINT32,const D2D
 author: windows-sdk-content
 description: Computes the point that exists at a given distance along the path geometry along with the index of the segment the point is on and the directional vector at that point.
 old-location: direct2d\id2d1pathgeometry1_computepointandsegmentatlength.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 4a47d928-7482-413a-ad9d-e887b309e367
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ComputePointAndSegmentAtLength, ComputePointAndSegmentAtLength method [Direct2D], ComputePointAndSegmentAtLength method [Direct2D],ID2D1PathGeometry1 interface, ID2D1PathGeometry1 interface [Direct2D],ComputePointAndSegmentAtLength method, ID2D1PathGeometry1.ComputePointAndSegmentAtLength, ID2D1PathGeometry1.ComputePointAndSegmentAtLength(FLOAT,UINT32,const D2D1_MATRIX_3X2_F &,FLOAT,D2D1_POINT_DESCRIPTION), ID2D1PathGeometry1::ComputePointAndSegmentAtLength, ID2D1PathGeometry1::ComputePointAndSegmentAtLength(FLOAT,UINT32,const D2D1_MATRIX_3X2_F &,FLOAT,D2D1_POINT_DESCRIPTION), d2d1_1/ID2D1PathGeometry1::ComputePointAndSegmentAtLength, direct2d.id2d1pathgeometry1_computepointandsegmentatlength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1PathGeometry1.ComputePointAndSegmentAtLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1PathGeometry1::ComputePointAndSegmentAtLength(FLOAT,UINT32,const D2D1_MATRIX_3X2_F &,FLOAT,D2D1_POINT_DESCRIPTION)

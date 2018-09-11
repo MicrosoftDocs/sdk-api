@@ -4,7 +4,7 @@ title: VBS_ENCLAVE_REPORT_MODULE
 author: windows-sdk-content
 description: Describes a module loaded for the enclave.
 old-location: base\vbs_enclave_report_module.htm
-old-project: memory
+tech.root: memory
 ms.assetid: FB72B01D-B3FE-4FD7-8766-B209C6BC105E
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntenclv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VBS_ENCLAVE_REPORT_MODULE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VBS_ENCLAVE_REPORT_MODULE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: VBS_ENCLAVE_REPORT_MODULE
+req.redist: 
 ---
 
 # VBS_ENCLAVE_REPORT_MODULE structure

@@ -4,7 +4,7 @@ title: "_DD_CREATEPALETTEDATA"
 author: windows-sdk-content
 description: The DD_CREATEPALETTEDATA structure contains information necessary to create a DirectDrawPalette object for this Microsoft DirectDraw object.
 old-location: display\dd_createpalettedata.htm
-old-project: display
+tech.root: display
 ms.assetid: e43ad510-b44b-4a4d-abb2-10062ce69140
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_CREATEPALETTEDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA"
+req.redist: 
 ---
 
 # _DD_CREATEPALETTEDATA structure

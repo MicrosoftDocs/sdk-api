@@ -4,17 +4,16 @@ title: IOCSPPropertyCollection::InitializeFromProperties
 author: windows-sdk-content
 description: Creates a property set from the properties contained in an existing server configuration.
 old-location: security\iocsppropertycollection_initializefromproperties_method.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: e944af4e-80e4-470e-be04-770cf0f89871
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],InitializeFromProperties method, IOCSPPropertyCollection.InitializeFromProperties, IOCSPPropertyCollection::InitializeFromProperties, InitializeFromProperties, InitializeFromProperties method [Security], InitializeFromProperties method [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::InitializeFromProperties, security.iocsppropertycollection_initializefromproperties_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOCSPPropertyCollection.InitializeFromProperties
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPPropertyCollection::InitializeFromProperties

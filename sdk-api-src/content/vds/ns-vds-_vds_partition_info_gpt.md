@@ -4,17 +4,16 @@ title: "_VDS_PARTITION_INFO_GPT"
 author: windows-sdk-content
 description: Defines details of a GUID partition table (GPT) partition.
 old-location: base\vds_partition_info_gpt.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 5c484155-df73-4007-a137-998c7f1c5a7c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_PARTITION_INFO_GPT, VDS_PARTITION_INFO_GPT structure [VDS], _VDS_PARTITION_INFO_GPT, base.vds_partition_info_gpt, vds/_VDS_PARTITION_INFO_GPT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PARTITION_INFO_GPT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_PARTITION_INFO_GPT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PARTITION_INFO_GPT
+req.redist: 
 ---
 
 # _VDS_PARTITION_INFO_GPT structure

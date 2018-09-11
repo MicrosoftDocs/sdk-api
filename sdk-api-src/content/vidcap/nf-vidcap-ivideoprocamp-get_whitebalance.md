@@ -4,17 +4,16 @@ title: IVideoProcAmp::get_WhiteBalance
 author: windows-sdk-content
 description: The get_WhiteBalance method returns the camera's white balance, specified as a color temperature.
 old-location: dshow\ivideoprocamp_get_whitebalance.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 53743bff-4257-4abf-b41a-aa5586ab37b5
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_WhiteBalance method, IVideoProcAmp.get_WhiteBalance, IVideoProcAmp::get_WhiteBalance, IVideoProcAmpget_WhiteBalance, dshow.ivideoprocamp_get_whitebalance, get_WhiteBalance, get_WhiteBalance method [DirectShow], get_WhiteBalance method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_WhiteBalance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVideoProcAmp.get_WhiteBalance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoProcAmp::get_WhiteBalance

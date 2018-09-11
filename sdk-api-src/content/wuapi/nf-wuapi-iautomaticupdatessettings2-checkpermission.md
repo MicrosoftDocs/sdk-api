@@ -4,17 +4,16 @@ title: IAutomaticUpdatesSettings2::CheckPermission
 author: windows-sdk-content
 description: Determines whether a specific user or type of user has permission to perform a selected action.
 old-location: wua\iautomaticupdatessettings2_checkpermission.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: fbf36d9f-98c1-4b9d-b479-a9203b6ce952
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CheckPermission, CheckPermission method [Windows Update Agent], CheckPermission method [Windows Update Agent],IAutomaticUpdatesSettings2 interface, IAutomaticUpdatesSettings2 interface [Windows Update Agent],CheckPermission method, IAutomaticUpdatesSettings2.CheckPermission, IAutomaticUpdatesSettings2::CheckPermission, wua.iautomaticupdatessettings2_checkpermission, wuapi/IAutomaticUpdatesSettings2::CheckPermission
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAutomaticUpdatesSettings2.CheckPermission
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IAutomaticUpdatesSettings2::CheckPermission
@@ -68,17 +66,17 @@ Determines whether a specific user or type of user has permission to perform a s
 
 ### -param userType
 
-
+TBD
 
 
 ### -param permissionType
 
-
+TBD
 
 
 ### -param userHasPermission
 
-
+TBD
 
 
 

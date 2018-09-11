@@ -4,17 +4,16 @@ title: IServiceInheritanceConfig::ContainingContextTreatment
 author: windows-sdk-content
 description: Determines whether the containing context is based on the current context.
 old-location: cos\iserviceinheritanceconfig_containingcontexttreatment.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 05009c50-1d39-46f7-b549-281342d07f5b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ContainingContextTreatment, ContainingContextTreatment method [COM+], ContainingContextTreatment method [COM+],IServiceInheritanceConfig interface, IServiceInheritanceConfig interface [COM+],ContainingContextTreatment method, IServiceInheritanceConfig.ContainingContextTreatment, IServiceInheritanceConfig::ContainingContextTreatment, _cos_IServiceInheritanceConfig_ContainingContextTreatment, comsvcs/IServiceInheritanceConfig::ContainingContextTreatment, cos.iserviceinheritanceconfig_containingcontexttreatment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceInheritanceConfig.ContainingContextTreatment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceInheritanceConfig::ContainingContextTreatment

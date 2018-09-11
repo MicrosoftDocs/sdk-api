@@ -4,7 +4,7 @@ title: DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS
 author: windows-sdk-content
 description: The DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS structure contains information about a target device.
 old-location: display\displayconfig_target_device_name_flags.htm
-old-project: display
+tech.root: display
 ms.assetid: f0318dd3-4350-4de3-84c8-2c998254c68c
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS
+req.redist: 
 ---
 
 # DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS structure

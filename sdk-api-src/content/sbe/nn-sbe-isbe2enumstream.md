@@ -4,7 +4,7 @@ title: ISBE2EnumStream
 author: windows-sdk-content
 description: Enumerates a collection of streams. This is a utility interface, which you can use to enumerate the streams discovered in a WTV file. The Stream Buffer Source filter implements this interface.
 old-location: mstv\isbe2enumstream.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 77a918f8-d305-4d4d-9a5c-523ddb796b26
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: Sbe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISBE2EnumStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sbe.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISBE2EnumStream interface

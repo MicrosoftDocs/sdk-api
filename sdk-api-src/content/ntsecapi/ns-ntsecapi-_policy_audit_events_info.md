@@ -4,17 +4,16 @@ title: "_POLICY_AUDIT_EVENTS_INFO"
 author: windows-sdk-content
 description: The POLICY_AUDIT_EVENTS_INFO structure is used to set and query the system's auditing rules.
 old-location: security\policy_audit_events_info.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: 3442e5e5-78cf-4bda-ba11-0f51ee40df16
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPOLICY_AUDIT_EVENTS_INFO, POLICY_AUDIT_EVENTS_INFO, POLICY_AUDIT_EVENTS_INFO structure [Security], POLICY_AUDIT_EVENT_FAILURE, POLICY_AUDIT_EVENT_NONE, POLICY_AUDIT_EVENT_SUCCESS, POLICY_AUDIT_EVENT_UNCHANGED, PPOLICY_AUDIT_EVENTS_INFO, PPOLICY_AUDIT_EVENTS_INFO structure pointer [Security], _POLICY_AUDIT_EVENTS_INFO, _lsa_policy_audit_events_info, ntsecapi/POLICY_AUDIT_EVENTS_INFO, ntsecapi/PPOLICY_AUDIT_EVENTS_INFO, security.policy_audit_events_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_AUDIT_EVENTS_INFO, *PPOLICY_AUDIT_EVENTS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POLICY_AUDIT_EVENTS_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: POLICY_AUDIT_EVENTS_INFO, *PPOLICY_AUDIT_EVENTS_INFO
+req.redist: 
 ---
 
 # _POLICY_AUDIT_EVENTS_INFO structure

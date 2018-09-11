@@ -4,17 +4,16 @@ title: DsReplicaVerifyObjectsA function
 author: windows-sdk-content
 description: Verifies all objects for a naming context with a source.
 old-location: ad\dsreplicaverifyobjects.htm
-old-project: ad
+tech.root: ad
 ms.assetid: d0e139dc-6aaf-47e1-a76f-4e84f17aa7c6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DS_EXIST_ADVISORY_MODE, DsReplicaVerifyObjects, DsReplicaVerifyObjects function [Active Directory], DsReplicaVerifyObjectsA, DsReplicaVerifyObjectsW, ad.dsreplicaverifyobjects, ntdsapi/DsReplicaVerifyObjects, ntdsapi/DsReplicaVerifyObjectsA, ntdsapi/DsReplicaVerifyObjectsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsReplicaVerifyObjectsW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsReplicaVerifyObjectsA function

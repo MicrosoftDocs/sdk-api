@@ -4,17 +4,16 @@ title: IDeviceModelPlugIn::GetGamutBoundaryMeshSize
 author: windows-sdk-content
 description: Returns the required data structure sizes for the GetGamutBoundaryMesh function.
 old-location: wcs\IDeviceModelPlugIn_GetGamutBoundaryMeshSize.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: 302f8008-c65d-4794-9297-8b47e29e36ce
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetGamutBoundaryMeshSize, GetGamutBoundaryMeshSize method [Windows Color System], GetGamutBoundaryMeshSize method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetGamutBoundaryMeshSize method, IDeviceModelPlugIn.GetGamutBoundaryMeshSize, IDeviceModelPlugIn::GetGamutBoundaryMeshSize, _color_IDeviceModelPlugIn::GetGamutBoundaryMeshSize, wcs.IDeviceModelPlugIn_GetGamutBoundaryMeshSize, wcsplugin/IDeviceModelPlugIn::GetGamutBoundaryMeshSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDeviceModelPlugIn.GetGamutBoundaryMeshSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceModelPlugIn::GetGamutBoundaryMeshSize

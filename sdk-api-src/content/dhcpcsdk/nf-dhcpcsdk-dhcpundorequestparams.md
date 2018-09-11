@@ -4,17 +4,16 @@ title: DhcpUndoRequestParams function
 author: windows-sdk-content
 description: The DhcpUndoRequestParams function removes persistent requests previously made with a DhcpRequestParams function call.
 old-location: dhcp\dhcpundorequestparams.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: a70fc72e-0fbd-4ee7-ae87-780fdc942384
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpUndoRequestParams, DhcpUndoRequestParams function [DHCP], _dhcp_dhcpundorequestparams, dhcp.dhcpundorequestparams, dhcpcsdk/DhcpUndoRequestParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpcsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSJACK_DESCRIPTION, *PKSJACK_DESCRIPTION
+req.lib: Dhcpcsvc.lib
+req.dll: Dhcpcsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpUndoRequestParams
 product: Windows
 targetos: Windows
-req.lib: Dhcpcsvc.lib
-req.dll: Dhcpcsvc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpUndoRequestParams function

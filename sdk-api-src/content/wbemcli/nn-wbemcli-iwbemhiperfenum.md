@@ -4,17 +4,16 @@ title: IWbemHiPerfEnum
 author: windows-sdk-content
 description: Used in refresher operations to provide rapid access to enumerations of instance objects.
 old-location: wmi\iwbemhiperfenum.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 71ce1c89-446e-4137-9857-9d3c5921e0b7
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemHiPerfEnum, IWbemHiPerfEnum interface [Windows Management Instrumentation], IWbemHiPerfEnum interface [Windows Management Instrumentation],described, _hmm_iwbemhiperfenum, wbemcli/IWbemHiPerfEnum, wmi.iwbemhiperfenum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWbemHiPerfEnum
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemHiPerfEnum interface

@@ -4,17 +4,16 @@ title: IMFMediaSource::CreatePresentationDescriptor
 author: windows-sdk-content
 description: Retrieves a copy of the media source's presentation descriptor. Applications use the presentation descriptor to select streams and to get information about the source content.
 old-location: mf\imfmediasource_createpresentationdescriptor.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b6ac50b7-3ef1-43cf-8126-d9a003ebd825
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreatePresentationDescriptor, CreatePresentationDescriptor method [Media Foundation], CreatePresentationDescriptor method [Media Foundation],IMFMediaSource interface, IMFMediaSource interface [Media Foundation],CreatePresentationDescriptor method, IMFMediaSource.CreatePresentationDescriptor, IMFMediaSource::CreatePresentationDescriptor, b6ac50b7-3ef1-43cf-8126-d9a003ebd825, mf.imfmediasource_createpresentationdescriptor, mfidl/IMFMediaSource::CreatePresentationDescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaSource.CreatePresentationDescriptor
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSource::CreatePresentationDescriptor

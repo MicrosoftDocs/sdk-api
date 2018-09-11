@@ -4,17 +4,16 @@ title: IUIAutomation::ElementFromHandleBuildCache
 author: windows-sdk-content
 description: Retrieves a UI Automation element for the specified window, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomation_ElementFromHandleBuildCache.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: b6c1e03b-7c0e-4dee-b276-bfc7d6247d4e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ElementFromHandleBuildCache, ElementFromHandleBuildCache method [Windows Accessibility], ElementFromHandleBuildCache method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromHandleBuildCache method, IUIAutomation.ElementFromHandleBuildCache, IUIAutomation::ElementFromHandleBuildCache, uiauto.uiauto_IUIAutomation_ElementFromHandleBuildCache, uiauto_IUIAutomation_ElementFromHandleBuildCache, uiautomationclient/IUIAutomation::ElementFromHandleBuildCache, winauto.uiauto_IUIAutomation_ElementFromHandleBuildCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomation.ElementFromHandleBuildCache
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation::ElementFromHandleBuildCache

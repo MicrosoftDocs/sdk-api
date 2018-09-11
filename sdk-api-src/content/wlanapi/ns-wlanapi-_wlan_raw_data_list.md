@@ -4,7 +4,7 @@ title: "_WLAN_RAW_DATA_LIST"
 author: windows-sdk-content
 description: Contains raw data in the form of an array of data blobs that are used by some Native Wifi functions.
 old-location: nwifi\dot11_psd_ie_data_list.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: e0e59abf-1a78-4c7f-b044-2d4c75328329
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLAN_RAW_DATA_LIST, *PWLAN_RAW_DATA_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLAN_RAW_DATA_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLAN_RAW_DATA_LIST, *PWLAN_RAW_DATA_LIST
+req.redist: 
 ---
 
 # _WLAN_RAW_DATA_LIST structure

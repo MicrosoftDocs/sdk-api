@@ -4,17 +4,16 @@ title: NetUserAdd function
 author: windows-sdk-content
 description: The NetUserAdd function adds a user account and assigns a password and privilege level.
 old-location: netmgmt\netuseradd.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: b5ca5f76-d40b-4abf-925a-0de54fc476e4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 1, 2, 3, 4, NetUserAdd, NetUserAdd function [Network Management], _win32_netuseradd, lmaccess/NetUserAdd, netmgmt.netuseradd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetUserAdd
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetUserAdd function

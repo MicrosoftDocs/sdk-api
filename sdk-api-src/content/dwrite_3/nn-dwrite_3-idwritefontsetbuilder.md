@@ -4,17 +4,16 @@ title: IDWriteFontSetBuilder
 author: windows-sdk-content
 description: Contains methods for building a font set.
 old-location: directwrite\idwritefontsetbuilder.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: CC6C95CA-BA8B-47C4-A241-650EC8477192
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteFontSetBuilder, IDWriteFontSetBuilder interface [Direct Write], IDWriteFontSetBuilder interface [Direct Write],described, directwrite.idwritefontsetbuilder, dwrite_3/IDWriteFontSetBuilder
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontSetBuilder
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontSetBuilder interface

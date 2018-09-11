@@ -4,17 +4,16 @@ title: IETFilter::GetLastErrorCode
 author: windows-sdk-content
 description: Not implemented.
 old-location: mstv\ietfilter_getlasterrorcode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7982c60b-9be1-49c4-8194-f5e52487275e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetLastErrorCode, GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies],IETFilter interface, IETFilter interface [Microsoft TV Technologies],GetLastErrorCode method, IETFilter.GetLastErrorCode, IETFilter::GetLastErrorCode, IETFilterGetLastErrorCode, encdec/IETFilter::GetLastErrorCode, mstv.ietfilter_getlasterrorcode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IETFilter.GetLastErrorCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IETFilter::GetLastErrorCode

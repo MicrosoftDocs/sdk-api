@@ -4,7 +4,7 @@ title: peer_security_interface_tag
 author: windows-sdk-content
 description: The PEER_SECURITY_INTERFACE structure specifies the security interfaces that calls to Peer Graphing APIs use to validate, secure, and free records.
 old-location: p2p\peer_security_interface.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: b4331cfc-dc1a-490b-b21d-0550f1d3fe33
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_SECURITY_INTERFACE, *PPEER_SECURITY_INTERFACE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_SECURITY_INTERFACE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_SECURITY_INTERFACE, *PPEER_SECURITY_INTERFACE
+req.redist: 
 ---
 
 # peer_security_interface_tag structure

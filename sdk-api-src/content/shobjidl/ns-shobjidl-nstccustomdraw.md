@@ -4,17 +4,16 @@ title: NSTCCUSTOMDRAW
 author: windows-sdk-content
 description: Custom draw structure used by INameSpaceTreeControlCustomDraw methods.
 old-location: shell\NSTCCUSTOMDRAW.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 95747075-4882-4c29-8653-941ac04db54b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: NSTCCUSTOMDRAW, NSTCCUSTOMDRAW structure [Windows Shell], _shell_NSTCCUSTOMDRAW, shell.NSTCCUSTOMDRAW, shobjidl/NSTCCUSTOMDRAW
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NSTCCUSTOMDRAW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NSTCCUSTOMDRAW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: NSTCCUSTOMDRAW
+req.redist: 
 ---
 
 # NSTCCUSTOMDRAW structure

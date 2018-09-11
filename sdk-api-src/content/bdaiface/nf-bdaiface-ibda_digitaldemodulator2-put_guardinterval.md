@@ -4,17 +4,16 @@ title: IBDA_DigitalDemodulator2::put_GuardInterval
 author: windows-sdk-content
 description: Sets the demodulator's guard interval.
 old-location: mstv\ibda_digitaldemodulator2_put_guardinterval.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1183eacb-4846-4b5e-b879-7e557eb5f5dc
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_GuardInterval method, IBDA_DigitalDemodulator2.put_GuardInterval, IBDA_DigitalDemodulator2::put_GuardInterval, bdaiface/IBDA_DigitalDemodulator2::put_GuardInterval, mstv.ibda_digitaldemodulator2_put_guardinterval, put_GuardInterval, put_GuardInterval method [Microsoft TV Technologies], put_GuardInterval method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_DigitalDemodulator2.put_GuardInterval
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_DigitalDemodulator2::put_GuardInterval

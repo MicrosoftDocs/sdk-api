@@ -4,7 +4,7 @@ title: "_VMR9ProcAmpControl"
 author: windows-sdk-content
 description: The VMR9ProcAmpControl structure specifies the image adjustments to be performed on a video stream. This structure is used with the Video Mixing Renderer Filter 9 (VMR-9).
 old-location: dshow\vmr9procampcontrol.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c4395344-e659-4e5a-aba0-ee27e65fe2cc
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9ProcAmpControl
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMR9ProcAmpControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VMR9ProcAmpControl
+req.redist: 
 ---
 
 # _VMR9ProcAmpControl structure

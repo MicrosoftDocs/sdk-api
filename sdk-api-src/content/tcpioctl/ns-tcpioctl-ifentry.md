@@ -4,17 +4,16 @@ title: IFEntry
 author: windows-sdk-content
 description: Describes a TCP/IP interface in accord with the Simple Network Management Protocol, version 2, (SNMPv2) standard for Management Information Base for network management of TCP/IP networks (MIB-II), as specified in the Internet Engineering Task Force (IETF) Request for Comments (RFC) 1213 on pages 16 through 23.
 old-location: winprog\ifentry.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 830cd19e-06a9-46dc-a869-d2a17107d942
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IFEntry, IFEntry structure [Windows API], tcpioctl/IFEntry, winprog.ifentry
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpioctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IFEntry
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFEntry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: IFEntry
+req.redist: 
 ---
 
 # IFEntry structure

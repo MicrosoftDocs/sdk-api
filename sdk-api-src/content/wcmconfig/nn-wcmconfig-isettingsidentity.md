@@ -4,17 +4,16 @@ title: ISettingsIdentity
 author: windows-sdk-content
 description: Identifies a namespace to open or use.
 old-location: smi\isettingsidentity.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: aa9d5604-5b94-47d9-9e68-d708a656a5ea
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISettingsIdentity, ISettingsIdentity interface [SMI], ISettingsIdentity interface [SMI],described, smi.isettingsidentity, wcmconfig/ISettingsIdentity
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsIdentity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsIdentity interface

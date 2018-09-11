@@ -4,17 +4,16 @@ title: VarDecFromDisp function
 author: windows-sdk-content
 description: Converts the default property of an IDispatch instance to a decimal value.
 old-location: automat\vardecfromdisp.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 514637e1-ae11-4fa5-9947-ca697953b344
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarDecFromDisp, VarDecFromDisp function [Automation], _oa96_VarDecFromDisp, automat.vardecfromdisp, oleauto/VarDecFromDisp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarDecFromDisp
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarDecFromDisp function

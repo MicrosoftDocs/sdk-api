@@ -4,17 +4,16 @@ title: RpcSsSetThreadHandle function
 author: windows-sdk-content
 description: The RpcSsSetThreadHandle function sets a thread handle for the stub memory–management environment.
 old-location: rpc\rpcsssetthreadhandle.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 8984e253-ea78-4ca2-bf24-83100a0ac79d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcSsSetThreadHandle, RpcSsSetThreadHandle function [RPC], _rpc_rpcsssetthreadhandle, rpc.rpcsssetthreadhandle, rpcndr/RpcSsSetThreadHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcSsSetThreadHandle
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcSsSetThreadHandle function

@@ -4,17 +4,16 @@ title: IAudioEndpointVolumeEx
 author: windows-sdk-content
 description: The IAudioEndpointVolumeEx interface provides volume controls on the audio stream to or from a device endpoint.
 old-location: coreaudio\iaudioendpointvolumeex.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 905ef0c9-ac32-4dfd-a25a-820cafa04815
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioEndpointVolumeEx, IAudioEndpointVolumeEx interface [Core Audio], IAudioEndpointVolumeEx interface [Core Audio],described, coreaudio.iaudioendpointvolumeex, endpointvolume/IAudioEndpointVolumeEx
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: endpointvolume.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAudioEndpointVolumeEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioEndpointVolumeEx interface

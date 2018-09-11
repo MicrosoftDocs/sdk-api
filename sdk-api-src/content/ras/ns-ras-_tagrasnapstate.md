@@ -4,17 +4,16 @@ title: "_tagRasNapState"
 author: windows-sdk-content
 description: The Network Access Protection (NAP) variables for a remote access connection.
 old-location: rras\rasnapstate.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 1cba931c-041a-4ec6-8c30-db3a02b59ec3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPRASNAPSTATE, LPRASNAPSTATE, LPRASNAPSTATE structure pointer [RAS], RASNAPSTATE, RASNAPSTATE structure [RAS], _tagRasNapState, ras/LPRASNAPSTATE, ras/RASNAPSTATE, rras.rasnapstate"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASNAPSTATE, *LPRASNAPSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RASNAPSTATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RASNAPSTATE, *LPRASNAPSTATE
+req.redist: 
 ---
 
 # _tagRasNapState structure

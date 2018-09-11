@@ -4,17 +4,16 @@ title: IXAPO::CalcInputFrames
 author: windows-sdk-content
 description: Returns the number of input frames required to generate the given number of output frames.
 old-location: xaudio2\ixapo_interface_calcinputframes.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.CalcInputFrames(UINT32)
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CalcInputFrames, CalcInputFrames method [XAudio2 Audio Mixing APIs], CalcInputFrames method [XAudio2 Audio Mixing APIs],IXAPO interface, IXAPO interface [XAudio2 Audio Mixing APIs],CalcInputFrames method, IXAPO.CalcInputFrames, IXAPO::CalcInputFrames, xapo/IXAPO::CalcInputFrames, xaudio2.ixapo_interface_calcinputframes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAPO_BUFFER_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXAPO.CalcInputFrames
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXAPO::CalcInputFrames

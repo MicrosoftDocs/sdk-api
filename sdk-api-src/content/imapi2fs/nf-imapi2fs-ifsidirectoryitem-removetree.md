@@ -4,17 +4,16 @@ title: IFsiDirectoryItem::RemoveTree
 author: windows-sdk-content
 description: Remove the specified directory tree from the file system image.
 old-location: imapi\ifsidirectoryitem_removetree.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: d0aad985-306c-41a2-9711-9265a4f492c5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],RemoveTree method, IFsiDirectoryItem.RemoveTree, IFsiDirectoryItem::RemoveTree, RemoveTree, RemoveTree method [IMAPI], RemoveTree method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_removetree, imapi2fs/IFsiDirectoryItem::RemoveTree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsiDirectoryItem.RemoveTree
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFsiDirectoryItem::RemoveTree

@@ -4,17 +4,16 @@ title: IInkOverlay::SetGestureStatus
 author: windows-sdk-content
 description: Sets the interest of the object or control in a known gesture.
 old-location: tablet\inkoverlay_setgesturestatus.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: c55e0b19-257e-423f-bf84-3b7a55dc370e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 7bab227f-d095-48e8-856f-6446e62826dd, IInkOverlay, IInkOverlay interface [Tablet PC],SetGestureStatus method, IInkOverlay.SetGestureStatus, IInkOverlay::SetGestureStatus, SetGestureStatus, SetGestureStatus method [Tablet PC], SetGestureStatus method [Tablet PC],IInkOverlay interface, msinkaut/IInkOverlay::SetGestureStatus, tablet.inkoverlay_setgesturestatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkOverlay.SetGestureStatus
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkOverlay::SetGestureStatus

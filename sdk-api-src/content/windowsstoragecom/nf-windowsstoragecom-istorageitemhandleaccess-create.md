@@ -4,17 +4,16 @@ title: IStorageItemHandleAccess::Create
 author: windows-sdk-content
 description: Creates a handle to a file.
 old-location: winrt\istorageitemhandleaccess_create.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 2BBF5CFE-0212-4133-BA19-DEA322ED5569
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Create, Create method [Windows Runtime], Create method [Windows Runtime],IStorageItemHandleAccess interface, IStorageItemHandleAccess interface [Windows Runtime],Create method, IStorageItemHandleAccess.Create, IStorageItemHandleAccess::Create, windowsstoragecom/IStorageItemHandleAccess::Create, winrt.istorageitemhandleaccess_create
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windowsstoragecom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: Windows.storage.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStorageItemHandleAccess.Create
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.storage.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IStorageItemHandleAccess::Create

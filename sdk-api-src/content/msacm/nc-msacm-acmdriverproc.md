@@ -4,7 +4,7 @@ title: ACMDRIVERPROC
 author: windows-sdk-content
 description: The acmDriverProc function specifies a callback function used with the ACM driver.
 old-location: multimedia\acmdriverproc.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: e29c157d-e56e-4242-abb8-2736d5599caa
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: msacm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - acmDriverProc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ACMDRIVERPROC callback function

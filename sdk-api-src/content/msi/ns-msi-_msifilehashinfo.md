@@ -4,17 +4,16 @@ title: "_MSIFILEHASHINFO"
 author: windows-sdk-content
 description: The MSIFILEHASHINFO structure contains the file hash information returned by MsiGetFileHash and used in the MsiFileHash table.
 old-location: setup\msifilehashinfo.htm
-old-project: msi
+tech.root: msi
 ms.assetid: b4176b5b-149d-4542-9a6c-27281877a3ff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMSIFILEHASHINFO, MSIFILEHASHINFO, MSIFILEHASHINFO structure, PMSIFILEHASHINFO, PMSIFILEHASHINFO structure pointer, _MSIFILEHASHINFO, _msi_msifilehashinfo, msi/MSIFILEHASHINFO, msi/PMSIFILEHASHINFO, setup.msifilehashinfo"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSIFILEHASHINFO, *PMSIFILEHASHINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MSIFILEHASHINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MSIFILEHASHINFO, *PMSIFILEHASHINFO
+req.redist: 
 ---
 
 # _MSIFILEHASHINFO structure

@@ -4,17 +4,16 @@ title: INetFwService::put_RemoteAddresses
 author: windows-sdk-content
 description: Specifies a set of the remote addresses from which the service ports can listen for traffic.
 old-location: ics\inetfwservice_remoteaddresses.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 6cb1dfa1-1e92-47a8-9a97-45443f487f6e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwService interface [ICS/ICF],RemoteAddresses property, INetFwService.RemoteAddresses, INetFwService.put_RemoteAddresses, INetFwService::RemoteAddresses, INetFwService::get_RemoteAddresses, INetFwService::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwService interface, ics.inetfwservice_remoteaddresses, netfw/INetFwService::RemoteAddresses, netfw/INetFwService::get_RemoteAddresses, netfw/INetFwService::put_RemoteAddresses, put_RemoteAddresses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwService.put_RemoteAddresses
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwService::put_RemoteAddresses

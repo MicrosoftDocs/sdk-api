@@ -4,17 +4,16 @@ title: GetLogicalDriveStringsW function
 author: windows-sdk-content
 description: Fills a buffer with strings that specify valid drives in the system.
 old-location: fs\getlogicaldrivestrings.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: d3a83f8d-c37c-48b9-a24c-f81dfe5773e9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetLogicalDriveStrings, GetLogicalDriveStrings function [Files], GetLogicalDriveStringsA, GetLogicalDriveStringsW, _win32_getlogicaldrivestrings, base.getlogicaldrivestrings, fileapi/GetLogicalDriveStrings, fileapi/GetLogicalDriveStringsA, fileapi/GetLogicalDriveStringsW, fs.getlogicaldrivestrings, winbase/GetLogicalDriveStrings, winbase/GetLogicalDriveStringsA, winbase/GetLogicalDriveStringsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -51,10 +51,8 @@ api_name:
  - GetLogicalDriveStringsW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # GetLogicalDriveStringsW function

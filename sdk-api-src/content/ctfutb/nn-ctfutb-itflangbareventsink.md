@@ -4,7 +4,7 @@ title: ITfLangBarEventSink
 author: windows-sdk-content
 description: The ITfLangBarEventSink interface is implemented by an application or text service and used by the language bar to supply notifications of certain events that occur in the language bar.
 old-location: tsf\itflangbareventsink.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 2ef8b8ff-6549-41f8-baf3-3c5b8e2411a3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msutb.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfLangBarEventSink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msutb.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfLangBarEventSink interface

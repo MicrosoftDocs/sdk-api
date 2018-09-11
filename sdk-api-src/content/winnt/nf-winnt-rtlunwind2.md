@@ -4,17 +4,16 @@ title: RtlUnwind2 function
 author: windows-sdk-content
 description: Initiates an unwind of procedure call frames.
 old-location: base\rtlunwind2.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 8015d070-51b9-49d4-b760-c9faaeba2cd0
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: RtlUnwind2, RtlUnwind2 function, base.rtlunwind2, winnt/RtlUnwind2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RtlUnwind2
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Intel Itanium edition of Windows Server 2003 or     Windows XP
 ---
 

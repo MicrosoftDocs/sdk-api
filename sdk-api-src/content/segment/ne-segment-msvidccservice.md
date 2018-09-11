@@ -4,7 +4,7 @@ title: MSVidCCService
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\msvidccservice.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 19e6a389-7f5b-40b9-a7e6-e90060e6d7d5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: segment.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Segment.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCCService
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MSVidCCService
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: MSVidCCService
+req.redist: 
 ---
 
 # MSVidCCService enumeration

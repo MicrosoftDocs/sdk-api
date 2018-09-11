@@ -4,17 +4,16 @@ title: IMPEG2ComponentType::put_StreamType
 author: windows-sdk-content
 description: The put_StreamType method sets the MPEG2 stream type.
 old-location: mstv\impeg2componenttype_put_streamtype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 5dbfacf3-87e2-48d4-add9-6da68c56af82
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMPEG2ComponentType interface [Microsoft TV Technologies],put_StreamType method, IMPEG2ComponentType.put_StreamType, IMPEG2ComponentType::put_StreamType, IMPEG2ComponentTypeput_StreamType, mstv.impeg2componenttype_put_streamtype, put_StreamType, put_StreamType method [Microsoft TV Technologies], put_StreamType method [Microsoft TV Technologies],IMPEG2ComponentType interface, tuner/IMPEG2ComponentType::put_StreamType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMPEG2ComponentType.put_StreamType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IMPEG2ComponentType::put_StreamType

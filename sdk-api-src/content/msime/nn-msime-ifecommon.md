@@ -4,7 +4,7 @@ title: IFECommon
 author: windows-sdk-content
 description: The IFECommon interface provides IME-related services that are common for different languages.
 old-location: intl\ifecommon.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 9FBECA6F-F162-485D-938F-FADC2D47083E
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFECommon
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IFECommon interface

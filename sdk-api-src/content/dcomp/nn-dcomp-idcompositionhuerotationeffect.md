@@ -4,7 +4,7 @@ title: IDCompositionHueRotationEffect
 author: windows-sdk-content
 description: The hue rotate effect alters the hue of an image by applying a color matrix based on the rotation angle.
 old-location: directcomp\idcompositionhuerotationeffect.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: BD11C779-78C6-4961-9DF1-2521B8F91FF5
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionHueRotationEffect
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionHueRotationEffect interface

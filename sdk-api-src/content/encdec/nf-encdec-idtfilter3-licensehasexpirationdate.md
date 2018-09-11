@@ -4,17 +4,16 @@ title: IDTFilter3::LicenseHasExpirationDate
 author: windows-sdk-content
 description: The LicenseHasExpirationDate method queries whether the license for the content has an expiration date.
 old-location: mstv\idtfilter3_licensehasexpirationdate.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 712be51a-27ed-4ede-bef6-9223c57f446f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDTFilter3 interface [Microsoft TV Technologies],LicenseHasExpirationDate method, IDTFilter3.LicenseHasExpirationDate, IDTFilter3::LicenseHasExpirationDate, IDTFilter3LicenseHasExpirationDate, LicenseHasExpirationDate, LicenseHasExpirationDate method [Microsoft TV Technologies], LicenseHasExpirationDate method [Microsoft TV Technologies],IDTFilter3 interface, encdec/IDTFilter3::LicenseHasExpirationDate, mstv.idtfilter3_licensehasexpirationdate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDTFilter3.LicenseHasExpirationDate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDTFilter3::LicenseHasExpirationDate

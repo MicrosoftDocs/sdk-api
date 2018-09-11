@@ -4,17 +4,16 @@ title: PSAM_INIT_NOTIFICATION_ROUTINE
 author: windows-sdk-content
 description: The InitializeChangeNotify function is implemented by a password filter DLL. This function initializes the DLL.
 old-location: security\initializechangenotify.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: c503c849-65da-4514-b6d9-a95c9d75433e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: InitializeChangeNotify, InitializeChangeNotify callback function [Security], PSAM_INIT_NOTIFICATION_ROUTINE, PSAM_INIT_NOTIFICATION_ROUTINE callback, _pswd_initializechangenotify, ntsecapi/InitializeChangeNotify, security.initializechangenotify
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CI_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InitializeChangeNotify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PSAM_INIT_NOTIFICATION_ROUTINE callback function

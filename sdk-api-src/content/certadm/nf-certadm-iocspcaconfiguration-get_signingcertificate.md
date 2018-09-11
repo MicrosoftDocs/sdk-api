@@ -4,17 +4,16 @@ title: IOCSPCAConfiguration::get_SigningCertificate
 author: windows-sdk-content
 description: Gets or sets a signing certificate that has been encoded by using Distinguished Encoding Rules (DER). An Online Certificate Status Protocol (OCSP) responder service uses this certificate to sign its responses to certificate status requests.
 old-location: security\iocspcaconfiguration_signingcertificate_method.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 8635c9f0-3c70-4037-8633-7a3440aff6c8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],SigningCertificate property, IOCSPCAConfiguration.SigningCertificate, IOCSPCAConfiguration.get_SigningCertificate, IOCSPCAConfiguration::SigningCertificate, IOCSPCAConfiguration::get_SigningCertificate, IOCSPCAConfiguration::put_SigningCertificate, SigningCertificate property [Security], SigningCertificate property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningCertificate, certadm/IOCSPCAConfiguration::get_SigningCertificate, certadm/IOCSPCAConfiguration::put_SigningCertificate, get_SigningCertificate, security.iocspcaconfiguration_signingcertificate_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IOCSPCAConfiguration.put_SigningCertificate
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPCAConfiguration::get_SigningCertificate

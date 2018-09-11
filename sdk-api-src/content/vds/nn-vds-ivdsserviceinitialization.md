@@ -4,17 +4,16 @@ title: IVdsServiceInitialization
 author: windows-sdk-content
 description: This interface is reserved for system use.
 old-location: base\ivdsserviceinitialization.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: f5a24acb-2b5e-44ec-a3fa-252a84777ecd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsServiceInitialization, IVdsServiceInitialization interface, IVdsServiceInitialization interface,described, base.ivdsserviceinitialization, vds/IVdsServiceInitialization
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVdsServiceInitialization
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsServiceInitialization interface

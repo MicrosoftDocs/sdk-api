@@ -4,17 +4,16 @@ title: "_EV_EXTRA_CERT_CHAIN_POLICY_STATUS"
 author: windows-sdk-content
 description: Contains policy flags returned from a call to the CertVerifyCertificateChainPolicy function.
 old-location: security\ev_extra_cert_chain_policy_status.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 65810a26-2675-4a98-b2ee-59d4e3bc1994
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PEV_EXTRA_CERT_CHAIN_POLICY_STATUS, CERT_ROOT_PROGRAM_FLAG_LSC, CERT_ROOT_PROGRAM_FLAG_ORG, CERT_ROOT_PROGRAM_FLAG_SUBJECT_LOGO, EV_EXTRA_CERT_CHAIN_POLICY_STATUS, EV_EXTRA_CERT_CHAIN_POLICY_STATUS structure [Security], PEV_EXTRA_CERT_CHAIN_POLICY_STATUS, PEV_EXTRA_CERT_CHAIN_POLICY_STATUS structure pointer [Security], _EV_EXTRA_CERT_CHAIN_POLICY_STATUS, security.ev_extra_cert_chain_policy_status, wincrypt/PEV_EXTRA_CERT_CHAIN_POLICY_STATUS, wincrypt/_EV_EXTRA_CERT_CHAIN_POLICY_STATUS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EV_EXTRA_CERT_CHAIN_POLICY_STATUS, *PEV_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EV_EXTRA_CERT_CHAIN_POLICY_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EV_EXTRA_CERT_CHAIN_POLICY_STATUS, *PEV_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.redist: 
 ---
 
 # _EV_EXTRA_CERT_CHAIN_POLICY_STATUS structure

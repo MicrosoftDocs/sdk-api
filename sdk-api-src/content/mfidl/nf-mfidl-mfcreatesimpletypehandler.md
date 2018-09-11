@@ -4,17 +4,16 @@ title: MFCreateSimpleTypeHandler function
 author: windows-sdk-content
 description: Creates a media-type handler that supports a single media type at a time.
 old-location: mf\mfcreatesimpletypehandler.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 441bd03d-b314-4f26-ad67-e6997e5edc9d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 441bd03d-b314-4f26-ad67-e6997e5edc9d, MFCreateSimpleTypeHandler, MFCreateSimpleTypeHandler function [Media Foundation], mf.mfcreatesimpletypehandler, mfidl/MFCreateSimpleTypeHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mf.lib
+req.dll: Mf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateSimpleTypeHandler
 product: Windows
 targetos: Windows
-req.lib: Mf.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateSimpleTypeHandler function

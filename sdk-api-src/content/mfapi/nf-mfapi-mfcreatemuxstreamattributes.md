@@ -4,17 +4,16 @@ title: MFCreateMuxStreamAttributes function
 author: windows-sdk-content
 description: Creates an IMFAttributes describing the content of multiplexed substreams.
 old-location: mf\mfcreatemuxstreamattributes.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 946D56BC-13A2-4464-8399-22A74E26693E
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateMuxStreamAttributes, MFCreateMuxStreamAttributes function [Media Foundation], mf.mfcreatemuxstreamattributes, mfapi/MFCreateMuxStreamAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateMuxStreamAttributes
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateMuxStreamAttributes function

@@ -4,17 +4,16 @@ title: ITfClientId::GetClientId
 author: windows-sdk-content
 description: ITfClientId::GetClientId method
 old-location: tsf\itfclientid_getclientid.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 422cff3c-1be5-4b86-bc64-cded6ab64da4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetClientId, GetClientId method [Text Services Framework], GetClientId method [Text Services Framework],ITfClientId interface, ITfClientId interface [Text Services Framework],GetClientId method, ITfClientId.GetClientId, ITfClientId::GetClientId, _tsf_itfclientid_getclientid_ref, msctf/ITfClientId::GetClientId, tsf.itfclientid_getclientid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfClientId.GetClientId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfClientId::GetClientId

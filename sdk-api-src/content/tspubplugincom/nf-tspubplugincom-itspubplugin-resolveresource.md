@@ -4,17 +4,16 @@ title: ItsPubPlugin::ResolveResource
 author: windows-sdk-content
 description: Provides information about how to connect to a user's assigned personal virtual desktop.
 old-location: termserv\itspubplugin_resolveresource.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 035b9d13-b64e-4e1c-8623-b4456f36c4ee
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ItsPubPlugin interface [Remote Desktop Services],ResolveResource method, ItsPubPlugin.ResolveResource, ItsPubPlugin::ResolveResource, ResolveResource, ResolveResource method [Remote Desktop Services], ResolveResource method [Remote Desktop Services],ItsPubPlugin interface, termserv.itspubplugin_resolveresource, tspubplugincom/ItsPubPlugin::ResolveResource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tspubplugincom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: pluginResource2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ItsPubPlugin.ResolveResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ItsPubPlugin::ResolveResource

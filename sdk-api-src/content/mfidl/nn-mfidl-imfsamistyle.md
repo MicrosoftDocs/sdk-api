@@ -4,7 +4,7 @@ title: IMFSAMIStyle
 author: windows-sdk-content
 description: Sets and retrieves Synchronized Accessible Media Interchange (SAMI) styles on the SAMI Media Source.
 old-location: mf\imfsamistyle.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c4887c52-57af-4783-b853-11fe6ad3510e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSAMIStyle
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSAMIStyle interface

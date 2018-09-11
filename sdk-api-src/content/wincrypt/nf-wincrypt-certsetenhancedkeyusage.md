@@ -4,17 +4,16 @@ title: CertSetEnhancedKeyUsage function
 author: windows-sdk-content
 description: The CertSetEnhancedKeyUsage function sets the enhanced key usage (EKU) property for the certificate.
 old-location: security\certsetenhancedkeyusage.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 423b0232-846e-4e40-bc42-d30c48c548da
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CertSetEnhancedKeyUsage, CertSetEnhancedKeyUsage function [Security], _crypto2_certsetenhancedkeyusage, security.certsetenhancedkeyusage, wincrypt/CertSetEnhancedKeyUsage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertSetEnhancedKeyUsage
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertSetEnhancedKeyUsage function

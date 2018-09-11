@@ -4,17 +4,16 @@ title: IGroupPolicyObject::Delete
 author: windows-sdk-content
 description: The Delete method deletes the GPO.
 old-location: policy\igrouppolicyobject_delete.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 34afb04e-47f9-4d7c-9fa6-9d76188d7e05
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Delete, Delete method [Group Policy], Delete method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],Delete method, IGroupPolicyObject.Delete, IGroupPolicyObject::Delete, _win32_igrouppolicyobject_delete, gpedit/IGroupPolicyObject::Delete, policy.igrouppolicyobject_delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGroupPolicyObject.Delete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpedit.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGroupPolicyObject::Delete

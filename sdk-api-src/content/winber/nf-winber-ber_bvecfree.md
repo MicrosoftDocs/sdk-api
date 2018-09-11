@@ -4,17 +4,16 @@ title: ber_bvecfree function
 author: windows-sdk-content
 description: The ber_bvecfree function frees an array of berval structures.
 old-location: ldap\ber_bvecfree.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 5c2b53e4-257e-4c3f-b712-345e6b33341b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ber_bvecfree, ber_bvecfree, ber_bvecfree function [LDAP], ldap.ber__bvecfree, ldap.ber_bvecfree, winber/ber_bvecfree"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winber.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ber_bvecfree
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ber_bvecfree function

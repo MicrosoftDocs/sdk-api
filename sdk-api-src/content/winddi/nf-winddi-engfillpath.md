@@ -4,17 +4,16 @@ title: EngFillPath function
 author: windows-sdk-content
 description: The EngFillPath function fills a path.
 old-location: display\engfillpath.htm
-old-project: display
+tech.root: display
 ms.assetid: 81c4ae89-391c-482b-b5dc-ef34d41607a1
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngFillPath, EngFillPath function [Display Devices], display.engfillpath, gdifncs_5128f1e3-265b-4570-8504-1782a07268d5.xml, winddi/EngFillPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngFillPath
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngFillPath function

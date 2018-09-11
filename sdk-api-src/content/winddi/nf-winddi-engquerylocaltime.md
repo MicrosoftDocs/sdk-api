@@ -4,17 +4,16 @@ title: EngQueryLocalTime function
 author: windows-sdk-content
 description: The EngQueryLocalTime function queries the local time.
 old-location: display\engquerylocaltime.htm
-old-project: display
+tech.root: display
 ms.assetid: 826993fc-7cf2-4747-a0d9-086e5d7310b6
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngQueryLocalTime, EngQueryLocalTime function [Display Devices], display.engquerylocaltime, gdifncs_268682b0-aef3-4241-b49c-1cea87ec4f29.xml, winddi/EngQueryLocalTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - EngQueryLocalTime
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngQueryLocalTime function

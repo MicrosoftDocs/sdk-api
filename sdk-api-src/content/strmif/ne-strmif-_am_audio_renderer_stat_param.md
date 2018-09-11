@@ -4,7 +4,7 @@ title: "_AM_AUDIO_RENDERER_STAT_PARAM"
 author: windows-sdk-content
 description: The _AM_AUDIO_RENDERER_STAT_PARAM enumeration specifies which performance information to retrieve from the audio renderer.
 old-location: dshow\_am_audio_renderer_stat_param.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ae090ab0-22e2-4407-8c16-feaa4fa20774
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _AM_AUDIO_RENDERER_STAT_PARAM
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # _AM_AUDIO_RENDERER_STAT_PARAM enumeration

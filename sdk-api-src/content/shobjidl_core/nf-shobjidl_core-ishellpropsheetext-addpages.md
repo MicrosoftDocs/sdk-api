@@ -4,17 +4,16 @@ title: IShellPropSheetExt::AddPages
 author: windows-sdk-content
 description: Adds one or more pages to a property sheet that the Shell displays for a file object. The Shell calls this method for each property sheet handler registered to the file type.
 old-location: shell\IShellPropSheetExt_AddPages.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 76a2a94b-b79f-41d1-9e42-fbfda545d12f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: AddPages, AddPages method [Windows Shell], AddPages method [Windows Shell],IShellPropSheetExt interface, IShellPropSheetExt interface [Windows Shell],AddPages method, IShellPropSheetExt.AddPages, IShellPropSheetExt::AddPages, _win32_IShellPropSheetExt_AddPages, _win32_ishellpropsheetext_win32_ishellpropsheetext_addpages_cpp, shell.IShellPropSheetExt_AddPages, shobjidl_core/IShellPropSheetExt::AddPages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellPropSheetExt.AddPages
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellPropSheetExt::AddPages

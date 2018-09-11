@@ -4,17 +4,16 @@ title: IX509ExtensionSmimeCapabilities::get_SmimeCapabilities
 author: windows-sdk-content
 description: Retrieves a collection of ISmimeCapability objects.
 old-location: security\ix509extensionsmimecapabilities_smimecapabilities.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 6e3ce718-16f9-47df-aff9-38e922fe505c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509ExtensionSmimeCapabilities interface [Security],SmimeCapabilities property, IX509ExtensionSmimeCapabilities.SmimeCapabilities, IX509ExtensionSmimeCapabilities.get_SmimeCapabilities, IX509ExtensionSmimeCapabilities::SmimeCapabilities, IX509ExtensionSmimeCapabilities::get_SmimeCapabilities, SmimeCapabilities property [Security], SmimeCapabilities property [Security],IX509ExtensionSmimeCapabilities interface, certenroll/IX509ExtensionSmimeCapabilities::SmimeCapabilities, certenroll/IX509ExtensionSmimeCapabilities::get_SmimeCapabilities, get_SmimeCapabilities, security.ix509extensionsmimecapabilities_smimecapabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509ExtensionSmimeCapabilities.get_SmimeCapabilities
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509ExtensionSmimeCapabilities::get_SmimeCapabilities

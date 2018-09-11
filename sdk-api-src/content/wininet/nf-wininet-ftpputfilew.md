@@ -4,17 +4,16 @@ title: FtpPutFileW function
 author: windows-sdk-content
 description: Stores a file on the FTP server.
 old-location: wininet\ftpputfile.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 161d4c04-c928-4178-b75b-f4552ac051ea
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: FTP_TRANSFER_TYPE_ASCII, FTP_TRANSFER_TYPE_BINARY, FTP_TRANSFER_TYPE_UNKNOWN, FtpPutFile, FtpPutFile function [WinINet], FtpPutFileA, FtpPutFileW, INTERNET_FLAG_HYPERLINK, INTERNET_FLAG_NEED_FILE, INTERNET_FLAG_RELOAD, INTERNET_FLAG_RESYNCHRONIZE, INTERNET_FLAG_TRANSFER_ASCII, INTERNET_FLAG_TRANSFER_BINARY, _inet_ftpputfile_function, wininet.ftpputfile, wininet/FtpPutFile, wininet/FtpPutFileA, wininet/FtpPutFileW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FtpPutFileW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FtpPutFileW function

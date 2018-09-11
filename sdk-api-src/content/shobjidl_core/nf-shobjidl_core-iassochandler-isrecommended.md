@@ -4,17 +4,16 @@ title: IAssocHandler::IsRecommended
 author: windows-sdk-content
 description: Indicates whether the application is registered as a recommended handler for the queried file type.
 old-location: shell\IAssocHandler_IsRecommended.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3c312db3-a656-436c-a012-669553355fa5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IAssocHandler interface [Windows Shell],IsRecommended method, IAssocHandler.IsRecommended, IAssocHandler::IsRecommended, IsRecommended, IsRecommended method [Windows Shell], IsRecommended method [Windows Shell],IAssocHandler interface, _shell_IAssocHandler_IsRecommended, shell.IAssocHandler_IsRecommended, shobjidl_core/IAssocHandler::IsRecommended
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAssocHandler.IsRecommended
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAssocHandler::IsRecommended

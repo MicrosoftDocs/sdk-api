@@ -4,7 +4,7 @@ title: "_USBUSER_CONTROLLER_UNICODE_NAME"
 author: windows-sdk-content
 description: The USBUSER_CONTROLLER_UNICODE_NAME structure is used in conjunction with the IOCTL_USB_USER_REQUEST I/O control request to retrieve the USB host controller driverkey name.
 old-location: buses\usbuser_controller_unicode_name.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 16c445cb-dac6-49de-b376-cee47644924d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USBUSER_CONTROLLER_UNICODE_NAME, *PUSBUSER_CONTROLLER_UNICODE_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USBUSER_CONTROLLER_UNICODE_NAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: USBUSER_CONTROLLER_UNICODE_NAME, *PUSBUSER_CONTROLLER_UNICODE_NAME
+req.redist: 
 ---
 
 # _USBUSER_CONTROLLER_UNICODE_NAME structure

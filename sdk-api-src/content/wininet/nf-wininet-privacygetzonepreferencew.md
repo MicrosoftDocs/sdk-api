@@ -4,17 +4,16 @@ title: PrivacyGetZonePreferenceW function
 author: windows-sdk-content
 description: Retrieves the privacy settings for a given URLZONE and PrivacyType.
 old-location: wininet\privacygetzonepreferencew.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 530a86a0-bb67-406a-be83-5f2b463a1aa1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: PrivacyGetZonePreferenceW, PrivacyGetZonePreferenceW function [WinINet], wininet.privacygetzonepreferencew, winineti/PrivacyGetZonePreferenceW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: Wininet.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - PrivacyGetZonePreferenceW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PrivacyGetZonePreferenceW function

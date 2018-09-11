@@ -4,17 +4,16 @@ title: IKsJackDescription::GetJackDescription
 author: windows-sdk-content
 description: The GetJackDescription method gets a description of an audio jack.
 old-location: coreaudio\iksjackdescription_getjackdescription.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 84278805-3b6d-4fae-8770-f9932b0e0fab
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetJackDescription, GetJackDescription method [Core Audio], GetJackDescription method [Core Audio],IKsJackDescription interface, IKsJackDescription interface [Core Audio],GetJackDescription method, IKsJackDescription.GetJackDescription, IKsJackDescription::GetJackDescription, IKsJackDescriptionGetJackDescription, coreaudio.iksjackdescription_getjackdescription, devicetopology/IKsJackDescription::GetJackDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IKsJackDescription.GetJackDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IKsJackDescription::GetJackDescription

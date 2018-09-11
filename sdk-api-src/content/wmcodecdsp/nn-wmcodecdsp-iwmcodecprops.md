@@ -4,7 +4,7 @@ title: IWMCodecProps
 author: windows-sdk-content
 description: Provides methods that retrieve format-specific codec properties.
 old-location: mf\iwmcodecpropsinterface.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b49e506b-8c87-44b9-be6c-b9a33f6c9ecb
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMCodecProps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMCodecProps interface

@@ -4,17 +4,16 @@ title: PropSheet_GetCurrentPageHwnd macro
 author: windows-sdk-content
 description: Retrieves a handle to the window of the current page of a property sheet. You can use this macro or send the PSM_GETCURRENTPAGEHWND message explicitly.
 old-location: controls\PropSheet_GetCurrentPageHwnd.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_getcurrentpagehwnd.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PropSheet_GetCurrentPageHwnd, PropSheet_GetCurrentPageHwnd macro [Windows Controls], _win32_PropSheet_GetCurrentPageHwnd, _win32_PropSheet_GetCurrentPageHwnd_cpp, controls.PropSheet_GetCurrentPageHwnd, controls._win32_PropSheet_GetCurrentPageHwnd, prsht/PropSheet_GetCurrentPageHwnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropSheet_GetCurrentPageHwnd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PropSheet_GetCurrentPageHwnd macro

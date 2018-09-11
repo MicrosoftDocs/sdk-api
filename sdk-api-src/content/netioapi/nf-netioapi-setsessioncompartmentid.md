@@ -4,17 +4,16 @@ title: SetSessionCompartmentId function
 author: windows-sdk-content
 description: Reserved for future use. Do not use this function.
 old-location: netvista\setsessioncompartmentid.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d8192a40-0122-44cd-87a8-3999204322b4
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: SetSessionCompartmentId, SetSessionCompartmentId function [Network Drivers Starting with Windows Vista], iphelper_04f504f7-428c-46a9-9aa2-06c5bf7191da.xml, netioapi/SetSessionCompartmentId, netvista.setsessioncompartmentid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetSessionCompartmentId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # SetSessionCompartmentId function

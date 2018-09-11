@@ -4,17 +4,16 @@ title: NCryptSignHash function
 author: windows-sdk-content
 description: Creates a signature of a hash value.
 old-location: security\ncryptsignhash_func.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 7404e37a-d7c6-49ed-b951-6081dd2b921a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, NCRYPT_SILENT_FLAG, NCryptSignHash, NCryptSignHash function [Security], ncrypt/NCryptSignHash, security.ncryptsignhash_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SESSION_HEADER, *PSESSION_HEADER
+req.lib: Ncrypt.lib
+req.dll: Ncrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCryptSignHash
 product: Windows
 targetos: Windows
-req.lib: Ncrypt.lib
-req.dll: Ncrypt.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NCryptSignHash function

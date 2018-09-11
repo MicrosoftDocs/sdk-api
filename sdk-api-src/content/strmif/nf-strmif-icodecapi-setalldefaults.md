@@ -4,17 +4,16 @@ title: ICodecAPI::SetAllDefaults
 author: windows-sdk-content
 description: The SetAllDefaults method resets all codec properties to their default values.
 old-location: dshow\icodecapi_setalldefaults.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b2f630be-a105-4f1b-9f9a-9d56c8853f35
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllDefaults method, ICodecAPI.SetAllDefaults, ICodecAPI::SetAllDefaults, ICodecAPISetAllDefaults, SetAllDefaults, SetAllDefaults method [DirectShow], SetAllDefaults method [DirectShow],ICodecAPI interface, dshow.icodecapi_setalldefaults, strmif/ICodecAPI::SetAllDefaults
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICodecAPI.SetAllDefaults
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # ICodecAPI::SetAllDefaults

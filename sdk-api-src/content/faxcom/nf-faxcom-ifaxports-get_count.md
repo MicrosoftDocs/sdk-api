@@ -4,17 +4,16 @@ title: IFaxPorts::get_Count
 author: windows-sdk-content
 description: The IFaxPorts::get_Count method retrieves the number of fax ports attached to the connected fax server.
 old-location: fax\_mfax_ifaxports_get_count.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7rp0.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: IFaxPorts interface [Fax Service],get_Count method, IFaxPorts.get_Count, IFaxPorts::get_Count, _mfax_ifaxports_get_count, fax._mfax_ifaxports_get_count, faxcom/IFaxPorts::get_Count, get_Count, get_Count method [Fax Service], get_Count method [Fax Service],IFaxPorts interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFaxPorts.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxPorts::get_Count

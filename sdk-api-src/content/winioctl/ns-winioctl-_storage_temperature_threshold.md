@@ -4,7 +4,7 @@ title: "_STORAGE_TEMPERATURE_THRESHOLD"
 author: windows-sdk-content
 description: This structure is used to set the over or under temperature threshold of a storage device (via IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD).
 old-location: fs\storage_temperature_threshold.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 02E01EAE-FF0F-4013-A237-651B1428DF52
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STORAGE_TEMPERATURE_THRESHOLD, *PSTORAGE_TEMPERATURE_THRESHOLD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STORAGE_TEMPERATURE_THRESHOLD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STORAGE_TEMPERATURE_THRESHOLD, *PSTORAGE_TEMPERATURE_THRESHOLD
+req.redist: 
 ---
 
 # _STORAGE_TEMPERATURE_THRESHOLD structure

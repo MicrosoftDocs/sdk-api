@@ -4,17 +4,16 @@ title: IWMPSettings::get_balance
 author: windows-sdk-content
 description: The get_balance method retrieves the current stereo balance.
 old-location: wmp\iwmpsettings_get_balance.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 457ee1a8-44da-424d-9cc5-0f0421791757
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_balance method, IWMPSettings.get_balance, IWMPSettings::get_balance, IWMPSettingsget_balance, get_balance, get_balance method [Windows Media Player], get_balance method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_balance, wmp/IWMPSettings::get_balance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPSettings.get_balance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPSettings::get_balance

@@ -4,17 +4,16 @@ title: StgCreatePropStg function
 author: windows-sdk-content
 description: Creates and opens a property set in a specified storage or stream object.
 old-location: stg\stgcreatepropstg.htm
-old-project: stg
+tech.root: Stg
 ms.assetid: fc171888-3723-4894-a356-1b234352c4e8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: StgCreatePropStg, StgCreatePropStg function [Structured Storage], _stg_stgcreatepropstg, coml2api/StgCreatePropStg, stg.stgcreatepropstg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Propidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - StgCreatePropStg
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # StgCreatePropStg function

@@ -4,17 +4,16 @@ title: IEnumTfDisplayAttributeInfo::Reset
 author: windows-sdk-content
 description: IEnumTfDisplayAttributeInfo::Reset method
 old-location: tsf\ienumtfdisplayattributeinfo_reset.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: fdfcf505-ae4a-4f7e-91f2-3e79efd56162
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumTfDisplayAttributeInfo interface [Text Services Framework],Reset method, IEnumTfDisplayAttributeInfo.Reset, IEnumTfDisplayAttributeInfo::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfDisplayAttributeInfo interface, _tsf_ienumtfdisplayattributeinfo_reset_ref, msctf/IEnumTfDisplayAttributeInfo::Reset, tsf.ienumtfdisplayattributeinfo_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumTfDisplayAttributeInfo.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IEnumTfDisplayAttributeInfo::Reset

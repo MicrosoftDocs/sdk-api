@@ -4,17 +4,16 @@ title: ISyncMgrConflictResolveInfo::GetPresenterChoice
 author: windows-sdk-content
 description: Gets what kind of choice was made and whether to apply the choice to all subsequent conflicts in the set.
 old-location: shell\ISyncMgrConflictResolveInfo_GetPresenterChoice.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 277eee0e-3f75-4ed1-8df2-75289838d3e5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetPresenterChoice, GetPresenterChoice method [Windows Shell], GetPresenterChoice method [Windows Shell],ISyncMgrConflictResolveInfo interface, ISyncMgrConflictResolveInfo interface [Windows Shell],GetPresenterChoice method, ISyncMgrConflictResolveInfo.GetPresenterChoice, ISyncMgrConflictResolveInfo::GetPresenterChoice, _shell_ISyncMgrConflictResolveInfo_GetPresenterChoice, shell.ISyncMgrConflictResolveInfo_GetPresenterChoice, syncmgr/ISyncMgrConflictResolveInfo::GetPresenterChoice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrConflictResolveInfo.GetPresenterChoice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrConflictResolveInfo::GetPresenterChoice

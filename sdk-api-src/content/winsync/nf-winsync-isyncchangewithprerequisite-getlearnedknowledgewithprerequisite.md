@@ -4,17 +4,16 @@ title: ISyncChangeWithPrerequisite::GetLearnedKnowledgeWithPrerequisite
 author: windows-sdk-content
 description: Gets the knowledge that the destination replica learns when the destination provider applies this change, based on the prerequisite knowledge that is associated with the change.
 old-location: winsync\isyncchangewithprerequisite_getlearnedknowledgewithprerequisite.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 5717f126-9383-4304-88eb-1d0fa3bb762f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetLearnedKnowledgeWithPrerequisite, GetLearnedKnowledgeWithPrerequisite method [Windows Sync], GetLearnedKnowledgeWithPrerequisite method [Windows Sync],ISyncChangeWithPrerequisite interface, ISyncChangeWithPrerequisite interface [Windows Sync],GetLearnedKnowledgeWithPrerequisite method, ISyncChangeWithPrerequisite.GetLearnedKnowledgeWithPrerequisite, ISyncChangeWithPrerequisite::GetLearnedKnowledgeWithPrerequisite, winsync.isyncchangewithprerequisite_getlearnedknowledgewithprerequisite, winsync/ISyncChangeWithPrerequisite::GetLearnedKnowledgeWithPrerequisite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncChangeWithPrerequisite.GetLearnedKnowledgeWithPrerequisite
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncChangeWithPrerequisite::GetLearnedKnowledgeWithPrerequisite

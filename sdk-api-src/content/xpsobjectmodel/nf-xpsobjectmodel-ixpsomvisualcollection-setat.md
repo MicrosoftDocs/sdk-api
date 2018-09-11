@@ -4,17 +4,16 @@ title: IXpsOMVisualCollection::SetAt
 author: windows-sdk-content
 description: Replaces an IXpsOMVisual interface pointer at a specified location in the collection.
 old-location: xps\ixpsomvisualcollection_setat.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: f06c2e27-213e-483e-9c56-1c06384b6ed8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsOMVisualCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMVisualCollection.SetAt, IXpsOMVisualCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMVisualCollection interface, xps.ixpsomvisualcollection_setat, xpsobjectmodel/IXpsOMVisualCollection::SetAt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMVisualCollection.SetAt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMVisualCollection::SetAt

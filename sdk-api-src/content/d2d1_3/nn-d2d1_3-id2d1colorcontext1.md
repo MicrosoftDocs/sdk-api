@@ -4,7 +4,7 @@ title: ID2D1ColorContext1
 author: windows-sdk-content
 description: Represents a color context to be used with the Color Management Effect.
 old-location: direct2d\id2d1colorcontext1.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 77C8730B-C753-48E7-89C1-FBE28E687704
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1ColorContext1
 product: Windows
 targetos: Windows
-req.lib: D2D1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1ColorContext1 interface

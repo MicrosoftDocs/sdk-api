@@ -4,17 +4,16 @@ title: RegisterTouchWindow function
 author: windows-sdk-content
 description: Registers a window as being touch-capable.
 old-location: wintouch\registertouchwindow.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: a70a7418-f79d-40c8-9219-3ce38a74da9f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RegisterTouchWindow, RegisterTouchWindow function [Windows Touch], TWF_FINETOUCH, TWF_WANTPALM, wintouch.registertouchwindow, winuser/RegisterTouchWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RegisterTouchWindow
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegisterTouchWindow function

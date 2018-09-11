@@ -4,7 +4,7 @@ title: IEnumEnhancedStorageACT
 author: windows-sdk-content
 description: Use this interface as the top level enumerator for all IEEE 1667 Addressable Contact Targets (ACT).
 old-location: enstor\ienumenhancedstorageact.htm
-old-project: enstor
+tech.root: enstor
 ms.assetid: 807834cc-0f52-43f6-a3b3-06591ba68c15
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ehstorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TimedLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumEnhancedStorageACT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumEnhancedStorageACT interface

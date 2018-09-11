@@ -4,17 +4,16 @@ title: CreateDataCache function
 author: windows-sdk-content
 description: Retrieves a pointer to a new instance of an OLE-provided implementation of a data cache.
 old-location: com\createdatacache.htm
-old-project: com
+tech.root: com
 ms.assetid: 8a64675b-1337-4555-b9a6-e19f9b987ba2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateDataCache, CreateDataCache function [COM], _ole_CreateDataCache, com.createdatacache, objbase/CreateDataCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CreateDataCache
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CreateDataCache function

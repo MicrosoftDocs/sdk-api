@@ -4,18 +4,17 @@ title: NdrClearOutParameters function
 author: windows-sdk-content
 description: The NdrClearOutParameters function frees resources of the out parameter and clears its memory if the RPC call to the server fails.
 old-location: rpc\ndrclearoutparameters.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: f0ae23d5-3ec0-4e41-8c2c-5b6eb9bbb1b8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NdrClearOutParameters, NdrClearOutParameters
 , NdrClearOutParameters function [RPC], rpc.ndrclearoutparameters, rpcndr/NdrClearOutParameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -28,8 +27,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - NdrClearOutParameters
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrClearOutParameters function

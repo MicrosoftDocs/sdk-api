@@ -4,17 +4,16 @@ title: IPropertyPage::Show
 author: windows-sdk-content
 description: Makes the property page dialog box visible or invisible. If the page is made visible, the page should set the focus to itself, specifically to the first property on the page.
 old-location: com\ipropertypage_show.htm
-old-project: com
+tech.root: com
 ms.assetid: f89aa820-a3d3-4a41-b2b2-9ee48354fbeb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPropertyPage interface [COM],Show method, IPropertyPage.Show, IPropertyPage::Show, Show, Show method [COM], Show method [COM],IPropertyPage interface, _ctrl_ipropertypage_show, com.ipropertypage_show, ocidl/IPropertyPage::Show
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyPage.Show
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyPage::Show

@@ -4,17 +4,16 @@ title: IInkRecognizer::CreateRecognizerContext
 author: windows-sdk-content
 description: Creates a new InkRecognizerContext object.
 old-location: tablet\iinkrecognizer_createrecognizercontext.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: b6aeec3f-8d57-4667-b171-1d8cad95f45c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: CreateRecognizerContext, CreateRecognizerContext method [Tablet PC], CreateRecognizerContext method [Tablet PC],IInkRecognizer interface, IInkRecognizer interface [Tablet PC],CreateRecognizerContext method, IInkRecognizer.CreateRecognizerContext, IInkRecognizer::CreateRecognizerContext, b6aeec3f-8d57-4667-b171-1d8cad95f45c, msinkaut/IInkRecognizer::CreateRecognizerContext, tablet.iinkrecognizer_createrecognizercontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkRecognizer.CreateRecognizerContext
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizer::CreateRecognizerContext

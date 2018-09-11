@@ -4,7 +4,7 @@ title: IUIAutomationGridPattern
 author: windows-sdk-content
 description: Provides access to a control that acts as a container for a collection of child controls that are organized in a two-dimensional logical coordinate system that can be traversed by row and column.
 old-location: winauto\uiauto_IUIAutomationGridPattern.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 36a4893e-5f49-413c-a29a-e58291c7d057
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationGridPattern
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAutomationCore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationGridPattern interface

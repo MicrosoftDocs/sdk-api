@@ -4,17 +4,16 @@ title: IX509Enrollment2::get_RequestIdString
 author: windows-sdk-content
 description: Retrieves a string that contains a unique identifier for the certificate request sent to the certification enrollment server (CES).
 old-location: security\ix509enrollment2_requestidstring.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: a1269b0d-6b55-47ba-bca8-610c1032ecc4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509Enrollment2 interface [Security],RequestIdString property, IX509Enrollment2.RequestIdString, IX509Enrollment2.get_RequestIdString, IX509Enrollment2::RequestIdString, IX509Enrollment2::get_RequestIdString, RequestIdString property [Security], RequestIdString property [Security],IX509Enrollment2 interface, certenroll/IX509Enrollment2::RequestIdString, certenroll/IX509Enrollment2::get_RequestIdString, get_RequestIdString, security.ix509enrollment2_requestidstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509Enrollment2.get_RequestIdString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Enrollment2::get_RequestIdString

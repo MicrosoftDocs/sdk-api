@@ -4,17 +4,16 @@ title: "_AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA"
 author: windows-sdk-content
 description: Holds policy information used in the verification of certificate chains for files.
 old-location: security\authenticode_extra_cert_chain_policy_para.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 591bd4d4-5062-4282-84fc-f7e02e9592e7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA structure [Security], PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA structure pointer [Security], WTPF_ALLOWONLYPERTRUST, WTPF_IGNOREEXPIRATION, WTPF_IGNOREREVOCATIONONTS, WTPF_IGNOREREVOKATION, WTPF_OFFLINEOKNBU_COM, WTPF_OFFLINEOKNBU_IND, WTPF_OFFLINEOK_COM, WTPF_OFFLINEOK_IND, WTPF_TESTCANBEVALID, WTPF_TRUSTTEST, WTPF_VERIFY_V1_OFF, _AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, _crypto2_authenticode_extra_cert_chain_policy_para, security.authenticode_extra_cert_chain_policy_para, wincrypt/AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, wincrypt/PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, *PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, *PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA
+req.redist: 
 ---
 
 # _AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA structure

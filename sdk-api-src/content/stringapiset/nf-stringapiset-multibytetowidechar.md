@@ -4,17 +4,16 @@ title: MultiByteToWideChar function
 author: windows-sdk-content
 description: Maps a character string to a UTF-16 (wide character) string.
 old-location: intl\multibytetowidechar.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: a117fdfe-b52b-466f-9300-6455e91ea2a8
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_UTF8, MB_COMPOSITE, MB_ERR_INVALID_CHARS, MB_PRECOMPOSED, MB_USEGLYPHCHARS, MultiByteToWideChar, MultiByteToWideChar function [Internationalization for Windows Applications], _win32_MultiByteToWideChar, intl.multibytetowidechar, stringapiset/MultiByteToWideChar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: stringapiset.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR50_SERVICE_CHARACTERISTICS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - MultiByteToWideChar
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # MultiByteToWideChar function

@@ -4,17 +4,16 @@ title: IVssExamineWriterMetadata::GetIdentity
 author: windows-sdk-content
 description: The GetIdentity method obtains basic information about a specific writer instance.
 old-location: base\ivssexaminewritermetadata_getidentity.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 55240ef2-f480-4917-98f9-e88a2e23edea
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetIdentity, GetIdentity method [VSS], GetIdentity method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetIdentity method, IVssExamineWriterMetadata.GetIdentity, IVssExamineWriterMetadata::GetIdentity, _win32_ivssexaminewritermetadata_getidentity, base.ivssexaminewritermetadata_getidentity, vsbackup/IVssExamineWriterMetadata::GetIdentity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssExamineWriterMetadata.GetIdentity
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssExamineWriterMetadata::GetIdentity

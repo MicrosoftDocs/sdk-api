@@ -4,17 +4,16 @@ title: IEnumTfLangBarItems::Clone
 author: windows-sdk-content
 description: IEnumTfLangBarItems::Clone method
 old-location: tsf\ienumtflangbaritems_clone.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 2a1f4a40-cf2c-4872-bb15-c4622ab2bfd1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfLangBarItems interface, IEnumTfLangBarItems interface [Text Services Framework],Clone method, IEnumTfLangBarItems.Clone, IEnumTfLangBarItems::Clone, _tsf_ienumtflangbaritems_clone_ref, ctfutb/IEnumTfLangBarItems::Clone, tsf.ienumtflangbaritems_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumTfLangBarItems.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IEnumTfLangBarItems::Clone

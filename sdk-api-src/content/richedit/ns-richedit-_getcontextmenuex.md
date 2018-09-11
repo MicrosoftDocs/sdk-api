@@ -4,7 +4,7 @@ title: "_getcontextmenuex"
 author: windows-sdk-content
 description: Contains context menu information that is passed to the IRichEditOleCallback::GetContextMenu method.
 old-location: controls\getcontextmenuex.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 6354921F-3C9F-4CBD-AC48-1EB67D1FDEB7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GETCONTEXTMENUEX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GETCONTEXTMENUEX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: GETCONTEXTMENUEX
+req.redist: 
 ---
 
 # _getcontextmenuex structure

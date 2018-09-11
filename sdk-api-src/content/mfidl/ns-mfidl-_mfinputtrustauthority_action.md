@@ -4,7 +4,7 @@ title: "_MFINPUTTRUSTAUTHORITY_ACTION"
 author: windows-sdk-content
 description: Describes an action requested by an output trust authority (OTA). The request is sent to an input trust authority (ITA).
 old-location: mf\mfinputtrustauthority_access_action.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 24e74739-054c-46ef-8df7-b29a9a2ea94a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFINPUTTRUSTAUTHORITY_ACCESS_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFINPUTTRUSTAUTHORITY_ACCESS_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFINPUTTRUSTAUTHORITY_ACCESS_ACTION
+req.redist: 
 ---
 
 # _MFINPUTTRUSTAUTHORITY_ACTION structure

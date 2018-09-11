@@ -4,17 +4,16 @@ title: DrvStretchBltROP function
 author: windows-sdk-content
 description: The DrvStretchBltROP function performs a stretching bit-block transfer using a ROP.
 old-location: display\drvstretchbltrop.htm
-old-project: display
+tech.root: display
 ms.assetid: eeaec7f4-2dfe-42a9-8789-a9ce11aec7b2
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvStretchBltROP, DrvStretchBltROP function [Display Devices], ddifncs_c25f3aa6-9564-4189-b956-51cd2729576c.xml, display.drvstretchbltrop, winddi/DrvStretchBltROP
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvStretchBltROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvStretchBltROP function

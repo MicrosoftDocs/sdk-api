@@ -4,17 +4,16 @@ title: IMixerPinConfig::GetColorKey
 author: windows-sdk-content
 description: The GetColorKey method retrieves the color key being used by a video stream.
 old-location: dshow\imixerpinconfig_getcolorkey.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 07e97d05-f273-4e93-8da8-838975d6f96c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetColorKey method, IMixerPinConfig.GetColorKey, IMixerPinConfig::GetColorKey, IMixerPinConfigGetColorKey, dshow.imixerpinconfig_getcolorkey, mpconfig/IMixerPinConfig::GetColorKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_ASPECT_RATIO_MODE
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMixerPinConfig.GetColorKey
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMixerPinConfig::GetColorKey

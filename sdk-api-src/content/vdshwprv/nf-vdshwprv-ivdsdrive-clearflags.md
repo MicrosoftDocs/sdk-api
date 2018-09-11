@@ -4,17 +4,16 @@ title: IVdsDrive::ClearFlags
 author: windows-sdk-content
 description: Clears the flags of a drive object.
 old-location: base\ivdsdrive_clearflags.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 195f0c13-40d7-4fad-b589-063ec4ff4efe
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ClearFlags, ClearFlags method [VDS], ClearFlags method [VDS],IVdsDrive interface, IVdsDrive interface [VDS],ClearFlags method, IVdsDrive.ClearFlags, IVdsDrive::ClearFlags, base.ivdsdrive_clearflags, vds/IVdsDrive::ClearFlags, vdshwprv/IVdsDrive::ClearFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsDrive.ClearFlags
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsDrive::ClearFlags

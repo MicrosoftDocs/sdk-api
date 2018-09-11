@@ -4,17 +4,16 @@ title: IControlChangeNotify::OnNotify
 author: windows-sdk-content
 description: The OnNotify method notifies the client when the status of a connector or subunit changes.
 old-location: coreaudio\icontrolchangenotify_onnotify.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: a2f32cb9-3c8b-4b44-96a2-dd70afcca71a
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IControlChangeNotify interface [Core Audio],OnNotify method, IControlChangeNotify.OnNotify, IControlChangeNotify::OnNotify, IControlChangeNotifyOnNotify, OnNotify, OnNotify method [Core Audio], OnNotify method [Core Audio],IControlChangeNotify interface, coreaudio.icontrolchangenotify_onnotify, devicetopology/IControlChangeNotify::OnNotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IControlChangeNotify.OnNotify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IControlChangeNotify::OnNotify

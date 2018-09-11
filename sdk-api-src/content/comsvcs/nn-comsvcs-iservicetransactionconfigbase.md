@@ -4,17 +4,16 @@ title: IServiceTransactionConfigBase
 author: windows-sdk-content
 description: Configures the transaction services for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
 old-location: cos\iservicetransactionconfigbase.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: e4740bf4-51b1-474f-9637-7c5d78f0def5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IServiceTransactionConfigBase, IServiceTransactionConfigBase interface [COM+], IServiceTransactionConfigBase interface [COM+],described, _cos_IServiceTransactionConfigBase, comsvcs/IServiceTransactionConfigBase, cos.iservicetransactionconfigbase
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceTransactionConfigBase
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceTransactionConfigBase interface

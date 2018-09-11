@@ -4,17 +4,16 @@ title: IVdsLunNaming::SetFriendlyName
 author: windows-sdk-content
 description: Sets the friendly name of a LUN.
 old-location: base\ivdslunnaming_setfriendlyname.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 233b19f6-dd0e-4033-a03d-0f1f597287a1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsLunNaming interface [VDS],SetFriendlyName method, IVdsLunNaming.SetFriendlyName, IVdsLunNaming::SetFriendlyName, SetFriendlyName, SetFriendlyName method [VDS], SetFriendlyName method [VDS],IVdsLunNaming interface, base.ivdslunnaming_setfriendlyname, vds/IVdsLunNaming::SetFriendlyName, vdshwprv/IVdsLunNaming::SetFriendlyName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLunNaming.SetFriendlyName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsLunNaming::SetFriendlyName
@@ -65,7 +63,7 @@ Sets the friendly name of a LUN.
 
 ### -param pwszFriendlyName
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: "_LOADED_IMAGE"
 author: windows-sdk-content
 description: Contains information about the loaded image.
 old-location: base\loaded_image_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 8bfc6b47-23d6-45e1-a733-5b938d6312da
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PLOADED_IMAGE, IMAGE_FILE_32BIT_MACHINE, IMAGE_FILE_AGGRESIVE_WS_TRIM, IMAGE_FILE_BYTES_REVERSED_HI, IMAGE_FILE_BYTES_REVERSED_LO, IMAGE_FILE_DEBUG_STRIPPED, IMAGE_FILE_DLL, IMAGE_FILE_EXECUTABLE_IMAGE, IMAGE_FILE_LARGE_ADDRESS_AWARE, IMAGE_FILE_LINE_NUMS_STRIPPED, IMAGE_FILE_LOCAL_SYMS_STRIPPED, IMAGE_FILE_NET_RUN_FROM_SWAP, IMAGE_FILE_RELOCS_STRIPPED, IMAGE_FILE_REMOVABLE_RUN_FROM_SWAP, IMAGE_FILE_SYSTEM, IMAGE_FILE_UP_SYSTEM_ONLY, LIST_ENTRY, LOADED_IMAGE, LOADED_IMAGE structure, PLOADED_IMAGE, PLOADED_IMAGE structure pointer, _LOADED_IMAGE, _win32_loaded_image_str, base.loaded_image_str, dbghelp/LOADED_IMAGE, dbghelp/PLOADED_IMAGE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOADED_IMAGE, *PLOADED_IMAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - LOADED_IMAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: LOADED_IMAGE, *PLOADED_IMAGE
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _LOADED_IMAGE structure

@@ -4,17 +4,16 @@ title: IRDPSRAPIInvitationManager::CreateInvitation
 author: windows-sdk-content
 description: Creates an invitation.
 old-location: rdp\irdpsrapiinvitationmanager_createinvitation.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 169d220b-3a2a-490e-9c1c-03a707d59f6c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateInvitation, CreateInvitation method [RDP], CreateInvitation method [RDP],IRDPSRAPIInvitationManager interface, IRDPSRAPIInvitationManager interface [RDP],CreateInvitation method, IRDPSRAPIInvitationManager.CreateInvitation, IRDPSRAPIInvitationManager::CreateInvitation, rdp.irdpsrapiinvitationmanager_createinvitation, rdpencomapi/IRDPSRAPIInvitationManager::CreateInvitation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPIInvitationManager.CreateInvitation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIInvitationManager::CreateInvitation

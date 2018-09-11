@@ -4,7 +4,7 @@ title: FWPM_LAYER_STATISTICS0_
 author: windows-sdk-content
 description: Stores statistics related to a layer.
 old-location: fwp\fwpm_layer_statistics0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: cc8e0159-fe28-4718-b5fe-d38d180b3e2c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_LAYER_STATISTICS0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPM_LAYER_STATISTICS0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPM_LAYER_STATISTICS0
+req.redist: 
 ---
 
 # FWPM_LAYER_STATISTICS0_ structure

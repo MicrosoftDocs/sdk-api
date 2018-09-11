@@ -4,17 +4,16 @@ title: "_SECURITY_QUALITY_OF_SERVICE"
 author: windows-sdk-content
 description: Contains information used to support client impersonation.
 old-location: security\security_quality_of_service.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 21f99d04-b21b-442c-9034-35f9f7bbee53
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSECURITY_QUALITY_OF_SERVICE, PSECURITY_QUALITY_OF_SERVICE, PSECURITY_QUALITY_OF_SERVICE structure pointer [Security], SECURITY_QUALITY_OF_SERVICE, SECURITY_QUALITY_OF_SERVICE structure [Security], _SECURITY_QUALITY_OF_SERVICE, _win32_security_quality_of_service_str, security.security_quality_of_service, winnt/PSECURITY_QUALITY_OF_SERVICE, winnt/SECURITY_QUALITY_OF_SERVICE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECURITY_QUALITY_OF_SERVICE, *PSECURITY_QUALITY_OF_SERVICE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECURITY_QUALITY_OF_SERVICE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SECURITY_QUALITY_OF_SERVICE, *PSECURITY_QUALITY_OF_SERVICE
+req.redist: 
 ---
 
 # _SECURITY_QUALITY_OF_SERVICE structure

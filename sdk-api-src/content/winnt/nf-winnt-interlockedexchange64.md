@@ -4,17 +4,16 @@ title: InterlockedExchange64 function
 author: windows-sdk-content
 description: Sets a 64-bit variable to the specified value as an atomic operation.
 old-location: base\interlockedexchange64.htm
-old-project: sync
+tech.root: Sync
 ms.assetid: 80d34f5d-3491-4653-959b-6b9efebf764b
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: InterlockedExchange64, InterlockedExchange64 function, base.interlockedexchange64, winnt/InterlockedExchange64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InterlockedExchange64
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InterlockedExchange64 function

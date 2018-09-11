@@ -4,17 +4,16 @@ title: TRefPointerCollection::Empty
 author: windows-sdk-content
 description: The Empty method removes all items from the collection.
 old-location: wmi\trefpointercollection_empty.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 08f9dcc6-cb85-42aa-837b-ab8021f488c6
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: Empty, Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],Empty method, TRefPointerCollection.Empty, TRefPointerCollection::Empty, _hmm_trefpointercollection_empty, refptrco/TRefPointerCollection::Empty, wmi.trefpointercollection_empty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: refptrco.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - TRefPointerCollection.Empty
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # TRefPointerCollection::Empty

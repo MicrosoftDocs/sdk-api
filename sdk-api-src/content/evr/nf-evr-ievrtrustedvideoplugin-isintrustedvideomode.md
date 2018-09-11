@@ -4,17 +4,16 @@ title: IEVRTrustedVideoPlugin::IsInTrustedVideoMode
 author: windows-sdk-content
 description: Queries whether the plug-in has any transient vulnerabilities at this time.
 old-location: mf\ievrtrustedvideoplugin_isintrustedvideomode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 43242898-4812-4faa-8e0a-6e60455c9f3b
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 43242898-4812-4faa-8e0a-6e60455c9f3b, IEVRTrustedVideoPlugin interface [Media Foundation],IsInTrustedVideoMode method, IEVRTrustedVideoPlugin.IsInTrustedVideoMode, IEVRTrustedVideoPlugin::IsInTrustedVideoMode, IsInTrustedVideoMode, IsInTrustedVideoMode method [Media Foundation], IsInTrustedVideoMode method [Media Foundation],IEVRTrustedVideoPlugin interface, evr/IEVRTrustedVideoPlugin::IsInTrustedVideoMode, mf.ievrtrustedvideoplugin_isintrustedvideomode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEVRTrustedVideoPlugin.IsInTrustedVideoMode
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEVRTrustedVideoPlugin::IsInTrustedVideoMode

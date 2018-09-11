@@ -4,7 +4,7 @@ title: IMFShutdown
 author: windows-sdk-content
 description: Exposed by some Media Foundation objects that must be explicitly shut down.
 old-location: mf\imfshutdown.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c3052658-51bb-401b-8db9-3428868899d6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFShutdown
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mfsensorgroup.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFShutdown interface

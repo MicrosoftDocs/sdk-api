@@ -4,7 +4,7 @@ title: "_BTH_L2CAP_EVENT_INFO"
 author: windows-sdk-content
 description: Contains data about events associated with an L2CAP channel.
 old-location: bluetooth\bth_l2cap_event_info.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: fd16514c-7a7e-4da4-b506-71cb66ed1983
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthdef.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BTH_L2CAP_EVENT_INFO, *PBTH_L2CAP_EVENT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BTH_L2CAP_EVENT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BTH_L2CAP_EVENT_INFO, *PBTH_L2CAP_EVENT_INFO
+req.redist: 
 ---
 
 # _BTH_L2CAP_EVENT_INFO structure

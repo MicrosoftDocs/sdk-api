@@ -4,17 +4,16 @@ title: IDXGISurface::GetDesc
 author: windows-sdk-content
 description: Get a description of the surface.
 old-location: direct3ddxgi\idxgisurface_getdesc.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgisurface_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 92b3b49a-8f1d-7cd5-e484-3b5621c5acf5, GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGISurface interface, IDXGISurface interface [DXGI],GetDesc method, IDXGISurface.GetDesc, IDXGISurface::GetDesc, direct3ddxgi.idxgisurface_getdesc, dxgi/IDXGISurface::GetDesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGISurface.GetDesc
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGISurface::GetDesc

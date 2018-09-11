@@ -4,17 +4,16 @@ title: D3D10_BLEND_OP
 author: windows-sdk-content
 description: RGB or alpha blending operation.
 old-location: direct3d10\d3d10_blend_op.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_blend_op.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 9bbf55a2-225d-7084-43ca-8305b06faa0d, D3D10_BLEND_OP, D3D10_BLEND_OP enumeration [Direct3D 10], D3D10_BLEND_OP_ADD, D3D10_BLEND_OP_MAX, D3D10_BLEND_OP_MIN, D3D10_BLEND_OP_REV_SUBTRACT, D3D10_BLEND_OP_SUBTRACT, d3d10/D3D10_BLEND_OP, d3d10/D3D10_BLEND_OP_ADD, d3d10/D3D10_BLEND_OP_MAX, d3d10/D3D10_BLEND_OP_MIN, d3d10/D3D10_BLEND_OP_REV_SUBTRACT, d3d10/D3D10_BLEND_OP_SUBTRACT, direct3d10.d3d10_blend_op
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_BLEND_OP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_BLEND_OP
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D3D10_BLEND_OP
+req.redist: 
 ---
 
 # D3D10_BLEND_OP enumeration

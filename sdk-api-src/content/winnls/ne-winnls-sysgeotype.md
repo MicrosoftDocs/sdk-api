@@ -4,7 +4,7 @@ title: SYSGEOTYPE
 author: windows-sdk-content
 description: Defines the type of geographical location information requested in the GetGeoInfo or GetGeoInfoEx function.
 old-location: intl\sysgeotype.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: f72f5cc5-4709-408f-a50c-b4b3092c4419
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYSGEOTYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SYSGEOTYPE enumeration

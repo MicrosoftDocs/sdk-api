@@ -4,17 +4,16 @@ title: ITAddress::put_MessageWaiting
 author: windows-sdk-content
 description: The put_MessageWaiting method sets the status of the message waiting on the address.
 old-location: tapi3\itaddress_put_messagewaiting.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 9dc125ab-a452-4108-93d5-9f341b879e8d
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAddress interface [TAPI 2.2],put_MessageWaiting method, ITAddress.put_MessageWaiting, ITAddress::put_MessageWaiting, _tapi3_itaddress_put_messagewaiting, put_MessageWaiting, put_MessageWaiting method [TAPI 2.2], put_MessageWaiting method [TAPI 2.2],ITAddress interface, tapi3.itaddress_put_messagewaiting, tapi3if/ITAddress::put_MessageWaiting
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddress.put_MessageWaiting
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddress::put_MessageWaiting

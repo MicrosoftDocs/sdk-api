@@ -4,17 +4,16 @@ title: ICaptionServiceDescriptor::GetEasyReader
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icaptionservicedescriptor_geteasyreader.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7ecf31c8-b93e-4c6c-991c-33ce942757ec
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetEasyReader, GetEasyReader method [Microsoft TV Technologies], GetEasyReader method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetEasyReader method, ICaptionServiceDescriptor.GetEasyReader, ICaptionServiceDescriptor::GetEasyReader, ICaptionServiceDescriptorGetEasyReader, atscpsipparser/ICaptionServiceDescriptor::GetEasyReader, mstv.icaptionservicedescriptor_geteasyreader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICaptionServiceDescriptor.GetEasyReader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICaptionServiceDescriptor::GetEasyReader

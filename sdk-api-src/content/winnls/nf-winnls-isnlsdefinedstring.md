@@ -4,17 +4,16 @@ title: IsNLSDefinedString function
 author: windows-sdk-content
 description: Determines if each character in a string has a defined result for a specified NLS capability.
 old-location: intl\isnlsdefinedstring.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 0beb0470-ecdc-4a24-b28c-0738e1df9d49
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IsNLSDefinedString, IsNLSDefinedString function [Internationalization for Windows Applications], _win32_IsNLSDefinedString, intl.isnlsdefinedstring, winnls/IsNLSDefinedString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - IsNLSDefinedString
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IsNLSDefinedString function

@@ -4,7 +4,7 @@ title: "_DD_SYNCSURFACEDATA"
 author: windows-sdk-content
 description: The DD_SYNCSURFACEDATA structure contains the surface information.
 old-location: display\dd_syncsurfacedata.htm
-old-project: display
+tech.root: display
 ms.assetid: 76294b03-9182-408a-a0ee-1a24f8b53163
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_SYNCSURFACEDATA, DD_SYNCSURFACEDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_SYNCSURFACEDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_SYNCSURFACEDATA, DD_SYNCSURFACEDATA"
+req.redist: 
 ---
 
 # _DD_SYNCSURFACEDATA structure

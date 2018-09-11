@@ -4,17 +4,16 @@ title: IVssBackupComponents::InitializeForBackup
 author: windows-sdk-content
 description: The InitializeForBackup method initializes the backup components metadata in preparation for backup.
 old-location: base\ivssbackupcomponents_initializeforbackup.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: df469964-c954-4f79-b88f-a521157a0c66
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],InitializeForBackup method, IVssBackupComponents.InitializeForBackup, IVssBackupComponents::InitializeForBackup, InitializeForBackup, InitializeForBackup method [VSS], InitializeForBackup method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_initializeforbackup, base.ivssbackupcomponents_initializeforbackup, vsbackup/IVssBackupComponents::InitializeForBackup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.InitializeForBackup
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::InitializeForBackup

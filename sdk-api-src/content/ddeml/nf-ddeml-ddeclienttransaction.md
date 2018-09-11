@@ -4,17 +4,16 @@ title: DdeClientTransaction function
 author: windows-sdk-content
 description: Begins a data transaction between a client and a server. Only a Dynamic Data Exchange (DDE) client application can call this function, and the application can use it only after establishing a conversation with the server.
 old-location: dataxchg\ddeclienttransaction.htm
-old-project: dataxchg
+tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeclienttransaction.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DdeClientTransaction, DdeClientTransaction function [Data Exchange], XTYP_ADVSTART, XTYP_ADVSTOP, XTYP_EXECUTE, XTYP_POKE, XTYP_REQUEST, _win32_DdeClientTransaction, _win32_ddeclienttransaction_cpp, dataxchg.ddeclienttransaction, ddeml/DdeClientTransaction, winui._win32_ddeclienttransaction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDEPOKE
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdeClientTransaction
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DdeClientTransaction function

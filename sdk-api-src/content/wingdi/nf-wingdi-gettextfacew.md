@@ -4,17 +4,16 @@ title: GetTextFaceW function
 author: windows-sdk-content
 description: The GetTextFace function retrieves the typeface name of the font that is selected into the specified device context.
 old-location: gdi\gettextface.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: c4c8c8f5-3651-481b-a55f-da7f49d92f3a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetTextFace, GetTextFace function [Windows GDI], GetTextFaceA, GetTextFaceW, _win32_GetTextFace, gdi.gettextface, wingdi/GetTextFace, wingdi/GetTextFaceA, wingdi/GetTextFaceW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetTextFaceW
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetTextFaceW function

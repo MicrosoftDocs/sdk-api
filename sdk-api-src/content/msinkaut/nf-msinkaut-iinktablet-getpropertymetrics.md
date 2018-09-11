@@ -4,17 +4,16 @@ title: IInkTablet::GetPropertyMetrics
 author: windows-sdk-content
 description: Retrieves the metrics data for a specified property.
 old-location: tablet\iinktablet_getpropertymetrics.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb, GetPropertyMetrics, GetPropertyMetrics method [Tablet PC], GetPropertyMetrics method [Tablet PC],IInkTablet interface, IInkTablet interface [Tablet PC],GetPropertyMetrics method, IInkTablet.GetPropertyMetrics, IInkTablet::GetPropertyMetrics, msinkaut/IInkTablet::GetPropertyMetrics, tablet.iinktablet_getpropertymetrics
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkTablet.GetPropertyMetrics
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkTablet::GetPropertyMetrics
@@ -66,7 +64,7 @@ Retrieves the metrics data for a specified property.
 
 ### -param propertyName
 
-
+TBD
 
 
 ### -param Minimum [out]

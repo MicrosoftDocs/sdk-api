@@ -4,7 +4,7 @@ title: "_MI_ConstSint16AField"
 author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constsint16afield.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: 79c558a3-de53-4bb4-90d9-c29a21ab05de
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 
-req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_ConstSint16AField
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_ConstSint16AField
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MI_ConstSint16AField
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ---
 
 # _MI_ConstSint16AField structure

@@ -4,17 +4,16 @@ title: PathCreateFromUrlAlloc function
 author: windows-sdk-content
 description: Creates a path from a file URL.
 old-location: shell\PathCreateFromUrlAlloc.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 274411cd-5922-4db8-8775-feb93cae32dd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: PathCreateFromUrlAlloc, PathCreateFromUrlAlloc function [Windows Shell], _shell_PathCreateFromUrlAlloc, shell.PathCreateFromUrlAlloc, shlwapi/PathCreateFromUrlAlloc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: 
+req.dll: Shlwapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - PathCreateFromUrlAlloc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shlwapi.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # PathCreateFromUrlAlloc function

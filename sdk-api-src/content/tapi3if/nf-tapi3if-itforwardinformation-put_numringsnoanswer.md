@@ -4,17 +4,16 @@ title: ITForwardInformation::put_NumRingsNoAnswer
 author: windows-sdk-content
 description: The put_NumRingsNoAnswer method sets the number of rings after which a no answer condition is assumed.
 old-location: tapi3\itforwardinformation_put_numringsnoanswer.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: ad7b2746-cb97-406e-a328-efc051681aa6
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],put_NumRingsNoAnswer method, ITForwardInformation.put_NumRingsNoAnswer, ITForwardInformation::put_NumRingsNoAnswer, _tapi3_itforwardinformation_put_numringsnoanswer, put_NumRingsNoAnswer, put_NumRingsNoAnswer method [TAPI 2.2], put_NumRingsNoAnswer method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_put_numringsnoanswer, tapi3if/ITForwardInformation::put_NumRingsNoAnswer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITForwardInformation.put_NumRingsNoAnswer
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITForwardInformation::put_NumRingsNoAnswer

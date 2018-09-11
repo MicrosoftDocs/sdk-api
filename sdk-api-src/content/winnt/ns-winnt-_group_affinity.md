@@ -4,7 +4,7 @@ title: "_GROUP_AFFINITY"
 author: windows-sdk-content
 description: Represents a processor group-specific affinity, such as the affinity of a thread.
 old-location: base\group_affinity.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 76009431-9139-4c03-9c7b-0c4bb5f0cb83
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUP_AFFINITY, *PGROUP_AFFINITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GROUP_AFFINITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: GROUP_AFFINITY, *PGROUP_AFFINITY
+req.redist: 
 ---
 
 # _GROUP_AFFINITY structure

@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxDoc.put_RecipientHomePhone
 title: IFaxDoc::put_RecipientHomePhone
 author: windows-sdk-content
 description: Sets or retrieves the RecipientHomePhone property of a FaxDoc object. The RecipientHomePhone property is a null-terminated string that contains the home telephone number of the recipient of the fax transmission.
-old-location: fax\_mfax_ifaxdoc_get_recipienthomephone_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipienthomephone_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9m5h.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxDoc object [Fax Service],RecipientHomePhone property, FaxDoc.RecipientHomePhone, IFaxDoc.put_RecipientHomePhone, IFaxDoc::put_RecipientHomePhone, RecipientHomePhone property [Fax Service], RecipientHomePhone property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipienthomephone, fax._mfax_ifaxdoc_get_recipienthomephone, fax._mfax_ifaxdoc_get_recipienthomephone_vb, put_RecipientHomePhone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxDoc interface [Fax Service],RecipientHomePhone property, IFaxDoc.RecipientHomePhone, IFaxDoc.put_RecipientHomePhone, IFaxDoc::RecipientHomePhone, IFaxDoc::get_RecipientHomePhone, IFaxDoc::put_RecipientHomePhone, RecipientHomePhone property [Fax Service], RecipientHomePhone property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipienthomephone, fax._mfax_ifaxdoc_get_recipienthomephone, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipienthomephone_cpp, faxcom/IFaxDoc::RecipientHomePhone, faxcom/IFaxDoc::get_RecipientHomePhone, faxcom/IFaxDoc::put_RecipientHomePhone, put_RecipientHomePhone
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxDoc.RecipientHomePhone
+ - IFaxDoc.RecipientHomePhone
+ - IFaxDoc.get_RecipientHomePhone
+ - IFaxDoc.put_RecipientHomePhone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDoc::put_RecipientHomePhone
@@ -81,10 +81,6 @@ The <b>get_RecipientHomePhone</b> method allocates the memory required for the b
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms690707(v=VS.85).aspx">FaxDoc</a>
 
 
 

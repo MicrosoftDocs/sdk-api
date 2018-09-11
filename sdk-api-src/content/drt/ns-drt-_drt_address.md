@@ -4,7 +4,7 @@ title: "_DRT_ADDRESS"
 author: windows-sdk-content
 description: DRT_ADDRESS structure contains endpoint information about a DRT node that participated in a search. This information is intended for use in debugging connectivity problems.
 old-location: p2p\drt_address.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: d6b00d5e-14f1-4e56-b8c8-f3936f6ae9fb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_ADDRESS, *PDRT_ADDRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRT_ADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRT_ADDRESS, *PDRT_ADDRESS
+req.redist: 
 ---
 
 # _DRT_ADDRESS structure

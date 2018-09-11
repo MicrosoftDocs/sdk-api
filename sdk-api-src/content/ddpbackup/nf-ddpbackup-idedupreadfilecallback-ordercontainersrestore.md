@@ -4,17 +4,16 @@ title: IDedupReadFileCallback::OrderContainersRestore
 author: windows-sdk-content
 description: This method provides the application with the ability to influence the order of the pending reads that are required to retrieve the target file.
 old-location: dedup\idedupreadfilecallback_ordercontainersrestore.htm
-old-project: dedup
+tech.root: dedup
 ms.assetid: 25871056-5833-40DA-9C5B-690DCAB16E5C
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDedupReadFileCallback interface [Data Deduplication API],OrderContainersRestore method, IDedupReadFileCallback.OrderContainersRestore, IDedupReadFileCallback::OrderContainersRestore, OrderContainersRestore, OrderContainersRestore method [Data Deduplication API], OrderContainersRestore method [Data Deduplication API],IDedupReadFileCallback interface, ddpbackup/IDedupReadFileCallback::OrderContainersRestore, dedup.idedupreadfilecallback_ordercontainersrestore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddpbackup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_BACKUP_SUPPORT_PARAM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDedupReadFileCallback.OrderContainersRestore
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDedupReadFileCallback::OrderContainersRestore

@@ -4,7 +4,7 @@ title: ISpellCheckerFactory
 author: windows-sdk-content
 description: A factory for instantiating a spell checker (ISpellChecker) as well as providing functionality for determining which languages are supported.
 old-location: intl\ispellcheckerfactory.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 7febbb7e-c557-4698-bf58-6e6e7f61b071
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: spellcheck.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpellCheckerFactory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpellCheckerFactory interface

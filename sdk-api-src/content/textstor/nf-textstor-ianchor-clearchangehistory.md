@@ -4,17 +4,16 @@ title: IAnchor::ClearChangeHistory
 author: windows-sdk-content
 description: The IAnchor::ClearChangeHistory method clears the anchor change history flags.
 old-location: tsf\ianchor_clearchangehistory.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 3780ab3d-6b77-45bc-9630-747fa5caaecc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ClearChangeHistory, ClearChangeHistory method [Text Services Framework], ClearChangeHistory method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],ClearChangeHistory method, IAnchor.ClearChangeHistory, IAnchor::ClearChangeHistory, textstor/IAnchor::ClearChangeHistory, tsf.ianchor_clearchangehistory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnchor.ClearChangeHistory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IAnchor::ClearChangeHistory

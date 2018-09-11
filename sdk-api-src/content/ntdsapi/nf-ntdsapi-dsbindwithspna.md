@@ -4,17 +4,16 @@ title: DsBindWithSpnA function
 author: windows-sdk-content
 description: Binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication.
 old-location: ad\dsbindwithspn.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 9a149654-fd94-4b0c-b712-07fb827bef2f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsBindWithSpn, DsBindWithSpn function [Active Directory], DsBindWithSpnA, DsBindWithSpnW, _glines_dsbindwithspn, ad.dsbindwithspn, ntdsapi/DsBindWithSpn, ntdsapi/DsBindWithSpnA, ntdsapi/DsBindWithSpnW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsBindWithSpnW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsBindWithSpnA function

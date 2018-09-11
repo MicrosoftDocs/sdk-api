@@ -4,17 +4,16 @@ title: IMetaDataImport::GetParamForMethodIndex
 author: windows-sdk-content
 description: Gets the token that represents a specified parameter of the method represented by the specified MethodDef token.
 old-location: winrt\imetadataimport_getparamformethodindex.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 118a5ab3-b7db-4e0c-bf45-ab7e2e0e4f03
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetParamForMethodIndex, GetParamForMethodIndex method [Windows Runtime], GetParamForMethodIndex method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetParamForMethodIndex method, IMetaDataImport.GetParamForMethodIndex, IMetaDataImport::GetParamForMethodIndex, rometadataapi/IMetaDataImport::GetParamForMethodIndex, winrt.imetadataimport_getparamformethodindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.GetParamForMethodIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::GetParamForMethodIndex

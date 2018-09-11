@@ -4,7 +4,7 @@ title: "_DHCP_IP_RESERVATION_INFO"
 author: windows-sdk-content
 description: The DHCP_IP_RESERVATION_INFO structure defines an IPv4 reservation for a DHCPv4 client.
 old-location: dhcp\dhcp_ip_reservation_info.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 4f0110b5-3770-4aae-8df7-d2481eac3417
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_IP_RESERVATION_INFO, *LPDHCP_IP_RESERVATION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_IP_RESERVATION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_IP_RESERVATION_INFO, *LPDHCP_IP_RESERVATION_INFO
+req.redist: 
 ---
 
 # _DHCP_IP_RESERVATION_INFO structure

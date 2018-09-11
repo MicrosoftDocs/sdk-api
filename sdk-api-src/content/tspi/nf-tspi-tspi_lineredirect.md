@@ -4,17 +4,16 @@ title: TSPI_lineRedirect function
 author: windows-sdk-content
 description: The TSPI_lineRedirect function redirects the specified offering call to the specified destination address.
 old-location: tspi\tspi_lineredirect.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 835fce4a-69c4-4a7e-846f-f05df4a24b96
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineRedirect, TSPI_lineRedirect function [TAPI 2.2], _tspi_tspi_lineredirect, tspi.tspi_lineredirect, tspi/TSPI_lineRedirect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineRedirect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineRedirect function

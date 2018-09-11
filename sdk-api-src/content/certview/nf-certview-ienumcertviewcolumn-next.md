@@ -4,17 +4,16 @@ title: IEnumCERTVIEWCOLUMN::Next
 author: windows-sdk-content
 description: Moves to the next column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_next.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 4c77d1c7-af3a-4a7d-bf42-69be887c881e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],Next method, IEnumCERTVIEWCOLUMN.Next, IEnumCERTVIEWCOLUMN::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWCOLUMN interface, _certsrv_ienumcertviewcolumn_next, certview/IEnumCERTVIEWCOLUMN::Next, security.ienumcertviewcolumn_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IEnumCERTVIEWCOLUMN.Next
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumCERTVIEWCOLUMN::Next

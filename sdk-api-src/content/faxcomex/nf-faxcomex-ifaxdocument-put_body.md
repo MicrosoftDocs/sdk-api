@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxDocument.put_Body
 title: IFaxDocument::put_Body
 author: windows-sdk-content
-description: The Body property provides the path to the file that comprises the body of a fax. The body of a fax consists of the fax pages other than the cover page.
-old-location: fax\_mfax_faxdocument_body_vb.htm
-old-project: Fax
+description: The IFaxDocument::get_Body property provides the path to the file that comprises the body of a fax. The body of a fax consists of the fax pages other than the cover page.
+old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_body_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1d6h.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Body property [Fax Service], Body property [Fax Service],FaxDocument object, FaxDocument object [Fax Service],Body property, FaxDocument.Body, IFaxDocument.put_Body, IFaxDocument::put_Body, _mfax_faxdocument.body, fax._mfax_faxdocument_body, fax._mfax_faxdocument_body_vb, put_Body
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Body property [Fax Service], Body property [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],Body property, IFaxDocument.Body, IFaxDocument.put_Body, IFaxDocument::Body, IFaxDocument::get_Body, IFaxDocument::put_Body, _mfax_faxdocument.body, fax._mfax_faxdocument_body, fax._mfax_faxdocument_cpp_mfax_faxdocument_body_cpp, faxcomex/IFaxDocument::Body, faxcomex/IFaxDocument::get_Body, faxcomex/IFaxDocument::put_Body, put_Body
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxDocument.Body
+ - IFaxDocument.Body
+ - IFaxDocument.get_Body
+ - IFaxDocument.put_Body
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDocument::put_Body
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Body</b> property provides the path to the file that comprises the body of a fax. The body of a fax consists of the fax pages other than the cover page.
+The <b>IFaxDocument::get_Body</b> property provides the path to the file that comprises the body of a fax. The body of a fax consists of the fax pages other than the cover page.
 
 This property is read/write.
 
@@ -66,7 +66,7 @@ This property is read/write.
 
 Examples of documents that you can send as a fax body are a text file (.txt), a Microsoft Word document (.doc), or a Microsoft Excel spreadsheet (.xls). When you send a fax from a client computer, the body has to be associated with an application that is installed on that computer, and the application has to support the <b>PrintTo</b> verb; otherwise, the fax will fail.
 
-Either the <a href="https://msdn.microsoft.com/en-us/library/Aa359008(v=VS.85).aspx">Bodies</a> property or the <b>Body</b> property must be <b>NULL</b>. You must use <b>Bodies</b> if you will be submitting with either <a href="https://msdn.microsoft.com/en-us/library/Aa359009(v=VS.85).aspx">ConnectedSubmit2</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa359012(v=VS.85).aspx">Submit2</a> (both available only in Windows Vista or later). You must use <b>Body</b> if you will be submitting with either <a href="https://msdn.microsoft.com/en-us/library/ms686178(v=VS.85).aspx">ConnectedSubmit</a> or <a href="https://msdn.microsoft.com/en-us/library/ms687477(v=VS.85).aspx">Submit</a>. 
+Either the <a href="https://msdn.microsoft.com/c985862e-6681-4cc3-b559-ba8ae512389b">Bodies</a> property or the <b>IFaxDocument::get_Body</b> property must be <b>NULL</b>. You must use <b>Bodies</b> if you will be submitting with either <a href="https://msdn.microsoft.com/95d13f50-59fd-4f17-877e-83b51deb9b6c">ConnectedSubmit2</a> or <a href="https://msdn.microsoft.com/63deca4c-a248-4f77-9cd6-6b1d845b6236">Submit2</a> (both available only in Windows Vista or later). You must use <b>IFaxDocument::get_Body</b> if you will be submitting with either <a href="https://msdn.microsoft.com/en-us/library/ms686178(v=VS.85).aspx">ConnectedSubmit</a> or <a href="https://msdn.microsoft.com/46dab8a7-157a-4869-b64e-2eebca19bdae">IFaxDocument::Submit</a>. 
 
 
 

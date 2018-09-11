@@ -4,7 +4,7 @@ title: tagLVCOLUMNW
 author: windows-sdk-content
 description: Contains information about a column in report view. This structure is used both for creating and manipulating columns. This structure supersedes the LV_COLUMN structure.
 old-location: controls\LVCOLUMN.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvcolumn.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LVCOLUMNW, *LPLVCOLUMNW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - LVCOLUMNW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: LVCOLUMNW, *LPLVCOLUMNW
+req.redist: 
 ---
 
 # tagLVCOLUMNW structure

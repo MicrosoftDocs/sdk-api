@@ -4,17 +4,16 @@ title: "_SECURITY_CAPABILITIES"
 author: windows-sdk-content
 description: Defines the security capabilities of the app container.
 old-location: security\security_capabilities.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1A865519-E042-4871-886C-9AA64D71CCE4
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSECURITY_CAPABILITIES, *PSECURITY_CAPABILITIES, PSECURITY_CAPABILITIES, PSECURITY_CAPABILITIES structure pointer [Security], SECURITY_CAPABILITIES, SECURITY_CAPABILITIES structure [Security], _SECURITY_CAPABILITIES, security.security_capabilities, winnt/PSECURITY_CAPABILITIES, winnt/SECURITY_CAPABILITIES"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECURITY_CAPABILITIES, *PSECURITY_CAPABILITIES, *LPSECURITY_CAPABILITIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECURITY_CAPABILITIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SECURITY_CAPABILITIES, *PSECURITY_CAPABILITIES, *LPSECURITY_CAPABILITIES
+req.redist: 
 ---
 
 # _SECURITY_CAPABILITIES structure

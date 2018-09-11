@@ -4,7 +4,7 @@ title: ID3D11Query1
 author: windows-sdk-content
 description: Represents a query object for querying information from the graphics processing unit (GPU).
 old-location: direct3d11\id3d11query1.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 6DF4364F-A20D-466E-8F26-17C6DD32E84B
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_TEXTURE_LAYOUT
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Query1
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: D3D11.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Query1 interface

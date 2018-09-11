@@ -4,17 +4,16 @@ title: IRdcComparator::Process
 author: windows-sdk-content
 description: Compares two signature streams (seed and source) and produces a needs list, which describes the chunks of file data needed to create the target file.
 old-location: rdc\irdccomparator_process.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: cc98a90c-ba82-4b92-a56c-07496a843089
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IRdcComparator interface [Remote Differential Compression],Process method, IRdcComparator.Process, IRdcComparator::Process, Process, Process method [Remote Differential Compression], Process method [Remote Differential Compression],IRdcComparator interface, fs.irdccomparator_process, msrdc/IRdcComparator::Process, rdc.irdccomparator_process
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcComparator.Process
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcComparator::Process

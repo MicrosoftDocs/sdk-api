@@ -4,17 +4,16 @@ title: ISimilarityFileIdTable
 author: windows-sdk-content
 description: Defines methods for storing and retrieving similarity file ID information.
 old-location: rdc\isimilarityfileidtable.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 539a2e9b-9719-4012-bb7f-4d14723a3695
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: ISimilarityFileIdTable, ISimilarityFileIdTable interface [Remote Differential Compression], ISimilarityFileIdTable interface [Remote Differential Compression],described, fs.isimilarityfileidtable, msrdc/ISimilarityFileIdTable, rdc.isimilarityfileidtable
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimilarityFileIdTable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISimilarityFileIdTable interface

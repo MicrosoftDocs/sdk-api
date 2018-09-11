@@ -4,17 +4,16 @@ title: IFsiFileItem2::get_IsNamedStream
 author: windows-sdk-content
 description: Determines if the item is a named stream.
 old-location: imapi\ifsifileitem2_get_isnamedstream.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 56e89b63-6fb5-4509-b90f-f25ec0cf2bd2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],get_IsNamedStream method, IFsiFileItem2.get_IsNamedStream, IFsiFileItem2::get_IsNamedStream, get_IsNamedStream, get_IsNamedStream method [IMAPI], get_IsNamedStream method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_get_isnamedstream, imapi2fs/IFsiFileItem2::get_IsNamedStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsiFileItem2.get_IsNamedStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFsiFileItem2::get_IsNamedStream

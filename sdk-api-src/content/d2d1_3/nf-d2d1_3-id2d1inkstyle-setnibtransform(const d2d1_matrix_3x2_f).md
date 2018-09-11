@@ -4,17 +4,16 @@ title: ID2D1InkStyle::SetNibTransform(const D2D1_MATRIX_3X2_F)
 author: windows-sdk-content
 description: Sets the transform to apply to this style's nib shape.
 old-location: direct2d\id2d1inkstyle_setnibtransform.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: AE51951F-D8EA-46DD-8239-E1EAD2D9BD5C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1InkStyle interface [Direct2D],SetNibTransform method, ID2D1InkStyle.SetNibTransform, ID2D1InkStyle.SetNibTransform(const D2D1_MATRIX_3X2_F), ID2D1InkStyle::SetNibTransform, ID2D1InkStyle::SetNibTransform(const D2D1_MATRIX_3X2_F), SetNibTransform, SetNibTransform method [Direct2D], SetNibTransform method [Direct2D],ID2D1InkStyle interface, d2d1_3/ID2D1InkStyle::SetNibTransform, direct2d.id2d1inkstyle_setnibtransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: D2d1_3.lib
+req.dll: D2d1_3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1InkStyle.SetNibTransform
 product: Windows
 targetos: Windows
-req.lib: D2d1_3.lib
-req.dll: D2d1_3.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1InkStyle::SetNibTransform(const D2D1_MATRIX_3X2_F)

@@ -4,17 +4,16 @@ title: ISearchScopeRule::get_PatternOrURL
 author: windows-sdk-content
 description: Gets the pattern or URL for the rule. The scope rules determine what URLs or paths to include or exclude.
 old-location: search\_search_ISearchScopeRule_get_PatternOrURL.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperule\get_patternorurl.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ISearchScopeRule interface [search],get_PatternOrURL method, ISearchScopeRule.get_PatternOrURL, ISearchScopeRule::get_PatternOrURL, _search_ISearchScopeRule_get_PatternOrURL, get_PatternOrURL, get_PatternOrURL method [search], get_PatternOrURL method [search],ISearchScopeRule interface, search._search_ISearchScopeRule_get_PatternOrURL, searchapi/ISearchScopeRule::get_PatternOrURL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchScopeRule.get_PatternOrURL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # ISearchScopeRule::get_PatternOrURL

@@ -4,17 +4,16 @@ title: IAzApplication::get_DelegatedPolicyUsers
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs), in text form, of principals that act as delegated policy users.
 old-location: security\iazapplication_delegatedpolicyusers.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: b20e1d5c-b07e-4f75-8b63-38036b07b24d
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzApplication object [Security],DelegatedPolicyUsers property, DelegatedPolicyUsers property [Security], DelegatedPolicyUsers property [Security],AzApplication object, DelegatedPolicyUsers property [Security],IAzApplication interface, IAzApplication interface [Security],DelegatedPolicyUsers property, IAzApplication.DelegatedPolicyUsers, IAzApplication.get_DelegatedPolicyUsers, IAzApplication::DelegatedPolicyUsers, IAzApplication::get_DelegatedPolicyUsers, azroles/IAzApplication::DelegatedPolicyUsers, azroles/IAzApplication::get_DelegatedPolicyUsers, get_DelegatedPolicyUsers, security.iazapplication_delegatedpolicyusers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzApplication.DelegatedPolicyUsers
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::get_DelegatedPolicyUsers

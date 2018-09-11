@@ -4,17 +4,16 @@ title: PALETTISED macro
 author: windows-sdk-content
 description: The PALETTISED macro checks whether a bitmap has a color depth of 8 bits or less.
 old-location: dshow\palettised.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0f233f6f-ed52-4b32-8766-42e2416b6fc5
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: PALETTISED, PALETTISED macro [DirectShow], amvideo/PALETTISED, dshow.palettised
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PALETTISED
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PALETTISED macro

@@ -4,17 +4,16 @@ title: ICertEncodeBitString::GetBitCount
 author: windows-sdk-content
 description: Returns the number of bits in a bit string that belongs to the CertEncodeBitString object and has been initialized by an earlier call to ICertEncodeBitString::Decode.
 old-location: security\icertencodebitstring_getbitcount.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 9fbaaf03-02b8-4c6f-8cc2-3fd897fdc81d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertEncodeBitString object [Security],GetBitCount method, GetBitCount, GetBitCount method [Security], GetBitCount method [Security],CCertEncodeBitString object, GetBitCount method [Security],ICertEncodeBitString interface, ICertEncodeBitString interface [Security],GetBitCount method, ICertEncodeBitString.GetBitCount, ICertEncodeBitString::GetBitCount, _certsrv_icertencodebitstring_getbitcount, certenc/ICertEncodeBitString::GetBitCount, security.icertencodebitstring_getbitcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeBitString.GetBitCount
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeBitString::GetBitCount

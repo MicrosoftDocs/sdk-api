@@ -4,17 +4,16 @@ title: tagCOWAIT_FLAGS
 author: windows-sdk-content
 description: Specifies the behavior of the CoWaitForMultipleHandles function.
 old-location: com\cowait_flags.htm
-old-project: com
+tech.root: com
 ms.assetid: e6f8300c-f74b-4383-8ee5-519a0ed0b358
 ms.author: windowssdkdev
-ms.date: 08/06/2018
-ms.keywords: COWAIT_ALERTABLE, COWAIT_DISPATCH_CALLS, COWAIT_DISPATCH_WINDOW_MESSAGES, COWAIT_FLAGS, COWAIT_FLAGS enumeration [COM], COWAIT_INPUTAVAILABLE, COWAIT_WAITALL, _com_COWAIT_FLAGS, com.cowait_flags, combaseapi/COWAIT_ALERTABLE, combaseapi/COWAIT_DISPATCH_CALLS, combaseapi/COWAIT_DISPATCH_WINDOW_MESSAGES, combaseapi/COWAIT_FLAGS, combaseapi/COWAIT_INPUTAVAILABLE, combaseapi/COWAIT_WAITALL, tagCOWAIT_FLAGS
+ms.date: 08/29/2018
+ms.keywords: COWAIT_ALERTABLE, COWAIT_DEFAULT, COWAIT_DISPATCH_CALLS, COWAIT_DISPATCH_WINDOW_MESSAGES, COWAIT_FLAGS, COWAIT_FLAGS enumeration [COM], COWAIT_INPUTAVAILABLE, COWAIT_WAITALL, _com_COWAIT_FLAGS, com.cowait_flags, combaseapi/COWAIT_ALERTABLE, combaseapi/COWAIT_DEFAULT, combaseapi/COWAIT_DISPATCH_CALLS, combaseapi/COWAIT_DISPATCH_WINDOW_MESSAGES, combaseapi/COWAIT_FLAGS, combaseapi/COWAIT_INPUTAVAILABLE, combaseapi/COWAIT_WAITALL, tagCOWAIT_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: ComAdmin.Idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COWAIT_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - COWAIT_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: COWAIT_FLAGS
+req.redist: 
 ---
 
 # tagCOWAIT_FLAGS enumeration
@@ -60,6 +59,8 @@ Specifies the behavior of the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 ### -field COWAIT_DEFAULT
+
+Dispatch calls needed for marshaling without dispatching arbitrary calls.
 
 
 ### -field COWAIT_WAITALL

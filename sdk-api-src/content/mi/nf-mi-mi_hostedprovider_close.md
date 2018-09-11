@@ -4,17 +4,16 @@ title: MI_HostedProvider_Close function
 author: windows-sdk-content
 description: Close a hosted provider handle that was returned from MI_Application_NewHostedProvider.
 old-location: wmi_v2\mi_hostedprovider_close.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: b0cae173-a552-4c5a-8181-ba20143d846b
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: MI_HostedProvider_Close, MI_HostedProvider_Close function [Windows Management Infrastructure (MI)], mi/MI_HostedProvider_Close, wmi_v2.mi_hostedprovider_close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 
-req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_Type
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_HostedProvider_Close
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ---
 
 # MI_HostedProvider_Close function

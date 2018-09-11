@@ -4,17 +4,16 @@ title: AllocReservedLog function
 author: windows-sdk-content
 description: Allocates sector-aligned space for a set of reserved records.
 old-location: fs\allocreservedlog.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 5e464b64-4617-4fbd-97cd-3c2db8f151b2
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: AllocReservedLog, AllocReservedLog function [Files], clfsw32/AllocReservedLog, fs.allocreservedlog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AllocReservedLog
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AllocReservedLog function

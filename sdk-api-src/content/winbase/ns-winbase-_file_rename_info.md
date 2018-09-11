@@ -4,7 +4,7 @@ title: "_FILE_RENAME_INFO"
 author: windows-sdk-content
 description: Contains the name to which the file should be renamed.
 old-location: fs\file_rename_info.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: f4de0130-66fd-4847-bb6f-3f16fe17ca6e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: Windows SDK on Windows Server 2003 and Windows XP.
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_RENAME_INFO, *PFILE_RENAME_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FILE_RENAME_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FILE_RENAME_INFO, *PFILE_RENAME_INFO
+req.redist: Windows SDK on Windows Server 2003 and Windows XP.
 ---
 
 # _FILE_RENAME_INFO structure

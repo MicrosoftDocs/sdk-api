@@ -4,17 +4,16 @@ title: ICInfo function
 author: windows-sdk-content
 description: The ICInfo function retrieves information about specific installed compressors or enumerates the installed compressors.
 old-location: multimedia\icinfo.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 755ff010-3edc-4e13-9c8f-104a6d1f590a
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICInfo, ICInfo function [Windows Multimedia], _win32_ICInfo, multimedia.icinfo, vfw/ICInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Msvfw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICInfo
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Msvfw32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICInfo function

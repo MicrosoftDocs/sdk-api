@@ -4,17 +4,16 @@ title: ICertPropertyArchived
 author: windows-sdk-content
 description: Represents a certificate property that identifies whether a certificate has been archived.
 old-location: security\icertpropertyarchived.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 81219ad9-4717-40e5-9ecd-d3df980e23c6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertPropertyArchived, ICertPropertyArchived interface [Security], ICertPropertyArchived interface [Security],described, certenroll/ICertPropertyArchived, security.icertpropertyarchived
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertPropertyArchived
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyArchived interface

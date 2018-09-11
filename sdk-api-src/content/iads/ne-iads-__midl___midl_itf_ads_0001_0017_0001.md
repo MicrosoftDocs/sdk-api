@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_ads_0001_0017_0001"
 author: windows-sdk-content
 description: The ADS_SYSTEMFLAG_ENUM enumeration defines some of the values that can be assigned to the systemFlags attribute. Some of the values in the enumeration are specific to attributeSchema objects; other values can be set on objects of any class.
 old-location: adsi\ads_systemflag_enum.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 7b77bcf0-8db9-4b27-96a4-953a4fa426f5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: IAccess.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SYSTEMFLAG_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADS_SYSTEMFLAG_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ADS_SYSTEMFLAG_ENUM
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_ads_0001_0017_0001 enumeration

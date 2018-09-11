@@ -4,17 +4,16 @@ title: CHString::FormatV
 author: windows-sdk-content
 description: The FormatV method writes a formatted string and a variable list of arguments to a CHString string.
 old-location: wmi\chstring_formatv.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 55488cf0-0098-4d5b-b451-a5d56f30ed65
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?FormatV@CHString@@QAEXPBGPAD@Z, ?FormatV@CHString@@QEAAXPEBGPEAD@Z, CHString interface [Windows Management Instrumentation],FormatV method, CHString.FormatV, CHString::FormatV, FormatV, FormatV method [Windows Management Instrumentation], FormatV method [Windows Management Instrumentation],CHString interface, _hmm_chstring_formatv, chstring/CHString::FormatV, wmi.chstring_formatv"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - ?FormatV@CHString@@QEAAXPEBGPEAD@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHString::FormatV

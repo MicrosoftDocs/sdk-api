@@ -4,17 +4,16 @@ title: IMFSample::GetBufferByIndex
 author: windows-sdk-content
 description: Gets a buffer from the sample, by index.
 old-location: mf\imfsample_getbufferbyindex.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 48d3b861-96e8-4767-a8b1-65614fd48254
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 48d3b861-96e8-4767-a8b1-65614fd48254, GetBufferByIndex, GetBufferByIndex method [Media Foundation], GetBufferByIndex method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetBufferByIndex method, IMFSample.GetBufferByIndex, IMFSample::GetBufferByIndex, mf.imfsample_getbufferbyindex, mfobjects/IMFSample::GetBufferByIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSample.GetBufferByIndex
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSample::GetBufferByIndex

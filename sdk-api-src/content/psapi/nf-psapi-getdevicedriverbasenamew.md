@@ -4,17 +4,16 @@ title: GetDeviceDriverBaseNameW function
 author: windows-sdk-content
 description: Retrieves the base name of the specified device driver.
 old-location: psapi\getdevicedriverbasename.htm
-old-project: psapi
+tech.root: psapi
 ms.assetid: a19a927d-4669-4d4c-951e-43f294a8fb40
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetDeviceDriverBaseName, GetDeviceDriverBaseName function [PSAPI], GetDeviceDriverBaseNameA, GetDeviceDriverBaseNameW, K32GetDeviceDriverBaseName, K32GetDeviceDriverBaseNameA, K32GetDeviceDriverBaseNameW, _win32_getdevicedriverbasename, base.getdevicedriverbasename, psapi.getdevicedriverbasename, psapi/GetDeviceDriverBaseName, psapi/GetDeviceDriverBaseNameA, psapi/GetDeviceDriverBaseNameW, psapi/K32GetDeviceDriverBaseName, psapi/K32GetDeviceDriverBaseNameA, psapi/K32GetDeviceDriverBaseNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: psapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSHNOTIFY, *LPPSHNOTIFY
+req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
+req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - K32GetDeviceDriverBaseNameA
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
-req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetDeviceDriverBaseNameW function

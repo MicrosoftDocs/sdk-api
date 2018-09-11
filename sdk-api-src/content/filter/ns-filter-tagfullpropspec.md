@@ -4,17 +4,16 @@ title: tagFULLPROPSPEC
 author: windows-sdk-content
 description: Specifies a property set and a property within the property set.
 old-location: indexsrv\fullpropspec.htm
-old-project: IndexSrv
+tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_599f.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: FULLPROPSPEC, FULLPROPSPEC structure [Indexing Service], _idxs_FULLPROPSPEC, filter/FULLPROPSPEC, indexsrv.fullpropspec, tagFULLPROPSPEC
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: filter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FULLPROPSPEC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FULLPROPSPEC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FULLPROPSPEC
+req.redist: 
 ---
 
 # tagFULLPROPSPEC structure

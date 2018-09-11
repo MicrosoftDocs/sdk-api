@@ -4,7 +4,7 @@ title: IDiscRecorder
 author: windows-sdk-content
 description: The IDiscRecorder interface enables access to a single disc recorder device, labeled the active disc recorder. An IMAPI object such as MSDiscMasterObj maintains an active disc recorder.
 old-location: imapi\idiscrecorder.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: fc861cbb-a14e-499e-8b80-f5912e4f6076
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDiscRecorder.Init
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder interface

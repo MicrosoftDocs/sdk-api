@@ -4,17 +4,16 @@ title: "_VSS_MGMT_OBJECT_TYPE"
 author: windows-sdk-content
 description: Discriminant for the VSS_MGMT_OBJECT_UNION union within the VSS_MGMT_OBJECT_PROP structure.
 old-location: base\vss_mgmt_object_type.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: ea28ff2c-6603-4193-9d5f-b41fffe28a90
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVSS_MGMT_OBJECT_TYPE, PVSS_MGMT_OBJECT_TYPE, PVSS_MGMT_OBJECT_TYPE enumeration pointer [VSS], VSS_MGMT_OBJECT_DIFF_AREA, VSS_MGMT_OBJECT_DIFF_VOLUME, VSS_MGMT_OBJECT_TYPE, VSS_MGMT_OBJECT_TYPE enumeration [VSS], VSS_MGMT_OBJECT_UNKNOWN, VSS_MGMT_OBJECT_VOLUME, _VSS_MGMT_OBJECT_TYPE, base.vss_mgmt_object_type, vsmgmt/PVSS_MGMT_OBJECT_TYPE, vsmgmt/VSS_MGMT_OBJECT_DIFF_AREA, vsmgmt/VSS_MGMT_OBJECT_DIFF_VOLUME, vsmgmt/VSS_MGMT_OBJECT_TYPE, vsmgmt/VSS_MGMT_OBJECT_UNKNOWN, vsmgmt/VSS_MGMT_OBJECT_VOLUME"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_MGMT_OBJECT_TYPE, *PVSS_MGMT_OBJECT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_MGMT_OBJECT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_MGMT_OBJECT_TYPE, *PVSS_MGMT_OBJECT_TYPE
+req.redist: 
 ---
 
 # _VSS_MGMT_OBJECT_TYPE enumeration

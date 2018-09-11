@@ -4,7 +4,7 @@ title: IMcastLeaseInfo
 author: windows-sdk-content
 description: The IMcastLeaseInfo interface exposes methods that can get or set information concerning a multicast address allocation. The IMcastLease object is created by calling IMcastAddressAllocation::CreateLeaseInfo.
 old-location: tapi3\imcastleaseinfo.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: a4ad8009-559e-4db9-9ae2-28e4d36cf346
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mdhcp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMcastLeaseInfo
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Mdhcp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMcastLeaseInfo interface

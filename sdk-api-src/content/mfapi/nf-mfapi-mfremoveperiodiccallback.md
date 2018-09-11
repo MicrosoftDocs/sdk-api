@@ -4,17 +4,16 @@ title: MFRemovePeriodicCallback function
 author: windows-sdk-content
 description: Cancels a callback function that was set by the MFAddPeriodicCallback function.
 old-location: mf\mfremoveperiodiccallback.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e70cdad3-c330-4368-8ef8-d616157b5e72
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFRemovePeriodicCallback, MFRemovePeriodicCallback function [Media Foundation], e70cdad3-c330-4368-8ef8-d616157b5e72, mf.mfremoveperiodiccallback, mfapi/MFRemovePeriodicCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFRemovePeriodicCallback
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFRemovePeriodicCallback function

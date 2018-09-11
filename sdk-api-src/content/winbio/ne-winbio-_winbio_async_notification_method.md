@@ -4,17 +4,16 @@ title: "_WINBIO_ASYNC_NOTIFICATION_METHOD"
 author: windows-sdk-content
 description: Defines constants that specify how completion notifications for asynchronous operations are to be delivered to the client application.
 old-location: secbiomet\winbio_async_notification_method.htm
-old-project: secbiomet
+tech.root: SecBioMet
 ms.assetid: 3256B178-DF12-4448-B775-CE419F793597
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWINBIO_ASYNC_NOTIFICATION_METHOD, WINBIO_ASYNC_NOTIFICATION_METHOD, WINBIO_ASYNC_NOTIFICATION_METHOD enumeration [Windows Biometric Framework API], WINBIO_ASYNC_NOTIFY_CALLBACK, WINBIO_ASYNC_NOTIFY_MAXIMUM_VALUE, WINBIO_ASYNC_NOTIFY_MESSAGE, WINBIO_ASYNC_NOTIFY_NONE, _WINBIO_ASYNC_NOTIFICATION_METHOD, secbiomet.winbio_async_notification_method, winbio/WINBIO_ASYNC_NOTIFICATION_METHOD, winbio/WINBIO_ASYNC_NOTIFY_CALLBACK, winbio/WINBIO_ASYNC_NOTIFY_MAXIMUM_VALUE, winbio/WINBIO_ASYNC_NOTIFY_MESSAGE, winbio/WINBIO_ASYNC_NOTIFY_NONE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winbio.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINBIO_ASYNC_NOTIFICATION_METHOD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
+req.redist: 
 ---
 
 # _WINBIO_ASYNC_NOTIFICATION_METHOD enumeration

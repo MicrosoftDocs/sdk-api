@@ -4,17 +4,16 @@ title: DXGI_FRAME_STATISTICS
 author: windows-sdk-content
 description: Describes timing and presentation statistics for a frame.
 old-location: direct3ddxgi\dxgi_frame_statistics.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_frame_statistics.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 97415a25-57a3-0530-e47d-4459bac66c73, DXGI_FRAME_STATISTICS, DXGI_FRAME_STATISTICS structure [DXGI], direct3ddxgi.dxgi_frame_statistics, dxgi/DXGI_FRAME_STATISTICS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_FRAME_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_FRAME_STATISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_FRAME_STATISTICS
+req.redist: 
 ---
 
 # DXGI_FRAME_STATISTICS structure

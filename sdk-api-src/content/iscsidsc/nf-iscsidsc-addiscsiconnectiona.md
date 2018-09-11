@@ -4,17 +4,16 @@ title: AddIScsiConnectionA function
 author: windows-sdk-content
 description: AddIscsiConnection function adds a new iSCSI connection to an existing session.
 old-location: iscsidisc\addiscsiconnection.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 919bf77f-f8e5-4fd2-926d-6fbca60b2fb2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddIScsiConnectionA, AddIscsiConnection, AddIscsiConnection function [iSCSI Discovery Library API], AddIscsiConnectionA, AddIscsiConnectionW, ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, iscsidisc.addiscsiconnection, iscsidsc/AddIscsiConnection, iscsidsc/AddIscsiConnectionA, iscsidsc/AddIscsiConnectionW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - AddIscsiConnectionW
 product: Windows
 targetos: Windows
-req.lib: Iscsidsc.lib
-req.dll: Iscsidsc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # AddIScsiConnectionA function

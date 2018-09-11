@@ -4,17 +4,16 @@ title: "_WINHTTP_WEB_SOCKET_CLOSE_STATUS"
 author: windows-sdk-content
 description: The WINHTTP_WEB_SOCKET_CLOSE_STATUS enumeration includes the status of a WebSocket close operation.
 old-location: http\winhttp_web_socket_close_status.htm
-old-project: winhttp
+tech.root: WinHttp
 ms.assetid: d86795e4-3a30-4368-b253-1b126387efcc
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WINHTTP_WEB_SOCKET_ABORTED_CLOSE_STATUS, WINHTTP_WEB_SOCKET_CLOSE_STATUS, WINHTTP_WEB_SOCKET_CLOSE_STATUS enumeration [HTTP], WINHTTP_WEB_SOCKET_EMPTY_CLOSE_STATUS, WINHTTP_WEB_SOCKET_ENDPOINT_TERMINATED_CLOSE_STATUS, WINHTTP_WEB_SOCKET_INVALID_DATA_TYPE_CLOSE_STATUS, WINHTTP_WEB_SOCKET_INVALID_UTF8_CLOSE_STATUS, WINHTTP_WEB_SOCKET_MESSAGE_TOO_BIG_CLOSE_STATUS, WINHTTP_WEB_SOCKET_POLICY_VIOLATION_CLOSE_STATUS, WINHTTP_WEB_SOCKET_PROTOCOL_ERROR_CLOSE_STATUS, WINHTTP_WEB_SOCKET_SECURE_HANDSHAKE_ERROR_CLOSE_STATUS, WINHTTP_WEB_SOCKET_SERVER_ERROR_CLOSE_STATUS, WINHTTP_WEB_SOCKET_SUCCESS_CLOSE_STATUS, WINHTTP_WEB_SOCKET_UNSUPPORTED_EXTENSIONS_CLOSE_STATUS, _WINHTTP_WEB_SOCKET_CLOSE_STATUS, http.winhttp_web_socket_close_status, winhttp/WINHTTP_WEB_SOCKET_ABORTED_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_EMPTY_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_ENDPOINT_TERMINATED_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_INVALID_DATA_TYPE_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_INVALID_UTF8_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_MESSAGE_TOO_BIG_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_POLICY_VIOLATION_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_PROTOCOL_ERROR_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_SECURE_HANDSHAKE_ERROR_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_SERVER_ERROR_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_SUCCESS_CLOSE_STATUS, winhttp/WINHTTP_WEB_SOCKET_UNSUPPORTED_EXTENSIONS_CLOSE_STATUS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winhttp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_WEB_SOCKET_CLOSE_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINHTTP_WEB_SOCKET_CLOSE_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINHTTP_WEB_SOCKET_CLOSE_STATUS
+req.redist: 
 ---
 
 # _WINHTTP_WEB_SOCKET_CLOSE_STATUS enumeration

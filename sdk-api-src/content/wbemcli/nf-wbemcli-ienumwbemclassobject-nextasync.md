@@ -4,17 +4,16 @@ title: IEnumWbemClassObject::NextAsync
 author: windows-sdk-content
 description: Use the NextAsync method when a controlled asynchronous retrieval of objects to a sink is required.
 old-location: wmi\ienumwbemclassobject_nextasync.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 1ff82982-a2d7-4618-8488-9e4b7628012d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],NextAsync method, IEnumWbemClassObject.NextAsync, IEnumWbemClassObject::NextAsync, NextAsync, NextAsync method [Windows Management Instrumentation], NextAsync method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_nextasync, wbemcli/IEnumWbemClassObject::NextAsync, wmi.ienumwbemclassobject_nextasync
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumWbemClassObject.NextAsync
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumWbemClassObject::NextAsync

@@ -4,17 +4,16 @@ title: UpdateColors function
 author: windows-sdk-content
 description: The UpdateColors function updates the client area of the specified device context by remapping the current colors in the client area to the currently realized logical palette.
 old-location: gdi\updatecolors.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 61dfd579-3fc9-4e0a-bfd9-d04c6f918fd8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UpdateColors, UpdateColors function [Windows GDI], _win32_UpdateColors, gdi.updatecolors, wingdi/UpdateColors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - UpdateColors
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # UpdateColors function

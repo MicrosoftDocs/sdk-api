@@ -4,7 +4,7 @@ title: ILocationEvents
 author: windows-sdk-content
 description: ILocationEvents provides callback methods that you must implement if you want to receive event notifications.
 old-location: winlocation\ilocationevents.htm
-old-project: locationapi
+tech.root: locationapi
 ms.assetid: 5281ae0f-8599-4f84-a3f3-cde8c69e893d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: locationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCATION_REPORT_STATUS
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILocationEvents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: LocationAPI.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ILocationEvents interface

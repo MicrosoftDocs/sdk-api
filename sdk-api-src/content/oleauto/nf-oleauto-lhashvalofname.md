@@ -4,17 +4,16 @@ title: LHashValOfName macro
 author: windows-sdk-content
 description: Computes a hash value for a name.
 old-location: automat\lhashvalofname.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 7cd401dc-95d0-4628-88f9-d00969228ea8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LHashValOfName, LHashValOfName function [Automation], _oa96_LHashValOfName, automat.lhashvalofname, oleauto/LHashValOfName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LHashValOfName
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # LHashValOfName macro

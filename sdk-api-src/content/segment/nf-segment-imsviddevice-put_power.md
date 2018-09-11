@@ -4,17 +4,16 @@ title: IMSVidDevice::put_Power
 author: windows-sdk-content
 description: The put_Power method turns the device on or off.
 old-location: mstv\imsviddevice_put_power.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6a0122a8-6015-4255-a7d6-ab72b4025bd6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],put_Power method, IMSVidDevice.put_Power, IMSVidDevice::put_Power, IMSVidDeviceput_Power, mstv.imsviddevice_put_power, put_Power, put_Power method [Microsoft TV Technologies], put_Power method [Microsoft TV Technologies],IMSVidDevice interface, segment/IMSVidDevice::put_Power
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidDevice.put_Power
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidDevice::put_Power

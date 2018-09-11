@@ -4,17 +4,16 @@ title: XFORMOBJ_iGetXform function
 author: windows-sdk-content
 description: The XFORMOBJ_iGetXform function downloads a transform to the driver.
 old-location: display\xformobj_igetxform.htm
-old-project: display
+tech.root: display
 ms.assetid: 0a78663c-15c9-4fed-b758-fea0f2571971
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: XFORMOBJ_iGetXform, XFORMOBJ_iGetXform function [Display Devices], display.xformobj_igetxform, gdifncs_b011606a-15e6-4f4f-a6ce-37ad087788c4.xml, winddi/XFORMOBJ_iGetXform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XFORMOBJ_iGetXform
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # XFORMOBJ_iGetXform function

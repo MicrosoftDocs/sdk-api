@@ -4,7 +4,7 @@ title: "_DHCP_FORCE_FLAG"
 author: windows-sdk-content
 description: The DHCP_FORCE_FLAG enumeration defines the set of flags describing the force level of a DHCP subnet element deletion operation.
 old-location: dhcp\dhcp_force_flag.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 2ec45a99-432d-4218-9048-81714ceff36b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_FORCE_FLAG, *LPDHCP_FORCE_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_FORCE_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_FORCE_FLAG, *LPDHCP_FORCE_FLAG
+req.redist: 
 ---
 
 # _DHCP_FORCE_FLAG enumeration

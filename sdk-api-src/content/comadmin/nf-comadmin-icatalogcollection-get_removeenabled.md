@@ -4,17 +4,16 @@ title: ICatalogCollection::get_RemoveEnabled
 author: windows-sdk-content
 description: Indicates whether the Remove method is enabled for the collection.
 old-location: cos\icatalogcollection_removeenabled.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: eda0812f-a0e4-4239-87b5-c252e9e3492c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICatalogCollection interface [COM+],RemoveEnabled property, ICatalogCollection.RemoveEnabled, ICatalogCollection.get_RemoveEnabled, ICatalogCollection::RemoveEnabled, ICatalogCollection::get_RemoveEnabled, RemoveEnabled property [COM+], RemoveEnabled property [COM+],ICatalogCollection interface, _cos_ICatalogCollection_get_RemoveEnabled, comadmin/ICatalogCollection::RemoveEnabled, comadmin/ICatalogCollection::get_RemoveEnabled, cos.icatalogcollection_removeenabled, get_RemoveEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICatalogCollection.get_RemoveEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatalogCollection::get_RemoveEnabled

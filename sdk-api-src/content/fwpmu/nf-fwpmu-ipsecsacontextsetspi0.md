@@ -4,17 +4,16 @@ title: IPsecSaContextSetSpi0 function
 author: windows-sdk-content
 description: Sets the security parameters index (SPI) for a security association (SA) context.
 old-location: fwp\ipsecsacontextsetspi0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 32812702-e27e-4671-a248-60cc73ce8497
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IPsecSaContextSetSpi0, IPsecSaContextSetSpi0 function [Filtering], fwp.ipsecsacontextsetspi0, fwpmu/IPsecSaContextSetSpi0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPsecSaContextSetSpi0
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IPsecSaContextSetSpi0 function

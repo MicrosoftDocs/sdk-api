@@ -4,17 +4,16 @@ title: "_WSAVersion"
 author: windows-sdk-content
 description: The WSAVERSION structure provides version comparison in Windows Sockets.
 old-location: winsock\wsaversion_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 27af3b20-9460-466d-bc58-5e31e08bb6c8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWSAVERSION, *PWSAVERSION, LPWSAVERSION, LPWSAVERSION structure pointer [Winsock], PWSAVERSION, PWSAVERSION structure pointer [Winsock], WSAVERSION, WSAVERSION structure [Winsock], _WSAVersion, _win32_wsaversion_2, winsock.wsaversion_2, winsock2/LPWSAVERSION, winsock2/PWSAVERSION, winsock2/WSAVERSION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSAVERSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+req.redist: 
 ---
 
 # _WSAVersion structure

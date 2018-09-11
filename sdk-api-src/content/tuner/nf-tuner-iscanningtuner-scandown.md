@@ -4,17 +4,16 @@ title: IScanningTuner::ScanDown
 author: windows-sdk-content
 description: The ScanDown method changes the channel to the next lower channel with valid programming, pauses for the specified number of milliseconds, then repeats until canceled.
 old-location: mstv\iscanningtuner_scandown.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0e9120be-9f8c-442e-8253-812b2917f902
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IScanningTuner interface [Microsoft TV Technologies],ScanDown method, IScanningTuner.ScanDown, IScanningTuner::ScanDown, IScanningTunerScanDown, ScanDown, ScanDown method [Microsoft TV Technologies], ScanDown method [Microsoft TV Technologies],IScanningTuner interface, mstv.iscanningtuner_scandown, tuner/IScanningTuner::ScanDown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IScanningTuner.ScanDown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IScanningTuner::ScanDown

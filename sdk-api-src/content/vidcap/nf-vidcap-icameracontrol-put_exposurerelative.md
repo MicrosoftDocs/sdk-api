@@ -4,17 +4,16 @@ title: ICameraControl::put_ExposureRelative
 author: windows-sdk-content
 description: The put_ExposureRelative method sets the camera's relative exposure time. The relative exposure time is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_put_exposurerelative.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 4afc3f7f-bba2-4160-b917-c792467d6305
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICameraControl interface [DirectShow],put_ExposureRelative method, ICameraControl.put_ExposureRelative, ICameraControl::put_ExposureRelative, ICameraControlput_ExposureRelative, dshow.icameracontrol_put_exposurerelative, put_ExposureRelative, put_ExposureRelative method [DirectShow], put_ExposureRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_ExposureRelative
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICameraControl.put_ExposureRelative
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICameraControl::put_ExposureRelative

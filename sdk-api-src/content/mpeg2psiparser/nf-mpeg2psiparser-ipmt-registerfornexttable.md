@@ -4,17 +4,16 @@ title: IPMT::RegisterForNextTable
 author: windows-sdk-content
 description: The RegisterForNextTable method registers the client to be notified when a next table arrives that will replace the current table.
 old-location: mstv\ipmt_registerfornexttable.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6794c94a-8efe-4d53-a4f4-e25d14644270
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],RegisterForNextTable method, IPMT.RegisterForNextTable, IPMT::RegisterForNextTable, IPMTRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::RegisterForNextTable, mstv.ipmt_registerfornexttable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPMT.RegisterForNextTable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPMT::RegisterForNextTable

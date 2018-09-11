@@ -4,17 +4,16 @@ title: GetAutoRotationState function
 author: windows-sdk-content
 description: Retrieves an AR_STATE value containing the state of screen auto-rotation for the system, for example whether auto-rotation is supported, and whether it is enabled by the user.
 old-location: base\getautorotationstate.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: E041717B-920E-44F8-AC7F-B30CB82F1476
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetAutoRotationState, GetAutoRotationState function, base.getautorotationstate, winuser/GetAutoRotationState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Kernel.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - GetAutoRotationState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Kernel.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetAutoRotationState function

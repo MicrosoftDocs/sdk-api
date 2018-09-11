@@ -4,7 +4,7 @@ title: IWICBitmapDecoder
 author: windows-sdk-content
 description: Exposes methods that represent a decoder.
 old-location: wic\_wic_codec_iwicbitmapdecoder.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 91dafd5e-e4fb-4691-a3d0-ca8b6ff0aaf7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapDecoder
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapDecoder interface

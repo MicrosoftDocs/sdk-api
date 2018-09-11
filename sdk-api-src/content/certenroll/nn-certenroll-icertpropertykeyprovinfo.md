@@ -4,17 +4,16 @@ title: ICertPropertyKeyProvInfo
 author: windows-sdk-content
 description: Represents a certificate property that contains information about a private key.
 old-location: security\icertpropertykeyprovinfo.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 1c35c2f0-8e79-4031-bae2-2be081f3c8dd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertPropertyKeyProvInfo, ICertPropertyKeyProvInfo interface [Security], ICertPropertyKeyProvInfo interface [Security],described, certenroll/ICertPropertyKeyProvInfo, security.icertpropertykeyprovinfo
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertPropertyKeyProvInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyKeyProvInfo interface

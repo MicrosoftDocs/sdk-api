@@ -4,17 +4,16 @@ title: VarR8FromUI2 function
 author: windows-sdk-content
 description: Converts an unsigned short value to a double value.
 old-location: automat\varr8fromui2.htm
-old-project: automat
+tech.root: automat
 ms.assetid: fb66fc4e-8b71-4244-8949-0fa276728df7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarR8FromUI2, VarR8FromUI2 function [Automation], _oa96_VarR8FromUI2, automat.varr8fromui2, oleauto/VarR8FromUI2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarR8FromUI2
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarR8FromUI2 function

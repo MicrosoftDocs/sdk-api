@@ -4,17 +4,16 @@ title: CWbemProviderGlue::GetAllDerivedInstancesAsynch
 author: windows-sdk-content
 description: The GetAllDerivedInstancesAsynch method retrieves a list of instances supported by a particular provider and derived from a particular base class. This method allows the provider to respond asynchronously by returning one instance at a time.
 old-location: wmi\cwbemproviderglue_getallderivedinstancesasynch.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: d58f8aca-2176-443e-b82a-87ee8bae8cf8
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetAllDerivedInstancesAsynch method, CWbemProviderGlue.GetAllDerivedInstancesAsynch, CWbemProviderGlue::GetAllDerivedInstancesAsynch, GetAllDerivedInstancesAsynch, GetAllDerivedInstancesAsynch method [Windows Management Instrumentation], GetAllDerivedInstancesAsynch method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getallderivedinstancesasynch, wbemglue/CWbemProviderGlue::GetAllDerivedInstancesAsynch, wmi.cwbemproviderglue_getallderivedinstancesasynch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CWbemProviderGlue.GetAllDerivedInstancesAsynch
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CWbemProviderGlue::GetAllDerivedInstancesAsynch
@@ -69,7 +67,7 @@ The <b>GetAllDerivedInstancesAsynch</b> method retrieves a list of instances sup
 
 ### -param pszBaseClassName
 
-
+TBD
 
 
 ### -param pRequester

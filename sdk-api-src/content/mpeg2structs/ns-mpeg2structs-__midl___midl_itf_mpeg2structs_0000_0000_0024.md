@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0024"
 author: windows-sdk-content
 description: The MPEG_TIME structure represents a time of day, or a duration.
 old-location: mstv\mpeg_time.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b0a28edb-fcd8-43b4-a65c-d45e8a0f02b3
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_TIME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPEG_TIME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPEG_TIME
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_mpeg2structs_0000_0000_0024 structure

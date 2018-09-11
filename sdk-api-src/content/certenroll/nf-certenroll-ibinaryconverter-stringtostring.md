@@ -4,17 +4,16 @@ title: IBinaryConverter::StringToString
 author: windows-sdk-content
 description: Modifies the type of Unicode encoding applied to a string.
 old-location: security\ibinaryconverter_stringtostring_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: c584a9bd-4ea3-4df7-8a9a-1f70cf07a213
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IBinaryConverter interface [Security],StringToString method, IBinaryConverter.StringToString, IBinaryConverter::StringToString, StringToString, StringToString method [Security], StringToString method [Security],IBinaryConverter interface, certenroll/IBinaryConverter::StringToString, security.ibinaryconverter_stringtostring_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBinaryConverter.StringToString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBinaryConverter::StringToString

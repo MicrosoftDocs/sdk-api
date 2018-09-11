@@ -4,17 +4,16 @@ title: IDeviceTopology::GetSubunit
 author: windows-sdk-content
 description: The GetSubunit method gets the subunit that is specified by a subunit number.
 old-location: coreaudio\idevicetopology_getsubunit.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 6251cabd-9284-4311-bd5c-0c5b6d9a9be4
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetSubunit, GetSubunit method [Core Audio], GetSubunit method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetSubunit method, IDeviceTopology.GetSubunit, IDeviceTopology::GetSubunit, IDeviceTopologyGetSubunit, coreaudio.idevicetopology_getsubunit, devicetopology/IDeviceTopology::GetSubunit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDeviceTopology.GetSubunit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceTopology::GetSubunit

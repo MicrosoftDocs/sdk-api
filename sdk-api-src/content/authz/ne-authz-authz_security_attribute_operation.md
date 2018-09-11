@@ -4,17 +4,16 @@ title: AUTHZ_SECURITY_ATTRIBUTE_OPERATION
 author: windows-sdk-content
 description: Indicates the type of modification to be made to security attributes by a call to the AuthzModifySecurityAttributes function.
 old-location: security\authz_security_attribute_operation.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: c1716cdb-87f9-47d6-bfc3-ae6cc043e917
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PAUTHZ_SECURITY_ATTRIBUTE_OPERATION, AUTHZ_SECURITY_ATTRIBUTE_OPERATION, AUTHZ_SECURITY_ATTRIBUTE_OPERATION enumeration [Security], AUTHZ_SECURITY_ATTRIBUTE_OPERATION_ADD, AUTHZ_SECURITY_ATTRIBUTE_OPERATION_DELETE, AUTHZ_SECURITY_ATTRIBUTE_OPERATION_NONE, AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE, AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE_ALL, PAUTHZ_SECURITY_ATTRIBUTE_OPERATION, PAUTHZ_SECURITY_ATTRIBUTE_OPERATION enumeration pointer [Security], authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION, authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION_ADD, authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION_DELETE, authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION_NONE, authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE, authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE_ALL, authz/PAUTHZ_SECURITY_ATTRIBUTE_OPERATION, security.authz_security_attribute_operation"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: authz.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHZ_SECURITY_ATTRIBUTE_OPERATION, *PAUTHZ_SECURITY_ATTRIBUTE_OPERATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AUTHZ_SECURITY_ATTRIBUTE_OPERATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AUTHZ_SECURITY_ATTRIBUTE_OPERATION, *PAUTHZ_SECURITY_ATTRIBUTE_OPERATION
+req.redist: 
 ---
 
 # AUTHZ_SECURITY_ATTRIBUTE_OPERATION enumeration

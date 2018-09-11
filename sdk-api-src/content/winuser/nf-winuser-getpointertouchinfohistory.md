@@ -4,17 +4,16 @@ title: GetPointerTouchInfoHistory function
 author: windows-sdk-content
 description: Gets the touch-based information associated with the individual inputs, if any, that were coalesced into the current message for the specified pointer (of type PT_TOUCH).
 old-location: inputmsg\getpointertouchinfohistory.htm
-old-project: InputMsg
+tech.root: InputMsg
 ms.assetid: 9fdfbde7-4126-4c1b-b870-479f846e1aa9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetPointerTouchInfoHistory, GetPointerTouchInfoHistory function [Input Messages and Notifications], inputmsg.getpointertouchinfohistory, winuser/GetPointerTouchInfoHistory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetPointerTouchInfoHistory
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetPointerTouchInfoHistory function

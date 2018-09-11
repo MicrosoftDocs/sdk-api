@@ -4,17 +4,16 @@ title: PFN_CRYPT_ENUM_OID_INFO
 author: windows-sdk-content
 description: The CRYPT_ENUM_OID_INFO callback function is used with the CryptEnumOIDInfo function.
 old-location: security\crypt_enum_oid_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 30ae4274-631d-4c6a-96c5-18f096607cad
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_ENUM_OID_INFO, CRYPT_ENUM_OID_INFO callback function [Security], PFN_CRYPT_ENUM_OID_INFO, PFN_CRYPT_ENUM_OID_INFO callback, security.crypt_enum_oid_info, wincrypt/CRYPT_ENUM_OID_INFO
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_ENUM_OID_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PFN_CRYPT_ENUM_OID_INFO callback function

@@ -4,17 +4,16 @@ title: IMSCEPSetup::GetMSCEPSetupProperty
 author: windows-sdk-content
 description: Gets a property value for a Network Device Enrollment Service (NDES) configuration.
 old-location: security\imscepsetup_getmscepsetupproperty.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: b598331d-b54b-4e12-bea4-99cf1e6a5872
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: GetMSCEPSetupProperty, GetMSCEPSetupProperty method [Security], GetMSCEPSetupProperty method [Security],IMSCEPSetup interface, IMSCEPSetup interface [Security],GetMSCEPSetupProperty method, IMSCEPSetup.GetMSCEPSetupProperty, IMSCEPSetup::GetMSCEPSetupProperty, casetup/IMSCEPSetup::GetMSCEPSetupProperty, security.imscepsetup_getmscepsetupproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMSCEPSetup.GetMSCEPSetupProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMSCEPSetup::GetMSCEPSetupProperty

@@ -4,17 +4,16 @@ title: IMFSinkWriter::Flush
 author: windows-sdk-content
 description: Flushes one or more streams.
 old-location: mf\imfsinkwriter_flush.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 997235cb-6ca5-434c-81a6-7a294e0cccca
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],Flush method, IMFSinkWriter.Flush, IMFSinkWriter::Flush, mf.imfsinkwriter_flush, mfreadwrite/IMFSinkWriter::Flush
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update Supplement for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_SOURCE_READER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSinkWriter.Flush
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSinkWriter::Flush

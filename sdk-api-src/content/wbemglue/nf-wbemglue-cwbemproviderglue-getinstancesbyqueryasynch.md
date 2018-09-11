@@ -4,17 +4,16 @@ title: CWbemProviderGlue::GetInstancesByQueryAsynch
 author: windows-sdk-content
 description: The GetInstancesByQueryAsynch method retrieves a list of instances supported by a particular provider, and that match a particular query. This method allows the provider to respond asynchronously by returning one instance at a time.
 old-location: wmi\cwbemproviderglue_getinstancesbyqueryasynch.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 51eccecb-5b92-4e06-89eb-552d97074629
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetInstancesByQueryAsynch method, CWbemProviderGlue.GetInstancesByQueryAsynch, CWbemProviderGlue::GetInstancesByQueryAsynch, GetInstancesByQueryAsynch, GetInstancesByQueryAsynch method [Windows Management Instrumentation], GetInstancesByQueryAsynch method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancesbyqueryasynch, wbemglue/CWbemProviderGlue::GetInstancesByQueryAsynch, wmi.cwbemproviderglue_getinstancesbyqueryasynch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CWbemProviderGlue.GetInstancesByQueryAsynch
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CWbemProviderGlue::GetInstancesByQueryAsynch

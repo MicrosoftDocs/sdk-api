@@ -4,17 +4,16 @@ title: PFN_WdsCliTraceFunction
 author: windows-sdk-content
 description: Defines a callback function that can receive debugging messages from the WDS client.
 old-location: wds\pfn_wdsclitracefunction.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: 5c10c767-45d2-4b42-b7c3-a2cd8188975e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PFN_WdsCliTraceFunction, PFN_WdsCliTraceFunction callback, PFN_WdsCliTraceFunction callback function [Windows Deployment Services], wds.pfn_wdsclitracefunction, wdsclientapi/PFN_WdsCliTraceFunction
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: wdsclientapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PFN_WdsCliTraceFunction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PFN_WdsCliTraceFunction callback function

@@ -4,17 +4,16 @@ title: MFCreateASFProfile function
 author: windows-sdk-content
 description: Creates the ASF profile object.
 old-location: mf\mfcreateasfprofile.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: fa57fac7-a191-4d5b-89be-319af7b3e09c
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateASFProfile, MFCreateASFProfile function [Media Foundation], fa57fac7-a191-4d5b-89be-319af7b3e09c, mf.mfcreateasfprofile, wmcontainer/MFCreateASFProfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mf.lib
+req.dll: Mf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateASFProfile
 product: Windows
 targetos: Windows
-req.lib: Mf.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateASFProfile function

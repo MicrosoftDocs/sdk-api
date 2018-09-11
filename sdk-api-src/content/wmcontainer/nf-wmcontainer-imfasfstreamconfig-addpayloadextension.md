@@ -4,17 +4,16 @@ title: IMFASFStreamConfig::AddPayloadExtension
 author: windows-sdk-content
 description: Configures a payload extension for the stream.
 old-location: mf\imfasfstreamconfig_addpayloadextension.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 55dd4125-ce44-4eed-b1a8-74819c452bd4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 55dd4125-ce44-4eed-b1a8-74819c452bd4, AddPayloadExtension, AddPayloadExtension method [Media Foundation], AddPayloadExtension method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],AddPayloadExtension method, IMFASFStreamConfig.AddPayloadExtension, IMFASFStreamConfig::AddPayloadExtension, mf.imfasfstreamconfig_addpayloadextension, wmcontainer/IMFASFStreamConfig::AddPayloadExtension
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFStreamConfig.AddPayloadExtension
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFStreamConfig::AddPayloadExtension

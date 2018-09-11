@@ -4,17 +4,16 @@ title: "_tagSYNCMGRSTATUS"
 author: windows-sdk-content
 description: Used in the ISyncMgrSynchronize::SetItemStatus method to specify the updated status for the item.
 old-location: shell\syncmgr_syncmgrstatus.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a2bdc883-2e61-42a4-a88b-8fab42f018e1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SYNCMGRSTATUS, SYNCMGRSTATUS enumeration [Windows Shell], SYNCMGRSTATUS_DELETED, SYNCMGRSTATUS_FAILED, SYNCMGRSTATUS_PAUSED, SYNCMGRSTATUS_PENDING, SYNCMGRSTATUS_RESUMING, SYNCMGRSTATUS_SKIPPED, SYNCMGRSTATUS_STOPPED, SYNCMGRSTATUS_SUCCEEDED, SYNCMGRSTATUS_UPDATING, SYNCMGRSTATUS_UPDATING_INDETERMINATE, _tagSYNCMGRSTATUS, mobsync/SYNCMGRSTATUS, mobsync/SYNCMGRSTATUS_DELETED, mobsync/SYNCMGRSTATUS_FAILED, mobsync/SYNCMGRSTATUS_PAUSED, mobsync/SYNCMGRSTATUS_PENDING, mobsync/SYNCMGRSTATUS_RESUMING, mobsync/SYNCMGRSTATUS_SKIPPED, mobsync/SYNCMGRSTATUS_STOPPED, mobsync/SYNCMGRSTATUS_SUCCEEDED, mobsync/SYNCMGRSTATUS_UPDATING, mobsync/SYNCMGRSTATUS_UPDATING_INDETERMINATE, shell.syncmgr_syncmgrstatus, syncmgr.syncmgrstatus
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGRSTATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SYNCMGRSTATUS
+req.redist: 
 ---
 
 # _tagSYNCMGRSTATUS enumeration

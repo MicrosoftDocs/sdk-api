@@ -4,17 +4,16 @@ title: OpenClusterGroupSet function
 author: windows-sdk-content
 description: Opens a handle to the specified groupset.
 old-location: mscs\openclustergroupcollection.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 8a5b944b-53c2-4437-b580-6ad603d0011a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OpenClusterGroupSet, OpenClusterGroupSet function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET, PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET function [Failover Cluster], clusapi/OpenClusterGroupSet, clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET, mscs.openclustergroupcollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OpenClusterGroupSet
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # OpenClusterGroupSet function

@@ -4,17 +4,16 @@ title: IBackgroundCopyJob3::AddFileWithRanges
 author: windows-sdk-content
 description: Adds a file to a download job and specifies the ranges of the file you want to download.
 old-location: bits\ibackgroundcopyjob3_addfilewithranges.htm
-old-project: bits
+tech.root: bits
 ms.assetid: b3601f23-1a69-47db-8943-7515652cf015
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AddFileWithRanges, AddFileWithRanges method [BITS], AddFileWithRanges method [BITS],IBackgroundCopyJob3 interface, IBackgroundCopyJob3 interface [BITS],AddFileWithRanges method, IBackgroundCopyJob3.AddFileWithRanges, IBackgroundCopyJob3::AddFileWithRanges, bits.ibackgroundcopyjob3_addfilewithranges, bits2_0/IBackgroundCopyJob3::AddFileWithRanges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits2_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2,KB842773 on  Windows Server 2003,  and Windows XP
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_AUTH_CREDENTIALS
+req.lib: Bits.lib
+req.dll: BitsPrx3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob3.AddFileWithRanges
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: BitsPrx3.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob3::AddFileWithRanges

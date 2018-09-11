@@ -4,17 +4,16 @@ title: IFont::put_Underline
 author: windows-sdk-content
 description: Sets the font's Underline property.
 old-location: com\ifont_put_underline.htm
-old-project: com
+tech.root: com
 ms.assetid: c763c050-cf69-4c9d-83a9-66ccc1d4376c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IFont interface [COM],put_Underline method, IFont.put_Underline, IFont::put_Underline, _ctrl_ifont_put_underline, com.ifont_put_underline, ocidl/IFont::put_Underline, put_Underline, put_Underline method [COM], put_Underline method [COM],IFont interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFont.put_Underline
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFont::put_Underline

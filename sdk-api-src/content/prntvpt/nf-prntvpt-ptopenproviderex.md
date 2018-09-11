@@ -4,17 +4,16 @@ title: PTOpenProviderEx function
 author: windows-sdk-content
 description: Opens an instance of a print ticket provider.
 old-location: gdi\ptopenproviderex.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 0e65170b-66f6-4238-bdde-0a0b7108a686
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PTOpenProviderEx, PTOpenProviderEx function [Windows GDI], _win32_PTOpenProviderEx, gdi.ptopenproviderex, prntvpt/PTOpenProviderEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: prntvpt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EDefaultDevmodeType
+req.lib: Prntvpt.lib
+req.dll: Prntvpt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PTOpenProviderEx
 product: Windows
 targetos: Windows
-req.lib: Prntvpt.lib
-req.dll: Prntvpt.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PTOpenProviderEx function

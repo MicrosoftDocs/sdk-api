@@ -4,17 +4,16 @@ title: IMetaDataImport2::EnumGenericParamConstraints
 author: windows-sdk-content
 description: Gets an enumerator for an array of generic parameter constraints associated with the generic parameter represented by the specified token.
 old-location: winrt\imetadataimport2_enumgenericparamconstraints.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 5e8ba48d-7c94-4fc6-8def-db296065fdce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumGenericParamConstraints, EnumGenericParamConstraints method [Windows Runtime], EnumGenericParamConstraints method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],EnumGenericParamConstraints method, IMetaDataImport2.EnumGenericParamConstraints, IMetaDataImport2::EnumGenericParamConstraints, rometadataapi/IMetaDataImport2::EnumGenericParamConstraints, winrt.imetadataimport2_enumgenericparamconstraints
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport2.EnumGenericParamConstraints
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport2::EnumGenericParamConstraints

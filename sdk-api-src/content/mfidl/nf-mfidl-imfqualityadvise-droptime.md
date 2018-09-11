@@ -4,17 +4,16 @@ title: IMFQualityAdvise::DropTime
 author: windows-sdk-content
 description: Drops samples over a specified interval of time.
 old-location: mf\imfqualityadvise_droptime.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 60d27190-7bed-427c-9018-2926c85815fe
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 60d27190-7bed-427c-9018-2926c85815fe, DropTime, DropTime method [Media Foundation], DropTime method [Media Foundation],IMFQualityAdvise interface, IMFQualityAdvise interface [Media Foundation],DropTime method, IMFQualityAdvise.DropTime, IMFQualityAdvise::DropTime, mf.imfqualityadvise_droptime, mfidl/IMFQualityAdvise::DropTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFQualityAdvise.DropTime
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFQualityAdvise::DropTime

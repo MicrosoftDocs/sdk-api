@@ -4,7 +4,7 @@ title: SCOPE_LEVEL
 author: windows-sdk-content
 description: The SCOPE_LEVEL enumeration is used with the IP_ADAPTER_ADDRESSES structure to identify scope levels for IPv6 addresses.
 old-location: iphlp\scope_level.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 714ab69e-b1fa-42a2-a92c-e4051b969a19
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ws2def.h
 req.include-header: Winsock2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCOPE_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SCOPE_LEVEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SCOPE_LEVEL
+req.redist: 
 ---
 
 # SCOPE_LEVEL enumeration

@@ -4,17 +4,16 @@ title: OleUIChangeSourceW function
 author: windows-sdk-content
 description: Invokes the Change Source dialog box, allowing the user to change the source of a link.
 old-location: com\oleuichangesource.htm
-old-project: com
+tech.root: com
 ms.assetid: 53ff17aa-3135-462e-885d-3bfbb74ed1c5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleUIChangeSource, OleUIChangeSource function [COM], OleUIChangeSourceA, OleUIChangeSourceW, _ole_OleUIChangeSource, com.oleuichangesource, oledlg/OleUIChangeSource, oledlg/OleUIChangeSourceA, oledlg/OleUIChangeSourceW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: OleDlg.lib
+req.dll: OleDlg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OleUIChangeSourceW
 product: Windows
 targetos: Windows
-req.lib: OleDlg.lib
-req.dll: OleDlg.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleUIChangeSourceW function

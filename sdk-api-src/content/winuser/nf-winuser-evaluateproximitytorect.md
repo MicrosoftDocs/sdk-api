@@ -4,17 +4,16 @@ title: EvaluateProximityToRect function
 author: windows-sdk-content
 description: Returns the score of a rectangle as the probable touch target, compared to all other rectangles that intersect the touch contact area, and an adjusted touch point within the rectangle.
 old-location: input_touchhittest\evaluateproximitytorect.htm
-old-project: Input_TouchHitTest
+tech.root: Input_TouchHitTest
 ms.assetid: 269ef4c1-9c9f-4bd7-9852-e82c4a707d3c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EvaluateProximityToRect, EvaluateProximityToRect function, input_touchhittest.evaluateproximitytorect, touch_hittest.evaluateproximitytorect, winuser/EvaluateProximityToRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - EvaluateProximityToRect
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # EvaluateProximityToRect function

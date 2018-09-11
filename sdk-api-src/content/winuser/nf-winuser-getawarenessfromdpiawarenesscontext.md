@@ -4,17 +4,16 @@ title: GetAwarenessFromDpiAwarenessContext function
 author: windows-sdk-content
 description: Retrieves the DPI_AWARENESS value from a DPI_AWARENESS_CONTEXT.
 old-location: hidpi\getawarenessfromdpiawarenesscontext.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: BE4DC6B9-BCD6-4E27-81F8-E3CF054CFBE9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetAwarenessFromDpiAwarenessContext, GetAwarenessFromDpiAwarenessContext function [High DPI], hidpi.getawarenessfromdpiawarenesscontext, winuser/GetAwarenessFromDpiAwarenessContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - GetAwarenessFromDpiAwarenessContext
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetAwarenessFromDpiAwarenessContext function

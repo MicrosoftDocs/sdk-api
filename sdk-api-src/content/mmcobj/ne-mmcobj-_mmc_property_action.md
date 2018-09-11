@@ -4,7 +4,7 @@ title: "_MMC_PROPERTY_ACTION"
 author: windows-sdk-content
 description: The MMC_PROPERTY_ACTION enumeration specifies the operations that can occur to a property contained in an MMC_SNAPIN_PROPERTY structure.
 old-location: mmc\mmc_property_action.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: c380d562-0acb-4c90-9460-6007a8eeb596
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmcobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: MmcObj.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_PROPERTY_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMC_PROPERTY_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MMC_PROPERTY_ACTION
+req.redist: 
 ---
 
 # _MMC_PROPERTY_ACTION enumeration

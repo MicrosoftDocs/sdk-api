@@ -4,17 +4,16 @@ title: "_TOKEN_APPCONTAINER_INFORMATION"
 author: windows-sdk-content
 description: Specifies all the information in a token that is necessary for an app container.
 old-location: security\token_appcontainer_information.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6038C7E9-AED6-49D2-8D96-907E973A64B1
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PTOKEN_APPCONTAINER_INFORMATION, PTOKEN_APPCONTAINER_INFORMATION, PTOKEN_APPCONTAINER_INFORMATION structure pointer [Security], TOKEN_APPCONTAINER_INFORMATION, TOKEN_APPCONTAINER_INFORMATION structure [Security], _TOKEN_APPCONTAINER_INFORMATION, security.token_appcontainer_information, winnt/PTOKEN_APPCONTAINER_INFORMATION, winnt/TOKEN_APPCONTAINER_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKEN_APPCONTAINER_INFORMATION, *PTOKEN_APPCONTAINER_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKEN_APPCONTAINER_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TOKEN_APPCONTAINER_INFORMATION, *PTOKEN_APPCONTAINER_INFORMATION
+req.redist: 
 ---
 
 # _TOKEN_APPCONTAINER_INFORMATION structure

@@ -4,17 +4,16 @@ title: IAssocHandler
 author: windows-sdk-content
 description: Exposes methods for operations with a file association dialog box or menu.
 old-location: shell\IAssocHandler.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5d5a107c-2c0e-4242-8f40-97421937167c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IAssocHandler, IAssocHandler interface [Windows Shell], IAssocHandler interface [Windows Shell],described, _shell_IAssocHandler, shell.IAssocHandler, shobjidl_core/IAssocHandler
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAssocHandler
 product: Windows
 targetos: Windows
-req.lib: Twinapi.lib
-req.dll: Shell32.dll (version 6.1 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAssocHandler interface

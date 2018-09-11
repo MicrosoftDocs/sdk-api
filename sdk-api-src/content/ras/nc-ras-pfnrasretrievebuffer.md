@@ -4,17 +4,16 @@ title: PFNRASRETRIEVEBUFFER
 author: windows-sdk-content
 description: The custom-scripting DLL calls the RasRetrieveBuffer function to obtain data received from the RAS server over the specified port.
 old-location: rras\rasretrievebuffer.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 5dc8a034-f1cb-47c5-8d60-06f314a85f11
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PFNRASRETRIEVEBUFFER, PFNRASRETRIEVEBUFFER callback, RasRetrieveBuffer, RasRetrieveBuffer callback function [RAS], _ras_rasretrievebuffer, ras/RasRetrieveBuffer, rras.rasretrievebuffer
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_STATUS_INFO, *LPRSVP_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RasRetrieveBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PFNRASRETRIEVEBUFFER callback function

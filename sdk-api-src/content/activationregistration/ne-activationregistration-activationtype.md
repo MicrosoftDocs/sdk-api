@@ -4,11 +4,11 @@ title: ActivationType
 author: windows-sdk-content
 description: Specifies the kind of activation for an activatable class.
 old-location: winrt\activationtype.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 200257CC-FE26-407F-8AE4-4DB7030AB4E7
 ms.author: windowssdkdev
-ms.date: 07/23/2018
-ms.keywords: ActivationType, ActivationType enumeration [Windows Runtime], InProcess, OutOfProcess, activationregistration/ActivationType, activationregistration/InProcess, activationregistration/OutOfProcess, winrt.activationtype
+ms.date: 08/29/2018
+ms.keywords: ActivationType, ActivationType enumeration [Windows Runtime], ActivationType_InProcess, ActivationType_OutOfProcess, ActivationType_RemoteProcess, activationregistration/ActivationType, activationregistration/ActivationType_InProcess, activationregistration/ActivationType_OutOfProcess, activationregistration/ActivationType_RemoteProcess, winrt.activationtype
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
@@ -21,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Activation.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ActivationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -39,9 +40,8 @@ api_name:
  - ActivationType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ActivationType
+req.redist: 
 ---
 
 # ActivationType enumeration
@@ -60,26 +60,22 @@ Specifies the kind of activation for an activatable class.
 
 ### -field ActivationType_InProcess
 
+Specifies in-process activation.
+
 
 ### -field ActivationType_OutOfProcess
 
+Specifies out-of-process activation.
+
 
 ### -field ActivationType_RemoteProcess
+
+Specifies remote-process activation.
 
 
 ### -field int
 
 
-
-
-#### - InProcess
-
-Specifies in-process activation.
-
-
-#### - OutOfProcess
-
-Specifies out-of-process activation.
 
 
 ## -see-also

@@ -4,17 +4,16 @@ title: INetwork::GetName
 author: windows-sdk-content
 description: The GetName method returns the name of a network.
 old-location: nla\inetwork_getname.htm
-old-project: nla
+tech.root: nla
 ms.assetid: e0dd843e-5bba-4504-b0af-26c0c1ee73a9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetName, GetName method [Network Awareness], GetName method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetName method, INetwork.GetName, INetwork::GetName, netlistmgr/INetwork::GetName, nla.inetwork_getname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetwork.GetName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetwork::GetName

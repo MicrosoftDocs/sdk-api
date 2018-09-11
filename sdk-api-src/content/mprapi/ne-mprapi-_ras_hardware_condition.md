@@ -4,17 +4,16 @@ title: "_RAS_HARDWARE_CONDITION"
 author: windows-sdk-content
 description: The RAS_HARDWARE_CONDITION enumeration type specifies hardware status information about a given RAS port.
 old-location: rras\ras_hardware_condition.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 54a92552-9ad2-4a4a-b177-041157b445cd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RAS_HARDWARE_CONDITION, RAS_HARDWARE_CONDITION enumeration [RAS], RAS_HARDWARE_FAILURE, RAS_HARDWARE_OPERATIONAL, _RAS_HARDWARE_CONDITION, _mpr_ras_hardware_condition, mprapi/RAS_HARDWARE_CONDITION, mprapi/RAS_HARDWARE_FAILURE, mprapi/RAS_HARDWARE_OPERATIONAL, rras.ras_hardware_condition
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_HARDWARE_CONDITION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAS_HARDWARE_CONDITION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RAS_HARDWARE_CONDITION
+req.redist: 
 ---
 
 # _RAS_HARDWARE_CONDITION enumeration

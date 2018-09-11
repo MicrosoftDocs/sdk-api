@@ -4,17 +4,16 @@ title: DrvEndDoc function
 author: windows-sdk-content
 description: The DrvEndDoc function is called by GDI when it has finished sending a document to the driver for rendering.
 old-location: display\drvenddoc.htm
-old-project: display
+tech.root: display
 ms.assetid: 905813fd-281d-4cc8-b006-a2d284041bb7
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvEndDoc, DrvEndDoc function [Display Devices], ddifncs_aa6db3be-deb1-43f4-b33f-e13a8b65bf7e.xml, display.drvenddoc, winddi/DrvEndDoc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvEndDoc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvEndDoc function

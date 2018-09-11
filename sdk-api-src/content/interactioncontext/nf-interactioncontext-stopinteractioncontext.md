@@ -4,17 +4,16 @@ title: StopInteractionContext function
 author: windows-sdk-content
 description: Sets the interaction state to INTERACTION_STATE_IDLE and leaves all interaction configuration settings and parameters intact.
 old-location: input_intcontext\stopinteractioncontext.htm
-old-project: Input_IntContext
+tech.root: Input_IntContext
 ms.assetid: 52fb6054-c8f3-4dbe-af1f-0b8d39ebcf5b
 ms.author: windowssdkdev
 ms.date: 05/09/2018
 ms.keywords: StopInteractionContext, StopInteractionContext function, input_intcontext.stopinteractioncontext, interactioncontext.stopinteractioncontext, interactioncontext/StopInteractionContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MOUSE_WHEEL_PARAMETER
+req.lib: Ninput.lib
+req.dll: Ninput.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - StopInteractionContext
 product: Windows
 targetos: Windows
-req.lib: Ninput.lib
-req.dll: Ninput.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # StopInteractionContext function

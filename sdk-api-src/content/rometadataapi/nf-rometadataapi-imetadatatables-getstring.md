@@ -4,17 +4,16 @@ title: IMetaDataTables::GetString
 author: windows-sdk-content
 description: Gets the string at the specified index from the table column in the current reference scope.
 old-location: winrt\imetadatatables_getstring.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 35b79dac-39c7-4ca2-8608-e7ea64d4574c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetString, GetString method [Windows Runtime], GetString method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetString method, IMetaDataTables.GetString, IMetaDataTables::GetString, rometadataapi/IMetaDataTables::GetString, winrt.imetadatatables_getstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataTables.GetString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataTables::GetString

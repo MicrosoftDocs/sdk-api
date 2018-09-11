@@ -4,17 +4,16 @@ title: IAMDevMemoryAllocator::Alloc
 author: windows-sdk-content
 description: Note  The IAMDevMemoryAllocator interface is deprecated. Allocates a memory buffer.
 old-location: dshow\iamdevmemoryallocator_alloc.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: de5f7755-fd96-4016-9cab-b98721080e14
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: Alloc, Alloc method [DirectShow], Alloc method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],Alloc method, IAMDevMemoryAllocator.Alloc, IAMDevMemoryAllocator::Alloc, IAMDevMemoryAllocatorAlloc, dshow.iamdevmemoryallocator_alloc, strmif/IAMDevMemoryAllocator::Alloc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMDevMemoryAllocator.Alloc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMDevMemoryAllocator::Alloc

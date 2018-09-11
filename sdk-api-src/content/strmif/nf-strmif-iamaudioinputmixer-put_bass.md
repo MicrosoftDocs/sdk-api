@@ -4,17 +4,16 @@ title: IAMAudioInputMixer::put_Bass
 author: windows-sdk-content
 description: The put_Bass method sets the bass equalization.
 old-location: dshow\iamaudioinputmixer_put_bass.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: cf752767-826d-487d-ae05-9737765975c8
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Bass method, IAMAudioInputMixer.put_Bass, IAMAudioInputMixer::put_Bass, IAMAudioInputMixerput_Bass, dshow.iamaudioinputmixer_put_bass, put_Bass, put_Bass method [DirectShow], put_Bass method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Bass
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMAudioInputMixer.put_Bass
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMAudioInputMixer::put_Bass

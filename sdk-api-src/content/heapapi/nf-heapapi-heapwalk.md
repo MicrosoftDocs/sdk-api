@@ -4,17 +4,16 @@ title: HeapWalk function
 author: windows-sdk-content
 description: Enumerates the memory blocks in the specified heap.
 old-location: base\heapwalk.htm
-old-project: memory
+tech.root: memory
 ms.assetid: ba4b7372-973b-4dea-9a93-faf847a047e5
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: HeapWalk, HeapWalk function, _win32_heapwalk, base.heapwalk, heapapi/HeapWalk, winbase/HeapWalk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - HeapWalk
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HeapWalk function

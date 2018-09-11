@@ -4,17 +4,16 @@ title: IMpeg2Demultiplexer::SetOutputPinMediaType
 author: windows-sdk-content
 description: The SetOutputPinMediaType method updates the media type of the specified output pin. (DirectX 9.0 and later.).
 old-location: dshow\impeg2demultiplexer_setoutputpinmediatype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 985033ea-72ea-40c4-8176-60208b505040
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMpeg2Demultiplexer interface [DirectShow],SetOutputPinMediaType method, IMpeg2Demultiplexer.SetOutputPinMediaType, IMpeg2Demultiplexer::SetOutputPinMediaType, IMpeg2DemultiplexerSetOutputPinMediaType, SetOutputPinMediaType, SetOutputPinMediaType method [DirectShow], SetOutputPinMediaType method [DirectShow],IMpeg2Demultiplexer interface, dshow.impeg2demultiplexer_setoutputpinmediatype, strmif/IMpeg2Demultiplexer::SetOutputPinMediaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMpeg2Demultiplexer.SetOutputPinMediaType
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMpeg2Demultiplexer::SetOutputPinMediaType

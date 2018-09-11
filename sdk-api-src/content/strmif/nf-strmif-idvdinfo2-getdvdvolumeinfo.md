@@ -4,17 +4,16 @@ title: IDvdInfo2::GetDVDVolumeInfo
 author: windows-sdk-content
 description: The GetDVDVolumeInfo method retrieves the current DVD volume information.
 old-location: dshow\idvdinfo2_getdvdvolumeinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d55973af-5f56-4e22-b3b0-2cee9f57c2d4
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDVDVolumeInfo, GetDVDVolumeInfo method [DirectShow], GetDVDVolumeInfo method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDVolumeInfo method, IDvdInfo2.GetDVDVolumeInfo, IDvdInfo2::GetDVDVolumeInfo, IDvdInfo2GetDVDVolumeInfo, dshow.idvdinfo2_getdvdvolumeinfo, strmif/IDvdInfo2::GetDVDVolumeInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdInfo2.GetDVDVolumeInfo
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo2::GetDVDVolumeInfo

@@ -4,7 +4,7 @@ title: IMFSourceOpenMonitor
 author: windows-sdk-content
 description: Callback interface to receive notifications from a network source on the progress of an asynchronous open operation.
 old-location: mf\imfsourceopenmonitor.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9145910b-81f1-4fd1-8f6f-d6273e0edde6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSourceOpenMonitor
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mfsensorgroup.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSourceOpenMonitor interface

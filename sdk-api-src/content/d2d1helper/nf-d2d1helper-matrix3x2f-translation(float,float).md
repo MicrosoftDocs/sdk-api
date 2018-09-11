@@ -4,17 +4,16 @@ title: Matrix3x2F::Translation(FLOAT,FLOAT)
 author: windows-sdk-content
 description: Creates a translation transformation that has the specified x and y displacements.
 old-location: direct2d\matrix3x2f_translation.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: eb289287-4f33-42cf-a306-120adda70371
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: D2D1.Matrix3x2F.Translation, D2D1::Matrix3x2F::Translation, Matrix3x2F class [Direct2D],Translation method, Matrix3x2F.Translation, Matrix3x2F.Translation(FLOAT,FLOAT), Matrix3x2F::Translation, Matrix3x2F::Translation(D2D1_SIZE_F), Matrix3x2F::Translation(FLOAT,FLOAT), Translation, Translation method [Direct2D], Translation method [Direct2D],Matrix3x2F class, d2d1helper/Matrix3x2F::Translation, direct2d.matrix3x2f_translation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1helper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: D2D1
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VIGNETTE_PROP
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Matrix3x2F.Translation
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Matrix3x2F::Translation(FLOAT,FLOAT)
@@ -61,12 +60,12 @@ Creates a translation transformation that has the specified x and y displacement
 
 ### -param x
 
-
+TBD
 
 
 ### -param y
 
-
+TBD
 
 
 

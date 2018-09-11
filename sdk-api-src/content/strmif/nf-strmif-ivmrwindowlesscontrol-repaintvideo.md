@@ -4,17 +4,16 @@ title: IVMRWindowlessControl::RepaintVideo
 author: windows-sdk-content
 description: The RepaintVideo method repaints the current video frame.
 old-location: dshow\ivmrwindowlesscontrol_repaintvideo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 16ef3bc1-1781-44f7-a997-ae9b1b3c405c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],RepaintVideo method, IVMRWindowlessControl.RepaintVideo, IVMRWindowlessControl::RepaintVideo, IVMRWindowlessControlRepaintVideo, RepaintVideo, RepaintVideo method [DirectShow], RepaintVideo method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_repaintvideo, strmif/IVMRWindowlessControl::RepaintVideo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRWindowlessControl.RepaintVideo
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRWindowlessControl::RepaintVideo

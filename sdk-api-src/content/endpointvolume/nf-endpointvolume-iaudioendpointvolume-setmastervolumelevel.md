@@ -4,17 +4,16 @@ title: IAudioEndpointVolume::SetMasterVolumeLevel
 author: windows-sdk-content
 description: The SetMasterVolumeLevel method sets the master volume level, in decibels, of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_setmastervolumelevel.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 776d7667-f48b-44c0-9441-177b86b52da9
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],SetMasterVolumeLevel method, IAudioEndpointVolume.SetMasterVolumeLevel, IAudioEndpointVolume::SetMasterVolumeLevel, IAudioEndpointVolumeSetMasterVolumeLevel, SetMasterVolumeLevel, SetMasterVolumeLevel method [Core Audio], SetMasterVolumeLevel method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_setmastervolumelevel, endpointvolume/IAudioEndpointVolume::SetMasterVolumeLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAudioEndpointVolume.SetMasterVolumeLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioEndpointVolume::SetMasterVolumeLevel

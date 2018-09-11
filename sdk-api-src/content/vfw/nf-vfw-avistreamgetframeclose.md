@@ -4,17 +4,16 @@ title: AVIStreamGetFrameClose function
 author: windows-sdk-content
 description: The AVIStreamGetFrameClose function releases resources used to decompress video frames.
 old-location: multimedia\avistreamgetframeclose.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: cd1fa615-ab09-4d58-9d6d-a1843c0f1d7a
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIStreamGetFrameClose, AVIStreamGetFrameClose function [Windows Multimedia], _win32_AVIStreamGetFrameClose, multimedia.avistreamgetframeclose, vfw/AVIStreamGetFrameClose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - AVIStreamGetFrameClose
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIStreamGetFrameClose function

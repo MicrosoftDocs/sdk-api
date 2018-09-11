@@ -4,17 +4,16 @@ title: NdfCreateDNSIncident function
 author: windows-sdk-content
 description: Diagnoses name resolution issues in resolving a specific host name.
 old-location: ndf\ndfcreatednsincident.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: e852b3e5-c5b8-45e2-af72-f7e89fb2c310
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: NdfCreateDNSIncident, NdfCreateDNSIncident function [NDF], ndf.ndfcreatednsincident, ndfapi/NdfCreateDNSIncident
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UiInfo, *PUiInfo
+req.lib: Ndfapi.lib
+req.dll: Ndfapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdfCreateDNSIncident
 product: Windows
 targetos: Windows
-req.lib: Ndfapi.lib
-req.dll: Ndfapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NdfCreateDNSIncident function

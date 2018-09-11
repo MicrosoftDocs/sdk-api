@@ -4,17 +4,16 @@ title: WSCEnableNSProvider function
 author: windows-sdk-content
 description: Changes the state of a given namespace provider.
 old-location: winsock\wscenablensprovider_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 2dff5af6-3011-4e3f-b812-fffaca8fa2d9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSCEnableNSProvider, WSCEnableNSProvider function [Winsock], _win32_wscenablensprovider_2, winsock.wscenablensprovider_2, ws2spi/WSCEnableNSProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_PROVIDER_INFO_TYPE
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSCEnableNSProvider
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSCEnableNSProvider function

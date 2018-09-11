@@ -4,17 +4,16 @@ title: GetNumaNodeProcessorMask function
 author: windows-sdk-content
 description: Retrieves the processor mask for the specified node.
 old-location: base\getnumanodeprocessormask.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: bdaecb36-9b51-4cc3-88b3-0dbd63bdc9b8
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetNumaNodeProcessorMask, GetNumaNodeProcessorMask function, _win32_getnumanodeprocessormask, base.getnumanodeprocessormask, winbase/GetNumaNodeProcessorMask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - GetNumaNodeProcessorMask
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetNumaNodeProcessorMask function

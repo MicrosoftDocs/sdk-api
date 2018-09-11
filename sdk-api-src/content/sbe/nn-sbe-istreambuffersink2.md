@@ -4,7 +4,7 @@ title: IStreamBufferSink2
 author: windows-sdk-content
 description: The IStreamBufferSink2 interface is exposed by the Stream Buffer Sink filter.
 old-location: mstv\istreambuffersink2.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ae97e1e2-011d-4bb1-ae11-eda401e1d337
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferSink2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sbe.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferSink2 interface

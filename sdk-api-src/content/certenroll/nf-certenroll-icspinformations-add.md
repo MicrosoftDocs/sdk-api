@@ -4,17 +4,16 @@ title: ICspInformations::Add
 author: windows-sdk-content
 description: Adds an ICspInformation object to the collection.
 old-location: security\icspinformations_add_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 882d6b6c-df42-4495-8d03-fa325ccd9899
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICspInformations interface, ICspInformations interface [Security],Add method, ICspInformations.Add, ICspInformations::Add, certenroll/ICspInformations::Add, security.icspinformations_add_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICspInformations.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspInformations::Add

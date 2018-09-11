@@ -4,17 +4,16 @@ title: HTTP_VERSION_INFO
 author: windows-sdk-content
 description: The HTTP_VERSION_INFO structure contains the global HTTP version.
 old-location: http\http_version_info.htm
-old-project: winhttp
+tech.root: WinHttp
 ms.assetid: 2d794a99-7bd2-43ad-b826-f160bf78ccac
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPHTTP_VERSION_INFO, HTTP_VERSION_INFO, HTTP_VERSION_INFO structure [HTTP], http.http_version_info, winhttp/HTTP_VERSION_INFO, winhttp_http_version_info_structure"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 
-req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERSION_INFO, *LPHTTP_VERSION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_VERSION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: HTTP_VERSION_INFO, *LPHTTP_VERSION_INFO
+req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ---
 
 # HTTP_VERSION_INFO structure

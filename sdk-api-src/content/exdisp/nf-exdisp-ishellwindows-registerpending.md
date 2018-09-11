@@ -4,17 +4,16 @@ title: IShellWindows::RegisterPending
 author: windows-sdk-content
 description: Registers a pending window as a Shell window; the window is specified by an absolute PIDL.
 old-location: shell\IShellWindows_RegisterPending.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 75e8b82c-a94e-4aad-a224-f12b22b8a4b2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellWindows interface [Windows Shell],RegisterPending method, IShellWindows.RegisterPending, IShellWindows::RegisterPending, RegisterPending, RegisterPending method [Windows Shell], RegisterPending method [Windows Shell],IShellWindows interface, _win32_IShellWindows_RegisterPending, exdisp/IShellWindows::RegisterPending, shell.IShellWindows_RegisterPending
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IShellWindows.RegisterPending
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5
 ---
 
@@ -62,7 +61,7 @@ Registers a pending window as a Shell window; the window is specified by an abso
 
 ### -param lThreadId
 
-
+TBD
 
 
 ### -param pvarloc [in]

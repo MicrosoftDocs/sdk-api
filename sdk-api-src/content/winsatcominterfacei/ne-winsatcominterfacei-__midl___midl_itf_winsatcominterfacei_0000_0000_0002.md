@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0002"
 author: windows-sdk-content
 description: Defines the possible states of an assessment.
 old-location: winsat\winsat_assessment_state.htm
-old-project: winsat
+tech.root: WinSAT
 ms.assetid: 8d2afd18-9764-44d2-b01d-dfefc1506c6a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: WINSAT_ASSESSMENT_STATE, WINSAT_ASSESSMENT_STATE enumeration [WinSAT], WINSAT_ASSESSMENT_STATE_INCOHERENT_WITH_HARDWARE, WINSAT_ASSESSMENT_STATE_INVALID, WINSAT_ASSESSMENT_STATE_MAX, WINSAT_ASSESSMENT_STATE_MIN, WINSAT_ASSESSMENT_STATE_NOT_AVAILABLE, WINSAT_ASSESSMENT_STATE_UNKNOWN, WINSAT_ASSESSMENT_STATE_VALID, __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0002, winsat.winsat_assessment_state, winsatcominterfacei/WINSAT_ASSESSMENT_STATE, winsatcominterfacei/WINSAT_ASSESSMENT_STATE_INCOHERENT_WITH_HARDWARE, winsatcominterfacei/WINSAT_ASSESSMENT_STATE_INVALID, winsatcominterfacei/WINSAT_ASSESSMENT_STATE_MAX, winsatcominterfacei/WINSAT_ASSESSMENT_STATE_MIN, winsatcominterfacei/WINSAT_ASSESSMENT_STATE_NOT_AVAILABLE, winsatcominterfacei/WINSAT_ASSESSMENT_STATE_UNKNOWN, winsatcominterfacei/WINSAT_ASSESSMENT_STATE_VALID
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsatcominterfacei.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_ASSESSMENT_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINSAT_ASSESSMENT_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WINSAT_ASSESSMENT_STATE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0002 enumeration

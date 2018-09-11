@@ -4,17 +4,16 @@ title: DhcpGetOptionInfoV6 function
 author: windows-sdk-content
 description: The DhcpGetOptionInfoV6 function returns information on a specific DHCP option.
 old-location: dhcp\dhcpgetoptioninfov6.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: e5c2399e-099b-464d-9a60-b930287bb985
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetOptionInfoV6, DhcpGetOptionInfoV6 function [DHCP], dhcp.dhcpgetoptioninfov6, dhcpsapi/DhcpGetOptionInfoV6
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpGetOptionInfoV6
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpGetOptionInfoV6 function

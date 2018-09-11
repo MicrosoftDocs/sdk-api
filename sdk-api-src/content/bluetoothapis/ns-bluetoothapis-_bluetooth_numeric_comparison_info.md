@@ -4,7 +4,7 @@ title: "_BLUETOOTH_NUMERIC_COMPARISON_INFO"
 author: windows-sdk-content
 description: BLUETOOTH_NUMERIC_COMPARISON_INFO structure contains the numeric value used for authentication via numeric comparison.
 old-location: bluetooth\bluetooth_numeric_comparison_info.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 5e8f8250-6790-41dd-bd0b-13a421cf3ebc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_NUMERIC_COMPARISON_INFO, *PBLUETOOTH_NUMERIC_COMPARISON_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BLUETOOTH_NUMERIC_COMPARISON_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BLUETOOTH_NUMERIC_COMPARISON_INFO, *PBLUETOOTH_NUMERIC_COMPARISON_INFO
+req.redist: 
 ---
 
 # _BLUETOOTH_NUMERIC_COMPARISON_INFO structure

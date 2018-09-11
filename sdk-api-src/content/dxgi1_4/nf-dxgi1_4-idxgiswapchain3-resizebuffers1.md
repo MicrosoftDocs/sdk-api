@@ -4,17 +4,16 @@ title: IDXGISwapChain3::ResizeBuffers1
 author: windows-sdk-content
 description: Changes the swap chain's back buffer size, format, and number of buffers, where the swap chain was created using a D3D12 command queue as an input device. This should be called when the application window is resized.
 old-location: direct3ddxgi\idxgiswapchain3_resizebuffers1.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 80983033-A348-4B25-B17E-AE7EE189EA1A
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGISwapChain3 interface [DXGI],ResizeBuffers1 method, IDXGISwapChain3.ResizeBuffers1, IDXGISwapChain3::ResizeBuffers1, ResizeBuffers1, ResizeBuffers1 method [DXGI], ResizeBuffers1 method [DXGI],IDXGISwapChain3 interface, direct3ddxgi.idxgiswapchain3_resizebuffers1, dxgi1_4/IDXGISwapChain3::ResizeBuffers1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_4.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGISwapChain3.ResizeBuffers1
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGISwapChain3::ResizeBuffers1

@@ -4,17 +4,16 @@ title: ITextRangeProvider::MoveEndpointByRange
 author: windows-sdk-content
 description: Moves one endpoint of the current text range to the specified endpoint of a second text range.
 old-location: winauto\uiauto_ITextRangeProvider_MoveEndpointByRange.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 86411603-c37f-4192-95d1-8ac9b6ab6c44
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],MoveEndpointByRange method, ITextRangeProvider.MoveEndpointByRange, ITextRangeProvider::MoveEndpointByRange, MoveEndpointByRange, MoveEndpointByRange method [Windows Accessibility], MoveEndpointByRange method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_MoveEndpointByRange, uiauto_ITextRangeProvider_MoveEndpointByRange, uiautomationcore/ITextRangeProvider::MoveEndpointByRange, winauto.uiauto_ITextRangeProvider_MoveEndpointByRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRangeProvider.MoveEndpointByRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRangeProvider::MoveEndpointByRange
@@ -61,11 +59,9 @@ Moves one endpoint of the current text range to the specified endpoint of a seco
 
 
 
-### -param param
+### -param arg1
 
-
-
-
+TBD
 
 
 ### -param targetRange [in]
@@ -73,6 +69,13 @@ Moves one endpoint of the current text range to the specified endpoint of a seco
 Type: <b><a href="https://msdn.microsoft.com/dd14e608-1d21-4527-8b82-dba64ed04fda">ITextRangeProvider</a>*</b>
 
 A second text range from the same text provider as the current text range.
+
+
+### -param arg2
+
+TBD
+
+
 
 
 #### - endpoint [in]

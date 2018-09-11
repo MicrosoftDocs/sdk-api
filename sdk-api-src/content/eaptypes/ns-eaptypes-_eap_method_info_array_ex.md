@@ -4,7 +4,7 @@ title: "_EAP_METHOD_INFO_ARRAY_EX"
 author: windows-sdk-content
 description: Contains information about all of the EAP methods installed on the client computer.
 old-location: eaphost\eap_method_info_array_ex.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 3deb04da-3071-4ddd-a7cb-82a1c47c3677
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_METHOD_INFO_ARRAY_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_METHOD_INFO_ARRAY_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_METHOD_INFO_ARRAY_EX
+req.redist: 
 ---
 
 # _EAP_METHOD_INFO_ARRAY_EX structure

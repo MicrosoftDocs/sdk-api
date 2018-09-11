@@ -4,7 +4,7 @@ title: "_POLICYSETTINGSTATUSINFO"
 author: windows-sdk-content
 description: The POLICYSETTINGSTATUSINFO structure provides information about a policy-setting event.
 old-location: policy\policysettingstatusinfo_str.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: f86dbd35-9180-43f1-ad66-7dba31e1fc89
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICYSETTINGSTATUSINFO, *LPPOLICYSETTINGSTATUSINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POLICYSETTINGSTATUSINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: POLICYSETTINGSTATUSINFO, *LPPOLICYSETTINGSTATUSINFO
+req.redist: 
 ---
 
 # _POLICYSETTINGSTATUSINFO structure

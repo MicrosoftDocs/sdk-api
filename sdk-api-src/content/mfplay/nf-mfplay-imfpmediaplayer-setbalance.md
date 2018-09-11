@@ -4,17 +4,16 @@ title: IMFPMediaPlayer::SetBalance
 author: windows-sdk-content
 description: Sets the audio balance.
 old-location: mf\imfpmediaplayer_setbalance.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: cb95d037-54b4-4686-b8e6-5b960998d361
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetBalance method, IMFPMediaPlayer.SetBalance, IMFPMediaPlayer::SetBalance, SetBalance, SetBalance method [Media Foundation], SetBalance method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setbalance, mfplay/IMFPMediaPlayer::SetBalance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaPlayer.SetBalance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaPlayer::SetBalance

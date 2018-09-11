@@ -4,17 +4,16 @@ title: IDvbComponentDescriptor::GetLanguageCode
 author: windows-sdk-content
 description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) component descriptor.
 old-location: mstv\idvbcomponentdescriptor_getlanguagecode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9898cd33-db5d-41d3-9e3d-77da2ff38e44
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetLanguageCode, GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetLanguageCode method, IDvbComponentDescriptor.GetLanguageCode, IDvbComponentDescriptor::GetLanguageCode, dvbsiparser/IDvbComponentDescriptor::GetLanguageCode, mstv.idvbcomponentdescriptor_getlanguagecode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbComponentDescriptor.GetLanguageCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbComponentDescriptor::GetLanguageCode

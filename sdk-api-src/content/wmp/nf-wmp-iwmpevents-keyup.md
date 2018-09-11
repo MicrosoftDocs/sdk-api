@@ -4,17 +4,16 @@ title: IWMPEvents::KeyUp
 author: windows-sdk-content
 description: The KeyUp event occurs when a key is released.
 old-location: wmp\iwmpevents_iwmpevents__keyup.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: e76e11d8-6cb9-488e-b5ca-1b5b11898d4b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],KeyUp method, IWMPEvents.KeyUp, IWMPEvents::KeyUp, IWMPEventsKeyUp, KeyUp, KeyUp method [Windows Media Player], KeyUp method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__keyup, wmp/IWMPEvents::KeyUp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEvents.KeyUp
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEvents::KeyUp

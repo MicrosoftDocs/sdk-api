@@ -4,17 +4,16 @@ title: PSYM_ENUMMODULES_CALLBACK64
 author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumerateModules64 function. It is called once for each enumerated module, and receives the module information.
 old-location: base\symenumeratemodulesproc64.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 97a82134-7e1b-4c7e-aa55-8347fea4e739
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: PSYM_ENUMMODULES_CALLBACK, PSYM_ENUMMODULES_CALLBACK64, PSYM_ENUMMODULES_CALLBACKW64, SymEnumerateModulesProc64, SymEnumerateModulesProc64 callback, SymEnumerateModulesProc64 callback function, _win32_symenumeratemodulesproc64, base.symenumeratemodulesproc64, dbghelp/SymEnumerateModulesProc64
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DAV_CALLBACK_CRED, *PDAV_CALLBACK_CRED
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SymEnumerateModulesProc64
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # PSYM_ENUMMODULES_CALLBACK64 callback function

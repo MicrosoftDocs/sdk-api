@@ -4,7 +4,7 @@ title: IFsrmRule
 author: windows-sdk-content
 description: Defines a rule.
 old-location: fsrm\ifsrmrule.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: e1de871f-a2c9-4787-a3e8-8c3428e9249e
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmRule
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmRule interface

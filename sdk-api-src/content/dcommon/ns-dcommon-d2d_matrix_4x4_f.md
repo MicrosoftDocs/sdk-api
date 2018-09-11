@@ -4,7 +4,7 @@ title: D2D_MATRIX_4X4_F
 author: windows-sdk-content
 description: Describes a 4-by-4 floating point matrix.
 old-location: direct2d\d2d_matrix_4x4_f.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 7355F5EB-BC23-42AE-A1F2-3E5582A3156E
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dcommon.h
 req.include-header: D2d1.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_MATRIX_4X4_F
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D_MATRIX_4X4_F
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D_MATRIX_4X4_F
+req.redist: 
 ---
 
 # D2D_MATRIX_4X4_F structure

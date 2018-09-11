@@ -4,17 +4,16 @@ title: ITACDGroup::EnumerateQueues
 author: windows-sdk-content
 description: The EnumerateQueues method enumerates queues currently on the ACD group. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Queues method.
 old-location: tapi3\itacdgroup_enumeratequeues.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 1d9e0dcf-ce43-494f-8adc-845d2856bdd1
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumerateQueues, EnumerateQueues method [TAPI 2.2], EnumerateQueues method [TAPI 2.2],ITACDGroup interface, ITACDGroup interface [TAPI 2.2],EnumerateQueues method, ITACDGroup.EnumerateQueues, ITACDGroup::EnumerateQueues, _tapi3_itacdgroup_enumeratequeues, tapi3.itacdgroup_enumeratequeues, tapi3cc/ITACDGroup::EnumerateQueues
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITACDGroup.EnumerateQueues
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITACDGroup::EnumerateQueues

@@ -4,7 +4,7 @@ title: "_EVENT_EXTENDED_ITEM_TS_ID"
 author: windows-sdk-content
 description: Defines the terminal session that logged the event.
 old-location: etw\event_extended_item_ts_id.htm
-old-project: etw
+tech.root: etw
 ms.assetid: fcf1252d-9730-45a2-b601-60f76decd0dd
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntcons.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_EXTENDED_ITEM_TS_ID, *PEVENT_EXTENDED_ITEM_TS_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENT_EXTENDED_ITEM_TS_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EVENT_EXTENDED_ITEM_TS_ID, *PEVENT_EXTENDED_ITEM_TS_ID
+req.redist: 
 ---
 
 # _EVENT_EXTENDED_ITEM_TS_ID structure

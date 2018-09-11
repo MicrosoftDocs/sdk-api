@@ -4,17 +4,16 @@ title: IVisualProperties::SetWatermark
 author: windows-sdk-content
 description: Provides a bitmap to use as a watermark.
 old-location: shell\IVisualProperties_SetWatermark.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 14ce62f7-b464-4e52-8441-35f613b6c844
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetWatermark method, IVisualProperties.SetWatermark, IVisualProperties::SetWatermark, SetWatermark, SetWatermark method [Windows Shell], SetWatermark method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetWatermark, shell.IVisualProperties_SetWatermark, shobjidl/IVisualProperties::SetWatermark
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualProperties.SetWatermark
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualProperties::SetWatermark

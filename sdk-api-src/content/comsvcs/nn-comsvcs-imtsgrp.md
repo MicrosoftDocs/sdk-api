@@ -4,17 +4,16 @@ title: IMtsGrp
 author: windows-sdk-content
 description: Provides methods for enumerating through running packages.
 old-location: cos\imtsgrp.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 976b4f0a-79cb-4b2d-8d69-225230147c53
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMtsGrp, IMtsGrp interface [COM+], IMtsGrp interface [COM+],described, _dtc_IMtsGrp_Interface, comsvcs/IMtsGrp, cos.imtsgrp
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMtsGrp
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMtsGrp interface

@@ -4,17 +4,16 @@ title: IEnumWIA_DEV_CAPS::Reset
 author: windows-sdk-content
 description: The IEnumWIA_DEV_CAPS::Reset method is used by applications to restart the enumeration of device capabilities.
 old-location: wia\_wia_IEnumWIA_DEV_CAPS_Reset.htm
-old-project: wia
+tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_caps\reset.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumWIA_DEV_CAPS interface [WIA],Reset method, IEnumWIA_DEV_CAPS.Reset, IEnumWIA_DEV_CAPS::Reset, Reset, Reset method [WIA], Reset method [WIA],IEnumWIA_DEV_CAPS interface, _wia_IEnumWIA_DEV_CAPS_Reset, wia._wia_IEnumWIA_DEV_CAPS_Reset, wia_xp/IEnumWIA_DEV_CAPS::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIAVIDEO_STATE
+req.lib: Wiaguid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEnumWIA_DEV_CAPS.Reset
 product: Windows
 targetos: Windows
-req.lib: Wiaguid.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumWIA_DEV_CAPS::Reset

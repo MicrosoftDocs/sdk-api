@@ -4,7 +4,7 @@ title: IDCompositionEffectGroup
 author: windows-sdk-content
 description: Represents a group of bitmap effects that are applied together to modify the rasterization of a visual's subtree.
 old-location: directcomp\idcompositioneffectgroup.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: B8C5A4D8-F161-4383-B117-B89E85C65B19
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionEffectGroup
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionEffectGroup interface

@@ -4,17 +4,16 @@ title: "_CMSG_CTRL_KEY_TRANS_DECRYPT_PARA"
 author: windows-sdk-content
 description: Contains information about a key transport message recipient.
 old-location: security\cmsg_ctrl_key_trans_decrypt_para.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 5f3387c9-4ff0-42a0-8fc7-67d3bb8b6bef
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA, CMSG_CTRL_KEY_TRANS_DECRYPT_PARA, CMSG_CTRL_KEY_TRANS_DECRYPT_PARA structure [Security], PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA, PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA structure pointer [Security], _CMSG_CTRL_KEY_TRANS_DECRYPT_PARA, _crypto2_cmsg_ctrl_key_trans_decrypt_para, security.cmsg_ctrl_key_trans_decrypt_para, wincrypt/CMSG_CTRL_KEY_TRANS_DECRYPT_PARA, wincrypt/PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMSG_CTRL_KEY_TRANS_DECRYPT_PARA, *PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSG_CTRL_KEY_TRANS_DECRYPT_PARA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMSG_CTRL_KEY_TRANS_DECRYPT_PARA, *PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA
+req.redist: 
 ---
 
 # _CMSG_CTRL_KEY_TRANS_DECRYPT_PARA structure

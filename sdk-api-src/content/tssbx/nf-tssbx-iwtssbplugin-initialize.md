@@ -4,17 +4,16 @@ title: IWTSSBPlugin::Initialize
 author: windows-sdk-content
 description: Initializes the plug-in and returns a value that indicates the redirection capabilities of the plug-in.
 old-location: termserv\iwtssbplugin_initialize.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: b9304f4a-49ed-4a5e-87a1-7a9bc1c01b3d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],Initialize method, IWTSSBPlugin.Initialize, IWTSSBPlugin::Initialize, Initialize, Initialize method [Remote Desktop Services], Initialize method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_initialize, tssbx/IWTSSBPlugin::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tssbx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_NOTIFICATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSSBPlugin.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSSBPlugin::Initialize

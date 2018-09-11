@@ -4,17 +4,16 @@ title: PerfDeleteInstance function
 author: windows-sdk-content
 description: Deletes an instance of the counter set created by the PerfCreateInstance function.
 old-location: perf\perfdeleteinstance.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 8266e58c-c0a3-42dd-9f06-0d04dccfcf7c
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PerfDeleteInstance, PerfDeleteInstance function [Perf], base.perfdeleteinstance, perf.perfdeleteinstance, perflib/PerfDeleteInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PerfRegInfoType
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PerfDeleteInstance
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PerfDeleteInstance function

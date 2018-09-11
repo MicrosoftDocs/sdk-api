@@ -4,17 +4,16 @@ title: DWRITE_PANOSE_SERIF_STYLE
 author: windows-sdk-content
 description: The DWRITE_PANOSE_SERIF_STYLE enumeration contains values that specify the appearance of the serif text.
 old-location: directwrite\dwrite_panose_serif_style.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: F141B81F-7DF2-4E7C-A373-36C7FEF53857
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_PANOSE_SERIF_STYLE, DWRITE_PANOSE_SERIF_STYLE enumeration [Direct Write], DWRITE_PANOSE_SERIF_STYLE_ANY, DWRITE_PANOSE_SERIF_STYLE_BONE, DWRITE_PANOSE_SERIF_STYLE_COVE, DWRITE_PANOSE_SERIF_STYLE_EXAGGERATED, DWRITE_PANOSE_SERIF_STYLE_FLARED, DWRITE_PANOSE_SERIF_STYLE_NORMAL_SANS, DWRITE_PANOSE_SERIF_STYLE_NO_FIT, DWRITE_PANOSE_SERIF_STYLE_OBTUSE_COVE, DWRITE_PANOSE_SERIF_STYLE_OBTUSE_SANS, DWRITE_PANOSE_SERIF_STYLE_OBTUSE_SQUARE_COVE, DWRITE_PANOSE_SERIF_STYLE_OVAL, DWRITE_PANOSE_SERIF_STYLE_PERPENDICULAR_SANS, DWRITE_PANOSE_SERIF_STYLE_PERP_SANS, DWRITE_PANOSE_SERIF_STYLE_ROUNDED, DWRITE_PANOSE_SERIF_STYLE_SCRIPT, DWRITE_PANOSE_SERIF_STYLE_SQUARE, DWRITE_PANOSE_SERIF_STYLE_SQUARE_COVE, DWRITE_PANOSE_SERIF_STYLE_THIN, DWRITE_PANOSE_SERIF_STYLE_TRIANGLE, directwrite.dwrite_panose_serif_style, dwrite_1/DWRITE_PANOSE_SERIF_STYLE, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_ANY, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_BONE, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_COVE, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_EXAGGERATED, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_FLARED, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_NORMAL_SANS, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_NO_FIT, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_OBTUSE_COVE, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_OBTUSE_SANS, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_OBTUSE_SQUARE_COVE, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_OVAL, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_PERPENDICULAR_SANS, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_PERP_SANS, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_ROUNDED, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_SCRIPT, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_SQUARE, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_SQUARE_COVE, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_THIN, dwrite_1/DWRITE_PANOSE_SERIF_STYLE_TRIANGLE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_PANOSE_SERIF_STYLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_PANOSE_SERIF_STYLE enumeration

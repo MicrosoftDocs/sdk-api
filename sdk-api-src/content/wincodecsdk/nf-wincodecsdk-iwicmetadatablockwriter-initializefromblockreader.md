@@ -4,17 +4,16 @@ title: IWICMetadataBlockWriter::InitializeFromBlockReader
 author: windows-sdk-content
 description: Initializes an IWICMetadataBlockWriter from the given IWICMetadataBlockReader. This will prepopulate the metadata block writer with all the metadata in the metadata block reader.
 old-location: wic\_wic_codec_iwicmetadatablockwriter_initializefromblockreader.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 9ad9d818-7b3e-47eb-bc99-e26e7664383c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICMetadataBlockWriter interface [Windows Imaging Component],InitializeFromBlockReader method, IWICMetadataBlockWriter.InitializeFromBlockReader, IWICMetadataBlockWriter::InitializeFromBlockReader, InitializeFromBlockReader, InitializeFromBlockReader method [Windows Imaging Component], InitializeFromBlockReader method [Windows Imaging Component],IWICMetadataBlockWriter interface, _wic_codec_iwicmetadatablockwriter_initializefromblockreader, wic._wic_codec_iwicmetadatablockwriter_initializefromblockreader, wincodecsdk/IWICMetadataBlockWriter::InitializeFromBlockReader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICMetadataBlockWriter.InitializeFromBlockReader
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICMetadataBlockWriter::InitializeFromBlockReader

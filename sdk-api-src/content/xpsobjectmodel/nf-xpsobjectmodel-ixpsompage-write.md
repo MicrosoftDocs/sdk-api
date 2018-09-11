@@ -4,17 +4,16 @@ title: IXpsOMPage::Write
 author: windows-sdk-content
 description: Writes the page to the specified stream.
 old-location: xps\ixpsompage_write.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: ab586c7d-69e6-4ad7-93f1-3e1437c04856
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FALSE, IXpsOMPage interface [XPS Documents and Packaging],Write method, IXpsOMPage.Write, IXpsOMPage::Write, TRUE, Write, Write method [XPS Documents and Packaging], Write method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_write, xpsobjectmodel/IXpsOMPage::Write
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMPage.Write
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMPage::Write

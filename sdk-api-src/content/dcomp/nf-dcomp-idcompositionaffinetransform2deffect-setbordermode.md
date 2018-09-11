@@ -4,17 +4,16 @@ title: IDCompositionAffineTransform2DEffect::SetBorderMode
 author: windows-sdk-content
 description: Sets the border mode to use with the effect.
 old-location: directcomp\idcompositionaffinetransform2deffect_setbordermode.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 4F034507-9296-4A3C-AD38-F35B0611955B
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionAffineTransform2DEffect interface [DirectComposition],SetBorderMode method, IDCompositionAffineTransform2DEffect.SetBorderMode, IDCompositionAffineTransform2DEffect::SetBorderMode, SetBorderMode, SetBorderMode method [DirectComposition], SetBorderMode method [DirectComposition],IDCompositionAffineTransform2DEffect interface, dcomp/IDCompositionAffineTransform2DEffect::SetBorderMode, directcomp.idcompositionaffinetransform2deffect_setbordermode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionAffineTransform2DEffect.SetBorderMode
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionAffineTransform2DEffect::SetBorderMode

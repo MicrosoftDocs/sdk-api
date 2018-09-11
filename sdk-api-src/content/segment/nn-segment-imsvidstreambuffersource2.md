@@ -4,7 +4,7 @@ title: IMSVidStreamBufferSource2
 author: windows-sdk-content
 description: The IMSVidStreamBufferSource2 interface represents the Stream Buffer Source filter within the Video Control.
 old-location: mstv\imsvidstreambuffersource2.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 47012868-4c9e-4974-8549-11331836bed0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSource2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSource2 interface

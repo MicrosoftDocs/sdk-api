@@ -4,17 +4,16 @@ title: IDynamicRenderer
 author: windows-sdk-content
 description: Displays the tablet pen data in real-time as that data is being handled by the RealTimeStylus Class object.
 old-location: tablet\idynamicrenderer.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 6435b297-d6a7-418b-afc0-f8cc0b329842
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 6435b297-d6a7-418b-afc0-f8cc0b329842, IDynamicRenderer, IDynamicRenderer interface [Tablet PC], IDynamicRenderer interface [Tablet PC],described, rtscom/IDynamicRenderer, tablet.idynamicrenderer
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDynamicRenderer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDynamicRenderer interface

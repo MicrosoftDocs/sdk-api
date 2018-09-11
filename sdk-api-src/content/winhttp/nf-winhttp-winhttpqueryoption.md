@@ -4,17 +4,16 @@ title: WinHttpQueryOption function
 author: windows-sdk-content
 description: The WinHttpQueryOption function queries an Internet option on the specified handle.
 old-location: http\winhttpqueryoption.htm
-old-project: winhttp
+tech.root: WinHttp
 ms.assetid: 47973eab-de70-47bf-9713-97b87a500cfa
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WinHttpQueryOption, WinHttpQueryOption function [WinHTTP], http.winhttpqueryoption, winhttp.winhttpqueryoption_function, winhttp/WinHttpQueryOption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 
-req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_WEB_SOCKET_OPERATION
+req.lib: Winhttp.lib
+req.dll: Winhttp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinHttpQueryOption
 product: Windows
 targetos: Windows
-req.lib: Winhttp.lib
-req.dll: Winhttp.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ---
 
 # WinHttpQueryOption function

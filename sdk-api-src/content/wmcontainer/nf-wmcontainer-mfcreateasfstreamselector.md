@@ -4,17 +4,16 @@ title: MFCreateASFStreamSelector function
 author: windows-sdk-content
 description: Creates the ASF stream selector.
 old-location: mf\mfcreateasfstreamselector.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 71b1af5b-f127-463f-9720-72e789bb2cd1
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 71b1af5b-f127-463f-9720-72e789bb2cd1, MFCreateASFStreamSelector, MFCreateASFStreamSelector function [Media Foundation], mf.mfcreateasfstreamselector, wmcontainer/MFCreateASFStreamSelector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mf.lib
+req.dll: Mf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateASFStreamSelector
 product: Windows
 targetos: Windows
-req.lib: Mf.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateASFStreamSelector function

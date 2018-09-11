@@ -4,7 +4,7 @@ title: tagHypothesisResult
 author: windows-sdk-content
 description: Contains information about a hypothesis returned from a helper class.
 old-location: ndf\hypothesisresult.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: bbf3cc69-c81b-4a3d-8fd8-d4e37a57bed6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndhelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HypothesisResult
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HypothesisResult
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: HypothesisResult
+req.redist: 
 ---
 
 # tagHypothesisResult structure

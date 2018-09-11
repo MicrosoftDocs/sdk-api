@@ -4,17 +4,16 @@ title: IOfflineFilesEvents::DataLost
 author: windows-sdk-content
 description: Reports that one or more events destined for this event sink have been lost and will not be delivered.
 old-location: of\iofflinefilesevents_datalost.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: da0414dd-2acb-48d9-ac84-66bb1f7ccbef
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DataLost, DataLost method [Offline Files], DataLost method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],DataLost method, IOfflineFilesEvents.DataLost, IOfflineFilesEvents::DataLost, cscobj/IOfflineFilesEvents::DataLost, of.iofflinefilesevents_datalost
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesEvents.DataLost
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesEvents::DataLost

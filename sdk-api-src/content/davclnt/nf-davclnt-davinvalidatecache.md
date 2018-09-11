@@ -4,17 +4,16 @@ title: DavInvalidateCache function
 author: windows-sdk-content
 description: Invalidates the contents of the local cache for a remote file on a WebDAV server.
 old-location: webdav\davinvalidatecache.htm
-old-project: webdav
+tech.root: WebDAV
 ms.assetid: f111b19c-5472-463a-b33d-7d2188d224e8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DavInvalidateCache, DavInvalidateCache function [WebDAV], davclnt/DavInvalidateCache, webdav.davinvalidatecache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: davclnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHNEXTSTEP
+req.lib: Davclnt.lib
+req.dll: Davclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DavInvalidateCache
 product: Windows
 targetos: Windows
-req.lib: Davclnt.lib
-req.dll: Davclnt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DavInvalidateCache function

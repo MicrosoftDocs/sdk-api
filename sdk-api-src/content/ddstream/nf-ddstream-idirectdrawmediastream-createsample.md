@@ -4,17 +4,16 @@ title: IDirectDrawMediaStream::CreateSample
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Creates a stream sample using the specified DirectDraw surface object.
 old-location: dshow\idirectdrawmediastream_createsample.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 85041c71-f9fc-48fc-8fe2-fec21efb831b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],CreateSample method, IDirectDrawMediaStream.CreateSample, IDirectDrawMediaStream::CreateSample, IDirectDrawMediaStreamCreateSample, ddstream/IDirectDrawMediaStream::CreateSample, dshow.idirectdrawmediastream_createsample
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIDEOMEMORYINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawMediaStream.CreateSample
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawMediaStream::CreateSample

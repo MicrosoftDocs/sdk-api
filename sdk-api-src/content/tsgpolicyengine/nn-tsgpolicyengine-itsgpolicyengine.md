@@ -4,7 +4,7 @@ title: ITSGPolicyEngine
 author: windows-sdk-content
 description: Exposes methods that authorize connections and resources.
 old-location: termserv\itsgpolicyengine.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 1972032f-48ac-4a15-98ce-9349fa158a07
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsgpolicyengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PolicyAttributeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITSGPolicyEngine
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITSGPolicyEngine interface

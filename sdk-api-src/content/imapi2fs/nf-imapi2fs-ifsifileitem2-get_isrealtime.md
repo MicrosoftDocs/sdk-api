@@ -4,17 +4,16 @@ title: IFsiFileItem2::get_IsRealTime
 author: windows-sdk-content
 description: Retrieves the property value that specifies if a file item in the file system image is a 'Real-Time' or standard file.
 old-location: imapi\ifsifileitem2_get_isrealtime.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: a8b8fca4-f24c-4698-b84d-7b79ad81d467
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],get_IsRealTime method, IFsiFileItem2.get_IsRealTime, IFsiFileItem2::get_IsRealTime, get_IsRealTime, get_IsRealTime method [IMAPI], get_IsRealTime method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_get_isrealtime, imapi2fs/IFsiFileItem2::get_IsRealTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsiFileItem2.get_IsRealTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFsiFileItem2::get_IsRealTime

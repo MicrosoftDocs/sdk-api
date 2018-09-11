@@ -4,17 +4,16 @@ title: ITACDGroup::get_Queues
 author: windows-sdk-content
 description: The get_Queues method creates a collection of queues associated with the current ACD group. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateQueues method.
 old-location: tapi3\itacdgroup_get_queues.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: f285fea5-4c08-4d30-8378-0b0aeeea8226
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITACDGroup interface [TAPI 2.2],get_Queues method, ITACDGroup.get_Queues, ITACDGroup::get_Queues, _tapi3_itacdgroup_get_queues, get_Queues, get_Queues method [TAPI 2.2], get_Queues method [TAPI 2.2],ITACDGroup interface, tapi3.itacdgroup_get_queues, tapi3cc/ITACDGroup::get_Queues
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITACDGroup.get_Queues
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITACDGroup::get_Queues

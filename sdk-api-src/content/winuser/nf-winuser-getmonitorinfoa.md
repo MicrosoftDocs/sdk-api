@@ -4,17 +4,16 @@ title: GetMonitorInfoA function
 author: windows-sdk-content
 description: The GetMonitorInfo function retrieves information about a display monitor.
 old-location: gdi\getmonitorinfo.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 025a89c2-4bbd-4c8b-8367-3735fb5b872a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetMonitorInfo, GetMonitorInfo function [Windows GDI], GetMonitorInfoA, GetMonitorInfoW, _win32_GetMonitorInfo, gdi.getmonitorinfo, winuser/GetMonitorInfo, winuser/GetMonitorInfoA, winuser/GetMonitorInfoW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - GetMonitorInfoW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetMonitorInfoA function

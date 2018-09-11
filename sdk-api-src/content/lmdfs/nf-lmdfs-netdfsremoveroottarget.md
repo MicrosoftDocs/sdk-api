@@ -4,17 +4,16 @@ title: NetDfsRemoveRootTarget function
 author: windows-sdk-content
 description: Removes a DFS root target from a domain-based DFS namespace. If the root target is the last root target in the DFS namespace, this function removes the DFS namespace. This function can also be used to remove a stand-alone DFS namespace.
 old-location: dfs\netdfsremoveroottarget.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: 9a8c78f4-3170-4568-940c-1c51aebad3ae
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DFS_FORCE_REMOVE, NetDfsRemoveRootTarget, NetDfsRemoveRootTarget function [Distributed File System], dfs.netdfsremoveroottarget, fs.netdfsremoveroottarget, lmdfs/NetDfsRemoveRootTarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_TARGET_PRIORITY_CLASS
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetDfsRemoveRootTarget
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetDfsRemoveRootTarget function

@@ -4,17 +4,16 @@ title: IWMDMStorageControl3
 author: windows-sdk-content
 description: The IWMDMStorageControl3 interface extends IWMDMStorageControl2 by providing an Insert method that accepts an IWMDMMetaData interface pointer.
 old-location: wmdm\iwmdmstoragecontrol3.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: bc5165c2-791d-4549-a271-78728625b219
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDMStorageControl3, IWMDMStorageControl3 interface [windows Media Device Manager], IWMDMStorageControl3 interface [windows Media Device Manager],described, IWMDMStorageControl3Interface, mswmdm/IWMDMStorageControl3, wmdm.iwmdmstoragecontrol3
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMDMStorageControl3
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMStorageControl3 interface

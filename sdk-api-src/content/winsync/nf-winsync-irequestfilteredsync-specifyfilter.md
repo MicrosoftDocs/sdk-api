@@ -4,17 +4,16 @@ title: IRequestFilteredSync::SpecifyFilter
 author: windows-sdk-content
 description: When implemented by a derived class, negotiates which filter is used by the source provider during change enumeration.
 old-location: winsync\irequestfilteredsync_specifyfilter.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 653e953f-3f08-4d65-85d5-3c5466361ea5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IRequestFilteredSync interface [Windows Sync],SpecifyFilter method, IRequestFilteredSync.SpecifyFilter, IRequestFilteredSync::SpecifyFilter, SpecifyFilter, SpecifyFilter method [Windows Sync], SpecifyFilter method [Windows Sync],IRequestFilteredSync interface, winsync.irequestfilteredsync_specifyfilter, winsync/IRequestFilteredSync::SpecifyFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRequestFilteredSync.SpecifyFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IRequestFilteredSync::SpecifyFilter

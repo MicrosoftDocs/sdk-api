@@ -4,17 +4,16 @@ title: "_WS_XML_ATTRIBUTE"
 author: windows-sdk-content
 description: Represents an attribute (for example, &lt;a:purchaseOrder xmlns:a=&#0034;http://tempuri.org&#0034; id=&#0034;5&#0034;&gt;)
 old-location: wsw\ws_xml_attribute.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 338c31ac-d5eb-4d2d-8ee1-953963c1a8b0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_ATTRIBUTE, WS_XML_ATTRIBUTE structure [Web Services for Windows], _WS_XML_ATTRIBUTE, webservices/WS_XML_ATTRIBUTE, wsw.ws_xml_attribute
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_ATTRIBUTE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_ATTRIBUTE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_ATTRIBUTE
+req.redist: 
 ---
 
 # _WS_XML_ATTRIBUTE structure

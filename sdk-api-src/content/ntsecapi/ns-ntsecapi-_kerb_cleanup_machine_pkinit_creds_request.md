@@ -4,17 +4,16 @@ title: "_KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST"
 author: windows-sdk-content
 description: Cleans up the PKINIT device credentials from the computer.
 old-location: security\kerb_cleanup_machine_pkinit_creds_request.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: FBFCFD7C-BB92-4EBC-9C89-51B7B5D057F1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST structure [Security], PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST structure pointer [Security], _KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, ntsecapi/KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, ntsecapi/PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, security.kerb_cleanup_machine_pkinit_creds_request"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, *PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, *PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST
+req.redist: 
 ---
 
 # _KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST structure

@@ -4,17 +4,16 @@ title: IPersistQuery::WriteString
 author: windows-sdk-content
 description: Writes a string to the query store.
 old-location: ad\ipersistquery_writestring.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 6bf8499a-6b3a-4786-8d42-67ab4e1a40c0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IPersistQuery interface [Active Directory],WriteString method, IPersistQuery.WriteString, IPersistQuery::WriteString, WriteString, WriteString method [Active Directory], WriteString method [Active Directory],IPersistQuery interface, _glines_ipersistquery_writestring, ad.ipersistquery__writestring, ad.ipersistquery_writestring, cmnquery/IPersistQuery::WriteString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cmnquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uuid.lib
+req.dll: Dsquery.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPersistQuery.WriteString
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Dsquery.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistQuery::WriteString

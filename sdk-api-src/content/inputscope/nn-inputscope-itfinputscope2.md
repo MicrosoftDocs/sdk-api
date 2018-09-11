@@ -4,7 +4,7 @@ title: ITfInputScope2
 author: windows-sdk-content
 description: The ITfInputScope2 interface is used by the text input processors to get the IEnumString interface pointer and this IEnumString interface enumerates the word list that the application specified for this context.
 old-location: tsf\ITfInputScope2.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 45314d3a-cb54-4524-819a-16c035dfe533
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: inputscope.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InputScope
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfInputScope2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ITfInputScope2 interface

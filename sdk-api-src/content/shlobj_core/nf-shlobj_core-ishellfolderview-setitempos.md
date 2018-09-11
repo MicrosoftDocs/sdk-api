@@ -4,17 +4,16 @@ title: IShellFolderView::SetItemPos
 author: windows-sdk-content
 description: Sets the position of the given item.
 old-location: shell\IShellFolderView_SetItemPos.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d905260c-fa68-4b39-9c94-a74e1ac71b95
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetItemPos method, IShellFolderView.SetItemPos, IShellFolderView::SetItemPos, SetItemPos, SetItemPos method [Windows Shell], SetItemPos method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetItemPos, shell.IShellFolderView_SetItemPos, shlobj_core/IShellFolderView::SetItemPos
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderView.SetItemPos
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderView::SetItemPos

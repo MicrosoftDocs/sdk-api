@@ -4,7 +4,7 @@ title: "_USB_PASS_THRU_PARAMETERS"
 author: windows-sdk-content
 description: The USB_PASS_THRU_PARAMETERS structure is used with the IOCTL_USB_USER_REQUEST I/O control request to pass a vendor-specific command to the host controller miniport driver.
 old-location: buses\usb_pass_thru_parameters.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 04a29463-af7b-44a4-aac1-20f386c7dd20
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_PASS_THRU_PARAMETERS, *PUSB_PASS_THRU_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USB_PASS_THRU_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: USB_PASS_THRU_PARAMETERS, *PUSB_PASS_THRU_PARAMETERS
+req.redist: 
 ---
 
 # _USB_PASS_THRU_PARAMETERS structure

@@ -4,17 +4,16 @@ title: PAPCFUNC
 author: windows-sdk-content
 description: An application-defined completion routine. Specify this address when calling the QueueUserAPC function.
 old-location: base\apcproc.htm
-old-project: sync
+tech.root: Sync
 ms.assetid: 8d52ad73-0172-4d1d-b625-39629e7f5823
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: APCProc, APCProc callback, APCProc callback function, PAPCFUNC, _win32_apcproc, base.apcproc, winnt/APCProc
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NUMBERFMTW, *LPNUMBERFMTW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - APCProc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PAPCFUNC callback function

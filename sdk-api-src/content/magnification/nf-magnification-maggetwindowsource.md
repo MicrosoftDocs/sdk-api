@@ -4,17 +4,16 @@ title: MagGetWindowSource function
 author: windows-sdk-content
 description: Gets the rectangle of the area that is being magnified.
 old-location: magapi\magapi_MagGetWindowSource.htm
-old-project: magapi
+tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetwindowsource.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: MagGetWindowSource, MagGetWindowSource function [Magnification API], magapi.magapi_MagGetWindowSource, magapi_MagGetWindowSource, magnification/MagGetWindowSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: magnification.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MCAST_SCOPE_ENTRY, *PMCAST_SCOPE_ENTRY
+req.lib: Magnification.lib
+req.dll: Magnification.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MagGetWindowSource
 product: Windows
 targetos: Windows
-req.lib: Magnification.lib
-req.dll: Magnification.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MagGetWindowSource function

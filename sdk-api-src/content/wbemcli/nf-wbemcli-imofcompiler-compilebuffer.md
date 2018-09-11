@@ -4,17 +4,16 @@ title: IMofCompiler::CompileBuffer
 author: windows-sdk-content
 description: The IMofCompiler::CompileBuffer method compiles either a buffer containing binary MOF data or a text buffer in ASCII format.
 old-location: wmi\imofcompiler_compilebuffer.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 7f3cc061-839e-49c2-a225-452719f155a9
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CompileBuffer, CompileBuffer method [Windows Management Instrumentation], CompileBuffer method [Windows Management Instrumentation],IMofCompiler interface, IMofCompiler interface [Windows Management Instrumentation],CompileBuffer method, IMofCompiler.CompileBuffer, IMofCompiler::CompileBuffer, WBEM_FLAG_AUTORECOVER, WBEM_FLAG_CHECK_ONLY, WBEM_FLAG_CONSOLE_PRINT, WBEM_FLAG_DONT_ADD_TO_LIST, _hmm_imofcompiler_compilebuffer, wbemcli/IMofCompiler::CompileBuffer, wmi.imofcompiler_compilebuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Mofd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMofCompiler.CompileBuffer
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Mofd.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IMofCompiler::CompileBuffer

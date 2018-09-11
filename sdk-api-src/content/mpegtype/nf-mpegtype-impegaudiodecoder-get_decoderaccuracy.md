@@ -4,17 +4,16 @@ title: IMpegAudioDecoder::get_DecoderAccuracy
 author: windows-sdk-content
 description: Returns the decoder accuracy as a three-level quality setting.
 old-location: dshow\impegaudiodecoder_get_decoderaccuracy.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 5b0776f2-4340-4ebc-9d28-a2a2c2a4571e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_DecoderAccuracy method, IMpegAudioDecoder.get_DecoderAccuracy, IMpegAudioDecoder::get_DecoderAccuracy, IMpegAudioDecodergetDecoderAccuracy, dshow.impegaudiodecoder_get_decoderaccuracy, get_DecoderAccuracy, get_DecoderAccuracy method [DirectShow], get_DecoderAccuracy method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_DecoderAccuracy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpegtype.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_CONTEXT, *PMPEG_CONTEXT
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMpegAudioDecoder.get_DecoderAccuracy
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMpegAudioDecoder::get_DecoderAccuracy

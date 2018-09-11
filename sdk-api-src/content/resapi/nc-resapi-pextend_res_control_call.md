@@ -4,17 +4,16 @@ title: PEXTEND_RES_CONTROL_CALL
 author: windows-sdk-content
 description: Extends the timeout for a call to a resource control code. The PEXTEND_RES_CONTROL_CALL type defines a pointer to this function.
 old-location: mscs\extendcontrolcall.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 79607FE9-96E5-4854-BC92-8FF1C474B3D6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ExtendControlCall, ExtendControlCall callback, ExtendControlCall callback function [Failover Cluster], PEXTEND_RES_CONTROL_CALL, PEXTEND_RES_CONTROL_CALL callback function [Failover Cluster], mscs.extendcontrolcall, resapi/ExtendControlCall, resapi/PEXTEND_RES_CONTROL_CALL
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ExtendControlCall
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PEXTEND_RES_CONTROL_CALL callback function

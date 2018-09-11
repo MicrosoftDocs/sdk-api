@@ -4,7 +4,7 @@ title: IPhotoAcquireItem
 author: windows-sdk-content
 description: The IPhotoAcquireItem interface provides methods for working with items as they are acquired from a device.
 old-location: picacq\iphotoacquireitem.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 57e099eb-bf8d-4465-af4d-fcfc3eee3b5b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPhotoAcquireItem
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireItem interface

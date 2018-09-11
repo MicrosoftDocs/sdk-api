@@ -4,17 +4,16 @@ title: IWSDDeviceProxy::GetHostMetadata
 author: windows-sdk-content
 description: Retrieves class-specific metadata for the device describing the features of the device and the services it hosts.
 old-location: ncd\iwsddeviceproxy_gethostmetadata.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: e1e81f75-baeb-4406-8de0-f575db573fe8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetHostMetadata, GetHostMetadata method, GetHostMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetHostMetadata method, IWSDDeviceProxy.GetHostMetadata, IWSDDeviceProxy::GetHostMetadata, ncd.iwsddeviceproxy_gethostmetadata, wsdclient/IWSDDeviceProxy::GetHostMetadata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDDeviceProxy.GetHostMetadata
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDDeviceProxy::GetHostMetadata

@@ -4,17 +4,16 @@ title: ldap_next_reference function
 author: windows-sdk-content
 description: Retrieves a reference from a search result chain.
 old-location: ldap\ldap_next_reference.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: ea67f0e9-5cf7-4755-9bfd-856e26589a8d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_next_reference, ldap.ldap__next__reference, ldap.ldap_next_reference, ldap_next_reference, ldap_next_reference function [LDAP], winldap/ldap_next_reference"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ldap_next_reference
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_next_reference function

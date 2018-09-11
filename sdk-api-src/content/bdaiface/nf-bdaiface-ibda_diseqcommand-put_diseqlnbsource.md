@@ -4,17 +4,16 @@ title: IBDA_DiseqCommand::put_DiseqLNBSource
 author: windows-sdk-content
 description: Sets the low-noise block (LNB) converter source.
 old-location: mstv\ibda_diseqcommand_put_diseqlnbsource.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 09ed3d1d-026a-43b3-863b-a77260e082d8
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: 0, 1, 2, 3, IBDA_DiseqCommand interface [Microsoft TV Technologies],put_DiseqLNBSource method, IBDA_DiseqCommand.put_DiseqLNBSource, IBDA_DiseqCommand::put_DiseqLNBSource, bdaiface/IBDA_DiseqCommand::put_DiseqLNBSource, mstv.ibda_diseqcommand_put_diseqlnbsource, put_DiseqLNBSource, put_DiseqLNBSource method [Microsoft TV Technologies], put_DiseqLNBSource method [Microsoft TV Technologies],IBDA_DiseqCommand interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_DiseqCommand.put_DiseqLNBSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_DiseqCommand::put_DiseqLNBSource

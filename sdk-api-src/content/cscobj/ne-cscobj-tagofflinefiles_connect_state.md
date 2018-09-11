@@ -4,7 +4,7 @@ title: tagOFFLINEFILES_CONNECT_STATE
 author: windows-sdk-content
 description: Describes the connection state of an item in the Offline Files cache.
 old-location: of\offlinefiles_connect_state.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 48c19b16-6ccb-4580-916d-0d23b69aafcf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_CONNECT_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OFFLINEFILES_CONNECT_STATE
 product: Windows
 targetos: Windows
-req.lib: CscApi.lib
-req.dll: CscApi.dll
-req.irql: 
+req.typenames: OFFLINEFILES_CONNECT_STATE
+req.redist: 
 ---
 
 # tagOFFLINEFILES_CONNECT_STATE enumeration

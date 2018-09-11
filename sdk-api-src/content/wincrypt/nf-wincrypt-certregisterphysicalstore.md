@@ -4,17 +4,16 @@ title: CertRegisterPhysicalStore function
 author: windows-sdk-content
 description: Adds a physical store to a registry system store collection.
 old-location: security\certregisterphysicalstore.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: e301c76d-cacd-441a-b925-754b07e4bfa9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CERT_STORE_CREATE_NEW_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertRegisterPhysicalStore, CertRegisterPhysicalStore function [Security], _crypto2_certregisterphysicalstore, security.certregisterphysicalstore, wincrypt/CertRegisterPhysicalStore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertRegisterPhysicalStore
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertRegisterPhysicalStore function

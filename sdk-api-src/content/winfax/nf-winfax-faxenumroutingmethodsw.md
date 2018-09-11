@@ -4,17 +4,16 @@ title: FaxEnumRoutingMethodsW function
 author: windows-sdk-content
 description: The FaxEnumRoutingMethods function enumerates all fax routing methods for a specific fax device. The function returns information about each routing method to a fax client application.
 old-location: fax\_mfax_faxenumroutingmethods.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_41gz.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: FaxEnumRoutingMethods, FaxEnumRoutingMethods function [Fax Service], FaxEnumRoutingMethodsA, FaxEnumRoutingMethodsW, _mfax_faxenumroutingmethods, fax._mfax_faxenumroutingmethods, winfax/FaxEnumRoutingMethods, winfax/FaxEnumRoutingMethodsA, winfax/FaxEnumRoutingMethodsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winfax.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_VARIANT, *PEVT_VARIANT
+req.lib: WinFax.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - FaxEnumRoutingMethodsW
 product: Windows
 targetos: Windows
-req.lib: WinFax.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FaxEnumRoutingMethodsW function

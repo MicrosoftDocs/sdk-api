@@ -4,7 +4,7 @@ title: D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT
 author: windows-sdk-content
 description: Details the adapter's GPU virtual address space limitations, including maximum address bits per resource and per process.
 old-location: direct3d12\d3d12_feature_data_gpu_virtual_address_support.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 2CBED491-A8B6-47AE-8371-2081BAF85B83
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT
+req.redist: 
 ---
 
 # D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT structure

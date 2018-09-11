@@ -4,17 +4,16 @@ title: IFileOperationProgressSink::StartOperations
 author: windows-sdk-content
 description: Performs caller-implemented actions before any specific file operations are performed.
 old-location: shell\IFileOperationProgressSink_StartOperations.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8b9e4423-ead7-44be-b960-5ee83025f42a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],StartOperations method, IFileOperationProgressSink.StartOperations, IFileOperationProgressSink::StartOperations, StartOperations, StartOperations method [Windows Shell], StartOperations method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_StartOperations, shell.IFileOperationProgressSink_StartOperations, shobjidl_core/IFileOperationProgressSink::StartOperations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperationProgressSink.StartOperations
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperationProgressSink::StartOperations

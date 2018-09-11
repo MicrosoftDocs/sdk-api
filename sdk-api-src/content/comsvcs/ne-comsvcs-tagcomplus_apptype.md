@@ -4,17 +4,16 @@ title: tagCOMPLUS_APPTYPE
 author: windows-sdk-content
 description: Represents types of applications tracked by the tracker server.
 old-location: cos\complus_apptype.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 121d287f-067b-4640-ac81-43904463ded4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: APPTYPE_LIBRARY, APPTYPE_SERVER, APPTYPE_SWC, APPTYPE_UNKNOWN, COMPLUS_APPTYPE, COMPLUS_APPTYPE enumeration [COM+], comsvcs/APPTYPE_LIBRARY, comsvcs/APPTYPE_SERVER, comsvcs/APPTYPE_SWC, comsvcs/APPTYPE_UNKNOWN, comsvcs/COMPLUS_APPTYPE, cos.complus_apptype, tagCOMPLUS_APPTYPE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPLUS_APPTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - COMPLUS_APPTYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: COMPLUS_APPTYPE
+req.redist: 
 ---
 
 # tagCOMPLUS_APPTYPE enumeration

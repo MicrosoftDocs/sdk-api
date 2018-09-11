@@ -4,17 +4,16 @@ title: IAzRole
 author: windows-sdk-content
 description: Defines the set of operations that can be performed by a set of users within a scope.
 old-location: security\iazrole.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2934d783-b379-486c-80e7-e7650b89dc1a
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IAzRole, IAzRole interface [Security], IAzRole interface [Security],described, azroles/IAzRole, security.iazrole
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzRole
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzRole interface

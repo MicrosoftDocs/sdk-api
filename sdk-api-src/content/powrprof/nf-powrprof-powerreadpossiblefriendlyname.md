@@ -4,17 +4,16 @@ title: PowerReadPossibleFriendlyName function
 author: windows-sdk-content
 description: Retrieves the friendly name for one of the possible choices of a power setting value.
 old-location: base\powerreadpossiblefriendlyname.htm
-old-project: power
+tech.root: power
 ms.assetid: 38f3c5f4-ec65-47f0-b15c-36cd2b1e2813
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadPossibleFriendlyName, PowerReadPossibleFriendlyName function, base.powerreadpossiblefriendlyname, powrprof/PowerReadPossibleFriendlyName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PowerReadPossibleFriendlyName
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PowerReadPossibleFriendlyName function

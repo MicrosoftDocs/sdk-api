@@ -4,17 +4,16 @@ title: DhcpEnumSubnetClientsV4 function
 author: windows-sdk-content
 description: Returns an enumerated list of client lease records with served IP addresses in the specified subnet.
 old-location: dhcp\dhcpenumsubnetclientsv4.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 3451dc35-4cd1-4430-a19f-f0aa0533ea4b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpEnumSubnetClientsV4, DhcpEnumSubnetClientsV4 function [DHCP], dhcp.dhcpenumsubnetclientsv4, dhcpsapi/DhcpEnumSubnetClientsV4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpEnumSubnetClientsV4
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpEnumSubnetClientsV4 function

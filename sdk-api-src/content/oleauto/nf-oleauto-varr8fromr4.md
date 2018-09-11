@@ -4,17 +4,16 @@ title: VarR8FromR4 function
 author: windows-sdk-content
 description: Converts a float value to a double value.
 old-location: automat\varr8fromr4.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 207d9d78-0db1-48b7-a686-7bacbd805af6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarR8FromR4, VarR8FromR4 function [Automation], _oa96_VarR8FromR4, automat.varr8fromr4, oleauto/VarR8FromR4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarR8FromR4
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarR8FromR4 function

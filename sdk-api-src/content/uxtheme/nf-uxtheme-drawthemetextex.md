@@ -4,17 +4,16 @@ title: DrawThemeTextEx function
 author: windows-sdk-content
 description: Draws text using the color and font defined by the visual style. Extends DrawThemeText by allowing additional text format options.
 old-location: controls\DrawThemeTextEx.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemetextex.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrawThemeTextEx, DrawThemeTextEx function [Windows Controls], controls.DrawThemeTextEx, controls.inet_DrawThemeTextEx, inet_DrawThemeTextEx, inet_DrawThemeTextEx_cpp, uxtheme/DrawThemeTextEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DrawThemeTextEx
 product: Windows
 targetos: Windows
-req.lib: UxTheme.lib
-req.dll: UxTheme.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # DrawThemeTextEx function

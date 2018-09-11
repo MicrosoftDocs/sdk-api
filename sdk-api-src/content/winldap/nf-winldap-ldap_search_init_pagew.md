@@ -4,17 +4,16 @@ title: ldap_search_init_pageW function
 author: windows-sdk-content
 description: Initializes a search block for a simple paged-results search.
 old-location: ldap\ldap_search_init_page.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: f88d32e3-ac5f-4934-bf84-4007ffd72ac2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_ldap_search_init_page, ldap.ldap__search__init__page, ldap.ldap_search_init_page, ldap_search_init_page, ldap_search_init_page function [LDAP], ldap_search_init_pageA, ldap_search_init_pageW, winldap/ldap_search_init_page, winldap/ldap_search_init_pageA, winldap/ldap_search_init_pageW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldap_search_init_pageW
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_search_init_pageW function

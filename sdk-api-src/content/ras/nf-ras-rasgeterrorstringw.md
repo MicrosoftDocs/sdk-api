@@ -4,17 +4,16 @@ title: RasGetErrorStringW function
 author: windows-sdk-content
 description: The RasGetErrorString function obtains an error message string for a specified RAS error value.
 old-location: rras\rasgeterrorstring.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 4d308dd8-e623-467b-836e-faace19460f1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RasGetErrorString, RasGetErrorString function [RAS], RasGetErrorStringA, RasGetErrorStringW, _ras_rasgeterrorstring, ras/RasGetErrorString, ras/RasGetErrorStringA, ras/RasGetErrorStringW, rras.rasgeterrorstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASPROJECTION_INFO_TYPE
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RasGetErrorStringW
 product: Windows
 targetos: Windows
-req.lib: Rasapi32.lib
-req.dll: Rasapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasGetErrorStringW function

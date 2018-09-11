@@ -4,17 +4,16 @@ title: IcmpParseReplies function
 author: windows-sdk-content
 description: Parses the reply buffer provided and returns the number of ICMP echo request responses found.
 old-location: iphlp\icmpparsereplies.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: ec7c2a5f-5406-4350-b795-6e72fe25f62d
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: IcmpParseReplies, IcmpParseReplies function [IP Helper], _iphlp_icmpparsereplies, icmpapi/IcmpParseReplies, iphlp.icmpparsereplies
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: icmpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP; Icmp.dll on Windows 2000 Server and Windows 2000 Professional
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IcmpParseReplies
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP; Icmp.dll on Windows 2000 Server and Windows 2000 Professional
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IcmpParseReplies function

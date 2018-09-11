@@ -4,7 +4,7 @@ title: "_SESSION_HEADER"
 author: windows-sdk-content
 description: The SESSION_HEADER structure contains information about a network session.
 old-location: netbios\session_header.htm
-old-project: NetBIOS
+tech.root: NetBIOS
 ms.assetid: 0b466bc7-6d20-477f-9e64-1d3dc0744484
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SESSION_HEADER, *PSESSION_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SESSION_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SESSION_HEADER, *PSESSION_HEADER
+req.redist: 
 ---
 
 # _SESSION_HEADER structure

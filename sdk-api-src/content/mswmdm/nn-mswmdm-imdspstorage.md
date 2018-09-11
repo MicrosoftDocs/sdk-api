@@ -4,17 +4,16 @@ title: IMDSPStorage
 author: windows-sdk-content
 description: The IMDSPStorage interface provides an instanced-based association with a storage medium on a device.
 old-location: wmdm\imdspstorage.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: f22b8a6d-7df8-4fea-9436-79b9ded25a40
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPStorage, IMDSPStorage interface [windows Media Device Manager], IMDSPStorage interface [windows Media Device Manager],described, IMDSPStorageInterface, mswmdm/IMDSPStorage, wmdm.imdspstorage
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMDSPStorage
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPStorage interface

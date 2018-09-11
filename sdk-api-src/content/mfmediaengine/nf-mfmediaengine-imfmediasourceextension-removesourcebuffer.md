@@ -4,17 +4,16 @@ title: IMFMediaSourceExtension::RemoveSourceBuffer
 author: windows-sdk-content
 description: Removes the specified source buffer from the collection of source buffers managed by the IMFMediaSourceExtension object.
 old-location: mf\imfmediasourceextension_removesourcebuffer.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2f29cbac-4261-41ee-84c8-cb73686aeee5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],RemoveSourceBuffer method, IMFMediaSourceExtension.RemoveSourceBuffer, IMFMediaSourceExtension::RemoveSourceBuffer, RemoveSourceBuffer, RemoveSourceBuffer method [Media Foundation], RemoveSourceBuffer method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_removesourcebuffer, mfmediaengine/IMFMediaSourceExtension::RemoveSourceBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaSourceExtension.RemoveSourceBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSourceExtension::RemoveSourceBuffer

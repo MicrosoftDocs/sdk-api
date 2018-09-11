@@ -4,17 +4,16 @@ title: EvictClusterNodeEx function
 author: windows-sdk-content
 description: Evicts a node from the cluster and initiates cleanup operations on the node.
 old-location: mscs\evictclusternodeex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 7f7ba010-265e-40d5-a429-a776d164fa07
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EvictClusterNodeEx, EvictClusterNodeEx function [Failover Cluster], PCLUSAPI_EVICT_CLUSTER_NODE_EX, PCLUSAPI_EVICT_CLUSTER_NODE_EX function [Failover Cluster], _wolf_evictclusternodeex, clusapi/EvictClusterNodeEx, clusapi/PCLUSAPI_EVICT_CLUSTER_NODE_EX, mscs.evictclusternodeex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - EvictClusterNodeEx
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # EvictClusterNodeEx function

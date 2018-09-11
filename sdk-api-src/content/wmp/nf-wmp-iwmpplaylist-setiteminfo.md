@@ -4,17 +4,16 @@ title: IWMPPlaylist::setItemInfo
 author: windows-sdk-content
 description: The setItemInfo method specifies the value of an attribute of the current playlist. .
 old-location: wmp\iwmpplaylist_setiteminfo.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: fd812af6-0bdf-4da4-a066-4411d0d9e259
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],setItemInfo method, IWMPPlaylist.setItemInfo, IWMPPlaylist::setItemInfo, IWMPPlaylistsetItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_setiteminfo, wmp/IWMPPlaylist::setItemInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPPlaylist.setItemInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPPlaylist::setItemInfo

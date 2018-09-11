@@ -4,17 +4,16 @@ title: ISyncMgrHandler
 author: windows-sdk-content
 description: Exposes methods that make up the primary interface implemented by a sync handler.
 old-location: shell\ISyncMgrHandler.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 39579030-1cf5-4e82-a5e7-cb3415903d02
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrHandler, ISyncMgrHandler interface [Windows Shell], ISyncMgrHandler interface [Windows Shell],described, _shell_ISyncMgrHandler, shell.ISyncMgrHandler, syncmgr/ISyncMgrHandler
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrHandler interface

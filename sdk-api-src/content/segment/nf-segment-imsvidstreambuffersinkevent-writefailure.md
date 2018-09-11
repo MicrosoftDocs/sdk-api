@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSinkEvent::WriteFailure
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersinkevent_writefailure.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6aec07e1-57b9-4350-a48f-762fcf370d6a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies],WriteFailure method, IMSVidStreamBufferSinkEvent.WriteFailure, IMSVidStreamBufferSinkEvent::WriteFailure, IMSVidStreamBufferSinkEventWriteFailure, WriteFailure, WriteFailure method [Microsoft TV Technologies], WriteFailure method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent interface, mstv.imsvidstreambuffersinkevent_writefailure, segment/IMSVidStreamBufferSinkEvent::WriteFailure
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSinkEvent.WriteFailure
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSinkEvent::WriteFailure

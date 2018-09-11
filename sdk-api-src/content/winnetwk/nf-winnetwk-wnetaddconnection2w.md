@@ -4,17 +4,16 @@ title: WNetAddConnection2W function
 author: windows-sdk-content
 description: The WNetAddConnection2 function makes a connection to a network resource and can redirect a local device to the network resource.
 old-location: wnet\wnetaddconnection2.htm
-old-project: wnet
+tech.root: WNet
 ms.assetid: faec728c-f19e-418c-9bdb-cde93e7d98fb
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_CRED_RESET, CONNECT_CURRENT_MEDIA, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_TEMPORARY, CONNECT_UPDATE_PROFILE, CONNECT_UPDATE_RECENT, WNetAddConnection2, WNetAddConnection2 function [Windows Networking (WNet)], WNetAddConnection2A, WNetAddConnection2W, _win32_wnetaddconnection2, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetAddConnection2, winnetwk/WNetAddConnection2A, winnetwk/WNetAddConnection2W, wnet.wnetaddconnection2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WNetAddConnection2W
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNetAddConnection2W function

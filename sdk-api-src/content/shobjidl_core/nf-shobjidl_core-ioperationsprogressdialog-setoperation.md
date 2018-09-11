@@ -4,17 +4,16 @@ title: IOperationsProgressDialog::SetOperation
 author: windows-sdk-content
 description: Sets which progress dialog operation is occurring, and whether we are in pre-flight or undo mode.
 old-location: shell\IOperationsProgressDialog_SetOperation.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b6fae1df-1c27-4ce9-a7f6-c5488f080ef3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],SetOperation method, IOperationsProgressDialog.SetOperation, IOperationsProgressDialog::SetOperation, SetOperation, SetOperation method [Windows Shell], SetOperation method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_SetOperation, shell.IOperationsProgressDialog_SetOperation, shobjidl_core/IOperationsProgressDialog::SetOperation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOperationsProgressDialog.SetOperation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOperationsProgressDialog::SetOperation

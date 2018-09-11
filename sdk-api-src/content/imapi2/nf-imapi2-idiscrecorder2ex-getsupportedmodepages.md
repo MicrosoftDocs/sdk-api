@@ -4,17 +4,16 @@ title: IDiscRecorder2Ex::GetSupportedModePages
 author: windows-sdk-content
 description: Retrieves the supported mode pages for the device.
 old-location: imapi\idiscrecorder2ex_getsupportedmodepages.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 343d976e-97f3-4231-a417-4ebe7967f99c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetSupportedModePages, GetSupportedModePages method [IMAPI], GetSupportedModePages method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetSupportedModePages method, IDiscRecorder2Ex.GetSupportedModePages, IDiscRecorder2Ex::GetSupportedModePages, imapi.idiscrecorder2ex_getsupportedmodepages, imapi2/IDiscRecorder2Ex::GetSupportedModePages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder2Ex.GetSupportedModePages
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder2Ex::GetSupportedModePages

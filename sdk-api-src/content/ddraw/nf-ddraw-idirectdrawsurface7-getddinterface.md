@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::GetDDInterface
 author: windows-sdk-content
 description: Retrieves an interface to the DirectDraw object that was used to create this surface.
 old-location: directdraw\idirectdrawsurface7_getddinterface.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 1ec63614-cdc0-4d07-97e3-97167e7b397c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDDInterface, GetDDInterface method [DirectDraw], GetDDInterface method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetDDInterface method, IDirectDrawSurface7.GetDDInterface, IDirectDrawSurface7::GetDDInterface, ddraw/IDirectDrawSurface7::GetDDInterface, directdraw.idirectdrawsurface7_getddinterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.GetDDInterface
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::GetDDInterface

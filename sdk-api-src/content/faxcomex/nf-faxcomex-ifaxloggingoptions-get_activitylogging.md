@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxLoggingOptions.get_ActivityLogging
 title: IFaxLoggingOptions::get_ActivityLogging
 author: windows-sdk-content
 description: The ActivityLogging property retrieves the FaxActivityLogging configuration object.
-old-location: fax\_mfax_faxloggingoptions_activitylogging_vb.htm
-old-project: Fax
+old-location: fax\_mfax_faxloggingoptions_cpp_mfax_faxloggingoptions_activitylogging_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0mav.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: ActivityLogging property [Fax Service], ActivityLogging property [Fax Service],FaxLoggingOptions object, FaxLoggingOptions object [Fax Service],ActivityLogging property, FaxLoggingOptions.ActivityLogging, IFaxLoggingOptions.get_ActivityLogging, IFaxLoggingOptions::get_ActivityLogging, _mfax_faxloggingoptions.activitylogging, fax._mfax_faxloggingoptions_activitylogging, fax._mfax_faxloggingoptions_activitylogging_vb, get_ActivityLogging
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: ActivityLogging property [Fax Service], ActivityLogging property [Fax Service],IFaxLoggingOptions interface, IFaxLoggingOptions interface [Fax Service],ActivityLogging property, IFaxLoggingOptions.ActivityLogging, IFaxLoggingOptions.get_ActivityLogging, IFaxLoggingOptions::ActivityLogging, IFaxLoggingOptions::get_ActivityLogging, _mfax_faxloggingoptions.activitylogging, fax._mfax_faxloggingoptions_activitylogging, fax._mfax_faxloggingoptions_cpp_mfax_faxloggingoptions_activitylogging_cpp, faxcomex/IFaxLoggingOptions::ActivityLogging, faxcomex/IFaxLoggingOptions::get_ActivityLogging, get_ActivityLogging
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxLoggingOptions.ActivityLogging
+ - IFaxLoggingOptions.ActivityLogging
+ - IFaxLoggingOptions.get_ActivityLogging
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxLoggingOptions::get_ActivityLogging

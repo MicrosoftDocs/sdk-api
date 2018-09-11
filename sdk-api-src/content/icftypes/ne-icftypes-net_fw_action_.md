@@ -4,7 +4,7 @@ title: NET_FW_ACTION_
 author: windows-sdk-content
 description: Specifies the action for a rule or default setting.
 old-location: ics\net_fw_action.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 1120e802-9159-450b-bee2-700e49d4fa61
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: icftypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_FW_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_FW_ACTION
+req.redist: 
 ---
 
 # NET_FW_ACTION_ enumeration

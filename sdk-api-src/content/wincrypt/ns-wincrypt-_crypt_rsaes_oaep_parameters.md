@@ -4,17 +4,16 @@ title: "_CRYPT_RSAES_OAEP_PARAMETERS"
 author: windows-sdk-content
 description: Contains the parameters for an RSAES-OAEP key encryption.
 old-location: security\crypt_rsaes_oaep_parameters.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: ebcd25a2-2547-4949-85fd-be5f6c5bfcd2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_RSAES_OAEP_PARAMETERS, CRYPT_RSAES_OAEP_PARAMETERS, CRYPT_RSAES_OAEP_PARAMETERS structure [Security], PCRYPT_RSAES_OAEP_PARAMETERS, PCRYPT_RSAES_OAEP_PARAMETERS structure pointer [Security], _CRYPT_RSAES_OAEP_PARAMETERS, security.crypt_rsaes_oaep_parameters, wincrypt/CRYPT_RSAES_OAEP_PARAMETERS, wincrypt/PCRYPT_RSAES_OAEP_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_RSAES_OAEP_PARAMETERS, *PCRYPT_RSAES_OAEP_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_RSAES_OAEP_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_RSAES_OAEP_PARAMETERS, *PCRYPT_RSAES_OAEP_PARAMETERS
+req.redist: 
 ---
 
 # _CRYPT_RSAES_OAEP_PARAMETERS structure

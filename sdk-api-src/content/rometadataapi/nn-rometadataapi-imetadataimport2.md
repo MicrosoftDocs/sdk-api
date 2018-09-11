@@ -4,17 +4,16 @@ title: IMetaDataImport2
 author: windows-sdk-content
 description: Extends the IMetaDataImport interface to provide the capability of working with generic types.
 old-location: winrt\imetadataimport2.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 32c462e0-d4b8-44db-b24b-c86b46be85bf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMetaDataImport2, IMetaDataImport2 interface [Windows Runtime], IMetaDataImport2 interface [Windows Runtime],described, rometadataapi/IMetaDataImport2, winrt.imetadataimport2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport2 interface

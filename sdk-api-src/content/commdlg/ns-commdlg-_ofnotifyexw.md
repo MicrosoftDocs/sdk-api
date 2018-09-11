@@ -4,17 +4,16 @@ title: "_OFNOTIFYEXW"
 author: windows-sdk-content
 description: Contains information about a CDN_INCLUDEITEM notification message.
 old-location: dlgbox\ofnotifyex_str.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\ofnotifyex.htm
 ms.author: windowssdkdev
-ms.date: 08/21/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPOFNOTIFYEXW, LPOFNOTIFYEX, LPOFNOTIFYEX structure pointer [Dialog Boxes], OFNOTIFYEX, OFNOTIFYEX structure [Dialog Boxes], OFNOTIFYEXA, OFNOTIFYEXW, _OFNOTIFYEXW, _win32_OFNOTIFYEX_str, _win32_ofnotifyex_str_cpp, commdlg/LPOFNOTIFYEX, commdlg/OFNOTIFYEX, commdlg/OFNOTIFYEXA, commdlg/OFNOTIFYEXW, dlgbox.ofnotifyex_str, winui._win32_ofnotifyex_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: commdlg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFNOTIFYEXW, *LPOFNOTIFYEXW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - OFNOTIFYEXW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: OFNOTIFYEXW, *LPOFNOTIFYEXW
+req.redist: 
 ---
 
 # _OFNOTIFYEXW structure

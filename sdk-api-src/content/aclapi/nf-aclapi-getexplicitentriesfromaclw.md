@@ -4,17 +4,16 @@ title: GetExplicitEntriesFromAclW function
 author: windows-sdk-content
 description: Retrieves an array of structures that describe the access control entries (ACEs) in an access control list (ACL).
 old-location: security\getexplicitentriesfromacl.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 186aa6aa-efc3-4f8a-acad-e257da3dac0b
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetExplicitEntriesFromAcl, GetExplicitEntriesFromAcl function [Security], GetExplicitEntriesFromAclA, GetExplicitEntriesFromAclW, _win32_getexplicitentriesfromacl, aclapi/GetExplicitEntriesFromAcl, aclapi/GetExplicitEntriesFromAclA, aclapi/GetExplicitEntriesFromAclW, security.getexplicitentriesfromacl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,9 +47,8 @@ api_name:
  - GetExplicitEntriesFromAclW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetExplicitEntriesFromAclW function

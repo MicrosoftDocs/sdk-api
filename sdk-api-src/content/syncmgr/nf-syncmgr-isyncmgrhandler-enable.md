@@ -4,17 +4,16 @@ title: ISyncMgrHandler::Enable
 author: windows-sdk-content
 description: Requests that an active handler be enabled or disabled. An enabled handler can be synchronized and a disabled handler cannot.
 old-location: shell\ISyncMgrHandler_Enable.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ea3efba1-9b7c-4f93-aca5-08475a6005a8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],Enable method, ISyncMgrHandler.Enable, ISyncMgrHandler::Enable, _shell_ISyncMgrHandler_Enable, shell.ISyncMgrHandler_Enable, syncmgr/ISyncMgrHandler::Enable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrHandler.Enable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrHandler::Enable

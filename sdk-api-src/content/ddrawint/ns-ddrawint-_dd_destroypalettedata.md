@@ -4,7 +4,7 @@ title: "_DD_DESTROYPALETTEDATA"
 author: windows-sdk-content
 description: The DD_DESTROYPALETTEDATA structure contains information necessary to destroy the specified palette.
 old-location: display\dd_destroypalettedata.htm
-old-project: display
+tech.root: display
 ms.assetid: e309f782-bd0b-4703-b58c-e202fd87b904
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_DESTROYPALETTEDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA"
+req.redist: 
 ---
 
 # _DD_DESTROYPALETTEDATA structure

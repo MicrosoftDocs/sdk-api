@@ -4,17 +4,16 @@ title: IRichEditOle::ActivateAs
 author: windows-sdk-content
 description: Handles Activate As behavior by unloading all objects of the old class, telling OLE to treat those objects as objects of the new class, and reloading the objects. If objects cannot be reloaded, they are deleted.
 old-location: controls\IRichEditOle_ActivateAs.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleactivateas.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ActivateAs, ActivateAs method [Windows Controls], ActivateAs method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],ActivateAs method, IRichEditOle.ActivateAs, IRichEditOle::ActivateAs, _win32_IRichEditOle_ActivateAs, _win32_IRichEditOle_ActivateAs_cpp, controls.IRichEditOle_ActivateAs, controls._win32_IRichEditOle_ActivateAs, richole/IRichEditOle::ActivateAs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEXTRANGEW
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRichEditOle.ActivateAs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRichEditOle::ActivateAs

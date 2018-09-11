@@ -4,17 +4,16 @@ title: DefWindowProcW function
 author: windows-sdk-content
 description: Calls the default window procedure to provide default processing for any window messages that an application does not process.
 old-location: winmsg\defwindowproc.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowprocedures\windowprocedurereference\windowprocedurefunctions\defwindowproc.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: DefWindowProc, DefWindowProc function [Windows and Messages], DefWindowProcA, DefWindowProcW, _win32_DefWindowProc, _win32_defwindowproc_cpp, winmsg.defwindowproc, winui._win32_defwindowproc, winuser/DefWindowProc, winuser/DefWindowProcA, winuser/DefWindowProcW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -52,10 +52,8 @@ api_name:
  - DefWindowProcW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # DefWindowProcW function

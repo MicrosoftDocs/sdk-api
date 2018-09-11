@@ -4,17 +4,16 @@ title: IDWriteTextLayout1::SetCharacterSpacing
 author: windows-sdk-content
 description: Sets the spacing between characters.
 old-location: directwrite\idwritetextlayout1_setcharacterspacing.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 88B210CB-ED37-48F1-92F4-40BA591E7952
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteTextLayout1 interface [Direct Write],SetCharacterSpacing method, IDWriteTextLayout1.SetCharacterSpacing, IDWriteTextLayout1::SetCharacterSpacing, SetCharacterSpacing, SetCharacterSpacing method [Direct Write], SetCharacterSpacing method [Direct Write],IDWriteTextLayout1 interface, directwrite.idwritetextlayout1_setcharacterspacing, dwrite_1/IDWriteTextLayout1::SetCharacterSpacing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextLayout1.SetCharacterSpacing
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextLayout1::SetCharacterSpacing

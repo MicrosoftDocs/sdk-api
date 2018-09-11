@@ -4,17 +4,16 @@ title: ICredentialProvider
 author: windows-sdk-content
 description: Exposes methods used in the setup and manipulation of a credential provider. All credential providers must implement this interface.
 old-location: shell\ICredentialProvider.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7ce6cd61-16d1-414e-b9b3-4929a65c0cc6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ICredentialProvider, ICredentialProvider interface [Windows Shell], ICredentialProvider interface [Windows Shell],described, credentialprovider/ICredentialProvider, shell.ICredentialProvider, shell_ICredentialProvider
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProvider interface

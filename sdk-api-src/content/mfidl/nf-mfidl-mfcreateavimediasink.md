@@ -4,17 +4,16 @@ title: MFCreateAVIMediaSink function
 author: windows-sdk-content
 description: Creates an Audio-Video Interleaved (AVI) Sink.
 old-location: mf\mfcreateavimediasink.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: BAF47469-783B-4035-BD83-2921A88877E4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateAVIMediaSink, MFCreateAVIMediaSink function [Media Foundation], mf.mfcreateavimediasink, mfidl/MFCreateAVIMediaSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mf.lib
+req.dll: Mf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateAVIMediaSink
 product: Windows
 targetos: Windows
-req.lib: Mf.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateAVIMediaSink function

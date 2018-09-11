@@ -4,17 +4,16 @@ title: IDirectMusicSynth8::PlayVoice
 author: windows-sdk-content
 description: PlayVoice is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8_playvoice.htm
-old-project: audio
+tech.root: audio
 ms.assetid: BFD0D40E-C880-4574-BB66-C393F806FAFA
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectMusicSynth8 interface [Audio Devices],PlayVoice method, IDirectMusicSynth8.PlayVoice, IDirectMusicSynth8::PlayVoice, PlayVoice, PlayVoice method [Audio Devices], PlayVoice method [Audio Devices],IDirectMusicSynth8 interface, audio.idirectmusicsynth8_playvoice, dmusics/IDirectMusicSynth8::PlayVoice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectMusicSynth8.PlayVoice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectMusicSynth8::PlayVoice

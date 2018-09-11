@@ -4,17 +4,16 @@ title: IVdsDisk::GetProperties
 author: windows-sdk-content
 description: Returns property information for a disk.
 old-location: base\ivdsdisk_getproperties.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: d2046a26-852d-46b2-b060-98b4a2a92387
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],GetProperties method, IVdsDisk.GetProperties, IVdsDisk::GetProperties, base.ivdsdisk_getproperties, vds/IVdsDisk::GetProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsDisk.GetProperties
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsDisk::GetProperties

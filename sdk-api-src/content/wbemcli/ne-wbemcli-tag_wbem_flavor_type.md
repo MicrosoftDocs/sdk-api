@@ -4,17 +4,16 @@ title: tag_WBEM_FLAVOR_TYPE
 author: windows-sdk-content
 description: Lists qualifier flavors.
 old-location: wmi\wbem_flavor_type.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: A21ED0FD-1207-42B6-92AE-6080D0E98771
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: WBEM_FLAVOR_AMENDED, WBEM_FLAVOR_DONT_PROPAGATE, WBEM_FLAVOR_FLAG_PROPAGATE_TO_DERIVED_CLASS, WBEM_FLAVOR_FLAG_PROPAGATE_TO_INSTANCE, WBEM_FLAVOR_MASK_AMENDED, WBEM_FLAVOR_MASK_ORIGIN, WBEM_FLAVOR_MASK_PERMISSIONS, WBEM_FLAVOR_MASK_PROPAGATION, WBEM_FLAVOR_NOT_AMENDED, WBEM_FLAVOR_NOT_OVERRIDABLE, WBEM_FLAVOR_ORIGIN_LOCAL, WBEM_FLAVOR_ORIGIN_PROPAGATED, WBEM_FLAVOR_ORIGIN_SYSTEM, WBEM_FLAVOR_OVERRIDABLE, WBEM_FLAVOR_TYPE, WBEM_FLAVOR_TYPE enumeration [Windows Management Instrumentation], tag_WBEM_FLAVOR_TYPE, wbemcli/WBEM_FLAVOR_AMENDED, wbemcli/WBEM_FLAVOR_DONT_PROPAGATE, wbemcli/WBEM_FLAVOR_FLAG_PROPAGATE_TO_DERIVED_CLASS, wbemcli/WBEM_FLAVOR_FLAG_PROPAGATE_TO_INSTANCE, wbemcli/WBEM_FLAVOR_MASK_AMENDED, wbemcli/WBEM_FLAVOR_MASK_ORIGIN, wbemcli/WBEM_FLAVOR_MASK_PERMISSIONS, wbemcli/WBEM_FLAVOR_MASK_PROPAGATION, wbemcli/WBEM_FLAVOR_NOT_AMENDED, wbemcli/WBEM_FLAVOR_NOT_OVERRIDABLE, wbemcli/WBEM_FLAVOR_ORIGIN_LOCAL, wbemcli/WBEM_FLAVOR_ORIGIN_PROPAGATED, wbemcli/WBEM_FLAVOR_ORIGIN_SYSTEM, wbemcli/WBEM_FLAVOR_OVERRIDABLE, wbemcli/WBEM_FLAVOR_TYPE, wmi.wbem_flavor_type
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WBEM_FLAVOR_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WBEM_FLAVOR_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WBEM_FLAVOR_TYPE
+req.redist: 
 ---
 
 # tag_WBEM_FLAVOR_TYPE enumeration

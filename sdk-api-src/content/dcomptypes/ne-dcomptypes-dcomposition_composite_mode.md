@@ -4,7 +4,7 @@ title: DCOMPOSITION_COMPOSITE_MODE
 author: windows-sdk-content
 description: The mode to use to blend the bitmap content of a visual with the render target.
 old-location: directcomp\dcomposition_composite_mode.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: D89379F5-57F8-4838-8E8F-FF261D69DE59
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dcomptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: DcompAnimation.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DCOMPOSITION_COMPOSITE_MODE
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DCOMPOSITION_COMPOSITE_MODE enumeration

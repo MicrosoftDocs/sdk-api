@@ -4,17 +4,16 @@ title: Pen::GetDashOffset
 author: windows-sdk-content
 description: The Pen::GetDashOffset method gets the distance from the start of the line to the start of the first space in a dashed line.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashOffset_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getdashoffset.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDashOffset, GetDashOffset method [GDI+], GetDashOffset method [GDI+],Pen class, Pen class [GDI+],GetDashOffset method, Pen.GetDashOffset, Pen::GetDashOffset, _gdiplus_CLASS_Pen_GetDashOffset_, gdiplus._gdiplus_CLASS_Pen_GetDashOffset_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WmfPlaceableFileHeader
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Pen.GetDashOffset
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

@@ -4,17 +4,16 @@ title: ClusterRegCloseBatchNotifyPort function
 author: windows-sdk-content
 description: Closes a subscription to a batch notification port created by the ClusterRegCreateBatchNotifyPort function.
 old-location: mscs\clusterregclosebatchnotifyport.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 7ae10343-c97e-4036-9fe6-b894394bb605
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusterRegCloseBatchNotifyPort, ClusterRegCloseBatchNotifyPort function [Failover Cluster], PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT, clusapi/ClusterRegCloseBatchNotifyPort, mscs.clusterregclosebatchnotifyport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ClusterRegCloseBatchNotifyPort
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterRegCloseBatchNotifyPort function

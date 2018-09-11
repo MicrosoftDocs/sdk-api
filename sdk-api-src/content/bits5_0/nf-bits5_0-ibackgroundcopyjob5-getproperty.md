@@ -4,17 +4,16 @@ title: IBackgroundCopyJob5::GetProperty
 author: windows-sdk-content
 description: A generic method for getting BITS job properties.
 old-location: bits\ibackgroundcopyjob5_getproperty.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 567C21C7-C689-4A13-9DCA-D45766CB5150
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetProperty, GetProperty method [BITS], GetProperty method [BITS],IBackgroundCopyJob5 interface, IBackgroundCopyJob5 interface [BITS],GetProperty method, IBackgroundCopyJob5.GetProperty, IBackgroundCopyJob5::GetProperty, bits.ibackgroundcopyjob5_getproperty, bits5_0/IBackgroundCopyJob5::GetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits5_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITS_FILE_PROPERTY_ID
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBackgroundCopyJob5.GetProperty
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob5::GetProperty
@@ -67,7 +66,7 @@ The ID of the property that is being obtained specified as a <a href="https://ms
 
 ### -param PropertyValue
 
-
+TBD
 
 
 

@@ -4,7 +4,7 @@ title: "_MP_ENVELOPE_SEGMENT"
 author: windows-sdk-content
 description: The MP_ENVELOPE_SEGMENT structure defines an envelope segment used by an envelope-following parameter.
 old-location: dshow\mp_envelope_segment.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b7386b63-c563-42dd-851c-780bf1043f65
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: medparam.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MP_ENVELOPE_SEGMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MP_ENVELOPE_SEGMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MP_ENVELOPE_SEGMENT
+req.redist: 
 ---
 
 # _MP_ENVELOPE_SEGMENT structure

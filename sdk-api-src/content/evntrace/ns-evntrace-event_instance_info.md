@@ -4,7 +4,7 @@ title: EVENT_INSTANCE_INFO
 author: windows-sdk-content
 description: The EVENT_INSTANCE_INFO structure maps a unique transaction identifier to a registered event trace class.
 old-location: etw\event_instance_info.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 83a3802c-b992-43a2-a98a-bdee2ecfef24
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_INSTANCE_INFO, *PEVENT_INSTANCE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - EVENT_INSTANCE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: EVENT_INSTANCE_INFO, *PEVENT_INSTANCE_INFO
+req.redist: 
 ---
 
 # EVENT_INSTANCE_INFO structure

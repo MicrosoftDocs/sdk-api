@@ -4,17 +4,16 @@ title: IAzScope
 author: windows-sdk-content
 description: Defines a logical container of resources to which the application manages access.
 old-location: security\iazscope.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: f7abe7cb-8827-46f6-85fe-99282582a3d4
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IAzScope, IAzScope interface [Security], IAzScope interface [Security],described, azroles/IAzScope, security.iazscope
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzScope
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzScope interface

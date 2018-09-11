@@ -4,17 +4,16 @@ title: ICertProperty::get_PropertyId
 author: windows-sdk-content
 description: Specifies or retrieves a value of the CERTENROLL_PROPERTYID enumeration that identifies an external certificate property.
 old-location: security\icertproperty_propertyid_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 2829dab5-253d-4ade-bba5-d399afe87a28
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertProperty interface [Security],PropertyId property, ICertProperty.PropertyId, ICertProperty.get_PropertyId, ICertProperty::PropertyId, ICertProperty::get_PropertyId, ICertProperty::put_PropertyId, PropertyId property [Security], PropertyId property [Security],ICertProperty interface, certenroll/ICertProperty::PropertyId, certenroll/ICertProperty::get_PropertyId, certenroll/ICertProperty::put_PropertyId, get_PropertyId, security.icertproperty_propertyid_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - ICertProperty.put_PropertyId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertProperty::get_PropertyId

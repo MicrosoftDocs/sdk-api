@@ -4,17 +4,16 @@ title: MprInfoCreate function
 author: windows-sdk-content
 description: The MprInfoCreate function creates a new information header.
 old-location: rras\mprinfocreate.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: c48fc24f-8cf6-45c0-8ce1-841896648ba7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprInfoCreate, MprInfoCreate function [RAS], _mpr_mprinfocreate, mprapi/MprInfoCreate, rras.mprinfocreate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprInfoCreate
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprInfoCreate function

@@ -4,17 +4,16 @@ title: ISelectionItemProvider::RemoveFromSelection
 author: windows-sdk-content
 description: Removes the current element from the collection of selected items.
 old-location: winauto\uiauto_ISelectionItemProvider_RemoveFromSelection.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: fcbf452e-5827-4368-b601-a6eeabb15d53
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ISelectionItemProvider interface [Windows Accessibility],RemoveFromSelection method, ISelectionItemProvider.RemoveFromSelection, ISelectionItemProvider::RemoveFromSelection, RemoveFromSelection, RemoveFromSelection method [Windows Accessibility], RemoveFromSelection method [Windows Accessibility],ISelectionItemProvider interface, uiauto.uiauto_ISelectionItemProvider_RemoveFromSelection, uiauto_ISelectionItemProvider_RemoveFromSelection, uiautomationcore/ISelectionItemProvider::RemoveFromSelection, winauto.uiauto_ISelectionItemProvider_RemoveFromSelection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISelectionItemProvider.RemoveFromSelection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISelectionItemProvider::RemoveFromSelection

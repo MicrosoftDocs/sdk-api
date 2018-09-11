@@ -4,17 +4,16 @@ title: ISyncProviderRegistration::CreateSyncProviderRegistrationInstance
 author: windows-sdk-content
 description: Creates an in-memory instance of a synchronization provider.
 old-location: winsync\isyncproviderregistration_createsyncproviderregistrationinstance.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 637cf465-5d43-42d3-b7b9-3bd674135038
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateSyncProviderRegistrationInstance, CreateSyncProviderRegistrationInstance method [Windows Sync], CreateSyncProviderRegistrationInstance method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],CreateSyncProviderRegistrationInstance method, ISyncProviderRegistration.CreateSyncProviderRegistrationInstance, ISyncProviderRegistration::CreateSyncProviderRegistrationInstance, syncregistration/ISyncProviderRegistration::CreateSyncProviderRegistrationInstance, winsync.isyncproviderregistration_createsyncproviderregistrationinstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncProviderRegistration.CreateSyncProviderRegistrationInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncProviderRegistration::CreateSyncProviderRegistrationInstance

@@ -4,17 +4,16 @@ title: "_PS_FLOW_STATS"
 author: windows-sdk-content
 description: The PS_FLOW_STATS structure provides statistical packet shaper information about a particular flow. Note that the PS_FLOW_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.
 old-location: qos\ps_flow_stats.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 1d40c247-9e61-4f8b-85f9-eddc90727a17
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPS_FLOW_STATS, PPS_FLOW_STATS, PPS_FLOW_STATS structure pointer [QOS], PS_FLOW_STATS, PS_FLOW_STATS structure [QOS], _PS_FLOW_STATS, _gqos_ps_flow_stats, ntddpsch/PPS_FLOW_STATS, ntddpsch/PS_FLOW_STATS, qos.ps_flow_stats"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntddpsch.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PS_FLOW_STATS, *PPS_FLOW_STATS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PS_FLOW_STATS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: PS_FLOW_STATS, *PPS_FLOW_STATS
+req.redist: 
 ---
 
 # _PS_FLOW_STATS structure

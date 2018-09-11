@@ -4,17 +4,16 @@ title: IWdsTransportSession::get_Id
 author: windows-sdk-content
 description: Receives a unique session ID that identifies this session on the server.
 old-location: wds\iwdstransportsession_id.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: 78d2832f-706e-4d4e-90f5-762026ef69ae
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],Id property, IWdsTransportSession.Id, IWdsTransportSession.get_Id, IWdsTransportSession::Id, IWdsTransportSession::get_Id, Id property [Windows Deployment Services], Id property [Windows Deployment Services],IWdsTransportSession interface, get_Id, wds.iwdstransportsession_id, wdstptmgmt/IWdsTransportSession::Id, wdstptmgmt/IWdsTransportSession::get_Id
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWdsTransportSession.get_Id
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportSession::get_Id

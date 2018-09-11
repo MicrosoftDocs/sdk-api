@@ -4,17 +4,16 @@ title: IVdsVolumePlex
 author: windows-sdk-content
 description: Provides methods for maintaining volume plexes.
 old-location: base\ivdsvolumeplex.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 91970f8b-2b19-4054-8aa2-28e1ea74b3f6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsVolumePlex, IVdsVolumePlex interface [VDS], IVdsVolumePlex interface [VDS],described, base.ivdsvolumeplex, vds/IVdsVolumePlex
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolumePlex
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolumePlex interface

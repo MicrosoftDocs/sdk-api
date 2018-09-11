@@ -4,17 +4,16 @@ title: CATSORT_FLAGS
 author: windows-sdk-content
 description: Specifies methods for sorting category data.
 old-location: shell\CATSORT_FLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5e3f6c84-ebc4-45e7-8272-f5d98bffd4c8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CATSORT_DEFAULT, CATSORT_FLAGS, CATSORT_FLAGS enumeration [Windows Shell], CATSORT_NAME, inet_CATSORT_FLAGS, shell.CATSORT_FLAGS, shobjidl_core/CATSORT_DEFAULT, shobjidl_core/CATSORT_FLAGS, shobjidl_core/CATSORT_NAME
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CATSORT_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CATSORT_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: CATSORT_FLAGS
+req.redist: 
 ---
 
 # CATSORT_FLAGS enumeration

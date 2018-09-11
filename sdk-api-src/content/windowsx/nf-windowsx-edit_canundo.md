@@ -4,17 +4,16 @@ title: Edit_CanUndo macro
 author: windows-sdk-content
 description: Determines whether there are any actions in the undo queue of an edit or rich edit control. You can use this macro or send the EM_CANUNDO message explicitly.
 old-location: controls\Edit_CanUndo.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_canundo.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Edit_CanUndo, Edit_CanUndo macro [Windows Controls], _win32_Edit_CanUndo, _win32_Edit_CanUndo_cpp, controls.Edit_CanUndo, controls._win32_Edit_CanUndo, windowsx/Edit_CanUndo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Edit_CanUndo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # Edit_CanUndo macro

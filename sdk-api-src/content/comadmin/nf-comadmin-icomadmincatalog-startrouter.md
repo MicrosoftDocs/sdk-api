@@ -4,17 +4,16 @@ title: ICOMAdminCatalog::StartRouter
 author: windows-sdk-content
 description: Starts the component load balancing service if the service is currently installed.
 old-location: cos\icomadmincatalog_startrouter.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 2d2c0ee0-2758-4d69-878a-78ce216a9201
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],StartRouter method, ICOMAdminCatalog.StartRouter, ICOMAdminCatalog::StartRouter, StartRouter, StartRouter method [COM+], StartRouter method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_StartRouter, comadmin/ICOMAdminCatalog::StartRouter, cos.icomadmincatalog_startrouter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog.StartRouter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog::StartRouter

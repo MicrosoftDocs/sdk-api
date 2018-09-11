@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_bits5_0_0000_0000_0001"
 author: windows-sdk-content
 description: Enumeration that defines ID values corresponding to BITS properties.
 old-location: bits\bits_job_transfer_policy.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 6B321E80-333A-49F3-B36F-18652F2C92FE
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: bits5_0.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Bits4_0.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITS_JOB_TRANSFER_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BITS_JOB_TRANSFER_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BITS_JOB_TRANSFER_POLICY
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_bits5_0_0000_0000_0001 enumeration

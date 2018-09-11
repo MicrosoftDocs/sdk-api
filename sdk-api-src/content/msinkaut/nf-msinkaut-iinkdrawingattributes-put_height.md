@@ -4,17 +4,16 @@ title: IInkDrawingAttributes::put_Height
 author: windows-sdk-content
 description: Gets or sets the height of the pen when drawing ink with the InkDrawingAttributes object.
 old-location: tablet\inkdrawingattributes_height.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 2dc9eb94-649f-42f6-8180-abf570bdc757
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 2dc9eb94-649f-42f6-8180-abf570bdc757, Height property [Tablet PC], Height property [Tablet PC],IInkDrawingAttributes interface, IInkDrawingAttributes interface [Tablet PC],Height property, IInkDrawingAttributes.Height, IInkDrawingAttributes.put_Height, IInkDrawingAttributes::Height, IInkDrawingAttributes::get_Height, IInkDrawingAttributes::put_Height, InkDrawingAttributes.get_Height, InkDrawingAttributes.put_Height, get_Height, msinkaut/IInkDrawingAttributes::Height, msinkaut/IInkDrawingAttributes::get_Height, msinkaut/IInkDrawingAttributes::put_Height, put_Height, tablet.inkdrawingattributes_height
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkDrawingAttributes.put_Height
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDrawingAttributes::put_Height

@@ -4,7 +4,7 @@ title: "_THREAD_POWER_THROTTLING_STATE"
 author: windows-sdk-content
 description: Specifies the throttling policies and how to apply them to a target thread when that thread is subject to power management.
 old-location: base\thread_power_throttling_state.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 2E4D3A93-F4EE-4293-BE28-239B48E869B4
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: processthreadsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THREAD_POWER_THROTTLING_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - THREAD_POWER_THROTTLING_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: THREAD_POWER_THROTTLING_STATE
+req.redist: 
 ---
 
 # _THREAD_POWER_THROTTLING_STATE structure

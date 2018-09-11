@@ -4,7 +4,7 @@ title: "_WMReaderClientInfo"
 author: windows-sdk-content
 description: The WM_READER_CLIENTINFO structure describes the client reader (player) accessing the media stream.
 old-location: wmformat\wm_reader_clientinfo.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 9c8d1534-976d-4a9e-9c89-368e1a11bd26
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_READER_CLIENTINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WM_READER_CLIENTINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WM_READER_CLIENTINFO
+req.redist: 
 ---
 
 # _WMReaderClientInfo structure

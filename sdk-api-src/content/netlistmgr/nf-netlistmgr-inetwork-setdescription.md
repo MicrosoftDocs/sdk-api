@@ -4,17 +4,16 @@ title: INetwork::SetDescription
 author: windows-sdk-content
 description: The SetDescription method sets or replaces the description for a network.
 old-location: nla\inetwork_setdescription.htm
-old-project: nla
+tech.root: nla
 ms.assetid: d21fc8ca-d097-4099-8c64-f449d1fd49ef
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: INetwork interface [Network Awareness],SetDescription method, INetwork.SetDescription, INetwork::SetDescription, SetDescription, SetDescription method [Network Awareness], SetDescription method [Network Awareness],INetwork interface, netlistmgr/INetwork::SetDescription, nla.inetwork_setdescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetwork.SetDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetwork::SetDescription

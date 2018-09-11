@@ -4,17 +4,16 @@ title: INetFwIcmpSettings::get_AllowOutboundParameterProblem
 author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundparameterproblem.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 496374e7-9f89-43e3-bb59-184ba4c611be
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AllowOutboundParameterProblem property [ICS/ICF], AllowOutboundParameterProblem property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundParameterProblem property, INetFwIcmpSettings.AllowOutboundParameterProblem, INetFwIcmpSettings.get_AllowOutboundParameterProblem, INetFwIcmpSettings::AllowOutboundParameterProblem, INetFwIcmpSettings::get_AllowOutboundParameterProblem, INetFwIcmpSettings::put_AllowOutboundParameterProblem, get_AllowOutboundParameterProblem, ics.inetfwicmpsettings_allowoutboundparameterproblem, netfw/INetFwIcmpSettings::AllowOutboundParameterProblem, netfw/INetFwIcmpSettings::get_AllowOutboundParameterProblem, netfw/INetFwIcmpSettings::put_AllowOutboundParameterProblem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwIcmpSettings.put_AllowOutboundParameterProblem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwIcmpSettings::get_AllowOutboundParameterProblem

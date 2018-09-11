@@ -4,17 +4,16 @@ title: IBandSite::SetBandSiteInfo
 author: windows-sdk-content
 description: Sets information about the band site.
 old-location: shell\IBandSite_SetBandSiteInfo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2658a49d-d60f-483b-bbe1-e1390e9dc35e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBandSite interface [Windows Shell],SetBandSiteInfo method, IBandSite.SetBandSiteInfo, IBandSite::SetBandSiteInfo, SetBandSiteInfo, SetBandSiteInfo method [Windows Shell], SetBandSiteInfo method [Windows Shell],IBandSite interface, _win32_IBandSite_SetBandSiteInfo, shell.IBandSite_SetBandSiteInfo, shobjidl_core/IBandSite::SetBandSiteInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBandSite.SetBandSiteInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IBandSite::SetBandSiteInfo

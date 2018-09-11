@@ -4,17 +4,16 @@ title: IDirectInputJoyConfig8::SetUserValues
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::SetUserValues method sets the user settings for the joystick.
 old-location: hid\idirectinputjoyconfig8_setuservalues.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 0e33a73b-0315-43a2-8563-f21a7776921c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetUserValues method, IDirectInputJoyConfig8.SetUserValues, IDirectInputJoyConfig8::SetUserValues, SetUserValues, SetUserValues method [Human Input Devices], SetUserValues method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_6630ec2e-5680-4323-b38f-0e9e0ed75761.xml, dinputd/IDirectInputJoyConfig8::SetUserValues, hid.idirectinputjoyconfig8_setuservalues
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectInputJoyConfig8.SetUserValues
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectInputJoyConfig8::SetUserValues
@@ -59,9 +58,14 @@ The <b>IDirectInputJoyConfig8::SetUserValues </b>method sets the user settings f
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

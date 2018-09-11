@@ -4,17 +4,16 @@ title: SHCreateDirectory function
 author: windows-sdk-content
 description: Creates a new file system folder.
 old-location: shell\SHCreateDirectory.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4927429c-f457-4dda-aa0d-236eb236795c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHCreateDirectory, SHCreateDirectory function [Windows Shell], _win32_SHCreateDirectory, shell.SHCreateDirectory, shlobj_core/SHCreateDirectory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHCreateDirectory
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHCreateDirectory function

@@ -4,17 +4,16 @@ title: XAudio2CutoffFrequencyToOnePoleCoefficient function
 author: windows-sdk-content
 description: Inline function that converts from filter cutoff frequencies expressed in hertz to the filter coefficients used with the Frequency member of the XAUDIO2_FILTER_PARAMETERS structure.
 old-location: xaudio2\xaudio2cutofffrequencytoonepolecoefficient.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CutoffFrequencyToOnePoleCoefficient(float,UINT32)
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: XAudio2CutoffFrequencyToOnePoleCoefficient, XAudio2CutoffFrequencyToOnePoleCoefficient function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2cutofffrequencytoonepolecoefficient, xaudio2/XAudio2CutoffFrequencyToOnePoleCoefficient
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: xaudio2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2_FILTER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XAudio2CutoffFrequencyToOnePoleCoefficient
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # XAudio2CutoffFrequencyToOnePoleCoefficient function

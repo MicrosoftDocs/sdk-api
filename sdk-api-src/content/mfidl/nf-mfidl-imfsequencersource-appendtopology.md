@@ -4,17 +4,16 @@ title: IMFSequencerSource::AppendTopology
 author: windows-sdk-content
 description: Adds a topology to the end of the queue.
 old-location: mf\imfsequencersource_appendtopology.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4ff20d56-6095-495d-89ee-9086c61da8ac
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 4ff20d56-6095-495d-89ee-9086c61da8ac, AppendTopology, AppendTopology method [Media Foundation], AppendTopology method [Media Foundation],IMFSequencerSource interface, IMFSequencerSource interface [Media Foundation],AppendTopology method, IMFSequencerSource.AppendTopology, IMFSequencerSource::AppendTopology, mf.imfsequencersource_appendtopology, mfidl/IMFSequencerSource::AppendTopology
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSequencerSource.AppendTopology
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSequencerSource::AppendTopology

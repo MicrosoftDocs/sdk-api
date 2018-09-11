@@ -4,17 +4,16 @@ title: IWICMetadataReader::GetCount
 author: windows-sdk-content
 description: Gets the number of metadata items within the reader.
 old-location: wic\_wic_codec_iwicmetadatareader_getcount.htm
-old-project: wic
+tech.root: wic
 ms.assetid: ce9b0267-112a-4aa9-8786-272ee4da4d8b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCount, GetCount method [Windows Imaging Component], GetCount method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetCount method, IWICMetadataReader.GetCount, IWICMetadataReader::GetCount, _wic_codec_iwicmetadatareader_getcount, wic._wic_codec_iwicmetadatareader_getcount, wincodecsdk/IWICMetadataReader::GetCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICMetadataReader.GetCount
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICMetadataReader::GetCount

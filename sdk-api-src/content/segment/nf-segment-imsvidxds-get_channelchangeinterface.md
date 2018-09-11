@@ -4,17 +4,16 @@ title: IMSVidXDS::get_ChannelChangeInterface
 author: windows-sdk-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. .
 old-location: mstv\imsvidxds_get_channelchangeinterface.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 078bd274-b8dc-425b-b14f-3dacff6744bb
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidXDS interface [Microsoft TV Technologies],get_ChannelChangeInterface method, IMSVidXDS.get_ChannelChangeInterface, IMSVidXDS::get_ChannelChangeInterface, IMSVidXDSgetChannelChangeInterface, get_ChannelChangeInterface, get_ChannelChangeInterface method [Microsoft TV Technologies], get_ChannelChangeInterface method [Microsoft TV Technologies],IMSVidXDS interface, mstv.imsvidxds_get_channelchangeinterface, segment/IMSVidXDS::get_ChannelChangeInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidXDS.get_ChannelChangeInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidXDS::get_ChannelChangeInterface

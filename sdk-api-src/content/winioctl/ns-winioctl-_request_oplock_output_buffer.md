@@ -4,7 +4,7 @@ title: "_REQUEST_OPLOCK_OUTPUT_BUFFER"
 author: windows-sdk-content
 description: Contains the opportunistic lock (oplock) information returned by the FSCTL_REQUEST_OPLOCK control code.
 old-location: fs\request_oplock_output_buffer.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 5912e0db-a102-4e1c-a1c0-c6a900fe0bbe
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REQUEST_OPLOCK_OUTPUT_BUFFER, *PREQUEST_OPLOCK_OUTPUT_BUFFER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - REQUEST_OPLOCK_OUTPUT_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: REQUEST_OPLOCK_OUTPUT_BUFFER, *PREQUEST_OPLOCK_OUTPUT_BUFFER
+req.redist: 
 ---
 
 # _REQUEST_OPLOCK_OUTPUT_BUFFER structure

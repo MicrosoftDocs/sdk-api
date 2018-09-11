@@ -4,17 +4,16 @@ title: IContinueCallback::FContinuePrinting
 author: windows-sdk-content
 description: Indicates whether a lengthy printing operation should continue.
 old-location: com\icontinuecallback_fcontinueprinting.htm
-old-project: com
+tech.root: com
 ms.assetid: 9031809a-8e5b-48d9-8af9-4a1a07532406
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FContinuePrinting, FContinuePrinting method [COM], FContinuePrinting method [COM],IContinueCallback interface, IContinueCallback interface [COM],FContinuePrinting method, IContinueCallback.FContinuePrinting, IContinueCallback::FContinuePrinting, _com_icontinuecallback_fcontinueprinting, com.icontinuecallback_fcontinueprinting, docobj/IContinueCallback::FContinuePrinting
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOCMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IContinueCallback.FContinuePrinting
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IContinueCallback::FContinuePrinting

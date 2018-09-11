@@ -4,17 +4,16 @@ title: IImageList::GetImageRect
 author: windows-sdk-content
 description: Gets an image's bounding rectangle.
 old-location: controls\IImageList_GetImageRect.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getimagerect.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetImageRect, GetImageRect method [Windows Controls], GetImageRect method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetImageRect method, IImageList.GetImageRect, IImageList::GetImageRect, comctl_IImageList_GetImageRect, comctl_IImageList_GetImageRect_cpp, commoncontrols/IImageList::GetImageRect, controls.IImageList_GetImageRect, controls.comctl_IImageList_GetImageRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IImageList.GetImageRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comctl32.dll (version 6.0 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IImageList::GetImageRect

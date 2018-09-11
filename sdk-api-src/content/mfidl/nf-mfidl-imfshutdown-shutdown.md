@@ -4,17 +4,16 @@ title: IMFShutdown::Shutdown
 author: windows-sdk-content
 description: Shuts down a Media Foundation object and releases all resources associated with the object.
 old-location: mf\imfshutdown_shutdown.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9e7824d2-0f76-4c4c-98c5-ba51cd297de7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 9e7824d2-0f76-4c4c-98c5-ba51cd297de7, IMFShutdown interface [Media Foundation],Shutdown method, IMFShutdown.Shutdown, IMFShutdown::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFShutdown interface, mf.imfshutdown_shutdown, mfidl/IMFShutdown::Shutdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFShutdown.Shutdown
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFShutdown::Shutdown

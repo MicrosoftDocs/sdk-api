@@ -4,17 +4,16 @@ title: "_FH_BACKUP_STATUS"
 author: windows-sdk-content
 description: Specifies whether File History backups are enabled.
 old-location: winprog\fh_backup_status.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 7F988CA1-8295-4758-B66B-9B707B2CA126
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FH_BACKUP_STATUS, FH_BACKUP_STATUS enumeration [Windows API], FH_STATUS_DISABLED, FH_STATUS_DISABLED_BY_GP, FH_STATUS_ENABLED, MAX_BACKUP_STATUS, _FH_BACKUP_STATUS, fhcfg/FH_BACKUP_STATUS, fhcfg/FH_STATUS_DISABLED, fhcfg/FH_STATUS_DISABLED_BY_GP, fhcfg/FH_STATUS_ENABLED, fhcfg/MAX_BACKUP_STATUS, winprog.fh_backup_status
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: fhcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_BACKUP_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FH_BACKUP_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FH_BACKUP_STATUS
+req.redist: 
 ---
 
 # _FH_BACKUP_STATUS enumeration

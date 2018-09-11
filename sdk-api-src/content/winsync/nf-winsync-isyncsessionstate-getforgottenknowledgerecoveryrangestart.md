@@ -4,17 +4,16 @@ title: ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart
 author: windows-sdk-content
 description: Gets the lower bound of the recovery range when the session is performing forgotten knowledge recovery.
 old-location: winsync\isyncsessionstate_getforgottenknowledgerecoveryrangestart.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: a6d6434a-d4cf-4b92-958c-5ff8022a9531
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetForgottenKnowledgeRecoveryRangeStart, GetForgottenKnowledgeRecoveryRangeStart method [Windows Sync], GetForgottenKnowledgeRecoveryRangeStart method [Windows Sync],ISyncSessionState interface, ISyncSessionState interface [Windows Sync],GetForgottenKnowledgeRecoveryRangeStart method, ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart, ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart, winsync.isyncsessionstate_getforgottenknowledgerecoveryrangestart, winsync/ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart

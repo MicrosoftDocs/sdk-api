@@ -4,17 +4,16 @@ title: IFsrmActionEmail::get_MailReplyTo
 author: windows-sdk-content
 description: Retrieves or sets the email address to use as the reply-to address when the recipient of the email message replies.
 old-location: fsrm\ifsrmactionemail_mailreplyto.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 54d1b801-1df5-4712-9b2e-6a993a62b48a
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailReplyTo property, IFsrmActionEmail.MailReplyTo, IFsrmActionEmail.get_MailReplyTo, IFsrmActionEmail2 interface [File Server Resource Manager],MailReplyTo property, IFsrmActionEmail2.MailReplyTo, IFsrmActionEmail2::MailReplyTo, IFsrmActionEmail2::get_MailReplyTo, IFsrmActionEmail2::put_MailReplyTo, IFsrmActionEmail::get_MailReplyTo, IFsrmActionEmail::put_MailReplyTo, MailReplyTo property [File Server Resource Manager], MailReplyTo property [File Server Resource Manager],IFsrmActionEmail interface, MailReplyTo property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailreplyto, fsrm.ifsrmactionemail_mailreplyto, fsrm/IFsrmActionEmail2::MailReplyTo, fsrm/IFsrmActionEmail2::get_MailReplyTo, fsrm/IFsrmActionEmail2::put_MailReplyTo, fsrm/IFsrmActionEmail::MailReplyTo, fsrm/IFsrmActionEmail::get_MailReplyTo, fsrm/IFsrmActionEmail::put_MailReplyTo, get_MailReplyTo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - IFsrmActionEmail.put_MailReplyTo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmActionEmail::get_MailReplyTo

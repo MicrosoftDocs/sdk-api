@@ -4,17 +4,16 @@ title: IAudioCaptureClient
 author: windows-sdk-content
 description: The IAudioCaptureClient interface enables a client to read input data from a capture endpoint buffer.
 old-location: coreaudio\iaudiocaptureclient.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: c0fa6841-56bf-421e-9949-c6a037cf9fd4
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioCaptureClient, IAudioCaptureClient interface [Core Audio], IAudioCaptureClient interface [Core Audio],described, audioclient/IAudioCaptureClient, coreaudio.iaudiocaptureclient
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioCaptureClient
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioCaptureClient interface

@@ -4,17 +4,16 @@ title: ISpatialAudioObjectBase::GetBuffer
 author: windows-sdk-content
 description: Gets a buffer that is used to supply the audio data for the ISpatialAudioObject.
 old-location: coreaudio\ispatialaudioobject_getbuffer.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: CD777E2D-4CA0-4C2D-A475-22BF770DD59D
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetBuffer, GetBuffer method [Core Audio], GetBuffer method [Core Audio],ISpatialAudioObjectBase interface, ISpatialAudioObjectBase interface [Core Audio],GetBuffer method, ISpatialAudioObjectBase.GetBuffer, ISpatialAudioObjectBase::GetBuffer, coreaudio.ispatialaudioobject_getbuffer, spatialaudioclient/ISpatialAudioObjectBase::GetBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioObjectType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObjectBase.GetBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObjectBase::GetBuffer

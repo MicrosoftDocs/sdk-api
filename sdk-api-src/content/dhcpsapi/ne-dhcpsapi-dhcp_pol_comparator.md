@@ -4,7 +4,7 @@ title: DHCP_POL_COMPARATOR
 author: windows-sdk-content
 description: The DHCP_POL_COMPARATOR enumeration defines the comparison operator for a condition when building a DHCP server policy.
 old-location: dhcp\dhcp_pol_comparator.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 7b34e9ec-a3c6-4b85-bb36-d4f834912a64
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_POL_COMPARATOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_POL_COMPARATOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_POL_COMPARATOR
+req.redist: 
 ---
 
 # DHCP_POL_COMPARATOR enumeration

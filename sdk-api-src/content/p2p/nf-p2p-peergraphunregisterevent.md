@@ -4,17 +4,16 @@ title: PeerGraphUnregisterEvent function
 author: windows-sdk-content
 description: The PeerGraphUnregisterEvent function requests that the application no longer be notified of changes associated with a peer graph and record type.
 old-location: p2p\peergraphunregisterevent.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: de37bb9a-e1b2-4448-9610-566f77acf542
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerGraphUnregisterEvent, PeerGraphUnregisterEvent function [Peer Networking], p2p.peergraphunregisterevent, p2p/PeerGraphUnregisterEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2PGraph.lib
+req.dll: P2PGraph.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerGraphUnregisterEvent
 product: Windows
 targetos: Windows
-req.lib: P2PGraph.lib
-req.dll: P2PGraph.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerGraphUnregisterEvent function

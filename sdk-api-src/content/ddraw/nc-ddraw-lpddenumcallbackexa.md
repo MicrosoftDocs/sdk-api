@@ -4,7 +4,7 @@ title: LPDDENUMCALLBACKEXA
 author: windows-sdk-content
 description: The DDEnumCallbackEx function is an application-defined callback function for the DirectDrawEnumerateEx function.
 old-location: directdraw\ddenumcallbackex.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: D3D31978-D450-40B3-8C61-1F2662C1BA50
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDEnumCallbackEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # LPDDENUMCALLBACKEXA callback function

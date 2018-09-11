@@ -4,17 +4,16 @@ title: ISecurityInformation::SetSecurity
 author: windows-sdk-content
 description: The SetSecurity method provides a security descriptor containing the security information the user wants to apply to the securable object. The access control editor calls this method when the user clicks Okay or Apply.
 old-location: security\isecurityinformation_setsecurity.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7c23c5ad-8088-4cfb-9746-99d24cc3bd0e
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, ISecurityInformation interface [Security],SetSecurity method, ISecurityInformation.SetSecurity, ISecurityInformation::SetSecurity, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetSecurity, SetSecurity method [Security], SetSecurity method [Security],ISecurityInformation interface, _win32_isecurityinformation_setsecurity, aclui/ISecurityInformation::SetSecurity, security.isecurityinformation_setsecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_PAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISecurityInformation.SetSecurity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISecurityInformation::SetSecurity

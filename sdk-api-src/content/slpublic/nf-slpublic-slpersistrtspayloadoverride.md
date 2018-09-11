@@ -4,17 +4,16 @@ title: SLPersistRTSPayloadOverride function
 author: windows-sdk-content
 description: Associates information with the specified product for both online and phone activation.
 old-location: security\slpersistrtspayloadoverride.htm
-old-project: secslapi
+tech.root: SecSLApi
 ms.assetid: d053c9dc-c719-4e0c-b1e9-58303b51cb26
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLPersistRTSPayloadOverride, SLPersistRTSPayloadOverride function [Security], security.slpersistrtspayloadoverride, slpublic/SLPersistRTSPayloadOverride
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_ACTIVATION_TYPE
+req.lib: Slc.lib
+req.dll: Slc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SLPersistRTSPayloadOverride
 product: Windows
 targetos: Windows
-req.lib: Slc.lib
-req.dll: Slc.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SLPersistRTSPayloadOverride function

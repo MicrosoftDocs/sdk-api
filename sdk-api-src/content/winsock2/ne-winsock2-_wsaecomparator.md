@@ -4,17 +4,16 @@ title: "_WSAEcomparator"
 author: windows-sdk-content
 description: The Windows Sockets WSAECOMPARATOR enumeration type is used for version-comparison semantics in Windows Sockets 2.
 old-location: winsock\wsaecomparator_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: a1de171e-42d7-4d57-b241-1db9989dbd8e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWSAECOMPARATOR, *PWSAECOMPARATOR, COMP_EQUAL, COMP_NOTLESS, PWSAECOMPARATOR, PWSAECOMPARATOR enumeration pointer [Winsock], WSAECOMPARATOR, WSAECOMPARATOR enumeration [Winsock], _WSAEcomparator, _win32_wsaecomparator_2, winsock.wsaecomparator_2, winsock2/COMP_EQUAL, winsock2/COMP_NOTLESS, winsock2/PWSAECOMPARATOR, winsock2/WSAECOMPARATOR"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSAECOMPARATOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.redist: 
 ---
 
 # _WSAEcomparator enumeration

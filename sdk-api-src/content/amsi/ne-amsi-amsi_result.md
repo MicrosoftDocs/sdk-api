@@ -4,7 +4,7 @@ title: AMSI_RESULT
 author: windows-sdk-content
 description: Specifies the types of results returned by scans.
 old-location: amsi\amsi_result.htm
-old-project: AMSI
+tech.root: AMSI
 ms.assetid: 3D7C74E3-BB09-4C53-930D-72D352374151
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: amsi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AMSI_RESULT
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: AMSI_RESULT
+req.redist: 
 ---
 
 # AMSI_RESULT enumeration

@@ -4,17 +4,16 @@ title: MFCreateMediaSession function
 author: windows-sdk-content
 description: Creates the Media Session in the application's process.
 old-location: mf\mfcreatemediasession.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 86b2b5ec-231c-4943-9add-1a5a60e72268
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 86b2b5ec-231c-4943-9add-1a5a60e72268, MFCreateMediaSession, MFCreateMediaSession function [Media Foundation], mf.mfcreatemediasession, mfidl/MFCreateMediaSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mf.lib
+req.dll: Mf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateMediaSession
 product: Windows
 targetos: Windows
-req.lib: Mf.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateMediaSession function

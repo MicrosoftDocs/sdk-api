@@ -4,17 +4,16 @@ title: SourceInfo
 author: windows-sdk-content
 description: Represents information about an object’s XAML source document.
 old-location: xaml_diagnostics\sourceinfo.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: 09B08C62-EF16-4A35-BFE9-B2D1CAE9F285
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: PSourceInfo, PSourceInfo structure pointer, SourceInfo, SourceInfo structure, xaml_diagnostics.sourceinfo, xamlom/PSourceInfo, xamlom/SourceInfo
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SourceInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: SourceInfo
+req.redist: 
 ---
 
 # SourceInfo structure

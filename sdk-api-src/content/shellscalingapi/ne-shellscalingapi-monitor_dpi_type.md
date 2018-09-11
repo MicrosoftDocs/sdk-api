@@ -4,7 +4,7 @@ title: MONITOR_DPI_TYPE
 author: windows-sdk-content
 description: Identifies the dots per inch (dpi) setting for a monitor.
 old-location: hidpi\monitor_dpi_type_enumeration.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: 9022A1E1-CB99-4278-A3BD-171E26708DBD
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shellscalingapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MONITOR_DPI_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MONITOR_DPI_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: MONITOR_DPI_TYPE
+req.redist: 
 ---
 
 # MONITOR_DPI_TYPE enumeration

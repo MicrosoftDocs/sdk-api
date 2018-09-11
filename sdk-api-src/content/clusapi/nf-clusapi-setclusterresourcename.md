@@ -4,17 +4,16 @@ title: SetClusterResourceName function
 author: windows-sdk-content
 description: Sets the name for a resource.
 old-location: mscs\setclusterresourcename.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 8525a0b4-d37e-4ed3-8914-2c427978de6c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_RESOURCE_NAME, PCLUSAPI_SET_CLUSTER_RESOURCE_NAME function [Failover Cluster], SetClusterResourceName, SetClusterResourceName function [Failover Cluster], _wolf_setclusterresourcename, clusapi/PCLUSAPI_SET_CLUSTER_RESOURCE_NAME, clusapi/SetClusterResourceName, mscs.setclusterresourcename
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - SetClusterResourceName
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # SetClusterResourceName function

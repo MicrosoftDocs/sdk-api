@@ -4,17 +4,16 @@ title: RtwqLockSharedWorkQueue function
 author: windows-sdk-content
 description: Obtains and locks a shared work queue.
 old-location: base\rtwqlocksharedworkqueue.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: ccebdbd8-fd3e-4e99-b1dd-1ec8e57cbff6
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: RtwqLockSharedWorkQueue, RtwqLockSharedWorkQueue function, base.rtwqlocksharedworkqueue, rtworkq/RtwqLockSharedWorkQueue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTWQ_WORKQUEUE_TYPE
+req.lib: Rtworkq.lib
+req.dll: RTWorkQ.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtwqLockSharedWorkQueue
 product: Windows
 targetos: Windows
-req.lib: Rtworkq.lib
-req.dll: RTWorkQ.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtwqLockSharedWorkQueue function

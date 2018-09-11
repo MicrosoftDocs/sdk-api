@@ -4,17 +4,16 @@ title: IBDA_ConditionalAccess::TuneByChannel
 author: windows-sdk-content
 description: The TuneByChannel method tunes to a virtual channel.
 old-location: mstv\ibda_conditionalaccess_tunebychannel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1241d61d-e16a-4f80-b187-759db316f25b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],TuneByChannel method, IBDA_ConditionalAccess.TuneByChannel, IBDA_ConditionalAccess::TuneByChannel, IBDA_ConditionalAccessTuneByChannel, TuneByChannel, TuneByChannel method [Microsoft TV Technologies], TuneByChannel method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::TuneByChannel, mstv.ibda_conditionalaccess_tunebychannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_ConditionalAccess.TuneByChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_ConditionalAccess::TuneByChannel

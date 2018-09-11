@@ -4,17 +4,16 @@ title: IAudioLfxControl
 author: windows-sdk-content
 description: The IAudioLfxControl interface allows the client to apply or remove local effects from the offloaded audio stream.
 old-location: coreaudio\iaudiolfxcontrol.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: E4290AE9-7F2E-4D0B-BEAF-F01D95B3E03D
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioLfxControl, IAudioLfxControl interface [Core Audio], IAudioLfxControl interface [Core Audio],described, audioengineendpoint/IAudioLfxControl, coreaudio.iaudiolfxcontrol
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioLfxControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioLfxControl interface

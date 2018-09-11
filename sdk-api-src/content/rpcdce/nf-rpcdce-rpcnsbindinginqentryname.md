@@ -4,17 +4,16 @@ title: RpcNsBindingInqEntryName function
 author: windows-sdk-content
 description: The RpcNsBindingInqEntryName function returns the entry name from which the binding handle came.
 old-location: rpc\rpcnsbindinginqentryname.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: fff87506-4c3f-47cb-8130-78e46e906bf0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcNsBindingInqEntryName, RpcNsBindingInqEntryName function [RPC], RpcNsBindingInqEntryNameA, RpcNsBindingInqEntryNameW, _rpc_rpcnsbindinginqentryname, rpc.rpcnsbindinginqentryname, rpcdce/RpcNsBindingInqEntryName, rpcdce/RpcNsBindingInqEntryNameA, rpcdce/RpcNsBindingInqEntryNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcNsBindingInqEntryNameW
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcNsBindingInqEntryName function

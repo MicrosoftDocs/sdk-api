@@ -4,17 +4,16 @@ title: IInkEdit::SetGestureStatus
 author: windows-sdk-content
 description: Modifies the interest of the InkEdit control in a known application gesture.
 old-location: tablet\inkedit_setgesturestatus.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 1fc9daa5-ee34-409b-b977-0d39b23d422e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 1fc9daa5-ee34-409b-b977-0d39b23d422e, IInkEdit interface [Tablet PC],SetGestureStatus method, IInkEdit.SetGestureStatus, IInkEdit::SetGestureStatus, SetGestureStatus, SetGestureStatus method [Tablet PC], SetGestureStatus method [Tablet PC],IInkEdit interface, inked/IInkEdit::SetGestureStatus, tablet.inkedit_setgesturestatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkEdit.SetGestureStatus
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::SetGestureStatus

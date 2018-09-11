@@ -4,17 +4,16 @@ title: IInertiaProcessor::put_BoundaryBottom
 author: windows-sdk-content
 description: The BoundaryBottom property limits how far towards the bottom of the screen the target object can move.
 old-location: wintouch\iinertiaprocessor_bottomboundary.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 745d51d2-4d9e-4045-929a-2899ff4d2189
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BoundaryBottom property [Windows Touch], BoundaryBottom property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],BoundaryBottom property, IInertiaProcessor.BoundaryBottom, IInertiaProcessor.put_BoundaryBottom, IInertiaProcessor::BoundaryBottom, IInertiaProcessor::get_BoundaryBottom, IInertiaProcessor::put_BoundaryBottom, manipulations/IInertiaProcessor::BoundaryBottom, manipulations/IInertiaProcessor::get_BoundaryBottom, manipulations/IInertiaProcessor::put_BoundaryBottom, put_BoundaryBottom, wintouch.iinertiaprocessor_bottomboundary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IInertiaProcessor.put_BoundaryBottom
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInertiaProcessor::put_BoundaryBottom

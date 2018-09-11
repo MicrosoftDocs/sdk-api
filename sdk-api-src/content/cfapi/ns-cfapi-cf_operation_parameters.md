@@ -4,7 +4,7 @@ title: CF_OPERATION_PARAMETERS
 author: windows-sdk-content
 description: Parameters of an operation on a placeholder file or folder.
 old-location: cloudapi\cf_operation_parameters.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: 668C682E-47C2-41BC-A4F9-AA2F2B516F54
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_OPERATION_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_OPERATION_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CF_OPERATION_PARAMETERS
+req.redist: 
 ---
 
 # CF_OPERATION_PARAMETERS structure

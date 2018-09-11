@@ -4,17 +4,16 @@ title: MBN_CONTEXT_TYPE
 author: windows-sdk-content
 description: The MBN_CONTEXT_TYPE enumerated type specifies the represented context type.
 old-location: mbn\mbn_context_type.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 40ab2190-9fc2-43e2-9a8a-29fcaa5b035f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: MBN_CONTEXT_TYPE, MBN_CONTEXT_TYPE enumeration [Microsoft Broadband Networks], MBN_CONTEXT_TYPE_CUSTOM, MBN_CONTEXT_TYPE_INTERNET, MBN_CONTEXT_TYPE_NONE, MBN_CONTEXT_TYPE_PURCHASE, MBN_CONTEXT_TYPE_VIDEO_SHARE, MBN_CONTEXT_TYPE_VOICE, MBN_CONTEXT_TYPE_VPN, mbn.mbn_context_type, mbnapi/MBN_CONTEXT_TYPE, mbnapi/MBN_CONTEXT_TYPE_CUSTOM, mbnapi/MBN_CONTEXT_TYPE_INTERNET, mbnapi/MBN_CONTEXT_TYPE_NONE, mbnapi/MBN_CONTEXT_TYPE_PURCHASE, mbnapi/MBN_CONTEXT_TYPE_VIDEO_SHARE, mbnapi/MBN_CONTEXT_TYPE_VOICE, mbnapi/MBN_CONTEXT_TYPE_VPN
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_CONTEXT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_CONTEXT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_CONTEXT_TYPE
+req.redist: 
 ---
 
 # MBN_CONTEXT_TYPE enumeration

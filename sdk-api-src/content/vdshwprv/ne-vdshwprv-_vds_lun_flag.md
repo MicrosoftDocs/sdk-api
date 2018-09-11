@@ -4,17 +4,16 @@ title: "_VDS_LUN_FLAG"
 author: windows-sdk-content
 description: Defines the set of valid flags for a LUN object.
 old-location: base\vds_lun_flag.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 977ee10c-c91f-4510-bf00-6b7d4da6c1c0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVDS_LUN_FLAG, VDS_LF_CONSISTENCY_CHECK_ENABLED, VDS_LF_HARDWARE_CHECKSUM_ENABLED, VDS_LF_LBN_REMAP_ENABLED, VDS_LF_MEDIA_SCAN_ENABLED, VDS_LF_READ_BACK_VERIFY_ENABLED, VDS_LF_READ_CACHE_ENABLED, VDS_LF_SNAPSHOT, VDS_LF_WRITE_CACHE_ENABLED, VDS_LF_WRITE_THROUGH_CACHING_ENABLED, VDS_LUN_FLAG, VDS_LUN_FLAG enumeration [VDS], _VDS_LUN_FLAG, base.vds_lun_flag, vds/VDS_LF_CONSISTENCY_CHECK_ENABLED, vds/VDS_LF_HARDWARE_CHECKSUM_ENABLED, vds/VDS_LF_LBN_REMAP_ENABLED, vds/VDS_LF_MEDIA_SCAN_ENABLED, vds/VDS_LF_READ_BACK_VERIFY_ENABLED, vds/VDS_LF_READ_CACHE_ENABLED, vds/VDS_LF_SNAPSHOT, vds/VDS_LF_WRITE_CACHE_ENABLED, vds/VDS_LF_WRITE_THROUGH_CACHING_ENABLED, vds/VDS_LUN_FLAG, vdshwprv/VDS_LF_CONSISTENCY_CHECK_ENABLED, vdshwprv/VDS_LF_HARDWARE_CHECKSUM_ENABLED, vdshwprv/VDS_LF_LBN_REMAP_ENABLED, vdshwprv/VDS_LF_MEDIA_SCAN_ENABLED, vdshwprv/VDS_LF_READ_BACK_VERIFY_ENABLED, vdshwprv/VDS_LF_READ_CACHE_ENABLED, vdshwprv/VDS_LF_SNAPSHOT, vdshwprv/VDS_LF_WRITE_CACHE_ENABLED, vdshwprv/VDS_LF_WRITE_THROUGH_CACHING_ENABLED, vdshwprv/VDS_LUN_FLAG"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_LUN_FLAG, *PVDS_LUN_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_LUN_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_LUN_FLAG, *PVDS_LUN_FLAG
+req.redist: 
 ---
 
 # _VDS_LUN_FLAG enumeration

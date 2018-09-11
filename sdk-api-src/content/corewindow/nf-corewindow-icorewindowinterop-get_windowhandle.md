@@ -4,17 +4,16 @@ title: ICoreWindowInterop::get_WindowHandle
 author: windows-sdk-content
 description: Obtains the handle (HWND) to the CoreWindow for an app.
 old-location: winrt\icorewindowinterop_windowhandle.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: F95B96BA-617C-4D77-B974-E78DE4E36210
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICoreWindowInterop interface [Windows Runtime],WindowHandle property, ICoreWindowInterop.WindowHandle, ICoreWindowInterop.get_WindowHandle, ICoreWindowInterop::WindowHandle, ICoreWindowInterop::get_WindowHandle, WindowHandle property [Windows Runtime], WindowHandle property [Windows Runtime],ICoreWindowInterop interface, corewindow/ICoreWindowInterop::WindowHandle, corewindow/ICoreWindowInterop::get_WindowHandle, get_WindowHandle, winrt.icorewindowinterop_windowhandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: corewindow.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICoreWindowInterop.get_WindowHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICoreWindowInterop::get_WindowHandle

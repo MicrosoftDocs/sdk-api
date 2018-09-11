@@ -4,17 +4,16 @@ title: "_TRANSMIT_PACKETS_ELEMENT"
 author: windows-sdk-content
 description: Specifies a single data element to be transmitted by the TransmitPackets function.
 old-location: winsock\transmit_packets_element_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: cf9f8cd1-284d-4aed-bb43-af02bd012f01
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPTRANSMIT_PACKETS_ELEMENT, *PTRANSMIT_PACKETS_ELEMENT, TP_ELEMENT_EOP, TP_ELEMENT_FILE, TP_ELEMENT_MEMORY, TRANSMIT_PACKETS_ELEMENT, TRANSMIT_PACKETS_ELEMENT structure [Winsock], _TRANSMIT_PACKETS_ELEMENT, _win32_transmit_packets_element_2, mswsock/TRANSMIT_PACKETS_ELEMENT, winsock.transmit_packets_element_2"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mswsock.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSMIT_PACKETS_ELEMENT, *PTRANSMIT_PACKETS_ELEMENT, *LPTRANSMIT_PACKETS_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TRANSMIT_PACKETS_ELEMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: TRANSMIT_PACKETS_ELEMENT, *PTRANSMIT_PACKETS_ELEMENT, *LPTRANSMIT_PACKETS_ELEMENT
+req.redist: 
 ---
 
 # _TRANSMIT_PACKETS_ELEMENT structure

@@ -4,17 +4,16 @@ title: IDvdInfo2::GetCurrentSubpicture
 author: windows-sdk-content
 description: The GetCurrentSubpicture method retrieves the number of available subpicture streams in the current title, the currently selected subpicture stream number, and the state of the subpicture.
 old-location: dshow\idvdinfo2_getcurrentsubpicture.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d41fb9ad-83e3-46d6-90b3-abdc61a6b997
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetCurrentSubpicture, GetCurrentSubpicture method [DirectShow], GetCurrentSubpicture method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentSubpicture method, IDvdInfo2.GetCurrentSubpicture, IDvdInfo2::GetCurrentSubpicture, IDvdInfo2GetCurrentSubpicture, dshow.idvdinfo2_getcurrentsubpicture, strmif/IDvdInfo2::GetCurrentSubpicture
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdInfo2.GetCurrentSubpicture
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo2::GetCurrentSubpicture

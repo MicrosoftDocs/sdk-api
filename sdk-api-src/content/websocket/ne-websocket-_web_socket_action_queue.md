@@ -4,17 +4,16 @@ title: "_WEB_SOCKET_ACTION_QUEUE"
 author: windows-sdk-content
 description: Specifies the action types returned by WebSocketGetAction.
 old-location: websock\web_socket_action_queue.htm
-old-project: WebSock
+tech.root: WebSock
 ms.assetid: 59550c5a-a378-4162-a1cc-ed2d05662637
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: WEB_SOCKET_ACTION_QUEUE, WEB_SOCKET_ACTION_QUEUE enumeration [Websocket Protocol Component API], WEB_SOCKET_ALL_ACTION_QUEUE, WEB_SOCKET_RECEIVE_ACTION_QUEUE, WEB_SOCKET_SEND_ACTION_QUEUE, _WEB_SOCKET_ACTION_QUEUE, websock.web_socket_action_queue, websocket/WEB_SOCKET_ACTION_QUEUE, websocket/WEB_SOCKET_ALL_ACTION_QUEUE, websocket/WEB_SOCKET_RECEIVE_ACTION_QUEUE, websocket/WEB_SOCKET_SEND_ACTION_QUEUE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: websocket.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_ACTION_QUEUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WEB_SOCKET_ACTION_QUEUE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WEB_SOCKET_ACTION_QUEUE
+req.redist: 
 ---
 
 # _WEB_SOCKET_ACTION_QUEUE enumeration

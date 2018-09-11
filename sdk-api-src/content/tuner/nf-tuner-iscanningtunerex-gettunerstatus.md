@@ -4,17 +4,16 @@ title: IScanningTunerEx::GetTunerStatus
 author: windows-sdk-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_gettunerstatus.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9e91f5ca-5a2e-414e-bf4c-882ba6a08b98
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTunerStatus, GetTunerStatus method [Microsoft TV Technologies], GetTunerStatus method [Microsoft TV Technologies],IScanningTunerEx interface, IScanningTunerEx interface [Microsoft TV Technologies],GetTunerStatus method, IScanningTunerEx.GetTunerStatus, IScanningTunerEx::GetTunerStatus, IScanningTunerExGetTunerStatus, mstv.iscanningtunerex_gettunerstatus, tuner/IScanningTunerEx::GetTunerStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IScanningTunerEx.GetTunerStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IScanningTunerEx::GetTunerStatus

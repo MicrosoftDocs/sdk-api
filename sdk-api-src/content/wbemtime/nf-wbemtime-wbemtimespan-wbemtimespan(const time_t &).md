@@ -4,17 +4,16 @@ title: WBEMTimeSpan::WBEMTimeSpan(const time_t &)
 author: windows-sdk-content
 description: The WBEMTimeSpan class constructor creates a time span object. The constructor is overloaded.
 old-location: wmi\wbemtimespan_wbemtimespan.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 337dc247-9904-457a-a1f3-e1cf29b61126
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan(const time_t &), WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan constructors [Windows Management Instrumentation], WBEMTimeSpan::WBEMTimeSpan(const time_t &), WBEMTimeSpan::WbemTimeSpan, wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WBEMTimeSpan::WbemTimeSpan
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WBEMTimeSpan::WBEMTimeSpan(const time_t &)

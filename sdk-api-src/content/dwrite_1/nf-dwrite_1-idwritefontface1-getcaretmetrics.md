@@ -4,17 +4,16 @@ title: IDWriteFontFace1::GetCaretMetrics
 author: windows-sdk-content
 description: Gets caret metrics for the font in design units.
 old-location: directwrite\idwritefontface1_getcaretmetrics.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: D9006617-A5B5-4575-9C00-26F52A73DC0D
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetCaretMetrics, GetCaretMetrics method [Direct Write], GetCaretMetrics method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetCaretMetrics method, IDWriteFontFace1.GetCaretMetrics, IDWriteFontFace1::GetCaretMetrics, directwrite.idwritefontface1_getcaretmetrics, dwrite_1/IDWriteFontFace1::GetCaretMetrics
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite_1.lib
+req.dll: Dwrite_1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace1.GetCaretMetrics
 product: Windows
 targetos: Windows
-req.lib: Dwrite_1.lib
-req.dll: Dwrite_1.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace1::GetCaretMetrics

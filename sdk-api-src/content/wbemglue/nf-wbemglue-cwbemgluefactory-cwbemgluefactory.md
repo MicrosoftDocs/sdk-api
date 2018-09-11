@@ -4,17 +4,16 @@ title: CWbemGlueFactory::CWbemGlueFactory
 author: windows-sdk-content
 description: The CWbemGlueFactory::CWbemGlueFactory constructor initializes a new instance of CWbemGlueFactory. This class is part of the WMI Provider Framework.
 old-location: wmi\cwbemgluefactory_cwbemgluefactory.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 62cc28a8-6b0e-4ded-94e9-2ef3956cfd27
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "??0CWbemGlueFactory@@QAE@XZ, ??0CWbemGlueFactory@@QEAA@XZ, CWbemGlueFactory, CWbemGlueFactory constructor [Windows Management Instrumentation], CWbemGlueFactory constructor [Windows Management Instrumentation],CWbemGlueFactory interface, CWbemGlueFactory interface [Windows Management Instrumentation],CWbemGlueFactory constructor, CWbemGlueFactory.CWbemGlueFactory, CWbemGlueFactory::CWbemGlueFactory, wbemglue/CWbemGlueFactory::CWbemGlueFactory, wmi.cwbemgluefactory_cwbemgluefactory"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ??0CWbemGlueFactory@@QEAA@XZ
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CWbemGlueFactory::CWbemGlueFactory

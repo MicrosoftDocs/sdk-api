@@ -4,17 +4,16 @@ title: tagMKSYS
 author: windows-sdk-content
 description: Indicates the moniker's class.
 old-location: com\mksys.htm
-old-project: com
+tech.root: com
 ms.assetid: f0d8ab71-5be9-4a5c-a036-d3a0a90a053f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MKSYS, MKSYS enumeration [COM], MKSYS_ANTIMONIKER, MKSYS_CLASSMONIKER, MKSYS_FILEMONIKER, MKSYS_GENERICCOMPOSITE, MKSYS_ITEMMONIKER, MKSYS_LUAMONIKER, MKSYS_NONE, MKSYS_OBJREFMONIKER, MKSYS_POINTERMONIKER, MKSYS_SESSIONMONIKER, _com_MKSYS, com.mksys, objidl/MKSYS, objidl/MKSYS_ANTIMONIKER, objidl/MKSYS_CLASSMONIKER, objidl/MKSYS_FILEMONIKER, objidl/MKSYS_GENERICCOMPOSITE, objidl/MKSYS_ITEMMONIKER, objidl/MKSYS_LUAMONIKER, objidl/MKSYS_NONE, objidl/MKSYS_OBJREFMONIKER, objidl/MKSYS_POINTERMONIKER, objidl/MKSYS_SESSIONMONIKER, tagMKSYS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Objidlbase.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MKSYS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MKSYS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: MKSYS
+req.redist: 
 ---
 
 # tagMKSYS enumeration

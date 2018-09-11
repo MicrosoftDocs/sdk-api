@@ -4,7 +4,7 @@ title: "_VIDEOMEMORY"
 author: windows-sdk-content
 description: The VIDEOMEMORY structure allows the driver to manage its display memory into heaps.
 old-location: display\videomemory.htm
-old-project: display
+tech.root: display
 ms.assetid: a472a9f6-d85e-429b-9b0d-efce576b6330
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIDEOMEMORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - VIDEOMEMORY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: VIDEOMEMORY
+req.redist: 
 ---
 
 # _VIDEOMEMORY structure

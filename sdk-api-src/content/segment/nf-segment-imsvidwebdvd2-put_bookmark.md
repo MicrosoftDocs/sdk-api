@@ -4,17 +4,16 @@ title: IMSVidWebDVD2::put_Bookmark
 author: windows-sdk-content
 description: Saves or loads the playback position and state information for a DVD.
 old-location: mstv\imsvidwebdvd2_bookmark.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e7b0f28d-16f3-4dd4-8b28-f46e492f5c8e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Bookmark property [Microsoft TV Technologies], Bookmark property [Microsoft TV Technologies],IMSVidWebDVD2 interface, IMSVidWebDVD2 interface [Microsoft TV Technologies],Bookmark property, IMSVidWebDVD2.Bookmark, IMSVidWebDVD2.put_Bookmark, IMSVidWebDVD2::Bookmark, IMSVidWebDVD2::get_Bookmark, IMSVidWebDVD2::put_Bookmark, mstv.imsvidwebdvd2_bookmark, put_Bookmark, segment/IMSVidWebDVD2::Bookmark, segment/IMSVidWebDVD2::get_Bookmark, segment/IMSVidWebDVD2::put_Bookmark
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IMSVidWebDVD2.put_Bookmark
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidWebDVD2::put_Bookmark

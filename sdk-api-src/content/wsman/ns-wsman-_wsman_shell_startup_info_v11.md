@@ -4,17 +4,16 @@ title: "_WSMAN_SHELL_STARTUP_INFO_V11"
 author: windows-sdk-content
 description: Defines the shell startup parameters to be used with the WSManCreateShell function. The structure must be allocated by the client and passed to the WSManCreateShell function.
 old-location: winrm\wsman_shell_startup_info.htm
-old-project: winrm
+tech.root: WinRM
 ms.assetid: a9e004de-b157-4ad3-a463-a42ccb56f1ba
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSMAN_SHELL_STARTUP_INFO, WSMAN_SHELL_STARTUP_INFO structure [Windows Remote Management], WSMAN_SHELL_STARTUP_INFO_V11, _WSMAN_SHELL_STARTUP_INFO_V11, winrm.wsman_shell_startup_info, wsman/WSMAN_SHELL_STARTUP_INFO
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 
-req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSMAN_SHELL_STARTUP_INFO_V11
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSMAN_SHELL_STARTUP_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSMAN_SHELL_STARTUP_INFO_V11
+req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 ---
 
 # _WSMAN_SHELL_STARTUP_INFO_V11 structure

@@ -4,17 +4,16 @@ title: IKnownFolder::GetFolderType
 author: windows-sdk-content
 description: Retrieves the folder type.
 old-location: shell\IKnownFolder_GetFolderType.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a2457d52-390d-43bd-8db0-9c18492cc40e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetFolderType, GetFolderType method [Windows Shell], GetFolderType method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetFolderType method, IKnownFolder.GetFolderType, IKnownFolder::GetFolderType, _shell_IKnownFolder_GetFolderType, shell.IKnownFolder_GetFolderType, shobjidl_core/IKnownFolder::GetFolderType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKnownFolder.GetFolderType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IKnownFolder::GetFolderType

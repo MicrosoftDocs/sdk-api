@@ -4,17 +4,16 @@ title: IX509PrivateKey::put_CspInformations
 author: windows-sdk-content
 description: Specifies or retrieves a collection of ICspInformation objects that contain information about the available cryptographic providers that support the public key algorithm associated with the private key.
 old-location: security\ix509privatekey_cspinformations.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 81cf4689-0cd6-4185-9242-ef26de9161a1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CspInformations property [Security], CspInformations property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],CspInformations property, IX509PrivateKey.CspInformations, IX509PrivateKey.put_CspInformations, IX509PrivateKey::CspInformations, IX509PrivateKey::get_CspInformations, IX509PrivateKey::put_CspInformations, certenroll/IX509PrivateKey::CspInformations, certenroll/IX509PrivateKey::get_CspInformations, certenroll/IX509PrivateKey::put_CspInformations, put_CspInformations, security.ix509privatekey_cspinformations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509PrivateKey.put_CspInformations
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PrivateKey::put_CspInformations

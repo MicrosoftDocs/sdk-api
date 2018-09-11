@@ -4,7 +4,7 @@ title: "_DD_ATTACHLIST"
 author: windows-sdk-content
 description: The DD_ATTACHLIST structure maintains a list of attached surfaces for Microsoft DirectDraw.
 old-location: display\dd_attachlist.htm
-old-project: display
+tech.root: display
 ms.assetid: d79b9277-ef71-4ef8-804c-d5bc8f772d0f
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_ATTACHLIST, DD_ATTACHLIST"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_ATTACHLIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_ATTACHLIST, DD_ATTACHLIST"
+req.redist: 
 ---
 
 # _DD_ATTACHLIST structure

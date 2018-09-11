@@ -4,17 +4,16 @@ title: IMSVidDevice::IsEqualDevice
 author: windows-sdk-content
 description: The IsEqualDevice method queries whether this device and another device represent the same underlying hardware.
 old-location: mstv\imsviddevice_isequaldevice.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b0f59466-7a2a-453e-999c-c7ebf126d18b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],IsEqualDevice method, IMSVidDevice.IsEqualDevice, IMSVidDevice::IsEqualDevice, IMSVidDeviceIsEqualDevice, IsEqualDevice, IsEqualDevice method [Microsoft TV Technologies], IsEqualDevice method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_isequaldevice, segment/IMSVidDevice::IsEqualDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidDevice.IsEqualDevice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidDevice::IsEqualDevice
@@ -62,12 +60,12 @@ The <b>IsEqualDevice</b> method queries whether this device and another device r
 
 ### -param Device
 
-
+TBD
 
 
 ### -param IsEqual
 
-
+TBD
 
 
 

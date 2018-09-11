@@ -4,17 +4,16 @@ title: IAudioMediaType::IsCompressedFormat
 author: windows-sdk-content
 description: The IsCompressedFormat method determines whether the audio data format is a compressed format.
 old-location: audio\iaudiomediatype_iscompressedformat.htm
-old-project: audio
+tech.root: audio
 ms.assetid: db3ee751-7a7e-4e94-8dba-94065a7046f1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IAudioMediaType interface [Audio Devices],IsCompressedFormat method, IAudioMediaType.IsCompressedFormat, IAudioMediaType::IsCompressedFormat, IsCompressedFormat, IsCompressedFormat method [Audio Devices], IsCompressedFormat method [Audio Devices],IAudioMediaType interface, audio.iaudiomediatype_iscompressedformat, audio_syseffects_r_be58a0a1-340a-49bd-b47b-6f53ad5258ae.xml, audiomediatype/IAudioMediaType::IsCompressedFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.lib: 
+req.dll: 
+req.irql: All levels
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioMediaType.IsCompressedFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: All levels
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioMediaType::IsCompressedFormat

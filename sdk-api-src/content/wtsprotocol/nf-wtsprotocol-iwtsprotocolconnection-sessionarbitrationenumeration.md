@@ -4,17 +4,16 @@ title: IWTSProtocolConnection::SessionArbitrationEnumeration
 author: windows-sdk-content
 description: IWTSProtocolConnection::SessionArbitrationEnumeration is no longer available. Instead, use IWRdsProtocolConnection::SessionArbitrationEnumeration.
 old-location: termserv\iwtsprotocolconnection_sessionarbitrationenumeration.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 413d6df5-419f-4a68-bb91-dfec9f455b42
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],SessionArbitrationEnumeration method, IWTSProtocolConnection.SessionArbitrationEnumeration, IWTSProtocolConnection::SessionArbitrationEnumeration, SessionArbitrationEnumeration, SessionArbitrationEnumeration method [Remote Desktop Services], SessionArbitrationEnumeration method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_sessionarbitrationenumeration, wtsprotocol/IWTSProtocolConnection::SessionArbitrationEnumeration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSProtocolConnection.SessionArbitrationEnumeration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSProtocolConnection::SessionArbitrationEnumeration

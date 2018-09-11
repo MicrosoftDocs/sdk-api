@@ -4,17 +4,16 @@ title: IManagedPoolAction::LastRelease
 author: windows-sdk-content
 description: Called when a COM+ object pool drops the last reference to the object that implements it.
 old-location: cos\imanagedpoolaction_lastrelease.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6685da39-17bb-4c4e-b47a-888511f605ad
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IManagedPoolAction interface [COM+],LastRelease method, IManagedPoolAction.LastRelease, IManagedPoolAction::LastRelease, LastRelease, LastRelease method [COM+], LastRelease method [COM+],IManagedPoolAction interface, _cos_IManagedPoolAction_LastRelease, comsvcs/IManagedPoolAction::LastRelease, cos.imanagedpoolaction_lastrelease
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IManagedPoolAction.LastRelease
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IManagedPoolAction::LastRelease

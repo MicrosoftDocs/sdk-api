@@ -4,17 +4,16 @@ title: IObjectProvider::QueryObject
 author: windows-sdk-content
 description: Queries for a specified object.
 old-location: shell\IObjectProvider_QueryObject.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7bd76e54-bc1d-481d-90cb-fcfe519b8bfb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IObjectProvider interface [Windows Shell],QueryObject method, IObjectProvider.QueryObject, IObjectProvider::QueryObject, QueryObject, QueryObject method [Windows Shell], QueryObject method [Windows Shell],IObjectProvider interface, _shell_IObjectProvider_QueryObject, shell.IObjectProvider_QueryObject, shobjidl_core/IObjectProvider::QueryObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjectProvider.QueryObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectProvider::QueryObject

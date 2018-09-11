@@ -4,17 +4,16 @@ title: ResUtilGetAllProperties function
 author: windows-sdk-content
 description: Returns a property list that includes all of the default and unknown properties for a cluster object. The PRESUTIL_GET_ALL_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilgetallproperties.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 18a27e1c-e709-4b0a-97c1-b0697deb8dc7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PRESUTIL_GET_ALL_PROPERTIES, PRESUTIL_GET_ALL_PROPERTIES function [Failover Cluster], ResUtilGetAllProperties, ResUtilGetAllProperties function [Failover Cluster], _wolf_resutilgetallproperties, mscs.resutilgetallproperties, resapi/PRESUTIL_GET_ALL_PROPERTIES, resapi/ResUtilGetAllProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilGetAllProperties
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilGetAllProperties function

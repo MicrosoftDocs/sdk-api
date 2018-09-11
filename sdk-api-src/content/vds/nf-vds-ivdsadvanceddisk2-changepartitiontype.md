@@ -4,17 +4,16 @@ title: IVdsAdvancedDisk2::ChangePartitionType
 author: windows-sdk-content
 description: Changes the partition type on the disk at a specified byte offset.
 old-location: base\ivdsadvanceddisk2_changepartitiontype.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 808a1e5a-d225-4b74-9764-3ad8cdc52ebe
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ChangePartitionType, ChangePartitionType method, ChangePartitionType method,IVdsAdvancedDisk2 interface, IVdsAdvancedDisk2 interface,ChangePartitionType method, IVdsAdvancedDisk2.ChangePartitionType, IVdsAdvancedDisk2::ChangePartitionType, base.ivdsadvanceddisk2_changepartitiontype, vds/IVdsAdvancedDisk2::ChangePartitionType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsAdvancedDisk2.ChangePartitionType
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsAdvancedDisk2::ChangePartitionType

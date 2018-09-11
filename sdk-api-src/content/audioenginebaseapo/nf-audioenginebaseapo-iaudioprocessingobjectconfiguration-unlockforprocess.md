@@ -4,17 +4,16 @@ title: IAudioProcessingObjectConfiguration::UnlockForProcess
 author: windows-sdk-content
 description: The UnlockForProcess method releases the lock that was imposed on the APO by the LockForProcess method.
 old-location: audio\iaudioprocessingobjectconfiguration_unlockforprocess.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 54221040-71b8-4b31-81df-46435f7b2b80
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IAudioProcessingObjectConfiguration interface [Audio Devices],UnlockForProcess method, IAudioProcessingObjectConfiguration.UnlockForProcess, IAudioProcessingObjectConfiguration::UnlockForProcess, UnlockForProcess, UnlockForProcess method [Audio Devices], UnlockForProcess method [Audio Devices],IAudioProcessingObjectConfiguration interface, audio.iaudioprocessingobjectconfiguration_unlockforprocess, audio_syseffects_r_23133166-d468-4449-82e1-2fba54e220c6.xml, audioenginebaseapo/IAudioProcessingObjectConfiguration::UnlockForProcess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available Windows Vista and later versions of the Windows operating system.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APO_FLAG
+req.lib: Audioenginebaseapo.idl
+req.dll: 
+req.irql: All levels
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAudioProcessingObjectConfiguration.UnlockForProcess
 product: Windows
 targetos: Windows
-req.lib: Audioenginebaseapo.idl
-req.dll: 
-req.irql: All levels
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioProcessingObjectConfiguration::UnlockForProcess

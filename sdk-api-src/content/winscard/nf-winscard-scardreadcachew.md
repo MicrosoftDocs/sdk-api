@@ -4,17 +4,16 @@ title: SCardReadCacheW function
 author: windows-sdk-content
 description: Retrieves the value portion of a name-value pair from the global cache maintained by the Smart Card Resource Manager.
 old-location: security\scardreadcache.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: ffa15036-b6d6-4c0a-8f04-e1900484eb8d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SCardReadCache, SCardReadCache function [Security], SCardReadCacheA, SCardReadCacheW, security.scardreadcache, winscard/SCardReadCache, winscard/SCardReadCacheA, winscard/SCardReadCacheW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: Winscard.lib
+req.dll: Winscard.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SCardReadCacheW
 product: Windows
 targetos: Windows
-req.lib: Winscard.lib
-req.dll: Winscard.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SCardReadCacheW function

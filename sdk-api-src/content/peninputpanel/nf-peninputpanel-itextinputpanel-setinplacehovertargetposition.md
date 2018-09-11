@@ -4,17 +4,16 @@ title: ITextInputPanel::SetInPlaceHoverTargetPosition
 author: windows-sdk-content
 description: Explicitly positions the Tablet PC Input Panel hover target in screen coordinates.
 old-location: tablet\itextinputpanel_setinplacehovertargetposition.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 1f007a76-8499-4128-8525-0498ddeb7300
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 1f007a76-8499-4128-8525-0498ddeb7300, ITextInputPanel interface [Tablet PC],SetInPlaceHoverTargetPosition method, ITextInputPanel.SetInPlaceHoverTargetPosition, ITextInputPanel::SetInPlaceHoverTargetPosition, SetInPlaceHoverTargetPosition, SetInPlaceHoverTargetPosition method [Tablet PC], SetInPlaceHoverTargetPosition method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::SetInPlaceHoverTargetPosition, tablet.itextinputpanel_setinplacehovertargetposition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextInputPanel.SetInPlaceHoverTargetPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanel::SetInPlaceHoverTargetPosition

@@ -4,17 +4,16 @@ title: ResUtilGetResourceName function
 author: windows-sdk-content
 description: Returns the name of a resource. The PRESUTIL_GET_RESOURCE_NAME type defines a pointer to this function.
 old-location: mscs\resutilgetresourcename.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 968d013f-6502-4981-982e-7b3f10c53b60
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_NAME, PRESUTIL_GET_RESOURCE_NAME function [Failover Cluster], ResUtilGetResourceName, ResUtilGetResourceName function [Failover Cluster], _wolf_resutilgetresourcename, mscs.resutilgetresourcename, resapi/PRESUTIL_GET_RESOURCE_NAME, resapi/ResUtilGetResourceName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ResUtilGetResourceName
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilGetResourceName function

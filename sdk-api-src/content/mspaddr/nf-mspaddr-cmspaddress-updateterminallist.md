@@ -4,17 +4,16 @@ title: CMSPAddress::UpdateTerminalList
 author: windows-sdk-content
 description: The UpdateTerminalList method populates the MSP's list of static terminals.
 old-location: tapi3\cmspaddress_updateterminallist.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: f40964fe-21fe-4dad-8e56-71623ed2be1d
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],UpdateTerminalList method, CMSPAddress.UpdateTerminalList, CMSPAddress::UpdateTerminalList, UpdateTerminalList, UpdateTerminalList method [TAPI 2.2], UpdateTerminalList method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_updateterminallist, mspaddr/CMSPAddress::UpdateTerminalList, tapi3.cmspaddress_updateterminallist
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mspaddr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSPAddress.UpdateTerminalList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CMSPAddress::UpdateTerminalList

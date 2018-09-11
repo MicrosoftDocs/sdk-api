@@ -4,17 +4,16 @@ title: ITfUIElementMgr::EnumUIElements
 author: windows-sdk-content
 description: The ITfUIElementMgr::EnumUIElements method returns IEnumTfUIElements interface pointer to enumerate the ITfUIElement.
 old-location: tsf\itfuielementmgr_enumuielements.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: cdede376-be18-4deb-ae79-594aebb085a6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EnumUIElements, EnumUIElements method [Text Services Framework], EnumUIElements method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],EnumUIElements method, ITfUIElementMgr.EnumUIElements, ITfUIElementMgr::EnumUIElements, msctf/ITfUIElementMgr::EnumUIElements, tsf.itfuielementmgr_enumuielements
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfUIElementMgr.EnumUIElements
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfUIElementMgr::EnumUIElements

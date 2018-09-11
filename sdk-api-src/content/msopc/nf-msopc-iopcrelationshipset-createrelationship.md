@@ -4,17 +4,16 @@ title: IOpcRelationshipSet::CreateRelationship
 author: windows-sdk-content
 description: Creates a relationship object that represents a specified relationship, then adds to the set a pointer to the object's IOpcRelationship interface.
 old-location: opc\iopcrelationshipset_createrelationship.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 0cbf7446-d94e-447f-a82b-3d56a8036c19
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CreateRelationship, CreateRelationship method [Open Packaging Conventions], CreateRelationship method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],CreateRelationship method, IOpcRelationshipSet.CreateRelationship, IOpcRelationshipSet::CreateRelationship, msopc/IOpcRelationshipSet::CreateRelationship, opc.iopcrelationshipset_createrelationship
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcRelationshipSet.CreateRelationship
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcRelationshipSet::CreateRelationship

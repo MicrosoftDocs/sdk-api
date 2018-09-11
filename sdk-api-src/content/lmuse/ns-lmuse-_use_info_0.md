@@ -4,17 +4,16 @@ title: "_USE_INFO_0"
 author: windows-sdk-content
 description: The USE_INFO_0 structure contains the name of a shared resource and the local device redirected to it.
 old-location: netmgmt\use_info_0_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 86db3f19-84c5-4e89-82cb-f01d17dcf4ec
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPUSE_INFO_0, *PUSE_INFO_0, LPUSE_INFO_0, LPUSE_INFO_0 structure pointer [Network Management], PUSE_INFO_0, PUSE_INFO_0 structure pointer [Network Management], USE_INFO_0, USE_INFO_0 structure [Network Management], _USE_INFO_0, _win32_use_info_0_str, lmuse/LPUSE_INFO_0, lmuse/PUSE_INFO_0, lmuse/USE_INFO_0, netmgmt.use_info_0_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmuse.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USE_INFO_0, *PUSE_INFO_0, *LPUSE_INFO_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USE_INFO_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: USE_INFO_0, *PUSE_INFO_0, *LPUSE_INFO_0
+req.redist: 
 ---
 
 # _USE_INFO_0 structure

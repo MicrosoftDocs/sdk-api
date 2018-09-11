@@ -4,17 +4,16 @@ title: ICertProperty
 author: windows-sdk-content
 description: Can be used to associate an external property with a certificate.
 old-location: security\icertproperty.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 947c2f09-993d-4ced-8b76-66b79d96e3bc
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertProperty, ICertProperty interface [Security], ICertProperty interface [Security],described, certenroll/ICertProperty, security.icertproperty
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertProperty interface

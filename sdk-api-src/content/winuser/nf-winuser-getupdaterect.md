@@ -4,17 +4,16 @@ title: GetUpdateRect function
 author: windows-sdk-content
 description: The GetUpdateRect function retrieves the coordinates of the smallest rectangle that completely encloses the update region of the specified window.
 old-location: gdi\getupdaterect.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: e54483a1-8738-4b22-a24e-c0b31f6ca9d6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetUpdateRect, GetUpdateRect function [Windows GDI], _win32_GetUpdateRect, gdi.getupdaterect, winuser/GetUpdateRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - GetUpdateRect
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetUpdateRect function

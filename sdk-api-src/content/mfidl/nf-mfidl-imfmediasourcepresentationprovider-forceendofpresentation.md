@@ -4,17 +4,16 @@ title: IMFMediaSourcePresentationProvider::ForceEndOfPresentation
 author: windows-sdk-content
 description: Notifies the source when playback has reached the end of a segment. For timelines, this corresponds to reaching a mark-out point.
 old-location: mf\imfmediasourcepresentationprovider_forceendofpresentation.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: fb2896f9-c397-4a0d-b8fe-b03ff4f08dda
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ForceEndOfPresentation, ForceEndOfPresentation method [Media Foundation], ForceEndOfPresentation method [Media Foundation],IMFMediaSourcePresentationProvider interface, IMFMediaSourcePresentationProvider interface [Media Foundation],ForceEndOfPresentation method, IMFMediaSourcePresentationProvider.ForceEndOfPresentation, IMFMediaSourcePresentationProvider::ForceEndOfPresentation, fb2896f9-c397-4a0d-b8fe-b03ff4f08dda, mf.imfmediasourcepresentationprovider_forceendofpresentation, mfidl/IMFMediaSourcePresentationProvider::ForceEndOfPresentation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaSourcePresentationProvider.ForceEndOfPresentation
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSourcePresentationProvider::ForceEndOfPresentation

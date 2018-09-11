@@ -4,17 +4,16 @@ title: IDCompositionDevice::CreateTranslateTransform3D
 author: windows-sdk-content
 description: Creates a 3D translation transform object.
 old-location: directcomp\idcompositiondevice_createtranslatetransform3d.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: FCB518EA-B36C-4740-9191-0BEB13AB5F06
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateTranslateTransform3D, CreateTranslateTransform3D method [DirectComposition], CreateTranslateTransform3D method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateTranslateTransform3D method, IDCompositionDevice.CreateTranslateTransform3D, IDCompositionDevice::CreateTranslateTransform3D, dcomp/IDCompositionDevice::CreateTranslateTransform3D, directcomp.idcompositiondevice_createtranslatetransform3d
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice.CreateTranslateTransform3D
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice::CreateTranslateTransform3D

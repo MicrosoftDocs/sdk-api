@@ -4,17 +4,16 @@ title: MsiEnumProductsExA function
 author: windows-sdk-content
 description: Enumerates through one or all the instances of products that are currently advertised or installed in the specified contexts.
 old-location: setup\msienumproductsex.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 33daeadc-021f-403e-808b-81a9915ae854
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiEnumProductsEx, MsiEnumProductsEx function, MsiEnumProductsExA, MsiEnumProductsExW, NULL, User SID, msi/MsiEnumProductsEx, msi/MsiEnumProductsExA, msi/MsiEnumProductsExW, s-1-1-0, setup.msienumproductsex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MsiEnumProductsExW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiEnumProductsExA function

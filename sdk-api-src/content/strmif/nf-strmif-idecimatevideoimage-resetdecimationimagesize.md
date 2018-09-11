@@ -4,17 +4,16 @@ title: IDecimateVideoImage::ResetDecimationImageSize
 author: windows-sdk-content
 description: The ResetDecimationImageSize method specifies that the decoder should no longer decimate its output image.
 old-location: dshow\idecimatevideoimage_resetdecimationimagesize.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: cae80d57-d04a-4835-bb45-2198f36c0539
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDecimateVideoImage interface [DirectShow],ResetDecimationImageSize method, IDecimateVideoImage.ResetDecimationImageSize, IDecimateVideoImage::ResetDecimationImageSize, IDecimateVideoImageResetDecimationImageSize, ResetDecimationImageSize, ResetDecimationImageSize method [DirectShow], ResetDecimationImageSize method [DirectShow],IDecimateVideoImage interface, dshow.idecimatevideoimage_resetdecimationimagesize, strmif/IDecimateVideoImage::ResetDecimationImageSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDecimateVideoImage.ResetDecimationImageSize
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDecimateVideoImage::ResetDecimationImageSize

@@ -4,17 +4,16 @@ title: PADD_INTERFACE
 author: windows-sdk-content
 description: The AddInterface function adds an interface to be managed by the routing protocol.
 old-location: rras\addinterface.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: d2a90d20-7a1f-4301-adab-76224a4f8310
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddInterface, AddInterface callback function [RAS], DEMAND_DIAL, LOCAL_WORKSTATION_DIAL, PADD_INTERFACE, PADD_INTERFACE callback, PERMANENT, REMOTE_WORKSTATION_DIAL, _mpr_addinterface, routprot/AddInterface, rras.addinterface
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AddInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PADD_INTERFACE callback function

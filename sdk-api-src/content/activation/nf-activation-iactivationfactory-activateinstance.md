@@ -4,17 +4,16 @@ title: IActivationFactory::ActivateInstance
 author: windows-sdk-content
 description: Creates a new instance of the Windows Runtime class that is associated with the current activation factory.
 old-location: winrt\iactivationfactory_activateinstance.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: AE3E2D87-3AE7-42C3-AA1D-510E717D2E51
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ActivateInstance, ActivateInstance method [Windows Runtime], ActivateInstance method [Windows Runtime],IActivationFactory interface, IActivationFactory interface [Windows Runtime],ActivateInstance method, IActivationFactory.ActivateInstance, IActivationFactory::ActivateInstance, activation/IActivationFactory::ActivateInstance, winrt.iactivationfactory_activateinstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: activation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_OBJECT_INFO, *PSI_OBJECT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IActivationFactory.ActivateInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IActivationFactory::ActivateInstance

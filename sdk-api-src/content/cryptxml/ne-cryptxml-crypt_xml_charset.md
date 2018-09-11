@@ -4,17 +4,16 @@ title: CRYPT_XML_CHARSET
 author: windows-sdk-content
 description: Used to specify the character set used in the XML.
 old-location: security\crypt_xml_charset.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 3f115ac1-a8ed-4151-b3f3-7ddb695802a0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_XML_CHARSET, CRYPT_XML_CHARSET enumeration [Security], CRYPT_XML_CHARSET_AUTO, CRYPT_XML_CHARSET_UTF16BE, CRYPT_XML_CHARSET_UTF16LE, CRYPT_XML_CHARSET_UTF8, cryptxml/CRYPT_XML_CHARSET, cryptxml/CRYPT_XML_CHARSET_AUTO, cryptxml/CRYPT_XML_CHARSET_UTF16BE, cryptxml/CRYPT_XML_CHARSET_UTF16LE, cryptxml/CRYPT_XML_CHARSET_UTF8, security.crypt_xml_charset
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_CHARSET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_CHARSET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_CHARSET
+req.redist: 
 ---
 
 # CRYPT_XML_CHARSET enumeration

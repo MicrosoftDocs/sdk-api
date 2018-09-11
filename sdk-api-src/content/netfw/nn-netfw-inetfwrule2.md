@@ -4,7 +4,7 @@ title: INetFwRule2
 author: windows-sdk-content
 description: Allows an application or service to access all the properties of INetFwRule as well as the four edge properties of a firewall rule specified by NET_FW_EDGE_TRAVERSAL_TYPE.
 old-location: ics\inetfwrule2.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 35c28180-b60c-4dc1-81ce-0ce012f96525
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetFwRule2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwRule2 interface

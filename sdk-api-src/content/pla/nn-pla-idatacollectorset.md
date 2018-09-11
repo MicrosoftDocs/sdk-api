@@ -4,7 +4,7 @@ title: IDataCollectorSet
 author: windows-sdk-content
 description: Manages the configuration information that is common to all data collector objects in the set; adds and removes data collectors from the set; and starts data collection. This is the primary PLA interface that you use.
 old-location: pla\idatacollectorset.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: a4ae0874-4ee6-46a1-9811-8cd4be26859c
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataCollectorSet
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet interface

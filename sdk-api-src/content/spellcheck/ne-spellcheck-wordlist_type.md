@@ -4,7 +4,7 @@ title: WORDLIST_TYPE
 author: windows-sdk-content
 description: Identifies one of the types of word lists used by spell checkers.
 old-location: intl\wordlist_type.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: F1D517F3-CAE3-46DC-867E-D8D73C20CF9A
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: spellcheck.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: SpatialInteractionManagerInterop.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WORDLIST_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: WORDLIST_TYPE
+req.redist: 
 ---
 
 # WORDLIST_TYPE enumeration

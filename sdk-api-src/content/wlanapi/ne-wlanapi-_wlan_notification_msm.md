@@ -4,7 +4,7 @@ title: "_WLAN_NOTIFICATION_MSM"
 author: windows-sdk-content
 description: Specifies the possible values of the NotificationCode member of the WLAN_NOTIFICATION_DATA structure for Media Specific Module (MSM) notifications.
 old-location: nwifi\wlan_notification_msm.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 7847658a-6789-43ad-95ad-b520333863e6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wlanapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLAN_NOTIFICATION_MSM, *PWLAN_NOTIFICATION_MSM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLAN_NOTIFICATION_MSM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLAN_NOTIFICATION_MSM, *PWLAN_NOTIFICATION_MSM
+req.redist: 
 ---
 
 # _WLAN_NOTIFICATION_MSM enumeration

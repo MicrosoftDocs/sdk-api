@@ -4,17 +4,16 @@ title: IDirect3D9::GetAdapterModeCount
 author: windows-sdk-content
 description: Returns the number of display modes available on this adapter.
 old-location: direct3d9\idirect3d9__getadaptermodecount.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__getadaptermodecount.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 8c15b401-a18e-3d6f-8b01-fd6833879d87, GetAdapterModeCount, GetAdapterModeCount method [Direct3D 9], GetAdapterModeCount method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],GetAdapterModeCount method, IDirect3D9.GetAdapterModeCount, IDirect3D9::GetAdapterModeCount, d3d9helper/IDirect3D9::GetAdapterModeCount, direct3d9.idirect3d9__getadaptermodecount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3D9.GetAdapterModeCount
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3D9::GetAdapterModeCount

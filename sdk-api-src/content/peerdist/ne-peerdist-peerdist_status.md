@@ -4,7 +4,7 @@ title: PEERDIST_STATUS
 author: windows-sdk-content
 description: PEERDIST_STATUS enumeration defines the possible status values of the Peer Distribution service.
 old-location: p2p\peerdist_status.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: d693dc1c-39ce-4a2b-b769-9d370abc3d3c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: peerdist.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEERDIST_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEERDIST_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEERDIST_STATUS
+req.redist: 
 ---
 
 # PEERDIST_STATUS enumeration

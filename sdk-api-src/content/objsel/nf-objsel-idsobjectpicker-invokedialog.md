@@ -4,17 +4,16 @@ title: IDsObjectPicker::InvokeDialog
 author: windows-sdk-content
 description: Displays a modal object picker dialog box and returns the user selections.
 old-location: ad\idsobjectpicker_invokedialog.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 76192a35-10e1-46e3-8724-7637d47d8eca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDsObjectPicker interface [Active Directory],InvokeDialog method, IDsObjectPicker.InvokeDialog, IDsObjectPicker::InvokeDialog, InvokeDialog, InvokeDialog method [Active Directory], InvokeDialog method [Active Directory],IDsObjectPicker interface, _glines_idsobjectpicker_invokedialog, ad.idsobjectpicker__invokedialog, ad.idsobjectpicker_invokedialog, objsel/IDsObjectPicker::InvokeDialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objsel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ObjectParserFlags
+req.lib: 
+req.dll: Objsel.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDsObjectPicker.InvokeDialog
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Objsel.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDsObjectPicker::InvokeDialog

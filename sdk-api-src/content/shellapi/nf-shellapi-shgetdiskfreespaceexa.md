@@ -4,17 +4,16 @@ title: SHGetDiskFreeSpaceExA function
 author: windows-sdk-content
 description: Retrieves disk space information for a disk volume.
 old-location: shell\SHGetDiskFreeSpaceEx.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f8adbfa8-124a-4934-b5dc-16e261c15a8b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHGetDiskFreeSpace, SHGetDiskFreeSpaceEx, SHGetDiskFreeSpaceEx function [Windows Shell], SHGetDiskFreeSpaceExA, SHGetDiskFreeSpaceExW, _shell_SHGetDiskFreeSpaceEx, shell.SHGetDiskFreeSpaceEx, shellapi/SHGetDiskFreeSpaceEx, shellapi/SHGetDiskFreeSpaceExA, shellapi/SHGetDiskFreeSpaceExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHGetDiskFreeSpaceExW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHGetDiskFreeSpaceExA function

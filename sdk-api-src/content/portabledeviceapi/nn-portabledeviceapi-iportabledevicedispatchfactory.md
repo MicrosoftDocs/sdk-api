@@ -4,17 +4,16 @@ title: IPortableDeviceDispatchFactory
 author: windows-sdk-content
 description: Represents a factory that can instantiate a WPD Automation Device object.
 old-location: wpdauto\iportabledevicedispatchfactory_interface.htm
-old-project: wpdauto
+tech.root: wpdauto
 ms.assetid: 537551c9-0773-44a9-b602-7d2a6bf9ad00
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPortableDeviceDispatchFactory, IPortableDeviceDispatchFactory interface [WPD Automation], IPortableDeviceDispatchFactory interface [WPD Automation],described, portabledeviceapi/IPortableDeviceDispatchFactory, wpdauto.iportabledevicedispatchfactory_interface
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGuids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceDispatchFactory
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGuids.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceDispatchFactory interface

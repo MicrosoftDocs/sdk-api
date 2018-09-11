@@ -4,17 +4,16 @@ title: SetThreadDescription function
 author: windows-sdk-content
 description: Assigns a description to a thread.
 old-location: base\setthreaddescription.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 0C17C60A-8DC9-4DB1-A3ED-5AFEBE598CBB
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: SetThreadDescription, SetThreadDescription function, base.setthreaddescription, processthreadsapi/SetThreadDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetThreadDescription
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetThreadDescription function

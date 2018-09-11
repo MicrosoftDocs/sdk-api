@@ -4,17 +4,16 @@ title: IUrlAccessor3::GetImpersonationSidBlobs
 author: windows-sdk-content
 description: Retrieves an array of user security identifiers (SIDs) for a specified URL. This method enables protocol handlers to specify which users can access the file and the search protocol host to impersonate a user in order to index the file.
 old-location: search\_search_IUrlAccessor3_GetImpersonationSidBlobs.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor3\getimpersonationsidblobs.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetImpersonationSidBlobs, GetImpersonationSidBlobs method [search], GetImpersonationSidBlobs method [search],IUrlAccessor3 interface, GetImpersonationSidBlobs method [search],IUrlAccessor4 interface, IUrlAccessor3 interface [search],GetImpersonationSidBlobs method, IUrlAccessor3.GetImpersonationSidBlobs, IUrlAccessor3::GetImpersonationSidBlobs, IUrlAccessor4 interface [search],GetImpersonationSidBlobs method, IUrlAccessor4::GetImpersonationSidBlobs, _search_IUrlAccessor3_GetImpersonationSidBlobs, search._search_IUrlAccessor3_GetImpersonationSidBlobs, searchapi/IUrlAccessor3::GetImpersonationSidBlobs, searchapi/IUrlAccessor4::GetImpersonationSidBlobs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Search (WS) 4.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUrlAccessor4.GetImpersonationSidBlobs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Search (WS) 4.0
 ---
 
 # IUrlAccessor3::GetImpersonationSidBlobs

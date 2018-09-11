@@ -4,17 +4,16 @@ title: WNetGetLastErrorW function
 author: windows-sdk-content
 description: The WNetGetLastError function retrieves the most recent extended error code set by a WNet function. The network provider reported this error code; it will not generally be one of the errors included in the SDK header file WinError.h.
 old-location: wnet\wnetgetlasterror.htm
-old-project: wnet
+tech.root: WNet
 ms.assetid: 8e13c467-adcf-4e97-b51a-1f5fc919b51e
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WNetGetLastError, WNetGetLastError function [Windows Networking (WNet)], WNetGetLastErrorA, WNetGetLastErrorW, _win32_wnetgetlasterror, winnetwk/WNetGetLastError, winnetwk/WNetGetLastErrorA, winnetwk/WNetGetLastErrorW, wnet.wnetgetlasterror
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WNetGetLastErrorW
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNetGetLastErrorW function

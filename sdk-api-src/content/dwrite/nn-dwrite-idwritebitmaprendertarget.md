@@ -4,17 +4,16 @@ title: IDWriteBitmapRenderTarget
 author: windows-sdk-content
 description: Encapsulates a 32-bit device independent bitmap and device context, which can be used for rendering glyphs.
 old-location: directwrite\IDWriteBitmapRenderTarget.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 9953a9e9-7772-41a3-9cd9-2340a9dd4b6f
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteBitmapRenderTarget, IDWriteBitmapRenderTarget interface [Direct Write], IDWriteBitmapRenderTarget interface [Direct Write],described, directwrite.IDWriteBitmapRenderTarget, dwrite/IDWriteBitmapRenderTarget
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteBitmapRenderTarget
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteBitmapRenderTarget interface

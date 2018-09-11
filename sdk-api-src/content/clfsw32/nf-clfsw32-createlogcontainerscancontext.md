@@ -4,17 +4,16 @@ title: CreateLogContainerScanContext function
 author: windows-sdk-content
 description: Creates a scan context to use with ScanLogContainers to enumerate all log containers that are associated with a log, and performs the first scan.
 old-location: fs\createlogcontainerscancontext.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 863e600c-3a7b-47b4-9cc3-dcee1bfcc66b
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: CLFS_SCAN_BACKWARD, CLFS_SCAN_FORWARD, CLFS_SCAN_INIT, CreateLogContainerScanContext, CreateLogContainerScanContext function [Files], clfsw32/CreateLogContainerScanContext, fs.createlogcontainerscancontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CreateLogContainerScanContext
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CreateLogContainerScanContext function

@@ -4,17 +4,16 @@ title: WINHTTP_PROXY_INFO
 author: windows-sdk-content
 description: The WINHTTP_PROXY_INFO structure contains the session or default proxy configuration.
 old-location: http\internet_proxy_info.htm
-old-project: winhttp
+tech.root: WinHttp
 ms.assetid: acb51bc5-43e2-4657-96eb-8e3d3e82e018
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWINHTTP_PROXY_INFO, WINHTTP_ACCESS_TYPE_DEFAULT_PROXY, WINHTTP_ACCESS_TYPE_NAMED_PROXY, WINHTTP_ACCESS_TYPE_NO_PROXY, WINHTTP_PROXY_INFO, WINHTTP_PROXY_INFO structure [HTTP], WINHTTP_PROXY_INFOW, http.internet_proxy_info, winhttp/WINHTTP_PROXY_INFO, winhttp_internet_proxy_info_structure"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 
-req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_PROXY_INFO, *LPWINHTTP_PROXY_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINHTTP_PROXY_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINHTTP_PROXY_INFO, *LPWINHTTP_PROXY_INFO
+req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ---
 
 # WINHTTP_PROXY_INFO structure

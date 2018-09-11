@@ -4,17 +4,16 @@ title: IFileSystemImage::Exists
 author: windows-sdk-content
 description: Checks for the existence of a given file or directory.
 old-location: imapi\ifilesystemimage_exists.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: c3a86e85-1ffd-47c1-9dba-0fc207d76a1a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Exists, Exists method [IMAPI], Exists method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],Exists method, IFileSystemImage.Exists, IFileSystemImage::Exists, imapi.ifilesystemimage_exists, imapi2fs/IFileSystemImage::Exists
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImage.Exists
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImage::Exists

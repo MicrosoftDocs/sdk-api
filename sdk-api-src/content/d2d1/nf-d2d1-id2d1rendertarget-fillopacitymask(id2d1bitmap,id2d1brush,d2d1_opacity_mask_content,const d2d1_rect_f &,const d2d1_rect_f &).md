@@ -4,17 +4,16 @@ title: ID2D1RenderTarget::FillOpacityMask(ID2D1Bitmap,ID2D1Brush,D2D1_OPACITY_MA
 author: windows-sdk-content
 description: Applies the opacity mask described by the specified bitmap to a brush and uses that brush to paint a region of the render target.
 old-location: direct2d\ID2D1RenderTarget_FillOpacityMask_ptr_ID2D1Bitmap_ptr_ID2D1Brush_ptr_D2D_RECT_F_ptr_D2D_RECT_F_ptr_D2D1_GAMMA.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 9d482d3e-f957-4dd4-ba40-c8ef9c522f72
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FillOpacityMask, FillOpacityMask method [Direct2D], FillOpacityMask method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],FillOpacityMask method, ID2D1RenderTarget.FillOpacityMask, ID2D1RenderTarget.FillOpacityMask(ID2D1Bitmap,ID2D1Brush,D2D1_OPACITY_MASK_CONTENT,const D2D1_RECT_F &,const D2D1_RECT_F &), ID2D1RenderTarget::FillOpacityMask, ID2D1RenderTarget::FillOpacityMask(ID2D1Bitmap,ID2D1Brush,D2D1_OPACITY_MASK_CONTENT,const D2D1_RECT_F &,const D2D1_RECT_F &), d2d1/ID2D1RenderTarget::FillOpacityMask, direct2d.ID2D1RenderTarget_FillOpacityMask_ptr_ID2D1Bitmap_ptr_ID2D1Brush_ptr_D2D_RECT_F_ptr_D2D_RECT_F_ptr_D2D1_GAMMA
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1RenderTarget.FillOpacityMask
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1RenderTarget::FillOpacityMask(ID2D1Bitmap,ID2D1Brush,D2D1_OPACITY_MASK_CONTENT,const D2D1_RECT_F &,const D2D1_RECT_F &)

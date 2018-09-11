@@ -4,17 +4,16 @@ title: IMFPMediaPlayer::UpdateVideo
 author: windows-sdk-content
 description: Updates the video frame.
 old-location: mf\imfpmediaplayer_updatevideo.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: de583e74-b31b-407e-af4b-c36649e1ca84
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],UpdateVideo method, IMFPMediaPlayer.UpdateVideo, IMFPMediaPlayer::UpdateVideo, UpdateVideo, UpdateVideo method [Media Foundation], UpdateVideo method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_updatevideo, mfplay/IMFPMediaPlayer::UpdateVideo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaPlayer.UpdateVideo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaPlayer::UpdateVideo

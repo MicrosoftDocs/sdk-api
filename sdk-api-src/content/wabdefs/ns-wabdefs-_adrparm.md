@@ -4,17 +4,16 @@ title: "_ADRPARM"
 author: windows-sdk-content
 description: Do not use. Describes the display and behavior of the common address dialog box.
 old-location: wab\_wab_ADRPARM.htm
-old-project: wab
+tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\adrparm.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPADRPARM, AB_RESOLVE, AB_SELECTONLY, ADDRESS_ONE, ADRPARM, ADRPARM structure [Windows Address Book], DIALOG_MODAL, DIALOG_SDI, LPADRPARM, LPADRPARM structure pointer [Windows Address Book], _ADRPARM, _wab_ADRPARM, wab._wab_ADRPARM, wabdefs/ADRPARM, wabdefs/LPADRPARM"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADRPARM, *LPADRPARM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ADRPARM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ADRPARM, *LPADRPARM
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

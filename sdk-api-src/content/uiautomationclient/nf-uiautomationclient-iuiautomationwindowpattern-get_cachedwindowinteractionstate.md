@@ -4,17 +4,16 @@ title: IUIAutomationWindowPattern::get_CachedWindowInteractionState
 author: windows-sdk-content
 description: Retrieves a cached value that indicates the current state of the window for the purposes of user interaction.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedWindowInteractionState.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: f01c4b96-8cd5-466d-9514-73aedfdb60d4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedWindowInteractionState property [Windows Accessibility], CachedWindowInteractionState property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CachedWindowInteractionState property, IUIAutomationWindowPattern.CachedWindowInteractionState, IUIAutomationWindowPattern.get_CachedWindowInteractionState, IUIAutomationWindowPattern::CachedWindowInteractionState, IUIAutomationWindowPattern::get_CachedWindowInteractionState, get_CachedWindowInteractionState, uiauto.uiauto_IUIAutomationWindowPattern_CachedWindowInteractionState, uiauto_IUIAutomationWindowPattern_CachedWindowInteractionState, uiautomationclient/IUIAutomationWindowPattern::CachedWindowInteractionState, uiautomationclient/IUIAutomationWindowPattern::get_CachedWindowInteractionState, winauto.uiauto_IUIAutomationWindowPattern_CachedWindowInteractionState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationWindowPattern.get_CachedWindowInteractionState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationWindowPattern::get_CachedWindowInteractionState

@@ -4,17 +4,16 @@ title: IMbnSmsReadMsgPdu::get_Message
 author: windows-sdk-content
 description: Message in WMT format as used by CDMA devices.
 old-location: mbn\imbnsmsreadmsgpdu_message.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 83135a78-096c-4690-be07-a64febecd66c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],Message property, IMbnSmsReadMsgPdu.Message, IMbnSmsReadMsgPdu.get_Message, IMbnSmsReadMsgPdu::Message, IMbnSmsReadMsgPdu::get_Message, Message property [Microsoft Broadband Networks], Message property [Microsoft Broadband Networks],IMbnSmsReadMsgPdu interface, get_Message, mbn.imbnsmsreadmsgpdu_message, mbnapi/IMbnSmsReadMsgPdu::Message, mbnapi/IMbnSmsReadMsgPdu::get_Message
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnSmsReadMsgPdu.get_Message
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSmsReadMsgPdu::get_Message

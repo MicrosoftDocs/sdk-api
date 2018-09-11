@@ -4,17 +4,16 @@ title: PCLUSAPI_CLUS_WORKER_TERMINATE
 author: windows-sdk-content
 description: Terminates a worker thread. The PCLUSAPI_CLUS_WORKER_TERMINATE type defines a pointer to this function.
 old-location: mscs\clusworkerterminate.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: d143a860-92fe-4fa9-b0d7-d591376a0209
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PCLUSAPI_CLUS_WORKER_TERMINATE, PCLUSAPI_CLUS_WORKER_TERMINATE callback, PCLUSAPI_CLUS_WORKER_TERMINATE callback function [Failover Cluster], _wolf_clusworkerterminate, mscs.clusworkerterminate, resapi/PCLUSAPI_CLUS_WORKER_TERMINATE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PCLUSAPI_CLUS_WORKER_TERMINATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PCLUSAPI_CLUS_WORKER_TERMINATE callback function

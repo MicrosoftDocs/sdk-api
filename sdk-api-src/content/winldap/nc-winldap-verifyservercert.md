@@ -4,7 +4,7 @@ title: VERIFYSERVERCERT
 author: windows-sdk-content
 description: Allows a client to evaluate the certificate chain of the server to which it is connected.
 old-location: ldap\verifyservercert.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 3c9993b2-8591-46ff-941b-ff16d42650c9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VERIFYSERVERCERT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # VERIFYSERVERCERT callback function

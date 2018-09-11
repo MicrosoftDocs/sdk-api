@@ -4,17 +4,16 @@ title: "_ACTIVATION_CONTEXT_QUERY_INDEX"
 author: windows-sdk-content
 description: The ACTIVATION_CONTEXT_QUERY_INDEX structure is used by QueryActCtxW function.
 old-location: setup\activation_context_query_index.htm
-old-project: sbscs
+tech.root: SbsCs
 ms.assetid: eb15895c-07c9-4b68-83ef-2f2b8e3b271c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PACTIVATION_CONTEXT_QUERY_INDEX, ACTIVATION_CONTEXT_QUERY_INDEX, ACTIVATION_CONTEXT_QUERY_INDEX structure [Side-by-side Assemblies], PACTIVATION_CONTEXT_QUERY_INDEX, PACTIVATION_CONTEXT_QUERY_INDEX structure pointer [Side-by-side Assemblies], _ACTIVATION_CONTEXT_QUERY_INDEX, _win32_activation_context_query_index, setup.activation_context_query_index, winnt/ACTIVATION_CONTEXT_QUERY_INDEX, winnt/PACTIVATION_CONTEXT_QUERY_INDEX"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACTIVATION_CONTEXT_QUERY_INDEX, *PACTIVATION_CONTEXT_QUERY_INDEX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACTIVATION_CONTEXT_QUERY_INDEX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ACTIVATION_CONTEXT_QUERY_INDEX, *PACTIVATION_CONTEXT_QUERY_INDEX
+req.redist: 
 ---
 
 # _ACTIVATION_CONTEXT_QUERY_INDEX structure

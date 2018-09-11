@@ -4,17 +4,16 @@ title: IFileSystemBindData2::SetJunctionCLSID
 author: windows-sdk-content
 description: Sets the class identifier (CLSID) of the object that implements IShellFolder, if the current item is a junction point.
 old-location: shell\IFileSystemBindData2_SetJunctionCLSID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e072818d-dfa4-4b95-93b6-275206596147
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileSystemBindData2 interface [Windows Shell],SetJunctionCLSID method, IFileSystemBindData2.SetJunctionCLSID, IFileSystemBindData2::SetJunctionCLSID, SetJunctionCLSID, SetJunctionCLSID method [Windows Shell], SetJunctionCLSID method [Windows Shell],IFileSystemBindData2 interface, _shell_IFileSystemBindData2_SetJunctionCLSID, shell.IFileSystemBindData2_SetJunctionCLSID, shobjidl_core/IFileSystemBindData2::SetJunctionCLSID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemBindData2.SetJunctionCLSID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemBindData2::SetJunctionCLSID

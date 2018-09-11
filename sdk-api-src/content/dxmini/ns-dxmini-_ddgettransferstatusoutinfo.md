@@ -4,7 +4,7 @@ title: "_DDGETTRANSFERSTATUSOUTINFO"
 author: windows-sdk-content
 description: The DDGETTRANSFERSTATUSOUTINFO structure contains the transfer status information.
 old-location: display\ddgettransferstatusoutinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 593a42be-e1e9-41e5-a006-1513c5aa5226
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDGETTRANSFERSTATUSOUTINFO, *PDDGETTRANSFEROUTINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDGETTRANSFERSTATUSOUTINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DDGETTRANSFERSTATUSOUTINFO, *PDDGETTRANSFEROUTINFO
+req.redist: 
 ---
 
 # _DDGETTRANSFERSTATUSOUTINFO structure

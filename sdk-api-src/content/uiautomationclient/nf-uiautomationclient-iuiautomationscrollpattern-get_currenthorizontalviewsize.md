@@ -4,17 +4,16 @@ title: IUIAutomationScrollPattern::get_CurrentHorizontalViewSize
 author: windows-sdk-content
 description: Retrieves the horizontal size of the viewable region of a scrollable element.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentHorizontalViewSize.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 523b4c3e-f48e-4486-981b-8996a4d36ae3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentHorizontalViewSize property [Windows Accessibility], CurrentHorizontalViewSize property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CurrentHorizontalViewSize property, IUIAutomationScrollPattern.CurrentHorizontalViewSize, IUIAutomationScrollPattern.get_CurrentHorizontalViewSize, IUIAutomationScrollPattern::CurrentHorizontalViewSize, IUIAutomationScrollPattern::get_CurrentHorizontalViewSize, get_CurrentHorizontalViewSize, uiauto.uiauto_IUIAutomationScrollPattern_CurrentHorizontalViewSize, uiauto_IUIAutomationScrollPattern_CurrentHorizontalViewSize, uiautomationclient/IUIAutomationScrollPattern::CurrentHorizontalViewSize, uiautomationclient/IUIAutomationScrollPattern::get_CurrentHorizontalViewSize, winauto.uiauto_IUIAutomationScrollPattern_CurrentHorizontalViewSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationScrollPattern.get_CurrentHorizontalViewSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationScrollPattern::get_CurrentHorizontalViewSize

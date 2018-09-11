@@ -4,17 +4,16 @@ title: FaxDevSend function
 author: windows-sdk-content
 description: The fax service calls the FaxDevSend function to signal a fax service provider (FSP) that it must initiate an outgoing fax transmission. Each FSP must export the FaxDevSend function.
 old-location: fax\_mfax_faxdevsend.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_7rz8.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: FaxDevSend, FaxDevSend function [Fax Service], _mfax_faxdevsend, fax._mfax_faxdevsend, faxdev/FaxDevSend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: faxdev.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FaxDevSend
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FaxDevSend function

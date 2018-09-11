@@ -4,17 +4,16 @@ title: IMultiMediaStream::GetInformation
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetInformation method retrieves the capabilities of the multimedia stream object.
 old-location: dshow\imultimediastream_getinformation.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 27be6104-9ca4-48d7-aeda-5b633460e252
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetInformation, GetInformation method [DirectShow], GetInformation method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetInformation method, IMultiMediaStream.GetInformation, IMultiMediaStream::GetInformation, IMultiMediaStreamGetInformation, dshow.imultimediastream_getinformation, mmstream/IMultiMediaStream::GetInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMultiMediaStream.GetInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMultiMediaStream::GetInformation

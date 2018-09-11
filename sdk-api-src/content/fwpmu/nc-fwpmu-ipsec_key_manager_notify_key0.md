@@ -4,7 +4,7 @@ title: IPSEC_KEY_MANAGER_NOTIFY_KEY0
 author: windows-sdk-content
 description: Is used to notify Trusted Intermediary Agents (TIAs) of the keys for the SA being negotiated.
 old-location: fwp\ipsec_key_manager_notify_key0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: ECB904D1-C78F-493D-A6B8-73EA782EA935
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_KEY_MANAGER_NOTIFY_KEY0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IPSEC_KEY_MANAGER_NOTIFY_KEY0 callback function

@@ -4,7 +4,7 @@ title: VIRTUALCHANNELWRITE
 author: windows-sdk-content
 description: Sends data from the client end of a virtual channel to a partner application on the server end.
 old-location: termserv\virtualchannelwrite.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: bd7bc65e-403c-4e29-bdb4-f2f5a957d6ab
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: cchannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - VirtualChannelWrite
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # VIRTUALCHANNELWRITE callback function

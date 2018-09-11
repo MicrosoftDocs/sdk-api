@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_termmgr_0000_0000_0001"
 author: windows-sdk-content
 description: The TMGR_DIRECTION enum is used by the pluggable terminal methods to indicate terminal direction.
 old-location: tapi3\tmgr_direction.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 1758efb7-55fc-4925-be56-7f43177db64f
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: termmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TMGR_DIRECTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TMGR_DIRECTION
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_termmgr_0000_0000_0001 enumeration

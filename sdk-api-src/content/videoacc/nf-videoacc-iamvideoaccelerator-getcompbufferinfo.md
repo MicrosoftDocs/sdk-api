@@ -4,17 +4,16 @@ title: IAMVideoAccelerator::GetCompBufferInfo
 author: windows-sdk-content
 description: The GetCompBufferInfo method gets information about the compressed buffers used for DirectX Video Acceleration (DXVA) decoding.
 old-location: dshow\iamvideoaccelerator_getcompbufferinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c32fb94d-396f-460a-9e69-1baaf14eff6e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetCompBufferInfo, GetCompBufferInfo method [DirectShow], GetCompBufferInfo method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetCompBufferInfo method, IAMVideoAccelerator.GetCompBufferInfo, IAMVideoAccelerator::GetCompBufferInfo, IAMVideoAcceleratorGetCompBufferInfo, dshow.iamvideoaccelerator_getcompbufferinfo, videoacc/IAMVideoAccelerator::GetCompBufferInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMVideoAccelerator.GetCompBufferInfo
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IAMVideoAccelerator::GetCompBufferInfo

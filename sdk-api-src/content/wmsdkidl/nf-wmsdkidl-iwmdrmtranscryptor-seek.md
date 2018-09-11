@@ -4,17 +4,16 @@ title: IWMDRMTranscryptor::Seek
 author: windows-sdk-content
 description: The Seek method sets the DRM transcryptor to read from the specified point in the data stream of the loaded file. Subsequent Read calls generate data beginning at that point.
 old-location: wmformat\iwmdrmtranscryptor_seek.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 4962741b-d1ca-4296-ad95-d171d165c5d9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMDRMTranscryptor interface [windows Media Format],Seek method, IWMDRMTranscryptor.Seek, IWMDRMTranscryptor::Seek, IWMDRMTranscryptorSeek, Seek, Seek method [windows Media Format], Seek method [windows Media Format],IWMDRMTranscryptor interface, wmformat.iwmdrmtranscryptor_seek, wmsdkidl/IWMDRMTranscryptor::Seek
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: WMStubDRM.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDRMTranscryptor.Seek
 product: Windows
 targetos: Windows
-req.lib: WMStubDRM.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDRMTranscryptor::Seek

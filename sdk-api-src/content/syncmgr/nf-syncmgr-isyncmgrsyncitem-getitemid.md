@@ -4,17 +4,16 @@ title: ISyncMgrSyncItem::GetItemID
 author: windows-sdk-content
 description: Gets the unique ID of a sync item.
 old-location: shell\ISyncMgrSyncItem_GetItemID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2add1902-1258-49ed-ad44-35d28d0776c1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetItemID, GetItemID method [Windows Shell], GetItemID method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetItemID method, ISyncMgrSyncItem.GetItemID, ISyncMgrSyncItem::GetItemID, _shell_ISyncMgrSyncItem_GetItemID, shell.ISyncMgrSyncItem_GetItemID, syncmgr/ISyncMgrSyncItem::GetItemID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSyncItem.GetItemID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSyncItem::GetItemID

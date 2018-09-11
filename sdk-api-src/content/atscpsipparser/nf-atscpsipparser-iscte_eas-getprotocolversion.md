@@ -4,17 +4,16 @@ title: ISCTE_EAS::GetProtocolVersion
 author: windows-sdk-content
 description: The GetProtocolVersion method returns the protocol version of the EAS table.
 old-location: mstv\iscte_eas_getprotocolversion.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 80700a74-85d6-4269-9000-83e62f68aeb1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetProtocolVersion, GetProtocolVersion method [Microsoft TV Technologies], GetProtocolVersion method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetProtocolVersion method, ISCTE_EAS.GetProtocolVersion, ISCTE_EAS::GetProtocolVersion, ISCTE_EASGetProtocolVersion, atscpsipparser/ISCTE_EAS::GetProtocolVersion, mstv.iscte_eas_getprotocolversion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISCTE_EAS.GetProtocolVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISCTE_EAS::GetProtocolVersion

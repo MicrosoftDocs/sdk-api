@@ -4,17 +4,16 @@ title: RollbackEnlistment function
 author: windows-sdk-content
 description: Rolls back the specified transaction that is associated with an enlistment. This function cannot be called for read-only enlistments.
 old-location: fs\rollbackenlistment.htm
-old-project: ktm
+tech.root: ktm
 ms.assetid: e62c0c81-6802-4a76-94bb-617933490e83
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RollbackEnlistment, RollbackEnlistment function [Files], fs.rollbackenlistment, ktmw32/RollbackEnlistment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+req.lib: Ktmw32.lib
+req.dll: Ktmw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RollbackEnlistment
 product: Windows
 targetos: Windows
-req.lib: Ktmw32.lib
-req.dll: Ktmw32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # RollbackEnlistment function

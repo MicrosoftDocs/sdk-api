@@ -4,17 +4,16 @@ title: IEnhancedStorageACT::GetUniqueIdentity
 author: windows-sdk-content
 description: Retrieves the unique identity of the Addressable Command Targer (ACT).
 old-location: enstor\ienhancedstorageact_getuniqueidentity.htm
-old-project: enstor
+tech.root: enstor
 ms.assetid: 0f8d33af-a771-4cbd-9740-a72fbb7e9b42
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: GetUniqueIdentity, GetUniqueIdentity method [Enhanced Storage], GetUniqueIdentity method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetUniqueIdentity method, IEnhancedStorageACT.GetUniqueIdentity, IEnhancedStorageACT::GetUniqueIdentity, ehstorapi/IEnhancedStorageACT::GetUniqueIdentity, enstor.ienhancedstorageact_getuniqueidentity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TimedLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnhancedStorageACT.GetUniqueIdentity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnhancedStorageACT::GetUniqueIdentity

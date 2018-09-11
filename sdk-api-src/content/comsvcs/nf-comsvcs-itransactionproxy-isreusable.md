@@ -4,17 +4,16 @@ title: ITransactionProxy::IsReusable
 author: windows-sdk-content
 description: Indicates whether the non-DTC transaction context can be reused for multiple transactions.
 old-location: cos\itransactionproxy_isreusable.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: c642d329-c996-4207-bdcf-7c79d955b2c4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITransactionProxy interface [COM+],IsReusable method, ITransactionProxy.IsReusable, ITransactionProxy::IsReusable, IsReusable, IsReusable method [COM+], IsReusable method [COM+],ITransactionProxy interface, comsvcs/ITransactionProxy::IsReusable, cos.itransactionproxy_isreusable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITransactionProxy.IsReusable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITransactionProxy::IsReusable

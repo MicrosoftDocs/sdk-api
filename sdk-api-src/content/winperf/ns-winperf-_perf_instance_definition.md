@@ -4,7 +4,7 @@ title: "_PERF_INSTANCE_DEFINITION"
 author: windows-sdk-content
 description: Describes an instance of a performance object.
 old-location: perf\perf_instance_definition_str.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 5ea617d3-857d-4e0a-ad10-4d63044fc927
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winperf.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_INSTANCE_DEFINITION, *PPERF_INSTANCE_DEFINITION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERF_INSTANCE_DEFINITION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: PERF_INSTANCE_DEFINITION, *PPERF_INSTANCE_DEFINITION
+req.redist: 
 ---
 
 # _PERF_INSTANCE_DEFINITION structure

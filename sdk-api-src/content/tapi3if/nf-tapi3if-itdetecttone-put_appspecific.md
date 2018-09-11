@@ -4,17 +4,16 @@ title: ITDetectTone::put_AppSpecific
 author: windows-sdk-content
 description: The put_AppSpecific method sets the application-defined tag that identifies the tone to detect.
 old-location: tapi3\itdetecttone_put_appspecific.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 0d008cda-bb01-4249-a0ca-a40d2daacbc4
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDetectTone interface [TAPI 2.2],put_AppSpecific method, ITDetectTone.put_AppSpecific, ITDetectTone::put_AppSpecific, _tapi3_itdetecttone_put_appspecific, put_AppSpecific, put_AppSpecific method [TAPI 2.2], put_AppSpecific method [TAPI 2.2],ITDetectTone interface, tapi3.itdetecttone_put_appspecific, tapi3if/ITDetectTone::put_AppSpecific
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDetectTone.put_AppSpecific
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITDetectTone::put_AppSpecific

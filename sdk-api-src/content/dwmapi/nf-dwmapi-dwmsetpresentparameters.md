@@ -4,17 +4,16 @@ title: DwmSetPresentParameters function
 author: windows-sdk-content
 description: Sets the present parameters for frame composition. DwmSetPresentParameters is no longer supported. Starting with Windows 8.1, calls to DwmSetPresentParameters always return E_NOTIMPL.
 old-location: dwm\dwmsetpresentparameters.htm
-old-project: dwm
+tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmsetpresentparameters.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DwmSetPresentParameters, DwmSetPresentParameters function [Desktop Window Manager], _udwm_dwmsetpresentparameters, _udwm_dwmsetpresentparameters_cpp, dwm.dwmsetpresentparameters, dwmapi/DwmSetPresentParameters, winui._udwm_dwmsetpresentparameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwmapi.lib
+req.dll: Dwmapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DwmSetPresentParameters
 product: Windows
 targetos: Windows
-req.lib: Dwmapi.lib
-req.dll: Dwmapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DwmSetPresentParameters function

@@ -4,17 +4,16 @@ title: IFileDialog::SetTitle
 author: windows-sdk-content
 description: Sets the title of the dialog.
 old-location: shell\IFileDialog_SetTitle.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9ae3d226-e825-443a-a2b0-4b5bb07fc9f7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetTitle method, IFileDialog.SetTitle, IFileDialog::SetTitle, SetTitle, SetTitle method [Windows Shell], SetTitle method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetTitle, shell_IFileDialog_SetTitle, shobjidl_core/IFileDialog::SetTitle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialog.SetTitle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialog::SetTitle

@@ -4,7 +4,7 @@ title: "_SOCKET_ADDRESS_LIST"
 author: windows-sdk-content
 description: The SOCKET_ADDRESS_LIST structure defines a variable-sized list of transport addresses.
 old-location: netvista\socket_address_list.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: b005200b-b0c2-4f19-8765-cd26fbfc0cff
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Wsk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKET_ADDRESS_LIST, *PSOCKET_ADDRESS_LIST, *LPSOCKET_ADDRESS_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SOCKET_ADDRESS_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SOCKET_ADDRESS_LIST, *PSOCKET_ADDRESS_LIST, *LPSOCKET_ADDRESS_LIST
+req.redist: 
 ---
 
 # _SOCKET_ADDRESS_LIST structure

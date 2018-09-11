@@ -4,7 +4,7 @@ title: IMFSinkWriterEncoderConfig
 author: windows-sdk-content
 description: Provides additional functionality on the sink writer for dynamically changing the media type and encoder configuration.
 old-location: mf\imfsinkwriterencoderconfig.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3a0d090d-9eb1-4624-989b-c5da27b988aa
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfreadwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_SOURCE_READER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSinkWriterEncoderConfig
 product: Windows
 targetos: Windows
-req.lib: Mfreadwrite.lib
-req.dll: Mfreadwrite.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSinkWriterEncoderConfig interface

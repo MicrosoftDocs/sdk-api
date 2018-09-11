@@ -4,7 +4,7 @@ title: IDot11AdHocNetwork
 author: windows-sdk-content
 description: Represents an available ad hoc network destination within connection range.
 old-location: nwifi\idot11adhocnetwork.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 2736bb81-b66f-4c09-8c76-ca16f3eab192
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocNetwork
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocNetwork interface

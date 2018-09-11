@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxDoc.get_RecipientCompany
 title: IFaxDoc::get_RecipientCompany
 author: windows-sdk-content
 description: Sets or retrieves the RecipientCompany property of a FaxDoc object. The RecipientCompany property is a null-terminated string that contains the company name of the recipient of the fax transmission.
-old-location: fax\_mfax_ifaxdoc_get_recipientcompany_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcompany_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0rjt.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxDoc object [Fax Service],RecipientCompany property, FaxDoc.RecipientCompany, IFaxDoc.get_RecipientCompany, IFaxDoc::get_RecipientCompany, RecipientCompany property [Fax Service], RecipientCompany property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientcompany, fax._mfax_ifaxdoc_get_recipientcompany, fax._mfax_ifaxdoc_get_recipientcompany_vb, get_RecipientCompany
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxDoc interface [Fax Service],RecipientCompany property, IFaxDoc.RecipientCompany, IFaxDoc.get_RecipientCompany, IFaxDoc::RecipientCompany, IFaxDoc::get_RecipientCompany, IFaxDoc::put_RecipientCompany, RecipientCompany property [Fax Service], RecipientCompany property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientcompany, fax._mfax_ifaxdoc_get_recipientcompany, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcompany_cpp, faxcom/IFaxDoc::RecipientCompany, faxcom/IFaxDoc::get_RecipientCompany, faxcom/IFaxDoc::put_RecipientCompany, get_RecipientCompany
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxDoc.RecipientCompany
+ - IFaxDoc.RecipientCompany
+ - IFaxDoc.get_RecipientCompany
+ - IFaxDoc.put_RecipientCompany
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDoc::get_RecipientCompany
@@ -81,10 +81,6 @@ The <b>get_RecipientCompany</b> method allocates the memory required for the buf
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms690707(v=VS.85).aspx">FaxDoc</a>
 
 
 

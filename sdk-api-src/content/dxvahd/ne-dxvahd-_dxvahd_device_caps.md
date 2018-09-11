@@ -4,7 +4,7 @@ title: "_DXVAHD_DEVICE_CAPS"
 author: windows-sdk-content
 description: Defines video processing capabilities for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_device_caps.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1f3dde4c-cd9d-4361-b2b2-db3c9d2ea146
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_DEVICE_CAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVAHD_DEVICE_CAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVAHD_DEVICE_CAPS
+req.redist: 
 ---
 
 # _DXVAHD_DEVICE_CAPS enumeration

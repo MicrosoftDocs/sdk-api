@@ -4,17 +4,16 @@ title: IAzApplication::AddPolicyReaderName
 author: windows-sdk-content
 description: Adds the specified account name to the list of principals that act as policy readers.
 old-location: security\iazapplication_addpolicyreadername.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: cc81527a-7a38-4c5c-857e-bedcda5a5ac3
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AddPolicyReaderName, AddPolicyReaderName method [Security], AddPolicyReaderName method [Security],AzApplication object, AddPolicyReaderName method [Security],IAzApplication interface, AzApplication object [Security],AddPolicyReaderName method, IAzApplication interface [Security],AddPolicyReaderName method, IAzApplication.AddPolicyReaderName, IAzApplication::AddPolicyReaderName, azroles/IAzApplication::AddPolicyReaderName, security.iazapplication_addpolicyreadername
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzApplication.AddPolicyReaderName
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::AddPolicyReaderName

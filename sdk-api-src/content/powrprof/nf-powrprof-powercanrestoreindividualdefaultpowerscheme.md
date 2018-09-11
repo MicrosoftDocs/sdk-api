@@ -4,17 +4,16 @@ title: PowerCanRestoreIndividualDefaultPowerScheme function
 author: windows-sdk-content
 description: Determines if the current user has access to the data for the specified power scheme so that it could be restored if necessary.
 old-location: base\powercanrestoreindividualdefaultpowerscheme.htm
-old-project: power
+tech.root: power
 ms.assetid: 8f29c993-b237-4302-a48b-05368ead9a44
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PowerCanRestoreIndividualDefaultPowerScheme, PowerCanRestoreIndividualDefaultPowerScheme function, base.powercanrestoreindividualdefaultpowerscheme, powrprof/PowerCanRestoreIndividualDefaultPowerScheme
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PowerCanRestoreIndividualDefaultPowerScheme
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PowerCanRestoreIndividualDefaultPowerScheme function

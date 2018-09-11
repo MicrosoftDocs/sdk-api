@@ -4,17 +4,16 @@ title: IUpdateServiceManager::SetOption
 author: windows-sdk-content
 description: Set options for the object that specifies the service ID. The SetOption method is also used to determine whether a warning is displayed when you change the registration of Automatic Updates.
 old-location: wua\iupdateservicemanager_setoption.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: dbf0b70c-5be0-4acc-9c44-bf32f6f752fd
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],SetOption method, IUpdateServiceManager.SetOption, IUpdateServiceManager::SetOption, SetOption, SetOption method [Windows Update Agent], SetOption method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_setoption, wuapi/IUpdateServiceManager::SetOption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUpdateServiceManager.SetOption
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateServiceManager::SetOption

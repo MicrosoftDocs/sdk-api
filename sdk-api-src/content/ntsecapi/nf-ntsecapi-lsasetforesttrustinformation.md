@@ -4,17 +4,16 @@ title: LsaSetForestTrustInformation function
 author: windows-sdk-content
 description: Sets the forest trust information for a specified Local Security Authority&#160;TrustedDomain object.
 old-location: security\lsasetforesttrustinformation.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 8b0f90ed-7dd4-4803-97c6-31d191b6d2b3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: LsaSetForestTrustInformation, LsaSetForestTrustInformation function [Security], ntsecapi/LsaSetForestTrustInformation, security.lsasetforesttrustinformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LsaSetForestTrustInformation
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # LsaSetForestTrustInformation function

@@ -4,17 +4,16 @@ title: ICameraUIControl::RemoveCapturedItem
 author: windows-sdk-content
 description: Removes the captured item.
 old-location: winprog\icamerauicontrol_removecaptureditem.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 384b08e4-7683-43e1-b088-38455a0b956f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICameraUIControl interface [Windows API],RemoveCapturedItem method, ICameraUIControl.RemoveCapturedItem, ICameraUIControl::RemoveCapturedItem, RemoveCapturedItem, RemoveCapturedItem method [Windows API], RemoveCapturedItem method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::RemoveCapturedItem, winprog.icamerauicontrol_removecaptureditem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: camerauicontrol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_MARSHALCONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICameraUIControl.RemoveCapturedItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICameraUIControl::RemoveCapturedItem

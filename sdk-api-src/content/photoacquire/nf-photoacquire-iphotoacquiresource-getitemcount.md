@@ -4,17 +4,16 @@ title: IPhotoAcquireSource::GetItemCount
 author: windows-sdk-content
 description: The GetItemCount method retrieves the number of items found by the InitializeItemList method.
 old-location: picacq\iphotoacquiresource_getitemcount.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: f60538f2-f1b1-40bb-8663-ed93eede433e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetItemCount, GetItemCount method [Picture Acquisition], GetItemCount method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetItemCount method, IPhotoAcquireSource.GetItemCount, IPhotoAcquireSource::GetItemCount, IPhotoAcquireSourceGetItemCount, photoacquire/IPhotoAcquireSource::GetItemCount, picacq.iphotoacquiresource_getitemcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireSource.GetItemCount
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireSource::GetItemCount

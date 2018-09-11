@@ -4,17 +4,16 @@ title: D3D10_TEX2DMS_ARRAY_RTV
 author: windows-sdk-content
 description: Specifies the subresource(s) from a an array of multisampled 2D textures to use in a render-target view.
 old-location: direct3d10\d3d10_tex2dms_array_rtv.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2dms_array_rtv.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: D3D10_TEX2DMS_ARRAY_RTV, D3D10_TEX2DMS_ARRAY_RTV structure [Direct3D 10], c5d75d40-aca3-78bb-905d-0a4ed02b9946, d3d10/D3D10_TEX2DMS_ARRAY_RTV, direct3d10.d3d10_tex2dms_array_rtv
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_TEX2DMS_ARRAY_RTV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_TEX2DMS_ARRAY_RTV
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D10_TEX2DMS_ARRAY_RTV
+req.redist: 
 ---
 
 # D3D10_TEX2DMS_ARRAY_RTV structure

@@ -4,17 +4,16 @@ title: DhcpServerGetConfigVQ function
 author: windows-sdk-content
 description: Retrieves the current DHCP server configuration settings.
 old-location: dhcp\dhcpservergetconfigvq.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 77726631-2be0-4ec0-a50f-786e4f3b460a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpServerGetConfigVQ, DhcpServerGetConfigVQ function [DHCP], dhcp.dhcpservergetconfigvq, dhcpsapi/DhcpServerGetConfigVQ
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpServerGetConfigVQ
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpServerGetConfigVQ function

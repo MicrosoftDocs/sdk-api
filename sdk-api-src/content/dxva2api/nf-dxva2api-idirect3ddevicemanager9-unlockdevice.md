@@ -4,17 +4,16 @@ title: IDirect3DDeviceManager9::UnlockDevice
 author: windows-sdk-content
 description: Unlocks the Direct3D device.
 old-location: mf\idirect3ddevicemanager9_unlockdevice.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e5be74bc-55a2-4c8a-86eb-97b96a4091e7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IDirect3DDeviceManager9 interface [Media Foundation],UnlockDevice method, IDirect3DDeviceManager9.UnlockDevice, IDirect3DDeviceManager9::UnlockDevice, UnlockDevice, UnlockDevice method [Media Foundation], UnlockDevice method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::UnlockDevice, e5be74bc-55a2-4c8a-86eb-97b96a4091e7, mf.idirect3ddevicemanager9_unlockdevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirect3DDeviceManager9.UnlockDevice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDeviceManager9::UnlockDevice

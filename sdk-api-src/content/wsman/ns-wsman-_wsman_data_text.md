@@ -4,17 +4,16 @@ title: "_WSMAN_DATA_TEXT"
 author: windows-sdk-content
 description: Holds textual data for use with various Windows Remote Management functions.
 old-location: winrm\wsman_data_text.htm
-old-project: winrm
+tech.root: WinRM
 ms.assetid: 463dcc6a-2a56-42a9-a778-7a634e5f977c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSMAN_DATA_TEXT, WSMAN_DATA_TEXT structure [Windows Remote Management], _WSMAN_DATA_TEXT, winrm.wsman_data_text, wsman/WSMAN_DATA_TEXT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 
-req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSMAN_DATA_TEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSMAN_DATA_TEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSMAN_DATA_TEXT
+req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 ---
 
 # _WSMAN_DATA_TEXT structure

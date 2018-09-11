@@ -4,7 +4,7 @@ title: INSSBuffer4
 author: windows-sdk-content
 description: The INSSBuffer4 interface provides methods to enumerate buffer properties.
 old-location: wmformat\inssbuffer4.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: d6531e52-b58b-46ed-a47b-444cd98e1ec5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsbuffer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPServices_StreamState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INSSBuffer4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # INSSBuffer4 interface

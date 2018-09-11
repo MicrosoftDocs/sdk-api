@@ -4,7 +4,7 @@ title: IMediaParamInfo
 author: windows-sdk-content
 description: The IMediaParamInfo interface retrieves information about the parameters that an object supports. The set of parameters that an object supports will not change over the lifetime of an application. To set parameter values, use the IMediaParams interface.
 old-location: dshow\imediaparaminfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 80c7da71-7898-4bda-a181-09ad8906532a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: medparam.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MP_TYPE
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaParamInfo
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaParamInfo interface

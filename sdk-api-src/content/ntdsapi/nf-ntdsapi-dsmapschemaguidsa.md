@@ -4,17 +4,16 @@ title: DsMapSchemaGuidsA function
 author: windows-sdk-content
 description: Converts GUIDs of directory service schema objects to their display names.
 old-location: ad\dsmapschemaguids.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 439fff20-51eb-490d-a330-61d07f79c436
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsMapSchemaGuids, DsMapSchemaGuids function [Active Directory], DsMapSchemaGuidsA, DsMapSchemaGuidsW, _glines_dsmapschemaguids, ad.dsmapschemaguids, ntdsapi/DsMapSchemaGuids, ntdsapi/DsMapSchemaGuidsA, ntdsapi/DsMapSchemaGuidsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsMapSchemaGuidsW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsMapSchemaGuidsA function

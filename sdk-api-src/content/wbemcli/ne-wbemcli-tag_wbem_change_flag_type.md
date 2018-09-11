@@ -4,17 +4,16 @@ title: tag_WBEM_CHANGE_FLAG_TYPE
 author: windows-sdk-content
 description: Contains method parameter flags.
 old-location: wmi\wbem_change_flag_type.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: B36B7D62-13C9-401F-A6C0-7C498A139AEC
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: WBEM_CHANGE_FLAG_TYPE, WBEM_CHANGE_FLAG_TYPE enumeration [Windows Management Instrumentation], WBEM_FLAG_ADVISORY, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_UPDATE_COMPATIBLE, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, WBEM_MASK_UPDATE_MODE, tag_WBEM_CHANGE_FLAG_TYPE, wbemcli/WBEM_CHANGE_FLAG_TYPE, wbemcli/WBEM_FLAG_ADVISORY, wbemcli/WBEM_FLAG_CREATE_ONLY, wbemcli/WBEM_FLAG_CREATE_OR_UPDATE, wbemcli/WBEM_FLAG_UPDATE_COMPATIBLE, wbemcli/WBEM_FLAG_UPDATE_FORCE_MODE, wbemcli/WBEM_FLAG_UPDATE_ONLY, wbemcli/WBEM_FLAG_UPDATE_SAFE_MODE, wbemcli/WBEM_MASK_UPDATE_MODE, wmi.wbem_change_flag_type
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WBEM_CHANGE_FLAG_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WBEM_CHANGE_FLAG_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WBEM_CHANGE_FLAG_TYPE
+req.redist: 
 ---
 
 # tag_WBEM_CHANGE_FLAG_TYPE enumeration

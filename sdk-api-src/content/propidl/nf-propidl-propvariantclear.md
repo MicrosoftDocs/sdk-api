@@ -4,17 +4,16 @@ title: PropVariantClear function
 author: windows-sdk-content
 description: Clears a PROPVARIANT structure.
 old-location: properties\PropVariantClear.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 68b00e4b-39d3-49e3-8a0d-032edcb23b06
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PropVariantClear, PropVariantClear function [Windows Properties], _shell_PropVariantClear, properties.PropVariantClear, propidl/PropVariantClear, shell.PropVariantClear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propidl.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROFILEINFOW, *LPPROFILEINFOW
+req.lib: Ole32.lib
+req.dll: Ole32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - PropVariantClear
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # PropVariantClear function

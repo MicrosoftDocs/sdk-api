@@ -4,17 +4,16 @@ title: WdsCliFindNextImage function
 author: windows-sdk-content
 description: Advances the reference of a find handle to the next image stored on a WDS server.
 old-location: wds\wdsclifindnextimage.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: 15f2a00b-30bd-4736-b236-db847eec1779
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WdsCliFindNextImage, WdsCliFindNextImage function [Windows Deployment Services], wds.wdsclifindnextimage, wdsclientapi/WdsCliFindNextImage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+req.lib: WdsClientAPI.lib
+req.dll: WdsClientAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsCliFindNextImage
 product: Windows
 targetos: Windows
-req.lib: WdsClientAPI.lib
-req.dll: WdsClientAPI.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsCliFindNextImage function

@@ -4,17 +4,16 @@ title: IDWriteGlyphRunAnalysis::CreateAlphaTexture
 author: windows-sdk-content
 description: Creates an alpha texture of the specified type for glyphs within a specified bounding rectangle.
 old-location: directwrite\IDWriteGlyphRunAnalysis_CreateAlphaTexture.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: a3a28efa-b235-4608-8410-15cc0ebfe38e
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: CreateAlphaTexture, CreateAlphaTexture method [Direct Write], CreateAlphaTexture method [Direct Write],IDWriteGlyphRunAnalysis interface, IDWriteGlyphRunAnalysis interface [Direct Write],CreateAlphaTexture method, IDWriteGlyphRunAnalysis.CreateAlphaTexture, IDWriteGlyphRunAnalysis::CreateAlphaTexture, directwrite.IDWriteGlyphRunAnalysis_CreateAlphaTexture, dwrite/IDWriteGlyphRunAnalysis::CreateAlphaTexture
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteGlyphRunAnalysis.CreateAlphaTexture
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteGlyphRunAnalysis::CreateAlphaTexture

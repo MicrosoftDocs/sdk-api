@@ -4,17 +4,16 @@ title: IUPnPNAT::get_NATEventManager
 author: windows-sdk-content
 description: The get_NATEventManager method retrieves an INATEventManager interface for the NAT used by the local computer.
 old-location: ics\iupnpnat_get_nateventmanager.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 594fdd40-062e-4f81-af11-4170a5870472
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IUPnPNAT interface [ICS/ICF],get_NATEventManager method, IUPnPNAT.get_NATEventManager, IUPnPNAT::get_NATEventManager, _ics_iupnpnat_get_nateventmanager, get_NATEventManager, get_NATEventManager method [ICS/ICF], get_NATEventManager method [ICS/ICF],IUPnPNAT interface, ics.iupnpnat_get_nateventmanager, natupnp/IUPnPNAT::get_NATEventManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemHealthAgentState
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPNAT.get_NATEventManager
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPNAT::get_NATEventManager

@@ -4,17 +4,16 @@ title: DESKTOP_WALLPAPER_POSITION
 author: windows-sdk-content
 description: Specifies how the desktop wallpaper should be displayed.
 old-location: shell\DESKTOP_WALLPAPER_POSITION.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5524E7DA-087C-475a-BB22-5E62C1A5CC4D
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DESKTOP_WALLPAPER_POSITION, DESKTOP_WALLPAPER_POSITION enumeration [Windows Shell], DWPOS_CENTER, DWPOS_FILL, DWPOS_FIT, DWPOS_SPAN, DWPOS_STRETCH, DWPOS_TILE, shell.DESKTOP_WALLPAPER_POSITION, shobjidl_core/DESKTOP_WALLPAPER_POSITION, shobjidl_core/DWPOS_CENTER, shobjidl_core/DWPOS_FILL, shobjidl_core/DWPOS_FIT, shobjidl_core/DWPOS_SPAN, shobjidl_core/DWPOS_STRETCH, shobjidl_core/DWPOS_TILE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DESKTOP_WALLPAPER_POSITION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DESKTOP_WALLPAPER_POSITION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: DESKTOP_WALLPAPER_POSITION
+req.redist: 
 ---
 
 # DESKTOP_WALLPAPER_POSITION enumeration

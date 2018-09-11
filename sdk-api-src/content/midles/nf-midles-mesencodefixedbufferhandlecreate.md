@@ -4,17 +4,16 @@ title: MesEncodeFixedBufferHandleCreate function
 author: windows-sdk-content
 description: The MesEncodeFixedBufferHandleCreate function creates an encoding handle and then initializes it for a fixed buffer style of serialization.
 old-location: rpc\mesencodefixedbufferhandlecreate.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 7700e0f6-0f30-415c-9873-983ec6c249b2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MesEncodeFixedBufferHandleCreate, MesEncodeFixedBufferHandleCreate function [RPC], _rpc_mesencodefixedbufferhandlecreate, midles/MesEncodeFixedBufferHandleCreate, rpc.mesencodefixedbufferhandlecreate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: midles.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MesEncodeFixedBufferHandleCreate
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MesEncodeFixedBufferHandleCreate function

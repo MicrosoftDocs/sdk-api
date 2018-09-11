@@ -4,7 +4,7 @@ title: "_MIB_ICMP_EX_XPSP1"
 author: windows-sdk-content
 description: Contains the extended Internet Control Message Protocol (ICMP) statistics for a particular computer.
 old-location: mib\mib_icmp_ex.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 3d2c7edc-c9e6-4db6-b7c8-07f7f01cbe0d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_ICMP_EX_XPSP1, *PMIB_ICMP_EX_XPSP1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_ICMP_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_ICMP_EX_XPSP1, *PMIB_ICMP_EX_XPSP1
+req.redist: 
 ---
 
 # _MIB_ICMP_EX_XPSP1 structure

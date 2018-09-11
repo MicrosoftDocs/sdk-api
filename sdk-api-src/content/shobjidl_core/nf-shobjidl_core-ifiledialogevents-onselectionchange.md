@@ -4,17 +4,16 @@ title: IFileDialogEvents::OnSelectionChange
 author: windows-sdk-content
 description: Called when the user changes the selection in the dialog's view.
 old-location: shell\IFileDialogEvents_OnSelectionChange.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5fd69b1f-4e4b-4643-8429-9b5f98f3d702
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnSelectionChange method, IFileDialogEvents.OnSelectionChange, IFileDialogEvents::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Windows Shell], OnSelectionChange method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnSelectionChange, shell_IFileDialogEvents_OnSelectionChange, shobjidl_core/IFileDialogEvents::OnSelectionChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialogEvents.OnSelectionChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialogEvents::OnSelectionChange

@@ -4,17 +4,16 @@ title: IParseDisplayName
 author: windows-sdk-content
 description: Parses a displayable name string to convert it into a moniker for custom moniker implementations.
 old-location: com\iparsedisplayname.htm
-old-project: com
+tech.root: com
 ms.assetid: 37844d9b-35ce-4d30-8a58-dac4c671896f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IParseDisplayName, IParseDisplayName interface [COM], IParseDisplayName interface [COM],described, _com_iparsedisplayname, com.iparsedisplayname, oleidl/IParseDisplayName
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IParseDisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Adhocreportingexcelclient.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IParseDisplayName interface

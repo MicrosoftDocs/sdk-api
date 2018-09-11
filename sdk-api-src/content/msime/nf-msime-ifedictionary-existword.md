@@ -4,17 +4,16 @@ title: IFEDictionary::ExistWord
 author: windows-sdk-content
 description: Determines if the specified word exists in IFEDictionary.
 old-location: intl\ifedictionary_existword.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 70BBC94A-97D6-4237-A0C9-F6861ED6C95D
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ExistWord, ExistWord method [Internationalization for Windows Applications], ExistWord method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],ExistWord method, IFEDictionary.ExistWord, IFEDictionary::ExistWord, intl.ifedictionary_existword, msime/IFEDictionary::ExistWord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFEDictionary.ExistWord
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IFEDictionary::ExistWord

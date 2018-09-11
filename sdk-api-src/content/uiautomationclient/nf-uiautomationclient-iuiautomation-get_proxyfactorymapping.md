@@ -4,17 +4,16 @@ title: IUIAutomation::get_ProxyFactoryMapping
 author: windows-sdk-content
 description: Retrieves an object that represents the mapping of Window classnames and associated data to individual proxy factories.
 old-location: winauto\uiauto_IUIAutomation_ProxyFactoryMapping.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: cf1aae6e-3f83-4b4e-9e5c-a57db6cfa9ce
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],ProxyFactoryMapping property, IUIAutomation.ProxyFactoryMapping, IUIAutomation.get_ProxyFactoryMapping, IUIAutomation::ProxyFactoryMapping, IUIAutomation::get_ProxyFactoryMapping, ProxyFactoryMapping property [Windows Accessibility], ProxyFactoryMapping property [Windows Accessibility],IUIAutomation interface, get_ProxyFactoryMapping, uiauto.uiauto_IUIAutomation_ProxyFactoryMapping, uiauto_IUIAutomation_ProxyFactoryMapping, uiautomationclient/IUIAutomation::ProxyFactoryMapping, uiautomationclient/IUIAutomation::get_ProxyFactoryMapping, winauto.uiauto_IUIAutomation_ProxyFactoryMapping
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomation.get_ProxyFactoryMapping
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation::get_ProxyFactoryMapping

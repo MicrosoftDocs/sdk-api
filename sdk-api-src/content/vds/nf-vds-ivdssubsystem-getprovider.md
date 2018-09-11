@@ -4,17 +4,16 @@ title: IVdsSubSystem::GetProvider
 author: windows-sdk-content
 description: Returns the provider that manages the subsystem.
 old-location: base\ivdssubsystem_getprovider.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 317e4aa3-2635-4e1b-af2d-ad7c6170bf33
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetProvider, GetProvider method [VDS], GetProvider method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],GetProvider method, IVdsSubSystem.GetProvider, IVdsSubSystem::GetProvider, base.ivdssubsystem_getprovider, vds/IVdsSubSystem::GetProvider, vdshwprv/IVdsSubSystem::GetProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSubSystem.GetProvider
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsSubSystem::GetProvider

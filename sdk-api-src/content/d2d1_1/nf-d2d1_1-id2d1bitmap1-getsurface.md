@@ -4,17 +4,16 @@ title: ID2D1Bitmap1::GetSurface
 author: windows-sdk-content
 description: Gets either the surface that was specified when the bitmap was created, or the default surface created when the bitmap was created.
 old-location: direct2d\id2d1bitmap1_getsurface.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: f9cb3830-7c1a-4254-a3fd-f1c056bec0c0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSurface, GetSurface method [Direct2D], GetSurface method [Direct2D],ID2D1Bitmap1 interface, ID2D1Bitmap1 interface [Direct2D],GetSurface method, ID2D1Bitmap1.GetSurface, ID2D1Bitmap1::GetSurface, d2d1_1/ID2D1Bitmap1::GetSurface, direct2d.id2d1bitmap1_getsurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Bitmap1.GetSurface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Bitmap1::GetSurface

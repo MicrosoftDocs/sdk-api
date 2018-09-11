@@ -4,7 +4,7 @@ title: "_MFNetCredentialOptions"
 author: windows-sdk-content
 description: Describes options for the caching network credentials.
 old-location: mf\mfnetcredentialoptions.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5ee4f46c-762c-4acf-86ff-da7a93b5de05
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFNetCredentialOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFNetCredentialOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFNetCredentialOptions
+req.redist: 
 ---
 
 # _MFNetCredentialOptions enumeration

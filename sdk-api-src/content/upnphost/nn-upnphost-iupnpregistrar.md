@@ -4,17 +4,16 @@ title: IUPnPRegistrar
 author: windows-sdk-content
 description: The IUPnPRegistrar interface registers the devices that run in the context of the device host.
 old-location: upnp\iupnpregistrar.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: c851e102-4f03-4a21-9e62-9b5c60a728f3
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPRegistrar, IUPnPRegistrar interface [UPnP APIs], IUPnPRegistrar interface [UPnP APIs],described, _upnp_iupnpregistrar, upnp.iupnpregistrar, upnphost/IUPnPRegistrar
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnphost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPRegistrar
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnphost.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPRegistrar interface

@@ -4,17 +4,16 @@ title: IEnumOLEVERB::Reset
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumoleverb_reset.htm
-old-project: com
+tech.root: com
 ms.assetid: 612a364a-e7c2-4efd-b55c-1050891f5e22
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumOLEVERB interface [COM],Reset method, IEnumOLEVERB.Reset, IEnumOLEVERB::Reset, Reset, Reset method [COM], Reset method [COM],IEnumOLEVERB interface, _ole_ienumoleverb_reset, com.ienumoleverb_reset, oleidl/IEnumOLEVERB::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumOLEVERB.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumOLEVERB::Reset

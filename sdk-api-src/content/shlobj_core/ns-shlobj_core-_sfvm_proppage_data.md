@@ -4,17 +4,16 @@ title: "_SFVM_PROPPAGE_DATA"
 author: windows-sdk-content
 description: Contains the details of a page to be added to an object's Properties sheet.
 old-location: shell\SFVM_PROPPAGE_DATA.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9f214786-fc82-4f1b-a0ec-7bf61b1f3cf7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SFVM_PROPPAGE_DATA, SFVM_PROPPAGE_DATA structure [Windows Shell], _SFVM_PROPPAGE_DATA, _win32_SFVM_PROPPAGE_DATA, shell.SFVM_PROPPAGE_DATA, shlobj_core/SFVM_PROPPAGE_DATA
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SFVM_PROPPAGE_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SFVM_PROPPAGE_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SFVM_PROPPAGE_DATA
+req.redist: 
 ---
 
 # _SFVM_PROPPAGE_DATA structure

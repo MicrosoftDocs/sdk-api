@@ -4,17 +4,16 @@ title: ID3D10EffectRasterizerVariable
 author: windows-sdk-content
 description: A rasterizer-variable interface accesses rasterizer state.
 old-location: direct3d10\id3d10effectrasterizervariable.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrasterizervariable.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: ID3D10EffectRasterizerVariable, ID3D10EffectRasterizerVariable interface [Direct3D 10], ID3D10EffectRasterizerVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectRasterizerVariable, direct3d10.id3d10effectrasterizervariable, e64c6162-c4a1-3cb0-6a8f-633ecb9840a6
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D10EffectRasterizerVariable
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10EffectRasterizerVariable interface

@@ -4,17 +4,16 @@ title: NetAddr_GetAddress macro
 author: windows-sdk-content
 description: Indicates whether a network address conforms to a specified type and format.
 old-location: shell\NetAddr_GetAddress.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2d0310a8-89ca-41b5-8afc-faec29bd23ba
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: NetAddr_GetAddress, NetAddr_GetAddress macro [Windows Shell], _shell_NetAddr_GetAddress, shell.NetAddr_GetAddress, shellapi/NetAddr_GetAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetAddr_GetAddress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # NetAddr_GetAddress macro

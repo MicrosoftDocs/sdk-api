@@ -4,17 +4,16 @@ title: IOleControl::GetControlInfo
 author: windows-sdk-content
 description: Retrieves information about the control's keyboard mnemonics and behavior.
 old-location: com\iolecontrol_getcontrolinfo.htm
-old-project: com
+tech.root: com
 ms.assetid: defb7509-e586-45a0-9e56-de9eba17f18e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetControlInfo, GetControlInfo method [COM], GetControlInfo method [COM],IOleControl interface, IOleControl interface [COM],GetControlInfo method, IOleControl.GetControlInfo, IOleControl::GetControlInfo, _ctrl_iolecontrol_getcontrolinfo, com.iolecontrol_getcontrolinfo, ocidl/IOleControl::GetControlInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleControl.GetControlInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleControl::GetControlInfo

@@ -4,17 +4,16 @@ title: GetCurrencyFormatEx function
 author: windows-sdk-content
 description: Formats a number string as a currency string for a locale specified by name.Note  The application should call this function in preference to GetCurrencyFormat if designed to run only on Windows Vista and later. Note  This function can format data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
 old-location: intl\getcurrencyformatex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 72639b31-cd5d-455c-873a-e3cf4051f4cd
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetCurrencyFormatEx, GetCurrencyFormatEx function [Internationalization for Windows Applications], _win32_GetCurrencyFormatEx, intl.getcurrencyformatex, winnls/GetCurrencyFormatEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetCurrencyFormatEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetCurrencyFormatEx function

@@ -4,17 +4,16 @@ title: IMcastScope::get_ScopeDescription
 author: windows-sdk-content
 description: The get_ScopeDescription method obtains a textual description associated with this scope. The description is used only for clarifying the purpose or meaning of a scope and is not needed for any subsequent calls.
 old-location: tapi3\imcastscope_get_scopedescription.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: e675ba4a-8e5f-42a6-8edf-9b136cf9dd46
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IMcastScope interface [TAPI 2.2],get_ScopeDescription method, IMcastScope.get_ScopeDescription, IMcastScope::get_ScopeDescription, _tapi3_imcastscope_get_scopedescription, get_ScopeDescription, get_ScopeDescription method [TAPI 2.2], get_ScopeDescription method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_ScopeDescription, tapi3.imcastscope_get_scopedescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMcastScope.get_ScopeDescription
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Mdhcp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMcastScope::get_ScopeDescription

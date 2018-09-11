@@ -4,17 +4,16 @@ title: IMFASFContentInfo::ParseHeader
 author: windows-sdk-content
 description: Parses the information in an ASF header and uses that information to set values in the ContentInfo object. You can pass the entire header in a single buffer or send it in several pieces.
 old-location: mf\imfasfcontentinfo_parseheader.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 149e2514-74e5-403b-925f-53a17dbbcb64
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 149e2514-74e5-403b-925f-53a17dbbcb64, IMFASFContentInfo interface [Media Foundation],ParseHeader method, IMFASFContentInfo.ParseHeader, IMFASFContentInfo::ParseHeader, ParseHeader, ParseHeader method [Media Foundation], ParseHeader method [Media Foundation],IMFASFContentInfo interface, mf.imfasfcontentinfo_parseheader, wmcontainer/IMFASFContentInfo::ParseHeader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFContentInfo.ParseHeader
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFContentInfo::ParseHeader

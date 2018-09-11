@@ -4,7 +4,7 @@ title: WMPContextMenuInfo
 author: windows-sdk-content
 description: The WMPContextMenuInfo structure contains data about a context menu command.
 old-location: wmp\wmpcontextmenuinfo.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: a37ddbe1-7c66-4060-b93d-bd494cdc4521
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: contentpartner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - WMPContextMenuInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: WMPContextMenuInfo
+req.redist: 
 ---
 
 # WMPContextMenuInfo structure

@@ -4,17 +4,16 @@ title: GetFirmwareEnvironmentVariableA function
 author: windows-sdk-content
 description: Retrieves the value of the specified firmware environment variable.
 old-location: base\getfirmwareenvironmentvariable.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: 18e74e54-ecfe-46bf-8c9d-9eb16d22f3ba
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetFirmwareEnvironmentVariable, GetFirmwareEnvironmentVariable function, GetFirmwareEnvironmentVariableA, GetFirmwareEnvironmentVariableW, base.getfirmwareenvironmentvariable, winbase/GetFirmwareEnvironmentVariable, winbase/GetFirmwareEnvironmentVariableA, winbase/GetFirmwareEnvironmentVariableW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - GetFirmwareEnvironmentVariableW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetFirmwareEnvironmentVariableA function

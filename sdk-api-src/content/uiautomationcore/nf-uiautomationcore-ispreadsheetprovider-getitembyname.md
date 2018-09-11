@@ -4,17 +4,16 @@ title: ISpreadsheetProvider::GetItemByName
 author: windows-sdk-content
 description: Exposes a UI Automation element that represents the spreadsheet cell that has the specified name.
 old-location: winauto\uiauto_ISpreadsheetProvider_GetItemByName.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 9A496B3F-5095-4094-BAF6-D4EE20498D4B
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetItemByName, GetItemByName method [Windows Accessibility], GetItemByName method [Windows Accessibility],ISpreadsheetProvider interface, ISpreadsheetProvider interface [Windows Accessibility],GetItemByName method, ISpreadsheetProvider.GetItemByName, ISpreadsheetProvider::GetItemByName, uiautomationcore/ISpreadsheetProvider::GetItemByName, winauto.uiauto_ISpreadsheetProvider_GetItemByName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpreadsheetProvider.GetItemByName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISpreadsheetProvider::GetItemByName

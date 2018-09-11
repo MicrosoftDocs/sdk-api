@@ -4,17 +4,16 @@ title: DXGI_HDR_METADATA_TYPE
 author: windows-sdk-content
 description: Specifies the header metadata type.
 old-location: direct3ddxgi\dxgi_hdr_metadata_type.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: EFDFEB2E-8631-4BD6-ADA1-D415B70CCBCD
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: DXGI_HDR_METADATA_TYPE, DXGI_HDR_METADATA_TYPE enumeration [DXGI], DXGI_HDR_METADATA_TYPE_HDR10, DXGI_HDR_METADATA_TYPE_NONE, direct3ddxgi.dxgi_hdr_metadata_type, dxgi1_5/DXGI_HDR_METADATA_TYPE, dxgi1_5/DXGI_HDR_METADATA_TYPE_HDR10, dxgi1_5/DXGI_HDR_METADATA_TYPE_NONE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_5.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_HDR_METADATA_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_HDR_METADATA_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_HDR_METADATA_TYPE
+req.redist: 
 ---
 
 # DXGI_HDR_METADATA_TYPE enumeration

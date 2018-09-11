@@ -4,17 +4,16 @@ title: ITsSbClientConnection::get_ConnectionError
 author: windows-sdk-content
 description: Retrieves a value that indicates the error that occurred while a client connection was being processed.
 old-location: termserv\itssbclientconnection_connectionerror.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 0aa813c1-1ab5-4020-8180-c04d293efd25
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ConnectionError property [Remote Desktop Services], ConnectionError property [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],ConnectionError property, ITsSbClientConnection.ConnectionError, ITsSbClientConnection.get_ConnectionError, ITsSbClientConnection::ConnectionError, ITsSbClientConnection::get_ConnectionError, get_ConnectionError, sbtsv/ITsSbClientConnection::ConnectionError, sbtsv/ITsSbClientConnection::get_ConnectionError, termserv.itssbclientconnection_connectionerror
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: Dbnetlib.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbClientConnection.get_ConnectionError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbClientConnection::get_ConnectionError

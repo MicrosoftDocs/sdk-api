@@ -4,7 +4,7 @@ title: "_FAX_ROUTE"
 author: windows-sdk-content
 description: The FAX_ROUTE structure contains information about a received fax document. The fax service passes the structure to a fax routing method in a call to the FaxRouteMethod function.
 old-location: fax\_mfax_fax_route_str.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_3gj6.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: faxroute.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_ROUTE, *PFAX_ROUTE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FAX_ROUTE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FAX_ROUTE, *PFAX_ROUTE
+req.redist: 
 ---
 
 # _FAX_ROUTE structure

@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::IASetInputLayout
 author: windows-sdk-content
 description: Bind an input-layout object to the input-assembler stage.
 old-location: direct3d11\id3d11devicecontext_iasetinputlayout.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 54562ece-db8d-4e31-bde2-36391792e259
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IASetInputLayout, IASetInputLayout method [Direct3D 11], IASetInputLayout method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IASetInputLayout method, ID3D11DeviceContext.IASetInputLayout, ID3D11DeviceContext::IASetInputLayout, d3d11/ID3D11DeviceContext::IASetInputLayout, direct3d11.id3d11devicecontext_iasetinputlayout, f3e6f365-7707-18d4-cb39-e78b1f31d4c8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.IASetInputLayout
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::IASetInputLayout

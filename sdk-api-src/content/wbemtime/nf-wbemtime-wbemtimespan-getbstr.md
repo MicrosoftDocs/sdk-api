@@ -4,17 +4,16 @@ title: WBEMTimeSpan::GetBSTR
 author: windows-sdk-content
 description: The GetBSTR method gets the time span as a BSTR in Date and Time format.
 old-location: wmi\wbemtimespan_getbstr.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: f5db5a7a-0590-4598-bde7-e90cfc7cd932
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: GetBSTR, GetBSTR method [Windows Management Instrumentation], GetBSTR method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],GetBSTR method, WBEMTimeSpan.GetBSTR, WBEMTimeSpan::GetBSTR, _hmm_wbemtimespan_getbstr, wbemtime/WBEMTimeSpan::GetBSTR, wmi.wbemtimespan_getbstr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WBEMTimeSpan.GetBSTR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WBEMTimeSpan::GetBSTR

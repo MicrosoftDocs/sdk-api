@@ -4,17 +4,16 @@ title: ICertManageModule::GetProperty
 author: windows-sdk-content
 description: Retrieves a module's property value.
 old-location: security\icertmanagemodule_getproperty.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: f01bfcec-7031-4283-a847-0d59929e4ee5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertManageModule object [Security],GetProperty method, Copyright, Description, File Version, GetProperty, GetProperty method [Security], GetProperty method [Security],CCertManageModule object, GetProperty method [Security],ICertManageModule interface, ICertManageModule interface [Security],GetProperty method, ICertManageModule.GetProperty, ICertManageModule::GetProperty, Name, Product Version, _certsrv_icertmanagemodule_getproperty, certmod/ICertManageModule::GetProperty, security.icertmanagemodule_getproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certmod.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: Certidl.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertManageModule.GetProperty
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertManageModule::GetProperty

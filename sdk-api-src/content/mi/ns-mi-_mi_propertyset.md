@@ -4,7 +4,7 @@ title: "_MI_PropertySet"
 author: windows-sdk-content
 description: Implements a set of property names.
 old-location: wmi_v2\mi_propertyset.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: 7c9e41b0-818e-46aa-8900-5006904f78d5
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 
-req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_PropertySet
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_PropertySet
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MI_PropertySet
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ---
 
 # _MI_PropertySet structure

@@ -4,7 +4,7 @@ title: "_HTTP_MULTIPLE_KNOWN_HEADERS"
 author: windows-sdk-content
 description: Specifies the headers that are included in an HTTP response when more than one header is required.
 old-location: http\http_multiple_known_headers.htm
-old-project: http
+tech.root: http
 ms.assetid: b5e68d55-43a4-422f-b7e3-163739628720
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_MULTIPLE_KNOWN_HEADERS, *PHTTP_MULTIPLE_KNOWN_HEADERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_MULTIPLE_KNOWN_HEADERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_MULTIPLE_KNOWN_HEADERS, *PHTTP_MULTIPLE_KNOWN_HEADERS
+req.redist: 
 ---
 
 # _HTTP_MULTIPLE_KNOWN_HEADERS structure

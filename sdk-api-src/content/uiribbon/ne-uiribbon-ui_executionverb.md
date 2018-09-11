@@ -4,17 +4,16 @@ title: UI_EXECUTIONVERB
 author: windows-sdk-content
 description: Specifies values that identify the execution IDs that map to actions a user can initiate on a Command.
 old-location: windowsribbon\windowsribbon_ui_executionverb.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_executionverb.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_EXECUTIONVERB, UI_EXECUTIONVERB enumeration [Windows Ribbon], UI_EXECUTIONVERB_CANCELPREVIEW, UI_EXECUTIONVERB_EXECUTE, UI_EXECUTIONVERB_PREVIEW, scenicintent_UI_EXECUTIONVERB, uiribbon/UI_EXECUTIONVERB, uiribbon/UI_EXECUTIONVERB_CANCELPREVIEW, uiribbon/UI_EXECUTIONVERB_EXECUTE, uiribbon/UI_EXECUTIONVERB_PREVIEW, windowsribbon.windowsribbon_ui_executionverb
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EXECUTIONVERB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_EXECUTIONVERB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: UI_EXECUTIONVERB
+req.redist: 
 ---
 
 # UI_EXECUTIONVERB enumeration

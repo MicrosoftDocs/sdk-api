@@ -4,17 +4,16 @@ title: IATSCLocator::put_PhysicalChannel
 author: windows-sdk-content
 description: The put_PhysicalChannel method sets the physical channel.
 old-location: mstv\iatsclocator_put_physicalchannel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0699e4ef-7ebb-4515-9894-1592f07607ed
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IATSCLocator interface [Microsoft TV Technologies],put_PhysicalChannel method, IATSCLocator.put_PhysicalChannel, IATSCLocator::put_PhysicalChannel, IATSCLocatorput_PhysicalChannel, mstv.iatsclocator_put_physicalchannel, put_PhysicalChannel, put_PhysicalChannel method [Microsoft TV Technologies], put_PhysicalChannel method [Microsoft TV Technologies],IATSCLocator interface, tuner/IATSCLocator::put_PhysicalChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IATSCLocator.put_PhysicalChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IATSCLocator::put_PhysicalChannel

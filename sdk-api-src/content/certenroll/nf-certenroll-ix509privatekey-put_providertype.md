@@ -4,17 +4,16 @@ title: IX509PrivateKey::put_ProviderType
 author: windows-sdk-content
 description: Specifies or retrieves the type of cryptographic provider associated with the private key.
 old-location: security\ix509privatekey_providertype.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 5f4d2e29-8c02-4d9c-a3a6-15c222650c3e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509PrivateKey interface [Security],ProviderType property, IX509PrivateKey.ProviderType, IX509PrivateKey.put_ProviderType, IX509PrivateKey::ProviderType, IX509PrivateKey::get_ProviderType, IX509PrivateKey::put_ProviderType, ProviderType property [Security], ProviderType property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::ProviderType, certenroll/IX509PrivateKey::get_ProviderType, certenroll/IX509PrivateKey::put_ProviderType, put_ProviderType, security.ix509privatekey_providertype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509PrivateKey.put_ProviderType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PrivateKey::put_ProviderType

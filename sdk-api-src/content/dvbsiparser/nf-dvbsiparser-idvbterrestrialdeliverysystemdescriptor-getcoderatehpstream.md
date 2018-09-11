@@ -4,17 +4,16 @@ title: IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getcoderatehpstream.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 84cc3e77-aa46-40b0-ad04-27541216bb6f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCodeRateHPStream, GetCodeRateHPStream method [Microsoft TV Technologies], GetCodeRateHPStream method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetCodeRateHPStream method, IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream, IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream, IDvbTerrestrialDeliverySystemDescriptorGetCodeRateHPStream, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream, mstv.idvbterrestrialdeliverysystemdescriptor_getcoderatehpstream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream

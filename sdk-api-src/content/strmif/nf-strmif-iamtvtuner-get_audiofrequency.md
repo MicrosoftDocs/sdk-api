@@ -4,17 +4,16 @@ title: IAMTVTuner::get_AudioFrequency
 author: windows-sdk-content
 description: The get_AudioFrequency method retrieves the currently tuned audio frequency.
 old-location: dshow\iamtvtuner_get_audiofrequency.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7d0d288a-7ad0-40ad-b86e-9df9447ed484
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_AudioFrequency method, IAMTVTuner.get_AudioFrequency, IAMTVTuner::get_AudioFrequency, IAMTVTunerget_AudioFrequency, dshow.iamtvtuner_get_audiofrequency, get_AudioFrequency, get_AudioFrequency method [DirectShow], get_AudioFrequency method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_AudioFrequency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMTVTuner.get_AudioFrequency
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMTVTuner::get_AudioFrequency

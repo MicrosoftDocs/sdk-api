@@ -4,17 +4,16 @@ title: GetTickCount function
 author: windows-sdk-content
 description: Retrieves the number of milliseconds that have elapsed since the system was started, up to 49.7 days.
 old-location: base\gettickcount.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: 22201c82-a49a-4972-9f49-6baf6d23a1ea
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetTickCount, GetTickCount function, _win32_gettickcount, base.gettickcount, sysinfoapi/GetTickCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPUTER_NAME_FORMAT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - GetTickCount
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # GetTickCount function

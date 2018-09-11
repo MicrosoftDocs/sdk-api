@@ -4,17 +4,16 @@ title: SspiMarshalAuthIdentity function
 author: windows-sdk-content
 description: Serializes the specified identity structure into a byte array.
 old-location: security\sspimarshalauthidentity.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: e43135ad-7fcd-4da6-a4e4-c91c41eeb865
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SspiMarshalAuthIdentity, SspiMarshalAuthIdentity function [Security], security.sspimarshalauthidentity, sspi/SspiMarshalAuthIdentity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+req.lib: Secur32.lib
+req.dll: SspiCli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SspiMarshalAuthIdentity
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: SspiCli.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SspiMarshalAuthIdentity function

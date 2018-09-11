@@ -4,17 +4,16 @@ title: VariantToUInt32ArrayAlloc function
 author: windows-sdk-content
 description: Extracts data from a vector structure into a newly-allocated unsigned Int32 array.
 old-location: properties\VariantToUInt32ArrayAlloc.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 4d6cbfc8-fe1c-4bd0-8d29-32bce01d31f8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VariantToUInt32ArrayAlloc, VariantToUInt32ArrayAlloc function [Windows Properties], _shell_VariantToUInt32ArrayAlloc, properties.VariantToUInt32ArrayAlloc, propvarutil/VariantToUInt32ArrayAlloc, shell.VariantToUInt32ArrayAlloc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VariantToUInt32ArrayAlloc
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # VariantToUInt32ArrayAlloc function

@@ -4,17 +4,16 @@ title: IDCompositionArithmeticCompositeEffect::SetCoefficient1(float)
 author: windows-sdk-content
 description: Sets the first coefficient for the equation used to composite the two input images.
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient1.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 060B4349-6143-4C97-A433-A1073F82A257
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficient1 method, IDCompositionArithmeticCompositeEffect.SetCoefficient1, IDCompositionArithmeticCompositeEffect.SetCoefficient1(float), IDCompositionArithmeticCompositeEffect::SetCoefficient1, IDCompositionArithmeticCompositeEffect::SetCoefficient1(float), SetCoefficient1, SetCoefficient1 method [DirectComposition], SetCoefficient1 method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient1, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionArithmeticCompositeEffect.SetCoefficient1
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionArithmeticCompositeEffect::SetCoefficient1(float)

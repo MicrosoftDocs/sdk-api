@@ -4,17 +4,16 @@ title: INamespaceWalkCB
 author: windows-sdk-content
 description: A callback interface exposing methods used with INamespaceWalk.
 old-location: shell\INamespaceWalkCB.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 15244d6e-6cd7-4dee-8e4e-2533d5a60ae7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: INamespaceWalkCB, INamespaceWalkCB interface [Windows Shell], INamespaceWalkCB interface [Windows Shell],described, _win32_INamespaceWalkCB, shell.INamespaceWalkCB, shobjidl_core/INamespaceWalkCB
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INamespaceWalkCB
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # INamespaceWalkCB interface

@@ -4,17 +4,16 @@ title: IMediaObjectInPlace::Process
 author: windows-sdk-content
 description: The Process method processes a block of data. The application supplies a pointer to a block of input data. The DMO processes the data in place.
 old-location: dshow\imediaobjectinplace_process.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 567117cd-db7b-4764-9c88-ab898a64b56a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaObjectInPlace interface [DirectShow],Process method, IMediaObjectInPlace.Process, IMediaObjectInPlace::Process, IMediaObjectInPlaceProcess, Process, Process method [DirectShow], Process method [DirectShow],IMediaObjectInPlace interface, dshow.imediaobjectinplace_process, mediaobj/IMediaObjectInPlace::Process
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaObjectInPlace.Process
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaObjectInPlace::Process

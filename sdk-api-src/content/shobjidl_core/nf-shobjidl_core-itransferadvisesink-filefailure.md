@@ -4,17 +4,16 @@ title: ITransferAdviseSink::FileFailure
 author: windows-sdk-content
 description: Called when there is a failure and user interaction is needed.
 old-location: shell\ITransferAdviseSink_FileFailure.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4adc4e9d-f1d1-438c-bae3-23d1259453a6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: FileFailure, FileFailure method [Windows Shell], FileFailure method [Windows Shell],ITransferAdviseSink interface, ITransferAdviseSink interface [Windows Shell],FileFailure method, ITransferAdviseSink.FileFailure, ITransferAdviseSink::FileFailure, _shell_ITransferAdviseSink_FileFailure, shell.ITransferAdviseSink_FileFailure, shobjidl_core/ITransferAdviseSink::FileFailure
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITransferAdviseSink.FileFailure
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITransferAdviseSink::FileFailure

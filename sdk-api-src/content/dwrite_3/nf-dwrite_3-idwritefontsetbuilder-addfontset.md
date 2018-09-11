@@ -4,17 +4,16 @@ title: IDWriteFontSetBuilder::AddFontSet
 author: windows-sdk-content
 description: Appends an existing font set to the one being built, allowing one to aggregate two sets or to essentially extend an existing one.
 old-location: directwrite\idwritefontsetbuilder_addfontset.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: F8B94A1B-905B-4A96-9943-12BB516311C2
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: AddFontSet, AddFontSet method [Direct Write], AddFontSet method [Direct Write],IDWriteFontSetBuilder interface, IDWriteFontSetBuilder interface [Direct Write],AddFontSet method, IDWriteFontSetBuilder.AddFontSet, IDWriteFontSetBuilder::AddFontSet, directwrite.idwritefontsetbuilder_addfontset, dwrite_3/IDWriteFontSetBuilder::AddFontSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontSetBuilder.AddFontSet
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontSetBuilder::AddFontSet

@@ -4,17 +4,16 @@ title: QualTspecParms
 author: windows-sdk-content
 description: The QualTspecParms structure contains qualitative Tspec parameters.
 old-location: qos\qualtspecparms.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: f9afa6f9-1de7-469e-a317-2dea98c8291c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: QualTspecParms, QualTspecParms structure [QOS], lpmapi/QualTspecParms, qos.qualtspecparms
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QualTspecParms
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QualTspecParms
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: QualTspecParms
+req.redist: 
 ---
 
 # QualTspecParms structure

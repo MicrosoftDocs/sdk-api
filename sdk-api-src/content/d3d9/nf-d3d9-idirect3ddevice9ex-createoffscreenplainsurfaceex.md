@@ -4,17 +4,16 @@ title: IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx
 author: windows-sdk-content
 description: Create an off-screen surface.
 old-location: direct3d9\idirect3ddevice9ex_createoffscreenplainsurfaceex.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_createoffscreenplainsurfaceex.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 63d121fa-1b4f-16db-b792-c30558006ddb, CreateOffscreenPlainSurfaceEx, CreateOffscreenPlainSurfaceEx method [Direct3D 9], CreateOffscreenPlainSurfaceEx method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],CreateOffscreenPlainSurfaceEx method, IDirect3DDevice9Ex.CreateOffscreenPlainSurfaceEx, IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx, d3d9/IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx, direct3d9.idirect3ddevice9ex_createoffscreenplainsurfaceex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DDevice9Ex.CreateOffscreenPlainSurfaceEx
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx

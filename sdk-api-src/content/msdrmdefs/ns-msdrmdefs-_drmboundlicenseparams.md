@@ -4,7 +4,7 @@ title: "_DRMBOUNDLICENSEPARAMS"
 author: windows-sdk-content
 description: Used by DRMCreateBoundLicense to bind to a license.
 old-location: rm\drmboundlicenseparams.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 25820f49-ffa8-40c4-87fc-ce4909ec20ed
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msdrmdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRMBOUNDLICENSEPARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMBOUNDLICENSEPARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRMBOUNDLICENSEPARAMS
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

@@ -4,17 +4,16 @@ title: IEventSubscription
 author: windows-sdk-content
 description: Specifies information about the relationship between an event subscriber and an event to which it is subscribing. It is used by publisher filters.
 old-location: cos\ieventsubscription.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: ce3f9f7e-3d0a-445f-b3db-671ee595aedf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEventSubscription, IEventSubscription interface [COM+], IEventSubscription interface [COM+],described, _cos_IEventSubscription, cos.ieventsubscription, eventsys/IEventSubscription
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEventSubscription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventSubscription interface

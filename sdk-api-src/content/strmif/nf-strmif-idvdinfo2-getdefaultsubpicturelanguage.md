@@ -4,17 +4,16 @@ title: IDvdInfo2::GetDefaultSubpictureLanguage
 author: windows-sdk-content
 description: The GetDefaultSubpictureLanguage method retrieves the default subpicture language.
 old-location: dshow\idvdinfo2_getdefaultsubpicturelanguage.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ada423a5-90ef-48e1-80fa-04d0a24da8f7
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDefaultSubpictureLanguage, GetDefaultSubpictureLanguage method [DirectShow], GetDefaultSubpictureLanguage method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDefaultSubpictureLanguage method, IDvdInfo2.GetDefaultSubpictureLanguage, IDvdInfo2::GetDefaultSubpictureLanguage, IDvdInfo2GetDefaultSubpictureLanguage, dshow.idvdinfo2_getdefaultsubpicturelanguage, strmif/IDvdInfo2::GetDefaultSubpictureLanguage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdInfo2.GetDefaultSubpictureLanguage
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo2::GetDefaultSubpictureLanguage

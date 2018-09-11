@@ -4,17 +4,16 @@ title: IFsrmFileScreenTemplateManager::EnumTemplates
 author: windows-sdk-content
 description: Enumerates the file screen templates on the server.
 old-location: fsrm\ifsrmfilescreentemplatemanager_enumtemplates.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 5bfb82f9-50a5-4266-956d-f99e2982a6a5
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: EnumTemplates, EnumTemplates method [File Server Resource Manager], EnumTemplates method [File Server Resource Manager],FsrmFileScreenTemplateManager class, EnumTemplates method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, FsrmFileScreenTemplateManager class [File Server Resource Manager],EnumTemplates method, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],EnumTemplates method, IFsrmFileScreenTemplateManager.EnumTemplates, IFsrmFileScreenTemplateManager::EnumTemplates, fs.ifsrmfilescreentemplatemanager_enumtemplates, fsrm.ifsrmfilescreentemplatemanager_enumtemplates, fsrmscreen/IFsrmFileScreenTemplateManager::EnumTemplates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmFileScreenTemplateManager.EnumTemplates
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileScreenTemplateManager::EnumTemplates

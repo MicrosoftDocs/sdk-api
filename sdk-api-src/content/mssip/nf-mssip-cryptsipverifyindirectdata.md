@@ -4,17 +4,16 @@ title: CryptSIPVerifyIndirectData function
 author: windows-sdk-content
 description: Validates the indirect hashed data against the supplied subject.
 old-location: security\cryptsipverifyindirectdata.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 137b8858-a31f-4ef6-96bd-c5e26ae7b3e8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptSIPVerifyIndirectData, CryptSIPVerifyIndirectData function [Security], mssip/CryptSIPVerifyIndirectData, security.cryptsipverifyindirectdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mssip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SimilarityFileId
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptSIPVerifyIndirectData
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CryptSIPVerifyIndirectData function

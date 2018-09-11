@@ -4,17 +4,16 @@ title: IUIAutomationElement2::get_CurrentFlowsFrom
 author: windows-sdk-content
 description: Retrieves an array of elements that indicates the reading order before the current element.
 old-location: winauto\uiauto_iuiautomationelement2_currentflowsfrom.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: E3991700-444C-4673-96EE-E6112FBD7547
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentFlowsFrom property [Windows Accessibility], CurrentFlowsFrom property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CurrentFlowsFrom property, IUIAutomationElement2.CurrentFlowsFrom, IUIAutomationElement2.get_CurrentFlowsFrom, IUIAutomationElement2::CurrentFlowsFrom, IUIAutomationElement2::get_CurrentFlowsFrom, IUIAutomationElement2::put_CurrentFlowsFrom, get_CurrentFlowsFrom, uiautomationclient/IUIAutomationElement2::CurrentFlowsFrom, uiautomationclient/IUIAutomationElement2::get_CurrentFlowsFrom, uiautomationclient/IUIAutomationElement2::put_CurrentFlowsFrom, winauto.uiauto_iuiautomationelement2_currentflowsfrom
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IUIAutomationElement2.put_CurrentFlowsFrom
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement2::get_CurrentFlowsFrom

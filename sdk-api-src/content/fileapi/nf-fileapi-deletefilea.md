@@ -4,17 +4,16 @@ title: DeleteFileA function
 author: windows-sdk-content
 description: Deletes an existing file.
 old-location: fs\deletefile.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 0b947a85-816b-4374-a8f8-c369e366a17d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DeleteFile, DeleteFile function [Files], DeleteFileA, DeleteFileW, _win32_deletefile, base.deletefile, fileapi/DeleteFile, fileapi/DeleteFileA, fileapi/DeleteFileW, fs.deletefile, winbase/DeleteFile, winbase/DeleteFileA, winbase/DeleteFileW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - DeleteFileW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # DeleteFileA function

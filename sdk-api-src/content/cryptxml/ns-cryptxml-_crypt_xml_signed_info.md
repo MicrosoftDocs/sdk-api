@@ -4,17 +4,16 @@ title: "_CRYPT_XML_SIGNED_INFO"
 author: windows-sdk-content
 description: Describes an XML encoded SignedInfo element.
 old-location: security\crypt_xml_signed_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 34f7f3be-8bf8-4863-9c94-79ee14a7ebea
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_XML_SIGNED_INFO, CRYPT_XML_SIGNED_INFO, CRYPT_XML_SIGNED_INFO structure [Security], PCRYPT_XML_SIGNED_INFO, PCRYPT_XML_SIGNED_INFO structure pointer [Security], _CRYPT_XML_SIGNED_INFO, cryptxml/CRYPT_XML_SIGNED_INFO, cryptxml/PCRYPT_XML_SIGNED_INFO, security.crypt_xml_signed_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_SIGNED_INFO, *PCRYPT_XML_SIGNED_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_SIGNED_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_SIGNED_INFO, *PCRYPT_XML_SIGNED_INFO
+req.redist: 
 ---
 
 # _CRYPT_XML_SIGNED_INFO structure

@@ -4,17 +4,16 @@ title: CryptEnumOIDInfo function
 author: windows-sdk-content
 description: Enumerates predefined and registered object identifier (OID) CRYPT_OID_INFO structures. This function enumerates either all of the predefined and registered structures or only structures identified by a selected OID group.
 old-location: security\cryptenumoidinfo.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 6af23bb4-3a27-425a-90bb-9a69ea081b25
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptEnumOIDInfo, CryptEnumOIDInfo function [Security], _crypto2_cryptenumoidinfo, security.cryptenumoidinfo, wincrypt/CryptEnumOIDInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptEnumOIDInfo
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptEnumOIDInfo function

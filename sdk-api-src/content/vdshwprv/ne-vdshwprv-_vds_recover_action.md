@@ -4,17 +4,16 @@ title: "_VDS_RECOVER_ACTION"
 author: windows-sdk-content
 description: This enumeration is reserved for system use.
 old-location: base\vds_recover_action.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 478c133b-36f3-426c-a1b3-5691e312ce5a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_RECOVER_ACTION, VDS_RECOVER_ACTION enumeration, _VDS_RECOVER_ACTION, base.vds_recover_action, vds/VDS_RECOVER_ACTION, vdshwprv/VDS_RECOVER_ACTION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_RECOVER_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_RECOVER_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_RECOVER_ACTION
+req.redist: 
 ---
 
 # _VDS_RECOVER_ACTION enumeration

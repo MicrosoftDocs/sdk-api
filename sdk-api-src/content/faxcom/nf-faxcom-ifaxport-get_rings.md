@@ -2,19 +2,18 @@
 UID: NF:faxcom.IFaxPort.get_Rings
 title: IFaxPort::get_Rings
 author: windows-sdk-content
-description: The Rings property represents the number of rings an incoming fax call should wait before the fax port answers the call.
-old-location: fax\_mfax_ifaxport_get_rings_vb.htm
-old-project: Fax
+description: The IFaxPort::get_Rings property represents the number of rings an incoming fax call should wait before the fax port answers the call.
+old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_rings_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3jjn.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxPort object [Fax Service],Rings property, FaxPort.Rings, IFaxPort.get_Rings, IFaxPort::get_Rings, Rings property [Fax Service], Rings property [Fax Service],FaxPort object, _mfax_ifaxport_get_rings, fax._mfax_ifaxport_get_rings, fax._mfax_ifaxport_get_rings_vb, get_Rings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxPort interface [Fax Service],Rings property, IFaxPort.Rings, IFaxPort.get_Rings, IFaxPort::Rings, IFaxPort::get_Rings, IFaxPort::put_Rings, Rings property [Fax Service], Rings property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_rings, fax._mfax_ifaxport_get_rings, fax._mfax_ifaxport_mfax_ifaxport_get_rings_cpp, faxcom/IFaxPort::Rings, faxcom/IFaxPort::get_Rings, faxcom/IFaxPort::put_Rings, get_Rings
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxPort.Rings
+ - IFaxPort.Rings
+ - IFaxPort.get_Rings
+ - IFaxPort.put_Rings
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxPort::get_Rings
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Rings</b> property represents the number of rings an incoming fax call should wait before the fax port answers the call. 
+The <b>IFaxPort::get_Rings</b> property represents the number of rings an incoming fax call should wait before the fax port answers the call. 
 
 This property is read/write.
 
@@ -64,9 +64,9 @@ This property is read/write.
 
 
 
-<div class="alert"><b>Note</b>  Before setting a value for this property, a fax client application can call the <a href="https://msdn.microsoft.com/en-us/library/ms692798(v=VS.85).aspx">CanModify</a> property to ensure that the client has permission to modify configuration information for the specified fax port.</div>
+<div class="alert"><b>Note</b>  Before setting a value for this property, a fax client application can call the <a href="https://msdn.microsoft.com/b09b6e5f-fa1d-4d0b-8581-e0ba779b72bb">IFaxPort::get_CanModify</a> property to ensure that the client has permission to modify configuration information for the specified fax port.</div>
 <div> </div>
-The fax server ignores the <b>Rings</b> property unless the specified fax port is enabled to receive faxes.
+The fax server ignores the <b>IFaxPort::get_Rings</b> property unless the specified fax port is enabled to receive faxes.
 
 
 
@@ -81,10 +81,6 @@ The fax server ignores the <b>Rings</b> property unless the specified fax port i
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms690315(v=VS.85).aspx">FaxPort</a>
 
 
 

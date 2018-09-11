@@ -4,17 +4,16 @@ title: EngSetEvent function
 author: windows-sdk-content
 description: The EngSetEvent function sets the specified event object to the signaled state, and returns the event object's previous state.
 old-location: display\engsetevent.htm
-old-project: display
+tech.root: display
 ms.assetid: 04e5d5e0-02b1-4335-9830-ecf04fdc0db1
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngSetEvent, EngSetEvent function [Display Devices], display.engsetevent, gdifncs_1f6bd838-607b-47fa-bb1e-e21d92e65d39.xml, winddi/EngSetEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: This function is available in Windows XP and later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngSetEvent
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngSetEvent function

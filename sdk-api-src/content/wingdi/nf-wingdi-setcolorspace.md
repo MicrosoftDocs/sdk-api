@@ -4,17 +4,16 @@ title: SetColorSpace function
 author: windows-sdk-content
 description: The SetColorSpace function defines the input color space for a given device context.
 old-location: wcs\setcolorspace.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: 037c864f-f8ec-4467-9236-74ea4493d743
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: SetColorSpace, SetColorSpace function [Windows Color System], _color_SetColorSpace, wcs.setcolorspace, wingdi/SetColorSpace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetColorSpace
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetColorSpace function

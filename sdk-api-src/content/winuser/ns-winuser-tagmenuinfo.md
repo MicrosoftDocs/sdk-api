@@ -4,17 +4,16 @@ title: tagMENUINFO
 author: windows-sdk-content
 description: Contains information about a menu.
 old-location: menurc\menuinfo.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPMENUINFO, LPMENUINFO, LPMENUINFO structure pointer [Menus and Other Resources], MENUINFO, MENUINFO structure [Menus and Other Resources], MIM_APPLYTOSUBMENUS, MIM_BACKGROUND, MIM_HELPID, MIM_MAXHEIGHT, MIM_MENUDATA, MIM_STYLE, MNS_AUTODISMISS, MNS_CHECKORBMP, MNS_DRAGDROP, MNS_MODELESS, MNS_NOCHECK, MNS_NOTIFYBYPOS, _win32_MENUINFO_str, _win32_menuinfo_str_cpp, const *LPCMENUINFO, const *LPCMENUINFO structure [Menus and Other Resources], menurc.menuinfo, tagMENUINFO, winui._win32_menuinfo_str, winuser/LPMENUINFO, winuser/MENUINFO, winuser/const *LPCMENUINFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MENUINFO, *LPMENUINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MENUINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: MENUINFO, *LPMENUINFO
+req.redist: 
 ---
 
 # tagMENUINFO structure

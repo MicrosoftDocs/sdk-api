@@ -4,17 +4,16 @@ title: IMFHttpDownloadRequest::EndReadPayload
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to complete the asynchronous operation started by BeginReadPayload.
 old-location: mf\imfhttpdownloadrequest_endreadpayload.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 491437FE-1401-4841-AE0E-428F28E34D4D
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: EndReadPayload, EndReadPayload method [Media Foundation], EndReadPayload method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],EndReadPayload method, IMFHttpDownloadRequest.EndReadPayload, IMFHttpDownloadRequest::EndReadPayload, mf.imfhttpdownloadrequest_endreadpayload, mfidl/IMFHttpDownloadRequest::EndReadPayload
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFHttpDownloadRequest.EndReadPayload
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFHttpDownloadRequest::EndReadPayload

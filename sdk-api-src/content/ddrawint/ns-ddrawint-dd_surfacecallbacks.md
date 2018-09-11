@@ -4,7 +4,7 @@ title: DD_SURFACECALLBACKS
 author: windows-sdk-content
 description: The DD_SURFACECALLBACKS structure contains entry pointers to the Microsoft DirectDraw surface callback functions that a device driver supports.
 old-location: display\dd_surfacecallbacks.htm
-old-project: display
+tech.root: display
 ms.assetid: a363446e-a9f7-4b32-acc2-c369d3dfe8f3
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DD_SURFACECALLBACKS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_SURFACECALLBACKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DD_SURFACECALLBACKS
+req.redist: 
 ---
 
 # DD_SURFACECALLBACKS structure

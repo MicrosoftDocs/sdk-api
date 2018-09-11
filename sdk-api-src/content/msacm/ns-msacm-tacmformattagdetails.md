@@ -4,7 +4,7 @@ title: tACMFORMATTAGDETAILS
 author: windows-sdk-content
 description: The ACMFORMATTAGDETAILS structure details a waveform-audio format tag for an ACM driver.
 old-location: multimedia\acmformattagdetails_struct.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 134cccb1-4065-407f-a02b-7bd340b4a8cf
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msacm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACMFORMATTAGDETAILS, *PACMFORMATTAGDETAILS, *LPACMFORMATTAGDETAILS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACMFORMATTAGDETAILS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ACMFORMATTAGDETAILS, *PACMFORMATTAGDETAILS, *LPACMFORMATTAGDETAILS
+req.redist: 
 ---
 
 # tACMFORMATTAGDETAILS structure

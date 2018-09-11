@@ -4,17 +4,16 @@ title: IRSOPInformation::GetNamespace
 author: windows-sdk-content
 description: The GetNameSpace method retrieves the namespace from which the RSoP data is being displayed.
 old-location: policy\irsopinformation_getnamespace.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 3575072c-88d7-482c-bc8b-dca9f6d68577
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetNameSpace method [Group Policy], GetNameSpace method [Group Policy],IRSOPInformation interface, GetNamespace, IRSOPInformation interface [Group Policy],GetNameSpace method, IRSOPInformation.GetNamespace, IRSOPInformation::GetNameSpace, IRSOPInformation::GetNamespace, _win32_irsopinformation_getnamespace, gpedit/IRSOPInformation::GetNameSpace, policy.irsopinformation_getnamespace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRSOPInformation.GetNameSpace
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpedit.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRSOPInformation::GetNamespace

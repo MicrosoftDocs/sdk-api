@@ -4,17 +4,16 @@ title: WINTRUST_BLOB_INFO_
 author: windows-sdk-content
 description: Used when calling WinVerifyTrust to verify a memory BLOB.
 old-location: security\wintrust_blob_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 8b13d355-4d24-4d8e-aae3-db16467999be
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWINTRUST_BLOB_INFO, PWINTRUST_BLOB_INFO, PWINTRUST_BLOB_INFO structure pointer [Security], WINTRUST_BLOB_INFO, WINTRUST_BLOB_INFO structure [Security], WINTRUST_BLOB_INFO_, _win32_wintrust_blob_info, security.wintrust_blob_info, wintrust/PWINTRUST_BLOB_INFO, wintrust/WINTRUST_BLOB_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINTRUST_BLOB_INFO, *PWINTRUST_BLOB_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINTRUST_BLOB_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WINTRUST_BLOB_INFO, *PWINTRUST_BLOB_INFO
+req.redist: 
 ---
 
 # WINTRUST_BLOB_INFO_ structure

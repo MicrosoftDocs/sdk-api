@@ -4,7 +4,7 @@ title: CALL_PRIVILEGE
 author: windows-sdk-content
 description: A CALL_PRIVILEGE member is returned by the ITCallInfo::get_Privilege method, and indicates when the current application owns or is monitoring the current call.
 old-location: tapi3\call_privilege.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 8d2ab3d2-9531-40fc-910d-2bd81a075cc3
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALL_PRIVILEGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CALL_PRIVILEGE
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: CALL_PRIVILEGE
+req.redist: 
 ---
 
 # CALL_PRIVILEGE enumeration

@@ -4,17 +4,16 @@ title: IAccessible::accHitTest
 author: windows-sdk-content
 description: The IAccessible::accHitTest method retrieves the child element or child object that is displayed at a specific point on the screen.
 old-location: winauto\iaccessible_iaccessible__acchittest.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 87327086-a8f3-4d1c-ab4d-8f5aba00c61a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accHitTest method, IAccessible.accHitTest, IAccessible::accHitTest, _msaa_IAccessible_accHitTest, accHitTest, accHitTest method [Windows Accessibility], accHitTest method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__acchittest, oleacc/IAccessible::accHitTest, winauto.iaccessible_iaccessible__acchittest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 
-req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessible.accHitTest
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ---
 
 # IAccessible::accHitTest
@@ -76,7 +74,7 @@ Specifies the screen coordinates of the point that is hit tested. The y-coordina
 
 ### -param pvarChild
 
-
+TBD
 
 
 

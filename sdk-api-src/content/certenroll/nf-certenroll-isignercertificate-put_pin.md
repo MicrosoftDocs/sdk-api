@@ -4,17 +4,16 @@ title: ISignerCertificate::put_Pin
 author: windows-sdk-content
 description: Specifies a personal identification number (PIN) used to authenticate a smart card user.
 old-location: security\isignercertificate_pin_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 695d895e-0646-4a2e-a699-86674f919bad
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISignerCertificate interface [Security],Pin property, ISignerCertificate.Pin, ISignerCertificate.put_Pin, ISignerCertificate::Pin, ISignerCertificate::put_Pin, Pin property [Security], Pin property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::Pin, certenroll/ISignerCertificate::put_Pin, put_Pin, security.isignercertificate_pin_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ISignerCertificate.put_Pin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISignerCertificate::put_Pin

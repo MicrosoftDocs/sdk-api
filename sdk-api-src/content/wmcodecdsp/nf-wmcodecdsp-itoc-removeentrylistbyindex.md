@@ -4,17 +4,16 @@ title: IToc::RemoveEntryListByIndex
 author: windows-sdk-content
 description: The RemoveEntryListByIndex method removes an entry list, specified by an index, from the table of contents.
 old-location: mf\itoc_removeentrylistbyindex.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 63137b67-dc00-48e7-88b0-2f7159c1d829
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IToc interface [Media Foundation],RemoveEntryListByIndex method, IToc.RemoveEntryListByIndex, IToc::RemoveEntryListByIndex, RemoveEntryListByIndex, RemoveEntryListByIndex method [Media Foundation], RemoveEntryListByIndex method [Media Foundation],IToc interface, codecapi.itoc_removeentrylistbyindex, mf.itoc_removeentrylistbyindex, wmcodecdsp/IToc::RemoveEntryListByIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IToc.RemoveEntryListByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IToc::RemoveEntryListByIndex

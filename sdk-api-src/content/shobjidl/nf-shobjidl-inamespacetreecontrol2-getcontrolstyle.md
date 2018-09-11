@@ -4,17 +4,16 @@ title: INameSpaceTreeControl2::GetControlStyle
 author: windows-sdk-content
 description: Gets the display styles set for the namespace object's treeview controls.
 old-location: shell\INameSpaceTreeControl2_GetControlStyle.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5305d7ba-e37f-4f95-8ae2-e0532012cb1e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetControlStyle, GetControlStyle method [Windows Shell], GetControlStyle method [Windows Shell],INameSpaceTreeControl2 interface, INameSpaceTreeControl2 interface [Windows Shell],GetControlStyle method, INameSpaceTreeControl2.GetControlStyle, INameSpaceTreeControl2::GetControlStyle, _shell_INameSpaceTreeControl2_GetControlStyle, shell.INameSpaceTreeControl2_GetControlStyle, shobjidl/INameSpaceTreeControl2::GetControlStyle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControl2.GetControlStyle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControl2::GetControlStyle

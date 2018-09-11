@@ -4,17 +4,16 @@ title: IVdsAdvancedDisk::DeletePartition
 author: windows-sdk-content
 description: Deletes a partition from a basic disk.
 old-location: base\ivdsadvanceddisk_deletepartition.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 3b1a9d18-5f0b-4535-b0fb-6b1929099c1a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: DeletePartition, DeletePartition method [VDS], DeletePartition method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],DeletePartition method, IVdsAdvancedDisk.DeletePartition, IVdsAdvancedDisk::DeletePartition, base.ivdsadvanceddisk_deletepartition, vds/IVdsAdvancedDisk::DeletePartition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsAdvancedDisk.DeletePartition
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsAdvancedDisk::DeletePartition

@@ -4,17 +4,16 @@ title: EapHostPeerFreeRuntimeMemory function
 author: windows-sdk-content
 description: Releases the memory space used during run-time.
 old-location: eaphost\eaphostpeerfreeruntimememory.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: d27233a0-b41f-43f6-a934-1ab8df8b0581
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapHostPeerFreeRuntimeMemory, EapHostPeerFreeRuntimeMemory function [EAPHost], eaphost.eaphostpeerfreeruntimememory, eappapis/ EapHostPeerFreeRuntimeMemory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EapPacket
+req.lib: Eappprxy.lib
+req.dll: Eapphost.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapHostPeerFreeRuntimeMemory
 product: Windows
 targetos: Windows
-req.lib: Eappprxy.lib
-req.dll: Eapphost.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapHostPeerFreeRuntimeMemory function

@@ -4,17 +4,16 @@ title: tagPROPSPEC
 author: windows-sdk-content
 description: The PROPSPEC structure is used by many of the methods of IPropertyStorage to specify a property either by its property identifier (ID) or the associated string name.
 old-location: stg\propspec.htm
-old-project: stg
+tech.root: Stg
 ms.assetid: 5bb3b9c6-ab82-498c-94f9-13a9ffa7452b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PROPSPEC, PROPSPEC [Strctd Stg], PROPSPEC structure [Structured Storage], PRSPEC_LPWSTR, PRSPEC_PROPID, _stg_propspec, propidlbase/PROPSPEC, stg.propspec, tagPROPSPEC
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: propidlbase.h
 req.include-header: Propidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Propidl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPSPEC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROPSPEC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PROPSPEC
+req.redist: 
 ---
 
 # tagPROPSPEC structure

@@ -4,17 +4,16 @@ title: ITextFont2::SetAutospaceParens
 author: windows-sdk-content
 description: Sets the East Asian &#0034;autospace parentheses&#0034; state.
 old-location: controls\itextfont2_setautospaceparens.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 9a9290e0-221e-454a-af9c-9d1bf5d37b5e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetAutospaceParens method, ITextFont2.SetAutospaceParens, ITextFont2::SetAutospaceParens, SetAutospaceParens, SetAutospaceParens method [Windows Controls], SetAutospaceParens method [Windows Controls],ITextFont2 interface, controls.itextfont2_setautospaceparens, tom/ITextFont2::SetAutospaceParens
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont2.SetAutospaceParens
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont2::SetAutospaceParens

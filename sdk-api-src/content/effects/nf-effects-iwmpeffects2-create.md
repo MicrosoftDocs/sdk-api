@@ -4,17 +4,16 @@ title: IWMPEffects2::Create
 author: windows-sdk-content
 description: The Create method is called by Windows Media Player to instantiate a visualization window.
 old-location: wmp\iwmpeffects2_create.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: a0bc4e45-7174-4dbd-a902-06c685c9a9ac
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Create, Create method [Windows Media Player], Create method [Windows Media Player],IWMPEffects2 interface, IWMPEffects2 interface [Windows Media Player],Create method, IWMPEffects2.Create, IWMPEffects2::Create, IWMPEffectsCreate, effects/IWMPEffects2::Create, wmp.iwmpeffects2_create
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEffects2.Create
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEffects2::Create

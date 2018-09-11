@@ -4,17 +4,16 @@ title: AVIStreamRelease function
 author: windows-sdk-content
 description: The AVIStreamRelease function decrements the reference count of an AVI stream interface handle, and closes the stream if the count reaches zero.
 old-location: multimedia\avistreamrelease.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: bd71ddf6-9d02-463d-9d1c-50605441ad59
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIStreamRelease, AVIStreamRelease function [Windows Multimedia], _win32_AVIStreamRelease, multimedia.avistreamrelease, vfw/AVIStreamRelease
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - AVIStreamRelease
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIStreamRelease function

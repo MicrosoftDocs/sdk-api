@@ -4,17 +4,16 @@ title: WS_SECURITY_KEY_ENTROPY_MODE
 author: windows-sdk-content
 description: Defines how randomness should be contributed to the issued key during a security token negotiation done with message and mixed-mode security.
 old-location: wsw\ws_security_key_entropy_mode.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: dd6bca9a-e47b-46b3-b9ac-23aecb101337
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SECURITY_KEY_ENTROPY_MODE, WS_SECURITY_KEY_ENTROPY_MODE enumeration [Web Services for Windows], WS_SECURITY_KEY_ENTROPY_MODE_CLIENT_ONLY, WS_SECURITY_KEY_ENTROPY_MODE_COMBINED, WS_SECURITY_KEY_ENTROPY_MODE_SERVER_ONLY, webservices/WS_SECURITY_KEY_ENTROPY_MODE, webservices/WS_SECURITY_KEY_ENTROPY_MODE_CLIENT_ONLY, webservices/WS_SECURITY_KEY_ENTROPY_MODE_COMBINED, webservices/WS_SECURITY_KEY_ENTROPY_MODE_SERVER_ONLY, wsw.ws_security_key_entropy_mode
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_KEY_ENTROPY_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SECURITY_KEY_ENTROPY_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SECURITY_KEY_ENTROPY_MODE
+req.redist: 
 ---
 
 # WS_SECURITY_KEY_ENTROPY_MODE enumeration

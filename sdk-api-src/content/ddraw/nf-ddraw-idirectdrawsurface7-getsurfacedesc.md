@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::GetSurfaceDesc
 author: windows-sdk-content
 description: Retrieves a description of this surface in its current condition.
 old-location: directdraw\idirectdrawsurface7_getsurfacedesc.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 4c36685e-8eb7-4d91-a479-8f099d5e712b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSurfaceDesc, GetSurfaceDesc method [DirectDraw], GetSurfaceDesc method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetSurfaceDesc method, IDirectDrawSurface7.GetSurfaceDesc, IDirectDrawSurface7::GetSurfaceDesc, ddraw/IDirectDrawSurface7::GetSurfaceDesc, directdraw.idirectdrawsurface7_getsurfacedesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.GetSurfaceDesc
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::GetSurfaceDesc

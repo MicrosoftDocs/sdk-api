@@ -4,17 +4,16 @@ title: IMSVidClosedCaptioning::put_Enable
 author: windows-sdk-content
 description: The put_Enable method enables or disables closed captioning.
 old-location: mstv\imsvidclosedcaptioning_put_enable.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 2485b634-24e9-4945-ae46-0ca7fdb9d92b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidClosedCaptioning interface [Microsoft TV Technologies],put_Enable method, IMSVidClosedCaptioning.put_Enable, IMSVidClosedCaptioning::put_Enable, IMSVidClosedCaptioningput_Enable, mstv.imsvidclosedcaptioning_put_enable, put_Enable, put_Enable method [Microsoft TV Technologies], put_Enable method [Microsoft TV Technologies],IMSVidClosedCaptioning interface, segment/IMSVidClosedCaptioning::put_Enable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidClosedCaptioning.put_Enable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidClosedCaptioning::put_Enable

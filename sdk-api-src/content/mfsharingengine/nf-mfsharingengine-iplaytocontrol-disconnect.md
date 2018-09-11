@@ -4,17 +4,16 @@ title: IPlayToControl::Disconnect
 author: windows-sdk-content
 description: Disconnects the media element from the media sharing engine.
 old-location: mf\iplaytocontrol_disconnect.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 59EA778D-25DA-4EEA-8601-F6D72486410B
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: Disconnect, Disconnect method [Media Foundation], Disconnect method [Media Foundation],IPlayToControl interface, IPlayToControl interface [Media Foundation],Disconnect method, IPlayToControl.Disconnect, IPlayToControl::Disconnect, mf.iplaytocontrol_disconnect, mfsharingengine/IPlayToControl::Disconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfsharingengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PLAYTO_SOURCE_CREATEFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPlayToControl.Disconnect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPlayToControl::Disconnect

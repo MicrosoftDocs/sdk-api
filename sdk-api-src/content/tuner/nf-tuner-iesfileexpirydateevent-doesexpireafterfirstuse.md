@@ -4,17 +4,16 @@ title: IESFileExpiryDateEvent::DoesExpireAfterFirstUse
 author: windows-sdk-content
 description: Gets a flag from a FileExpiryDate event that indicates whether a license for protected content expires after its first use.
 old-location: mstv\iesfileexpirydateevent_doesexpireafterfirstuse.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 24a1d5aa-fee5-4436-a3ee-6a2108ff0f32
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: DoesExpireAfterFirstUse, DoesExpireAfterFirstUse method [Microsoft TV Technologies], DoesExpireAfterFirstUse method [Microsoft TV Technologies],IESFileExpiryDateEvent interface, IESFileExpiryDateEvent interface [Microsoft TV Technologies],DoesExpireAfterFirstUse method, IESFileExpiryDateEvent.DoesExpireAfterFirstUse, IESFileExpiryDateEvent::DoesExpireAfterFirstUse, mstv.iesfileexpirydateevent_doesexpireafterfirstuse, tuner/IESFileExpiryDateEvent::DoesExpireAfterFirstUse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IESFileExpiryDateEvent.DoesExpireAfterFirstUse
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IESFileExpiryDateEvent::DoesExpireAfterFirstUse

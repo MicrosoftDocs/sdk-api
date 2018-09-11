@@ -4,17 +4,16 @@ title: SrpCreateThreadNetworkContext function
 author: windows-sdk-content
 description: Sets the enterprise ID as the data context of the current thread. This is allowed only if the process already has the same enterprise ID present in its process context. It optionally returns the existing thread token.
 old-location: edp\srpcreatethreadnetworkcontext.htm
-old-project: EDP
+tech.root: EDP
 ms.assetid: 95997D25-04FE-445B-ADC1-DE85A34BD70C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EDP.srpcreatethreadnetworkcontext, SrpCreateThreadNetworkContext, SrpCreateThreadNetworkContext function, srpapi/SrpCreateThreadNetworkContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: srpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENTERPRISE_DATA_POLICIES
+req.lib: Srpapi.lib
+req.dll: Srpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SrpCreateThreadNetworkContext
 product: Windows
 targetos: Windows
-req.lib: Srpapi.lib
-req.dll: Srpapi.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SrpCreateThreadNetworkContext function

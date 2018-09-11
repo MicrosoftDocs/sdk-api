@@ -4,17 +4,16 @@ title: IConsoleVerb::GetDefaultVerb
 author: windows-sdk-content
 description: The GetDefaultVerb method gets the snap-in's default verb.
 old-location: mmc\iconsoleverb_getdefaultverb.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: e30f3690-361b-4aee-97e7-014e2e8ee6a4
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: GetDefaultVerb, GetDefaultVerb method [MMC], GetDefaultVerb method [MMC],IConsoleVerb interface, IConsoleVerb interface [MMC],GetDefaultVerb method, IConsoleVerb.GetDefaultVerb, IConsoleVerb::GetDefaultVerb, _slate_iconsoleverb_getdefaultverb, mmc.iconsoleverb_getdefaultverb, mmc/IConsoleVerb::GetDefaultVerb
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConsoleVerb.GetDefaultVerb
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IConsoleVerb::GetDefaultVerb
@@ -63,7 +61,7 @@ GetDefaultVerb method gets the snap-in's default verb.
 
 ### -param peCmdID
 
-
+TBD
 
 
 

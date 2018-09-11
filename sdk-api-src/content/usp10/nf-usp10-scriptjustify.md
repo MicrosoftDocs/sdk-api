@@ -4,17 +4,16 @@ title: ScriptJustify function
 author: windows-sdk-content
 description: Creates an advance widths table to allow text justification when passed to the ScriptTextOut function.
 old-location: intl\scriptjustify.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 9419eb80-cd33-4974-a1f1-d43276cb7a91
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ScriptJustify, ScriptJustify function [Internationalization for Windows Applications], _win32_ScriptJustify, intl.scriptjustify, usp10/ScriptJustify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 
-req.redist: Internet Explorer 5 or later on Windows Me/98/95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCRIPT_JUSTIFY
+req.lib: Usp10.lib
+req.dll: Usp10.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ScriptJustify
 product: Windows
 targetos: Windows
-req.lib: Usp10.lib
-req.dll: Usp10.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ---
 
 # ScriptJustify function

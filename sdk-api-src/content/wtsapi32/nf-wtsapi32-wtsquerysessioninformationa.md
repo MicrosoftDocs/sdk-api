@@ -4,17 +4,16 @@ title: WTSQuerySessionInformationA function
 author: windows-sdk-content
 description: Retrieves session information for the specified session on the specified Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsquerysessioninformation.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: d52345a4-0408-4ea9-ba71-349910143752
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WTSQuerySessionInformation, WTSQuerySessionInformation function [Remote Desktop Services], WTSQuerySessionInformationA, WTSQuerySessionInformationW, _win32_wtsquerysessioninformation, termserv.wtsquerysessioninformation, wtsapi32/WTSQuerySessionInformation, wtsapi32/WTSQuerySessionInformationA, wtsapi32/WTSQuerySessionInformationW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_VIRTUAL_CLASS
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - WTSQuerySessionInformationW
 product: Windows
 targetos: Windows
-req.lib: Wtsapi32.lib
-req.dll: Wtsapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WTSQuerySessionInformationA function

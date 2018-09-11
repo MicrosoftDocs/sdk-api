@@ -4,17 +4,16 @@ title: IWSManResourceLocator::get_Error
 author: windows-sdk-content
 description: Gets an XML representation of additional error information.
 old-location: winrm\iwsmanresourcelocator_error.htm
-old-project: winrm
+tech.root: WinRM
 ms.assetid: 040333f5-32b0-4ec8-8deb-da9fcb2ea46b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],Error property, IWSManResourceLocator.Error, IWSManResourceLocator.get_Error, IWSManResourceLocator::Error, IWSManResourceLocator::get_Error, get_Error, winrm.iwsmanresourcelocator_error, wsmandisp/IWSManResourceLocator::Error, wsmandisp/IWSManResourceLocator::get_Error
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManProxyAuthenticationFlags
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWSManResourceLocator.get_Error
 product: Windows
 targetos: Windows
-req.lib: WSManDisp.tlb
-req.dll: WSMAuto.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSManResourceLocator::get_Error

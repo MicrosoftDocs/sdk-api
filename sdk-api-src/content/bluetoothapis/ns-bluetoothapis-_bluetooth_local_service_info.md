@@ -4,7 +4,7 @@ title: "_BLUETOOTH_LOCAL_SERVICE_INFO"
 author: windows-sdk-content
 description: Contains local service information for a Bluetooth device.
 old-location: bluetooth\bluetooth_local_service_info.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: d16fe6f1-4b76-4dbe-825e-e3995d2b4961
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BLUETOOTH_LOCAL_SERVICE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT
+req.redist: 
 ---
 
 # _BLUETOOTH_LOCAL_SERVICE_INFO structure

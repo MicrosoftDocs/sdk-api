@@ -4,17 +4,16 @@ title: IDot11AdHocNetwork::GetInterface
 author: windows-sdk-content
 description: Gets the interface associated with a network.
 old-location: nwifi\idot11adhocnetwork_getinterface.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 3c14c7fd-625b-48f7-b404-50da0db170f9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetInterface, GetInterface method [NativeWIFI], GetInterface method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetInterface method, IDot11AdHocNetwork.GetInterface, IDot11AdHocNetwork::GetInterface, adhoc/IDot11AdHocNetwork::GetInterface, nwifi.idot11adhocnetwork_getinterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocNetwork.GetInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocNetwork::GetInterface

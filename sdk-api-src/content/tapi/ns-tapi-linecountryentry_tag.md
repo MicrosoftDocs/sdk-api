@@ -4,7 +4,7 @@ title: linecountryentry_tag
 author: windows-sdk-content
 description: Provides the data for a single country/region entry.
 old-location: tapi2\linecountryentry_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 627ff743-f90b-4bcb-b646-cdbc9f768ad2
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINECOUNTRYENTRY, *LPLINECOUNTRYENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINECOUNTRYENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINECOUNTRYENTRY, *LPLINECOUNTRYENTRY
+req.redist: 
 ---
 
 # linecountryentry_tag structure

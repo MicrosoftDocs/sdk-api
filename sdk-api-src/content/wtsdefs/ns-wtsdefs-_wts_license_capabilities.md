@@ -4,7 +4,7 @@ title: "_WTS_LICENSE_CAPABILITIES"
 author: windows-sdk-content
 description: Contains information about the licensing capabilities of the client.
 old-location: termserv\wts_license_capabilities.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 975a534e-03f1-4c8f-9de1-42144e31c8cb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_LICENSE_CAPABILITIES, *PWTS_LICENSE_CAPABILITIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTS_LICENSE_CAPABILITIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WTS_LICENSE_CAPABILITIES, *PWTS_LICENSE_CAPABILITIES
+req.redist: 
 ---
 
 # _WTS_LICENSE_CAPABILITIES structure

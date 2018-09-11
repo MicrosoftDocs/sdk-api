@@ -4,17 +4,16 @@ title: IApiTracingDataCollector::put_LogApiNamesOnly
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether PLA logs only the function name.
 old-location: pla\iapitracingdatacollector_logapinamesonly.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: bb3cc333-52d9-416c-9db2-654a254f4477
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IApiTracingDataCollector interface [PLA],LogApiNamesOnly property, IApiTracingDataCollector.LogApiNamesOnly, IApiTracingDataCollector.put_LogApiNamesOnly, IApiTracingDataCollector::LogApiNamesOnly, IApiTracingDataCollector::get_LogApiNamesOnly, IApiTracingDataCollector::put_LogApiNamesOnly, LogApiNamesOnly property [PLA], LogApiNamesOnly property [PLA],IApiTracingDataCollector interface, base.iapitracingdatacollector_logapinamesonly, pla.iapitracingdatacollector_logapinamesonly, pla/IApiTracingDataCollector::LogApiNamesOnly, pla/IApiTracingDataCollector::get_LogApiNamesOnly, pla/IApiTracingDataCollector::put_LogApiNamesOnly, put_LogApiNamesOnly
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IApiTracingDataCollector.put_LogApiNamesOnly
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IApiTracingDataCollector::put_LogApiNamesOnly

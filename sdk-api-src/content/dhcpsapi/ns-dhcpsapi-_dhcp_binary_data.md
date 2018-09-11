@@ -4,7 +4,7 @@ title: "_DHCP_BINARY_DATA"
 author: windows-sdk-content
 description: The DHCP_BINARY_DATA structure defines an opaque blob of binary data.
 old-location: dhcp\dhcp_binary_data.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 0afdddb4-12f9-4c0b-937a-2cc311c126b4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_BINARY_DATA, *LPDHCP_BINARY_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_BINARY_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_BINARY_DATA, *LPDHCP_BINARY_DATA
+req.redist: 
 ---
 
 # _DHCP_BINARY_DATA structure

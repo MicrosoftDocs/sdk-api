@@ -4,7 +4,7 @@ title: IPropertyStore
 author: windows-sdk-content
 description: This interface exposes methods used to enumerate and manipulate property values.
 old-location: audio\ipropertystore.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 63afd5b1-87cc-4e0a-8964-2138c5fbff46
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyStore
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0.6001 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyStore interface

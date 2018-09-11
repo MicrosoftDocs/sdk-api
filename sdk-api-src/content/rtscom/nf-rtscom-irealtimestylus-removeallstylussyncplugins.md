@@ -4,17 +4,16 @@ title: IRealTimeStylus::RemoveAllStylusSyncPlugins
 author: windows-sdk-content
 description: Removes all of the plug-ins from the synchronous plug-in collection.
 old-location: tablet\irealtimestylus_removeallstylussyncplugins.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 6d6aa14b-f1f5-460a-b37a-5187022ad301
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 6d6aa14b-f1f5-460a-b37a-5187022ad301, IRealTimeStylus interface [Tablet PC],RemoveAllStylusSyncPlugins method, IRealTimeStylus.RemoveAllStylusSyncPlugins, IRealTimeStylus::RemoveAllStylusSyncPlugins, RemoveAllStylusSyncPlugins, RemoveAllStylusSyncPlugins method [Tablet PC], RemoveAllStylusSyncPlugins method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::RemoveAllStylusSyncPlugins, tablet.irealtimestylus_removeallstylussyncplugins
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRealTimeStylus.RemoveAllStylusSyncPlugins
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRealTimeStylus::RemoveAllStylusSyncPlugins

@@ -4,7 +4,7 @@ title: textrange_properties
 author: windows-sdk-content
 description: Contains a group of OpenType features to apply to a run.
 old-location: intl\textrange_properties.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: f43a0873-f499-4d66-9fce-57f332c1dc77
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 
-req.redist: Usp10.dll version 1.600 or greater onWindows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEXTRANGE_PROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TEXTRANGE_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: TEXTRANGE_PROPERTIES
+req.redist: Usp10.dll version 1.600 or greater onWindows XP
 ---
 
 # textrange_properties structure

@@ -4,17 +4,16 @@ title: IDot11AdHocInterface::GetIEnumSecuritySettings
 author: windows-sdk-content
 description: Gets the collection of security settings associated with this NIC.
 old-location: nwifi\idot11adhocinterface_getienumsecuritysettings.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: e5f98222-83aa-4ba9-adc7-e7b67eb5dc0d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetIEnumSecuritySettings, GetIEnumSecuritySettings method [NativeWIFI], GetIEnumSecuritySettings method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetIEnumSecuritySettings method, IDot11AdHocInterface.GetIEnumSecuritySettings, IDot11AdHocInterface::GetIEnumSecuritySettings, adhoc/IDot11AdHocInterface::GetIEnumSecuritySettings, nwifi.idot11adhocinterface_getienumsecuritysettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocInterface.GetIEnumSecuritySettings
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocInterface::GetIEnumSecuritySettings

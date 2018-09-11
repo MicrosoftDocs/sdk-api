@@ -4,17 +4,16 @@ title: IEvalRat::TestRating
 author: windows-sdk-content
 description: The TestRating method determines whether a program with the specified rating should be blocked.
 old-location: mstv\ievalrat_testrating.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 26144496-200c-49b8-9f5e-23a39fea20bc
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IEvalRat interface [Microsoft TV Technologies],TestRating method, IEvalRat.TestRating, IEvalRat::TestRating, IEvalRatTestRating, TestRating, TestRating method [Microsoft TV Technologies], TestRating method [Microsoft TV Technologies],IEvalRat interface, mstv.ievalrat_testrating, tvratings/IEvalRat::TestRating
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tvratings.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EnTvRat_US_TV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEvalRat.TestRating
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEvalRat::TestRating

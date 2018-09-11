@@ -4,17 +4,16 @@ title: IPhotoAcquireSource::InitializeItemList
 author: windows-sdk-content
 description: The InitializeItemList method enumerates transferable items on the device and passes each item to the optional progress callback, if it is supplied.
 old-location: picacq\iphotoacquiresource_initializeitemlist.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 1e0ebbc7-888d-4044-8257-47c1719cf7fc
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPhotoAcquireSource interface [Picture Acquisition],InitializeItemList method, IPhotoAcquireSource.InitializeItemList, IPhotoAcquireSource::InitializeItemList, IPhotoAcquireSourceInitializeItemList, InitializeItemList, InitializeItemList method [Picture Acquisition], InitializeItemList method [Picture Acquisition],IPhotoAcquireSource interface, photoacquire/IPhotoAcquireSource::InitializeItemList, picacq.iphotoacquiresource_initializeitemlist
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireSource.InitializeItemList
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireSource::InitializeItemList

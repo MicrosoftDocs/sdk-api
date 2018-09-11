@@ -4,17 +4,16 @@ title: IReferenceTrackerManager
 author: windows-sdk-content
 description: Defines the interface for a XAML object reference manager. Implement this interface to manage instances of IReferenceTracker on XAML objects.
 old-location: winrt\ireferencetrackermanager.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: bdac39a0-a51a-49cc-b554-58450c722a46
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IReferenceTrackerManager, IReferenceTrackerManager interface [Windows Runtime], IReferenceTrackerManager interface [Windows Runtime],described, windows/IReferenceTrackerManager, winrt.ireferencetrackermanager
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IReferenceTrackerManager
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IReferenceTrackerManager interface

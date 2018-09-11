@@ -4,17 +4,16 @@ title: IPortableDeviceManager::GetDeviceDescription
 author: windows-sdk-content
 description: Retrieves the description of a device.
 old-location: wpdsdk\iportabledevicemanager_getdevicedescription.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 16c08c8a-9ce7-455a-9859-6b0be406f642
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetDeviceDescription, GetDeviceDescription method [Windows Portable Devices SDK], GetDeviceDescription method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDeviceDescription method, IPortableDeviceManager.GetDeviceDescription, IPortableDeviceManager::GetDeviceDescription, IPortableDeviceManagerGetDeviceDescription, portabledeviceapi/IPortableDeviceManager::GetDeviceDescription, wpdsdk.iportabledevicemanager_getdevicedescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceManager.GetDeviceDescription
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceManager::GetDeviceDescription

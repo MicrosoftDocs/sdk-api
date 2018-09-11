@@ -4,17 +4,16 @@ title: IUIAnimationVariable2::GetIntegerValue
 author: windows-sdk-content
 description: Gets the integer value of the animation variable.
 old-location: uianimation\iuianimationvariable2_getintegervalue.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: C878B86A-87AD-457A-802A-9A329B401B08
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetIntegerValue, GetIntegerValue method [Windows Animation], GetIntegerValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetIntegerValue method, IUIAnimationVariable2.GetIntegerValue, IUIAnimationVariable2::GetIntegerValue, uianimation.iuianimationvariable2_getintegervalue, uianimation/IUIAnimationVariable2::GetIntegerValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationVariable2.GetIntegerValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationVariable2::GetIntegerValue

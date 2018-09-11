@@ -4,17 +4,16 @@ title: lineGatherDigitsW function
 author: windows-sdk-content
 description: The lineGatherDigits function initiates the buffered gathering of digits on the specified call. The application specifies a buffer in which to place the digits and the maximum number of digits to be collected.
 old-location: tapi2\linegatherdigits.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 87d5f777-e536-46be-8ad4-437386f04c9b
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: "_tapi2_linegatherdigits, lineGatherDigits, lineGatherDigits function [TAPI 2.2], lineGatherDigitsA, lineGatherDigitsW, tapi/lineGatherDigits, tapi/lineGatherDigitsA, tapi/lineGatherDigitsW, tapi2.linegatherdigits"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - lineGatherDigitsW
 product: Windows
 targetos: Windows
-req.lib: Tapi32.lib
-req.dll: Tapi32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # lineGatherDigitsW function

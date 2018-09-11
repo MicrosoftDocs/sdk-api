@@ -4,17 +4,16 @@ title: IWTSListenerCallback::OnNewChannelConnection
 author: windows-sdk-content
 description: Allows the Remote Desktop Connection (RDC) client plug-in to accept or deny a connection request for an incoming connection.
 old-location: termserv\iwtslistenercallback_onnewchannelconnection.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 1fa2b063-3a41-4f56-8cc1-8a829e530fb2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSListenerCallback interface [Remote Desktop Services],OnNewChannelConnection method, IWTSListenerCallback.OnNewChannelConnection, IWTSListenerCallback::OnNewChannelConnection, OnNewChannelConnection, OnNewChannelConnection method [Remote Desktop Services], OnNewChannelConnection method [Remote Desktop Services],IWTSListenerCallback interface, termserv.iwtslistenercallback_onnewchannelconnection, tsvirtualchannels/IWTSListenerCallback::OnNewChannelConnection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsvirtualchannels.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSListenerCallback.OnNewChannelConnection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSListenerCallback::OnNewChannelConnection
@@ -70,7 +68,7 @@ An <a href="https://msdn.microsoft.com/d90c6f80-ed4c-4b99-af85-d2c5816ade85">IWT
 
 ### -param data
 
-
+TBD
 
 
 ### -param pbAccept [out]

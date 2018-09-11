@@ -4,17 +4,16 @@ title: IWinMLModel::EnumerateModelOutputs
 author: windows-sdk-content
 description: Enumerates the WinML model outputs.
 old-location: machinelearning\iwinmlmodel_enumeratemodeloutputs.htm
-old-project: MachineLearning
+tech.root: MachineLearning
 ms.assetid: F946AF8E-67BE-4F4B-9BE3-2142CE646B0B
 ms.author: windowssdkdev
 ms.date: 03/08/2018
 ms.keywords: EnumerateModelOutputs, EnumerateModelOutputs method, EnumerateModelOutputs method,IWinMLModel interface, IWinMLModel interface,EnumerateModelOutputs method, IWinMLModel.EnumerateModelOutputs, IWinMLModel::EnumerateModelOutputs, MachineLearning.iwinmlmodel_enumeratemodeloutputs, winml/IWinMLModel::EnumerateModelOutputs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_TENSOR_DATA_TYPE
+req.lib: Winml.lib
+req.dll: Winml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWinMLModel.EnumerateModelOutputs
 product: Windows
 targetos: Windows
-req.lib: Winml.lib
-req.dll: Winml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWinMLModel::EnumerateModelOutputs

@@ -4,17 +4,16 @@ title: IMetaDataImport::GetCustomAttributeProps
 author: windows-sdk-content
 description: Gets the value of the custom attribute, given its metadata token.
 old-location: winrt\imetadataimport_getcustomattributeprops.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: ccb8891c-ceef-4897-9ec4-b3008a7d5264
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetCustomAttributeProps, GetCustomAttributeProps method [Windows Runtime], GetCustomAttributeProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetCustomAttributeProps method, IMetaDataImport.GetCustomAttributeProps, IMetaDataImport::GetCustomAttributeProps, rometadataapi/IMetaDataImport::GetCustomAttributeProps, winrt.imetadataimport_getcustomattributeprops
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.GetCustomAttributeProps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::GetCustomAttributeProps
@@ -77,7 +75,7 @@ An <b>mdMethodDef</b> or <b>mdMemberRef</b> metadata token representing the Type
 
 ### -param ppBlob
 
-
+TBD
 
 
 ### -param pcbBlob [out]

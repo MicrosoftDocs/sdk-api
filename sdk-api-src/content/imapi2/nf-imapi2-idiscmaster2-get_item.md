@@ -4,17 +4,16 @@ title: IDiscMaster2::get_Item
 author: windows-sdk-content
 description: Retrieves the unique identifier of the specified disc device.
 old-location: imapi\idiscmaster2_get_item.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: e909acb9-850b-404d-a2f7-efb37faf3506
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscMaster2 interface [IMAPI],get_Item method, IDiscMaster2.get_Item, IDiscMaster2::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get_item, imapi2/IDiscMaster2::get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscMaster2.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscMaster2::get_Item

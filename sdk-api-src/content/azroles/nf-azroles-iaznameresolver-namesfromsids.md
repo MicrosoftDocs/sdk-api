@@ -4,17 +4,16 @@ title: IAzNameResolver::NamesFromSids
 author: windows-sdk-content
 description: Gets the display names that correspond to the specified security identifiers (SIDs).
 old-location: security\iaznameresolver_namesfromsids_method.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: fedf0164-51ca-480c-8e45-443e74fc5b13
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IAzNameResolver interface [Security],NamesFromSids method, IAzNameResolver.NamesFromSids, IAzNameResolver::NamesFromSids, NamesFromSids, NamesFromSids method [Security], NamesFromSids method [Security],IAzNameResolver interface, azroles/IAzNameResolver::NamesFromSids, security.iaznameresolver_namesfromsids_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzNameResolver.NamesFromSids
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzNameResolver::NamesFromSids

@@ -4,17 +4,16 @@ title: SHQueryRecycleBinW function
 author: windows-sdk-content
 description: Retrieves the size of the Recycle Bin and the number of items in it, for a specified drive.
 old-location: shell\SHQueryRecycleBin.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a9a80486-2c99-4916-af25-10b00573456b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHQueryRecycleBin, SHQueryRecycleBin function [Windows Shell], SHQueryRecycleBinA, SHQueryRecycleBinW, _win32_SHQueryRecycleBin, shell.SHQueryRecycleBin, shellapi/SHQueryRecycleBin, shellapi/SHQueryRecycleBinA, shellapi/SHQueryRecycleBinW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHQueryRecycleBinW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHQueryRecycleBinW function

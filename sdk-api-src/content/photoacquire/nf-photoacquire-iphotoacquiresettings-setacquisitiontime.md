@@ -4,17 +4,16 @@ title: IPhotoAcquireSettings::SetAcquisitionTime
 author: windows-sdk-content
 description: The SetAcquisitionTime method sets the acquisition time explicitly.
 old-location: picacq\iphotoacquiresettings_setacquisitiontime.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: fc43be78-f35b-4159-a15c-c21cddee6c9e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetAcquisitionTime method, IPhotoAcquireSettings.SetAcquisitionTime, IPhotoAcquireSettings::SetAcquisitionTime, IPhotoAcquireSettingsSetAcquisitionTime, SetAcquisitionTime, SetAcquisitionTime method [Picture Acquisition], SetAcquisitionTime method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetAcquisitionTime, picacq.iphotoacquiresettings_setacquisitiontime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireSettings.SetAcquisitionTime
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireSettings::SetAcquisitionTime

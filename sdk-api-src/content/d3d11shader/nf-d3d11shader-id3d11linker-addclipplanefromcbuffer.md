@@ -4,17 +4,16 @@ title: ID3D11Linker::AddClipPlaneFromCBuffer
 author: windows-sdk-content
 description: Adds a clip plane with the plane coefficients taken from a cbuffer entry for 10Level9 shaders.
 old-location: direct3d11\id3d11linker_addclipplanefromcbuffer.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 0E7820F1-8F4E-43B2-A8DD-560BC2B5BC3D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddClipPlaneFromCBuffer, AddClipPlaneFromCBuffer method [Direct3D 11], AddClipPlaneFromCBuffer method [Direct3D 11],ID3D11Linker interface, ID3D11Linker interface [Direct3D 11],AddClipPlaneFromCBuffer method, ID3D11Linker.AddClipPlaneFromCBuffer, ID3D11Linker::AddClipPlaneFromCBuffer, d3d11shader/ID3D11Linker::AddClipPlaneFromCBuffer, direct3d11.id3d11linker_addclipplanefromcbuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_VERSION_TYPE
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11Linker.AddClipPlaneFromCBuffer
 product: Windows
 targetos: Windows
-req.lib: D3DCompiler.lib
-req.dll: D3DCompiler_47.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Linker::AddClipPlaneFromCBuffer

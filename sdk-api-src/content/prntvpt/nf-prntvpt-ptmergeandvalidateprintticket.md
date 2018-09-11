@@ -4,17 +4,16 @@ title: PTMergeAndValidatePrintTicket function
 author: windows-sdk-content
 description: Merges two print tickets and returns a valid, viable print ticket.
 old-location: gdi\ptmergeandvalidateprintticket.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 97691930-d76a-48c9-80b9-8413d96322a9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PTMergeAndValidatePrintTicket, PTMergeAndValidatePrintTicket function [Windows GDI], _win32_PTMergeAndValidatePrintTicket, gdi.ptmergeandvalidateprintticket, prntvpt/PTMergeAndValidatePrintTicket
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: prntvpt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EDefaultDevmodeType
+req.lib: Prntvpt.lib
+req.dll: Prntvpt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PTMergeAndValidatePrintTicket
 product: Windows
 targetos: Windows
-req.lib: Prntvpt.lib
-req.dll: Prntvpt.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PTMergeAndValidatePrintTicket function

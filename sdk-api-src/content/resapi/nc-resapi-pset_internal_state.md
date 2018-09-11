@@ -4,17 +4,16 @@ title: PSET_INTERNAL_STATE
 author: windows-sdk-content
 description: Sets the internal state of a resource.
 old-location: mscs\setinternalstate.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: B9ECD98B-D867-44C0-846F-8FE96E44F387
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PSET_INTERNAL_STATE, PSET_INTERNAL_STATE callback function [Failover Cluster], SetInternalState, SetInternalState callback, SetInternalState callback function [Failover Cluster], mscs.setinternalstate, resapi/PSET_INTERNAL_STATE, resapi/SetInternalState
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetInternalState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PSET_INTERNAL_STATE callback function

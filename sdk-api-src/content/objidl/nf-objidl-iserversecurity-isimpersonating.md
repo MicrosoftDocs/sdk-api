@@ -4,17 +4,16 @@ title: IServerSecurity::IsImpersonating
 author: windows-sdk-content
 description: Indicates whether the server is currently impersonating the client.
 old-location: com\iserversecurity_isimpersonating.htm
-old-project: com
+tech.root: com
 ms.assetid: f847348a-1785-4b4a-b43e-a5eea21847c4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IServerSecurity interface [COM],IsImpersonating method, IServerSecurity.IsImpersonating, IServerSecurity::IsImpersonating, IsImpersonating, IsImpersonating method [COM], IsImpersonating method [COM],IServerSecurity interface, _com_iserversecurity_isimpersonating, com.iserversecurity_isimpersonating, objidlbase/IServerSecurity::IsImpersonating
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IServerSecurity.IsImpersonating
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IServerSecurity::IsImpersonating

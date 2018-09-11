@@ -4,17 +4,16 @@ title: IMbnInterfaceEvents
 author: windows-sdk-content
 description: This interface is a notification interface used to handle asynchronous IMbnInterface method calls as well as changes in the device state.
 old-location: mbn\imbninterfaceevents.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 3c641f14-9f53-4d69-9faa-2491189083df
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnInterfaceEvents, IMbnInterfaceEvents interface [Microsoft Broadband Networks], IMbnInterfaceEvents interface [Microsoft Broadband Networks],described, mbn.imbninterfaceevents, mbnapi/IMbnInterfaceEvents
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnInterfaceEvents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnInterfaceEvents interface

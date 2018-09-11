@@ -4,7 +4,7 @@ title: linedevcaps_tag
 author: windows-sdk-content
 description: The LINEDEVCAPS structure describes the capabilities of a line device. The lineGetDevCaps function and the TSPI_lineGetDevCaps function return the LINEDEVCAPS structure.
 old-location: tapi2\linedevcaps_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 83e38453-bb93-4cc5-923f-d0cd2898350a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEDEVCAPS, *LPLINEDEVCAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEDEVCAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEDEVCAPS, *LPLINEDEVCAPS
+req.redist: 
 ---
 
 # linedevcaps_tag structure

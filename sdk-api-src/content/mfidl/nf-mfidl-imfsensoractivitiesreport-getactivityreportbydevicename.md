@@ -4,17 +4,16 @@ title: IMFSensorActivitiesReport::GetActivityReportByDeviceName
 author: windows-sdk-content
 description: Retrieves an IMFSensorActivityReport based on the specified device name.
 old-location: mf\imfsensoractivityreport_getactivityreportbydevicename.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 66FDBCE0-E3F3-43A4-B34A-7FE6C7F3F918
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetActivityReportByDeviceName, GetActivityReportByDeviceName method [Media Foundation], GetActivityReportByDeviceName method [Media Foundation],IMFSensorActivitiesReport interface, IMFSensorActivitiesReport interface [Media Foundation],GetActivityReportByDeviceName method, IMFSensorActivitiesReport.GetActivityReportByDeviceName, IMFSensorActivitiesReport::GetActivityReportByDeviceName, mf.imfsensoractivityreport_getactivityreportbydevicename, mfidl/IMFSensorActivitiesReport::GetActivityReportByDeviceName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorActivitiesReport.GetActivityReportByDeviceName
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorActivitiesReport::GetActivityReportByDeviceName
@@ -65,7 +63,7 @@ Retrieves an <a href="https://msdn.microsoft.com/06612B8E-5C1E-487C-B6EF-15F65DE
 
 ### -param SymbolicName
 
-
+TBD
 
 
 ### -param sensorActivityReport [out]

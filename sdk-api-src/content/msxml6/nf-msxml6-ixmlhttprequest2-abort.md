@@ -4,17 +4,16 @@ title: IXMLHTTPRequest2::Abort
 author: windows-sdk-content
 description: Cancels the current HTTP request.
 old-location: ixhr2\ixmlhttprequest2_abort.htm
-old-project: ixhr2
+tech.root: ixhr2
 ms.assetid: B051D464-2328-44A2-A2BC-D0CDDCA79C64
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Abort, Abort method [XMLHttpRequest2], Abort method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],Abort method, IXMLHTTPRequest2.Abort, IXMLHTTPRequest2::Abort, ixhr2.ixmlhttprequest2_abort, msxml6/IXMLHTTPRequest2::Abort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps],MSXML 6.0 and later
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XHR_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXMLHTTPRequest2.Abort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IXMLHTTPRequest2::Abort

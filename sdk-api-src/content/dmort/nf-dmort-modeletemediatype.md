@@ -4,17 +4,16 @@ title: MoDeleteMediaType function
 author: windows-sdk-content
 description: The MoDeleteMediaType function deletes a media type structure that was previously allocated.
 old-location: dshow\modeletemediatype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: adbfe1e1-e956-48de-9ed1-9f8f4c66ff1c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: MoDeleteMediaType, MoDeleteMediaType function [DirectShow], dmort/MoDeleteMediaType, dshow.modeletemediatype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dmort.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: Msdmo.lib
+req.dll: Msdmo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MoDeleteMediaType
 product: Windows
 targetos: Windows
-req.lib: Msdmo.lib
-req.dll: Msdmo.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # MoDeleteMediaType function

@@ -4,17 +4,16 @@ title: WSCInstallNameSpaceEx function
 author: windows-sdk-content
 description: Installs a namespace provider.
 old-location: winsock\wscinstallnamespaceex.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 13dde602-c958-4312-a16f-a393dd6fb829
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSCInstallNameSpaceEx, WSCInstallNameSpaceEx function [Winsock], winsock.wscinstallnamespaceex, ws2spi/WSCInstallNameSpaceEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_PROVIDER_INFO_TYPE
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSCInstallNameSpaceEx
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSCInstallNameSpaceEx function

@@ -4,17 +4,16 @@ title: CMSPCallMultiGraph::Init
 author: windows-sdk-content
 description: The Init method is called by the MSP address object (in the method CreateMSPCall) to initialize the MSP call object.
 old-location: tapi3\cmspcallmultigraph_init.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: ffb250b1-b66c-470b-ac73-91511623da00
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],Init method, CMSPCallMultiGraph.Init, CMSPCallMultiGraph::Init, Init, Init method [TAPI 2.2], Init method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_init, mspcall/CMSPCallMultiGraph::Init, tapi3.cmspcallmultigraph_init
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mspcall.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSPCallMultiGraph.Init
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CMSPCallMultiGraph::Init

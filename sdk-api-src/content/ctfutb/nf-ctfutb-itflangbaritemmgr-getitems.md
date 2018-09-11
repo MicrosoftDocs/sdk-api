@@ -4,17 +4,16 @@ title: ITfLangBarItemMgr::GetItems
 author: windows-sdk-content
 description: ITfLangBarItemMgr::GetItems method
 old-location: tsf\itflangbaritemmgr_getitems.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: b6342d4b-e2b6-47d7-9f66-b3aa329c480d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetItems, GetItems method [Text Services Framework], GetItems method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],GetItems method, ITfLangBarItemMgr.GetItems, ITfLangBarItemMgr::GetItems, _tsf_itflangbaritemmgr_getitems_ref, ctfutb/ITfLangBarItemMgr::GetItems, tsf.itflangbaritemmgr_getitems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfLangBarItemMgr.GetItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfLangBarItemMgr::GetItems

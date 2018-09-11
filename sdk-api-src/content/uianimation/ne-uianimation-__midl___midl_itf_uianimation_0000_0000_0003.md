@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_UIAnimation_0000_0000_0003"
 author: windows-sdk-content
 description: Defines animation modes.
 old-location: uianimation\ui_animation_mode.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: b8995687-c0dc-4cd7-b11a-f871172895f9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_ANIMATION_MODE, UI_ANIMATION_MODE enumeration [Windows Animation], UI_ANIMATION_MODE_DISABLED, UI_ANIMATION_MODE_ENABLED, UI_ANIMATION_MODE_SYSTEM_DEFAULT, __MIDL___MIDL_itf_UIAnimation_0000_0000_0003, uianimation.ui_animation_mode, uianimation/UI_ANIMATION_MODE, uianimation/UI_ANIMATION_MODE_DISABLED, uianimation/UI_ANIMATION_MODE_ENABLED, uianimation/UI_ANIMATION_MODE_SYSTEM_DEFAULT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_ANIMATION_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: UI_ANIMATION_MODE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_UIAnimation_0000_0000_0003 enumeration

@@ -4,7 +4,7 @@ title: tagDOT11_ADHOC_CIPHER_ALGORITHM
 author: windows-sdk-content
 description: Specifies a cipher algorithm used to encrypt and decrypt information on an ad hoc network.
 old-location: nwifi\dot11_adhoc_cipher_algorithm.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 2ea8173d-f528-4065-90ce-71a455a6b35f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_CIPHER_ALGORITHM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DOT11_ADHOC_CIPHER_ALGORITHM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DOT11_ADHOC_CIPHER_ALGORITHM
+req.redist: 
 ---
 
 # tagDOT11_ADHOC_CIPHER_ALGORITHM enumeration

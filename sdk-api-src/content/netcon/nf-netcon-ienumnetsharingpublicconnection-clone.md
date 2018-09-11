@@ -4,17 +4,16 @@ title: IEnumNetSharingPublicConnection::Clone
 author: windows-sdk-content
 description: The Clone method creates a new enumeration interface from this enumeration.
 old-location: ics\ienumnetsharingpublicconnection_clone.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 5343acd3-d148-442c-a1d7-226248556f17
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Clone, Clone method [ICS/ICF], Clone method [ICS/ICF],IEnumNetSharingPublicConnection interface, IEnumNetSharingPublicConnection interface [ICS/ICF],Clone method, IEnumNetSharingPublicConnection.Clone, IEnumNetSharingPublicConnection::Clone, _ics_ienumnetsharingpublicconnection_clone, ics.ienumnetsharingpublicconnection_clone, netcon/IEnumNetSharingPublicConnection::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumNetSharingPublicConnection.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumNetSharingPublicConnection::Clone

@@ -4,7 +4,7 @@ title: "_DRAWPATRECT"
 author: windows-sdk-content
 description: The DRAWPATRECT structure defines a rectangle to be created.
 old-location: gdi\drawpatrect.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 8b374a0e-8ad0-40d4-a082-e90aff6336ba
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRAWPATRECT, *PDRAWPATRECT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DRAWPATRECT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DRAWPATRECT, *PDRAWPATRECT
+req.redist: 
 ---
 
 # _DRAWPATRECT structure

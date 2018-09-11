@@ -4,17 +4,16 @@ title: IComputerInfoChangeNotify
 author: windows-sdk-content
 description: Not supported. This interface may be absent in later versions of Windows.
 old-location: shell\IComputerInfoChangeNotify.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 47b853f7-3ee9-4884-94ab-bdcacfa0c2ef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IComputerInfoChangeNotify, IComputerInfoChangeNotify interface [Windows Shell], IComputerInfoChangeNotify interface [Windows Shell],described, _shell_IComputerInfoChangeNotify, shell.IComputerInfoChangeNotify, shobjidl/IComputerInfoChangeNotify
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComputerInfoChangeNotify
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IComputerInfoChangeNotify interface

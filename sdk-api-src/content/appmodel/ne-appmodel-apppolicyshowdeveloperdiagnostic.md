@@ -4,7 +4,7 @@ title: AppPolicyShowDeveloperDiagnostic
 author: windows-sdk-content
 description: The AppPolicyShowDeveloperDiagnostic enumeration indicates the method used for a process to surface developer information, such as asserts, to the user.
 old-location: appxpkg\apppolicyshowdeveloperdiagnostic_enumeration.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 4D8E137C-AD50-45E6-9284-98904021678A
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AppPolicyShowDeveloperDiagnostic
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AppPolicyShowDeveloperDiagnostic
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AppPolicyShowDeveloperDiagnostic
+req.redist: 
 ---
 
 # AppPolicyShowDeveloperDiagnostic enumeration

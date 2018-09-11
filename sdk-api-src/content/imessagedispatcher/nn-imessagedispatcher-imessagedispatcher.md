@@ -4,17 +4,16 @@ title: IMessageDispatcher
 author: windows-sdk-content
 description: Callback interface implemented by components that need to perform special processing of window messages on an ASTA thread.
 old-location: com\imessagedispatcher.htm
-old-project: com
+tech.root: com
 ms.assetid: 60FD9084-CC79-48FE-AB26-C8FCB4288851
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMessageDispatcher, IMessageDispatcher interface [COM], IMessageDispatcher interface [COM],described, com.imessagedispatcher, imessagedispatcher/IMessageDispatcher
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: imessagedispatcher.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMessageDispatcher
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMessageDispatcher interface

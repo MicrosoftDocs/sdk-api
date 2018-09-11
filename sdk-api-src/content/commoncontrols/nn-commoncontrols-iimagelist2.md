@@ -4,7 +4,7 @@ title: IImageList2
 author: windows-sdk-content
 description: Extends IImageList by providing additional methods for manipulating and interacting with image lists.
 old-location: controls\IImageList2.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\iimagelist2.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: commoncontrols.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IImageList2
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: Comctl32.dll (version 6.0 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IImageList2 interface

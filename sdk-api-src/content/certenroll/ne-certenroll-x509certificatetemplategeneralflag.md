@@ -4,17 +4,16 @@ title: X509CertificateTemplateGeneralFlag
 author: windows-sdk-content
 description: Contains use and modification information about templates and associated certificates.
 old-location: security\x509certificatetemplategeneralflag.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 0211dd53-39b7-49fb-8acd-e4d02a226904
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GeneralCA, GeneralCrossCA, GeneralDefault, GeneralDonotPersist, GeneralMachineType, GeneralModified, X509CertificateTemplateGeneralFlag, X509CertificateTemplateGeneralFlag enumeration [Security], certenroll/GeneralCA, certenroll/GeneralCrossCA, certenroll/GeneralDefault, certenroll/GeneralDonotPersist, certenroll/GeneralMachineType, certenroll/GeneralModified, certenroll/X509CertificateTemplateGeneralFlag, security.x509certificatetemplategeneralflag
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509CertificateTemplateGeneralFlag
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X509CertificateTemplateGeneralFlag
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: X509CertificateTemplateGeneralFlag
+req.redist: 
 ---
 
 # X509CertificateTemplateGeneralFlag enumeration

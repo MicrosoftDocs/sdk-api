@@ -4,7 +4,7 @@ title: "_ONEX_AUTH_PARAMS"
 author: windows-sdk-content
 description: Contains 802.1X authentication parameters used for 802.1X authentication.
 old-location: nwifi\onex_auth_params.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: a5dcd546-abe5-4553-baa8-656d37b263a3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dot1x.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ONEX_AUTH_PARAMS, *PONEX_AUTH_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ONEX_AUTH_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ONEX_AUTH_PARAMS, *PONEX_AUTH_PARAMS
+req.redist: 
 ---
 
 # _ONEX_AUTH_PARAMS structure

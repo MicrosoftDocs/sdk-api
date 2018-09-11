@@ -4,17 +4,16 @@ title: ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId
 author: windows-sdk-content
 description: Returns an initialized and instantiated ISyncProviderConfigUI object for the given unique instance ID.
 old-location: winsync\isyncproviderregistration_getsyncproviderconfiguifrominstanceid.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 472732d7-39bd-434c-80f3-9808eca9035c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSyncProviderConfigUIFromInstanceId, GetSyncProviderConfigUIFromInstanceId method [Windows Sync], GetSyncProviderConfigUIFromInstanceId method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderConfigUIFromInstanceId method, ISyncProviderRegistration.GetSyncProviderConfigUIFromInstanceId, ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId, syncregistration/ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId, winsync.isyncproviderregistration_getsyncproviderconfiguifrominstanceid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncProviderRegistration.GetSyncProviderConfigUIFromInstanceId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId

@@ -4,17 +4,16 @@ title: IOpcPart::GetContentType
 author: windows-sdk-content
 description: Gets the media type of part content.
 old-location: opc\iopcpart_getcontenttype.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: fe0d6ba3-8c62-4269-86ff-669609529933
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetContentType, GetContentType method [Open Packaging Conventions], GetContentType method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetContentType method, IOpcPart.GetContentType, IOpcPart::GetContentType, msopc/IOpcPart::GetContentType, opc.iopcpart_getcontenttype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcPart.GetContentType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcPart::GetContentType

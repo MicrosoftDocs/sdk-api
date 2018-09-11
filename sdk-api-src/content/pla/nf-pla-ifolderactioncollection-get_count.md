@@ -4,17 +4,16 @@ title: IFolderActionCollection::get_Count
 author: windows-sdk-content
 description: Retrieves the number of folder actions in the collection.
 old-location: pla\ifolderactioncollection_count.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: a6b0dbbd-aeb7-404a-8f7c-f9e52a772838
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Count property [PLA], Count property [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],Count property, IFolderActionCollection.Count, IFolderActionCollection.get_Count, IFolderActionCollection::Count, IFolderActionCollection::get_Count, base.ifolderactioncollection_count, get_Count, pla.ifolderactioncollection_count, pla/IFolderActionCollection::Count, pla/IFolderActionCollection::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFolderActionCollection.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderActionCollection::get_Count

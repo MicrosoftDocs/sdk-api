@@ -4,17 +4,16 @@ title: IRDPViewerRenderingSurface
 author: windows-sdk-content
 description: Manages the rendering surface for the viewer.
 old-location: rdp\irdpviewerrenderingsurface.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 24d818ec-f58d-4bf1-adf8-c15560595147
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPViewerRenderingSurface, IRDPViewerRenderingSurface interface [RDP], IRDPViewerRenderingSurface interface [RDP],described, rdp.irdpviewerrenderingsurface, rdpencomapi/IRDPViewerRenderingSurface
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPViewerRenderingSurface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPViewerRenderingSurface interface

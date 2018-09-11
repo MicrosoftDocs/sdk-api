@@ -4,17 +4,16 @@ title: IDataObjectAsyncCapability
 author: windows-sdk-content
 description: Enables interfaces that are usually synchronous to function asynchronously.
 old-location: shell\IDataObjectAsyncCapability.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2E23A137-0C5B-4ce9-8100-758C7E17753B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IDataObjectAsyncCapability, IDataObjectAsyncCapability interface [Windows Shell], IDataObjectAsyncCapability interface [Windows Shell],described, shell.IDataObjectAsyncCapability, shldisp/IDataObjectAsyncCapability
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataObjectAsyncCapability
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 6.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDataObjectAsyncCapability interface

@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSink3::put_DataAnalysisFilter
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_put_dataanalysisfilter.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 8a353c20-7804-4277-a5cb-de0a7a610dc5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],put_DataAnalysisFilter method, IMSVidStreamBufferSink3.put_DataAnalysisFilter, IMSVidStreamBufferSink3::put_DataAnalysisFilter, IMSVidStreamBufferSink3put_DataAnalysisFilter, mstv.imsvidstreambuffersink3_put_dataanalysisfilter, put_DataAnalysisFilter, put_DataAnalysisFilter method [Microsoft TV Technologies], put_DataAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, segment/IMSVidStreamBufferSink3::put_DataAnalysisFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSink3.put_DataAnalysisFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSink3::put_DataAnalysisFilter

@@ -4,17 +4,16 @@ title: IMediaStream::SendEndOfStream
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Forces the current stream to end. If the current stream isn't writable, this method does nothing.
 old-location: dshow\imediastream_sendendofstream.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: aa774875-1cf2-4792-a492-fef64571ae8f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaStream interface [DirectShow],SendEndOfStream method, IMediaStream.SendEndOfStream, IMediaStream::SendEndOfStream, IMediaStreamSendEndOfStream, SendEndOfStream, SendEndOfStream method [DirectShow], SendEndOfStream method [DirectShow],IMediaStream interface, dshow.imediastream_sendendofstream, mmstream/IMediaStream::SendEndOfStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMediaStream.SendEndOfStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaStream::SendEndOfStream

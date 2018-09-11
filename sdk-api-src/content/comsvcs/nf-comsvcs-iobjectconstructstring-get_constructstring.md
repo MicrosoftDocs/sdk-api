@@ -4,17 +4,16 @@ title: IObjectConstructString::get_ConstructString
 author: windows-sdk-content
 description: Retrieves the constructor string for the object.
 old-location: cos\iobjectconstructstring_get_constructstring.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 154b7567-0f25-49c3-90b2-58c95f0ebfee
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IObjectConstructString interface [COM+],get_ConstructString method, IObjectConstructString.get_ConstructString, IObjectConstructString::get_ConstructString, _cos_IObjectConstructString_get_ConstructString, comsvcs/IObjectConstructString::get_ConstructString, cos.iobjectconstructstring_get_constructstring, get_ConstructString, get_ConstructString method [COM+], get_ConstructString method [COM+],IObjectConstructString interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectConstructString.get_ConstructString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectConstructString::get_ConstructString

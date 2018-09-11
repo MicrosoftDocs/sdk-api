@@ -4,17 +4,16 @@ title: IAccPropServices::SetPropServer
 author: windows-sdk-content
 description: Servers use SetPropServer to specify a callback object to be used to annotate an array of properties for the accessible element.
 old-location: winauto\iaccpropservices_iaccpropservices__setpropserver.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 15e43a38-4cb3-43ca-a0fc-28faf49057dc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccPropServices interface [Windows Accessibility],SetPropServer method, IAccPropServices.SetPropServer, IAccPropServices::SetPropServer, SetPropServer, SetPropServer method [Windows Accessibility], SetPropServer method [Windows Accessibility],IAccPropServices interface, _msaa_IAccPropServices_SetPropServer, msaa.iaccpropservices_iaccpropservices__setpropserver, oleacc/IAccPropServices::SetPropServer, winauto.iaccpropservices_iaccpropservices__setpropserver
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
-req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: 
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccPropServices.SetPropServer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 ---
 
 # IAccPropServices::SetPropServer

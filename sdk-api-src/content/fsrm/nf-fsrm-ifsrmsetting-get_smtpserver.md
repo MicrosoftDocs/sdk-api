@@ -4,17 +4,16 @@ title: IFsrmSetting::get_SmtpServer
 author: windows-sdk-content
 description: Retrieves or sets the SMTP server that FSRM uses to send email.
 old-location: fsrm\ifsrmsetting_smtpserver.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 3d16e478-6e53-44d4-85ca-a4c508d138de
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmSetting class [File Server Resource Manager],SmtpServer property, IFsrmSetting interface [File Server Resource Manager],SmtpServer property, IFsrmSetting.SmtpServer, IFsrmSetting.get_SmtpServer, IFsrmSetting::SmtpServer, IFsrmSetting::get_SmtpServer, IFsrmSetting::put_SmtpServer, SmtpServer property [File Server Resource Manager], SmtpServer property [File Server Resource Manager],FsrmSetting class, SmtpServer property [File Server Resource Manager],IFsrmSetting interface, fs.ifsrmsetting_smtpserver, fsrm.ifsrmsetting_smtpserver, fsrm/IFsrmSetting::SmtpServer, fsrm/IFsrmSetting::get_SmtpServer, fsrm/IFsrmSetting::put_SmtpServer, get_SmtpServer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - FsrmSetting.SmtpServer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmSetting::get_SmtpServer

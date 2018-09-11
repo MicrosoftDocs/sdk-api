@@ -4,17 +4,16 @@ title: IPsecSaContextSubscriptionsGet0 function
 author: windows-sdk-content
 description: Retrieves an array of all the current IPsec security association (SA) change notification subscriptions.
 old-location: fwp\ipsecsacontextsubscriptionsget0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: eb7d8cd1-4bdb-4584-b9b9-c3667abf9bdb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IPsecSaContextSubscriptionsGet0, IPsecSaContextSubscriptionsGet0 function [Filtering], fwp.ipsecsacontextsubscriptionsget0, fwpmu/IPsecSaContextSubscriptionsGet0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPsecSaContextSubscriptionsGet0
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IPsecSaContextSubscriptionsGet0 function

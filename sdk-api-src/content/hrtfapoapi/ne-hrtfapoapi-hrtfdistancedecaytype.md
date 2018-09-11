@@ -4,17 +4,16 @@ title: HrtfDistanceDecayType
 author: windows-sdk-content
 description: Indicates a distance-based decay type applied to a sound.
 old-location: xaudio2\hrtfdistancedecaytype.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: 72421F09-6DB6-4195-AE44-0D3AD17F50B3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CustomDecay, HrtfDistanceDecayType, HrtfDistanceDecayType enumeration [XAudio2 Audio Mixing APIs], NaturalDecay, hrtfapoapi/CustomDecay, hrtfapoapi/HrtfDistanceDecayType, hrtfapoapi/NaturalDecay, xaudio2.hrtfdistancedecaytype
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: hrtfapoapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: HolographicSpaceInterop.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HrtfDistanceDecayType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HrtfDistanceDecayType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HrtfDistanceDecayType
+req.redist: 
 ---
 
 # HrtfDistanceDecayType enumeration

@@ -4,17 +4,16 @@ title: SCardForgetCardTypeA function
 author: windows-sdk-content
 description: Removes an introduced smart card from the smart card subsystem.
 old-location: security\scardforgetcardtype.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 4f2d4791-d517-43e4-bff9-f88e12983dea
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SCardForgetCardType, SCardForgetCardType function [Security], SCardForgetCardTypeA, SCardForgetCardTypeW, _smart_scardforgetcardtype, security.scardforgetcardtype, winscard/SCardForgetCardType, winscard/SCardForgetCardTypeA, winscard/SCardForgetCardTypeW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: Winscard.lib
+req.dll: Winscard.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SCardForgetCardTypeW
 product: Windows
 targetos: Windows
-req.lib: Winscard.lib
-req.dll: Winscard.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SCardForgetCardTypeA function

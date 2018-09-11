@@ -4,17 +4,16 @@ title: WinUsb_Free function
 author: windows-sdk-content
 description: The WinUsb_Free function releases all of the resources that WinUsb_Initialize allocated. This is a synchronous operation.
 old-location: buses\winusb_free.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 0f453364-fb2b-4b29-a96d-37c1d0d22608
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WinUsb_Free, WinUsb_Free function [Buses], buses.winusb_free, winusb/WinUsb_Free, winusbfunc_5364f078-34b5-4844-ab20-60e601f036b9.xml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+req.lib: Winusb.lib
+req.dll: Winusb.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinUsb_Free
 product: Windows
 targetos: Windows
-req.lib: Winusb.lib
-req.dll: Winusb.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WinUsb_Free function

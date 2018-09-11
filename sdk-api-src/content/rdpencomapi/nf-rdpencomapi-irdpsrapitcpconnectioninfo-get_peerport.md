@@ -4,17 +4,16 @@ title: IRDPSRAPITcpConnectionInfo::get_PeerPort
 author: windows-sdk-content
 description: Retrieves the remote port that is being used by the sharer or by the viewer in communication.
 old-location: rdp\irdpsrapitcpconnectioninfo_peerport.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: bc6a6048-50a8-4194-878a-015ab06955f7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],PeerPort property, IRDPSRAPITcpConnectionInfo.PeerPort, IRDPSRAPITcpConnectionInfo.get_PeerPort, IRDPSRAPITcpConnectionInfo::PeerPort, IRDPSRAPITcpConnectionInfo::get_PeerPort, PeerPort property [RDP], PeerPort property [RDP],IRDPSRAPITcpConnectionInfo interface, PeerPort property [RDP],RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP],PeerPort property, get_PeerPort, rdp.irdpsrapitcpconnectioninfo_peerport, rdpencomapi/IRDPSRAPITcpConnectionInfo::PeerPort, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_PeerPort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RDPSRAPITcpConnectionInfo.PeerPort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPITcpConnectionInfo::get_PeerPort

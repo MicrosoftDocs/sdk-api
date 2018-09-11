@@ -4,17 +4,16 @@ title: IWICStreamProvider::GetStream
 author: windows-sdk-content
 description: Gets the stream held by the component.
 old-location: wic\_wic_codec_iwicstreamprovider_getstream.htm
-old-project: wic
+tech.root: wic
 ms.assetid: c86e507b-0b1d-4de0-8af5-c46d7870fb09
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetStream, GetStream method [Windows Imaging Component], GetStream method [Windows Imaging Component],IWICStreamProvider interface, IWICStreamProvider interface [Windows Imaging Component],GetStream method, IWICStreamProvider.GetStream, IWICStreamProvider::GetStream, _wic_codec_iwicstreamprovider_getstream, wic._wic_codec_iwicstreamprovider_getstream, wincodecsdk/IWICStreamProvider::GetStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICStreamProvider.GetStream
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICStreamProvider::GetStream

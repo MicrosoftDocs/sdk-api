@@ -4,17 +4,16 @@ title: "_WSAPROTOCOL_INFOA"
 author: windows-sdk-content
 description: Used to store or retrieve complete information for a given protocol.
 old-location: winsock\wsaprotocol_info_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 758c5553-056f-4ea5-a851-30ef641ffb14
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWSAPROTOCOL_INFOA, AF_APPLETALK, AF_BTH, AF_INET, AF_INET6, AF_IPX, AF_IRDA, AF_NETBIOS, BTHPROTO_RFCOMM, IPPROTO_ICMP, IPPROTO_ICMPV6, IPPROTO_IGMP, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, LPWSAPROTOCOL_INFOA, LPWSAPROTOCOL_INFOA structure pointer [Winsock], PFL_HIDDEN, PFL_MATCHES_PROTOCOL_ZERO, PFL_MULTIPLE_PROTO_ENTRIES, PFL_NETWORKDIRECT_PROVIDER, PFL_RECOMMENDED_PROTO_ENTRY, SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, WSAPROTOCOL_INFO, WSAPROTOCOL_INFOA, WSAPROTOCOL_INFOA structure [Winsock], WSAPROTOCOL_INFOW, XP1_CONNECTIONLESS, XP1_CONNECT_DATA, XP1_DISCONNECT_DATA, XP1_EXPEDITED_DATA, XP1_GRACEFUL_CLOSE, XP1_GUARANTEED_DELIVERY, XP1_GUARANTEED_ORDER, XP1_IFS_HANDLES, XP1_INTERRUPT, XP1_MESSAGE_ORIENTED, XP1_MULTIPOINT_CONTROL_PLANE, XP1_MULTIPOINT_DATA_PLANE, XP1_PARTIAL_MESSAGE, XP1_PSEUDO_STREAM, XP1_QOS_SUPPORTED, XP1_SAN_SUPPORT_SDP, XP1_SUPPORT_BROADCAST, XP1_SUPPORT_MULTIPOINT, XP1_UNI_RECV, XP1_UNI_SEND, _WSAPROTOCOL_INFOA, _win32_wsaprotocol_info_2, winsock.wsaprotocol_info_2, winsock2/LPWSAPROTOCOL_INFOA, winsock2/WSAPROTOCOL_INFOA, winsock2/WSAPROTOCOL_INFOW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAPROTOCOL_INFOA, *LPWSAPROTOCOL_INFOA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WSAPROTOCOL_INFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSAPROTOCOL_INFOA, *LPWSAPROTOCOL_INFOA
+req.redist: 
 ---
 
 # _WSAPROTOCOL_INFOA structure

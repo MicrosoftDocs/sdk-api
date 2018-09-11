@@ -4,17 +4,16 @@ title: MoveFileExW function
 author: windows-sdk-content
 description: Moves an existing file or directory, including its children, with various move options.
 old-location: fs\movefileex.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 5fb4f897-66ed-49d7-913a-fb6e7cecdfa3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: MOVEFILE_COPY_ALLOWED, MOVEFILE_CREATE_HARDLINK, MOVEFILE_DELAY_UNTIL_REBOOT, MOVEFILE_FAIL_IF_NOT_TRACKABLE, MOVEFILE_REPLACE_EXISTING, MOVEFILE_WRITE_THROUGH, MoveFileEx, MoveFileEx function [Files], MoveFileExA, MoveFileExW, _win32_movefileex, base.movefileex, fs.movefileex, rename file [Files], winbase/MoveFileEx, winbase/MoveFileExA, winbase/MoveFileExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -55,10 +55,8 @@ api_name:
  - MoveFileExW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # MoveFileExW function

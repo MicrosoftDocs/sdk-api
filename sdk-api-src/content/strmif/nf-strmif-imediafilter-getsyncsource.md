@@ -4,17 +4,16 @@ title: IMediaFilter::GetSyncSource
 author: windows-sdk-content
 description: The GetSyncSource method retrieves the current reference clock.
 old-location: dshow\imediafilter_getsyncsource.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 5f5eb31c-3a12-45f4-9c95-caafc0267481
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetSyncSource, GetSyncSource method [DirectShow], GetSyncSource method [DirectShow],IMediaFilter interface, IMediaFilter interface [DirectShow],GetSyncSource method, IMediaFilter.GetSyncSource, IMediaFilter::GetSyncSource, IMediaFilterGetSyncSource, dshow.imediafilter_getsyncsource, strmif/IMediaFilter::GetSyncSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaFilter.GetSyncSource
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaFilter::GetSyncSource

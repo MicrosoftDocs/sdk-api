@@ -4,7 +4,7 @@ title: ID3D11VideoProcessorEnumerator1
 author: windows-sdk-content
 description: Enumerates the video processor capabilities of a Microsoft Direct3D 11 device.
 old-location: mf\id3d11videoprocessorenumerator1.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: BBC4C5BC-2DA0-48BD-B182-FBF62A2491A7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoProcessorEnumerator1
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoProcessorEnumerator1 interface

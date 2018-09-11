@@ -4,17 +4,16 @@ title: GetCapabilitiesStringLength function
 author: windows-sdk-content
 description: Retrieves the length of a monitor's capabilities string.
 old-location: monitor\getcapabilitiesstringlength.htm
-old-project: Monitor
+tech.root: Monitor
 ms.assetid: fe38e63d-b5b8-4b64-b7cb-9ff1c20a2e4a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCapabilitiesStringLength, GetCapabilitiesStringLength function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetCapabilitiesStringLength, monitor.getcapabilitiesstringlength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_VCP_CODE_TYPE, *LPMC_VCP_CODE_TYPE
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetCapabilitiesStringLength
 product: Windows
 targetos: Windows
-req.lib: Dxva2.lib
-req.dll: Dxva2.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetCapabilitiesStringLength function

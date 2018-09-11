@@ -4,17 +4,16 @@ title: IISDB_BIT::GetVersionNumber
 author: windows-sdk-content
 description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getversionnumber.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 44f905e2-4814-4990-8a77-6ca6311c5505
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetVersionNumber method, IISDB_BIT.GetVersionNumber, IISDB_BIT::GetVersionNumber, dvbsiparser/IISDB_BIT::GetVersionNumber, mstv.iisdb_bit_getversionnumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IISDB_BIT.GetVersionNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IISDB_BIT::GetVersionNumber

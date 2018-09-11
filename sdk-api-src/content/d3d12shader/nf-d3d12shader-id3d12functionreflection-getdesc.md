@@ -4,17 +4,16 @@ title: ID3D12FunctionReflection::GetDesc
 author: windows-sdk-content
 description: Fills the function descriptor structure for the function.
 old-location: direct3d12\id3d12functionreflection_getdesc.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: CAFBC2D0-0C1C-4D55-87A4-C7ABB52976BF
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetDesc method, ID3D12FunctionReflection.GetDesc, ID3D12FunctionReflection::GetDesc, d3d12shader/ID3D12FunctionReflection::GetDesc, direct3d12.id3d12functionreflection_getdesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SHADER_VERSION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12FunctionReflection.GetDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12FunctionReflection::GetDesc

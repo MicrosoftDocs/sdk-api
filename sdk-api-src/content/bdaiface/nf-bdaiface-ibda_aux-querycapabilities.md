@@ -4,17 +4,16 @@ title: IBDA_AUX::QueryCapabilities
 author: windows-sdk-content
 description: Gets the number of auxiliary connectors on the device.
 old-location: mstv\ibda_aux_querycapabilities.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7bb80ae2-050e-4fe6-9dd4-9cc6b2bcdd3c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_AUX interface [Microsoft TV Technologies],QueryCapabilities method, IBDA_AUX.QueryCapabilities, IBDA_AUX::QueryCapabilities, QueryCapabilities, QueryCapabilities method [Microsoft TV Technologies], QueryCapabilities method [Microsoft TV Technologies],IBDA_AUX interface, bdaiface/IBDA_AUX::QueryCapabilities, mstv.ibda_aux_querycapabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_AUX.QueryCapabilities
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_AUX::QueryCapabilities

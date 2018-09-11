@@ -4,17 +4,16 @@ title: "_VDS_PORTAL_GROUP_NOTIFICATION"
 author: windows-sdk-content
 description: Defines the details of iSCSI portal events.
 old-location: base\vds_portal_group_notification.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: db4f947b-996f-4aa0-aed6-0190f00ca58a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_NF_PORTAL_GROUP_ARRIVE, VDS_NF_PORTAL_GROUP_DEPART, VDS_NF_PORTAL_GROUP_MODIFY, VDS_PORTAL_GROUP_NOTIFICATION, VDS_PORTAL_GROUP_NOTIFICATION structure [VDS], _VDS_PORTAL_GROUP_NOTIFICATION, base.vds_portal_group_notification, vds/_VDS_PORTAL_GROUP_NOTIFICATION, vdshwprv/_VDS_PORTAL_GROUP_NOTIFICATION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PORTAL_GROUP_NOTIFICATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_PORTAL_GROUP_NOTIFICATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PORTAL_GROUP_NOTIFICATION
+req.redist: VDS 1.1
 ---
 
 # _VDS_PORTAL_GROUP_NOTIFICATION structure

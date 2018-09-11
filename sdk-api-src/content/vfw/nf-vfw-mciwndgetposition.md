@@ -4,17 +4,16 @@ title: MCIWndGetPosition macro
 author: windows-sdk-content
 description: The MCIWndGetPosition macro retrieves the numerical value of the current position within the content of the MCI device. You can use this macro or explicitly send the MCIWNDM_GETPOSITION message.
 old-location: multimedia\mciwndgetposition.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 317e2d37-432b-41ae-a1ef-66e2dd31a21c
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndGetPosition, MCIWndGetPosition macro [Windows Multimedia], _win32_MCIWndGetPosition, multimedia.mciwndgetposition, vfw/MCIWndGetPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndGetPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndGetPosition macro

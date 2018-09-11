@@ -4,7 +4,7 @@ title: "_DS_REPL_VALUE_META_DATA_BLOB_EXT"
 author: windows-sdk-content
 description: Contains attribute value replication metadata.
 old-location: ad\ds_repl_value_meta_data_blob_ext.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 095180F4-9E3F-47EE-B39E-107D7D219DCB
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_VALUE_META_DATA_BLOB_EXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - DS_REPL_VALUE_META_DATA_BLOB_EXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DS_REPL_VALUE_META_DATA_BLOB_EXT
+req.redist: 
 ---
 
 # _DS_REPL_VALUE_META_DATA_BLOB_EXT structure

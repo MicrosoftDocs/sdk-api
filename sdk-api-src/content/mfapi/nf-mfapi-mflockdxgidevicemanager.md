@@ -4,17 +4,16 @@ title: MFLockDXGIDeviceManager function
 author: windows-sdk-content
 description: Locks the shared Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager.
 old-location: mf\mflockdxgidevicemanager.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 01A789BA-C1DE-4EF8-81C4-261F59D5843B
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFLockDXGIDeviceManager, MFLockDXGIDeviceManager function [Media Foundation], mf.mflockdxgidevicemanager, mfapi/MFLockDXGIDeviceManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFLockDXGIDeviceManager
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFLockDXGIDeviceManager function

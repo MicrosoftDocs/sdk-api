@@ -4,17 +4,16 @@ title: IAzAuthorizationStore::put_ScriptEngineTimeout
 author: windows-sdk-content
 description: Sets or retrieves the time in milliseconds that the IAzClientContext::AccessCheck method will wait for a Business Rule (BizRule) to complete execution before canceling it.
 old-location: security\azauthorizationstore_scriptenginetimeout.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7ac3db2d-11a6-4481-a86d-4b3a1063dee3
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzAuthorizationStore object [Security],ScriptEngineTimeout property, IAzAuthorizationStore interface [Security],ScriptEngineTimeout property, IAzAuthorizationStore.ScriptEngineTimeout, IAzAuthorizationStore.put_ScriptEngineTimeout, IAzAuthorizationStore::ScriptEngineTimeout, IAzAuthorizationStore::get_ScriptEngineTimeout, IAzAuthorizationStore::put_ScriptEngineTimeout, ScriptEngineTimeout property [Security], ScriptEngineTimeout property [Security],AzAuthorizationStore object, ScriptEngineTimeout property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::ScriptEngineTimeout, azroles/IAzAuthorizationStore::get_ScriptEngineTimeout, azroles/IAzAuthorizationStore::put_ScriptEngineTimeout, put_ScriptEngineTimeout, security.azauthorizationstore_scriptenginetimeout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - AzAuthorizationStore.ScriptEngineTimeout
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzAuthorizationStore::put_ScriptEngineTimeout

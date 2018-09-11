@@ -4,17 +4,16 @@ title: IPortableDeviceContent::Move
 author: windows-sdk-content
 description: The Move method moves one or more objects from one location on the device to another.
 old-location: wpdsdk\iportabledevicecontent_move.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 938a6a06-31c5-44d1-b87b-a108995ae9a1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPortableDeviceContent interface [Windows Portable Devices SDK],Move method, IPortableDeviceContent.Move, IPortableDeviceContent::Move, IPortableDeviceContentMove, Move, Move method [Windows Portable Devices SDK], Move method [Windows Portable Devices SDK],IPortableDeviceContent interface, portabledeviceapi/IPortableDeviceContent::Move, wpdsdk.iportabledevicecontent_move
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceContent.Move
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceContent::Move

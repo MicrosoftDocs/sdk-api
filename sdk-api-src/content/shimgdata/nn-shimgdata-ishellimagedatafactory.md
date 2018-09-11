@@ -4,17 +4,16 @@ title: IShellImageDataFactory
 author: windows-sdk-content
 description: Exposes methods that create IShellImageData instances based on various image sources.
 old-location: shell\IShellImageDataFactory.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c3de35de-9bf5-415c-93e9-ac0085195c27
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellImageDataFactory, IShellImageDataFactory interface [Windows Shell], IShellImageDataFactory interface [Windows Shell],described, _shell_IShellImageDataFactory, shell.IShellImageDataFactory, shimgdata/IShellImageDataFactory
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shimgdata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageDataFactory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageDataFactory interface

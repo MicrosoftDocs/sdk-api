@@ -4,17 +4,16 @@ title: IInkPresenterDesktop::SetRootVisual
 author: windows-sdk-content
 description: Sets the connection to the app's DirectComposition visual tree.
 old-location: input_ink\iinkpresenterdesktop_setrootvisual.htm
-old-project: input_ink
+tech.root: input_ink
 ms.assetid: 27b08f20-d43b-452c-809d-837664eb42d0
 ms.author: windowssdkdev
 ms.date: 07/16/2018
 ms.keywords: IInkPresenterDesktop interface,SetRootVisual method, IInkPresenterDesktop.SetRootVisual, IInkPresenterDesktop::SetRootVisual, InkPresenterDesktop.iinkpresenterdesktop_setrootvisual, SetRootVisual, SetRootVisual method, SetRootVisual method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::SetRootVisual, input_ink.iinkpresenterdesktop_setrootvisual
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inkpresenterdesktop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInkPresenterDesktop.SetRootVisual
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkPresenterDesktop::SetRootVisual

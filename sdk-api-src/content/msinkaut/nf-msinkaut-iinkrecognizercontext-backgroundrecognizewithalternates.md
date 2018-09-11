@@ -4,17 +4,16 @@ title: IInkRecognizerContext::BackgroundRecognizeWithAlternates
 author: windows-sdk-content
 description: Causes the IInkRecognizer object to recognize the associated strokes collection and fire a RecognitionWithAlternates event when recognition is complete.
 old-location: tablet\inkrecognizercontext_backgroundrecognizewithalternates.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 1559678c-c220-4c67-aa0f-566377d95818
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 1559678c-c220-4c67-aa0f-566377d95818, BackgroundRecognizeWithAlternates, BackgroundRecognizeWithAlternates method [Tablet PC], BackgroundRecognizeWithAlternates method [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext, IInkRecognizerContext interface [Tablet PC],BackgroundRecognizeWithAlternates method, IInkRecognizerContext.BackgroundRecognizeWithAlternates, IInkRecognizerContext::BackgroundRecognizeWithAlternates, msinkaut/IInkRecognizerContext::BackgroundRecognizeWithAlternates, tablet.inkrecognizercontext_backgroundrecognizewithalternates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkRecognizerContext.BackgroundRecognizeWithAlternates
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizerContext::BackgroundRecognizeWithAlternates

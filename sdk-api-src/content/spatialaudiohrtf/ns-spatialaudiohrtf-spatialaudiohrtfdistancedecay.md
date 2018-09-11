@@ -4,17 +4,16 @@ title: SpatialAudioHrtfDistanceDecay
 author: windows-sdk-content
 description: Represents the decay model that is applied over distance from the position of an ISpatialAudioObjectForHrtf to the position of the listener.
 old-location: coreaudio\spatialaudiohrtfdistancedecay.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 2EBAE322-2A5F-4610-B64F-F1B8CE2DFD2D
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: SpatialAudioHrtfDistanceDecay, SpatialAudioHrtfDistanceDecay union [Core Audio], coreaudio.spatialaudiohrtfdistancedecay, spatialaudiohrtf/SpatialAudioHrtfDistanceDecay
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: spatialaudiohrtf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioHrtfDistanceDecay
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SpatialAudioHrtfDistanceDecay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SpatialAudioHrtfDistanceDecay
+req.redist: 
 ---
 
 # SpatialAudioHrtfDistanceDecay structure

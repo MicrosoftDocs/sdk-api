@@ -4,17 +4,16 @@ title: ITextPara2::GetHangingPunctuation
 author: windows-sdk-content
 description: Gets whether to hang punctuation symbols on the right margin when the paragraph is justified.
 old-location: controls\itextpara2_gethangingpunctuation.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 781b7c53-e9a1-4c4a-84d7-ea70efc173d1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetHangingPunctuation, GetHangingPunctuation method [Windows Controls], GetHangingPunctuation method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetHangingPunctuation method, ITextPara2.GetHangingPunctuation, ITextPara2::GetHangingPunctuation, controls.itextpara2_gethangingpunctuation, tom/ITextPara2::GetHangingPunctuation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextPara2.GetHangingPunctuation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextPara2::GetHangingPunctuation

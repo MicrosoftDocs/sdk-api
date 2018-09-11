@@ -4,17 +4,16 @@ title: QueueUserAPC function
 author: windows-sdk-content
 description: Adds a user-mode asynchronous procedure call (APC) object to the APC queue of the specified thread.
 old-location: base\queueuserapc.htm
-old-project: sync
+tech.root: Sync
 ms.assetid: 5b141372-7c95-4eb2-987b-64fdf7d0783d
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: QueueUserAPC, QueueUserAPC function, _win32_queueuserapc, base.queueuserapc, processthreadsapi/QueueUserAPC, winbase/QueueUserAPC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - QueueUserAPC
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # QueueUserAPC function

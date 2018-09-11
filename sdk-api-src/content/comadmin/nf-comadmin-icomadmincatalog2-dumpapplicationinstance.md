@@ -4,17 +4,16 @@ title: ICOMAdminCatalog2::DumpApplicationInstance
 author: windows-sdk-content
 description: Creates a dump file containing an image of the state of the specified application instance (process).
 old-location: cos\icomadmincatalog2_dumpapplicationinstance.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 76c121c6-4ba6-49da-93dc-9094acb1994c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DumpApplicationInstance, DumpApplicationInstance method [COM+], DumpApplicationInstance method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],DumpApplicationInstance method, ICOMAdminCatalog2.DumpApplicationInstance, ICOMAdminCatalog2::DumpApplicationInstance, _cos_icomadmincatalog2_DumpApplicationInstance, comadmin/ICOMAdminCatalog2::DumpApplicationInstance, cos.icomadmincatalog2_dumpapplicationinstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog2.DumpApplicationInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog2::DumpApplicationInstance

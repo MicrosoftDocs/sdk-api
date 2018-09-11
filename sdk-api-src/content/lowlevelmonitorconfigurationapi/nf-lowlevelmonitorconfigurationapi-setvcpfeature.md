@@ -4,17 +4,16 @@ title: SetVCPFeature function
 author: windows-sdk-content
 description: Sets the value of a Virtual Control Panel (VCP) code for a monitor.
 old-location: monitor\setvcpfeature.htm
-old-project: Monitor
+tech.root: Monitor
 ms.assetid: 145c393e-dce0-4d50-94c2-61ba580c3d83
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: SetVCPFeature, SetVCPFeature function [Monitor Configuration], lowlevelmonitorconfigurationapi/SetVCPFeature, monitor.setvcpfeature
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_VCP_CODE_TYPE, *LPMC_VCP_CODE_TYPE
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetVCPFeature
 product: Windows
 targetos: Windows
-req.lib: Dxva2.lib
-req.dll: Dxva2.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SetVCPFeature function

@@ -4,17 +4,16 @@ title: ITextRow::Reset
 author: windows-sdk-content
 description: Resets a row.
 old-location: controls\itextrow_reset.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 49f057ba-6376-496b-b0b0-97c6a00111c4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRow interface [Windows Controls],Reset method, ITextRow.Reset, ITextRow::Reset, Reset, Reset method [Windows Controls], Reset method [Windows Controls],ITextRow interface, controls.itextrow_reset, tom/ITextRow::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRow.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRow::Reset

@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_GET_DEVICE_NUMBER
 author: windows-sdk-content
 description: Retrieves the device type, device number, and, for a partitionable device, the partition number of a device.
 old-location: base\ioctl_storage_get_device_number.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 2cd9610b-aa83-4d0a-a7a9-1d4dab8be331
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRITE_THROUGH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_STORAGE_GET_DEVICE_NUMBER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_STORAGE_GET_DEVICE_NUMBER IOCTL

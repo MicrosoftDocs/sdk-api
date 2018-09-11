@@ -4,7 +4,7 @@ title: DIHIDFFINITINFO
 author: windows-sdk-content
 description: The DIHIDFFINITINFO structure is used by DirectInput to provide information to a HID force-feedback driver about the device it is being asked to control.
 old-location: hid\dihidffinitinfo.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 7eaf2d1e-f216-4678-9c8f-e6c38f6e4e66
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIHIDFFINITINFO, *LPDIHIDFFINITINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIHIDFFINITINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIHIDFFINITINFO, *LPDIHIDFFINITINFO
+req.redist: 
 ---
 
 # DIHIDFFINITINFO structure

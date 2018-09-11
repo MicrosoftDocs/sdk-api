@@ -4,17 +4,16 @@ title: INetFwIcmpSettings::put_AllowInboundTimestampRequest
 author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowinboundtimestamprequest.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 6898527d-8556-46ae-b6e4-b1157323d14e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AllowInboundTimestampRequest property [ICS/ICF], AllowInboundTimestampRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundTimestampRequest property, INetFwIcmpSettings.AllowInboundTimestampRequest, INetFwIcmpSettings.put_AllowInboundTimestampRequest, INetFwIcmpSettings::AllowInboundTimestampRequest, INetFwIcmpSettings::get_AllowInboundTimestampRequest, INetFwIcmpSettings::put_AllowInboundTimestampRequest, ics.inetfwicmpsettings_allowinboundtimestamprequest, netfw/INetFwIcmpSettings::AllowInboundTimestampRequest, netfw/INetFwIcmpSettings::get_AllowInboundTimestampRequest, netfw/INetFwIcmpSettings::put_AllowInboundTimestampRequest, put_AllowInboundTimestampRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwIcmpSettings.put_AllowInboundTimestampRequest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwIcmpSettings::put_AllowInboundTimestampRequest

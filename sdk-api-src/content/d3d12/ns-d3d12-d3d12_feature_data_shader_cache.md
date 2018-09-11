@@ -4,7 +4,7 @@ title: D3D12_FEATURE_DATA_SHADER_CACHE
 author: windows-sdk-content
 description: Describes the level of shader caching supported in the current graphics driver.
 old-location: direct3d12\d3d12_feature_data_shader_cache.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: B6BC2E8F-04FE-4855-87C2-89A054519AFD
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_FEATURE_DATA_SHADER_CACHE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_FEATURE_DATA_SHADER_CACHE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_FEATURE_DATA_SHADER_CACHE
+req.redist: 
 ---
 
 # D3D12_FEATURE_DATA_SHADER_CACHE structure

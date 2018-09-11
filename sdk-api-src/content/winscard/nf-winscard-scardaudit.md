@@ -4,17 +4,16 @@ title: SCardAudit function
 author: windows-sdk-content
 description: Writes event messages to the Windows application log Microsoft-Windows-SmartCard-Audit/Authentication.
 old-location: security\scardaudit.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 5D30DC71-C69A-403B-8658-99C80C268E90
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SCARD_AUDIT_CHV_FAILURE, SCARD_AUDIT_CHV_SUCCESS, SCardAudit, SCardAudit function [Security], security.scardaudit, winscard/SCardAudit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: Winscard.lib
+req.dll: Winscard.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCardAudit
 product: Windows
 targetos: Windows
-req.lib: Winscard.lib
-req.dll: Winscard.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SCardAudit function

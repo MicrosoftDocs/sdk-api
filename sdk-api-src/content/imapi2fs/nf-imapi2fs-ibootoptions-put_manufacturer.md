@@ -4,17 +4,16 @@ title: IBootOptions::put_Manufacturer
 author: windows-sdk-content
 description: Sets an identifier that identifies the manufacturer or developer of the CD.
 old-location: imapi\ibootoptions_put_manufacturer.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 485b36f0-6c33-48da-8ac5-64f4fc13fd68
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBootOptions interface [IMAPI],put_Manufacturer method, IBootOptions.put_Manufacturer, IBootOptions::put_Manufacturer, imapi.ibootoptions_put_manufacturer, imapi2fs/IBootOptions::put_Manufacturer, put_Manufacturer, put_Manufacturer method [IMAPI], put_Manufacturer method [IMAPI],IBootOptions interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBootOptions.put_Manufacturer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IBootOptions::put_Manufacturer

@@ -4,17 +4,16 @@ title: IInkTablet::get_PlugAndPlayId
 author: windows-sdk-content
 description: Gets a string representation of the Plug and Play identifier of the IInkTablet object.
 old-location: tablet\iinktablet_plugandplayid.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 5b33bd06-fee3-41b0-b3c1-d16b43685c60
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 5b33bd06-fee3-41b0-b3c1-d16b43685c60, IInkTablet interface [Tablet PC],PlugAndPlayID property, IInkTablet.PlugAndPlayID, IInkTablet.get_PlugAndPlayID, IInkTablet.get_PlugAndPlayId, IInkTablet::PlugAndPlayID, IInkTablet::get_PlugAndPlayID, IInkTablet::get_PlugAndPlayId, PlugAndPlayID property [Tablet PC], PlugAndPlayID property [Tablet PC],IInkTablet interface, get_PlugAndPlayId, msinkaut/IInkTablet::PlugAndPlayID, msinkaut/IInkTablet::get_PlugAndPlayID, tablet.iinktablet_plugandplayid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkTablet.get_PlugAndPlayID
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkTablet::get_PlugAndPlayId

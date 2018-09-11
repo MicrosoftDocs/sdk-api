@@ -4,17 +4,16 @@ title: "_WS_XML_TIMESPAN_TEXT"
 author: windows-sdk-content
 description: Represents a time span formatted as the text &#0034;[+|-][d?.]HH:mm:ss[.fffffff]&#0034; d is a series of digits representing the day.
 old-location: wsw\ws_xml_timespan_text.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 6b502748-bfe1-4a8c-97e9-f8ae97c96b01
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_TIMESPAN_TEXT, WS_XML_TIMESPAN_TEXT structure [Web Services for Windows], _WS_XML_TIMESPAN_TEXT, webservices/WS_XML_TIMESPAN_TEXT, wsw.ws_xml_timespan_text
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_TIMESPAN_TEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_TIMESPAN_TEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_TIMESPAN_TEXT
+req.redist: 
 ---
 
 # _WS_XML_TIMESPAN_TEXT structure

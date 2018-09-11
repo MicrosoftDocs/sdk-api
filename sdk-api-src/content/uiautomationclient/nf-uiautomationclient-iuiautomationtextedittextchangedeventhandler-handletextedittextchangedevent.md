@@ -4,17 +4,16 @@ title: IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEv
 author: windows-sdk-content
 description: Handles an event that is raised when a Microsoft UI Automation provider for a text-edit control reports a programmatic text change.
 old-location: winauto\uiauto_IUIAutomationTextEditTextChangedEventHandler_HandleTextEditTextChangedEvent.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: FA63086A-40C5-BE7B-DC4E-2C8547636AE8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HandleTextEditTextChangedEvent, HandleTextEditTextChangedEvent method [Windows Accessibility], HandleTextEditTextChangedEvent method [Windows Accessibility],IUIAutomationTextEditTextChangedEventHandler interface, IUIAutomationTextEditTextChangedEventHandler interface [Windows Accessibility],HandleTextEditTextChangedEvent method, IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent, IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent, uiautomationclient/IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent, winauto.uiauto_IUIAutomationTextEditTextChangedEventHandler_HandleTextEditTextChangedEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent
@@ -67,9 +65,9 @@ Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a4027701220
 A pointer to the element that raised the event.
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param eventStrings [in]

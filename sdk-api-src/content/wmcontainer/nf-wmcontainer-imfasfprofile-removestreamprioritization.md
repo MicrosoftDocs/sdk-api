@@ -4,17 +4,16 @@ title: IMFASFProfile::RemoveStreamPrioritization
 author: windows-sdk-content
 description: IMFASFProfile::RemoveStreamPrioritization method
 old-location: mf\imfasfprofile_removestreamprioritization.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: a6076091-ab38-4722-bb95-fac253e26c8a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFASFProfile interface [Media Foundation],RemoveStreamPrioritization method, IMFASFProfile.RemoveStreamPrioritization, IMFASFProfile::RemoveStreamPrioritization, RemoveStreamPrioritization, RemoveStreamPrioritization method [Media Foundation], RemoveStreamPrioritization method [Media Foundation],IMFASFProfile interface, a6076091-ab38-4722-bb95-fac253e26c8a, mf.imfasfprofile_removestreamprioritization, wmcontainer/IMFASFProfile::RemoveStreamPrioritization
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFProfile.RemoveStreamPrioritization
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFProfile::RemoveStreamPrioritization

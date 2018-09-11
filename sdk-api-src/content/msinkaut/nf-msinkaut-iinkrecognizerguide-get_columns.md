@@ -4,17 +4,16 @@ title: IInkRecognizerGuide::get_Columns
 author: windows-sdk-content
 description: Gets or sets the number of columns in the recognition guide box.
 old-location: tablet\inkrecognizerguide_columns.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: dfc2848c-6cd6-4dd6-95b6-4097ef641835
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: Columns property [Tablet PC], Columns property [Tablet PC],IInkRecognizerGuide interface, IInkRecognizerGuide interface [Tablet PC],Columns property, IInkRecognizerGuide.Columns, IInkRecognizerGuide.get_Columns, IInkRecognizerGuide::Columns, IInkRecognizerGuide::get_Columns, IInkRecognizerGuide::put_Columns, InkRecognizerGuide.get_Columns, InkRecognizerGuide.put_Columns, dfc2848c-6cd6-4dd6-95b6-4097ef641835, get_Columns, msinkaut/IInkRecognizerGuide::Columns, msinkaut/IInkRecognizerGuide::get_Columns, msinkaut/IInkRecognizerGuide::put_Columns, tablet.inkrecognizerguide_columns
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkRecognizerGuide.put_Columns
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizerGuide::get_Columns

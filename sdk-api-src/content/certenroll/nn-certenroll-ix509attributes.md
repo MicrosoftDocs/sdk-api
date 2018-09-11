@@ -4,17 +4,16 @@ title: IX509Attributes
 author: windows-sdk-content
 description: The IX509Attributes interface defines the following methods and properties that enable you to manage a collection of IX509Attribute objects.
 old-location: security\ix509attributes.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: dd891506-f25b-4aa5-b739-0d66d5a5f395
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509Attributes, IX509Attributes interface [Security], IX509Attributes interface [Security],described, certenroll/IX509Attributes, security.ix509attributes
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509Attributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Attributes interface

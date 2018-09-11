@@ -4,7 +4,7 @@ title: IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS
 author: windows-sdk-content
 description: This I/O control code (IOCTL) is sent by a user-mode service or application to notify GenericUSBFn.sys to activate the Universal Serial Bus (USB). Once activated, the bus is prepared to process bus events and handle traffic.
 old-location: buses\ioctl_genericusbfn_activate_usb_bus.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: A8CE2698-B2EF-409A-8251-7419F76D47BC
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS IOCTL

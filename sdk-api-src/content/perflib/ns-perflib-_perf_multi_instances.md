@@ -4,7 +4,7 @@ title: "_PERF_MULTI_INSTANCES"
 author: windows-sdk-content
 description: Provides information about the PERF_MULTI_INSTANCES block that contains the structure.
 old-location: perf\perf_multi_instances.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 5EC34ECD-D240-4B44-A52B-C5518918400C
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_MULTI_INSTANCES, *PPERF_MULTI_INSTANCES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERF_MULTI_INSTANCES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PERF_MULTI_INSTANCES, *PPERF_MULTI_INSTANCES
+req.redist: 
 ---
 
 # _PERF_MULTI_INSTANCES structure

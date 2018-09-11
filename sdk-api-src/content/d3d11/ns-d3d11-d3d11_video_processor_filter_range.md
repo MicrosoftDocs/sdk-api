@@ -4,7 +4,7 @@ title: D3D11_VIDEO_PROCESSOR_FILTER_RANGE
 author: windows-sdk-content
 description: Defines the range of supported values for an image filter.
 old-location: mf\d3d11_video_processor_filter_range.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 22B11763-717A-49D7-8F5B-2FD21C13F11E
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_FILTER_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_VIDEO_PROCESSOR_FILTER_RANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_VIDEO_PROCESSOR_FILTER_RANGE
+req.redist: 
 ---
 
 # D3D11_VIDEO_PROCESSOR_FILTER_RANGE structure

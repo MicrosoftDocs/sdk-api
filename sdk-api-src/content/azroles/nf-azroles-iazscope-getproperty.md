@@ -4,17 +4,16 @@ title: IAzScope::GetProperty
 author: windows-sdk-content
 description: Returns the IAzScope object property with the specified property ID.
 old-location: security\iazscope_getproperty.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: c3b5b526-5662-4971-8ba2-663e4b2c36ff
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AZ_PROP_SCOPE_BIZRULES_WRITABLE, AZ_PROP_SCOPE_CAN_BE_DELEGATED, AZ_PROP_WRITABLE, AzScope object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzScope object, GetProperty method [Security],IAzScope interface, IAzScope interface [Security],GetProperty method, IAzScope.GetProperty, IAzScope::GetProperty, azroles/IAzScope::GetProperty, security.iazscope_getproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzScope.GetProperty
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzScope::GetProperty

@@ -4,17 +4,16 @@ title: CertFindExtension function
 author: windows-sdk-content
 description: The CertFindExtension function finds the first extension in the CERT_EXTENSION array, as identified by its object identifier (OID).
 old-location: security\certfindextension.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 489c58b6-a704-4f54-bc64-34eacafc347c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CertFindExtension, CertFindExtension function [Security], _crypto2_certfindextension, security.certfindextension, wincrypt/CertFindExtension
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertFindExtension
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertFindExtension function

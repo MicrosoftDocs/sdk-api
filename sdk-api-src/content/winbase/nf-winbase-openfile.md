@@ -4,17 +4,16 @@ title: OpenFile function
 author: windows-sdk-content
 description: Creates, opens, reopens, or deletes a file.
 old-location: fs\openfile.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 800f4d40-252a-44fe-b10d-348c22d69355
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: OF_CANCEL, OF_CREATE, OF_DELETE, OF_EXIST, OF_PARSE, OF_PROMPT, OF_READ, OF_READWRITE, OF_REOPEN, OF_SHARE_COMPAT, OF_SHARE_DENY_NONE, OF_SHARE_DENY_READ, OF_SHARE_DENY_WRITE, OF_SHARE_EXCLUSIVE, OF_VERIFY, OF_WRITE, OpenFile, OpenFile function [Files], _win32_openfile, base.openfile, fs.openfile, winbase/OpenFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - OpenFile
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # OpenFile function

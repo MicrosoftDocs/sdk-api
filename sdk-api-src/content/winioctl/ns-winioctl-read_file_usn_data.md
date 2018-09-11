@@ -4,7 +4,7 @@ title: READ_FILE_USN_DATA
 author: windows-sdk-content
 description: Specifies the versions of the update sequence number (USN) change journal supported by the application.
 old-location: fs\read_file_usn_data.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 8c403eec-7504-4a69-9f05-7a3a164557a6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: READ_FILE_USN_DATA, *PREAD_FILE_USN_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - READ_FILE_USN_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: READ_FILE_USN_DATA, *PREAD_FILE_USN_DATA
+req.redist: 
 ---
 
 # READ_FILE_USN_DATA structure

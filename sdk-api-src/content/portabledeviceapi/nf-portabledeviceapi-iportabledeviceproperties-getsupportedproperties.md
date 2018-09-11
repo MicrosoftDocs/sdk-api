@@ -4,17 +4,16 @@ title: IPortableDeviceProperties::GetSupportedProperties
 author: windows-sdk-content
 description: The GetSupportedProperties method retrieves a list of properties that a specified object supports. Note that not all of these properties may actually have values.
 old-location: wpdsdk\iportabledeviceproperties_getsupportedproperties.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 0098bfe9-965b-4c70-b28a-d497ac79f44a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSupportedProperties, GetSupportedProperties method [Windows Portable Devices SDK], GetSupportedProperties method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],GetSupportedProperties method, IPortableDeviceProperties.GetSupportedProperties, IPortableDeviceProperties::GetSupportedProperties, IPortableDevicePropertiesGetSupportedProperties, portabledeviceapi/IPortableDeviceProperties::GetSupportedProperties, wpdsdk.iportabledeviceproperties_getsupportedproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceProperties.GetSupportedProperties
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceProperties::GetSupportedProperties

@@ -4,7 +4,7 @@ title: D3D11_CONSERVATIVE_RASTERIZATION_TIER
 author: windows-sdk-content
 description: Specifies if the hardware and driver support conservative rasterization and at what tier level.
 old-location: direct3d11\d3d11_conservative_rasterization_tier.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 1409ACE8-960C-4297-80D9-DAD3CD1886AD
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_CONSERVATIVE_RASTERIZATION_TIER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_CONSERVATIVE_RASTERIZATION_TIER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_CONSERVATIVE_RASTERIZATION_TIER
+req.redist: 
 ---
 
 # D3D11_CONSERVATIVE_RASTERIZATION_TIER enumeration

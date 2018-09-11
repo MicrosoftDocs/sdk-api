@@ -4,17 +4,16 @@ title: IMFTimedTextFormattedText::GetSubformattingCount
 author: windows-sdk-content
 description: Gets the number of subformats in the formatted timed-text object.
 old-location: mf\imftimedtextformattedtext_getsubformattingcount.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 27F3172E-3D6A-4BF6-9610-CB517ECD202F
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetSubformattingCount, GetSubformattingCount method [Media Foundation], GetSubformattingCount method [Media Foundation],IMFTimedTextFormattedText interface, IMFTimedTextFormattedText interface [Media Foundation],GetSubformattingCount method, IMFTimedTextFormattedText.GetSubformattingCount, IMFTimedTextFormattedText::GetSubformattingCount, mf.imftimedtextformattedtext_getsubformattingcount, mfmediaengine/IMFTimedTextFormattedText::GetSubformattingCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextFormattedText.GetSubformattingCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextFormattedText::GetSubformattingCount

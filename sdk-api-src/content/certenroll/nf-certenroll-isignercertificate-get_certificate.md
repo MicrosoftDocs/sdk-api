@@ -4,17 +4,16 @@ title: ISignerCertificate::get_Certificate
 author: windows-sdk-content
 description: Retrieves a Distinguished Encoding Rules (DER) encoded byte array that contains the certificate.
 old-location: security\isignercertificate_certificate_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 7c7cc326-593d-4b2b-b8db-46aaf894279b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Certificate property [Security], Certificate property [Security],ISignerCertificate interface, ISignerCertificate interface [Security],Certificate property, ISignerCertificate.Certificate, ISignerCertificate.get_Certificate, ISignerCertificate::Certificate, ISignerCertificate::get_Certificate, certenroll/ISignerCertificate::Certificate, certenroll/ISignerCertificate::get_Certificate, get_Certificate, security.isignercertificate_certificate_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ISignerCertificate.get_Certificate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISignerCertificate::get_Certificate

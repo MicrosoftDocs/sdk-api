@@ -4,17 +4,16 @@ title: PeerIdentityImport function
 author: windows-sdk-content
 description: The PeerIdentityImport function imports one peer identity. If the peer identity exists on a computer, PEER_E_ALREADY_EXISTS is returned.
 old-location: p2p\peeridentityimport.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 273aa395-905a-41bd-a027-23f4b3f549b6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerIdentityImport, PeerIdentityImport function [Peer Networking], p2p.peeridentityimport, p2p/PeerIdentityImport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack for Windows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerIdentityImport
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerIdentityImport function

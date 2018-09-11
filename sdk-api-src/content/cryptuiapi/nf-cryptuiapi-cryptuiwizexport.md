@@ -4,17 +4,16 @@ title: CryptUIWizExport function
 author: windows-sdk-content
 description: Exports a certificate, a certificate trust list (CTL), a certificate revocation list (CRL), or a certificate store to a file.
 old-location: security\cryptuiwizexport.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 62537d51-c761-4180-b857-58c819ea66aa
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPTUI_WIZ_EXPORT_NO_DELETE_PRIVATE_KEY, CRYPTUI_WIZ_EXPORT_PRIVATE_KEY, CRYPTUI_WIZ_IGNORE_NO_UI_FLAG_FOR_CSPS, CRYPTUI_WIZ_NO_UI, CRYPTUI_WIZ_NO_UI_EXCEPT_CSP, CryptUIWizExport, CryptUIWizExport function [Security], cryptuiapi/CryptUIWizExport, security.cryptuiwizexport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cryptuiapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
+req.lib: Cryptui.lib
+req.dll: Cryptui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CryptUIWizExport
 product: Windows
 targetos: Windows
-req.lib: Cryptui.lib
-req.dll: Cryptui.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CryptUIWizExport function

@@ -4,17 +4,16 @@ title: SymFromInlineContextW function
 author: windows-sdk-content
 description: Retrieves symbol information for the specified address and inline context.
 old-location: base\symfrominlinecontext.htm
-old-project: debug
+tech.root: debug
 ms.assetid: a60a345e-d723-4275-bc2d-01e13ea57d67
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymFromInlineContext, SymFromInlineContext function, SymFromInlineContextW, base.symfrominlinecontext, dbghelp/SymFromInlineContext, dbghelp/SymFromInlineContextW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.2 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: DbgHelp.lib
+req.dll: DbgHelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - SymFromInlineContextW
 product: Windows
 targetos: Windows
-req.lib: DbgHelp.lib
-req.dll: DbgHelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 6.2 or later
 ---
 
 # SymFromInlineContextW function

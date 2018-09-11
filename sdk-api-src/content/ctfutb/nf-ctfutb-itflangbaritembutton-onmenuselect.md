@@ -4,17 +4,16 @@ title: ITfLangBarItemButton::OnMenuSelect
 author: windows-sdk-content
 description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_MENU style.
 old-location: tsf\itflangbaritembutton_onmenuselect.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 104cc686-4cb1-4f8e-909b-4c9dfb0b72cc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfLangBarItemButton interface [Text Services Framework],OnMenuSelect method, ITfLangBarItemButton.OnMenuSelect, ITfLangBarItemButton::OnMenuSelect, OnMenuSelect, OnMenuSelect method [Text Services Framework], OnMenuSelect method [Text Services Framework],ITfLangBarItemButton interface, _tsf_itflangbaritembutton_onmenuselect_ref, ctfutb/ITfLangBarItemButton::OnMenuSelect, tsf.itflangbaritembutton_onmenuselect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfLangBarItemButton.OnMenuSelect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfLangBarItemButton::OnMenuSelect

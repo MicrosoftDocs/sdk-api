@@ -4,17 +4,16 @@ title: NdrContextHandleSize function
 author: windows-sdk-content
 description: The NdrContextHandleSize function returns the size of the supplied RPC context handle.
 old-location: rpc\ndrcontexthandlesize.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: f5f90887-67b2-4796-96b2-2607b9284387
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NdrContextHandleSize, NdrContextHandleSize function [RPC], rpc.ndrcontexthandlesize, rpcndr/NdrContextHandleSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrContextHandleSize
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrContextHandleSize function

@@ -4,17 +4,16 @@ title: SetupSetNonInteractiveMode function
 author: windows-sdk-content
 description: The SetupSetNonInteractiveMode function sets a non-interactive SetupAPI flag that determines whether SetupAPI can interact with a user in the caller's context.
 old-location: devinst\setupsetnoninteractivemode.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 5858547d-cd0e-4067-a94b-fff58b4f1334
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupSetNonInteractiveMode, SetupSetNonInteractiveMode function [Device and Driver Installation], devinst.setupsetnoninteractivemode, setup-ref_6afe961a-ba91-4ab8-b296-39308b6413c7.xml, setupapi/SetupSetNonInteractiveMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetupSetNonInteractiveMode
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupSetNonInteractiveMode function

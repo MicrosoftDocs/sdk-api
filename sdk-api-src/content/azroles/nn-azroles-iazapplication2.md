@@ -4,17 +4,16 @@ title: IAzApplication2
 author: windows-sdk-content
 description: Inherits from the IAzApplication interface and implements additional methods to initialize IAzClientContext2 objects.
 old-location: security\iazapplication2.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 58f0627e-fa92-4b3b-a0cd-7e437d451606
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IAzApplication2, IAzApplication2 interface [Security], IAzApplication2 interface [Security],described, azroles/IAzApplication2, security.iazapplication2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzApplication2
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication2 interface

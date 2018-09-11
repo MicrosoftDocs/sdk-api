@@ -4,7 +4,7 @@ title: "_CLFS_MGMT_POLICY"
 author: windows-sdk-content
 description: The CLFS_MGMT_POLICY structure specifies a Common Log File System (CLFS) management policy. The PolicyType member specifies the members used for a policy.
 old-location: fs\clfs_mgmt_policy.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 3f5d9c38-b299-4102-9786-115ece5b0928
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLFS_MGMT_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
+req.redist: 
 ---
 
 # _CLFS_MGMT_POLICY structure

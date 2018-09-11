@@ -4,17 +4,16 @@ title: IDXGIOutput::SetDisplaySurface
 author: windows-sdk-content
 description: Changes the display mode.
 old-location: direct3ddxgi\idxgioutput_setdisplaysurface.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_setdisplaysurface.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIOutput interface [DXGI],SetDisplaySurface method, IDXGIOutput.SetDisplaySurface, IDXGIOutput::SetDisplaySurface, SetDisplaySurface, SetDisplaySurface method [DXGI], SetDisplaySurface method [DXGI],IDXGIOutput interface, bc8ee3fe-fb5c-f873-f935-ac30c6491e36, direct3ddxgi.idxgioutput_setdisplaysurface, dxgi/IDXGIOutput::SetDisplaySurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIOutput.SetDisplaySurface
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIOutput::SetDisplaySurface

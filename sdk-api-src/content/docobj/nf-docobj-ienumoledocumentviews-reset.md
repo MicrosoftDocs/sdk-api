@@ -4,17 +4,16 @@ title: IEnumOleDocumentViews::Reset
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumoledocumentviews_reset.htm
-old-project: com
+tech.root: com
 ms.assetid: b9dbdf36-fff1-4cd5-a890-219c8311dadf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumOleDocumentViews interface [COM],Reset method, IEnumOleDocumentViews.Reset, IEnumOleDocumentViews::Reset, Reset, Reset method [COM], Reset method [COM],IEnumOleDocumentViews interface, _ole_ienumoledocumentviews_reset, com.ienumoledocumentviews_reset, docobj/IEnumOleDocumentViews::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOCMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumOleDocumentViews.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumOleDocumentViews::Reset

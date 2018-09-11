@@ -4,17 +4,16 @@ title: IConditionGenerator::RecognizeNamedEntities
 author: windows-sdk-content
 description: Identifies named entities in an input string, and creates a collection containing them.
 old-location: search\_search_IConditionGenerator_RecognizeNamedEntities.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\recognizenamedentities.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IConditionGenerator interface [search],RecognizeNamedEntities method, IConditionGenerator.RecognizeNamedEntities, IConditionGenerator::RecognizeNamedEntities, RecognizeNamedEntities, RecognizeNamedEntities method [search], RecognizeNamedEntities method [search],IConditionGenerator interface, _search_IConditionGenerator_RecognizeNamedEntities, search._search_IConditionGenerator_RecognizeNamedEntities, structuredquery/IConditionGenerator::RecognizeNamedEntities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConditionGenerator.RecognizeNamedEntities
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IConditionGenerator::RecognizeNamedEntities

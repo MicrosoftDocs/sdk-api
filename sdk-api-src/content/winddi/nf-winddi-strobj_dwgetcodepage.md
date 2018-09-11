@@ -4,17 +4,16 @@ title: STROBJ_dwGetCodePage function
 author: windows-sdk-content
 description: The STROBJ_dwGetCodePage function returns the code page associated with the specified STROBJ structure.
 old-location: display\strobj_dwgetcodepage.htm
-old-project: display
+tech.root: display
 ms.assetid: b28e5854-1ac0-4b76-87a9-ec943228e2ed
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: STROBJ_dwGetCodePage, STROBJ_dwGetCodePage function [Display Devices], display.strobj_dwgetcodepage, gdifncs_e446480e-8516-4138-8121-1c9665fc22d9.xml, winddi/STROBJ_dwGetCodePage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STROBJ_dwGetCodePage
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # STROBJ_dwGetCodePage function

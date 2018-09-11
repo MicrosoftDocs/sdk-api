@@ -4,17 +4,16 @@ title: ICDrawRenderBuffer macro
 author: windows-sdk-content
 description: The ICDrawRenderBuffer macro notifies a rendering driver to draw the frames that have been passed to it. You can use this macro or explicitly call the ICM_DRAW_RENDERBUFFER message.
 old-location: multimedia\icdrawrenderbuffer.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: dc87dd00-1a48-4434-894c-fb49d4e92d20
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICDrawRenderBuffer, ICDrawRenderBuffer macro [Windows Multimedia], _win32_ICDrawRenderBuffer, multimedia.icdrawrenderbuffer, vfw/ICDrawRenderBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDrawRenderBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICDrawRenderBuffer macro

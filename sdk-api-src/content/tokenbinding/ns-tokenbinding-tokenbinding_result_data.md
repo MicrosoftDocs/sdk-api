@@ -4,17 +4,16 @@ title: TOKENBINDING_RESULT_DATA
 author: windows-sdk-content
 description: Contains data about the result of generating a token binding or verifying one of the token bindings in a token binding message.
 old-location: security\tokenbinding_result_data.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 6C34E174-CCC4-451D-82C3-C410C8C92C8C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TOKENBINDING_RESULT_DATA, TOKENBINDING_RESULT_DATA structure [Security], security.tokenbinding_result_data, tokenbinding/TOKENBINDING_RESULT_DATA
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: tokenbinding.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKENBINDING_RESULT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKENBINDING_RESULT_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TOKENBINDING_RESULT_DATA
+req.redist: 
 ---
 
 # TOKENBINDING_RESULT_DATA structure

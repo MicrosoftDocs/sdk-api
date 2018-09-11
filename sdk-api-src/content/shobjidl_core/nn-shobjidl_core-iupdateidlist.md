@@ -4,17 +4,16 @@ title: IUpdateIDList
 author: windows-sdk-content
 description: Provides a method to update the ITEMIDLIST of the child of an folder object.
 old-location: shell\IUpdateIDList.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e6d94975-de33-497e-95a9-b89e8f8f0134
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IUpdateIDList, IUpdateIDList interface [Windows Shell], IUpdateIDList interface [Windows Shell],described, _shell_IUpdateIDList, shell.IUpdateIDList, shobjidl_core/IUpdateIDList
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUpdateIDList
 product: Windows
 targetos: Windows
-req.lib: Explorerframe.lib
-req.dll: Explorerframe.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateIDList interface

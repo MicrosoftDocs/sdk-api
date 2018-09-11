@@ -4,17 +4,16 @@ title: CHString::Collate
 author: windows-sdk-content
 description: The Collate method uses the wcscoll function to compare a CHString string with another string.
 old-location: wmi\chstring_collate.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: b6c88b83-a369-4cb2-9297-df9c5911d08f
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],Collate method, CHString.Collate, CHString::Collate, Collate, Collate method [Windows Management Instrumentation], Collate method [Windows Management Instrumentation],CHString interface, _hmm_chstring_collate, chstring/CHString::Collate, wmi.chstring_collate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CHString.Collate
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHString::Collate

@@ -4,7 +4,7 @@ title: "_TAPE_GET_MEDIA_PARAMETERS"
 author: windows-sdk-content
 description: Describes the tape in the tape drive. It is used by the GetTapeParametersfunction.
 old-location: backup\tape_get_media_parameters_str.htm
-old-project: backup
+tech.root: backup
 ms.assetid: 931355e5-30f5-4984-80c2-5d63772c4592
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TAPE_GET_MEDIA_PARAMETERS, *PTAPE_GET_MEDIA_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TAPE_GET_MEDIA_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TAPE_GET_MEDIA_PARAMETERS, *PTAPE_GET_MEDIA_PARAMETERS
+req.redist: 
 ---
 
 # _TAPE_GET_MEDIA_PARAMETERS structure

@@ -4,17 +4,16 @@ title: IATSC_EIT::GetRecordDescriptorByTag
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_eit_getrecorddescriptorbytag.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: fdd7f03f-8e03-436f-bfe2-bb46a6a4b415
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IATSC_EIT.GetRecordDescriptorByTag, IATSC_EIT::GetRecordDescriptorByTag, IATSC_EITGetRecordDescriptorByTag, atscpsipparser/IATSC_EIT::GetRecordDescriptorByTag, mstv.iatsc_eit_getrecorddescriptorbytag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IATSC_EIT.GetRecordDescriptorByTag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IATSC_EIT::GetRecordDescriptorByTag

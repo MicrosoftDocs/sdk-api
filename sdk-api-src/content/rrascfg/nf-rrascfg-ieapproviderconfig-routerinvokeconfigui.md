@@ -4,17 +4,16 @@ title: IEAPProviderConfig::RouterInvokeConfigUI
 author: windows-sdk-content
 description: The system calls the RouterInvokeConfigUI method to invoke the configuration user interface for EAP authentication between two routers.
 old-location: eap\ieapproviderconfig_routerinvokeconfigui.htm
-old-project: eap
+tech.root: eap
 ms.assetid: ba07f5c6-0b76-489f-b787-2965710cd1c5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEAPProviderConfig interface [EAP],RouterInvokeConfigUI method, IEAPProviderConfig.RouterInvokeConfigUI, IEAPProviderConfig::RouterInvokeConfigUI, RouterInvokeConfigUI, RouterInvokeConfigUI method [EAP], RouterInvokeConfigUI method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_routerinvokeconfigui, eap.ieapproviderconfig_routerinvokeconfigui, rrascfg/IEAPProviderConfig::RouterInvokeConfigUI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rrascfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProxyFileInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEAPProviderConfig.RouterInvokeConfigUI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEAPProviderConfig::RouterInvokeConfigUI

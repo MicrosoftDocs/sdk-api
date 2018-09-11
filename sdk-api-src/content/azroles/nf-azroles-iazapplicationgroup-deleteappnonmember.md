@@ -4,17 +4,16 @@ title: IAzApplicationGroup::DeleteAppNonMember
 author: windows-sdk-content
 description: Removes the specified IAzApplicationGroup object from the list of application groups that are refused membership in this application group.
 old-location: security\iazapplicationgroup_deleteappnonmember.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: d78f3cd9-4ccb-47b7-98bd-5e69ebbb178c
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzApplicationGroup object [Security],DeleteAppNonMember method, DeleteAppNonMember, DeleteAppNonMember method [Security], DeleteAppNonMember method [Security],AzApplicationGroup object, DeleteAppNonMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteAppNonMember method, IAzApplicationGroup.DeleteAppNonMember, IAzApplicationGroup::DeleteAppNonMember, azroles/IAzApplicationGroup::DeleteAppNonMember, security.iazapplicationgroup_deleteappnonmember
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzApplicationGroup.DeleteAppNonMember
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplicationGroup::DeleteAppNonMember

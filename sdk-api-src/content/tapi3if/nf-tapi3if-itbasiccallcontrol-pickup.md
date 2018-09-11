@@ -4,17 +4,16 @@ title: ITBasicCallControl::Pickup
 author: windows-sdk-content
 description: The Pickup method picks up a call alerting at the specified group identification.
 old-location: tapi3\itbasiccallcontrol_pickup.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 25da3cf2-50f0-4f64-94ce-cf952e057376
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],Pickup method, ITBasicCallControl.Pickup, ITBasicCallControl::Pickup, Pickup, Pickup method [TAPI 2.2], Pickup method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_pickup, tapi3.itbasiccallcontrol_pickup, tapi3if/ITBasicCallControl::Pickup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITBasicCallControl.Pickup
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITBasicCallControl::Pickup

@@ -4,17 +4,16 @@ title: DhcpGetMibInfoV5 function
 author: windows-sdk-content
 description: Obtains a MIB data structure that contains current statistics about the specified DHCP server.
 old-location: dhcp\dhcpgetmibinfov5.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 3439198d-5391-4f9b-a6fe-9a600e7dc77b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpGetMibInfoV5, DhcpGetMibInfoV5 function [DHCP], dhcp.dhcpgetmibinfov5, dhcpsapi/DhcpGetMibInfoV5
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpGetMibInfoV5
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpGetMibInfoV5 function

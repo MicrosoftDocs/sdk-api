@@ -4,17 +4,16 @@ title: IPrintDialogCallback::SelectionChange
 author: windows-sdk-content
 description: Called by PrintDlgEx when the user selects a different printer from the list of installed printers on the General page of the Print Property Sheet.
 old-location: dlgbox\iprintdialogcallback_selectionchange.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogcallback\iprintdialogcallbackselectionchange.htm
 ms.author: windowssdkdev
-ms.date: 08/21/2018
+ms.date: 08/24/2018
 ms.keywords: IPrintDialogCallback interface [Dialog Boxes],SelectionChange method, IPrintDialogCallback.SelectionChange, IPrintDialogCallback::SelectionChange, SelectionChange, SelectionChange method [Dialog Boxes], SelectionChange method [Dialog Boxes],IPrintDialogCallback interface, _win32_IPrintDialogCallback_SelectionChange, _win32_iprintdialogcallback_selectionchange_cpp, commdlg/IPrintDialogCallback::SelectionChange, dlgbox.iprintdialogcallback_selectionchange, winui._win32_iprintdialogcallback_selectionchange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: commdlg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UDACCEL, *LPUDACCEL
+req.lib: 
+req.dll: Comdlg32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPrintDialogCallback.SelectionChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comdlg32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPrintDialogCallback::SelectionChange

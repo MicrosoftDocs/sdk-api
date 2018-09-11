@@ -4,17 +4,16 @@ title: PathIsURLW function
 author: windows-sdk-content
 description: Tests a given string to determine if it conforms to a valid URL format.
 old-location: shell\PathIsURL.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8791bcd8-0d8f-4f7b-9c8e-59bcb95b5d19
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: PathIsURL, PathIsURL function [Windows Shell], PathIsURLA, PathIsURLW, _win32_PathIsURL, shell.PathIsURL, shlwapi/PathIsURL, shlwapi/PathIsURLA, shlwapi/PathIsURLW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - PathIsURLW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # PathIsURLW function

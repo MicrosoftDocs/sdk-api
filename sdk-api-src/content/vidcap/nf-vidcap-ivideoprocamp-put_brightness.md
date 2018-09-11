@@ -4,17 +4,16 @@ title: IVideoProcAmp::put_Brightness
 author: windows-sdk-content
 description: The put_Brightness method sets the camera's brightness setting.
 old-location: dshow\ivideoprocamp_put_brightness.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 69c8086c-a638-4ec6-a4fd-5a400095145d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Brightness method, IVideoProcAmp.put_Brightness, IVideoProcAmp::put_Brightness, IVideoProcAmpput_Brightness, dshow.ivideoprocamp_put_brightness, put_Brightness, put_Brightness method [DirectShow], put_Brightness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Brightness
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVideoProcAmp.put_Brightness
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoProcAmp::put_Brightness

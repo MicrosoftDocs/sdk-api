@@ -4,17 +4,16 @@ title: IInkLineInfo::GetFormat
 author: windows-sdk-content
 description: Returns the display properties currently set on the text ink object (tInk).
 old-location: tablet\iinklineinfo_getformat.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 8f894963-7075-46f4-8809-82d1aa7e13e7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 8f894963-7075-46f4-8809-82d1aa7e13e7, GetFormat, GetFormat method [Tablet PC], GetFormat method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetFormat method, IInkLineInfo.GetFormat, IInkLineInfo::GetFormat, msinkaut/IInkLineInfo::GetFormat, tablet.iinklineinfo_getformat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkLineInfo.GetFormat
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkLineInfo::GetFormat

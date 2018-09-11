@@ -4,7 +4,7 @@ title: "_ASFFlatSynchronisedLyrics"
 author: windows-sdk-content
 description: Contains synchronized lyrics stored as metadata for a media source. This structure is used as the data item for the WM/Lyrics_Synchronised metadata attribute.
 old-location: mf\asf_flat_synchronised_lyrics.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 518c7e81-6492-40f9-a8e8-222c19de6cc0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASF_FLAT_SYNCHRONISED_LYRICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ASF_FLAT_SYNCHRONISED_LYRICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ASF_FLAT_SYNCHRONISED_LYRICS
+req.redist: 
 ---
 
 # _ASFFlatSynchronisedLyrics structure

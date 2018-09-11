@@ -4,17 +4,16 @@ title: "_VDS_SUB_SYSTEM_NOTIFICATION"
 author: windows-sdk-content
 description: Defines the details of subsystem events.
 old-location: base\vds_sub_system_notification.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 368e5b3d-11ba-400e-8dd0-929d45199dd9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_NF_SUB_SYSTEM_ARRIVE, VDS_NF_SUB_SYSTEM_DEPART, VDS_NF_SUB_SYSTEM_MODIFY, VDS_SUB_SYSTEM_NOTIFICATION, VDS_SUB_SYSTEM_NOTIFICATION structure [VDS], _VDS_SUB_SYSTEM_NOTIFICATION, base.vds_sub_system_notification, vds/_VDS_SUB_SYSTEM_NOTIFICATION, vdshwprv/_VDS_SUB_SYSTEM_NOTIFICATION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_SUB_SYSTEM_NOTIFICATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_SUB_SYSTEM_NOTIFICATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_SUB_SYSTEM_NOTIFICATION
+req.redist: 
 ---
 
 # _VDS_SUB_SYSTEM_NOTIFICATION structure

@@ -4,17 +4,16 @@ title: IPin::Disconnect
 author: windows-sdk-content
 description: The Disconnect method breaks the current pin connection.
 old-location: dshow\ipin_disconnect.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 46e1e99c-848b-4936-b6bf-4ef1703a1f42
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: Disconnect, Disconnect method [DirectShow], Disconnect method [DirectShow],IPin interface, IPin interface [DirectShow],Disconnect method, IPin.Disconnect, IPin::Disconnect, IPinDisconnect, dshow.ipin_disconnect, strmif/IPin::Disconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPin.Disconnect
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IPin::Disconnect

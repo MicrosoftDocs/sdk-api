@@ -4,17 +4,16 @@ title: IWiaItem::FindItemByName
 author: windows-sdk-content
 description: The IWiaItem::FindItemByName method searches an item's tree of sub-items using the name as the search key. Each IWiaItem object has a name as one of its standard properties.
 old-location: wia\_wia_IWiaItem_FindItemByName.htm
-old-project: wia
+tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\finditembyname.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: FindItemByName, FindItemByName method [WIA], FindItemByName method [WIA],IWiaItem interface, IWiaItem interface [WIA],FindItemByName method, IWiaItem.FindItemByName, IWiaItem::FindItemByName, _wia_IWiaItem_FindItemByName, wia._wia_IWiaItem_FindItemByName, wia_xp/IWiaItem::FindItemByName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIAVIDEO_STATE
+req.lib: Wiaguid.lib
+req.dll: Wiaservc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWiaItem.FindItemByName
 product: Windows
 targetos: Windows
-req.lib: Wiaguid.lib
-req.dll: Wiaservc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWiaItem::FindItemByName

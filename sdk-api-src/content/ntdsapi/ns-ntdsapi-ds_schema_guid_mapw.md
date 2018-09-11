@@ -4,7 +4,7 @@ title: DS_SCHEMA_GUID_MAPW
 author: windows-sdk-content
 description: Contains the results of a call to DsMapSchemaGuids.
 old-location: ad\ds_schema_guid_map.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 8128f511-ebdc-479d-b99c-ed210c72d151
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_SCHEMA_GUID_MAPW, *PDS_SCHEMA_GUID_MAPW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DS_SCHEMA_GUID_MAPW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DS_SCHEMA_GUID_MAPW, *PDS_SCHEMA_GUID_MAPW
+req.redist: 
 ---
 
 # DS_SCHEMA_GUID_MAPW structure

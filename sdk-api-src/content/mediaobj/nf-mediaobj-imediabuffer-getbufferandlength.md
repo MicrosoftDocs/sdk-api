@@ -4,17 +4,16 @@ title: IMediaBuffer::GetBufferAndLength
 author: windows-sdk-content
 description: The GetBufferAndLength method retrieves the buffer and the size of the valid data in the buffer.
 old-location: dshow\imediabuffer_getbufferandlength.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 255ef101-f004-41c8-afb8-437d21decee5
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetBufferAndLength, GetBufferAndLength method [DirectShow], GetBufferAndLength method [DirectShow],IMediaBuffer interface, IMediaBuffer interface [DirectShow],GetBufferAndLength method, IMediaBuffer.GetBufferAndLength, IMediaBuffer::GetBufferAndLength, IMediaBufferGetBufferAndLength, dshow.imediabuffer_getbufferandlength, mediaobj/IMediaBuffer::GetBufferAndLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaBuffer.GetBufferAndLength
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaBuffer::GetBufferAndLength

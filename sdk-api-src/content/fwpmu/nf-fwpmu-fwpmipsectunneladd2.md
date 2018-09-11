@@ -4,17 +4,16 @@ title: FwpmIPsecTunnelAdd2 function
 author: windows-sdk-content
 description: Adds a new Internet Protocol Security (IPsec) tunnel mode policy to the system.
 old-location: fwp\fwpmipsectunneladd2.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 32c7d472-4904-46d3-b50e-08eaa0e06df0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FWPM_TUNNEL_FLAG_ENABLE_VIRTUAL_IF_TUNNELING, FWPM_TUNNEL_FLAG_POINT_TO_POINT, FwpmIPsecTunnelAdd2, FwpmIPsecTunnelAdd2 function [Filtering], fwp.fwpmipsectunneladd2, fwpmu/FwpmIPsecTunnelAdd2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FwpmIPsecTunnelAdd2
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FwpmIPsecTunnelAdd2 function

@@ -4,17 +4,16 @@ title: IWbemStatusCodeText::GetErrorCodeText
 author: windows-sdk-content
 description: Returns the text string description associated with the error code.
 old-location: wmi\iwbemstatuscodetext_geterrorcodetext.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: f2adc740-f1d9-434e-a7ac-b4830350e862
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: GetErrorCodeText, GetErrorCodeText method [Windows Management Instrumentation], GetErrorCodeText method [Windows Management Instrumentation],IWbemStatusCodeText interface, IWbemStatusCodeText interface [Windows Management Instrumentation],GetErrorCodeText method, IWbemStatusCodeText.GetErrorCodeText, IWbemStatusCodeText::GetErrorCodeText, _hmm_iwbemstatuscodetext_geterrorcodetext, wbemcli/IWbemStatusCodeText::GetErrorCodeText, wmi.iwbemstatuscodetext_geterrorcodetext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Wmiutils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemStatusCodeText.GetErrorCodeText
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmiutils.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemStatusCodeText::GetErrorCodeText

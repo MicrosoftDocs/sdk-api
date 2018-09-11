@@ -4,7 +4,7 @@ title: WICMetadataPattern
 author: windows-sdk-content
 description: Represents a metadata pattern.
 old-location: wic\_wic_codec_wicmetadatapattern.htm
-old-project: wic
+tech.root: wic
 ms.assetid: cea9e07d-5e55-4320-9744-b5864b58cfd6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICMetadataPattern
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICMetadataPattern
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICMetadataPattern
+req.redist: 
 ---
 
 # WICMetadataPattern structure

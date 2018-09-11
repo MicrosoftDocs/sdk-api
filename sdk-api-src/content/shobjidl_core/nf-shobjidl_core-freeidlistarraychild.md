@@ -4,17 +4,16 @@ title: FreeIDListArrayChild function
 author: windows-sdk-content
 description: Releases the memory space for the array of pointers to child item IDs. This releases both the PITEMID_CHILDs within the array and the array itself.
 old-location: shell\FreeIDListArrayChild.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 89abceae-1aed-401d-82ab-57215ec22d00
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: FreeIDListArrayChild, FreeIDListArrayChild function [Windows Shell], _shell_FreeIDListArrayChild, shell.FreeIDListArrayChild, shobjidl_core/FreeIDListArrayChild
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FreeIDListArrayChild
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # FreeIDListArrayChild function

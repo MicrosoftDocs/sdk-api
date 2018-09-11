@@ -4,17 +4,16 @@ title: SHPropStgReadMultiple function
 author: windows-sdk-content
 description: Wraps the IPropertyStorage::ReadMultiple function to ensure that ANSI and Unicode translations are handled properly for deprecated property sets.
 old-location: properties\SHPropStgReadMultiple.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 5350a1b1-a099-4b09-af89-f652e40b1d20
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SHPropStgReadMultiple, SHPropStgReadMultiple function [Windows Properties], _win32_SHPropStgReadMultiple, properties.SHPropStgReadMultiple, shell.SHPropStgReadMultiple, shlobj_core/SHPropStgReadMultiple
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHPropStgReadMultiple
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHPropStgReadMultiple function

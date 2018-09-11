@@ -4,17 +4,16 @@ title: HttpReceiveRequestEntityBody function
 author: windows-sdk-content
 description: Receives additional entity body data for a specified HTTP request.
 old-location: http\httpreceiverequestentitybody.htm
-old-project: http
+tech.root: http
 ms.assetid: b4ba765f-537b-4021-9ecc-d400d9b94723
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HTTP_RECEIVE_REQUEST_ENTITY_BODY_FLAG_FILL_BUFFER, HttpReceiveRequestEntityBody, HttpReceiveRequestEntityBody function [HTTP], _http_httpreceiverequestentitybody, http.httpreceiverequestentitybody, http/HttpReceiveRequestEntityBody
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERB, *PHTTP_VERB
+req.lib: Httpapi.lib
+req.dll: Httpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HttpReceiveRequestEntityBody
 product: Windows
 targetos: Windows
-req.lib: Httpapi.lib
-req.dll: Httpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HttpReceiveRequestEntityBody function

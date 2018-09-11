@@ -4,17 +4,16 @@ title: ISessionStateChangeTrigger::put_UserId
 author: windows-sdk-content
 description: Gets or sets the user for the Terminal Server session. When a session state change is detected for this user, a task is started.
 old-location: taskschd\isessionstatechangetrigger_userid.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 9d0cc48f-4765-4959-bb59-ca39acde4c39
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISessionStateChangeTrigger interface [Task Scheduler],UserId property, ISessionStateChangeTrigger.UserId, ISessionStateChangeTrigger.put_UserId, ISessionStateChangeTrigger::UserId, ISessionStateChangeTrigger::get_UserId, ISessionStateChangeTrigger::put_UserId, UserId property [Task Scheduler], UserId property [Task Scheduler],ISessionStateChangeTrigger interface, put_UserId, taskschd.isessionstatechangetrigger_userid, taskschd/ISessionStateChangeTrigger::UserId, taskschd/ISessionStateChangeTrigger::get_UserId, taskschd/ISessionStateChangeTrigger::put_UserId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ISessionStateChangeTrigger.put_UserId
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISessionStateChangeTrigger::put_UserId

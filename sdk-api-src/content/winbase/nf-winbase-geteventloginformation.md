@@ -4,17 +4,16 @@ title: GetEventLogInformation function
 author: windows-sdk-content
 description: Retrieves information about the specified event log.
 old-location: base\geteventloginformation.htm
-old-project: eventlog
+tech.root: eventlog
 ms.assetid: 627e0af2-3ce6-47fe-89c6-d7c0483cb94b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EVENTLOG_FULL_INFO, GetEventLogInformation, GetEventLogInformation function, _win32_geteventloginformation, base.geteventloginformation, winbase/GetEventLogInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetEventLogInformation
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetEventLogInformation function

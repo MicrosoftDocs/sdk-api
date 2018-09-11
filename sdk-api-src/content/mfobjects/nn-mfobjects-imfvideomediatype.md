@@ -4,7 +4,7 @@ title: IMFVideoMediaType
 author: windows-sdk-content
 description: Represents a description of a video format.
 old-location: mf\imfvideomediatype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9109b0dd-c44d-41d4-9480-1ca5c667dbd7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoMediaType
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoMediaType interface

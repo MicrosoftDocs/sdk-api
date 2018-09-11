@@ -4,7 +4,7 @@ title: "_RADIUS_DATA_TYPE"
 author: windows-sdk-content
 description: The RADIUS_DATA_TYPE type enumerates the possible data type for a RADIUS attribute or extended attribute.
 old-location: nps\IAS_radius_data_type.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 620d5c1f-61dc-48af-a1b2-4eaa81e358a7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: authif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RADIUS_DATA_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RADIUS_DATA_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: RADIUS_DATA_TYPE
+req.redist: 
 ---
 
 # _RADIUS_DATA_TYPE enumeration

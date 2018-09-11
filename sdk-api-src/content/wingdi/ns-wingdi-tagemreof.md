@@ -4,7 +4,7 @@ title: tagEMREOF
 author: windows-sdk-content
 description: The EMREOF structure contains data for the enhanced metafile record that indicates the end of the metafile.
 old-location: gdi\emreof.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 99a3f97e-cb43-49b3-9972-23f9911b2cd0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMREOF, *PEMREOF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EMREOF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EMREOF, *PEMREOF
+req.redist: 
 ---
 
 # tagEMREOF structure

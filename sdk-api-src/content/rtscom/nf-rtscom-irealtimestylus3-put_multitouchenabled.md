@@ -4,17 +4,16 @@ title: IRealTimeStylus3::put_MultiTouchEnabled
 author: windows-sdk-content
 description: Indicates whether the IRealTimeStylus3 object has multitouch input enabled.
 old-location: tablet\irealtimestylus3_multitouchenabled.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: cc573213-a6ed-424b-8513-d5655ba6785a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IRealTimeStylus3 interface [Tablet PC],MultiTouchEnabled property, IRealTimeStylus3.MultiTouchEnabled, IRealTimeStylus3.get_MultiTouchEnabled, IRealTimeStylus3.put_MultiTouchEnabled, IRealTimeStylus3::MultiTouchEnabled, IRealTimeStylus3::get_MultiTouchEnabled, IRealTimeStylus3::put_MultiTouchEnabled, MultiTouchEnabled property [Tablet PC], MultiTouchEnabled property [Tablet PC],IRealTimeStylus3 interface, put_MultiTouchEnabled, rtscom/IRealTimeStylus3::MultiTouchEnabled, rtscom/IRealTimeStylus3::get_MultiTouchEnabled, rtscom/IRealTimeStylus3::put_MultiTouchEnabled, tablet.irealtimestylus3_multitouchenabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - IRealTimeStylus3.put_MultiTouchEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRealTimeStylus3::put_MultiTouchEnabled

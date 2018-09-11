@@ -4,7 +4,7 @@ title: AM_DVDCOPYSTATE
 author: windows-sdk-content
 description: Specifies the copy protection state.
 old-location: dshow\am_dvdcopystate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 32a9783e-f9f1-4e37-8cd2-3ff5634d75f6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dvdmedia.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Dvbsiparser.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_DVDCOPYSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_DVDCOPYSTATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: AM_DVDCOPYSTATE
+req.redist: 
 ---
 
 # AM_DVDCOPYSTATE enumeration

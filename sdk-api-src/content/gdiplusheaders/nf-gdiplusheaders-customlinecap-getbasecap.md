@@ -4,17 +4,16 @@ title: CustomLineCap::GetBaseCap
 author: windows-sdk-content
 description: The CustomLineCap::GetBaseCap method gets the style of the base cap. The base cap is a LineCap object used as a cap at the end of a line along with this CustomLineCap object.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetBaseCap_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getbasecap.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CustomLineCap class [GDI+],GetBaseCap method, CustomLineCap.GetBaseCap, CustomLineCap::GetBaseCap, GetBaseCap, GetBaseCap method [GDI+], GetBaseCap method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetBaseCap_, gdiplus._gdiplus_CLASS_CustomLineCap_GetBaseCap_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CustomLineCap.GetBaseCap
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

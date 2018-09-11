@@ -4,17 +4,16 @@ title: CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS
 author: windows-sdk-content
 description: Indicates the type of credential that a credential provider should return to associate with the &#0034;Other user&#0034; tile. Used by ICredentialProviderUserArray_GetAccountOptions.
 old-location: shell\CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9251928C-AB98-47be-8C41-7B89194EB8F9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CPAO_EMPTY_CONNECTED, CPAO_EMPTY_LOCAL, CPAO_NONE, CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS, CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS enumeration [Windows Shell], credentialprovider/CPAO_EMPTY_CONNECTED, credentialprovider/CPAO_EMPTY_LOCAL, credentialprovider/CPAO_NONE, credentialprovider/CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS, shell.CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS
+req.redist: 
 ---
 
 # CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS enumeration

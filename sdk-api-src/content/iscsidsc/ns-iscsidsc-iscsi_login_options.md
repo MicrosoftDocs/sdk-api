@@ -4,7 +4,7 @@ title: ISCSI_LOGIN_OPTIONS
 author: windows-sdk-content
 description: ISCSI_LOGIN_OPTIONS structure is used by initiators to specify the characteristics of a login session.
 old-location: iscsidisc\iscsi_login_options.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 7d45be86-3d85-4253-aef7-92e05379f1b2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ISCSI_LOGIN_OPTIONS, *PISCSI_LOGIN_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISCSI_LOGIN_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ISCSI_LOGIN_OPTIONS, *PISCSI_LOGIN_OPTIONS
+req.redist: 
 ---
 
 # ISCSI_LOGIN_OPTIONS structure

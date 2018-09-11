@@ -4,17 +4,16 @@ title: "_WINHTTP_WEB_SOCKET_STATUS"
 author: windows-sdk-content
 description: The WINHTTP_WEB_SOCKET_STATUS enumeration includes the status of a WebSocket operation.
 old-location: http\winhttp_web_socket_status.htm
-old-project: winhttp
+tech.root: WinHttp
 ms.assetid: 4e34a306-1238-4a3b-8336-475e904b0a60
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WINHTTP_WEB_SOCKET_STATUS, WINHTTP_WEB_SOCKET_STATUS structure [HTTP], _WINHTTP_WEB_SOCKET_STATUS, http.winhttp_web_socket_status, winhttp/WINHTTP_WEB_SOCKET_STATUS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_WEB_SOCKET_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINHTTP_WEB_SOCKET_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINHTTP_WEB_SOCKET_STATUS
+req.redist: 
 ---
 
 # _WINHTTP_WEB_SOCKET_STATUS structure

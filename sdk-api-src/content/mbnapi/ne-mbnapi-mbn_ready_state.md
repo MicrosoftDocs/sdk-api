@@ -4,17 +4,16 @@ title: MBN_READY_STATE
 author: windows-sdk-content
 description: The MBN_READY_STATE enumerated type contains values that indicate the readiness of a Mobile Broadband device to engage in cellular network traffic operations.
 old-location: mbn\mbn_ready_state.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 4f712cdc-ee9c-4ceb-9bc4-8a4fe19d0a37
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: MBN_READY_STATE, MBN_READY_STATE enumeration [Microsoft Broadband Networks], MBN_READY_STATE_BAD_SIM, MBN_READY_STATE_DEVICE_BLOCKED, MBN_READY_STATE_DEVICE_LOCKED, MBN_READY_STATE_FAILURE, MBN_READY_STATE_INITIALIZED, MBN_READY_STATE_NOT_ACTIVATED, MBN_READY_STATE_OFF, MBN_READY_STATE_SIM_NOT_INSERTED, mbn.mbn_ready_state, mbnapi/MBN_READY_STATE, mbnapi/MBN_READY_STATE_BAD_SIM, mbnapi/MBN_READY_STATE_DEVICE_BLOCKED, mbnapi/MBN_READY_STATE_DEVICE_LOCKED, mbnapi/MBN_READY_STATE_FAILURE, mbnapi/MBN_READY_STATE_INITIALIZED, mbnapi/MBN_READY_STATE_NOT_ACTIVATED, mbnapi/MBN_READY_STATE_OFF, mbnapi/MBN_READY_STATE_SIM_NOT_INSERTED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_READY_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_READY_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_READY_STATE
+req.redist: 
 ---
 
 # MBN_READY_STATE enumeration

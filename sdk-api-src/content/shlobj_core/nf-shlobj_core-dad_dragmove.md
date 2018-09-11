@@ -4,17 +4,16 @@ title: DAD_DragMove function
 author: windows-sdk-content
 description: Moves the image that is being dragged during a drag-and-drop operation.
 old-location: shell\DAD_DragMove.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7cd9f5ba-e14f-4c0c-8cde-2e7c4926b509
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DAD_DragMove, DAD_DragMove function [Windows Shell], shell.DAD_DragMove, shell_DAD_DragMove, shlobj_core/DAD_DragMove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.00 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DAD_DragMove
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.00 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DAD_DragMove function

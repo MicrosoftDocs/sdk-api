@@ -4,7 +4,7 @@ title: ImageLockMode
 author: windows-sdk-content
 description: The ImageLockMode enumeration specifies flags that are passed to the flags parameter of the Bitmap::LockBits method. The Bitmap::LockBits method locks a portion of an image so that you can read or write the pixel data.
 old-location: gdiplus\_gdiplus_ENUM_ImageLockMode.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\imagelockmode.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ImageLockMode
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

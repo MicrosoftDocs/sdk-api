@@ -4,17 +4,16 @@ title: INetDiagHelper::LowHealth
 author: windows-sdk-content
 description: Check whether the component being diagnosed is healthy.
 old-location: ndf\inetdiaghelpe_lowhealth.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: 623de90f-c2dc-4879-9baf-4051d2d3691c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: INetDiagHelper interface [NDF],LowHealth method, INetDiagHelper.LowHealth, INetDiagHelper::LowHealth, LowHealth, LowHealth method [NDF], LowHealth method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_lowhealth, ndhelper/INetDiagHelper::LowHealth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REPAIR_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetDiagHelper.LowHealth
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetDiagHelper::LowHealth

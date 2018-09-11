@@ -4,17 +4,16 @@ title: IVMRMixerBitmap::UpdateAlphaBitmapParameters
 author: windows-sdk-content
 description: The UpdateAlphaBitmapParameters method changes the bitmap location, size and blending value.
 old-location: dshow\ivmrmixerbitmap_updatealphabitmapparameters.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 039cb675-c384-4909-b06d-b331cc281df6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRMixerBitmap interface [DirectShow],UpdateAlphaBitmapParameters method, IVMRMixerBitmap.UpdateAlphaBitmapParameters, IVMRMixerBitmap::UpdateAlphaBitmapParameters, IVMRMixerBitmapUpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters method [DirectShow], UpdateAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap interface, dshow.ivmrmixerbitmap_updatealphabitmapparameters, strmif/IVMRMixerBitmap::UpdateAlphaBitmapParameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRMixerBitmap.UpdateAlphaBitmapParameters
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRMixerBitmap::UpdateAlphaBitmapParameters

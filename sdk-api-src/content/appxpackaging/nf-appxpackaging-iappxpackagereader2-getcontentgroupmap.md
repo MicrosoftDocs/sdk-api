@@ -4,17 +4,16 @@ title: IAppxPackageReader2::GetContentGroupMap
 author: windows-sdk-content
 description: Gets a content group map reader.
 old-location: appxpkg\iappxpackagereader2_getcontentgroupmap.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 992DE709-F4E6-475D-A533-AFFB7FE7A53C
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetContentGroupMap, GetContentGroupMap method [App packaging and management], GetContentGroupMap method [App packaging and management],IAppxPackageReader2 interface, IAppxPackageReader2 interface [App packaging and management],GetContentGroupMap method, IAppxPackageReader2.GetContentGroupMap, IAppxPackageReader2::GetContentGroupMap, appxpackaging/IAppxPackageReader2::GetContentGroupMap, appxpkg.iappxpackagereader2_getcontentgroupmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxPackageReader2.GetContentGroupMap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxPackageReader2::GetContentGroupMap

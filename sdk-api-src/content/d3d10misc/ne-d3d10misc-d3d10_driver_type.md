@@ -4,17 +4,16 @@ title: D3D10_DRIVER_TYPE
 author: windows-sdk-content
 description: The device-driver type.
 old-location: direct3d10\d3d10_driver_type.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_driver_type.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 9306ea32-4e52-b274-5c1d-a1782db6ba9e, D3D10_DRIVER_TYPE, D3D10_DRIVER_TYPE enumeration [Direct3D 10], D3D10_DRIVER_TYPE_HARDWARE, D3D10_DRIVER_TYPE_NULL, D3D10_DRIVER_TYPE_REFERENCE, D3D10_DRIVER_TYPE_SOFTWARE, D3D10_DRIVER_TYPE_WARP, d3d10misc/D3D10_DRIVER_TYPE, d3d10misc/D3D10_DRIVER_TYPE_HARDWARE, d3d10misc/D3D10_DRIVER_TYPE_NULL, d3d10misc/D3D10_DRIVER_TYPE_REFERENCE, d3d10misc/D3D10_DRIVER_TYPE_SOFTWARE, d3d10misc/D3D10_DRIVER_TYPE_WARP, direct3d10.d3d10_driver_type
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10misc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DRIVER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_DRIVER_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D10_DRIVER_TYPE
+req.redist: 
 ---
 
 # D3D10_DRIVER_TYPE enumeration

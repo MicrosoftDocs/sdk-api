@@ -4,17 +4,16 @@ title: CHString::Empty
 author: windows-sdk-content
 description: The Empty method makes the CHString object an empty string and frees memory as appropriate.
 old-location: wmi\chstring_empty.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 837344de-d8dd-45a8-8d43-09d926f51ff9
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?Empty@CHString@@QAEXXZ, ?Empty@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],Empty method, CHString.Empty, CHString::Empty, Empty, Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation],CHString interface, _hmm_chstring_empty, chstring/CHString::Empty, wmi.chstring_empty"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - ?Empty@CHString@@QEAAXXZ
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHString::Empty

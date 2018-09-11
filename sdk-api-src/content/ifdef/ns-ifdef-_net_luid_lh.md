@@ -4,7 +4,7 @@ title: "_NET_LUID_LH"
 author: windows-sdk-content
 description: The locally unique identifier (LUID) for a network interface.
 old-location: iphlp\net_luid.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: c4956c5a-3c6c-4f1c-b9d7-2e377b66f197
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ifdef.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_LUID_LH, *PNET_LUID_LH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_LUID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_LUID_LH, *PNET_LUID_LH
+req.redist: 
 ---
 
 # _NET_LUID_LH structure

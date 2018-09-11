@@ -4,17 +4,16 @@ title: ICodecAPI::GetParameterValues
 author: windows-sdk-content
 description: The GetParameterValues method gets the list of possible values for a codec property.
 old-location: dshow\icodecapi_getparametervalues.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7f6c7db8-f71f-4ea7-8584-0df6e28c0fc9
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetParameterValues, GetParameterValues method [DirectShow], GetParameterValues method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetParameterValues method, ICodecAPI.GetParameterValues, ICodecAPI::GetParameterValues, ICodecAPIGetParameterValues, dshow.icodecapi_getparametervalues, strmif/ICodecAPI::GetParameterValues
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICodecAPI.GetParameterValues
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # ICodecAPI::GetParameterValues

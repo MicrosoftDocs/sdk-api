@@ -4,17 +4,16 @@ title: HasExpandedResources function
 author: windows-sdk-content
 description: Gets the current resource state (that is, whether the app is running in Game Mode or shared mode).
 old-location: gamemode\hasexpandedresources.htm
-old-project: gamemode
+tech.root: gamemode
 ms.assetid: E0434DBD-4C1A-4675-94A3-4954BCC67CD5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: HasExpandedResources, HasExpandedResources function, expandedresources/HasExpandedResources, gamemode.hasexpandedresources
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: expandedresources.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: Windowsapp.lib
+req.dll: Gamemode.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HasExpandedResources
 product: Windows
 targetos: Windows
-req.lib: Windowsapp.lib
-req.dll: Gamemode.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # HasExpandedResources function

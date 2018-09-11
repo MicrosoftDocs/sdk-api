@@ -4,17 +4,16 @@ title: ITsSbProvisioningPluginNotifySink::OnVirtualMachineStatusChanged
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the status of a virtual machine is changed.
 old-location: termserv\itssbprovisioningpluginnotifysink_onvirtualmachinestatuschanged.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 5a256dec-fa40-48c2-b7e3-e89ec9e75f0e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnVirtualMachineStatusChanged method, ITsSbProvisioningPluginNotifySink.OnVirtualMachineStatusChanged, ITsSbProvisioningPluginNotifySink::OnVirtualMachineStatusChanged, OnVirtualMachineStatusChanged, OnVirtualMachineStatusChanged method [Remote Desktop Services], OnVirtualMachineStatusChanged method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnVirtualMachineStatusChanged, termserv.itssbprovisioningpluginnotifysink_onvirtualmachinestatuschanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbProvisioningPluginNotifySink.OnVirtualMachineStatusChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbProvisioningPluginNotifySink::OnVirtualMachineStatusChanged

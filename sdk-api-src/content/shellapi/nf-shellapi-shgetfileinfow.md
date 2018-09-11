@@ -4,17 +4,16 @@ title: SHGetFileInfoW function
 author: windows-sdk-content
 description: Retrieves information about an object in the file system, such as a file, folder, directory, or drive root.
 old-location: shell\SHGetFileInfo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d662bedf-4be0-4528-8121-e7923a42bc67
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHGFI_ADDOVERLAYS, SHGFI_ATTRIBUTES, SHGFI_ATTR_SPECIFIED, SHGFI_DISPLAYNAME, SHGFI_EXETYPE, SHGFI_ICON, SHGFI_ICONLOCATION, SHGFI_LARGEICON, SHGFI_LINKOVERLAY, SHGFI_OPENICON, SHGFI_OVERLAYINDEX, SHGFI_PIDL, SHGFI_SELECTED, SHGFI_SHELLICONSIZE, SHGFI_SMALLICON, SHGFI_SYSICONINDEX, SHGFI_TYPENAME, SHGFI_USEFILEATTRIBUTES, SHGetFileInfo, SHGetFileInfo function [Windows Shell], SHGetFileInfoA, SHGetFileInfoW, _win32_SHGetFileInfo, shell.SHGetFileInfo, shellapi/SHGetFileInfo, shellapi/SHGetFileInfoA, shellapi/SHGetFileInfoW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - SHGetFileInfoW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHGetFileInfoW function

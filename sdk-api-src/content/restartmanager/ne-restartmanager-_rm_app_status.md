@@ -4,17 +4,16 @@ title: "_RM_APP_STATUS"
 author: windows-sdk-content
 description: Describes the current status of an application that is acted upon by the Restart Manager.
 old-location: rstmgr\rm_app_status.htm
-old-project: rstmgr
+tech.root: RstMgr
 ms.assetid: cb3fe44b-1049-4189-a19a-b5a8fec6daf8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RM_APP_STATUS, RmStatusErrorOnRestart, RmStatusErrorOnStop, RmStatusRestartMasked, RmStatusRestarted, RmStatusRunning, RmStatusShutdownMasked, RmStatusStopped, RmStatusStoppedOther, RmStatusUnknown, _RM_APP_STATUS, _RM_APP_STATUS enumeration [Restart Mgr], restartmanager/RmStatusErrorOnRestart, restartmanager/RmStatusErrorOnStop, restartmanager/RmStatusRestartMasked, restartmanager/RmStatusRestarted, restartmanager/RmStatusRunning, restartmanager/RmStatusShutdownMasked, restartmanager/RmStatusStopped, restartmanager/RmStatusStoppedOther, restartmanager/RmStatusUnknown, restartmanager/_RM_APP_STATUS, rstmgr.rm_app_status
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: restartmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_APP_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RM_APP_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RM_APP_STATUS
+req.redist: 
 ---
 
 # _RM_APP_STATUS enumeration

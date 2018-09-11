@@ -4,17 +4,16 @@ title: IHWEventHandler2::HandleEventWithHWND
 author: windows-sdk-content
 description: Handles AutoPlay device events that contain content types that the application is not registered to handle. This method provides a handle to the owner window so that UI can be displayed if the process requires elevated privileges.
 old-location: shell\IHWEventHandler2_HandleEventWithHWND.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 65720250-ace5-488d-9be7-33b07d7cc667
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: HandleEventWithHWND, HandleEventWithHWND method [Windows Shell], HandleEventWithHWND method [Windows Shell],IHWEventHandler2 interface, IHWEventHandler2 interface [Windows Shell],HandleEventWithHWND method, IHWEventHandler2.HandleEventWithHWND, IHWEventHandler2::HandleEventWithHWND, _shell_IHWEventHandler2_HandleEventWithHWND, shell.IHWEventHandler2_HandleEventWithHWND, shobjidl/IHWEventHandler2::HandleEventWithHWND
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IHWEventHandler2.HandleEventWithHWND
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IHWEventHandler2::HandleEventWithHWND

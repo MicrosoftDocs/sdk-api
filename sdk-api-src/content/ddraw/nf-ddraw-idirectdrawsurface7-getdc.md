@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::GetDC
 author: windows-sdk-content
 description: Creates a GDI-compatible handle of a device context for this surface.
 old-location: directdraw\idirectdrawsurface7_getdc.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 683be1bc-8232-42de-907f-1136ffdd524d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDC, GetDC method [DirectDraw], GetDC method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetDC method, IDirectDrawSurface7.GetDC, IDirectDrawSurface7::GetDC, ddraw/IDirectDrawSurface7::GetDC, directdraw.idirectdrawsurface7_getdc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.GetDC
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::GetDC

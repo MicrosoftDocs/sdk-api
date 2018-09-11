@@ -4,17 +4,16 @@ title: PerfStopProvider function
 author: windows-sdk-content
 description: Removes the provider's registration from the list of registered providers and frees all resources associated with the provider.
 old-location: perf\perfstopprovider.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 4b31f88b-cadc-4bee-bdea-9079cc14c140
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PerfStopProvider, PerfStopProvider function [Perf], base.perfstopprovider, perf.perfstopprovider, perflib/PerfStopProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PerfRegInfoType
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PerfStopProvider
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PerfStopProvider function

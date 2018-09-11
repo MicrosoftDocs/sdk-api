@@ -4,17 +4,16 @@ title: IDTFilter::put_BlockUnRatedDelay
 author: windows-sdk-content
 description: The put_BlockUnRatedDelay method sets the length of time the filter waits before it blocks unrated content.
 old-location: mstv\idtfilter_put_blockunrateddelay.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 2caabce8-57b0-4a43-87b7-1b045ca573db
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],put_BlockUnRatedDelay method, IDTFilter.put_BlockUnRatedDelay, IDTFilter::put_BlockUnRatedDelay, IDTFilterput_BlockUnRatedDelay, encdec/IDTFilter::put_BlockUnRatedDelay, mstv.idtfilter_put_blockunrateddelay, put_BlockUnRatedDelay, put_BlockUnRatedDelay method [Microsoft TV Technologies], put_BlockUnRatedDelay method [Microsoft TV Technologies],IDTFilter interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDTFilter.put_BlockUnRatedDelay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDTFilter::put_BlockUnRatedDelay

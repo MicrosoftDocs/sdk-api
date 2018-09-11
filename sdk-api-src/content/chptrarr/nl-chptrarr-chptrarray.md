@@ -4,17 +4,16 @@ title: CHPtrArray
 author: windows-sdk-content
 description: The CHPtrArray class is part of the WMI Provider Framework. CHPtrArray is a utility interface for array pointer management used for provider handling of WMI queries.
 old-location: wmi\chptrarray.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 507c8262-c5e8-470e-be89-566ae732946d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "??1CHPtrArray@@QAE@XZ, CHPtrArray, CHPtrArray class [Windows Management Instrumentation], CHPtrArray class [Windows Management Instrumentation],described, chptrarr/CHPtrArray, wmi.chptrarray"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: class
 req.header: chptrarr.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - ??1CHPtrArray@@QAE@XZ
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHPtrArray class

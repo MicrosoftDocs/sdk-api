@@ -4,17 +4,16 @@ title: OpenClusterNetworkEx function
 author: windows-sdk-content
 description: Opens a connection to a network and returns a handle to it.
 old-location: mscs\openclusternetworkex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: e21dcfd6-adb6-40a7-9518-5b49988e2901
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OpenClusterNetworkEx, OpenClusterNetworkEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NETWORK_EX, PCLUSAPI_OPEN_CLUSTER_NETWORK_EX function [Failover Cluster], clusapi/OpenClusterNetworkEx, clusapi/PCLUSAPI_OPEN_CLUSTER_NETWORK_EX, mscs.openclusternetworkex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OpenClusterNetworkEx
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # OpenClusterNetworkEx function

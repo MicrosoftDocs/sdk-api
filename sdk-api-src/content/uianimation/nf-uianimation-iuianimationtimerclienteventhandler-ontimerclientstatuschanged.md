@@ -4,17 +4,16 @@ title: IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged
 author: windows-sdk-content
 description: Handles events that occur when the status of the timer's client changes.
 old-location: uianimation\iuianimationtimerclienteventhandler_ontimerclientstatuschanged.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: a2c161ce-937e-449a-884f-89a8a847d8aa
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationTimerClientEventHandler interface [Windows Animation],OnTimerClientStatusChanged method, IUIAnimationTimerClientEventHandler.OnTimerClientStatusChanged, IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged, OnTimerClientStatusChanged, OnTimerClientStatusChanged method [Windows Animation], OnTimerClientStatusChanged method [Windows Animation],IUIAnimationTimerClientEventHandler interface, uianimation.iuianimationtimerclienteventhandler_ontimerclientstatuschanged, uianimation/IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationTimerClientEventHandler.OnTimerClientStatusChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged

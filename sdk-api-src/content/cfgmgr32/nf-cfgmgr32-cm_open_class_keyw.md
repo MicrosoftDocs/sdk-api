@@ -4,17 +4,16 @@ title: CM_Open_Class_KeyW function
 author: windows-sdk-content
 description: The CM_Open_Class_Key function opens the device setup class registry key, the device interface class registry key, or a specific subkey of a class.
 old-location: devinst\cm_open_class_key.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 5a87769e-3555-44ce-b4d8-16c98bdc3732
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Open_Class_Key, CM_Open_Class_Key function [Device and Driver Installation], CM_Open_Class_KeyW, cfgmgr32/CM_Open_Class_Key, cfgmgr32/CM_Open_Class_KeyW, cfgmgrfn_70b86a61-c687-4d43-8c3f-8a00db441580.xml, devinst.cm_open_class_key
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CM_Open_Class_KeyW
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Open_Class_KeyW function

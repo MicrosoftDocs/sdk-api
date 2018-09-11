@@ -4,7 +4,7 @@ title: USN_RECORD_EXTENT
 author: windows-sdk-content
 description: Contains the offset and length for an update sequence number (USN) record extent.
 old-location: fs\usn_record_extent.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 7D569FCB-06D4-4348-B75A-D087D1D37851
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USN_RECORD_EXTENT, *PUSN_RECORD_EXTENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USN_RECORD_EXTENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: USN_RECORD_EXTENT, *PUSN_RECORD_EXTENT
+req.redist: 
 ---
 
 # USN_RECORD_EXTENT structure

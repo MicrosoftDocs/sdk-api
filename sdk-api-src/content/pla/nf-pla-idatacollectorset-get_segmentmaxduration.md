@@ -4,17 +4,16 @@ title: IDataCollectorSet::get_SegmentMaxDuration
 author: windows-sdk-content
 description: Retrieves or sets the duration that the data collector set can run before it begins writing to new log files.
 old-location: pla\idatacollectorset_segmentmaxduration.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: d958c7a7-0258-4db6-b650-14a61d59221b
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],SegmentMaxDuration property, IDataCollectorSet.SegmentMaxDuration, IDataCollectorSet.get_SegmentMaxDuration, IDataCollectorSet::SegmentMaxDuration, IDataCollectorSet::get_SegmentMaxDuration, IDataCollectorSet::put_SegmentMaxDuration, SegmentMaxDuration property [PLA], SegmentMaxDuration property [PLA],IDataCollectorSet interface, base.idatacollectorset_segmentmaxduration, get_SegmentMaxDuration, pla.idatacollectorset_segmentmaxduration, pla/IDataCollectorSet::SegmentMaxDuration, pla/IDataCollectorSet::get_SegmentMaxDuration, pla/IDataCollectorSet::put_SegmentMaxDuration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataCollectorSet.put_SegmentMaxDuration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::get_SegmentMaxDuration

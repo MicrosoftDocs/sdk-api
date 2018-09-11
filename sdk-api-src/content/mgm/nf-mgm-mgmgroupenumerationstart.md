@@ -4,17 +4,16 @@ title: MgmGroupEnumerationStart function
 author: windows-sdk-content
 description: The MgmGroupEnumerationStart function obtains an enumeration handle that is later used to obtain the list of groups that have been joined. After the client obtains the handle, it should use the MgmGroupEnumerationGetNext function to enumerate the groups.
 old-location: rras\mgmgroupenumerationstart.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 926f4055-becb-4c99-afd2-2d2822626f24
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ALL_SOURCES, ANY_SOURCE, MgmGroupEnumerationStart, MgmGroupEnumerationStart function [RAS], _mpr_mgmgroupenumerationstart, mgm/MgmGroupEnumerationStart, rras.mgmgroupenumerationstart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mgm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MGM_ENUM_TYPES
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MgmGroupEnumerationStart
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MgmGroupEnumerationStart function

@@ -4,17 +4,16 @@ title: ID2D1ImageSource::OfferResources
 author: windows-sdk-content
 description: Allows the operating system to free the video memory of resources by discarding their content.
 old-location: direct2d\id2d1imagesource_offerresources.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 35728A9D-1D86-41EB-A760-B6B56D2576F3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1ImageSource interface [Direct2D],OfferResources method, ID2D1ImageSource.OfferResources, ID2D1ImageSource::OfferResources, OfferResources, OfferResources method [Direct2D], OfferResources method [Direct2D],ID2D1ImageSource interface, d2d1_3/ID2D1ImageSource::OfferResources, direct2d.id2d1imagesource_offerresources
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1ImageSource.OfferResources
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1ImageSource::OfferResources

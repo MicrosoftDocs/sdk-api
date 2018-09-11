@@ -4,17 +4,16 @@ title: Provider::SetCreationClassName
 author: windows-sdk-content
 description: The SetCreationClassName method sets the CreationClassName string property, if any, of the given instance to the name of this provider.
 old-location: wmi\provider_setcreationclassname.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 0a02e767-95b7-42cb-ab82-66e2d28342fc
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: Provider interface [Windows Management Instrumentation],SetCreationClassName method, Provider.SetCreationClassName, Provider::SetCreationClassName, SetCreationClassName, SetCreationClassName method [Windows Management Instrumentation], SetCreationClassName method [Windows Management Instrumentation],Provider interface, _hmm_provider_setcreationclassname, provider/Provider::SetCreationClassName, wmi.provider_setcreationclassname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - Provider.SetCreationClassName
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # Provider::SetCreationClassName

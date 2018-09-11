@@ -4,17 +4,16 @@ title: IMFByteStreamTimeSeek::IsTimeSeekSupported
 author: windows-sdk-content
 description: Queries whether the byte stream supports time-based seeking.
 old-location: mf\imfbytestreamtimeseek_istimeseeksupported.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 92FCE0EF-046C-4639-958E-731795C5A123
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFByteStreamTimeSeek interface [Media Foundation],IsTimeSeekSupported method, IMFByteStreamTimeSeek.IsTimeSeekSupported, IMFByteStreamTimeSeek::IsTimeSeekSupported, IsTimeSeekSupported, IsTimeSeekSupported method [Media Foundation], IsTimeSeekSupported method [Media Foundation],IMFByteStreamTimeSeek interface, mf.imfbytestreamtimeseek_istimeseeksupported, mfidl/IMFByteStreamTimeSeek::IsTimeSeekSupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFByteStreamTimeSeek.IsTimeSeekSupported
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFByteStreamTimeSeek::IsTimeSeekSupported

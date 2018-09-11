@@ -4,17 +4,16 @@ title: PropVariantToInt32 function
 author: windows-sdk-content
 description: Extracts the Int32 property value of a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\PropVariantToInt32.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 937722d6-cabf-4c4d-8ca9-06d6ed91b77a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PropVariantToInt32, PropVariantToInt32 function [Windows Properties], properties.PropVariantToInt32, propvarutil/PropVariantToInt32, shell.PropVariantToInt32, shell_PropVariantToInt32
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropVariantToInt32
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # PropVariantToInt32 function

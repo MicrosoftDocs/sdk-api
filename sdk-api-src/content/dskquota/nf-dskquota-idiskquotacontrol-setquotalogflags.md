@@ -4,17 +4,16 @@ title: IDiskQuotaControl::SetQuotaLogFlags
 author: windows-sdk-content
 description: Controls the logging of user-related quota events on the volume.
 old-location: fs\idiskquotacontrol_setquotalogflags.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 8e5a1637-ad10-4a36-8493-b57c254ae273
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDiskQuotaControl interface [Files],SetQuotaLogFlags method, IDiskQuotaControl.SetQuotaLogFlags, IDiskQuotaControl::SetQuotaLogFlags, SetQuotaLogFlags, SetQuotaLogFlags method [Files], SetQuotaLogFlags method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_setquotalogflags, base.idiskquotacontrol_setquotalogflags, dskquota/IDiskQuotaControl::SetQuotaLogFlags, fs.idiskquotacontrol_setquotalogflags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaControl.SetQuotaLogFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaControl::SetQuotaLogFlags

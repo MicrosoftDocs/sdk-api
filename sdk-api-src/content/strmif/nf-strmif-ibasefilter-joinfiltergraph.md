@@ -4,17 +4,16 @@ title: IBaseFilter::JoinFilterGraph
 author: windows-sdk-content
 description: The JoinFilterGraph method notifies the filter that it has joined or left the filter graph.
 old-location: dshow\ibasefilter_joinfiltergraph.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1f01c71f-5c12-4bf3-937c-740168baf776
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IBaseFilter interface [DirectShow],JoinFilterGraph method, IBaseFilter.JoinFilterGraph, IBaseFilter::JoinFilterGraph, IBaseFilterJoinFilterGraph, JoinFilterGraph, JoinFilterGraph method [DirectShow], JoinFilterGraph method [DirectShow],IBaseFilter interface, dshow.ibasefilter_joinfiltergraph, strmif/IBaseFilter::JoinFilterGraph
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IBaseFilter.JoinFilterGraph
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IBaseFilter::JoinFilterGraph

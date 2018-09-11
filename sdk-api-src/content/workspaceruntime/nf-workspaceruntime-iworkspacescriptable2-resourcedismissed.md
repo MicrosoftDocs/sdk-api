@@ -4,17 +4,16 @@ title: IWorkspaceScriptable2::ResourceDismissed
 author: windows-sdk-content
 description: Alerts the user that a resource has been disabled or otherwise dismissed.
 old-location: termserv\iworkspacescriptable2_resourcedismissed.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: e45d806c-56de-4f76-a76a-ba6db63f4ac2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWorkspaceScriptable2 interface [Remote Desktop Services],ResourceDismissed method, IWorkspaceScriptable2.ResourceDismissed, IWorkspaceScriptable2::ResourceDismissed, IWorkspaceScriptable3 interface [Remote Desktop Services],ResourceDismissed method, IWorkspaceScriptable3::ResourceDismissed, ResourceDismissed, ResourceDismissed method [Remote Desktop Services], ResourceDismissed method [Remote Desktop Services],IWorkspaceScriptable2 interface, ResourceDismissed method [Remote Desktop Services],IWorkspaceScriptable3 interface, ResourceDismissed method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],ResourceDismissed method, termserv.iworkspacescriptable2_resourcedismissed, workspaceruntime/IWorkspaceScriptable2::ResourceDismissed, workspaceruntime/IWorkspaceScriptable3::ResourceDismissed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceruntime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: WkspRt.exe
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - Workspace.ResourceDismissed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWorkspaceScriptable2::ResourceDismissed

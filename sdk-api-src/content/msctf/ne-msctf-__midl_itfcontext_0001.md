@@ -4,7 +4,7 @@ title: "__MIDL_ITfContext_0001"
 author: windows-sdk-content
 description: Elements of the TfActiveSelEnd enumeration specify which end of a selected range of text is active.
 old-location: tsf\tfactiveselend.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: bb89f0b4-a0b4-42ea-8467-6fc634e37aec
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -26,9 +25,10 @@ req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: MsClus.tlb
-tech.root: 
-req.typenames: TfActiveSelEnd
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TfActiveSelEnd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TfActiveSelEnd
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # __MIDL_ITfContext_0001 enumeration

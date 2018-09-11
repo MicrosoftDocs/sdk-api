@@ -4,17 +4,16 @@ title: ICreateTypeLib2::SetHelpStringDll
 author: windows-sdk-content
 description: Sets the DLL name to be used for Help string lookup (for localization purposes).
 old-location: automat\icreatetypelib2_sethelpstringdll.htm
-old-project: automat
+tech.root: automat
 ms.assetid: f00a3dbf-7205-48fd-abeb-1d2d80be7743
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ICreateTypeLib2 interface [Automation],SetHelpStringDll method, ICreateTypeLib2.SetHelpStringDll, ICreateTypeLib2::SetHelpStringDll, SetHelpStringDll, SetHelpStringDll method [Automation], SetHelpStringDll method [Automation],ICreateTypeLib2 interface, _oa96_ICreateTypeLib2_SetHelpStringDll, automat.icreatetypelib2_sethelpstringdll, oaidl/ICreateTypeLib2::SetHelpStringDll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeLib2.SetHelpStringDll
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeLib2::SetHelpStringDll

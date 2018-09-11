@@ -4,17 +4,16 @@ title: IDataAdviseHolder::SendOnDataChange
 author: windows-sdk-content
 description: Sends notifications to each advise sink for which there is a connection established by calling the IAdviseSink::OnDataChange method for each advise sink currently being handled by this instance of the advise holder object.
 old-location: com\idataadviseholder_sendondatachange.htm
-old-project: com
+tech.root: com
 ms.assetid: b7385116-2ec7-4e12-a2dc-c9029a38d8fd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IDataAdviseHolder interface [COM],SendOnDataChange method, IDataAdviseHolder.SendOnDataChange, IDataAdviseHolder::SendOnDataChange, SendOnDataChange, SendOnDataChange method [COM], SendOnDataChange method [COM],IDataAdviseHolder interface, _ole_idataadviseholder_sendondatachange, com.idataadviseholder_sendondatachange, objidl/IDataAdviseHolder::SendOnDataChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataAdviseHolder.SendOnDataChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataAdviseHolder::SendOnDataChange

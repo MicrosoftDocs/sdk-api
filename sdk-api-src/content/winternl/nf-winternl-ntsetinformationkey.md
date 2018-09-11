@@ -4,17 +4,16 @@ title: NtSetInformationKey function
 author: windows-sdk-content
 description: Sets information for the specified registry key.
 old-location: winprog\ntsetinformationkey.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 74772ebf-684b-4579-a28a-9b80afb4ccf9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NtSetInformationKey, NtSetInformationKey function [Windows API], base.ntsetinformationkey, winprog.ntsetinformationkey, winternl/NtSetInformationKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_VERSION
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NtSetInformationKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Ntdll.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # NtSetInformationKey function

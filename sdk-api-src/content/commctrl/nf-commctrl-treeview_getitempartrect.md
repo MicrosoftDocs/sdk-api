@@ -4,17 +4,16 @@ title: TreeView_GetItemPartRect macro
 author: windows-sdk-content
 description: Retrieves the largest possible bounding rectangle that constitutes the &#0034;hit zone&#0034; for a specified part of an item. Use this macro or send the TVM_GETITEMPARTRECT message explicitly.
 old-location: controls\TreeView_GetItemPartRect.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitempartrect.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TreeView_GetItemPartRect, TreeView_GetItemPartRect macro [Windows Controls], _shell_TreeView_GetItemPartRect, _shell_TreeView_GetItemPartRect_cpp, commctrl/TreeView_GetItemPartRect, controls.TreeView_GetItemPartRect, controls._shell_TreeView_GetItemPartRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TreeView_GetItemPartRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # TreeView_GetItemPartRect macro

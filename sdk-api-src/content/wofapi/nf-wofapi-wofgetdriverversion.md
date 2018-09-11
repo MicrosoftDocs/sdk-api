@@ -4,17 +4,16 @@ title: WofGetDriverVersion function
 author: windows-sdk-content
 description: Used to query the version of the driver used to support a particular provider.
 old-location: fs\wofgetdriverversion.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: F142903A-329D-40E3-A233-F013C26EC1EA
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WofGetDriverVersion, WofGetDriverVersion function [Files], fs.wofgetdriverversion, wofapi/WofGetDriverVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
+req.lib: Wofutil.lib
+req.dll: Wofutil.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WofGetDriverVersion
 product: Windows
 targetos: Windows
-req.lib: Wofutil.lib
-req.dll: Wofutil.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WofGetDriverVersion function

@@ -4,17 +4,16 @@ title: PathData::PathData(const PathData &)
 author: windows-sdk-content
 description: Creates a PathData::PathData object. The Count data member is initialized to 0. The Points and Types data members are initialized to NULL.
 old-location: gdiplus\_gdiplus_CLASS_PathData_PathData_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathdataclass\pathdata_38.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: PathData, PathData class [GDI+],PathData constructor, PathData constructor [GDI+], PathData constructor [GDI+],PathData class, PathData.PathData, PathData.PathData(), PathData.PathData(const PathData &), PathData::PathData, PathData::PathData(const PathData &), _gdiplus_CLASS_PathData_PathData_, gdiplus._gdiplus_CLASS_PathData_PathData_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PathData.PathData
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

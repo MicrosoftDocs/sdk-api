@@ -4,17 +4,16 @@ title: StopTraceW function
 author: windows-sdk-content
 description: The StopTrace function stops the specified event tracing session. The ControlTrace function supersedes this function.
 old-location: etw\stoptrace.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 604274a1-c4ed-4746-b69a-e18969f969db
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: StopTrace, StopTrace function [ETW], StopTraceA, StopTraceW, _evt_stoptrace, base.stoptrace, etw.stoptrace, evntrace/StopTrace, evntrace/StopTraceA, evntrace/StopTraceW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
+req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
+req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,9 +48,8 @@ api_name:
  - StopTraceW
 product: Windows
 targetos: Windows
-req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
-req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # StopTraceW function

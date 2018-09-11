@@ -4,17 +4,16 @@ title: INetFwIcmpSettings::get_AllowInboundRouterRequest
 author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowinboundrouterrequest.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 26d9b17c-808d-4d01-921a-9ac435f327db
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AllowInboundRouterRequest property [ICS/ICF], AllowInboundRouterRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundRouterRequest property, INetFwIcmpSettings.AllowInboundRouterRequest, INetFwIcmpSettings.get_AllowInboundRouterRequest, INetFwIcmpSettings::AllowInboundRouterRequest, INetFwIcmpSettings::get_AllowInboundRouterRequest, INetFwIcmpSettings::put_AllowInboundRouterRequest, get_AllowInboundRouterRequest, ics.inetfwicmpsettings_allowinboundrouterrequest, netfw/INetFwIcmpSettings::AllowInboundRouterRequest, netfw/INetFwIcmpSettings::get_AllowInboundRouterRequest, netfw/INetFwIcmpSettings::put_AllowInboundRouterRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwIcmpSettings.put_AllowInboundRouterRequest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwIcmpSettings::get_AllowInboundRouterRequest

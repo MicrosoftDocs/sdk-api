@@ -4,17 +4,16 @@ title: RpcMgmtWaitServerListen function
 author: windows-sdk-content
 description: The RpcMgmtWaitServerListen function performs the wait operation usually associated with RpcServerListen.
 old-location: rpc\rpcmgmtwaitserverlisten.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 19fa750f-76f8-4005-992f-9c2707e48668
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcMgmtWaitServerListen, RpcMgmtWaitServerListen function [RPC], _rpc_rpcmgmtwaitserverlisten, rpc.rpcmgmtwaitserverlisten, rpcdce/RpcMgmtWaitServerListen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcMgmtWaitServerListen
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcMgmtWaitServerListen function

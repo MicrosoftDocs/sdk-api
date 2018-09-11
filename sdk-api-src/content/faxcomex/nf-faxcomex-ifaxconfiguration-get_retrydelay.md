@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxConfiguration.get_RetryDelay
 title: IFaxConfiguration::get_RetryDelay
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates the length of time the fax service should wait before retrying a failed fax transmission.
-old-location: fax\_mfax_FaxConfiguration_RetryDelay_vb.htm
-old-project: Fax
+old-location: fax\_mfax_IFaxConfiguration_RetryDelay.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\retrydelay.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxConfiguration object [Fax Service],RetryDelay property, FaxConfiguration.RetryDelay, IFaxConfiguration.get_RetryDelay, IFaxConfiguration::get_RetryDelay, RetryDelay property [Fax Service], RetryDelay property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_RetryDelay, fax._mfax_FaxConfiguration_RetryDelay_vb, get_RetryDelay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxConfiguration interface [Fax Service],RetryDelay property, IFaxConfiguration.RetryDelay, IFaxConfiguration.get_RetryDelay, IFaxConfiguration::RetryDelay, IFaxConfiguration::get_RetryDelay, IFaxConfiguration::put_RetryDelay, RetryDelay property [Fax Service], RetryDelay property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_RetryDelay, fax._mfax_IFaxConfiguration_RetryDelay, faxcomex/IFaxConfiguration::RetryDelay, faxcomex/IFaxConfiguration::get_RetryDelay, faxcomex/IFaxConfiguration::put_RetryDelay, get_RetryDelay
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Faxcomex.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxConfiguration.RetryDelay
+ - IFaxConfiguration.RetryDelay
+ - IFaxConfiguration.get_RetryDelay
+ - IFaxConfiguration.put_RetryDelay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxConfiguration::get_RetryDelay
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358913(v=VS.85).aspx">FaxConfiguration</a>
+<a href="https://msdn.microsoft.com/20a771ed-98c3-4d26-89dc-799008954767">IFaxConfiguration</a>
  
 
  

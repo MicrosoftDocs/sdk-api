@@ -4,17 +4,16 @@ title: LoadEnclaveImageW function
 author: windows-sdk-content
 description: Loads an image and all of its imports into an enclave.
 old-location: base\loadenclaveimage.htm
-old-project: memory
+tech.root: memory
 ms.assetid: BC3F3EB4-BB5E-40D6-B877-50694576FA1B
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: LoadEnclaveIUmageA, LoadEnclaveImage, LoadEnclaveImage function, LoadEnclaveImageW, base.loadenclaveimage, enclaveapi/LoadEnclaveIUmageA, enclaveapi/LoadEnclaveImage, enclaveapi/LoadEnclaveImageW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: enclaveapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: Vertdll.lib
+req.dll: Vertdll.dll; Api-ms-win-core-enclave-l1-1-0.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - LoadEnclaveImageW
 product: Windows
 targetos: Windows
-req.lib: Vertdll.lib
-req.dll: Vertdll.dll; Api-ms-win-core-enclave-l1-1-0.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # LoadEnclaveImageW function

@@ -4,17 +4,16 @@ title: ID2D1ImageSourceFromWic::TrimCache(const D2D1_RECT_U &)
 author: windows-sdk-content
 description: This method trims the populated regions of the image source cache to just the specified rectangle.
 old-location: direct2d\id2d1imagesourcefromwic_trimcache.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 8C6A42BB-D7CA-4766-BE59-B9F8150C0AC1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1ImageSourceFromWic interface [Direct2D],TrimCache method, ID2D1ImageSourceFromWic.TrimCache, ID2D1ImageSourceFromWic.TrimCache(const D2D1_RECT_U &), ID2D1ImageSourceFromWic::TrimCache, ID2D1ImageSourceFromWic::TrimCache(const D2D1_RECT_U &), TrimCache, TrimCache method [Direct2D], TrimCache method [Direct2D],ID2D1ImageSourceFromWic interface, d2d1_3/ID2D1ImageSourceFromWic::TrimCache, direct2d.id2d1imagesourcefromwic_trimcache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: D2d1_3.lib
+req.dll: D2d1_3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1ImageSourceFromWic.TrimCache
 product: Windows
 targetos: Windows
-req.lib: D2d1_3.lib
-req.dll: D2d1_3.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1ImageSourceFromWic::TrimCache(const D2D1_RECT_U &)

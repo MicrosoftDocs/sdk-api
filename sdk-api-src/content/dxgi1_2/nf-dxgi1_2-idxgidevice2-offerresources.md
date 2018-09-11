@@ -4,17 +4,16 @@ title: IDXGIDevice2::OfferResources
 author: windows-sdk-content
 description: Allows the operating system to free the video memory of resources by discarding their content.
 old-location: direct3ddxgi\idxgidevice2_offerresources.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: E642DDD5-17FE-4BB9-823F-1DA51C281253
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIDevice2 interface [DXGI],OfferResources method, IDXGIDevice2.OfferResources, IDXGIDevice2::OfferResources, OfferResources, OfferResources method [DXGI], OfferResources method [DXGI],IDXGIDevice2 interface, direct3ddxgi.idxgidevice2_offerresources, dxgi1_2/IDXGIDevice2::OfferResources
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIDevice2.OfferResources
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIDevice2::OfferResources

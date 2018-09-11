@@ -4,17 +4,16 @@ title: IDVBTuneRequest::put_TSID
 author: windows-sdk-content
 description: The put_TSID method sets the transport stream ID.
 old-location: mstv\idvbtunerequest_put_tsid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f72dce85-3584-40bc-ae7a-69c9914c13b9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],put_TSID method, IDVBTuneRequest.put_TSID, IDVBTuneRequest::put_TSID, IDVBTuneRequestput_TSID, mstv.idvbtunerequest_put_tsid, put_TSID, put_TSID method [Microsoft TV Technologies], put_TSID method [Microsoft TV Technologies],IDVBTuneRequest interface, tuner/IDVBTuneRequest::put_TSID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVBTuneRequest.put_TSID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVBTuneRequest::put_TSID

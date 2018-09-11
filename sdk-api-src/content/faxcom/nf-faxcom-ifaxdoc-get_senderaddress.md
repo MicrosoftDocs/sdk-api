@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxDoc.get_SenderAddress
 title: IFaxDoc::get_SenderAddress
 author: windows-sdk-content
 description: Sets or retrieves the SenderAddress property of a FaxDoc object. The SenderAddress property is a null-terminated string that contains the street address of the sender of the fax transmission.
-old-location: fax\_mfax_ifaxdoc_get_senderaddress_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_senderaddress_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_58vn.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxDoc object [Fax Service],SenderAddress property, FaxDoc.SenderAddress, IFaxDoc.get_SenderAddress, IFaxDoc::get_SenderAddress, SenderAddress property [Fax Service], SenderAddress property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_senderaddress, fax._mfax_ifaxdoc_get_senderaddress, fax._mfax_ifaxdoc_get_senderaddress_vb, get_SenderAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxDoc interface [Fax Service],SenderAddress property, IFaxDoc.SenderAddress, IFaxDoc.get_SenderAddress, IFaxDoc::SenderAddress, IFaxDoc::get_SenderAddress, IFaxDoc::put_SenderAddress, SenderAddress property [Fax Service], SenderAddress property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_senderaddress, fax._mfax_ifaxdoc_get_senderaddress, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderaddress_cpp, faxcom/IFaxDoc::SenderAddress, faxcom/IFaxDoc::get_SenderAddress, faxcom/IFaxDoc::put_SenderAddress, get_SenderAddress
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxDoc.SenderAddress
+ - IFaxDoc.SenderAddress
+ - IFaxDoc.get_SenderAddress
+ - IFaxDoc.put_SenderAddress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDoc::get_SenderAddress
@@ -81,10 +81,6 @@ The <b>get_SenderAddress</b> method allocates the memory required for the buffer
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms690707(v=VS.85).aspx">FaxDoc</a>
 
 
 

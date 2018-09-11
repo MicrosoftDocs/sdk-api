@@ -4,17 +4,16 @@ title: IOCSPCAConfiguration
 author: windows-sdk-content
 description: Represents a set of definitions that enable an Online Certificate Status Protocol (OCSP) service to respond to a certificate status request for a specific certification authority (CA).
 old-location: security\iocspcaconfiguration.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 57900e1e-9c51-4c1b-aa42-634b6c3a9999
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], IOCSPCAConfiguration interface [Security],described, certadm/IOCSPCAConfiguration, security.iocspcaconfiguration
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certadm.h
 req.include-header: Certserv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOCSPCAConfiguration
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPCAConfiguration interface

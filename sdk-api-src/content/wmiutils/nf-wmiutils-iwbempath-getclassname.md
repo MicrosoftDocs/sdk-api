@@ -4,17 +4,16 @@ title: IWbemPath::GetClassName
 author: windows-sdk-content
 description: The IWbemPath::GetClassName method retrieves the class name portion from the path.
 old-location: wmi\iwbempath_getclassname.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: d7555d66-38d6-4d87-a241-6cce8674fa44
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: GetClassName, GetClassName method [Windows Management Instrumentation], GetClassName method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetClassName method, IWbemPath.GetClassName, IWbemPath::GetClassName, _hmm_iwbempath_getclassname, wmi.iwbempath_getclassname, wmiutils/IWbemPath::GetClassName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMIQ_ASSOCQ_FLAGS
+req.lib: Wbemuuid.lib
+req.dll: Wmiutils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemPath.GetClassName
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmiutils.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemPath::GetClassName

@@ -4,17 +4,16 @@ title: IInertiaProcessor::ProcessTime
 author: windows-sdk-content
 description: The ProcessTime method performs calculations for the given tick and can raise the Started, Delta, or Completed event depending on whether extrapolation is completed or not. If extrapolation finished at the previous tick, the method is no-op.
 old-location: wintouch\iinertiaprocessor_processtime.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 06132573-e198-4b2c-922b-3eeda53ac10b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],ProcessTime method, IInertiaProcessor.ProcessTime, IInertiaProcessor::ProcessTime, ProcessTime, ProcessTime method [Windows Touch], ProcessTime method [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::ProcessTime, wintouch.iinertiaprocessor_processtime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInertiaProcessor.ProcessTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInertiaProcessor::ProcessTime

@@ -4,17 +4,16 @@ title: PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM
 author: windows-sdk-content
 description: Opens an enumerator for iterating through a group's resources and/or the nodes that are included in its list of preferred owners.
 old-location: mscs\clustergroupopenenum.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: d8f9eff0-1784-4b55-8603-c262d5c23f6c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_GROUP_ENUM_ALL, CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM callback, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM callback function [Failover Cluster], _wolf_clustergroupopenenum, clusapi/PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM, mscs.clustergroupopenenum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM callback function

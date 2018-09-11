@@ -4,17 +4,16 @@ title: IRichEditOle::SaveCompleted
 author: windows-sdk-content
 description: Indicates when the most recent save operation has been completed and that the rich edit control should hold onto a different storage for the object.
 old-location: controls\IRichEditOle_SaveCompleted.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolesavecompleted.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRichEditOle interface [Windows Controls],SaveCompleted method, IRichEditOle.SaveCompleted, IRichEditOle::SaveCompleted, SaveCompleted, SaveCompleted method [Windows Controls], SaveCompleted method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_SaveCompleted, _win32_IRichEditOle_SaveCompleted_cpp, controls.IRichEditOle_SaveCompleted, controls._win32_IRichEditOle_SaveCompleted, richole/IRichEditOle::SaveCompleted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEXTRANGEW
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRichEditOle.SaveCompleted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRichEditOle::SaveCompleted

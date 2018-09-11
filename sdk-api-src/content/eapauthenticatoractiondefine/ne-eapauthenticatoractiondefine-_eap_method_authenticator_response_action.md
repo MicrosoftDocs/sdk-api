@@ -4,7 +4,7 @@ title: "_EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION"
 author: windows-sdk-content
 description: Defines the set of response instructions sent by the authenticator to the supplicant or EAP peer method.
 old-location: eaphost\eap_method_authenticator_response_action.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 992336ec-65ef-48bf-947f-1d569c9bd4aa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION
+req.redist: 
 ---
 
 # _EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION enumeration

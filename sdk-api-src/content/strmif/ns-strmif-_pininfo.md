@@ -4,7 +4,7 @@ title: "_PinInfo"
 author: windows-sdk-content
 description: The PIN_INFO structure contains information about a pin.
 old-location: dshow\pin_info.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 67a837f3-8b81-4651-a0fa-fed7b61e71c2
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PIN_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PIN_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP
+req.typenames: PIN_INFO
+req.redist: 
 ---
 
 # _PinInfo structure

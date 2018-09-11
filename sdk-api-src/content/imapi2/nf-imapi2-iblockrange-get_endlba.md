@@ -4,17 +4,16 @@ title: IBlockRange::get_EndLba
 author: windows-sdk-content
 description: Retrieves the end sector of the range specified by the IBlockRange interface.
 old-location: imapi\iblockrange_get_endlba.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: e2260241-5922-4cf5-8aff-1dd7431a44c2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBlockRange interface [IMAPI],get_EndLba method, IBlockRange.get_EndLba, IBlockRange::get_EndLba, get_EndLba, get_EndLba method [IMAPI], get_EndLba method [IMAPI],IBlockRange interface, imapi.iblockrange_get_endlba, imapi2/IBlockRange::get_EndLba
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBlockRange.get_EndLba
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IBlockRange::get_EndLba

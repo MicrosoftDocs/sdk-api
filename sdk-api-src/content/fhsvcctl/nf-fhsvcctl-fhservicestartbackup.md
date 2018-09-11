@@ -4,17 +4,16 @@ title: FhServiceStartBackup function
 author: windows-sdk-content
 description: This function starts an immediate backup for the current user.
 old-location: winprog\fhservicestartbackup.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 30800744-8605-4F8B-9B7A-50F57CC73483
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FhServiceStartBackup, FhServiceStartBackup function [Windows API], fhsvcctl/FhServiceStartBackup, winprog.fhservicestartbackup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fhsvcctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.lib: FhSvcCtl.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FhServiceStartBackup
 product: Windows
 targetos: Windows
-req.lib: FhSvcCtl.lib
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FhServiceStartBackup function

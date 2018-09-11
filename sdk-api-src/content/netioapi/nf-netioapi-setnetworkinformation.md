@@ -4,17 +4,16 @@ title: SetNetworkInformation function
 author: windows-sdk-content
 description: Reserved for future use. Do not use this function.
 old-location: netvista\setnetworkinformation.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: e196e978-2eb7-4b22-af3b-e14736c5ac94
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: SetNetworkInformation, SetNetworkInformation function [Network Drivers Starting with Windows Vista], iphelper_d0cffca7-e9e7-404a-ab30-e2a2d6f66c14.xml, netioapi/SetNetworkInformation, netvista.setnetworkinformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetNetworkInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # SetNetworkInformation function

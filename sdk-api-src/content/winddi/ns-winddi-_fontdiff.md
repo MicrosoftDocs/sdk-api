@@ -4,7 +4,7 @@ title: "_FONTDIFF"
 author: windows-sdk-content
 description: The FONTDIFF structure describes all of the characteristics that are different between a base font and one of its simulations.
 old-location: display\fontdiff.htm
-old-project: display
+tech.root: display
 ms.assetid: c590359b-4652-4673-9e43-bf76a0a45d58
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FONTDIFF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FONTDIFF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FONTDIFF
+req.redist: 
 ---
 
 # _FONTDIFF structure

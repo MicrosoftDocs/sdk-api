@@ -4,17 +4,16 @@ title: FindSyncContextFromName function
 author: windows-sdk-content
 description: Retrieves the FIO_CONTEXT structure that is associated with the specified user name.
 old-location: winprog\_findsynccontextfromname.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 1528b545-6d04-4315-a0ca-cebef6144fe9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FindSyncContextFromName, FindSyncContextFromName function [Windows API], filehc/FindSyncContextFromName, winprog._findsynccontextfromname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: filehc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
+req.lib: Fcachdll.lib
+req.dll: Fcachdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FindSyncContextFromName
 product: Windows
 targetos: Windows
-req.lib: Fcachdll.lib
-req.dll: Fcachdll.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FindSyncContextFromName function

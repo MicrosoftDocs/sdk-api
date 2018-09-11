@@ -4,17 +4,16 @@ title: IWRdsGraphicsChannelEvents::OnDataReceived
 author: windows-sdk-content
 description: Called when a full message is received from the server.
 old-location: termserv\iwrdsgraphicschannelevents_ondatareceived.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: ac202fa0-6277-440a-8292-a785bbc78730
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnDataReceived method, IWRdsGraphicsChannelEvents.OnDataReceived, IWRdsGraphicsChannelEvents::OnDataReceived, OnDataReceived, OnDataReceived method [Remote Desktop Services], OnDataReceived method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_ondatareceived, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnDataReceived
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wrdsgraphicschannels.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRdsGraphicsChannelType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWRdsGraphicsChannelEvents.OnDataReceived
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWRdsGraphicsChannelEvents::OnDataReceived

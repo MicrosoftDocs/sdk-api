@@ -4,17 +4,16 @@ title: IDirectMusicSynth8::Refresh
 author: windows-sdk-content
 description: Refresh is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8_refresh.htm
-old-project: audio
+tech.root: audio
 ms.assetid: BA04A6F5-19D9-471D-9F53-DAB555E9F1A5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectMusicSynth8 interface [Audio Devices],Refresh method, IDirectMusicSynth8.Refresh, IDirectMusicSynth8::Refresh, Refresh, Refresh method [Audio Devices], Refresh method [Audio Devices],IDirectMusicSynth8 interface, audio.idirectmusicsynth8_refresh, dmusics/IDirectMusicSynth8::Refresh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectMusicSynth8.Refresh
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectMusicSynth8::Refresh

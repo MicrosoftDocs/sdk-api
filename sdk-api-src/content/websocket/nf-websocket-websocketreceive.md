@@ -4,17 +4,16 @@ title: WebSocketReceive function
 author: windows-sdk-content
 description: Adds a receive operation to the protocol component operation queue.
 old-location: websock\websocketreceive.htm
-old-project: WebSock
+tech.root: WebSock
 ms.assetid: 6285c6fc-1f7a-45f3-ba28-94992e73693e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: WebSocketReceive, WebSocketReceive function [Websocket Protocol Component API], websock.websocketreceive, websocket/WebSocketReceive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: websocket.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_PROPERTY_TYPE
+req.lib: Websocket.lib
+req.dll: Websocket.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WebSocketReceive
 product: Windows
 targetos: Windows
-req.lib: Websocket.lib
-req.dll: Websocket.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WebSocketReceive function

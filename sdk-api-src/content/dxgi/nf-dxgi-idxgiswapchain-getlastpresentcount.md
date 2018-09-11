@@ -4,17 +4,16 @@ title: IDXGISwapChain::GetLastPresentCount
 author: windows-sdk-content
 description: Gets the number of times that IDXGISwapChain::Present or IDXGISwapChain1::Present1 has been called.
 old-location: direct3ddxgi\idxgiswapchain_getlastpresentcount.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getlastpresentcount.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetLastPresentCount, GetLastPresentCount method [DXGI], GetLastPresentCount method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetLastPresentCount method, IDXGISwapChain.GetLastPresentCount, IDXGISwapChain::GetLastPresentCount, direct3ddxgi.idxgiswapchain_getlastpresentcount, dxgi/IDXGISwapChain::GetLastPresentCount, f6292a4d-50a6-18b3-5edc-a581c15fa784
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGISwapChain.GetLastPresentCount
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGISwapChain::GetLastPresentCount

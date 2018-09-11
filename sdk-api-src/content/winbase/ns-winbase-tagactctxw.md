@@ -4,17 +4,16 @@ title: tagACTCTXW
 author: windows-sdk-content
 description: The ACTCTX structure is used by the CreateActCtx function to create the activation context.
 old-location: setup\actctx_str.htm
-old-project: sbscs
+tech.root: SbsCs
 ms.assetid: b6f97f25-1834-44f7-86b7-33339481ba60
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PACTCTXW, ACTCTX, ACTCTX structure [Side-by-side Assemblies], ACTCTXW, ACTCTX_FLAG_APPLICATION_NAME_VALID, ACTCTX_FLAG_ASSEMBLY_DIRECTORY_VALID, ACTCTX_FLAG_HMODULE_VALID, ACTCTX_FLAG_LANGID_VALID, ACTCTX_FLAG_PROCESSOR_ARCHITECTURE_VALID, ACTCTX_FLAG_RESOURCE_NAME_VALID, ACTCTX_FLAG_SET_PROCESS_DEFAULT, PACTCTX, PACTCTX structure pointer [Side-by-side Assemblies], _win32_actctx_str, setup.actctx_str, tagACTCTXA, tagACTCTXW, winbase/ACTCTX, winbase/ACTCTXW, winbase/PACTCTX"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACTCTXW, *PACTCTXW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ACTCTXW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: ACTCTXW, *PACTCTXW
+req.redist: 
 ---
 
 # tagACTCTXW structure

@@ -4,17 +4,16 @@ title: IRDPSRAPISharingSession::get_Invitations
 author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPIInvitationManager interface.
 old-location: rdp\irdpsrapisharingsession_invitations.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 6e5116d9-7b65-4d93-ab1e-caac080e870e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPISharingSession interface [RDP],Invitations property, IRDPSRAPISharingSession.Invitations, IRDPSRAPISharingSession.get_Invitations, IRDPSRAPISharingSession2 interface [RDP],Invitations property, IRDPSRAPISharingSession2.Invitations, IRDPSRAPISharingSession2::Invitations, IRDPSRAPISharingSession2::get_Invitations, IRDPSRAPISharingSession::get_Invitations, Invitations property [RDP], Invitations property [RDP],IRDPSRAPISharingSession interface, Invitations property [RDP],IRDPSRAPISharingSession2 interface, Invitations property [RDP],RDPSession object, RDPSession object [RDP],Invitations property, get_Invitations, rdp.irdpsrapisharingsession_invitations, rdpencomapi/IRDPSRAPISharingSession2::Invitations, rdpencomapi/IRDPSRAPISharingSession2::get_Invitations, rdpencomapi/IRDPSRAPISharingSession::Invitations, rdpencomapi/IRDPSRAPISharingSession::get_Invitations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - RDPSession.Invitations
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPISharingSession::get_Invitations

@@ -4,17 +4,16 @@ title: HANDLE_WM_NOTIFY macro
 author: windows-sdk-content
 description: Calls a function that processes the WM_NOTIFY message.
 old-location: controls\HANDLE_WM_NOTIFY.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\macros\handle_wm_notify.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HANDLE_WM_NOTIFY, HANDLE_WM_NOTIFY macro [Windows Controls], _win32_HANDLE_WM_NOTIFY, _win32_HANDLE_WM_NOTIFY_cpp, commctrl/HANDLE_WM_NOTIFY, controls.HANDLE_WM_NOTIFY, controls._win32_HANDLE_WM_NOTIFY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - HANDLE_WM_NOTIFY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # HANDLE_WM_NOTIFY macro

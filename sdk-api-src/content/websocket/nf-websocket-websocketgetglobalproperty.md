@@ -4,17 +4,16 @@ title: WebSocketGetGlobalProperty function
 author: windows-sdk-content
 description: Gets a single WebSocket property.
 old-location: websock\websocketgetglobalproperty.htm
-old-project: WebSock
+tech.root: WebSock
 ms.assetid: ca4b76e9-6545-447b-93b2-e9e4054a54ec
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: WebSocketGetGlobalProperty, WebSocketGetGlobalProperty function [Websocket Protocol Component API], websock.websocketgetglobalproperty, websocket/WebSocketGetGlobalProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: websocket.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_PROPERTY_TYPE
+req.lib: Websocket.lib
+req.dll: Websocket.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WebSocketGetGlobalProperty
 product: Windows
 targetos: Windows
-req.lib: Websocket.lib
-req.dll: Websocket.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WebSocketGetGlobalProperty function

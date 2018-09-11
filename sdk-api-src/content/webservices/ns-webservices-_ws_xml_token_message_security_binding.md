@@ -4,17 +4,16 @@ title: "_WS_XML_TOKEN_MESSAGE_SECURITY_BINDING"
 author: windows-sdk-content
 description: The security binding subtype for specifying the use of a security token that is already available to the application in XML form.
 old-location: wsw\ws_xml_token_message_security_binding.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 5ca1e67a-11f5-44bb-afe8-c934837d711b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_TOKEN_MESSAGE_SECURITY_BINDING, WS_XML_TOKEN_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], _WS_XML_TOKEN_MESSAGE_SECURITY_BINDING, webservices/WS_XML_TOKEN_MESSAGE_SECURITY_BINDING, wsw.ws_xml_token_message_security_binding
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
+req.redist: 
 ---
 
 # _WS_XML_TOKEN_MESSAGE_SECURITY_BINDING structure

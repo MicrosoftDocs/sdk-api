@@ -4,17 +4,16 @@ title: WslUnregisterDistribution function
 author: windows-sdk-content
 description: Unregisters a distribution from the Windows Subsystem for Linux (WSL).
 old-location: wsl\wslunregisterdistribution.htm
-old-project: wsl
+tech.root: wsl
 ms.assetid: B655E05D-4F4E-401D-8A24-6E8E8B0CE00C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WslUnregisterDistribution, WslUnregisterDistribution function, wsl.wslunregisterdistribution, wslapi/WslUnregisterDistribution
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wslapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSL_DISTRIBUTION_FLAGS
+req.lib: Wslapi.lib
+req.dll: Api-ms-win-wsl-api-l1-1-0.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WslUnregisterDistribution
 product: Windows
 targetos: Windows
-req.lib: Wslapi.lib
-req.dll: Api-ms-win-wsl-api-l1-1-0.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WslUnregisterDistribution function

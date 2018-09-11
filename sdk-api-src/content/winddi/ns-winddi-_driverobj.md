@@ -4,7 +4,7 @@ title: "_DRIVEROBJ"
 author: windows-sdk-content
 description: The DRIVEROBJ structure is used to track a resource, allocated by a driver, that requires use GDI services.
 old-location: display\driverobj.htm
-old-project: display
+tech.root: display
 ms.assetid: 313ee1bf-ee0c-4283-b5e1-5bbabb944a4a
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRIVEROBJ
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DRIVEROBJ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DRIVEROBJ
+req.redist: 
 ---
 
 # _DRIVEROBJ structure

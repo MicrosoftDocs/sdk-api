@@ -4,7 +4,7 @@ title: "_VMR9NormalizedRect"
 author: windows-sdk-content
 description: The VMR9NormalizedRect structure is used with the VMR-9 filter in mixing operations to specify or retrieve the location of a video rectangle in composition space.
 old-location: dshow\vmr9normalizedrect.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 226b685c-92da-45c3-b99a-6c1e732f8dc6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9NormalizedRect
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMR9NormalizedRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VMR9NormalizedRect
+req.redist: 
 ---
 
 # _VMR9NormalizedRect structure

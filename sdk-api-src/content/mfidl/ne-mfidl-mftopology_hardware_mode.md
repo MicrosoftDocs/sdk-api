@@ -4,7 +4,7 @@ title: MFTOPOLOGY_HARDWARE_MODE
 author: windows-sdk-content
 description: Specifies whether the topology loader will insert hardware-based Media Foundation transforms (MFTs) into the topology.
 old-location: mf\mftopology_hardware_mode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: fdaa13a5-9b23-440e-be04-ae926e1b0ff5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFTOPOLOGY_HARDWARE_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFTOPOLOGY_HARDWARE_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFTOPOLOGY_HARDWARE_MODE
+req.redist: 
 ---
 
 # MFTOPOLOGY_HARDWARE_MODE enumeration

@@ -4,17 +4,16 @@ title: IMessageView::SetBodyText
 author: windows-sdk-content
 description: The IMessageView::SetBodyText method enables a snap-in to set the body text for the result pane message displayed using the MMC message OCX control.
 old-location: mmc\imessageview_setbodytext.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 27b3ae83-be3c-4d40-88b8-9253f1c793f6
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IMessageView interface [MMC],SetBodyText method, IMessageView.SetBodyText, IMessageView::SetBodyText, SetBodyText, SetBodyText method [MMC], SetBodyText method [MMC],IMessageView interface, _slate_imessageview_setbodytext, mmc.imessageview_setbodytext, mmc/IMessageView::SetBodyText
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMessageView.SetBodyText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMessageView::SetBodyText

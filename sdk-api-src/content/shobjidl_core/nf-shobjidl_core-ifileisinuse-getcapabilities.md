@@ -4,17 +4,16 @@ title: IFileIsInUse::GetCapabilities
 author: windows-sdk-content
 description: Determines whether the file can be closed and whether the UI is capable of switching to the window of the application that is using the file.
 old-location: shell\IFileIsInUse_GetCapabilities.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d2ce674a-4c06-401d-bfb0-bc2a086ef89c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Windows Shell], GetCapabilities method [Windows Shell],IFileIsInUse interface, IFileIsInUse interface [Windows Shell],GetCapabilities method, IFileIsInUse.GetCapabilities, IFileIsInUse::GetCapabilities, OF_CAP_CANCLOSE, OF_CAP_CANSWITCHTO, _shell_IFileIsInUse_GetCapabilities, shell.IFileIsInUse_GetCapabilities, shobjidl_core/IFileIsInUse::GetCapabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileIsInUse.GetCapabilities
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileIsInUse::GetCapabilities

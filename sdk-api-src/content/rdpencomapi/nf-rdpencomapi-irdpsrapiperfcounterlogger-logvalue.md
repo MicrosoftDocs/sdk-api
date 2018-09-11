@@ -4,17 +4,16 @@ title: IRDPSRAPIPerfCounterLogger::LogValue
 author: windows-sdk-content
 description: Logs a value.
 old-location: rdp\irdpsrapiperfcounterlogger_logvalue.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: B6EF608E-5AA9-4AB7-920D-F6E567E1258C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIPerfCounterLogger interface [RDP],LogValue method, IRDPSRAPIPerfCounterLogger.LogValue, IRDPSRAPIPerfCounterLogger::LogValue, LogValue, LogValue method [RDP], LogValue method [RDP],IRDPSRAPIPerfCounterLogger interface, rdp.irdpsrapiperfcounterlogger_logvalue, rdpencomapi/IRDPSRAPIPerfCounterLogger::LogValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPIPerfCounterLogger.LogValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIPerfCounterLogger::LogValue

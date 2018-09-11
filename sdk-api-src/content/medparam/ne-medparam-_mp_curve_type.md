@@ -4,7 +4,7 @@ title: "_MP_CURVE_TYPE"
 author: windows-sdk-content
 description: The MP_CURVE_TYPE enumeration defines the curve that a media parameter follows within an envelope segment.
 old-location: dshow\mp_curve_type.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0665796e-5589-4e6c-b101-e19eddec7e0d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: medparam.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MP_CURVE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MP_CURVE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MP_CURVE_TYPE
+req.redist: 
 ---
 
 # _MP_CURVE_TYPE enumeration

@@ -4,17 +4,16 @@ title: IStylusPlugin::UpdateMapping
 author: windows-sdk-content
 description: Notifies the plug-in when display properties, such as dpi or orientation, change.
 old-location: tablet\istylusplugin_updatemapping.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 26cefb86-a21e-432d-b3db-1669d5b9cd05
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 26cefb86-a21e-432d-b3db-1669d5b9cd05, IStylusPlugin interface [Tablet PC],UpdateMapping method, IStylusPlugin.UpdateMapping, IStylusPlugin::UpdateMapping, UpdateMapping, UpdateMapping method [Tablet PC], UpdateMapping method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::UpdateMapping, tablet.istylusplugin_updatemapping
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStylusPlugin.UpdateMapping
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStylusPlugin::UpdateMapping

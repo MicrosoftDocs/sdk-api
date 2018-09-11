@@ -4,17 +4,16 @@ title: UnregisterDeviceNotification function
 author: windows-sdk-content
 description: Closes the specified device notification handle.
 old-location: base\unregisterdevicenotification.htm
-old-project: devio
+tech.root: devio
 ms.assetid: bcc0cf87-f996-47b5-937c-14a6332d00d9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: UnregisterDeviceNotification, UnregisterDeviceNotification function, _win32_unregisterdevicenotification, base.unregisterdevicenotification, winuser/UnregisterDeviceNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - UnregisterDeviceNotification
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # UnregisterDeviceNotification function

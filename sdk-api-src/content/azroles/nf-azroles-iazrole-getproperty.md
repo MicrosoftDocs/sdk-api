@@ -4,17 +4,16 @@ title: IAzRole::GetProperty
 author: windows-sdk-content
 description: Returns the IAzRole object property with the specified property ID.
 old-location: security\iazrole_getproperty.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: f65058ce-962d-4cad-9f55-c8b983ffaa05
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_ROLE_APP_MEMBERS, AZ_PROP_ROLE_MEMBERS, AZ_PROP_ROLE_MEMBERS_NAME, AZ_PROP_ROLE_OPERATIONS, AZ_PROP_ROLE_TASKS, AZ_PROP_WRITABLE, AzRole object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzRole object, GetProperty method [Security],IAzRole interface, IAzRole interface [Security],GetProperty method, IAzRole.GetProperty, IAzRole::GetProperty, azroles/IAzRole::GetProperty, security.iazrole_getproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzRole.GetProperty
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzRole::GetProperty

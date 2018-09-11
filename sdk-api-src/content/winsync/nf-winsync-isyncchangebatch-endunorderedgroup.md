@@ -4,17 +4,16 @@ title: ISyncChangeBatch::EndUnorderedGroup
 author: windows-sdk-content
 description: Closes a previously opened unordered group in the change batch.
 old-location: winsync\isyncchangebatch_endunorderedgroup.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: ca9c37ca-6aa0-437d-b933-ca7d943e4ef2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: EndUnorderedGroup, EndUnorderedGroup method [Windows Sync], EndUnorderedGroup method [Windows Sync],ISyncChangeBatch interface, ISyncChangeBatch interface [Windows Sync],EndUnorderedGroup method, ISyncChangeBatch.EndUnorderedGroup, ISyncChangeBatch::EndUnorderedGroup, winsync.isyncchangebatch_endunorderedgroup, winsync/ISyncChangeBatch::EndUnorderedGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncChangeBatch.EndUnorderedGroup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncChangeBatch::EndUnorderedGroup

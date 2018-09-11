@@ -4,7 +4,7 @@ title: TTLOADINFO
 author: windows-sdk-content
 description: The TTLOADINFO structure contains the URL from which the embedded font object has been obtained.
 old-location: gdi\ttloadinfo.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 7a4beae7-cd30-47e3-b310-d0a79c3c8c36
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: t2embapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TTLOADINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TTLOADINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TTLOADINFO
+req.redist: 
 ---
 
 # TTLOADINFO structure

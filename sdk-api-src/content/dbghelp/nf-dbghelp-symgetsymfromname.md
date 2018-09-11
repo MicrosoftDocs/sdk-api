@@ -4,17 +4,16 @@ title: SymGetSymFromName function
 author: windows-sdk-content
 description: Locates a symbol for the specified name.
 old-location: base\symgetsymfromname64.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 9c9a1a57-06c2-422a-b078-5b7725d54bd4
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymGetSymFromName, SymGetSymFromName function, SymGetSymFromName64, SymGetSymFromName64 function, _win32_symgetsymfromname64, base.symgetsymfromname64, dbghelp/SymGetSymFromName, dbghelp/SymGetSymFromName64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - SymGetSymFromName
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # SymGetSymFromName function

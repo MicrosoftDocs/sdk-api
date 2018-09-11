@@ -4,17 +4,16 @@ title: tagOLEUICONVERTA
 author: windows-sdk-content
 description: Contains information that the OLE User Interface Library uses to initialize the Convert dialog box, and space for the library to return information when the dialog box is dismissed.
 old-location: com\oleuiconvert_struct.htm
-old-project: com
+tech.root: com
 ms.assetid: 79206f06-b219-48c2-9fb2-74ebc2dbac65
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPOLEUICONVERTA, *POLEUICONVERTA, CF_CONVERTONLY, CF_DISABLEACTIVATEAS, CF_DISABLEDISPLAYASICON, CF_HIDECHANGEICON, CF_SELECTACTIVATEAS, CF_SELECTCONVERTTO, CF_SETACTIVATEDEFAULT, CF_SETCONVERTDEFAULT, CF_SHOWHELPBUTTON, LPOLEUICONVERT, LPOLEUICONVERT structure pointer [COM], OLEUICONVERT, OLEUICONVERT structure [COM], OLEUICONVERTA, OLEUICONVERTW, POLEUICONVERT, POLEUICONVERT structure pointer [COM], _ole_OLEUICONVERT_str, com.oleuiconvert_struct, oledlg/LPOLEUICONVERT, oledlg/OLEUICONVERT, oledlg/OLEUICONVERTA, oledlg/OLEUICONVERTW, oledlg/POLEUICONVERT, tagOLEUICONVERTA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUICONVERTA, *POLEUICONVERTA, *LPOLEUICONVERTA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OLEUICONVERTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OLEUICONVERTA, *POLEUICONVERTA, *LPOLEUICONVERTA
+req.redist: 
 ---
 
 # tagOLEUICONVERTA structure

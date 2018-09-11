@@ -4,17 +4,16 @@ title: GetScrollInfo function
 author: windows-sdk-content
 description: The GetScrollInfo function retrieves the parameters of a scroll bar, including the minimum and maximum scrolling positions, the page size, and the position of the scroll box (thumb).
 old-location: controls\GetScrollInfo.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\getscrollinfo.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetScrollInfo, GetScrollInfo function [Windows Controls], SB_CTL, SB_HORZ, SB_VERT, SIF_PAGE, SIF_POS, SIF_RANGE, SIF_TRACKPOS, _win32_GetScrollInfo, _win32_GetScrollInfo_cpp, controls.GetScrollInfo, controls._win32_GetScrollInfo, winuser/GetScrollInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - GetScrollInfo
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetScrollInfo function

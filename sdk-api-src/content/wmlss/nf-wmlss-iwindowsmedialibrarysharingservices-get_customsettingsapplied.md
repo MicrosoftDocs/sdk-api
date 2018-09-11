@@ -4,17 +4,16 @@ title: IWindowsMediaLibrarySharingServices::get_customSettingsApplied
 author: windows-sdk-content
 description: The get_customSettingsApplied method retrieves a value that indicates whether any custom media-sharing settings are in place for the current user.
 old-location: wmlss\IWMLSSget_customSettingsApplied.htm
-old-project: wmlss
+tech.root: WMLSS
 ms.assetid: f0e4f5b8-2dcc-4e29-b59d-731608e5b8dd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_customSettingsApplied method, IWindowsMediaLibrarySharingServices.get_customSettingsApplied, IWindowsMediaLibrarySharingServices::get_customSettingsApplied, get_customSettingsApplied, get_customSettingsApplied method [Windows Media Library Sharing Services], get_customSettingsApplied method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_customSettingsApplied, wmlss/IWindowsMediaLibrarySharingServices::get_customSettingsApplied
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmlss.h
 req.include-header: Wmlss.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
+req.lib: 
+req.dll: WMPMediaSharing.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWindowsMediaLibrarySharingServices.get_customSettingsApplied
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: WMPMediaSharing.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowsMediaLibrarySharingServices::get_customSettingsApplied

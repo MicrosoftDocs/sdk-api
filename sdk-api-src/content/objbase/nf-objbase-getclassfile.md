@@ -4,17 +4,16 @@ title: GetClassFile function
 author: windows-sdk-content
 description: Returns the CLSID associated with the specified file name.
 old-location: com\getclassfile.htm
-old-project: com
+tech.root: com
 ms.assetid: dc3cb263-7b9a-45f9-8eab-3a88aa9392db
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetClassFile, GetClassFile function [COM], _com_GetClassFile, com.getclassfile, objbase/GetClassFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GetClassFile
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetClassFile function

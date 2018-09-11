@@ -4,17 +4,16 @@ title: IWPCWebSettings::GetSettings
 author: windows-sdk-content
 description: Retrieves the web restrictions settings.
 old-location: parcon\iwpcwebsettings_getsettings.htm
-old-project: parcon
+tech.root: parcon
 ms.assetid: bf0c1a54-ac36-45f4-8005-1847dc00bf7f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetSettings, GetSettings method, GetSettings method,IWPCWebSettings interface, IWPCWebSettings interface,GetSettings method, IWPCWebSettings.GetSettings, IWPCWebSettings::GetSettings, WPCFLAG_WEB_SETTING_DOWNLOADSBLOCKED, WPCFLAG_WEB_SETTING_NOTBLOCKED, parcon.iwpcwebsettings_getsettings, wpcapi/IWPCWebSettings::GetSettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWPCWebSettings.GetSettings
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWPCWebSettings::GetSettings

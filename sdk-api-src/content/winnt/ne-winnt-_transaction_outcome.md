@@ -4,7 +4,7 @@ title: "_TRANSACTION_OUTCOME"
 author: windows-sdk-content
 description: Defines the outcomes (results) that KTM can assign to a transaction.
 old-location: fs\transaction_outcome.htm
-old-project: ktm
+tech.root: ktm
 ms.assetid: d4315a62-b65f-4744-8084-2317ad39c32c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TRANSACTION_OUTCOME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: TRANSACTION_OUTCOME
+req.redist: 
 ---
 
 # _TRANSACTION_OUTCOME enumeration

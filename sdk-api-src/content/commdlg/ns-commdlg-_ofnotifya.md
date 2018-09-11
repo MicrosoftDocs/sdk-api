@@ -4,17 +4,16 @@ title: "_OFNOTIFYA"
 author: windows-sdk-content
 description: Contains information about a WM_NOTIFY message sent to an OFNHookProc hook procedure for an Open or Save As dialog box. The lParam parameter of the WM_NOTIFY message is a pointer to an OFNOTIFY structure.
 old-location: dlgbox\ofnotify_str.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\ofnotify.htm
 ms.author: windowssdkdev
-ms.date: 08/21/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPOFNOTIFYA, LPOFNOTIFY, LPOFNOTIFY structure pointer [Dialog Boxes], OFNOTIFY, OFNOTIFY structure [Dialog Boxes], OFNOTIFYA, OFNOTIFYW, _OFNOTIFYA, _win32_OFNOTIFY_str, _win32_ofnotify_str_cpp, commdlg/LPOFNOTIFY, commdlg/OFNOTIFY, commdlg/OFNOTIFYA, commdlg/OFNOTIFYW, dlgbox.ofnotify_str, winui._win32_ofnotify_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: commdlg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFNOTIFYA, *LPOFNOTIFYA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - OFNOTIFYW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: OFNOTIFYA, *LPOFNOTIFYA
+req.redist: 
 ---
 
 # _OFNOTIFYA structure

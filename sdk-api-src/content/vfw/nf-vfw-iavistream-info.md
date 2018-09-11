@@ -4,17 +4,16 @@ title: IAVIStream::Info
 author: windows-sdk-content
 description: The Info method fills and returns an AVISTREAMINFO structure with information about a stream. Called when an application uses the AVIStreamInfo function.
 old-location: multimedia\iavistream_info.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: c58c4d68-4d27-4c3c-a1f6-bdafa3633dae
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],Info method, IAVIStream.Info, IAVIStream::Info, Info, Info method [Windows Multimedia], Info method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_Info, multimedia.iavistream_info, vfw/IAVIStream::Info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAVIStream.Info
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IAVIStream::Info

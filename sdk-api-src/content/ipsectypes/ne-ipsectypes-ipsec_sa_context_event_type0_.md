@@ -4,7 +4,7 @@ title: IPSEC_SA_CONTEXT_EVENT_TYPE0_
 author: windows-sdk-content
 description: Specifies the type of IPsec security association (SA) context change event.
 old-location: fwp\ipsec_sa_context_event_type0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 3e179d08-2962-4196-9c7e-c16c9cddf489
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_SA_CONTEXT_EVENT_TYPE0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_SA_CONTEXT_EVENT_TYPE0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_SA_CONTEXT_EVENT_TYPE0
+req.redist: 
 ---
 
 # IPSEC_SA_CONTEXT_EVENT_TYPE0_ enumeration

@@ -4,17 +4,16 @@ title: ITsSbSession::get_InitialProgram
 author: windows-sdk-content
 description: Retrieves or specifies the initial program for this session.
 old-location: termserv\itssbsession_initialprogram.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: c299c4f7-3c5f-468f-9fc7-81eac322dfa2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],InitialProgram property, ITsSbSession.InitialProgram, ITsSbSession.get_InitialProgram, ITsSbSession::InitialProgram, ITsSbSession::get_InitialProgram, ITsSbSession::put_InitialProgram, InitialProgram property [Remote Desktop Services], InitialProgram property [Remote Desktop Services],ITsSbSession interface, get_InitialProgram, sbtsv/ITsSbSession::InitialProgram, sbtsv/ITsSbSession::get_InitialProgram, sbtsv/ITsSbSession::put_InitialProgram, termserv.itssbsession_initialprogram
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITsSbSession.put_InitialProgram
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbSession::get_InitialProgram

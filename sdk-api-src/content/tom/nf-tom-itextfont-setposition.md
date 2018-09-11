@@ -4,17 +4,16 @@ title: ITextFont::SetPosition
 author: windows-sdk-content
 description: Sets the amount that characters are offset vertically relative to the baseline.
 old-location: controls\ITextFont_SetPosition.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setposition.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextFont interface [Windows Controls],SetPosition method, ITextFont.SetPosition, ITextFont::SetPosition, SetPosition, SetPosition method [Windows Controls], SetPosition method [Windows Controls],ITextFont interface, _win32_ITextFont_SetPosition, _win32_ITextFont_SetPosition_cpp, controls.ITextFont_SetPosition, controls._win32_ITextFont_SetPosition, tom/ITextFont::SetPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont.SetPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont::SetPosition

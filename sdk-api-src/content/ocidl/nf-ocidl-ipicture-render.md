@@ -4,17 +4,16 @@ title: IPicture::Render
 author: windows-sdk-content
 description: Renders (draws) a specified portion of the picture defined by the offset (xSrc,ySrc) of the source picture and the dimensions to copy (cxSrc,xySrc).
 old-location: com\ipicture_render.htm
-old-project: com
+tech.root: com
 ms.assetid: 45164225-2e0f-4415-a99c-dc0257d606d3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPicture interface [COM],Render method, IPicture.Render, IPicture::Render, Render, Render method [COM], Render method [COM],IPicture interface, _ctrl_ipicture_render, com.ipicture_render, ocidl/IPicture::Render
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPicture.Render
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPicture::Render

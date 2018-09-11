@@ -4,17 +4,16 @@ title: IMFASFStreamSelector::BitrateToStepNumber
 author: windows-sdk-content
 description: Retrieves the index of a bandwidth step that is appropriate for a specified bit rate. This method is used for multiple bit rate (MBR) content.
 old-location: mf\imfasfstreamselector_bitratetostepnumber.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e2debbce-f6ee-45d7-bf05-2b07aa7719c7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: BitrateToStepNumber, BitrateToStepNumber method [Media Foundation], BitrateToStepNumber method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],BitrateToStepNumber method, IMFASFStreamSelector.BitrateToStepNumber, IMFASFStreamSelector::BitrateToStepNumber, e2debbce-f6ee-45d7-bf05-2b07aa7719c7, mf.imfasfstreamselector_bitratetostepnumber, wmcontainer/IMFASFStreamSelector::BitrateToStepNumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFStreamSelector.BitrateToStepNumber
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFStreamSelector::BitrateToStepNumber

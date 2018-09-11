@@ -4,7 +4,7 @@ title: FWP_CLASSIFY_OPTION_TYPE_
 author: windows-sdk-content
 description: The FWP_CLASSIFY_OPTION_TYPE enumerated type is used by callouts and shims during run-time classification.FWP_CLASSIFY_OPTION_TYPE specifies timeout options for unicast, multicast, and loose source mapping states and enables blocking or permission of state creation on outbound multicast and broadcast traffic.
 old-location: fwp\fwp_classify_option_type.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 5c757bf6-a4ea-42f0-ad87-74855703a041
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWP_CLASSIFY_OPTION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWP_CLASSIFY_OPTION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWP_CLASSIFY_OPTION_TYPE
+req.redist: 
 ---
 
 # FWP_CLASSIFY_OPTION_TYPE_ enumeration

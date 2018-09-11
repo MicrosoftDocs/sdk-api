@@ -4,17 +4,16 @@ title: IInputObject::UIActivateIO
 author: windows-sdk-content
 description: UI-activates or deactivates the object.
 old-location: shell\IInputObject_UIActivateIO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a725863e-4814-4aa7-99c6-7e7141db214d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IInputObject interface [Windows Shell],UIActivateIO method, IInputObject.UIActivateIO, IInputObject::UIActivateIO, UIActivateIO, UIActivateIO method [Windows Shell], UIActivateIO method [Windows Shell],IInputObject interface, _win32_IInputObject_UIActivateIO, shell.IInputObject_UIActivateIO, shobjidl_core/IInputObject::UIActivateIO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInputObject.UIActivateIO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IInputObject::UIActivateIO

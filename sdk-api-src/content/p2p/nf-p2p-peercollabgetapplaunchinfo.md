@@ -4,17 +4,16 @@ title: PeerCollabGetAppLaunchInfo function
 author: windows-sdk-content
 description: Obtains the peer application launch information, including the contact name, the peer endpoint, and the invitation request.
 old-location: p2p\peercollabgetapplaunchinfo.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 266a7d80-b4bc-42f2-ba76-a69cab9e2c12
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerCollabGetAppLaunchInfo, PeerCollabGetAppLaunchInfo function [Peer Networking], p2p.peercollabgetapplaunchinfo, p2p/PeerCollabGetAppLaunchInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerCollabGetAppLaunchInfo
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerCollabGetAppLaunchInfo function

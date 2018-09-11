@@ -4,17 +4,16 @@ title: IPhotoAcquireSource::GetItemAt
 author: windows-sdk-content
 description: The GetItemAt method retrieves the IPhotoAcquireItem object at the given index in the list of items.
 old-location: picacq\iphotoacquiresource_getitemat.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: c066464b-1d88-4d43-8bfd-0f60f21db5fd
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetItemAt, GetItemAt method [Picture Acquisition], GetItemAt method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetItemAt method, IPhotoAcquireSource.GetItemAt, IPhotoAcquireSource::GetItemAt, IPhotoAcquireSourceGetItemAt, photoacquire/IPhotoAcquireSource::GetItemAt, picacq.iphotoacquiresource_getitemat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireSource.GetItemAt
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireSource::GetItemAt

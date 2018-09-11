@@ -4,17 +4,16 @@ title: WritePrivateProfileSectionA function
 author: windows-sdk-content
 description: Replaces the keys and values for the specified section in an initialization file.
 old-location: base\writeprivateprofilesection.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: 23f9e012-4196-437a-9e22-0524b37505b4
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: WritePrivateProfileSection, WritePrivateProfileSection function, WritePrivateProfileSectionA, WritePrivateProfileSectionW, _win32_writeprivateprofilesection, base.writeprivateprofilesection, winbase/WritePrivateProfileSection, winbase/WritePrivateProfileSectionA, winbase/WritePrivateProfileSectionW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - WritePrivateProfileSectionW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WritePrivateProfileSectionA function

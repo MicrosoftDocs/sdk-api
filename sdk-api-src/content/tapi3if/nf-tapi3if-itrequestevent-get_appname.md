@@ -4,17 +4,16 @@ title: ITRequestEvent::get_AppName
 author: windows-sdk-content
 description: The get_AppName method gets the name of the application.
 old-location: tapi3\itrequestevent_get_appname.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: d53fae21-4a4d-46ab-a0ff-48a7474b8782
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_AppName method, ITRequestEvent.get_AppName, ITRequestEvent::get_AppName, _tapi3_itrequestevent_get_appname, get_AppName, get_AppName method [TAPI 2.2], get_AppName method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_appname, tapi3if/ITRequestEvent::get_AppName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITRequestEvent.get_AppName
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITRequestEvent::get_AppName

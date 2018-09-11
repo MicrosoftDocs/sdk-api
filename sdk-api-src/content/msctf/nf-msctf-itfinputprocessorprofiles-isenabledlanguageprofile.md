@@ -4,17 +4,16 @@ title: ITfInputProcessorProfiles::IsEnabledLanguageProfile
 author: windows-sdk-content
 description: ITfInputProcessorProfiles::IsEnabledLanguageProfile method
 old-location: tsf\itfinputprocessorprofiles_isenabledlanguageprofile.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 9daaa5bf-3eb8-416f-b7f5-9b10c04bceb0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],IsEnabledLanguageProfile method, ITfInputProcessorProfiles.IsEnabledLanguageProfile, ITfInputProcessorProfiles::IsEnabledLanguageProfile, IsEnabledLanguageProfile, IsEnabledLanguageProfile method [Text Services Framework], IsEnabledLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_isenabledlanguageprofile_ref, msctf/ITfInputProcessorProfiles::IsEnabledLanguageProfile, tsf.itfinputprocessorprofiles_isenabledlanguageprofile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfInputProcessorProfiles.IsEnabledLanguageProfile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfInputProcessorProfiles::IsEnabledLanguageProfile

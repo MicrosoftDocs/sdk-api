@@ -4,7 +4,7 @@ title: IUIAutomationElement2
 author: windows-sdk-content
 description: Extends the IUIAutomationElement interface.
 old-location: winauto\uiauto_IUIAutomationElement2.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 4D9A4E94-BAE9-4E85-8F21-7CABFBE64C6D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationElement2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAutomationCore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement2 interface

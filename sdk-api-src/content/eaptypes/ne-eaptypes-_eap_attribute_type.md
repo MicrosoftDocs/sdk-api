@@ -4,7 +4,7 @@ title: "_EAP_ATTRIBUTE_TYPE"
 author: windows-sdk-content
 description: Defines the set of possible EAP attribute types available on an authenticating entity.
 old-location: eaphost\eap_attribute_type.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 1c6999f5-b455-4a8d-9967-dc27938e8737
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: eaptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_ATTRIBUTE_TYPE, EapAttributeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_ATTRIBUTE_TYPE
 product: Windows
 targetos: Windows
-req.lib: Eappprxy.lib
-req.dll: Eappprxy.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_ATTRIBUTE_TYPE, EapAttributeType
+req.redist: 
 ---
 
 # _EAP_ATTRIBUTE_TYPE enumeration

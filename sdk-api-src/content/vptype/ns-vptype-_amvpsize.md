@@ -4,7 +4,7 @@ title: "_AMVPSIZE"
 author: windows-sdk-content
 description: The AMVPSIZE structure specifies the width and height for a VP image.
 old-location: dshow\amvpsize.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e36163bc-a7ea-421e-b876-2d459ecb11e8
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vptype.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AMVPSIZE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.redist: 
 ---
 
 # _AMVPSIZE structure

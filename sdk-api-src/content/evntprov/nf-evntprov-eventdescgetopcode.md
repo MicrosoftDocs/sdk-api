@@ -4,17 +4,16 @@ title: EventDescGetOpcode function
 author: windows-sdk-content
 description: Retrieves the operation code from the event descriptor.
 old-location: etw\eventdescgetopcode_func.htm
-old-project: etw
+tech.root: etw
 ms.assetid: cdca1dd8-da75-408c-9b57-0ac2bfe387b4
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: EventDescGetOpcode, EventDescGetOpcode function [ETW], base.eventdescgetopcode_func, etw.eventdescgetopcode_func, evntprov/EventDescGetOpcode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_INFO_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EventDescGetOpcode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EventDescGetOpcode function

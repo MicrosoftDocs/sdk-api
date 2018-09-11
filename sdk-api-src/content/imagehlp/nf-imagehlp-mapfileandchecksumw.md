@@ -4,17 +4,16 @@ title: MapFileAndCheckSumW function
 author: windows-sdk-content
 description: Computes the checksum of the specified file.
 old-location: base\mapfileandchecksum.htm
-old-project: debug
+tech.root: debug
 ms.assetid: e8fac3cc-bddf-419d-a245-d7af84d2c7f7
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: MapFileAndCheckSum, MapFileAndCheckSum function, MapFileAndCheckSumA, MapFileAndCheckSumW, _win32_mapfileandchecksum, base.mapfileandchecksum, imagehlp/MapFileAndCheckSum, imagehlp/MapFileAndCheckSumA, imagehlp/MapFileAndCheckSumW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Imagehlp.lib
+req.dll: Imagehlp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MapFileAndCheckSumW
 product: Windows
 targetos: Windows
-req.lib: Imagehlp.lib
-req.dll: Imagehlp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MapFileAndCheckSumW function

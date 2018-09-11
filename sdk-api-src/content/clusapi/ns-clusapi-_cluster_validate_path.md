@@ -4,17 +4,16 @@ title: "_CLUSTER_VALIDATE_PATH"
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\cluster_validate_path.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 81c214e0-8ca8-41a7-bacc-041ab4d6d3b3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUSTER_VALIDATE_PATH, CLUSTER_VALIDATE_PATH, CLUSTER_VALIDATE_PATH structure [Failover Cluster], PCLUSTER_VALIDATE_PATH, PCLUSTER_VALIDATE_PATH structure pointer [Failover Cluster], _CLUSTER_VALIDATE_PATH, clusapi/CLUSTER_VALIDATE_PATH, clusapi/PCLUSTER_VALIDATE_PATH, mscs.cluster_validate_path"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_VALIDATE_PATH, *PCLUSTER_VALIDATE_PATH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSTER_VALIDATE_PATH
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_VALIDATE_PATH, *PCLUSTER_VALIDATE_PATH
+req.redist: 
 ---
 
 # _CLUSTER_VALIDATE_PATH structure

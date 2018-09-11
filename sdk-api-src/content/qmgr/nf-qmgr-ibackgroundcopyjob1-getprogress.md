@@ -4,17 +4,16 @@ title: IBackgroundCopyJob1::GetProgress
 author: windows-sdk-content
 description: Use the GetProgress method to retrieve the job's progress.
 old-location: bits\ibackgroundcopyjob1_getprogress.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 4d4444b6-e40a-4138-9462-49809ec84ccd
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],GetProgress method, IBackgroundCopyJob1.GetProgress, IBackgroundCopyJob1::GetProgress, QM_PROGRESS_PERCENT_DONE, QM_PROGRESS_SIZE_DONE, QM_PROGRESS_TIME_DONE, bits.ibackgroundcopyjob1_getprogress, qmgr/IBackgroundCopyJob1::GetProgress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyJob1.GetProgress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob1::GetProgress

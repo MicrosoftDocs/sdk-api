@@ -4,17 +4,16 @@ title: IDsAdminNewObj::SetButtons
 author: windows-sdk-content
 description: The IDsAdminNewObj::SetButtons method enables or disables the &#0034;Next&#0034; command button in the wizard for a specific page.
 old-location: ad\idsadminnewobj_setbuttons.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 2cc888f4-b884-4e81-8dec-6f12c35d9ee4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDsAdminNewObj interface [Active Directory],SetButtons method, IDsAdminNewObj.SetButtons, IDsAdminNewObj::SetButtons, SetButtons, SetButtons method [Active Directory], SetButtons method [Active Directory],IDsAdminNewObj interface, _glines_idsadminnewobj_setbuttons, ad.idsadminnewobj__setbuttons, ad.idsadminnewobj_setbuttons, dsadmin/IDsAdminNewObj::SetButtons
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsAdminNewObj.SetButtons
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DSAdmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsAdminNewObj::SetButtons
@@ -61,7 +60,7 @@ The <b>IDsAdminNewObj::SetButtons</b> method enables or disables the "Next" comm
 
 ### -param nCurrIndex
 
-
+TBD
 
 
 ### -param bValid [in]

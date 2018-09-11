@@ -4,7 +4,7 @@ title: "_BTH_LE_GATT_EVENT_TYPE"
 author: windows-sdk-content
 description: The BTH_LE_GATT_EVENT_TYPE enumeration describes the different types of Bluetooth Low Energy (LE) generic attribute (GATT) profile events.
 old-location: bltooth\bth_le_gatt_event_type.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 6AF30DEA-2018-4AA2-B13A-BD31BD641F9F
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: bthledef.h
 req.include-header: BthLEDef.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BTH_LE_GATT_EVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BTH_LE_GATT_EVENT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BTH_LE_GATT_EVENT_TYPE
+req.redist: 
 ---
 
 # _BTH_LE_GATT_EVENT_TYPE enumeration

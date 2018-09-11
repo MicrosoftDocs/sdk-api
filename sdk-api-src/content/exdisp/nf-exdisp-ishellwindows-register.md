@@ -4,17 +4,16 @@ title: IShellWindows::Register
 author: windows-sdk-content
 description: Registers an open window as a Shell window; the window is specified by handle.
 old-location: shell\IShellWindows_Register.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4545cc34-2209-41a5-ab65-283f2985cce0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellWindows interface [Windows Shell],Register method, IShellWindows.Register, IShellWindows::Register, Register, Register method [Windows Shell], Register method [Windows Shell],IShellWindows interface, _win32_IShellWindows_Register, exdisp/IShellWindows::Register, shell.IShellWindows_Register
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IShellWindows.Register
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5
 ---
 

@@ -4,17 +4,16 @@ title: ID3D12DebugDevice1::SetDebugParameter
 author: windows-sdk-content
 description: Modifies the D3D12 optional device-wide Debug Layer settings.
 old-location: direct3d12\id3d12debugdevice1_setdebugparameter.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: D97086C6-CED8-4C4E-ADA1-7A172B3202F3
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D12DebugDevice1 interface,SetDebugParameter method, ID3D12DebugDevice1.SetDebugParameter, ID3D12DebugDevice1::SetDebugParameter, SetDebugParameter, SetDebugParameter method, SetDebugParameter method,ID3D12DebugDevice1 interface, d3d12sdklayers/ID3D12DebugDevice1::SetDebugParameter, direct3d12.id3d12debugdevice1_setdebugparameter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_RLDO_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12DebugDevice1.SetDebugParameter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12DebugDevice1::SetDebugParameter

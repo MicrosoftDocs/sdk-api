@@ -4,7 +4,7 @@ title: "_PSFEATURE_OUTPUT"
 author: windows-sdk-content
 description: The PSFEATURE_OUTPUT structure contains information about PostScript driver output options. This structure is used with the GET_PS_FEATURESETTING printer escape function.
 old-location: gdi\psfeature_output.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 4ff96d45-e70e-4d80-9bab-dd1d67aee8f3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSFEATURE_OUTPUT, *PPSFEATURE_OUTPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSFEATURE_OUTPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PSFEATURE_OUTPUT, *PPSFEATURE_OUTPUT
+req.redist: 
 ---
 
 # _PSFEATURE_OUTPUT structure

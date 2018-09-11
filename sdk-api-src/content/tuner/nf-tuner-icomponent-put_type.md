@@ -4,17 +4,16 @@ title: IComponent::put_Type
 author: windows-sdk-content
 description: The put_Type method sets an IComponentType object describing the general characteristics of the component.
 old-location: mstv\icomponent_put_type.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 07d8cc28-d34e-4332-8648-d69a471ca8ac
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],put_Type method, IComponent.put_Type, IComponent::put_Type, IComponentput_Type, mstv.icomponent_put_type, put_Type, put_Type method [Microsoft TV Technologies], put_Type method [Microsoft TV Technologies],IComponent interface, tuner/IComponent::put_Type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponent.put_Type
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponent::put_Type
@@ -65,7 +63,7 @@ The <b>put_Type</b> method sets an <a href="https://msdn.microsoft.com/e83bbbbe-
 
 ### -param CT
 
-
+TBD
 
 
 

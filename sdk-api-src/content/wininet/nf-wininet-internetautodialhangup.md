@@ -4,17 +4,16 @@ title: InternetAutodialHangup function
 author: windows-sdk-content
 description: Disconnects an automatic dial-up connection.
 old-location: wininet\internetautodialhangup.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 8aa8ecb8-cacd-4cd9-a00b-5293b28dd6bf
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: InternetAutodialHangup, InternetAutodialHangup function [WinINet], _inet_internetautodialhangup_function, wininet.internetautodialhangup, winineti/InternetAutodialHangup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: Wininet.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InternetAutodialHangup
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InternetAutodialHangup function

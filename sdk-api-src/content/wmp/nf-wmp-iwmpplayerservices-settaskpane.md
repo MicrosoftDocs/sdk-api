@@ -4,17 +4,16 @@ title: IWMPPlayerServices::setTaskPane
 author: windows-sdk-content
 description: The setTaskPane method displays the specified task pane in the full mode of Windows Media Player.
 old-location: wmp\iwmpplayerservices_settaskpane.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 4b34ec95-d9a3-4135-b369-39955199ac00
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPPlayerServices interface [Windows Media Player],setTaskPane method, IWMPPlayerServices.setTaskPane, IWMPPlayerServices::setTaskPane, IWMPPlayerServicessetTaskPane, setTaskPane, setTaskPane method [Windows Media Player], setTaskPane method [Windows Media Player],IWMPPlayerServices interface, wmp.iwmpplayerservices_settaskpane, wmp/IWMPPlayerServices::setTaskPane
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPPlayerServices.setTaskPane
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPPlayerServices::setTaskPane

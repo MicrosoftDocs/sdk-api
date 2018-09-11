@@ -4,17 +4,16 @@ title: wglGetCurrentContext function
 author: windows-sdk-content
 description: The wglGetCurrentContext function obtains a handle to the current OpenGL rendering context of the calling thread.
 old-location: opengl\wglgetcurrentcontext.htm
-old-project: OpenGL
+tech.root: OpenGL
 ms.assetid: 8e2a4f24-689c-48b7-a06e-fc57d65b5567
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ogl_wglGetCurrentContext, opengl.wglgetcurrentcontext, wglGetCurrentContext, wglGetCurrentContext function [OpenGL], wingdi/wglGetCurrentContext"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Opengl32.lib
+req.dll: Opengl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - wglGetCurrentContext
 product: Windows
 targetos: Windows
-req.lib: Opengl32.lib
-req.dll: Opengl32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # wglGetCurrentContext function

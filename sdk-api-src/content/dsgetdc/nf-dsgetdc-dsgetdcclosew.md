@@ -4,17 +4,16 @@ title: DsGetDcCloseW function
 author: windows-sdk-content
 description: Closes a domain controller enumeration operation.
 old-location: ad\dsgetdcclose.htm
-old-project: ad
+tech.root: ad
 ms.assetid: d193e4cd-ad66-4d93-b912-348f17e93a6f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsGetDcClose, DsGetDcClose function [Active Directory], DsGetDcCloseW, ad.dsgetdcclose, dsgetdc/DsGetDcClose, dsgetdc/DsGetDcCloseW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - DsGetDcCloseW
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DsGetDcCloseW function

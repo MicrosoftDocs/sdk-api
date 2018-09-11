@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_documenttarget_0000_0001_0001"
 author: windows-sdk-content
 description: Defines a payload to be used by the PackageStatusUpdated method. This structure is a generic version of XPS_JOB_STATUS.
 old-location: xps\printdocumentpackagestatus.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: A499CB8D-B2E3-4343-A9AF-079C75EF1441
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: documenttarget.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PrintDocumentPackageStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PrintDocumentPackageStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: PrintDocumentPackageStatus
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_documenttarget_0000_0001_0001 structure

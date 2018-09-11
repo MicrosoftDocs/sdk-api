@@ -4,17 +4,16 @@ title: IDVBSTuningSpace::get_LowOscillator
 author: windows-sdk-content
 description: The get_LowOscillator method retrieves the low oscillator frequency.
 old-location: mstv\idvbstuningspace_get_lowoscillator.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7f48902d-9242-4791-b0f1-fc4ab5bd85c0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],get_LowOscillator method, IDVBSTuningSpace.get_LowOscillator, IDVBSTuningSpace::get_LowOscillator, IDVBSTuningSpaceget_LowOscillator, get_LowOscillator, get_LowOscillator method [Microsoft TV Technologies], get_LowOscillator method [Microsoft TV Technologies],IDVBSTuningSpace interface, mstv.idvbstuningspace_get_lowoscillator, tuner/IDVBSTuningSpace::get_LowOscillator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVBSTuningSpace.get_LowOscillator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVBSTuningSpace::get_LowOscillator
@@ -65,7 +63,7 @@ The <b>get_LowOscillator</b> method retrieves the low oscillator frequency.
 
 ### -param LowOscillator
 
-
+TBD
 
 
 

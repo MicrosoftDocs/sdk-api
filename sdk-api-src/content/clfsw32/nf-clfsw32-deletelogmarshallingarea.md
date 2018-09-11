@@ -4,17 +4,16 @@ title: DeleteLogMarshallingArea function
 author: windows-sdk-content
 description: Deletes a marshaling area that is created by a successful call to CreateLogMarshallingArea.
 old-location: fs\deletelogmarshallingarea.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: d58bd64f-fa76-4ab3-9660-e31e9029171c
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: DeleteLogMarshallingArea, DeleteLogMarshallingArea function [Files], clfsw32/DeleteLogMarshallingArea, fs.deletelogmarshalingarea, fs.deletelogmarshallingarea
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DeleteLogMarshallingArea
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DeleteLogMarshallingArea function

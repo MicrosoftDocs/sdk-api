@@ -4,7 +4,7 @@ title: "_MFT_OUTPUT_DATA_BUFFER"
 author: windows-sdk-content
 description: Contains information about an output buffer for a Media Foundation transform. This structure is used in the IMFTransform::ProcessOutput method.
 old-location: mf\mft_output_data_buffer.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 57623c8f-f7b6-4cb3-8d54-4ee516c706c3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFT_OUTPUT_DATA_BUFFER, *PMFT_OUTPUT_DATA_BUFFER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFT_OUTPUT_DATA_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFT_OUTPUT_DATA_BUFFER, *PMFT_OUTPUT_DATA_BUFFER
+req.redist: 
 ---
 
 # _MFT_OUTPUT_DATA_BUFFER structure

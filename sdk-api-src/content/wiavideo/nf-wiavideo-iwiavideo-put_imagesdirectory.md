@@ -4,17 +4,16 @@ title: IWiaVideo::put_ImagesDirectory
 author: windows-sdk-content
 description: The IWiaVideo::ImagesDirectory property specifies the full path and directory where images are stored when calling the IWiaVideo::TakePicture method.
 old-location: wia\_wia_IWiaVideo_ImagesDirectory.htm
-old-project: wia
+tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\imagesdirectory.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWiaVideo interface [WIA],ImagesDirectory property, IWiaVideo.ImagesDirectory, IWiaVideo.put_ImagesDirectory, IWiaVideo::ImagesDirectory, IWiaVideo::get_ImagesDirectory, IWiaVideo::put_ImagesDirectory, ImagesDirectory property [WIA], ImagesDirectory property [WIA],IWiaVideo interface, _wia_IWiaVideo_ImagesDirectory, put_ImagesDirectory, wia._wia_IWiaVideo_ImagesDirectory, wiavideo/IWiaVideo::ImagesDirectory, wiavideo/IWiaVideo::get_ImagesDirectory, wiavideo/IWiaVideo::put_ImagesDirectory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wiavideo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIAVIDEO_STATE
+req.lib: 
+req.dll: Wiavideo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IWiaVideo.put_ImagesDirectory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wiavideo.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWiaVideo::put_ImagesDirectory

@@ -4,17 +4,16 @@ title: IMediaSeeking::IsFormatSupported
 author: windows-sdk-content
 description: The IsFormatSupported method determines whether a specified time format is supported for seek operations.
 old-location: dshow\imediaseeking_isformatsupported.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 443a8dbc-c12a-4d50-9005-1fedf701f6fd
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaSeeking interface [DirectShow],IsFormatSupported method, IMediaSeeking.IsFormatSupported, IMediaSeeking::IsFormatSupported, IMediaSeekingIsFormatSupported, IsFormatSupported, IsFormatSupported method [DirectShow], IsFormatSupported method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_isformatsupported, strmif/IMediaSeeking::IsFormatSupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaSeeking.IsFormatSupported
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaSeeking::IsFormatSupported

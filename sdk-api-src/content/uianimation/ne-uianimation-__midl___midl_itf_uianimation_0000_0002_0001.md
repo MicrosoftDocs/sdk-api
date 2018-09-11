@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_UIAnimation_0000_0002_0001"
 author: windows-sdk-content
 description: Defines the status for a storyboard.
 old-location: uianimation\ui_animation_storyboard_status.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 02830092-0070-44dc-8db2-239941134473
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_ANIMATION_STORYBOARD_BUILDING, UI_ANIMATION_STORYBOARD_CANCELLED, UI_ANIMATION_STORYBOARD_FINISHED, UI_ANIMATION_STORYBOARD_INSUFFICIENT_PRIORITY, UI_ANIMATION_STORYBOARD_PLAYING, UI_ANIMATION_STORYBOARD_READY, UI_ANIMATION_STORYBOARD_SCHEDULED, UI_ANIMATION_STORYBOARD_STATUS, UI_ANIMATION_STORYBOARD_STATUS enumeration [Windows Animation], UI_ANIMATION_STORYBOARD_TRUNCATED, __MIDL___MIDL_itf_UIAnimation_0000_0002_0001, uianimation.ui_animation_storyboard_status, uianimation/UI_ANIMATION_STORYBOARD_BUILDING, uianimation/UI_ANIMATION_STORYBOARD_CANCELLED, uianimation/UI_ANIMATION_STORYBOARD_FINISHED, uianimation/UI_ANIMATION_STORYBOARD_INSUFFICIENT_PRIORITY, uianimation/UI_ANIMATION_STORYBOARD_PLAYING, uianimation/UI_ANIMATION_STORYBOARD_READY, uianimation/UI_ANIMATION_STORYBOARD_SCHEDULED, uianimation/UI_ANIMATION_STORYBOARD_STATUS, uianimation/UI_ANIMATION_STORYBOARD_TRUNCATED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_STORYBOARD_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_ANIMATION_STORYBOARD_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: UI_ANIMATION_STORYBOARD_STATUS
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_UIAnimation_0000_0002_0001 enumeration

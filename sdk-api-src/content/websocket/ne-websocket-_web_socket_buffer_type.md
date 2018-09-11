@@ -4,17 +4,16 @@ title: "_WEB_SOCKET_BUFFER_TYPE"
 author: windows-sdk-content
 description: Specifies the bit values used to construct the WebSocket frame header.
 old-location: websock\web_socket_buffer_type.htm
-old-project: WebSock
+tech.root: WebSock
 ms.assetid: a6657b51-ac16-4637-8dfd-e3dade951385
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: WEB_SOCKET_BINARY_FRAGMENT_BUFFER_TYPE, WEB_SOCKET_BINARY_MESSAGE_BUFFER_TYPE, WEB_SOCKET_BUFFER_TYPE, WEB_SOCKET_BUFFER_TYPE enumeration [Websocket Protocol Component API], WEB_SOCKET_CLOSE_BUFFER_TYPE, WEB_SOCKET_PING_PONG_BUFFER_TYPE, WEB_SOCKET_UNSOLICITED_PONG_BUFFER_TYPE, WEB_SOCKET_UTF8_FRAGMENT_BUFFER_TYPE, WEB_SOCKET_UTF8_MESSAGE_BUFFER_TYPE, _WEB_SOCKET_BUFFER_TYPE, websock.web_socket_buffer_type, websocket/WEB_SOCKET_BINARY_FRAGMENT_BUFFER_TYPE, websocket/WEB_SOCKET_BINARY_MESSAGE_BUFFER_TYPE, websocket/WEB_SOCKET_BUFFER_TYPE, websocket/WEB_SOCKET_CLOSE_BUFFER_TYPE, websocket/WEB_SOCKET_PING_PONG_BUFFER_TYPE, websocket/WEB_SOCKET_UNSOLICITED_PONG_BUFFER_TYPE, websocket/WEB_SOCKET_UTF8_FRAGMENT_BUFFER_TYPE, websocket/WEB_SOCKET_UTF8_MESSAGE_BUFFER_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: websocket.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_BUFFER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WEB_SOCKET_BUFFER_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WEB_SOCKET_BUFFER_TYPE
+req.redist: 
 ---
 
 # _WEB_SOCKET_BUFFER_TYPE enumeration

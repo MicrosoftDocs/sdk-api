@@ -4,17 +4,16 @@ title: ICertificationAuthorities::get_Count
 author: windows-sdk-content
 description: Retrieves the number of ICertificationAuthority objects in the collection.
 old-location: security\icertificationauthorities_count.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 6b8d5c73-1df5-47b6-9cc1-afe94ff5ceb6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Count property [Security], Count property [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Count property, ICertificationAuthorities.Count, ICertificationAuthorities.get_Count, ICertificationAuthorities::Count, ICertificationAuthorities::get_Count, certenroll/ICertificationAuthorities::Count, certenroll/ICertificationAuthorities::get_Count, get_Count, security.icertificationauthorities_count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertificationAuthorities.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificationAuthorities::get_Count

@@ -4,17 +4,16 @@ title: IWMReaderCallbackAdvanced::AllocateForStream
 author: windows-sdk-content
 description: The AllocateForStream method allocates user-created buffers for stream samples delivered to IWMReaderCallbackAdvanced::OnStreamSample. For more information about allocating your own buffers, see User Allocated Sample Support.
 old-location: wmformat\iwmreadercallbackadvanced_allocateforstream.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 82d31f4b-d8a8-4538-be5e-dd9149e3f420
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AllocateForStream, AllocateForStream method [windows Media Format], AllocateForStream method [windows Media Format],IWMReaderCallbackAdvanced interface, IWMReaderCallbackAdvanced interface [windows Media Format],AllocateForStream method, IWMReaderCallbackAdvanced.AllocateForStream, IWMReaderCallbackAdvanced::AllocateForStream, IWMReaderCallbackAdvancedAllocateForStream, wmformat.iwmreadercallbackadvanced_allocateforstream, wmsdkidl/IWMReaderCallbackAdvanced::AllocateForStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMReaderCallbackAdvanced.AllocateForStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderCallbackAdvanced::AllocateForStream

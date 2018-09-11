@@ -4,17 +4,16 @@ title: "_FAILURE_TYPE"
 author: windows-sdk-content
 description: Defines the failure types for cluster resources.
 old-location: mscs\failure_type.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: C838BE66-5CAB-4884-AC64-EC5EC3A87679
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PFAILURE_TYPE, FAILURE_TYPE, FAILURE_TYPE enumeration [Failover Cluster], FAILURE_TYPE_EMBEDDED, FAILURE_TYPE_GENERAL, FAILURE_TYPE_NETWORK_LOSS, PFAILURE_TYPE, PFAILURE_TYPE enumeration pointer [Failover Cluster], _FAILURE_TYPE, mscs.failure_type, resapi/FAILURE_TYPE, resapi/FAILURE_TYPE_EMBEDDED, resapi/FAILURE_TYPE_GENERAL, resapi/FAILURE_TYPE_NETWORK_LOSS, resapi/PFAILURE_TYPE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAILURE_TYPE, *PFAILURE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FAILURE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: FAILURE_TYPE, *PFAILURE_TYPE
+req.redist: 
 ---
 
 # _FAILURE_TYPE enumeration

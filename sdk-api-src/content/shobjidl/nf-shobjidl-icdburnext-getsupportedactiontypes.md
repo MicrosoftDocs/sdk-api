@@ -4,17 +4,16 @@ title: ICDBurnExt::GetSupportedActionTypes
 author: windows-sdk-content
 description: Determines the supported data type for a CD writing extension.
 old-location: shell\ICDBurnExt_GetSupportedActionTypes.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 46d0fe58-b8aa-42a8-811e-9762185bb8cc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CDBE_TYPE_ALL, CDBE_TYPE_DATA, CDBE_TYPE_MUSIC, GetSupportedActionTypes, GetSupportedActionTypes method [Windows Shell], GetSupportedActionTypes method [Windows Shell],ICDBurnExt interface, ICDBurnExt interface [Windows Shell],GetSupportedActionTypes method, ICDBurnExt.GetSupportedActionTypes, ICDBurnExt::GetSupportedActionTypes, _shell_ICDBurnExt_GetSupportedActionTypes, shell.ICDBurnExt_GetSupportedActionTypes, shobjidl/ICDBurnExt::GetSupportedActionTypes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDBurnExt.GetSupportedActionTypes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # ICDBurnExt::GetSupportedActionTypes

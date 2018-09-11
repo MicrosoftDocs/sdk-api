@@ -4,17 +4,16 @@ title: DirectDrawCreateEx function
 author: windows-sdk-content
 description: Creates an instance of a DirectDraw object that supports the set of Direct3D interfaces in DirectX 7.0. To use the features of Direct3D in DirectX 7.0, create a DirectDraw object with this function.
 old-location: directdraw\directdrawcreateex.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 67fa1cd0-e47f-4dc4-b92c-b3401b4cbb57
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DDCREATE_EMULATIONONLY, DDCREATE_HARDWAREONLY, DirectDrawCreateEx, DirectDrawCreateEx function [DirectDraw], ddraw/DirectDrawCreateEx, directdraw.directdrawcreateex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - DirectDrawCreateEx
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DirectDrawCreateEx function

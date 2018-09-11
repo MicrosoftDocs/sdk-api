@@ -4,17 +4,16 @@ title: IUIAutomationElementArray::get_Length
 author: windows-sdk-content
 description: Retrieves the number of elements in the collection.
 old-location: winauto\uiauto_IUIAutomationElementArray_Length.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 1d560139-c6bb-4f45-a593-8af4249114f8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationElementArray interface [Windows Accessibility],Length property, IUIAutomationElementArray.Length, IUIAutomationElementArray.get_Length, IUIAutomationElementArray::Length, IUIAutomationElementArray::get_Length, Length property [Windows Accessibility], Length property [Windows Accessibility],IUIAutomationElementArray interface, get_Length, uiauto.uiauto_IUIAutomationElementArray_Length, uiauto_IUIAutomationElementArray_Length, uiautomationclient/IUIAutomationElementArray::Length, uiautomationclient/IUIAutomationElementArray::get_Length, winauto.uiauto_IUIAutomationElementArray_Length
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElementArray.get_Length
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElementArray::get_Length

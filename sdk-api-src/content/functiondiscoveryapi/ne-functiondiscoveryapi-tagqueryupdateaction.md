@@ -4,7 +4,7 @@ title: tagQueryUpdateAction
 author: windows-sdk-content
 description: Represents the type of action Function Discovery is performing on the specified function instance. This information is used by the client program's change notification handler.
 old-location: ncd\queryupdateaction_enum.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: ae3a4fe2-1b1f-4a8d-9b5d-361a7ece315d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: functiondiscoveryapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QueryUpdateAction
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QueryUpdateAction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: QueryUpdateAction
+req.redist: 
 ---
 
 # tagQueryUpdateAction enumeration

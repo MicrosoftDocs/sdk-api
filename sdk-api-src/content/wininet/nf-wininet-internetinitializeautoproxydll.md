@@ -4,17 +4,16 @@ title: InternetInitializeAutoProxyDll function
 author: windows-sdk-content
 description: There are two WinINet functions named InternetInitializeAutoProxyDll.
 old-location: wininet\internetinitializeautoproxydll.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: d55d64cb-ee92-4366-a1bb-f5d421ed81c8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: InternetInitializeAutoProxyDll, InternetInitializeAutoProxyDll function [WinINet], _inet_internetinitializeautoproxydll_function, wininet.internetinitializeautoproxydll, winineti/InternetInitializeAutoProxyDll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: Wininet.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: 
+req.dll: JSProxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InternetInitializeAutoProxyDll
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: JSProxy.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InternetInitializeAutoProxyDll function

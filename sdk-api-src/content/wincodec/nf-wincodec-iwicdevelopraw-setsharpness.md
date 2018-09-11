@@ -4,17 +4,16 @@ title: IWICDevelopRaw::SetSharpness
 author: windows-sdk-content
 description: Sets the sharpness value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_setsharpness.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 0c989362-0c76-4028-ac27-c49e3ec1c6fd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetSharpness method, IWICDevelopRaw.SetSharpness, IWICDevelopRaw::SetSharpness, SetSharpness, SetSharpness method [Windows Imaging Component], SetSharpness method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setsharpness, wic._wic_codec_iwicdevelopraw_setsharpness, wincodec/IWICDevelopRaw::SetSharpness
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICDevelopRaw.SetSharpness
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICDevelopRaw::SetSharpness

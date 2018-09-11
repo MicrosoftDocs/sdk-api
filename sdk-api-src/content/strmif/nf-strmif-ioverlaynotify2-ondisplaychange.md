@@ -4,17 +4,16 @@ title: IOverlayNotify2::OnDisplayChange
 author: windows-sdk-content
 description: The OnDisplayChange method provides notification that the exposed window area has changed.
 old-location: dshow\ioverlaynotify2_ondisplaychange.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8f32a373-5d98-4491-8bfb-9445cb15ff10
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IOverlayNotify2 interface [DirectShow],OnDisplayChange method, IOverlayNotify2.OnDisplayChange, IOverlayNotify2::OnDisplayChange, IOverlayNotify2OnDisplayChange, OnDisplayChange, OnDisplayChange method [DirectShow], OnDisplayChange method [DirectShow],IOverlayNotify2 interface, dshow.ioverlaynotify2_ondisplaychange, strmif/IOverlayNotify2::OnDisplayChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IOverlayNotify2.OnDisplayChange
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IOverlayNotify2::OnDisplayChange

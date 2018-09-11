@@ -4,17 +4,16 @@ title: "_SECPKG_SUPPLEMENTAL_CRED_ARRAY"
 author: windows-sdk-content
 description: The SECPKG_SUPPLEMENTAL_CRED_ARRAY structure contains supplemental credentials information. This structure is used by the LsaApLogonUserEx2 and UpdateCredentials functions.
 old-location: security\secpkg_supplemental_cred_array.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: b9514e26-29a5-4ba8-a375-1723c0a1ce39
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSECPKG_SUPPLEMENTAL_CRED_ARRAY, PSECPKG_SUPPLEMENTAL_CRED_ARRAY, PSECPKG_SUPPLEMENTAL_CRED_ARRAY structure pointer [Security], SECPKG_SUPPLEMENTAL_CRED_ARRAY, SECPKG_SUPPLEMENTAL_CRED_ARRAY structure [Security], _SECPKG_SUPPLEMENTAL_CRED_ARRAY, _ssp_secpkg_supplemental_cred_array, ntsecpkg/PSECPKG_SUPPLEMENTAL_CRED_ARRAY, ntsecpkg/SECPKG_SUPPLEMENTAL_CRED_ARRAY, security.secpkg_supplemental_cred_array"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_SUPPLEMENTAL_CRED_ARRAY, *PSECPKG_SUPPLEMENTAL_CRED_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_SUPPLEMENTAL_CRED_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_SUPPLEMENTAL_CRED_ARRAY, *PSECPKG_SUPPLEMENTAL_CRED_ARRAY
+req.redist: 
 ---
 
 # _SECPKG_SUPPLEMENTAL_CRED_ARRAY structure

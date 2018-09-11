@@ -4,17 +4,16 @@ title: "_NTMS_DRIVETYPEINFORMATIONA"
 author: windows-sdk-content
 description: The NTMS_DRIVETYPEINFORMATION structure defines the properties specific to a type of drive supported by RSM.
 old-location: fs\ntms_drivetypeinformation.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 2c852397-540c-44f9-a94e-2100d1588d75
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: FILE_DEVICE_CD_ROM, FILE_DEVICE_DISK, FILE_DEVICE_DVD, FILE_DEVICE_TAPE, NTMS_DRIVETYPEINFORMATION, NTMS_DRIVETYPEINFORMATION structure [Files], NTMS_DRIVETYPEINFORMATIONA, _NTMS_DRIVETYPEINFORMATIONA, _NTMS_DRIVETYPEINFORMATIONW, _zaw_ntms_drivetypeinformation, base.ntms_drivetypeinformation, fs.ntms_drivetypeinformation, ntmsapi/NTMS_DRIVETYPEINFORMATION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTMS_DRIVETYPEINFORMATIONA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTMS_DRIVETYPEINFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: NTMS_DRIVETYPEINFORMATIONA
+req.redist: 
 ---
 
 # _NTMS_DRIVETYPEINFORMATIONA structure

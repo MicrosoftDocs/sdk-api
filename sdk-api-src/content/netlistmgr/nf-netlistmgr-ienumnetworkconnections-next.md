@@ -4,17 +4,16 @@ title: IEnumNetworkConnections::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: nla\ienumnetworkconnections_next.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 1c5b35f2-b738-4d23-b90f-87cb559877b5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumNetworkConnections interface [Network Awareness],Next method, IEnumNetworkConnections.Next, IEnumNetworkConnections::Next, Next, Next method [Network Awareness], Next method [Network Awareness],IEnumNetworkConnections interface, netlistmgr/IEnumNetworkConnections::Next, nla.ienumnetworkconnections_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumNetworkConnections.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumNetworkConnections::Next

@@ -4,17 +4,16 @@ title: ISelectionProvider2::get_CurrentSelectedItem
 author: windows-sdk-content
 description: Gets the currently selected item.
 old-location: winauto\uiauto_ISelectionProvider2_CurrentSelectedItem.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 57742C23-0A71-4199-B4B7-E4D841D9AAEB
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentSelectedItem property [Windows Accessibility], CurrentSelectedItem property [Windows Accessibility],ISelectionProvider2 interface, ISelectionProvider2 interface [Windows Accessibility],CurrentSelectedItem property, ISelectionProvider2.CurrentSelectedItem, ISelectionProvider2.get_CurrentSelectedItem, ISelectionProvider2::CurrentSelectedItem, ISelectionProvider2::get_CurrentSelectedItem, get_CurrentSelectedItem, uiautomationcore/ISelectionProvider2::CurrentSelectedItem, uiautomationcore/ISelectionProvider2::get_CurrentSelectedItem, winauto.uiauto_ISelectionProvider2_CurrentSelectedItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISelectionProvider2.get_CurrentSelectedItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISelectionProvider2::get_CurrentSelectedItem

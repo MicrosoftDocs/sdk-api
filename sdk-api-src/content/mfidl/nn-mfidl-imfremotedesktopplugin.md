@@ -4,7 +4,7 @@ title: IMFRemoteDesktopPlugin
 author: windows-sdk-content
 description: Modifies a topology for use in a Terminal Services environment.
 old-location: mf\imfremotedesktopplugin.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 75bb9bf8-12a7-430f-9943-18623aff9903
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFRemoteDesktopPlugin
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFRemoteDesktopPlugin interface

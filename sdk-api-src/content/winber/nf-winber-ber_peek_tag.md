@@ -4,17 +4,16 @@ title: ber_peek_tag function
 author: windows-sdk-content
 description: Returns the tag of the next element to be parsed in the supplied BerElement structure.
 old-location: ldap\ber_peek_tag.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 0c6f24fa-47df-401c-afe8-84bf2987dd36
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ber_peek_tag, ber_peek_tag, ber_peek_tag function [LDAP], ldap.ber__peek__tag, ldap.ber_peek_tag, winber/ber_peek_tag"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winber.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ber_peek_tag
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ber_peek_tag function

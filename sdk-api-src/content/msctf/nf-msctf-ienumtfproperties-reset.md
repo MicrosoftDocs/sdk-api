@@ -4,17 +4,16 @@ title: IEnumTfProperties::Reset
 author: windows-sdk-content
 description: IEnumTfProperties::Reset method
 old-location: tsf\ienumtfproperties_reset.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 74e9897e-47af-4a48-b6df-a93867ea2909
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumTfProperties interface [Text Services Framework],Reset method, IEnumTfProperties.Reset, IEnumTfProperties::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfProperties interface, _tsf_ienumtfproperties_reset_ref, msctf/IEnumTfProperties::Reset, tsf.ienumtfproperties_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumTfProperties.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IEnumTfProperties::Reset

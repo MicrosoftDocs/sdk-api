@@ -4,17 +4,16 @@ title: DrawDibClose function
 author: windows-sdk-content
 description: The DrawDibClose function closes a DrawDib DC and frees the resources DrawDib allocated for it.
 old-location: multimedia\drawdibclose.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 61f9784e-4992-43d2-9770-17c3a8e5078b
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: DrawDibClose, DrawDibClose function [Windows Multimedia], _win32_DrawDibClose, multimedia.drawdibclose, vfw/DrawDibClose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Msvfw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrawDibClose
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Msvfw32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # DrawDibClose function

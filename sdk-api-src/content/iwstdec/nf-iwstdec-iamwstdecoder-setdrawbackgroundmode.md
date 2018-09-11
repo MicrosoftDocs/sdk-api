@@ -4,17 +4,16 @@ title: IAMWstDecoder::SetDrawBackgroundMode
 author: windows-sdk-content
 description: Downstream filters use the SetDrawBackgroundMode method to assign whether the caption text background is to be opaque or transparent.
 old-location: dshow\iamwstdecoder_setdrawbackgroundmode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d237d3dc-b3c9-44b2-9277-798c4830b361
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetDrawBackgroundMode method, IAMWstDecoder.SetDrawBackgroundMode, IAMWstDecoder::SetDrawBackgroundMode, IAMWstDecoderSetDrawBackgroundMode, SetDrawBackgroundMode, SetDrawBackgroundMode method [DirectShow], SetDrawBackgroundMode method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setdrawbackgroundmode, iwstdec/IAMWstDecoder::SetDrawBackgroundMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_WST_STYLE, *PAM_WST_STYLE
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMWstDecoder.SetDrawBackgroundMode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMWstDecoder::SetDrawBackgroundMode

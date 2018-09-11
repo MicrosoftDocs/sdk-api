@@ -4,17 +4,16 @@ title: CLUS_NETNAME_PWD_INFO
 author: windows-sdk-content
 description: Provides information for resetting the security principal associated with a computer name.
 old-location: mscs\clus_netname_pwd_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 365959c8-63e7-477b-b772-85a0afdaa6f6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUS_NETNAME_PWD_INFO, *PCLUS_RLUA_PWD_INFO, CLUS_NETNAME_PWD_INFO, CLUS_NETNAME_PWD_INFO structure [Failover Cluster], CLUS_RLUA_PWD_INFO, CLUS_RLUA_PWD_INFO structure [Failover Cluster], PCLUS_NETNAME_PWD_INFO, PCLUS_NETNAME_PWD_INFO structure pointer [Failover Cluster], PCLUS_RLUA_PWD_INFO, PCLUS_RLUA_PWD_INFO structure pointer [Failover Cluster], clusapi/CLUS_NETNAME_PWD_INFO, clusapi/CLUS_RLUA_PWD_INFO, clusapi/PCLUS_NETNAME_PWD_INFO, clusapi/PCLUS_RLUA_PWD_INFO, mscs.clus_netname_pwd_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_NETNAME_PWD_INFO, *PCLUS_NETNAME_PWD_INFO, CLUS_RLUA_PWD_INFO, *PCLUS_RLUA_PWD_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_NETNAME_PWD_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_NETNAME_PWD_INFO, *PCLUS_NETNAME_PWD_INFO, CLUS_RLUA_PWD_INFO, *PCLUS_RLUA_PWD_INFO
+req.redist: 
 ---
 
 # CLUS_NETNAME_PWD_INFO structure

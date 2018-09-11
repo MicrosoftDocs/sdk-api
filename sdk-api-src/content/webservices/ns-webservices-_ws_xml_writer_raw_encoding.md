@@ -4,17 +4,16 @@ title: "_WS_XML_WRITER_RAW_ENCODING"
 author: windows-sdk-content
 description: Used to indicate that the writer should emit bytes from decoded base64 characters.
 old-location: wsw\ws_xml_writer_raw_encoding.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 655a7d13-8ef1-4863-a6a2-4636ba0a8983
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_WRITER_RAW_ENCODING, WS_XML_WRITER_RAW_ENCODING structure [Web Services for Windows], _WS_XML_WRITER_RAW_ENCODING, webservices/WS_XML_WRITER_RAW_ENCODING, wsw.ws_xml_writer_raw_encoding
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_WRITER_RAW_ENCODING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_WRITER_RAW_ENCODING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_WRITER_RAW_ENCODING
+req.redist: 
 ---
 
 # _WS_XML_WRITER_RAW_ENCODING structure

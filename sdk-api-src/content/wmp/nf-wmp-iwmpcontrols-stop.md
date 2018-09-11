@@ -4,17 +4,16 @@ title: IWMPControls::stop
 author: windows-sdk-content
 description: The stop method stops playback of the media item.
 old-location: wmp\iwmpcontrols_stop.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 97ab009d-5ad9-4049-a212-1ef95941f951
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPControls interface [Windows Media Player],stop method, IWMPControls.stop, IWMPControls::stop, IWMPControlsstop, stop, stop method [Windows Media Player], stop method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_stop, wmp/IWMPControls::stop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPControls.stop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPControls::stop

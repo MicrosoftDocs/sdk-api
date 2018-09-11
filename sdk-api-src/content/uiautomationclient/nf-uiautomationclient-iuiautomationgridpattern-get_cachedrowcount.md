@@ -4,17 +4,16 @@ title: IUIAutomationGridPattern::get_CachedRowCount
 author: windows-sdk-content
 description: Retrieves the cached number of rows in the grid.
 old-location: winauto\uiauto_IUIAutomationGridPattern_CachedRowCount.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 783e48e4-c554-4bc9-bf36-3fcc35d00d22
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedRowCount property [Windows Accessibility], CachedRowCount property [Windows Accessibility],IUIAutomationGridPattern interface, IUIAutomationGridPattern interface [Windows Accessibility],CachedRowCount property, IUIAutomationGridPattern.CachedRowCount, IUIAutomationGridPattern.get_CachedRowCount, IUIAutomationGridPattern::CachedRowCount, IUIAutomationGridPattern::get_CachedRowCount, get_CachedRowCount, uiauto.uiauto_IUIAutomationGridPattern_CachedRowCount, uiauto_IUIAutomationGridPattern_CachedRowCount, uiautomationclient/IUIAutomationGridPattern::CachedRowCount, uiautomationclient/IUIAutomationGridPattern::get_CachedRowCount, winauto.uiauto_IUIAutomationGridPattern_CachedRowCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationGridPattern.get_CachedRowCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationGridPattern::get_CachedRowCount

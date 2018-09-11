@@ -4,7 +4,7 @@ title: "_OPM_GET_CODEC_INFO_INFORMATION"
 author: windows-sdk-content
 description: Contains the result from an OPM_GET_CODEC_INFO query.
 old-location: mf\opm_get_codec_info_information.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 20865210-7f0f-4310-879e-9d1fe97f5df2
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ksopmapi.h
 req.include-header: Opmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_GET_CODEC_INFO_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPM_GET_CODEC_INFO_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: OPM_GET_CODEC_INFO_INFORMATION
+req.redist: 
 ---
 
 # _OPM_GET_CODEC_INFO_INFORMATION structure

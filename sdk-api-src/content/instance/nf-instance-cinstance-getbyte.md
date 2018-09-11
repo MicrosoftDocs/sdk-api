@@ -4,17 +4,16 @@ title: CInstance::GetByte
 author: windows-sdk-content
 description: The GetByte method retrieves a BYTE-compatible property.
 old-location: wmi\cinstance_getbyte.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: a84b2de4-453d-4f69-8bac-df361180bc10
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetByte method, CInstance.GetByte, CInstance::GetByte, GetByte, GetByte method [Windows Management Instrumentation], GetByte method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getbyte, instance/CInstance::GetByte, wmi.cinstance_getbyte
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CInstance.GetByte
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::GetByte

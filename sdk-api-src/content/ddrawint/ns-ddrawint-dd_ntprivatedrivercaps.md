@@ -4,7 +4,7 @@ title: DD_NTPRIVATEDRIVERCAPS
 author: windows-sdk-content
 description: The DD_NTPRIVATEDRIVERCAPS structure enables the driver to change the behavior of Microsoft DirectDraw when DirectDraw is creating surfaces.
 old-location: display\dd_ntprivatedrivercaps.htm
-old-project: display
+tech.root: display
 ms.assetid: d802b080-cf94-400a-96c4-e765008dfc8a
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DD_NTPRIVATEDRIVERCAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_NTPRIVATEDRIVERCAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DD_NTPRIVATEDRIVERCAPS
+req.redist: 
 ---
 
 # DD_NTPRIVATEDRIVERCAPS structure

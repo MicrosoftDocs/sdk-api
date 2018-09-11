@@ -4,17 +4,16 @@ title: ITuneRequestInfo::GetComponentData
 author: windows-sdk-content
 description: The GetComponentData method fills in all network-specific component data for the existing Components collection on the specified tune request.
 old-location: mstv\itunerequestinfo_getcomponentdata.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 769d112e-4df7-451c-ac12-440b16c33e88
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetComponentData, GetComponentData method [Microsoft TV Technologies], GetComponentData method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetComponentData method, ITuneRequestInfo.GetComponentData, ITuneRequestInfo::GetComponentData, ITuneRequestInfoGetComponentData, bdatif/ITuneRequestInfo::GetComponentData, mstv.itunerequestinfo_getcomponentdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITuneRequestInfo.GetComponentData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITuneRequestInfo::GetComponentData
@@ -64,7 +63,7 @@ The <b>GetComponentData</b> method fills in all network-specific component data 
 
 ### -param CurrentRequest
 
-
+TBD
 
 
 

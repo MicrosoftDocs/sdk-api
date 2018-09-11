@@ -4,7 +4,7 @@ title: D2D1_DISCRETETRANSFER_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Discrete transfer effect.
 old-location: direct2d\d2d1_discretetransfer_prop.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: F00C9CF5-7103-450B-A211-02BB49A88EF8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_DISCRETETRANSFER_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_DISCRETETRANSFER_PROP
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_DISCRETETRANSFER_PROP
+req.redist: 
 ---
 
 # D2D1_DISCRETETRANSFER_PROP enumeration

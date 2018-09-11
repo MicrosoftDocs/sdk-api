@@ -4,17 +4,16 @@ title: IJolietDiscMaster::GetJolietProperties
 author: windows-sdk-content
 description: Retrieves a pointer to an IPropertyStorage interface that contains the Joliet properties.
 old-location: imapi\ijolietdiscmaster_getjolietproperties.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 660657b3-b378-4c16-9294-89309e4da569
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetJolietProperties, GetJolietProperties method [IMAPI], GetJolietProperties method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],GetJolietProperties method, IJolietDiscMaster.GetJolietProperties, IJolietDiscMaster::GetJolietProperties, _win32_ijolietdiscmaster_getjolietproperties, base.ijolietdiscmaster_getjolietproperties, imapi.ijolietdiscmaster_getjolietproperties, imapi/IJolietDiscMaster::GetJolietProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IJolietDiscMaster.GetJolietProperties
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IJolietDiscMaster::GetJolietProperties

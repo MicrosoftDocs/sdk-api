@@ -4,7 +4,7 @@ title: IAnalogRadioTuningSpace2
 author: windows-sdk-content
 description: This topic applies to Windows XP Media Center Edition 2004 and later.
 old-location: mstv\ianalogradiotuningspace2.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 66e631cb-2ae8-40b0-8ec8-3a02764284bf
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnalogRadioTuningSpace2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAnalogRadioTuningSpace2 interface

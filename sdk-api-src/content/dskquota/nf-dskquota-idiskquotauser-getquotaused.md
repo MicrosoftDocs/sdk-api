@@ -4,17 +4,16 @@ title: IDiskQuotaUser::GetQuotaUsed
 author: windows-sdk-content
 description: Retrieves the user's quota used value on the volume.
 old-location: fs\idiskquotauser_getquotaused.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 3787648e-7788-4d09-a236-fe28a693a8ff
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetQuotaUsed, GetQuotaUsed method [Files], GetQuotaUsed method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaUsed method, IDiskQuotaUser.GetQuotaUsed, IDiskQuotaUser::GetQuotaUsed, _win32_idiskquotauser_getquotaused, base.idiskquotauser_getquotaused, dskquota/IDiskQuotaUser::GetQuotaUsed, fs.idiskquotauser_getquotaused
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaUser.GetQuotaUsed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaUser::GetQuotaUsed

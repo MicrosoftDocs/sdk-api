@@ -4,17 +4,16 @@ title: DevicePowerSetDeviceState function
 author: windows-sdk-content
 description: Modifies the specified data on the specified device.
 old-location: base\devicepowersetdevicestate.htm
-old-project: power
+tech.root: power
 ms.assetid: 300842ae-d7d4-42c2-959c-e1713f466d32
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DEVICEPOWER_CLEAR_WAKEENABLED, DEVICEPOWER_SET_WAKEENABLED, DevicePowerSetDeviceState, DevicePowerSetDeviceState function, base.devicepowersetdevicestate, powrprof/DevicePowerSetDeviceState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DevicePowerSetDeviceState
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DevicePowerSetDeviceState function

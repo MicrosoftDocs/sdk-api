@@ -4,7 +4,7 @@ title: UILANGUAGE_ENUMPROCA
 author: windows-sdk-content
 description: An application-defined callback function that processes enumerated user interface language information provided by the EnumUILanguages function.
 old-location: intl\enumuilanguagesproc.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 5890bde9-7089-4440-a9cf-04b502183770
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNIVERSAL_NAME_INFOW, *LPUNIVERSAL_NAME_INFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - EnumUILanguagesA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # UILANGUAGE_ENUMPROCA callback function

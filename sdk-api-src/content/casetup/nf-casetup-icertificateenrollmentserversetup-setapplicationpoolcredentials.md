@@ -4,17 +4,16 @@ title: ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials
 author: windows-sdk-content
 description: Specifies user account information for the application pool in which the Certificate Enrollment Web Service (CES) runs.
 old-location: security\icertificateenrollmentserversetup_setapplicationpoolcredentials.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: E85DA115-C705-44B8-B4D4-E862634CDC41
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],SetApplicationPoolCredentials method, ICertificateEnrollmentServerSetup.SetApplicationPoolCredentials, ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials, SetApplicationPoolCredentials, SetApplicationPoolCredentials method [Security], SetApplicationPoolCredentials method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials, security.icertificateenrollmentserversetup_setapplicationpoolcredentials
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertificateEnrollmentServerSetup.SetApplicationPoolCredentials
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials

@@ -4,17 +4,16 @@ title: GetIntegratedDisplaySize function
 author: windows-sdk-content
 description: Retrieves the best estimate of the diagonal size of the built-in screen, in inches.
 old-location: base\getintegrateddisplaysize.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: EA155FCF-3245-498B-BEC8-742DE38DE258
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetIntegratedDisplaySize, GetIntegratedDisplaySize function, base.getintegrateddisplaysize, sysinfoapi/GetIntegratedDisplaySize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPUTER_NAME_FORMAT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetIntegratedDisplaySize
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # GetIntegratedDisplaySize function

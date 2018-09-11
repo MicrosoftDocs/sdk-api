@@ -4,17 +4,16 @@ title: IMILBitmapEffectPrimitive::HasAffineTransform
 author: windows-sdk-content
 description: Determines whether the effect has an affine transform.
 old-location: wibe\_wibe_imilbitmapeffectprimitive_hasaffinetransform.htm
-old-project: wibe
+tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\hasaffinetransform.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: HasAffineTransform, HasAffineTransform method [WPF Bitmap Effects], HasAffineTransform method [WPF Bitmap Effects],IMILBitmapEffectPrimitive interface, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],HasAffineTransform method, IMILBitmapEffectPrimitive.HasAffineTransform, IMILBitmapEffectPrimitive::HasAffineTransform, _wibe_imilbitmapeffectprimitive_hasaffinetransform, mileffects/IMILBitmapEffectPrimitive::HasAffineTransform, wibe._wibe_imilbitmapeffectprimitive_hasaffinetransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 
-req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMILBitmapEffectPrimitive.HasAffineTransform
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Microsoft .Net 3.0
 ---
 
 # IMILBitmapEffectPrimitive::HasAffineTransform

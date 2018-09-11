@@ -4,17 +4,16 @@ title: ITBasicCallControl2::UnselectTerminalOnCall
 author: windows-sdk-content
 description: The UnselectTerminalOnCall method unselects a terminal from the call.
 old-location: tapi3\itbasiccallcontrol2_unselectterminaloncall.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 93795757-58b6-4eb5-9d0c-f7c0a3bb9695
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITBasicCallControl2 interface [TAPI 2.2],UnselectTerminalOnCall method, ITBasicCallControl2.UnselectTerminalOnCall, ITBasicCallControl2::UnselectTerminalOnCall, UnselectTerminalOnCall, UnselectTerminalOnCall method [TAPI 2.2], UnselectTerminalOnCall method [TAPI 2.2],ITBasicCallControl2 interface, _tapi3_itbasiccallcontrol2_unselectterminaloncall, tapi3.itbasiccallcontrol2_unselectterminaloncall, tapi3if/ITBasicCallControl2::UnselectTerminalOnCall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITBasicCallControl2.UnselectTerminalOnCall
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITBasicCallControl2::UnselectTerminalOnCall

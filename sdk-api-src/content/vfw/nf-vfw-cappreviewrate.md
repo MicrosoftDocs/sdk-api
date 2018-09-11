@@ -4,17 +4,16 @@ title: capPreviewRate macro
 author: windows-sdk-content
 description: The capPreviewRate macro sets the frame display rate in preview mode. You can use this macro or explicitly call the WM_CAP_SET_PREVIEWRATE message.
 old-location: multimedia\cappreviewrate.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 72d885cb-5a48-4403-a668-c3c437405317
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_capPreviewRate, capPreviewRate, capPreviewRate macro [Windows Multimedia], multimedia.cappreviewrate, vfw/capPreviewRate"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capPreviewRate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # capPreviewRate macro

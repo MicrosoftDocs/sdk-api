@@ -4,17 +4,16 @@ title: IConfigurationDataCollector::get_FileMaxTotalSize
 author: windows-sdk-content
 description: Retrieves or sets the maximum total file size of all files combined that you can collect.
 old-location: pla\iconfigurationdatacollector_filemaxtotalsize.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: bcfe2b95-770d-4543-8f79-c5f1b55c5dec
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: FileMaxTotalSize property [PLA], FileMaxTotalSize property [PLA],IConfigurationDataCollector interface, IConfigurationDataCollector interface [PLA],FileMaxTotalSize property, IConfigurationDataCollector.FileMaxTotalSize, IConfigurationDataCollector.get_FileMaxTotalSize, IConfigurationDataCollector::FileMaxTotalSize, IConfigurationDataCollector::get_FileMaxTotalSize, IConfigurationDataCollector::put_FileMaxTotalSize, base.iconfigurationdatacollector_filemaxtotalsize, get_FileMaxTotalSize, pla.iconfigurationdatacollector_filemaxtotalsize, pla/IConfigurationDataCollector::FileMaxTotalSize, pla/IConfigurationDataCollector::get_FileMaxTotalSize, pla/IConfigurationDataCollector::put_FileMaxTotalSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IConfigurationDataCollector.put_FileMaxTotalSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IConfigurationDataCollector::get_FileMaxTotalSize

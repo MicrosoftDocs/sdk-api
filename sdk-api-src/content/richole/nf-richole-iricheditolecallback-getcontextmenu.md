@@ -4,17 +4,16 @@ title: IRichEditOleCallback::GetContextMenu
 author: windows-sdk-content
 description: Queries the application for a context menu to use on a right-click event.
 old-location: controls\IRichEditOleCallback_GetContextMenu.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetcontextmenu.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GCM_RIGHTMOUSEDROP, GetContextMenu, GetContextMenu method [Windows Controls], GetContextMenu method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetContextMenu method, IRichEditOleCallback.GetContextMenu, IRichEditOleCallback::GetContextMenu, SEL_EMPTY, SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _win32_IRichEditOleCallback_GetContextMenu, _win32_IRichEditOleCallback_GetContextMenu_cpp, controls.IRichEditOleCallback_GetContextMenu, controls._win32_IRichEditOleCallback_GetContextMenu, richole/IRichEditOleCallback::GetContextMenu
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEXTRANGEW
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRichEditOleCallback.GetContextMenu
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRichEditOleCallback::GetContextMenu

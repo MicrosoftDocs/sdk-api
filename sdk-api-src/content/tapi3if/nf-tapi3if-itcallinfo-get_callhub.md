@@ -4,17 +4,16 @@ title: ITCallInfo::get_CallHub
 author: windows-sdk-content
 description: The get_CallHub method gets a pointer to the ITCallHub interface of the CallHub object.
 old-location: tapi3\itcallinfo_get_callhub.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: ae7d74f7-c69b-45d1-a049-59e581856f27
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_CallHub method, ITCallInfo.get_CallHub, ITCallInfo::get_CallHub, _tapi3_itcallinfo_get_callhub, get_CallHub, get_CallHub method [TAPI 2.2], get_CallHub method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_callhub, tapi3if/ITCallInfo::get_CallHub
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallInfo.get_CallHub
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallInfo::get_CallHub

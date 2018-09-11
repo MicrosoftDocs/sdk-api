@@ -4,17 +4,16 @@ title: DXGI_OVERLAY_SUPPORT_FLAG
 author: windows-sdk-content
 description: Specifies overlay support to check for in a call to IDXGIOutput3::CheckOverlaySupport.
 old-location: direct3ddxgi\dxgi_overlay_support_flag.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: D2657A18-1F95-485A-A76E-381413CEB7B8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: DXGI_OVERLAY_SUPPORT_FLAG, DXGI_OVERLAY_SUPPORT_FLAG enumeration [DXGI], DXGI_OVERLAY_SUPPORT_FLAG_DIRECT, DXGI_OVERLAY_SUPPORT_FLAG_SCALING, direct3ddxgi.dxgi_overlay_support_flag, dxgi1_3/DXGI_OVERLAY_SUPPORT_FLAG, dxgi1_3/DXGI_OVERLAY_SUPPORT_FLAG_DIRECT, dxgi1_3/DXGI_OVERLAY_SUPPORT_FLAG_SCALING
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_OVERLAY_SUPPORT_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+req.redist: 
 ---
 
 # DXGI_OVERLAY_SUPPORT_FLAG enumeration

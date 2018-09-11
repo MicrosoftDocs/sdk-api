@@ -4,17 +4,16 @@ title: IDirect3DDevice9::SetLight
 author: windows-sdk-content
 description: Assigns a set of lighting properties for this device.
 old-location: direct3d9\idirect3ddevice9__setlight.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setlight.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 01be5e3b-cd10-6899-0e92-5f0874741380, IDirect3DDevice9 interface [Direct3D 9],SetLight method, IDirect3DDevice9.SetLight, IDirect3DDevice9::SetLight, SetLight, SetLight method [Direct3D 9], SetLight method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetLight, direct3d9.idirect3ddevice9__setlight
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DDevice9.SetLight
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9::SetLight
@@ -67,9 +66,9 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Zero-based index of the set of lighting properties to set. If a set of lighting properties exists at this index, it is overwritten by the new properties specified in pLight. 
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 

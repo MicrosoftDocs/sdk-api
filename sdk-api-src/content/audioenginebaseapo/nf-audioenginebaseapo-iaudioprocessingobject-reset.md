@@ -4,17 +4,16 @@ title: IAudioProcessingObject::Reset
 author: windows-sdk-content
 description: The Reset method resets the APO to its original state. This method does not cause any changes in the connection objects that are attached to the input or the output of the APO.
 old-location: audio\iaudioprocessingobject_reset.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 9d8c13cb-012e-4b5e-a1fd-1c2e5b9200b8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IAudioProcessingObject interface [Audio Devices],Reset method, IAudioProcessingObject.Reset, IAudioProcessingObject::Reset, Reset, Reset method [Audio Devices], Reset method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_reset, audio_syseffects_r_1df1a787-30e1-4eda-adde-a0b4a813ac9b.xml, audioenginebaseapo/IAudioProcessingObject::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available with Windows Vista and later versions of the Windows operating system.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APO_FLAG
+req.lib: Audioenginebaseapo.idl
+req.dll: 
+req.irql: All levels
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAudioProcessingObject.Reset
 product: Windows
 targetos: Windows
-req.lib: Audioenginebaseapo.idl
-req.dll: 
-req.irql: All levels
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioProcessingObject::Reset

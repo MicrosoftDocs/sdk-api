@@ -4,17 +4,16 @@ title: IFileDialogCustomize::SetControlItemState
 author: windows-sdk-content
 description: Sets the current state of an item in a container control found in the dialog.
 old-location: shell\IFileDialogCustomize_SetControlItemState.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2570b717-b886-4139-837b-5d71ec16c21e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetControlItemState method, IFileDialogCustomize.SetControlItemState, IFileDialogCustomize::SetControlItemState, SetControlItemState, SetControlItemState method [Windows Shell], SetControlItemState method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetControlItemState, shell_IFileDialogCustomize_SetControlItemState, shobjidl_core/IFileDialogCustomize::SetControlItemState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialogCustomize.SetControlItemState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialogCustomize::SetControlItemState

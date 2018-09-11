@@ -4,17 +4,16 @@ title: IDirect3DVertexDeclaration9::GetDeclaration
 author: windows-sdk-content
 description: Gets the vertex shader declaration.
 old-location: direct3d9\idirect3dvertexdeclaration9__getdeclaration.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexdeclaration9__getdeclaration.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetDeclaration, GetDeclaration method [Direct3D 9], GetDeclaration method [Direct3D 9],IDirect3DVertexDeclaration9 interface, IDirect3DVertexDeclaration9 interface [Direct3D 9],GetDeclaration method, IDirect3DVertexDeclaration9.GetDeclaration, IDirect3DVertexDeclaration9::GetDeclaration, bd1cb4cd-85cf-525d-1ac3-ebd3eb527b1a, d3d9helper/IDirect3DVertexDeclaration9::GetDeclaration, direct3d9.idirect3dvertexdeclaration9__getdeclaration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DVertexDeclaration9.GetDeclaration
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DVertexDeclaration9::GetDeclaration
@@ -62,7 +61,7 @@ Gets the vertex shader declaration.
 
 ### -param pElement
 
-
+TBD
 
 
 ### -param pNumElements [out]

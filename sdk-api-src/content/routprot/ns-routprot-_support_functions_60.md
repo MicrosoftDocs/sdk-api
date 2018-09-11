@@ -4,17 +4,16 @@ title: "_SUPPORT_FUNCTIONS_60"
 author: windows-sdk-content
 description: The SUPPORT_FUNCTIONS structure is used by the router manager to pass the routing protocol a set of pointers to functions provided by the router manager.
 old-location: rras\support_functions.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: c6e1e3a3-2c2a-40ef-965f-554263614bdf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSUPPORT_FUNCTIONS, PSUPPORT_FUNCTIONS, PSUPPORT_FUNCTIONS structure pointer [RAS], SUPPORT_FUNCTIONS, SUPPORT_FUNCTIONS structure [RAS], SUPPORT_FUNCTIONS_60, _SUPPORT_FUNCTIONS_60, _mpr_support_functions, routprot/PSUPPORT_FUNCTIONS, routprot/SUPPORT_FUNCTIONS, rras.support_functions"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: routprot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SUPPORT_FUNCTIONS_60
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SUPPORT_FUNCTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SUPPORT_FUNCTIONS_60
+req.redist: 
 ---
 
 # _SUPPORT_FUNCTIONS_60 structure

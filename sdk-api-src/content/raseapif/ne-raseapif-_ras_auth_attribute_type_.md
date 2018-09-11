@@ -4,7 +4,7 @@ title: "_RAS_AUTH_ATTRIBUTE_TYPE_"
 author: windows-sdk-content
 description: The RAS_AUTH_ATTRIBUTE_TYPE enumerated type specifies attribute values used for session authentication.
 old-location: eap\ras_auth_attribute_type.htm
-old-project: eap
+tech.root: eap
 ms.assetid: 0cb99318-2874-4945-ae32-cb5d90be9dee
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: raseapif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: RasPhonebookDlgW (Unicode) and RasPhonebookDlgA (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_AUTH_ATTRIBUTE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAS_AUTH_ATTRIBUTE_TYPE
 product: Windows
 targetos: Windows
-req.lib: Rasdlg.lib
-req.dll: Rasdlg.dll
-req.irql: 
-req.product: ADAM
+req.typenames: RAS_AUTH_ATTRIBUTE_TYPE
+req.redist: 
 ---
 
 # _RAS_AUTH_ATTRIBUTE_TYPE_ enumeration

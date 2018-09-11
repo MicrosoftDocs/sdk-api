@@ -4,17 +4,16 @@ title: IEnumTfCandidates::Next
 author: windows-sdk-content
 description: IEnumTfCandidates::Next method
 old-location: tsf\ienumtfcandidates_next.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 50aaa3c0-6998-49de-9753-7be38625a10d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumTfCandidates interface [Text Services Framework],Next method, IEnumTfCandidates.Next, IEnumTfCandidates::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_next_ref, ctffunc/IEnumTfCandidates::Next, tsf.ienumtfcandidates_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumTfCandidates.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IEnumTfCandidates::Next

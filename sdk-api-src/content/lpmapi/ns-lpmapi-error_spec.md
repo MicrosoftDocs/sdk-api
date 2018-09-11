@@ -4,17 +4,16 @@ title: ERROR_SPEC
 author: windows-sdk-content
 description: The ERROR_SPEC structure contains RSVP error messages.
 old-location: qos\error_spec.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 4d20cbb8-c29a-4c0c-bf06-532144da3e33
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ERROR_SPEC, ERROR_SPEC structure [QOS], lpmapi/ERROR_SPEC, qos.error_spec
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ERROR_SPEC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ERROR_SPEC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ERROR_SPEC
+req.redist: 
 ---
 
 # ERROR_SPEC structure

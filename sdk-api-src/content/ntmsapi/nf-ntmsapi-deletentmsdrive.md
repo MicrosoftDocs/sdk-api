@@ -4,17 +4,16 @@ title: DeleteNtmsDrive function
 author: windows-sdk-content
 description: The DeleteNtmsDrive function deletes a drive from the RSM database. The drive must have a dwOperationalState of NTMS_NOT_PRESENT.
 old-location: fs\deletentmsdrive.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 301900a1-9ccb-45ed-aba7-c398cda7d4a8
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: DeleteNtmsDrive, DeleteNtmsDrive function [Files], _zaw_deletentmsdrive, base.deletentmsdrive, fs.deletentmsdrive, ntmsapi/DeleteNtmsDrive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DeleteNtmsDrive
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DeleteNtmsDrive function

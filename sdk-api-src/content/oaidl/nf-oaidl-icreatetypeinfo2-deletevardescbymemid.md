@@ -4,17 +4,16 @@ title: ICreateTypeInfo2::DeleteVarDescByMemId
 author: windows-sdk-content
 description: Deletes the specified VARDESC structure.
 old-location: automat\icreatetypeinfo2_deletevardescbymemid.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 5b69dda9-01b5-45b2-ab92-65a29a2d1f21
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DeleteVarDescByMemId, DeleteVarDescByMemId method [Automation], DeleteVarDescByMemId method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteVarDescByMemId method, ICreateTypeInfo2.DeleteVarDescByMemId, ICreateTypeInfo2::DeleteVarDescByMemId, _oa96_ICreateTypeInfo2_DeleteVarDescByMemId, automat.icreatetypeinfo2_deletevardescbymemid, oaidl/ICreateTypeInfo2::DeleteVarDescByMemId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeInfo2.DeleteVarDescByMemId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeInfo2::DeleteVarDescByMemId

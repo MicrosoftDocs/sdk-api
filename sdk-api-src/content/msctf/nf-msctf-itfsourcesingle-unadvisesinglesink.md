@@ -4,17 +4,16 @@ title: ITfSourceSingle::UnadviseSingleSink
 author: windows-sdk-content
 description: ITfSourceSingle::UnadviseSingleSink method
 old-location: tsf\itfsourcesingle_unadvisesinglesink.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 1689dedb-c168-4a05-b598-517c87d9afbd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IID_ITfCleanupContextDurationSink, IID_ITfCleanupContextSink, IID_ITfFunctionProvider, ITfSourceSingle interface [Text Services Framework],UnadviseSingleSink method, ITfSourceSingle.UnadviseSingleSink, ITfSourceSingle::UnadviseSingleSink, UnadviseSingleSink, UnadviseSingleSink method [Text Services Framework], UnadviseSingleSink method [Text Services Framework],ITfSourceSingle interface, _tsf_itfsourcesingle_unadvisesinglesink_ref, msctf/ITfSourceSingle::UnadviseSingleSink, tsf.itfsourcesingle_unadvisesinglesink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfSourceSingle.UnadviseSingleSink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfSourceSingle::UnadviseSingleSink

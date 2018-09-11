@@ -4,17 +4,16 @@ title: StrCpyW function
 author: windows-sdk-content
 description: Copies one string to another.
 old-location: shell\StrCpy.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 83d1a8dc-fc43-4b06-b36c-c9c91d779d25
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StrCpy, StrCpy function [Windows Shell], StrCpyW, _win32_StrCpy, shell.StrCpy, shlwapi/StrCpy, shlwapi/StrCpyW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - StrCpyW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # StrCpyW function

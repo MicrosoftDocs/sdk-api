@@ -4,17 +4,16 @@ title: IUIAutomationElement2::get_CachedOptimizeForVisualContent
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the provider exposes only elements that are visible.
 old-location: winauto\uiauto_IUIAutomationElement_CachedOptimizeForVisualContent.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: FB1484D0-BF83-431B-A90B-B5F1757C4928
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedOptimizeForVisualContent property [Windows Accessibility], CachedOptimizeForVisualContent property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CachedOptimizeForVisualContent property, IUIAutomationElement2.CachedOptimizeForVisualContent, IUIAutomationElement2.get_CachedOptimizeForVisualContent, IUIAutomationElement2::CachedOptimizeForVisualContent, IUIAutomationElement2::get_CachedOptimizeForVisualContent, get_CachedOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::CachedOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::get_CachedOptimizeForVisualContent, winauto.uiauto_IUIAutomationElement_CachedOptimizeForVisualContent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement2.get_CachedOptimizeForVisualContent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement2::get_CachedOptimizeForVisualContent

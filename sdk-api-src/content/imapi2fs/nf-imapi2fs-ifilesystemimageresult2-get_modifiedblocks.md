@@ -4,17 +4,16 @@ title: IFileSystemImageResult2::get_ModifiedBlocks
 author: windows-sdk-content
 description: Retrieves the list of modified blocks in the result image.
 old-location: imapi\ifilesystemimageresult2_get_modifiedblocks.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 2148ba3f-f334-43cb-965a-37b078419e0c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFileSystemImageResult2 interface [IMAPI],get_ModifiedBlocks method, IFileSystemImageResult2.get_ModifiedBlocks, IFileSystemImageResult2::get_ModifiedBlocks, get_ModifiedBlocks, get_ModifiedBlocks method [IMAPI], get_ModifiedBlocks method [IMAPI],IFileSystemImageResult2 interface, imapi.ifilesystemimageresult2_get_modifiedblocks, imapi2fs/IFileSystemImageResult2::get_ModifiedBlocks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImageResult2.get_ModifiedBlocks
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImageResult2::get_ModifiedBlocks

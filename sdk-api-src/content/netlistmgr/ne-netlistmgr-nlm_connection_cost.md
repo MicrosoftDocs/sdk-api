@@ -4,7 +4,7 @@ title: NLM_CONNECTION_COST
 author: windows-sdk-content
 description: The NLM_CONNECTION_COST enumeration specifies a set of cost levels and cost flags supported in Windows 8 Cost APIs.
 old-location: nla\nlm_connection_cost.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 93541814-A1C3-4C24-BB99-CEE4895F34F8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_CONNECTION_COST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NLM_CONNECTION_COST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NLM_CONNECTION_COST
+req.redist: 
 ---
 
 # NLM_CONNECTION_COST enumeration

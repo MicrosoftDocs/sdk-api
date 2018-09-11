@@ -4,17 +4,16 @@ title: FileEncryptionStatusA function
 author: windows-sdk-content
 description: Retrieves the encryption status of the specified file.
 old-location: fs\fileencryptionstatus.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 96efe065-de62-4941-811d-610465cd7ef5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FILE_ENCRYPTABLE, FILE_IS_ENCRYPTED, FILE_READ_ONLY, FILE_ROOT_DIR, FILE_SYSTEM_ATTR, FILE_SYSTEM_DIR, FILE_SYSTEM_NOT_SUPPORT, FILE_UNKNOWN, FILE_USER_DISALLOWED, FileEncryptionStatus, FileEncryptionStatus function [Files], FileEncryptionStatusA, FileEncryptionStatusW, _win32_fileencryptionstatus, base.fileencryptionstatus, fs.fileencryptionstatus, winbase/FileEncryptionStatus, winbase/FileEncryptionStatusA, winbase/FileEncryptionStatusW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FileEncryptionStatusW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FileEncryptionStatusA function

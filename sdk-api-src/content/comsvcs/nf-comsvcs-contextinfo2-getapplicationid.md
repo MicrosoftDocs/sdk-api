@@ -4,17 +4,16 @@ title: ContextInfo2::GetApplicationId
 author: windows-sdk-content
 description: Retrieves the GUID of the application of the current object context.
 old-location: cos\contextinfo2_getapplicationid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 9fc5cffe-a532-4084-8b6c-9812a5b117b2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ContextInfo2 interface [COM+],GetApplicationId method, ContextInfo2.GetApplicationId, ContextInfo2::GetApplicationId, GetApplicationId, GetApplicationId method [COM+], GetApplicationId method [COM+],ContextInfo2 interface, _cos_ContextInfo2_GetApplicationId, comsvcs/ContextInfo2::GetApplicationId, cos.contextinfo2_getapplicationid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ContextInfo2.GetApplicationId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ContextInfo2::GetApplicationId
@@ -61,7 +60,7 @@ req.irql:
 
 ### -param __MIDL__ContextInfo20001
 
-
+TBD
 
 
 

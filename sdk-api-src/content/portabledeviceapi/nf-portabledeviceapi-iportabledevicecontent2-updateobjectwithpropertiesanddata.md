@@ -4,17 +4,16 @@ title: IPortableDeviceContent2::UpdateObjectWithPropertiesAndData
 author: windows-sdk-content
 description: Updates an object by using properties and data found on the device.
 old-location: wpdsdk\iportabledevicecontent2_updateobjectwithpropertiesanddata.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 43b8cf90-1c3f-43c2-a11f-cc4aef10bcf5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPortableDeviceContent2 interface [Windows Portable Devices SDK],UpdateObjectWithPropertiesAndData method, IPortableDeviceContent2.UpdateObjectWithPropertiesAndData, IPortableDeviceContent2::UpdateObjectWithPropertiesAndData, UpdateObjectWithPropertiesAndData, UpdateObjectWithPropertiesAndData method [Windows Portable Devices SDK], UpdateObjectWithPropertiesAndData method [Windows Portable Devices SDK],IPortableDeviceContent2 interface, portabledeviceapi/IPortableDeviceContent2::UpdateObjectWithPropertiesAndData, wpdsdk.iportabledevicecontent2_updateobjectwithpropertiesanddata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPortableDeviceContent2.UpdateObjectWithPropertiesAndData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceContent2::UpdateObjectWithPropertiesAndData

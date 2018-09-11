@@ -4,17 +4,16 @@ title: ITsSbProvisioningPluginNotifySink::OnJobCreated
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a provisioning job is created.
 old-location: termserv\itssbprovisioningpluginnotifysink_onjobcreated.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: daab9172-d984-4b47-9f64-59216513aff7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnJobCreated method, ITsSbProvisioningPluginNotifySink.OnJobCreated, ITsSbProvisioningPluginNotifySink::OnJobCreated, OnJobCreated, OnJobCreated method [Remote Desktop Services], OnJobCreated method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCreated, termserv.itssbprovisioningpluginnotifysink_onjobcreated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbProvisioningPluginNotifySink.OnJobCreated
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbProvisioningPluginNotifySink::OnJobCreated

@@ -4,17 +4,16 @@ title: VarNot function
 author: windows-sdk-content
 description: Performs the bitwise not negation operation on a variant.
 old-location: automat\varnot.htm
-old-project: automat
+tech.root: automat
 ms.assetid: e3825905-2a28-4283-bb65-0273572f3150
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarNot, VarNot function [Automation], _oa96_VarNot, automat.varnot, oleauto/VarNot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarNot
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarNot function

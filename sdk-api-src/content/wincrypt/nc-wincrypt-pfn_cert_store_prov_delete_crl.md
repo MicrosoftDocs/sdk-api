@@ -4,17 +4,16 @@ title: PFN_CERT_STORE_PROV_DELETE_CRL
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertDeleteCRLFromStore before deleting the CRL from the store.
 old-location: security\certstoreprovdeletecrlcallback.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: aa93cfaf-238f-4d77-a1cd-433a856ed133
 ms.author: windowssdkdev
-ms.date: 08/15/2018
-ms.keywords: CertStoreProvDeleteCRLCallback, CertStoreProvDeleteCRLCallback callback, CertStoreProvDeleteCRLCallback callback function [Security], PFN_CERT_STORE_PROV_DELETE_CRL, PFN_CERT_STORE_PROV_DELETE_CRL callback function [Security], _crypto2_certstoreprovdeletecrlcallback, security.certstoreprovdeletecrlcallback, wincrypt/CertStoreProvDeleteCRLCallback, wincrypt/PFN_CERT_STORE_PROV_DELETE_CRL
+ms.date: 08/29/2018
+ms.keywords: CertStoreProvDeleteCRLCallback, PFN_CERT_STORE_PROV_DELETE_CRL, PFN_CERT_STORE_PROV_DELETE_CRL callback, PFN_CERT_STORE_PROV_DELETE_CRL callback function [Security], _crypto2_certstoreprovdeletecrlcallback, security.certstoreprovdeletecrlcallback, wincrypt/PFN_CERT_STORE_PROV_DELETE_CRL
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,11 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - CertStoreProvDeleteCRLCallback
+ - PFN_CERT_STORE_PROV_DELETE_CRL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PFN_CERT_STORE_PROV_DELETE_CRL callback function

@@ -4,7 +4,7 @@ title: "_AMVP_SELECT_FORMAT_BY"
 author: windows-sdk-content
 description: Specifies the criteria that the Overlay Mixer Filter should use to select the video format.
 old-location: dshow\amvp_select_format_by.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 98f60199-630b-4759-a0fa-86292713a36d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vptype.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVP_SELECT_FORMAT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AMVP_SELECT_FORMAT_BY
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: AMVP_SELECT_FORMAT_BY
+req.redist: 
 ---
 
 # _AMVP_SELECT_FORMAT_BY enumeration

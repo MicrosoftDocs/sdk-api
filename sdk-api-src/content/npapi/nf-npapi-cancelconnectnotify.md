@@ -4,17 +4,16 @@ title: CancelConnectNotify function
 author: windows-sdk-content
 description: Calls CancelConnectNotify before and after each cancel connection operation (WNetCancelConnection and WNetCancelConnection2).
 old-location: security\cancelconnectnotify.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 94bd969d-f94d-449c-971d-d17fff2c07e1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CancelConnectNotify, CancelConnectNotify function [Security], _mnp_cancelconnectnotify, npapi/CancelConnectNotify, security.cancelconnectnotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFICATION_USER_INPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CancelConnectNotify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CancelConnectNotify function

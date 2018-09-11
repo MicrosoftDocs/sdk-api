@@ -4,7 +4,7 @@ title: DISPLAYCONFIG_DEVICE_INFO_TYPE
 author: windows-sdk-content
 description: The DISPLAYCONFIG_DEVICE_INFO_TYPE enumeration specifies the type of display device info to configure or obtain through the DisplayConfigSetDeviceInfo or DisplayConfigGetDeviceInfo function.
 old-location: display\displayconfig_device_info_type.htm
-old-project: display
+tech.root: display
 ms.assetid: 40cc67c0-1508-4b67-b297-5a8dabaabb16
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_DEVICE_INFO_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISPLAYCONFIG_DEVICE_INFO_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISPLAYCONFIG_DEVICE_INFO_TYPE
+req.redist: 
 ---
 
 # DISPLAYCONFIG_DEVICE_INFO_TYPE enumeration

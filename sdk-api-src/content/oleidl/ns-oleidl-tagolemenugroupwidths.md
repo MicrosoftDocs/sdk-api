@@ -4,17 +4,16 @@ title: tagOleMenuGroupWidths
 author: windows-sdk-content
 description: Indicates the number of menu items in each of the six menu groups of a menu shared between a container and an object server during an in-place editing session. This is the mechanism for building a shared menu.
 old-location: com\olemenugroupwidths.htm
-old-project: com
+tech.root: com
 ms.assetid: e6ad4ab7-0e53-4fad-8f2e-a0ff7b376815
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPOLEMENUGROUPWIDTHS, LPOLEMENUGROUPWIDTHS, LPOLEMENUGROUPWIDTHS structure pointer [COM], OLEMENUGROUPWIDTHS, OLEMENUGROUPWIDTHS structure [COM], _ole_OLEMENUGROUPWIDTHS, com.olemenugroupwidths, oleidl/LPOLEMENUGROUPWIDTHS, oleidl/OLEMENUGROUPWIDTHS, tagOleMenuGroupWidths"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: OleIdl.Idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEMENUGROUPWIDTHS, *LPOLEMENUGROUPWIDTHS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OLEMENUGROUPWIDTHS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OLEMENUGROUPWIDTHS, *LPOLEMENUGROUPWIDTHS
+req.redist: 
 ---
 
 # tagOleMenuGroupWidths structure

@@ -4,17 +4,16 @@ title: DWRITE_FONT_LINE_GAP_USAGE
 author: windows-sdk-content
 description: Specify whether DWRITE_FONT_METRICS::lineGap value should be part of the line metrics.
 old-location: directwrite\dwrite_font_line_gap_usage.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 43d38cca-429d-7ee5-e94c-fba542e19bb5
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_FONT_LINE_GAP_USAGE, DWRITE_FONT_LINE_GAP_USAGE enumeration [Direct Write], DWRITE_FONT_LINE_GAP_USAGE_DEFAULT, DWRITE_FONT_LINE_GAP_USAGE_DISABLED, DWRITE_FONT_LINE_GAP_USAGE_ENABLED, directwrite.dwrite_font_line_gap_usage, dwrite_3/DWRITE_FONT_LINE_GAP_USAGE, dwrite_3/DWRITE_FONT_LINE_GAP_USAGE_DEFAULT, dwrite_3/DWRITE_FONT_LINE_GAP_USAGE_DISABLED, dwrite_3/DWRITE_FONT_LINE_GAP_USAGE_ENABLED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_FONT_LINE_GAP_USAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_FONT_LINE_GAP_USAGE enumeration

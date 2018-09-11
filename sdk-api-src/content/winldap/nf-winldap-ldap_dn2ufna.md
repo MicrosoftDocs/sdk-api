@@ -4,17 +4,16 @@ title: ldap_dn2ufnA function
 author: windows-sdk-content
 description: Converts a distinguished name to a user-friendly format.
 old-location: ldap\ldap_dn2ufn.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 6c9c943f-304a-496c-bac4-283b6c717774
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_dn2ufn, ldap.ldap__dn2ufn, ldap.ldap_dn2ufn, ldap_dn2ufn, ldap_dn2ufn function [LDAP], ldap_dn2ufnA, ldap_dn2ufnW, winldap/ldap_dn2ufn, winldap/ldap_dn2ufnA, winldap/ldap_dn2ufnW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldap_dn2ufnW
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_dn2ufnA function

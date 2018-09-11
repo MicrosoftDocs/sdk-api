@@ -4,17 +4,16 @@ title: CreateIFELanguageInstance function
 author: windows-sdk-content
 description: Returns a pointer to an IFELanguage interface.
 old-location: intl\createifelanguageinstance.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: DF79C260-F43B-4580-B252-6D906C235CD4
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: CreateIFELanguageInstance, CreateIFELanguageInstance function [Internationalization for Windows Applications], intl.createifelanguageinstance, msime/CreateIFELanguageInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateIFELanguageInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CreateIFELanguageInstance function

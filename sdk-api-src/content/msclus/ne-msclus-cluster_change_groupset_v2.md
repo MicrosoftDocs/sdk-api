@@ -4,17 +4,16 @@ title: CLUSTER_CHANGE_GROUPSET_V2
 author: windows-sdk-content
 description: Defines the list of notifications that are generated for a groupset.
 old-location: mscs\cluster_change_collection_v2.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 5ad843d6-618b-4648-9c34-daf2f43adbec
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_CHANGE_GROUPSET_ALL_V2, CLUSTER_CHANGE_GROUPSET_COMMON_PROPERTY_V2, CLUSTER_CHANGE_GROUPSET_DELETED_v2, CLUSTER_CHANGE_GROUPSET_DEPENDENCIES_V2, CLUSTER_CHANGE_GROUPSET_DEPENDENTS_V2, CLUSTER_CHANGE_GROUPSET_GROUP_ADDED, CLUSTER_CHANGE_GROUPSET_GROUP_REMOVED, CLUSTER_CHANGE_GROUPSET_HANDLE_CLOSE_v2, CLUSTER_CHANGE_GROUPSET_PRIVATE_PROPERTY_V2, CLUSTER_CHANGE_GROUPSET_STATE_V2, CLUSTER_CHANGE_GROUPSET_V2, CLUSTER_CHANGE_GROUPSET_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_GROUPSET_ALL_V2, clusapi/CLUSTER_CHANGE_GROUPSET_COMMON_PROPERTY_V2, clusapi/CLUSTER_CHANGE_GROUPSET_DELETED_v2, clusapi/CLUSTER_CHANGE_GROUPSET_DEPENDENCIES_V2, clusapi/CLUSTER_CHANGE_GROUPSET_DEPENDENTS_V2, clusapi/CLUSTER_CHANGE_GROUPSET_GROUP_ADDED, clusapi/CLUSTER_CHANGE_GROUPSET_GROUP_REMOVED, clusapi/CLUSTER_CHANGE_GROUPSET_HANDLE_CLOSE_v2, clusapi/CLUSTER_CHANGE_GROUPSET_PRIVATE_PROPERTY_V2, clusapi/CLUSTER_CHANGE_GROUPSET_STATE_V2, clusapi/CLUSTER_CHANGE_GROUPSET_V2, msclus/CLUSTER_CHANGE_GROUPSET_ALL_V2, msclus/CLUSTER_CHANGE_GROUPSET_COMMON_PROPERTY_V2, msclus/CLUSTER_CHANGE_GROUPSET_DELETED_v2, msclus/CLUSTER_CHANGE_GROUPSET_DEPENDENCIES_V2, msclus/CLUSTER_CHANGE_GROUPSET_DEPENDENTS_V2, msclus/CLUSTER_CHANGE_GROUPSET_GROUP_ADDED, msclus/CLUSTER_CHANGE_GROUPSET_GROUP_REMOVED, msclus/CLUSTER_CHANGE_GROUPSET_HANDLE_CLOSE_v2, msclus/CLUSTER_CHANGE_GROUPSET_PRIVATE_PROPERTY_V2, msclus/CLUSTER_CHANGE_GROUPSET_STATE_V2, msclus/CLUSTER_CHANGE_GROUPSET_V2, mscs.cluster_change_collection_v2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_CHANGE_GROUPSET_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_CHANGE_GROUPSET_V2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_CHANGE_GROUPSET_V2
+req.redist: 
 ---
 
 # CLUSTER_CHANGE_GROUPSET_V2 enumeration

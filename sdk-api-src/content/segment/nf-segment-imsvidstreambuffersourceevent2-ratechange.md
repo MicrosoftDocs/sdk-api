@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSourceEvent2::RateChange
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersourceevent2_ratechange.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 5c3b9e5f-51ad-4a36-8181-bec4243499a5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSourceEvent2 interface [Microsoft TV Technologies],RateChange method, IMSVidStreamBufferSourceEvent2.RateChange, IMSVidStreamBufferSourceEvent2::RateChange, IMSVidStreamBufferSourceEvent2RateChange, RateChange, RateChange method [Microsoft TV Technologies], RateChange method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent2 interface, mstv.imsvidstreambuffersourceevent2_ratechange, segment/IMSVidStreamBufferSourceEvent2::RateChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSourceEvent2.RateChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSourceEvent2::RateChange

@@ -4,17 +4,16 @@ title: IBDA_FDC::GetTableSection
 author: windows-sdk-content
 description: Gets the latest table section.
 old-location: mstv\ibda_fdc_gettablesection.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 77c83234-c752-4f94-a3f1-cc62a5da894a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTableSection, GetTableSection method [Microsoft TV Technologies], GetTableSection method [Microsoft TV Technologies],IBDA_FDC interface, IBDA_FDC interface [Microsoft TV Technologies],GetTableSection method, IBDA_FDC.GetTableSection, IBDA_FDC::GetTableSection, bdaiface/IBDA_FDC::GetTableSection, mstv.ibda_fdc_gettablesection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_FDC.GetTableSection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_FDC::GetTableSection

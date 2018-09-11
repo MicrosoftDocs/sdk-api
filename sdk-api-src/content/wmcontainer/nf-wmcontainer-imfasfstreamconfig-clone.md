@@ -4,17 +4,16 @@ title: IMFASFStreamConfig::Clone
 author: windows-sdk-content
 description: Creates a copy of the Advanced Systems Format (ASF) stream configuration object.
 old-location: mf\imfasfstreamconfig_clone.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c87d658f-6569-464b-a9d0-487d44f76cc0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],Clone method, IMFASFStreamConfig.Clone, IMFASFStreamConfig::Clone, c87d658f-6569-464b-a9d0-487d44f76cc0, mf.imfasfstreamconfig_clone, wmcontainer/IMFASFStreamConfig::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFStreamConfig.Clone
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFStreamConfig::Clone

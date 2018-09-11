@@ -4,17 +4,16 @@ title: ITsSbResourcePluginStore::SetServerWaitingToStart
 author: windows-sdk-content
 description: Indicates to the session host that the server is waiting to start.
 old-location: termserv\itssbresourcepluginstore_setserverwaitingtostart.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: cf677be1-387b-4a63-902b-bacda8729b23
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetServerWaitingToStart method, ITsSbResourcePluginStore.SetServerWaitingToStart, ITsSbResourcePluginStore::SetServerWaitingToStart, SetServerWaitingToStart, SetServerWaitingToStart method [Remote Desktop Services], SetServerWaitingToStart method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetServerWaitingToStart, termserv.itssbresourcepluginstore_setserverwaitingtostart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbResourcePluginStore.SetServerWaitingToStart
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourcePluginStore::SetServerWaitingToStart

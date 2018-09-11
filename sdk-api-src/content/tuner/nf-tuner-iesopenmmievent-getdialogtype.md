@@ -4,17 +4,16 @@ title: IESOpenMmiEvent::GetDialogType
 author: windows-sdk-content
 description: The GetDialogType method gets the GUID representing the experience type of the dialog that is being opened.
 old-location: mstv\iesopenmmievent_getdialogtype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 93f3cd5e-7d8e-42b9-a688-3df22855e7fb
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDialogType, GetDialogType method [Microsoft TV Technologies], GetDialogType method [Microsoft TV Technologies],IESOpenMmiEvent interface, IESOpenMmiEvent interface [Microsoft TV Technologies],GetDialogType method, IESOpenMmiEvent.GetDialogType, IESOpenMmiEvent::GetDialogType, mstv.iesopenmmievent_getdialogtype, tuner/IESOpenMmiEvent::GetDialogType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IESOpenMmiEvent.GetDialogType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IESOpenMmiEvent::GetDialogType

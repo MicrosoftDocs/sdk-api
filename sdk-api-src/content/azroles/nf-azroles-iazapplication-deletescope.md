@@ -4,17 +4,16 @@ title: IAzApplication::DeleteScope
 author: windows-sdk-content
 description: Removes the IAzScope object with the specified name from the IAzApplication object.
 old-location: security\iazapplication_deletescope.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2a3c2e18-9264-496a-9bd3-ff9c529a2426
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzApplication object [Security],DeleteScope method, DeleteScope, DeleteScope method [Security], DeleteScope method [Security],AzApplication object, DeleteScope method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteScope method, IAzApplication.DeleteScope, IAzApplication::DeleteScope, azroles/IAzApplication::DeleteScope, security.iazapplication_deletescope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzApplication.DeleteScope
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::DeleteScope

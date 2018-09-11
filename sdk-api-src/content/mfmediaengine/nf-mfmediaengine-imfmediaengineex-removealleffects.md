@@ -4,17 +4,16 @@ title: IMFMediaEngineEx::RemoveAllEffects
 author: windows-sdk-content
 description: Removes all audio and video effects.
 old-location: mf\imfmediaengineex_removealleffects.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: B9EF1440-27DA-48C6-B840-FF61DBF19E63
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],RemoveAllEffects method, IMFMediaEngineEx.RemoveAllEffects, IMFMediaEngineEx::RemoveAllEffects, RemoveAllEffects, RemoveAllEffects method [Media Foundation], RemoveAllEffects method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_removealleffects, mfmediaengine/IMFMediaEngineEx::RemoveAllEffects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineEx.RemoveAllEffects
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineEx::RemoveAllEffects

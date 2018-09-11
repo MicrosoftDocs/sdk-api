@@ -4,17 +4,16 @@ title: GdiplusBase::operator delete
 author: windows-sdk-content
 description: The GdiplusBase::operator delete method deallocates memory for one Windows GDI+ object.
 old-location: gdiplus\_gdiplus_CLASS_GdiplusBase_operator_delete_in_pVoid_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbaseclass\gdiplusbasemethods\operatordelete.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GdiplusBase class [GDI+],operator delete method, GdiplusBase.operator delete, GdiplusBase::operator delete, _gdiplus_CLASS_GdiplusBase_operator_delete_in_pVoid_, gdiplus._gdiplus_CLASS_GdiplusBase_operator_delete_in_pVoid_, operator delete, operator delete method [GDI+], operator delete method [GDI+],GdiplusBase class
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbase.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KnownGamingPrivileges
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GdiplusBase.operator delete
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

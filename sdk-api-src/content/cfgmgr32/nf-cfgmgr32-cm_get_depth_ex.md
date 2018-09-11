@@ -4,17 +4,16 @@ title: CM_Get_Depth_Ex function
 author: windows-sdk-content
 description: The CM_Get_Depth_Ex function is used to obtain the depth of a specified device node (devnode) within a local or a remote machine's device tree.
 old-location: devinst\cm_get_depth_ex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 1b82df77-56b1-4bb4-9964-76d6d120dd6e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Get_Depth_Ex, CM_Get_Depth_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Depth_Ex, cfgmgrfn_a709eff6-4f44-4f1e-b0a4-23d67963f152.xml, devinst.cm_get_depth_ex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CM_Get_Depth_Ex
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: Cfgmgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Get_Depth_Ex function

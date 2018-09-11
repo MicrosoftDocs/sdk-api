@@ -4,17 +4,16 @@ title: IWMDMEnumDevice::Reset
 author: windows-sdk-content
 description: The Reset method resets the enumeration so that Next returns a pointer to the first device.
 old-location: wmdm\iwmdmenumdevice_reset.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: af06bc07-2043-4ef5-a1f2-381797fb750b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDMEnumDevice interface [windows Media Device Manager],Reset method, IWMDMEnumDevice.Reset, IWMDMEnumDevice::Reset, IWMDMEnumDeviceReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IWMDMEnumDevice interface, mswmdm/IWMDMEnumDevice::Reset, wmdm.iwmdmenumdevice_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMEnumDevice.Reset
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMEnumDevice::Reset

@@ -4,17 +4,16 @@ title: InterlockedOr16 function
 author: windows-sdk-content
 description: Performs an atomic OR operation on the specified SHORT values.
 old-location: base\interlockedor16.htm
-old-project: sync
+tech.root: Sync
 ms.assetid: 9840313d-3c42-42ce-91b9-fde684834716
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: InterlockedOr16, InterlockedOr16 function, base.interlockedor16, winnt/InterlockedOr16
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InterlockedOr16
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InterlockedOr16 function

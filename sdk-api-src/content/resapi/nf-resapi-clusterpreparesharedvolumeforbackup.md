@@ -4,17 +4,16 @@ title: ClusterPrepareSharedVolumeForBackup function
 author: windows-sdk-content
 description: ClusterPrepareSharedVolumeForBackup may be altered or unavailable.
 old-location: mscs\clusterpreparesharedvolumeforbackup.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: d30f1a5b-f231-4874-8e79-6d25cfd094a5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusterPrepareSharedVolumeForBackup, ClusterPrepareSharedVolumeForBackup function [Failover Cluster], PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP, PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP function [Failover Cluster], mscs.clusterpreparesharedvolumeforbackup, resapi/ClusterPrepareSharedVolumeForBackup, resapi/PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.Lib
+req.dll: ResUtils.Dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ClusterPrepareSharedVolumeForBackup
 product: Windows
 targetos: Windows
-req.lib: ResUtils.Lib
-req.dll: ResUtils.Dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterPrepareSharedVolumeForBackup function

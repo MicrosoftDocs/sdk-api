@@ -4,17 +4,16 @@ title: IToc::GetDescription
 author: windows-sdk-content
 description: The GetDescription method retrieves the description, set by a previous call to SetDescription, of the table of contents.
 old-location: mf\itoc_getdescription.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 660d4da9-ddbc-466c-ab1a-7e60ecf61473
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetDescription, GetDescription method [Media Foundation], GetDescription method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetDescription method, IToc.GetDescription, IToc::GetDescription, codecapi.itoc_getdescription, mf.itoc_getdescription, wmcodecdsp/IToc::GetDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IToc.GetDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IToc::GetDescription

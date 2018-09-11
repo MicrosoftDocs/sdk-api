@@ -4,7 +4,7 @@ title: tagOFFLINEFILES_SYNC_CONFLICT_RESOLVE
 author: windows-sdk-content
 description: Identifies the conflict resolution code returned by the IOfflineFilesSyncConflictHandler::ResolveConflict method.
 old-location: of\offlinefiles_sync_conflict_resolve.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 2082b476-cb98-4845-885a-56731f8a4762
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_CONFLICT_RESOLVE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OFFLINEFILES_SYNC_CONFLICT_RESOLVE
 product: Windows
 targetos: Windows
-req.lib: CscApi.lib
-req.dll: CscApi.dll
-req.irql: 
+req.typenames: OFFLINEFILES_SYNC_CONFLICT_RESOLVE
+req.redist: 
 ---
 
 # tagOFFLINEFILES_SYNC_CONFLICT_RESOLVE enumeration

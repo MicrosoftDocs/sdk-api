@@ -4,7 +4,7 @@ title: IDCompositionMatrixTransform3D
 author: windows-sdk-content
 description: Represents an arbitrary 3D transformation defined by a 4-by-4 matrix.
 old-location: directcomp\idcompositionmatrixtransform3d.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 56C9A564-2504-4940-B850-D280C8E0CF82
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionMatrixTransform3D
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionMatrixTransform3D interface

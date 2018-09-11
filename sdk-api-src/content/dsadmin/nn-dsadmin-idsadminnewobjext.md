@@ -4,7 +4,7 @@ title: IDsAdminNewObjExt
 author: windows-sdk-content
 description: The IDsAdminNewObjExt interface is implemented by an object creation wizard extension.
 old-location: ad\idsadminnewobjext.htm
-old-project: ad
+tech.root: ad
 ms.assetid: a9b98647-b801-4a2a-98a4-d57679c07d55
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dsadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsAdminNewObjExt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DSAdmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsAdminNewObjExt interface

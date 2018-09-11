@@ -4,17 +4,16 @@ title: EnumSystemFirmwareTables function
 author: windows-sdk-content
 description: Enumerates all system firmware tables of the specified type.
 old-location: base\enumsystemfirmwaretables.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: 42aaefc0-dc05-460d-931a-b702fa855bed
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: EnumSystemFirmwareTables, EnumSystemFirmwareTables function, base.enumsystemfirmwaretables, sysinfoapi/EnumSystemFirmwareTables
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPUTER_NAME_FORMAT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - EnumSystemFirmwareTables
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # EnumSystemFirmwareTables function

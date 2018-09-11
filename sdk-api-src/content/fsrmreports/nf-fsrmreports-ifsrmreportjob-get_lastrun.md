@@ -4,17 +4,16 @@ title: IFsrmReportJob::get_LastRun
 author: windows-sdk-content
 description: Retrieves the time stamp for when the reports were last run.
 old-location: fsrm\ifsrmreportjob_lastrun.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 90acfd1d-9cef-4900-8b67-d44509503809
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],LastRun property, IFsrmReportJob.LastRun, IFsrmReportJob.get_LastRun, IFsrmReportJob::LastRun, IFsrmReportJob::get_LastRun, LastRun property [File Server Resource Manager], LastRun property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_lastrun, fsrm.ifsrmreportjob_lastrun, fsrmreports/IFsrmReportJob::LastRun, fsrmreports/IFsrmReportJob::get_LastRun, get_LastRun
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmReportJob.get_LastRun
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReportJob::get_LastRun

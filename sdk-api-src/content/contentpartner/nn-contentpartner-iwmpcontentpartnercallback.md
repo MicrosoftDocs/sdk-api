@@ -4,7 +4,7 @@ title: IWMPContentPartnerCallback
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 3c66052b-2b82-44aa-868d-5d5a4501c457
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: contentpartner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPTransactionType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWMPContentPartnerCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPContentPartnerCallback interface

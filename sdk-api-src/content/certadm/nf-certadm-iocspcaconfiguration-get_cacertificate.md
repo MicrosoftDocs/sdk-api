@@ -4,17 +4,16 @@ title: IOCSPCAConfiguration::get_CACertificate
 author: windows-sdk-content
 description: Gets an X.509 certificate that has been encoded by using Distinguished Encoding Rules (DER) and that is for a certification authority (CA).
 old-location: security\iocspcaconfiguration_cacertificate_method.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 73fd56d2-a0d4-4bf8-b818-aadf8cbac9c4
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CACertificate property [Security], CACertificate property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],CACertificate property, IOCSPCAConfiguration.CACertificate, IOCSPCAConfiguration.get_CACertificate, IOCSPCAConfiguration::CACertificate, IOCSPCAConfiguration::get_CACertificate, certadm/IOCSPCAConfiguration::CACertificate, certadm/IOCSPCAConfiguration::get_CACertificate, get_CACertificate, security.iocspcaconfiguration_cacertificate_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOCSPCAConfiguration.get_CACertificate
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPCAConfiguration::get_CACertificate

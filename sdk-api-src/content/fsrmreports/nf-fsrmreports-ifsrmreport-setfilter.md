@@ -4,17 +4,16 @@ title: IFsrmReport::SetFilter
 author: windows-sdk-content
 description: Sets the current value of the specified report filter.
 old-location: fsrm\ifsrmreport_setfilter.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 6d36e3e2-7826-4bae-943c-3ab73404534c
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmReport interface [File Server Resource Manager],SetFilter method, IFsrmReport.SetFilter, IFsrmReport::SetFilter, SetFilter, SetFilter method [File Server Resource Manager], SetFilter method [File Server Resource Manager],IFsrmReport interface, fs.ifsrmreport_setfilter, fsrm.ifsrmreport_setfilter, fsrmreports/IFsrmReport::SetFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmReport.SetFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReport::SetFilter

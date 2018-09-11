@@ -4,17 +4,16 @@ title: PGET_FIRST_ORDERED_SERVICE
 author: windows-sdk-content
 description: The GetFirstOrderedService function returns the first service in the specified order from the designated subset of services in the table.
 old-location: rras\getfirstorderedservice.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 193ca671-3b1a-493f-a655-a27f6348f5d2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetFirstOrderedService, GetFirstOrderedService callback function [RAS], PGET_FIRST_ORDERED_SERVICE, PGET_FIRST_ORDERED_SERVICE callback, STM_ORDER_BY_INTERFACE_TYPE_NAME, STM_ORDER_BY_TYPE_AND_NAME, _mpr_getfirstorderedservice, rras.getfirstorderedservice, stm/GetFirstOrderedService
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: stm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_WINNT_CREDUI_CONTEXT_VECTOR, *PSEC_WINNT_CREDUI_CONTEXT_VECTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetFirstOrderedService
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # PGET_FIRST_ORDERED_SERVICE callback function

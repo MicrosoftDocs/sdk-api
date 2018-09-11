@@ -4,17 +4,16 @@ title: ClusterResourceTypeGetEnumCount function
 author: windows-sdk-content
 description: Returns the number of cluster objects associated with a resource_type enumeration handle.
 old-location: mscs\clusterresourcetypegetenumcount.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 1960dc1a-778e-4bad-b6ad-07c0a8547cc6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusterResourceTypeGetEnumCount, ClusterResourceTypeGetEnumCount function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT function [Failover Cluster], _wolf_clusterresourcetypegetenumcount, clusapi/ClusterResourceTypeGetEnumCount, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT, mscs.clusterresourcetypegetenumcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ClusterResourceTypeGetEnumCount
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterResourceTypeGetEnumCount function

@@ -4,17 +4,16 @@ title: IWbemEventProviderSecurity
 author: windows-sdk-content
 description: The IWbemEventProviderSecurity interface is optionally implemented by event providers who want to restrict consumer access to their event. For more information about when to use this interface, see Securing WMI Events.
 old-location: wmi\iwbemeventprovidersecurity.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 892a7a9d-f058-4c4d-870d-c0eb5773949f
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemEventProviderSecurity, IWbemEventProviderSecurity interface [Windows Management Instrumentation], IWbemEventProviderSecurity interface [Windows Management Instrumentation],described, _hmm_iwbemeventprovidersecurity, wbemprov/IWbemEventProviderSecurity, wmi.iwbemeventprovidersecurity
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemEventProviderSecurity
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wbemsvc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemEventProviderSecurity interface

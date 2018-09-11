@@ -4,17 +4,16 @@ title: IBDA_DRIDRMService::SetDRM
 author: windows-sdk-content
 description: Selects a Digital Rights Management (DRM) application for a Media Transform Device (MTD) in a Protected Broadcast Device Architecture (PBDA) graph.
 old-location: mstv\ibda_dridrmservice_setdrm.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 95e59f33-0ff4-4618-b1e8-c43fe60b9434
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_DRIDRMService interface [DirectShow],SetDRM method, IBDA_DRIDRMService.SetDRM, IBDA_DRIDRMService::SetDRM, SetDRM, SetDRM method [DirectShow], SetDRM method [DirectShow],IBDA_DRIDRMService interface, bdaiface/IBDA_DRIDRMService::SetDRM, mstv.ibda_dridrmservice_setdrm
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_DRIDRMService.SetDRM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_DRIDRMService::SetDRM
@@ -61,7 +60,7 @@ Selects a Digital Rights Management (DRM) application for a Media Transform Devi
 
 ### -param bstrNewDrm
 
-
+TBD
 
 
 

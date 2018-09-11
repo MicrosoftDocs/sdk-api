@@ -4,7 +4,7 @@ title: IDirect3D9ExOverlayExtension
 author: windows-sdk-content
 description: Queries the overlay hardware capabilities of a Direct3D device.
 old-location: mf\idirect3d9exoverlayextension.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 57591794-96d3-40e6-a4fb-3bb195fd1396
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirect3D9ExOverlayExtension
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3D9ExOverlayExtension interface

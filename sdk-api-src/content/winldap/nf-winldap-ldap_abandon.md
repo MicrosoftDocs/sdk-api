@@ -4,17 +4,16 @@ title: ldap_abandon function
 author: windows-sdk-content
 description: A client calls ldap_abandon to cancel an in-process asynchronous LDAP call.
 old-location: ldap\ldap_abandon.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 5c238d98-77f5-4702-bae1-80cdec70a30c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_abandon, ldap.ldap__abandon, ldap.ldap_abandon, ldap_abandon, ldap_abandon function [LDAP], winldap/ldap_abandon"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ldap_abandon
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_abandon function

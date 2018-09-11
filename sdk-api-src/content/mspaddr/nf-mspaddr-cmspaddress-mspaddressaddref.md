@@ -4,17 +4,16 @@ title: CMSPAddress::MSPAddressAddRef
 author: windows-sdk-content
 description: The MSPAddressAddRef method is the private AddRef method for the address.
 old-location: tapi3\cmspaddress_mspaddressaddref.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 74a68851-f1c2-41ed-94cd-ec043be0f0d1
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],MSPAddressAddRef method, CMSPAddress.MSPAddressAddRef, CMSPAddress::MSPAddressAddRef, MSPAddressAddRef, MSPAddressAddRef method [TAPI 2.2], MSPAddressAddRef method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_mspaddressaddref, mspaddr/CMSPAddress::MSPAddressAddRef, tapi3.cmspaddress_mspaddressaddref
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mspaddr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSPAddress.MSPAddressAddRef
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CMSPAddress::MSPAddressAddRef

@@ -4,17 +4,16 @@ title: DSA_DestroyCallback function
 author: windows-sdk-content
 description: Iterates through a dynamic structure array (DSA), calling a specified callback function on each item. Upon reaching the end of the array, the DSA is freed.
 old-location: controls\DSA_DestroyCallback.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_destroycallback.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DSA_DestroyCallback, DSA_DestroyCallback function [Windows Controls], _win32_DSA_DestroyCallback, _win32_DSA_DestroyCallback_cpp, controls.DSA_DestroyCallback, controls._win32_DSA_DestroyCallback, dpa_dsa/DSA_DestroyCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+req.lib: Comctl32.lib
+req.dll: ComCtl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DSA_DestroyCallback
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: ComCtl32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DSA_DestroyCallback function

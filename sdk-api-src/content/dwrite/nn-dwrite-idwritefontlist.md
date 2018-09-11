@@ -4,17 +4,16 @@ title: IDWriteFontList
 author: windows-sdk-content
 description: Represents a list of fonts.
 old-location: directwrite\IDWriteFontList.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 00c41c5f-4405-45ff-98e5-03858dc3056f
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteFontList, IDWriteFontList interface [Direct Write], IDWriteFontList interface [Direct Write],described, directwrite.IDWriteFontList, dwrite/IDWriteFontList
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontList
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontList interface

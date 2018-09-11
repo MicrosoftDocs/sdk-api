@@ -4,17 +4,16 @@ title: INetFwProduct::get_RuleCategories
 author: windows-sdk-content
 description: For a third-party firewall product registration, indicates the rule categories for which the third-party firewall wishes to take ownership from Windows Firewall.
 old-location: ics\inetfwproduct_rulecategories.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 77e16df3-aab6-4e5f-b0e5-c203379fc6e8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwProduct interface [ICS/ICF],RuleCategories property, INetFwProduct.RuleCategories, INetFwProduct.get_RuleCategories, INetFwProduct::RuleCategories, INetFwProduct::get_RuleCategories, INetFwProduct::put_RuleCategories, RuleCategories property [ICS/ICF], RuleCategories property [ICS/ICF],INetFwProduct interface, get_RuleCategories, ics.inetfwproduct_rulecategories, netfw/INetFwProduct::RuleCategories, netfw/INetFwProduct::get_RuleCategories, netfw/INetFwProduct::put_RuleCategories
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwProduct.put_RuleCategories
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwProduct::get_RuleCategories

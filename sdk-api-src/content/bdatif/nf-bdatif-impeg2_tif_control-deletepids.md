@@ -4,17 +4,16 @@ title: IMPEG2_TIF_CONTROL::DeletePIDs
 author: windows-sdk-content
 description: The DeletePIDs method informs the Network Provider that the TIF no longer requires the specified PID.
 old-location: mstv\impeg2_tif_control_deletepids.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d5188e30-6980-482f-a690-494855d6aeea
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: DeletePIDs, DeletePIDs method [Microsoft TV Technologies], DeletePIDs method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],DeletePIDs method, IMPEG2_TIF_CONTROL.DeletePIDs, IMPEG2_TIF_CONTROL::DeletePIDs, IMPEG2_TIF_CONTROLDeletePIDs, bdatif/IMPEG2_TIF_CONTROL::DeletePIDs, mstv.impeg2_tif_control_deletepids
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMPEG2_TIF_CONTROL.DeletePIDs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMPEG2_TIF_CONTROL::DeletePIDs

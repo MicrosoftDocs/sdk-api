@@ -4,17 +4,16 @@ title: IQueryInfo::GetInfoFlags
 author: windows-sdk-content
 description: Gets the information flags for an item. This method is not currently used.
 old-location: shell\IQueryInfo_GetInfoFlags.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1baa47dd-b8e5-4535-b0eb-fd597241ed95
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetInfoFlags, GetInfoFlags method [Windows Shell], GetInfoFlags method [Windows Shell],IQueryInfo interface, IQueryInfo interface [Windows Shell],GetInfoFlags method, IQueryInfo.GetInfoFlags, IQueryInfo::GetInfoFlags, _win32_IQueryInfo_GetInfoFlags, shell.IQueryInfo_GetInfoFlags, shlobj_core/IQueryInfo::GetInfoFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IQueryInfo.GetInfoFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IQueryInfo::GetInfoFlags

@@ -4,17 +4,16 @@ title: "__MIDL_ICallFrame_0003"
 author: windows-sdk-content
 description: Determines whether the copied call frame data can be shared with data in the parent frame by determining its lifetime dependency on the parent frame.
 old-location: com\callframe_copy.htm
-old-project: com
+tech.root: com
 ms.assetid: 06c926ab-8e82-4291-b1ea-f4bfcd734b16
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CALLFRAME_COPY, CALLFRAME_COPY enumeration [COM], CALLFRAME_COPY_INDEPENDENT, CALLFRAME_COPY_NESTED, __MIDL_ICallFrame_0003, _com_CALLFRAME_COPY, callobj/CALLFRAME_COPY, callobj/CALLFRAME_COPY_INDEPENDENT, callobj/CALLFRAME_COPY_NESTED, com.callframe_copy
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CALLFRAME_COPY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CALLFRAME_COPY
+req.redist: 
 ---
 
 # __MIDL_ICallFrame_0003 enumeration

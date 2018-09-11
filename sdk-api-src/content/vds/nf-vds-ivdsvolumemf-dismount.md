@@ -4,17 +4,16 @@ title: IVdsVolumeMF::Dismount
 author: windows-sdk-content
 description: Dismounts a mounted volume.
 old-location: base\ivdsvolumemf_dismount.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 1ef5a1e6-0e41-4077-9ae8-fe266f2623cc
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Dismount, Dismount method [VDS], Dismount method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],Dismount method, IVdsVolumeMF.Dismount, IVdsVolumeMF::Dismount, base.ivdsvolumemf_dismount, vds/IVdsVolumeMF::Dismount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolumeMF.Dismount
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolumeMF::Dismount

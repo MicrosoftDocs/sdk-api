@@ -4,7 +4,7 @@ title: IMSVidStreamBufferSinkEvent4
 author: windows-sdk-content
 description: The IMSVidStreamBufferSinkEvent4 interface receives events from the MSVidStreamBufferSink object.
 old-location: mstv\imsvidstreambuffersinkevent4.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: afec7f7a-0c5b-47ca-b442-5dbdba54a7af
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSinkEvent4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSinkEvent4 interface

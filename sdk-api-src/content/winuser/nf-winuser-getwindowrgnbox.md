@@ -4,17 +4,16 @@ title: GetWindowRgnBox function
 author: windows-sdk-content
 description: The GetWindowRgnBox function retrieves the dimensions of the tightest bounding rectangle for the window region of a window.
 old-location: gdi\getwindowrgnbox.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 20e23474-a1c5-4afe-976e-a7e5790fb91b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetWindowRgnBox, GetWindowRgnBox function [Windows GDI], _win32_GetWindowRgnBox, gdi.getwindowrgnbox, winuser/GetWindowRgnBox
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - GetWindowRgnBox
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetWindowRgnBox function

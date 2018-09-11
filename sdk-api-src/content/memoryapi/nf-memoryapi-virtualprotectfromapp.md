@@ -4,17 +4,16 @@ title: VirtualProtectFromApp function
 author: windows-sdk-content
 description: Changes the protection on a region of committed pages in the virtual address space of the calling process.
 old-location: base\virtualprotectfromapp.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 04202DB6-8A28-4B3C-9320-557E5F4D42AC
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: VirtualProtectFromApp, VirtualProtectFromApp function, base.virtualprotectfromapp, memoryapi/VirtualProtectFromApp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MP_PARAMINFO
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - VirtualProtectFromApp
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # VirtualProtectFromApp function

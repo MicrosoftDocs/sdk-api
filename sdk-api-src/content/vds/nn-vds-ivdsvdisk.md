@@ -4,17 +4,16 @@ title: IVdsVDisk
 author: windows-sdk-content
 description: Defines methods for managing a virtual disk.
 old-location: base\ivdsvdisk.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 2b4f81f9-81ec-4288-a26c-8ed4d378358a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsVDisk, IVdsVDisk interface, IVdsVDisk interface,described, base.ivdsvdisk, vds/IVdsVDisk
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVDisk
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVDisk interface

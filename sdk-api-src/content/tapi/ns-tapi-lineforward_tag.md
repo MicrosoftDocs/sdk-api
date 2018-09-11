@@ -4,7 +4,7 @@ title: lineforward_tag
 author: windows-sdk-content
 description: The LINEFORWARD structure describes an entry of the forwarding instructions. The LINEFORWARDLIST and the LINEADDRESSSTATUS structures can contain an array of LINEFORWARD structures.
 old-location: tapi2\lineforward_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: cbdb4409-a51a-4ddf-b3ec-c5b958fc2527
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEFORWARD, *LPLINEFORWARD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEFORWARD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEFORWARD, *LPLINEFORWARD
+req.redist: 
 ---
 
 # lineforward_tag structure

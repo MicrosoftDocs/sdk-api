@@ -4,17 +4,16 @@ title: IScrollProvider::get_VerticalScrollPercent
 author: windows-sdk-content
 description: Specifies the vertical scroll position.
 old-location: winauto\uiauto_IScrollProvider_VerticalScrollPercent.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 1bc153bf-1d8f-4ca6-88e0-882e063fe6a0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],VerticalScrollPercent property, IScrollProvider.VerticalScrollPercent, IScrollProvider.get_VerticalScrollPercent, IScrollProvider::VerticalScrollPercent, IScrollProvider::get_VerticalScrollPercent, VerticalScrollPercent property [Windows Accessibility], VerticalScrollPercent property [Windows Accessibility],IScrollProvider interface, get_VerticalScrollPercent, uiauto.uiauto_IScrollProvider_VerticalScrollPercent, uiauto_IScrollProvider_VerticalScrollPercent, uiautomationcore/IScrollProvider::VerticalScrollPercent, uiautomationcore/IScrollProvider::get_VerticalScrollPercent, winauto.uiauto_IScrollProvider_VerticalScrollPercent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IScrollProvider.get_VerticalScrollPercent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IScrollProvider::get_VerticalScrollPercent

@@ -4,17 +4,16 @@ title: WTS_FLAGS
 author: windows-sdk-content
 description: Values used by IThumbnailCache::GetThumbnail to specify options for the extraction and display of the thumbnail image.
 old-location: shell\WTS_FLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: D9C84E86-35AF-437f-966E-BABD02B824C0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: WTS_APPSTYLE, WTS_CROPTOSQUARE, WTS_EXTRACT, WTS_EXTRACTDONOTCACHE, WTS_EXTRACTINPROC, WTS_FASTEXTRACT, WTS_FLAGS, WTS_FLAGS enumeration [Windows Shell], WTS_FORCEEXTRACTION, WTS_IDEALCACHESIZEONLY, WTS_INCACHEONLY, WTS_INSTANCESURROGATE, WTS_NONE, WTS_REQUIRESURROGATE, WTS_SCALETOREQUESTEDSIZE, WTS_SCALEUP, WTS_SKIPFASTEXTRACT, WTS_SLOWRECLAIM, WTS_WIDETHUMBNAILS, shell.WTS_FLAGS, thumbcache/WTS_APPSTYLE, thumbcache/WTS_CROPTOSQUARE, thumbcache/WTS_EXTRACT, thumbcache/WTS_EXTRACTDONOTCACHE, thumbcache/WTS_EXTRACTINPROC, thumbcache/WTS_FASTEXTRACT, thumbcache/WTS_FLAGS, thumbcache/WTS_FORCEEXTRACTION, thumbcache/WTS_IDEALCACHESIZEONLY, thumbcache/WTS_INCACHEONLY, thumbcache/WTS_INSTANCESURROGATE, thumbcache/WTS_NONE, thumbcache/WTS_REQUIRESURROGATE, thumbcache/WTS_SCALETOREQUESTEDSIZE, thumbcache/WTS_SCALEUP, thumbcache/WTS_SKIPFASTEXTRACT, thumbcache/WTS_SLOWRECLAIM, thumbcache/WTS_WIDETHUMBNAILS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: thumbcache.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTS_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: WTS_FLAGS
+req.redist: 
 ---
 
 # WTS_FLAGS enumeration

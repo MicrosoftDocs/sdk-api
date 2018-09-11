@@ -4,17 +4,16 @@ title: IShellImageData::GetDelay
 author: windows-sdk-content
 description: Gets the delay value for the current frame of an animation.
 old-location: shell\IShellImageData_GetDelay.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b5815771-7c96-4431-bc43-a5e620bd1d2f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetDelay, GetDelay method [Windows Shell], GetDelay method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetDelay method, IShellImageData.GetDelay, IShellImageData::GetDelay, _shell_IShellImageData_GetDelay, shell.IShellImageData_GetDelay, shimgdata/IShellImageData::GetDelay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageData.GetDelay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageData::GetDelay

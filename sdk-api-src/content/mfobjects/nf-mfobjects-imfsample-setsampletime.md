@@ -4,17 +4,16 @@ title: IMFSample::SetSampleTime
 author: windows-sdk-content
 description: Sets the presentation time of the sample.
 old-location: mf\imfsample_setsampletime.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 59d32002-2f5c-4a94-bd09-fd5a2c005ffc
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 59d32002-2f5c-4a94-bd09-fd5a2c005ffc, IMFSample interface [Media Foundation],SetSampleTime method, IMFSample.SetSampleTime, IMFSample::SetSampleTime, SetSampleTime, SetSampleTime method [Media Foundation], SetSampleTime method [Media Foundation],IMFSample interface, mf.imfsample_setsampletime, mfobjects/IMFSample::SetSampleTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSample.SetSampleTime
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSample::SetSampleTime

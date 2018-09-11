@@ -4,17 +4,16 @@ title: IMFMediaSourceExtension::GetActiveSourceBuffers
 author: windows-sdk-content
 description: Gets the source buffers that are actively supplying media data to the media source.
 old-location: mf\imfmediasourceextension_getactivesourcebuffers.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9d4a70cf-7436-4f4a-9a7c-9127e3829ba8
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetActiveSourceBuffers, GetActiveSourceBuffers method [Media Foundation], GetActiveSourceBuffers method [Media Foundation],IMFMediaSourceExtension interface, IMFMediaSourceExtension interface [Media Foundation],GetActiveSourceBuffers method, IMFMediaSourceExtension.GetActiveSourceBuffers, IMFMediaSourceExtension::GetActiveSourceBuffers, mf.imfmediasourceextension_getactivesourcebuffers, mfmediaengine/IMFMediaSourceExtension::GetActiveSourceBuffers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaSourceExtension.GetActiveSourceBuffers
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSourceExtension::GetActiveSourceBuffers

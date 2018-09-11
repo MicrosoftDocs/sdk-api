@@ -4,17 +4,16 @@ title: IVdsSubSystem2::CreateLun2
 author: windows-sdk-content
 description: Creates a LUN. This method is identical to the IVdsSubSystem::CreateLun method, except that automagic hints are provided using a VDS_HINTS2 structure instead of a VDS_HINTS structure.
 old-location: base\ivdssubsystem2_createlun2.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 1fa046dd-fac9-4246-a90b-1837206b164c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateLun2, CreateLun2 method, CreateLun2 method,IVdsSubSystem2 interface, IVdsSubSystem2 interface,CreateLun2 method, IVdsSubSystem2.CreateLun2, IVdsSubSystem2::CreateLun2, base.ivdssubsystem2_createlun2, vds/IVdsSubSystem2::CreateLun2, vdshwprv/IVdsSubSystem2::CreateLun2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSubSystem2.CreateLun2
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsSubSystem2::CreateLun2
@@ -139,7 +137,7 @@ After the LUN is created, the caller can determine the actual unmasking list by 
 
 ### -param pHints2
 
-
+TBD
 
 
 ### -param ppAsync [out]

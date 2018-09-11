@@ -4,17 +4,16 @@ title: IAppxBundleReader::GetPayloadPackage
 author: windows-sdk-content
 description: Retrieves an appx file object for the payload package with the specified file name.
 old-location: appxpkg\iappxbundlereader_getpayloadpackage.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 6ACAB26C-22FC-45D7-9F6A-98B56B615DCA
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetPayloadPackage, GetPayloadPackage method [App packaging and management], GetPayloadPackage method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetPayloadPackage method, IAppxBundleReader.GetPayloadPackage, IAppxBundleReader::GetPayloadPackage, appxpackaging/IAppxBundleReader::GetPayloadPackage, appxpkg.iappxbundlereader_getpayloadpackage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxBundleReader.GetPayloadPackage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxBundleReader::GetPayloadPackage

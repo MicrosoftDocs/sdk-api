@@ -4,17 +4,16 @@ title: IFhConfigMgr::GetBackupStatus
 author: windows-sdk-content
 description: Retrieves the backup status value for an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_getbackupstatus.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 0AC8F205-B593-4117-9059-0DDA5BBE3124
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FhConfigMgr class [Windows API],GetBackupStatus method, GetBackupStatus, GetBackupStatus method [Windows API], GetBackupStatus method [Windows API],FhConfigMgr class, GetBackupStatus method [Windows API],IFhConfigMgr interface, IFhConfigMgr interface [Windows API],GetBackupStatus method, IFhConfigMgr.GetBackupStatus, IFhConfigMgr::GetBackupStatus, fhcfg/IFhConfigMgr::GetBackupStatus, winprog.ifhconfigmgr_getbackupstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FhConfigMgr.GetBackupStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFhConfigMgr::GetBackupStatus

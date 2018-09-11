@@ -4,17 +4,16 @@ title: IDCompositionDevice2::CreateSkewTransform
 author: windows-sdk-content
 description: Creates a 2D skew transform object.
 old-location: directcomp\idcompositiondevice2_createskewtransform.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 10700E97-C799-4FC0-8300-B5347CC67AC3
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateSkewTransform, CreateSkewTransform method [DirectComposition], CreateSkewTransform method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateSkewTransform method, IDCompositionDevice2.CreateSkewTransform, IDCompositionDevice2::CreateSkewTransform, dcomp/IDCompositionDevice2::CreateSkewTransform, directcomp.idcompositiondevice2_createskewtransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice2.CreateSkewTransform
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice2::CreateSkewTransform

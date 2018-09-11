@@ -4,17 +4,16 @@ title: SHELL_UI_COMPONENT
 author: windows-sdk-content
 description: Identifies the type of UI component that is needed in the shell.
 old-location: shell\shell_ui_component.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 40919C36-228A-4909-A517-8B152BE47D36
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHELL_UI_COMPONENT, SHELL_UI_COMPONENT enumeration [Windows Shell], SHELL_UI_COMPONENT_DESKBAND, SHELL_UI_COMPONENT_NOTIFICATIONAREA, SHELL_UI_COMPONENT_TASKBARS, shell.shell_ui_component, shellscalingapi/SHELL_UI_COMPONENT, shellscalingapi/SHELL_UI_COMPONENT_DESKBAND, shellscalingapi/SHELL_UI_COMPONENT_NOTIFICATIONAREA, shellscalingapi/SHELL_UI_COMPONENT_TASKBARS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shellscalingapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHELL_UI_COMPONENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHELL_UI_COMPONENT
+req.redist: 
 ---
 
 # SHELL_UI_COMPONENT enumeration

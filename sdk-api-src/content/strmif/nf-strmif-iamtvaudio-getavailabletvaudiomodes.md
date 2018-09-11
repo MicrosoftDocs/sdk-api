@@ -4,17 +4,16 @@ title: IAMTVAudio::GetAvailableTVAudioModes
 author: windows-sdk-content
 description: The GetAvailableTVAudioModes method retrieves a bitmask of the possible modes.
 old-location: dshow\iamtvaudio_getavailabletvaudiomodes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c64dc038-7ebf-4aa4-a7ae-b3eb0e8eaf1a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetAvailableTVAudioModes, GetAvailableTVAudioModes method [DirectShow], GetAvailableTVAudioModes method [DirectShow],IAMTVAudio interface, IAMTVAudio interface [DirectShow],GetAvailableTVAudioModes method, IAMTVAudio.GetAvailableTVAudioModes, IAMTVAudio::GetAvailableTVAudioModes, IAMTVAudioGetAvailableTVAudioModes, dshow.iamtvaudio_getavailabletvaudiomodes, strmif/IAMTVAudio::GetAvailableTVAudioModes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMTVAudio.GetAvailableTVAudioModes
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMTVAudio::GetAvailableTVAudioModes

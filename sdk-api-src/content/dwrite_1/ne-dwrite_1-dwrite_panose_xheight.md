@@ -4,17 +4,16 @@ title: DWRITE_PANOSE_XHEIGHT
 author: windows-sdk-content
 description: The DWRITE_PANOSE_XHEIGHT enumeration contains values that specify info about the relative size of lowercase letters and the treatment of diacritic marks (xheight).
 old-location: directwrite\dwrite_panose_xheight.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: E4448DC6-9014-41FB-B14B-2C6FB4E4D13D
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_PANOSE_XHEIGHT, DWRITE_PANOSE_XHEIGHT enumeration [Direct Write], DWRITE_PANOSE_XHEIGHT_ANY, DWRITE_PANOSE_XHEIGHT_CONSTANT_LARGE, DWRITE_PANOSE_XHEIGHT_CONSTANT_SMALL, DWRITE_PANOSE_XHEIGHT_CONSTANT_STANDARD, DWRITE_PANOSE_XHEIGHT_CONSTANT_STD, DWRITE_PANOSE_XHEIGHT_DUCKING_LARGE, DWRITE_PANOSE_XHEIGHT_DUCKING_SMALL, DWRITE_PANOSE_XHEIGHT_DUCKING_STANDARD, DWRITE_PANOSE_XHEIGHT_DUCKING_STD, DWRITE_PANOSE_XHEIGHT_NO_FIT, directwrite.dwrite_panose_xheight, dwrite_1/DWRITE_PANOSE_XHEIGHT, dwrite_1/DWRITE_PANOSE_XHEIGHT_ANY, dwrite_1/DWRITE_PANOSE_XHEIGHT_CONSTANT_LARGE, dwrite_1/DWRITE_PANOSE_XHEIGHT_CONSTANT_SMALL, dwrite_1/DWRITE_PANOSE_XHEIGHT_CONSTANT_STANDARD, dwrite_1/DWRITE_PANOSE_XHEIGHT_CONSTANT_STD, dwrite_1/DWRITE_PANOSE_XHEIGHT_DUCKING_LARGE, dwrite_1/DWRITE_PANOSE_XHEIGHT_DUCKING_SMALL, dwrite_1/DWRITE_PANOSE_XHEIGHT_DUCKING_STANDARD, dwrite_1/DWRITE_PANOSE_XHEIGHT_DUCKING_STD, dwrite_1/DWRITE_PANOSE_XHEIGHT_NO_FIT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_PANOSE_XHEIGHT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_PANOSE_XHEIGHT enumeration

@@ -4,7 +4,7 @@ title: "_MIB_TCPTABLE_OWNER_PID"
 author: windows-sdk-content
 description: Contains a table of process IDs (PIDs) and the IPv4 TCP links that are context bound to these PIDs.
 old-location: mib\mib_tcptable_owner_pid.htm
-old-project: mib
+tech.root: mib
 ms.assetid: ef39b832-1f22-468a-8734-c7d9bd3ac965
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_TCPTABLE_OWNER_PID, *PMIB_TCPTABLE_OWNER_PID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_TCPTABLE_OWNER_PID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: MIB_TCPTABLE_OWNER_PID, *PMIB_TCPTABLE_OWNER_PID
+req.redist: 
 ---
 
 # _MIB_TCPTABLE_OWNER_PID structure

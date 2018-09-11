@@ -4,17 +4,16 @@ title: TSPI_lineSetAppSpecific function
 author: windows-sdk-content
 description: The TSPI_lineSetAppSpecific function sets the application-specific field of the specified call's LINECALLINFO structure.
 old-location: tspi\tspi_linesetappspecific.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: aa09b03d-5e72-4db5-b21a-87841fbce70b
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineSetAppSpecific, TSPI_lineSetAppSpecific function [TAPI 2.2], _tspi_tspi_linesetappspecific, tspi.tspi_linesetappspecific, tspi/TSPI_lineSetAppSpecific
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineSetAppSpecific
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineSetAppSpecific function

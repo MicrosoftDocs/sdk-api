@@ -4,7 +4,7 @@ title: "__MIDL_ITfCandidateList_0001"
 author: windows-sdk-content
 description: Elements of the TfCandidateResult enumeration are used with the ITfCandidateList::SetResult method to specify the result of a reconversion operation performed on a given candidate string.
 old-location: tsf\tfcandidateresult.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 8b2b4762-f28d-40e0-b162-5e35e8835c8e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfCandidateResult
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TfCandidateResult
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: TfCandidateResult
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # __MIDL_ITfCandidateList_0001 enumeration

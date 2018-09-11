@@ -4,17 +4,16 @@ title: IMbnSmsReadMsgPdu
 author: windows-sdk-content
 description: A collection of properties that represent an SMS message read from the device memory.
 old-location: mbn\imbnsmsreadmsgpdu.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: dc0e15c4-6203-4105-9d19-5931b27047d2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnSmsReadMsgPdu, IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks], IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],described, mbn.imbnsmsreadmsgpdu, mbnapi/IMbnSmsReadMsgPdu
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnSmsReadMsgPdu
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSmsReadMsgPdu interface

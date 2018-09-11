@@ -4,7 +4,7 @@ title: "_PROCESSOR_GROUP_INFO"
 author: windows-sdk-content
 description: Represents the number and affinity of processors in a processor group.
 old-location: base\processor_group_info.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 6ff9cc3c-34e7-4dc4-94cd-6ed278dfaa03
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESSOR_GROUP_INFO, *PPROCESSOR_GROUP_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROCESSOR_GROUP_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: PROCESSOR_GROUP_INFO, *PPROCESSOR_GROUP_INFO
+req.redist: 
 ---
 
 # _PROCESSOR_GROUP_INFO structure

@@ -4,10 +4,10 @@ title: IObjectId
 author: windows-sdk-content
 description: Represents an object identifier (OID).
 old-location: security\iobjectid.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: bc6608e3-cae7-4992-b599-06bc04cc8ad7
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 08/29/2018
 ms.keywords: IObjectId, IObjectId interface [Security], IObjectId interface [Security],described, certenroll/IObjectId, security.iobjectid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -26,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -39,9 +40,8 @@ api_name:
  - IObjectId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectId interface
@@ -88,7 +88,7 @@ All of the methods used to initialize an <b>IObjectId</b> object call the Crypto
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectId</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IObjectId</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectId</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IObjectId</b> also has these types of members:
 <ul>
 <li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 <li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
@@ -173,7 +173,7 @@ Specifies and retrieves a display name for the object identifier.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://msdn.microsoft.com/3d3842a9-73b6-4fb8-83cf-ac65c5a09acb">Name</a>
 
 
 </td>
@@ -189,7 +189,7 @@ Retrieves a <a href="https://msdn.microsoft.com/en-us/library/Aa374855(v=VS.85).
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449625(v=VS.85).aspx">Value</a>
+<a href="https://msdn.microsoft.com/9ccb681a-f31b-4d31-ae56-25efd2af2b2c">Value</a>
 
 
 </td>
@@ -216,7 +216,7 @@ Retrieves a string that contains the dotted decimal object identifier.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

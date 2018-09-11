@@ -4,7 +4,7 @@ title: DSQUERYPARAMS
 author: windows-sdk-content
 description: The DSQUERYPARAMS structure contains query data used by the directory service query when searching the directory service.
 old-location: ad\dsqueryparams.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 78c3fb1c-275e-45b6-bbe9-ae2d85864e6a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSQUERYPARAMS, *LPDSQUERYPARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DSQUERYPARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DSQUERYPARAMS, *LPDSQUERYPARAMS
+req.redist: 
 ---
 
 # DSQUERYPARAMS structure

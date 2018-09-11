@@ -4,17 +4,16 @@ title: IFsrmClassificationManager::get_ClassificationLastReportPathWithoutExtens
 author: windows-sdk-content
 description: The local directory path where the reports were stored the last time that classification ran.
 old-location: fsrm\ifsrmclassificationmanager_classificationlastreportpathwithoutextension.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: bdc32bbc-e8e5-48ed-97a1-0b42db3c3676
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: ClassificationLastReportPathWithoutExtension property [File Server Resource Manager], ClassificationLastReportPathWithoutExtension property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationLastReportPathWithoutExtension property [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationLastReportPathWithoutExtension property, IFsrmClassificationManager.ClassificationLastReportPathWithoutExtension, IFsrmClassificationManager.get_ClassificationLastReportPathWithoutExtension, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationLastReportPathWithoutExtension property, IFsrmClassificationManager2.ClassificationLastReportPathWithoutExtension, IFsrmClassificationManager2::get_ClassificationLastReportPathWithoutExtension, IFsrmClassificationManager::ClassificationLastReportPathWithoutExtension, IFsrmClassificationManager::get_ClassificationLastReportPathWithoutExtension, fs.ifsrmclassificationmanager_classificationlastreportpathwithoutextension, fsrm.ifsrmclassificationmanager_classificationlastreportpathwithoutextension, fsrmpipeline/IFsrmClassificationManager2::ClassificationLastReportPathWithoutExtension, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationLastReportPathWithoutExtension, fsrmpipeline/IFsrmClassificationManager::ClassificationLastReportPathWithoutExtension, fsrmpipeline/IFsrmClassificationManager::get_ClassificationLastReportPathWithoutExtension, get_ClassificationLastReportPathWithoutExtension
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IFsrmClassificationManager2.get_ClassificationLastReportPathWithoutExtension
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassificationManager::get_ClassificationLastReportPathWithoutExtension

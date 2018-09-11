@@ -4,17 +4,16 @@ title: "_WS_SERVICE_ENDPOINT_METADATA"
 author: windows-sdk-content
 description: Represents the port element for the endpoint. The port element is generated for the service element as specified by serviceName and serviceNs for WS_SERVICE_PROPERTY_METADATA property on the WS_SERVICE_HOST.
 old-location: wsw\ws_service_endpoint_metadata.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: e02ea746-ed56-48a7-8cd4-9e51d100ef2a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SERVICE_ENDPOINT_METADATA, WS_SERVICE_ENDPOINT_METADATA structure [Web Services for Windows], _WS_SERVICE_ENDPOINT_METADATA, webservices/WS_SERVICE_ENDPOINT_METADATA, wsw.ws_service_endpoint_metadata
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SERVICE_ENDPOINT_METADATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SERVICE_ENDPOINT_METADATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SERVICE_ENDPOINT_METADATA
+req.redist: 
 ---
 
 # _WS_SERVICE_ENDPOINT_METADATA structure

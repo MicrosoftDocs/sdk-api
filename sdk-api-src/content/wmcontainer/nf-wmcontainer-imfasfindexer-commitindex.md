@@ -4,17 +4,16 @@ title: IMFASFIndexer::CommitIndex
 author: windows-sdk-content
 description: Adds information about a new index to the ContentInfo object associated with ASF content. You must call this method before copying the index to the content so that the index will be readable by the indexer later.
 old-location: mf\imfasfindexer_commitindex.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 44b889e1-8860-44fa-b19f-5be9f844a194
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 44b889e1-8860-44fa-b19f-5be9f844a194, CommitIndex, CommitIndex method [Media Foundation], CommitIndex method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],CommitIndex method, IMFASFIndexer.CommitIndex, IMFASFIndexer::CommitIndex, mf.imfasfindexer_commitindex, wmcontainer/IMFASFIndexer::CommitIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFIndexer.CommitIndex
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFIndexer::CommitIndex

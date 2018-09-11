@@ -4,17 +4,16 @@ title: WSCUnInstallNameSpace32 function
 author: windows-sdk-content
 description: Uninstalls a specific 32-bit namespace provider.
 old-location: winsock\wscuninstallnamespace32.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: a2a08159-6ac0-493d-8f9f-d19aa199a65f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSCUnInstallNameSpace32, WSCUninstallNamespace32, WSCUninstallNamespace32 function [Winsock], winsock.wscuninstallnamespace32, ws2spi/WSCUninstallNamespace32
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 x64 Edition [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_PROVIDER_INFO_TYPE
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSCUninstallNamespace32
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSCUnInstallNameSpace32 function

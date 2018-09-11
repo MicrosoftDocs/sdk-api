@@ -4,17 +4,16 @@ title: SetMonitorColorTemperature function
 author: windows-sdk-content
 description: Sets a monitor's color temperature.
 old-location: monitor\setmonitorcolortemperature.htm
-old-project: Monitor
+tech.root: Monitor
 ms.assetid: a7f2753c-810f-41e5-9378-4072e8d4bc38
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: SetMonitorColorTemperature, SetMonitorColorTemperature function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorColorTemperature, monitor.setmonitorcolortemperature
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_SIZE_TYPE
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetMonitorColorTemperature
 product: Windows
 targetos: Windows
-req.lib: Dxva2.lib
-req.dll: Dxva2.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SetMonitorColorTemperature function

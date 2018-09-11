@@ -4,17 +4,16 @@ title: DWRITE_FONT_PROPERTY_ID
 author: windows-sdk-content
 description: Identifies a string in a font.
 old-location: directwrite\dwrite_font_property_id.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 9743F54F-B661-444F-8579-DE03B0891F9C
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_FONT_PROPERTY_ID, DWRITE_FONT_PROPERTY_ID enumeration [Direct Write], DWRITE_FONT_PROPERTY_ID_DESIGN_SCRIPT_LANGUAGE_TAG, DWRITE_FONT_PROPERTY_ID_FACE_NAME, DWRITE_FONT_PROPERTY_ID_FAMILY_NAME, DWRITE_FONT_PROPERTY_ID_FULL_NAME, DWRITE_FONT_PROPERTY_ID_NONE, DWRITE_FONT_PROPERTY_ID_POSTSCRIPT_NAME, DWRITE_FONT_PROPERTY_ID_PREFERRED_FAMILY_NAME, DWRITE_FONT_PROPERTY_ID_SEMANTIC_TAG, DWRITE_FONT_PROPERTY_ID_STRETCH, DWRITE_FONT_PROPERTY_ID_STYLE, DWRITE_FONT_PROPERTY_ID_SUPPORTED_SCRIPT_LANGUAGE_TAG, DWRITE_FONT_PROPERTY_ID_TOTAL, DWRITE_FONT_PROPERTY_ID_WEIGHT, DWRITE_FONT_PROPERTY_ID_WIN32_FAMILY_NAME, directwrite.dwrite_font_property_id, dwrite_3/DWRITE_FONT_PROPERTY_ID, dwrite_3/DWRITE_FONT_PROPERTY_ID_DESIGN_SCRIPT_LANGUAGE_TAG, dwrite_3/DWRITE_FONT_PROPERTY_ID_FACE_NAME, dwrite_3/DWRITE_FONT_PROPERTY_ID_FAMILY_NAME, dwrite_3/DWRITE_FONT_PROPERTY_ID_FULL_NAME, dwrite_3/DWRITE_FONT_PROPERTY_ID_NONE, dwrite_3/DWRITE_FONT_PROPERTY_ID_POSTSCRIPT_NAME, dwrite_3/DWRITE_FONT_PROPERTY_ID_PREFERRED_FAMILY_NAME, dwrite_3/DWRITE_FONT_PROPERTY_ID_SEMANTIC_TAG, dwrite_3/DWRITE_FONT_PROPERTY_ID_STRETCH, dwrite_3/DWRITE_FONT_PROPERTY_ID_STYLE, dwrite_3/DWRITE_FONT_PROPERTY_ID_SUPPORTED_SCRIPT_LANGUAGE_TAG, dwrite_3/DWRITE_FONT_PROPERTY_ID_TOTAL, dwrite_3/DWRITE_FONT_PROPERTY_ID_WEIGHT, dwrite_3/DWRITE_FONT_PROPERTY_ID_WIN32_FAMILY_NAME
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_FONT_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_FONT_PROPERTY_ID enumeration

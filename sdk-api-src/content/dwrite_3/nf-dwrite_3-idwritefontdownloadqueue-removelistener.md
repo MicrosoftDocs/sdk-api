@@ -4,17 +4,16 @@ title: IDWriteFontDownloadQueue::RemoveListener
 author: windows-sdk-content
 description: Unregisters a notification handler that was previously registered using AddListener.
 old-location: directwrite\idwritefontdownloadqueue_removelistener.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: e3470f17-9630-de53-d1ae-ab2a2508a069
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteFontDownloadQueue interface [Direct Write],RemoveListener method, IDWriteFontDownloadQueue.RemoveListener, IDWriteFontDownloadQueue::RemoveListener, RemoveListener, RemoveListener method [Direct Write], RemoveListener method [Direct Write],IDWriteFontDownloadQueue interface, directwrite.idwritefontdownloadqueue_removelistener, dwrite_3/IDWriteFontDownloadQueue::RemoveListener
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontDownloadQueue.RemoveListener
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontDownloadQueue::RemoveListener

@@ -4,17 +4,16 @@ title: ITextFont::GetPosition
 author: windows-sdk-content
 description: Gets the amount that characters are offset vertically relative to the baseline.
 old-location: controls\ITextFont_GetPosition.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getposition.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPosition, GetPosition method [Windows Controls], GetPosition method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetPosition method, ITextFont.GetPosition, ITextFont::GetPosition, _win32_ITextFont_GetPosition, _win32_ITextFont_GetPosition_cpp, controls.ITextFont_GetPosition, controls._win32_ITextFont_GetPosition, tom/ITextFont::GetPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont.GetPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont::GetPosition

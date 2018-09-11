@@ -4,17 +4,16 @@ title: IFsrmStorageModuleImplementation::SaveProperties
 author: windows-sdk-content
 description: Instructs the storage module to save properties associated with a file.
 old-location: fsrm\ifsrmstoragemoduleimplementation_saveproperties.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 4d31db26-9d03-46f3-a902-401f9e0d9767
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmStorageModuleImplementation interface [File Server Resource Manager],SaveProperties method, IFsrmStorageModuleImplementation.SaveProperties, IFsrmStorageModuleImplementation::SaveProperties, SaveProperties, SaveProperties method [File Server Resource Manager], SaveProperties method [File Server Resource Manager],IFsrmStorageModuleImplementation interface, fs.ifsrmstoragemoduleimplementation_saveproperties, fsrm.ifsrmstoragemoduleimplementation_saveproperties, fsrmpipeline/IFsrmStorageModuleImplementation::SaveProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmStorageModuleImplementation.SaveProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmStorageModuleImplementation::SaveProperties

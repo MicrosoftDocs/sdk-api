@@ -4,7 +4,7 @@ title: PHONE_HOOK_SWITCH_STATE
 author: windows-sdk-content
 description: The PHONE_HOOK_SWITCH_STATE enum provides indicators of the phone hookswitch status.
 old-location: tapi3\phone_hook_switch_state.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c9501a3f-1aaa-4d58-aca1-5ef00c31d195
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PHONE_HOOK_SWITCH_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PHONE_HOOK_SWITCH_STATE
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PHONE_HOOK_SWITCH_STATE
+req.redist: 
 ---
 
 # PHONE_HOOK_SWITCH_STATE enumeration

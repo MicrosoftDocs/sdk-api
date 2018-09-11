@@ -4,17 +4,16 @@ title: IRawElementProviderHwndOverride::GetOverrideProviderForHwnd
 author: windows-sdk-content
 description: Gets a UI Automation provider for the specified element.
 old-location: winauto\uiauto_IRawElementProviderHwndOverride_GetOverrideProviderForHwnd.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 595c50eb-871b-41e1-9fab-36cf3de2340f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetOverrideProviderForHwnd, GetOverrideProviderForHwnd method [Windows Accessibility], GetOverrideProviderForHwnd method [Windows Accessibility],IRawElementProviderHwndOverride interface, IRawElementProviderHwndOverride interface [Windows Accessibility],GetOverrideProviderForHwnd method, IRawElementProviderHwndOverride.GetOverrideProviderForHwnd, IRawElementProviderHwndOverride::GetOverrideProviderForHwnd, uiauto.uiauto_IRawElementProviderHwndOverride_GetOverrideProviderForHwnd, uiauto_IRawElementProviderHwndOverride_GetOverrideProviderForHwnd, uiautomationcore/IRawElementProviderHwndOverride::GetOverrideProviderForHwnd, winauto.uiauto_IRawElementProviderHwndOverride_GetOverrideProviderForHwnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawElementProviderHwndOverride.GetOverrideProviderForHwnd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRawElementProviderHwndOverride::GetOverrideProviderForHwnd

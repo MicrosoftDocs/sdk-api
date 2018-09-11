@@ -4,17 +4,16 @@ title: IComponentTypes::get_Item
 author: windows-sdk-content
 description: The get_Item method retrieves the IComponentType interface pointer at the specified index number.
 old-location: mstv\icomponenttypes_get_item.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: be2e6f1b-a9af-4c19-ae25-a096ceee96fc
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponentTypes interface [Microsoft TV Technologies],get_Item method, IComponentTypes.get_Item, IComponentTypes::get_Item, IComponentTypesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IComponentTypes interface, mstv.icomponenttypes_get_item, tuner/IComponentTypes::get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponentTypes.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponentTypes::get_Item
@@ -70,7 +68,7 @@ The index number of the object to retrieve.
 
 ### -param ComponentType
 
-
+TBD
 
 
 

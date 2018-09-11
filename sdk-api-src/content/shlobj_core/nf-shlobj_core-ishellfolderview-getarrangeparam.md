@@ -4,17 +4,16 @@ title: IShellFolderView::GetArrangeParam
 author: windows-sdk-content
 description: Gets the arrangement parameter of the view, which is how the view has been sorted.
 old-location: shell\IShellFolderView_GetArrangeParam.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 15eda2f2-6956-47c1-be08-3ca2f292578e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetArrangeParam, GetArrangeParam method [Windows Shell], GetArrangeParam method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetArrangeParam method, IShellFolderView.GetArrangeParam, IShellFolderView::GetArrangeParam, SHCIDS_ALLFIELDS, SHCIDS_CANONICALONLY, _shell_IShellFolderView_GetArrangeParam, shell.IShellFolderView_GetArrangeParam, shlobj_core/IShellFolderView::GetArrangeParam
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderView.GetArrangeParam
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderView::GetArrangeParam

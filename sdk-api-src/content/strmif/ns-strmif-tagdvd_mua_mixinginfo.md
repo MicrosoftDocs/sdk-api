@@ -4,7 +4,7 @@ title: tagDVD_MUA_MixingInfo
 author: windows-sdk-content
 description: The DVD_MUA_MixingInfo structure describes the surround sound mixing information for the channels in one audio stream in a specified title.
 old-location: dshow\dvd_mua_mixinginfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: df830598-f484-483d-a0dc-e6bd9debbe53
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_MUA_MixingInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_MUA_MixingInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: DVD_MUA_MixingInfo
+req.redist: 
 ---
 
 # tagDVD_MUA_MixingInfo structure

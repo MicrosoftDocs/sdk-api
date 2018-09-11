@@ -4,7 +4,7 @@ title: "_FD_XFORM"
 author: windows-sdk-content
 description: The FD_XFORM structure describes an arbitrary two-dimensional font transform.
 old-location: display\fd_xform.htm
-old-project: display
+tech.root: display
 ms.assetid: 4d15a771-fbf2-46ed-9698-faa3840f5f76
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FD_XFORM, *PFD_XFORM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FD_XFORM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FD_XFORM, *PFD_XFORM
+req.redist: 
 ---
 
 # _FD_XFORM structure

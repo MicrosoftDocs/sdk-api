@@ -4,17 +4,16 @@ title: POINTTOPOINTS macro
 author: windows-sdk-content
 description: The POINTTOPOINTS macro converts a POINT structure to a POINTS structure.
 old-location: gdi\pointtopoints.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 9e9ec2c0-fce6-4205-8299-20ef7ff154e9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: POINTTOPOINTS, POINTTOPOINTS macro [Windows GDI], _win32_POINTTOPOINTS, gdi.pointtopoints, winuser/POINTTOPOINTS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POINTTOPOINTS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # POINTTOPOINTS macro

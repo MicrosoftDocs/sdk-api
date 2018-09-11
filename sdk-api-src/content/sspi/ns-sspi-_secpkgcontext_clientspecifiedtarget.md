@@ -4,17 +4,16 @@ title: "_SecPkgContext_ClientSpecifiedTarget"
 author: windows-sdk-content
 description: Specifies the service principal name (SPN) of the initial target when calling the QueryContextAttributes (Digest) function.
 old-location: security\secpkgcontext_clientspecifiedtarget.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 67536f69-a1fc-4f26-84dc-872635bafa3b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSecPkgContext_ClientSpecifiedTarget, PSecPkgContext_ClientSpecifiedTarget, PSecPkgContext_ClientSpecifiedTarget structure pointer [Security], SecPkgContext_ClientSpecifiedTarget, SecPkgContext_ClientSpecifiedTarget structure [Security], _SecPkgContext_ClientSpecifiedTarget, security.secpkgcontext_clientspecifiedtarget, sspi/PSecPkgContext_ClientSpecifiedTarget, sspi/SecPkgContext_ClientSpecifiedTarget"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_ClientSpecifiedTarget, *PSecPkgContext_ClientSpecifiedTarget
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SecPkgContext_ClientSpecifiedTarget
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SecPkgContext_ClientSpecifiedTarget, *PSecPkgContext_ClientSpecifiedTarget
+req.redist: 
 ---
 
 # _SecPkgContext_ClientSpecifiedTarget structure

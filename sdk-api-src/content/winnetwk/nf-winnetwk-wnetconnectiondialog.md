@@ -4,17 +4,16 @@ title: WNetConnectionDialog function
 author: windows-sdk-content
 description: The WNetConnectionDialog function starts a general browsing dialog box for connecting to network resources. The function requires a handle to the owner window for the dialog box.
 old-location: wnet\wnetconnectiondialog.htm
-old-project: wnet
+tech.root: WNet
 ms.assetid: 2dc383bb-0a1a-4612-88f9-f92c8e2a398d
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: RESOURCETYPE_DISK, WNetConnectionDialog, WNetConnectionDialog function [Windows Networking (WNet)], _win32_wnetconnectiondialog, winnetwk/WNetConnectionDialog, wnet.wnetconnectiondialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WNetConnectionDialog
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNetConnectionDialog function

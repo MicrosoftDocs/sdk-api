@@ -4,17 +4,16 @@ title: IX509Extensions::AddRange
 author: windows-sdk-content
 description: Adds a range of IX509Extension objects to the collection.
 old-location: security\ix509extensions_addrange_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: e2e11b36-966b-497a-a199-41364314d287
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],IX509Extensions interface, IX509Extensions interface [Security],AddRange method, IX509Extensions.AddRange, IX509Extensions::AddRange, certenroll/IX509Extensions::AddRange, security.ix509extensions_addrange_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509Extensions.AddRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Extensions::AddRange

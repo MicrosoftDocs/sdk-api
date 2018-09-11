@@ -4,17 +4,16 @@ title: IX509AttributeCspProvider::get_KeySpec
 author: windows-sdk-content
 description: Retrieves a value that identifies whether the key pair stored by the provider or key container is used for encryption or for signing content.
 old-location: security\ix509attributecspprovider_keyspec_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 4bb04097-9e6c-4b15-852e-be86d21637bf
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509AttributeCspProvider interface [Security],KeySpec property, IX509AttributeCspProvider.KeySpec, IX509AttributeCspProvider.get_KeySpec, IX509AttributeCspProvider::KeySpec, IX509AttributeCspProvider::get_KeySpec, KeySpec property [Security], KeySpec property [Security],IX509AttributeCspProvider interface, certenroll/IX509AttributeCspProvider::KeySpec, certenroll/IX509AttributeCspProvider::get_KeySpec, get_KeySpec, security.ix509attributecspprovider_keyspec_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509AttributeCspProvider.get_KeySpec
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509AttributeCspProvider::get_KeySpec

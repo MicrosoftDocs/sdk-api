@@ -4,17 +4,16 @@ title: ScriptLayout function
 author: windows-sdk-content
 description: Converts an array of run embedding levels to a map of visual-to-logical position and/or logical-to-visual position.
 old-location: intl\scriptlayout.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 6f3c74af-8d7f-4c66-8a11-6408a6897cbe
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ScriptLayout, ScriptLayout function [Internationalization for Windows Applications], _win32_ScriptLayout, intl.scriptlayout, usp10/ScriptLayout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 
-req.redist: Internet Explorer 5 or later on Windows Me/98/95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCRIPT_JUSTIFY
+req.lib: Usp10.lib
+req.dll: Usp10.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ScriptLayout
 product: Windows
 targetos: Windows
-req.lib: Usp10.lib
-req.dll: Usp10.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ---
 
 # ScriptLayout function

@@ -4,17 +4,16 @@ title: ITScriptableAudioFormat::put_Channels
 author: windows-sdk-content
 description: The put_Channels method sets the nChannels member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_channels.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 301fd17f-393b-46dd-9d76-1a1e34547629
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_Channels method, ITScriptableAudioFormat.put_Channels, ITScriptableAudioFormat::put_Channels, _tapi3_itscriptableaudioformat_put_channels, put_Channels, put_Channels method [TAPI 2.2], put_Channels method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_channels, tapi3if/ITScriptableAudioFormat::put_Channels
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITScriptableAudioFormat.put_Channels
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITScriptableAudioFormat::put_Channels

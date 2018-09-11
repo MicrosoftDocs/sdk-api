@@ -4,17 +4,16 @@ title: DsBindByInstanceW function
 author: windows-sdk-content
 description: Explicitly binds to any AD LDS or Active Directory instance.
 old-location: adam\dsbindbyinstance.htm
-old-project: ADAM
+tech.root: ADAM
 ms.assetid: 65302ddc-2bc0-4d80-b028-e268859be227
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: DsBindByInstance, DsBindByInstance function [ADAM], DsBindByInstanceA, DsBindByInstanceW, NTDSAPI_BIND_ALLOW_DELEGATION, NTDSAPI_BIND_FORCE_KERBEROS, adam.dsbindbyinstance, ntdsapi/DsBindByInstance, ntdsapi/DsBindByInstanceA, ntdsapi/DsBindByInstanceW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - DsBindByInstanceW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: ADAM
 ---
 

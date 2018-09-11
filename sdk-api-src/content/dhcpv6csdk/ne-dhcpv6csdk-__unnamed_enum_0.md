@@ -4,7 +4,7 @@ title: StatusCode
 author: windows-sdk-content
 description: The StatusCode enum contains status codes for IPv6 operations.
 old-location: dhcp\statuscode.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: c3d1df82-9f36-4d58-88f0-8a16011f3132
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpv6csdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StatusCode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - StatusCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: StatusCode
+req.redist: 
 ---
 
 # StatusCode enumeration

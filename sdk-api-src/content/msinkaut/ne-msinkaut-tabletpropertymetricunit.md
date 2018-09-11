@@ -4,17 +4,16 @@ title: TabletPropertyMetricUnit
 author: windows-sdk-content
 description: Indicates the unit of measurement of a property.
 old-location: tablet\tabletpropertymetricunit.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: c2258c48-4062-4528-9ebb-21cdbecf70ab
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: TPMU_Centimeters, TPMU_Default, TPMU_Degrees, TPMU_Grams, TPMU_Inches, TPMU_Pounds, TPMU_Radians, TPMU_Seconds, TabletPropertyMetricUnit, TabletPropertyMetricUnit enumeration [Tablet PC], c2258c48-4062-4528-9ebb-21cdbecf70ab, msinkaut/TPMU_Centimeters, msinkaut/TPMU_Default, msinkaut/TPMU_Degrees, msinkaut/TPMU_Grams, msinkaut/TPMU_Inches, msinkaut/TPMU_Pounds, msinkaut/TPMU_Radians, msinkaut/TPMU_Seconds, msinkaut/TabletPropertyMetricUnit, tablet.tabletpropertymetricunit
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TabletPropertyMetricUnit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: TabletPropertyMetricUnit
+req.redist: 
 ---
 
 # TabletPropertyMetricUnit enumeration

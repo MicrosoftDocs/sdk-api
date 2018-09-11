@@ -4,17 +4,16 @@ title: IUIFramework::SetUICommandProperty
 author: windows-sdk-content
 description: Sets a command property, value, or state.
 old-location: windowsribbon\windowsribbon_iuiframework_setuicommandproperty.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\setuicommandproperty.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],SetUICommandProperty method, IUIFramework.SetUICommandProperty, IUIFramework::SetUICommandProperty, SetUICommandProperty, SetUICommandProperty method [Windows Ribbon], SetUICommandProperty method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_SetUICommandProperty, uiribbon/IUIFramework::SetUICommandProperty, windowsribbon.windowsribbon_iuiframework_setuicommandproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_VIEWVERB
+req.lib: 
+req.dll: Mshtml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IUIFramework.SetUICommandProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mshtml.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows UI
 ---
 

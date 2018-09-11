@@ -4,17 +4,16 @@ title: IKnownFolderManager::FolderIdToCsidl
 author: windows-sdk-content
 description: Gets the legacy CSIDL value that is the equivalent of a given KNOWNFOLDERID.
 old-location: shell\IKnownFolderManager_FolderIdToCsidl.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 27bd8c79-34ff-44ee-ad99-aa079af7da89
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: FolderIdToCsidl, FolderIdToCsidl method [Windows Shell], FolderIdToCsidl method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],FolderIdToCsidl method, IKnownFolderManager.FolderIdToCsidl, IKnownFolderManager::FolderIdToCsidl, _shell_IKnownFolderManager_FolderIdToCsidl, shell.IKnownFolderManager_FolderIdToCsidl, shobjidl_core/IKnownFolderManager::FolderIdToCsidl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKnownFolderManager.FolderIdToCsidl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IKnownFolderManager::FolderIdToCsidl

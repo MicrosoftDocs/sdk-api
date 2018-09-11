@@ -4,17 +4,16 @@ title: IDWriteStringList::GetLocaleNameLength
 author: windows-sdk-content
 description: Gets the length in characters (not including the null terminator) of the locale name with the specified index.
 old-location: directwrite\idwritestringlist_getlocalenamelength.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: AB3CDFB6-8B3E-47B1-BB19-C22E0D8D2D5C
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetLocaleNameLength, GetLocaleNameLength method [Direct Write], GetLocaleNameLength method [Direct Write],IDWriteStringList interface, IDWriteStringList interface [Direct Write],GetLocaleNameLength method, IDWriteStringList.GetLocaleNameLength, IDWriteStringList::GetLocaleNameLength, directwrite.idwritestringlist_getlocalenamelength, dwrite_3/IDWriteStringList::GetLocaleNameLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteStringList.GetLocaleNameLength
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteStringList::GetLocaleNameLength

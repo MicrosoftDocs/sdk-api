@@ -4,17 +4,16 @@ title: "_tagADDRESS"
 author: windows-sdk-content
 description: Represents an address. It is used in the STACKFRAME64 structure.
 old-location: base\address64_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: f49249e5-ef02-4e1f-9c08-1c7fe25ee71c
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*LPADDRESS, ADDRESS, ADDRESS structure, ADDRESS64, ADDRESS64 structure, AddrMode1616, AddrMode1632, AddrModeFlat, AddrModeReal, LPADDRESS64, LPADDRESS64 structure pointer, _tagADDRESS, _tagADDRESS64, _win32_address64_str, base.address64_str, dbghelp/ADDRESS64, dbghelp/LPADDRESS64"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADDRESS, *LPADDRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ADDRESS, *LPADDRESS
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _tagADDRESS structure

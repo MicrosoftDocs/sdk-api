@@ -4,7 +4,7 @@ title: "_D3DCONTENTPROTECTIONCAPS"
 author: windows-sdk-content
 description: Describes the content protection capabilities of a display driver.
 old-location: mf\d3dcontentprotectioncaps.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 73ef2e12-d376-4bc2-a940-d421acfdd43e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d9caps.h
 req.include-header: D3d9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DCONTENTPROTECTIONCAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3DCONTENTPROTECTIONCAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3DCONTENTPROTECTIONCAPS
+req.redist: 
 ---
 
 # _D3DCONTENTPROTECTIONCAPS structure

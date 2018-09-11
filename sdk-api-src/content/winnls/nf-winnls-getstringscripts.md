@@ -4,17 +4,16 @@ title: GetStringScripts function
 author: windows-sdk-content
 description: Provides a list of scripts used in the specified Unicode string.
 old-location: intl\getstringscripts.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 82885feb-5d9b-49ea-bcbe-c71597584c59
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GSS_ALLOW_INHERITED_COMMON, GetStringScripts, GetStringScripts function [Internationalization for Windows Applications], _win32_GetStringScripts, intl.getstringscripts, winnls/GetStringScripts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetStringScripts
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetStringScripts function

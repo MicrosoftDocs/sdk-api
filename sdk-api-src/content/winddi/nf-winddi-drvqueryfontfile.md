@@ -4,17 +4,16 @@ title: DrvQueryFontFile function
 author: windows-sdk-content
 description: The DrvQueryFontFile function provides font file information.
 old-location: display\drvqueryfontfile.htm
-old-project: display
+tech.root: display
 ms.assetid: 4d853dbd-0448-43c3-9f01-13b7118a0743
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvQueryFontFile, DrvQueryFontFile function [Display Devices], ddifncs_e1440df7-d91a-4c86-b43b-10a5c5b7aab9.xml, display.drvqueryfontfile, winddi/DrvQueryFontFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvQueryFontFile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvQueryFontFile function

@@ -4,7 +4,7 @@ title: EMI_MEASUREMENT_UNIT
 author: windows-sdk-content
 description: The EMI_MEASUREMENT_UNIT enumeration represents the available units of energy measurements that can be retrieved from a device by using IOCTL_EMI_GET_MEASUREMENT.
 old-location: powermeter\emi_measurement_unit.htm
-old-project: powermeter
+tech.root: powermeter
 ms.assetid: 02152942-A024-4D53-962A-A2ECF7E7D50C
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: emi.h
 req.include-header: Emi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMI_MEASUREMENT_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EMI_MEASUREMENT_UNIT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EMI_MEASUREMENT_UNIT
+req.redist: 
 ---
 
 # EMI_MEASUREMENT_UNIT enumeration

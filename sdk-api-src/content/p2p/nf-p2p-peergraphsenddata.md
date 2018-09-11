@@ -4,17 +4,16 @@ title: PeerGraphSendData function
 author: windows-sdk-content
 description: The PeerGraphSendData function sends data to a neighbor node or a directly connected node.
 old-location: p2p\peergraphsenddata.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 8ccb6f37-cb1b-41fd-a852-5a84cb5506f5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerGraphSendData, PeerGraphSendData function [Peer Networking], p2p.peergraphsenddata, p2p/PeerGraphSendData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2PGraph.lib
+req.dll: P2PGraph.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerGraphSendData
 product: Windows
 targetos: Windows
-req.lib: P2PGraph.lib
-req.dll: P2PGraph.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerGraphSendData function

@@ -4,7 +4,7 @@ title: IContextMenuCallback2
 author: windows-sdk-content
 description: The IContextMenuCallback2 interface is used to add menu items to a context menu. This interface supersedes IContextMenuCallback.
 old-location: mmc\icontextmenucallback2.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 97f0f574-6575-4be6-9c30-ed68e3438d30
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: Mmc.lib
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContextMenuCallback2
 product: Windows
 targetos: Windows
-req.lib: Mmc.lib
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContextMenuCallback2 interface

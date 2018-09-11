@@ -4,7 +4,7 @@ title: tagAnalogVideoStandard
 author: windows-sdk-content
 description: The AnalogVideoStandard enumeration specifies the format of an analog television signal.
 old-location: dshow\analogvideostandard.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6760a40c-550c-4774-a5d1-d7e2a6aa6096
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AnalogVideoStandard
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AnalogVideoStandard
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: AnalogVideoStandard
+req.redist: 
 ---
 
 # tagAnalogVideoStandard enumeration

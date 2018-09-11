@@ -4,7 +4,7 @@ title: "_MPE_ELEMENT"
 author: windows-sdk-content
 description: The MPE_ELEMENT structure contains information from a multi-protocol encapsulation (MPE) element.
 old-location: mstv\mpe_element.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 2753160b-de52-4d62-960a-c200c6f5f29a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPE_ELEMENT, *PMPE_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPE_ELEMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPE_ELEMENT, *PMPE_ELEMENT
+req.redist: 
 ---
 
 # _MPE_ELEMENT structure

@@ -4,17 +4,16 @@ title: X509CertificateTemplatePrivateKeyFlag
 author: windows-sdk-content
 description: Contains values that specify client actions regarding a private key.
 old-location: security\x509certificatetemplateprivatekeyflag.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: b908b5fb-9089-493d-9ef4-1fe429ec43d4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: PrivateKeyExportable, PrivateKeyRequireAlternateSignatureAlgorithm, PrivateKeyRequireArchival, PrivateKeyRequireStrongKeyProtection, X509CertificateTemplatePrivateKeyFlag, X509CertificateTemplatePrivateKeyFlag enumeration [Security], certenroll/PrivateKeyExportable, certenroll/PrivateKeyRequireAlternateSignatureAlgorithm, certenroll/PrivateKeyRequireArchival, certenroll/PrivateKeyRequireStrongKeyProtection, certenroll/X509CertificateTemplatePrivateKeyFlag, security.x509certificatetemplateprivatekeyflag
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509CertificateTemplatePrivateKeyFlag
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X509CertificateTemplatePrivateKeyFlag
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: X509CertificateTemplatePrivateKeyFlag
+req.redist: 
 ---
 
 # X509CertificateTemplatePrivateKeyFlag enumeration

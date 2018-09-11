@@ -4,17 +4,16 @@ title: CryptSIPCreateIndirectData function
 author: windows-sdk-content
 description: Returns a SIP_INDIRECT_DATA structure that contains a hash of the supplied SIP_SUBJECTINFO structure, the digest algorithm, and an encoding attribute. The hash can be used as an indirect reference to the data.
 old-location: security\cryptsipcreateindirectdata.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: bb4ecc95-972f-415c-9722-59b00a27cddc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptSIPCreateIndirectData, CryptSIPCreateIndirectData function [Security], mssip/CryptSIPCreateIndirectData, security.cryptsipcreateindirectdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mssip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SimilarityFileId
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptSIPCreateIndirectData
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CryptSIPCreateIndirectData function

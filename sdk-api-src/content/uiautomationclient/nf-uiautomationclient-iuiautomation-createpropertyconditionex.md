@@ -4,17 +4,16 @@ title: IUIAutomation::CreatePropertyConditionEx
 author: windows-sdk-content
 description: Creates a condition that selects elements that have a property with the specified value, using optional flags.
 old-location: winauto\uiauto_IUIAutomation_CreatePropertyConditionEx.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: dc7ad9e8-b315-40b1-af02-997a38c4ee66
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreatePropertyConditionEx, CreatePropertyConditionEx method [Windows Accessibility], CreatePropertyConditionEx method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreatePropertyConditionEx method, IUIAutomation.CreatePropertyConditionEx, IUIAutomation::CreatePropertyConditionEx, uiauto.uiauto_IUIAutomation_CreatePropertyConditionEx, uiauto_IUIAutomation_CreatePropertyConditionEx, uiautomationclient/IUIAutomation::CreatePropertyConditionEx, winauto.uiauto_IUIAutomation_CreatePropertyConditionEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomation.CreatePropertyConditionEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation::CreatePropertyConditionEx
@@ -74,9 +72,9 @@ Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe
 The property value.
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param newCondition [out, retval]

@@ -4,17 +4,16 @@ title: ClusterEnum function
 author: windows-sdk-content
 description: Enumerates the cluster objects in a cluster, returning the name of one object with each call.
 old-location: mscs\clusterenum.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: a7511ac6-04cb-407b-90aa-3382c5160cb6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_ENUM_ALL, CLUSTER_ENUM_GROUP, CLUSTER_ENUM_INTERNAL_NETWORK, CLUSTER_ENUM_NETINTERFACE, CLUSTER_ENUM_NETWORK, CLUSTER_ENUM_NODE, CLUSTER_ENUM_RESOURCE, CLUSTER_ENUM_RESTYPE, CLUSTER_ENUM_SHARED_VOLUME_RESOURCE, ClusterEnum, ClusterEnum function [Failover Cluster], PCLUSAPI_CLUSTER_ENUM, PCLUSAPI_CLUSTER_ENUM function [Failover Cluster], _wolf_clusterenum, clusapi/ClusterEnum, clusapi/PCLUSAPI_CLUSTER_ENUM, mscs.clusterenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - ClusterEnum
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterEnum function

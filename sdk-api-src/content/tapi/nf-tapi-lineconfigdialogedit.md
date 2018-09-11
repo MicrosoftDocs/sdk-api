@@ -4,17 +4,16 @@ title: lineConfigDialogEdit function
 author: windows-sdk-content
 description: The lineConfigDialogEdit function causes the provider of the specified line device to display a dialog box (attached to hwndOwner of the application) to allow the user to configure parameters related to the line device.
 old-location: tapi2\lineconfigdialogedit.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 417016c3-8053-4a70-bce4-b96cce5e09a5
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: "_tapi2_lineconfigdialogedit, lineConfigDialogEdit, lineConfigDialogEdit function [TAPI 2.2], lineConfigDialogEditA, lineConfigDialogEditW, tapi/lineConfigDialogEdit, tapi/lineConfigDialogEditA, tapi/lineConfigDialogEditW, tapi2.lineconfigdialogedit"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - lineConfigDialogEditW
 product: Windows
 targetos: Windows
-req.lib: Tapi32.lib
-req.dll: Tapi32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # lineConfigDialogEdit function

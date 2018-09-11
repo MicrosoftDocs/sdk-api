@@ -4,17 +4,16 @@ title: TSPI_lineSetTerminal function
 author: windows-sdk-content
 description: The TSPI_lineSetTerminal function enables TAPI to specify to which terminal information related to the specified line, address, or call is to be routed.
 old-location: tspi\tspi_linesetterminal.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 106451b0-4491-472d-b73a-5d8333f0a372
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineSetTerminal, TSPI_lineSetTerminal function [TAPI 2.2], _tspi_tspi_linesetterminal, tspi.tspi_linesetterminal, tspi/TSPI_lineSetTerminal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineSetTerminal
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineSetTerminal function

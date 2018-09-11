@@ -4,7 +4,7 @@ title: "_WTS_SERVER_INFOW"
 author: windows-sdk-content
 description: Contains information about a specific Remote Desktop Services server.
 old-location: termserv\wts_server_info.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: c7ba5a94-37ff-408f-9a77-91b07c28b7ce
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_SERVER_INFOW, *PWTS_SERVER_INFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WTS_SERVER_INFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WTS_SERVER_INFOW, *PWTS_SERVER_INFOW
+req.redist: 
 ---
 
 # _WTS_SERVER_INFOW structure

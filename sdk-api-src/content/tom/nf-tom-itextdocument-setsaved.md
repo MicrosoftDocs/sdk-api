@@ -4,17 +4,16 @@ title: ITextDocument::SetSaved
 author: windows-sdk-content
 description: Sets the document Saved property.
 old-location: controls\ITextDocument_SetSaved.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsaved.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextDocument interface [Windows Controls],SetSaved method, ITextDocument.SetSaved, ITextDocument::SetSaved, SetSaved, SetSaved method [Windows Controls], SetSaved method [Windows Controls],ITextDocument interface, _win32_ITextDocument_SetSaved, _win32_ITextDocument_SetSaved_cpp, controls.ITextDocument_SetSaved, controls._win32_ITextDocument_SetSaved, tom/ITextDocument::SetSaved, tomFalse, tomTrue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextDocument.SetSaved
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextDocument::SetSaved
@@ -63,7 +61,7 @@ Sets the document
 
 ### -param Value
 
-
+TBD
 
 
 

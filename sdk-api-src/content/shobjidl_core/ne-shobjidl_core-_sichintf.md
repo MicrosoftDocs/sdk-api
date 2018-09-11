@@ -4,17 +4,16 @@ title: "_SICHINTF"
 author: windows-sdk-content
 description: Used to determine how to compare two Shell items. IShellItem::Compare uses this enumerated type.
 old-location: shell\SICHINT.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4d333302-5be3-4e8d-9018-e42729df0cc3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SICHINTF, SICHINTF enumeration [Windows Shell], SICHINT_ALLFIELDS, SICHINT_CANONICAL, SICHINT_DISPLAY, SICHINT_TEST_FILESYSPATH_IF_NOT_EQUAL, _SICHINTF, inet_SICHINT, shell.SICHINT, shobjidl_core/SICHINTF, shobjidl_core/SICHINT_ALLFIELDS, shobjidl_core/SICHINT_CANONICAL, shobjidl_core/SICHINT_DISPLAY, shobjidl_core/SICHINT_TEST_FILESYSPATH_IF_NOT_EQUAL
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SICHINTF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # _SICHINTF enumeration

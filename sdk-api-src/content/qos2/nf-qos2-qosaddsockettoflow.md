@@ -4,17 +4,16 @@ title: QOSAddSocketToFlow function
 author: windows-sdk-content
 description: Adds a new flow for traffic.
 old-location: qos\qosaddsockettoflow.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 44136284-b553-446e-a95f-1eac476a7143
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: QOSAddSocketToFlow, QOSAddSocketToFlow function [QOS], QOS_NON_ADAPTIVE_FLOW, qos.qosaddsockettoflow, qos2/QOSAddSocketToFlow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: qos2.h
 req.include-header: Qos2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
+req.lib: Qwave.lib
+req.dll: Qwave.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOSAddSocketToFlow
 product: Windows
 targetos: Windows
-req.lib: Qwave.lib
-req.dll: Qwave.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # QOSAddSocketToFlow function

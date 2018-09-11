@@ -4,7 +4,7 @@ title: "_FILE_ALLOCATION_INFO"
 author: windows-sdk-content
 description: Contains the total number of bytes that should be allocated for a file.
 old-location: fs\file_allocation_info.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 909f1747-0099-407e-89a7-bec6331887da
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: Windows SDK on Windows Server 2003 and Windows XP.
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_ALLOCATION_INFO, *PFILE_ALLOCATION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FILE_ALLOCATION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FILE_ALLOCATION_INFO, *PFILE_ALLOCATION_INFO
+req.redist: Windows SDK on Windows Server 2003 and Windows XP.
 ---
 
 # _FILE_ALLOCATION_INFO structure

@@ -4,17 +4,16 @@ title: SHResolveLibrary function
 author: windows-sdk-content
 description: Resolves all locations in a library, even those locations that have been moved or renamed.
 old-location: shell\SHResolveLibrary.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a8730c09-f872-4bf8-9482-9dd5af31b509
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHResolveLibrary, SHResolveLibrary function [Windows Shell], _shell_SHResolveLibrary, shell.SHResolveLibrary, shobjidl_core/SHResolveLibrary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHResolveLibrary
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHResolveLibrary function

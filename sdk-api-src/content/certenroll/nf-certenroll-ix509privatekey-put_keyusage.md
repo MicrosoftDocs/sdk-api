@@ -4,17 +4,16 @@ title: IX509PrivateKey::put_KeyUsage
 author: windows-sdk-content
 description: Specifies or retrieves a value that identifies the specific purpose for which a private key can be used.
 old-location: security\ix509privatekey_keyusage.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: e983c95b-6b3a-4e27-8a23-ef9051b11a16
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509PrivateKey interface [Security],KeyUsage property, IX509PrivateKey.KeyUsage, IX509PrivateKey.put_KeyUsage, IX509PrivateKey::KeyUsage, IX509PrivateKey::get_KeyUsage, IX509PrivateKey::put_KeyUsage, KeyUsage property [Security], KeyUsage property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::KeyUsage, certenroll/IX509PrivateKey::get_KeyUsage, certenroll/IX509PrivateKey::put_KeyUsage, put_KeyUsage, security.ix509privatekey_keyusage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509PrivateKey.put_KeyUsage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PrivateKey::put_KeyUsage

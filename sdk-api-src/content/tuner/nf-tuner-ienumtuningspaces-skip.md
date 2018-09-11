@@ -4,17 +4,16 @@ title: IEnumTuningSpaces::Skip
 author: windows-sdk-content
 description: The Skip method skips the specified element in the collection.
 old-location: mstv\ienumtuningspaces_skip.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 5449fca0-4b8d-402e-b444-e7bc314e47b3
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IEnumTuningSpaces interface [Microsoft TV Technologies],Skip method, IEnumTuningSpaces.Skip, IEnumTuningSpaces::Skip, IEnumTuningSpacesSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumTuningSpaces interface, mstv.ienumtuningspaces_skip, tuner/IEnumTuningSpaces::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumTuningSpaces.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumTuningSpaces::Skip

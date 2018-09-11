@@ -4,7 +4,7 @@ title: IOfflineFilesTransparentCacheInfo
 author: windows-sdk-content
 description: Represents information associated with transparently cached items.
 old-location: of\iofflinefilestransparentcacheinfo.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 49c8213c-e8a1-4cb8-9b58-120fc0982b7b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesTransparentCacheInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesTransparentCacheInfo interface

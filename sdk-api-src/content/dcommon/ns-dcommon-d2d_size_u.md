@@ -4,7 +4,7 @@ title: D2D_SIZE_U
 author: windows-sdk-content
 description: Stores an ordered pair of integers, typically the width and height of a rectangle.
 old-location: direct2d\D2D_SIZE_U.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: d9ea9df5-7c5f-4afa-9859-14d77b017904
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dcommon.h
 req.include-header: D2d1.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_SIZE_U
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D_SIZE_U
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D_SIZE_U
+req.redist: 
 ---
 
 # D2D_SIZE_U structure

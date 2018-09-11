@@ -4,17 +4,16 @@ title: IFsrmRule::put_RuleFlags
 author: windows-sdk-content
 description: The flags that define the state of the rule.
 old-location: fsrm\ifsrmrule_ruleflags.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: c656115a-a0d4-4860-9756-98df84c1672f
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],RuleFlags property, IFsrmRule.RuleFlags, IFsrmRule.put_RuleFlags, IFsrmRule::RuleFlags, IFsrmRule::get_RuleFlags, IFsrmRule::put_RuleFlags, RuleFlags property [File Server Resource Manager], RuleFlags property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_ruleflags, fsrm.ifsrmrule_ruleflags, fsrmpipeline/IFsrmRule::RuleFlags, fsrmpipeline/IFsrmRule::get_RuleFlags, fsrmpipeline/IFsrmRule::put_RuleFlags, put_RuleFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmRule.put_RuleFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmRule::put_RuleFlags

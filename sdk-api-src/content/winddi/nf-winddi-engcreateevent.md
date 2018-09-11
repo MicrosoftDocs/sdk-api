@@ -4,17 +4,16 @@ title: EngCreateEvent function
 author: windows-sdk-content
 description: The EngCreateEvent function creates a synchronization event object that can be used to synchronize hardware access between a display driver and the video miniport driver.
 old-location: display\engcreateevent.htm
-old-project: display
+tech.root: display
 ms.assetid: 0fe4c840-ba85-492c-ac3d-b7c8639d1210
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngCreateEvent, EngCreateEvent function [Display Devices], display.engcreateevent, gdifncs_d8f6efc2-d0a2-4790-88c5-16e4487e2ce2.xml, winddi/EngCreateEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: This function is available in Windows XP and later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngCreateEvent
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngCreateEvent function

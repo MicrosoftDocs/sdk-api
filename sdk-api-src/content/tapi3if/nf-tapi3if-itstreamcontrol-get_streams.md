@@ -4,17 +4,16 @@ title: ITStreamControl::get_Streams
 author: windows-sdk-content
 description: The get_Streams method creates a collection of media streams currently available on the call. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateStreams method.
 old-location: tapi3\itstreamcontrol_get_streams.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 4d001f5a-7731-47b9-8c68-e4dd2d0bf02f
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITStreamControl interface [TAPI 2.2],get_Streams method, ITStreamControl.get_Streams, ITStreamControl::get_Streams, _tapi3_itstreamcontrol_get_streams, get_Streams, get_Streams method [TAPI 2.2], get_Streams method [TAPI 2.2],ITStreamControl interface, tapi3.itstreamcontrol_get_streams, tapi3if/ITStreamControl::get_Streams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITStreamControl.get_Streams
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITStreamControl::get_Streams

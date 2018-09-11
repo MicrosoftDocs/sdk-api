@@ -4,17 +4,16 @@ title: IShellItemResources::GetTimes
 author: windows-sdk-content
 description: Gets file times.
 old-location: shell\IShellItemResources_GetTimes.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4857b824-2b58-4c26-bbab-8a799d20f584
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetTimes, GetTimes method [Windows Shell], GetTimes method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],GetTimes method, IShellItemResources.GetTimes, IShellItemResources::GetTimes, _shell_IShellItemResources_GetTimes, shell.IShellItemResources_GetTimes, shobjidl_core/IShellItemResources::GetTimes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellItemResources.GetTimes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellItemResources::GetTimes

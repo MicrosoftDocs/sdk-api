@@ -4,17 +4,16 @@ title: ICertProperties::Remove
 author: windows-sdk-content
 description: Removes a property from the collection by index value.
 old-location: security\icertproperties_remove_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 7ee9e624-6f27-4177-9711-7062cb10f77b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertProperties interface [Security],Remove method, ICertProperties.Remove, ICertProperties::Remove, Remove, Remove method [Security], Remove method [Security],ICertProperties interface, certenroll/ICertProperties::Remove, security.icertproperties_remove_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertProperties.Remove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertProperties::Remove

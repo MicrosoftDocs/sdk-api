@@ -4,17 +4,16 @@ title: ITextRange::Delete
 author: windows-sdk-content
 description: Mimics the DELETE and BACKSPACE keys, with and without the CTRL key depressed.
 old-location: controls\ITextRange_Delete.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\delete.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Delete, Delete method [Windows Controls], Delete method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Delete method, ITextRange.Delete, ITextRange::Delete, _win32_ITextRange_Delete, _win32_ITextRange_Delete_cpp, controls.ITextRange_Delete, controls._win32_ITextRange_Delete, tom/ITextRange::Delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange.Delete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange::Delete

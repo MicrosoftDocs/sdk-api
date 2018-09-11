@@ -4,17 +4,16 @@ title: ICameraControl::put_FocusRelative
 author: windows-sdk-content
 description: The put_FocusRelative method sets the relative focus. The relative focus indicates the direction in which the lens group is moving.
 old-location: dshow\icameracontrol_put_focusrelative.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d40edc5d-8fa2-4e3a-8aab-c51da0ac8036
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICameraControl interface [DirectShow],put_FocusRelative method, ICameraControl.put_FocusRelative, ICameraControl::put_FocusRelative, ICameraControlput_FocusRelative, dshow.icameracontrol_put_focusrelative, put_FocusRelative, put_FocusRelative method [DirectShow], put_FocusRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_FocusRelative
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICameraControl.put_FocusRelative
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICameraControl::put_FocusRelative

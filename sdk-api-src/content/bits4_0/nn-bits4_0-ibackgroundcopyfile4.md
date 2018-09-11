@@ -4,7 +4,7 @@ title: IBackgroundCopyFile4
 author: windows-sdk-content
 description: Use this interface to retrieve download statistics for peers and origin servers.
 old-location: bits\ibackgroundcopyfile4.htm
-old-project: bits
+tech.root: bits
 ms.assetid: d404c4f8-cc97-4254-bca8-41bc359f0777
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits4_0.h
 req.include-header: 
-req.redist: Windows Management Framework on  Windows Vista with SP1,  Windows Vista with SP2, and  Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyFile4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: Windows Management Framework on  Windows Vista with SP1,  Windows Vista with SP2, and  Windows Server 2008 with SP2
 ---
 
 # IBackgroundCopyFile4 interface

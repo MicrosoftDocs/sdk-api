@@ -4,17 +4,16 @@ title: IApiTracingDataCollector::put_ExePath
 author: windows-sdk-content
 description: Retrieves or sets the path to the executable file whose API calls you want to trace.
 old-location: pla\iapitracingdatacollector_exepath.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: aa2239f0-b70e-491f-8a88-b41d429e8bb2
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ExePath property [PLA], ExePath property [PLA],IApiTracingDataCollector interface, IApiTracingDataCollector interface [PLA],ExePath property, IApiTracingDataCollector.ExePath, IApiTracingDataCollector.put_ExePath, IApiTracingDataCollector::ExePath, IApiTracingDataCollector::get_ExePath, IApiTracingDataCollector::put_ExePath, base.iapitracingdatacollector_exepath, pla.iapitracingdatacollector_exepath, pla/IApiTracingDataCollector::ExePath, pla/IApiTracingDataCollector::get_ExePath, pla/IApiTracingDataCollector::put_ExePath, put_ExePath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IApiTracingDataCollector.put_ExePath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IApiTracingDataCollector::put_ExePath

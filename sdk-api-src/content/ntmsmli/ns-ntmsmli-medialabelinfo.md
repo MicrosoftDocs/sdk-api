@@ -4,17 +4,16 @@ title: MediaLabelInfo
 author: windows-sdk-content
 description: The MediaLabelInfo structure conveys information to the RSM database about a tape OMID. The media label library fills in this structure for all media labels the library recognizes.
 old-location: fs\medialabelinfo.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 8641e9e6-e251-4bf9-935a-f8888705f9a1
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: "*pMediaLabelInfo, MediaLabelInfo, MediaLabelInfo structure [Files], _zaw_medialabelinfo, base.medialabelinfo, fs.medialabelinfo, ntmsmli/MediaLabelInfo"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsmli.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MediaLabelInfo, *pMediaLabelInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MediaLabelInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: MediaLabelInfo, *pMediaLabelInfo
+req.redist: 
 ---
 
 # MediaLabelInfo structure

@@ -4,7 +4,7 @@ title: IOfflineFilesConnectionInfo
 author: windows-sdk-content
 description: Presents query and action capabilities associated with the online-offline transition behavior of Offline Files.
 old-location: of\iofflinefilesconnectioninfo.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 923c5657-67e7-498a-a46b-97d44368cf3b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesConnectionInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesConnectionInfo interface

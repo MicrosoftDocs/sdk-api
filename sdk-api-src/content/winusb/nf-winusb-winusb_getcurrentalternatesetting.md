@@ -4,17 +4,16 @@ title: WinUsb_GetCurrentAlternateSetting function
 author: windows-sdk-content
 description: The WinUsb_GetCurrentAlternateSetting function gets the current alternate interface setting for an interface. This is a synchronous operation.
 old-location: buses\winusb_getcurrentalternatesetting.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: a644eb68-2192-4927-ac67-77384f8cf2b6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WinUsb_GetCurrentAlternateSetting, WinUsb_GetCurrentAlternateSetting function [Buses], buses.winusb_getcurrentalternatesetting, winusb/WinUsb_GetCurrentAlternateSetting, winusbfunc_26a4514e-edde-432d-aac7-c4d2466c70c3.xml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+req.lib: Winusb.lib
+req.dll: Winusb.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinUsb_GetCurrentAlternateSetting
 product: Windows
 targetos: Windows
-req.lib: Winusb.lib
-req.dll: Winusb.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WinUsb_GetCurrentAlternateSetting function

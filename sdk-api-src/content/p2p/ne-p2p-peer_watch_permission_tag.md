@@ -4,7 +4,7 @@ title: peer_watch_permission_tag
 author: windows-sdk-content
 description: Defines whether a peer contact can receive presence updates from a contact.
 old-location: p2p\peer_watch_permission.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: e3f4a1e6-6ac8-48f8-8480-0cf60c9b4ce9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_WATCH_PERMISSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_WATCH_PERMISSION
+req.redist: 
 ---
 
 # peer_watch_permission_tag enumeration

@@ -4,7 +4,7 @@ title: ID3D12Device3
 author: windows-sdk-content
 description: Represents a virtual adapter. This interface extends Id3d12device2 to support the creation of special-purpose diagnostic heaps in system memory that persist even in the event of a GPU-fault or device-removed scenario.
 old-location: direct3d12\id3d12device3.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 038E546C-4000-401A-8A11-7A83F391676E
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Id3d12device3
 product: Windows
 targetos: Windows
-req.lib: D3D12.lib
-req.dll: D3D12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12Device3 interface

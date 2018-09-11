@@ -4,17 +4,16 @@ title: IIsoImageManager::get_Path
 author: windows-sdk-content
 description: Retrives the logical path to an .iso image.
 old-location: imapi\iisoimagemanager_get_path.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 56166789-8eeb-4468-a85e-b35e665170d6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IIsoImageManager interface [IMAPI],get_Path method, IIsoImageManager.get_Path, IIsoImageManager::get_Path, get_Path, get_Path method [IMAPI], get_Path method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_get_path, imapi2fs/IIsoImageManager::get_Path
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsoImageManager.get_Path
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IIsoImageManager::get_Path

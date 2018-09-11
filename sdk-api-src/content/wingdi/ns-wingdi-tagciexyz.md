@@ -4,17 +4,16 @@ title: tagCIEXYZ
 author: windows-sdk-content
 description: The CIEXYZ structure contains the x,y, and z coordinates of a specific color in a specified color space.
 old-location: wcs\ciexyz.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: 3735c143-8eb3-4b91-a81e-5bc6bda1dfaa
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPCIEXYZ, CIEXYZ, CIEXYZ FAR* LPCIEXYZ, CIEXYZ FAR* LPCIEXYZ structure [Windows Color System], CIEXYZ structure [Windows Color System], _color_CIEXYZ_str, tagCIEXYZ, wcs.ciexyz, wingdi/CIEXYZ, wingdi/CIEXYZ FAR* LPCIEXYZ"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CIEXYZ
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CIEXYZ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CIEXYZ
+req.redist: 
 ---
 
 # tagCIEXYZ structure

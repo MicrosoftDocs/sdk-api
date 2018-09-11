@@ -4,17 +4,16 @@ title: IMSVidAnalogTuner2::get_NumAuxInputs
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\imsvidanalogtuner2_get_numauxinputs.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 72e3c0eb-4c65-4782-b799-80bf968e736a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidAnalogTuner2 interface [Microsoft TV Technologies],get_NumAuxInputs method, IMSVidAnalogTuner2.get_NumAuxInputs, IMSVidAnalogTuner2::get_NumAuxInputs, IMSVidAnalogTuner2getNumAuxInputs, get_NumAuxInputs, get_NumAuxInputs method [Microsoft TV Technologies], get_NumAuxInputs method [Microsoft TV Technologies],IMSVidAnalogTuner2 interface, mstv.imsvidanalogtuner2_get_numauxinputs, segment/IMSVidAnalogTuner2::get_NumAuxInputs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidAnalogTuner2.get_NumAuxInputs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidAnalogTuner2::get_NumAuxInputs

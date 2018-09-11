@@ -4,17 +4,16 @@ title: ITocParser::RemoveTocByType
 author: windows-sdk-content
 description: The RemoveTocByType method removes all tables of contents of a specified type from the TOC Parser object.
 old-location: mf\itocparser_removetocbytype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e3d32dc9-ccae-46fd-9dd4-62e300981da0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ITocParser interface [Media Foundation],RemoveTocByType method, ITocParser.RemoveTocByType, ITocParser::RemoveTocByType, RemoveTocByType, RemoveTocByType method [Media Foundation], RemoveTocByType method [Media Foundation],ITocParser interface, codecapi.itocparser_removetocbytype, mf.itocparser_removetocbytype, wmcodecdsp/ITocParser::RemoveTocByType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITocParser.RemoveTocByType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ITocParser::RemoveTocByType
@@ -60,9 +58,9 @@ The <b>RemoveTocByType</b> method removes all tables of contents of a specified 
 
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param guidTocType [in]

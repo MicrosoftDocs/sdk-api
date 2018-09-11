@@ -4,17 +4,16 @@ title: LongToULongLong function
 author: windows-sdk-content
 description: Converts a value of type LONG to a value of type ULONGLONG.
 old-location: shell\LongToULongLong.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6ad0e928-b09b-41d7-be5a-fea9219edf4b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: LongToULongLong, LongToULongLong function [Windows Shell], _shell_LongToULongLong, intsafe/LongToULongLong, shell.LongToULongLong
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LongToULongLong
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # LongToULongLong function

@@ -4,17 +4,16 @@ title: IRawCDImageCreator::put_StartOfLeadoutLimit
 author: windows-sdk-content
 description: Sets the StartOfLeadoutLimit property value.
 old-location: imapi\irawcdimagecreator_put_startofleadoutlimit.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: e3483084-8339-4fe6-abd1-832832c549f3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_StartOfLeadoutLimit method, IRawCDImageCreator.put_StartOfLeadoutLimit, IRawCDImageCreator::put_StartOfLeadoutLimit, imapi.irawcdimagecreator_put_startofleadoutlimit, imapi2/IRawCDImageCreator::put_StartOfLeadoutLimit, put_StartOfLeadoutLimit, put_StartOfLeadoutLimit method [IMAPI], put_StartOfLeadoutLimit method [IMAPI],IRawCDImageCreator interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawCDImageCreator.put_StartOfLeadoutLimit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRawCDImageCreator::put_StartOfLeadoutLimit

@@ -4,7 +4,7 @@ title: "_D3D11_PARAMETER_DESC"
 author: windows-sdk-content
 description: Describes a function parameter.
 old-location: direct3d11\d3d11_parameter_desc.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: C6F1079C-A686-44EA-933B-9DE2D70CFA33
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_PARAMETER_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_PARAMETER_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_PARAMETER_DESC
+req.redist: 
 ---
 
 # _D3D11_PARAMETER_DESC structure

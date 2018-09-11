@@ -4,17 +4,16 @@ title: IDirectXVideoProcessorService::GetProcAmpRange
 author: windows-sdk-content
 description: Gets the range of values for a video processor (ProcAmp) setting.
 old-location: mf\idirectxvideoprocessorservice_getprocamprange.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b4945e2f-6907-4e02-9719-89c8e0bf1404
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetProcAmpRange, GetProcAmpRange method [Media Foundation], GetProcAmpRange method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetProcAmpRange method, IDirectXVideoProcessorService.GetProcAmpRange, IDirectXVideoProcessorService::GetProcAmpRange, b4945e2f-6907-4e02-9719-89c8e0bf1404, dxva2api/IDirectXVideoProcessorService::GetProcAmpRange, mf.idirectxvideoprocessorservice_getprocamprange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirectXVideoProcessorService.GetProcAmpRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectXVideoProcessorService::GetProcAmpRange
@@ -82,7 +80,7 @@ The format of the render target surface, specified as a <b>D3DFORMAT</b> value. 
 
 ### -param ProcAmpCap
 
-
+TBD
 
 
 ### -param pRange [out]

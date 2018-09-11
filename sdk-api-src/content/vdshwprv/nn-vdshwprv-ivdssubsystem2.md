@@ -4,17 +4,16 @@ title: IVdsSubSystem2
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a subsystem using the VDS_HINTS2 and VDS_SUB_SYSTEM_PROP2 structures.
 old-location: base\ivdssubsystem2.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 7d19792c-cd37-4ea7-8830-c33c489e63e6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsSubSystem2, IVdsSubSystem2 interface, IVdsSubSystem2 interface,described, base.ivdssubsystem2, vds/IVdsSubSystem2, vdshwprv/IVdsSubSystem2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSubSystem2
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsSubSystem2 interface

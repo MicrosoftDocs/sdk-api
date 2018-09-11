@@ -4,17 +4,16 @@ title: PowerReplaceDefaultPowerSchemes function
 author: windows-sdk-content
 description: Replaces the default power schemes with the current user's power schemes.
 old-location: base\powerreplacedefaultpowerschemes.htm
-old-project: power
+tech.root: power
 ms.assetid: 0d028ed9-3505-4f08-b064-14cbc8172ce0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PowerReplaceDefaultPowerSchemes, PowerReplaceDefaultPowerSchemes function, base.powerreplacedefaultpowerschemes, powrprof/PowerReplaceDefaultPowerSchemes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PowerReplaceDefaultPowerSchemes
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PowerReplaceDefaultPowerSchemes function

@@ -4,17 +4,16 @@ title: IWMDRMReader2::SetEvaluateOutputLevelLicenses
 author: windows-sdk-content
 description: The SetEvaluateOutputLevelLicenses method sets the reader to evaluate licenses that use output protection levels (OPLs).
 old-location: wmformat\iwmdrmreader2_setevaluateoutputlevellicenses.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 5a146ec4-a733-483c-8b08-2bee0081bd96
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMDRMReader2 interface [windows Media Format],SetEvaluateOutputLevelLicenses method, IWMDRMReader2.SetEvaluateOutputLevelLicenses, IWMDRMReader2::SetEvaluateOutputLevelLicenses, IWMDRMReader2SetEvaluateOutputLevelLicenses, SetEvaluateOutputLevelLicenses, SetEvaluateOutputLevelLicenses method [windows Media Format], SetEvaluateOutputLevelLicenses method [windows Media Format],IWMDRMReader2 interface, wmformat.iwmdrmreader2_setevaluateoutputlevellicenses, wmsdkidl/IWMDRMReader2::SetEvaluateOutputLevelLicenses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: WMStubDRM.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDRMReader2.SetEvaluateOutputLevelLicenses
 product: Windows
 targetos: Windows
-req.lib: WMStubDRM.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDRMReader2::SetEvaluateOutputLevelLicenses

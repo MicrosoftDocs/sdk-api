@@ -4,17 +4,16 @@ title: D3D10_TEX2D_ARRAY_DSV
 author: windows-sdk-content
 description: Specifies the subresource(s) from an array 2D textures that are accessible to a depth-stencil view.
 old-location: direct3d10\d3d10_tex2d_array_dsv.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2d_array_dsv.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: D3D10_TEX2D_ARRAY_DSV, D3D10_TEX2D_ARRAY_DSV structure [Direct3D 10], b74f90e0-46e3-78ef-850f-dc574308fe4b, d3d10/D3D10_TEX2D_ARRAY_DSV, direct3d10.d3d10_tex2d_array_dsv
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_TEX2D_ARRAY_DSV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_TEX2D_ARRAY_DSV
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D10_TEX2D_ARRAY_DSV
+req.redist: 
 ---
 
 # D3D10_TEX2D_ARRAY_DSV structure

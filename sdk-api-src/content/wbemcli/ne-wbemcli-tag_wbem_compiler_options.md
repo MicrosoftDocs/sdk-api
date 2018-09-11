@@ -4,17 +4,16 @@ title: tag_WBEM_COMPILER_OPTIONS
 author: windows-sdk-content
 description: Contains option flags for IMofCompiler methods.
 old-location: wmi\wbem_compiler_options.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 49F1518B-A487-458F-BFDD-BCF75A0E4306
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: WBEM_COMPILER_OPTIONS, WBEM_COMPILER_OPTIONS enumeration [Windows Management Instrumentation], WBEM_FLAG_AUTORECOVER, WBEM_FLAG_CHECK_ONLY, WBEM_FLAG_CONSOLE_PRINT, WBEM_FLAG_DONT_ADD_TO_LIST, WBEM_FLAG_SPLIT_FILES, WBEM_FLAG_STORE_FILE, WBEM_FLAG_WMI_CHECK, tag_WBEM_COMPILER_OPTIONS, wbemcli/WBEM_COMPILER_OPTIONS, wbemcli/WBEM_FLAG_AUTORECOVER, wbemcli/WBEM_FLAG_CHECK_ONLY, wbemcli/WBEM_FLAG_CONSOLE_PRINT, wbemcli/WBEM_FLAG_DONT_ADD_TO_LIST, wbemcli/WBEM_FLAG_SPLIT_FILES, wbemcli/WBEM_FLAG_STORE_FILE, wbemcli/WBEM_FLAG_WMI_CHECK, wmi.wbem_compiler_options
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WBEM_COMPILER_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WBEM_COMPILER_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WBEM_COMPILER_OPTIONS
+req.redist: 
 ---
 
 # tag_WBEM_COMPILER_OPTIONS enumeration

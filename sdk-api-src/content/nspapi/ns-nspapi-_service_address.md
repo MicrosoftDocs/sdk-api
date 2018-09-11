@@ -4,17 +4,16 @@ title: "_SERVICE_ADDRESS"
 author: windows-sdk-content
 description: Contains address information for a service. The structure can accommodate many types of interprocess communications (IPC) mechanisms and their address forms, including remote procedure calls (RPC), named pipes, and sockets.
 old-location: winsock\service_address_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 5fc99e3a-7316-4950-9249-968bbc4168c2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVICE_ADDRESS, *PSERVICE_ADDRESS, SERVICE_ADDRESS, SERVICE_ADDRESS structure [Winsock], SERVICE_ADDRESS_FLAG_RPC_CN, SERVICE_ADDRESS_FLAG_RPC_DG, SERVICE_ADDRESS_FLAG_RPC_NB, _SERVICE_ADDRESS, _win32_service_address_2, nspapi/SERVICE_ADDRESS, winsock.service_address_2"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: nspapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_ADDRESS, *PSERVICE_ADDRESS, *LPSERVICE_ADDRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVICE_ADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SERVICE_ADDRESS, *PSERVICE_ADDRESS, *LPSERVICE_ADDRESS
+req.redist: 
 ---
 
 # _SERVICE_ADDRESS structure

@@ -4,17 +4,16 @@ title: IEnumEventObject::Clone
 author: windows-sdk-content
 description: Creates an enumerator that contains the same enumeration state as the current one.
 old-location: cos\ienumeventobject_clone.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 25bd3f8f-ba99-42e6-b7af-6b237343a17c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [COM+], Clone method [COM+],IEnumEventObject interface, IEnumEventObject interface [COM+],Clone method, IEnumEventObject.Clone, IEnumEventObject::Clone, _cos_ienumeventobject_clone, cos.ienumeventobject_clone, eventsys/IEnumEventObject::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumEventObject.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumEventObject::Clone

@@ -4,7 +4,7 @@ title: "_LOOKUP_STREAM_FROM_CLUSTER_INPUT"
 author: windows-sdk-content
 description: Passed as input to the FSCTL_LOOKUP_STREAM_FROM_CLUSTER control code.
 old-location: fs\lookup_stream_from_cluster_input.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 4b398ae8-a396-4917-bcb8-aa5f5920296f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOOKUP_STREAM_FROM_CLUSTER_INPUT, *PLOOKUP_STREAM_FROM_CLUSTER_INPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LOOKUP_STREAM_FROM_CLUSTER_INPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: LOOKUP_STREAM_FROM_CLUSTER_INPUT, *PLOOKUP_STREAM_FROM_CLUSTER_INPUT
+req.redist: 
 ---
 
 # _LOOKUP_STREAM_FROM_CLUSTER_INPUT structure

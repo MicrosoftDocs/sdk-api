@@ -4,7 +4,7 @@ title: IWMDRMWriter
 author: windows-sdk-content
 description: The IWMDRMWriter interface provides support for applying DRM protection to content in ASF files.
 old-location: wmformat\iwmdrmwriter.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: fd466cf8-b1f8-49aa-a486-8fd347b29178
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMDRMWriter
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib
-req.dll: Wmvcore.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDRMWriter interface

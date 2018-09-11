@@ -4,17 +4,16 @@ title: IFrameworkInputPaneHandler
 author: windows-sdk-content
 description: Enables an app to be notified when the input pane (the on-screen keyboard or handwriting panel) is being shown or hidden. This allows the app window to adjust its display so that no input areas (such as a text box) are obscured by the input pane.
 old-location: shell\IFrameworkInputPaneHandler.htm
-old-project: shell
+tech.root: shell
 ms.assetid: E8038442-9E96-4eee-968E-3A6BC747852D
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFrameworkInputPaneHandler, IFrameworkInputPaneHandler interface [Windows Shell], IFrameworkInputPaneHandler interface [Windows Shell],described, shell.IFrameworkInputPaneHandler, shobjidl_core/IFrameworkInputPaneHandler
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFrameworkInputPaneHandler
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFrameworkInputPaneHandler interface

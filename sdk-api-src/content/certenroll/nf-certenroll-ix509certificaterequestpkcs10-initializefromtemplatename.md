@@ -4,17 +4,16 @@ title: IX509CertificateRequestPkcs10::InitializeFromTemplateName
 author: windows-sdk-content
 description: "."
 old-location: security\ix509certificaterequestpkcs10_initializefromtemplatename_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 4ea746c3-b967-41b4-94ae-7b16b93ca4e4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],InitializeFromTemplateName method, IX509CertificateRequestPkcs10.InitializeFromTemplateName, IX509CertificateRequestPkcs10::InitializeFromTemplateName, InitializeFromTemplateName, InitializeFromTemplateName method [Security], InitializeFromTemplateName method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::InitializeFromTemplateName, security.ix509certificaterequestpkcs10_initializefromtemplatename_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509CertificateRequestPkcs10.InitializeFromTemplateName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestPkcs10::InitializeFromTemplateName

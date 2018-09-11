@@ -4,17 +4,16 @@ title: ldap_memfreeA function
 author: windows-sdk-content
 description: Frees memory allocated from the LDAP heap.
 old-location: ldap\ldap_memfree.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 3256a202-4245-4bea-a66c-0f28bfe2ef7e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_memfree, ldap.ldap__memfree, ldap.ldap_memfree, ldap_memfree, ldap_memfree function [LDAP], ldap_memfreeA, ldap_memfreeW, winldap/ldap_memfree, winldap/ldap_memfreeA, winldap/ldap_memfreeW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldap_memfreeW
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_memfreeA function

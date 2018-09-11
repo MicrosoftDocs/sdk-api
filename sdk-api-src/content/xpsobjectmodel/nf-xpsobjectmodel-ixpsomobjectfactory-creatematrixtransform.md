@@ -4,17 +4,16 @@ title: IXpsOMObjectFactory::CreateMatrixTransform
 author: windows-sdk-content
 description: Creates an IXpsOMMatrixTransform interface that specifies an affine matrix transform.
 old-location: xps\ixpsomobjectfactory_creatematrixtransform.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 10377a1f-67b4-4fae-81f7-e6bf50e1c2b2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateMatrixTransform, CreateMatrixTransform method [XPS Documents and Packaging], CreateMatrixTransform method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateMatrixTransform method, IXpsOMObjectFactory.CreateMatrixTransform, IXpsOMObjectFactory::CreateMatrixTransform, xps.ixpsomobjectfactory_creatematrixtransform, xpsobjectmodel/IXpsOMObjectFactory::CreateMatrixTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMObjectFactory.CreateMatrixTransform
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMObjectFactory::CreateMatrixTransform

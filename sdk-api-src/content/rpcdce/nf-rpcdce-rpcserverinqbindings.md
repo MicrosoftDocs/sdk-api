@@ -4,17 +4,16 @@ title: RpcServerInqBindings function
 author: windows-sdk-content
 description: The RpcServerInqBindings function returns the binding handles over which remote procedure calls can be received.
 old-location: rpc\rpcserverinqbindings.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 96f081ab-6210-4ca0-a913-182477463981
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcServerInqBindings, RpcServerInqBindings function [RPC], _rpc_rpcserverinqbindings, rpc.rpcserverinqbindings, rpcdce/RpcServerInqBindings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcServerInqBindings
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcServerInqBindings function

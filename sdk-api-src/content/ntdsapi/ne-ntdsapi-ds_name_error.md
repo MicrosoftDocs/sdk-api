@@ -4,7 +4,7 @@ title: DS_NAME_ERROR
 author: windows-sdk-content
 description: The DS_NAME_ERROR enumeration defines the errors returned by the status member of the DS_NAME_RESULT_ITEM structure. These are potential errors that may be encountered while a name is converted by the DsCrackNames function.
 old-location: ad\ds_name_error.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 8475133c-4bc8-4545-bd54-15d4e7b07869
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_NAME_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DS_NAME_ERROR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: Any level
-req.product: Rights Management Services client 1.0 or later
+req.typenames: DS_NAME_ERROR
+req.redist: 
 ---
 
 # DS_NAME_ERROR enumeration

@@ -4,17 +4,16 @@ title: PatBlt function
 author: windows-sdk-content
 description: The PatBlt function paints the specified rectangle using the brush that is currently selected into the specified device context. The brush color and the surface color or colors are combined by using the specified raster operation.
 old-location: gdi\patblt.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 6deea8ef-b55d-4086-a54e-3f89bb17c6cd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BLACKNESS, DSTINVERT, PATCOPY, PATINVERT, PatBlt, PatBlt function [Windows GDI], WHITENESS, _win32_PatBlt, gdi.patblt, wingdi/PatBlt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - PatBlt
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PatBlt function

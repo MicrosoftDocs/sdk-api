@@ -4,17 +4,16 @@ title: IMFVideoDisplayControl::SetAspectRatioMode
 author: windows-sdk-content
 description: Specifies how the enhanced video renderer (EVR) handles the aspect ratio of the source video.
 old-location: mf\imfvideodisplaycontrol_setaspectratiomode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: dd49a110-1c11-4eca-9e7b-6021f3bdd397
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFVideoDisplayControl interface [Media Foundation],SetAspectRatioMode method, IMFVideoDisplayControl.SetAspectRatioMode, IMFVideoDisplayControl::SetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [Media Foundation], SetAspectRatioMode method [Media Foundation],IMFVideoDisplayControl interface, dd49a110-1c11-4eca-9e7b-6021f3bdd397, evr/IMFVideoDisplayControl::SetAspectRatioMode, mf.imfvideodisplaycontrol_setaspectratiomode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoDisplayControl.SetAspectRatioMode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoDisplayControl::SetAspectRatioMode

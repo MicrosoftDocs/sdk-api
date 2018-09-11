@@ -4,17 +4,16 @@ title: IAzRoleAssignments::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IAzRoleAssignments objects in the collection.
 old-location: security\iazroleassignments_count.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: a137b247-ee0c-46da-8994-23ba88d207ad
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: Count property [Security], Count property [Security],IAzRoleAssignments interface, IAzRoleAssignments interface [Security],Count property, IAzRoleAssignments.Count, IAzRoleAssignments.get_Count, IAzRoleAssignments::Count, IAzRoleAssignments::get_Count, azroles/IAzRoleAssignments::Count, azroles/IAzRoleAssignments::get_Count, get_Count, security.iazroleassignments_count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAzRoleAssignments.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzRoleAssignments::get_Count

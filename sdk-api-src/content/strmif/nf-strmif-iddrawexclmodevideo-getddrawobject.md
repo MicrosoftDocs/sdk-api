@@ -4,17 +4,16 @@ title: IDDrawExclModeVideo::GetDDrawObject
 author: windows-sdk-content
 description: The GetDDrawObject method retrieves the DirectDraw object being used by the Overlay Mixer filter.
 old-location: dshow\iddrawexclmodevideo_getddrawobject.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b664fbcc-de14-42ca-95d0-97719e381605
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDDrawObject, GetDDrawObject method [DirectShow], GetDDrawObject method [DirectShow],IDDrawExclModeVideo interface, IDDrawExclModeVideo interface [DirectShow],GetDDrawObject method, IDDrawExclModeVideo.GetDDrawObject, IDDrawExclModeVideo::GetDDrawObject, IDDrawExclModeVideoGetDDrawObject, dshow.iddrawexclmodevideo_getddrawobject, strmif/IDDrawExclModeVideo::GetDDrawObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDDrawExclModeVideo.GetDDrawObject
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDDrawExclModeVideo::GetDDrawObject
@@ -66,7 +64,7 @@ The <code>GetDDrawObject</code> method retrieves the DirectDraw object being use
 
 ### -param ppDDrawObject
 
-
+TBD
 
 
 ### -param pbUsingExternal [out]

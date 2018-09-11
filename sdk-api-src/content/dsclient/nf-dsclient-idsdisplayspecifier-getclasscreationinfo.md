@@ -4,17 +4,16 @@ title: IDsDisplaySpecifier::GetClassCreationInfo
 author: windows-sdk-content
 description: Retrieves data about the class creation wizard objects for a given object class.
 old-location: ad\idsdisplayspecifier_getclasscreationinfo.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 23b88707-c4c3-47dd-a5bc-e325142602f5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetClassCreationInfo, GetClassCreationInfo method [Active Directory], GetClassCreationInfo method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetClassCreationInfo method, IDsDisplaySpecifier.GetClassCreationInfo, IDsDisplaySpecifier::GetClassCreationInfo, _glines_idsdisplayspecifier_getclasscreationinfo, ad.idsdisplayspecifier__getclasscreationinfo, ad.idsdisplayspecifier_getclasscreationinfo, dsclient/IDsDisplaySpecifier::GetClassCreationInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+req.lib: 
+req.dll: Dsadmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsDisplaySpecifier.GetClassCreationInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dsadmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsDisplaySpecifier::GetClassCreationInfo

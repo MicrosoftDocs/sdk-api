@@ -4,17 +4,16 @@ title: IDot11AdHocInterface::GetIEnumDot11AdHocNetworks
 author: windows-sdk-content
 description: Gets the collection of networks associated with this NIC.
 old-location: nwifi\idot11adhocinterface_getienumdot11adhocnetworks.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 997acc8d-a4e7-43dc-917d-7a2b69f3c049
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetIEnumDot11AdHocNetworks, GetIEnumDot11AdHocNetworks method [NativeWIFI], GetIEnumDot11AdHocNetworks method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetIEnumDot11AdHocNetworks method, IDot11AdHocInterface.GetIEnumDot11AdHocNetworks, IDot11AdHocInterface::GetIEnumDot11AdHocNetworks, adhoc/IDot11AdHocInterface::GetIEnumDot11AdHocNetworks, nwifi.idot11adhocinterface_getienumdot11adhocnetworks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocInterface.GetIEnumDot11AdHocNetworks
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocInterface::GetIEnumDot11AdHocNetworks

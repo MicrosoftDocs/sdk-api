@@ -4,17 +4,16 @@ title: PRAISE_RES_TYPE_NOTIFICATION
 author: windows-sdk-content
 description: TBD. The PRAISE_RES_TYPE_NOTIFICATION type is a pointer to this function.
 old-location: mscs\raiserestypenotification.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 9F5C8008-6B7B-4CA9-896C-15E5A3FB68C9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PRAISE_RES_TYPE_NOTIFICATION, PRAISE_RES_TYPE_NOTIFICATION callback function [Failover Cluster], RaiseResTypeNotification, RaiseResTypeNotification callback, RaiseResTypeNotification callback function [Failover Cluster], mscs.raiserestypenotification, resapi/PRAISE_RES_TYPE_NOTIFICATION, resapi/RaiseResTypeNotification
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - RaiseResTypeNotification callback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PRAISE_RES_TYPE_NOTIFICATION callback function

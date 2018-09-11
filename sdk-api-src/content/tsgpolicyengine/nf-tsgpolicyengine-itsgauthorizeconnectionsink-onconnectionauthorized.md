@@ -4,17 +4,16 @@ title: ITSGAuthorizeConnectionSink::OnConnectionAuthorized
 author: windows-sdk-content
 description: Notifies Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a connection.
 old-location: termserv\itsgauthorizeconnectionsink_onconnectionauthorized.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 1151aa89-944b-4497-8a8c-c6d67fbd4051
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITSGAuthorizeConnectionSink interface [Remote Desktop Services],OnConnectionAuthorized method, ITSGAuthorizeConnectionSink.OnConnectionAuthorized, ITSGAuthorizeConnectionSink::OnConnectionAuthorized, OnConnectionAuthorized, OnConnectionAuthorized method [Remote Desktop Services], OnConnectionAuthorized method [Remote Desktop Services],ITSGAuthorizeConnectionSink interface, SESSION_TIMEOUT_ACTION_DISCONNECT, SESSION_TIMEOUT_ACTION_SILENT_REAUTH, termserv.itsgauthorizeconnectionsink_onconnectionauthorized, tsgpolicyengine/ITSGAuthorizeConnectionSink::OnConnectionAuthorized
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsgpolicyengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PolicyAttributeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITSGAuthorizeConnectionSink.OnConnectionAuthorized
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITSGAuthorizeConnectionSink::OnConnectionAuthorized

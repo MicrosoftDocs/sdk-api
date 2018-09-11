@@ -4,17 +4,16 @@ title: IVMRMixerBitmap::SetAlphaBitmap
 author: windows-sdk-content
 description: The SetAlphaBitmap method specifies a new bitmap image and the source location of the bitmap and how and where it should be rendered on the destination rectangle.
 old-location: dshow\ivmrmixerbitmap_setalphabitmap.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 92e57c3a-6761-4a54-83f5-0ea0ce80d60b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRMixerBitmap interface [DirectShow],SetAlphaBitmap method, IVMRMixerBitmap.SetAlphaBitmap, IVMRMixerBitmap::SetAlphaBitmap, IVMRMixerBitmapSetAlphaBitmap, SetAlphaBitmap, SetAlphaBitmap method [DirectShow], SetAlphaBitmap method [DirectShow],IVMRMixerBitmap interface, dshow.ivmrmixerbitmap_setalphabitmap, strmif/IVMRMixerBitmap::SetAlphaBitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRMixerBitmap.SetAlphaBitmap
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRMixerBitmap::SetAlphaBitmap

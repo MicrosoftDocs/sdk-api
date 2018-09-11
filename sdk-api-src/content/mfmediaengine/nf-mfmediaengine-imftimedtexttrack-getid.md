@@ -4,17 +4,16 @@ title: IMFTimedTextTrack::GetId
 author: windows-sdk-content
 description: Gets the identifier of the track of timed text.
 old-location: mf\imftimedtexttrack_getid.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0DDC7864-654E-416B-9EF5-4CD47244E8BE
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetId, GetId method [Media Foundation], GetId method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetId method, IMFTimedTextTrack.GetId, IMFTimedTextTrack::GetId, mf.imftimedtexttrack_getid, mfmediaengine/IMFTimedTextTrack::GetId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextTrack.GetId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextTrack::GetId

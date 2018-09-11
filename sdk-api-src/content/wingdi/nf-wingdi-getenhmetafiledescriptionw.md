@@ -4,17 +4,16 @@ title: GetEnhMetaFileDescriptionW function
 author: windows-sdk-content
 description: The GetEnhMetaFileDescription function retrieves an optional text description from an enhanced-format metafile and copies the string to the specified buffer.
 old-location: gdi\getenhmetafiledescription.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 51f4f617-fe53-4463-b222-cb6860d15dd6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetEnhMetaFileDescription, GetEnhMetaFileDescription function [Windows GDI], GetEnhMetaFileDescriptionA, GetEnhMetaFileDescriptionW, _win32_GetEnhMetaFileDescription, gdi.getenhmetafiledescription, wingdi/GetEnhMetaFileDescription, wingdi/GetEnhMetaFileDescriptionA, wingdi/GetEnhMetaFileDescriptionW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - GetEnhMetaFileDescriptionW
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetEnhMetaFileDescriptionW function

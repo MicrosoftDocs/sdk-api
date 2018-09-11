@@ -4,17 +4,16 @@ title: IDirectInputJoyConfig8::Unacquire
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::Unacquire method unacquires &#0034;joystick configuration mode&#0034;.
 old-location: hid\idirectinputjoyconfig8_unacquire.htm
-old-project: hid
+tech.root: hid
 ms.assetid: d6eb4743-5845-4acd-8526-f2ab562aa24f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],Unacquire method, IDirectInputJoyConfig8.Unacquire, IDirectInputJoyConfig8::Unacquire, Unacquire, Unacquire method [Human Input Devices], Unacquire method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_df66f848-ee07-47f7-afc3-3f1d2883c070.xml, dinputd/IDirectInputJoyConfig8::Unacquire, hid.idirectinputjoyconfig8_unacquire
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectInputJoyConfig8.Unacquire
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectInputJoyConfig8::Unacquire

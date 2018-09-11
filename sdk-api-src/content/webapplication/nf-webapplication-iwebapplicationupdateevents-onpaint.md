@@ -4,17 +4,16 @@ title: IWebApplicationUpdateEvents::OnPaint
 author: windows-sdk-content
 description: Notifies the authoring app that a portion of the app was painted.
 old-location: debug\iwebapplicationupdateevents_onpaint.htm
-old-project: debug_wwahost
+tech.root: debug_wwahost
 ms.assetid: DFFED801-CCE7-4408-BD0B-E2B1AF5CD172
 ms.author: windowssdkdev
 ms.date: 06/05/2018
 ms.keywords: IWebApplicationUpdateEvents interface [Debugging Windows Store apps],OnPaint method, IWebApplicationUpdateEvents.OnPaint, IWebApplicationUpdateEvents::OnPaint, OnPaint, OnPaint method [Debugging Windows Store apps], OnPaint method [Debugging Windows Store apps],IWebApplicationUpdateEvents interface, debug.iwebapplicationupdateevents_onpaint, webapplication/IWebApplicationUpdateEvents::OnPaint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: webapplication.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWebApplicationUpdateEvents.OnPaint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWebApplicationUpdateEvents::OnPaint

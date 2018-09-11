@@ -4,17 +4,16 @@ title: IInkDesktopHost::QueueWorkItem
 author: windows-sdk-content
 description: Add an ink operation to a work queue for execution on the IInkDesktopHost thread.
 old-location: input_ink\iinkdesktophost_queueworkitem.htm
-old-project: input_ink
+tech.root: input_ink
 ms.assetid: c8c5e1c4-c5a5-4172-a101-66276b7024e2
 ms.author: windowssdkdev
 ms.date: 07/16/2018
 ms.keywords: IInkDesktopHost interface,QueueWorkItem method, IInkDesktopHost.QueueWorkItem, IInkDesktopHost::QueueWorkItem, InkPresenterDesktop.iinkdesktophost_queueworkitem, QueueWorkItem, QueueWorkItem method, QueueWorkItem method,IInkDesktopHost interface, inkpresenterdesktop/IInkDesktopHost::QueueWorkItem, input_ink.iinkdesktophost_queueworkitem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inkpresenterdesktop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInkDesktopHost.QueueWorkItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDesktopHost::QueueWorkItem

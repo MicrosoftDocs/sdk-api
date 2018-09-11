@@ -4,7 +4,7 @@ title: "_HTTP_SERVICE_CONFIG_SSL_QUERY"
 author: windows-sdk-content
 description: Used to specify a particular record to query in the SSL configuration store.
 old-location: http\http_service_config_ssl_query.htm
-old-project: http
+tech.root: http
 ms.assetid: 733b451a-d35b-4b83-ba49-0529309cd99b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_SERVICE_CONFIG_SSL_QUERY, *PHTTP_SERVICE_CONFIG_SSL_QUERY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_SERVICE_CONFIG_SSL_QUERY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_SERVICE_CONFIG_SSL_QUERY, *PHTTP_SERVICE_CONFIG_SSL_QUERY
+req.redist: 
 ---
 
 # _HTTP_SERVICE_CONFIG_SSL_QUERY structure

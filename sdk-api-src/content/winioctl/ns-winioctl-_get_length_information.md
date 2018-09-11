@@ -4,7 +4,7 @@ title: "_GET_LENGTH_INFORMATION"
 author: windows-sdk-content
 description: Contains disk, volume, or partition length information used by the IOCTL_DISK_GET_LENGTH_INFO control code.
 old-location: fs\get_length_information_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: a0d2a5bc-32e0-47d6-a4f0-84bd7f6bb746
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GET_LENGTH_INFORMATION, *PGET_LENGTH_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GET_LENGTH_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: GET_LENGTH_INFORMATION, *PGET_LENGTH_INFORMATION
+req.redist: 
 ---
 
 # _GET_LENGTH_INFORMATION structure

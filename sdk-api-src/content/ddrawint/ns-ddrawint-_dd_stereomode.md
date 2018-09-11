@@ -4,7 +4,7 @@ title: "_DD_STEREOMODE"
 author: windows-sdk-content
 description: The DD_STEREOMODE structure is used by the runtime with GUID_DDStereoMode in a DdGetDriverInfo call to query whether the driver supports stereo for a given video display mode.
 old-location: display\dd_stereomode.htm
-old-project: display
+tech.root: display
 ms.assetid: 0b160c57-5e79-4777-a514-fa04e02c1508
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_STEREOMODE, DD_STEREOMODE"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_STEREOMODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_STEREOMODE, DD_STEREOMODE"
+req.redist: 
 ---
 
 # _DD_STEREOMODE structure

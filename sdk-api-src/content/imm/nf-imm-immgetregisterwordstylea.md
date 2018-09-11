@@ -4,17 +4,16 @@ title: ImmGetRegisterWordStyleA function
 author: windows-sdk-content
 description: Retrieves a list of the styles supported by the IME associated with the specified input locale.
 old-location: intl\immgetregisterwordstyle.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 29ddf963-f421-4fad-9861-a6ed51e481ac
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ImmGetRegisterWordStyle, ImmGetRegisterWordStyle function [Internationalization for Windows Applications], ImmGetRegisterWordStyleA, ImmGetRegisterWordStyleW, _win32_ImmGetRegisterWordStyle, imm/ImmGetRegisterWordStyle, imm/ImmGetRegisterWordStyleA, imm/ImmGetRegisterWordStyleW, intl.immgetregisterwordstyle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ImmGetRegisterWordStyleW
 product: Windows
 targetos: Windows
-req.lib: Imm32.lib
-req.dll: Imm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ImmGetRegisterWordStyleA function

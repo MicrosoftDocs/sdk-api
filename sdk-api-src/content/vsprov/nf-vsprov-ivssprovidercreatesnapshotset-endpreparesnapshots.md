@@ -4,17 +4,16 @@ title: IVssProviderCreateSnapshotSet::EndPrepareSnapshots
 author: windows-sdk-content
 description: Is called once for the complete shadow copy set, after the last IVssHardwareSnapshotProvider::BeginPrepareSnapshot call.
 old-location: base\ivssprovidercreatesnapshotset_endpreparesnapshots.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 230666c7-e7e4-4e75-a84d-1786e8cbbb6c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EndPrepareSnapshots, EndPrepareSnapshots method [VSS], EndPrepareSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, IVssProviderCreateSnapshotSet interface [VSS],EndPrepareSnapshots method, IVssProviderCreateSnapshotSet.EndPrepareSnapshots, IVssProviderCreateSnapshotSet::EndPrepareSnapshots, base.ivssprovidercreatesnapshotset_endpreparesnapshots, vsprov/IVssProviderCreateSnapshotSet::EndPrepareSnapshots
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssProviderCreateSnapshotSet.EndPrepareSnapshots
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssProviderCreateSnapshotSet::EndPrepareSnapshots

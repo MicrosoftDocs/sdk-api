@@ -4,17 +4,16 @@ title: IDvdInfo2::GetKaraokeAttributes
 author: windows-sdk-content
 description: The GetKaraokeAttributes method retrieves the karaoke attributes of the specified audio stream in the current title or menu.
 old-location: dshow\idvdinfo2_getkaraokeattributes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c69ea1e0-8d8a-4cd3-86a4-a2d481160a2e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetKaraokeAttributes, GetKaraokeAttributes method [DirectShow], GetKaraokeAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetKaraokeAttributes method, IDvdInfo2.GetKaraokeAttributes, IDvdInfo2::GetKaraokeAttributes, IDvdInfo2GetKaraokeAttributes, dshow.idvdinfo2_getkaraokeattributes, strmif/IDvdInfo2::GetKaraokeAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdInfo2.GetKaraokeAttributes
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo2::GetKaraokeAttributes
@@ -71,7 +69,7 @@ Specifies the index of the audio stream whose attributes you want to query. See 
 
 ### -param pAttributes
 
-
+TBD
 
 
 

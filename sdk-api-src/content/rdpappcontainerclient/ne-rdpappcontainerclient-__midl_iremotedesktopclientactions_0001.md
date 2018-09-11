@@ -4,7 +4,7 @@ title: "__MIDL_IRemoteDesktopClientActions_0001"
 author: windows-sdk-content
 description: The action to send to the remote session.
 old-location: termserv\remoteactiontype.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 27E6FB88-54A6-4D0B-B0D0-A46A96299DD1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rdpappcontainerclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsTscAx.dll
-tech.root: 
-req.typenames: RemoteActionType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RemoteActionType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RemoteActionType
+req.redist: 
 ---
 
 # __MIDL_IRemoteDesktopClientActions_0001 enumeration

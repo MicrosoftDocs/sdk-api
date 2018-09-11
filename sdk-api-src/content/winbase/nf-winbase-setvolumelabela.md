@@ -4,17 +4,16 @@ title: SetVolumeLabelA function
 author: windows-sdk-content
 description: Sets the label of a file system volume.
 old-location: fs\setvolumelabel.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 1851ed79-7a29-4731-8b67-75d6e9220705
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetVolumeLabel, SetVolumeLabel function [Files], SetVolumeLabelA, SetVolumeLabelW, _win32_setvolumelabel, base.setvolumelabel, fs.setvolumelabel, winbase/SetVolumeLabel, winbase/SetVolumeLabelA, winbase/SetVolumeLabelW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -51,10 +51,8 @@ api_name:
  - SetVolumeLabelW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetVolumeLabelA function

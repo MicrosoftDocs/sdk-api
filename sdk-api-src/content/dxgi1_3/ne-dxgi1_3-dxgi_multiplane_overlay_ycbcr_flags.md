@@ -4,17 +4,16 @@ title: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 author: windows-sdk-content
 description: Options for swap-chain color space.
 old-location: direct3ddxgi\dxgi_multiplane_overlay_ycbcr_flags.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 8BD502DC-39C1-472E-AC29-14A1F7EDB37E
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration [DXGI], DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC, direct3ddxgi.dxgi_multiplane_overlay_ycbcr_flags, dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_3.h
 req.include-header: DXGIPartner.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+req.redist: 
 ---
 
 # DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration

@@ -4,17 +4,16 @@ title: IVssWriterComponents::GetComponent
 author: windows-sdk-content
 description: The GetComponent method returns an IVssComponent interface to one of a given writer's components explicitly stored in the Backup Components Document.
 old-location: base\ivsswritercomponents_getcomponent.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: ee816d83-31f3-47ff-b581-cc4dcd878f22
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetComponent, GetComponent method [VSS], GetComponent method [VSS],IVssWriterComponents interface, IVssWriterComponents interface [VSS],GetComponent method, IVssWriterComponents.GetComponent, IVssWriterComponents::GetComponent, _win32_ivsswritercomponents_getcomponent, base.ivsswritercomponents_getcomponent, vswriter/IVssWriterComponents::GetComponent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssWriterComponents.GetComponent
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssWriterComponents::GetComponent

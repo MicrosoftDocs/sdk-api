@@ -4,17 +4,16 @@ title: IApiTracingDataCollector::get_ExcludeApis
 author: windows-sdk-content
 description: Retrieves or sets the list of functions to exclude from the trace.
 old-location: pla\iapitracingdatacollector_excludeapis.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 1028fcc0-49b8-40cb-98fc-1dcb2fa2b6b0
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ExcludeApis property [PLA], ExcludeApis property [PLA],IApiTracingDataCollector interface, IApiTracingDataCollector interface [PLA],ExcludeApis property, IApiTracingDataCollector.ExcludeApis, IApiTracingDataCollector.get_ExcludeApis, IApiTracingDataCollector::ExcludeApis, IApiTracingDataCollector::get_ExcludeApis, IApiTracingDataCollector::put_ExcludeApis, base.iapitracingdatacollector_excludeapis, get_ExcludeApis, pla.iapitracingdatacollector_excludeapis, pla/IApiTracingDataCollector::ExcludeApis, pla/IApiTracingDataCollector::get_ExcludeApis, pla/IApiTracingDataCollector::put_ExcludeApis
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IApiTracingDataCollector.put_ExcludeApis
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IApiTracingDataCollector::get_ExcludeApis

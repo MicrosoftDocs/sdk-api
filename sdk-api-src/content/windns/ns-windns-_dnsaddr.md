@@ -4,7 +4,7 @@ title: "_DnsAddr"
 author: windows-sdk-content
 description: A DNS_ADDR structure stores an IPv4 or IPv6 address.
 old-location: dns\dns_addr.htm
-old-project: dns
+tech.root: dns
 ms.assetid: c14e6fc0-34b3-40e8-b9b8-61e4aea01677
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_ADDR, *PDNS_ADDR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_ADDR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_ADDR, *PDNS_ADDR
+req.redist: 
 ---
 
 # _DnsAddr structure

@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_ads_0000_0000_0012"
 author: windows-sdk-content
 description: Represents an ADSI representation of the Replica Pointer attribute syntax.
 old-location: adsi\ads_replicapointer.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: f8cb8763-9533-4b80-8617-a99d75c92f07
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_REPLICAPOINTER, *PADS_REPLICAPOINTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADS_REPLICAPOINTER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ADS_REPLICAPOINTER, *PADS_REPLICAPOINTER
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_ads_0000_0000_0012 structure

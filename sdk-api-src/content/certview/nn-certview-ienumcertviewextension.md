@@ -4,17 +4,16 @@ title: IEnumCERTVIEWEXTENSION
 author: windows-sdk-content
 description: Represents an extension-enumeration sequence that contains the certificate extension data for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewextension.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: d5acff51-06f8-4a6f-aa9e-97ba052b1b34
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumCERTVIEWEXTENSION, IEnumCERTVIEWEXTENSION interface [Security], IEnumCERTVIEWEXTENSION interface [Security],described, _certsrv_ienumcertviewextension, certview/IEnumCERTVIEWEXTENSION, security.ienumcertviewextension
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumCERTVIEWEXTENSION
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumCERTVIEWEXTENSION interface

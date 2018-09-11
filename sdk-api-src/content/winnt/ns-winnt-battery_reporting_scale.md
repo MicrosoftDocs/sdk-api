@@ -4,7 +4,7 @@ title: BATTERY_REPORTING_SCALE
 author: windows-sdk-content
 description: Contains the granularity of the battery capacity that is reported by IOCTL_BATTERY_QUERY_STATUS.
 old-location: base\battery_reporting_scale_str.htm
-old-project: power
+tech.root: power
 ms.assetid: 91834159-e837-407b-8c9e-fbbcf9f208ef
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BATTERY_REPORTING_SCALE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.redist: 
 ---
 
 # BATTERY_REPORTING_SCALE structure

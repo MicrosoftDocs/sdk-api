@@ -4,17 +4,16 @@ title: ITCallingCard::get_LongDistanceDialingRule
 author: windows-sdk-content
 description: The get_LongDistanceDialingRule method gets the long distance dialing rules for this calling card.
 old-location: tapi3\itcallingcard_get_longdistancedialingrule.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 97ad3528-ee84-4b61-9d08-55d3500432dd
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_LongDistanceDialingRule method, ITCallingCard.get_LongDistanceDialingRule, ITCallingCard::get_LongDistanceDialingRule, _tapi3_itcallingcard_get_longdistancedialingrule, get_LongDistanceDialingRule, get_LongDistanceDialingRule method [TAPI 2.2], get_LongDistanceDialingRule method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_longdistancedialingrule, tapi3if/ITCallingCard::get_LongDistanceDialingRule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallingCard.get_LongDistanceDialingRule
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallingCard::get_LongDistanceDialingRule

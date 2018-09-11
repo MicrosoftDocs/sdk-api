@@ -4,17 +4,16 @@ title: tagDIRECTX_AUDIO_ACTIVATION_PARAMS
 author: windows-sdk-content
 description: The DIRECTX_AUDIO_ACTIVATION_PARAMS structure specifies the initialization parameters for a DirectSound stream.
 old-location: coreaudio\directx_audio_activation_params.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: d8d16c1c-5306-42a7-885b-4e1c5ee7634d
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: "*PDIRECTX_AUDIO_ACTIVATION_PARAMS, DIRECTX_AUDIO_ACTIVATION_PARAMS, DIRECTX_AUDIO_ACTIVATION_PARAMS structure [Core Audio], PDIRECTX_AUDIO_ACTIVATION_PARAMS, PDIRECTX_AUDIO_ACTIVATION_PARAMS structure pointer [Core Audio], coreaudio.directx_audio_activation_params, mmdeviceapi/DIRECTX_AUDIO_ACTIVATION_PARAMS, mmdeviceapi/PDIRECTX_AUDIO_ACTIVATION_PARAMS, tagDIRECTX_AUDIO_ACTIVATION_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmdeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTX_AUDIO_ACTIVATION_PARAMS, *PDIRECTX_AUDIO_ACTIVATION_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DIRECTX_AUDIO_ACTIVATION_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DIRECTX_AUDIO_ACTIVATION_PARAMS, *PDIRECTX_AUDIO_ACTIVATION_PARAMS
+req.redist: 
 ---
 
 # tagDIRECTX_AUDIO_ACTIVATION_PARAMS structure

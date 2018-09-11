@@ -4,7 +4,7 @@ title: IUIAutomation5
 author: windows-sdk-content
 description: Extends the IUIAutomation4 interface to expose additional methods for controlling Microsoft UI Automation functionality.
 old-location: winauto\uiauto_IUIAutomation5.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: BCF67DB0-DF5B-4CED-9C32-01F126494129
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server, version 1709 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomation5
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAutomationCore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation5 interface

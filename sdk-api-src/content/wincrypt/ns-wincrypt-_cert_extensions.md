@@ -4,17 +4,16 @@ title: "_CERT_EXTENSIONS"
 author: windows-sdk-content
 description: The CERT_EXTENSIONS structure contains an array of extensions.
 old-location: security\cert_extensions.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: b393ef08-cedb-4840-a427-10ead315d6ea
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_EXTENSIONS, CERT_EXTENSIONS, CERT_EXTENSIONS structure [Security], PCERT_EXTENSIONS, PCERT_EXTENSIONS structure pointer [Security], _CERT_EXTENSIONS, _crypto2_cert_extensions, security.cert_extensions, wincrypt/CERT_EXTENSIONS, wincrypt/PCERT_EXTENSIONS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_EXTENSIONS, *PCERT_EXTENSIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_EXTENSIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_EXTENSIONS, *PCERT_EXTENSIONS
+req.redist: 
 ---
 
 # _CERT_EXTENSIONS structure

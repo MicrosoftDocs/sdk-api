@@ -4,17 +4,16 @@ title: IMFCaptureRecordSink::GetRotation
 author: windows-sdk-content
 description: Gets the rotation that is currently being applied to the recorded video stream.
 old-location: mf\imfcapturerecordsink_getrotation.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: E582ED9C-D7B8-4DF9-B72F-361E682DB93F
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetRotation, GetRotation method [Media Foundation], GetRotation method [Media Foundation],IMFCaptureRecordSink interface, IMFCaptureRecordSink interface [Media Foundation],GetRotation method, IMFCaptureRecordSink.GetRotation, IMFCaptureRecordSink::GetRotation, mf.imfcapturerecordsink_getrotation, mfcaptureengine/IMFCaptureRecordSink::GetRotation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCaptureRecordSink.GetRotation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCaptureRecordSink::GetRotation

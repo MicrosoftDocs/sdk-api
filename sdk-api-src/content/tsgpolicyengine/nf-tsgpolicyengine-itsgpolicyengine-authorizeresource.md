@@ -4,17 +4,16 @@ title: ITSGPolicyEngine::AuthorizeResource
 author: windows-sdk-content
 description: Determines which resources the specified connection is authorized to connect to.
 old-location: termserv\itsgpolicyengine_authorizeresource.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 77950541-c94a-4035-a2d8-a6014eb387e5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AuthorizeResource, AuthorizeResource method [Remote Desktop Services], AuthorizeResource method [Remote Desktop Services],ITSGPolicyEngine interface, ITSGPolicyEngine interface [Remote Desktop Services],AuthorizeResource method, ITSGPolicyEngine.AuthorizeResource, ITSGPolicyEngine::AuthorizeResource, termserv.itsgpolicyengine_authorizeresource, tsgpolicyengine/ITSGPolicyEngine::AuthorizeResource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsgpolicyengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PolicyAttributeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITSGPolicyEngine.AuthorizeResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITSGPolicyEngine::AuthorizeResource

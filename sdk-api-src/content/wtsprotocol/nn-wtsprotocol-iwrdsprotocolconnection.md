@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection
 author: windows-sdk-content
 description: Exposes methods called by the Remote Desktop Services service to configure a client connection.
 old-location: termserv\iwrdsprotocolconnection.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 2b8a5b2f-5a54-4d60-8b5a-8a914728087c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWRdsProtocolConnection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWRdsProtocolConnection interface

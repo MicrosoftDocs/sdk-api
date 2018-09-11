@@ -4,17 +4,16 @@ title: WELL_KNOWN_SID_TYPE
 author: windows-sdk-content
 description: A list of commonly used security identifiers (SIDs). Programs can pass these values to the CreateWellKnownSid function to create a SID from this list.
 old-location: security\well_known_sid_type.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6f1fa59e-17c0-412b-937b-ddf746ed68bd
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: WELL_KNOWN_SID_TYPE, WELL_KNOWN_SID_TYPE enumeration [Security], WinAccountAdministratorSid, WinAccountCertAdminsSid, WinAccountComputersSid, WinAccountControllersSid, WinAccountDomainAdminsSid, WinAccountDomainGuestsSid, WinAccountDomainUsersSid, WinAccountEnterpriseAdminsSid, WinAccountGuestSid, WinAccountKrbtgtSid, WinAccountPolicyAdminsSid, WinAccountRasAndIasServersSid, WinAccountReadonlyControllersSid, WinAccountSchemaAdminsSid, WinAnonymousSid, WinApplicationPackageAuthoritySid, WinAuthenticatedUserSid, WinBatchSid, WinBuiltinAccountOperatorsSid, WinBuiltinAdministratorsSid, WinBuiltinAnyPackageSid, WinBuiltinAuthorizationAccessSid, WinBuiltinBackupOperatorsSid, WinBuiltinCertSvcDComAccessGroup, WinBuiltinCryptoOperatorsSid, WinBuiltinDCOMUsersSid, WinBuiltinDomainSid, WinBuiltinEventLogReadersGroup, WinBuiltinGuestsSid, WinBuiltinIUsersSid, WinBuiltinIncomingForestTrustBuildersSid, WinBuiltinNetworkConfigurationOperatorsSid, WinBuiltinPerfLoggingUsersSid, WinBuiltinPerfMonitoringUsersSid, WinBuiltinPowerUsersSid, WinBuiltinPreWindows2000CompatibleAccessSid, WinBuiltinPrintOperatorsSid, WinBuiltinRemoteDesktopUsersSid, WinBuiltinReplicatorSid, WinBuiltinSystemOperatorsSid, WinBuiltinTerminalServerLicenseServersSid, WinBuiltinUsersSid, WinCacheablePrincipalsGroupSid, WinCapabilityDocumentsLibrarySid, WinCapabilityEnterpriseAuthenticationSid, WinCapabilityInternetClientServerSid, WinCapabilityInternetClientSid, WinCapabilityMusicLibrarySid, WinCapabilityPicturesLibrarySid, WinCapabilityPrivateNetworkClientServerSid, WinCapabilityRemovableStorageSid, WinCapabilitySharedUserCertificatesSid, WinCapabilityVideosLibrarySid, WinConsoleLogonSid, WinCreatorGroupServerSid, WinCreatorGroupSid, WinCreatorOwnerRightsSid, WinCreatorOwnerServerSid, WinCreatorOwnerSid, WinDialupSid, WinDigestAuthenticationSid, WinEnterpriseControllersSid, WinEnterpriseReadonlyControllersSid, WinHighLabelSid, WinIUserSid, WinInteractiveSid, WinLocalLogonSid, WinLocalServiceSid, WinLocalSid, WinLocalSystemSid, WinLogonIdsSid, WinLowLabelSid, WinMediumLabelSid, WinMediumPlusLabelSid, WinNTLMAuthenticationSid, WinNetworkServiceSid, WinNetworkSid, WinNewEnterpriseReadonlyControllersSid, WinNonCacheablePrincipalsGroupSid, WinNtAuthoritySid, WinNullSid, WinOtherOrganizationSid, WinProxySid, WinRemoteLogonIdSid, WinRestrictedCodeSid, WinSChannelAuthenticationSid, WinSelfSid, WinServiceSid, WinSystemLabelSid, WinTerminalServerSid, WinThisOrganizationCertificateSid, WinThisOrganizationSid, WinUntrustedLabelSid, WinWorldSid, WinWriteRestrictedCodeSid, _win32_well_known_sid_type, security.well_known_sid_type, winnt/WELL_KNOWN_SID_TYPE, winnt/WinAccountAdministratorSid, winnt/WinAccountCertAdminsSid, winnt/WinAccountComputersSid, winnt/WinAccountControllersSid, winnt/WinAccountDomainAdminsSid, winnt/WinAccountDomainGuestsSid, winnt/WinAccountDomainUsersSid, winnt/WinAccountEnterpriseAdminsSid, winnt/WinAccountGuestSid, winnt/WinAccountKrbtgtSid, winnt/WinAccountPolicyAdminsSid, winnt/WinAccountRasAndIasServersSid, winnt/WinAccountReadonlyControllersSid, winnt/WinAccountSchemaAdminsSid, winnt/WinAnonymousSid, winnt/WinApplicationPackageAuthoritySid, winnt/WinAuthenticatedUserSid, winnt/WinBatchSid, winnt/WinBuiltinAccountOperatorsSid, winnt/WinBuiltinAdministratorsSid, winnt/WinBuiltinAnyPackageSid, winnt/WinBuiltinAuthorizationAccessSid, winnt/WinBuiltinBackupOperatorsSid, winnt/WinBuiltinCertSvcDComAccessGroup, winnt/WinBuiltinCryptoOperatorsSid, winnt/WinBuiltinDCOMUsersSid, winnt/WinBuiltinDomainSid, winnt/WinBuiltinEventLogReadersGroup, winnt/WinBuiltinGuestsSid, winnt/WinBuiltinIUsersSid, winnt/WinBuiltinIncomingForestTrustBuildersSid, winnt/WinBuiltinNetworkConfigurationOperatorsSid, winnt/WinBuiltinPerfLoggingUsersSid, winnt/WinBuiltinPerfMonitoringUsersSid, winnt/WinBuiltinPowerUsersSid, winnt/WinBuiltinPreWindows2000CompatibleAccessSid, winnt/WinBuiltinPrintOperatorsSid, winnt/WinBuiltinRemoteDesktopUsersSid, winnt/WinBuiltinReplicatorSid, winnt/WinBuiltinSystemOperatorsSid, winnt/WinBuiltinTerminalServerLicenseServersSid, winnt/WinBuiltinUsersSid, winnt/WinCacheablePrincipalsGroupSid, winnt/WinCapabilityDocumentsLibrarySid, winnt/WinCapabilityEnterpriseAuthenticationSid, winnt/WinCapabilityInternetClientServerSid, winnt/WinCapabilityInternetClientSid, winnt/WinCapabilityMusicLibrarySid, winnt/WinCapabilityPicturesLibrarySid, winnt/WinCapabilityPrivateNetworkClientServerSid, winnt/WinCapabilityRemovableStorageSid, winnt/WinCapabilitySharedUserCertificatesSid, winnt/WinCapabilityVideosLibrarySid, winnt/WinConsoleLogonSid, winnt/WinCreatorGroupServerSid, winnt/WinCreatorGroupSid, winnt/WinCreatorOwnerRightsSid, winnt/WinCreatorOwnerServerSid, winnt/WinCreatorOwnerSid, winnt/WinDialupSid, winnt/WinDigestAuthenticationSid, winnt/WinEnterpriseControllersSid, winnt/WinEnterpriseReadonlyControllersSid, winnt/WinHighLabelSid, winnt/WinIUserSid, winnt/WinInteractiveSid, winnt/WinLocalLogonSid, winnt/WinLocalServiceSid, winnt/WinLocalSid, winnt/WinLocalSystemSid, winnt/WinLogonIdsSid, winnt/WinLowLabelSid, winnt/WinMediumLabelSid, winnt/WinMediumPlusLabelSid, winnt/WinNTLMAuthenticationSid, winnt/WinNetworkServiceSid, winnt/WinNetworkSid, winnt/WinNewEnterpriseReadonlyControllersSid, winnt/WinNonCacheablePrincipalsGroupSid, winnt/WinNtAuthoritySid, winnt/WinNullSid, winnt/WinOtherOrganizationSid, winnt/WinProxySid, winnt/WinRemoteLogonIdSid, winnt/WinRestrictedCodeSid, winnt/WinSChannelAuthenticationSid, winnt/WinSelfSid, winnt/WinServiceSid, winnt/WinSystemLabelSid, winnt/WinTerminalServerSid, winnt/WinThisOrganizationCertificateSid, winnt/WinThisOrganizationSid, winnt/WinUntrustedLabelSid, winnt/WinWorldSid, winnt/WinWriteRestrictedCodeSid
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WELL_KNOWN_SID_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WELL_KNOWN_SID_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WELL_KNOWN_SID_TYPE
+req.redist: 
 ---
 
 # WELL_KNOWN_SID_TYPE enumeration

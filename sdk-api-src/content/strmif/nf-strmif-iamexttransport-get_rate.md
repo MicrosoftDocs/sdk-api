@@ -4,17 +4,16 @@ title: IAMExtTransport::get_Rate
 author: windows-sdk-content
 description: The get_Rate method retrieves the playback rate for variable-speed external devices.
 old-location: dshow\iamexttransport_get_rate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 35a2fb2b-0963-4bdb-86a4-b5950b48a834
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_Rate method, IAMExtTransport.get_Rate, IAMExtTransport::get_Rate, IAMExtTransportget_Rate, dshow.iamexttransport_get_rate, get_Rate, get_Rate method [DirectShow], get_Rate method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_Rate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMExtTransport.get_Rate
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtTransport::get_Rate

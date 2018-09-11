@@ -4,17 +4,16 @@ title: RtlInitString function
 author: windows-sdk-content
 description: Initializes a counted string.
 old-location: winprog\rtlinitstring.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlinitstring.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RtlInitString, RtlInitString function [Windows API], winprog.rtlinitstring, winternl/RtlInitString, winui.rtlinitstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_VERSION
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtlInitString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Ntdll.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RtlInitString function

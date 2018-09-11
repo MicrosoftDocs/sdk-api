@@ -4,17 +4,16 @@ title: CopyFileTransactedW function
 author: windows-sdk-content
 description: Copies an existing file to a new file as a transacted operation, notifying the application of its progress through a callback function.
 old-location: fs\copyfiletransacted.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 118392de-166b-413e-99c9-b3deb756de0e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_RESTARTABLE, CopyFileTransacted, CopyFileTransacted function [Files], CopyFileTransactedA, CopyFileTransactedW, fs.copyfiletransacted, winbase/CopyFileTransacted, winbase/CopyFileTransactedA, winbase/CopyFileTransactedW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - CopyFileTransactedW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CopyFileTransactedW function

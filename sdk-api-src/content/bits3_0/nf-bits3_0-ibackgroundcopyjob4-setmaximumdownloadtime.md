@@ -4,17 +4,16 @@ title: IBackgroundCopyJob4::SetMaximumDownloadTime
 author: windows-sdk-content
 description: Sets the maximum time that BITS will spend transferring the files in the job.
 old-location: bits\ibackgroundcopyjob4_setmaximumdownloadtime.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 9e29c082-5bd1-465a-8853-aea81a593db6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyJob4 interface [BITS],SetMaximumDownloadTime method, IBackgroundCopyJob4.SetMaximumDownloadTime, IBackgroundCopyJob4::SetMaximumDownloadTime, SetMaximumDownloadTime, SetMaximumDownloadTime method [BITS], SetMaximumDownloadTime method [BITS],IBackgroundCopyJob4 interface, bits.ibackgroundcopyjob4_setmaximumdownloadtime, bits3_0/IBackgroundCopyJob4::SetMaximumDownloadTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBackgroundCopyJob4.SetMaximumDownloadTime
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob4::SetMaximumDownloadTime

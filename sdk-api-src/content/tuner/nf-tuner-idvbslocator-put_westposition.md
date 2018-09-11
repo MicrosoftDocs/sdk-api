@@ -4,17 +4,16 @@ title: IDVBSLocator::put_WestPosition
 author: windows-sdk-content
 description: The put_WestPosition method sets the longitudinal position as west longitude or east longitude.
 old-location: mstv\idvbslocator_put_westposition.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 567aa90e-6179-477a-813d-13e99b16bbc2
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_WestPosition method, IDVBSLocator.put_WestPosition, IDVBSLocator::put_WestPosition, IDVBSLocatorput_WestPosition, mstv.idvbslocator_put_westposition, put_WestPosition, put_WestPosition method [Microsoft TV Technologies], put_WestPosition method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_WestPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVBSLocator.put_WestPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVBSLocator::put_WestPosition

@@ -4,17 +4,16 @@ title: IDiskQuotaUser::Invalidate
 author: windows-sdk-content
 description: Invalidates the quota information stored in the quota user object.
 old-location: fs\idiskquotauser_invalidate.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 23a51df4-0578-43fe-99cd-491f709accab
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDiskQuotaUser interface [Files],Invalidate method, IDiskQuotaUser.Invalidate, IDiskQuotaUser::Invalidate, Invalidate, Invalidate method [Files], Invalidate method [Files],IDiskQuotaUser interface, _win32_idiskquotauser_invalidate, base.idiskquotauser_invalidate, dskquota/IDiskQuotaUser::Invalidate, fs.idiskquotauser_invalidate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaUser.Invalidate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaUser::Invalidate

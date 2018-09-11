@@ -4,17 +4,16 @@ title: IMFVideoMixerControl2::SetMixingPrefs
 author: windows-sdk-content
 description: Sets the preferences for video deinterlacing.
 old-location: mf\imfvideomixercontrol2_setmixingprefs.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: ae8fa85a-bdae-4fbf-b9d4-a987eb1c4c41
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFVideoMixerControl2 interface [Media Foundation],SetMixingPrefs method, IMFVideoMixerControl2.SetMixingPrefs, IMFVideoMixerControl2::SetMixingPrefs, SetMixingPrefs, SetMixingPrefs method [Media Foundation], SetMixingPrefs method [Media Foundation],IMFVideoMixerControl2 interface, evr/IMFVideoMixerControl2::SetMixingPrefs, mf.imfvideomixercontrol2_setmixingprefs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFVideoMixerControl2.SetMixingPrefs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoMixerControl2::SetMixingPrefs

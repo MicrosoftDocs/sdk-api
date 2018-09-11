@@ -4,17 +4,16 @@ title: IMoniker::ParseDisplayName
 author: windows-sdk-content
 description: Converts a display name into a moniker.
 old-location: com\imoniker_parsedisplayname.htm
-old-project: com
+tech.root: com
 ms.assetid: 6a5a1f14-f14f-404b-90d8-0afceafc087c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMoniker interface [COM],ParseDisplayName method, IMoniker.ParseDisplayName, IMoniker::ParseDisplayName, ParseDisplayName, ParseDisplayName method [COM], ParseDisplayName method [COM],IMoniker interface, _com_imoniker_parsedisplayname, com.imoniker_parsedisplayname, objidl/IMoniker::ParseDisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMoniker.ParseDisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMoniker::ParseDisplayName

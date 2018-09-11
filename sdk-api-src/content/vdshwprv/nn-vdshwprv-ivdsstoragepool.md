@@ -4,17 +4,16 @@ title: IVdsStoragePool
 author: windows-sdk-content
 description: Provides methods to query information and enumerate related objects for a storage pool.
 old-location: base\ivdsstoragepool.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 1518ab95-1f0a-4f28-b2ae-e75bb4d19790
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsStoragePool, IVdsStoragePool interface, IVdsStoragePool interface,described, base.ivdsstoragepool, vds/IVdsStoragePool, vdshwprv/IVdsStoragePool
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsStoragePool
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsStoragePool interface

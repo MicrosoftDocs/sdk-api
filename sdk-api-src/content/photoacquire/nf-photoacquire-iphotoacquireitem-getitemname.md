@@ -4,17 +4,16 @@ title: IPhotoAcquireItem::GetItemName
 author: windows-sdk-content
 description: The GetItemName method retrieves the file name for an item.
 old-location: picacq\iphotoacquireitem_getitemname.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 10048853-424b-4761-8a80-b1f674f856f4
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetItemName, GetItemName method [Picture Acquisition], GetItemName method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetItemName method, IPhotoAcquireItem.GetItemName, IPhotoAcquireItem::GetItemName, IPhotoAcquireItemGetItemName, photoacquire/IPhotoAcquireItem::GetItemName, picacq.iphotoacquireitem_getitemname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireItem.GetItemName
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireItem::GetItemName

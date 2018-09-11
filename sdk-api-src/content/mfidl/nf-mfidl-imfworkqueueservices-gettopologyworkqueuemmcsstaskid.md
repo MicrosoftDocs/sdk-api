@@ -4,17 +4,16 @@ title: IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId
 author: windows-sdk-content
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) task identifier for a specified branch of the current topology.
 old-location: mf\imfworkqueueservices_gettopologyworkqueuemmcsstaskid.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0d519b96-428f-4cad-affc-2e94cdf28ae7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 0d519b96-428f-4cad-affc-2e94cdf28ae7, GetTopologyWorkQueueMMCSSTaskId, GetTopologyWorkQueueMMCSSTaskId method [Media Foundation], GetTopologyWorkQueueMMCSSTaskId method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],GetTopologyWorkQueueMMCSSTaskId method, IMFWorkQueueServices.GetTopologyWorkQueueMMCSSTaskId, IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId, mf.imfworkqueueservices_gettopologyworkqueuemmcsstaskid, mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFWorkQueueServices.GetTopologyWorkQueueMMCSSTaskId
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId

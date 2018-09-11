@@ -4,17 +4,16 @@ title: IWMPCdrom::get_playlist
 author: windows-sdk-content
 description: The get_playlist method retrieves a pointer to an IWMPPlaylist interface representing the tracks on the CD currently in the CD drive or the root-level title entries for a DVD.
 old-location: wmp\iwmpcdrom_get_playlist.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: c726ac41-0662-4134-b187-035f941b9df9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCdrom interface [Windows Media Player],get_playlist method, IWMPCdrom.get_playlist, IWMPCdrom::get_playlist, IWMPCdromget_playlist, get_playlist, get_playlist method [Windows Media Player], get_playlist method [Windows Media Player],IWMPCdrom interface, wmp.iwmpcdrom_get_playlist, wmp/IWMPCdrom::get_playlist
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Player 9 Series or later.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCdrom.get_playlist
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCdrom::get_playlist

@@ -4,7 +4,7 @@ title: "_STORAGE_QUERY_TYPE"
 author: windows-sdk-content
 description: Used by the STORAGE_PROPERTY_QUERY structure passed to the IOCTL_STORAGE_QUERY_PROPERTY control code to indicate what information is returned about a property of a storage device or adapter.
 old-location: fs\storage_query_type.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 0bce42d2-9d42-4881-9e33-4b3858a40353
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STORAGE_QUERY_TYPE, *PSTORAGE_QUERY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STORAGE_QUERY_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STORAGE_QUERY_TYPE, *PSTORAGE_QUERY_TYPE
+req.redist: 
 ---
 
 # _STORAGE_QUERY_TYPE enumeration

@@ -4,17 +4,16 @@ title: ITypeLib::GetLibAttr
 author: windows-sdk-content
 description: Retrieves the structure that contains the library's attributes.
 old-location: automat\itypelib_getlibattr.htm
-old-project: automat
+tech.root: automat
 ms.assetid: edc35364-99dc-438b-81de-4f129c0cf50f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetLibAttr, GetLibAttr method [Automation], GetLibAttr method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetLibAttr method, ITypeLib.GetLibAttr, ITypeLib::GetLibAttr, _oa96_ITypeLib_GetLibAttr, automat.itypelib_getlibattr, oaidl/ITypeLib::GetLibAttr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeLib.GetLibAttr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeLib::GetLibAttr

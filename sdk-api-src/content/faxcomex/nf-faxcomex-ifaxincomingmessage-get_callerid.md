@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxIncomingMessage.get_CallerId
 title: IFaxIncomingMessage::get_CallerId
 author: windows-sdk-content
 description: The CallerId property is a null-terminated string that identifies the calling device associated with the inbound fax message.
-old-location: fax\_mfax_faxincomingmessage_callerid_vb.htm
-old-project: Fax
+old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_callerid_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1bfo.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service],FaxIncomingMessage object, FaxIncomingMessage object [Fax Service],CallerId property, FaxIncomingMessage.CallerId, IFaxIncomingMessage.get_CallerId, IFaxIncomingMessage::get_CallerId, _mfax_faxincomingmessage.callerid, fax._mfax_faxincomingmessage_callerid, fax._mfax_faxincomingmessage_callerid_vb, get_CallerId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service],IFaxIncomingMessage interface, IFaxIncomingMessage interface [Fax Service],CallerId property, IFaxIncomingMessage.CallerId, IFaxIncomingMessage.get_CallerId, IFaxIncomingMessage::CallerId, IFaxIncomingMessage::get_CallerId, _mfax_faxincomingmessage.callerid, fax._mfax_faxincomingmessage_callerid, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_callerid_cpp, faxcomex/IFaxIncomingMessage::CallerId, faxcomex/IFaxIncomingMessage::get_CallerId, get_CallerId
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxIncomingMessage.CallerId
+ - IFaxIncomingMessage.CallerId
+ - IFaxIncomingMessage.get_CallerId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxIncomingMessage::get_CallerId

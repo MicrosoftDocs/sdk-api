@@ -4,17 +4,16 @@ title: ISystemInformation::get_OemHardwareSupportLink
 author: windows-sdk-content
 description: Gets a hyperlink to technical support information for OEM hardware.
 old-location: wua\isysteminformation_oemhardwaresupportlink.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 38d7b629-39e1-4265-8f1b-7fb187e1cab3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ISystemInformation interface [Windows Update Agent],OemHardwareSupportLink property, ISystemInformation.OemHardwareSupportLink, ISystemInformation.get_OemHardwareSupportLink, ISystemInformation::OemHardwareSupportLink, ISystemInformation::get_OemHardwareSupportLink, OemHardwareSupportLink property [Windows Update Agent], OemHardwareSupportLink property [Windows Update Agent],ISystemInformation interface, get_OemHardwareSupportLink, wua.isysteminformation_oemhardwaresupportlink, wuapi/ISystemInformation::OemHardwareSupportLink, wuapi/ISystemInformation::get_OemHardwareSupportLink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISystemInformation.get_OemHardwareSupportLink
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISystemInformation::get_OemHardwareSupportLink

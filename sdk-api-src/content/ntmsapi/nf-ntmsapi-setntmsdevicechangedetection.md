@@ -4,17 +4,16 @@ title: SetNtmsDeviceChangeDetection function
 author: windows-sdk-content
 description: The SetNtmsDeviceChangeDetection function sets one or more target devices for change detection.
 old-location: fs\setntmsdevicechangedetection.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 803bd7d6-f098-42f1-83da-fe9f71f960b0
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetNtmsDeviceChangeDetection, SetNtmsDeviceChangeDetection function [Files], _zaw_setntmsdevicechangedetection, base.setntmsdevicechangedetection, fs.setntmsdevicechangedetection, ntmsapi/SetNtmsDeviceChangeDetection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetNtmsDeviceChangeDetection
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetNtmsDeviceChangeDetection function

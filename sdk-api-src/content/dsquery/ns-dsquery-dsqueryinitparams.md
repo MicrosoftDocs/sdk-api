@@ -4,7 +4,7 @@ title: DSQUERYINITPARAMS
 author: windows-sdk-content
 description: Describes the data used to initialize a browse dialog box in the directory service query.
 old-location: ad\dsqueryinitparams.htm
-old-project: ad
+tech.root: ad
 ms.assetid: ff1cb792-efb0-46f5-bc9b-95c9fb2959db
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSQUERYINITPARAMS, *LPDSQUERYINITPARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DSQUERYINITPARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DSQUERYINITPARAMS, *LPDSQUERYINITPARAMS
+req.redist: 
 ---
 
 # DSQUERYINITPARAMS structure

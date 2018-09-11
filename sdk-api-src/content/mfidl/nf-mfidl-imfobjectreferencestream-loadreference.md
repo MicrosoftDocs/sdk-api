@@ -4,17 +4,16 @@ title: IMFObjectReferenceStream::LoadReference
 author: windows-sdk-content
 description: Marshals an interface from data stored in the stream.
 old-location: mf\imfobjectreferencestream_loadreference.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: fabf7de2-8433-43ba-9ded-001569614054
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFObjectReferenceStream interface [Media Foundation],LoadReference method, IMFObjectReferenceStream.LoadReference, IMFObjectReferenceStream::LoadReference, LoadReference, LoadReference method [Media Foundation], LoadReference method [Media Foundation],IMFObjectReferenceStream interface, fabf7de2-8433-43ba-9ded-001569614054, mf.imfobjectreferencestream_loadreference, mfidl/IMFObjectReferenceStream::LoadReference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFObjectReferenceStream.LoadReference
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFObjectReferenceStream::LoadReference

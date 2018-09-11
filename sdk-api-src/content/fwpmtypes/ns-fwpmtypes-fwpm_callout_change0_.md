@@ -4,7 +4,7 @@ title: FWPM_CALLOUT_CHANGE0_
 author: windows-sdk-content
 description: Specifies a change notification dispatched to subscribers.
 old-location: fwp\fwpm_callout_change0_struct.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 70e2eaae-dd75-4acc-87fb-ab2ad450a234
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Fwpmtypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_CALLOUT_CHANGE0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPM_CALLOUT_CHANGE0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPM_CALLOUT_CHANGE0
+req.redist: 
 ---
 
 # FWPM_CALLOUT_CHANGE0_ structure

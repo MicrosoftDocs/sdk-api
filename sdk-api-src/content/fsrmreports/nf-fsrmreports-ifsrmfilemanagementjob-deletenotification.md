@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::DeleteNotification
 author: windows-sdk-content
 description: Deletes a notification value from the file management job's list of notifications.
 old-location: fsrm\ifsrmfilemanagementjob_deletenotification.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: d21e289a-5062-4897-9479-3408589db11f
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: DeleteNotification, DeleteNotification method [File Server Resource Manager], DeleteNotification method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],DeleteNotification method, IFsrmFileManagementJob.DeleteNotification, IFsrmFileManagementJob::DeleteNotification, fs.ifsrmfilemanagementjob_deletenotification, fsrm.ifsrmfilemanagementjob_deletenotification, fsrmreports/IFsrmFileManagementJob::DeleteNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmFileManagementJob.DeleteNotification
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::DeleteNotification

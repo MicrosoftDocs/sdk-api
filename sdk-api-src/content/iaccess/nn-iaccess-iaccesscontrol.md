@@ -4,17 +4,16 @@ title: IAccessControl
 author: windows-sdk-content
 description: Enables the management of access to objects and properties on the objects.
 old-location: com\iaccesscontrol.htm
-old-project: com
+tech.root: com
 ms.assetid: f7f19a9d-27ed-479f-b5d4-562cab5be12a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IAccessControl, IAccessControl interface [COM], IAccessControl interface [COM],described, _com_iaccesscontrol, com.iaccesscontrol, iaccess/IAccessControl
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: iaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERSION, *PHTTP_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IAccessControl interface

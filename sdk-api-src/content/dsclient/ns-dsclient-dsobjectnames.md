@@ -4,7 +4,7 @@ title: DSOBJECTNAMES
 author: windows-sdk-content
 description: The DSOBJECTNAMES structure is used to contain directory object data for use by an Active Directory property sheet or context menu extension.
 old-location: ad\dsobjectnames.htm
-old-project: ad
+tech.root: ad
 ms.assetid: dfc1e88f-40ff-4ec1-9718-4801f678fa3f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSOBJECTNAMES, *LPDSOBJECTNAMES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DSOBJECTNAMES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DSOBJECTNAMES, *LPDSOBJECTNAMES
+req.redist: 
 ---
 
 # DSOBJECTNAMES structure

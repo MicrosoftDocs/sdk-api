@@ -4,17 +4,16 @@ title: IDXGIAdapter3
 author: windows-sdk-content
 description: This interface adds some memory residency methods, for budgeting and reserving physical memory.
 old-location: direct3ddxgi\idxgiadapter3.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 547840B4-4AAB-4049-8D79-BD34BA4D32CD
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIAdapter3, IDXGIAdapter3 interface [DXGI], IDXGIAdapter3 interface [DXGI],described, direct3ddxgi.idxgiadapter3, dxgi1_4/IDXGIAdapter3
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: Dxgi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGIAdapter3
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: Dxgi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIAdapter3 interface

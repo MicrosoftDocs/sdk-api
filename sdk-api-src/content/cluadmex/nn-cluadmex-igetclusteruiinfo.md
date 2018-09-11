@@ -4,17 +4,16 @@ title: IGetClusterUIInfo
 author: windows-sdk-content
 description: Called by a Failover Cluster Administrator extension to retrieve information about Failover Cluster Administrator's user interface.
 old-location: mscs\igetclusteruiinfo.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: e41afb20-5bb8-475f-a056-53d7be8f4bf0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IGetClusterUIInfo, IGetClusterUIInfo interface [Failover Cluster], IGetClusterUIInfo interface [Failover Cluster],described, _wolf_igetclusteruiinfo, cluadmex/IGetClusterUIInfo, mscs.igetclusteruiinfo
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetClusterUIInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetClusterUIInfo interface

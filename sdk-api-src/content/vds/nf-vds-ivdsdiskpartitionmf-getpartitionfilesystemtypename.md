@@ -4,17 +4,16 @@ title: IVdsDiskPartitionMF::GetPartitionFileSystemTypeName
 author: windows-sdk-content
 description: Retrieves the name of the file system on a partition on the disk at a specified byte offset.
 old-location: base\ivdsdiskpartitionmf_getpartitionfilesystemtypename.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: ad2f8c5b-6a85-437a-bb51-0c4552a015b2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetPartitionFileSystemTypeName, GetPartitionFileSystemTypeName method, GetPartitionFileSystemTypeName method,IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,GetPartitionFileSystemTypeName method, IVdsDiskPartitionMF.GetPartitionFileSystemTypeName, IVdsDiskPartitionMF::GetPartitionFileSystemTypeName, base.ivdsdiskpartitionmf_getpartitionfilesystemtypename, vds/IVdsDiskPartitionMF::GetPartitionFileSystemTypeName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsDiskPartitionMF.GetPartitionFileSystemTypeName
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsDiskPartitionMF::GetPartitionFileSystemTypeName

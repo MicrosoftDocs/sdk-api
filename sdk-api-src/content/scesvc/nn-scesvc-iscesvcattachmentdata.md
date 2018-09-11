@@ -4,17 +4,16 @@ title: ISceSvcAttachmentData
 author: windows-sdk-content
 description: The ISceSvcAttachmentData interface retrieves configuration and analysis data about a specified security service from the Security Configuration snap-ins.
 old-location: security\iscesvcattachmentdata.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: 385acdb9-5642-47c1-b2ac-be388edaac12
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISceSvcAttachmentData, ISceSvcAttachmentData interface [Security], ISceSvcAttachmentData interface [Security],described, _config_iscesvcattachmentdata, scesvc/ISceSvcAttachmentData, security.iscesvcattachmentdata
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: scesvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCESVC_INFO_TYPE
+req.lib: 
+req.dll: Wsecedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISceSvcAttachmentData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsecedit.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISceSvcAttachmentData interface

@@ -5,7 +5,7 @@ author: windows-sdk-content
 description: The IAVIFile interface supports opening and manipulating files and file headers, and creating and obtaining stream interfaces. Uses IUnknown::QueryInterface, IUnknown::AddRef, and IUnknown::Release in addition to the following custom methods:\_
 The IAVIFile interface supports opening and manipulating files and file headers, and creating and obtaining stream interfaces. Uses IUnknown::QueryInterface, IUnknown::AddRef, and IUnknown::Release in addition to the following custom methods:
 old-location: multimedia\iavifile.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 401db941-cbf6-452b-84e2-605fafac8a6d
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -15,7 +15,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -28,8 +27,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IAVIFile
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Msvfw32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IAVIFile interface

@@ -4,17 +4,16 @@ title: IUPnPDevice::get_ModelNumber
 author: windows-sdk-content
 description: The ModelNumber property specifies a human-readable form of the model number of the device.
 old-location: upnp\iupnpdevice_modelnumber.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 7e9b92a6-efad-41f0-b083-a2fed0f70c8b
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ModelNumber method, IUPnPDevice.get_ModelNumber, IUPnPDevice::get_ModelNumber, _upnp_iupnpdevice_modelnumber, get_ModelNumber, get_ModelNumber method [UPnP APIs], get_ModelNumber method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_modelnumber, upnp/IUPnPDevice::get_ModelNumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDevice.get_ModelNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDevice::get_ModelNumber

@@ -4,17 +4,16 @@ title: IGetClusterGroupInfo
 author: windows-sdk-content
 description: The IGetClusterGroupInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a group.
 old-location: mscs\igetclustergroupinfo.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 335114ff-3db8-4867-b830-6806adef01f8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IGetClusterGroupInfo, IGetClusterGroupInfo interface [Failover Cluster], IGetClusterGroupInfo interface [Failover Cluster],described, _wolf_igetclustergroupinfo, cluadmex/IGetClusterGroupInfo, mscs.igetclustergroupinfo
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetClusterGroupInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetClusterGroupInfo interface

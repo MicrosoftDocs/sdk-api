@@ -4,7 +4,7 @@ title: IFsrmReportJob
 author: windows-sdk-content
 description: Used to configure a report job.
 old-location: fsrm\ifsrmreportjob.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: ea8a3f6b-326b-4c8f-a6fc-7b7525c5543f
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmreports.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmReportJob
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReportJob interface

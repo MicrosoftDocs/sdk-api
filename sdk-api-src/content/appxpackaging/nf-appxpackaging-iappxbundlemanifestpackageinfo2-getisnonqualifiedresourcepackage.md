@@ -4,17 +4,16 @@ title: IAppxBundleManifestPackageInfo2::GetIsNonQualifiedResourcePackage
 author: windows-sdk-content
 description: Determines whether the app package is a non-qualified resource package.
 old-location: appxpkg\iappxbundlemanifestpackageinfo2_getisnonqualifiedresourcepackage.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: C6AA5EE3-DE41-41DD-8804-70CDCA817C7A
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetIsNonQualifiedResourcePackage, GetIsNonQualifiedResourcePackage method [App packaging and management], GetIsNonQualifiedResourcePackage method [App packaging and management],IAppxBundleManifestPackageInfo2 interface, IAppxBundleManifestPackageInfo2 interface [App packaging and management],GetIsNonQualifiedResourcePackage method, IAppxBundleManifestPackageInfo2.GetIsNonQualifiedResourcePackage, IAppxBundleManifestPackageInfo2::GetIsNonQualifiedResourcePackage, appxpackaging/IAppxBundleManifestPackageInfo2::GetIsNonQualifiedResourcePackage, appxpkg.iappxbundlemanifestpackageinfo2_getisnonqualifiedresourcepackage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxBundleManifestPackageInfo2.GetIsNonQualifiedResourcePackage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxBundleManifestPackageInfo2::GetIsNonQualifiedResourcePackage

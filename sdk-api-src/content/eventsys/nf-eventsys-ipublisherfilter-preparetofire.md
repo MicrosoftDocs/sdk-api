@@ -4,17 +4,16 @@ title: IPublisherFilter::PrepareToFire
 author: windows-sdk-content
 description: Prepares a publisher filter to begin firing a filtered list of subscriptions using a provided firing control. The firing control is contained in the event class object.
 old-location: cos\ipublisherfilter_preparetofire.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 78faa83f-ee73-4034-9be1-5576e5a909e3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPublisherFilter interface [COM+],PrepareToFire method, IPublisherFilter.PrepareToFire, IPublisherFilter::PrepareToFire, PrepareToFire, PrepareToFire method [COM+], PrepareToFire method [COM+],IPublisherFilter interface, _cos_IPublisherFilter_PrepareToFire, cos.ipublisherfilter_preparetofire, eventsys/IPublisherFilter::PrepareToFire
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPublisherFilter.PrepareToFire
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IPublisherFilter::PrepareToFire

@@ -4,17 +4,16 @@ title: IBrowserService2::v_MayTranslateAccelerator
 author: windows-sdk-content
 description: Deprecated. Called by a derived class to instruct the base class to proceed with the translation of keyboard mnemonics.
 old-location: shell\IBrowserService2_v_MayTranslateAccelerator.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 99dc3bce-c661-4233-8457-0ce29e02c270
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_MayTranslateAccelerator method, IBrowserService2.v_MayTranslateAccelerator, IBrowserService2::v_MayTranslateAccelerator, shdeprecated/IBrowserService2::v_MayTranslateAccelerator, shell.IBrowserService2_v_MayTranslateAccelerator, v_MayTranslateAccelerator, v_MayTranslateAccelerator method [Windows Shell], v_MayTranslateAccelerator method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_MayTranslateAccelerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2.v_MayTranslateAccelerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

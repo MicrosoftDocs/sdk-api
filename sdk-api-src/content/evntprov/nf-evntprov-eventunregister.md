@@ -4,17 +4,16 @@ title: EventUnregister function
 author: windows-sdk-content
 description: Removes the provider's registration. You must call this function before your process exits.
 old-location: etw\eventunregister_func.htm
-old-project: etw
+tech.root: etw
 ms.assetid: fdcccf6f-2f31-4356-a4ee-3b6229c01b75
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: EventUnregister, EventUnregister function [ETW], base.eventunregister_func, etw.eventunregister_func, evntprov/EventUnregister
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - EventUnregister
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EventUnregister function

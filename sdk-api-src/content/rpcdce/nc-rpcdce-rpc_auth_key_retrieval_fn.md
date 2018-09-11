@@ -4,17 +4,16 @@ title: RPC_AUTH_KEY_RETRIEVAL_FN
 author: windows-sdk-content
 description: The RPC_AUTH_KEY_RETRIEVAL_FN function is a prototype for a function that specifies the address of a server-application-provided routine returning encryption keys.
 old-location: rpc\rpc_auth_key_retrieval_fn.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 643ce467-5df9-4b1a-a149-cf301865d47a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RPC_AUTH_KEY_RETRIEVAL_FN, RPC_AUTH_KEY_RETRIEVAL_FN callback, RPC_AUTH_KEY_RETRIEVAL_FN callback function [RPC], RpcAuthKeyRetrievalFn, _rpc_rpc_auth_key_retrieval_fn, rpc.rpc_auth_key_retrieval_fn, rpcdce/RPC_AUTH_KEY_RETRIEVAL_FN
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_AUTH_KEY_RETRIEVAL_FN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RPC_AUTH_KEY_RETRIEVAL_FN callback function

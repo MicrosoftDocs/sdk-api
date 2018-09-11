@@ -4,17 +4,16 @@ title: VarDateFromI8 function
 author: windows-sdk-content
 description: Converts an 8-byte unsigned integer value to a date value.
 old-location: automat\vardatefromi8.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 0d551218-87fc-450d-b193-fb00e18179af
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarDateFromI8, VarDateFromI8 function [Automation], _oa96_VarDateFromI8, automat.vardatefromi8, oleauto/VarDateFromI8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarDateFromI8
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarDateFromI8 function

@@ -4,17 +4,16 @@ title: ISBE2MediaTypeProfile::GetStream
 author: windows-sdk-content
 description: Gets the media type of a stream that appears at a specific index in a media type profile.
 old-location: mstv\isbe2mediatypeprofile_getstream.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 14c48484-59b0-4e39-8684-9875edfd6556
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetStream, GetStream method [Microsoft TV Technologies], GetStream method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],GetStream method, ISBE2MediaTypeProfile.GetStream, ISBE2MediaTypeProfile::GetStream, mstv.isbe2mediatypeprofile_getstream, sbe/ISBE2MediaTypeProfile::GetStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: Sbe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISBE2MediaTypeProfile.GetStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sbe.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISBE2MediaTypeProfile::GetStream

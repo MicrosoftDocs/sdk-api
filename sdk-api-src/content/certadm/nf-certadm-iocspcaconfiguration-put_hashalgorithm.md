@@ -4,17 +4,16 @@ title: IOCSPCAConfiguration::put_HashAlgorithm
 author: windows-sdk-content
 description: Gets or sets an identifier for the hash algorithm used to sign a certificate.
 old-location: security\iocspcaconfiguration_hashalgorithm_method.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 71725dc1-7663-4ddd-afde-1e2792fce4f3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],HashAlgorithm property, IOCSPCAConfiguration.HashAlgorithm, IOCSPCAConfiguration.put_HashAlgorithm, IOCSPCAConfiguration::HashAlgorithm, IOCSPCAConfiguration::get_HashAlgorithm, IOCSPCAConfiguration::put_HashAlgorithm, certadm/IOCSPCAConfiguration::HashAlgorithm, certadm/IOCSPCAConfiguration::get_HashAlgorithm, certadm/IOCSPCAConfiguration::put_HashAlgorithm, put_HashAlgorithm, security.iocspcaconfiguration_hashalgorithm_method, security.iocspcaconfiguration_hashalgorithmid_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IOCSPCAConfiguration.put_HashAlgorithm
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPCAConfiguration::put_HashAlgorithm

@@ -4,7 +4,7 @@ title: IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN
 author: windows-sdk-content
 description: This I/O control code (IOCTL) is sent by a user mode service or application to request a zero-length control status handshake on endpoint 0 in the IN direction.
 old-location: buses\ioctl_genericusbfn_control_status_handshake_in.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: A01233F3-3C5F-4184-9AAA-7391BFD2EB02
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN IOCTL

@@ -4,17 +4,16 @@ title: lineGetCallInfo function
 author: windows-sdk-content
 description: The lineGetCallInfo function enables an application to obtain fixed information about the specified call.
 old-location: tapi2\linegetcallinfo.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: e69722cb-9c45-4f1a-a855-64afa3c33276
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: "_tapi2_linegetcallinfo, lineGetCallInfo, lineGetCallInfo function [TAPI 2.2], lineGetCallInfoA, lineGetCallInfoW, tapi/lineGetCallInfo, tapi/lineGetCallInfoA, tapi/lineGetCallInfoW, tapi2.linegetcallinfo"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - lineGetCallInfoW
 product: Windows
 targetos: Windows
-req.lib: Tapi32.lib
-req.dll: Tapi32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # lineGetCallInfo function

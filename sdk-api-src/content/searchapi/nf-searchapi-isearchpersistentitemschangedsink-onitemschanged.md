@@ -4,17 +4,16 @@ title: ISearchPersistentItemsChangedSink::OnItemsChanged
 author: windows-sdk-content
 description: Notifies the indexer to index changed items.
 old-location: search\_search_ISearchPersistentItemsChangedSink_OnItemsChanged.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersistentitemschangedsink\onitemschanged.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ISearchPersistentItemsChangedSink interface [search],OnItemsChanged method, ISearchPersistentItemsChangedSink.OnItemsChanged, ISearchPersistentItemsChangedSink::OnItemsChanged, OnItemsChanged, OnItemsChanged method [search], OnItemsChanged method [search],ISearchPersistentItemsChangedSink interface, _search_ISearchPersistentItemsChangedSink_OnItemsChanged, search._search_ISearchPersistentItemsChangedSink_OnItemsChanged, searchapi/ISearchPersistentItemsChangedSink::OnItemsChanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchPersistentItemsChangedSink.OnItemsChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # ISearchPersistentItemsChangedSink::OnItemsChanged

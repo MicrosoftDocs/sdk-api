@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxOutgoingQueue.GetJob
 title: IFaxOutgoingQueue::GetJob
 author: windows-sdk-content
-description: The GetJob method returns an outbound fax job in the job queue according to its ID.
-old-location: fax\_mfax_faxoutgoingqueue_getjob.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_3w6a.htm
+description: The IFaxOutgoingQueue::GetJob method returns an outbound fax job in the job queue according to its ID.
+old-location: fax\_mfax_faxoutgoingqueue_getjob_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_3w6a_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxOutgoingQueue object [Fax Service],GetJob method, FaxOutgoingQueue.GetJob, GetJob, GetJob method [Fax Service], GetJob method [Fax Service],FaxOutgoingQueue object, IFaxOutgoingQueue.GetJob, IFaxOutgoingQueue::GetJob, _mfax_faxoutgoingqueue.getjob, fax._mfax_faxoutgoingqueue_getjob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: GetJob, GetJob method [Fax Service], GetJob method [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],GetJob method, IFaxOutgoingQueue.GetJob, IFaxOutgoingQueue::GetJob, _mfax_faxoutgoingqueue.getjob_cpp, fax._mfax_faxoutgoingqueue_getjob_cpp, faxcomex/IFaxOutgoingQueue::GetJob
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxOutgoingQueue.GetJob
  - IFaxOutgoingQueue.GetJob
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxOutgoingQueue::GetJob
@@ -53,7 +50,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>GetJob</b> method returns an outbound fax job in the job queue according to its ID.
+The <b>IFaxOutgoingQueue::GetJob</b> method returns an outbound fax job in the job queue according to its ID.
 
 
 ## -parameters
@@ -63,25 +60,25 @@ The <b>GetJob</b> method returns an outbound fax job in the job queue according 
 
 ### -param bstrJobId [in]
 
-Type: <b>String</b>
+Type: <b>BSTR</b>
 
 Specifies the job ID. 
 
 
-### -param pFaxOutgoingJob
+### -param pFaxOutgoingJob [out, retval]
 
+Type: <b><a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a>**</b>
 
-
-
+The address of a pointer that receives a <a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a> object. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a>**</b>
+Type: <b>HRESULT</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a> object.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
@@ -107,10 +104,6 @@ With the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).asp
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms687529(v=VS.85).aspx">IFaxOutgoingQueue</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms693393(v=VS.85).aspx">Managing Outgoing Jobs</a>
  
 
  

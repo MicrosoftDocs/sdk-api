@@ -4,17 +4,16 @@ title: SetPrivateObjectSecurityEx function
 author: windows-sdk-content
 description: Modifies the security descriptor of a private object maintained by the resource manager calling this function.
 old-location: security\setprivateobjectsecurityex.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: eb3a751f-741e-448f-b812-5f16a4040b5e
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: SEF_AVOID_OWNER_CHECK, SEF_AVOID_OWNER_RESTRICTION, SEF_AVOID_PRIVILEGE_CHECK, SEF_DACL_AUTO_INHERIT, SEF_DEFAULT_GROUP_FROM_PARENT, SEF_DEFAULT_OWNER_FROM_PARENT, SEF_MACL_NO_EXECUTE_UP, SEF_MACL_NO_READ_UP, SEF_MACL_NO_WRITE_UP, SEF_SACL_AUTO_INHERIT, SetPrivateObjectSecurityEx, SetPrivateObjectSecurityEx function [Security], _win32_setprivateobjectsecurityex, security.setprivateobjectsecurityex, securitybaseapi/SetPrivateObjectSecurityEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - SetPrivateObjectSecurityEx
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetPrivateObjectSecurityEx function

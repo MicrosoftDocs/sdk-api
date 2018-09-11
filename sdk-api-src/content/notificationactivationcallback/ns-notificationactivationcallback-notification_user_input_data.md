@@ -4,17 +4,16 @@ title: NOTIFICATION_USER_INPUT_DATA
 author: windows-sdk-content
 description: Contains information about how a user interacted with a notification toast in the action center. This structure is used by Activate.
 old-location: win32_tile_badge_notif\notification_user_input_data.htm
-old-project: win32_tile_badge_notif
+tech.root: win32_tile_badge_notif
 ms.assetid: C39B906E-4EB2-4EFF-B0A3-76E6B17A3662
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: NOTIFICATION_USER_INPUT_DATA, NOTIFICATION_USER_INPUT_DATA structure, PNOTIFICATION_USER_INPUT_DATA, PNOTIFICATION_USER_INPUT_DATA structure pointer, notificationactivationcallback/NOTIFICATION_USER_INPUT_DATA, notificationactivationcallback/PNOTIFICATION_USER_INPUT_DATA, win32_tile_badge_notif.notification_user_input_data
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: notificationactivationcallback.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFICATION_USER_INPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NOTIFICATION_USER_INPUT_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NOTIFICATION_USER_INPUT_DATA
+req.redist: 
 ---
 
 # NOTIFICATION_USER_INPUT_DATA structure

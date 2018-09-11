@@ -4,17 +4,16 @@ title: IRemoteDesktopClientActions::ExecuteRemoteAction
 author: windows-sdk-content
 description: Causes an action to be performed in the remote session.
 old-location: termserv\iremotedesktopclientactions_executeremoteaction.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 944fbfe4-b033-471b-9a28-87349382d37a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ExecuteRemoteAction, ExecuteRemoteAction method [Remote Desktop Services], ExecuteRemoteAction method [Remote Desktop Services],IRemoteDesktopClientActions interface, IRemoteDesktopClientActions interface [Remote Desktop Services],ExecuteRemoteAction method, IRemoteDesktopClientActions.ExecuteRemoteAction, IRemoteDesktopClientActions::ExecuteRemoteAction, rdpappcontainerclient/IRemoteDesktopClientActions::ExecuteRemoteAction, termserv.iremotedesktopclientactions_executeremoteaction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsTscAx.dll
-tech.root: 
-req.typenames: SnapshotFormatType
+req.lib: 
+req.dll: MsTscAx.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRemoteDesktopClientActions.ExecuteRemoteAction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsTscAx.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRemoteDesktopClientActions::ExecuteRemoteAction

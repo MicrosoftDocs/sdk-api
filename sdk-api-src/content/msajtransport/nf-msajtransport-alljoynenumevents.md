@@ -4,17 +4,16 @@ title: AllJoynEnumEvents function
 author: windows-sdk-content
 description: Provides AllJoyn transport functionality similar to the TCP socket WSAEnumNetworkEvents functionality.
 old-location: alljoyn\alljoynenumevents.htm
-old-project: AllJoyn
+tech.root: AllJoyn
 ms.assetid: 0B53EAE5-9043-46F2-9C7B-A5836AF241A3
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: AllJoynEnumEvents, AllJoynEnumEvents function [AllJoyn API], alljoyn.alljoynenumevents, msajtransport/AllJoynEnumEvents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msajtransport.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACMSTREAMHEADER, *PACMSTREAMHEADER, *LPACMSTREAMHEADER
+req.lib: MSAJApi.lib
+req.dll: MSAJApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AllJoynEnumEvents
 product: Windows
 targetos: Windows
-req.lib: MSAJApi.lib
-req.dll: MSAJApi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # AllJoynEnumEvents function

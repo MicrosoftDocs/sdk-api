@@ -4,7 +4,7 @@ title: "_NTFS_STATISTICS"
 author: windows-sdk-content
 description: Contains statistical information from the NTFS file system.
 old-location: fs\ntfs_statistics_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 9b5cffc5-386d-4333-9a37-cc27b8f9b187
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTFS_STATISTICS, *PNTFS_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTFS_STATISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: NTFS_STATISTICS, *PNTFS_STATISTICS
+req.redist: 
 ---
 
 # _NTFS_STATISTICS structure

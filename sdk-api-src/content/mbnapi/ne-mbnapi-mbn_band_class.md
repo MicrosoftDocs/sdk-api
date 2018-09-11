@@ -4,17 +4,16 @@ title: MBN_BAND_CLASS
 author: windows-sdk-content
 description: The MBN_BAND_CLASS enumerated type defines the frequency band classes.
 old-location: mbn\mbn_band_class.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 0ad757fd-583b-4163-af69-54a559a3dacc
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: MBN_BAND_CLASS, MBN_BAND_CLASS enumeration [Microsoft Broadband Networks], MBN_BAND_CLASS_0, MBN_BAND_CLASS_CUSTOM, MBN_BAND_CLASS_I, MBN_BAND_CLASS_II, MBN_BAND_CLASS_III, MBN_BAND_CLASS_IV, MBN_BAND_CLASS_IX, MBN_BAND_CLASS_NONE, MBN_BAND_CLASS_V, MBN_BAND_CLASS_VI, MBN_BAND_CLASS_VII, MBN_BAND_CLASS_VIII, MBN_BAND_CLASS_X, MBN_BAND_CLASS_XI, MBN_BAND_CLASS_XII, MBN_BAND_CLASS_XIII, MBN_BAND_CLASS_XIV, MBN_BAND_CLASS_XV, MBN_BAND_CLASS_XVI, MBN_BAND_CLASS_XVII, mbn.mbn_band_class, mbnapi/MBN_BAND_CLASS, mbnapi/MBN_BAND_CLASS_0, mbnapi/MBN_BAND_CLASS_CUSTOM, mbnapi/MBN_BAND_CLASS_I, mbnapi/MBN_BAND_CLASS_II, mbnapi/MBN_BAND_CLASS_III, mbnapi/MBN_BAND_CLASS_IV, mbnapi/MBN_BAND_CLASS_IX, mbnapi/MBN_BAND_CLASS_NONE, mbnapi/MBN_BAND_CLASS_V, mbnapi/MBN_BAND_CLASS_VI, mbnapi/MBN_BAND_CLASS_VII, mbnapi/MBN_BAND_CLASS_VIII, mbnapi/MBN_BAND_CLASS_X, mbnapi/MBN_BAND_CLASS_XI, mbnapi/MBN_BAND_CLASS_XII, mbnapi/MBN_BAND_CLASS_XIII, mbnapi/MBN_BAND_CLASS_XIV, mbnapi/MBN_BAND_CLASS_XV, mbnapi/MBN_BAND_CLASS_XVI, mbnapi/MBN_BAND_CLASS_XVII
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_BAND_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_BAND_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_BAND_CLASS
+req.redist: 
 ---
 
 # MBN_BAND_CLASS enumeration

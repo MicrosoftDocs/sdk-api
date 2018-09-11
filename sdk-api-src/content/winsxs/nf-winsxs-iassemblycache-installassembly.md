@@ -4,17 +4,16 @@ title: IAssemblyCache::InstallAssembly
 author: windows-sdk-content
 description: The InstallAssembly method adds an application reference to an assembly to the side-by-side store and copies the files of the assembly to the side-by-side store. The files of the assembly being installed must be present in the current file system.
 old-location: setup\iassemblycache_installassembly.htm
-old-project: sbscs
+tech.root: SbsCs
 ms.assetid: aff1da20-9e82-43d5-b601-f73ee2dba0fe
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IASSEMBLYCACHE_INSTALL_FLAG_FORCE_REFRESH, IASSEMBLYCACHE_INSTALL_FLAG_REFRESH, IAssemblyCache interface [Side-by-side Assemblies],InstallAssembly method, IAssemblyCache.InstallAssembly, IAssemblyCache::InstallAssembly, InstallAssembly, InstallAssembly method [Side-by-side Assemblies], InstallAssembly method [Side-by-side Assemblies],IAssemblyCache interface, setup.iassemblycache_installassembly, winsxs/IAssemblyCache::InstallAssembly
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsxs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREATE_ASM_NAME_OBJ_FLAGS
+req.lib: 
+req.dll: Sxs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAssemblyCache.InstallAssembly
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sxs.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IAssemblyCache::InstallAssembly

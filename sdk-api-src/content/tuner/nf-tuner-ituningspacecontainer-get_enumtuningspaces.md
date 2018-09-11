@@ -4,17 +4,16 @@ title: ITuningSpaceContainer::get_EnumTuningSpaces
 author: windows-sdk-content
 description: The get_EnumTuningSpaces method retrieves a collection of all tuning spaces available on the local system.
 old-location: mstv\ituningspacecontainer_get_enumtuningspaces.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7cd6a691-8c47-4c26-8afd-57f6965246ff
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_EnumTuningSpaces method, ITuningSpaceContainer.get_EnumTuningSpaces, ITuningSpaceContainer::get_EnumTuningSpaces, ITuningSpaceContainerget_EnumTuningSpaces, get_EnumTuningSpaces, get_EnumTuningSpaces method [Microsoft TV Technologies], get_EnumTuningSpaces method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_enumtuningspaces, tuner/ITuningSpaceContainer::get_EnumTuningSpaces
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITuningSpaceContainer.get_EnumTuningSpaces
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITuningSpaceContainer::get_EnumTuningSpaces

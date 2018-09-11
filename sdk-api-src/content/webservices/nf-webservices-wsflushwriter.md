@@ -4,17 +4,16 @@ title: WsFlushWriter function
 author: windows-sdk-content
 description: Instructs the writer to invoke the callbackspecified in WS_XML_WRITER_STREAM_OUTPUT if sufficient data has been buffered.
 old-location: wsw\wsflushwriter.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: ba631942-d5a0-4d93-9899-c3f0ebd4aae5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsFlushWriter, WsFlushWriter function [Web Services for Windows], webservices/WsFlushWriter, wsw.wsflushwriter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsFlushWriter
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsFlushWriter function

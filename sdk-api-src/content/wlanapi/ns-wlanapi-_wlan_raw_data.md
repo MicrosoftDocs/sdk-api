@@ -4,7 +4,7 @@ title: "_WLAN_RAW_DATA"
 author: windows-sdk-content
 description: Contains raw data in the form of a blob that is used by some Native Wifi functions.
 old-location: nwifi\dot11_psd_ie_data_entry.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 5f5ddecb-f841-436c-bf31-c70c95a5d39c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLAN_RAW_DATA, *PWLAN_RAW_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLAN_RAW_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLAN_RAW_DATA, *PWLAN_RAW_DATA
+req.redist: 
 ---
 
 # _WLAN_RAW_DATA structure

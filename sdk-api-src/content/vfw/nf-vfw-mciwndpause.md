@@ -4,17 +4,16 @@ title: MCIWndPause macro
 author: windows-sdk-content
 description: The MCIWndPause macro sends a command to an MCI device to pause playing or recording.
 old-location: multimedia\mciwndpause.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 3c5e0209-f64b-4235-9855-e5ad4ce88032
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndPause, MCIWndPause macro [Windows Multimedia], _win32_MCIWndPause, multimedia.mciwndpause, vfw/MCIWndPause
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndPause
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndPause macro

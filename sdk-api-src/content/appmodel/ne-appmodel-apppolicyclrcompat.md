@@ -4,7 +4,7 @@ title: AppPolicyClrCompat
 author: windows-sdk-content
 description: The AppPolicyClrCompat enumeration indicates the application type of a process so that you can determine whether to enable private reflection and/or make managed objects agile.
 old-location: appxpkg\apppolicyclrcompat.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 2653340E-FCDD-41B7-B72C-F99C92920645
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AppPolicyClrCompat
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AppPolicyClrCompat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AppPolicyClrCompat
+req.redist: 
 ---
 
 # AppPolicyClrCompat enumeration

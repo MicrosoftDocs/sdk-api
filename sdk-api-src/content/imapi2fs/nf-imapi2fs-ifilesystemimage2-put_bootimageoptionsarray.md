@@ -4,17 +4,16 @@ title: IFileSystemImage2::put_BootImageOptionsArray
 author: windows-sdk-content
 description: Sets the boot option array that will be utilized to generate the file system image. Unlike IFileSystemImage::put_BootImageOptions, this method will not create a complete copy of each boot options array element, but instead use references to each element.
 old-location: imapi\ifilesystemimage2_put_bootimageoptionsarray.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 0b827f6a-8e40-4d9d-bec6-8d7f33dade43
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFileSystemImage2 interface [IMAPI],put_BootImageOptionsArray method, IFileSystemImage2.put_BootImageOptionsArray, IFileSystemImage2::put_BootImageOptionsArray, imapi.ifilesystemimage2_put_bootimageoptionsarray, imapi2fs/IFileSystemImage2::put_BootImageOptionsArray, put_BootImageOptionsArray, put_BootImageOptionsArray method [IMAPI], put_BootImageOptionsArray method [IMAPI],IFileSystemImage2 interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImage2.put_BootImageOptionsArray
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImage2::put_BootImageOptionsArray

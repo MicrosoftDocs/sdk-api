@@ -4,17 +4,16 @@ title: ISCPSecureAuthenticate::GetSecureQuery
 author: windows-sdk-content
 description: The GetSecureQuery method is used to obtain a pointer to the ISCPSecureQuery interface.
 old-location: wmdm\iscpsecureauthenticate_getsecurequery.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: d0cee36c-5200-4951-9a83-a0f32658939b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSecureQuery, GetSecureQuery method [windows Media Device Manager], GetSecureQuery method [windows Media Device Manager],ISCPSecureAuthenticate interface, ISCPSecureAuthenticate interface [windows Media Device Manager],GetSecureQuery method, ISCPSecureAuthenticate.GetSecureQuery, ISCPSecureAuthenticate::GetSecureQuery, ISCPSecureAuthenticateGetSecureQuery, mswmdm/ISCPSecureAuthenticate::GetSecureQuery, wmdm.iscpsecureauthenticate_getsecurequery
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISCPSecureAuthenticate.GetSecureQuery
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISCPSecureAuthenticate::GetSecureQuery

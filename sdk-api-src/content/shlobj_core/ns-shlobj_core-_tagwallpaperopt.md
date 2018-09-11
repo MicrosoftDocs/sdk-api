@@ -4,17 +4,16 @@ title: "_tagWALLPAPEROPT"
 author: windows-sdk-content
 description: Contains the wallpaper display options. Used with members of the IActiveDesktop interface.
 old-location: shell\WALLPAPEROPT.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5fafbc3a-606c-4175-ac3a-132a1bfded07
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPWALLPAPEROPT, WALLPAPEROPT, WALLPAPEROPT structure [Windows Shell], WPSTYLE_CENTER, WPSTYLE_CROPTOFIT, WPSTYLE_KEEPASPECT, WPSTYLE_MAX, WPSTYLE_SPAN, WPSTYLE_STRETCH, WPSTYLE_TILE, _tagWALLPAPEROPT, _win32_WALLPAPEROPT, shell.WALLPAPEROPT, shlobj_core/WALLPAPEROPT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WALLPAPEROPT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WALLPAPEROPT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: WALLPAPEROPT
+req.redist: 
 ---
 
 # _tagWALLPAPEROPT structure

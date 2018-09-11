@@ -4,7 +4,7 @@ title: "_EAP_CONFIG_INPUT_FIELD_DATA"
 author: windows-sdk-content
 description: Contains the data associated with a single input field.
 old-location: eaphost\eap_config_input_field_data.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 2b321f26-fb40-44e5-b483-52d85cb54c8c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_CONFIG_INPUT_FIELD_DATA, *PEAP_CONFIG_INPUT_FIELD_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_CONFIG_INPUT_FIELD_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_CONFIG_INPUT_FIELD_DATA, *PEAP_CONFIG_INPUT_FIELD_DATA
+req.redist: 
 ---
 
 # _EAP_CONFIG_INPUT_FIELD_DATA structure

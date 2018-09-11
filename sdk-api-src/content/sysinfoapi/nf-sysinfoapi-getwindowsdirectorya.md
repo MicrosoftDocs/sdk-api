@@ -4,17 +4,16 @@ title: GetWindowsDirectoryA function
 author: windows-sdk-content
 description: Retrieves the path of the Windows directory.
 old-location: base\getwindowsdirectory.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: 8c9b55e1-121a-4405-9f83-043752dd48ed
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetWindowsDirectory, GetWindowsDirectory function, GetWindowsDirectoryA, GetWindowsDirectoryW, _win32_getwindowsdirectory, base.getwindowsdirectory, sysinfoapi/GetWindowsDirectory, sysinfoapi/GetWindowsDirectoryA, sysinfoapi/GetWindowsDirectoryW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPUTER_NAME_FORMAT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - GetWindowsDirectoryW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # GetWindowsDirectoryA function

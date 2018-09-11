@@ -4,17 +4,16 @@ title: NdrMesProcEncodeDecode4 function
 author: windows-sdk-content
 description: NdrMesProcEncodeDecode4 may be altered or unavailable.
 old-location: rpc\ndrmesprocencodedecode4.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 53A24D77-0C23-4C06-AAB8-521528297E4F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NdrMesProcEncodeDecode4, NdrMesProcEncodeDecode4 function [RPC], rpc.ndrmesprocencodedecode4, rpcndr/NdrMesProcEncodeDecode4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrMesProcEncodeDecode4
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrMesProcEncodeDecode4 function
@@ -77,7 +75,14 @@ Reserved.
 Reserved.
 
 
-### -param param [in, out]
+### -param arg1
+
+TBD
+
+
+
+
+#### - param [in, out]
 
 Reserved.
 

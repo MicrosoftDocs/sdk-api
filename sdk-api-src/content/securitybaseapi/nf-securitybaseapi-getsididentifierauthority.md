@@ -4,17 +4,16 @@ title: GetSidIdentifierAuthority function
 author: windows-sdk-content
 description: Returns a pointer to the SID_IDENTIFIER_AUTHORITY structure in a specified security identifier (SID).
 old-location: security\getsididentifierauthority.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 67a06e7b-775f-424c-ab36-0fc9b93b801a
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetSidIdentifierAuthority, GetSidIdentifierAuthority function [Security], _win32_getsididentifierauthority, security.getsididentifierauthority, securitybaseapi/GetSidIdentifierAuthority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetSidIdentifierAuthority
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetSidIdentifierAuthority function

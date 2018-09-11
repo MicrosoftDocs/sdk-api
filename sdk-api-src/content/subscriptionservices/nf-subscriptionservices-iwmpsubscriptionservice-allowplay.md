@@ -4,17 +4,16 @@ title: IWMPSubscriptionService::allowPlay
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice_allowplay.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 6350bf9d-f046-494f-8052-2a6f5339b4bd
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowPlay method, IWMPSubscriptionService.allowPlay, IWMPSubscriptionService::allowPlay, IWMPSubscriptionServiceallowPlay, allowPlay, allowPlay method [Windows Media Player], allowPlay method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::allowPlay, wmp.iwmpsubscriptionservice_allowplay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: subscriptionservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSubscriptionServiceEvent
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPSubscriptionService.allowPlay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPSubscriptionService::allowPlay

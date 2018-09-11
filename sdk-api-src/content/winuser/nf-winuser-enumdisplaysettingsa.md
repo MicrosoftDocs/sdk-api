@@ -4,17 +4,16 @@ title: EnumDisplaySettingsA function
 author: windows-sdk-content
 description: The EnumDisplaySettings function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes of a display device, make a series of calls to this function.
 old-location: gdi\enumdisplaysettings.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: af73610b-bcd8-4660-800e-84fa0cc5b4eb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ENUM_CURRENT_SETTINGS, ENUM_REGISTRY_SETTINGS, EnumDisplaySettings, EnumDisplaySettings function [Windows GDI], EnumDisplaySettingsA, EnumDisplaySettingsW, _win32_EnumDisplaySettings, gdi.enumdisplaysettings, winuser/EnumDisplaySettings, winuser/EnumDisplaySettingsA, winuser/EnumDisplaySettingsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - EnumDisplaySettingsW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # EnumDisplaySettingsA function

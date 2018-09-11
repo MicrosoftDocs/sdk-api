@@ -4,17 +4,16 @@ title: IDCompositionTableTransferEffect::SetGreenTable
 author: windows-sdk-content
 description: Sets the list of values used to define the transfer function for the green channel.
 old-location: directcomp\idcompositiontabletransfereffect_setgreentable.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 90FB09CA-EC67-4518-915E-223C26E30FA4
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetGreenTable method, IDCompositionTableTransferEffect.SetGreenTable, IDCompositionTableTransferEffect::SetGreenTable, SetGreenTable, SetGreenTable method [DirectComposition], SetGreenTable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetGreenTable, directcomp.idcompositiontabletransfereffect_setgreentable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionTableTransferEffect.SetGreenTable
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionTableTransferEffect::SetGreenTable

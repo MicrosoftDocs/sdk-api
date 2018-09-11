@@ -4,17 +4,16 @@ title: IDataCollectorSet::get_SerialNumber
 author: windows-sdk-content
 description: Retrieves or sets the number of times that this data collector set has been started, including segments.
 old-location: pla\idatacollectorset_get_serialnumber.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 92bfd307-362e-4d60-9a61-d2096fbb3d19
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],SerialNumber property, IDataCollectorSet.SerialNumber, IDataCollectorSet.get_SerialNumber, IDataCollectorSet::SerialNumber, IDataCollectorSet::get_SerialNumber, IDataCollectorSet::put_SerialNumber, SerialNumber property [PLA], SerialNumber property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_serialnumber, get_SerialNumber, pla.idatacollectorset_get_serialnumber, pla/IDataCollectorSet::SerialNumber, pla/IDataCollectorSet::get_SerialNumber, pla/IDataCollectorSet::put_SerialNumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataCollectorSet.put_SerialNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::get_SerialNumber

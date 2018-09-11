@@ -4,17 +4,16 @@ title: IAMMediaContent::get_Title
 author: windows-sdk-content
 description: The get_Title method retrieves the title.
 old-location: dshow\iammediacontent_get_title.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 60543438-9547-44fe-8468-baee03d6ebc9
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Title method, IAMMediaContent.get_Title, IAMMediaContent::get_Title, IAMMediaContentget_Title, dshow.iammediacontent_get_title, get_Title, get_Title method [DirectShow], get_Title method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Title
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMMediaContent.get_Title
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMediaContent::get_Title

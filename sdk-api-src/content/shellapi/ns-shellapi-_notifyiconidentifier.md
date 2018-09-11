@@ -4,17 +4,16 @@ title: "_NOTIFYICONIDENTIFIER"
 author: windows-sdk-content
 description: Contains information used by Shell_NotifyIconGetRect to identify the icon for which to retrieve the bounding rectangle.
 old-location: shell\NOTIFYICONIDENTIFIER.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2fe4ffba-6fe5-4d34-9cb1-f266e4594b8e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*PNOTIFYICONIDENTIFIER, NOTIFYICONIDENTIFIER, NOTIFYICONIDENTIFIER structure [Windows Shell], PNOTIFYICONIDENTIFIER, PNOTIFYICONIDENTIFIER structure pointer [Windows Shell], _NOTIFYICONIDENTIFIER, _shell_NOTIFYICONIDENTIFIER, shell.NOTIFYICONIDENTIFIER, shellapi/NOTIFYICONIDENTIFIER, shellapi/PNOTIFYICONIDENTIFIER"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFYICONIDENTIFIER, *PNOTIFYICONIDENTIFIER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NOTIFYICONIDENTIFIER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: NOTIFYICONIDENTIFIER, *PNOTIFYICONIDENTIFIER
+req.redist: 
 ---
 
 # _NOTIFYICONIDENTIFIER structure

@@ -4,17 +4,16 @@ title: "_CREATE_CLUSTER_CONFIG"
 author: windows-sdk-content
 description: Defines the initial cluster configuration.
 old-location: mscs\create_cluster_config.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 5fc90422-47e4-44da-a49f-66d4b7712f53
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCREATE_CLUSTER_CONFIG, CREATE_CLUSTER_CONFIG, CREATE_CLUSTER_CONFIG structure [Failover Cluster], PCREATE_CLUSTER_CONFIG, PCREATE_CLUSTER_CONFIG structure pointer [Failover Cluster], _CREATE_CLUSTER_CONFIG, clusapi/CREATE_CLUSTER_CONFIG, clusapi/PCREATE_CLUSTER_CONFIG, mscs.create_cluster_config"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREATE_CLUSTER_CONFIG, *PCREATE_CLUSTER_CONFIG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CREATE_CLUSTER_CONFIG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CREATE_CLUSTER_CONFIG, *PCREATE_CLUSTER_CONFIG
+req.redist: 
 ---
 
 # _CREATE_CLUSTER_CONFIG structure

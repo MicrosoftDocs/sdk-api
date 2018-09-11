@@ -4,7 +4,7 @@ title: IPSEC_CIPHER_TRANSFORM_ID0_
 author: windows-sdk-content
 description: Specifies information used to uniquely identify the encryption algorithm used in an IPsec SA.
 old-location: fwp\ipsec_cipher_transform_id0_struct.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: fc58606b-18a4-49ab-87bb-a6846b81520b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_CIPHER_TRANSFORM_ID0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_CIPHER_TRANSFORM_ID0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_CIPHER_TRANSFORM_ID0
+req.redist: 
 ---
 
 # IPSEC_CIPHER_TRANSFORM_ID0_ structure

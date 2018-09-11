@@ -4,17 +4,16 @@ title: "_WS_XML_UTF16_TEXT"
 author: windows-sdk-content
 description: Represents text encoded as UTF-16 bytes.
 old-location: wsw\ws_xml_utf16_text.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 07260aa6-4513-43e6-8803-c53199427932
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_UTF16_TEXT, WS_XML_UTF16_TEXT structure [Web Services for Windows], _WS_XML_UTF16_TEXT, webservices/WS_XML_UTF16_TEXT, wsw.ws_xml_utf16_text
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_UTF16_TEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_UTF16_TEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_UTF16_TEXT
+req.redist: 
 ---
 
 # _WS_XML_UTF16_TEXT structure

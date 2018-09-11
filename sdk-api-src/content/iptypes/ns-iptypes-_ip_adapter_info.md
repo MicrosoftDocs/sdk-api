@@ -4,7 +4,7 @@ title: "_IP_ADAPTER_INFO"
 author: windows-sdk-content
 description: Contains information about a particular network adapter on the local computer.
 old-location: iphlp\ip_adapter_info.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: f8035801-ca0c-4d86-bfc5-8e2d746af1b4
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ipsectypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_ADAPTER_INFO, *PIP_ADAPTER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IP_ADAPTER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IP_ADAPTER_INFO, *PIP_ADAPTER_INFO
+req.redist: 
 ---
 
 # _IP_ADAPTER_INFO structure

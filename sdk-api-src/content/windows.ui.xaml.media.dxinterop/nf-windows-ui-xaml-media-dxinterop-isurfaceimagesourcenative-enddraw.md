@@ -4,17 +4,16 @@ title: ISurfaceImageSourceNative::xaml
 author: windows-sdk-content
 description: Closes the surface draw operation.
 old-location: winrt\isurfaceimagesourcenative_enddraw.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 144EB343-DBBD-4E7E-8E05-87A35F4A5A64
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EndDraw, EndDraw method [Windows Runtime], EndDraw method [Windows Runtime],ISurfaceImageSourceNative interface, ISurfaceImageSourceNative interface [Windows Runtime],EndDraw method, ISurfaceImageSourceNative.EndDraw, ISurfaceImageSourceNative.xaml, ISurfaceImageSourceNative::EndDraw, ISurfaceImageSourceNative::xaml, windows/ISurfaceImageSourceNative::EndDraw, winrt.isurfaceimagesourcenative_enddraw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [UWP apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [UWP apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISurfaceImageSourceNative.EndDraw
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.UI.Xaml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISurfaceImageSourceNative::xaml

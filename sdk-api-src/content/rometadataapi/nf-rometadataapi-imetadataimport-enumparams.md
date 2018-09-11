@@ -4,17 +4,16 @@ title: IMetaDataImport::EnumParams
 author: windows-sdk-content
 description: Enumerates ParamDef tokens representing the parameters of the method referenced by the specified MethodDef token.
 old-location: winrt\imetadataimport_enumparams.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 0d3cc66e-575d-4451-bab7-e3dd24fd5060
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumParams, EnumParams method [Windows Runtime], EnumParams method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumParams method, IMetaDataImport.EnumParams, IMetaDataImport::EnumParams, rometadataapi/IMetaDataImport::EnumParams, winrt.imetadataimport_enumparams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.EnumParams
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::EnumParams

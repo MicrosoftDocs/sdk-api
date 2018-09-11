@@ -4,17 +4,16 @@ title: DefineDosDeviceA function
 author: windows-sdk-content
 description: Defines, redefines, or deletes MS-DOS device names.
 old-location: fs\definedosdevice.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 924b1456-b2c5-4d52-aacf-6172608c73ea
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DDD_EXACT_MATCH_ON_REMOVE, DDD_NO_BROADCAST_SYSTEM, DDD_RAW_TARGET_PATH, DDD_REMOVE_DEFINITION, DefineDosDevice, DefineDosDevice function [Files], DefineDosDeviceA, DefineDosDeviceW, _win32_definedosdevice, base.definedosdevice, fileapi/DefineDosDevice, fileapi/DefineDosDeviceA, fileapi/DefineDosDeviceW, fs.definedosdevice, winbase/DefineDosDevice, winbase/DefineDosDeviceA, winbase/DefineDosDeviceW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -51,10 +51,8 @@ api_name:
  - DefineDosDeviceW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DefineDosDeviceA function

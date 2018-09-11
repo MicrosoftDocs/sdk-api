@@ -4,17 +4,16 @@ title: AlternativeNameType
 author: windows-sdk-content
 description: Specifies the alternative name types that can be specified when initializing an IAlternativeName object.
 old-location: security\alternativenametype_enum.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 79b675cc-c979-46ab-aee1-0031af2efd40
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AlternativeNameType, AlternativeNameType enumeration [Security], XCN_CERT_ALT_NAME_DIRECTORY_NAME, XCN_CERT_ALT_NAME_DNS_NAME, XCN_CERT_ALT_NAME_GUID, XCN_CERT_ALT_NAME_IP_ADDRESS, XCN_CERT_ALT_NAME_OTHER_NAME, XCN_CERT_ALT_NAME_REGISTERED_ID, XCN_CERT_ALT_NAME_RFC822_NAME, XCN_CERT_ALT_NAME_UNKNOWN, XCN_CERT_ALT_NAME_URL, XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME, certenroll/AlternativeNameType, certenroll/XCN_CERT_ALT_NAME_DIRECTORY_NAME, certenroll/XCN_CERT_ALT_NAME_DNS_NAME, certenroll/XCN_CERT_ALT_NAME_GUID, certenroll/XCN_CERT_ALT_NAME_IP_ADDRESS, certenroll/XCN_CERT_ALT_NAME_OTHER_NAME, certenroll/XCN_CERT_ALT_NAME_REGISTERED_ID, certenroll/XCN_CERT_ALT_NAME_RFC822_NAME, certenroll/XCN_CERT_ALT_NAME_UNKNOWN, certenroll/XCN_CERT_ALT_NAME_URL, certenroll/XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME, security.alternativenametype_enum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AlternativeNameType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AlternativeNameType
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: AlternativeNameType
+req.redist: 
 ---
 
 # AlternativeNameType enumeration

@@ -4,17 +4,16 @@ title: IPortableDeviceConnector::SetProperty
 author: windows-sdk-content
 description: Sets the given property on the MTP/Bluetooth Bus Enumerator device.
 old-location: wpdsdk\iportabledeviceconnector_setproperty.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 045268e1-3e91-41a9-a14e-eb20b8a707e4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPortableDeviceConnector interface [Windows Portable Devices SDK],SetProperty method, IPortableDeviceConnector.SetProperty, IPortableDeviceConnector::SetProperty, SetProperty, SetProperty method [Windows Portable Devices SDK], SetProperty method [Windows Portable Devices SDK],IPortableDeviceConnector interface, devpkey/IPortableDeviceConnector::SetProperty, portabledeviceconnectapi/IPortableDeviceConnector::SetProperty, wpdsdk.iportabledeviceconnector_setproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceconnectapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGuids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceConnector.SetProperty
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGuids.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceConnector::SetProperty

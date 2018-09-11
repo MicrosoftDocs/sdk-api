@@ -4,17 +4,16 @@ title: IStylesProvider::get_FillPatternColor
 author: windows-sdk-content
 description: Specifies the color of the pattern used to fill an element in a document.
 old-location: winauto\uiauto_istylesprovider_fillpatterncolor.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: F1448296-1E4E-4127-B415-C921A52A9B72
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FillPatternColor property [Windows Accessibility], FillPatternColor property [Windows Accessibility],IStylesProvider interface, IStylesProvider interface [Windows Accessibility],FillPatternColor property, IStylesProvider.FillPatternColor, IStylesProvider.get_FillPatternColor, IStylesProvider::FillPatternColor, IStylesProvider::get_FillPatternColor, get_FillPatternColor, uiautomationcore/IStylesProvider::FillPatternColor, uiautomationcore/IStylesProvider::get_FillPatternColor, winauto.uiauto_istylesprovider_fillpatterncolor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IStylesProvider.get_FillPatternColor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IStylesProvider::get_FillPatternColor

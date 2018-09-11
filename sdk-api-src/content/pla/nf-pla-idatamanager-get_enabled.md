@@ -4,17 +4,16 @@ title: IDataManager::get_Enabled
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the data manager is enabled to run.
 old-location: pla\idatamanager_enabled.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 3048a4b6-3e18-4585-bf5e-d91a4c0adcfc
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Enabled property [PLA], Enabled property [PLA],IDataManager interface, IDataManager interface [PLA],Enabled property, IDataManager.Enabled, IDataManager.get_Enabled, IDataManager::Enabled, IDataManager::get_Enabled, IDataManager::put_Enabled, base.idatamanager_enabled, get_Enabled, pla.idatamanager_enabled, pla/IDataManager::Enabled, pla/IDataManager::get_Enabled, pla/IDataManager::put_Enabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataManager.put_Enabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataManager::get_Enabled

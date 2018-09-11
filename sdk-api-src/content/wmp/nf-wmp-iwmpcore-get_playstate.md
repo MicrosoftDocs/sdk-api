@@ -4,17 +4,16 @@ title: IWMPCore::get_playState
 author: windows-sdk-content
 description: The get_playState method retrieves an enumeration value indicating the operating state of Windows Media Player.
 old-location: wmp\iwmpcore_get_playstate.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: cadac1c6-fff6-44aa-a6ce-2b2f69da2d78
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_playState method, IWMPCore.get_playState, IWMPCore::get_playState, IWMPCoreget_playState, get_playState, get_playState method [Windows Media Player], get_playState method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_playstate, wmp/IWMPCore::get_playState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCore.get_playState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCore::get_playState

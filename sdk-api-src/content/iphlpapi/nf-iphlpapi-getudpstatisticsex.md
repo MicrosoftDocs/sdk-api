@@ -4,17 +4,16 @@ title: GetUdpStatisticsEx function
 author: windows-sdk-content
 description: The GetUdpStatisticsEx function retrieves the User Datagram Protocol (UDP) statistics for the current computer.
 old-location: iphlp\getudpstatisticsex.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 9de7fa95-6bda-4fcc-b563-aed2e61fc1c7
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: AF_INET, AF_INET6, GetUdpStatisticsEx, GetUdpStatisticsEx function [IP Helper], _iphlp_getudpstatisticsex, iphlp.getudpstatisticsex, iphlpapi/GetUdpStatisticsEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetUdpStatisticsEx
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetUdpStatisticsEx function

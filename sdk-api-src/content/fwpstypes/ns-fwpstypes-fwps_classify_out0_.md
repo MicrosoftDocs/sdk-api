@@ -4,7 +4,7 @@ title: FWPS_CLASSIFY_OUT0_
 author: windows-sdk-content
 description: The FWPS_CLASSIFY_OUT0 structure defines the data that is returned to the caller of a callout's classifyFn callout function.Note  FWPS_CLASSIFY_OUT0 is a specific version of FWPS_CLASSIFY_OUT.
 old-location: netvista\fwps_classify_out0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 18d84523-bd4c-4f5d-87c7-6fcdcaad6c5d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h, Fwpmtypes.h, Fwpmk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPS_CLASSIFY_OUT0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPS_CLASSIFY_OUT0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPS_CLASSIFY_OUT0
+req.redist: 
 ---
 
 # FWPS_CLASSIFY_OUT0_ structure

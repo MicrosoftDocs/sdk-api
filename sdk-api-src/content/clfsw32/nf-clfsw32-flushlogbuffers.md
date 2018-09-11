@@ -4,17 +4,16 @@ title: FlushLogBuffers function
 author: windows-sdk-content
 description: Forces all records appended to this marshaling area to be flushed to disk.
 old-location: fs\flushlogbuffers.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: b5c52472-6c08-44f6-843f-5206611e40b4
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: FlushLogBuffers, FlushLogBuffers function [Files], clfsw32/FlushLogBuffers, fs.flushlogbuffers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - FlushLogBuffers
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # FlushLogBuffers function

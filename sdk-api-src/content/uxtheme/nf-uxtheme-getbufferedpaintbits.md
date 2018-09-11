@@ -4,17 +4,16 @@ title: GetBufferedPaintBits function
 author: windows-sdk-content
 description: Retrieves a pointer to the buffer bitmap if the buffer is a device-independent bitmap (DIB).
 old-location: controls\GetBufferedPaintBits.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpaintbits.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetBufferedPaintBits, GetBufferedPaintBits function [Windows Controls], _shell_GetBufferedPaintBits, _shell_GetBufferedPaintBits_cpp, controls.GetBufferedPaintBits, controls._shell_GetBufferedPaintBits, uxtheme/GetBufferedPaintBits
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: 
+req.dll: UxTheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetBufferedPaintBits
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UxTheme.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # GetBufferedPaintBits function

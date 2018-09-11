@@ -4,17 +4,16 @@ title: ICredentialProviderFilter
 author: windows-sdk-content
 description: Used to dynamically filter credential providers based on information available at runtime.
 old-location: shell\ICredentialProviderFilter.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a12a0648-ea60-4537-9d5c-8d21fd53cc80
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ICredentialProviderFilter, ICredentialProviderFilter interface [Windows Shell], ICredentialProviderFilter interface [Windows Shell],described, _shell_ICredentialProviderFilter, credentialprovider/ICredentialProviderFilter, shell.ICredentialProviderFilter
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProviderFilter
 product: Windows
 targetos: Windows
-req.lib: CredentialProvider.lib
-req.dll: Authui.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProviderFilter interface

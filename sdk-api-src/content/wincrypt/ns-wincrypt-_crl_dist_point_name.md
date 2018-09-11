@@ -4,17 +4,16 @@ title: "_CRL_DIST_POINT_NAME"
 author: windows-sdk-content
 description: Identifies a location from which the CRL can be obtained.
 old-location: security\crl_dist_point_name.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: f47283c3-34f5-4611-b041-456d28d85dbe
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRL_DIST_POINT_NAME, CRL_DIST_POINT_FULL_NAME, CRL_DIST_POINT_ISSUER_RDN_NAME, CRL_DIST_POINT_NAME, CRL_DIST_POINT_NAME structure [Security], CRL_DIST_POINT_NO_NAME, PCRL_DIST_POINT_NAME, PCRL_DIST_POINT_NAME structure pointer [Security], _CRL_DIST_POINT_NAME, _crypto2_crl_dist_point_name, security.crl_dist_point_name, wincrypt/CRL_DIST_POINT_NAME, wincrypt/PCRL_DIST_POINT_NAME"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRL_DIST_POINT_NAME, *PCRL_DIST_POINT_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRL_DIST_POINT_NAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRL_DIST_POINT_NAME, *PCRL_DIST_POINT_NAME
+req.redist: 
 ---
 
 # _CRL_DIST_POINT_NAME structure

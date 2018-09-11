@@ -4,7 +4,7 @@ title: "_EAP_METHOD_PROPERTY_ARRAY"
 author: windows-sdk-content
 description: Contains an array of EAP method properties.
 old-location: eaphost\eap_method_property_array.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 1dfe2fb2-a4e5-4c14-8cde-083e45134f7b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_METHOD_PROPERTY_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_METHOD_PROPERTY_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_METHOD_PROPERTY_ARRAY
+req.redist: 
 ---
 
 # _EAP_METHOD_PROPERTY_ARRAY structure

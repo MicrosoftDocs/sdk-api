@@ -4,17 +4,16 @@ title: ITraceDataCollector::get_ExtendedModes
 author: windows-sdk-content
 description: Retrieves or sets the extended log file modes.
 old-location: pla\itracedatacollector_extendedmodes.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: c9f20dd2-4411-4069-8455-9095939581e8
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ExtendedModes property [PLA], ExtendedModes property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],ExtendedModes property, ITraceDataCollector.ExtendedModes, ITraceDataCollector.get_ExtendedModes, ITraceDataCollector::ExtendedModes, ITraceDataCollector::get_ExtendedModes, ITraceDataCollector::put_ExtendedModes, base.itracedatacollector_extendedmodes, get_ExtendedModes, pla.itracedatacollector_extendedmodes, pla/ITraceDataCollector::ExtendedModes, pla/ITraceDataCollector::get_ExtendedModes, pla/ITraceDataCollector::put_ExtendedModes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITraceDataCollector.put_ExtendedModes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataCollector::get_ExtendedModes

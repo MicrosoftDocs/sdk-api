@@ -4,17 +4,16 @@ title: IBackgroundCopyJobHttpOptions::SetSecurityFlags
 author: windows-sdk-content
 description: Sets flags for HTTP that determine whether the certificate revocation list is checked and certain certificate errors are ignored, and the policy to use when a server redirects the HTTP request.
 old-location: bits\ibackgroundcopyjobhttpoptions_setsecurityflags.htm
-old-project: bits
+tech.root: bits
 ms.assetid: afac84cb-28ab-4c80-ab39-eefe450ae3e5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BG_HTTP_REDIRECT_POLICY_ALLOW_HTTPS_TO_HTTP, BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT, BG_HTTP_REDIRECT_POLICY_ALLOW_SILENT, BG_HTTP_REDIRECT_POLICY_DISALLOW, BG_HTTP_REDIRECT_POLICY_MASK, BG_SSL_ENABLE_CRL_CHECK, BG_SSL_IGNORE_CERT_CN_INVALID, BG_SSL_IGNORE_CERT_DATE_INVALID, BG_SSL_IGNORE_CERT_WRONG_USAGE, BG_SSL_IGNORE_UNKNOWN_CA, IBackgroundCopyJobHttpOptions interface [BITS],SetSecurityFlags method, IBackgroundCopyJobHttpOptions.SetSecurityFlags, IBackgroundCopyJobHttpOptions::SetSecurityFlags, SetSecurityFlags, SetSecurityFlags method [BITS], SetSecurityFlags method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_setsecurityflags, bits2_5/IBackgroundCopyJobHttpOptions::SetSecurityFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits2_5.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBackgroundCopyJobHttpOptions.SetSecurityFlags
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJobHttpOptions::SetSecurityFlags

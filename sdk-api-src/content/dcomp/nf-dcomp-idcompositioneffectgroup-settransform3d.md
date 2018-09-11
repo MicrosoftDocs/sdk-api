@@ -4,17 +4,16 @@ title: IDCompositionEffectGroup::SetTransform3D
 author: windows-sdk-content
 description: Sets the 3D transformation effect object that modifies the rasterization of the visuals that this effect group is applied to.
 old-location: directcomp\idcompositioneffectgroup_settransform3d.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 40935581-D45C-496B-90B9-152963F0B55A
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionEffectGroup interface [DirectComposition],SetTransform3D method, IDCompositionEffectGroup.SetTransform3D, IDCompositionEffectGroup::SetTransform3D, SetTransform3D, SetTransform3D method [DirectComposition], SetTransform3D method [DirectComposition],IDCompositionEffectGroup interface, dcomp/IDCompositionEffectGroup::SetTransform3D, directcomp.idcompositioneffectgroup_settransform3d
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionEffectGroup.SetTransform3D
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionEffectGroup::SetTransform3D

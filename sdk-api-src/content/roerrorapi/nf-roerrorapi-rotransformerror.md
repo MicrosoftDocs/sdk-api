@@ -4,17 +4,16 @@ title: RoTransformError function
 author: windows-sdk-content
 description: Reports a modified error and an informative string to an attached debugger.
 old-location: winrt\rotransformerror.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: B0921292-1EEA-4154-8AB4-B654A9B31DA6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RoTransformError, RoTransformError function [Windows Runtime], WinRTTransformError, roerrorapi/RoTransformError, roerrorapi/WinRTTransformError, winrt.rotransformerror, winrt.winrttransformerror
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - WinRTTransformError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RoTransformError function

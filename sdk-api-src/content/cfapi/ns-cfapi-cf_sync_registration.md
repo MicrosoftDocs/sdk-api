@@ -4,7 +4,7 @@ title: CF_SYNC_REGISTRATION
 author: windows-sdk-content
 description: The details of the sync provider and sync root to be registered.
 old-location: cloudapi\cf_sync_registration.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: F4D535FA-A0F5-4B4E-8409-0DD13C78A94E
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_SYNC_REGISTRATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_SYNC_REGISTRATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CF_SYNC_REGISTRATION
+req.redist: 
 ---
 
 # CF_SYNC_REGISTRATION structure

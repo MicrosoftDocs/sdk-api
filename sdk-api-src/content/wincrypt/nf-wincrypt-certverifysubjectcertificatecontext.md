@@ -4,17 +4,16 @@ title: CertVerifySubjectCertificateContext function
 author: windows-sdk-content
 description: The CertVerifySubjectCertificateContext function performs the enabled verification checks on a certificate by checking the validity of the certificate's issuer. The new Certificate Chain Verification Functions are recommended instead of this function.
 old-location: security\certverifysubjectcertificatecontext.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 063b19cf-d3b3-4ec3-bfd3-9406eecd3e10
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CERT_STORE_REVOCATION_FLAG, CERT_STORE_SIGNATURE_FLAG, CERT_STORE_TIME_VALIDITY_FLAG, CertVerifySubjectCertificateContext, CertVerifySubjectCertificateContext function [Security], _crypto2_certverifysubjectcertificatecontext, security.certverifysubjectcertificatecontext, wincrypt/CertVerifySubjectCertificateContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertVerifySubjectCertificateContext
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertVerifySubjectCertificateContext function

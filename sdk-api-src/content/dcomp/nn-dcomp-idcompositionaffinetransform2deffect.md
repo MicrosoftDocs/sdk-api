@@ -4,7 +4,7 @@ title: IDCompositionAffineTransform2DEffect
 author: windows-sdk-content
 description: The arithmetic composite effect is used to combine 2 images using a weighted sum of pixels from the input images.
 old-location: directcomp\idcompositionaffinetransform2deffect.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 1B693705-1118-4B9B-A7B7-E8811AE881AC
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionAffineTransform2DEffect
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionAffineTransform2DEffect interface

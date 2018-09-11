@@ -4,17 +4,16 @@ title: IBaseFilter::QueryFilterInfo
 author: windows-sdk-content
 description: The QueryFilterInfo method retrieves information about the filter.
 old-location: dshow\ibasefilter_queryfilterinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6cb9b6ef-05ae-4816-b337-dd90cab843fb
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IBaseFilter interface [DirectShow],QueryFilterInfo method, IBaseFilter.QueryFilterInfo, IBaseFilter::QueryFilterInfo, IBaseFilterQueryFilterInfo, QueryFilterInfo, QueryFilterInfo method [DirectShow], QueryFilterInfo method [DirectShow],IBaseFilter interface, dshow.ibasefilter_queryfilterinfo, strmif/IBaseFilter::QueryFilterInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IBaseFilter.QueryFilterInfo
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IBaseFilter::QueryFilterInfo

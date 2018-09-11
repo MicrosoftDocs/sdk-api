@@ -4,17 +4,16 @@ title: ICommDlgBrowser::OnDefaultCommand
 author: windows-sdk-content
 description: Called when a user double-clicks in the view or presses the ENTER key.
 old-location: shell\ICommDlgBrowser_OnDefaultCommand.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 827af758-63df-42bb-9ecf-087bc974710a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ICommDlgBrowser interface [Windows Shell],OnDefaultCommand method, ICommDlgBrowser.OnDefaultCommand, ICommDlgBrowser::OnDefaultCommand, OnDefaultCommand, OnDefaultCommand method [Windows Shell], OnDefaultCommand method [Windows Shell],ICommDlgBrowser interface, _win32_ICommDlgBrowser_OnDefaultCommand, shell.ICommDlgBrowser_OnDefaultCommand, shobjidl_core/ICommDlgBrowser::OnDefaultCommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICommDlgBrowser.OnDefaultCommand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICommDlgBrowser::OnDefaultCommand

@@ -4,17 +4,16 @@ title: IDVB_EIT::GetOriginalNetworkId
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_eit_getoriginalnetworkid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 8e477089-faef-4578-ac7f-fea7f1037dfc
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetOriginalNetworkId method, IDVB_EIT.GetOriginalNetworkId, IDVB_EIT::GetOriginalNetworkId, IDVB_EITGetOriginalNetworkId, dvbsiparser/IDVB_EIT::GetOriginalNetworkId, mstv.idvb_eit_getoriginalnetworkid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVB_EIT.GetOriginalNetworkId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVB_EIT::GetOriginalNetworkId

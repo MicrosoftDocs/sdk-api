@@ -4,7 +4,7 @@ title: "_HTTP_REQUEST_INFO"
 author: windows-sdk-content
 description: Extends the HTTP_REQUEST structure with additional information about the request.
 old-location: http\http_request_info.htm
-old-project: http
+tech.root: http
 ms.assetid: 83c2a922-4ddb-4dc0-9ed6-d75d47b97d6a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_REQUEST_INFO, *PHTTP_REQUEST_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_REQUEST_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_REQUEST_INFO, *PHTTP_REQUEST_INFO
+req.redist: 
 ---
 
 # _HTTP_REQUEST_INFO structure

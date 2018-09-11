@@ -4,17 +4,16 @@ title: ILanguageExceptionTransform
 author: windows-sdk-content
 description: Allows language projections to make available to the system any and all context from an exception that gets thrown from the context of a catch handler that catches a different exception.
 old-location: winrt\ilanguageexceptiontransform.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: A42470EE-FA05-4716-BA17-009D59FEE259
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ILanguageExceptionTransform, ILanguageExceptionTransform interface [Windows Runtime], ILanguageExceptionTransform interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionTransform, winrt.ilanguageexceptiontransform
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: restrictederrorinfo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILanguageExceptionTransform
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ILanguageExceptionTransform interface

@@ -4,7 +4,7 @@ title: "_BLUETOOTH_IO_CAPABILITY"
 author: windows-sdk-content
 description: BLUETOOTH_IO_CAPABILITY enumeration defines the input/output capabilities of a Bluetooth Device.
 old-location: bluetooth\bluetooth_io_capability.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: f1cd4fc9-5206-4f38-a2b9-621ca4c6ab86
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_IO_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BLUETOOTH_IO_CAPABILITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BLUETOOTH_IO_CAPABILITY
+req.redist: 
 ---
 
 # _BLUETOOTH_IO_CAPABILITY enumeration

@@ -4,7 +4,7 @@ title: CF_HYDRATION_POLICY_PRIMARY
 author: windows-sdk-content
 description: Allows a sync provider to control how placeholder files should be hydrated by the platform. This is the primary policy.
 old-location: cloudapi\cf_hydration_policy_primary.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: 47ACA107-80AA-42B3-B583-399323E2B11C
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_HYDRATION_POLICY_PRIMARY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_HYDRATION_POLICY_PRIMARY
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: CF_HYDRATION_POLICY_PRIMARY
+req.redist: 
 ---
 
 # CF_HYDRATION_POLICY_PRIMARY enumeration

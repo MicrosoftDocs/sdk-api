@@ -4,17 +4,16 @@ title: IMFContentEnabler::Cancel
 author: windows-sdk-content
 description: Cancels a pending content enabling action.
 old-location: mf\imfcontentenabler_cancel.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e273b702-1f42-4aeb-9259-778d3f206682
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: Cancel, Cancel method [Media Foundation], Cancel method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],Cancel method, IMFContentEnabler.Cancel, IMFContentEnabler::Cancel, e273b702-1f42-4aeb-9259-778d3f206682, mf.imfcontentenabler_cancel, mfidl/IMFContentEnabler::Cancel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFContentEnabler.Cancel
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFContentEnabler::Cancel

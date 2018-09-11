@@ -4,17 +4,16 @@ title: Sleep function
 author: windows-sdk-content
 description: Suspends the execution of the current thread until the time-out interval elapses.
 old-location: base\sleep.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 934d37ea-402c-4118-bd7e-87b5fce80fca
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: Sleep, Sleep function, _win32_sleep, base.sleep, synchapi/Sleep, winbase/Sleep
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ITEMPROP, *LPITEMPROP
+req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
+req.dll: Kernel32.dll; KernelBase.dll on Windows Phone 8.1
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - Sleep
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
-req.dll: Kernel32.dll; KernelBase.dll on Windows Phone 8.1
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Sleep function

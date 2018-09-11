@@ -4,17 +4,16 @@ title: IFEDictionary::DisplayProperty
 author: windows-sdk-content
 description: This method is obsolete starting with Windows 8, and is no longer supported.
 old-location: intl\ifedictionary_displayproperty.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 5598D1DD-0254-4142-B91F-6BE36DD94228
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: DisplayProperty, DisplayProperty method [Internationalization for Windows Applications], DisplayProperty method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],DisplayProperty method, IFEDictionary.DisplayProperty, IFEDictionary::DisplayProperty, intl.ifedictionary_displayproperty, msime/IFEDictionary::DisplayProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFEDictionary.DisplayProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IFEDictionary::DisplayProperty

@@ -4,17 +4,16 @@ title: CallNtPowerInformation function
 author: windows-sdk-content
 description: Sets or retrieves power information.
 old-location: base\callntpowerinformation.htm
-old-project: power
+tech.root: power
 ms.assetid: adc0052d-e2dd-4c55-996c-6af8f5987d79
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AdministratorPowerPolicy, CallNtPowerInformation, CallNtPowerInformation function, LastSleepTime, LastWakeTime, ProcessorInformation, ProcessorPowerPolicyAc, ProcessorPowerPolicyCurrent, ProcessorPowerPolicyDc, SystemBatteryState, SystemExecutionState, SystemPowerCapabilities, SystemPowerInformation, SystemPowerPolicyAc, SystemPowerPolicyCurrent, SystemPowerPolicyDc, SystemReserveHiberFile, VerifyProcessorPowerPolicyAc, VerifyProcessorPowerPolicyDc, VerifySystemPolicyAc, VerifySystemPolicyDc, _win32_callntpowerinformation, base.callntpowerinformation, powerbase/CallNtPowerInformation, powrprof/CallNtPowerInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powerbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CallNtPowerInformation
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CallNtPowerInformation function

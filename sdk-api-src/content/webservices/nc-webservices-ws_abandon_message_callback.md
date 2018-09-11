@@ -4,17 +4,16 @@ title: WS_ABANDON_MESSAGE_CALLBACK
 author: windows-sdk-content
 description: Handles the WsAbandonMessage call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_abandon_message_callback.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 494cfb49-c09e-4f51-85fd-5bb0f8d0a45d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_ABANDON_MESSAGE_CALLBACK, WS_ABANDON_MESSAGE_CALLBACK callback, WS_ABANDON_MESSAGE_CALLBACK callback function [Web Services for Windows], webservices/WS_ABANDON_MESSAGE_CALLBACK, wsw.ws_abandon_message_callback
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_ABANDON_MESSAGE_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WS_ABANDON_MESSAGE_CALLBACK callback function

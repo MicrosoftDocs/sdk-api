@@ -4,17 +4,16 @@ title: "_CLUS_STORAGE_REMAP_DRIVELETTER"
 author: windows-sdk-content
 description: Identifies the existing and target drive letter for a disk drive on a node.
 old-location: mscs\clus_storage_remap_driveletter.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: b79e4aa0-fca3-4b9c-9e3f-73cd627752a2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUS_STORAGE_REMAP_DRIVELETTER, CLUS_STORAGE_REMAP_DRIVELETTER, CLUS_STORAGE_REMAP_DRIVELETTER structure [Failover Cluster], PCLUS_STORAGE_REMAP_DRIVELETTER, PCLUS_STORAGE_REMAP_DRIVELETTER structure pointer [Failover Cluster], _CLUS_STORAGE_REMAP_DRIVELETTER, clusapi/CLUS_STORAGE_REMAP_DRIVELETTER, clusapi/PCLUS_STORAGE_REMAP_DRIVELETTER, mscs.clus_storage_remap_driveletter"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_STORAGE_REMAP_DRIVELETTER, *PCLUS_STORAGE_REMAP_DRIVELETTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_STORAGE_REMAP_DRIVELETTER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_STORAGE_REMAP_DRIVELETTER, *PCLUS_STORAGE_REMAP_DRIVELETTER
+req.redist: 
 ---
 
 # _CLUS_STORAGE_REMAP_DRIVELETTER structure

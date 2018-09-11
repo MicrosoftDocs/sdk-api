@@ -4,17 +4,16 @@ title: X509KeyUsageFlags
 author: windows-sdk-content
 description: Specifies the purpose of a key contained in a certificate.
 old-location: security\x509keyusageflags_enum.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 3fcb91a3-ffcd-419f-a686-3fd2d1e795b3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: X509KeyUsageFlags, X509KeyUsageFlags enumeration [Security], XCN_CERT_CRL_SIGN_KEY_USAGE, XCN_CERT_DATA_ENCIPHERMENT_KEY_USAGE, XCN_CERT_DECIPHER_ONLY_KEY_USAGE, XCN_CERT_DIGITAL_SIGNATURE_KEY_USAGE, XCN_CERT_ENCIPHER_ONLY_KEY_USAGE, XCN_CERT_KEY_AGREEMENT_KEY_USAGE, XCN_CERT_KEY_CERT_SIGN_KEY_USAGE, XCN_CERT_KEY_ENCIPHERMENT_KEY_USAGE, XCN_CERT_NON_REPUDIATION_KEY_USAGE, XCN_CERT_NO_KEY_USAGE, XCN_CERT_OFFLINE_CRL_SIGN_KEY_USAGE, certenroll/X509KeyUsageFlags, certenroll/XCN_CERT_CRL_SIGN_KEY_USAGE, certenroll/XCN_CERT_DATA_ENCIPHERMENT_KEY_USAGE, certenroll/XCN_CERT_DECIPHER_ONLY_KEY_USAGE, certenroll/XCN_CERT_DIGITAL_SIGNATURE_KEY_USAGE, certenroll/XCN_CERT_ENCIPHER_ONLY_KEY_USAGE, certenroll/XCN_CERT_KEY_AGREEMENT_KEY_USAGE, certenroll/XCN_CERT_KEY_CERT_SIGN_KEY_USAGE, certenroll/XCN_CERT_KEY_ENCIPHERMENT_KEY_USAGE, certenroll/XCN_CERT_NON_REPUDIATION_KEY_USAGE, certenroll/XCN_CERT_NO_KEY_USAGE, certenroll/XCN_CERT_OFFLINE_CRL_SIGN_KEY_USAGE, security.x509keyusageflags_enum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509KeyUsageFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X509KeyUsageFlags
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: X509KeyUsageFlags
+req.redist: 
 ---
 
 # X509KeyUsageFlags enumeration

@@ -4,17 +4,16 @@ title: IDrawVideoImage::DrawVideoImageEnd
 author: windows-sdk-content
 description: Note  This interface has been deprecated. New applications should not use it. The DrawVideoImageEnd method turns DirectDraw back on after drawing has been performed.
 old-location: dshow\idrawvideoimage_drawvideoimageend.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 051fa283-849d-494c-bebf-d7adabb807a0
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: DrawVideoImageEnd, DrawVideoImageEnd method [DirectShow], DrawVideoImageEnd method [DirectShow],IDrawVideoImage interface, IDrawVideoImage interface [DirectShow],DrawVideoImageEnd method, IDrawVideoImage.DrawVideoImageEnd, IDrawVideoImage::DrawVideoImageEnd, IDrawVideoImageDrawVideoImageEnd, dshow.idrawvideoimage_drawvideoimageend, strmif/IDrawVideoImage::DrawVideoImageEnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDrawVideoImage.DrawVideoImageEnd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDrawVideoImage::DrawVideoImageEnd

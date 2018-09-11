@@ -4,17 +4,16 @@ title: ITfContextComposition::StartComposition
 author: windows-sdk-content
 description: ITfContextComposition::StartComposition method
 old-location: tsf\itfcontextcomposition_startcomposition.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: aab84e6c-39c7-438e-b4f0-1d174473aa02
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfContextComposition interface [Text Services Framework],StartComposition method, ITfContextComposition.StartComposition, ITfContextComposition::StartComposition, StartComposition, StartComposition method [Text Services Framework], StartComposition method [Text Services Framework],ITfContextComposition interface, _tsf_itfcontextcomposition_startcomposition_ref, msctf/ITfContextComposition::StartComposition, tsf.itfcontextcomposition_startcomposition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfContextComposition.StartComposition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfContextComposition::StartComposition

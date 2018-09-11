@@ -4,17 +4,16 @@ title: IStaticPortMappingCollection::Add
 author: windows-sdk-content
 description: The Add method creates a new port mapping and adds it to the collection.
 old-location: ics\istaticportmappingcollection_add.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 5e61629d-80e4-4d44-8e53-12e17b399126
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],IStaticPortMappingCollection interface, IStaticPortMappingCollection interface [ICS/ICF],Add method, IStaticPortMappingCollection.Add, IStaticPortMappingCollection::Add, _ics_istaticportmappingcollection_add, ics.istaticportmappingcollection_add, natupnp/IStaticPortMappingCollection::Add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemHealthAgentState
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStaticPortMappingCollection.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IStaticPortMappingCollection::Add

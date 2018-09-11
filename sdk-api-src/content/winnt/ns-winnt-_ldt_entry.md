@@ -4,17 +4,16 @@ title: "_LDT_ENTRY"
 author: windows-sdk-content
 description: Describes an entry in the descriptor table. This structure is valid only on x86-based systems.
 old-location: base\ldt_entry_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: e4c470ee-63e5-4a00-8c69-76cadd490439
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PLDT_ENTRY, LDT_ENTRY, LDT_ENTRY structure, PLDT_ENTRY, PLDT_ENTRY structure pointer, _LDT_ENTRY, _win32_ldt_entry_str, base.ldt_entry_str, winnt/LDT_ENTRY, winnt/PLDT_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LDT_ENTRY, *PLDT_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LDT_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: LDT_ENTRY, *PLDT_ENTRY
+req.redist: 
 ---
 
 # _LDT_ENTRY structure

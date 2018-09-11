@@ -4,17 +4,16 @@ title: IDirectMusicSynth::GetPortCaps
 author: windows-sdk-content
 description: The GetPortCaps method retrieves the capabilities of a DirectMusic &#0034;port&#0034;, which is a DirectMusic term for a device that sends or receives music data.
 old-location: audio\idirectmusicsynth_getportcaps.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 9e4ba4e3-5bd7-4a90-a591-8bffaa0265d0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetPortCaps, GetPortCaps method [Audio Devices], GetPortCaps method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetPortCaps method, IDirectMusicSynth.GetPortCaps, IDirectMusicSynth::GetPortCaps, audio.idirectmusicsynth_getportcaps, audmp-routines_b2b05c43-5c58-414c-aac4-3a37eceab293.xml, dmusics/IDirectMusicSynth::GetPortCaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectMusicSynth.GetPortCaps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectMusicSynth::GetPortCaps

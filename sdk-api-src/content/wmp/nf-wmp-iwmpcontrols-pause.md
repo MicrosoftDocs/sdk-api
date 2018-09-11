@@ -4,17 +4,16 @@ title: IWMPControls::pause
 author: windows-sdk-content
 description: The pause method pauses playback of the media item.
 old-location: wmp\iwmpcontrols_pause.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: ef8a3f0e-b424-43ab-bb42-83e9f80f5d19
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPControls interface [Windows Media Player],pause method, IWMPControls.pause, IWMPControls::pause, IWMPControlspause, pause, pause method [Windows Media Player], pause method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_pause, wmp/IWMPControls::pause
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPControls.pause
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPControls::pause

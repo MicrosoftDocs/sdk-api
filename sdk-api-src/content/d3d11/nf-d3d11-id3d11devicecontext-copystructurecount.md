@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::CopyStructureCount
 author: windows-sdk-content
 description: Copies data from a buffer holding variable length data.
 old-location: direct3d11\id3d11devicecontext_copystructurecount.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: d4f8576f-8d23-4b45-a5ea-099c71e8567e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CopyStructureCount, CopyStructureCount method [Direct3D 11], CopyStructureCount method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CopyStructureCount method, ID3D11DeviceContext.CopyStructureCount, ID3D11DeviceContext::CopyStructureCount, d3d11/ID3D11DeviceContext::CopyStructureCount, d927d44d-491d-b350-cc6e-49cfd29f1793, direct3d11.id3d11devicecontext_copystructurecount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.CopyStructureCount
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::CopyStructureCount

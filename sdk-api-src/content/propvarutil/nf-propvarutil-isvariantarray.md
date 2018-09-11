@@ -4,17 +4,16 @@ title: IsVariantArray function
 author: windows-sdk-content
 description: Specifies whether a variant is an array.
 old-location: properties\IsVariantArray.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 3e3a4eb0-c50a-4e4a-b3e3-dc760a519901
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IsVariantArray, IsVariantArray function [Windows Properties], _shell_IsVariantArray, properties.IsVariantArray, propvarutil/IsVariantArray, shell.IsVariantArray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IsVariantArray
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IsVariantArray function

@@ -4,17 +4,16 @@ title: IFilterMapper::EnumMatchingFilters
 author: windows-sdk-content
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Provides an enumerator that enumerates registered filters that meet specified requirements.
 old-location: dshow\ifiltermapper_enummatchingfilters.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 602a7568-f5f8-4705-a2bc-6b9408bbbe54
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: EnumMatchingFilters, EnumMatchingFilters method [DirectShow], EnumMatchingFilters method [DirectShow],IFilterMapper interface, IFilterMapper interface [DirectShow],EnumMatchingFilters method, IFilterMapper.EnumMatchingFilters, IFilterMapper::EnumMatchingFilters, IFilterMapperEnumMatchingFilters, dshow.ifiltermapper_enummatchingfilters, strmif/IFilterMapper::EnumMatchingFilters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFilterMapper.EnumMatchingFilters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IFilterMapper::EnumMatchingFilters
@@ -97,7 +95,7 @@ Flag that specifies whether the filter must render the input; <b>TRUE</b> means 
 
 ### -param bOututNeeded
 
-
+TBD
 
 
 ### -param clsOutMaj [in]

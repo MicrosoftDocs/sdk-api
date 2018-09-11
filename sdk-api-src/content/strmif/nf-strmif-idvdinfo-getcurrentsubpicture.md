@@ -4,17 +4,16 @@ title: IDvdInfo::GetCurrentSubpicture
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of available subpicture streams, the currently selected subpicture stream number, and whether the subpicture display is disabled.
 old-location: dshow\idvdinfo_getcurrentsubpicture.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 92731904-2fb7-4dc2-b77f-1c40a002c469
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetCurrentSubpicture, GetCurrentSubpicture method [DirectShow], GetCurrentSubpicture method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentSubpicture method, IDvdInfo.GetCurrentSubpicture, IDvdInfo::GetCurrentSubpicture, IDvdInfoGetCurrentSubpicture, dshow.idvdinfo_getcurrentsubpicture, strmif/IDvdInfo::GetCurrentSubpicture
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdInfo.GetCurrentSubpicture
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo::GetCurrentSubpicture
@@ -67,12 +65,12 @@ Retrieves the number of available subpicture streams, the currently selected sub
 
 ### -param pulStreamsAvailable
 
-
+TBD
 
 
 ### -param pulCurrentStream
 
-
+TBD
 
 
 ### -param pIsDisabled [out]

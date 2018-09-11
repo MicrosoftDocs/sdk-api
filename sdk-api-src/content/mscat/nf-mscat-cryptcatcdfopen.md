@@ -4,17 +4,16 @@ title: CryptCATCDFOpen function
 author: windows-sdk-content
 description: Opens an existing catalog definition file (CDF) for reading and initializes a CRYPTCATCDF structure.
 old-location: security\cryptcatcdfopen.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: d400d8bd-c0a0-41dc-9093-8e4fc758d82f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptCATCDFOpen, CryptCATCDFOpen function [Security], mscat/CryptCATCDFOpen, security.cryptcatcdfopen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSP_PINMODE, *PKSP_PINMODE
+req.lib: 
+req.dll: Wintrust.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptCATCDFOpen
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wintrust.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CryptCATCDFOpen function

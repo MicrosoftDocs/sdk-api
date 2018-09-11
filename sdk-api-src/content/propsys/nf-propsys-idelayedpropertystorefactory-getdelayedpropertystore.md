@@ -4,17 +4,16 @@ title: IDelayedPropertyStoreFactory::GetDelayedPropertyStore
 author: windows-sdk-content
 description: Gets an IPropertyStore interface object, as specified.
 old-location: shell\IDelayedPropertyStoreFactory_GetDelayedPropertyStore.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 26df5fec-2a21-454e-9539-877c00a4f8fb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetDelayedPropertyStore, GetDelayedPropertyStore method [Windows Shell], GetDelayedPropertyStore method [Windows Shell],IDelayedPropertyStoreFactory interface, IDelayedPropertyStoreFactory interface [Windows Shell],GetDelayedPropertyStore method, IDelayedPropertyStoreFactory.GetDelayedPropertyStore, IDelayedPropertyStoreFactory::GetDelayedPropertyStore, STOREID_FALLBACK, STOREID_FILE, STOREID_INNATE, _shell_IDelayedPropertyStoreFactory_GetDelayedPropertyStore, propsys/IDelayedPropertyStoreFactory::GetDelayedPropertyStore, shell.IDelayedPropertyStoreFactory_GetDelayedPropertyStore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDelayedPropertyStoreFactory.GetDelayedPropertyStore
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDelayedPropertyStoreFactory::GetDelayedPropertyStore

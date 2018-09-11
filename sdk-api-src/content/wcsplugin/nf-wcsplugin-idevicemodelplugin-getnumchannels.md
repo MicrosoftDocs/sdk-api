@@ -4,17 +4,16 @@ title: IDeviceModelPlugIn::GetNumChannels
 author: windows-sdk-content
 description: Returns the number of device channels in the parameter pNumChannels.
 old-location: wcs\IDeviceModelPlugIn_GetNumChannels.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: 3963eaf1-2516-4ac5-9f9f-9962f9d42adb
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetNumChannels, GetNumChannels method [Windows Color System], GetNumChannels method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetNumChannels method, IDeviceModelPlugIn.GetNumChannels, IDeviceModelPlugIn::GetNumChannels, _color_IDeviceModelPlugIn::GetNumChannels, wcs.IDeviceModelPlugIn_GetNumChannels, wcsplugin/IDeviceModelPlugIn::GetNumChannels
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDeviceModelPlugIn.GetNumChannels
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceModelPlugIn::GetNumChannels

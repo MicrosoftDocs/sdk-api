@@ -4,17 +4,16 @@ title: IXpsOMPageReference::CollectLinkTargets
 author: windows-sdk-content
 description: Gets an IXpsOMNameCollection interface that contains the names of all the document subtree objects whose IsHyperlinkTarget property is set to TRUE.
 old-location: xps\ixpsompagereference_collectlinktargets.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 82c64e8a-d8fb-41e3-95f8-b8ca490eae78
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CollectLinkTargets, CollectLinkTargets method [XPS Documents and Packaging], CollectLinkTargets method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],CollectLinkTargets method, IXpsOMPageReference.CollectLinkTargets, IXpsOMPageReference::CollectLinkTargets, xps.ixpsompagereference_collectlinktargets, xpsobjectmodel/IXpsOMPageReference::CollectLinkTargets
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMPageReference.CollectLinkTargets
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMPageReference::CollectLinkTargets

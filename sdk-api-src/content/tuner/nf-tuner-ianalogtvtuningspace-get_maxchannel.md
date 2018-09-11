@@ -4,17 +4,16 @@ title: IAnalogTVTuningSpace::get_MaxChannel
 author: windows-sdk-content
 description: The get_MaxChannel method gets the highest channel number for this tuning space.
 old-location: mstv\ianalogtvtuningspace_get_maxchannel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e6ac3789-1989-4331-ad00-6720f4503bb7
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_MaxChannel method, IAnalogTVTuningSpace.get_MaxChannel, IAnalogTVTuningSpace::get_MaxChannel, IAnalogTVTuningSpaceget_MaxChannel, get_MaxChannel, get_MaxChannel method [Microsoft TV Technologies], get_MaxChannel method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_maxchannel, tuner/IAnalogTVTuningSpace::get_MaxChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnalogTVTuningSpace.get_MaxChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAnalogTVTuningSpace::get_MaxChannel
@@ -65,7 +63,7 @@ The <b>get_MaxChannel</b> method gets the highest channel number for this tuning
 
 ### -param MaxChannelVal
 
-
+TBD
 
 
 

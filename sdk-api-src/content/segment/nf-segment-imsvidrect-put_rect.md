@@ -4,17 +4,16 @@ title: IMSVidRect::put_Rect
 author: windows-sdk-content
 description: The put_Rect method copies the values of another rectangle to this rectangle.
 old-location: mstv\imsvidrect_put_rect.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e50fd657-d913-49f5-b4dd-fb4c0d207417
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Rect method, IMSVidRect.put_Rect, IMSVidRect::put_Rect, IMSVidRectput_Rect, mstv.imsvidrect_put_rect, put_Rect, put_Rect method [Microsoft TV Technologies], put_Rect method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Rect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidRect.put_Rect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidRect::put_Rect
@@ -62,7 +60,7 @@ The <b>put_Rect</b> method copies the values of another rectangle to this rectan
 
 ### -param RectVal
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: NotifyUnicastIpAddressChange function
 author: windows-sdk-content
 description: Registers to be notified for changes to all unicast IP interfaces, unicast IPv4 addresses, or unicast IPv6 addresses on a local computer.
 old-location: iphlp\notifyunicastipaddresschange.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 56945aa2-ca1e-44b3-9765-d862978a9dbe
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyUnicastIpAddressChange, NotifyUnicastIpAddressChange function [IP Helper], iphlp.notifyunicastipaddresschange, netioapi/NotifyUnicastIpAddressChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NotifyUnicastIpAddressChange
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NotifyUnicastIpAddressChange function

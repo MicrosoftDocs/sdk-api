@@ -4,17 +4,16 @@ title: IFaxDevices::get_ItemById
 author: windows-sdk-content
 description: The IFaxDevices::get_ItemById method returns a FaxDevice object from the FaxDevices collection, using its device ID.
 old-location: fax\_mfax_faxdevices_itembyid.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4gmc.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: IFaxDevices interface [Fax Service],get_ItemById method, IFaxDevices.get_ItemById, IFaxDevices::get_ItemById, _mfax_faxdevices.itembyid, fax._mfax_faxdevices_itembyid, faxcomex/IFaxDevices::get_ItemById, get_ItemById, get_ItemById method [Fax Service], get_ItemById method [Fax Service],IFaxDevices interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFaxDevices.get_ItemById
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDevices::get_ItemById
@@ -69,7 +67,7 @@ The unique ID of the device to retrieve.
 
 ### -param ppFaxDevice
 
-
+TBD
 
 
 

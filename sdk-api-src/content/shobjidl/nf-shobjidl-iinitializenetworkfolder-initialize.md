@@ -4,17 +4,16 @@ title: IInitializeNetworkFolder::Initialize
 author: windows-sdk-content
 description: Initializes a network folder, as specified.
 old-location: shell\IInitializeNetworkFolder_Initialize.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a547b6f9-a4cc-4924-97f3-9fe08e6efc06
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IInitializeNetworkFolder interface [Windows Shell],Initialize method, IInitializeNetworkFolder.Initialize, IInitializeNetworkFolder::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeNetworkFolder interface, _shell_IInitializeNetworkFolder_Initialize, shell.IInitializeNetworkFolder_Initialize, shobjidl/IInitializeNetworkFolder::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInitializeNetworkFolder.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IInitializeNetworkFolder::Initialize

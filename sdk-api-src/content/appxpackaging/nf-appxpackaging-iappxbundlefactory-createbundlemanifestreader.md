@@ -4,17 +4,16 @@ title: IAppxBundleFactory::CreateBundleManifestReader
 author: windows-sdk-content
 description: Creates a read-only bundle manifest object from a standalone stream to AppxBundleManifest.xml.
 old-location: appxpkg\iappxbundlefactory_createbundlemanifestreader.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 8D537830-A8AA-4652-B6F2-F7A545B8877E
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: CreateBundleManifestReader, CreateBundleManifestReader method [App packaging and management], CreateBundleManifestReader method [App packaging and management],IAppxBundleFactory interface, IAppxBundleFactory interface [App packaging and management],CreateBundleManifestReader method, IAppxBundleFactory.CreateBundleManifestReader, IAppxBundleFactory::CreateBundleManifestReader, appxpackaging/IAppxBundleFactory::CreateBundleManifestReader, appxpkg.iappxbundlefactory_createbundlemanifestreader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxBundleFactory.CreateBundleManifestReader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxBundleFactory::CreateBundleManifestReader

@@ -4,7 +4,7 @@ title: tagCUSTDATA
 author: windows-sdk-content
 description: Represents custom data.
 old-location: automat\custdata.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 992199f2-1bac-428e-9699-0740654e1922
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: OaIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CUSTDATA, *LPCUSTDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CUSTDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CUSTDATA, *LPCUSTDATA
+req.redist: 
 ---
 
 # tagCUSTDATA structure

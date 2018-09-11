@@ -4,17 +4,16 @@ title: ISimpleCommandCreator::GetDefaultCatalog
 author: windows-sdk-content
 description: Determines the default catalog for the system.
 old-location: search\isimplecommandcreator_getdefaultcatalog.htm
-old-project: search
+tech.root: search
 ms.assetid: 6BD65290-209A-4FCA-BD2B-E4BB800C8BEF
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetDefaultCatalog, GetDefaultCatalog method [search], GetDefaultCatalog method [search],ISimpleCommandCreator interface, ISimpleCommandCreator interface [search],GetDefaultCatalog method, ISimpleCommandCreator.GetDefaultCatalog, ISimpleCommandCreator::GetDefaultCatalog, indexsrv/ISimpleCommandCreator::GetDefaultCatalog, search.isimplecommandcreator_getdefaultcatalog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 
-req.redist: Windows NT 4.0 Option Pack
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDREP_BREAK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimpleCommandCreator.GetDefaultCatalog
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Windows NT 4.0 Option Pack
 ---
 
 # ISimpleCommandCreator::GetDefaultCatalog

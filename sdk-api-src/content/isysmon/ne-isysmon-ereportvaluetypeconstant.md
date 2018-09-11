@@ -4,17 +4,16 @@ title: eReportValueTypeConstant
 author: windows-sdk-content
 description: Determines if the Histogram and Report views graph the last value sampled or a calculated value using values from the sampling period, such as the average or minimum value.
 old-location: sysmon\reportvaluetypeconstants.htm
-old-project: sysmon
+tech.root: SysMon
 ms.assetid: 63287889-3928-4abf-a04d-6790fd70df83
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ReportValueTypeConstants, ReportValueTypeConstants enumeration [SysMon], base.reportvaluetypeconstants, eReportValueTypeConstant, isysmon/ReportValueTypeConstants, isysmon/sysmonAverage, isysmon/sysmonCurrentValue, isysmon/sysmonDefaultValue, isysmon/sysmonMaximum, isysmon/sysmonMinimum, sysmon.reportvaluetypeconstants, sysmonAverage, sysmonCurrentValue, sysmonDefaultValue, sysmonMaximum, sysmonMinimum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: isysmon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ReportValueTypeConstants
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ReportValueTypeConstants
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ReportValueTypeConstants
+req.redist: 
 ---
 
 # eReportValueTypeConstant enumeration

@@ -4,17 +4,16 @@ title: "_NOTIFYICONDATAW"
 author: windows-sdk-content
 description: Contains information that the system needs to display notifications in the notification area. Used by Shell_NotifyIcon.
 old-location: shell\NOTIFYICONDATA.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fdcc42c1-b3e5-4b04-8d79-7b6c29699d53
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*PNOTIFYICONDATAW, 0, NIF_GUID, NIF_ICON, NIF_INFO, NIF_MESSAGE, NIF_REALTIME, NIF_SHOWTIP, NIF_STATE, NIF_TIP, NIIF_ERROR, NIIF_ICON_MASK, NIIF_INFO, NIIF_LARGE_ICON, NIIF_NONE, NIIF_NOSOUND, NIIF_RESPECT_QUIET_TIME, NIIF_USER, NIIF_WARNING, NIS_HIDDEN, NIS_SHAREDICON, NOTIFYICONDATA, NOTIFYICONDATA structure [Windows Shell], NOTIFYICONDATAW, NOTIFYICON_VERSION, NOTIFYICON_VERSION_4, PNOTIFYICONDATA, PNOTIFYICONDATA structure pointer [Windows Shell], _NOTIFYICONDATAW, _win32_NOTIFYICONDATA, shell.NOTIFYICONDATA, shellapi/NOTIFYICONDATA, shellapi/PNOTIFYICONDATA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFYICONDATAW, *PNOTIFYICONDATAW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NOTIFYICONDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: NOTIFYICONDATAW, *PNOTIFYICONDATAW
+req.redist: 
 ---
 
 # _NOTIFYICONDATAW structure

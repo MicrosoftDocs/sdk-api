@@ -4,7 +4,7 @@ title: "_EAP_CONFIG_INPUT_FIELD_ARRAY"
 author: windows-sdk-content
 description: Contains a set of EAP_CONFIG_INPUT_FIELD_DATA structures that collectively contain the user input field data obtained from the user.
 old-location: eaphost\eap_config_input_field_array.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: e8a2e934-1ded-4159-8cd8-7aeb75ce743a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_CONFIG_INPUT_FIELD_ARRAY, *PEAP_CONFIG_INPUT_FIELD_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_CONFIG_INPUT_FIELD_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_CONFIG_INPUT_FIELD_ARRAY, *PEAP_CONFIG_INPUT_FIELD_ARRAY
+req.redist: 
 ---
 
 # _EAP_CONFIG_INPUT_FIELD_ARRAY structure

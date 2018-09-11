@@ -4,17 +4,16 @@ title: IAMExtendedSeeking::GetMarkerName
 author: windows-sdk-content
 description: The GetMarkerName method retrieves the name associated with the specified marker.
 old-location: dshow\iamextendedseeking_getmarkername.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 899cc32e-3a9f-4be0-97a9-2ddd323bf9ce
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetMarkerName, GetMarkerName method [DirectShow], GetMarkerName method [DirectShow],IAMExtendedSeeking interface, IAMExtendedSeeking interface [DirectShow],GetMarkerName method, IAMExtendedSeeking.GetMarkerName, IAMExtendedSeeking::GetMarkerName, IAMExtendedSeekingGetMarkerName, dshow.iamextendedseeking_getmarkername, qnetwork/IAMExtendedSeeking::GetMarkerName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMExtendedSeeking.GetMarkerName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtendedSeeking::GetMarkerName

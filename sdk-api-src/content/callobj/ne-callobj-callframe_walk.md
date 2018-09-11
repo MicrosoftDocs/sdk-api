@@ -4,17 +4,16 @@ title: CALLFRAME_WALK
 author: windows-sdk-content
 description: Determines the parameter type to be walked.
 old-location: com\callframe_walk.htm
-old-project: com
+tech.root: com
 ms.assetid: 52327707-43b0-4041-8fa1-62a9a62dc6b7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CALLFRAME_WALK, CALLFRAME_WALK enumeration [COM], CALLFRAME_WALK_IN, CALLFRAME_WALK_INOUT, CALLFRAME_WALK_OUT, _com_CALLFRAME_WALK, callobj/CALLFRAME_WALK, callobj/CALLFRAME_WALK_IN, callobj/CALLFRAME_WALK_INOUT, callobj/CALLFRAME_WALK_OUT, com.callframe_walk
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CALLFRAME_WALK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CALLFRAME_WALK enumeration

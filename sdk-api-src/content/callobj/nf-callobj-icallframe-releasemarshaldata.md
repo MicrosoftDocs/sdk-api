@@ -4,17 +4,16 @@ title: ICallFrame::ReleaseMarshalData
 author: windows-sdk-content
 description: Releases resources that are held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet, and calls the CoReleaseMarshalData function on each one.
 old-location: com\icallframe_releasemarshaldata.htm
-old-project: com
+tech.root: com
 ms.assetid: c82107ad-68d1-4a46-ba78-37592d445c57
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICallFrame interface [COM],ReleaseMarshalData method, ICallFrame.ReleaseMarshalData, ICallFrame::ReleaseMarshalData, ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM],ICallFrame interface, _com_icallframe_releasemarshaldata, callobj/ICallFrame::ReleaseMarshalData, com.icallframe_releasemarshaldata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICallFrame.ReleaseMarshalData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICallFrame::ReleaseMarshalData

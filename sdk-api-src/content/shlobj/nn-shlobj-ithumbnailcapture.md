@@ -4,17 +4,16 @@ title: IThumbnailCapture
 author: windows-sdk-content
 description: Exposes a method that obtains a thumbnail representation of an HTML wallpaper.
 old-location: shell\IThumbnailCapture.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fecf1f8f-ea76-4a3d-a6cf-faa3e400f5e4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IThumbnailCapture, IThumbnailCapture interface [Windows Shell], IThumbnailCapture interface [Windows Shell],described, _shell_IThumbnailCapture, shell.IThumbnailCapture, shlobj/IThumbnailCapture
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IThumbnailCapture
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IThumbnailCapture interface

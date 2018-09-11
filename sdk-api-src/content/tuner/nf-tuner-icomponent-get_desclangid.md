@@ -4,17 +4,16 @@ title: IComponent::get_DescLangID
 author: windows-sdk-content
 description: The get_DescLangID method retrieves the language identifier for the description property.
 old-location: mstv\icomponent_get_desclangid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1c041173-0c78-486e-93b5-a46c9dc0afb1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],get_DescLangID method, IComponent.get_DescLangID, IComponent::get_DescLangID, IComponentget_DescLangID, get_DescLangID, get_DescLangID method [Microsoft TV Technologies], get_DescLangID method [Microsoft TV Technologies],IComponent interface, mstv.icomponent_get_desclangid, tuner/IComponent::get_DescLangID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponent.get_DescLangID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponent::get_DescLangID
@@ -65,7 +63,7 @@ The <b>get_DescLangID</b> method retrieves the language identifier for the descr
 
 ### -param LangID
 
-
+TBD
 
 
 

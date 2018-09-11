@@ -4,17 +4,16 @@ title: IVdsVolume::SetFlags
 author: windows-sdk-content
 description: Sets the volume flags.
 old-location: base\ivdsvolume_setflags.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: f426b089-6c5f-4ab4-aa92-127e24cb57b1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsVolume interface [VDS],SetFlags method, IVdsVolume.SetFlags, IVdsVolume::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsVolume interface, base.ivdsvolume_setflags, vds/IVdsVolume::SetFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolume.SetFlags
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolume::SetFlags

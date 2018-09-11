@@ -4,17 +4,16 @@ title: acmDriverEnum function
 author: windows-sdk-content
 description: The acmDriverEnum function enumerates the available ACM drivers, continuing until there are no more drivers or the callback function returns FALSE.
 old-location: multimedia\acmdriverenum.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 3e93284d-2810-4c8e-9619-1989d8bf788e
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_acmDriverEnum, acmDriverEnum, acmDriverEnum function [Windows Multimedia], msacm/acmDriverEnum, multimedia.acmdriverenum"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.lib: Msacm32.lib
+req.dll: Msacm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - acmDriverEnum
 product: Windows
 targetos: Windows
-req.lib: Msacm32.lib
-req.dll: Msacm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # acmDriverEnum function

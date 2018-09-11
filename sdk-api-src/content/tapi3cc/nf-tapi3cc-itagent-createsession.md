@@ -4,17 +4,16 @@ title: ITAgent::CreateSession
 author: windows-sdk-content
 description: The CreateSession method creates a new agent session for the input ACD group and address.
 old-location: tapi3\itagent_createsession.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 68cc2ffe-3c63-4723-8652-0e28da2b17b6
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CreateSession, CreateSession method [TAPI 2.2], CreateSession method [TAPI 2.2],ITAgent interface, ITAgent interface [TAPI 2.2],CreateSession method, ITAgent.CreateSession, ITAgent::CreateSession, _tapi3_itagent_createsession, tapi3.itagent_createsession, tapi3cc/ITAgent::CreateSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_STATE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgent.CreateSession
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgent::CreateSession

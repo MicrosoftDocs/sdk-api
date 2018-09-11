@@ -4,17 +4,16 @@ title: MprAdminInterfaceTransportAdd function
 author: windows-sdk-content
 description: The MprAdminInterfaceTransportAdd function adds a transport (for example, IP or IPX) to a specified interface.
 old-location: rras\mpradmininterfacetransportadd.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 5978a8d3-78ea-4dc2-a957-32f00c81f52d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminInterfaceTransportAdd, MprAdminInterfaceTransportAdd function [RAS], _mpr_mpradmininterfacetransportadd, mprapi/MprAdminInterfaceTransportAdd, rras.mpradmininterfacetransportadd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminInterfaceTransportAdd
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminInterfaceTransportAdd function

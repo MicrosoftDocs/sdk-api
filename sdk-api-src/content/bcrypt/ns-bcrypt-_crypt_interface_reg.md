@@ -4,17 +4,16 @@ title: "_CRYPT_INTERFACE_REG"
 author: windows-sdk-content
 description: Used to contain information about the type of interface supported by a CNG provider.
 old-location: security\crypt_interface_reg.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 80204d2a-ebc8-40f6-bccb-7cd112d7769b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_INTERFACE_REG, BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, CRYPT_DOMAIN, CRYPT_INTERFACE_REG, CRYPT_INTERFACE_REG structure [Security], CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, PCRYPT_INTERFACE_REG, PCRYPT_INTERFACE_REG structure pointer [Security], _CRYPT_INTERFACE_REG, bcrypt/CRYPT_INTERFACE_REG, bcrypt/PCRYPT_INTERFACE_REG, security.crypt_interface_reg"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_INTERFACE_REG, *PCRYPT_INTERFACE_REG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_INTERFACE_REG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_INTERFACE_REG, *PCRYPT_INTERFACE_REG
+req.redist: 
 ---
 
 # _CRYPT_INTERFACE_REG structure

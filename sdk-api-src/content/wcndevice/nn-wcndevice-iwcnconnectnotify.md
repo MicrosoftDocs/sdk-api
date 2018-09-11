@@ -4,17 +4,16 @@ title: IWCNConnectNotify
 author: windows-sdk-content
 description: Use this interface to receive a success or failure notification when a Windows Connect Now connect session completes.
 old-location: wcn\iwcnconnectnotify.htm
-old-project: wcn
+tech.root: wcn
 ms.assetid: 63ea2b5a-4bec-4050-9a61-962a1faef0a0
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IWCNConnectNotify, IWCNConnectNotify interface [Windows Connect Now], IWCNConnectNotify interface [Windows Connect Now],described, wcn.iwcnconnectnotify, wcndevice/IWCNConnectNotify
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wcndevice.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_SESSION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWCNConnectNotify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWCNConnectNotify interface

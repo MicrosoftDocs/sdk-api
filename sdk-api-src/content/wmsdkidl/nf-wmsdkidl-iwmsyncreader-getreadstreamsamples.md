@@ -4,17 +4,16 @@ title: IWMSyncReader::GetReadStreamSamples
 author: windows-sdk-content
 description: The GetReadStreamSamples method ascertains whether a stream is configured to deliver compressed samples.
 old-location: wmformat\iwmsyncreader_getreadstreamsamples.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: cb903723-fd4b-4b1c-aa2f-e3c9f74dcebd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetReadStreamSamples, GetReadStreamSamples method [windows Media Format], GetReadStreamSamples method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetReadStreamSamples method, IWMSyncReader.GetReadStreamSamples, IWMSyncReader::GetReadStreamSamples, IWMSyncReaderGetReadStreamSamples, wmformat.iwmsyncreader_getreadstreamsamples, wmsdkidl/IWMSyncReader::GetReadStreamSamples
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMSyncReader.GetReadStreamSamples
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMSyncReader::GetReadStreamSamples

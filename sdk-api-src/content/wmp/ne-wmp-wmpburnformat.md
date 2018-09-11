@@ -4,7 +4,7 @@ title: WMPBurnFormat
 author: windows-sdk-content
 description: The WMPBurnFormat enumeration type defines the possible types of CDs for burning.
 old-location: wmp\wmpburnformat.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 5761dbfb-4e7d-4063-bde7-2aa9d7869d7c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPBurnFormat
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMPBurnFormat
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMPBurnFormat
+req.redist: 
 ---
 
 # WMPBurnFormat enumeration

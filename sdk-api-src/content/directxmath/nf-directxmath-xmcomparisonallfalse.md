@@ -4,17 +4,16 @@ title: XMComparisonAllFalse function
 author: windows-sdk-content
 description: Tests the comparison value to determine if all of the compared components are false.
 old-location: dxmath\xmcomparisonallfalse.htm
-old-project: dxmath
+tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonAllFalse(uint32_t)
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Use DirectX..XMComparisonAllFalse, XMComparisonAllFalse, XMComparisonAllFalse method [DirectX Math Support APIs], dxmath.xmcomparisonallfalse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: Use DirectX.
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - XMComparisonAllFalse
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # XMComparisonAllFalse function

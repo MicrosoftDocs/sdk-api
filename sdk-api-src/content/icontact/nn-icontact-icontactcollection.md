@@ -4,17 +4,16 @@ title: IContactCollection
 author: windows-sdk-content
 description: Do not use. Enumerates the contacts known by the IContactManager.
 old-location: wincontacts\_wincontacts_IContactCollection.htm
-old-project: wincontacts
+tech.root: wincontacts
 ms.assetid: 4d7f26b0-a2c0-4c7b-8f1d-f918cb1e0897
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IContactCollection, IContactCollection interface [Windows Contacts], IContactCollection interface [Windows Contacts],described, _wincontacts_IContactCollection, icontact/IContactCollection, wincontacts._wincontacts_IContactCollection
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: icontact.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContactCollection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wab32.dll (Version 6.0 or later)
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContactCollection interface

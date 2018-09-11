@@ -4,7 +4,7 @@ title: peer_collab_event_type_tag
 author: windows-sdk-content
 description: The PEER_COLLAB_EVENT_TYPE enumeration defines the set of events that can be raised on a peer by the peer collaboration network event infrastructure.
 old-location: p2p\peer_collab_event_type.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 2266c518-d383-4f37-9494-d57a3f780ced
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_COLLAB_EVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_COLLAB_EVENT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_COLLAB_EVENT_TYPE
+req.redist: 
 ---
 
 # peer_collab_event_type_tag enumeration

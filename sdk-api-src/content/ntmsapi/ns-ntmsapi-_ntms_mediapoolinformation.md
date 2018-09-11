@@ -4,17 +4,16 @@ title: "_NTMS_MEDIAPOOLINFORMATION"
 author: windows-sdk-content
 description: The NTMS_MEDIAPOOLINFORMATION structure defines the properties specific to a media pool object.
 old-location: fs\ntms_mediapoolinformation.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 4feb9d68-f88b-4515-9c59-64fe9c5594d6
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: NTMS_ALLOCATE_FROMSCRATCH, NTMS_DEALLOCATE_TOSCRATCH, NTMS_MEDIAPOOLINFORMATION, NTMS_MEDIAPOOLINFORMATION structure [Files], NTMS_POOLTYPE_APPLICATION, NTMS_POOLTYPE_FOREIGN, NTMS_POOLTYPE_IMPORT, NTMS_POOLTYPE_SCRATCH, NTMS_POOLTYPE_UNKNOWN, _NTMS_MEDIAPOOLINFORMATION, _zaw_ntms_mediapoolinformation, base.ntms_mediapoolinformation, fs.ntms_mediapoolinformation, ntmsapi/NTMS_MEDIAPOOLINFORMATION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTMS_MEDIAPOOLINFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTMS_MEDIAPOOLINFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: NTMS_MEDIAPOOLINFORMATION
+req.redist: 
 ---
 
 # _NTMS_MEDIAPOOLINFORMATION structure

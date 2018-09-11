@@ -4,17 +4,16 @@ title: MprConfigServerSetInfo function
 author: windows-sdk-content
 description: The MprConfigServerSetInfo function is used to set the port count for L2TP, PPTP, and SSTP ports and enable or disable RRAS on them in the registry when the RRAS service is not running so that it is picked up next time the system restarts.
 old-location: rras\mprconfigserversetinfo.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 95fe0dfb-cfa6-4e84-a060-4b0fffc71a3d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprConfigServerSetInfo, MprConfigServerSetInfo function [RAS], mprapi/MprConfigServerSetInfo, rras.mprconfigserversetinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprConfigServerSetInfo
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprConfigServerSetInfo function

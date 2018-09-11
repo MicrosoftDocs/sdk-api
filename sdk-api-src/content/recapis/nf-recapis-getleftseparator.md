@@ -4,17 +4,16 @@ title: GetLeftSeparator function
 author: windows-sdk-content
 description: Gets the left separator for the recognizer context.
 old-location: tablet\getleftseparator.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 5528d31e-580f-4da7-b683-e9ea2931989b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: GetLeftSeparator, GetLeftSeparator function [Tablet PC], recapis/GetLeftSeparator, tablet.getleftseparator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetLeftSeparator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetLeftSeparator function

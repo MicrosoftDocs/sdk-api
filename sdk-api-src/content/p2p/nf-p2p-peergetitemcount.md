@@ -4,17 +4,16 @@ title: PeerGetItemCount function
 author: windows-sdk-content
 description: The PeerGetItemCount function returns a count of the items in a peer enumeration.
 old-location: p2p\peergetitemcount.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 8f6fec31-8867-4d65-b5b0-e6506be9c991
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerGetItemCount, PeerGetItemCount function [Peer Networking], p2p.peergetitemcount, p2p/PeerGetItemCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerGetItemCount
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerGetItemCount function

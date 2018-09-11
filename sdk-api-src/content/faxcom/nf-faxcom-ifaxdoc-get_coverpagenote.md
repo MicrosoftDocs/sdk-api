@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxDoc.get_CoverpageNote
 title: IFaxDoc::get_CoverpageNote
 author: windows-sdk-content
 description: Sets or retrieves the CoverpageNote property of a FaxDoc object. The CoverpageNote property is a null-terminated string that contains the text of a message or note from the sender that pertains to the fax transmission.
-old-location: fax\_mfax_ifaxdoc_get_coverpagenote_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_coverpagenote_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4t7p.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: CoverpageNote property [Fax Service], CoverpageNote property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],CoverpageNote property, FaxDoc.CoverpageNote, IFaxDoc.get_CoverpageNote, IFaxDoc::get_CoverpageNote, _mfax_ifaxdoc_get_coverpagenote, fax._mfax_ifaxdoc_get_coverpagenote, fax._mfax_ifaxdoc_get_coverpagenote_vb, get_CoverpageNote
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: CoverpageNote property [Fax Service], CoverpageNote property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],CoverpageNote property, IFaxDoc.CoverpageNote, IFaxDoc.get_CoverpageNote, IFaxDoc::CoverpageNote, IFaxDoc::get_CoverpageNote, IFaxDoc::put_CoverpageNote, _mfax_ifaxdoc_get_coverpagenote, fax._mfax_ifaxdoc_get_coverpagenote, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_coverpagenote_cpp, faxcom/IFaxDoc::CoverpageNote, faxcom/IFaxDoc::get_CoverpageNote, faxcom/IFaxDoc::put_CoverpageNote, get_CoverpageNote
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxDoc.CoverpageNote
+ - IFaxDoc.CoverpageNote
+ - IFaxDoc.get_CoverpageNote
+ - IFaxDoc.put_CoverpageNote
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDoc::get_CoverpageNote
@@ -81,10 +81,6 @@ The <b>get_CoverpageNote</b> method allocates the memory required for the buffer
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms690707(v=VS.85).aspx">FaxDoc</a>
 
 
 

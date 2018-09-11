@@ -4,17 +4,16 @@ title: IX509EnrollmentPolicyServer::Export
 author: windows-sdk-content
 description: Exports templates and object identifiers associated with the certificate enrollment policy (CEP) server to a buffer.
 old-location: security\ix509enrollmentpolicyserver_export.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: b821329b-2ec6-4f47-ba5f-2e1cd7ffb06f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Export, Export method [Security], Export method [Security],IX509EnrollmentPolicyServer interface, ExportOIDs, ExportTemplates, IX509EnrollmentPolicyServer interface [Security],Export method, IX509EnrollmentPolicyServer.Export, IX509EnrollmentPolicyServer::Export, certenroll/IX509EnrollmentPolicyServer::Export, security.ix509enrollmentpolicyserver_export
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509EnrollmentPolicyServer.Export
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509EnrollmentPolicyServer::Export

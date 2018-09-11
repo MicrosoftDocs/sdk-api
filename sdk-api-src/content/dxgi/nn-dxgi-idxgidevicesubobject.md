@@ -4,17 +4,16 @@ title: IDXGIDeviceSubObject
 author: windows-sdk-content
 description: Inherited from objects that are tied to the device so that they can retrieve a pointer to it.
 old-location: direct3ddxgi\idxgidevicesubobject.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevicesubobject.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIDeviceSubObject, IDXGIDeviceSubObject interface [DXGI], IDXGIDeviceSubObject interface [DXGI],described, cafb6d61-7a76-585b-438f-57d6aaa898c1, direct3ddxgi.idxgidevicesubobject, dxgi/IDXGIDeviceSubObject
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIDeviceSubObject
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIDeviceSubObject interface

@@ -4,17 +4,16 @@ title: IMSVidGraphSegmentContainer::get_Graph
 author: windows-sdk-content
 description: The get_Graph method returns a pointer to the Filter Graph Manager.
 old-location: mstv\imsvidgraphsegmentcontainer_get_graph.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: fecc2953-84d6-4d1b-bb3f-5b966debef1e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidGraphSegmentContainer interface [Microsoft TV Technologies],get_Graph method, IMSVidGraphSegmentContainer.get_Graph, IMSVidGraphSegmentContainer::get_Graph, IMSVidGraphSegmentContainerget_Graph, get_Graph, get_Graph method [Microsoft TV Technologies], get_Graph method [Microsoft TV Technologies],IMSVidGraphSegmentContainer interface, mstv.imsvidgraphsegmentcontainer_get_graph, segment/IMSVidGraphSegmentContainer::get_Graph
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidGraphSegmentContainer.get_Graph
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidGraphSegmentContainer::get_Graph

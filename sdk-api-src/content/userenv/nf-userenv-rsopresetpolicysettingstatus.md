@@ -4,17 +4,16 @@ title: RsopResetPolicySettingStatus function
 author: windows-sdk-content
 description: The RSoPResetPolicySettingStatus function unlinks the RSOP_PolicySettingStatus instance from its RSOP_PolicySetting instance.
 old-location: policy\rsopresetpolicysettingstatus.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: fd849efe-1ee7-4034-aea2-1a2bdb5e46bc
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: RSoPResetPolicySettingStatus, RSoPResetPolicySettingStatus function [Group Policy], RsopResetPolicySettingStatus, _win32_rsopresetpolicysettingstatus, policy.rsopresetpolicysettingstatus, userenv/RSoPResetPolicySettingStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RSoPResetPolicySettingStatus
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # RsopResetPolicySettingStatus function

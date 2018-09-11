@@ -4,17 +4,16 @@ title: CheckTokenMembershipEx function
 author: windows-sdk-content
 description: Determines whether the specified SID is enabled in the specified token.
 old-location: security\checktokenmembershipex.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 0420FC77-8035-42A5-8907-83D0CE53FB64
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: CheckTokenMembershipEx, CheckTokenMembershipEx function [Security], security.checktokenmembershipex, securitybaseapi/CheckTokenMembershipEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: 
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - CheckTokenMembershipEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CheckTokenMembershipEx function

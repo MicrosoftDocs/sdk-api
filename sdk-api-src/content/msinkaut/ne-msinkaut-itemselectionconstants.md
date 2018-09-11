@@ -4,17 +4,16 @@ title: ItemSelectionConstants
 author: windows-sdk-content
 description: Specifies whether the first element or all elements within a group of points or packet values are used.
 old-location: tablet\itemselectionconstants.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 785b5ac7-b629-4948-a8bf-e92b74dacdb7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 785b5ac7-b629-4948-a8bf-e92b74dacdb7, ISC_AllElements, ISC_FirstElement, InkSelectionConstants, InkSelectionConstants enumeration [Tablet PC], ItemSelectionConstants, ItemSelectionConstants enumeration [Tablet PC], msinkaut/ISC_AllElements, msinkaut/ISC_FirstElement, msinkaut/ItemSelectionConstants, tablet.itemselectionconstants
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkSelectionConstants
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InkSelectionConstants
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkSelectionConstants
+req.redist: 
 ---
 
 # ItemSelectionConstants enumeration

@@ -4,7 +4,7 @@ title: IKEEXT_COOKIE_PAIR0_
 author: windows-sdk-content
 description: Used to store a pair of IKE/Authip cookies.
 old-location: fwp\ikeext_cookie_pair0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: c752545b-1880-40ac-871e-e36d4b81668f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEEXT_COOKIE_PAIR0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEEXT_COOKIE_PAIR0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEEXT_COOKIE_PAIR0
+req.redist: 
 ---
 
 # IKEEXT_COOKIE_PAIR0_ structure

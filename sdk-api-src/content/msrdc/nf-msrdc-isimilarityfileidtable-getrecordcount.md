@@ -4,17 +4,16 @@ title: ISimilarityFileIdTable::GetRecordCount
 author: windows-sdk-content
 description: Retrieves the number of records that are stored in a similarity file ID table.
 old-location: rdc\isimilarityfileidtable_getrecordcount.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 2d95140e-c422-4aa5-aea2-ee777f977c17
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetRecordCount, GetRecordCount method [Remote Differential Compression], GetRecordCount method [Remote Differential Compression],ISimilarityFileIdTable interface, ISimilarityFileIdTable interface [Remote Differential Compression],GetRecordCount method, ISimilarityFileIdTable.GetRecordCount, ISimilarityFileIdTable::GetRecordCount, fs.isimilarityfileidtable_getrecordcount, msrdc/ISimilarityFileIdTable::GetRecordCount, rdc.isimilarityfileidtable_getrecordcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimilarityFileIdTable.GetRecordCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISimilarityFileIdTable::GetRecordCount

@@ -4,17 +4,16 @@ title: RtmIgnoreChangedDests function
 author: windows-sdk-content
 description: The RtmIgnoreChangedDests function skips the next change for each destination if it has already occurred.
 old-location: rras\rtmignorechangeddests.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 9e0b4311-deba-45d6-b1c2-a1b661f25d0f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RtmIgnoreChangedDests, RtmIgnoreChangedDests function [RAS], _rtmv2ref_rtmignorechangeddests, rras.rtmignorechangeddests, rtmv2/RtmIgnoreChangedDests
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmIgnoreChangedDests
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmIgnoreChangedDests function

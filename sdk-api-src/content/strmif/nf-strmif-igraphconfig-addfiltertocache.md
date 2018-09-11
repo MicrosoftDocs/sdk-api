@@ -4,17 +4,16 @@ title: IGraphConfig::AddFilterToCache
 author: windows-sdk-content
 description: The AddFilterToCache method adds a filter to the filter cache.
 old-location: dshow\igraphconfig_addfiltertocache.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8d5c6d55-1628-462b-828a-50541b6da3e7
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: AddFilterToCache, AddFilterToCache method [DirectShow], AddFilterToCache method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],AddFilterToCache method, IGraphConfig.AddFilterToCache, IGraphConfig::AddFilterToCache, IGraphConfigAddFilterToCache, dshow.igraphconfig_addfiltertocache, strmif/IGraphConfig::AddFilterToCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGraphConfig.AddFilterToCache
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IGraphConfig::AddFilterToCache

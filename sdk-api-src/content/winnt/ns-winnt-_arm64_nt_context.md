@@ -4,17 +4,16 @@ title: "_ARM64_NT_CONTEXT"
 author: windows-sdk-content
 description: Contains processor-specific register data. The system uses CONTEXT structures to perform various internal operations.
 old-location: base\context_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: a6c201b3-4402-4de4-89c7-e6e2fbcd27f7
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PARM64_NT_CONTEXT, *PCONTEXT, ARM64_NT_CONTEXT, CONTEXT, CONTEXT structure, LPCONTEXT, LPCONTEXT structure pointer, _ARM64_NT_CONTEXT, _win32_context_str, base.context_str, winnt/CONTEXT, winnt/LPCONTEXT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ARM64_NT_CONTEXT, *PARM64_NT_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ARM64_NT_CONTEXT, *PARM64_NT_CONTEXT
+req.redist: 
 ---
 
 # _ARM64_NT_CONTEXT structure

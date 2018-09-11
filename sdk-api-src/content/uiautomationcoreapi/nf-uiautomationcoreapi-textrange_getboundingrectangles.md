@@ -4,17 +4,16 @@ title: TextRange_GetBoundingRectangles function
 author: windows-sdk-content
 description: Retrieves the minimum number of bounding rectangles that can enclose the range, one rectangle per line.
 old-location: winauto\uiauto_TextRange_GetBoundingRectanglesConPat.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: f6b9e6b5-554d-46cb-a423-e7e3f6fb3a04
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TextRange_GetBoundingRectangles, TextRange_GetBoundingRectangles function [Windows Accessibility], uiauto.uiauto_TextRange_GetBoundingRectanglesConPat, uiauto_TextRange_GetBoundingRectanglesConPat, uiautomationcoreapi/TextRange_GetBoundingRectangles, winauto.uiauto_TextRange_GetBoundingRectanglesConPat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TextRange_GetBoundingRectangles
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TextRange_GetBoundingRectangles function

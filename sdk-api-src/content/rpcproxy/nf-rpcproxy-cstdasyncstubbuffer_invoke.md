@@ -4,17 +4,16 @@ title: CStdAsyncStubBuffer_Invoke function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Invoke method.
 old-location: rpc\cstdasyncstubbuffer_invoke.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 069A6E16-D96F-4E74-B511-77B6496FE966
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CStdAsyncStubBuffer_Invoke, CStdAsyncStubBuffer_Invoke function [RPC], rpc.cstdasyncstubbuffer_invoke, rpcproxy/CStdAsyncStubBuffer_Invoke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CStdAsyncStubBuffer_Invoke
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CStdAsyncStubBuffer_Invoke function

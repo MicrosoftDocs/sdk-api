@@ -4,17 +4,16 @@ title: CLUSTER_GET_MINOR_VERSION macro
 author: windows-sdk-content
 description: Extracts the minor version portion of a Cluster service version number.
 old-location: mscs\cluster_get_minor_version.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 90caa255-9b04-4b83-a846-78590bfce3a7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_GET_MINOR_VERSION, CLUSTER_GET_MINOR_VERSION macro [Failover Cluster], _wolf_cluster_get_minor_version, clusapi/CLUSTER_GET_MINOR_VERSION, mscs.cluster_get_minor_version
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSTER_GET_MINOR_VERSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CLUSTER_GET_MINOR_VERSION macro

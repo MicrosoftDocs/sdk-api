@@ -4,17 +4,16 @@ title: ClusterRegSetKeySecurity function
 author: windows-sdk-content
 description: Sets the security attributes for a cluster database key.
 old-location: mscs\clusterregsetkeysecurity.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: adb2ea52-6a3a-4243-944d-c7ae68a42a1a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusterRegSetKeySecurity, ClusterRegSetKeySecurity function [Failover Cluster], _wolf_clusterregsetkeysecurity, clusapi/ClusterRegSetKeySecurity, mscs.clusterregsetkeysecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ClusterRegSetKeySecurity
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterRegSetKeySecurity function

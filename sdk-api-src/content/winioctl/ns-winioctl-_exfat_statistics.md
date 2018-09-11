@@ -4,7 +4,7 @@ title: "_EXFAT_STATISTICS"
 author: windows-sdk-content
 description: Contains statistical information from the exFAT file system.
 old-location: fs\exfat_statistics.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: fc33e967-fbc0-4f98-9b6c-2d6ac103a256
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXFAT_STATISTICS, *PEXFAT_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EXFAT_STATISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EXFAT_STATISTICS, *PEXFAT_STATISTICS
+req.redist: 
 ---
 
 # _EXFAT_STATISTICS structure

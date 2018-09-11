@@ -4,17 +4,16 @@ title: "_CRYPT_TIMESTAMP_ACCURACY"
 author: windows-sdk-content
 description: Is used by the CRYPT_TIMESTAMP_INFO structure to represent the accuracy of the time deviation around the UTC time at which the time stamp token was created by the Time Stamp Authority (TSA).
 old-location: security\crypt_timestamp_accuracy.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 9115db8a-7cc1-4360-b89b-6c33ddb67fe9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_TIMESTAMP_ACCURACY, CRYPT_TIMESTAMP_ACCURACY, CRYPT_TIMESTAMP_ACCURACY structure [Security], PCRYPT_TIMESTAMP_ACCURACY, PCRYPT_TIMESTAMP_ACCURACY structure pointer [Security], _CRYPT_TIMESTAMP_ACCURACY, security.crypt_timestamp_accuracy, wincrypt/CRYPT_TIMESTAMP_ACCURACY, wincrypt/PCRYPT_TIMESTAMP_ACCURACY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_TIMESTAMP_ACCURACY, *PCRYPT_TIMESTAMP_ACCURACY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_TIMESTAMP_ACCURACY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_TIMESTAMP_ACCURACY, *PCRYPT_TIMESTAMP_ACCURACY
+req.redist: 
 ---
 
 # _CRYPT_TIMESTAMP_ACCURACY structure

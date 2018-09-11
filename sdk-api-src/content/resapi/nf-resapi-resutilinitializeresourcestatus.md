@@ -4,17 +4,16 @@ title: ResUtilInitializeResourceStatus macro
 author: windows-sdk-content
 description: Initializes a RESOURCE_STATUS structure.
 old-location: mscs\resutilinitializeresourcestatus.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: e4a887b0-619d-42e0-a828-6a8c8d8c6f47
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ResUtilInitializeResourceStatus, ResUtilInitializeResourceStatus macro [Failover Cluster], _wolf_resutilinitializeresourcestatus, mscs.resutilinitializeresourcestatus, resapi/ResUtilInitializeResourceStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilInitializeResourceStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilInitializeResourceStatus macro

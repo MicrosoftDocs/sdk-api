@@ -4,17 +4,16 @@ title: IWSDMessageParameters
 author: windows-sdk-content
 description: Use this interface to communicate message specific information up and down the protocol stack.
 old-location: ncd\iwsdmessageparameters.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: fb659a5e-1f55-47a6-b22d-660975d8c0fd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDMessageParameters, IWSDMessageParameters interface, IWSDMessageParameters interface,described, ncd.iwsdmessageparameters, wsdbase/IWSDMessageParameters
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_CONFIG_PARAM_TYPE
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDMessageParameters
 product: Windows
 targetos: Windows
-req.lib: Wsdapi.lib
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDMessageParameters interface

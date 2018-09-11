@@ -4,17 +4,16 @@ title: "_NETRESOURCEA"
 author: windows-sdk-content
 description: The following structure contains information about a network resource. It is used by several of the network provider functions, including NPOpenEnum and NPAddConnection.
 old-location: security\netresource.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: c7e22694-2dfd-4a9e-bd40-277611476f97
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPNETRESOURCEA, LPNETRESOURCE, LPNETRESOURCE structure pointer [Security], NETRESOURCE, NETRESOURCE structure [Security], NETRESOURCEA, NETRESOURCEW, RESOURCEDISPLAYTYPE_DIRECTORY, RESOURCEDISPLAYTYPE_DOMAIN, RESOURCEDISPLAYTYPE_GENERIC, RESOURCEDISPLAYTYPE_NETWORK, RESOURCEDISPLAYTYPE_SERVER, RESOURCEDISPLAYTYPE_SHARE, RESOURCETYPE_ANY, RESOURCETYPE_DISK, RESOURCETYPE_PRINT, RESOURCEUSAGE_CONNECTABLE, RESOURCEUSAGE_CONTAINER, RESOURCE_CONNECTED, RESOURCE_CONTEXT, RESOURCE_GLOBALNET, _NETRESOURCEA, _mnp_netresource, security.netresource, winnetwk/LPNETRESOURCE, winnetwk/NETRESOURCE, winnetwk/NETRESOURCEA, winnetwk/NETRESOURCEW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETRESOURCEA, *LPNETRESOURCEA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - NETRESOURCEW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: NETRESOURCEA, *LPNETRESOURCEA
+req.redist: 
 ---
 
 # _NETRESOURCEA structure

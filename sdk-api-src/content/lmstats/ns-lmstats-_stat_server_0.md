@@ -4,7 +4,7 @@ title: "_STAT_SERVER_0"
 author: windows-sdk-content
 description: Contains statistical information about the server.
 old-location: fs\stat_server_0_str.htm
-old-project: netshare
+tech.root: netshare
 ms.assetid: 7eb4e4a9-f4db-4702-a4ad-2d8bfac9f9ce
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmstats.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STAT_SERVER_0, *PSTAT_SERVER_0, *LPSTAT_SERVER_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STAT_SERVER_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: STAT_SERVER_0, *PSTAT_SERVER_0, *LPSTAT_SERVER_0
+req.redist: 
 ---
 
 # _STAT_SERVER_0 structure

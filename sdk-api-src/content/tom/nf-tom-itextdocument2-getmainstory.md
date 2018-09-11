@@ -4,17 +4,16 @@ title: ITextDocument2::GetMainStory
 author: windows-sdk-content
 description: Gets the main story.
 old-location: controls\itextdocument2_getmainstory.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 732165f2-e6cd-4f39-85c6-06faebfa65e2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetMainStory, GetMainStory method [Windows Controls], GetMainStory method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetMainStory method, ITextDocument2.GetMainStory, ITextDocument2::GetMainStory, controls.itextdocument2_getmainstory, tom/ITextDocument2::GetMainStory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextDocument2.GetMainStory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextDocument2::GetMainStory

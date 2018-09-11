@@ -4,17 +4,16 @@ title: ICallFrame
 author: windows-sdk-content
 description: Enables manipulation of call frames such as stack frames.
 old-location: com\icallframe.htm
-old-project: com
+tech.root: com
 ms.assetid: 56a75123-f402-4187-af13-d31f72a5f094
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICallFrame, ICallFrame interface [COM], ICallFrame interface [COM],described, _com_icallframe_interface, callobj/ICallFrame, com.icallframe
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICallFrame
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICallFrame interface

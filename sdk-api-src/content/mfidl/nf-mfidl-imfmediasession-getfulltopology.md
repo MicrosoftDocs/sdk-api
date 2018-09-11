@@ -4,17 +4,16 @@ title: IMFMediaSession::GetFullTopology
 author: windows-sdk-content
 description: Gets a topology from the Media Session.
 old-location: mf\imfmediasession_getfulltopology.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6899dbe2-a684-487f-ab56-8631b3d5a033
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 6899dbe2-a684-487f-ab56-8631b3d5a033, GetFullTopology, GetFullTopology method [Media Foundation], GetFullTopology method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetFullTopology method, IMFMediaSession.GetFullTopology, IMFMediaSession::GetFullTopology, mf.imfmediasession_getfulltopology, mfidl/IMFMediaSession::GetFullTopology
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaSession.GetFullTopology
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSession::GetFullTopology
@@ -77,7 +75,7 @@ The identifier of the topology. This parameter is ignored if the <i>dwGetFullTop
 
 ### -param ppFullTopology
 
-
+TBD
 
 
 

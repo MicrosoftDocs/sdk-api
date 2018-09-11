@@ -4,7 +4,7 @@ title: D3D11_LOGIC_OP
 author: windows-sdk-content
 description: Specifies logical operations to configure for a render target.
 old-location: direct3d11\d3d11_logic_op.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: F35DF88D-03F9-4CDB-AF97-7216786AF338
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_LOGIC_OP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_LOGIC_OP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_LOGIC_OP
+req.redist: 
 ---
 
 # D3D11_LOGIC_OP enumeration

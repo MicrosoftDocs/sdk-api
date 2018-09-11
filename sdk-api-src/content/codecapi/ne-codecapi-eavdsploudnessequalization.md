@@ -4,7 +4,7 @@ title: eAVDSPLoudnessEqualization
 author: windows-sdk-content
 description: Specifies whether loudness equalization is enabled in an audio decoder or digital signal processor (DSP).
 old-location: dshow\eavdsploudnessequalization.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: bb46653e-d17d-4899-8a0b-cee8c4d68993
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - eAVDSPLoudnessEqualization
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # eAVDSPLoudnessEqualization enumeration

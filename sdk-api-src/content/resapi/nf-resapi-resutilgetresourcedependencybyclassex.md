@@ -4,17 +4,16 @@ title: ResUtilGetResourceDependencyByClassEx function
 author: windows-sdk-content
 description: Enumerates the dependencies of a specified resource in a specified cluster and returns a handle to a dependency that matches a specified resource class. The PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependencybyclassex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: D35816C8-A449-41FF-9398-A6A4E19C29FB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX function [Failover Cluster], ResUtilGetResourceDependencyByClass, ResUtilGetResourceDependencyByClass function [Failover Cluster], ResUtilGetResourceDependencyByClassEx, mscs.resutilgetresourcedependencybyclassex, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX, resapi/ResUtilGetResourceDependencyByClass
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilGetResourceDependencyByClass
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilGetResourceDependencyByClassEx function

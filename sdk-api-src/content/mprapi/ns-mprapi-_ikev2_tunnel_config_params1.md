@@ -4,17 +4,16 @@ title: "_IKEV2_TUNNEL_CONFIG_PARAMS1"
 author: windows-sdk-content
 description: Used to get or set tunnel parameters for Internet Key Exchange version 2 (IKEv2) devices.
 old-location: rras\ikev2_tunnel_config_params1.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 0f76df0a-11f3-472a-b9ff-9a1e81c81e70
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PIKEV2_TUNNEL_CONFIG_PARAMS1, IKEV2_TUNNEL_CONFIG_PARAMS1, IKEV2_TUNNEL_CONFIG_PARAMS1 structure [RAS], PIKEV2_TUNNEL_CONFIG_PARAMS1, PIKEV2_TUNNEL_CONFIG_PARAMS1 structure pointer [RAS], _IKEV2_TUNNEL_CONFIG_PARAMS1, mprapi/IKEV2_TUNNEL_CONFIG_PARAMS1, mprapi/PIKEV2_TUNNEL_CONFIG_PARAMS1, rras.ikev2_tunnel_config_params1"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEV2_TUNNEL_CONFIG_PARAMS1, *PIKEV2_TUNNEL_CONFIG_PARAMS1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEV2_TUNNEL_CONFIG_PARAMS1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEV2_TUNNEL_CONFIG_PARAMS1, *PIKEV2_TUNNEL_CONFIG_PARAMS1
+req.redist: 
 ---
 
 # _IKEV2_TUNNEL_CONFIG_PARAMS1 structure

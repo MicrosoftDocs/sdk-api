@@ -4,7 +4,7 @@ title: "_MF_TRANSCODE_ADJUST_PROFILE_FLAGS"
 author: windows-sdk-content
 description: Defines the profile flags that are set in the MF_TRANSCODE_ADJUST_PROFILE attribute.
 old-location: mf\mf_transcode_adjust_profile_flags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 65d7350f-a9d9-43c0-b3b6-c6169a727b4e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_TRANSCODE_ADJUST_PROFILE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_TRANSCODE_ADJUST_PROFILE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_TRANSCODE_ADJUST_PROFILE_FLAGS
+req.redist: 
 ---
 
 # _MF_TRANSCODE_ADJUST_PROFILE_FLAGS enumeration

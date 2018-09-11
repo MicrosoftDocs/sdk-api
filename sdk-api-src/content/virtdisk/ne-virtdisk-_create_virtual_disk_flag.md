@@ -4,17 +4,16 @@ title: "_CREATE_VIRTUAL_DISK_FLAG"
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) creation flags.
 old-location: vhd\create_virtual_disk_flag.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 35dba6c6-2825-425a-b432-a6ac8ad4ea4b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CREATE_VIRTUAL_DISK_FLAG, CREATE_VIRTUAL_DISK_FLAG enumeration [VHD], CREATE_VIRTUAL_DISK_FLAG_DO_NOT_COPY_METADATA_FROM_PARENT, CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, CREATE_VIRTUAL_DISK_FLAG_NONE, CREATE_VIRTUAL_DISK_FLAG_PREVENT_WRITES_TO_SOURCE_DISK, _CREATE_VIRTUAL_DISK_FLAG, vdssys/CREATE_VIRTUAL_DISK_FLAG, vdssys/CREATE_VIRTUAL_DISK_FLAG_DO_NOT_COPY_METADATA_FROM_PARENT, vdssys/CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, vdssys/CREATE_VIRTUAL_DISK_FLAG_NONE, vdssys/CREATE_VIRTUAL_DISK_FLAG_PREVENT_WRITES_TO_SOURCE_DISK, vhd.create_virtual_disk_flag, virtdisk/CREATE_VIRTUAL_DISK_FLAG, virtdisk/CREATE_VIRTUAL_DISK_FLAG_DO_NOT_COPY_METADATA_FROM_PARENT, virtdisk/CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, virtdisk/CREATE_VIRTUAL_DISK_FLAG_NONE, virtdisk/CREATE_VIRTUAL_DISK_FLAG_PREVENT_WRITES_TO_SOURCE_DISK
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREATE_VIRTUAL_DISK_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CREATE_VIRTUAL_DISK_FLAG
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: CREATE_VIRTUAL_DISK_FLAG
+req.redist: 
 ---
 
 # _CREATE_VIRTUAL_DISK_FLAG enumeration

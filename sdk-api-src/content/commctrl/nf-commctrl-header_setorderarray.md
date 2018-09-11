@@ -4,17 +4,16 @@ title: Header_SetOrderArray macro
 author: windows-sdk-content
 description: Sets the left-to-right order of header items. You can use this macro or send the HDM_SETORDERARRAY message explicitly.
 old-location: controls\Header_SetOrderArray.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setorderarray.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Header_SetOrderArray, Header_SetOrderArray macro [Windows Controls], _win32_Header_SetOrderArray, _win32_Header_SetOrderArray_cpp, commctrl/Header_SetOrderArray, controls.Header_SetOrderArray, controls._win32_Header_SetOrderArray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Header_SetOrderArray
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Header_SetOrderArray macro

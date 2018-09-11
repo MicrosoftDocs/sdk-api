@@ -4,17 +4,16 @@ title: IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange
 author: windows-sdk-content
 description: Notifies the client that the connection status of the network associated with the NIC has changed.
 old-location: nwifi\idot11adhocinterfacenotificationsink_onconnectionstatuschange.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: a2116e44-e29b-4110-8794-ed161fdb534d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDot11AdHocInterfaceNotificationSink interface [NativeWIFI],OnConnectionStatusChange method, IDot11AdHocInterfaceNotificationSink.OnConnectionStatusChange, IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange, OnConnectionStatusChange, OnConnectionStatusChange method [NativeWIFI], OnConnectionStatusChange method [NativeWIFI],IDot11AdHocInterfaceNotificationSink interface, adhoc/IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange, nwifi.idot11adhocinterfacenotificationsink_onconnectionstatuschange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocInterfaceNotificationSink.OnConnectionStatusChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange

@@ -4,17 +4,16 @@ title: IX509CertificateRequest::put_HashAlgorithm
 author: windows-sdk-content
 description: Specifies and retrieves the object identifier (OID) of the hash algorithm used to sign the certificate request.
 old-location: security\ix509certificaterequest_hashalgorithm_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 9f68ee54-5dea-47bb-8a90-0285d081c9b8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],HashAlgorithm property, IX509CertificateRequest.HashAlgorithm, IX509CertificateRequest.put_HashAlgorithm, IX509CertificateRequest::HashAlgorithm, IX509CertificateRequest::get_HashAlgorithm, IX509CertificateRequest::put_HashAlgorithm, certenroll/IX509CertificateRequest::HashAlgorithm, certenroll/IX509CertificateRequest::get_HashAlgorithm, certenroll/IX509CertificateRequest::put_HashAlgorithm, put_HashAlgorithm, security.ix509certificaterequest_hashalgorithm_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509CertificateRequest.put_HashAlgorithm
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequest::put_HashAlgorithm

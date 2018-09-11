@@ -4,17 +4,16 @@ title: WTSVirtualChannelRead function
 author: windows-sdk-content
 description: Reads data from the server end of a virtual channel.
 old-location: termserv\wtsvirtualchannelread.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 7434e761-303f-496f-81cb-83c199ddec8a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WTSVirtualChannelRead, WTSVirtualChannelRead function [Remote Desktop Services], _win32_wtsvirtualchannelread, termserv.wtsvirtualchannelread, wtsapi32/WTSVirtualChannelRead
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_VIRTUAL_CLASS
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.Dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTSVirtualChannelRead
 product: Windows
 targetos: Windows
-req.lib: Wtsapi32.lib
-req.dll: Wtsapi32.Dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WTSVirtualChannelRead function

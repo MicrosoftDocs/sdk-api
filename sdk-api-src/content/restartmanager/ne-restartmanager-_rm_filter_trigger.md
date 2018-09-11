@@ -4,17 +4,16 @@ title: "_RM_FILTER_TRIGGER"
 author: windows-sdk-content
 description: Describes the restart or shutdown actions for an application or service.
 old-location: rstmgr\rm_filter_trigger.htm
-old-project: rstmgr
+tech.root: RstMgr
 ms.assetid: 1198c52b-f5f5-46e9-878e-39143687d645
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RM_FILTER_TRIGGER, RM_FILTER_TRIGGER enumeration [Restart Mgr], RmFilterTriggerFile, RmFilterTriggerInvalid, RmFilterTriggerProcess, RmFilterTriggerService, _RM_FILTER_TRIGGER, restartmanager/RM_FILTER_TRIGGER, restartmanager/RmFilterTriggerFile, restartmanager/RmFilterTriggerInvalid, restartmanager/RmFilterTriggerProcess, restartmanager/RmFilterTriggerService, rstmgr.rm_filter_trigger
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: restartmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_FILTER_TRIGGER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RM_FILTER_TRIGGER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RM_FILTER_TRIGGER
+req.redist: 
 ---
 
 # _RM_FILTER_TRIGGER enumeration

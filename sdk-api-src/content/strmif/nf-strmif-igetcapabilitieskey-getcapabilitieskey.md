@@ -4,17 +4,16 @@ title: IGetCapabilitiesKey::GetCapabilitiesKey
 author: windows-sdk-content
 description: The GetCapabilitiesKey method gets a registry key that contains capability information for the codec.
 old-location: dshow\igetcapabilitieskey_getcapabilitieskey.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 02c3edfe-9ce1-4d9f-bdd1-79e818b43800
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetCapabilitiesKey, GetCapabilitiesKey method [DirectShow], GetCapabilitiesKey method [DirectShow],IGetCapabilitiesKey interface, IGetCapabilitiesKey interface [DirectShow],GetCapabilitiesKey method, IGetCapabilitiesKey.GetCapabilitiesKey, IGetCapabilitiesKey::GetCapabilitiesKey, IGetCapabilitiesKeyGetCapabiltitiesKey, dshow.igetcapabilitieskey_getcapabilitieskey, strmif/IGetCapabilitiesKey::GetCapabilitiesKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGetCapabilitiesKey.GetCapabilitiesKey
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IGetCapabilitiesKey::GetCapabilitiesKey
@@ -66,7 +64,7 @@ The <b>GetCapabilitiesKey</b> method gets a registry key that contains capabilit
 
 ### -param pHKey
 
-
+TBD
 
 
 

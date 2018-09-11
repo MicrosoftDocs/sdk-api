@@ -4,17 +4,16 @@ title: IRpcChannelBuffer
 author: windows-sdk-content
 description: Marshals data between a COM client proxy and a COM server stub.
 old-location: com\irpcchannelbuffer.htm
-old-project: com
+tech.root: com
 ms.assetid: 1d7d7e1c-a491-4625-97ae-0d4dc5d2fc20
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRpcChannelBuffer, IRpcChannelBuffer interface [COM], IRpcChannelBuffer interface [COM],described, _com_irpcchannelbuffer, com.irpcchannelbuffer, objidlbase/IRpcChannelBuffer
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRpcChannelBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRpcChannelBuffer interface

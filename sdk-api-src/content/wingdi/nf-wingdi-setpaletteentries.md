@@ -4,17 +4,16 @@ title: SetPaletteEntries function
 author: windows-sdk-content
 description: The SetPaletteEntries function sets RGB (red, green, blue) color values and flags in a range of entries in a logical palette.
 old-location: gdi\setpaletteentries.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: df38f482-75ba-4800-8b26-92204c63255e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetPaletteEntries, SetPaletteEntries function [Windows GDI], _win32_SetPaletteEntries, gdi.setpaletteentries, wingdi/SetPaletteEntries
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetPaletteEntries
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetPaletteEntries function

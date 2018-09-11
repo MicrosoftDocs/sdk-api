@@ -4,17 +4,16 @@ title: ITsSbFilterPluginStore::EnumerateProperties
 author: windows-sdk-content
 description: Enumerates a property set.
 old-location: termserv\itssbfilterpluginstore_enumerateproperties.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 0eb489d2-2644-4d34-83a7-132d28a7b871
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EnumerateProperties, EnumerateProperties method [Remote Desktop Services], EnumerateProperties method [Remote Desktop Services],ITsSbFilterPluginStore interface, ITsSbFilterPluginStore interface [Remote Desktop Services],EnumerateProperties method, ITsSbFilterPluginStore.EnumerateProperties, ITsSbFilterPluginStore::EnumerateProperties, sbtsv/ITsSbFilterPluginStore::EnumerateProperties, termserv.itssbfilterpluginstore_enumerateproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbFilterPluginStore.EnumerateProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbFilterPluginStore::EnumerateProperties

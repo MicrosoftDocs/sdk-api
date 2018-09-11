@@ -4,17 +4,16 @@ title: IWMReaderAdvanced4::GetLanguage
 author: windows-sdk-content
 description: The GetLanguage method retrieves information about a language supported by an output. You must specify an output number and a language index, and this method will supply the RFC1766-compliant language string.
 old-location: wmformat\iwmreaderadvanced4_getlanguage.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 2af443f5-941a-466a-8eef-d4742f8e1ae1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetLanguage, GetLanguage method [windows Media Format], GetLanguage method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetLanguage method, IWMReaderAdvanced4.GetLanguage, IWMReaderAdvanced4::GetLanguage, IWMReaderAdvanced4GetLanguage, wmformat.iwmreaderadvanced4_getlanguage, wmsdkidl/IWMReaderAdvanced4::GetLanguage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMReaderAdvanced4.GetLanguage
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderAdvanced4::GetLanguage

@@ -4,17 +4,16 @@ title: SafeArrayUnaccessData function
 author: windows-sdk-content
 description: Decrements the lock count of an array, and invalidates the pointer retrieved by SafeArrayAccessData.
 old-location: automat\safearrayunaccessdata.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 61b482cb-f0a3-4efb-9a68-f373f241e89a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SafeArrayUnaccessData, SafeArrayUnaccessData function [Automation], _oa96_SafeArrayUnaccessData, automat.safearrayunaccessdata, oleauto/SafeArrayUnaccessData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SafeArrayUnaccessData
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SafeArrayUnaccessData function

@@ -4,17 +4,16 @@ title: ICreateWithLocalTransaction
 author: windows-sdk-content
 description: Creates a COM+ object that executes within the scope of the specified local transaction.
 old-location: cos\icreatewithlocaltransaction.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 667ebc77-943c-4cf0-90b4-7c28949f406e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICreateWithLocalTransaction, ICreateWithLocalTransaction interface [COM+], ICreateWithLocalTransaction interface [COM+],described, comsvcs/ICreateWithLocalTransaction, cos.icreatewithlocaltransaction
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICreateWithLocalTransaction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateWithLocalTransaction interface

@@ -4,17 +4,16 @@ title: DRMAcquireIssuanceLicenseTemplate function
 author: windows-sdk-content
 description: Asynchronously retrieves issuance license templates from a server.
 old-location: rm\drmacquireissuancelicensetemplate.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 15f6d38a-d4f2-4af4-8bbc-bc44ac14db0c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DRMAcquireIssuanceLicenseTemplate, DRMAcquireIssuanceLicenseTemplate function [Active Directory Rights Management Services SDK 1.0], DRM_AILT_CANCEL, DRM_AILT_NONSILENT, DRM_AILT_OBTAIN_ALL, msdrm/DRMAcquireIssuanceLicenseTemplate, rm.drmacquireissuancelicensetemplate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_SELECTIONSTYLE
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DRMAcquireIssuanceLicenseTemplate
 product: Windows
 targetos: Windows
-req.lib: Msdrm.lib
-req.dll: Msdrm.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.typenames: 
+req.redist: 
 ---
 
 # DRMAcquireIssuanceLicenseTemplate function

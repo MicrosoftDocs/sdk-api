@@ -4,7 +4,7 @@ title: "_EapUsernamePasswordCredential"
 author: windows-sdk-content
 description: Contains the username and password that is used by the EAP method for authenticating the user.
 old-location: eaphost\eapusernamepasswordcredential.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 61484095-4354-4103-9E21-683002750B26
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EapUsernamePasswordCredential
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapUsernamePasswordCredential
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EapUsernamePasswordCredential
+req.redist: 
 ---
 
 # _EapUsernamePasswordCredential structure

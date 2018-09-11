@@ -4,17 +4,16 @@ title: IPipeDouble::Push
 author: windows-sdk-content
 description: Sends data of the double integer type to the pipe source.
 old-location: com\ipipedouble_push.htm
-old-project: com
+tech.root: com
 ms.assetid: 49c9121f-eb92-42e4-bd30-fe2213d44de9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPipeDouble interface [COM],Push method, IPipeDouble.Push, IPipeDouble::Push, Push, Push method [COM], Push method [COM],IPipeDouble interface, _com_ipipedouble_push, com.ipipedouble_push, objidlbase/IPipeDouble::Push
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPipeDouble.Push
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPipeDouble::Push

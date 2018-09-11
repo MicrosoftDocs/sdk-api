@@ -4,17 +4,16 @@ title: DrvSynchronize function
 author: windows-sdk-content
 description: The DrvSynchronize function informs the driver that GDI needs to access a device-managed surface. This function allows asynchronous drawing operations performed by a device's coprocessor to be coordinated with GDI accesses.
 old-location: display\drvsynchronize.htm
-old-project: display
+tech.root: display
 ms.assetid: ed9b7db3-1409-4aa6-9ee1-9ece53e747a6
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvSynchronize, DrvSynchronize function [Display Devices], ddifncs_dadafaae-d13a-4a52-b179-a8b14a835a24.xml, display.drvsynchronize, winddi/DrvSynchronize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvSynchronize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvSynchronize function

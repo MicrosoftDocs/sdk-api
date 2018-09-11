@@ -4,17 +4,16 @@ title: ITPhone::get_Addresses
 author: windows-sdk-content
 description: The get_Addresses method returns a collection of addresses that the phone can be used on. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_get_addresses.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 823db8d1-e4e3-4cfb-a864-5ad57a44ebc6
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_Addresses method, ITPhone.get_Addresses, ITPhone::get_Addresses, _tapi3_itphone_get_addresses, get_Addresses, get_Addresses method [TAPI 2.2], get_Addresses method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_addresses, tapi3if/ITPhone::get_Addresses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPhone.get_Addresses
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPhone::get_Addresses

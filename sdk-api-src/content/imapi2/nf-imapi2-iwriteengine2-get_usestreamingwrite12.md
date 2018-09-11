@@ -4,17 +4,16 @@ title: IWriteEngine2::get_UseStreamingWrite12
 author: windows-sdk-content
 description: Retrieves a value that indicates if the write operations use the WRITE12 or WRITE10 command.
 old-location: imapi\iwriteengine2_get_usestreamingwrite12.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 28f5673e-73f4-4bec-bdee-49cbd030a0d6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_UseStreamingWrite12 method, IWriteEngine2.get_UseStreamingWrite12, IWriteEngine2::get_UseStreamingWrite12, get_UseStreamingWrite12, get_UseStreamingWrite12 method [IMAPI], get_UseStreamingWrite12 method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_usestreamingwrite12, imapi2/IWriteEngine2::get_UseStreamingWrite12
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWriteEngine2.get_UseStreamingWrite12
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IWriteEngine2::get_UseStreamingWrite12

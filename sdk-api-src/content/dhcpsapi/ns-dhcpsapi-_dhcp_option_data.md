@@ -4,7 +4,7 @@ title: "_DHCP_OPTION_DATA"
 author: windows-sdk-content
 description: The DHCP_OPTION_DATA structure defines a data container for one or more data elements associated with a DHCP option.
 old-location: dhcp\dhcp_option_data.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 6b2e5866-f65f-4ff0-a531-3d07b972f55e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_OPTION_DATA, *LPDHCP_OPTION_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_OPTION_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_OPTION_DATA, *LPDHCP_OPTION_DATA
+req.redist: 
 ---
 
 # _DHCP_OPTION_DATA structure

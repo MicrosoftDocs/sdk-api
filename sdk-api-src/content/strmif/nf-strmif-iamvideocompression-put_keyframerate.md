@@ -4,17 +4,16 @@ title: IAMVideoCompression::put_KeyFrameRate
 author: windows-sdk-content
 description: The put_KeyFrameRate method sets the key-frame rate.
 old-location: dshow\iamvideocompression_put_keyframerate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: dc229333-3524-4228-ab13-a6e9619643fd
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],put_KeyFrameRate method, IAMVideoCompression.put_KeyFrameRate, IAMVideoCompression::put_KeyFrameRate, IAMVideoCompressionput_KeyFrameRate, dshow.iamvideocompression_put_keyframerate, put_KeyFrameRate, put_KeyFrameRate method [DirectShow], put_KeyFrameRate method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::put_KeyFrameRate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMVideoCompression.put_KeyFrameRate
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMVideoCompression::put_KeyFrameRate

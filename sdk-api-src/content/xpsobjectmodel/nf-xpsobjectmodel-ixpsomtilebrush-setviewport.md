@@ -4,17 +4,16 @@ title: IXpsOMTileBrush::SetViewport
 author: windows-sdk-content
 description: Sets the portion of the destination geometry that is covered by a single tile.
 old-location: xps\ixpsomtilebrush_setviewport.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: e4a60f8d-3389-4420-851c-48483acecf0a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetViewport method, IXpsOMTileBrush.SetViewport, IXpsOMTileBrush::SetViewport, SetViewport, SetViewport method [XPS Documents and Packaging], SetViewport method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_setviewport, xpsobjectmodel/IXpsOMTileBrush::SetViewport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMTileBrush.SetViewport
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMTileBrush::SetViewport

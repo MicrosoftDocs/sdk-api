@@ -4,17 +4,16 @@ title: IDCompositionSaturationEffect::SetSaturation(float)
 author: windows-sdk-content
 description: Sets the saturation of the image.
 old-location: directcomp\idcompositionsaturationeffect_setsaturation.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: A2BAE19A-FC9F-4476-9DBB-438FE2923246
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionSaturationEffect interface [DirectComposition],SetSaturation method, IDCompositionSaturationEffect.SetSaturation, IDCompositionSaturationEffect.SetSaturation(float), IDCompositionSaturationEffect::SetSaturation, IDCompositionSaturationEffect::SetSaturation(float), SetSaturation, SetSaturation method [DirectComposition], SetSaturation method [DirectComposition],IDCompositionSaturationEffect interface, dcomp/IDCompositionSaturationEffect::SetSaturation, directcomp.idcompositionsaturationeffect_setsaturation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionSaturationEffect.SetSaturation
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionSaturationEffect::SetSaturation(float)

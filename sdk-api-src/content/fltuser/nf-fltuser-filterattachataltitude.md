@@ -4,17 +4,16 @@ title: FilterAttachAtAltitude function
 author: windows-sdk-content
 description: The FilterAttachAtAltitude function is a debugging support function that attaches a new minifilter instance to a volume at a specified altitude, overriding any settings in the minifilter's setup information (INF) file.
 old-location: ifsk\filterattachataltitude.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7ffbcea4-2047-40a2-9dab-4b91f77c6ce7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: FilterAttachAtAltitude, FilterAttachAtAltitude function [Installable File System Drivers], FltWin32ApiRef_c0493249-98c6-4513-b497-623bf5f25904.xml, fltuser/FilterAttachAtAltitude, ifsk.filterattachataltitude
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterAttachAtAltitude
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterAttachAtAltitude function

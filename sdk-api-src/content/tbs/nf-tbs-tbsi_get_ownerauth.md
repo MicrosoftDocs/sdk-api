@@ -4,17 +4,16 @@ title: Tbsi_Get_OwnerAuth function
 author: windows-sdk-content
 description: Retrieves the owner authorization of the TPM if the information is available in the local registry.
 old-location: tbs\tbsi_get_ownerauth.htm
-old-project: tbs
+tech.root: TBS
 ms.assetid: 9D265AD2-F992-4756-9A2D-03DADB69C7DC
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TBS_OWNERAUTH_TYPE_ADMIN, TBS_OWNERAUTH_TYPE_ENDORSEMENT, TBS_OWNERAUTH_TYPE_ENDORSEMENT_20, TBS_OWNERAUTH_TYPE_FULL, TBS_OWNERAUTH_TYPE_STORAGE_20, TBS_OWNERAUTH_TYPE_USER, Tbsi_Get_OwnerAuth, Tbsi_Get_OwnerAuth function [TBS], tbs.tbsi_get_ownerauth, tbs/Tbsi_Get_OwnerAuth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tbs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Tbs.lib
+req.dll: Tbs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Tbsi_Get_OwnerAuth
 product: Windows
 targetos: Windows
-req.lib: Tbs.lib
-req.dll: Tbs.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Tbsi_Get_OwnerAuth function

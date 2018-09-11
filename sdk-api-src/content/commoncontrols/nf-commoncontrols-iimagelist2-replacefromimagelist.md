@@ -4,17 +4,16 @@ title: IImageList2::ReplaceFromImageList
 author: windows-sdk-content
 description: Replaces an image in one image list with an image from another image list.
 old-location: controls\IImageList2_ReplaceFromImageList.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\replacefromimagelist.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IImageList2 interface [Windows Controls],ReplaceFromImageList method, IImageList2.ReplaceFromImageList, IImageList2::ReplaceFromImageList, ReplaceFromImageList, ReplaceFromImageList method [Windows Controls], ReplaceFromImageList method [Windows Controls],IImageList2 interface, _shell_IImageList2_ReplaceFromImageList, _shell_IImageList2_ReplaceFromImageList_cpp, commoncontrols/IImageList2::ReplaceFromImageList, controls.IImageList2_ReplaceFromImageList, controls._shell_IImageList2_ReplaceFromImageList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IImageList2.ReplaceFromImageList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comctl32.dll (version 6.0 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IImageList2::ReplaceFromImageList

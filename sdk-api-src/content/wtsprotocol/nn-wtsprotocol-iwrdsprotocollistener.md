@@ -4,7 +4,7 @@ title: IWRdsProtocolListener
 author: windows-sdk-content
 description: Exposes methods that request that the protocol start and stop listening for client connection requests.
 old-location: termserv\iwrdsprotocollistener.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 19d3176a-3f47-46c1-8bee-8e0f1d9b466e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWRdsProtocolListener
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWRdsProtocolListener interface

@@ -4,17 +4,16 @@ title: EngGetPrinter function
 author: windows-sdk-content
 description: The EngGetPrinter function retrieves information about the specified printer.
 old-location: display\enggetprinter.htm
-old-project: display
+tech.root: display
 ms.assetid: dd492777-48a2-4fb6-9202-a2af3b632678
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngGetPrinter, EngGetPrinter function [Display Devices], display.enggetprinter, gdifncs_6e95ce51-f1ca-4e44-b26d-b677ace5e297.xml, winddi/EngGetPrinter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngGetPrinter
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngGetPrinter function

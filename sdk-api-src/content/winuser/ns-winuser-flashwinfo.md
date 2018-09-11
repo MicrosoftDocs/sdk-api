@@ -4,17 +4,16 @@ title: FLASHWINFO
 author: windows-sdk-content
 description: Contains the flash status for a window and the number of times the system should flash the window.
 old-location: base\flashwinfo_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: b16636bc-fa77-4eb9-9801-dc2cdf0556e5
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PFLASHWINFO, FLASHWINFO, FLASHWINFO structure, FLASHW_ALL, FLASHW_CAPTION, FLASHW_STOP, FLASHW_TIMER, FLASHW_TIMERNOFG, FLASHW_TRAY, PFLASHWINFO, PFLASHWINFO structure pointer, _win32_flashwinfo_str, base.flashwinfo_str, winuser/FLASHWINFO, winuser/PFLASHWINFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLASHWINFO, *PFLASHWINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLASHWINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: FLASHWINFO, *PFLASHWINFO
+req.redist: 
 ---
 
 # FLASHWINFO structure

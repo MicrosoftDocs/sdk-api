@@ -4,17 +4,16 @@ title: EngDeleteFile function
 author: windows-sdk-content
 description: The EngDeleteFile function deletes a file.
 old-location: display\engdeletefile.htm
-old-project: display
+tech.root: display
 ms.assetid: 2ed030cf-6d26-4bde-8d63-83fd6848ec0d
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngDeleteFile, EngDeleteFile function [Display Devices], display.engdeletefile, gdifncs_58a3395d-8a58-4a8a-b034-5dadc2dfc161.xml, winddi/EngDeleteFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngDeleteFile
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngDeleteFile function

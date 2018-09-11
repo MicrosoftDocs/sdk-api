@@ -4,17 +4,16 @@ title: IWMSInternalAdminNetSource2::GetCredentialsEx
 author: windows-sdk-content
 description: The GetCredentialsEx method retrieves a cached password.
 old-location: wmformat\iwmsinternaladminnetsource2_getcredentialsex.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 5840fe0b-34f6-4e39-b55f-7e07b7795e52
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCredentialsEx, GetCredentialsEx method [windows Media Format], GetCredentialsEx method [windows Media Format],IWMSInternalAdminNetSource2 interface, IWMSInternalAdminNetSource2 interface [windows Media Format],GetCredentialsEx method, IWMSInternalAdminNetSource2.GetCredentialsEx, IWMSInternalAdminNetSource2::GetCredentialsEx, IWMSInternalAdminNetSource2GetCredentialsEx, wmformat.iwmsinternaladminnetsource2_getcredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::GetCredentialsEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETSOURCE_URLCREDPOLICY_SETTINGS
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMSInternalAdminNetSource2.GetCredentialsEx
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMSInternalAdminNetSource2::GetCredentialsEx

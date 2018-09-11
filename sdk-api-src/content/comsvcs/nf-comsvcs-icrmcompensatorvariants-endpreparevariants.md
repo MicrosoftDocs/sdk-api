@@ -4,17 +4,16 @@ title: ICrmCompensatorVariants::EndPrepareVariants
 author: windows-sdk-content
 description: Notifies the CRM Compensator that it has had all the log records available during the prepare phase.
 old-location: cos\icrmcompensatorvariants_endpreparevariants.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 2b9a7e75-5e7c-4f5b-b625-78abb3c5e9b7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EndPrepareVariants, EndPrepareVariants method [COM+], EndPrepareVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],EndPrepareVariants method, ICrmCompensatorVariants.EndPrepareVariants, ICrmCompensatorVariants::EndPrepareVariants, _dtc_ICrmCompensatorVariants_EndPrepareVariants, comsvcs/ICrmCompensatorVariants::EndPrepareVariants, cos.icrmcompensatorvariants_endpreparevariants
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmCompensatorVariants.EndPrepareVariants
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmCompensatorVariants::EndPrepareVariants

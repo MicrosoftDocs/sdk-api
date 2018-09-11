@@ -4,17 +4,16 @@ title: IPropertyStoreCache::SetValueAndState
 author: windows-sdk-content
 description: Sets value and state data for a property key.
 old-location: properties\IPropertyStoreCache_SetValueAndState.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 2f330b24-339f-420b-871f-6f2ac7bc578c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IPropertyStoreCache interface [Windows Properties],SetValueAndState method, IPropertyStoreCache.SetValueAndState, IPropertyStoreCache::SetValueAndState, SetValueAndState, SetValueAndState method [Windows Properties], SetValueAndState method [Windows Properties],IPropertyStoreCache interface, properties.IPropertyStoreCache_SetValueAndState, propsys/IPropertyStoreCache::SetValueAndState, shell.IPropertyStoreCache_SetValueAndState, shell_IPropertyStoreCache_SetValueAndState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyStoreCache.SetValueAndState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyStoreCache::SetValueAndState
@@ -76,7 +74,7 @@ A pointer to a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc828
 
 ### -param state
 
-
+TBD
 
 
 

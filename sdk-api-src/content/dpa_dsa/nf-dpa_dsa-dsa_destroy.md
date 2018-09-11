@@ -4,17 +4,16 @@ title: DSA_Destroy function
 author: windows-sdk-content
 description: Frees a dynamic structure array (DSA).
 old-location: controls\DSA_Destroy.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_destroy.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DSA_Destroy, DSA_Destroy function [Windows Controls], _win32_DSA_Destroy, _win32_DSA_Destroy_cpp, controls.DSA_Destroy, controls._win32_DSA_Destroy, dpa_dsa/DSA_Destroy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+req.lib: Comctl32.lib
+req.dll: ComCtl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DSA_Destroy
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: ComCtl32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DSA_Destroy function

@@ -4,17 +4,16 @@ title: ReadLogRecord function
 author: windows-sdk-content
 description: Initiates a sequence of reads from a specified log sequence number (LSN) in one of three modes, and returns the first of the specified log records and a read context.
 old-location: fs\readlogrecord.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 1c56c47b-d898-4c70-ba70-8978057c66b9
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: ClfsContextForward, ClfsContextPrevious, ClfsContextUndoNext, ReadLogRecord, ReadLogRecord function [Files], clfsw32/ReadLogRecord, fs.readlogrecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ReadLogRecord
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ReadLogRecord function

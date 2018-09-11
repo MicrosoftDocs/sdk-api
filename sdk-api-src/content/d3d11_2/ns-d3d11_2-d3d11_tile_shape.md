@@ -4,7 +4,7 @@ title: D3D11_TILE_SHAPE
 author: windows-sdk-content
 description: Describes the shape of a tile by specifying its dimensions.
 old-location: direct3d11\d3d11_tile_shape.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: B4B9D82C-2890-4CC4-AB5C-026FBD931B4E
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_TILE_SHAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_TILE_SHAPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_TILE_SHAPE
+req.redist: 
 ---
 
 # D3D11_TILE_SHAPE structure

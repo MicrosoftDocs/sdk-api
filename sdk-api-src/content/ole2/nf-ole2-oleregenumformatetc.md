@@ -4,17 +4,16 @@ title: OleRegEnumFormatEtc function
 author: windows-sdk-content
 description: Creates an enumeration object that can be used to enumerate data formats that an OLE object server has registered in the system registry.
 old-location: com\oleregenumformatetc.htm
-old-project: com
+tech.root: com
 ms.assetid: 6caebc68-a136-40f2-92d8-7f8003c18e5c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleRegEnumFormatEtc, OleRegEnumFormatEtc function [COM], _ole_OleRegEnumFormatEtc, com.oleregenumformatetc, ole2/OleRegEnumFormatEtc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OleRegEnumFormatEtc
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleRegEnumFormatEtc function

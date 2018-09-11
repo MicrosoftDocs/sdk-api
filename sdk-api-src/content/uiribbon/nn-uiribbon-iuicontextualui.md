@@ -4,17 +4,16 @@ title: IUIContextualUI
 author: windows-sdk-content
 description: The IUIContextualUI interface is implemented by the Ribbon framework and provides the core functionality for the Context Popup View.
 old-location: windowsribbon\windowsribbon_iuicontextualui.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicontextualui\iuicontextualui.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIContextualUI, IUIContextualUI interface [Windows Ribbon], IUIContextualUI interface [Windows Ribbon],described, scenicintent_IUIContextualUI, uiribbon/IUIContextualUI, windowsribbon.windowsribbon_iuicontextualui
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_VIEWVERB
+req.lib: 
+req.dll: Uiribbon.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIContextualUI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Uiribbon.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUIContextualUI interface

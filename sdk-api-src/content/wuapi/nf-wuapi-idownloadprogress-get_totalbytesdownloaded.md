@@ -4,17 +4,16 @@ title: IDownloadProgress::get_TotalBytesDownloaded
 author: windows-sdk-content
 description: Gets a string that specifies the total amount of data that has been downloaded, in bytes.
 old-location: wua\idownloadprogress_totalbytesdownloaded.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 83d8f7d2-e06d-461a-be45-ebbb448b2480
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDownloadProgress interface [Windows Update Agent],TotalBytesDownloaded property, IDownloadProgress.TotalBytesDownloaded, IDownloadProgress.get_TotalBytesDownloaded, IDownloadProgress::TotalBytesDownloaded, IDownloadProgress::get_TotalBytesDownloaded, TotalBytesDownloaded property [Windows Update Agent], TotalBytesDownloaded property [Windows Update Agent],IDownloadProgress interface, get_TotalBytesDownloaded, wua.idownloadprogress_totalbytesdownloaded, wuapi/IDownloadProgress::TotalBytesDownloaded, wuapi/IDownloadProgress::get_TotalBytesDownloaded
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDownloadProgress.get_TotalBytesDownloaded
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IDownloadProgress::get_TotalBytesDownloaded

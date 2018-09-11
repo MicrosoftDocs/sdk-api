@@ -4,17 +4,16 @@ title: IMFMetadata::SetProperty
 author: windows-sdk-content
 description: Sets the value of a metadata property.
 old-location: mf\imfmetadata_setproperty.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 416a7fba-506c-405d-a230-7e8a1c801209
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 416a7fba-506c-405d-a230-7e8a1c801209, IMFMetadata interface [Media Foundation],SetProperty method, IMFMetadata.SetProperty, IMFMetadata::SetProperty, SetProperty, SetProperty method [Media Foundation], SetProperty method [Media Foundation],IMFMetadata interface, mf.imfmetadata_setproperty, mfidl/IMFMetadata::SetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMetadata.SetProperty
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMetadata::SetProperty

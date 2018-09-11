@@ -4,17 +4,16 @@ title: IMFSinkWriter::AddStream
 author: windows-sdk-content
 description: Adds a stream to the sink writer.
 old-location: mf\imfsinkwriter_addstream.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9f9b1216-e915-4188-bcfd-6c41e1821ec4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: AddStream, AddStream method [Media Foundation], AddStream method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],AddStream method, IMFSinkWriter.AddStream, IMFSinkWriter::AddStream, mf.imfsinkwriter_addstream, mfreadwrite/IMFSinkWriter::AddStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update Supplement for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_SOURCE_READER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSinkWriter.AddStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSinkWriter::AddStream

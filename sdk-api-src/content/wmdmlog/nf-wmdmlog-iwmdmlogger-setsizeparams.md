@@ -4,17 +4,16 @@ title: IWMDMLogger::SetSizeParams
 author: windows-sdk-content
 description: The SetSizeParams method sets the current size parameters for the current log file.
 old-location: wmdm\iwmdmlogger_setsizeparams.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: f602efb8-7b00-4a9d-a61a-06e2f15e9185
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],SetSizeParams method, IWMDMLogger.SetSizeParams, IWMDMLogger::SetSizeParams, IWMDMLoggerSetSizeParams, SetSizeParams, SetSizeParams method [windows Media Device Manager], SetSizeParams method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_setsizeparams, wmdmlog/IWMDMLogger::SetSizeParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmdmlog.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASF_INDEX_IDENTIFIER
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMLogger.SetSizeParams
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMLogger::SetSizeParams

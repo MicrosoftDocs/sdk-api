@@ -4,17 +4,16 @@ title: IColumnData::SetColumnSortData
 author: windows-sdk-content
 description: The IColumnData::SetColumnSortData method enables a snap-in to set the sorted column and sorting direction for columns in a column set.
 old-location: mmc\icolumndata_setcolumnsortdata.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: ece69cce-6861-4795-b1cb-da22d2bdc67a
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IColumnData interface [MMC],SetColumnSortData method, IColumnData.SetColumnSortData, IColumnData::SetColumnSortData, SetColumnSortData, SetColumnSortData method [MMC], SetColumnSortData method [MMC],IColumnData interface, _slate_icolumndata_setcolumnsortdata, mmc.icolumndata_setcolumnsortdata, mmc/IColumnData::SetColumnSortData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IColumnData.SetColumnSortData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IColumnData::SetColumnSortData

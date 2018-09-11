@@ -4,17 +4,16 @@ title: IRunnableObject::LockRunning
 author: windows-sdk-content
 description: Locks an already running object into its running state or unlocks it from its running state.
 old-location: com\irunnableobject_lockrunning.htm
-old-project: com
+tech.root: com
 ms.assetid: ce501785-16ad-4120-abea-41e2d6ca67df
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRunnableObject interface [COM],LockRunning method, IRunnableObject.LockRunning, IRunnableObject::LockRunning, LockRunning, LockRunning method [COM], LockRunning method [COM],IRunnableObject interface, _com_irunnableobject_lockrunning, com.irunnableobject_lockrunning, objidl/IRunnableObject::LockRunning
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRunnableObject.LockRunning
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRunnableObject::LockRunning

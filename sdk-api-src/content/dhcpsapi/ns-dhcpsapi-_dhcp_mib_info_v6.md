@@ -4,7 +4,7 @@ title: "_DHCP_MIB_INFO_V6"
 author: windows-sdk-content
 description: Contains statistics for the DHCPv6 server.
 old-location: dhcp\dhcp_mib_info_v6.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 8b961666-4b55-47b4-be52-81b67c9d1cae
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_MIB_INFO_V6, *LPDHCP_MIB_INFO_V6
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_MIB_INFO_V6
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_MIB_INFO_V6, *LPDHCP_MIB_INFO_V6
+req.redist: 
 ---
 
 # _DHCP_MIB_INFO_V6 structure

@@ -4,17 +4,16 @@ title: ITfThreadMgr2::CreateDocumentMgr
 author: windows-sdk-content
 description: Creates a document manager object.
 old-location: tsf\itfthreadmgr2_createdocumentmgr.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 4B19EA80-9F42-4FFF-AB3D-4D0B5B2174F8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateDocumentMgr, CreateDocumentMgr method [Text Services Framework], CreateDocumentMgr method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],CreateDocumentMgr method, ITfThreadMgr2.CreateDocumentMgr, ITfThreadMgr2::CreateDocumentMgr, msctf/ITfThreadMgr2::CreateDocumentMgr, tsf.itfthreadmgr2_createdocumentmgr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfThreadMgr2.CreateDocumentMgr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ITfThreadMgr2::CreateDocumentMgr

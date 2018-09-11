@@ -4,17 +4,16 @@ title: ICertificateEnrollmentPolicyServerSetup::GetProperty
 author: windows-sdk-content
 description: Retrieves a CEPSetupProperty enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
 old-location: security\icertificateenrollmentpolicyserversetup_getproperty.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 52AD50BB-4146-44FC-BA32-9FC46FFE32E4
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: GetProperty, GetProperty method [Security], GetProperty method [Security],ICertificateEnrollmentPolicyServerSetup interface, ICertificateEnrollmentPolicyServerSetup interface [Security],GetProperty method, ICertificateEnrollmentPolicyServerSetup.GetProperty, ICertificateEnrollmentPolicyServerSetup::GetProperty, casetup/ICertificateEnrollmentPolicyServerSetup::GetProperty, security.icertificateenrollmentpolicyserversetup_getproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertificateEnrollmentPolicyServerSetup.GetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificateEnrollmentPolicyServerSetup::GetProperty

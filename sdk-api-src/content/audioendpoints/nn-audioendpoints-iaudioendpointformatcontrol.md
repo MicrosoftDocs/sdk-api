@@ -4,17 +4,16 @@ title: IAudioEndpointFormatControl
 author: windows-sdk-content
 description: Used for resetting the current audio endpoint device format.
 old-location: coreaudio\iaudioendpointformatcontrol.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 7FF7DCF2-0580-4B50-8EA9-87DB9478B1E8
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioEndpointFormatControl, IAudioEndpointFormatControl interface [Core Audio], IAudioEndpointFormatControl interface [Core Audio],described, audioendpoints/IAudioEndpointFormatControl, coreaudio.iaudioendpointformatcontrol
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioendpoints.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioClientProperties
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioEndpointFormatControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioEndpointFormatControl interface

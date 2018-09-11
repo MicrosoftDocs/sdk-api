@@ -4,17 +4,16 @@ title: UiaGetRootNode function
 author: windows-sdk-content
 description: Retrieves the root UI Automation node.
 old-location: winauto\uiauto_UiaGetRootNodeFunction.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 14296fec-1b03-408c-ba96-9429107df592
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UiaGetRootNode, UiaGetRootNode function [Windows Accessibility], uiauto.uiauto_UiaGetRootNodeFunction, uiauto_UiaGetRootNodeFunction, uiautomationcoreapi/UiaGetRootNode, winauto.uiauto_UiaGetRootNodeFunction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UiaGetRootNode
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaGetRootNode function

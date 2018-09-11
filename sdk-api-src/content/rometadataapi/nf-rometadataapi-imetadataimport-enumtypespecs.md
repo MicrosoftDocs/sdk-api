@@ -4,17 +4,16 @@ title: IMetaDataImport::EnumTypeSpecs
 author: windows-sdk-content
 description: Enumerates TypeSpec tokens defined in the current metadata scope.
 old-location: winrt\imetadataimport_enumtypespecs.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 81b3b750-b9bd-42f1-b49d-134a10493ae5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumTypeSpecs, EnumTypeSpecs method [Windows Runtime], EnumTypeSpecs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumTypeSpecs method, IMetaDataImport.EnumTypeSpecs, IMetaDataImport::EnumTypeSpecs, rometadataapi/IMetaDataImport::EnumTypeSpecs, winrt.imetadataimport_enumtypespecs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.EnumTypeSpecs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::EnumTypeSpecs

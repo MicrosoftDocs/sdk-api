@@ -4,17 +4,16 @@ title: IDirectDrawMediaSample::LockMediaSamplePointer
 author: windows-sdk-content
 description: The LockMediaSamplePointer method locks the surface that the sample represents.
 old-location: dshow\idirectdrawmediasample_lockmediasamplepointer.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f711a82d-7560-43f8-8689-7f2fca77ae64
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDirectDrawMediaSample interface [DirectShow],LockMediaSamplePointer method, IDirectDrawMediaSample.LockMediaSamplePointer, IDirectDrawMediaSample::LockMediaSamplePointer, IDirectDrawMediaSampleLockMediaSamplePointer, LockMediaSamplePointer, LockMediaSamplePointer method [DirectShow], LockMediaSamplePointer method [DirectShow],IDirectDrawMediaSample interface, amstream/IDirectDrawMediaSample::LockMediaSamplePointer, dshow.idirectdrawmediasample_lockmediasamplepointer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirectDrawMediaSample.LockMediaSamplePointer
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawMediaSample::LockMediaSamplePointer

@@ -4,7 +4,7 @@ title: WICNamedWhitePoint
 author: windows-sdk-content
 description: Specifies named white balances for raw images.
 old-location: wic\_wic_codec_wicnamedwhitepoint.htm
-old-project: wic
+tech.root: wic
 ms.assetid: e256a6d6-a035-47c3-a82c-d9aec284de17
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICNamedWhitePoint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICNamedWhitePoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICNamedWhitePoint
+req.redist: 
 ---
 
 # WICNamedWhitePoint enumeration

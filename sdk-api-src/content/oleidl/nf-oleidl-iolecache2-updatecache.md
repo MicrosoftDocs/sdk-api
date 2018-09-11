@@ -4,17 +4,16 @@ title: IOleCache2::UpdateCache
 author: windows-sdk-content
 description: Updates the specified caches. This method is used when the application needs precise control over caching.
 old-location: com\iolecache2_updatecache.htm
-old-project: com
+tech.root: com
 ms.assetid: 67bb0bcf-981a-4b2f-8ab9-2afc0659b2db
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleCache2 interface [COM],UpdateCache method, IOleCache2.UpdateCache, IOleCache2::UpdateCache, UPDFCACHE_ ALLBUTNODATACACHE, UPDFCACHE_ IFBLANKORONSAVECACHE, UPDFCACHE_ALL, UPDFCACHE_IFBLANK, UPDFCACHE_NODATACACHE, UPDFCACHE_NORMALCACHE, UPDFCACHE_ONLYIFBLANK, UPDFCACHE_ONSAVECACHE, UPDFCACHE_ONSTOPCACHE, UpdateCache, UpdateCache method [COM], UpdateCache method [COM],IOleCache2 interface, _ole_iolecache2_updatecache, com.iolecache2_updatecache, oleidl/IOleCache2::UpdateCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleCache2.UpdateCache
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleCache2::UpdateCache

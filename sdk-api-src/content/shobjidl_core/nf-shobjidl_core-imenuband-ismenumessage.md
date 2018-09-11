@@ -4,17 +4,16 @@ title: IMenuBand::IsMenuMessage
 author: windows-sdk-content
 description: A message pump calls this method to see if any messages should be redirected to the Component Object Model (COM) object.
 old-location: shell\IMenuBand_IsMenuMessage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d30a456c-7c09-4250-8509-353c54d017b9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IMenuBand interface [Windows Shell],IsMenuMessage method, IMenuBand.IsMenuMessage, IMenuBand::IsMenuMessage, IsMenuMessage, IsMenuMessage method [Windows Shell], IsMenuMessage method [Windows Shell],IMenuBand interface, _shell_IMenuBand_IsMenuMessage, shell.IMenuBand_IsMenuMessage, shobjidl_core/IMenuBand::IsMenuMessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMenuBand.IsMenuMessage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IMenuBand::IsMenuMessage

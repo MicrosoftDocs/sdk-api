@@ -4,7 +4,7 @@ title: tagHITRANGE
 author: windows-sdk-content
 description: Identifies the range of matching data when query search conditions match indexed data.
 old-location: search\_search_HITRANGE.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\structures\hitrange.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: structuredquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HITRANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HITRANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: HITRANGE
+req.redist: 
 ---
 
 # tagHITRANGE structure

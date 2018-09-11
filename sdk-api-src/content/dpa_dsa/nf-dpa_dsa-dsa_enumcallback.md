@@ -4,17 +4,16 @@ title: DSA_EnumCallback function
 author: windows-sdk-content
 description: Iterates through the dynamic structure array (DSA) and calls pfnCB on each item.
 old-location: controls\DSA_EnumCallback.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_enumcallback.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DSA_EnumCallback, DSA_EnumCallback function [Windows Controls], _shell_DSA_EnumCallback, _shell_DSA_EnumCallback_cpp, controls.DSA_EnumCallback, controls._shell_DSA_EnumCallback, dpa_dsa/DSA_EnumCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+req.lib: 
+req.dll: Comctl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DSA_EnumCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comctl32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DSA_EnumCallback function

@@ -4,17 +4,16 @@ title: ClfsLsnLess function
 author: windows-sdk-content
 description: Determines whether one LSN is less than another LSN. The two LSNs must be from the same stream.
 old-location: fs\lsnless.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 610023f3-6017-480f-9a0c-807e81a50e84
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: ClfsLsnLess, LsnLess, LsnLess function [Files], clfs/LsnLess, fs.lsnless
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_LOG_ARCHIVE_MODE, *PCLFS_LOG_ARCHIVE_MODE
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - LsnLess
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClfsLsnLess function

@@ -4,17 +4,16 @@ title: ICQueryAbout macro
 author: windows-sdk-content
 description: The ICQueryAbout macro queries a video compression driver to determine if it has an About dialog box. You can use this macro or explicitly call the ICM_ABOUT message.
 old-location: multimedia\icqueryabout.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 073f217f-961b-4de2-9430-5ee81379e807
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICQueryAbout, ICQueryAbout macro [Windows Multimedia], _win32_ICQueryAbout, multimedia.icqueryabout, vfw/ICQueryAbout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICQueryAbout
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICQueryAbout macro

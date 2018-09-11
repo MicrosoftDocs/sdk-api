@@ -4,7 +4,7 @@ title: "_AM_ASFWRITERCONFIG_PARAM"
 author: windows-sdk-content
 description: Defines configuration parameters for the WM ASF Writer filter.
 old-location: dshow\_am_asfwriterconfig_param.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: aa274c86-f75d-40ee-8c46-918ccffdfd03
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dshowasf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: DS_DOMAIN_TRUSTSW (Unicode) and DS_DOMAIN_TRUSTSA (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - _AM_ASFWRITERCONFIG_PARAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # _AM_ASFWRITERCONFIG_PARAM enumeration

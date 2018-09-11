@@ -4,17 +4,16 @@ title: ClearCommBreak function
 author: windows-sdk-content
 description: Restores character transmission for a specified communications device and places the transmission line in a nonbreak state.
 old-location: base\clearcommbreak.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 9692242c-e209-4492-ab0b-333f09595597
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ClearCommBreak, ClearCommBreak function, _win32_clearcommbreak, base.clearcommbreak, winbase/ClearCommBreak
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - ClearCommBreak
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ClearCommBreak function

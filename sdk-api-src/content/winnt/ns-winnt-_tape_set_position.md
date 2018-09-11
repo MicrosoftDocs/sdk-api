@@ -4,7 +4,7 @@ title: "_TAPE_SET_POSITION"
 author: windows-sdk-content
 description: Describes how and where to position the tape.
 old-location: backup\tape_set_position_str.htm
-old-project: backup
+tech.root: backup
 ms.assetid: ee5e3f0f-b3dd-49a7-889d-d7b96107dc45
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TAPE_SET_POSITION, *PTAPE_SET_POSITION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TAPE_SET_POSITION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TAPE_SET_POSITION, *PTAPE_SET_POSITION
+req.redist: 
 ---
 
 # _TAPE_SET_POSITION structure

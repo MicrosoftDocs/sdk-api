@@ -4,17 +4,16 @@ title: VARIANT_UserSize64 function
 author: windows-sdk-content
 description: Calculates the wire size of the VARIANT object, and gets its handle and data.
 old-location: automat\variant_usersize64.htm
-old-project: automat
+tech.root: automat
 ms.assetid: a6ae00a6-f126-4550-ae46-96c5ba1aee35
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VARIANT_UserSize64, VARIANT_UserSize64 function [Automation], automat.variant_usersize64, oaidl/VARIANT_UserSize64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VARIANT_UserSize64
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VARIANT_UserSize64 function
@@ -60,7 +58,17 @@ Calculates the wire size of the <a href="https://msdn.microsoft.com/e305240e-9e1
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
 
 TBD
 

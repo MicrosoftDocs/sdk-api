@@ -4,7 +4,7 @@ title: "__MIDL_IWTSSBPlugin_0004"
 author: windows-sdk-content
 description: Contains information about the IP address of a network resource.
 old-location: termserv\wtssbx_ip_address.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 92fe662a-ad31-4ed3-9393-c7d86f97e702
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tssbx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_IP_ADDRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTSSBX_IP_ADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: WTSSBX_IP_ADDRESS
+req.redist: 
 ---
 
 # __MIDL_IWTSSBPlugin_0004 structure

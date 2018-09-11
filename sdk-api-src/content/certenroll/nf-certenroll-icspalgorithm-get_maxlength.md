@@ -4,17 +4,16 @@ title: ICspAlgorithm::get_MaxLength
 author: windows-sdk-content
 description: Retrieves the maximum permitted length for a key.
 old-location: security\icspalgorithm_maxlength_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 516afaa4-0317-4f05-87e7-bd614b428ccb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICspAlgorithm interface [Security],MaxLength property, ICspAlgorithm.MaxLength, ICspAlgorithm.get_MaxLength, ICspAlgorithm::MaxLength, ICspAlgorithm::get_MaxLength, MaxLength property [Security], MaxLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::MaxLength, certenroll/ICspAlgorithm::get_MaxLength, get_MaxLength, security.icspalgorithm_maxlength_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspAlgorithm.get_MaxLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspAlgorithm::get_MaxLength

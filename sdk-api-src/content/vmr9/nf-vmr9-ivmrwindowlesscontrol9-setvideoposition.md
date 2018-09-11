@@ -4,17 +4,16 @@ title: IVMRWindowlessControl9::SetVideoPosition
 author: windows-sdk-content
 description: The SetVideoPosition method sets the source and destination rectangles for the video.
 old-location: dshow\ivmrwindowlesscontrol9_setvideoposition.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9b165b51-c60d-4039-b652-5a5347dec224
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRWindowlessControl9 interface [DirectShow],SetVideoPosition method, IVMRWindowlessControl9.SetVideoPosition, IVMRWindowlessControl9::SetVideoPosition, IVMRWindowlessControl9SetVideoPosition, SetVideoPosition, SetVideoPosition method [DirectShow], SetVideoPosition method [DirectShow],IVMRWindowlessControl9 interface, dshow.ivmrwindowlesscontrol9_setvideoposition, vmr9/IVMRWindowlessControl9::SetVideoPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRWindowlessControl9.SetVideoPosition
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRWindowlessControl9::SetVideoPosition

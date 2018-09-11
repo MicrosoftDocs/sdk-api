@@ -4,17 +4,16 @@ title: IMFMediaEngineWebSupport::ConnectWebAudio
 author: windows-sdk-content
 description: Connects web audio to Media Engine using the specified sample rate.
 old-location: mf\imfmediaenginewebsupport_connectwebaudio.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: E2470C2B-2E55-4B4F-B00F-03ABBB1A896F
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ConnectWebAudio, ConnectWebAudio method [Media Foundation], ConnectWebAudio method [Media Foundation],IMFMediaEngineWebSupport interface, IMFMediaEngineWebSupport interface [Media Foundation],ConnectWebAudio method, IMFMediaEngineWebSupport.ConnectWebAudio, IMFMediaEngineWebSupport::ConnectWebAudio, mf.imfmediaenginewebsupport_connectwebaudio, mfmediaengine/IMFMediaEngineWebSupport::ConnectWebAudio
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineWebSupport.ConnectWebAudio
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineWebSupport::ConnectWebAudio

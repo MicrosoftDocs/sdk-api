@@ -4,17 +4,16 @@ title: VPWATERMARKFLAGS
 author: windows-sdk-content
 description: Specifies watermark flags. Used by IVisualProperties::SetWatermark.
 old-location: shell\VPWATERMARKFLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e54db88e-c334-442b-8ab5-6004176aab41
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: VPWATERMARKFLAGS, VPWATERMARKFLAGS enumeration [Windows Shell], VPWF_ALPHABLEND, VPWF_DEFAULT, _shell_VPWATERMARKFLAGS, shell.VPWATERMARKFLAGS, shobjidl/VPWATERMARKFLAGS, shobjidl/VPWF_ALPHABLEND, shobjidl/VPWF_DEFAULT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VPWATERMARKFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: VPWATERMARKFLAGS
+req.redist: 
 ---
 
 # VPWATERMARKFLAGS enumeration

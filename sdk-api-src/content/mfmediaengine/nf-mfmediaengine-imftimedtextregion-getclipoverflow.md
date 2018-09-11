@@ -4,17 +4,16 @@ title: IMFTimedTextRegion::GetClipOverflow
 author: windows-sdk-content
 description: Determines whether a clip of text overflowed the region.
 old-location: mf\imftimedtextregion_getclipoverflow.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: F48D4F1C-E00C-40BE-B292-B92C5B214F56
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetClipOverflow, GetClipOverflow method [Media Foundation], GetClipOverflow method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetClipOverflow method, IMFTimedTextRegion.GetClipOverflow, IMFTimedTextRegion::GetClipOverflow, mf.imftimedtextregion_getclipoverflow, mfmediaengine/IMFTimedTextRegion::GetClipOverflow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextRegion.GetClipOverflow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextRegion::GetClipOverflow
@@ -62,7 +60,7 @@ Determines whether a clip of text overflowed the region.
 
 ### -param clipOverflow
 
-
+TBD
 
 
 

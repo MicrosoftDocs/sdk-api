@@ -4,17 +4,16 @@ title: "_OCSP_BASIC_RESPONSE_ENTRY"
 author: windows-sdk-content
 description: Contains the current certificate status for a single certificate.
 old-location: security\ocsp_basic_response_entry.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: c22f25fd-bbee-45de-9ca0-064b159abb7c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*POCSP_BASIC_RESPONSE_ENTRY, OCSP_BASIC_GOOD_CERT_STATUS, OCSP_BASIC_RESPONSE_ENTRY, OCSP_BASIC_RESPONSE_ENTRY structure [Security], OCSP_BASIC_REVOKED_CERT_STATUS, OCSP_BASIC_UNKNOWN_CERT_STATUS, POCSP_BASIC_RESPONSE_ENTRY, POCSP_BASIC_RESPONSE_ENTRY structure pointer [Security], _OCSP_BASIC_RESPONSE_ENTRY, security.ocsp_basic_response_entry, wincrypt/OCSP_BASIC_RESPONSE_ENTRY, wincrypt/POCSP_BASIC_RESPONSE_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OCSP_BASIC_RESPONSE_ENTRY, *POCSP_BASIC_RESPONSE_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OCSP_BASIC_RESPONSE_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: OCSP_BASIC_RESPONSE_ENTRY, *POCSP_BASIC_RESPONSE_ENTRY
+req.redist: 
 ---
 
 # _OCSP_BASIC_RESPONSE_ENTRY structure

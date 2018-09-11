@@ -4,7 +4,7 @@ title: "_MF_OPM_CGMSA_PROTECTION_LEVEL"
 author: windows-sdk-content
 description: Defines protection levels for MFPROTECTION_CGMSA.
 old-location: mf\mf_opm_cgmsa_protection_level.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: EEFE04F7-E878-4F09-B973-B0FD3E9431AA
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_OPM_CGMSA_PROTECTION_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_OPM_CGMSA_PROTECTION_LEVEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_OPM_CGMSA_PROTECTION_LEVEL
+req.redist: 
 ---
 
 # _MF_OPM_CGMSA_PROTECTION_LEVEL enumeration

@@ -4,17 +4,16 @@ title: IInkEdit::put_RecognitionTimeout
 author: windows-sdk-content
 description: Gets or sets the length of time, in milliseconds, between the last IInkStrokeDisp object collected and the beginning of text recognition.
 old-location: tablet\inkedit_recotimeout.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: e1171aa3-841f-433e-88b8-e3fc63129aeb
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkEdit interface [Tablet PC],RecognitionTimeout property, IInkEdit.RecognitionTimeout, IInkEdit.put_RecognitionTimeout, IInkEdit::RecognitionTimeout, IInkEdit::get_RecognitionTimeout, IInkEdit::put_RecognitionTimeout, InkEdit.get_RecognitionTimeout, InkEdit.put_RecognitionTimeout, RecognitionTimeout property [Tablet PC], RecognitionTimeout property [Tablet PC],IInkEdit interface, e1171aa3-841f-433e-88b8-e3fc63129aeb, get_RecognitionTimeout, inked/IInkEdit::RecognitionTimeout, inked/IInkEdit::get_RecognitionTimeout, inked/IInkEdit::put_RecognitionTimeout, put_RecognitionTimeout, tablet.inkedit_recotimeout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.put_RecognitionTimeout
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::put_RecognitionTimeout

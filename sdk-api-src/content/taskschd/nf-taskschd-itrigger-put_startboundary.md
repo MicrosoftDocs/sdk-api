@@ -4,17 +4,16 @@ title: ITrigger::put_StartBoundary
 author: windows-sdk-content
 description: Gets or sets the date and time when the trigger is activated.
 old-location: taskschd\itrigger_startboundary.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 749101ae-3db6-44ec-9113-95282c86c3c0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITrigger interface [Task Scheduler],StartBoundary property, ITrigger.StartBoundary, ITrigger.put_StartBoundary, ITrigger::StartBoundary, ITrigger::get_StartBoundary, ITrigger::put_StartBoundary, StartBoundary property [Task Scheduler], StartBoundary property [Task Scheduler],ITrigger interface, put_StartBoundary, taskschd.itrigger_startboundary, taskschd/ITrigger::StartBoundary, taskschd/ITrigger::get_StartBoundary, taskschd/ITrigger::put_StartBoundary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITrigger.put_StartBoundary
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITrigger::put_StartBoundary

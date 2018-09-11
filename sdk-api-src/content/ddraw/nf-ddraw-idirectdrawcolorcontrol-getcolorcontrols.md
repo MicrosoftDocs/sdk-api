@@ -4,17 +4,16 @@ title: IDirectDrawColorControl::GetColorControls
 author: windows-sdk-content
 description: Retrieves the current color-control settings that are associated with an overlay or a primary surface.
 old-location: directdraw\idirectdrawcolorcontrol_getcolorcontrols.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 16ac7bef-e88c-47da-8db9-9e6258a381a0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetColorControls, GetColorControls method [DirectDraw], GetColorControls method [DirectDraw],IDirectDrawColorControl interface, IDirectDrawColorControl interface [DirectDraw],GetColorControls method, IDirectDrawColorControl.GetColorControls, IDirectDrawColorControl::GetColorControls, ddraw/IDirectDrawColorControl::GetColorControls, directdraw.idirectdrawcolorcontrol_getcolorcontrols
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawColorControl.GetColorControls
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawColorControl::GetColorControls

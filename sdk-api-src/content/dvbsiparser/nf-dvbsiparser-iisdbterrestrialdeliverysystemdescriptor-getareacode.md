@@ -4,17 +4,16 @@ title: IIsdbTerrestrialDeliverySystemDescriptor::GetAreaCode
 author: windows-sdk-content
 description: Gets the service area code from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getareacode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 14ba763d-c21c-48c1-b5d9-d29cc1108a58
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetAreaCode, GetAreaCode method [Microsoft TV Technologies], GetAreaCode method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetAreaCode method, IIsdbTerrestrialDeliverySystemDescriptor.GetAreaCode, IIsdbTerrestrialDeliverySystemDescriptor::GetAreaCode, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetAreaCode, mstv.iisdbterrestrialdeliverysystemdescriptor_getareacode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbTerrestrialDeliverySystemDescriptor.GetAreaCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbTerrestrialDeliverySystemDescriptor::GetAreaCode

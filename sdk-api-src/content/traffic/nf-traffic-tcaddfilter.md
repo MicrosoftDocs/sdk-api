@@ -4,17 +4,16 @@ title: TcAddFilter function
 author: windows-sdk-content
 description: The TcAddFilter function associates a new filter with an existing flow that allows packets matching the filter to be directed to the associated flow.
 old-location: qos\tcaddfilter.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: c6d7c346-c353-4224-a8b5-56910e447902
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TcAddFilter, TcAddFilter function [QOS], _gqos_tcaddfilter, qos.tcaddfilter, traffic/TcAddFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: Traffic.lib
+req.dll: Traffic.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TcAddFilter
 product: Windows
 targetos: Windows
-req.lib: Traffic.lib
-req.dll: Traffic.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TcAddFilter function

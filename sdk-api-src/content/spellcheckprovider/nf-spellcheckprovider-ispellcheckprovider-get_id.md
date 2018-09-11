@@ -4,17 +4,16 @@ title: ISpellCheckProvider::get_Id
 author: windows-sdk-content
 description: Gets the identifier for this spell checker engine.
 old-location: intl\ispellcheckprovider_id.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 4FB41CF0-1F08-42F8-86A7-F38FE740F436
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],Id property, ISpellCheckProvider.Id, ISpellCheckProvider.get_Id, ISpellCheckProvider::Id, ISpellCheckProvider::get_Id, Id property [Internationalization for Windows Applications], Id property [Internationalization for Windows Applications],ISpellCheckProvider interface, get_Id, intl.ispellcheckprovider_id, spellcheckprovider/ISpellCheckProvider::Id, spellcheckprovider/ISpellCheckProvider::get_Id
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheckprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISpellCheckProvider.get_Id
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpellCheckProvider::get_Id

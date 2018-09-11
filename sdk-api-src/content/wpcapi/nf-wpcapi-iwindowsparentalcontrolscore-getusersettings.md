@@ -4,17 +4,16 @@ title: IWindowsParentalControlsCore::GetUserSettings
 author: windows-sdk-content
 description: Retrieves a pointer to an interface for general settings for the specified user.
 old-location: parcon\iwindowsparentalcontrols_getusersettings.htm
-old-project: parcon
+tech.root: parcon
 ms.assetid: 92c7a138-10b8-4bdf-afea-985e203e04e4
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetUserSettings, GetUserSettings method, GetUserSettings method,IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,GetUserSettings method, IWindowsParentalControlsCore.GetUserSettings, IWindowsParentalControlsCore::GetUserSettings, parcon.iwindowsparentalcontrols_getusersettings, wpcapi/IWindowsParentalControlsCore::GetUserSettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWindowsParentalControlsCore.GetUserSettings
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowsParentalControlsCore::GetUserSettings

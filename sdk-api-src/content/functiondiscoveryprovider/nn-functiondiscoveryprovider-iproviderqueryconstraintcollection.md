@@ -4,7 +4,7 @@ title: IProviderQueryConstraintCollection
 author: windows-sdk-content
 description: This interface is accessible to the provider through the IFunctionDiscoveryProviderQuery::GetQueryConstraints method.
 old-location: ncd\iproviderqueryconstraintcollection.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 4d8ff5b9-ec4a-4ec6-b133-3d315f9c017b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PropertyConstraint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProviderQueryConstraintCollection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IProviderQueryConstraintCollection interface

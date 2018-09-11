@@ -4,17 +4,16 @@ title: DwmRegisterThumbnail function
 author: windows-sdk-content
 description: Creates a Desktop Window Manager (DWM) thumbnail relationship between the destination and source windows.
 old-location: dwm\dwmregisterthumbnail.htm
-old-project: dwm
+tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmregisterthumbnail.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DwmRegisterThumbnail, DwmRegisterThumbnail function [Desktop Window Manager], _udwm_dwmregisterthumbnail, _udwm_dwmregisterthumbnail_cpp, dwm.dwmregisterthumbnail, dwmapi/DwmRegisterThumbnail, winui._udwm_dwmregisterthumbnail
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwmapi.lib
+req.dll: Dwmapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DwmRegisterThumbnail
 product: Windows
 targetos: Windows
-req.lib: Dwmapi.lib
-req.dll: Dwmapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DwmRegisterThumbnail function

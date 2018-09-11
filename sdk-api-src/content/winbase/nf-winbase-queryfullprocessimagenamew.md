@@ -4,17 +4,16 @@ title: QueryFullProcessImageNameW function
 author: windows-sdk-content
 description: Retrieves the full name of the executable image for the specified process.
 old-location: base\queryfullprocessimagename.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 49a9d1aa-30f3-45ea-a4ec-9f55df692b8b
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: PROCESS_NAME_NATIVE, QueryFullProcessImageName, QueryFullProcessImageName function, QueryFullProcessImageNameA, QueryFullProcessImageNameW, base.queryfullprocessimagename, winbase/QueryFullProcessImageName, winbase/QueryFullProcessImageNameA, winbase/QueryFullProcessImageNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - QueryFullProcessImageNameW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # QueryFullProcessImageNameW function

@@ -4,17 +4,16 @@ title: IEnumSyncMgrConflict::Reset
 author: windows-sdk-content
 description: Resets the current position in the enumeration to zero.
 old-location: shell\IEnumSyncMgrConflict_Reset.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 58dece75-8fc3-42ae-89c8-407ebeaa7efb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IEnumSyncMgrConflict interface [Windows Shell],Reset method, IEnumSyncMgrConflict.Reset, IEnumSyncMgrConflict::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumSyncMgrConflict interface, _shell_IEnumSyncMgrConflict_Reset, shell.IEnumSyncMgrConflict_Reset, syncmgr/IEnumSyncMgrConflict::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumSyncMgrConflict.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumSyncMgrConflict::Reset

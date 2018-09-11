@@ -4,17 +4,16 @@ title: IUIAutomationLegacyIAccessiblePattern::SetValue
 author: windows-sdk-content
 description: Sets the Microsoft Active Accessibility value property for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: c5891bb3-e727-430c-a4d4-5c59750b01ce
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],SetValue method, IUIAutomationLegacyIAccessiblePattern.SetValue, IUIAutomationLegacyIAccessiblePattern::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue, uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::SetValue, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationLegacyIAccessiblePattern.SetValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::SetValue

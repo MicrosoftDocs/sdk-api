@@ -4,17 +4,16 @@ title: IDiscMasterProgressEvents::NotifyAddProgress
 author: windows-sdk-content
 description: Notifies an application of its progress in response to calls to IRedbookDiscMaster::AddAudioTrackBlocks or IJolietDiscMaster::AddData. Notifications are sent for the first and last steps, and at points in between.
 old-location: imapi\idiscmasterprogressevents_notifyaddprogress.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: d367b789-430e-48f5-9e50-5d6ffb9d7ebc
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyAddProgress method, IDiscMasterProgressEvents.NotifyAddProgress, IDiscMasterProgressEvents::NotifyAddProgress, NotifyAddProgress, NotifyAddProgress method [IMAPI], NotifyAddProgress method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyaddprogress, base.idiscmasterprogressevents_notifyaddprogress, imapi.idiscmasterprogressevents_notifyaddprogress, imapi/IDiscMasterProgressEvents::NotifyAddProgress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscMasterProgressEvents.NotifyAddProgress
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscMasterProgressEvents::NotifyAddProgress

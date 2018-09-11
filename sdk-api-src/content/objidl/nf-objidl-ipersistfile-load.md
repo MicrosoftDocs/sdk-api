@@ -4,17 +4,16 @@ title: IPersistFile::Load
 author: windows-sdk-content
 description: Opens the specified file and initializes an object from the file contents.
 old-location: com\ipersistfile_load.htm
-old-project: com
+tech.root: com
 ms.assetid: 8391aa5c-fe6e-4b03-9eef-7958f75910a5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPersistFile interface [COM],Load method, IPersistFile.Load, IPersistFile::Load, Load, Load method [COM], Load method [COM],IPersistFile interface, _com_ipersistfile_load, com.ipersistfile_load, objidl/IPersistFile::Load
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistFile.Load
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistFile::Load

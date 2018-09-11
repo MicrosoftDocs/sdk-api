@@ -4,17 +4,16 @@ title: CM_Get_Depth function
 author: windows-sdk-content
 description: The CM_Get_Depth function is used to obtain the depth of a specified device node (devnode) within the local machine's device tree.
 old-location: devinst\cm_get_depth.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 4ea0a722-6d44-4690-a2e5-cb39e3fdeb1f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Get_Depth, CM_Get_Depth function [Device and Driver Installation], cfgmgr32/CM_Get_Depth, cfgmgrfn_5b045e68-ae42-40ff-a265-693134c95c26.xml, devinst.cm_get_depth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
+req.dll: CfgMgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CM_Get_Depth
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
-req.dll: CfgMgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Get_Depth function

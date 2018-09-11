@@ -4,7 +4,7 @@ title: IGetFrame
 author: windows-sdk-content
 description: The IGetFrame interface supports extracting, decompressing, and displaying individual frames from an open stream.
 old-location: multimedia\igetframe.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: d72349bc-5e7c-4c60-b8e0-0524d02c0583
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGetFrame
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Msvfw32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IGetFrame interface

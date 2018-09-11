@@ -4,17 +4,16 @@ title: ID3D11InfoQueue::GetRetrievalFilterStackSize
 author: windows-sdk-content
 description: Get the size of the retrieval-filter stack in bytes.
 old-location: direct3d11\id3d11infoqueue_getretrievalfilterstacksize.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: c6a50310-5c0e-450d-8ee0-48cd9531b22d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 9f3ac790-1077-265b-3ff1-a7b8249fe6ae, GetRetrievalFilterStackSize, GetRetrievalFilterStackSize method [Direct3D 11], GetRetrievalFilterStackSize method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetRetrievalFilterStackSize method, ID3D11InfoQueue.GetRetrievalFilterStackSize, ID3D11InfoQueue::GetRetrievalFilterStackSize, d3d11sdklayers/ID3D11InfoQueue::GetRetrievalFilterStackSize, direct3d11.id3d11infoqueue_getretrievalfilterstacksize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11InfoQueue.GetRetrievalFilterStackSize
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11InfoQueue::GetRetrievalFilterStackSize

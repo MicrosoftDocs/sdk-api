@@ -4,17 +4,16 @@ title: IPropertyPageSite::GetLocaleID
 author: windows-sdk-content
 description: Retrieves the locale identifier (an LCID) that a property page can use to adjust its locale-specific settings.
 old-location: com\ipropertypagesite_getlocaleid.htm
-old-project: com
+tech.root: com
 ms.assetid: d569346d-4a40-42a4-ac8e-539588c4dd66
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetLocaleID, GetLocaleID method [COM], GetLocaleID method [COM],IPropertyPageSite interface, IPropertyPageSite interface [COM],GetLocaleID method, IPropertyPageSite.GetLocaleID, IPropertyPageSite::GetLocaleID, _ctrl_ipropertypagesite_getlocaleid, com.ipropertypagesite_getlocaleid, ocidl/IPropertyPageSite::GetLocaleID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyPageSite.GetLocaleID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyPageSite::GetLocaleID

@@ -4,17 +4,16 @@ title: ITraceDataProviderCollection::CreateTraceDataProvider
 author: windows-sdk-content
 description: Creates a trace data provider object.
 old-location: pla\itracedataprovidercollection_createtracedataprovider.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 234de4d8-896f-462d-8785-8b768697bf2e
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: CreateTraceDataProvider, CreateTraceDataProvider method [PLA], CreateTraceDataProvider method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],CreateTraceDataProvider method, ITraceDataProviderCollection.CreateTraceDataProvider, ITraceDataProviderCollection::CreateTraceDataProvider, pla.itracedataprovidercollection_createtracedataprovider, pla/ITraceDataProviderCollection::CreateTraceDataProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITraceDataProviderCollection.CreateTraceDataProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataProviderCollection::CreateTraceDataProvider

@@ -4,7 +4,7 @@ title: "_DDOPENVPCAPTUREDEVICEIN"
 author: windows-sdk-content
 description: The DDOPENVPCAPTUREDEVICEIN structure contains the video port extensions (VPE) capture information.
 old-location: display\ddopenvpcapturedevicein.htm
-old-project: display
+tech.root: display
 ms.assetid: 75a2eaf7-a40f-4554-8dcf-f786d5771d43
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDOPENVPCAPTUREDEVICEIN, *LPDDOPENVPCAPTUREDEVICEIN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDOPENVPCAPTUREDEVICEIN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDOPENVPCAPTUREDEVICEIN, *LPDDOPENVPCAPTUREDEVICEIN
+req.redist: 
 ---
 
 # _DDOPENVPCAPTUREDEVICEIN structure

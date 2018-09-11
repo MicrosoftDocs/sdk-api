@@ -4,7 +4,7 @@ title: IXMLHTTPRequest3
 author: windows-sdk-content
 description: Provides the methods and properties needed to configure and send HTTP requests and use callbacks to receive notifications during HTTP response processing.
 old-location: ixhr2\ixmlhttprequest3.htm
-old-project: ixhr2
+tech.root: ixhr2
 ms.assetid: 66af3f84-585c-441e-b9be-4ec188d72a19
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msxml6.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XHR_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXMLHTTPRequest3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IXMLHTTPRequest3 interface

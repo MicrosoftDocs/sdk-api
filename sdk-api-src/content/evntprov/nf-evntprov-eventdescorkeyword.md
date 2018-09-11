@@ -4,17 +4,16 @@ title: EventDescOrKeyword function
 author: windows-sdk-content
 description: Adds another keyword to the event descriptor.
 old-location: etw\eventdescorkeyword_func.htm
-old-project: etw
+tech.root: etw
 ms.assetid: ad5e06cf-e2fa-4696-9521-61ff012b9204
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: EventDescOrKeyword, EventDescOrKeyword function [ETW], base.eventdescorkeyword_func, etw.eventdescorkeyword_func, evntprov/EventDescOrKeyword
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_INFO_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EventDescOrKeyword
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EventDescOrKeyword function

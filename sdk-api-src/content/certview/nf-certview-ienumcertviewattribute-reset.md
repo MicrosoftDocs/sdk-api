@@ -4,17 +4,16 @@ title: IEnumCERTVIEWATTRIBUTE::Reset
 author: windows-sdk-content
 description: Moves to the beginning of the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_reset.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 1f5b8ee0-2820-481b-8836-b2926aec0933
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CEnumCERTVIEWATTRIBUTE object [Security],Reset method, IEnumCERTVIEWATTRIBUTE interface [Security],Reset method, IEnumCERTVIEWATTRIBUTE.Reset, IEnumCERTVIEWATTRIBUTE::Reset, Reset, Reset method [Security], Reset method [Security],CEnumCERTVIEWATTRIBUTE object, Reset method [Security],IEnumCERTVIEWATTRIBUTE interface, _certsrv_ienumcertviewattribute_reset, certview/IEnumCERTVIEWATTRIBUTE::Reset, security.ienumcertviewattribute_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CEnumCERTVIEWATTRIBUTE.Reset
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumCERTVIEWATTRIBUTE::Reset

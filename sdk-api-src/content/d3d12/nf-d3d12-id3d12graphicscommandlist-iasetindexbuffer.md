@@ -4,17 +4,16 @@ title: ID3D12GraphicsCommandList::IASetIndexBuffer
 author: windows-sdk-content
 description: Sets the view for the index buffer.
 old-location: direct3d12\id3d12graphicscommandlist_iasetindexbuffer.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: EB776EC7-42F2-47D3-A1FA-771EC6C4E3AB
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IASetIndexBuffer, IASetIndexBuffer method, IASetIndexBuffer method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,IASetIndexBuffer method, ID3D12GraphicsCommandList.IASetIndexBuffer, ID3D12GraphicsCommandList::IASetIndexBuffer, d3d12/ID3D12GraphicsCommandList::IASetIndexBuffer, direct3d12.id3d12graphicscommandlist_iasetindexbuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12GraphicsCommandList.IASetIndexBuffer
 product: Windows
 targetos: Windows
-req.lib: D3d12.lib
-req.dll: D3d12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12GraphicsCommandList::IASetIndexBuffer

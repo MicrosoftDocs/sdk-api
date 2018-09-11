@@ -4,17 +4,16 @@ title: "_EVT_PUBLISHER_METADATA_PROPERTY_ID"
 author: windows-sdk-content
 description: Defines the identifiers that identify the metadata properties of a provider.
 old-location: wes\evt_publisher_metadata_property_id.htm
-old-project: wes
+tech.root: WES
 ms.assetid: 10f4917d-68a1-4e90-ad7f-6bc19471ec38
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EVT_PUBLISHER_METADATA_PROPERTY_ID, EVT_PUBLISHER_METADATA_PROPERTY_ID enumeration [EventLog], EvtPublisherMetadataChannelReferenceFlags, EvtPublisherMetadataChannelReferenceID, EvtPublisherMetadataChannelReferenceIndex, EvtPublisherMetadataChannelReferenceMessageID, EvtPublisherMetadataChannelReferencePath, EvtPublisherMetadataChannelReferences, EvtPublisherMetadataHelpLink, EvtPublisherMetadataKeywordMessageID, EvtPublisherMetadataKeywordName, EvtPublisherMetadataKeywordValue, EvtPublisherMetadataKeywords, EvtPublisherMetadataLevelMessageID, EvtPublisherMetadataLevelName, EvtPublisherMetadataLevelValue, EvtPublisherMetadataLevels, EvtPublisherMetadataMessageFilePath, EvtPublisherMetadataOpcodeMessageID, EvtPublisherMetadataOpcodeName, EvtPublisherMetadataOpcodeValue, EvtPublisherMetadataOpcodes, EvtPublisherMetadataParameterFilePath, EvtPublisherMetadataPropertyIdEND, EvtPublisherMetadataPublisherGuid, EvtPublisherMetadataPublisherMessageID, EvtPublisherMetadataResourceFilePath, EvtPublisherMetadataTaskEventGuid, EvtPublisherMetadataTaskMessageID, EvtPublisherMetadataTaskName, EvtPublisherMetadataTaskValue, EvtPublisherMetadataTasks, _EVT_PUBLISHER_METADATA_PROPERTY_ID, wes.evt_publisher_metadata_property_id, winevt/EVT_PUBLISHER_METADATA_PROPERTY_ID, winevt/EvtPublisherMetadataChannelReferenceFlags, winevt/EvtPublisherMetadataChannelReferenceID, winevt/EvtPublisherMetadataChannelReferenceIndex, winevt/EvtPublisherMetadataChannelReferenceMessageID, winevt/EvtPublisherMetadataChannelReferencePath, winevt/EvtPublisherMetadataChannelReferences, winevt/EvtPublisherMetadataHelpLink, winevt/EvtPublisherMetadataKeywordMessageID, winevt/EvtPublisherMetadataKeywordName, winevt/EvtPublisherMetadataKeywordValue, winevt/EvtPublisherMetadataKeywords, winevt/EvtPublisherMetadataLevelMessageID, winevt/EvtPublisherMetadataLevelName, winevt/EvtPublisherMetadataLevelValue, winevt/EvtPublisherMetadataLevels, winevt/EvtPublisherMetadataMessageFilePath, winevt/EvtPublisherMetadataOpcodeMessageID, winevt/EvtPublisherMetadataOpcodeName, winevt/EvtPublisherMetadataOpcodeValue, winevt/EvtPublisherMetadataOpcodes, winevt/EvtPublisherMetadataParameterFilePath, winevt/EvtPublisherMetadataPropertyIdEND, winevt/EvtPublisherMetadataPublisherGuid, winevt/EvtPublisherMetadataPublisherMessageID, winevt/EvtPublisherMetadataResourceFilePath, winevt/EvtPublisherMetadataTaskEventGuid, winevt/EvtPublisherMetadataTaskMessageID, winevt/EvtPublisherMetadataTaskName, winevt/EvtPublisherMetadataTaskValue, winevt/EvtPublisherMetadataTasks
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_PUBLISHER_METADATA_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_PUBLISHER_METADATA_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_PUBLISHER_METADATA_PROPERTY_ID
+req.redist: 
 ---
 
 # _EVT_PUBLISHER_METADATA_PROPERTY_ID enumeration

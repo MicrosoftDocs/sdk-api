@@ -4,17 +4,16 @@ title: IDrawVideoImage::DrawVideoImageDraw
 author: windows-sdk-content
 description: Note  This interface has been deprecated. New applications should not use it. The DrawVideoImageDraw method draws the specified source rectangle to the specified destination rectangle in the specified GDI device context.
 old-location: dshow\idrawvideoimage_drawvideoimagedraw.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: cecc3ae4-f1fa-437e-b967-c54fca10b27c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: DrawVideoImageDraw, DrawVideoImageDraw method [DirectShow], DrawVideoImageDraw method [DirectShow],IDrawVideoImage interface, IDrawVideoImage interface [DirectShow],DrawVideoImageDraw method, IDrawVideoImage.DrawVideoImageDraw, IDrawVideoImage::DrawVideoImageDraw, IDrawVideoImageDrawVideoImageDraw, dshow.idrawvideoimage_drawvideoimagedraw, strmif/IDrawVideoImage::DrawVideoImageDraw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDrawVideoImage.DrawVideoImageDraw
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDrawVideoImage::DrawVideoImageDraw

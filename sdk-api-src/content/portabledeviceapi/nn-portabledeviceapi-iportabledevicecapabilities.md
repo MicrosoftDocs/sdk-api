@@ -4,17 +4,16 @@ title: IPortableDeviceCapabilities
 author: windows-sdk-content
 description: The IPortableDeviceCapabilities interface a variety of device capabilities, including supported formats, commands, and functional objects. You can retrieve this interface from a device by calling IPortableDevice::Capabilities.
 old-location: wpdsdk\iportabledevicecapabilities.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: c292a509-f202-4136-bbf7-b4e82ef2b936
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPortableDeviceCapabilities, IPortableDeviceCapabilities interface [Windows Portable Devices SDK], IPortableDeviceCapabilities interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceCapabilities, wpdsdk.iportabledevicecapabilities
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPortableDeviceCapabilities
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceCapabilities interface

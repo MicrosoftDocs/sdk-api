@@ -4,7 +4,7 @@ title: "_DFS_INFO_4"
 author: windows-sdk-content
 description: Contains information about a Distributed File System (DFS) root or link. This structure contains the name, status, GUID, time-out, number of targets, and information about each target of the root or link.
 old-location: dfs\dfs_info_4_str.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: 0b255be8-b719-4f40-9051-7e8a1bffa0e0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_INFO_4, *PDFS_INFO_4, *LPDFS_INFO_4
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DFS_INFO_4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DFS_INFO_4, *PDFS_INFO_4, *LPDFS_INFO_4
+req.redist: 
 ---
 
 # _DFS_INFO_4 structure

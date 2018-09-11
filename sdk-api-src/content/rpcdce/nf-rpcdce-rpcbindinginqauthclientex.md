@@ -4,17 +4,16 @@ title: RpcBindingInqAuthClientEx function
 author: windows-sdk-content
 description: A server application calls the RpcBindingInqAuthClientEx function to obtain extended information about the client program that made the remote procedure call.
 old-location: rpc\rpcbindinginqauthclientex.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 4ee73a2b-8722-44f0-af0d-dedcb27ba224
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RPC_C_FULL_CERT_CHAIN, RpcBindingInqAuthClientEx, RpcBindingInqAuthClientEx function [RPC], RpcBindingInqAuthClientExA, RpcBindingInqAuthClientExW, _rpc_rpcbindinginqauthclientex, rpc.rpcbindinginqauthclientex, rpcdce/RpcBindingInqAuthClientEx, rpcdce/RpcBindingInqAuthClientExA, rpcdce/RpcBindingInqAuthClientExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcBindingInqAuthClientExW
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcBindingInqAuthClientEx function

@@ -4,17 +4,16 @@ title: "_DSREG_USER_INFO"
 author: windows-sdk-content
 description: Contains information about a user account that is used to join a device to Microsoft Azure Active Directory.
 old-location: netmgmt\dsreg_user_info.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 5E639988-0F53-40D7-BBEC-F78B3D124CC0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PDSREG_USER_INFO, DSREG_USER_INFO, DSREG_USER_INFO structure [Network Management], PDSREG_USER_INFO, PDSREG_USER_INFO structure pointer [Network Management], _DSREG_USER_INFO, lmjoin/DSREG_USER_INFO, lmjoin/PDSREG_USER_INFO, netmgmt.dsreg_user_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmjoin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSREG_USER_INFO, *PDSREG_USER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DSREG_USER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DSREG_USER_INFO, *PDSREG_USER_INFO
+req.redist: 
 ---
 
 # _DSREG_USER_INFO structure

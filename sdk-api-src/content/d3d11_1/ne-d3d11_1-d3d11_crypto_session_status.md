@@ -4,7 +4,7 @@ title: D3D11_CRYPTO_SESSION_STATUS
 author: windows-sdk-content
 description: Represents the status of an ID3D11CryptoSession interface.
 old-location: mf\d3d11_crypto_session_status.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: C98DEC40-21D0-483A-A982-E6E19BBDE241
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_CRYPTO_SESSION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_CRYPTO_SESSION_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_CRYPTO_SESSION_STATUS
+req.redist: 
 ---
 
 # D3D11_CRYPTO_SESSION_STATUS enumeration

@@ -4,17 +4,16 @@ title: IFsrmPropertyBag::get_SizeAllocated
 author: windows-sdk-content
 description: The allocation size of the file.
 old-location: fsrm\ifsrmpropertybag_sizeallocated.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: d1ec946b-2769-4e0d-b01c-08ef6032df16
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],SizeAllocated property, IFsrmPropertyBag.SizeAllocated, IFsrmPropertyBag.get_SizeAllocated, IFsrmPropertyBag::SizeAllocated, IFsrmPropertyBag::get_SizeAllocated, SizeAllocated property [File Server Resource Manager], SizeAllocated property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_sizeallocated, fsrm.ifsrmpropertybag_sizeallocated, fsrmpipeline/IFsrmPropertyBag::SizeAllocated, fsrmpipeline/IFsrmPropertyBag::get_SizeAllocated, get_SizeAllocated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmPropertyBag.get_SizeAllocated
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPropertyBag::get_SizeAllocated

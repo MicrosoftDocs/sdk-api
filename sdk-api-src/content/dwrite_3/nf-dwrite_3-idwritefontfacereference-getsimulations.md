@@ -4,17 +4,16 @@ title: IDWriteFontFaceReference::GetSimulations
 author: windows-sdk-content
 description: Obtains the algorithmic style simulation flags of a font face.
 old-location: directwrite\idwritefontfacereference_getsimulations.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 537e7a1a-894b-a569-b365-1d563a46eca7
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetSimulations, GetSimulations method [Direct Write], GetSimulations method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetSimulations method, IDWriteFontFaceReference.GetSimulations, IDWriteFontFaceReference::GetSimulations, directwrite.idwritefontfacereference_getsimulations, dwrite_3/IDWriteFontFaceReference::GetSimulations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFaceReference.GetSimulations
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFaceReference::GetSimulations

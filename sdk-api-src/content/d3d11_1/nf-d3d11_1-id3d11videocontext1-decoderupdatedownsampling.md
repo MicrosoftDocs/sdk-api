@@ -4,17 +4,16 @@ title: ID3D11VideoContext1::DecoderUpdateDownsampling
 author: windows-sdk-content
 description: Updates the decoder downsampling parameters.
 old-location: mf\id3d11videocontext1_decoderupdatedownsampling.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: A55D652B-9295-42E4-9A83-CAC467BEE68E
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: DecoderUpdateDownsampling, DecoderUpdateDownsampling method [Media Foundation], DecoderUpdateDownsampling method [Media Foundation],ID3D11VideoContext1 interface, ID3D11VideoContext1 interface [Media Foundation],DecoderUpdateDownsampling method, ID3D11VideoContext1.DecoderUpdateDownsampling, ID3D11VideoContext1::DecoderUpdateDownsampling, d3d11_1/ID3D11VideoContext1::DecoderUpdateDownsampling, mf.id3d11videocontext1_decoderupdatedownsampling
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext1.DecoderUpdateDownsampling
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext1::DecoderUpdateDownsampling

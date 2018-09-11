@@ -4,17 +4,16 @@ title: MprAdminInterfaceTransportGetInfo function
 author: windows-sdk-content
 description: The MprAdminInterfaceTransportGetInfo function retrieves information about a transport running on a specified interface.
 old-location: rras\mpradmininterfacetransportgetinfo.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 4e8d7fdf-668e-496a-977a-7a0306173495
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminInterfaceTransportGetInfo, MprAdminInterfaceTransportGetInfo function [RAS], _mpr_mpradmininterfacetransportgetinfo, mprapi/MprAdminInterfaceTransportGetInfo, rras.mpradmininterfacetransportgetinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminInterfaceTransportGetInfo
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminInterfaceTransportGetInfo function

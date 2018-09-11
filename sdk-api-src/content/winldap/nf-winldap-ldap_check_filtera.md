@@ -4,17 +4,16 @@ title: ldap_check_filterA function
 author: windows-sdk-content
 description: The ldap_check_filter function is used to verify filter syntax.
 old-location: ldap\ldap_check_filter.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 33b549bc-4b23-484a-a7cf-f4963154d492
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_check_filter, ldap.ldap__check__filter, ldap.ldap_check_filter, ldap_check_filter, ldap_check_filter function [LDAP], ldap_check_filterA, ldap_check_filterW, winldap/ldap_check_filter, winldap/ldap_check_filterA, winldap/ldap_check_filterW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldap_check_filterW
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_check_filterA function

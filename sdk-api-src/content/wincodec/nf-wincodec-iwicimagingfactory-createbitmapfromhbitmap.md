@@ -4,17 +4,16 @@ title: IWICImagingFactory::CreateBitmapFromHBITMAP
 author: windows-sdk-content
 description: Creates an IWICBitmap from a bitmap handle.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfromhbitmap.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 8483f352-c31b-4afe-a011-ebef3430c576
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateBitmapFromHBITMAP, CreateBitmapFromHBITMAP method [Windows Imaging Component], CreateBitmapFromHBITMAP method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapFromHBITMAP method, IWICImagingFactory.CreateBitmapFromHBITMAP, IWICImagingFactory::CreateBitmapFromHBITMAP, _wic_codec_iwicimagingfactory_createbitmapfromhbitmap, wic._wic_codec_iwicimagingfactory_createbitmapfromhbitmap, wincodec/IWICImagingFactory::CreateBitmapFromHBITMAP
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICImagingFactory.CreateBitmapFromHBITMAP
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICImagingFactory::CreateBitmapFromHBITMAP

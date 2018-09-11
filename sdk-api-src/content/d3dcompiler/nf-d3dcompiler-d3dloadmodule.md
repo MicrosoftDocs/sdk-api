@@ -4,17 +4,16 @@ title: D3DLoadModule function
 author: windows-sdk-content
 description: Creates a shader module interface from source data for the shader module.
 old-location: direct3dhlsl\d3dloadmodule.htm
-old-project: direct3dhlsl
+tech.root: direct3dhlsl
 ms.assetid: 698AADA6-0A88-44AD-9F15-F085BFE52CA1
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: D3DLoadModule, D3DLoadModule function [HLSL], d3dcompiler/D3DLoadModule, direct3dhlsl.d3dloadmodule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_BLOB_PART
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3DLoadModule
 product: Windows
 targetos: Windows
-req.lib: D3DCompiler.lib
-req.dll: D3DCompiler_47.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D3DLoadModule function

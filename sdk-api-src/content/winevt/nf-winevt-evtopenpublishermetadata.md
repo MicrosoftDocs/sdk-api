@@ -4,17 +4,16 @@ title: EvtOpenPublisherMetadata function
 author: windows-sdk-content
 description: Gets a handle that you use to read the specified provider's metadata.
 old-location: wes\evtopenpublishermetadata.htm
-old-project: wes
+tech.root: WES
 ms.assetid: 0839fb15-12a9-4e30-9afa-6f6437956df0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EvtOpenPublisherMetadata, EvtOpenPublisherMetadata function [EventLog], wes.evtopenpublishermetadata, winevt/EvtOpenPublisherMetadata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_VARIANT_TYPE
+req.lib: Wevtapi.lib
+req.dll: Wevtapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - EvtOpenPublisherMetadata
 product: Windows
 targetos: Windows
-req.lib: Wevtapi.lib
-req.dll: Wevtapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EvtOpenPublisherMetadata function

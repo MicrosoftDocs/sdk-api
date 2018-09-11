@@ -4,17 +4,16 @@ title: "_VSS_DIFF_VOLUME_PROP"
 author: windows-sdk-content
 description: Describes a shadow copy storage area volume.
 old-location: base\vss_diff_volume_prop.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: c4a20583-7fee-4ae1-97ed-d80b2a7539e3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVSS_DIFF_VOLUME_PROP, PVSS_DIFF_VOLUME_PROP, PVSS_DIFF_VOLUME_PROP structure pointer [VSS], VSS_DIFF_VOLUME_PROP, VSS_DIFF_VOLUME_PROP structure [VSS], _VSS_DIFF_VOLUME_PROP, base.vss_diff_volume_prop, vsmgmt/PVSS_DIFF_VOLUME_PROP, vsmgmt/VSS_DIFF_VOLUME_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_DIFF_VOLUME_PROP, *PVSS_DIFF_VOLUME_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_DIFF_VOLUME_PROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_DIFF_VOLUME_PROP, *PVSS_DIFF_VOLUME_PROP
+req.redist: 
 ---
 
 # _VSS_DIFF_VOLUME_PROP structure

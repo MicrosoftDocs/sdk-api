@@ -4,17 +4,16 @@ title: IOCSPCAConfigurationCollection::DeleteCAConfiguration
 author: windows-sdk-content
 description: Removes a named certification authority (CA) configuration from the configuration set.
 old-location: security\iocspcaconfigurationcollection_deletecaconfiguration_method.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 3733d98c-d262-4083-bac9-109720059f0b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: DeleteCAConfiguration, DeleteCAConfiguration method [Security], DeleteCAConfiguration method [Security],IOCSPCAConfigurationCollection interface, IOCSPCAConfigurationCollection interface [Security],DeleteCAConfiguration method, IOCSPCAConfigurationCollection.DeleteCAConfiguration, IOCSPCAConfigurationCollection::DeleteCAConfiguration, certadm/IOCSPCAConfigurationCollection::DeleteCAConfiguration, security.iocspcaconfigurationcollection_deletecaconfiguration_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOCSPCAConfigurationCollection.DeleteCAConfiguration
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPCAConfigurationCollection::DeleteCAConfiguration

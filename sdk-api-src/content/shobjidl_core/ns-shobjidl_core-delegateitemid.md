@@ -4,17 +4,16 @@ title: DELEGATEITEMID
 author: windows-sdk-content
 description: Used by delegate folders in place of a standard ITEMIDLIST structure.
 old-location: shell\DELEGATEITEMID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 986591cf-97c5-4328-900e-b49f0f0859a5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*PDELEGATEITEMID, DELEGATEITEMID, DELEGATEITEMID structure [Windows Shell], shell.DELEGATEITEMID, shell_DELEGATEITEMID, shobjidl_core/DELEGATEITEMID"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DELEGATEITEMID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DELEGATEITEMID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: DELEGATEITEMID
+req.redist: 
 ---
 
 # DELEGATEITEMID structure

@@ -4,17 +4,16 @@ title: IDsAdminNewObj::GetPageCounts
 author: windows-sdk-content
 description: The IDsAdminNewObj::GetPageCounts method obtains the total number of pages in the wizard as well as the index of the first page of the extension.
 old-location: ad\idsadminnewobj_getpagecounts.htm
-old-project: ad
+tech.root: ad
 ms.assetid: babc5baf-33d6-47e9-a99e-81ed339f71d6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPageCounts, GetPageCounts method [Active Directory], GetPageCounts method [Active Directory],IDsAdminNewObj interface, IDsAdminNewObj interface [Active Directory],GetPageCounts method, IDsAdminNewObj.GetPageCounts, IDsAdminNewObj::GetPageCounts, _glines_idsadminnewobj_getpagecounts, ad.idsadminnewobj__getpagecounts, ad.idsadminnewobj_getpagecounts, dsadmin/IDsAdminNewObj::GetPageCounts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsAdminNewObj.GetPageCounts
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DSAdmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsAdminNewObj::GetPageCounts

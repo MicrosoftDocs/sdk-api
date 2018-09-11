@@ -4,17 +4,16 @@ title: "_PUBLICKEYSTRUC"
 author: windows-sdk-content
 description: Indicates a key's BLOB type and the algorithm that the key uses.
 old-location: security\publickeystruc.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 99d41222-b4ca-40f3-a240-52b0a9b3a9aa
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: BLOBHEADER, BLOBHEADER [Security], BLOBHEADER structure [Security], KEYSTATEBLOB, OPAQUEKEYBLOB, PLAINTEXTKEYBLOB, PRIVATEKEYBLOB, PUBLICKEYBLOB, PUBLICKEYBLOBEX, PUBLICKEYSTRUC, PUBLICKEYSTRUC structure [Security], SIMPLEBLOB, SYMMETRICWRAPKEYBLOB, _PUBLICKEYSTRUC, _cryptcsp_blobheader, _crypto2_publickeystruc, security.blobheader, security.publickeystruc, wincrypt/PUBLICKEYSTRUC
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLOBHEADER, PUBLICKEYSTRUC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BLOBHEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: BLOBHEADER, PUBLICKEYSTRUC
+req.redist: 
 ---
 
 # _PUBLICKEYSTRUC structure

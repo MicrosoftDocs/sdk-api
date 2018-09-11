@@ -4,17 +4,16 @@ title: IInkStrokeDisp::get_PolylineCusps
 author: windows-sdk-content
 description: Gets an array that contains the indices of the cusps of the IInkStrokeDisp object.
 old-location: tablet\iinkstrokedisp_polylinecusps.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 67ae7265-4416-4eef-8a8f-85f3a5751200
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 67ae7265-4416-4eef-8a8f-85f3a5751200, IInkStrokeDisp interface [Tablet PC],PolylineCusps property, IInkStrokeDisp.PolylineCusps, IInkStrokeDisp.get_PolylineCusps, IInkStrokeDisp::PolylineCusps, IInkStrokeDisp::get_PolylineCusps, PolylineCusps property [Tablet PC], PolylineCusps property [Tablet PC],IInkStrokeDisp interface, get_PolylineCusps, msinkaut/IInkStrokeDisp::PolylineCusps, msinkaut/IInkStrokeDisp::get_PolylineCusps, tablet.iinkstrokedisp_polylinecusps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkStrokeDisp.get_PolylineCusps
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkStrokeDisp::get_PolylineCusps

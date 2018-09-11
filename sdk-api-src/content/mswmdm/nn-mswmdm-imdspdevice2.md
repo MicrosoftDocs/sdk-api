@@ -4,17 +4,16 @@ title: IMDSPDevice2
 author: windows-sdk-content
 description: The IMDSPDevice2 interface extends IMDSPDevice by getting extended formats, getting Plug and Play (PnP) device names, enabling the use of property pages, and making it possible to get a pointer to a storage medium from its name.
 old-location: wmdm\imdspdevice2.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: a53052a1-89f4-4571-9eee-031e0049a92e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPDevice2, IMDSPDevice2 interface [windows Media Device Manager], IMDSPDevice2 interface [windows Media Device Manager],described, IMDSPDevice2Interface, mswmdm/IMDSPDevice2, wmdm.imdspdevice2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMDSPDevice2
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPDevice2 interface

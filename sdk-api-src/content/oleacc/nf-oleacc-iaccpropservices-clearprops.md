@@ -4,17 +4,16 @@ title: IAccPropServices::ClearProps
 author: windows-sdk-content
 description: Servers use ClearProps to restore default values to properties of accessible elements that they had previously annotated.
 old-location: winauto\iaccpropservices_iaccpropservices__clearprops.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 6a3bce93-1d5d-48cf-84f4-cbca445b5451
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ClearProps, ClearProps method [Windows Accessibility], ClearProps method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ClearProps method, IAccPropServices.ClearProps, IAccPropServices::ClearProps, _msaa_IAccPropServices_ClearProps, msaa.iaccpropservices_iaccpropservices__clearprops, oleacc/IAccPropServices::ClearProps, winauto.iaccpropservices_iaccpropservices__clearprops
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
-req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: 
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccPropServices.ClearProps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 ---
 
 # IAccPropServices::ClearProps

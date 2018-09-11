@@ -4,17 +4,16 @@ title: IAMNetShowExProps::get_ErrorCorrection
 author: windows-sdk-content
 description: The get_ErrorCorrection method retrieves the current error correction method.
 old-location: dshow\iamnetshowexprops_get_errorcorrection.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ab731d68-969b-425d-978a-879b15c06a88
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_ErrorCorrection method, IAMNetShowExProps.get_ErrorCorrection, IAMNetShowExProps::get_ErrorCorrection, IAMNetShowExPropsget_ErrorCorrection, dshow.iamnetshowexprops_get_errorcorrection, get_ErrorCorrection, get_ErrorCorrection method [DirectShow], get_ErrorCorrection method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_ErrorCorrection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMNetShowExProps.get_ErrorCorrection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMNetShowExProps::get_ErrorCorrection

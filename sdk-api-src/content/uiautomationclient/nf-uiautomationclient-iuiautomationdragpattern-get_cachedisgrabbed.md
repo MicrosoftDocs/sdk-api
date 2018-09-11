@@ -4,17 +4,16 @@ title: IUIAutomationDragPattern::get_CachedIsGrabbed
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether this element has been grabbed as part of a drag-and-drop operation.
 old-location: winauto\uiauto_iuiautomationdragpattern_cachedisgrabbed.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: DA63B155-56FC-49EE-99EA-56288CC7F8E9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedIsGrabbed property [Windows Accessibility], CachedIsGrabbed property [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],CachedIsGrabbed property, IUIAutomationDragPattern.CachedIsGrabbed, IUIAutomationDragPattern.get_CachedIsGrabbed, IUIAutomationDragPattern::CachedIsGrabbed, IUIAutomationDragPattern::get_CachedIsGrabbed, get_CachedIsGrabbed, uiautomationclient/IUIAutomationDragPattern::CachedIsGrabbed, uiautomationclient/IUIAutomationDragPattern::get_CachedIsGrabbed, winauto.uiauto_iuiautomationdragpattern_cachedisgrabbed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationDragPattern.get_CachedIsGrabbed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationDragPattern::get_CachedIsGrabbed

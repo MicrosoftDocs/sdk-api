@@ -4,7 +4,7 @@ title: PD2D1_PROPERTY_SET_FUNCTION
 author: windows-sdk-content
 description: Sets a property on an effect.
 old-location: direct2d\pd2d1_property_set_function.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 3293F53E-B911-4F5F-9510-E91B5261BB90
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRIANGLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PD2D1_PROPERTY_SET_FUNCTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PD2D1_PROPERTY_SET_FUNCTION callback function

@@ -4,17 +4,16 @@ title: IAutomaticUpdatesSettings3::put_NonAdministratorsElevated
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether non-administrators can perform some update-related actions without administrator approval.
 old-location: wua\iautomaticupdatessettings3_nonadministratorselevated.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 6294d982-e6ed-472d-b94b-c140b423ea88
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IAutomaticUpdatesSettings3 interface [Windows Update Agent],NonAdministratorsElevated property, IAutomaticUpdatesSettings3.NonAdministratorsElevated, IAutomaticUpdatesSettings3.put_NonAdministratorsElevated, IAutomaticUpdatesSettings3::NonAdministratorsElevated, IAutomaticUpdatesSettings3::get_NonAdministratorsElevated, IAutomaticUpdatesSettings3::put_NonAdministratorsElevated, NonAdministratorsElevated property [Windows Update Agent], NonAdministratorsElevated property [Windows Update Agent],IAutomaticUpdatesSettings3 interface, put_NonAdministratorsElevated, wua.iautomaticupdatessettings3_nonadministratorselevated, wuapi/IAutomaticUpdatesSettings3::NonAdministratorsElevated, wuapi/IAutomaticUpdatesSettings3::get_NonAdministratorsElevated, wuapi/IAutomaticUpdatesSettings3::put_NonAdministratorsElevated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IAutomaticUpdatesSettings3.put_NonAdministratorsElevated
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IAutomaticUpdatesSettings3::put_NonAdministratorsElevated

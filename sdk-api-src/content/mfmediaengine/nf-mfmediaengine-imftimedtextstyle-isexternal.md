@@ -4,17 +4,16 @@ title: IMFTimedTextStyle::IsExternal
 author: windows-sdk-content
 description: Determines whether the timed-text style is external.
 old-location: mf\imftimedtextstyle_isexternal.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: D24C7503-F7BB-44F9-B668-538B604F0394
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFTimedTextStyle interface [Media Foundation],IsExternal method, IMFTimedTextStyle.IsExternal, IMFTimedTextStyle::IsExternal, IsExternal, IsExternal method [Media Foundation], IsExternal method [Media Foundation],IMFTimedTextStyle interface, mf.imftimedtextstyle_isexternal, mfmediaengine/IMFTimedTextStyle::IsExternal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextStyle.IsExternal
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextStyle::IsExternal

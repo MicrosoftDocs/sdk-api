@@ -4,17 +4,16 @@ title: "_X509Certificate"
 author: windows-sdk-content
 description: Represents an X.509 certificate.
 old-location: security\x509certificate.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 5a337f78-e5de-4ea2-9c15-1056d9e9e38c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PX509Certificate, PX509Certificate, PX509Certificate structure pointer [Security], X509Certificate, X509Certificate structure [Security], _X509Certificate, schannel/PX509Certificate, schannel/X509Certificate, security.x509certificate"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509Certificate, *PX509Certificate
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - X509Certificate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: X509Certificate, *PX509Certificate
+req.redist: 
 ---
 
 # _X509Certificate structure

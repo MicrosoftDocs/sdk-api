@@ -4,17 +4,16 @@ title: RtwqRegisterPlatformEvents function
 author: windows-sdk-content
 description: Enables an app to listen to the RtwqStartup and RtwqShutdown functions.
 old-location: base\rtwqregisterplatformevents.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 7BD7E83B-29E1-4FF5-B527-71C2F80D6521
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: RtwqRegisterPlatformEvents, RtwqRegisterPlatformEvents function, base.rtwqregisterplatformevents, rtworkq/RtwqRegisterPlatformEvents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTWQ_WORKQUEUE_TYPE
+req.lib: Rtworkq.lib
+req.dll: RTWorkQ.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtwqRegisterPlatformEvents
 product: Windows
 targetos: Windows
-req.lib: Rtworkq.lib
-req.dll: RTWorkQ.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtwqRegisterPlatformEvents function

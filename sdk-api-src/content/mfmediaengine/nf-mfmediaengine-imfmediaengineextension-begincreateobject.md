@@ -4,17 +4,16 @@ title: IMFMediaEngineExtension::BeginCreateObject
 author: windows-sdk-content
 description: Begins an asynchronous request to create either a byte stream or a media source.
 old-location: mf\imfmediaengineextension_begincreateobject.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 804E9F16-E4C9-41F6-8913-950A569FB835
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: BeginCreateObject, BeginCreateObject method [Media Foundation], BeginCreateObject method [Media Foundation],IMFMediaEngineExtension interface, IMFMediaEngineExtension interface [Media Foundation],BeginCreateObject method, IMFMediaEngineExtension.BeginCreateObject, IMFMediaEngineExtension::BeginCreateObject, MF_OBJECT_BYTESTREAM, MF_OBJECT_MEDIASOURCE, mf.imfmediaengineextension_begincreateobject, mfmediaengine/IMFMediaEngineExtension::BeginCreateObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineExtension.BeginCreateObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineExtension::BeginCreateObject

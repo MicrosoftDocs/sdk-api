@@ -4,17 +4,16 @@ title: DhcpHlprFreeV4Policy function
 author: windows-sdk-content
 description: Frees the memory of all the data structures within a DHCP server policy structure.
 old-location: dhcp\dhcphlprfreev4policy.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: ace10974-784b-41f7-aee9-461c8d63b479
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpHlprFreeV4Policy, DhcpHlprFreeV4Policy function [DHCP], dhcp.dhcphlprfreev4policy, dhcpsapi/DhcpHlprFreeV4Policy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpHlprFreeV4Policy
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpHlprFreeV4Policy function

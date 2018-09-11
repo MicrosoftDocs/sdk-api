@@ -4,17 +4,16 @@ title: FLOATOBJ_DivFloat function
 author: windows-sdk-content
 description: The FLOATOBJ_DivFloat function divides the FLOATOBJ by the value of type FLOATL, and returns with the result in the first parameter.
 old-location: display\floatobj_divfloat.htm
-old-project: display
+tech.root: display
 ms.assetid: 47ebf68c-6dfa-43d3-8bc9-1f0b8f030974
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: FLOATOBJ_DivFloat, FLOATOBJ_DivFloat function [Display Devices], display.floatobj_divfloat, gdifncs_b815b21c-c9fb-4334-857f-e6e66053014a.xml, winddi/FLOATOBJ_DivFloat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLOATOBJ_DivFloat
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FLOATOBJ_DivFloat function
@@ -60,7 +58,12 @@ The <b>FLOATOBJ_DivFloat</b> function divides the <a href="https://msdn.microsof
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

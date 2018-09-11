@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::WaitForCompletion
 author: windows-sdk-content
 description: Waits for the specified period of time or until the job has finished running.
 old-location: fsrm\ifsrmfilemanagementjob_waitforcompletion.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 8d0d0046-989f-4d6a-b9da-caf6df44e1db
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],WaitForCompletion method, IFsrmFileManagementJob.WaitForCompletion, IFsrmFileManagementJob::WaitForCompletion, WaitForCompletion, WaitForCompletion method [File Server Resource Manager], WaitForCompletion method [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_waitforcompletion, fsrm.ifsrmfilemanagementjob_waitforcompletion, fsrmreports/IFsrmFileManagementJob::WaitForCompletion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmFileManagementJob.WaitForCompletion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::WaitForCompletion

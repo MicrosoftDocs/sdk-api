@@ -4,17 +4,16 @@ title: IWSManResourceLocator::AddSelector
 author: windows-sdk-content
 description: Adds a selector to the ResourceLocator object. The selector specifies a particular instance of a resource.
 old-location: winrm\iwsmanresourcelocator_addselector.htm
-old-project: winrm
+tech.root: WinRM
 ms.assetid: 2f6c1169-8e2a-4919-9a1a-856dbe41a9ce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddSelector, AddSelector method [Windows Remote Management], AddSelector method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],AddSelector method, IWSManResourceLocator.AddSelector, IWSManResourceLocator::AddSelector, winrm.iwsmanresourcelocator_addselector, wsmandisp/IWSManResourceLocator::AddSelector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManProxyAuthenticationFlags
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSManResourceLocator.AddSelector
 product: Windows
 targetos: Windows
-req.lib: WSManDisp.tlb
-req.dll: WSMAuto.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSManResourceLocator::AddSelector

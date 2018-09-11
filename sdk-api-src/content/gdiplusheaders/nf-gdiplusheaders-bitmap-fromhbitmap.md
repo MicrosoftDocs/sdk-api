@@ -4,17 +4,16 @@ title: Bitmap::FromHBITMAP
 author: windows-sdk-content
 description: The Bitmap::FromHBITMAP method creates a Bitmap object based on a handle to a Windows Graphics Device Interface (GDI) bitmap and a handle to a GDI palette.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromHBITMAP_hbm_hpal_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromhbitmap.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Bitmap class [GDI+],FromHBITMAP method, Bitmap.FromHBITMAP, Bitmap::FromHBITMAP, FromHBITMAP, FromHBITMAP method [GDI+], FromHBITMAP method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_FromHBITMAP_hbm_hpal_, gdiplus._gdiplus_CLASS_Bitmap_FromHBITMAP_hbm_hpal_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Bitmap.FromHBITMAP
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

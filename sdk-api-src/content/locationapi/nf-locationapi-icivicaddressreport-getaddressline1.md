@@ -4,17 +4,16 @@ title: ICivicAddressReport::GetAddressLine1
 author: windows-sdk-content
 description: Retrieves the first line of a street address.
 old-location: winlocation_com_ref\icivicaddressreport_getaddressline1.htm
-old-project: locationapi
+tech.root: locationapi
 ms.assetid: 946f0e69-7139-45e9-8da4-755225ce1bd1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetAddressLine1, GetAddressLine1 method [WinLocation], GetAddressLine1 method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetAddressLine1 method, ICivicAddressReport.GetAddressLine1, ICivicAddressReport::GetAddressLine1, WinLocation_COM_Ref.icivicaddressreport_getaddressline1, locationapi/ICivicAddressReport::GetAddressLine1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only],Windows 7
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCATION_REPORT_STATUS
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICivicAddressReport.GetAddressLine1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: LocationAPI.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ICivicAddressReport::GetAddressLine1

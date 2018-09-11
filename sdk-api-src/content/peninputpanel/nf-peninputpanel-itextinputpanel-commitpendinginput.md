@@ -4,17 +4,16 @@ title: ITextInputPanel::CommitPendingInput
 author: windows-sdk-content
 description: Sends collected ink to the recognizer and posts the recognition result.
 old-location: tablet\itextinputpanel_commitpendinginput.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 652df9e7-5bac-4dc7-bd1a-3934a2bdeb94
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 652df9e7-5bac-4dc7-bd1a-3934a2bdeb94, CommitPendingInput, CommitPendingInput method [Tablet PC], CommitPendingInput method [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CommitPendingInput method, ITextInputPanel.CommitPendingInput, ITextInputPanel::CommitPendingInput, peninputpanel/ITextInputPanel::CommitPendingInput, tablet.itextinputpanel_commitpendinginput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextInputPanel.CommitPendingInput
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanel::CommitPendingInput

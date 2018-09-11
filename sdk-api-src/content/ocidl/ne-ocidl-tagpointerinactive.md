@@ -4,17 +4,16 @@ title: tagPOINTERINACTIVE
 author: windows-sdk-content
 description: Indicate the activation policy of the object and are used in the IPointerInactive::GetActivationPolicy method.
 old-location: com\pointerinactive.htm
-old-project: com
+tech.root: com
 ms.assetid: b955af46-14bd-45b0-a4ef-b705e5d45a38
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: POINTERINACTIVE, POINTERINACTIVE enumeration [COM], POINTERINACTIVE_ACTIVATEONDRAG, POINTERINACTIVE_ACTIVATEONENTRY, POINTERINACTIVE_DEACTIVATEONLEAVE, _ctrl_POINTERINACTIVE, com.pointerinactive, ocidl/POINTERINACTIVE, ocidl/POINTERINACTIVE_ACTIVATEONDRAG, ocidl/POINTERINACTIVE_ACTIVATEONENTRY, ocidl/POINTERINACTIVE_DEACTIVATEONLEAVE, tagPOINTERINACTIVE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POINTERINACTIVE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POINTERINACTIVE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: POINTERINACTIVE
+req.redist: 
 ---
 
 # tagPOINTERINACTIVE enumeration

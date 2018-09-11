@@ -4,17 +4,16 @@ title: DhcpEnumFilterV4 function
 author: windows-sdk-content
 description: Enumerates all of the filter records from the DHCP server's allow or deny list.
 old-location: dhcp\dhcpenumfilterv4.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: a861b34a-19cc-4732-bb38-6b0643319640
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpEnumFilterV4, DhcpEnumFilterV4 function [DHCP], dhcp.dhcpenumfilterv4, dhcpsapi/DhcpEnumFilterV4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpEnumFilterV4
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpEnumFilterV4 function

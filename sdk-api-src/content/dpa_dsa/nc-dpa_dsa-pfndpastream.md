@@ -4,7 +4,7 @@ title: PFNDPASTREAM
 author: windows-sdk-content
 description: Defines the prototype for the callback function used by DPA_LoadStream and DPA_SaveStream.
 old-location: controls\PFNDPASTREAM.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpastream.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dpa_dsa.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PFNDPASTREAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PFNDPASTREAM callback function

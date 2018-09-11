@@ -4,17 +4,16 @@ title: "_WSAOVERLAPPED"
 author: windows-sdk-content
 description: Provides a communication medium between the initiation of an overlapped I/O operation and its subsequent completion.
 old-location: winsock\wsaoverlapped_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 91004241-e0ea-4bda-a0f5-71688ac83038
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWSAOVERLAPPED, LPWSAOVERLAPPED, LPWSAOVERLAPPED structure pointer [Winsock], WSAOVERLAPPED, WSAOVERLAPPED structure [Winsock], _WSAOVERLAPPED, _win32_wsaoverlapped_2, winsock.wsaoverlapped_2, winsock2/LPWSAOVERLAPPED, winsock2/WSAOVERLAPPED"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAOVERLAPPED, *LPWSAOVERLAPPED
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSAOVERLAPPED
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSAOVERLAPPED, *LPWSAOVERLAPPED
+req.redist: 
 ---
 
 # _WSAOVERLAPPED structure

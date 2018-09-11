@@ -4,17 +4,16 @@ title: IMonthlyTrigger::put_DaysOfMonth
 author: windows-sdk-content
 description: Gets or sets the days of the month during which the task runs.
 old-location: taskschd\imonthlytrigger_daysofmonth.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 851668bf-1ee7-47e0-add6-95eb0387a56c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DaysOfMonth property [Task Scheduler], DaysOfMonth property [Task Scheduler],IMonthlyTrigger interface, IMonthlyTrigger interface [Task Scheduler],DaysOfMonth property, IMonthlyTrigger.DaysOfMonth, IMonthlyTrigger.put_DaysOfMonth, IMonthlyTrigger::DaysOfMonth, IMonthlyTrigger::get_DaysOfMonth, IMonthlyTrigger::put_DaysOfMonth, put_DaysOfMonth, taskschd.imonthlytrigger_daysofmonth, taskschd/IMonthlyTrigger::DaysOfMonth, taskschd/IMonthlyTrigger::get_DaysOfMonth, taskschd/IMonthlyTrigger::put_DaysOfMonth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IMonthlyTrigger.put_DaysOfMonth
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IMonthlyTrigger::put_DaysOfMonth

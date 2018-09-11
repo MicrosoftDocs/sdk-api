@@ -4,17 +4,16 @@ title: IFileSystemBindData
 author: windows-sdk-content
 description: Exposes methods that store file system information for optimizing calls to IShellFolder::ParseDisplayName.
 old-location: shell\IFileSystemBindData.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f5099bb3-21a7-4708-ac48-d32a14646614
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileSystemBindData, IFileSystemBindData interface [Windows Shell], IFileSystemBindData interface [Windows Shell],described, _shell_ifilesystembinddata, shell.IFileSystemBindData, shobjidl_core/IFileSystemBindData
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemBindData
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemBindData interface

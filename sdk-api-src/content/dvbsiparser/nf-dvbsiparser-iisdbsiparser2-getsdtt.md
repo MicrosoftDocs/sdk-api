@@ -4,17 +4,16 @@ title: IIsdbSiParser2::GetSDTT
 author: windows-sdk-content
 description: Gets the software download trigger table (SDTT) from an Integrated Services Digital Broadcast (ISDB) transport stream. An SDTT contains download information such as the service identifier, schedule, and receiver types for revision.
 old-location: mstv\iisdbsiparser2_getsdtt.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: fd361526-eb0c-4edd-b346-3bded48fdc06
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSDTT, GetSDTT method [Microsoft TV Technologies], GetSDTT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetSDTT method, IIsdbSiParser2.GetSDTT, IIsdbSiParser2::GetSDTT, dvbsiparser/IIsdbSiParser2::GetSDTT, mstv.iisdbsiparser2_getsdtt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbSiParser2.GetSDTT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbSiParser2::GetSDTT

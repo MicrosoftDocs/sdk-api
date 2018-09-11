@@ -4,17 +4,16 @@ title: "_QOS_DESTADDR"
 author: windows-sdk-content
 description: The QOS object QOS_DESTADDR is used during a call to the WSAIoctl (SIO_SET_QOS) function in order to avoid issuing a connect function call for a sending socket.
 old-location: qos\qos_destaddr.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 6b9e52b2-58d0-437f-a71b-248feac59c13
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPQOS_DESTADDR, LPQOS_DESTADDR, LPQOS_DESTADDR structure pointer [QOS], QOS_DESTADDR, QOS_DESTADDR structure [QOS], _QOS_DESTADDR, _gqos_qos_destaddr, qos.qos_destaddr, qossp/LPQOS_DESTADDR, qossp/QOS_DESTADDR"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_DESTADDR, *LPQOS_DESTADDR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOS_DESTADDR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: QOS_DESTADDR, *LPQOS_DESTADDR
+req.redist: 
 ---
 
 # _QOS_DESTADDR structure

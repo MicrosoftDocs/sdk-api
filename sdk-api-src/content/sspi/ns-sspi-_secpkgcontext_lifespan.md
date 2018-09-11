@@ -4,17 +4,16 @@ title: "_SecPkgContext_Lifespan"
 author: windows-sdk-content
 description: The SecPkgContext_Lifespan structure indicates the life span of a security context. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_lifespan.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 7ef45795-f6af-4dac-a498-c6f8c915a168
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSecPkgContext_Lifespan, PSecPkgContext_Lifespan, PSecPkgContext_Lifespan structure pointer [Security], SecPkgContext_Lifespan, SecPkgContext_Lifespan structure [Security], _SecPkgContext_Lifespan, _ssp_secpkgcontext_lifespan, security.secpkgcontext_lifespan, sspi/PSecPkgContext_Lifespan, sspi/SecPkgContext_Lifespan"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_Lifespan, *PSecPkgContext_Lifespan
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SecPkgContext_Lifespan
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SecPkgContext_Lifespan, *PSecPkgContext_Lifespan
+req.redist: 
 ---
 
 # _SecPkgContext_Lifespan structure

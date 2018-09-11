@@ -4,17 +4,16 @@ title: "_SV2CVW2_PARAMS"
 author: windows-sdk-content
 description: Holds the parameters for the IShellView2::CreateViewWindow2 method.
 old-location: shell\SV2CVW2_PARAMS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7e165654-74ea-4d8b-81b7-11257f87af53
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPSV2CVW2_PARAMS, LPSV2CVW2_PARAMS, LPSV2CVW2_PARAMS structure pointer [Windows Shell], SV2CVW2_PARAMS, SV2CVW2_PARAMS structure [Windows Shell], _SV2CVW2_PARAMS, _win32_SV2CVW2_PARAMS, shell.SV2CVW2_PARAMS, shobjidl_core/LPSV2CVW2_PARAMS, shobjidl_core/SV2CVW2_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Shobjidl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SV2CVW2_PARAMS, *LPSV2CVW2_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SV2CVW2_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SV2CVW2_PARAMS, *LPSV2CVW2_PARAMS
+req.redist: 
 ---
 
 # _SV2CVW2_PARAMS structure

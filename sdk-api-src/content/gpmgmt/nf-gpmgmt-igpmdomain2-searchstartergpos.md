@@ -4,17 +4,16 @@ title: IGPMDomain2::SearchStarterGPOs
 author: windows-sdk-content
 description: Executes a search for GPMStarterGPO objects.
 old-location: gpmc\igpmdomain2_searchstartergpos.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 30a325e8-372a-4e30-a420-10f5b6ef295d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IGPMDomain2 interface [GPMC],SearchStarterGPOs method, IGPMDomain2.SearchStarterGPOs, IGPMDomain2::SearchStarterGPOs, SearchStarterGPOs, SearchStarterGPOs method [GPMC], SearchStarterGPOs method [GPMC],IGPMDomain2 interface, gpmc.igpmdomain2_searchstartergpos, gpmgmt/IGPMDomain2::SearchStarterGPOs, starterGPODisplayName, starterGPOEffectivePermissions, starterGPOID, starterGPOPermissions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGPMDomain2.SearchStarterGPOs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMDomain2::SearchStarterGPOs

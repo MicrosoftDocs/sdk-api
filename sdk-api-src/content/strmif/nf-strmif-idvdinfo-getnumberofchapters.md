@@ -4,17 +4,16 @@ title: IDvdInfo::GetNumberOfChapters
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of chapters that are defined for a given title.
 old-location: dshow\idvdinfo_getnumberofchapters.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 65d36d1c-956f-480f-adbb-1682eafc9c93
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetNumberOfChapters, GetNumberOfChapters method [DirectShow], GetNumberOfChapters method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetNumberOfChapters method, IDvdInfo.GetNumberOfChapters, IDvdInfo::GetNumberOfChapters, IDvdInfoGetNumberOfChapters, dshow.idvdinfo_getnumberofchapters, strmif/IDvdInfo::GetNumberOfChapters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdInfo.GetNumberOfChapters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo::GetNumberOfChapters
@@ -72,7 +70,7 @@ Title for which to retrieve the number of chapters.
 
 ### -param pulNumberOfChapters
 
-
+TBD
 
 
 

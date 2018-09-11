@@ -4,17 +4,16 @@ title: RemoveIScsiStaticTargetW function
 author: windows-sdk-content
 description: RemoveIscsiStaticTarget function removes a target from the list of static targets made available to the machine.
 old-location: iscsidisc\removeiscsistatictarget.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 7927d414-929e-4f01-b6bf-e6d571486aed
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RemoveIScsiStaticTargetW, RemoveIscsiStaticTarget, RemoveIscsiStaticTarget function [iSCSI Discovery Library API], RemoveIscsiStaticTargetA, RemoveIscsiStaticTargetW, iscsidisc.removeiscsistatictarget, iscsidsc/RemoveIscsiStaticTarget, iscsidsc/RemoveIscsiStaticTargetA, iscsidsc/RemoveIscsiStaticTargetW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RemoveIscsiStaticTargetW
 product: Windows
 targetos: Windows
-req.lib: Iscsidsc.lib
-req.dll: Iscsidsc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # RemoveIScsiStaticTargetW function

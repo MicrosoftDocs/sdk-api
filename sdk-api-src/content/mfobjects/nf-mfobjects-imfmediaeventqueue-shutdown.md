@@ -4,17 +4,16 @@ title: IMFMediaEventQueue::Shutdown
 author: windows-sdk-content
 description: Shuts down the event queue.
 old-location: mf\imfmediaeventqueue_shutdown.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6ec52973-0d90-463b-b2be-08d5d6fdcc05
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 6ec52973-0d90-463b-b2be-08d5d6fdcc05, IMFMediaEventQueue interface [Media Foundation],Shutdown method, IMFMediaEventQueue.Shutdown, IMFMediaEventQueue::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaEventQueue interface, mf.imfmediaeventqueue_shutdown, mfobjects/IMFMediaEventQueue::Shutdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaEventQueue.Shutdown
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEventQueue::Shutdown

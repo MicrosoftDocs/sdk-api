@@ -4,7 +4,7 @@ title: tagENUMTEXTMETRICA
 author: windows-sdk-content
 description: The ENUMTEXTMETRIC structure contains information about a physical font.
 old-location: gdi\enumtextmetric.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: deb81846-3ada-4c88-8c26-74224538d282
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUMTEXTMETRICA, *PENUMTEXTMETRICA, *LPENUMTEXTMETRICA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ENUMTEXTMETRICW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: ENUMTEXTMETRICA, *PENUMTEXTMETRICA, *LPENUMTEXTMETRICA
+req.redist: 
 ---
 
 # tagENUMTEXTMETRICA structure

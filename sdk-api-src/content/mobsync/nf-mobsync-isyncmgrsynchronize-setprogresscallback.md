@@ -4,17 +4,16 @@ title: ISyncMgrSynchronize::SetProgressCallback
 author: windows-sdk-content
 description: Sets the ISyncMgrSynchronizeCallback interface. Registered applications use this callback interface to give status information from within the ISyncMgrSynchronize::PrepareForSync and ISyncMgrSynchronize::Synchronize methods.
 old-location: shell\syncmgr_isyncmgrsynchronize_setprogresscallback.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 193926e8-824c-4969-9707-e2d95961c242
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],SetProgressCallback method, ISyncMgrSynchronize.SetProgressCallback, ISyncMgrSynchronize::SetProgressCallback, SetProgressCallback, SetProgressCallback method [Windows Shell], SetProgressCallback method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::SetProgressCallback, shell.syncmgr_isyncmgrsynchronize_setprogresscallback, syncmgr.isyncmgrsynchronize_setprogresscallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRSTATUS
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSynchronize.SetProgressCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mobsync.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSynchronize::SetProgressCallback
@@ -62,7 +60,7 @@ Sets the <a href="https://msdn.microsoft.com/1c817a21-be91-43af-86c8-aa7909ae2fa
 
 ### -param lpCallBack
 
-
+TBD
 
 
 

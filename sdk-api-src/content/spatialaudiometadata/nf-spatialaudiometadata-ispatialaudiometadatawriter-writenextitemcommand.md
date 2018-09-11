@@ -4,17 +4,16 @@ title: ISpatialAudioMetadataWriter::WriteNextItemCommand
 author: windows-sdk-content
 description: Writes metadata commands and value data to the current item.
 old-location: coreaudio\ispatialaudiometadatawriter_writenextitemcommand.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: A614AEC6-7CA3-4624-BAFE-46618BCB64FA
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: ISpatialAudioMetadataWriter interface [Core Audio],WriteNextItemCommand method, ISpatialAudioMetadataWriter.WriteNextItemCommand, ISpatialAudioMetadataWriter::WriteNextItemCommand, WriteNextItemCommand, WriteNextItemCommand method [Core Audio], WriteNextItemCommand method [Core Audio],ISpatialAudioMetadataWriter interface, coreaudio.ispatialaudiometadatawriter_writenextitemcommand, spatialaudiometadata/ISpatialAudioMetadataWriter::WriteNextItemCommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioMetadataWriterOverflowMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioMetadataWriter.WriteNextItemCommand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioMetadataWriter::WriteNextItemCommand

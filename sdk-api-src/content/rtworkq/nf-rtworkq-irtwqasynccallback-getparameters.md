@@ -4,17 +4,16 @@ title: IRtwqAsyncCallback::GetParameters
 author: windows-sdk-content
 description: Provides configuration information to the dispatching thread for a callback.
 old-location: base\irtwqasynccallback_getparameters.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: C6569BC4-E722-418E-B469-B20877F44648
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetParameters, GetParameters method, GetParameters method,IRtwqAsyncCallback interface, IRtwqAsyncCallback interface,GetParameters method, IRtwqAsyncCallback.GetParameters, IRtwqAsyncCallback::GetParameters, Zero, base.irtwqasynccallback_getparameters, rtworkq/IRtwqAsyncCallback::GetParameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtworkq.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTWQ_WORKQUEUE_TYPE
+req.lib: Rtworkq.lib
+req.dll: RTWorkQ.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRtwqAsyncCallback.GetParameters
 product: Windows
 targetos: Windows
-req.lib: Rtworkq.lib
-req.dll: RTWorkQ.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRtwqAsyncCallback::GetParameters

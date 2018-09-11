@@ -4,17 +4,16 @@ title: IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_migratediffareas.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: c452dfad-fbc6-45d0-895d-566f12dbfa70
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2 interface,MigrateDiffAreas method, IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas, IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas, MigrateDiffAreas, MigrateDiffAreas method, MigrateDiffAreas method,IVssDifferentialSoftwareSnapshotMgmt2 interface, base.ivssdifferentialsoftwaresnapshotmgmt2_migratediffareas, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas

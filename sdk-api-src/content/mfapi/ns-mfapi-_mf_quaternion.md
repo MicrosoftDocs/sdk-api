@@ -4,7 +4,7 @@ title: "_MF_QUATERNION"
 author: windows-sdk-content
 description: A four dimensional vector, used to represent a rotation.
 old-location: mf\mf_quaternion.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 109C0C32-0465-46A6-8851-E56159BE6FD0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_QUATERNION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_QUATERNION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_QUATERNION
+req.redist: 
 ---
 
 # _MF_QUATERNION structure

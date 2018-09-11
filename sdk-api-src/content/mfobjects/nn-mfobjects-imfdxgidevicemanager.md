@@ -4,7 +4,7 @@ title: IMFDXGIDeviceManager
 author: windows-sdk-content
 description: Enables two threads to share the same Microsoft Direct3D 11 device.
 old-location: mf\imfdxgidevicemanager.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4A0DC266-FCF0-4ECD-AC78-CF429839486D
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDXGIDeviceManager
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDXGIDeviceManager interface

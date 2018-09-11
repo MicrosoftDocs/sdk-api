@@ -4,31 +4,31 @@ title: tagOLERENDER
 author: windows-sdk-content
 description: Indicates the type of caching requested for newly created objects.
 old-location: com\olerender.htm
-old-project: com
+tech.root: com
 ms.assetid: bab871ba-4ec4-49fd-854a-585732b91290
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPOLERENDER, LPOLERENDER, LPOLERENDER enumeration pointer [COM], OLERENDER, OLERENDER enumeration [COM], OLERENDER_ASIS, OLERENDER_DRAW, OLERENDER_FORMAT, OLERENDER_NONE, _ole_OLERENDER, com.olerender, oleidl/LPOLERENDER, oleidl/OLERENDER, oleidl/OLERENDER_ASIS, oleidl/OLERENDER_DRAW, oleidl/OLERENDER_FORMAT, oleidl/OLERENDER_NONE, tagOLERENDER"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: OLEUIVIEWPROPSW (Unicode) and OLEUIVIEWPROPSA (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLERENDER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OLERENDER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OLERENDER
+req.redist: 
 ---
 
 # tagOLERENDER enumeration

@@ -4,17 +4,16 @@ title: EapHostPeerCredentialsXml2Blob function
 author: windows-sdk-content
 description: Generates the credentials BLOB.
 old-location: eaphost\eaphostpeercredentialsxml2blob.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: ef8475f0-047d-4858-b3c1-3ddf41c1847f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapHostPeerCredentialsXml2Blob, EapHostPeerCredentialsXml2Blob function [EAPHost], eaphost.eaphostpeercredentialsxml2blob, eaphostpeerconfigapis/EapHostPeerCredentialsXml2Blob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_AUTHENTICATOR_SEND_TIMEOUT
+req.lib: Eappcfg.lib
+req.dll: Eappcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapHostPeerCredentialsXml2Blob
 product: Windows
 targetos: Windows
-req.lib: Eappcfg.lib
-req.dll: Eappcfg.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapHostPeerCredentialsXml2Blob function

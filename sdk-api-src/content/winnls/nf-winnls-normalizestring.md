@@ -4,17 +4,16 @@ title: NormalizeString function
 author: windows-sdk-content
 description: Normalizes characters of a text string according to Unicode 4.0 TR#15. For more information, see Using Unicode Normalization to Represent Strings.
 old-location: intl\normalizestring.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: ef76d0e5-2999-4a21-8522-c698013e3816
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: NormalizeString, NormalizeString function [Internationalization for Windows Applications], _win32_NormalizeString, intl.normalizestring, winnls/NormalizeString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP with SP2 and later, orWindows Server 2003 with SP1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: 
+req.dll: Normaliz.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - NormalizeString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Normaliz.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP with SP2 and later, orWindows Server 2003 with SP1
 ---
 
 # NormalizeString function

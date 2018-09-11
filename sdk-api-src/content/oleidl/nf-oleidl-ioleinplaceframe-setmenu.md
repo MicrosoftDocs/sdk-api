@@ -4,17 +4,16 @@ title: IOleInPlaceFrame::SetMenu
 author: windows-sdk-content
 description: Adds a composite menu to the window frame containing the object being activated in place.
 old-location: com\ioleinplaceframe_setmenu.htm
-old-project: com
+tech.root: com
 ms.assetid: dc26a399-846d-4d15-b406-752350e528c2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleInPlaceFrame interface [COM],SetMenu method, IOleInPlaceFrame.SetMenu, IOleInPlaceFrame::SetMenu, SetMenu, SetMenu method [COM], SetMenu method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_setmenu, com.ioleinplaceframe_setmenu, oleidl/IOleInPlaceFrame::SetMenu
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceFrame.SetMenu
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceFrame::SetMenu

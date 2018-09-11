@@ -4,17 +4,16 @@ title: IAudioSessionControl2
 author: windows-sdk-content
 description: The IAudioSessionControl2 interface can be used by a client to get information about the audio session.
 old-location: coreaudio\iaudiosessioncontrol2.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 3bb65edf-103c-4eeb-82b4-7c571cddfcf3
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioSessionControl2, IAudioSessionControl2 interface [Core Audio], IAudioSessionControl2 interface [Core Audio],described, audiopolicy/IAudioSessionControl2, coreaudio.iaudiosessioncontrol2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionControl2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionControl2 interface

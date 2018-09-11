@@ -4,7 +4,7 @@ title: IKE_AUTHENTICATION_INFORMATION
 author: windows-sdk-content
 description: IKE_AUTHENTICATION_INFORMATION structure contains Internet Key Exchange (IKE) authentication information used to establish a secure channel between two key management daemons.
 old-location: iscsidisc\ike_authentication_information.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: d61036f5-a5e8-4c1a-8f99-57fe8e5c5bd0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKE_AUTHENTICATION_INFORMATION, *PIKE_AUTHENTICATION_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKE_AUTHENTICATION_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKE_AUTHENTICATION_INFORMATION, *PIKE_AUTHENTICATION_INFORMATION
+req.redist: 
 ---
 
 # IKE_AUTHENTICATION_INFORMATION structure

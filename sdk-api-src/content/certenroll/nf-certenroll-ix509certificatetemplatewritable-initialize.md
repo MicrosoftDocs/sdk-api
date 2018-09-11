@@ -4,17 +4,16 @@ title: IX509CertificateTemplateWritable::Initialize
 author: windows-sdk-content
 description: Initializes an IX509CertificateTemplateWritable object from a template.
 old-location: security\ix509certificatetemplatewritable_initialize.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: d70cfb65-403f-4a58-8882-393029111552
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509CertificateTemplateWritable interface [Security],Initialize method, IX509CertificateTemplateWritable.Initialize, IX509CertificateTemplateWritable::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509CertificateTemplateWritable interface, certenroll/IX509CertificateTemplateWritable::Initialize, security.ix509certificatetemplatewritable_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509CertificateTemplateWritable.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateTemplateWritable::Initialize

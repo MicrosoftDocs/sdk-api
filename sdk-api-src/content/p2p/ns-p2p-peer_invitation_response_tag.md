@@ -4,7 +4,7 @@ title: peer_invitation_response_tag
 author: windows-sdk-content
 description: The PEER_INVITATION_RESPONSE structure contains a response to an invitation to join a peer collaboration activity.
 old-location: p2p\peer_invitation_response.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 9f77c471-ef05-442f-aeae-afe67319b0ff
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_INVITATION_RESPONSE, *PPEER_INVITATION_RESPONSE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_INVITATION_RESPONSE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_INVITATION_RESPONSE, *PPEER_INVITATION_RESPONSE
+req.redist: 
 ---
 
 # peer_invitation_response_tag structure

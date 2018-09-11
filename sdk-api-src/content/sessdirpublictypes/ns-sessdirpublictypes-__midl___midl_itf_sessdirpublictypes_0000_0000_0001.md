@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0001"
 author: windows-sdk-content
 description: Contains information about the display of a Remote Desktop Connection (RDC) client.
 old-location: termserv\client_display.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 6436c049-d710-4208-882a-0c7e83b4a079
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sessdirpublictypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLIENT_DISPLAY, *PCLIENT_DISPLAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLIENT_DISPLAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CLIENT_DISPLAY, *PCLIENT_DISPLAY
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0001 structure

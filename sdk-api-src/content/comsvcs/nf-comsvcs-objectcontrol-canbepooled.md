@@ -4,17 +4,16 @@ title: ObjectControl::CanBePooled
 author: windows-sdk-content
 description: Indicates whether the object can be pooled for reuse when it is deactivated.
 old-location: cos\objectcontrol_canbepooled.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 1bca2892-4b9a-4135-b009-37181a028130
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CanBePooled, CanBePooled method [COM+], CanBePooled method [COM+],ObjectControl interface, ObjectControl interface [COM+],CanBePooled method, ObjectControl.CanBePooled, ObjectControl::CanBePooled, _cos_ObjectControl_CanBePooled, comsvcs/ObjectControl::CanBePooled, cos.objectcontrol_canbepooled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ObjectControl.CanBePooled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ObjectControl::CanBePooled

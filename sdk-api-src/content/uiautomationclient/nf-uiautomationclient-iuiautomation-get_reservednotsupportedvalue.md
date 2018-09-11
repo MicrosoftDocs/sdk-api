@@ -4,17 +4,16 @@ title: IUIAutomation::get_ReservedNotSupportedValue
 author: windows-sdk-content
 description: Retrieves a static token object representing a property or text attribute that is not supported.
 old-location: winauto\uiauto_IUIAutomation_ReservedNotSupportedValue.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 00162b3c-fab8-4559-83c0-d8c6731441c3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],ReservedNotSupportedValue property, IUIAutomation.ReservedNotSupportedValue, IUIAutomation.get_ReservedNotSupportedValue, IUIAutomation::ReservedNotSupportedValue, IUIAutomation::get_ReservedNotSupportedValue, ReservedNotSupportedValue property [Windows Accessibility], ReservedNotSupportedValue property [Windows Accessibility],IUIAutomation interface, get_ReservedNotSupportedValue, uiauto.uiauto_IUIAutomation_ReservedNotSupportedValue, uiauto_IUIAutomation_ReservedNotSupportedValue, uiautomationclient/IUIAutomation::ReservedNotSupportedValue, uiautomationclient/IUIAutomation::get_ReservedNotSupportedValue, winauto.uiauto_IUIAutomation_ReservedNotSupportedValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomation.get_ReservedNotSupportedValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation::get_ReservedNotSupportedValue

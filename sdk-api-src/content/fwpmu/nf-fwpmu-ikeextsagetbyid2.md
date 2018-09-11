@@ -4,17 +4,16 @@ title: IkeextSaGetById2 function
 author: windows-sdk-content
 description: Retrieves an IKE/AuthIP security association (SA) from the database.
 old-location: fwp\ikeextsagetbyid2.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 5ea04fdc-d06d-4e8e-9c66-3a6df4372481
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IkeextSaGetById2, IkeextSaGetById2 function [Filtering], fwp.ikeextsagetbyid2, fwpmu/IkeextSaGetById2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IkeextSaGetById2
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IkeextSaGetById2 function

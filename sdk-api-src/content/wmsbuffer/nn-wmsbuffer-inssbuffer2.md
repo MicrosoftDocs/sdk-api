@@ -4,7 +4,7 @@ title: INSSBuffer2
 author: windows-sdk-content
 description: The INSSBuffer2 interface inherits from INSSBuffer and defines two additional methods. Currently, neither of these methods is implemented.
 old-location: wmformat\inssbuffer2.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 74d174a1-ede8-482c-ae42-19ca65c6cad4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsbuffer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPServices_StreamState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INSSBuffer2.SetSampleProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # INSSBuffer2 interface

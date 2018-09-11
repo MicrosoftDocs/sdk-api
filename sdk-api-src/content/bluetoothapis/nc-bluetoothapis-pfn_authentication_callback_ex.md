@@ -4,7 +4,7 @@ title: PFN_AUTHENTICATION_CALLBACK_EX
 author: windows-sdk-content
 description: PFN_AUTHENTICATION_CALLBACK_EX function is a callback function prototype used in conjunction with the BluetoothRegisterForAuthenticationEx function.
 old-location: bluetooth\pfn_authentication_callback_ex.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 835a624f-c08d-402c-940b-4443e1b38d58
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITS_FILE_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PFN_AUTHENTICATION_CALLBACK_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PFN_AUTHENTICATION_CALLBACK_EX callback function

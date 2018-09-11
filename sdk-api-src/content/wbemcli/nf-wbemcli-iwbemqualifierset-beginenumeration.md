@@ -4,17 +4,16 @@ title: IWbemQualifierSet::BeginEnumeration
 author: windows-sdk-content
 description: The IWbemQualifierSet::BeginEnumeration method resets before there is an enumeration of all the qualifiers in the object.
 old-location: wmi\iwbemqualifierset_beginenumeration.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 57fa60d1-54d2-412d-b39b-c35dfd709d0c
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: 0 (Zero), BeginEnumeration, BeginEnumeration method [Windows Management Instrumentation], BeginEnumeration method [Windows Management Instrumentation],IWbemQualifierSet interface, IWbemQualifierSet interface [Windows Management Instrumentation],BeginEnumeration method, IWbemQualifierSet.BeginEnumeration, IWbemQualifierSet::BeginEnumeration, WBEM_FLAG_LOCAL_ONLY, WBEM_FLAG_PROPAGATED_ONLY, _hmm_iwbemqualifierset_beginenumeration, wbemcli/IWbemQualifierSet::BeginEnumeration, wmi.iwbemqualifierset_beginenumeration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWbemQualifierSet.BeginEnumeration
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemQualifierSet::BeginEnumeration

@@ -4,7 +4,7 @@ title: "_FAX_CONTEXT_INFOW"
 author: windows-sdk-content
 description: The FAX_CONTEXT_INFO structure contains information about a fax printer device context. The SizeOfStruct member is required. Information for the other members is supplied by a call to the FaxStartPrintJob function.
 old-location: fax\_mfax_fax_context_info_str.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7v5e.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_CONTEXT_INFOW, *PFAX_CONTEXT_INFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FAX_CONTEXT_INFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FAX_CONTEXT_INFOW, *PFAX_CONTEXT_INFOW
+req.redist: 
 ---
 
 # _FAX_CONTEXT_INFOW structure

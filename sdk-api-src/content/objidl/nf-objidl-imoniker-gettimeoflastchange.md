@@ -4,17 +4,16 @@ title: IMoniker::GetTimeOfLastChange
 author: windows-sdk-content
 description: Retrieves the time at which the object identified by this moniker was last changed.
 old-location: com\imoniker_gettimeoflastchange.htm
-old-project: com
+tech.root: com
 ms.assetid: 120cc951-6797-4ef6-890b-57ff8d3d23ba
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetTimeOfLastChange, GetTimeOfLastChange method [COM], GetTimeOfLastChange method [COM],IMoniker interface, IMoniker interface [COM],GetTimeOfLastChange method, IMoniker.GetTimeOfLastChange, IMoniker::GetTimeOfLastChange, _com_imoniker_gettimeoflastchange, com.imoniker_gettimeoflastchange, objidl/IMoniker::GetTimeOfLastChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMoniker.GetTimeOfLastChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMoniker::GetTimeOfLastChange

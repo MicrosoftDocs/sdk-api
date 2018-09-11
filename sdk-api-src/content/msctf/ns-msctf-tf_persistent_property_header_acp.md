@@ -4,7 +4,7 @@ title: TF_PERSISTENT_PROPERTY_HEADER_ACP
 author: windows-sdk-content
 description: The TF_PERSISTENT_PROPERTY_HEADER_ACP structure is used to provide property header data.
 old-location: tsf\tf_persistent_property_header_acp.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 9c5cb193-d18e-4d91-b9be-b8a61a56d3a3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_PERSISTENT_PROPERTY_HEADER_ACP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TF_PERSISTENT_PROPERTY_HEADER_ACP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TF_PERSISTENT_PROPERTY_HEADER_ACP
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # TF_PERSISTENT_PROPERTY_HEADER_ACP structure

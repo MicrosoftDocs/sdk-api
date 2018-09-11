@@ -4,17 +4,16 @@ title: DavUnregisterAuthCallback function
 author: windows-sdk-content
 description: Unregisters a registered callback function that the WebDAV client uses to prompt the user for credentials.
 old-location: webdav\davunregisterauthcallback.htm
-old-project: webdav
+tech.root: WebDAV
 ms.assetid: 5277d9ce-22e6-49d5-9a9c-c02993605bdf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DavUnregisterAuthCallback, DavUnregisterAuthCallback function [WebDAV], davclnt/DavUnregisterAuthCallback, webdav.davunregisterauthcallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: davclnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHNEXTSTEP
+req.lib: Davclnt.lib
+req.dll: Davclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DavUnregisterAuthCallback
 product: Windows
 targetos: Windows
-req.lib: Davclnt.lib
-req.dll: Davclnt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DavUnregisterAuthCallback function

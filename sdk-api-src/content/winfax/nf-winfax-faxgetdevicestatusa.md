@@ -4,17 +4,16 @@ title: FaxGetDeviceStatusA function
 author: windows-sdk-content
 description: The FaxGetDeviceStatus function returns to a fax client application current status information for the fax device of interest.
 old-location: fax\_mfax_faxgetdevicestatus.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1u0j.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: FaxGetDeviceStatus, FaxGetDeviceStatus function [Fax Service], FaxGetDeviceStatusA, FaxGetDeviceStatusW, _mfax_faxgetdevicestatus, fax._mfax_faxgetdevicestatus, winfax/FaxGetDeviceStatus, winfax/FaxGetDeviceStatusA, winfax/FaxGetDeviceStatusW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winfax.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_VARIANT, *PEVT_VARIANT
+req.lib: WinFax.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - FaxGetDeviceStatusW
 product: Windows
 targetos: Windows
-req.lib: WinFax.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FaxGetDeviceStatusA function

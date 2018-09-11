@@ -4,17 +4,16 @@ title: GetTextExtentPointA function
 author: windows-sdk-content
 description: The GetTextExtentPoint function computes the width and height of the specified string of text.
 old-location: gdi\gettextextentpoint.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 731085ce-009d-42e1-885f-2f5151e0f6d3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetTextExtentPoint, GetTextExtentPoint function [Windows GDI], GetTextExtentPointA, GetTextExtentPointW, _win32_GetTextExtentPoint, gdi.gettextextentpoint, wingdi/GetTextExtentPoint, wingdi/GetTextExtentPointA, wingdi/GetTextExtentPointW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - GetTextExtentPointW
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetTextExtentPointA function

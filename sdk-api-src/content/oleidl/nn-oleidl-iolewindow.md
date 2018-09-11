@@ -4,17 +4,16 @@ title: IOleWindow
 author: windows-sdk-content
 description: The IOleWindow interface provides methods that allow an application to obtain the handle to the various windows that participate in in-place activation, and also to enter and exit context-sensitive help mode.
 old-location: com\iolewindow.htm
-old-project: com
+tech.root: com
 ms.assetid: 2d0efbae-4a1c-43b1-9021-8d89377f7282
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleWindow, IOleWindow interface [COM], IOleWindow interface [COM],described, _ole_iolewindow, com.iolewindow, oleidl/IOleWindow
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Adhocreportingexcelclient.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleWindow interface

@@ -4,17 +4,16 @@ title: IChannelAudioVolume::GetChannelVolume
 author: windows-sdk-content
 description: The GetChannelVolume method retrieves the volume level for the specified channel in the audio session.
 old-location: coreaudio\ichannelaudiovolume_getchannelvolume.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: adc871ff-fb77-4d72-b33b-a2773bed2569
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetChannelVolume, GetChannelVolume method [Core Audio], GetChannelVolume method [Core Audio],IChannelAudioVolume interface, IChannelAudioVolume interface [Core Audio],GetChannelVolume method, IChannelAudioVolume.GetChannelVolume, IChannelAudioVolume::GetChannelVolume, IChannelAudioVolumeGetChannelVolume, audioclient/IChannelAudioVolume::GetChannelVolume, coreaudio.ichannelaudiovolume_getchannelvolume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IChannelAudioVolume.GetChannelVolume
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IChannelAudioVolume::GetChannelVolume

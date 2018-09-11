@@ -4,17 +4,16 @@ title: IOleInPlaceObjectWindowless::GetDropTarget
 author: windows-sdk-content
 description: Retrieves the IDropTarget interface for an in-place active, windowless object that supports drag and drop.
 old-location: com\ioleinplaceobjectwindowless_getdroptarget.htm
-old-project: com
+tech.root: com
 ms.assetid: 0dfed2c7-d513-4c29-8182-af1bd6f26834
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetDropTarget, GetDropTarget method [COM], GetDropTarget method [COM],IOleInPlaceObjectWindowless interface, IOleInPlaceObjectWindowless interface [COM],GetDropTarget method, IOleInPlaceObjectWindowless.GetDropTarget, IOleInPlaceObjectWindowless::GetDropTarget, _ole_ioleinplaceobjectwindowless_getdroptarget, com.ioleinplaceobjectwindowless_getdroptarget, ocidl/IOleInPlaceObjectWindowless::GetDropTarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceObjectWindowless.GetDropTarget
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceObjectWindowless::GetDropTarget

@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::CSSetShader
 author: windows-sdk-content
 description: Set a compute shader to the device.
 old-location: direct3d11\id3d11devicecontext_cssetshader.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 97be7622-609f-4576-911a-93aa7f1b6b8c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CSSetShader, CSSetShader method [Direct3D 11], CSSetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSSetShader method, ID3D11DeviceContext.CSSetShader, ID3D11DeviceContext::CSSetShader, cd24a33e-1a95-4033-49fc-875e68702c5b, d3d11/ID3D11DeviceContext::CSSetShader, direct3d11.id3d11devicecontext_cssetshader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.CSSetShader
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::CSSetShader

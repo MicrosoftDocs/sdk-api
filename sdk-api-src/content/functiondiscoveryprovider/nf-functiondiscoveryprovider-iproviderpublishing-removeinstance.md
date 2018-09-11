@@ -4,17 +4,16 @@ title: IProviderPublishing::RemoveInstance
 author: windows-sdk-content
 description: Deletes an existing function instance.
 old-location: ncd\iproviderpublishing_removeinstance_method.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 7b4f6122-944e-4fe9-be95-dd09ae1542f1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IProviderPublishing interface,RemoveInstance method, IProviderPublishing.RemoveInstance, IProviderPublishing::RemoveInstance, RemoveInstance, RemoveInstance method, RemoveInstance method,IProviderPublishing interface, functiondiscoveryprovider/IProviderPublishing::RemoveInstance, ncd.iproviderpublishing_removeinstance_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PropertyConstraint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProviderPublishing.RemoveInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IProviderPublishing::RemoveInstance

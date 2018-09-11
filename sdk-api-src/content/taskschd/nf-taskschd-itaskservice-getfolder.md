@@ -4,17 +4,16 @@ title: ITaskService::GetFolder
 author: windows-sdk-content
 description: Gets a folder of registered tasks.
 old-location: taskschd\itaskservice_getfolder.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 144b070f-43e9-40d6-8461-832abc7facd3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetFolder, GetFolder method [Task Scheduler], GetFolder method [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],GetFolder method, ITaskService.GetFolder, ITaskService::GetFolder, taskschd.itaskservice_getfolder, taskschd/ITaskService::GetFolder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskService.GetFolder
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskService::GetFolder

@@ -4,17 +4,16 @@ title: IPsecSaContextDeleteById0 function
 author: windows-sdk-content
 description: Deletes an IPsec security association (SA) context.
 old-location: fwp\ipsecsacontextdeletebyid0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 4e3b1c5e-3da4-4c6b-aacf-beb90aa96923
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IPsecSaContextDeleteById0, IPsecSaContextDeleteById0 function [Filtering], fwp.ipsecsacontextdeletebyid0, fwpmu/IPsecSaContextDeleteById0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPsecSaContextDeleteById0
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IPsecSaContextDeleteById0 function

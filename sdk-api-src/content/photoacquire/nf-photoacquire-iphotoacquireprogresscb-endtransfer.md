@@ -4,17 +4,16 @@ title: IPhotoAcquireProgressCB::EndTransfer
 author: windows-sdk-content
 description: The EndTransfer method provides extended functionality when the transfer of all files is complete. The application provides the implementation of the EndTransfer method.
 old-location: picacq\iphotoacquireprogresscb_endtransfer.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 9e0fada0-6c83-4e82-a3ac-c5a4832f053f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: EndTransfer, EndTransfer method [Picture Acquisition], EndTransfer method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndTransfer method, IPhotoAcquireProgressCB.EndTransfer, IPhotoAcquireProgressCB::EndTransfer, IPhotoAcquireProgressCBEndTransfer, photoacquire/IPhotoAcquireProgressCB::EndTransfer, picacq.iphotoacquireprogresscb_endtransfer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireProgressCB.EndTransfer
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireProgressCB::EndTransfer

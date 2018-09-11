@@ -4,17 +4,16 @@ title: IMbnMultiCarrier::SetHomeProvider
 author: windows-sdk-content
 description: Updates the home provider for a multi-carrier device.
 old-location: mbn\imbnmulticarrier_sethomeprovider.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 9FDC1B01-4768-4621-9B0E-6EC9AB4275A9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnMultiCarrier interface [Microsoft Broadband Networks],SetHomeProvider method, IMbnMultiCarrier.SetHomeProvider, IMbnMultiCarrier::SetHomeProvider, SetHomeProvider, SetHomeProvider method [Microsoft Broadband Networks], SetHomeProvider method [Microsoft Broadband Networks],IMbnMultiCarrier interface, mbn.imbnmulticarrier_sethomeprovider, mbnapi/IMbnMultiCarrier::SetHomeProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnMultiCarrier.SetHomeProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnMultiCarrier::SetHomeProvider

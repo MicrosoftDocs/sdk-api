@@ -4,7 +4,7 @@ title: "_D3D_SHADER_INPUT_TYPE"
 author: windows-sdk-content
 description: Values that identify resource types that can be bound to a shader and that are reflected as part of the resource description for the shader.
 old-location: direct3d11\d3d_shader_input_type.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: c6106f9e-420d-43e1-92ba-bc3a6e544e7d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_INPUT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D_SHADER_INPUT_TYPE
 product: Windows
 targetos: Windows
-req.lib: D3d9.lib
-req.dll: 
-req.irql: 
+req.typenames: D3D_SHADER_INPUT_TYPE
+req.redist: 
 ---
 
 # _D3D_SHADER_INPUT_TYPE enumeration

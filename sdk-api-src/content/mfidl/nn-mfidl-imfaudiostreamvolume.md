@@ -4,7 +4,7 @@ title: IMFAudioStreamVolume
 author: windows-sdk-content
 description: Controls the volume levels of individual audio channels.
 old-location: mf\imfaudiostreamvolume.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: f06ed262-a2ec-4688-b477-877d04cf1892
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFAudioStreamVolume
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFAudioStreamVolume interface

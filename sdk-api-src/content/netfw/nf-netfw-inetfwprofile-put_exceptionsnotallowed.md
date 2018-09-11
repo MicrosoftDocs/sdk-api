@@ -4,17 +4,16 @@ title: INetFwProfile::put_ExceptionsNotAllowed
 author: windows-sdk-content
 description: Indicates whether the firewall should not allow exceptions.
 old-location: ics\inetfwprofile_exceptionsnotallowed.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 5b9eae72-546e-4724-acba-c2f2d9ad1cc6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ExceptionsNotAllowed property [ICS/ICF], ExceptionsNotAllowed property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],ExceptionsNotAllowed property, INetFwProfile.ExceptionsNotAllowed, INetFwProfile.put_ExceptionsNotAllowed, INetFwProfile::ExceptionsNotAllowed, INetFwProfile::get_ExceptionsNotAllowed, INetFwProfile::put_ExceptionsNotAllowed, ics.inetfwprofile_exceptionsnotallowed, netfw/INetFwProfile::ExceptionsNotAllowed, netfw/INetFwProfile::get_ExceptionsNotAllowed, netfw/INetFwProfile::put_ExceptionsNotAllowed, put_ExceptionsNotAllowed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwProfile.put_ExceptionsNotAllowed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwProfile::put_ExceptionsNotAllowed

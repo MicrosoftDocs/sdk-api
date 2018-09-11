@@ -4,7 +4,7 @@ title: "_MMC_FILTER_CHANGE_CODE"
 author: windows-sdk-content
 description: The MMC_FILTER_CHANGE_CODE enumeration is introduced in MMC 1.2.
 old-location: mmc\mmc_filter_change_code.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 04f3daf3-2ac0-4999-9a08-1b46f1ef47c8
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_FILTER_CHANGE_CODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMC_FILTER_CHANGE_CODE
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MMC_FILTER_CHANGE_CODE
+req.redist: 
 ---
 
 # _MMC_FILTER_CHANGE_CODE enumeration

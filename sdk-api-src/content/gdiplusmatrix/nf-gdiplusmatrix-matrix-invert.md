@@ -4,17 +4,16 @@ title: Matrix::Invert
 author: windows-sdk-content
 description: If this matrix is invertible, the Matrix::Invert method replaces the elements of this matrix with the elements of its inverse.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Invert_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\invert.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Invert, Invert method [GDI+], Invert method [GDI+],Matrix class, Matrix class [GDI+],Invert method, Matrix.Invert, Matrix::Invert, _gdiplus_CLASS_Matrix_Invert_, gdiplus._gdiplus_CLASS_Matrix_Invert_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Matrix.Invert
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

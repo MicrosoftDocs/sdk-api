@@ -4,7 +4,7 @@ title: D3D11_CPU_ACCESS_FLAG
 author: windows-sdk-content
 description: Specifies the types of CPU access allowed for a resource.
 old-location: direct3d11\d3d11_cpu_access_flag.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 0a19c2a7-2570-40e2-8328-cbf5d7263605
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_CPU_ACCESS_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_CPU_ACCESS_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_CPU_ACCESS_FLAG
+req.redist: 
 ---
 
 # D3D11_CPU_ACCESS_FLAG enumeration

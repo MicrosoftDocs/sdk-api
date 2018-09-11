@@ -4,7 +4,7 @@ title: ID3DUserDefinedAnnotation
 author: windows-sdk-content
 description: The ID3DUserDefinedAnnotation interface enables an application to describe conceptual sections and markers within the application's code flow.
 old-location: direct3d11\id3duserdefinedannotation.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 255DE24B-3D6D-49D9-B6A8-D296AB99B4C9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3DUserDefinedAnnotation
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3DUserDefinedAnnotation interface

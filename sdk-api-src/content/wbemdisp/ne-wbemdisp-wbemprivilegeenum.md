@@ -4,17 +4,16 @@ title: WbemPrivilegeEnum
 author: windows-sdk-content
 description: Define privileges. These constants are used with SWbemSecurity to grant the privileges required for some operations.
 old-location: wmi\wbemprivilegeenum.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 235a1115-d8c4-4334-a4e0-fc539da4d2ae
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: WbemPrivilegeEnum, WbemPrivilegeEnum enumeration [Windows Management Instrumentation], wbemPrivilegeAudit, wbemPrivilegeBackup, wbemPrivilegeChangeNotify, wbemPrivilegeCreatePagefile, wbemPrivilegeCreatePermanent, wbemPrivilegeCreateToken, wbemPrivilegeDebug, wbemPrivilegeEnableDelegation, wbemPrivilegeIncreaseBasePriority, wbemPrivilegeIncreaseQuota, wbemPrivilegeLoadDriver, wbemPrivilegeLockMemory, wbemPrivilegeMachineAccount, wbemPrivilegeManageVolume, wbemPrivilegePrimaryToken, wbemPrivilegeProfileSingleProcess, wbemPrivilegeRemoteShutdown, wbemPrivilegeRestore, wbemPrivilegeSecurity, wbemPrivilegeShutdown, wbemPrivilegeSyncAgent, wbemPrivilegeSystemEnvironment, wbemPrivilegeSystemProfile, wbemPrivilegeSystemtime, wbemPrivilegeTakeOwnership, wbemPrivilegeTcb, wbemPrivilegeUndock, wbemdisp/WbemPrivilegeEnum, wbemdisp/wbemPrivilegeAudit, wbemdisp/wbemPrivilegeBackup, wbemdisp/wbemPrivilegeChangeNotify, wbemdisp/wbemPrivilegeCreatePagefile, wbemdisp/wbemPrivilegeCreatePermanent, wbemdisp/wbemPrivilegeCreateToken, wbemdisp/wbemPrivilegeDebug, wbemdisp/wbemPrivilegeEnableDelegation, wbemdisp/wbemPrivilegeIncreaseBasePriority, wbemdisp/wbemPrivilegeIncreaseQuota, wbemdisp/wbemPrivilegeLoadDriver, wbemdisp/wbemPrivilegeLockMemory, wbemdisp/wbemPrivilegeMachineAccount, wbemdisp/wbemPrivilegeManageVolume, wbemdisp/wbemPrivilegePrimaryToken, wbemdisp/wbemPrivilegeProfileSingleProcess, wbemdisp/wbemPrivilegeRemoteShutdown, wbemdisp/wbemPrivilegeRestore, wbemdisp/wbemPrivilegeSecurity, wbemdisp/wbemPrivilegeShutdown, wbemdisp/wbemPrivilegeSyncAgent, wbemdisp/wbemPrivilegeSystemEnvironment, wbemdisp/wbemPrivilegeSystemProfile, wbemdisp/wbemPrivilegeSystemtime, wbemdisp/wbemPrivilegeTakeOwnership, wbemdisp/wbemPrivilegeTcb, wbemdisp/wbemPrivilegeUndock, wmi.wbemprivilegeenum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemPrivilegeEnum
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WbemPrivilegeEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WbemPrivilegeEnum
+req.redist: 
 ---
 
 # WbemPrivilegeEnum enumeration

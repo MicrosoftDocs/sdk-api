@@ -4,17 +4,16 @@ title: "_VDS_DRIVE_FLAG"
 author: windows-sdk-content
 description: Defines the set of valid flags for a drive object.
 old-location: base\vds_drive_flag.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 50ddb9d1-32c9-4fee-bb88-498380a34c85
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVDS_DRIVE_FLAG, VDS_DRF_ASSIGNED, VDS_DRF_HOTSPARE, VDS_DRF_HOTSPARE_IN_USE, VDS_DRF_HOTSPARE_STANDBY, VDS_DRF_UNASSIGNED, VDS_DRIVE_FLAG, VDS_DRIVE_FLAG enumeration [VDS], _VDS_DRIVE_FLAG, base.vds_drive_flag, vds/VDS_DRF_ASSIGNED, vds/VDS_DRF_HOTSPARE, vds/VDS_DRF_HOTSPARE_IN_USE, vds/VDS_DRF_HOTSPARE_STANDBY, vds/VDS_DRF_UNASSIGNED, vds/VDS_DRIVE_FLAG, vdshwprv/VDS_DRF_ASSIGNED, vdshwprv/VDS_DRF_HOTSPARE, vdshwprv/VDS_DRF_HOTSPARE_IN_USE, vdshwprv/VDS_DRF_HOTSPARE_STANDBY, vdshwprv/VDS_DRF_UNASSIGNED, vdshwprv/VDS_DRIVE_FLAG"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_DRIVE_FLAG, *PVDS_DRIVE_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_DRIVE_FLAG
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_DRIVE_FLAG, *PVDS_DRIVE_FLAG
+req.redist: 
 ---
 
 # _VDS_DRIVE_FLAG enumeration

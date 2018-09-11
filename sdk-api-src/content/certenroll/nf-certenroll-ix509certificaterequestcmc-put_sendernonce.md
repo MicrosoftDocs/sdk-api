@@ -4,17 +4,16 @@ title: IX509CertificateRequestCmc::put_SenderNonce
 author: windows-sdk-content
 description: Specifies or retrieves a byte array that contains a nonce.
 old-location: security\ix509certificaterequestcmc_sendernonce_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 7f7ec18f-7b5b-445e-9033-12d86b3675f1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],SenderNonce property, IX509CertificateRequestCmc.SenderNonce, IX509CertificateRequestCmc.put_SenderNonce, IX509CertificateRequestCmc::SenderNonce, IX509CertificateRequestCmc::get_SenderNonce, IX509CertificateRequestCmc::put_SenderNonce, SenderNonce property [Security], SenderNonce property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::SenderNonce, certenroll/IX509CertificateRequestCmc::get_SenderNonce, certenroll/IX509CertificateRequestCmc::put_SenderNonce, put_SenderNonce, security.ix509certificaterequestcmc_sendernonce_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509CertificateRequestCmc.put_SenderNonce
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestCmc::put_SenderNonce

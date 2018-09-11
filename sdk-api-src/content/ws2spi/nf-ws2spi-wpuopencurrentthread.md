@@ -4,17 +4,16 @@ title: WPUOpenCurrentThread function
 author: windows-sdk-content
 description: The WPUOpenCurrentThread function opens a handle to the current thread that can be used with overlapped functions in a layered service provider.
 old-location: winsock\wpuopencurrentthread_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 92d21f29-240f-407e-89a7-bbbb8f9bf0eb
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WPUOpenCurrentThread, WPUOpenCurrentThread function [Winsock], _win32_wpuopencurrentthread_2, winsock.wpuopencurrentthread_2, ws2spi/WPUOpenCurrentThread
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_PROVIDER_INFO_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WPUOpenCurrentThread
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WPUOpenCurrentThread function

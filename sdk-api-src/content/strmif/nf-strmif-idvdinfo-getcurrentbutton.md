@@ -4,17 +4,16 @@ title: IDvdInfo::GetCurrentButton
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of available buttons and the currently selected button number.
 old-location: dshow\idvdinfo_getcurrentbutton.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 13df79ea-81c9-4060-8e11-ad7a24a7b5fa
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetCurrentButton, GetCurrentButton method [DirectShow], GetCurrentButton method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentButton method, IDvdInfo.GetCurrentButton, IDvdInfo::GetCurrentButton, IDvdInfoGetCurrentButton, dshow.idvdinfo_getcurrentbutton, strmif/IDvdInfo::GetCurrentButton
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdInfo.GetCurrentButton
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo::GetCurrentButton
@@ -67,12 +65,12 @@ Retrieves the number of available buttons and the currently selected button numb
 
 ### -param pulButtonsAvailable
 
-
+TBD
 
 
 ### -param pulCurrentButton
 
-
+TBD
 
 
 

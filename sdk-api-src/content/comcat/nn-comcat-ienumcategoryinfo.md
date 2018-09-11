@@ -4,17 +4,16 @@ title: IEnumCATEGORYINFO
 author: windows-sdk-content
 description: Enumerates component categories registered in the system.
 old-location: com\ienumcategoryinfo.htm
-old-project: com
+tech.root: com
 ms.assetid: 87469ace-ae34-40e5-aab6-f26a4bc50b54
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumCATEGORYINFO, IEnumCATEGORYINFO interface [COM], IEnumCATEGORYINFO interface [COM],described, _com_ienumcategoryinfo, com.ienumcategoryinfo, comcat/IEnumCATEGORYINFO
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comcat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ServerInformation, *PServerInformation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumCATEGORYINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumCATEGORYINFO interface

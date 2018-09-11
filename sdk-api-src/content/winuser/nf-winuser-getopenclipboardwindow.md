@@ -4,17 +4,16 @@ title: GetOpenClipboardWindow function
 author: windows-sdk-content
 description: Retrieves the handle to the window that currently has the clipboard open.
 old-location: dataxchg\getopenclipboardwindow.htm
-old-project: dataxchg
+tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getopenclipboardwindow.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetOpenClipboardWindow, GetOpenClipboardWindow function [Data Exchange], _win32_GetOpenClipboardWindow, _win32_getopenclipboardwindow_cpp, dataxchg.getopenclipboardwindow, winui._win32_getopenclipboardwindow, winuser/GetOpenClipboardWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetOpenClipboardWindow
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetOpenClipboardWindow function

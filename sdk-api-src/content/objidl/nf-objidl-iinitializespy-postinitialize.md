@@ -4,17 +4,16 @@ title: IInitializeSpy::PostInitialize
 author: windows-sdk-content
 description: Performs initialization steps required after calling the CoInitializeEx function.
 old-location: com\iinitializespy_postinitialize.htm
-old-project: com
+tech.root: com
 ms.assetid: bdef4089-93e6-4845-8dcc-1150d7a0d033
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IInitializeSpy interface [COM],PostInitialize method, IInitializeSpy.PostInitialize, IInitializeSpy::PostInitialize, PostInitialize, PostInitialize method [COM], PostInitialize method [COM],IInitializeSpy interface, _com_iinitializespy_postinitialize, com.iinitializespy_postinitialize, objidl/IInitializeSpy::PostInitialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInitializeSpy.PostInitialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IInitializeSpy::PostInitialize

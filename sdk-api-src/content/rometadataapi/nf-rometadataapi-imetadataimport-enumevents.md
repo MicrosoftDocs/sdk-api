@@ -4,17 +4,16 @@ title: IMetaDataImport::EnumEvents
 author: windows-sdk-content
 description: Enumerates event definition tokens for the specified TypeDef token.
 old-location: winrt\imetadataimport_enumevents.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 442b5db1-1e5f-4314-9c53-dbd0f0651d3c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumEvents, EnumEvents method [Windows Runtime], EnumEvents method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumEvents method, IMetaDataImport.EnumEvents, IMetaDataImport::EnumEvents, rometadataapi/IMetaDataImport::EnumEvents, winrt.imetadataimport_enumevents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.EnumEvents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::EnumEvents

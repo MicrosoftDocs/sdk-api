@@ -4,7 +4,7 @@ title: "_DS_REPL_ATTR_VALUE_META_DATA_EXT"
 author: windows-sdk-content
 description: Provides metadata for a collection of attribute replication values.
 old-location: ad\ds_repl_attr_value_meta_data_ext.htm
-old-project: ad
+tech.root: ad
 ms.assetid: CA41C6BF-A485-4AC7-B761-3A07159C2FF1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_ATTR_VALUE_META_DATA_EXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DS_REPL_ATTR_VALUE_META_DATA_EXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DS_REPL_ATTR_VALUE_META_DATA_EXT
+req.redist: 
 ---
 
 # _DS_REPL_ATTR_VALUE_META_DATA_EXT structure

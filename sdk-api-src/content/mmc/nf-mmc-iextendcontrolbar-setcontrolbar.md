@@ -4,17 +4,16 @@ title: IExtendControlbar::SetControlbar
 author: windows-sdk-content
 description: The IExtendControlbar::SetControlbar method attaches or detaches a control bar.
 old-location: mmc\iextendcontrolbar_setcontrolbar.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 5088eff2-b7a0-4c16-a33c-3a82bc2e72af
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IExtendControlbar interface [MMC],SetControlbar method, IExtendControlbar.SetControlbar, IExtendControlbar::SetControlbar, SetControlbar, SetControlbar method [MMC], SetControlbar method [MMC],IExtendControlbar interface, _slate_iextendcontrolbar_setcontrolbar, mmc.iextendcontrolbar_setcontrolbar, mmc/IExtendControlbar::SetControlbar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExtendControlbar.SetControlbar
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IExtendControlbar::SetControlbar

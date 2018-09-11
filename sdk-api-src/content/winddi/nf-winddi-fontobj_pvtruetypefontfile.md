@@ -4,17 +4,16 @@ title: FONTOBJ_pvTrueTypeFontFile function
 author: windows-sdk-content
 description: The FONTOBJ_pvTrueTypeFontFile function retrieves a user-mode pointer to a view of a TrueType, OpenType, or Type1 font file.
 old-location: display\fontobj_pvtruetypefontfile.htm
-old-project: display
+tech.root: display
 ms.assetid: 2665d984-6a35-4950-92c0-82e7c8b633aa
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: FONTOBJ_pvTrueTypeFontFile, FONTOBJ_pvTrueTypeFontFile function [Display Devices], display.fontobj_pvtruetypefontfile, gdifncs_72ff6779-98e3-44b1-919c-06fa0ac1ffa2.xml, winddi/FONTOBJ_pvTrueTypeFontFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FONTOBJ_pvTrueTypeFontFile
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FONTOBJ_pvTrueTypeFontFile function

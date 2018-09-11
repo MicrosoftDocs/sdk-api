@@ -4,17 +4,16 @@ title: IEnumGuideDataProperties::Reset
 author: windows-sdk-content
 description: The Reset method resets the enumerator to the first item in the collection.
 old-location: mstv\ienumguidedataproperties_reset.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 5e019e0e-81f7-4eb9-9ddb-e20e7e216e33
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IEnumGuideDataProperties interface [Microsoft TV Technologies],Reset method, IEnumGuideDataProperties.Reset, IEnumGuideDataProperties::Reset, IEnumGuideDataPropertiesReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumGuideDataProperties interface, bdatif/IEnumGuideDataProperties::Reset, mstv.ienumguidedataproperties_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumGuideDataProperties.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumGuideDataProperties::Reset

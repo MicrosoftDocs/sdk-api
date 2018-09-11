@@ -4,17 +4,16 @@ title: IRegistrationInfo::put_Source
 author: windows-sdk-content
 description: Gets or sets where the task originated from. For example, a task may originate from a component, service, application, or user.
 old-location: taskschd\iregistrationinfo_source.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 538d48f9-671d-452b-8e78-86954342a28f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRegistrationInfo interface [Task Scheduler],Source property, IRegistrationInfo.Source, IRegistrationInfo.put_Source, IRegistrationInfo::Source, IRegistrationInfo::get_Source, IRegistrationInfo::put_Source, Source property [Task Scheduler], Source property [Task Scheduler],IRegistrationInfo interface, put_Source, taskschd.iregistrationinfo_source, taskschd/IRegistrationInfo::Source, taskschd/IRegistrationInfo::get_Source, taskschd/IRegistrationInfo::put_Source
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IRegistrationInfo.put_Source
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRegistrationInfo::put_Source

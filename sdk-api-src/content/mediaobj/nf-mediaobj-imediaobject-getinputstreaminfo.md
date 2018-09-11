@@ -4,17 +4,16 @@ title: IMediaObject::GetInputStreamInfo
 author: windows-sdk-content
 description: The GetInputStreamInfo method retrieves information about an input stream, such as any restrictions on the number of samples per buffer, and whether the stream performs lookahead on the input data. This information never changes.
 old-location: dshow\imediaobject_getinputstreaminfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9e18bf5e-cf29-4446-a1ba-422b41e02edc
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetInputStreamInfo, GetInputStreamInfo method [DirectShow], GetInputStreamInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputStreamInfo method, IMediaObject.GetInputStreamInfo, IMediaObject::GetInputStreamInfo, IMediaObjectGetInputStreamInfo, dshow.imediaobject_getinputstreaminfo, mediaobj/IMediaObject::GetInputStreamInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaObject.GetInputStreamInfo
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaObject::GetInputStreamInfo

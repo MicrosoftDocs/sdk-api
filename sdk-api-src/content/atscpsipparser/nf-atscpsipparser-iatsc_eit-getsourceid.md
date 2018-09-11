@@ -4,17 +4,16 @@ title: IATSC_EIT::GetSourceId
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_eit_getsourceid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 2ab6709e-3d96-4388-a9b2-97a2f04a4eae
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSourceId, GetSourceId method [Microsoft TV Technologies], GetSourceId method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetSourceId method, IATSC_EIT.GetSourceId, IATSC_EIT::GetSourceId, IATSC_EITGetSourceId, atscpsipparser/IATSC_EIT::GetSourceId, mstv.iatsc_eit_getsourceid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IATSC_EIT.GetSourceId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IATSC_EIT::GetSourceId

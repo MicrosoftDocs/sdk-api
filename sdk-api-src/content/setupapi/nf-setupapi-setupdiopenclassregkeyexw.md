@@ -4,17 +4,16 @@ title: SetupDiOpenClassRegKeyExW function
 author: windows-sdk-content
 description: The SetupDiOpenClassRegKeyEx function opens the device setup class registry key, the device interface class registry key, or a specific class's subkey. This function opens the specified key on the local computer or on a remote computer.
 old-location: devinst\setupdiopenclassregkeyex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: c931f906-8237-4203-b9b6-4dd54a93ca8b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiOpenClassRegKeyEx, SetupDiOpenClassRegKeyEx function [Device and Driver Installation], SetupDiOpenClassRegKeyExA, SetupDiOpenClassRegKeyExW, devinst.setupdiopenclassregkeyex, di-rtns_498e4805-8ce4-41cb-8d77-552dbf342f60.xml, setupapi/SetupDiOpenClassRegKeyEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiOpenClassRegKeyEx
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiOpenClassRegKeyExW function

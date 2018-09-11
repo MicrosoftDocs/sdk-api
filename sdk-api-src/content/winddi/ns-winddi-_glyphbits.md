@@ -4,7 +4,7 @@ title: "_GLYPHBITS"
 author: windows-sdk-content
 description: The GLYPHBITS structure is used to define a glyph bitmap.
 old-location: display\glyphbits.htm
-old-project: display
+tech.root: display
 ms.assetid: d7e0b5dd-dd94-4fc2-8c90-0d656a84c46b
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GLYPHBITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GLYPHBITS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: GLYPHBITS
+req.redist: 
 ---
 
 # _GLYPHBITS structure

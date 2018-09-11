@@ -4,17 +4,16 @@ title: IProtectionPolicyManagerInterop2::RequestAccessForAppWithAuditingInfoForW
 author: windows-sdk-content
 description: Request access to enterprise-protected content for a specific target app.
 old-location: edp\iprotectionpolicymanagerinterop2_requestaccessforappwithauditinginfoforwindowasync.htm
-old-project: EDP
+tech.root: EDP
 ms.assetid: 91DEC69B-066E-427F-9C25-47B15EAD0D89
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccessforappwithauditinginfoforwindowasync, IProtectionPolicyManagerInterop2 interface,RequestAccessForAppWithAuditingInfoForWindowAsync method, IProtectionPolicyManagerInterop2.RequestAccessForAppWithAuditingInfoForWindowAsync, IProtectionPolicyManagerInterop2::RequestAccessForAppWithAuditingInfoForWindowAsync, RequestAccessForAppWithAuditingInfoForWindowAsync, RequestAccessForAppWithAuditingInfoForWindowAsync method, RequestAccessForAppWithAuditingInfoForWindowAsync method,IProtectionPolicyManagerInterop2 interface, efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessForAppWithAuditingInfoForWindowAsync
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: efswrtinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TimedLevel
+req.lib: 
+req.dll: Efswrt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProtectionPolicyManagerInterop2.RequestAccessForAppWithAuditingInfoForWindowAsync
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Efswrt.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IProtectionPolicyManagerInterop2::RequestAccessForAppWithAuditingInfoForWindowAsync

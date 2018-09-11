@@ -4,17 +4,16 @@ title: WSAWaitForMultipleEvents function
 author: windows-sdk-content
 description: Returns when one or all of the specified event objects are in the signaled state, when the time-out interval expires, or when an I/O completion routine has executed.
 old-location: winsock\wsawaitformultipleevents_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 7a978ade-6323-455b-b655-f372f4bcadc8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSAWaitForMultipleEvents, WSAWaitForMultipleEvents function [Winsock], _win32_wsawaitformultipleevents_2, winsock.wsawaitformultipleevents_2, winsock2/WSAWaitForMultipleEvents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSAWaitForMultipleEvents
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSAWaitForMultipleEvents function

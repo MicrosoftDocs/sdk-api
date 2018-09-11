@@ -4,17 +4,16 @@ title: EnumerateLoadedModules64 function
 author: windows-sdk-content
 description: Enumerates the loaded modules for the specified process.
 old-location: base\enumerateloadedmodules64.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 9bfa683f-2a0f-418f-8ac4-5c4224265f2e
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: EnumerateLoadedModules, EnumerateLoadedModules function, EnumerateLoadedModules64, EnumerateLoadedModules64 function, EnumerateLoadedModulesW64, _win32_enumerateloadedmodules64, base.enumerateloadedmodules64, dbghelp/EnumerateLoadedModules, dbghelp/EnumerateLoadedModules64, dbghelp/EnumerateLoadedModulesW64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - EnumerateLoadedModules
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # EnumerateLoadedModules64 function

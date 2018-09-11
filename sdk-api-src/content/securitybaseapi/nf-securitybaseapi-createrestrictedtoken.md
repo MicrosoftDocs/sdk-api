@@ -4,17 +4,16 @@ title: CreateRestrictedToken function
 author: windows-sdk-content
 description: Creates a new access token that is a restricted version of an existing access token. The restricted token can have disabled security identifiers (SIDs), deleted privileges, and a list of restricting SIDs.
 old-location: security\createrestrictedtoken.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: e087f360-5d1d-4846-b3d6-214a426e5222
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: CreateRestrictedToken, CreateRestrictedToken function [Security], DISABLE_MAX_PRIVILEGE, LUA_TOKEN, SANDBOX_INERT, WRITE_RESTRICTED, _win32_createrestrictedtoken, security.createrestrictedtoken, securitybaseapi/CreateRestrictedToken
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - CreateRestrictedToken
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CreateRestrictedToken function

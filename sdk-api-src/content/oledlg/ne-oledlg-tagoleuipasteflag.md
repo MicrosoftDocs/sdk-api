@@ -4,17 +4,16 @@ title: tagOLEUIPASTEFLAG
 author: windows-sdk-content
 description: Indicates the user options that are available to the user when pasting this format, and within which group or list of choices (Paste, Paste Link, etc.).
 old-location: com\oleuipasteflag.htm
-old-project: com
+tech.root: com
 ms.assetid: 4467f82b-34be-4d10-816c-b3e4231c92a1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OLEUIPASTEFLAG, OLEUIPASTEFLAG enumeration [COM], OLEUIPASTE_ENABLEICON, OLEUIPASTE_LINKANYTYPE, OLEUIPASTE_LINKTYPE1, OLEUIPASTE_LINKTYPE2, OLEUIPASTE_LINKTYPE3, OLEUIPASTE_LINKTYPE4, OLEUIPASTE_LINKTYPE5, OLEUIPASTE_LINKTYPE6, OLEUIPASTE_LINKTYPE7, OLEUIPASTE_LINKTYPE8, OLEUIPASTE_PASTE, OLEUIPASTE_PASTEONLY, _ole_OLEUIPASTEFLAG, com.oleuipasteflag, oledlg/OLEUIPASTEFLAG, oledlg/OLEUIPASTE_ENABLEICON, oledlg/OLEUIPASTE_LINKANYTYPE, oledlg/OLEUIPASTE_LINKTYPE1, oledlg/OLEUIPASTE_LINKTYPE2, oledlg/OLEUIPASTE_LINKTYPE3, oledlg/OLEUIPASTE_LINKTYPE4, oledlg/OLEUIPASTE_LINKTYPE5, oledlg/OLEUIPASTE_LINKTYPE6, oledlg/OLEUIPASTE_LINKTYPE7, oledlg/OLEUIPASTE_LINKTYPE8, oledlg/OLEUIPASTE_PASTE, oledlg/OLEUIPASTE_PASTEONLY, tagOLEUIPASTEFLAG
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OLEUIPASTEFLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OLEUIPASTEFLAG
+req.redist: 
 ---
 
 # tagOLEUIPASTEFLAG enumeration

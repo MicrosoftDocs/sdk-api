@@ -4,7 +4,7 @@ title: PERF_MEM_FREE
 author: windows-sdk-content
 description: Providers implement this function to provide custom memory management for PERFLIB.
 old-location: perf\freememory.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 3b2f9f68-131a-4e17-8b43-6c3a20871dad
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FreeMemory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PERF_MEM_FREE callback function

@@ -4,17 +4,16 @@ title: IMFSourceBufferList::GetSourceBuffer
 author: windows-sdk-content
 description: Gets the IMFSourceBuffer at the specified index in the list.
 old-location: mf\imfsourcebufferlist_getsourcebuffer.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7f756c2e-79d0-400b-a84a-bc0e268f4f5b
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetSourceBuffer, GetSourceBuffer method [Media Foundation], GetSourceBuffer method [Media Foundation],IMFSourceBufferList interface, IMFSourceBufferList interface [Media Foundation],GetSourceBuffer method, IMFSourceBufferList.GetSourceBuffer, IMFSourceBufferList::GetSourceBuffer, mf.imfsourcebufferlist_getsourcebuffer, mfmediaengine/IMFSourceBufferList::GetSourceBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSourceBufferList.GetSourceBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSourceBufferList::GetSourceBuffer

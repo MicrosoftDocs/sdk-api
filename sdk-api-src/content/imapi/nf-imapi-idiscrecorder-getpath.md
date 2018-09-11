@@ -4,17 +4,16 @@ title: IDiscRecorder::GetPath
 author: windows-sdk-content
 description: Retrieves a path to the device within the operating system. This path should be used in conjunction with the display name to completely identify an available disc recorder.
 old-location: imapi\idiscrecorder_getpath.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: bceb7302-e5e6-4ee5-9adb-1736ab62e819
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetPath, GetPath method [IMAPI], GetPath method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetPath method, IDiscRecorder.GetPath, IDiscRecorder::GetPath, _win32_idiscrecorder_getpath, base.idiscrecorder_getpath, imapi.idiscrecorder_getpath, imapi/IDiscRecorder::GetPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder.GetPath
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder::GetPath

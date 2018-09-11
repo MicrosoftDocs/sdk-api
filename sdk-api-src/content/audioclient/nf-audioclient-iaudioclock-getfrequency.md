@@ -4,17 +4,16 @@ title: IAudioClock::GetFrequency
 author: windows-sdk-content
 description: The GetFrequency method gets the device frequency.
 old-location: coreaudio\iaudioclock_getfrequency.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 4ad17f03-a353-4ac5-9f07-b5dc7c3b530f
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetFrequency, GetFrequency method [Core Audio], GetFrequency method [Core Audio],IAudioClock interface, IAudioClock interface [Core Audio],GetFrequency method, IAudioClock.GetFrequency, IAudioClock::GetFrequency, IAudioClockGetFrequency, audioclient/IAudioClock::GetFrequency, coreaudio.iaudioclock_getfrequency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioClock.GetFrequency
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioClock::GetFrequency

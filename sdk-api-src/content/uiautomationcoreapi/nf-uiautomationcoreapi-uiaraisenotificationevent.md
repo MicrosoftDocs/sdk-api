@@ -4,17 +4,16 @@ title: UiaRaiseNotificationEvent function
 author: windows-sdk-content
 description: Called by providers to initiate a notification event.
 old-location: winauto\uiauto_UiaRaiseNotificationEvent.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: E9555BC0-A53B-416F-95C3-53696716F61F
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UiaRaiseNotificationEvent, UiaRaiseNotificationEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseNotificationEvent, winauto.uiauto_UiaRaiseNotificationEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - UiaRaiseNotificationEvent
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaRaiseNotificationEvent function

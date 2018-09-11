@@ -4,17 +4,16 @@ title: IWMPContentPartner::GetItemInfo
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_getiteminfo.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: b7355c45-fb58-45f4-b7e4-3dd2c3f8c918
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetItemInfo, GetItemInfo method [Windows Media Player], GetItemInfo method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetItemInfo method, IWMPContentPartner.GetItemInfo, IWMPContentPartner::GetItemInfo, IWMPContentPartnerGetItemInfo, contentpartner/IWMPContentPartner::GetItemInfo, wmp.iwmpcontentpartner_getiteminfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPTransactionType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWMPContentPartner.GetItemInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPContentPartner::GetItemInfo

@@ -4,7 +4,7 @@ title: IWMReaderStreamClock
 author: windows-sdk-content
 description: The IWMReaderStreamClock interface provides access to the clock used by the reader.This interface exists for every reader object.
 old-location: wmformat\iwmreaderstreamclock.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 0f170b6d-fd93-4bf8-8a98-f2a80f03b380
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMReaderStreamClock
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib
-req.dll: Wmvcore.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderStreamClock interface

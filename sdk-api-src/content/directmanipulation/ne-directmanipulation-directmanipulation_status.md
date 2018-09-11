@@ -4,7 +4,7 @@ title: DIRECTMANIPULATION_STATUS
 author: windows-sdk-content
 description: Defines the possible states of Direct Manipulation.
 old-location: directmanipulation\directmanipulation_status.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 6120702f-56f0-489d-a3b2-5f6ecac82b5e
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIRECTMANIPULATION_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIRECTMANIPULATION_STATUS
+req.redist: 
 ---
 
 # DIRECTMANIPULATION_STATUS enumeration

@@ -4,17 +4,16 @@ title: "_EC_SUBSCRIPTION_CREDENTIALS_TYPE"
 author: windows-sdk-content
 description: Specifies the type of credentials to use when communicating with event sources.
 old-location: wec\ec_subscription_credentials_type.htm
-old-project: WEC
+tech.root: WEC
 ms.assetid: 5f2d3e26-1703-4afb-8b58-ee747bb156e3
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EC_SUBSCRIPTION_CREDENTIALS_TYPE, EC_SUBSCRIPTION_CREDENTIALS_TYPE enumeration, EcSubscriptionCredBasic, EcSubscriptionCredDefault, EcSubscriptionCredDigest, EcSubscriptionCredLocalMachine, EcSubscriptionCredNegotiate, _EC_SUBSCRIPTION_CREDENTIALS_TYPE, evcoll/EC_SUBSCRIPTION_CREDENTIALS_TYPE, evcoll/EcSubscriptionCredBasic, evcoll/EcSubscriptionCredDefault, evcoll/EcSubscriptionCredDigest, evcoll/EcSubscriptionCredLocalMachine, evcoll/EcSubscriptionCredNegotiate, wec.ec_subscription_credentials_type, wes.ec_subscription_credentials_type
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: evcoll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EC_SUBSCRIPTION_CREDENTIALS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EC_SUBSCRIPTION_CREDENTIALS_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EC_SUBSCRIPTION_CREDENTIALS_TYPE
+req.redist: 
 ---
 
 # _EC_SUBSCRIPTION_CREDENTIALS_TYPE enumeration

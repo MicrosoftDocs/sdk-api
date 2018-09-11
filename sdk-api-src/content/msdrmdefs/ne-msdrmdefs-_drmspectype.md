@@ -4,7 +4,7 @@ title: "_DRMSPECTYPE"
 author: windows-sdk-content
 description: The DRMSPECTYPE enumeration indicates what type of security or library providers are used.
 old-location: rm\drmspectype.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 40997883-2636-4dd1-adf4-deff997abcc8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msdrmdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRMSPECTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMSPECTYPE
 product: Windows
 targetos: Windows
-req.lib: Msdrm.lib
-req.dll: Msdrm.dll
-req.irql: 
+req.typenames: DRMSPECTYPE
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

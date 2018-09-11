@@ -4,7 +4,7 @@ title: "_DDBOBNEXTFIELDINFO"
 author: windows-sdk-content
 description: The DDBOBNEXTFIELDINFO structure contains the bob information for the surface.
 old-location: display\ddbobnextfieldinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: fad2bf3d-798c-47d9-bd82-b6fc0deff0aa
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDBOBNEXTFIELDINFO, *PDDBOBNEXTFIELDINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDBOBNEXTFIELDINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DDBOBNEXTFIELDINFO, *PDDBOBNEXTFIELDINFO
+req.redist: 
 ---
 
 # _DDBOBNEXTFIELDINFO structure

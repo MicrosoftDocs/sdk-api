@@ -4,17 +4,16 @@ title: MappingFreeServices function
 author: windows-sdk-content
 description: Frees memory and resources allocated for the application to interact with one or more ELS services. The memory and resources are allocated in an application call to MappingGetServices.
 old-location: intl\mappingfreeservices.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 3b90c1c5-3007-4c5d-a51b-e77b1f9c2dd0
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MappingFreeServices, MappingFreeServices function [Internationalization for Windows Applications], elscore/MappingFreeServices, intl.mappingfreeservices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: elscore.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, *PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
+req.lib: Elscore.lib
+req.dll: Elscore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MappingFreeServices
 product: Windows
 targetos: Windows
-req.lib: Elscore.lib
-req.dll: Elscore.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # MappingFreeServices function

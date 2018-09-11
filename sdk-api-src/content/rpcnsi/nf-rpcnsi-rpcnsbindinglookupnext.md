@@ -4,17 +4,16 @@ title: RpcNsBindingLookupNext function
 author: windows-sdk-content
 description: The RpcNsBindingLookupNext function returns a list of compatible binding handles for a specified interface and optionally an object.
 old-location: rpc\rpcnsbindinglookupnext.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 068913fb-f9ca-4e03-93d7-3484ba43472e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcNsBindingLookupNext, RpcNsBindingLookupNext function [RPC], _rpc_rpcnsbindinglookupnext, rpc.rpcnsbindinglookupnext, rpcnsi/RpcNsBindingLookupNext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Rpcns4.lib
+req.dll: Rpcns4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcNsBindingLookupNext
 product: Windows
 targetos: Windows
-req.lib: Rpcns4.lib
-req.dll: Rpcns4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcNsBindingLookupNext function

@@ -4,17 +4,16 @@ title: IUIAutomationElement::GetCurrentPropertyValue
 author: windows-sdk-content
 description: Retrieves the current value of a property for this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCurrentPropertyValue.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 819e548e-7ff4-4f9f-969b-bfd1625f6151
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCurrentPropertyValue, GetCurrentPropertyValue method [Windows Accessibility], GetCurrentPropertyValue method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCurrentPropertyValue method, IUIAutomationElement.GetCurrentPropertyValue, IUIAutomationElement::GetCurrentPropertyValue, uiauto.uiauto_IUIAutomationElement_GetCurrentPropertyValue, uiauto_IUIAutomationElement_GetCurrentPropertyValue, uiautomationclient/IUIAutomationElement::GetCurrentPropertyValue, winauto.uiauto_IUIAutomationElement_GetCurrentPropertyValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationElement.GetCurrentPropertyValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::GetCurrentPropertyValue

@@ -4,7 +4,7 @@ title: ISCSI_TARGET_PORTALW
 author: windows-sdk-content
 description: ISCSI_TARGET_PORTAL structure contains information about a portal.
 old-location: iscsidisc\iscsi_target_portal.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: de78c7ec-c2ce-493a-ad29-2ea10e3d7dff
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ISCSI_TARGET_PORTALW, *PISCSI_TARGET_PORTALW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ISCSI_TARGET_PORTALW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ISCSI_TARGET_PORTALW, *PISCSI_TARGET_PORTALW
+req.redist: 
 ---
 
 # ISCSI_TARGET_PORTALW structure

@@ -4,17 +4,16 @@ title: ITsSbResourcePluginStore::EnumerateSessions
 author: windows-sdk-content
 description: Enumerates a specified set of sessions.
 old-location: termserv\itssbresourcepluginstore_enumeratesessions.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 217b5c28-b0f8-4a8f-8695-8c8e0895b508
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EnumerateSessions, EnumerateSessions method [Remote Desktop Services], EnumerateSessions method [Remote Desktop Services],ITsSbResourcePluginStore interface, EnumerateSessions method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],EnumerateSessions method, ITsSbResourcePluginStore.EnumerateSessions, ITsSbResourcePluginStore::EnumerateSessions, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],EnumerateSessions method, ITsSbResourcePluginStoreEx::EnumerateSessions, sbtsv/ITsSbResourcePluginStore::EnumerateSessions, sbtsv/ITsSbResourcePluginStoreEx::EnumerateSessions, termserv.itssbresourcepluginstore_enumeratesessions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbResourcePluginStoreEx.EnumerateSessions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourcePluginStore::EnumerateSessions

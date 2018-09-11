@@ -4,17 +4,16 @@ title: SetLogArchiveTail function
 author: windows-sdk-content
 description: Sets the last archived log sequence number (LSN) or archive tail of an archivable log.
 old-location: fs\setlogarchivetail.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 0cdd0b85-d53e-432d-962d-9e89143ec4c7
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: SetLogArchiveTail, SetLogArchiveTail function [Files], clfsw32/SetLogArchiveTail, fs.setlogarchivetail
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SetLogArchiveTail
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # SetLogArchiveTail function

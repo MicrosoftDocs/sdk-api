@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::CSSetConstantBuffers
 author: windows-sdk-content
 description: Sets the constant buffers used by the compute-shader stage.
 old-location: direct3d11\id3d11devicecontext_cssetconstantbuffers.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 40970d1d-bad3-48e0-8f0e-6d45fe602594
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 75636b6c-7b80-b606-530c-50b7b27df917, CSSetConstantBuffers, CSSetConstantBuffers method [Direct3D 11], CSSetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSSetConstantBuffers method, ID3D11DeviceContext.CSSetConstantBuffers, ID3D11DeviceContext::CSSetConstantBuffers, d3d11/ID3D11DeviceContext::CSSetConstantBuffers, direct3d11.id3d11devicecontext_cssetconstantbuffers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.CSSetConstantBuffers
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::CSSetConstantBuffers

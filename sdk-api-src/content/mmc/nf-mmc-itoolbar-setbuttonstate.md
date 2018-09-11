@@ -4,17 +4,16 @@ title: IToolbar::SetButtonState
 author: windows-sdk-content
 description: Enables a snap-in to set an attribute of a button.
 old-location: mmc\itoolbar_setbuttonstate.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: aa43fc1b-cc6d-474d-9b92-556924fb98de
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: BUTTONPRESSED, CHECKED, ENABLED, HIDDEN, INDETERMINATE, IToolbar interface [MMC],SetButtonState method, IToolbar.SetButtonState, IToolbar::SetButtonState, SetButtonState, SetButtonState method [MMC], SetButtonState method [MMC],IToolbar interface, _slate_itoolbar_setbuttonstate, mmc.itoolbar_setbuttonstate, mmc/IToolbar::SetButtonState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IToolbar.SetButtonState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IToolbar::SetButtonState

@@ -4,7 +4,7 @@ title: tagGOFFSET
 author: windows-sdk-content
 description: Contains the x and y offsets of the combining glyph.
 old-location: intl\goffset.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 63fa8741-c8c8-480d-9702-2f4eb13bc01c
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 
-req.redist: Internet Explorer 5 or later onWindows Me/98/95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GOFFSET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GOFFSET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: GOFFSET
+req.redist: Internet Explorer 5 or later onWindows Me/98/95
 ---
 
 # tagGOFFSET structure

@@ -4,17 +4,16 @@ title: ITsSbProvisioningPluginNotifySink::OnJobCompleted
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the job is complete.
 old-location: termserv\itssbprovisioningpluginnotifysink_onjobcompleted.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 7d0399c8-2161-4d6e-8c14-7fd5bc2757b8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnJobCompleted method, ITsSbProvisioningPluginNotifySink.OnJobCompleted, ITsSbProvisioningPluginNotifySink::OnJobCompleted, OnJobCompleted, OnJobCompleted method [Remote Desktop Services], OnJobCompleted method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCompleted, termserv.itssbprovisioningpluginnotifysink_onjobcompleted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbProvisioningPluginNotifySink.OnJobCompleted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbProvisioningPluginNotifySink::OnJobCompleted

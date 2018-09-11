@@ -4,17 +4,16 @@ title: IUPnPDeviceControl
 author: windows-sdk-content
 description: The IUPnPDeviceControl interface is the central point of management for a device and its service objects.
 old-location: upnp\iupnpdevicecontrol.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: c5d68459-f4ba-4df1-a00c-be86e24ce29f
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPDeviceControl, IUPnPDeviceControl interface [UPnP APIs], IUPnPDeviceControl interface [UPnP APIs],described, _upnp_iupnpdevicecontrol, upnp.iupnpdevicecontrol, upnphost/IUPnPDeviceControl
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnphost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDeviceControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnphost.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDeviceControl interface

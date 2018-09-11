@@ -4,17 +4,16 @@ title: "_ENUMERATION_BUFFER"
 author: windows-sdk-content
 description: The ENUMERATION_BUFFER structure contains information specific to a given flow, including flow name, the number of filters associated with the flow, and an array of filters associated with the flow.
 old-location: qos\enumeration_buffer.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: fd80b8c9-db0c-4e2c-b259-b21b06fc5d56
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PENUMERATION_BUFFER, ENUMERATION_BUFFER, ENUMERATION_BUFFER structure [QOS], PENUMERATION_BUFFER, PENUMERATION_BUFFER structure pointer [QOS], _ENUMERATION_BUFFER, _gqos_enumeration_buffer, qos.enumeration_buffer, traffic/ENUMERATION_BUFFER, traffic/PENUMERATION_BUFFER"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUMERATION_BUFFER, *PENUMERATION_BUFFER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ENUMERATION_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: ENUMERATION_BUFFER, *PENUMERATION_BUFFER
+req.redist: 
 ---
 
 # _ENUMERATION_BUFFER structure

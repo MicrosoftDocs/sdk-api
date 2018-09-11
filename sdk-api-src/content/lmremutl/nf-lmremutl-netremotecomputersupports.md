@@ -4,17 +4,16 @@ title: NetRemoteComputerSupports function
 author: windows-sdk-content
 description: The NetRemoteComputerSupports function queries the redirector to retrieve the optional features the remote system supports.
 old-location: netmgmt\netremotecomputersupports.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: e807489a-250e-4d4c-adb6-eff8ac30603b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetRemoteComputerSupports, NetRemoteComputerSupports function [Network Management], SUPPORTS_LOCAL, SUPPORTS_REMOTE_ADMIN_PROTOCOL, SUPPORTS_RPC, SUPPORTS_SAM_PROTOCOL, SUPPORTS_UNICODE, _win32_netremotecomputersupports, lmremutl/NetRemoteComputerSupports, netmgmt.netremotecomputersupports
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmremutl.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSG_INFO_1, *PMSG_INFO_1, *LPMSG_INFO_1
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetRemoteComputerSupports
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetRemoteComputerSupports function

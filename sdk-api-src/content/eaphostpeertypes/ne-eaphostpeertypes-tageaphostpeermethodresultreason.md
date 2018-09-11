@@ -4,7 +4,7 @@ title: tagEapHostPeerMethodResultReason
 author: windows-sdk-content
 description: Defines the set of possible reasons that describe the results returned by an EAP method to a supplicant.
 old-location: eaphost\eaphostpeermethodresultreason.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: f43d2883-d23f-455b-bde0-244a88630d25
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: eaphostpeertypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EapHostPeerMethodResultReason
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapHostPeerMethodResultReason
 product: Windows
 targetos: Windows
-req.lib: Eappcfg.lib
-req.dll: Eappcfg.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EapHostPeerMethodResultReason
+req.redist: 
 ---
 
 # tagEapHostPeerMethodResultReason enumeration

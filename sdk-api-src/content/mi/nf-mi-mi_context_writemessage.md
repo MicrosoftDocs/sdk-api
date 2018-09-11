@@ -4,17 +4,16 @@ title: MI_Context_WriteMessage function
 author: windows-sdk-content
 description: Sends an operational message to the client.
 old-location: wmi_v2\mi_context_writemessage.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: 2e4dbb4d-5482-4ed0-9903-34b3bb87b16f
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: MI_Context_WriteMessage, MI_Context_WriteMessage function [Windows Management Infrastructure (MI)], MI_WRITEMESSAGE_CHANNEL_DEBUG, MI_WRITEMESSAGE_CHANNEL_VERBOSE, MI_WRITEMESSAGE_CHANNEL_WARNING, mi/MI_Context_WriteMessage, wmi.mi_writemessage, wmi_v2.mi_context_writemessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 
-req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_Type
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_Context_WriteMessage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ---
 
 # MI_Context_WriteMessage function

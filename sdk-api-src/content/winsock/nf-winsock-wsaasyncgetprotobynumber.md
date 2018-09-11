@@ -4,17 +4,16 @@ title: WSAAsyncGetProtoByNumber function
 author: windows-sdk-content
 description: The WSAAsyncGetProtoByNumber function asynchronously retrieves protocol information that corresponds to a protocol number.
 old-location: winsock\wsaasyncgetprotobynumber_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 10f28345-c178-47c0-9d0f-87f6743131d9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSAAsyncGetProtoByNumber, WSAAsyncGetProtoByNumber function [Winsock], _win32_wsaasyncgetprotobynumber_2, winsock.wsaasyncgetprotobynumber_2, winsock/WSAAsyncGetProtoByNumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: smiVENDORINFO, *smiLPVENDORINFO
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSAAsyncGetProtoByNumber
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSAAsyncGetProtoByNumber function

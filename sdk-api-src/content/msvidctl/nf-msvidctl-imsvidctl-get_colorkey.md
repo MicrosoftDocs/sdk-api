@@ -4,17 +4,16 @@ title: IMSVidCtl::get_ColorKey
 author: windows-sdk-content
 description: The get_ColorKey method retrieves the color key that the video renderer is using.
 old-location: mstv\imsvidctl_get_colorkey.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 2f197faf-a91e-4984-8858-ceab6506b273
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_ColorKey method, IMSVidCtl.get_ColorKey, IMSVidCtl::get_ColorKey, IMSVidCtlget_ColorKey, get_ColorKey, get_ColorKey method [Microsoft TV Technologies], get_ColorKey method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_colorkey, msvidctl/IMSVidCtl::get_ColorKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.get_ColorKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::get_ColorKey
@@ -62,7 +60,7 @@ The <b>get_ColorKey</b> method retrieves the color key that the video renderer i
 
 ### -param CurrentValue
 
-
+TBD
 
 
 

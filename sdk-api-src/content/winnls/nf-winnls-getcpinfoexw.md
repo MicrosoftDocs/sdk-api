@@ -4,17 +4,16 @@ title: GetCPInfoExW function
 author: windows-sdk-content
 description: Retrieves information about any valid installed or available code page.
 old-location: intl\getcpinfoex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: c21ed6fe-85b6-438a-8f53-e30833e0c88a
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_THREAD_ACP, GetCPInfoEx, GetCPInfoEx function [Internationalization for Windows Applications], GetCPInfoExA, GetCPInfoExW, _win32_GetCPInfoEx, intl.getcpinfoex, winnls/GetCPInfoEx, winnls/GetCPInfoExA, winnls/GetCPInfoExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -51,10 +51,8 @@ api_name:
  - GetCPInfoExW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetCPInfoExW function

@@ -4,7 +4,7 @@ title: drt_leafset_key_change_type_tag
 author: windows-sdk-content
 description: The DRT_LEAFSET_KEY_CHANGE_TYPE enumeration defines the set of changes that can occur on nodes in the leaf set of a locally registered key.
 old-location: p2p\drt_leafset_key_change_type.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: f4990710-7278-461f-a82e-94cd548eab35
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_LEAFSET_KEY_CHANGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRT_LEAFSET_KEY_CHANGE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRT_LEAFSET_KEY_CHANGE_TYPE
+req.redist: 
 ---
 
 # drt_leafset_key_change_type_tag enumeration

@@ -4,17 +4,16 @@ title: tagDVASPECT2
 author: windows-sdk-content
 description: Specifies new drawing aspects used to optimize the drawing process.
 old-location: com\dvaspect2.htm
-old-project: com
+tech.root: com
 ms.assetid: 9000b807-5a42-437f-a3e8-a7b23be1665b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DVASPECT2, DVASPECT2 enumeration [COM], DVASPECT_OPAQUE, DVASPECT_TRANSPARENT, _ole_DVASPECT2, com.dvaspect2, ocidl/DVASPECT2, ocidl/DVASPECT_OPAQUE, ocidl/DVASPECT_TRANSPARENT, tagDVASPECT2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVASPECT2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVASPECT2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DVASPECT2
+req.redist: 
 ---
 
 # tagDVASPECT2 enumeration

@@ -4,17 +4,16 @@ title: phoneGetButtonInfoW function
 author: windows-sdk-content
 description: The phoneGetButtonInfo function returns information about the specified button.
 old-location: tapi2\phonegetbuttoninfo.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: a4df5ba0-7fce-4d29-80a6-4f8f58ae1a83
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: "_tapi2_phonegetbuttoninfo, phoneGetButtonInfo, phoneGetButtonInfo function [TAPI 2.2], phoneGetButtonInfoA, phoneGetButtonInfoW, tapi/phoneGetButtonInfo, tapi/phoneGetButtonInfoA, tapi/phoneGetButtonInfoW, tapi2.phonegetbuttoninfo"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - phoneGetButtonInfoW
 product: Windows
 targetos: Windows
-req.lib: Tapi32.lib
-req.dll: Tapi32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # phoneGetButtonInfoW function

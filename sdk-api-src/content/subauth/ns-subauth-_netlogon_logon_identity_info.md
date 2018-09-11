@@ -4,17 +4,16 @@ title: "_NETLOGON_LOGON_IDENTITY_INFO"
 author: windows-sdk-content
 description: Used to pass information about a user for logon subauthentication.
 old-location: security\netlogon_logon_identity_info.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: b9cdf09f-897c-407e-80ba-e18c9ba667ec
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PNETLOGON_LOGON_IDENTITY_INFO, CLEARTEXT_PASSWORD_ALLOWED, NETLOGON_LOGON_IDENTITY_INFO, NETLOGON_LOGON_IDENTITY_INFO structure [Security], PNETLOGON_LOGON_IDENTITY_INFO, PNETLOGON_LOGON_IDENTITY_INFO structure pointer [Security], _NETLOGON_LOGON_IDENTITY_INFO, _lsa_netlogon_logon_identity_info, security.netlogon_logon_identity_info, subauth/NETLOGON_LOGON_IDENTITY_INFO, subauth/PNETLOGON_LOGON_IDENTITY_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: subauth.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETLOGON_LOGON_IDENTITY_INFO, *PNETLOGON_LOGON_IDENTITY_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NETLOGON_LOGON_IDENTITY_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: NETLOGON_LOGON_IDENTITY_INFO, *PNETLOGON_LOGON_IDENTITY_INFO
+req.redist: 
 ---
 
 # _NETLOGON_LOGON_IDENTITY_INFO structure

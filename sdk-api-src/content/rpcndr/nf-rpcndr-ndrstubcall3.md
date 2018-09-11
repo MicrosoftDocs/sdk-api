@@ -4,17 +4,16 @@ title: NdrStubCall3 function
 author: windows-sdk-content
 description: NdrStubCall3 is not intended to be directly called by applications.
 old-location: rpc\ndrstubcall3.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 2EBEAD72-DEBE-44D6-9CC1-A9264D8B88C4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NdrStubCall3, NdrStubCall3 function [RPC], rpc.ndrstubcall3, rpcndr/NdrStubCall3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrStubCall3
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrStubCall3 function

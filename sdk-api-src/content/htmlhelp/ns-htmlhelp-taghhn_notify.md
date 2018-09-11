@@ -4,7 +4,7 @@ title: tagHHN_NOTIFY
 author: windows-sdk-content
 description: Use this structure to return the file name of the topic that has been navigated to, or to return the window type name of the help window that has been created.
 old-location: htmlhelp\hhn_notify_structure.htm
-old-project: htmlhelp
+tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhnnotify.htm
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: htmlhelp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HHN_NOTIFY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HHN_NOTIFY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HHN_NOTIFY
+req.redist: 
 ---
 
 # tagHHN_NOTIFY structure

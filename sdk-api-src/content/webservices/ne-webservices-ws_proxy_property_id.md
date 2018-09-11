@@ -4,17 +4,16 @@ title: WS_PROXY_PROPERTY_ID
 author: windows-sdk-content
 description: Optional parameters for configuring the service proxy. With an exception of WS_PROXY_PROPERTY_STATE all the values are only supported for use with WsCreateServiceProxy as part of the WS_PROXY_PROPERTY* parameter.
 old-location: wsw\ws_proxy_property_id.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: d81944ae-74b9-4eee-b02f-5b1d5c99c358
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_PROXY_FAULT_LANG_ID, WS_PROXY_PROPERTY_CALL_TIMEOUT, WS_PROXY_PROPERTY_ID, WS_PROXY_PROPERTY_ID enumeration [Web Services for Windows], WS_PROXY_PROPERTY_MAX_CALL_POOL_SIZE, WS_PROXY_PROPERTY_MAX_CLOSE_TIMEOUT, WS_PROXY_PROPERTY_MAX_PENDING_CALLS, WS_PROXY_PROPERTY_MESSAGE_PROPERTIES, WS_PROXY_PROPERTY_STATE, webservices/WS_PROXY_FAULT_LANG_ID, webservices/WS_PROXY_PROPERTY_CALL_TIMEOUT, webservices/WS_PROXY_PROPERTY_ID, webservices/WS_PROXY_PROPERTY_MAX_CALL_POOL_SIZE, webservices/WS_PROXY_PROPERTY_MAX_CLOSE_TIMEOUT, webservices/WS_PROXY_PROPERTY_MAX_PENDING_CALLS, webservices/WS_PROXY_PROPERTY_MESSAGE_PROPERTIES, webservices/WS_PROXY_PROPERTY_STATE, wsw.ws_proxy_property_id
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_PROXY_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_PROXY_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_PROXY_PROPERTY_ID
+req.redist: 
 ---
 
 # WS_PROXY_PROPERTY_ID enumeration

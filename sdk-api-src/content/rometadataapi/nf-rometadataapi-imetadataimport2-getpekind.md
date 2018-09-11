@@ -4,17 +4,16 @@ title: IMetaDataImport2::GetPEKind
 author: windows-sdk-content
 description: Gets a value identifying the nature of the code in the portable executable (PE) file, typically a DLL or EXE file, that is defined in the current metadata scope.
 old-location: winrt\imetadataimport2_getpekind.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: ece40ffa-f92f-4f27-b03c-75204e0c6ee1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetPEKind, GetPEKind method [Windows Runtime], GetPEKind method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetPEKind method, IMetaDataImport2.GetPEKind, IMetaDataImport2::GetPEKind, rometadataapi/IMetaDataImport2::GetPEKind, winrt.imetadataimport2_getpekind
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport2.GetPEKind
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport2::GetPEKind

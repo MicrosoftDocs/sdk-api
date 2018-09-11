@@ -4,17 +4,16 @@ title: ISBE2EnumStream::Clone
 author: windows-sdk-content
 description: Creates a copy of the enumerator object. The copy starts with the same enumeration state as the original.
 old-location: mstv\isbe2enumstream_clone.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d68daae6-2aef-4405-883b-a0e7ee6e5eb3
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],ISBE2EnumStream interface, ISBE2EnumStream interface [Microsoft TV Technologies],Clone method, ISBE2EnumStream.Clone, ISBE2EnumStream::Clone, mstv.isbe2enumstream_clone, sbe/ISBE2EnumStream::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: Sbe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISBE2EnumStream.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sbe.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISBE2EnumStream::Clone

@@ -4,17 +4,16 @@ title: IMediaPosition::put_PrerollTime
 author: windows-sdk-content
 description: The put_PrerollTime method sets the amount of data that will be queued before the start position.
 old-location: dshow\imediaposition_put_prerolltime.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a09e6e9f-7e6f-4e53-b805-ee4b9d97f4e7
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaPosition interface [DirectShow],put_PrerollTime method, IMediaPosition.put_PrerollTime, IMediaPosition::put_PrerollTime, IMediaPositionput_PrerollTime, control/IMediaPosition::put_PrerollTime, dshow.imediaposition_put_prerolltime, put_PrerollTime, put_PrerollTime method [DirectShow], put_PrerollTime method [DirectShow],IMediaPosition interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IMediaPosition.put_PrerollTime
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaPosition::put_PrerollTime

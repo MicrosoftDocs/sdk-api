@@ -4,17 +4,16 @@ title: IVssHardwareSnapshotProvider::GetTargetLuns
 author: windows-sdk-content
 description: Prompts the hardware provider to initialize the VDS_LUN_INFORMATION structures for the newly created shadow copy LUNs.
 old-location: base\ivsshardwaresnapshotprovider_gettargetluns.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 299020eb-0afd-41c8-9551-1275eff45fa1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetTargetLuns, GetTargetLuns method [VSS], GetTargetLuns method [VSS],IVssHardwareSnapshotProvider interface, IVssHardwareSnapshotProvider interface [VSS],GetTargetLuns method, IVssHardwareSnapshotProvider.GetTargetLuns, IVssHardwareSnapshotProvider::GetTargetLuns, base.ivsshardwaresnapshotprovider_gettargetluns, vsprov/IVssHardwareSnapshotProvider::GetTargetLuns
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssHardwareSnapshotProvider.GetTargetLuns
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssHardwareSnapshotProvider::GetTargetLuns

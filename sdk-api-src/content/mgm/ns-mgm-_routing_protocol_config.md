@@ -4,17 +4,16 @@ title: "_ROUTING_PROTOCOL_CONFIG"
 author: windows-sdk-content
 description: The ROUTING_PROTOCOL_CONFIG structure describes the routing protocol configuration information that is passed to the multicast group manager when a protocol registers with the multicast group manager.
 old-location: rras\routing_protocol_config_str.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: acbf0519-a0c8-4b96-9722-9eeccee026d7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PROUTING_PROTOCOL_CONFIG, PROUTING_PROTOCOL_CONFIG, PROUTING_PROTOCOL_CONFIG structure pointer [RAS], ROUTING_PROTOCOL_CONFIG, ROUTING_PROTOCOL_CONFIG structure [RAS], _ROUTING_PROTOCOL_CONFIG, _mpr_routing_protocol_config_str, mgm/PROUTING_PROTOCOL_CONFIG, mgm/ROUTING_PROTOCOL_CONFIG, rras.routing_protocol_config_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mgm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTING_PROTOCOL_CONFIG, *PROUTING_PROTOCOL_CONFIG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ROUTING_PROTOCOL_CONFIG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ROUTING_PROTOCOL_CONFIG, *PROUTING_PROTOCOL_CONFIG
+req.redist: 
 ---
 
 # _ROUTING_PROTOCOL_CONFIG structure

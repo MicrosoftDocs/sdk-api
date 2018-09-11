@@ -4,17 +4,16 @@ title: ITToneTerminalEvent::get_Terminal
 author: windows-sdk-content
 description: The get_Terminal method returns an ITTerminal pointer for the tone terminal on which the event occurred.
 old-location: tapi3\ittoneterminalevent_get_terminal.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 3358e219-fde9-4b60-bf75-c6d8c42a51ea
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITToneTerminalEvent interface [TAPI 2.2],get_Terminal method, ITToneTerminalEvent.get_Terminal, ITToneTerminalEvent::get_Terminal, _tapi3_ittoneterminalevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITToneTerminalEvent interface, tapi3.ittoneterminalevent_get_terminal, tapi3if/ITToneTerminalEvent::get_Terminal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITToneTerminalEvent.get_Terminal
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITToneTerminalEvent::get_Terminal

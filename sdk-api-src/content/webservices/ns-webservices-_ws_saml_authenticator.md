@@ -4,17 +4,16 @@ title: "_WS_SAML_AUTHENTICATOR"
 author: windows-sdk-content
 description: The abstract base type for all SAML authenticators used on the server side to validate incoming SAML tokens.
 old-location: wsw\ws_saml_authenticator.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 3e67670f-3fde-4a2d-8c55-f4a3f5bef5f0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SAML_AUTHENTICATOR, WS_SAML_AUTHENTICATOR structure [Web Services for Windows], _WS_SAML_AUTHENTICATOR, webservices/WS_SAML_AUTHENTICATOR, wsw.ws_saml_authenticator
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SAML_AUTHENTICATOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SAML_AUTHENTICATOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SAML_AUTHENTICATOR
+req.redist: 
 ---
 
 # _WS_SAML_AUTHENTICATOR structure

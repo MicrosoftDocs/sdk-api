@@ -4,17 +4,16 @@ title: IBasicVideo::SetDefaultSourcePosition
 author: windows-sdk-content
 description: The SetDefaultSourcePosition method reverts to the default source rectangle. After this method is called, the video renderer uses the entire video image, without cropping.
 old-location: dshow\ibasicvideo_setdefaultsourceposition.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f7b440c0-8f91-4f32-adc6-82fa658125d0
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IBasicVideo interface [DirectShow],SetDefaultSourcePosition method, IBasicVideo.SetDefaultSourcePosition, IBasicVideo::SetDefaultSourcePosition, IBasicVideoSetDefaultSourcePosition, SetDefaultSourcePosition, SetDefaultSourcePosition method [DirectShow], SetDefaultSourcePosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetDefaultSourcePosition, dshow.ibasicvideo_setdefaultsourceposition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBasicVideo.SetDefaultSourcePosition
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBasicVideo::SetDefaultSourcePosition

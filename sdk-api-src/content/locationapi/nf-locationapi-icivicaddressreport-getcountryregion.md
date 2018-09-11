@@ -4,17 +4,16 @@ title: ICivicAddressReport::GetCountryRegion
 author: windows-sdk-content
 description: Retrieves the two-letter country or region code.
 old-location: winlocation_com_ref\icivicaddressreport_getcountryregion.htm
-old-project: locationapi
+tech.root: locationapi
 ms.assetid: 1bcf7939-e047-412f-874d-18bb5e93e5ec
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetCountryRegion, GetCountryRegion method [WinLocation], GetCountryRegion method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetCountryRegion method, ICivicAddressReport.GetCountryRegion, ICivicAddressReport::GetCountryRegion, WinLocation_COM_Ref.icivicaddressreport_getcountryregion, locationapi/ICivicAddressReport::GetCountryRegion, winlocation.icivicaddressreport_getcountry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only],Windows 7
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCATION_REPORT_STATUS
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICivicAddressReport.GetCountryRegion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: LocationAPI.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ICivicAddressReport::GetCountryRegion

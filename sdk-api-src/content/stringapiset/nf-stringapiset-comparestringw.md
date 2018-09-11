@@ -4,17 +4,16 @@ title: CompareStringW function
 author: windows-sdk-content
 description: Compares two character strings, for a locale specified by identifier.Caution  Using CompareString incorrectly can compromise the security of your application.
 old-location: intl\comparestring.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 4db84fa7-f3c2-48fb-ad7d-8673397c4b0e
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: CompareString, CompareString function [Internationalization for Windows Applications], CompareStringA, CompareStringW, _win32_CompareString, _win32_CompareString_cpp, intl.comparestring, stringapiset/CompareString, stringapiset/CompareStringA, stringapiset/CompareStringW, winnls/CompareString, winnls/CompareStringA, winnls/CompareStringW, winui._win32_CompareString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: stringapiset.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR50_SERVICE_CHARACTERISTICS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - CompareStringW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # CompareStringW function

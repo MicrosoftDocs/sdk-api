@@ -4,17 +4,16 @@ title: IWMSInternalAdminNetSource3::SetCredentialsEx2
 author: windows-sdk-content
 description: The SetCredentialsEx2 method adds a password to the cache. This improved version of IWMSInternalAdminNetSource2::SetCredentialsEx adds a flag (fClearTextAuthentication) that indicates whether credentials were sent in unencrypted form over the network.
 old-location: wmformat\iwmsinternaladminnetsource3_setcredentialsex2.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 6d4fbd40-46f8-4f9e-b2bc-43c09acf4d67
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMSInternalAdminNetSource3 interface [windows Media Format],SetCredentialsEx2 method, IWMSInternalAdminNetSource3.SetCredentialsEx2, IWMSInternalAdminNetSource3::SetCredentialsEx2, IWMSInternalAdminNetSource3SetCredentialsEx3, SetCredentialsEx2, SetCredentialsEx2 method [windows Media Format], SetCredentialsEx2 method [windows Media Format],IWMSInternalAdminNetSource3 interface, wmformat.iwmsinternaladminnetsource3_setcredentialsex2, wmsinternaladminnetsource/IWMSInternalAdminNetSource3::SetCredentialsEx2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETSOURCE_URLCREDPOLICY_SETTINGS
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMSInternalAdminNetSource3.SetCredentialsEx2
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMSInternalAdminNetSource3::SetCredentialsEx2

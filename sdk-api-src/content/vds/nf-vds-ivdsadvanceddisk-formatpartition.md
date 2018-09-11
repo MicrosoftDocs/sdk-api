@@ -4,17 +4,16 @@ title: IVdsAdvancedDisk::FormatPartition
 author: windows-sdk-content
 description: Formats an existing OEM, ESP, or unknown partition.
 old-location: base\ivdsadvanceddisk_formatpartition.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 9b7015c2-a85d-4a56-8aec-208933640185
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: FormatPartition, FormatPartition method [VDS], FormatPartition method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],FormatPartition method, IVdsAdvancedDisk.FormatPartition, IVdsAdvancedDisk::FormatPartition, base.ivdsadvanceddisk_formatpartition, vds/IVdsAdvancedDisk::FormatPartition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsAdvancedDisk.FormatPartition
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsAdvancedDisk::FormatPartition

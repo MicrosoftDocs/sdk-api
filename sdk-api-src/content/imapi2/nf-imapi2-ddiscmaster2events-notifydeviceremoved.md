@@ -4,17 +4,16 @@ title: DDiscMaster2Events::NotifyDeviceRemoved
 author: windows-sdk-content
 description: Receives notification when an optical media device is removed from the computer.
 old-location: imapi\ddiscmaster2events_notifydeviceremoved.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 626096ba-f2d7-4a75-b04c-f95aad6915cc
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: DDiscMaster2Events interface [IMAPI],NotifyDeviceRemoved method, DDiscMaster2Events.NotifyDeviceRemoved, DDiscMaster2Events::NotifyDeviceRemoved, NotifyDeviceRemoved, NotifyDeviceRemoved method [IMAPI], NotifyDeviceRemoved method [IMAPI],DDiscMaster2Events interface, imapi.ddiscmaster2events_notifydeviceremoved, imapi2/DDiscMaster2Events::NotifyDeviceRemoved
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDiscMaster2Events.NotifyDeviceRemoved
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # DDiscMaster2Events::NotifyDeviceRemoved

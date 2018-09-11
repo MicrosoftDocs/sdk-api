@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_msrdc_0000_0000_0010"
 author: windows-sdk-content
 description: Defines the access mode values for RDC file mapping objects.
 old-location: rdc\rdcmappingaccessmode.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 570fe290-1209-4bae-a56c-f6f663e53f87
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: RDCMAPPING_ReadOnly, RDCMAPPING_ReadWrite, RDCMAPPING_Undefined, RdcMappingAccessMode, RdcMappingAccessMode enumeration [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0010, fs.rdcmappingaccessmode, msrdc/RDCMAPPING_ReadOnly, msrdc/RDCMAPPING_ReadWrite, msrdc/RDCMAPPING_Undefined, msrdc/RdcMappingAccessMode, rdc.rdcmappingaccessmode
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RdcMappingAccessMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: RdcMappingAccessMode
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_msrdc_0000_0000_0010 enumeration

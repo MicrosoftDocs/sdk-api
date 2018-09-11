@@ -4,7 +4,7 @@ title: IProtectionPolicyManagerInterop2
 author: windows-sdk-content
 description: Manages enterprise protection policy on protected content.
 old-location: edp\iprotectionpolicymanagerinterop2.htm
-old-project: EDP
+tech.root: EDP
 ms.assetid: B4B5BD4B-8F5F-4C1A-902E-5FB7FF75616B
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: efswrtinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TimedLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProtectionPolicyManagerInterop2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Efswrt.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IProtectionPolicyManagerInterop2 interface

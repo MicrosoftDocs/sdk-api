@@ -4,17 +4,16 @@ title: IWMBandwidthSharing::GetType
 author: windows-sdk-content
 description: The GetType method retrieves the type of sharing for the bandwidth sharing object.
 old-location: wmformat\iwmbandwidthsharing_gettype.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: acef383f-83cb-45be-80fa-1339b391f32b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetType, GetType method [windows Media Format], GetType method [windows Media Format],IWMBandwidthSharing interface, IWMBandwidthSharing interface [windows Media Format],GetType method, IWMBandwidthSharing.GetType, IWMBandwidthSharing::GetType, IWMBandwidthSharingGetType, wmformat.iwmbandwidthsharing_gettype, wmsdkidl/IWMBandwidthSharing::GetType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMBandwidthSharing.GetType
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMBandwidthSharing::GetType

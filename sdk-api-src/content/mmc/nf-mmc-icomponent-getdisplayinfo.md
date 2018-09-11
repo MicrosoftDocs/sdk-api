@@ -4,17 +4,16 @@ title: IComponent::GetDisplayInfo
 author: windows-sdk-content
 description: The IComponent::GetDisplayInfo method retrieves display information for an item in the result pane.
 old-location: mmc\icomponent_getdisplayinfo.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 8143d11c-3740-4ffc-88f0-6df779c50521
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: GetDisplayInfo, GetDisplayInfo method [MMC], GetDisplayInfo method [MMC],IComponent interface, IComponent interface [MMC],GetDisplayInfo method, IComponent.GetDisplayInfo, IComponent::GetDisplayInfo, _slate_icomponent_getdisplayinfo, mmc.icomponent_getdisplayinfo, mmc/IComponent::GetDisplayInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponent.GetDisplayInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IComponent::GetDisplayInfo

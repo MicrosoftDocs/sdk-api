@@ -4,17 +4,16 @@ title: IMSVidStreamBufferV2SourceEvent::ContentBecomingStale
 author: windows-sdk-content
 description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_CONTENT_BECOMING_STALE event, which indicates the stream buffer source lags behind the stream buffer sink by more than a preset number of files.For more information, see IStreamBufferConfigure::GetBackingFileCount.
 old-location: mstv\imsvidstreambufferv2sourceevent_contentbecomingstale.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b9af548a-9796-4dc0-8b78-46e529a484ce
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ContentBecomingStale, ContentBecomingStale method [Microsoft TV Technologies], ContentBecomingStale method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],ContentBecomingStale method, IMSVidStreamBufferV2SourceEvent.ContentBecomingStale, IMSVidStreamBufferV2SourceEvent::ContentBecomingStale, mstv.imsvidstreambufferv2sourceevent_contentbecomingstale, segment/IMSVidStreamBufferV2SourceEvent::ContentBecomingStale
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferV2SourceEvent.ContentBecomingStale
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferV2SourceEvent::ContentBecomingStale

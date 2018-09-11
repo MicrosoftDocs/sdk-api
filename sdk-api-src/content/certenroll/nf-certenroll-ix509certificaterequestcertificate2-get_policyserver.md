@@ -4,17 +4,16 @@ title: IX509CertificateRequestCertificate2::get_PolicyServer
 author: windows-sdk-content
 description: Retrieves the certificate enrollment policy (CEP) server that contains the template used during initialization.
 old-location: security\ix509certificaterequestcertificate2_policyserver.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 698f78a3-75aa-4499-a3df-00a3e1d0a607
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestCertificate2 interface [Security],PolicyServer property, IX509CertificateRequestCertificate2.PolicyServer, IX509CertificateRequestCertificate2.get_PolicyServer, IX509CertificateRequestCertificate2::PolicyServer, IX509CertificateRequestCertificate2::get_PolicyServer, PolicyServer property [Security], PolicyServer property [Security],IX509CertificateRequestCertificate2 interface, certenroll/IX509CertificateRequestCertificate2::PolicyServer, certenroll/IX509CertificateRequestCertificate2::get_PolicyServer, get_PolicyServer, security.ix509certificaterequestcertificate2_policyserver
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509CertificateRequestCertificate2.get_PolicyServer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestCertificate2::get_PolicyServer

@@ -4,17 +4,16 @@ title: IPhotoAcquireSettings::SetGroupTag
 author: windows-sdk-content
 description: The SetGroupTag method sets the group tag for an acquisition session.
 old-location: picacq\iphotoacquiresettings_setgrouptag.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: f3c8b7dc-5701-412a-a376-498c40017d8f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetGroupTag method, IPhotoAcquireSettings.SetGroupTag, IPhotoAcquireSettings::SetGroupTag, IPhotoAcquireSettingsSetGroupTag, SetGroupTag, SetGroupTag method [Picture Acquisition], SetGroupTag method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetGroupTag, picacq.iphotoacquiresettings_setgrouptag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireSettings.SetGroupTag
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireSettings::SetGroupTag

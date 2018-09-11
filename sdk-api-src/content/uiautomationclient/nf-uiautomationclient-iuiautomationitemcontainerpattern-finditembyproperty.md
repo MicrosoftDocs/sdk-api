@@ -4,17 +4,16 @@ title: IUIAutomationItemContainerPattern::FindItemByProperty
 author: windows-sdk-content
 description: Retrieves an element within a containing element, based on a specified property value.
 old-location: winauto\uiauto_IUIAutomationItemContainerPattern_FindItemByProperty.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: d27f07ae-2c88-4cde-99b8-0c8c987b95d3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FindItemByProperty, FindItemByProperty method [Windows Accessibility], FindItemByProperty method [Windows Accessibility],IUIAutomationItemContainerPattern interface, IUIAutomationItemContainerPattern interface [Windows Accessibility],FindItemByProperty method, IUIAutomationItemContainerPattern.FindItemByProperty, IUIAutomationItemContainerPattern::FindItemByProperty, uiauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiautomationclient/IUIAutomationItemContainerPattern::FindItemByProperty, winauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationItemContainerPattern.FindItemByProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationItemContainerPattern::FindItemByProperty
@@ -62,7 +60,7 @@ Retrieves an element within a containing element, based on a specified property 
 
 ### -param pStartAfter
 
-
+TBD
 
 
 ### -param propertyId [in]
@@ -81,7 +79,7 @@ The property value.
 
 ### -param pFound
 
-
+TBD
 
 
 

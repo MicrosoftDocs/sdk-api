@@ -4,17 +4,16 @@ title: IDataCollector::put_LogOverwrite
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates if PLA should overwrite the current file.
 old-location: pla\idatacollector_logoverwrite.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 17f40639-2e24-4a7e-b934-036d8595bdbf
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollector interface [PLA],LogOverwrite property, IDataCollector.LogOverwrite, IDataCollector.put_LogOverwrite, IDataCollector::LogOverwrite, IDataCollector::get_LogOverwrite, IDataCollector::put_LogOverwrite, LogOverwrite property [PLA], LogOverwrite property [PLA],IDataCollector interface, base.idatacollector_logoverwrite, pla.idatacollector_logoverwrite, pla/IDataCollector::LogOverwrite, pla/IDataCollector::get_LogOverwrite, pla/IDataCollector::put_LogOverwrite, put_LogOverwrite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataCollector.put_LogOverwrite
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollector::put_LogOverwrite

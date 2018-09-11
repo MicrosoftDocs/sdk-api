@@ -4,17 +4,16 @@ title: Graphics::DrawDriverString
 author: windows-sdk-content
 description: The Graphics::DrawDriverString method draws characters at the specified positions. The method gives the client complete control over the appearance of text. The method assumes that the client has already set up the format and layout to be applied.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawDriverString_text_length_font_brush_positions_flags_matrix_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\drawdriverstring.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: DrawDriverString, DrawDriverString method [GDI+], DrawDriverString method [GDI+],Graphics class, Graphics class [GDI+],DrawDriverString method, Graphics.DrawDriverString, Graphics::DrawDriverString, _gdiplus_CLASS_Graphics_DrawDriverString_text_length_font_brush_positions_flags_matrix_, gdiplus._gdiplus_CLASS_Graphics_DrawDriverString_text_length_font_brush_positions_flags_matrix_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Graphics.DrawDriverString
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

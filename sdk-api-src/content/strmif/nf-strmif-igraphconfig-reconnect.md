@@ -4,17 +4,16 @@ title: IGraphConfig::Reconnect
 author: windows-sdk-content
 description: The Reconnect method performs a dynamic reconnection between two pins.
 old-location: dshow\igraphconfig_reconnect.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e8cfac8e-df89-444d-bcc7-0cbc7ab5a592
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IGraphConfig interface [DirectShow],Reconnect method, IGraphConfig.Reconnect, IGraphConfig::Reconnect, IGraphConfigReconnect, Reconnect, Reconnect method [DirectShow], Reconnect method [DirectShow],IGraphConfig interface, dshow.igraphconfig_reconnect, strmif/IGraphConfig::Reconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGraphConfig.Reconnect
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IGraphConfig::Reconnect

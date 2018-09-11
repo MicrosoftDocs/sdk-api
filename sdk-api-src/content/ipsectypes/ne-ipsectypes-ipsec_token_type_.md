@@ -4,7 +4,7 @@ title: IPSEC_TOKEN_TYPE_
 author: windows-sdk-content
 description: An IPsec token type.
 old-location: fwp\ipsec_token_type.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 68eb9301-33d9-4ab9-b3e7-0fc83b6f0f1d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_TOKEN_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_TOKEN_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_TOKEN_TYPE
+req.redist: 
 ---
 
 # IPSEC_TOKEN_TYPE_ enumeration

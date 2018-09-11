@@ -4,17 +4,16 @@ title: IThreadPoolKnobs
 author: windows-sdk-content
 description: Used to control the behavior of thread pools.
 old-location: cos\ithreadpoolknobs.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 3d36e4ec-f4d4-407b-b671-4134886b7a2c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IThreadPoolKnobs, IThreadPoolKnobs interface [COM+], IThreadPoolKnobs interface [COM+],described, _cos_IThreadPoolKnobs, comsvcs/IThreadPoolKnobs, cos.ithreadpoolknobs
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IThreadPoolKnobs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IThreadPoolKnobs interface

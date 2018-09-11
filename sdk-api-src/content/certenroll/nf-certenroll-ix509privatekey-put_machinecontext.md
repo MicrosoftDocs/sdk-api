@@ -4,17 +4,16 @@ title: IX509PrivateKey::put_MachineContext
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that identifies the local certificate store context.
 old-location: security\ix509privatekey_machinecontext_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: bdc3278e-3b5a-4ad0-9e9b-9639a2db4040
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509PrivateKey interface [Security],MachineContext property, IX509PrivateKey.MachineContext, IX509PrivateKey.put_MachineContext, IX509PrivateKey::MachineContext, IX509PrivateKey::get_MachineContext, IX509PrivateKey::put_MachineContext, MachineContext property [Security], MachineContext property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::MachineContext, certenroll/IX509PrivateKey::get_MachineContext, certenroll/IX509PrivateKey::put_MachineContext, put_MachineContext, security.ix509privatekey_machinecontext_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509PrivateKey.put_MachineContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PrivateKey::put_MachineContext

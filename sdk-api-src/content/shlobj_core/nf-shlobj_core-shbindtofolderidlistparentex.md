@@ -4,17 +4,16 @@ title: SHBindToFolderIDListParentEx function
 author: windows-sdk-content
 description: Extends the SHBindToFolderIDListParent function by allowing the caller to specify a bind context.
 old-location: shell\SHBindToFolderIDListParentEx.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4f9b68cb-d0ae-45f7-90f5-2db1da3ab599
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHBindToFolderIDListParentEx, SHBindToFolderIDListParentEx function [Windows Shell], _shell_SHBindToFolderIDListParentEx, shell.SHBindToFolderIDListParentEx, shlobj_core/SHBindToFolderIDListParentEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHBindToFolderIDListParentEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHBindToFolderIDListParentEx function

@@ -4,17 +4,16 @@ title: BCryptDestroyKey function
 author: windows-sdk-content
 description: Destroys a key.
 old-location: security\bcryptdestroykey_func.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 98c02e55-6489-4901-8a7a-021baac41965
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCryptDestroyKey, BCryptDestroyKey function [Security], bcrypt/BCryptDestroyKey, security.bcryptdestroykey_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BCryptDestroyKey
 product: Windows
 targetos: Windows
-req.lib: Bcrypt.lib
-req.dll: Bcrypt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BCryptDestroyKey function

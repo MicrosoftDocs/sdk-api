@@ -4,7 +4,7 @@ title: IPSEC_SA_IDLE_TIMEOUT0_
 author: windows-sdk-content
 description: The security association (SA) idle timeout in IPsec policy.
 old-location: fwp\ipsec_sa_idle_timeout0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 99113c80-1e2a-4878-9b18-502cfb1e43cc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_SA_IDLE_TIMEOUT0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_SA_IDLE_TIMEOUT0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_SA_IDLE_TIMEOUT0
+req.redist: 
 ---
 
 # IPSEC_SA_IDLE_TIMEOUT0_ structure

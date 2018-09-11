@@ -4,17 +4,16 @@ title: IGroupPolicyObject::SetOptions
 author: windows-sdk-content
 description: The SetOptions method sets the options for the GPO.
 old-location: policy\igrouppolicyobject_setoptions.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 4caed430-2861-49cb-9418-b12bf1c46707
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPO_OPTION_DISABLE_MACHINE, GPO_OPTION_DISABLE_USER, IGroupPolicyObject interface [Group Policy],SetOptions method, IGroupPolicyObject.SetOptions, IGroupPolicyObject::SetOptions, SetOptions, SetOptions method [Group Policy], SetOptions method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_setoptions, gpedit/IGroupPolicyObject::SetOptions, policy.igrouppolicyobject_setoptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGroupPolicyObject.SetOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpedit.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGroupPolicyObject::SetOptions

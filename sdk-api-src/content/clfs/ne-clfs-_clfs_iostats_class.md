@@ -4,7 +4,7 @@ title: "_CLFS_IOSTATS_CLASS"
 author: windows-sdk-content
 description: Defines types of I/O statistics reported by CLFS and is used when a client calls GetLogIoStatistics.
 old-location: fs\clfs_iostats_class.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 8ba1f5e4-9af3-4c8a-8b57-b6075d0560d6
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clfs.h
 req.include-header: Clfsw32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_IOSTATS_CLASS, *PCLFS_IOSTATS_CLASS, PPCLFS_IOSTATS_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLFS_IOSTATS_CLASS
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: CLFS_IOSTATS_CLASS, *PCLFS_IOSTATS_CLASS, PPCLFS_IOSTATS_CLASS
+req.redist: 
 ---
 
 # _CLFS_IOSTATS_CLASS enumeration

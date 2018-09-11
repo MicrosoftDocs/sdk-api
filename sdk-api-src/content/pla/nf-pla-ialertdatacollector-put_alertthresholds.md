@@ -4,17 +4,16 @@ title: IAlertDataCollector::put_AlertThresholds
 author: windows-sdk-content
 description: Retrieves or sets a list of performance counters and thresholds to monitor.
 old-location: pla\ialertdatacollector_alertthresholds.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: e0d504ea-58d4-48fd-9baf-851505d6d3ac
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: AlertThresholds property [PLA], AlertThresholds property [PLA],IAlertDataCollector interface, IAlertDataCollector interface [PLA],AlertThresholds property, IAlertDataCollector.AlertThresholds, IAlertDataCollector.put_AlertThresholds, IAlertDataCollector::AlertThresholds, IAlertDataCollector::get_AlertThresholds, IAlertDataCollector::put_AlertThresholds, base.ialertdatacollector_alertthresholds, pla.ialertdatacollector_alertthresholds, pla/IAlertDataCollector::AlertThresholds, pla/IAlertDataCollector::get_AlertThresholds, pla/IAlertDataCollector::put_AlertThresholds, put_AlertThresholds
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IAlertDataCollector.put_AlertThresholds
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAlertDataCollector::put_AlertThresholds

@@ -4,17 +4,16 @@ title: CStdAsyncStubBuffer_Release function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Release method.
 old-location: rpc\cstdasyncstubbuffer_release.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 963EB39C-F260-4FE5-94A9-D23AC7CC59E1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CStdAsyncStubBuffer_Release, CStdAsyncStubBuffer_Release function [RPC], rpc.cstdasyncstubbuffer_release, rpcproxy/CStdAsyncStubBuffer_Release
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CStdAsyncStubBuffer_Release
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CStdAsyncStubBuffer_Release function

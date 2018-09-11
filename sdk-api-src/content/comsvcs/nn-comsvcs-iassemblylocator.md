@@ -4,17 +4,16 @@ title: IAssemblyLocator
 author: windows-sdk-content
 description: Retrieves information about an assembly when using managed code in the .NET Framework common language runtime.
 old-location: cos\iassemblylocator.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 347a209e-be6f-42a9-978f-f40e628fc34b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IAssemblyLocator, IAssemblyLocator interface [COM+], IAssemblyLocator interface [COM+],described, _cos_IAssemblyLocator, comsvcs/IAssemblyLocator, cos.iassemblylocator
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAssemblyLocator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAssemblyLocator interface

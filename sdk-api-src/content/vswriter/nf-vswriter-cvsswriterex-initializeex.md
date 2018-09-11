@@ -4,17 +4,16 @@ title: CVssWriterEx::InitializeEx
 author: windows-sdk-content
 description: Initializes a CVssWriterEx object and allows a writer application to interact with VSS. Unlike the Initialize method, the InitializeEx method allows the caller to specify writer version information.
 old-location: base\cvsswriterex_initializeex.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 08516a5e-b1ad-4256-9eee-261393b031e2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CVssWriterEx interface,InitializeEx method, CVssWriterEx.InitializeEx, CVssWriterEx::InitializeEx, InitializeEx, InitializeEx method, InitializeEx method,CVssWriterEx interface, base.cvsswriterex_initializeex, vswriter/CVssWriterEx::InitializeEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CVssWriterEx.InitializeEx
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CVssWriterEx::InitializeEx

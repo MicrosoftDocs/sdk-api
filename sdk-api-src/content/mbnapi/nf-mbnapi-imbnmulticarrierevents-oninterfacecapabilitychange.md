@@ -4,17 +4,16 @@ title: IMbnMultiCarrierEvents::OnInterfaceCapabilityChange
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a SetHomeProvider operation that updates the interface capabilities.
 old-location: mbn\imbnmulticarrierevents_oninterfacecapabilitychange.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 5701E0EB-FBDC-4791-97AA-B31F87763854
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],OnInterfaceCapabilityChange method, IMbnMultiCarrierEvents.OnInterfaceCapabilityChange, IMbnMultiCarrierEvents::OnInterfaceCapabilityChange, OnInterfaceCapabilityChange, OnInterfaceCapabilityChange method [Microsoft Broadband Networks], OnInterfaceCapabilityChange method [Microsoft Broadband Networks],IMbnMultiCarrierEvents interface, mbn.imbnmulticarrierevents_oninterfacecapabilitychange, mbnapi/IMbnMultiCarrierEvents::OnInterfaceCapabilityChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnMultiCarrierEvents.OnInterfaceCapabilityChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnMultiCarrierEvents::OnInterfaceCapabilityChange

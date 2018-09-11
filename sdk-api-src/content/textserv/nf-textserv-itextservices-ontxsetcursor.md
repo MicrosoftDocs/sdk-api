@@ -4,17 +4,16 @@ title: ITextServices::OnTxSetCursor
 author: windows-sdk-content
 description: Notifies the text services object to set the cursor.
 old-location: controls\ITextServices_OnTxSetCursor.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxsetcursor.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, ITextServices interface [Windows Controls],OnTxSetCursor method, ITextServices.OnTxSetCursor, ITextServices::OnTxSetCursor, OnTxSetCursor, OnTxSetCursor method [Windows Controls], OnTxSetCursor method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxSetCursor, _win32_ITextServices_OnTxSetCursor_cpp, controls.ITextServices_OnTxSetCursor, controls._win32_ITextServices_OnTxSetCursor, textserv/ITextServices::OnTxSetCursor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextServices.OnTxSetCursor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextServices::OnTxSetCursor

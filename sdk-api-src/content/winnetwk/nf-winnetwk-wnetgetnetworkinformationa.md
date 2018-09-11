@@ -4,17 +4,16 @@ title: WNetGetNetworkInformationA function
 author: windows-sdk-content
 description: The WNetGetNetworkInformation function returns extended information about a specific network provider whose name was returned by a previous network enumeration.
 old-location: wnet\wnetgetnetworkinformation.htm
-old-project: wnet
+tech.root: WNet
 ms.assetid: df190133-b73b-4f3e-aaee-4095cd619065
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WNetGetNetworkInformation, WNetGetNetworkInformation function [Windows Networking (WNet)], WNetGetNetworkInformationA, WNetGetNetworkInformationW, _win32_wnetgetnetworkinformation, winnetwk/WNetGetNetworkInformation, winnetwk/WNetGetNetworkInformationA, winnetwk/WNetGetNetworkInformationW, wnet.wnetgetnetworkinformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WNetGetNetworkInformationW
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNetGetNetworkInformationA function

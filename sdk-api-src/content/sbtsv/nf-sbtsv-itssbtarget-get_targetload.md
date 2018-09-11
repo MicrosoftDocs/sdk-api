@@ -4,17 +4,16 @@ title: ITsSbTarget::get_TargetLoad
 author: windows-sdk-content
 description: Retrieves the relative load on a target.
 old-location: termserv\itssbtarget_targetload.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 56618dcf-1319-4310-80ba-7ed71b8b02e8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetLoad property, ITsSbTarget.TargetLoad, ITsSbTarget.get_TargetLoad, ITsSbTarget::TargetLoad, ITsSbTarget::get_TargetLoad, ITsSbTargetEx interface [Remote Desktop Services],TargetLoad property, ITsSbTargetEx.TargetLoad, ITsSbTargetEx::get_TargetLoad, TargetLoad property [Remote Desktop Services], TargetLoad property [Remote Desktop Services],ITsSbTarget interface, TargetLoad property [Remote Desktop Services],ITsSbTargetEx interface, get_TargetLoad, sbtsv/ITsSbTarget::TargetLoad, sbtsv/ITsSbTarget::get_TargetLoad, sbtsv/ITsSbTargetEx::TargetLoad, sbtsv/ITsSbTargetEx::get_TargetLoad, termserv.itssbtarget_targetload
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ITsSbTargetEx.get_TargetLoad
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbTarget::get_TargetLoad

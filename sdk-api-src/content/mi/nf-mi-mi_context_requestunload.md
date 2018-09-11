@@ -4,17 +4,16 @@ title: MI_Context_RequestUnload function
 author: windows-sdk-content
 description: Requests to unload the module or the provider.
 old-location: wmi_v2\mi_context_requestunload.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: 1eb20bff-326d-4d2f-9b71-a14ca8975597
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: MI_Context_RequestUnload, MI_Context_RequestUnload function [Windows Management Infrastructure (MI)], mi/MI_Context_RequestUnload, wmi.mi_requestunload, wmi_v2.mi_context_requestunload
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 
-req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_Type
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_Context_RequestUnload
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ---
 
 # MI_Context_RequestUnload function

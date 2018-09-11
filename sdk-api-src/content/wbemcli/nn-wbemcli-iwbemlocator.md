@@ -4,17 +4,16 @@ title: IWbemLocator
 author: windows-sdk-content
 description: Use the IWbemLocator interface to obtain the initial namespace pointer to the IWbemServices interface for WMI on a specific host computer.
 old-location: wmi\iwbemlocator.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 3e630987-82e3-4eb0-aec0-30562bc7c843
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemLocator, IWbemLocator interface [Windows Management Instrumentation], IWbemLocator interface [Windows Management Instrumentation],described, _hmm_iwbemlocator, wbemcli/IWbemLocator, wmi.iwbemlocator
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Wbemcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemLocator
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wbemcore.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemLocator interface

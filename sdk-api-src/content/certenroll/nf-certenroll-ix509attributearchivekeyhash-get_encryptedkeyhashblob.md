@@ -4,17 +4,16 @@ title: IX509AttributeArchiveKeyHash::get_EncryptedKeyHashBlob
 author: windows-sdk-content
 description: Retrieves a string that contains a hash of the encrypted private key.
 old-location: security\ix509attributearchivekeyhash_encryptedkeyhashblob_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: ff75aaf8-1544-465b-af0d-620ca6984249
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: EncryptedKeyHashBlob property [Security], EncryptedKeyHashBlob property [Security],IX509AttributeArchiveKeyHash interface, IX509AttributeArchiveKeyHash interface [Security],EncryptedKeyHashBlob property, IX509AttributeArchiveKeyHash.EncryptedKeyHashBlob, IX509AttributeArchiveKeyHash.get_EncryptedKeyHashBlob, IX509AttributeArchiveKeyHash::EncryptedKeyHashBlob, IX509AttributeArchiveKeyHash::get_EncryptedKeyHashBlob, certenroll/IX509AttributeArchiveKeyHash::EncryptedKeyHashBlob, certenroll/IX509AttributeArchiveKeyHash::get_EncryptedKeyHashBlob, get_EncryptedKeyHashBlob, security.ix509attributearchivekeyhash_encryptedkeyhashblob_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509AttributeArchiveKeyHash.get_EncryptedKeyHashBlob
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509AttributeArchiveKeyHash::get_EncryptedKeyHashBlob

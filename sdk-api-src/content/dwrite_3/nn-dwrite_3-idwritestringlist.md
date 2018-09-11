@@ -4,17 +4,16 @@ title: IDWriteStringList
 author: windows-sdk-content
 description: Represents a collection of strings indexed by number.
 old-location: directwrite\idwritestringlist.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 07A61B37-C63D-4F7D-888C-96B56F30F477
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteStringList, IDWriteStringList interface [Direct Write], IDWriteStringList interface [Direct Write],described, directwrite.idwritestringlist, dwrite_3/IDWriteStringList
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteStringList
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteStringList interface

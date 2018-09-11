@@ -4,17 +4,16 @@ title: IUIAutomation::CreateOrConditionFromNativeArray
 author: windows-sdk-content
 description: Creates a combination of two or more conditions where a match exists if any one of the conditions is true.
 old-location: winauto\uiauto_IUIAutomation_CreateOrConditionFromNativeArray.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 393c777c-f262-462b-ac59-035f590bee1c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateOrConditionFromNativeArray, CreateOrConditionFromNativeArray method [Windows Accessibility], CreateOrConditionFromNativeArray method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateOrConditionFromNativeArray method, IUIAutomation.CreateOrConditionFromNativeArray, IUIAutomation::CreateOrConditionFromNativeArray, uiauto.uiauto_IUIAutomation_CreateOrConditionFromNativeArray, uiauto_IUIAutomation_CreateOrConditionFromNativeArray, uiautomationclient/IUIAutomation::CreateOrConditionFromNativeArray, winauto.uiauto_IUIAutomation_CreateOrConditionFromNativeArray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomation.CreateOrConditionFromNativeArray
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation::CreateOrConditionFromNativeArray

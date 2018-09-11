@@ -4,17 +4,16 @@ title: IRichEditOle::GetClipboardData
 author: windows-sdk-content
 description: Retrieves a clipboard object for a range in an edit control.
 old-location: controls\IRichEditOle_GetClipboardData.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetclipboarddata.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetClipboardData, GetClipboardData method [Windows Controls], GetClipboardData method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetClipboardData method, IRichEditOle.GetClipboardData, IRichEditOle::GetClipboardData, _win32_IRichEditOle_GetClipboardData, _win32_IRichEditOle_GetClipboardData_cpp, controls.IRichEditOle_GetClipboardData, controls._win32_IRichEditOle_GetClipboardData, richole/IRichEditOle::GetClipboardData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEXTRANGEW
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRichEditOle.GetClipboardData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRichEditOle::GetClipboardData

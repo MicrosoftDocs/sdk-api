@@ -4,7 +4,7 @@ title: "_MMC_RESULT_VIEW_STYLE"
 author: windows-sdk-content
 description: The MMC_RESULT_VIEW_STYLE enumeration defines the Win32 list view style (LVS_*) flags that can be used to set the view style in the MMC result view pane. They can be used in the add and remove parameters of the IResultData::ModifyViewStyle method.
 old-location: mmc\mmc_result_view_style.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 2f1b93e2-aa1d-4478-877b-a26cdb3dc84b
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_RESULT_VIEW_STYLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMC_RESULT_VIEW_STYLE
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MMC_RESULT_VIEW_STYLE
+req.redist: 
 ---
 
 # _MMC_RESULT_VIEW_STYLE enumeration

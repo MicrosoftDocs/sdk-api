@@ -4,17 +4,16 @@ title: MCIWndCanRecord macro
 author: windows-sdk-content
 description: The MCIWndCanRecord macro determines if an MCI device supports recording. You can use this macro or explicitly send the MCIWNDM_CAN_RECORD message.
 old-location: multimedia\mciwndcanrecord.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 836747de-9306-4219-b462-e2c8efd42666
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndCanRecord, MCIWndCanRecord macro [Windows Multimedia], _win32_MCIWndCanRecord, multimedia.mciwndcanrecord, vfw/MCIWndCanRecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndCanRecord
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndCanRecord macro

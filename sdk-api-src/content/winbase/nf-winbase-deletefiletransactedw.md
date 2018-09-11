@@ -4,17 +4,16 @@ title: DeleteFileTransactedW function
 author: windows-sdk-content
 description: Deletes an existing file as a transacted operation.
 old-location: fs\deletefiletransacted.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: e0a6230b-2da1-4746-95fe-80f7b6bae41f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DeleteFileTransacted, DeleteFileTransacted function [Files], DeleteFileTransactedA, DeleteFileTransactedW, fs.deletefiletransacted, winbase/DeleteFileTransacted, winbase/DeleteFileTransactedA, winbase/DeleteFileTransactedW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - DeleteFileTransactedW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DeleteFileTransactedW function

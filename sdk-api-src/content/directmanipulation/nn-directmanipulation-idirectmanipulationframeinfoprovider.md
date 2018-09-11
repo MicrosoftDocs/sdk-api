@@ -4,7 +4,7 @@ title: IDirectManipulationFrameInfoProvider
 author: windows-sdk-content
 description: Represents a time-keeping object that measures the latency of the composition infrastructure used by the application and provides this data to Direct Manipulation.
 old-location: directmanipulation\idirectmanipulationframeinfoprovider.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 15B7CA2A-DEC3-479B-BD41-38A57037002F
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationFrameInfoProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationFrameInfoProvider interface

@@ -4,17 +4,16 @@ title: "_WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING"
 author: windows-sdk-content
 description: The security binding subtype for specifying the use of the Kerberos AP_REQ ticket as a direct (i.e., without establishing a session) security token with WS-Security.
 old-location: wsw\ws_kerberos_apreq_message_security_binding.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 03127248-f5cc-44da-9c3d-abf016dd6bb2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING, WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], _WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING, webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING, wsw.ws_kerberos_apreq_message_security_binding
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING
+req.redist: 
 ---
 
 # _WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING structure

@@ -4,17 +4,16 @@ title: IPropertySystem::GetPropertyDescriptionListFromString
 author: windows-sdk-content
 description: Gets an instance of the subsystem object that implements IPropertyDescriptionList, to obtain an ordered collection of property descriptions, based on the provided string.
 old-location: properties\IPropertySystem_GetPropertyDescriptionListFromString.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 73e61bf0-32d0-4c2c-bf2e-b28ea00cbfd3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPropertyDescriptionListFromString, GetPropertyDescriptionListFromString method [Windows Properties], GetPropertyDescriptionListFromString method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],GetPropertyDescriptionListFromString method, IPropertySystem.GetPropertyDescriptionListFromString, IPropertySystem::GetPropertyDescriptionListFromString, properties.IPropertySystem_GetPropertyDescriptionListFromString, propsys/IPropertySystem::GetPropertyDescriptionListFromString, shell.IPropertySystem_GetPropertyDescriptionListFromString, shell_IPropertySystem_GetPropertyDescriptionListFromString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: Propsys.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertySystem.GetPropertyDescriptionListFromString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Propsys.dll (version 5.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IPropertySystem::GetPropertyDescriptionListFromString

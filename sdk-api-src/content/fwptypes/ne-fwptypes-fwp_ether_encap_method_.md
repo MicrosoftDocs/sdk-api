@@ -4,7 +4,7 @@ title: FWP_ETHER_ENCAP_METHOD_
 author: windows-sdk-content
 description: Specifies the method of encapsulating Ethernet II and SNAP traffic. Reserved.
 old-location: fwp\fwp_ether_encap_method.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: fd94a02e-ba2d-4f99-a340-11f2e594f319
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWP_ETHER_ENCAP_METHOD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWP_ETHER_ENCAP_METHOD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWP_ETHER_ENCAP_METHOD
+req.redist: 
 ---
 
 # FWP_ETHER_ENCAP_METHOD_ enumeration

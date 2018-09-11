@@ -4,17 +4,16 @@ title: "_WSMAN_PROXY_INFO"
 author: windows-sdk-content
 description: Specifies proxy information.
 old-location: winrm\wsman_proxy_info.htm
-old-project: winrm
+tech.root: WinRM
 ms.assetid: 0542fa39-c574-4a5e-b8eb-6ddf8a58600a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSMAN_PROXY_INFO, WSMAN_PROXY_INFO structure [Windows Remote Management], _WSMAN_PROXY_INFO, winrm.wsman_proxy_info, wsman/WSMAN_PROXY_INFO
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 
-req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSMAN_PROXY_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSMAN_PROXY_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSMAN_PROXY_INFO
+req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 ---
 
 # _WSMAN_PROXY_INFO structure

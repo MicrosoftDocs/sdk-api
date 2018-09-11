@@ -4,17 +4,16 @@ title: IMFSpatialAudioSample::GetSpatialAudioObjectByIndex
 author: windows-sdk-content
 description: Returns the spatial audio object, represented by an IMFSpatialAudioObjectBuffer object, corresponding to the specified index.
 old-location: mf\imfspatialaudiosample_getspatialaudioobjectbyindex.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2B5A2D44-BA41-49FC-B4FD-9BCD9EE2D549
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetSpatialAudioObjectByIndex, GetSpatialAudioObjectByIndex method [Media Foundation], GetSpatialAudioObjectByIndex method [Media Foundation],IMFSpatialAudioSample interface, IMFSpatialAudioSample interface [Media Foundation],GetSpatialAudioObjectByIndex method, IMFSpatialAudioSample.GetSpatialAudioObjectByIndex, IMFSpatialAudioSample::GetSpatialAudioObjectByIndex, mf.imfspatialaudiosample_getspatialaudioobjectbyindex, mfspatialaudio/IMFSpatialAudioSample::GetSpatialAudioObjectByIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEVICE_INFO
+req.lib: Mfobjects.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSpatialAudioSample.GetSpatialAudioObjectByIndex
 product: Windows
 targetos: Windows
-req.lib: Mfobjects.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSpatialAudioSample::GetSpatialAudioObjectByIndex
@@ -68,7 +66,7 @@ A 32 bit variable with the 0-based index of the requested audio object.
 
 ### -param ppAudioObjBuffer
 
-
+TBD
 
 
 

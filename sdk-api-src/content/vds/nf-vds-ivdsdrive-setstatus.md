@@ -4,17 +4,16 @@ title: IVdsDrive::SetStatus
 author: windows-sdk-content
 description: Sets the status of the drive to the specified value.
 old-location: base\ivdsdrive_setstatus.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: d74f045f-7b6f-4ede-827d-f7f7486495e8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsDrive interface [VDS],SetStatus method, IVdsDrive.SetStatus, IVdsDrive::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsDrive interface, base.ivdsdrive_setstatus, vds/IVdsDrive::SetStatus, vdshwprv/IVdsDrive::SetStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsDrive.SetStatus
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsDrive::SetStatus

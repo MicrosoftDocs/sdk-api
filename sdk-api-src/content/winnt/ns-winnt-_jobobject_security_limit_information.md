@@ -4,7 +4,7 @@ title: "_JOBOBJECT_SECURITY_LIMIT_INFORMATION"
 author: windows-sdk-content
 description: Contains the security limitations for a job object.
 old-location: base\jobobject_security_limit_information_str.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 148f76b2-809b-4306-a943-bcc04aea547b
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: JOBOBJECT_SECURITY_LIMIT_INFORMATION, *PJOBOBJECT_SECURITY_LIMIT_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - JOBOBJECT_SECURITY_LIMIT_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: JOBOBJECT_SECURITY_LIMIT_INFORMATION, *PJOBOBJECT_SECURITY_LIMIT_INFORMATION
+req.redist: 
 ---
 
 # _JOBOBJECT_SECURITY_LIMIT_INFORMATION structure

@@ -4,17 +4,16 @@ title: IBackgroundCopyGroup::SwitchToForeground
 author: windows-sdk-content
 description: Use the SwitchToForeground method to download the group in the foreground instead of the background.
 old-location: bits\ibackgroundcopygroup_switchtoforeground.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 19619a97-b4f2-4609-9b06-bb188e00860c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],SwitchToForeground method, IBackgroundCopyGroup.SwitchToForeground, IBackgroundCopyGroup::SwitchToForeground, SwitchToForeground, SwitchToForeground method [BITS], SwitchToForeground method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_switchtoforeground, qmgr/IBackgroundCopyGroup::SwitchToForeground
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyGroup.SwitchToForeground
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyGroup::SwitchToForeground

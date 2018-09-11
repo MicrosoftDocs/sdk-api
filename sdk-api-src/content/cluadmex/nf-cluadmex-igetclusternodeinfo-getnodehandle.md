@@ -4,17 +4,16 @@ title: IGetClusterNodeInfo::GetNodeHandle
 author: windows-sdk-content
 description: Returns a handle to a node.
 old-location: mscs\igetclusternodeinfo_getnodehandle.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: d1932844-9900-4a16-8c9a-39f89bddfdb0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetNodeHandle, GetNodeHandle method [Failover Cluster], GetNodeHandle method [Failover Cluster],IGetClusterNodeInfo interface, IGetClusterNodeInfo interface [Failover Cluster],GetNodeHandle method, IGetClusterNodeInfo.GetNodeHandle, IGetClusterNodeInfo::GetNodeHandle, _wolf_igetclusternodeinfo_getnodehandle, cluadmex/IGetClusterNodeInfo::GetNodeHandle, mscs.igetclusternodeinfo_getnodehandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetClusterNodeInfo.GetNodeHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetClusterNodeInfo::GetNodeHandle

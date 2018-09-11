@@ -4,17 +4,16 @@ title: IDataCollector::get_FileNameFormatPattern
 author: windows-sdk-content
 description: Retrieves or sets the format pattern to use when decorating the file name.
 old-location: pla\idatacollector_filenameformatpattern.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 94e6bb13-fb99-4968-8a7f-fbda1f6ea42e
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: FileNameFormatPattern property [PLA], FileNameFormatPattern property [PLA],IDataCollector interface, IDataCollector interface [PLA],FileNameFormatPattern property, IDataCollector.FileNameFormatPattern, IDataCollector.get_FileNameFormatPattern, IDataCollector::FileNameFormatPattern, IDataCollector::get_FileNameFormatPattern, IDataCollector::put_FileNameFormatPattern, base.idatacollector_filenameformatpattern, get_FileNameFormatPattern, pla.idatacollector_filenameformatpattern, pla/IDataCollector::FileNameFormatPattern, pla/IDataCollector::get_FileNameFormatPattern, pla/IDataCollector::put_FileNameFormatPattern
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataCollector.put_FileNameFormatPattern
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollector::get_FileNameFormatPattern

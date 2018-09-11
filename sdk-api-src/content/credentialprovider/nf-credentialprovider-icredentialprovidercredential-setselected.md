@@ -4,17 +4,16 @@ title: ICredentialProviderCredential::SetSelected
 author: windows-sdk-content
 description: Called when a credential is selected. Enables the implementer to set logon characteristics.
 old-location: shell\ICredentialProviderCredential_SetSelected.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 06a0482c-100c-445f-9a77-279d85492f42
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetSelected method, ICredentialProviderCredential.SetSelected, ICredentialProviderCredential::SetSelected, SetSelected, SetSelected method [Windows Shell], SetSelected method [Windows Shell],ICredentialProviderCredential interface, _shell_ICredentialProviderCredential_SetSelected, credentialprovider/ICredentialProviderCredential::SetSelected, shell.ICredentialProviderCredential_SetSelected
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProviderCredential.SetSelected
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProviderCredential::SetSelected

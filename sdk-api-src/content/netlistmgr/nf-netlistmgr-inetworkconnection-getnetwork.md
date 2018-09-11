@@ -4,17 +4,16 @@ title: INetworkConnection::GetNetwork
 author: windows-sdk-content
 description: The GetNetwork method returns the network associated with the connection.
 old-location: nla\inetworkconnection_getnetwork.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 7de83422-58f6-40fc-b26f-074cec550247
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetNetwork, GetNetwork method [Network Awareness], GetNetwork method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetNetwork method, INetworkConnection.GetNetwork, INetworkConnection::GetNetwork, netlistmgr/INetworkConnection::GetNetwork, nla.inetworkconnection_getnetwork
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetworkConnection.GetNetwork
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetworkConnection::GetNetwork

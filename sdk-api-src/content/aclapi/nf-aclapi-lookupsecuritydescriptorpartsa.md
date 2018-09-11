@@ -4,17 +4,16 @@ title: LookupSecurityDescriptorPartsA function
 author: windows-sdk-content
 description: Retrieves security information from a self-relative security descriptor.
 old-location: security\lookupsecuritydescriptorparts.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 68c3f56b-6c48-4f4b-bd38-9f4e346c663b
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: LookupSecurityDescriptorParts, LookupSecurityDescriptorParts function [Security], LookupSecurityDescriptorPartsA, LookupSecurityDescriptorPartsW, _win32_lookupsecuritydescriptorparts, aclapi/LookupSecurityDescriptorParts, aclapi/LookupSecurityDescriptorPartsA, aclapi/LookupSecurityDescriptorPartsW, security.lookupsecuritydescriptorparts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - LookupSecurityDescriptorPartsW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # LookupSecurityDescriptorPartsA function

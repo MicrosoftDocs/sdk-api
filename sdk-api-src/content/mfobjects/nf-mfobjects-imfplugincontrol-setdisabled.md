@@ -4,17 +4,16 @@ title: IMFPluginControl::SetDisabled
 author: windows-sdk-content
 description: Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the list.
 old-location: mf\imfplugincontrol_imfplugincontrol__setdisabled.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: ff50e746-42f5-4fbe-a904-f83b3c691d32
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFPluginControl interface [Media Foundation],SetDisabled method, IMFPluginControl.SetDisabled, IMFPluginControl::SetDisabled, SetDisabled, SetDisabled method [Media Foundation], SetDisabled method [Media Foundation],IMFPluginControl interface, mf.imfplugincontrol_imfplugincontrol__setdisabled, mfobjects/IMFPluginControl::SetDisabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPluginControl.SetDisabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPluginControl::SetDisabled

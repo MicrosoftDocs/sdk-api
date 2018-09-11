@@ -4,7 +4,7 @@ title: "_EAP_TYPE"
 author: windows-sdk-content
 description: Contains type and vendor identification information for an EAP method.
 old-location: eaphost\eap_type.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 383f1e11-2e40-45e6-8c55-a23d1b8eb71f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_TYPE
+req.redist: 
 ---
 
 # _EAP_TYPE structure

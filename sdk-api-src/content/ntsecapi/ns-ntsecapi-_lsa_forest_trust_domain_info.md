@@ -4,17 +4,16 @@ title: "_LSA_FOREST_TRUST_DOMAIN_INFO"
 author: windows-sdk-content
 description: Contains identifying information for a domain.
 old-location: security\lsa_forest_trust_domain_info.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: c0e06735-ca10-4bee-a45b-6db5b6666e31
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PLSA_FOREST_TRUST_DOMAIN_INFO, LSA_FOREST_TRUST_DOMAIN_INFO, LSA_FOREST_TRUST_DOMAIN_INFO structure [Security], PLSA_FOREST_TRUST_DOMAIN_INFO, PLSA_FOREST_TRUST_DOMAIN_INFO structure pointer [Security], _LSA_FOREST_TRUST_DOMAIN_INFO, ntsecapi/LSA_FOREST_TRUST_DOMAIN_INFO, ntsecapi/PLSA_FOREST_TRUST_DOMAIN_INFO, security.lsa_forest_trust_domain_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LSA_FOREST_TRUST_DOMAIN_INFO, *PLSA_FOREST_TRUST_DOMAIN_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LSA_FOREST_TRUST_DOMAIN_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: LSA_FOREST_TRUST_DOMAIN_INFO, *PLSA_FOREST_TRUST_DOMAIN_INFO
+req.redist: 
 ---
 
 # _LSA_FOREST_TRUST_DOMAIN_INFO structure

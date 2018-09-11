@@ -4,17 +4,16 @@ title: RealizePalette function
 author: windows-sdk-content
 description: The RealizePalette function maps palette entries from the current logical palette to the system palette.
 old-location: gdi\realizepalette.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 1c744ad2-09bc-455f-bc3c-9a2583b57a30
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RealizePalette, RealizePalette function [Windows GDI], _win32_RealizePalette, gdi.realizepalette, wingdi/RealizePalette
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - RealizePalette
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # RealizePalette function

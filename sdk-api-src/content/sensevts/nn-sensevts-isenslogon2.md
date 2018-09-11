@@ -4,17 +4,16 @@ title: ISensLogon2
 author: windows-sdk-content
 description: The ISensLogon2 interface handles logon events fired by SENS.
 old-location: sens\isenslogon2.htm
-old-project: sens
+tech.root: Sens
 ms.assetid: be61b5b9-d4f1-40ea-a734-7b02c06e41e8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISensLogon2, ISensLogon2 interface [SENS], ISensLogon2 interface [SENS],described, _zaw_isenslogon2, sens.isenslogon2, sensevts/ISensLogon2, syncmgr.isenslogon2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: sensevts.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Sensevts.tlb
-tech.root: 
-req.typenames: QOCINFO, *LPQOCINFO
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensLogon2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sens.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensLogon2 interface

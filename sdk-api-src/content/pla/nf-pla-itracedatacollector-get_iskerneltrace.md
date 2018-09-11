@@ -4,17 +4,16 @@ title: ITraceDataCollector::get_IsKernelTrace
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the trace contains kernel providers.
 old-location: pla\itracedatacollector_iskerneltrace.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 8986b84c-a79b-49d8-adf2-1618e2d7c343
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ITraceDataCollector interface [PLA],IsKernelTrace property, ITraceDataCollector.IsKernelTrace, ITraceDataCollector.get_IsKernelTrace, ITraceDataCollector::IsKernelTrace, ITraceDataCollector::get_IsKernelTrace, IsKernelTrace property [PLA], IsKernelTrace property [PLA],ITraceDataCollector interface, base.itracedatacollector_iskerneltrace, get_IsKernelTrace, pla.itracedatacollector_iskerneltrace, pla/ITraceDataCollector::IsKernelTrace, pla/ITraceDataCollector::get_IsKernelTrace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITraceDataCollector.get_IsKernelTrace
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataCollector::get_IsKernelTrace

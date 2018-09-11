@@ -4,17 +4,16 @@ title: SetupQueueCopySectionA function
 author: windows-sdk-content
 description: The SetupQueueCopySection function places all the files in a section of an INF file in a setup queue for copying.
 old-location: setup\setupqueuecopysection.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: f61fd00e-e60f-4722-9da7-1ed4d8491004
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupQueueCopySection, SetupQueueCopySection function [Setup API], SetupQueueCopySectionA, SetupQueueCopySectionW, _setupapi_setupqueuecopysection, setup.setupqueuecopysection, setupapi/SetupQueueCopySection, setupapi/SetupQueueCopySectionA, setupapi/SetupQueueCopySectionW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupQueueCopySectionW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupQueueCopySectionA function

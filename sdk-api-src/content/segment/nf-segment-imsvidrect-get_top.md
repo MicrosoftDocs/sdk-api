@@ -4,17 +4,16 @@ title: IMSVidRect::get_Top
 author: windows-sdk-content
 description: The get_Top method retrieves the top y-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_get_top.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 3596141c-e359-4ea5-8d6a-9ec374c1f854
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Top method, IMSVidRect.get_Top, IMSVidRect::get_Top, IMSVidRectget_Top, get_Top, get_Top method [Microsoft TV Technologies], get_Top method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_top, segment/IMSVidRect::get_Top
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidRect.get_Top
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidRect::get_Top
@@ -62,7 +60,7 @@ The <b>get_Top</b> method retrieves the top y-coordinate of the rectangle. This 
 
 ### -param TopVal
 
-
+TBD
 
 
 

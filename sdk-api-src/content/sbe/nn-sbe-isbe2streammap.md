@@ -4,7 +4,7 @@ title: ISBE2StreamMap
 author: windows-sdk-content
 description: Handles the mapping between output pins and streams for the Stream Buffer Source filter.
 old-location: mstv\isbe2streammap.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d63691ca-2420-4c54-b343-be85d634488c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISBE2StreamMap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sbe.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISBE2StreamMap interface

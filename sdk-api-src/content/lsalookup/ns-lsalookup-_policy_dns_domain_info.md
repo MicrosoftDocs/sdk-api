@@ -4,17 +4,16 @@ title: "_POLICY_DNS_DOMAIN_INFO"
 author: windows-sdk-content
 description: The POLICY_DNS_DOMAIN_INFO structure is used to set and query Domain Name System (DNS) information about the primary domain associated with a Policy object.
 old-location: security\policy_dns_domain_info.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: 5b2879cf-e0dc-4844-bfe8-bf45460285f1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPOLICY_DNS_DOMAIN_INFO, POLICY_DNS_DOMAIN_INFO, POLICY_DNS_DOMAIN_INFO structure [Security], PPOLICY_DNS_DOMAIN_INFO, PPOLICY_DNS_DOMAIN_INFO structure pointer [Security], _POLICY_DNS_DOMAIN_INFO, _lsa_policy_dns_domain_info, lsalookup/POLICY_DNS_DOMAIN_INFO, lsalookup/PPOLICY_DNS_DOMAIN_INFO, security.policy_dns_domain_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lsalookup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_DNS_DOMAIN_INFO, *PPOLICY_DNS_DOMAIN_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POLICY_DNS_DOMAIN_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: POLICY_DNS_DOMAIN_INFO, *PPOLICY_DNS_DOMAIN_INFO
+req.redist: 
 ---
 
 # _POLICY_DNS_DOMAIN_INFO structure

@@ -4,17 +4,16 @@ title: "_ACTRL_ALISTW"
 author: windows-sdk-content
 description: Contains an array of access-control lists for an object and its properties.
 old-location: com\actrl_access.htm
-old-project: com
+tech.root: com
 ms.assetid: d7fb10c1-ebb8-44cf-b61c-a70a787b324f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PACTRL_ACCESSW, *PACTRL_AUDITW, ACTRL_ACCESS, ACTRL_ACCESS structure [COM], ACTRL_ACCESSA, ACTRL_ACCESSW, ACTRL_AUDIT, ACTRL_AUDITW, PACTRL_ACCESS, PACTRL_ACCESS structure pointer [COM], PACTRL_ACCESSW_ALLOCATE_ALL_NODES, _ACTRL_ALISTA, _ACTRL_ALISTW, accctrl/ACTRL_ACCESS, accctrl/ACTRL_ACCESSA, accctrl/ACTRL_ACCESSW, accctrl/PACTRL_ACCESS, com.actrl_access"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: accctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACTRL_ACCESSW, *PACTRL_ACCESSW, ACTRL_AUDITW, *PACTRL_AUDITW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,8 +42,8 @@ api_name:
  - ACTRL_ACCESSW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.typenames: ACTRL_ACCESSW, *PACTRL_ACCESSW, ACTRL_AUDITW, *PACTRL_AUDITW
+req.redist: 
 ---
 
 # _ACTRL_ALISTW structure

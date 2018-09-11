@@ -4,7 +4,7 @@ title: IFsrmClassificationManager
 author: windows-sdk-content
 description: Manages file classification. Use this interface to define properties to use in classification, add classification rules for classifying files, define classification and storage modules, and enable classification reporting.
 old-location: fsrm\ifsrmclassificationmanager.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: cc504f6c-00d7-4f9d-9688-1c29b5066ce6
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmClassificationManager
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassificationManager interface

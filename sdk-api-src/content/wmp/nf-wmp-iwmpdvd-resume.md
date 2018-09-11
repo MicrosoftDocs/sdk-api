@@ -4,17 +4,16 @@ title: IWMPDVD::resume
 author: windows-sdk-content
 description: The resume method returns to playback mode from menu mode at the same title position as when the menu was invoked.
 old-location: wmp\iwmpdvd_resume.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: c0817edb-49af-48b8-82d0-a8c0a827f290
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],resume method, IWMPDVD.resume, IWMPDVD::resume, IWMPDVDresume, resume, resume method [Windows Media Player], resume method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_resume, wmp/IWMPDVD::resume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Player 9 Series or later.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPDVD.resume
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPDVD::resume

@@ -4,17 +4,16 @@ title: IValidate::CloseDatabase
 author: windows-sdk-content
 description: The CloseDatabase method closes the currently open Windows Installer package or merge module. Windows Installer packages or merge modules can be opened by using the OpenDatabase method.
 old-location: setup\ivalidate_closedatabase.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 7124f467-4efd-4e8b-9ce2-8463779f6fb9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CloseDatabase, CloseDatabase method, CloseDatabase method,IValidate interface, IValidate interface,CloseDatabase method, IValidate.CloseDatabase, IValidate::CloseDatabase, evalcom2/IValidate::CloseDatabase, setup.ivalidate_closedatabase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evalcom2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Evalcom2.dll version 3.0.3790.371 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
+req.lib: 
+req.dll: Evalcom2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IValidate.CloseDatabase
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Evalcom2.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IValidate::CloseDatabase

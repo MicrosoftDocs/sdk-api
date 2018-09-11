@@ -4,7 +4,7 @@ title: IExtendContextMenu
 author: windows-sdk-content
 description: The IExtendContextMenu interface enables a snap-in to add items to an existing context menu.
 old-location: mmc\iextendcontextmenu.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 8fa4434e-ccdc-43fb-877e-a6f6a5fc95b2
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExtendContextMenu
 product: Windows
 targetos: Windows
-req.lib: Mmc.lib
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IExtendContextMenu interface

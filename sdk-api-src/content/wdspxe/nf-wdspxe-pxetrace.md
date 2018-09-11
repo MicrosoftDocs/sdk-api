@@ -4,17 +4,16 @@ title: PxeTrace function
 author: windows-sdk-content
 description: Adds a trace entry to the PXE log.
 old-location: wds\pxetrace.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: 220f15bf-f33a-4706-a52d-f11c40f49ac0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PXE_TRACE_ERROR, PXE_TRACE_FATAL, PXE_TRACE_INFO, PXE_TRACE_VERBOSE, PXE_TRACE_WARNING, PxeTrace, PxeTrace function [Windows Deployment Services], wds.pxetrace, wdspxe/PxeTrace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDS_CLI_CRED, *PWDS_CLI_CRED, *LPWDS_CLI_CRED
+req.lib: WdsPxe.lib
+req.dll: WdsPxe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PxeTrace
 product: Windows
 targetos: Windows
-req.lib: WdsPxe.lib
-req.dll: WdsPxe.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PxeTrace function
@@ -139,7 +137,14 @@ The trace message indicates a fatal error condition.
 Address of a buffer that contains a printf-style format string.
 
 
-### -param param
+### -param arg1
+
+TBD
+
+
+
+
+#### - param
 
 Optional arguments. The number and type of argument parameters depend on the format control string pointed 
       to by the <i>pszFormat</i> parameter.

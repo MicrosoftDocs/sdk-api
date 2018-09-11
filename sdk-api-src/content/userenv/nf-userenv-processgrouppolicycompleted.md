@@ -4,17 +4,16 @@ title: ProcessGroupPolicyCompleted function
 author: windows-sdk-content
 description: The ProcessGroupPolicyCompleted function notifies the system that the specified extension has finished applying policy.
 old-location: policy\processgrouppolicycompleted.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: f88c8072-af4c-44e0-a816-ecb841dd1a78
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ProcessGroupPolicyCompleted, ProcessGroupPolicyCompleted function [Group Policy], _win32_processgrouppolicycompleted, policy.processgrouppolicycompleted, userenv/ProcessGroupPolicyCompleted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ProcessGroupPolicyCompleted
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ProcessGroupPolicyCompleted function

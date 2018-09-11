@@ -4,7 +4,7 @@ title: DS_SITE_COST_INFO
 author: windows-sdk-content
 description: The DS_SITE_COST_INFO structure is used with the DsQuerySitesByCost function to contain communication cost data.
 old-location: ad\ds_site_cost_info.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 1920e824-992f-4d69-9b6d-586f58fa2ef7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_SITE_COST_INFO, *PDS_SITE_COST_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DS_SITE_COST_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DS_SITE_COST_INFO, *PDS_SITE_COST_INFO
+req.redist: 
 ---
 
 # DS_SITE_COST_INFO structure

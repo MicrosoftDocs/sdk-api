@@ -4,17 +4,16 @@ title: "_RSVP_STATUS_INFO"
 author: windows-sdk-content
 description: The QOS object RSVP_STATUS_INFO provides information regarding the status of RSVP for a given flow, including event notifications associated with monitoring FD_QOS events, as well as error information.
 old-location: qos\rsvp_status_info.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: ffb271e5-cdfe-4ac9-929e-9a0a81894238
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPRSVP_STATUS_INFO, LPRSVP_STATUS_INFO, LPRSVP_STATUS_INFO structure pointer [QOS], RSVP_STATUS_INFO, RSVP_STATUS_INFO structure [QOS], _RSVP_STATUS_INFO, _gqos_rsvp_status_info, qos.rsvp_status_info, qossp/LPRSVP_STATUS_INFO, qossp/RSVP_STATUS_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_STATUS_INFO, *LPRSVP_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RSVP_STATUS_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RSVP_STATUS_INFO, *LPRSVP_STATUS_INFO
+req.redist: 
 ---
 
 # _RSVP_STATUS_INFO structure

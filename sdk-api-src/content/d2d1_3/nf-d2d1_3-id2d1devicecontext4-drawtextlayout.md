@@ -4,17 +4,16 @@ title: ID2D1DeviceContext4::DrawTextLayout
 author: windows-sdk-content
 description: Draws a text layout object. If the layout is not subsequently changed, this can be more efficient than DrawText when drawing the same layout repeatedly.
 old-location: direct2d\id2d1devicecontext4_drawtextlayout.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 54993EFD-A649-4613-8A9C-744FE22F7BFC
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrawTextLayout, DrawTextLayout method [Direct2D], DrawTextLayout method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],DrawTextLayout method, ID2D1DeviceContext4.DrawTextLayout, ID2D1DeviceContext4::DrawTextLayout, d2d1_3/ID2D1DeviceContext4::DrawTextLayout, direct2d.id2d1devicecontext4_drawtextlayout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DeviceContext4.DrawTextLayout
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext4::DrawTextLayout

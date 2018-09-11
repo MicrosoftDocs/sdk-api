@@ -4,17 +4,16 @@ title: IMSVidVMR9::get_Allocator
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidvmr9_get_allocator.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: bd19c85b-21dc-410a-9fa1-99e1f1d8be30
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],get_Allocator method, IMSVidVMR9.get_Allocator, IMSVidVMR9::get_Allocator, IMSVidVMR9get_Allocator, get_Allocator, get_Allocator method [Microsoft TV Technologies], get_Allocator method [Microsoft TV Technologies],IMSVidVMR9 interface, mstv.imsvidvmr9_get_allocator, segment/IMSVidVMR9::get_Allocator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVMR9.get_Allocator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVMR9::get_Allocator

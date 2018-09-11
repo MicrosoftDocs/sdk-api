@@ -4,17 +4,16 @@ title: Str_SetPtrW function
 author: windows-sdk-content
 description: Sets ppszCurrent to a copy of pszNew and frees the previous value, if necessary.
 old-location: controls\Str_SetPtrW.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\str_setptrw.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Str_SetPtr, Str_SetPtr function [Windows Controls], Str_SetPtrA, Str_SetPtrW, _win32_Str_SetPtrW, _win32_Str_SetPtrW_cpp, controls.Str_SetPtrW, controls._win32_Str_SetPtrW, dpa_dsa/Str_SetPtr, dpa_dsa/Str_SetPtrA, dpa_dsa/Str_SetPtrW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+req.lib: Comctl32.lib
+req.dll: ComCtl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - Str_SetPtrW
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: ComCtl32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Str_SetPtrW function

@@ -4,17 +4,16 @@ title: IWriteEngine2EventArgs::get_TotalSystemBuffer
 author: windows-sdk-content
 description: Retrieves the size of the internal data buffer that is used for writing to disc.
 old-location: imapi\iwriteengine2eventargs_get_totalsystembuffer.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: dfdf4116-0402-4c90-8b9b-0758fd0bb973
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_TotalSystemBuffer method, IWriteEngine2EventArgs.get_TotalSystemBuffer, IWriteEngine2EventArgs::get_TotalSystemBuffer, get_TotalSystemBuffer, get_TotalSystemBuffer method [IMAPI], get_TotalSystemBuffer method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_totalsystembuffer, imapi2/IWriteEngine2EventArgs::get_TotalSystemBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWriteEngine2EventArgs.get_TotalSystemBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IWriteEngine2EventArgs::get_TotalSystemBuffer

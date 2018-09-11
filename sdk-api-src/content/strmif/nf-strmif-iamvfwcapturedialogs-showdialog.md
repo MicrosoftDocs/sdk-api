@@ -4,17 +4,16 @@ title: IAMVfwCaptureDialogs::ShowDialog
 author: windows-sdk-content
 description: The ShowDialog method displays the specified VFW dialog box.
 old-location: dshow\iamvfwcapturedialogs_showdialog.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 988b68e5-12fb-47c5-8a49-81ba262da739
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMVfwCaptureDialogs interface [DirectShow],ShowDialog method, IAMVfwCaptureDialogs.ShowDialog, IAMVfwCaptureDialogs::ShowDialog, IAMVfwCaptureDialogsShowDialog, ShowDialog, ShowDialog method [DirectShow], ShowDialog method [DirectShow],IAMVfwCaptureDialogs interface, dshow.iamvfwcapturedialogs_showdialog, strmif/IAMVfwCaptureDialogs::ShowDialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMVfwCaptureDialogs.ShowDialog
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMVfwCaptureDialogs::ShowDialog

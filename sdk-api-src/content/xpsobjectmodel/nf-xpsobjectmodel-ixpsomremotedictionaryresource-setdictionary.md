@@ -4,17 +4,16 @@ title: IXpsOMRemoteDictionaryResource::SetDictionary
 author: windows-sdk-content
 description: Sets a pointer to the IXpsOMDictionary interface of the remote dictionary that is to be associated with this resource.
 old-location: xps\ixpsomremotedictionaryresource_setdictionary.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 68aba55b-d755-4ed3-8ede-6f3a4e6f7b3a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging],SetDictionary method, IXpsOMRemoteDictionaryResource.SetDictionary, IXpsOMRemoteDictionaryResource::SetDictionary, SetDictionary, SetDictionary method [XPS Documents and Packaging], SetDictionary method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource interface, xps.ixpsomremotedictionaryresource_setdictionary, xpsobjectmodel/IXpsOMRemoteDictionaryResource::SetDictionary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMRemoteDictionaryResource.SetDictionary
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMRemoteDictionaryResource::SetDictionary

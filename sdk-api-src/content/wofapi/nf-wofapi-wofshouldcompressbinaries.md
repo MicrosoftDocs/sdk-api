@@ -4,17 +4,16 @@ title: WofShouldCompressBinaries function
 author: windows-sdk-content
 description: Indicates whether compression should be used on a particular volume, and if so, which compression algorithm should be used.
 old-location: fs\wofshouldcompressbinaries.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: C7A1D76A-2535-46BB-A55B-D1E15A079FF4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WofShouldCompressBinaries, WofShouldCompressBinaries function [Files], fs.wofshouldcompressbinaries, wofapi/WofShouldCompressBinaries
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
+req.lib: Wofutil.lib
+req.dll: Wofutil.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WofShouldCompressBinaries
 product: Windows
 targetos: Windows
-req.lib: Wofutil.lib
-req.dll: Wofutil.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WofShouldCompressBinaries function

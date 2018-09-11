@@ -4,17 +4,16 @@ title: IUIAutomation::get_RawViewCondition
 author: windows-sdk-content
 description: Retrieves a predefined IUIAutomationCondition interface that selects all UI elements in an unfiltered view.
 old-location: winauto\uiauto_IUIAutomation_RawViewCondition.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 2ed9867c-2bcb-464e-a5a6-15e9f4dcd276
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RawViewCondition property, IUIAutomation.RawViewCondition, IUIAutomation.get_RawViewCondition, IUIAutomation::RawViewCondition, IUIAutomation::get_RawViewCondition, RawViewCondition property [Windows Accessibility], RawViewCondition property [Windows Accessibility],IUIAutomation interface, get_RawViewCondition, uiauto.uiauto_IUIAutomation_RawViewCondition, uiauto_IUIAutomation_RawViewCondition, uiautomationclient/IUIAutomation::RawViewCondition, uiautomationclient/IUIAutomation::get_RawViewCondition, winauto.uiauto_IUIAutomation_RawViewCondition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomation.get_RawViewCondition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation::get_RawViewCondition

@@ -4,17 +4,16 @@ title: IGPMMigrationTable::Validate
 author: windows-sdk-content
 description: Validates the migration table.
 old-location: gpmc\igpmmigrationtable_validate.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 1b442155-3dd7-4a74-ad33-db79114459ac
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMMigrationTable class [GPMC],Validate method, IGPMMigrationTable interface [GPMC],Validate method, IGPMMigrationTable.Validate, IGPMMigrationTable::Validate, Validate, Validate method [GPMC], Validate method [GPMC],GPMMigrationTable class, Validate method [GPMC],IGPMMigrationTable interface, gpmc.igpmmigrationtable_validate, gpmgmt/IGPMMigrationTable::Validate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMMigrationTable.Validate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMMigrationTable::Validate

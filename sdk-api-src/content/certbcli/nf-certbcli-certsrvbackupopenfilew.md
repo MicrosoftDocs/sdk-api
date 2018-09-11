@@ -4,17 +4,16 @@ title: CertSrvBackupOpenFileW function
 author: windows-sdk-content
 description: Opens a file for backup.
 old-location: security\certsrvbackupopenfile.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 5ddce73f-c693-437a-9eae-d7eaf482ee05
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CertSrvBackupOpenFile, CertSrvBackupOpenFile function [Security], CertSrvBackupOpenFileW, _certsrv_certsrvbackupopenfile, certbcli/CertSrvBackupOpenFile, certbcli/CertSrvBackupOpenFileW, security.certsrvbackupopenfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CertSrvBackupOpenFileW
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CertSrvBackupOpenFileW function

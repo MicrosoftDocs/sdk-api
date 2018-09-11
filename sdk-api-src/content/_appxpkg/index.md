@@ -2,7 +2,7 @@
 UID: TP:appxpkg
 ms.assetid: 293875dc-2153-3c83-b216-e0140d6681e4
 ms.author: windowssdkdev
-ms.date: 08/23/2018
+ms.date: 09/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

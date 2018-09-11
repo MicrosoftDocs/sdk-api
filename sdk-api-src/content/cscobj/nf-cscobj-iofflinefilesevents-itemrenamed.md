@@ -4,17 +4,16 @@ title: IOfflineFilesEvents::ItemRenamed
 author: windows-sdk-content
 description: Reports that the path for an item in the Offline Files cache has been renamed.
 old-location: of\iofflinefilesevents_itemrenamed.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: f1a678dd-9a02-41da-90d4-930c0d366a36
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemRenamed method, IOfflineFilesEvents.ItemRenamed, IOfflineFilesEvents::ItemRenamed, ItemRenamed, ItemRenamed method [Offline Files], ItemRenamed method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemRenamed, of.iofflinefilesevents_itemrenamed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesEvents.ItemRenamed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesEvents::ItemRenamed

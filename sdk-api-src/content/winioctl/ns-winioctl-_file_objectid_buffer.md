@@ -4,7 +4,7 @@ title: "_FILE_OBJECTID_BUFFER"
 author: windows-sdk-content
 description: Contains an object identifier and user-defined metadata associated with the object identifier.
 old-location: fs\file_objectid_buffer_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 4d58921c-a3ec-44f3-b077-528db6b1211c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_OBJECTID_BUFFER, *PFILE_OBJECTID_BUFFER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILE_OBJECTID_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FILE_OBJECTID_BUFFER, *PFILE_OBJECTID_BUFFER
+req.redist: 
 ---
 
 # _FILE_OBJECTID_BUFFER structure

@@ -4,17 +4,16 @@ title: IDXVAHD_Device::GetVideoProcessorCustomRates
 author: windows-sdk-content
 description: Gets a list of custom rates that a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor supports. Custom rates are used for frame-rate conversion and inverse telecine (IVTC).
 old-location: mf\idxvahd_device_getvideoprocessorcustomrates.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 63e835bb-dda2-4449-8474-219a373da82d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetVideoProcessorCustomRates, GetVideoProcessorCustomRates method [Media Foundation], GetVideoProcessorCustomRates method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorCustomRates method, IDXVAHD_Device.GetVideoProcessorCustomRates, IDXVAHD_Device::GetVideoProcessorCustomRates, dxvahd/IDXVAHD_Device::GetVideoProcessorCustomRates, mf.idxvahd_device_getvideoprocessorcustomrates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_SURFACE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXVAHD_Device.GetVideoProcessorCustomRates
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXVAHD_Device::GetVideoProcessorCustomRates

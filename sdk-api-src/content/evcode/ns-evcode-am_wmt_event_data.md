@@ -4,7 +4,7 @@ title: AM_WMT_EVENT_DATA
 author: windows-sdk-content
 description: The AM_WMT_EVENT_DATA structure contains information pertaining to an EC_WMT_EVENT and the associated status code returned by the Windows Media Format SDK.
 old-location: wmformat\am_wmt_event_data.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 49f48cb6-e1d0-4dd4-bfb4-c5917144c3cf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evcode.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_WMT_EVENT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_WMT_EVENT_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: AM_WMT_EVENT_DATA
+req.redist: 
 ---
 
 # AM_WMT_EVENT_DATA structure

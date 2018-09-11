@@ -4,17 +4,16 @@ title: IMSVidDeviceEvent::StateChange
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsviddeviceevent_statechange.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0f7a5e37-5a0d-415e-aca0-df5f9448b017
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidDeviceEvent interface [Microsoft TV Technologies],StateChange method, IMSVidDeviceEvent.StateChange, IMSVidDeviceEvent::StateChange, IMSVidDeviceEventStateChange, StateChange, StateChange method [Microsoft TV Technologies], StateChange method [Microsoft TV Technologies],IMSVidDeviceEvent interface, mstv.imsviddeviceevent_statechange, segment/IMSVidDeviceEvent::StateChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidDeviceEvent.StateChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidDeviceEvent::StateChange
@@ -68,7 +66,7 @@ The <b>StateChange</b> method signals that the state of the device has changed.
 
 ### -param lpd
 
-
+TBD
 
 
 ### -param oldState [in]

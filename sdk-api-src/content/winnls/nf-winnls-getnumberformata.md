@@ -4,17 +4,16 @@ title: GetNumberFormatA function
 author: windows-sdk-content
 description: Formats a number string as a number string customized for a locale specified by identifier.
 old-location: intl\getnumberformat.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: acbfebed-71bd-4266-b639-66f453158442
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetNumberFormat, GetNumberFormat function [Internationalization for Windows Applications], GetNumberFormatA, GetNumberFormatW, _win32_GetNumberFormat, intl.getnumberformat, winnls/GetNumberFormat, winnls/GetNumberFormatA, winnls/GetNumberFormatW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - GetNumberFormatW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetNumberFormatA function

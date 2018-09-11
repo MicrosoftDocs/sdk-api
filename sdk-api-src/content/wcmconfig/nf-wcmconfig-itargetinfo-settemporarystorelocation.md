@@ -4,17 +4,16 @@ title: ITargetInfo::SetTemporaryStoreLocation
 author: windows-sdk-content
 description: Sets the current temporary store location.
 old-location: smi\itargetinfo_settemporarystorelocation.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: ef2b6983-02ff-488a-99ef-9976d76f51b5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ITargetInfo interface [SMI],SetTemporaryStoreLocation method, ITargetInfo.SetTemporaryStoreLocation, ITargetInfo::SetTemporaryStoreLocation, SetTemporaryStoreLocation, SetTemporaryStoreLocation method [SMI], SetTemporaryStoreLocation method [SMI],ITargetInfo interface, smi.itargetinfo_settemporarystorelocation, wcmconfig/ITargetInfo::SetTemporaryStoreLocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITargetInfo.SetTemporaryStoreLocation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITargetInfo::SetTemporaryStoreLocation

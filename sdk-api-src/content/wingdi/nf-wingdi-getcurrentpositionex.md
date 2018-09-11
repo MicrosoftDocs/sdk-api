@@ -4,17 +4,16 @@ title: GetCurrentPositionEx function
 author: windows-sdk-content
 description: The GetCurrentPositionEx function retrieves the current position in logical coordinates.
 old-location: gdi\getcurrentpositionex.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 23a5ac58-2b88-42d3-ab02-8edb8ef187cc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCurrentPositionEx, GetCurrentPositionEx function [Windows GDI], _win32_GetCurrentPositionEx, gdi.getcurrentpositionex, wingdi/GetCurrentPositionEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetCurrentPositionEx
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetCurrentPositionEx function

@@ -4,17 +4,16 @@ title: "_WS_DATETIME_DESCRIPTION"
 author: windows-sdk-content
 description: This type description is used with WS_DATETIME_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_datetime_description.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: f6a7094f-56c0-4d8e-9050-fe41c4a82bf4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_DATETIME_DESCRIPTION, WS_DATETIME_DESCRIPTION structure [Web Services for Windows], _WS_DATETIME_DESCRIPTION, webservices/WS_DATETIME_DESCRIPTION, wsw.ws_datetime_description
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_DATETIME_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_DATETIME_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_DATETIME_DESCRIPTION
+req.redist: 
 ---
 
 # _WS_DATETIME_DESCRIPTION structure

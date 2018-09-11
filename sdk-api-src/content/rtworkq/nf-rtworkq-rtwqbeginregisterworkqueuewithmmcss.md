@@ -4,17 +4,16 @@ title: RtwqBeginRegisterWorkQueueWithMMCSS function
 author: windows-sdk-content
 description: Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: base\rtwqbeginregisterworkqueuewithmmcss.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 3012EFE9-437A-4B60-98DD-7602CD9A9E76
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: RtwqBeginRegisterWorkQueueWithMMCSS, RtwqBeginRegisterWorkQueueWithMMCSS function, base.rtwqbeginregisterworkqueuewithmmcss, rtworkq/RtwqBeginRegisterWorkQueueWithMMCSS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTWQ_WORKQUEUE_TYPE
+req.lib: Rtworkq.lib
+req.dll: RTWorkQ.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtwqBeginRegisterWorkQueueWithMMCSS
 product: Windows
 targetos: Windows
-req.lib: Rtworkq.lib
-req.dll: RTWorkQ.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtwqBeginRegisterWorkQueueWithMMCSS function

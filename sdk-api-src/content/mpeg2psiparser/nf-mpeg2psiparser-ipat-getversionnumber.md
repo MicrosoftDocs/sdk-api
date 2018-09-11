@@ -4,17 +4,16 @@ title: IPAT::GetVersionNumber
 author: windows-sdk-content
 description: The GetVersionNumber method returns the version number for the PAT.
 old-location: mstv\ipat_getversionnumber.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1398a1b9-e9b9-4f30-ba93-0a08a0994cf9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetVersionNumber method, IPAT.GetVersionNumber, IPAT::GetVersionNumber, IPATGetVersionNumber, mpeg2psiparser/IPAT::GetVersionNumber, mstv.ipat_getversionnumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPAT.GetVersionNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPAT::GetVersionNumber

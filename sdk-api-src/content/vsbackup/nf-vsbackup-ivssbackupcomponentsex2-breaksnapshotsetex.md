@@ -4,17 +4,16 @@ title: IVssBackupComponentsEx2::BreakSnapshotSetEx
 author: windows-sdk-content
 description: Breaks a shadow copy set according to requester-specified options.
 old-location: base\ivssbackupcomponentsex2_breaksnapshotsetex.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 595fe295-082d-4130-9698-952df49a922e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BreakSnapshotSetEx, BreakSnapshotSetEx method, BreakSnapshotSetEx method,IVssBackupComponentsEx2 interface, IVssBackupComponentsEx2 interface,BreakSnapshotSetEx method, IVssBackupComponentsEx2.BreakSnapshotSetEx, IVssBackupComponentsEx2::BreakSnapshotSetEx, base.ivssbackupcomponentsex2_breaksnapshotsetex, vsbackup/IVssBackupComponentsEx2::BreakSnapshotSetEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssBackupComponentsEx2.BreakSnapshotSetEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponentsEx2::BreakSnapshotSetEx

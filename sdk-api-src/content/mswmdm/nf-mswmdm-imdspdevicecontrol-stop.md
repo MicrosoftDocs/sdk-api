@@ -4,17 +4,16 @@ title: IMDSPDeviceControl::Stop
 author: windows-sdk-content
 description: The Stop method stops the current stream.
 old-location: wmdm\imdspdevicecontrol_stop.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 31dd1325-2a8d-4a61-a4a5-f585b320e841
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Stop method, IMDSPDeviceControl.Stop, IMDSPDeviceControl::Stop, IMDSPDeviceControlStop, Stop, Stop method [windows Media Device Manager], Stop method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Stop, wmdm.imdspdevicecontrol_stop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPDeviceControl.Stop
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPDeviceControl::Stop

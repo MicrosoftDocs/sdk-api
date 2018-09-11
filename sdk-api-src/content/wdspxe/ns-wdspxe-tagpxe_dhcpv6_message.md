@@ -4,17 +4,16 @@ title: tagPXE_DHCPV6_MESSAGE
 author: windows-sdk-content
 description: A DHCPV6 message.
 old-location: wds\pxe_dhcpv6_message.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: FA9CE377-8C66-4873-B6EF-5761FF398164
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPXE_DHCPV6_MESSAGE, PPXE_DHCPV6_MESSAGE, PPXE_DHCPV6_MESSAGE structure pointer [Windows Deployment Services], PXE_DHCPV6_MESSAGE, PXE_DHCPV6_MESSAGE structure [Windows Deployment Services], tagPXE_DHCPV6_MESSAGE, wds.pxe_dhcpv6_message, wdspxe/PPXE_DHCPV6_MESSAGE, wdspxe/PXE_DHCPV6_MESSAGE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wdspxe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PXE_DHCPV6_MESSAGE, *PPXE_DHCPV6_MESSAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PXE_DHCPV6_MESSAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PXE_DHCPV6_MESSAGE, *PPXE_DHCPV6_MESSAGE
+req.redist: 
 ---
 
 # tagPXE_DHCPV6_MESSAGE structure

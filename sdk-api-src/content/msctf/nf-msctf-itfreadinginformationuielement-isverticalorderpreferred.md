@@ -4,17 +4,16 @@ title: ITfReadingInformationUIElement::IsVerticalOrderPreferred
 author: windows-sdk-content
 description: This method returns if the UI prefers to be shown in vertical order.
 old-location: tsf\itfreadinginformationuielement_isverticalorderpreferred.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: a45d8928-5cfd-4af9-ba3b-7171e48d81c8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfReadingInformationUIElement interface [Text Services Framework],IsVerticalOrderPreferred method, ITfReadingInformationUIElement.IsVerticalOrderPreferred, ITfReadingInformationUIElement::IsVerticalOrderPreferred, IsVerticalOrderPreferred, IsVerticalOrderPreferred method [Text Services Framework], IsVerticalOrderPreferred method [Text Services Framework],ITfReadingInformationUIElement interface, msctf/ITfReadingInformationUIElement::IsVerticalOrderPreferred, tsf.iitfreadinginformationuielement_isverticalorderpreferred, tsf.itfreadinginformationuielement_isverticalorderpreferred
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfReadingInformationUIElement.IsVerticalOrderPreferred
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfReadingInformationUIElement::IsVerticalOrderPreferred

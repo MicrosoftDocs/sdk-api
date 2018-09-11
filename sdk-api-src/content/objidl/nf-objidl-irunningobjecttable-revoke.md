@@ -4,17 +4,16 @@ title: IRunningObjectTable::Revoke
 author: windows-sdk-content
 description: Removes an entry from the running object table (ROT) that was previously registered by a call to IRunningObjectTable::Register.
 old-location: com\irunningobjecttable_revoke.htm
-old-project: com
+tech.root: com
 ms.assetid: d3d83966-035d-4077-a770-cb62c8011132
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRunningObjectTable interface [COM],Revoke method, IRunningObjectTable.Revoke, IRunningObjectTable::Revoke, Revoke, Revoke method [COM], Revoke method [COM],IRunningObjectTable interface, _com_irunningobjecttable_revoke, com.irunningobjecttable_revoke, objidl/IRunningObjectTable::Revoke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRunningObjectTable.Revoke
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRunningObjectTable::Revoke

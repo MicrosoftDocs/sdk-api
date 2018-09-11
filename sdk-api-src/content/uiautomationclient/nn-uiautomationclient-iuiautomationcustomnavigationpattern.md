@@ -4,7 +4,7 @@ title: IUIAutomationCustomNavigationPattern
 author: windows-sdk-content
 description: Exposes a method to support access by a Microsoft UI Automation client to controls that support a custom navigation order.
 old-location: winauto\uiauto_IUIAutomationCustomNavigationPattern.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 0FF8604E-DD0E-4243-9B7E-219A26ACAC9C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationCustomNavigationPattern
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAutomationCore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationCustomNavigationPattern interface

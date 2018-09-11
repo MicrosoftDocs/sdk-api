@@ -4,17 +4,16 @@ title: ICertServerPolicy::GetCertificateExtensionFlags
 author: windows-sdk-content
 description: Retrieves the flags associated with the extension acquired by the most recent call to GetCertificateExtension.
 old-location: security\icertserverpolicy_getcertificateextensionflags.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 6266e96d-81da-478f-99da-86936b4cfc6b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertServerPolicy object [Security],GetCertificateExtensionFlags method, GetCertificateExtensionFlags, GetCertificateExtensionFlags method [Security], GetCertificateExtensionFlags method [Security],CCertServerPolicy object, GetCertificateExtensionFlags method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetCertificateExtensionFlags method, ICertServerPolicy.GetCertificateExtensionFlags, ICertServerPolicy::GetCertificateExtensionFlags, _certsrv_icertserverpolicy_getcertificateextensionflags, certif/ICertServerPolicy::GetCertificateExtensionFlags, security.icertserverpolicy_getcertificateextensionflags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertServerPolicy.GetCertificateExtensionFlags
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertServerPolicy::GetCertificateExtensionFlags

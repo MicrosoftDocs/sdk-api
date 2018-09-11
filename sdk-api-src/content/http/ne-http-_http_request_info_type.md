@@ -4,7 +4,7 @@ title: "_HTTP_REQUEST_INFO_TYPE"
 author: windows-sdk-content
 description: The HTTP_REQUEST_INFO_TYPE enumeration defines the type of information contained in the HTTP_REQUEST_INFO structure. This enumeration is used in the HTTP_REQUEST_INFO structure.
 old-location: http\http_request_info_type.htm
-old-project: http
+tech.root: http
 ms.assetid: 178d2608-85c8-4842-bd6a-4c66d7f1b892
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_REQUEST_INFO_TYPE, *PHTTP_REQUEST_INFO_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_REQUEST_INFO_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_REQUEST_INFO_TYPE, *PHTTP_REQUEST_INFO_TYPE
+req.redist: 
 ---
 
 # _HTTP_REQUEST_INFO_TYPE enumeration

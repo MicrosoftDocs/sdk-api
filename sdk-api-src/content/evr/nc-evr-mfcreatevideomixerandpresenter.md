@@ -4,7 +4,7 @@ title: MFCreateVideoMixerAndPresenter
 author: windows-sdk-content
 description: Creates the default video mixer and video presenter for the enhanced video renderer (EVR).
 old-location: mf\mfcreatevideomixerandpresenter.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1777027a-85bb-47d2-baf8-6f420282b01a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_FILTER_LEVEL_KW, *PEVENT_FILTER_LEVEL_KW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateVideoMixerAndPresenter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateVideoMixerAndPresenter callback function

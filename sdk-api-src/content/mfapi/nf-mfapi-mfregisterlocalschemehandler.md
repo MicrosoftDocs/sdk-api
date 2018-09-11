@@ -4,17 +4,16 @@ title: MFRegisterLocalSchemeHandler function
 author: windows-sdk-content
 description: Registers a scheme handler in the caller's process.
 old-location: mf\mfregisterlocalschemehandler.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: B0F14D11-D896-4CFC-8914-087611347BEB
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFRegisterLocalSchemeHandler, MFRegisterLocalSchemeHandler function [Media Foundation], mf.mfregisterlocalschemehandler, mfapi/MFRegisterLocalSchemeHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFRegisterLocalSchemeHandler
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFRegisterLocalSchemeHandler function

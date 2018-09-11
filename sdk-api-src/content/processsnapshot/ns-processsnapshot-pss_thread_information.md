@@ -4,7 +4,7 @@ title: PSS_THREAD_INFORMATION
 author: windows-sdk-content
 description: Holds thread information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_thread_information.htm
-old-project: proc_snap
+tech.root: proc_snap
 ms.assetid: 68BC42FD-9A30-462F-AFB1-DF9587C50F45
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSS_THREAD_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSS_THREAD_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PSS_THREAD_INFORMATION
+req.redist: 
 ---
 
 # PSS_THREAD_INFORMATION structure

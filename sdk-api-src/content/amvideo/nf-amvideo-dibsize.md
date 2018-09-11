@@ -4,17 +4,16 @@ title: DIBSIZE macro
 author: windows-sdk-content
 description: The DIBSIZE macro calculates the number of bytes required by a device-independent bitmap (DIB).
 old-location: dshow\dibsize.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a1feaa57-f403-46d0-b9a4-56e94ff2ceee
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: DIBSIZE, DIBSIZE macro [DirectShow], amvideo/DIBSIZE, dshow.dibsize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIBSIZE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DIBSIZE macro

@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CurrentAcceleratorKey
 author: windows-sdk-content
 description: Retrieves the accelerator key for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentAcceleratorKey.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 393f63b4-e3f4-4b62-af92-1fb9bee079ba
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentAcceleratorKey property [Windows Accessibility], CurrentAcceleratorKey property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentAcceleratorKey property, IUIAutomationElement.CurrentAcceleratorKey, IUIAutomationElement.get_CurrentAcceleratorKey, IUIAutomationElement::CurrentAcceleratorKey, IUIAutomationElement::get_CurrentAcceleratorKey, get_CurrentAcceleratorKey, uiauto.uiauto_IUIAutomationElement_CurrentAcceleratorKey, uiauto_IUIAutomationElement_CurrentAcceleratorKey, uiautomationclient/IUIAutomationElement::CurrentAcceleratorKey, uiautomationclient/IUIAutomationElement::get_CurrentAcceleratorKey, winauto.uiauto_IUIAutomationElement_CurrentAcceleratorKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CurrentAcceleratorKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CurrentAcceleratorKey

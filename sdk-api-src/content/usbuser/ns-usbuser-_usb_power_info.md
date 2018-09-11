@@ -4,7 +4,7 @@ title: "_USB_POWER_INFO"
 author: windows-sdk-content
 description: The USB_POWER_INFO structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve device power state that the host controller power policy specifies for the indicated system power state.
 old-location: buses\usb_power_info.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: b4f35d7e-b0e3-44d9-8e41-1752cb0af5ef
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_POWER_INFO, *PUSB_POWER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USB_POWER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: USB_POWER_INFO, *PUSB_POWER_INFO
+req.redist: 
 ---
 
 # _USB_POWER_INFO structure

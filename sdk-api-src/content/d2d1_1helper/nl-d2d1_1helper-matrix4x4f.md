@@ -4,7 +4,7 @@ title: Matrix4x4F
 author: windows-sdk-content
 description: The Matrix4x4F class represents a 4-by-4 matrix and provides convenience methods for creating matrices.
 old-location: direct2d\matrix4x4f.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 113861DF-2E6D-4930-82DC-AA592882E21C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: d2d1_1helper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_STROKE_STYLE_PROPERTIES1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Matrix4x4F
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Matrix4x4F class

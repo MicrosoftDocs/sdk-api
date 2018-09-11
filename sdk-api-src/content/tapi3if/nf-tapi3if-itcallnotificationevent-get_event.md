@@ -4,17 +4,16 @@ title: ITCallNotificationEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method returns a CALL_NOTIFICATION_EVENT description of whether the application owns or is monitoring the call on which the event has occurred.
 old-location: tapi3\itcallnotificationevent_get_event.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 08a3925c-e14e-442e-952e-483fc41d049c
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallNotificationEvent interface [TAPI 2.2],get_Event method, ITCallNotificationEvent.get_Event, ITCallNotificationEvent::get_Event, _tapi3_itcallnotificationevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITCallNotificationEvent interface, tapi3.itcallnotificationevent_get_event, tapi3if/ITCallNotificationEvent::get_Event
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallNotificationEvent.get_Event
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallNotificationEvent::get_Event

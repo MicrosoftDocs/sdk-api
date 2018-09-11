@@ -4,17 +4,16 @@ title: IEventObjectCollection::get__NewEnum
 author: windows-sdk-content
 description: An enumerator for the objects in the collection.
 old-location: cos\ieventobjectcollection__newenum.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: bdf2bcb0-42c2-4904-b36b-73ee27f4c188
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEventObjectCollection interface [COM+],_NewEnum property, IEventObjectCollection._NewEnum, IEventObjectCollection.get__NewEnum, IEventObjectCollection::_NewEnum, IEventObjectCollection::get__NewEnum, _NewEnum property [COM+], _NewEnum property [COM+],IEventObjectCollection interface, cos.ieventobjectcollection__newenum, eventsys/IEventObjectCollection::_NewEnum, eventsys/IEventObjectCollection::get__NewEnum, get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEventObjectCollection.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventObjectCollection::get__NewEnum

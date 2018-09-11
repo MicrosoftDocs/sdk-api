@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0004"
 author: windows-sdk-content
 description: Defines the size of the bitmap to use to represent the WinSAT score.
 old-location: winsat\winsat_bitmap_size.htm
-old-project: winsat
+tech.root: WinSAT
 ms.assetid: 5cc91824-f3d4-4c33-85df-b98c8d6ac0a1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: WINSAT_BITMAP_SIZE, WINSAT_BITMAP_SIZE enumeration [WinSAT], WINSAT_BITMAP_SIZE_NORMAL, WINSAT_BITMAP_SIZE_SMALL, __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0004, winsat.winsat_bitmap_size, winsatcominterfacei/WINSAT_BITMAP_SIZE, winsatcominterfacei/WINSAT_BITMAP_SIZE_NORMAL, winsatcominterfacei/WINSAT_BITMAP_SIZE_SMALL
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsatcominterfacei.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINSAT_BITMAP_SIZE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WINSAT_BITMAP_SIZE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0004 enumeration

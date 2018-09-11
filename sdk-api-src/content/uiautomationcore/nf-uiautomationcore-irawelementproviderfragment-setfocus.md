@@ -4,17 +4,16 @@ title: IRawElementProviderFragment::SetFocus
 author: windows-sdk-content
 description: Sets the focus to this element.
 old-location: winauto\uiauto_IRawElementProviderFragment_SetFocus.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 343959bc-42d0-4289-b507-7da78cee28f2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRawElementProviderFragment interface [Windows Accessibility],SetFocus method, IRawElementProviderFragment.SetFocus, IRawElementProviderFragment::SetFocus, SetFocus, SetFocus method [Windows Accessibility], SetFocus method [Windows Accessibility],IRawElementProviderFragment interface, uiauto.uiauto_IRawElementProviderFragment_SetFocus, uiauto_IRawElementProviderFragment_SetFocus, uiautomationcore/IRawElementProviderFragment::SetFocus, winauto.uiauto_IRawElementProviderFragment_SetFocus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawElementProviderFragment.SetFocus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRawElementProviderFragment::SetFocus

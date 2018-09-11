@@ -4,17 +4,16 @@ title: GetIpNetTable function
 author: windows-sdk-content
 description: The GetIpNetTable function retrieves the IPv4 to physical address mapping table.
 old-location: iphlp\getipnettable.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 01bcf86e-5fcc-4ce9-bb89-02d393e75d1d
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: GetIpNetTable, GetIpNetTable function [IP Helper], _iphlp_getipnettable, iphlp.getipnettable, iphlpapi/GetIpNetTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetIpNetTable
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetIpNetTable function

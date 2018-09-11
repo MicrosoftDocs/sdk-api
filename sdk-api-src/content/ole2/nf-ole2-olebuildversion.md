@@ -4,17 +4,16 @@ title: OleBuildVersion function
 author: windows-sdk-content
 description: This function is obsolete.
 old-location: com\olebuildversion.htm
-old-project: com
+tech.root: com
 ms.assetid: 5715CF82-7598-4D04-8EC8-BB27582A739E
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleBuildVersion, OleBuildVersion function [COM], com.olebuildversion, ole2/OleBuildVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OleBuildVersion
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleBuildVersion function

@@ -4,17 +4,16 @@ title: ITsSbResourcePluginStore::SetTargetState
 author: windows-sdk-content
 description: Sets the state of a target object.
 old-location: termserv\itssbresourcepluginstore_settargetstate.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 5ba5c4c6-b644-45f7-8942-ee8ea543138d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetTargetState method, ITsSbResourcePluginStore.SetTargetState, ITsSbResourcePluginStore::SetTargetState, SetTargetState, SetTargetState method [Remote Desktop Services], SetTargetState method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetTargetState, termserv.itssbresourcepluginstore_settargetstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbResourcePluginStore.SetTargetState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourcePluginStore::SetTargetState

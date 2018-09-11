@@ -4,17 +4,16 @@ title: IBITSExtensionSetupFactory::GetObject
 author: windows-sdk-content
 description: Use the GetObject method to retrieve a pointer to the IBITSExtensionSetup interface. This method performs the same binding that the ADsGetObject ADSI function performs.
 old-location: bits\ibitsextensionsetupfactory_getobject.htm
-old-project: bits
+tech.root: bits
 ms.assetid: ac0bb9d5-3f1f-4c9b-bd7d-905e0451bf70
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetObject, GetObject method [BITS], GetObject method [BITS],IBITSExtensionSetupFactory interface, IBITSExtensionSetupFactory interface [BITS],GetObject method, IBITSExtensionSetupFactory.GetObject, IBITSExtensionSetupFactory::GetObject, _drz_ibitsextensionsetupfactory_getobject, bits.ibitsextensionsetupfactory_getobject, bitscfg/IBITSExtensionSetupFactory::GetObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bitscfg.h
 req.include-header: 
-req.redist: BITS 1.5 on  Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITS_FILE_PROPERTY_VALUE
+req.lib: 
+req.dll: BitsMgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBITSExtensionSetupFactory.GetObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: BitsMgr.dll
-req.irql: 
+req.typenames: 
+req.redist: BITS 1.5 on  Windows XP
 ---
 
 # IBITSExtensionSetupFactory::GetObject

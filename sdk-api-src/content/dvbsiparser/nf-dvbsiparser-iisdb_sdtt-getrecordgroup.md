@@ -4,17 +4,16 @@ title: IISDB_SDTT::GetRecordGroup
 author: windows-sdk-content
 description: Receives the recording download level from a record in an Integrated services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecordgroup.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6798e477-754d-49a3-84f1-04d1a60094a7
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordGroup, GetRecordGroup method [Microsoft TV Technologies], GetRecordGroup method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordGroup method, IISDB_SDTT.GetRecordGroup, IISDB_SDTT::GetRecordGroup, dvbsiparser/IISDB_SDTT::GetRecordGroup, mstv.iisdb_sdtt_getrecordgroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IISDB_SDTT.GetRecordGroup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IISDB_SDTT::GetRecordGroup

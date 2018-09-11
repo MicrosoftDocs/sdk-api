@@ -4,17 +4,16 @@ title: ITTerminalControl::ConnectTerminal
 author: windows-sdk-content
 description: The ConnectTerminal method connects filters and returns a set of pins for connection. Enters each of the internal filters into the filter graph, connects the internal filters together (if applicable) and returns a set of pins for connection.
 old-location: tapi3\itterminalcontrol_connectterminal.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 0351e645-b857-44d8-a226-046ebe0f4c81
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ConnectTerminal, ConnectTerminal method [TAPI 2.2], ConnectTerminal method [TAPI 2.2],ITTerminalControl interface, ITTerminalControl interface [TAPI 2.2],ConnectTerminal method, ITTerminalControl.ConnectTerminal, ITTerminalControl::ConnectTerminal, _tapi3_itterminalcontrol_connectterminal, tapi3.itterminalcontrol_connectterminal, termmgr/ITTerminalControl::ConnectTerminal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTerminalControl.ConnectTerminal
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTerminalControl::ConnectTerminal

@@ -4,17 +4,16 @@ title: D3DReflectLibrary function
 author: windows-sdk-content
 description: Creates a library-reflection interface from source data that contains an HLSL library of functions.
 old-location: direct3dhlsl\d3dreflectlibrary.htm
-old-project: direct3dhlsl
+tech.root: direct3dhlsl
 ms.assetid: E64FB2C3-8F64-411F-89E1-984DAAE4D7C2
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: D3DReflectLibrary, D3DReflectLibrary function [HLSL], d3dcompiler/D3DReflectLibrary, direct3dhlsl.d3dreflectlibrary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_BLOB_PART
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3DReflectLibrary
 product: Windows
 targetos: Windows
-req.lib: D3DCompiler.lib
-req.dll: D3DCompiler_47.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D3DReflectLibrary function

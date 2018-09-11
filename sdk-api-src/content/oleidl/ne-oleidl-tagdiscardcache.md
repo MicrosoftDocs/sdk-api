@@ -4,31 +4,31 @@ title: tagDISCARDCACHE
 author: windows-sdk-content
 description: Specifies what to do with caches that are to be discarded from memory if their dirty bit has been set.
 old-location: com\discardcache.htm
-old-project: com
+tech.root: com
 ms.assetid: 879caecd-8231-449b-8329-e627c85030bf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DISCARDCACHE, DISCARDCACHE enumeration [COM], DISCARDCACHE_NOSAVE, DISCARDCACHE_SAVEIFDIRTY, _ole_DISCARDCACHE, com.discardcache, oleidl/DISCARDCACHE, oleidl/DISCARDCACHE_NOSAVE, oleidl/DISCARDCACHE_SAVEIFDIRTY, tagDISCARDCACHE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: OLEUIVIEWPROPSW (Unicode) and OLEUIVIEWPROPSA (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISCARDCACHE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISCARDCACHE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DISCARDCACHE
+req.redist: 
 ---
 
 # tagDISCARDCACHE enumeration

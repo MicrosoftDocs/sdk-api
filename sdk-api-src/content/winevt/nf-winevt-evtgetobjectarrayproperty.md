@@ -4,17 +4,16 @@ title: EvtGetObjectArrayProperty function
 author: windows-sdk-content
 description: Gets a provider metadata property from the specified object in the array.
 old-location: wes\evtgetobjectarrayproperty.htm
-old-project: wes
+tech.root: WES
 ms.assetid: a522f0a8-6050-4082-acdf-e700ebfa7efc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EvtGetObjectArrayProperty, EvtGetObjectArrayProperty function [EventLog], wes.evtgetobjectarrayproperty, winevt/EvtGetObjectArrayProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_VARIANT_TYPE
+req.lib: Wevtapi.lib
+req.dll: Wevtapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EvtGetObjectArrayProperty
 product: Windows
 targetos: Windows
-req.lib: Wevtapi.lib
-req.dll: Wevtapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EvtGetObjectArrayProperty function

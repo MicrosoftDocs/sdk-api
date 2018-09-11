@@ -4,17 +4,16 @@ title: ResUtilTerminateServiceProcessFromResDll function
 author: windows-sdk-content
 description: Attempts to terminate the process of a service being managed as a cluster resource by a resource DLL. The PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL type defines a pointer to this function.
 old-location: mscs\resutilterminateserviceprocessfromresdll.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 8ac3bd90-a717-479c-b976-9ef536853ffe
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL, PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL function [Failover Cluster], ResUtilTerminateServiceProcessFromResDll, ResUtilTerminateServiceProcessFromResDll function [Failover Cluster], _wolf_resutilterminateserviceprocessfromresdll, mscs.resutilterminateserviceprocessfromresdll, resapi/PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL, resapi/ResUtilTerminateServiceProcessFromResDll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilTerminateServiceProcessFromResDll
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilTerminateServiceProcessFromResDll function

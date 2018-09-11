@@ -4,17 +4,16 @@ title: ItsPubPlugin2::GetResource2
 author: windows-sdk-content
 description: This method is reserved and should always return E_NOTIMPL.
 old-location: termserv\itspubplugin2_getresource2.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 8edb3f28-0796-478e-bf0a-b157e1e12dc2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetResource2, GetResource2 method [Remote Desktop Services], GetResource2 method [Remote Desktop Services],ItsPubPlugin2 interface, ItsPubPlugin2 interface [Remote Desktop Services],GetResource2 method, ItsPubPlugin2.GetResource2, ItsPubPlugin2::GetResource2, termserv.itspubplugin2_getresource2, tspubplugin2com/ItsPubPlugin2::GetResource2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tspubplugin2com.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSPUB_PLUGIN_PD_RESOLUTION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ItsPubPlugin2.GetResource2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ItsPubPlugin2::GetResource2
@@ -67,7 +65,7 @@ This parameter is reserved.
 
 ### -param flags
 
-
+TBD
 
 
 ### -param resource [out]

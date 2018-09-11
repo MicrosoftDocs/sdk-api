@@ -4,17 +4,16 @@ title: IWMSyncReader::GetOutputFormat
 author: windows-sdk-content
 description: The GetOutputFormat method retrieves the supported formats for a specified output media stream.
 old-location: wmformat\iwmsyncreader_getoutputformat.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 7faac9e7-ad5f-42a4-ba6e-562ae973f81b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetOutputFormat, GetOutputFormat method [windows Media Format], GetOutputFormat method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputFormat method, IWMSyncReader.GetOutputFormat, IWMSyncReader::GetOutputFormat, IWMSyncReaderGetOutputFormat, wmformat.iwmsyncreader_getoutputformat, wmsdkidl/IWMSyncReader::GetOutputFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMSyncReader.GetOutputFormat
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMSyncReader::GetOutputFormat
@@ -68,12 +66,12 @@ The <b>GetOutputFormat</b> method retrieves the supported formats for a specifie
 
 ### -param dwOutputNum
 
-
+TBD
 
 
 ### -param dwFormatNum
 
-
+TBD
 
 
 ### -param ppProps [out]

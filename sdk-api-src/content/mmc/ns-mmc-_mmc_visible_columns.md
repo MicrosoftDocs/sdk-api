@@ -4,7 +4,7 @@ title: "_MMC_VISIBLE_COLUMNS"
 author: windows-sdk-content
 description: Used by MMC with the MMCN_COLUMNS_CHANGED notification to inform the snap-in which columns in a column set are visible.
 old-location: mmc\mmc_visible_columns.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: b2f54c36-a446-4c16-8595-ab7e3411eb88
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VISIBLE_COLUMNS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMC_VISIBLE_COLUMNS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MMC_VISIBLE_COLUMNS
+req.redist: 
 ---
 
 # _MMC_VISIBLE_COLUMNS structure

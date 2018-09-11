@@ -4,17 +4,16 @@ title: IShellFolderBand
 author: windows-sdk-content
 description: IShellFolderBand may be altered or unavailable.
 old-location: shell\IShellFolderBand.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 88ae35ea-6ff9-431c-848b-84fc61d3c690
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellFolderBand, IShellFolderBand interface [Windows Shell], IShellFolderBand interface [Windows Shell],described, _win32_IShellFolderBand, shell.IShellFolderBand, shlobj/IShellFolderBand
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderBand
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderBand interface

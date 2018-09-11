@@ -4,17 +4,16 @@ title: MBN_CONNECTION_MODE
 author: windows-sdk-content
 description: The MBN_CONNECTION_MODE enumerated type specifies the mode of connection requested.
 old-location: mbn\mbn_connection_mode.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: c7aed29b-7938-4266-ae4c-b8ba84eb8a63
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: MBN_CONNECTION_MODE, MBN_CONNECTION_MODE enumeration [Microsoft Broadband Networks], MBN_CONNECTION_MODE_PROFILE, MBN_CONNECTION_MODE_TMP_PROFILE, mbn.mbn_connection_mode, mbnapi/MBN_CONNECTION_MODE, mbnapi/MBN_CONNECTION_MODE_PROFILE, mbnapi/MBN_CONNECTION_MODE_TMP_PROFILE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_CONNECTION_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_CONNECTION_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_CONNECTION_MODE
+req.redist: 
 ---
 
 # MBN_CONNECTION_MODE enumeration

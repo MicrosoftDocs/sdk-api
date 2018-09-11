@@ -4,17 +4,16 @@ title: ITaskSettings::get_MultipleInstances
 author: windows-sdk-content
 description: Gets or sets the policy that defines how the Task Scheduler deals with multiple instances of the task.
 old-location: taskschd\itasksettings_multipleinstances.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 2a84b780-2378-4ee8-aaa4-3bc960e32206
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],MultipleInstances property, ITaskSettings.MultipleInstances, ITaskSettings.get_MultipleInstances, ITaskSettings::MultipleInstances, ITaskSettings::get_MultipleInstances, ITaskSettings::put_MultipleInstances, MultipleInstances property [Task Scheduler], MultipleInstances property [Task Scheduler],ITaskSettings interface, TASK_INSTANCES_IGNORE_NEW, TASK_INSTANCES_PARALLEL, TASK_INSTANCES_QUEUE, TASK_INSTANCES_STOP_EXISTING, get_MultipleInstances, taskschd.itasksettings_multipleinstances, taskschd/ITaskSettings::MultipleInstances, taskschd/ITaskSettings::get_MultipleInstances, taskschd/ITaskSettings::put_MultipleInstances
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITaskSettings.put_MultipleInstances
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskSettings::get_MultipleInstances

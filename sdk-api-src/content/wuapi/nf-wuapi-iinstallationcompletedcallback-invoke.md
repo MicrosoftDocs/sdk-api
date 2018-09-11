@@ -4,17 +4,16 @@ title: IInstallationCompletedCallback::Invoke
 author: windows-sdk-content
 description: Handles the notification of the completion of an asynchronous installation or uninstallation that is initiated by a call to IUpdateInstaller.BeginInstall or IUpdateInstaller.BeginUninstall.
 old-location: wua\iinstallationcompletedcallback_invoke.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: b7c413b2-b485-41a5-b2c9-5c3e9c10427c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IInstallationCompletedCallback interface [Windows Update Agent],Invoke method, IInstallationCompletedCallback.Invoke, IInstallationCompletedCallback::Invoke, Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent],IInstallationCompletedCallback interface, wua.iinstallationcompletedcallback_invoke, wuapi/IInstallationCompletedCallback::Invoke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInstallationCompletedCallback.Invoke
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IInstallationCompletedCallback::Invoke

@@ -4,7 +4,7 @@ title: "_DDGETFIELDNUMIN"
 author: windows-sdk-content
 description: The DDGETFIELDNUMIN structure contains the Microsoft DirectDraw and video port extensions (VPE) object handle information.
 old-location: display\ddgetfieldnumin.htm
-old-project: display
+tech.root: display
 ms.assetid: d0f8d7d0-6af6-44d1-8f18-d77ce6502b3f
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDGETFIELDNUMIN, *LPDDGETFIELDNUMIN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDGETFIELDNUMIN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDGETFIELDNUMIN, *LPDDGETFIELDNUMIN
+req.redist: 
 ---
 
 # _DDGETFIELDNUMIN structure

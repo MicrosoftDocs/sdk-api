@@ -4,17 +4,16 @@ title: IDirectXVideoDecoder::GetBuffer
 author: windows-sdk-content
 description: Retrieves a pointer to a DirectX Video Acceleration (DXVA) decoder buffer.
 old-location: mf\idirectxvideodecoder_getbuffer.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: db2d4818-8a96-461e-88c4-f25d3200d815
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: DXVA2_BitStreamDateBufferType, DXVA2_DeblockingControlBufferType, DXVA2_FilmGrainBuffer, DXVA2_InverseQuantizationMatrixBufferType, DXVA2_MacroBlockControlBufferType, DXVA2_MotionVectorBuffer, DXVA2_PictureParametersBufferType, DXVA2_ResidualDifferenceBufferType, DXVA2_SliceControlBufferType, GetBuffer, GetBuffer method [Media Foundation], GetBuffer method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],GetBuffer method, IDirectXVideoDecoder.GetBuffer, IDirectXVideoDecoder::GetBuffer, db2d4818-8a96-461e-88c4-f25d3200d815, dxva2api/IDirectXVideoDecoder::GetBuffer, mf.idirectxvideodecoder_getbuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirectXVideoDecoder.GetBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectXVideoDecoder::GetBuffer

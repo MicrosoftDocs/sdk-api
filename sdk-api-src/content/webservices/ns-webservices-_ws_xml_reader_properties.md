@@ -4,17 +4,16 @@ title: "_WS_XML_READER_PROPERTIES"
 author: windows-sdk-content
 description: A structure that is used to specify a set of WS_XML_READER_PROPERTYs.
 old-location: wsw\ws_xml_reader_properties.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 5373c8d3-9201-417e-99d9-cc0d15a35ea6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_READER_PROPERTIES, WS_XML_READER_PROPERTIES structure [Web Services for Windows], _WS_XML_READER_PROPERTIES, webservices/WS_XML_READER_PROPERTIES, wsw.ws_xml_reader_properties
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_READER_PROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_READER_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_READER_PROPERTIES
+req.redist: 
 ---
 
 # _WS_XML_READER_PROPERTIES structure

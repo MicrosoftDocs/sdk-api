@@ -4,17 +4,16 @@ title: ISensor::GetType
 author: windows-sdk-content
 description: Retrieves the sensor type ID.
 old-location: winsensors_com_ref\isensor_gettype.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: b01434ec-163a-4d91-a457-3d2a2c2a710a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetType, GetType method, GetType method,ISensor interface, ISensor interface,GetType method, ISensor.GetType, ISensor::GetType, sensorsapi/ISensor::GetType, winsensors_com_ref.isensor_gettype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensor.GetType
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensor::GetType

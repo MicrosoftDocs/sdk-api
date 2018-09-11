@@ -4,17 +4,16 @@ title: Mem_Range_s
 author: windows-sdk-content
 description: The MEM_RANGE structure specifies a resource requirements list that describes memory usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
 old-location: devinst\mem_range.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: a31ae199-8f4a-4d1f-891c-f1dc11a4edde
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PMEM_RANGE, MEM_RANGE, MEM_RANGE structure [Device and Driver Installation], Mem_Range_s, PMEM_RANGE, PMEM_RANGE structure pointer [Device and Driver Installation], cfgmgr32/MEM_RANGE, cfgmgr32/PMEM_RANGE, cfgmgrst_f2ac1f4b-c29b-41fd-bacb-e7a8f4bc6f45.xml, devinst.mem_range"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MEM_RANGE, *PMEM_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MEM_RANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: MEM_RANGE, *PMEM_RANGE
+req.redist: 
 ---
 
 # Mem_Range_s structure

@@ -4,7 +4,7 @@ title: PDD_SURFCB_SETOVERLAYPOSITION
 author: windows-sdk-content
 description: The DdSetOverlayPosition callback function sets the position for an overlay.
 old-location: display\ddsetoverlayposition.htm
-old-project: display
+tech.root: display
 ms.assetid: 0bafdeea-d06d-4c25-9ee5-b7df23d7dd20
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdSetOverlayPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PDD_SURFCB_SETOVERLAYPOSITION callback function

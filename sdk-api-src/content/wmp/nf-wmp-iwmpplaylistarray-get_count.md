@@ -4,17 +4,16 @@ title: IWMPPlaylistArray::get_count
 author: windows-sdk-content
 description: The get_count method retrieves the number of playlists in the playlist array.
 old-location: wmp\iwmpplaylistarray_get_count.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 2ce0058c-8839-43da-aad8-4bc423ff3cde
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPPlaylistArray interface [Windows Media Player],get_count method, IWMPPlaylistArray.get_count, IWMPPlaylistArray::get_count, IWMPPlaylistArrayget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPPlaylistArray interface, wmp.iwmpplaylistarray_get_count, wmp/IWMPPlaylistArray::get_count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPPlaylistArray.get_count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPPlaylistArray::get_count

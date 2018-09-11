@@ -4,17 +4,16 @@ title: ITAddress2::put_EventFilter
 author: windows-sdk-content
 description: The put_EventFilter method sets an event filter for the current address. If no event filters are set, the application will not be notified of events on this address.
 old-location: tapi3\itaddress2_put_eventfilter.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: ca58c796-d843-48c3-9eac-ca126395d448
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAddress2 interface [TAPI 2.2],put_EventFilter method, ITAddress2.put_EventFilter, ITAddress2::put_EventFilter, _tapi3_itaddress2_put_eventfilter, put_EventFilter, put_EventFilter method [TAPI 2.2], put_EventFilter method [TAPI 2.2],ITAddress2 interface, tapi3.itaddress2_put_eventfilter, tapi3if/ITAddress2::put_EventFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddress2.put_EventFilter
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddress2::put_EventFilter

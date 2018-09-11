@@ -4,17 +4,16 @@ title: "_ComponentStatistics"
 author: windows-sdk-content
 description: Represents statistical information about a COM+ component hosted in a particular process.
 old-location: cos\componentstatistics.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 26bc5fc4-3e34-41cc-ba11-5c13cf54521f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ComponentStatistics, ComponentStatistics structure [COM+], _ComponentStatistics, comsvcs/ComponentStatistics, cos.componentstatistics
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ComponentStatistics
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ComponentStatistics
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ComponentStatistics
+req.redist: 
 ---
 
 # _ComponentStatistics structure

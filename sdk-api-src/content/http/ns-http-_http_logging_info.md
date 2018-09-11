@@ -4,7 +4,7 @@ title: "_HTTP_LOGGING_INFO"
 author: windows-sdk-content
 description: Used to enable server side logging on a URL Group or on a server session.
 old-location: http\http_logging_info.htm
-old-project: http
+tech.root: http
 ms.assetid: 12e12f83-c36a-4b4e-8890-50566cf00c2b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_LOGGING_INFO, *PHTTP_LOGGING_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_LOGGING_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_LOGGING_INFO, *PHTTP_LOGGING_INFO
+req.redist: 
 ---
 
 # _HTTP_LOGGING_INFO structure

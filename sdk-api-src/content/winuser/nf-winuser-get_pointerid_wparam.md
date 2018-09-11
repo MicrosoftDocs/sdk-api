@@ -4,17 +4,16 @@ title: GET_POINTERID_WPARAM macro
 author: windows-sdk-content
 description: Retrieves the pointer ID using the specified value.
 old-location: inputmsg\get_pointerid_wparam.htm
-old-project: InputMsg
+tech.root: InputMsg
 ms.assetid: 31f7dde6-1486-4050-b9b6-ffc2ed991211
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GET_POINTERID_WPARAM, GET_POINTERID_WPARAM	, GET_POINTERID_WPARAM macro [Input Messages and Notifications], inputmsg.get_pointerid_wparam, winuser/GET_POINTERID_WPARAM
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GET_POINTERID_WPARAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GET_POINTERID_WPARAM macro

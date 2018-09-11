@@ -4,17 +4,16 @@ title: IRawCDImageCreator::AddSpecialPregap
 author: windows-sdk-content
 description: Accepts the provided IStream object and saves the associated pointer to be used as data for the pre-gap for track 1.
 old-location: imapi\irawcdimagecreator_addspecialpregap.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 953ac9e9-b097-4fe5-8bcf-db4f9f15816e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AddSpecialPregap, AddSpecialPregap method [IMAPI], AddSpecialPregap method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],AddSpecialPregap method, IRawCDImageCreator.AddSpecialPregap, IRawCDImageCreator::AddSpecialPregap, imapi.irawcdimagecreator_addspecialpregap, imapi2/IRawCDImageCreator::AddSpecialPregap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawCDImageCreator.AddSpecialPregap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRawCDImageCreator::AddSpecialPregap

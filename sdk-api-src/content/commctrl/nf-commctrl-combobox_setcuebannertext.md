@@ -4,17 +4,16 @@ title: ComboBox_SetCueBannerText macro
 author: windows-sdk-content
 description: Sets the cue banner text that is displayed for the edit control of a combo box.
 old-location: controls\ComboBox_SetCueBannerText.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setcuebannertext.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ComboBox_SetCueBannerText, ComboBox_SetCueBannerText macro [Windows Controls], _shell_ComboBox_SetCueBannerText, _shell_ComboBox_SetCueBannerText_cpp, commctrl/ComboBox_SetCueBannerText, controls.ComboBox_SetCueBannerText, controls._shell_ComboBox_SetCueBannerText
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ComboBox_SetCueBannerText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ComboBox_SetCueBannerText macro

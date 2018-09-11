@@ -4,17 +4,16 @@ title: IEnumMoniker
 author: windows-sdk-content
 description: Enumerates the components of a moniker or the monikers in a table of monikers.
 old-location: com\ienummoniker.htm
-old-project: com
+tech.root: com
 ms.assetid: c8dec22b-946d-48ae-9315-54d353f3b853
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumMoniker, IEnumMoniker interface [COM], IEnumMoniker interface [COM],described, _ole_ienummoniker, com.ienummoniker, objidl/IEnumMoniker
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumMoniker
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumMoniker interface

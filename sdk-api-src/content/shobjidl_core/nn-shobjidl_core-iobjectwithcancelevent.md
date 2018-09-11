@@ -4,17 +4,16 @@ title: IObjectWithCancelEvent
 author: windows-sdk-content
 description: Not supported.Supplies a caller with an event that will be signaled by the called object to denote cancellation of a task.
 old-location: shell\IObjectWithCancelEvent.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3bac219d-d9fd-4259-8f34-032554291327
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IObjectWithCancelEvent, IObjectWithCancelEvent interface [Windows Shell], IObjectWithCancelEvent interface [Windows Shell],described, _shell_IObjectWithCancelEvent, shell.IObjectWithCancelEvent, shobjidl_core/IObjectWithCancelEvent
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjectWithCancelEvent
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.1 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectWithCancelEvent interface

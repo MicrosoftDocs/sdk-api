@@ -4,7 +4,7 @@ title: INetConnectionProps
 author: windows-sdk-content
 description: Use the INetConnectionProps interface to retrieve the properties for a connection.
 old-location: ics\inetconnectionprops.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 8152f75c-1c93-4c30-8a13-c47fd5dde4af
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetConnectionProps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetConnectionProps interface

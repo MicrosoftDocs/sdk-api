@@ -4,17 +4,16 @@ title: wsprintfW function
 author: windows-sdk-content
 description: Writes formatted data to the specified buffer.
 old-location: menurc\wsprintf.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\wsprintf.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "_win32_wsprintf, _win32_wsprintf_cpp, menurc.wsprintf, winui._win32_wsprintf, winuser/wsprintf, winuser/wsprintfA, winuser/wsprintfW, wsprintf, wsprintf function [Menus and Other Resources], wsprintfA, wsprintfW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - wsprintfW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # wsprintfW function
@@ -62,7 +60,17 @@ Writes formatted data to the specified buffer. Any arguments are converted and c
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
 
 TBD
 

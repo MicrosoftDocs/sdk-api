@@ -4,17 +4,16 @@ title: IMFHttpDownloadRequest::BeginReadPayload
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to receive the message body of the response to a previously sent HTTP or HTTPS request.
 old-location: mf\imfhttpdownloadrequest_beginreadpayload.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 01B799C2-63C6-4BDC-AAE2-CFC3C426A218
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: BeginReadPayload, BeginReadPayload method [Media Foundation], BeginReadPayload method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginReadPayload method, IMFHttpDownloadRequest.BeginReadPayload, IMFHttpDownloadRequest::BeginReadPayload, mf.imfhttpdownloadrequest_beginreadpayload, mfidl/IMFHttpDownloadRequest::BeginReadPayload
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFHttpDownloadRequest.BeginReadPayload
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFHttpDownloadRequest::BeginReadPayload

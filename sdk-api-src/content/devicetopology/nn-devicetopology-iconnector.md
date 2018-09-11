@@ -4,17 +4,16 @@ title: IConnector
 author: windows-sdk-content
 description: The IConnector interface represents a point of connection between components.
 old-location: coreaudio\iconnector.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 6eb5b439-3ac7-4c0b-84e2-b246c1b946a5
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IConnector, IConnector interface [Core Audio], IConnector interface [Core Audio],described, coreaudio.iconnector, devicetopology/IConnector
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IConnector
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IConnector interface

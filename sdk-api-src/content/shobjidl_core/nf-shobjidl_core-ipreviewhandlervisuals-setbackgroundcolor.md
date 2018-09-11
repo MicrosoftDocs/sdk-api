@@ -4,17 +4,16 @@ title: IPreviewHandlerVisuals::SetBackgroundColor
 author: windows-sdk-content
 description: Sets the background color of the preview handler.
 old-location: shell\IPreviewHandlerVisuals_SetBackgroundColor.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ebb261bf-6770-4302-9c0c-09388c07bdf2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IPreviewHandlerVisuals interface [Windows Shell],SetBackgroundColor method, IPreviewHandlerVisuals.SetBackgroundColor, IPreviewHandlerVisuals::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [Windows Shell], SetBackgroundColor method [Windows Shell],IPreviewHandlerVisuals interface, _shell_IPreviewHandlerVisuals_SetBackgroundColor, shell.IPreviewHandlerVisuals_SetBackgroundColor, shobjidl_core/IPreviewHandlerVisuals::SetBackgroundColor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: Windows Search 4 or later
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPreviewHandlerVisuals.SetBackgroundColor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: Windows Search 4 or later
 ---
 
 # IPreviewHandlerVisuals::SetBackgroundColor

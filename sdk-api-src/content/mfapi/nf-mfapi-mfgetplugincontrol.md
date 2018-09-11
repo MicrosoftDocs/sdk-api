@@ -4,17 +4,16 @@ title: MFGetPluginControl function
 author: windows-sdk-content
 description: Gets a pointer to the Microsoft Media Foundation plug-in manager.
 old-location: mf\mfgetplugincontrol.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 68b25c68-806d-46c3-98f8-8f29d7c21471
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFGetPluginControl, MFGetPluginControl function [Media Foundation], mf.mfgetplugincontrol, mfapi/MFGetPluginControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFGetPluginControl
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFGetPluginControl function

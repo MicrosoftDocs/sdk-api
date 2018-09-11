@@ -4,7 +4,7 @@ title: "_MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES"
 author: windows-sdk-content
 description: Contains read-only information for the bandwidth estimates computed by the TCP/IP stack for a network connection.
 old-location: mib\mib_ip_network_connection_bandwidth_estimates.htm
-old-project: mib
+tech.root: mib
 ms.assetid: E3109F71-E103-4586-9274-B83C4DC22382
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, *PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, *PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
+req.redist: 
 ---
 
 # _MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES structure

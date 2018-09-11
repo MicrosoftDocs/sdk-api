@@ -4,17 +4,16 @@ title: IDCompositionArithmeticCompositeEffect::SetCoefficient4(IDCompositionAnim
 author: windows-sdk-content
 description: Sets the fourth coefficient for the equation used to composite the two input images.
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient4.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: EA0FC8FC-831C-4EE8-995C-CA6B013C9A91
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficient4 method, IDCompositionArithmeticCompositeEffect.SetCoefficient4, IDCompositionArithmeticCompositeEffect.SetCoefficient4(IDCompositionAnimation), IDCompositionArithmeticCompositeEffect::SetCoefficient4, IDCompositionArithmeticCompositeEffect::SetCoefficient4(IDCompositionAnimation), SetCoefficient4, SetCoefficient4 method [DirectComposition], SetCoefficient4 method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient4, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionArithmeticCompositeEffect.SetCoefficient4
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionArithmeticCompositeEffect::SetCoefficient4(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Sets the fourth coefficient for the equation used to composite the two input ima
 
 ### -param animation
 
-
+TBD
 
 
 

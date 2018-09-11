@@ -4,17 +4,16 @@ title: IDirectorySearch::CloseSearchHandle
 author: windows-sdk-content
 description: The IDirectorySearch::CloseSearchHandle method closes the handle to a search result and frees the associated memory.
 old-location: adsi\idirectorysearch_closesearchhandle.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: a233c67b-4747-4417-bec8-86b27147863c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CloseSearchHandle, CloseSearchHandle method [ADSI], CloseSearchHandle method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],CloseSearchHandle method, IDirectorySearch.CloseSearchHandle, IDirectorySearch::CloseSearchHandle, _ds_idirectorysearch_closesearchhandle, adsi.idirectorysearch__closesearchhandle, adsi.idirectorysearch_closesearchhandle, iads/IDirectorySearch::CloseSearchHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDirectorySearch.CloseSearchHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectorySearch::CloseSearchHandle
@@ -64,7 +62,7 @@ The <b>IDirectorySearch::CloseSearchHandle</b> method closes the handle to a sea
 
 ### -param hSearchResult
 
-
+TBD
 
 
 

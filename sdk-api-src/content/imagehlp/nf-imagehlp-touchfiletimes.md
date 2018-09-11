@@ -4,17 +4,16 @@ title: TouchFileTimes function
 author: windows-sdk-content
 description: Updates the date and time at which the specified file was last modified.
 old-location: base\touchfiletimes.htm
-old-project: debug
+tech.root: debug
 ms.assetid: add84ca7-2497-4859-bc69-270ad493a08a
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: TouchFileTimes, TouchFileTimes function, _win32_touchfiletimes, base.touchfiletimes, imagehlp/TouchFileTimes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Imagehlp.lib
+req.dll: Imagehlp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TouchFileTimes
 product: Windows
 targetos: Windows
-req.lib: Imagehlp.lib
-req.dll: Imagehlp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # TouchFileTimes function

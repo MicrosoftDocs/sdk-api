@@ -4,17 +4,16 @@ title: ITsSbTaskPluginNotifySink::OnSetTaskTime
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a task has been scheduled.
 old-location: termserv\itssbtaskpluginnotifysink_onsettasktime.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 6f9b58ba-8cda-4f8d-9c23-19475262148c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbTaskPluginNotifySink interface [Remote Desktop Services],OnSetTaskTime method, ITsSbTaskPluginNotifySink.OnSetTaskTime, ITsSbTaskPluginNotifySink::OnSetTaskTime, OnSetTaskTime, OnSetTaskTime method [Remote Desktop Services], OnSetTaskTime method [Remote Desktop Services],ITsSbTaskPluginNotifySink interface, sbtsv/ITsSbTaskPluginNotifySink::OnSetTaskTime, termserv.itssbtaskpluginnotifysink_onsettasktime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbTaskPluginNotifySink.OnSetTaskTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbTaskPluginNotifySink::OnSetTaskTime

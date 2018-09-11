@@ -4,17 +4,16 @@ title: RegEnumKeyW function
 author: windows-sdk-content
 description: Enumerates the subkeys of the specified open registry key.
 old-location: base\regenumkey.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: 18a05c60-6c6d-438f-9003-f07d688d86a3
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: RegEnumKey, RegEnumKey function, RegEnumKeyA, RegEnumKeyW, _win32_regenumkey, base.regenumkey, winreg/RegEnumKey, winreg/RegEnumKeyA, winreg/RegEnumKeyW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - RegEnumKeyW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegEnumKeyW function

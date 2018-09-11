@@ -4,17 +4,16 @@ title: IDXGIOutput6::GetDesc1
 author: windows-sdk-content
 description: Get an extended description of the output that includes color characteristics and connection type.
 old-location: direct3ddxgi\idxgioutput6_getdesc1.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: DE251D64-BB41-49D7-AC46-791089502286
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetDesc1, GetDesc1 method [DXGI], GetDesc1 method [DXGI],IDXGIOutput6 interface, IDXGIOutput6 interface [DXGI],GetDesc1 method, IDXGIOutput6.GetDesc1, IDXGIOutput6::GetDesc1, direct3ddxgi.idxgioutput6_getdesc1, dxgi1_6/IDXGIOutput6::GetDesc1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_6.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIOutput6.GetDesc1
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIOutput6::GetDesc1

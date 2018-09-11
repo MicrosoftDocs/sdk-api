@@ -4,17 +4,16 @@ title: NetServerTransportDel function
 author: windows-sdk-content
 description: The NetServerTransportDel function unbinds (or disconnects) the transport protocol from the server. Effectively, the server can no longer communicate with clients using the specified transport protocol (such as TCP or XNS).
 old-location: netmgmt\netservertransportdel.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 69b22f30-62b1-4dcb-bbb0-aceae8d77f61
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 0, 1, NetServerTransportDel, NetServerTransportDel function [Network Management], _win32_netservertransportdel, lmserver/NetServerTransportDel, netmgmt.netservertransportdel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmserver.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TIME_OF_DAY_INFO, *PTIME_OF_DAY_INFO, *LPTIME_OF_DAY_INFO
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetServerTransportDel
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetServerTransportDel function

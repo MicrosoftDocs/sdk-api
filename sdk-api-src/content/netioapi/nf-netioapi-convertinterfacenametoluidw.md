@@ -4,17 +4,16 @@ title: ConvertInterfaceNameToLuidW function
 author: windows-sdk-content
 description: Converts a Unicode network interface name to the locally unique identifier (LUID) for the interface.
 old-location: iphlp\convertinterfacenametoluidw.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 473be9f0-7fac-46f0-b33c-839906411fdc
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: ConvertInterfaceNameToLuidW, ConvertInterfaceNameToLuidW function [IP Helper], iphlp.convertinterfacenametoluidw, netioapi/ConvertInterfaceNameToLuidW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ConvertInterfaceNameToLuidW
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ConvertInterfaceNameToLuidW function

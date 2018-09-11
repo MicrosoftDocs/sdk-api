@@ -4,17 +4,16 @@ title: ITextFont2::SetScaling
 author: windows-sdk-content
 description: Sets the font horizontal scaling percentage.
 old-location: controls\itextfont2_setscaling.htm
-old-project: controls
+tech.root: controls
 ms.assetid: b5f26c0a-a1bd-4be8-84b8-92a6d0cfafdb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetScaling method, ITextFont2.SetScaling, ITextFont2::SetScaling, SetScaling, SetScaling method [Windows Controls], SetScaling method [Windows Controls],ITextFont2 interface, controls.itextfont2_setscaling, tom/ITextFont2::SetScaling
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont2.SetScaling
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont2::SetScaling

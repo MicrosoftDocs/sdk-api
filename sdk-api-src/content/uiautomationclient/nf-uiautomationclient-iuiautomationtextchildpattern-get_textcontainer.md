@@ -4,17 +4,16 @@ title: IUIAutomationTextChildPattern::get_TextContainer
 author: windows-sdk-content
 description: Retrieves this element's nearest ancestor element that supports the Text control pattern.
 old-location: winauto\uiauto_IUIAutomationTextChildPattern_TextContainer.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 67E1F709-DF8E-4B79-A6B0-1466D27FD437
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationTextChildPattern interface [Windows Accessibility],TextContainer property, IUIAutomationTextChildPattern.TextContainer, IUIAutomationTextChildPattern.get_TextContainer, IUIAutomationTextChildPattern::TextContainer, IUIAutomationTextChildPattern::get_TextContainer, TextContainer property [Windows Accessibility], TextContainer property [Windows Accessibility],IUIAutomationTextChildPattern interface, get_TextContainer, uiautomationclient/IUIAutomationTextChildPattern::TextContainer, uiautomationclient/IUIAutomationTextChildPattern::get_TextContainer, winauto.uiauto_IUIAutomationTextChildPattern_TextContainer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationTextChildPattern.get_TextContainer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTextChildPattern::get_TextContainer

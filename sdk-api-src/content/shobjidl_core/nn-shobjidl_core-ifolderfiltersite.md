@@ -4,17 +4,16 @@ title: IFolderFilterSite
 author: windows-sdk-content
 description: Exported by a host to allow clients to specify how to filter a Shell folder enumeration.
 old-location: shell\IFolderFilterSite.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8b6fe1a3-9977-42a8-af95-da0fc6809b1b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFolderFilterSite, IFolderFilterSite interface [Windows Shell], IFolderFilterSite interface [Windows Shell],described, _shell_IFolderFilterSite, shell.IFolderFilterSite, shobjidl_core/IFolderFilterSite
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderFilterSite
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderFilterSite interface

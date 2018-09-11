@@ -4,17 +4,16 @@ title: IADsContainer::Delete
 author: windows-sdk-content
 description: Deletes a specified directory object from this container.
 old-location: adsi\iadscontainer_delete.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 2f3873e0-376e-4212-a28d-bd9bc112f6cf
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Delete, Delete method [ADSI], Delete method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],Delete method, IADsContainer.Delete, IADsContainer::Delete, _ds_iadscontainer_delete, adsi.iadscontainer__delete, adsi.iadscontainer_delete, iads/IADsContainer::Delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsContainer.Delete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsContainer::Delete
@@ -62,7 +60,7 @@ The <b>IADsContainer::Delete</b> method deletes a specified directory object fro
 
 ### -param bstrClassName
 
-
+TBD
 
 
 ### -param bstrRelativeName [in]

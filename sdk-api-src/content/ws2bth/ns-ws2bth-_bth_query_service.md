@@ -4,7 +4,7 @@ title: "_BTH_QUERY_SERVICE"
 author: windows-sdk-content
 description: The BTH_QUERY_SERVICE structure is used to query a Bluetooth service.
 old-location: bluetooth\bth_query_service.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: b208b7d6-305c-4acc-9c89-75721ff5dcb2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2bth.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BTH_QUERY_SERVICE, *PBTH_QUERY_SERVICE, BTHNS_RESTRICTIONBLOB, *PBTHNS_RESTRICTIONBLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BTH_QUERY_SERVICE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: BTH_QUERY_SERVICE, *PBTH_QUERY_SERVICE, BTHNS_RESTRICTIONBLOB, *PBTHNS_RESTRICTIONBLOB
+req.redist: 
 ---
 
 # _BTH_QUERY_SERVICE structure

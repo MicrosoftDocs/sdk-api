@@ -4,17 +4,16 @@ title: PIBIO_SENSOR_FINISH_CAPTURE_FN
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the sensor indicator is on or off.
 old-location: secbiomet\sensoradapterfinishcapture.htm
-old-project: secbiomet
+tech.root: SecBioMet
 ms.assetid: f9ede590-5208-40ed-ac62-604a2d13a5a6
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: PIBIO_SENSOR_FINISH_CAPTURE_FN, PIBIO_SENSOR_FINISH_CAPTURE_FN callback, SensorAdapterFinishCapture, SensorAdapterFinishCapture callback function [Windows Biometric Framework API], secbiomet.sensoradapterfinishcapture, winbio_adapter/SensorAdapterFinishCapture
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SensorAdapterFinishCapture
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PIBIO_SENSOR_FINISH_CAPTURE_FN callback function

@@ -4,7 +4,7 @@ title: D2D1_GEOMETRY_RELATION
 author: windows-sdk-content
 description: Describes how one geometry object is spatially related to another geometry object.
 old-location: direct2d\D2D1_GEOMETRY_RELATION.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 6c7290c8-9363-414b-af2c-0f2a79da99f9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ctxtcall.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_GEOMETRY_RELATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_GEOMETRY_RELATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_GEOMETRY_RELATION
+req.redist: 
 ---
 
 # D2D1_GEOMETRY_RELATION enumeration

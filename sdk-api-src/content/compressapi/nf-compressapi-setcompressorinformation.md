@@ -4,17 +4,16 @@ title: SetCompressorInformation function
 author: windows-sdk-content
 description: Sets information in a compressor for a particular compression algorithm.
 old-location: cmpapi\setcompressorinformation.htm
-old-project: cmpapi
+tech.root: cmpapi
 ms.assetid: f8c2c425-9b21-4fe3-8b81-d8bf3cd8ec5b
 ms.author: windowssdkdev
 ms.date: 07/23/2018
 ms.keywords: SetCompressorInformation, SetCompressorInformation function [Compression API], cmpapi.setcompressorinformation, compressapi/SetCompressorInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPRESS_INFORMATION_CLASS
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SetCompressorInformation
 product: Windows
 targetos: Windows
-req.lib: Cabinet.lib
-req.dll: Cabinet.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # SetCompressorInformation function

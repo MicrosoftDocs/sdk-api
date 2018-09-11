@@ -4,7 +4,7 @@ title: "_MI_OperationCallback_ResponseType"
 author: windows-sdk-content
 description: If the MI_CallbackMode is MI_CALLBACKMODE_INQUIRE, one of these values can be used in the callback.
 old-location: wmi_v2\mi_operationcallback_responsetype.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: 07e1d42b-b9e4-4199-88b1-71864de37282
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mi.h
 req.include-header: 
-req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_OperationCallback_ResponseType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_OperationCallback_ResponseType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MI_OperationCallback_ResponseType
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ---
 
 # _MI_OperationCallback_ResponseType enumeration

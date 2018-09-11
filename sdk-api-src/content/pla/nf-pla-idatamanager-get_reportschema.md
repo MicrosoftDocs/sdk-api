@@ -4,17 +4,16 @@ title: IDataManager::get_ReportSchema
 author: windows-sdk-content
 description: Retrieves or sets the schema used to customize the report that the TraceRpt.exe application generates.
 old-location: pla\idatamanager_reportschema.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 32620e9d-9541-4c39-9312-937b0b4825ad
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataManager interface [PLA],ReportSchema property, IDataManager.ReportSchema, IDataManager.get_ReportSchema, IDataManager::ReportSchema, IDataManager::get_ReportSchema, IDataManager::put_ReportSchema, ReportSchema property [PLA], ReportSchema property [PLA],IDataManager interface, get_ReportSchema, pla.idatamanager_reportschema, pla/IDataManager::ReportSchema, pla/IDataManager::get_ReportSchema, pla/IDataManager::put_ReportSchema
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataManager.put_ReportSchema
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataManager::get_ReportSchema

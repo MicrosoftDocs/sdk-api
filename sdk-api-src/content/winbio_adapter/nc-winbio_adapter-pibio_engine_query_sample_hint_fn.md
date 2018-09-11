@@ -4,17 +4,16 @@ title: PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN
 author: windows-sdk-content
 description: Retrieves the number of correct samples required by the engine adapter to construct an enrollment template.
 old-location: secbiomet\engineadapterquerysamplehint.htm
-old-project: secbiomet
+tech.root: SecBioMet
 ms.assetid: 9208cd3e-205d-4ef0-8f67-292385dea9a2
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterQuerySampleHint, EngineAdapterQuerySampleHint callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN, PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN callback, secbiomet.engineadapterquerysamplehint, winbio_adapter/EngineAdapterQuerySampleHint
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngineAdapterQuerySampleHint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN callback function

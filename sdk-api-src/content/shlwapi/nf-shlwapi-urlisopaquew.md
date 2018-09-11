@@ -4,17 +4,16 @@ title: UrlIsOpaqueW function
 author: windows-sdk-content
 description: Returns whether a URL is opaque.
 old-location: shell\UrlIsOpaque.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 460f4d41-2796-496d-9199-f2d1cd6e4a24
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: UrlIsOpaque, UrlIsOpaque function [Windows Shell], UrlIsOpaqueA, UrlIsOpaqueW, _win32_UrlIsOpaque, shell.UrlIsOpaque, shlwapi/UrlIsOpaque, shlwapi/UrlIsOpaqueA, shlwapi/UrlIsOpaqueW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - UrlIsOpaqueW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # UrlIsOpaqueW function

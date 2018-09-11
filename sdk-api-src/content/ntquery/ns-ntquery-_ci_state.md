@@ -4,17 +4,16 @@ title: "_CI_STATE"
 author: windows-sdk-content
 description: Represents the current state of an Indexing Service catalog.
 old-location: indexsrv\ci_state.htm
-old-project: IndexSrv
+tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2qjp.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: CI_STATE, CI_STATE structure [Indexing Service], _CI_STATE, _idxs_CI_STATE, indexsrv.ci_state, ntquery/CI_STATE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CI_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CI_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CI_STATE
+req.redist: 
 ---
 
 # _CI_STATE structure

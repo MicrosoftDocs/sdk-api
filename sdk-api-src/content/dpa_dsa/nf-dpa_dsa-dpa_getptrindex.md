@@ -4,17 +4,16 @@ title: DPA_GetPtrIndex function
 author: windows-sdk-content
 description: Gets the index of a matching item found in a dynamic pointer array (DPA).
 old-location: controls\DPA_GetPtrIndex.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_getptrindex.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DPA_GetPtrIndex, DPA_GetPtrIndex function [Windows Controls], _shell_DPA_GetPtrIndex, _shell_DPA_GetPtrIndex_cpp, controls.DPA_GetPtrIndex, controls._shell_DPA_GetPtrIndex, dpa_dsa/DPA_GetPtrIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+req.lib: 
+req.dll: Comctl32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DPA_GetPtrIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comctl32.dll (version 4.0 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DPA_GetPtrIndex function

@@ -4,17 +4,16 @@ title: ITfLangBarItem::Show
 author: windows-sdk-content
 description: ITfLangBarItem::Show method
 old-location: tsf\itflangbaritem_show.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 3f5be2f4-e9de-4b03-9c37-651b1e572cf0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfLangBarItem interface [Text Services Framework],Show method, ITfLangBarItem.Show, ITfLangBarItem::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfLangBarItem interface, _tsf_itflangbaritem_show_ref, ctfutb/ITfLangBarItem::Show, tsf.itflangbaritem_show
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfLangBarItem.Show
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfLangBarItem::Show

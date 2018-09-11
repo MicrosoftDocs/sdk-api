@@ -4,17 +4,16 @@ title: ldap_modify_extA function
 author: windows-sdk-content
 description: The ldap_modify_ext function changes an existing entry.
 old-location: ldap\ldap_modify_ext.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: a11f4944-d574-4215-a25e-536adf21c469
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_modify_ext, ldap.ldap__modify__ext, ldap.ldap_modify_ext, ldap_modify_ext, ldap_modify_ext function [LDAP], ldap_modify_extA, ldap_modify_extW, winldap/ldap_modify_ext, winldap/ldap_modify_extA, winldap/ldap_modify_extW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldap_modify_extW
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_modify_extA function

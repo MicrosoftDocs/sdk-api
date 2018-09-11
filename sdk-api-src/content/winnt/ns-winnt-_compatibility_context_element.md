@@ -4,17 +4,16 @@ title: "_COMPATIBILITY_CONTEXT_ELEMENT"
 author: windows-sdk-content
 description: The COMPATIBILITY_CONTEXT_ELEMENT structure is used by the QueryActCtxW function as part of the ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure.
 old-location: setup\compatibility_context_element.htm
-old-project: sbscs
+tech.root: SbsCs
 ms.assetid: 3e654f44-43f6-4282-b277-14ed6e25abf2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCOMPATIBILITY_CONTEXT_ELEMENT, COMPATIBILITY_CONTEXT_ELEMENT, COMPATIBILITY_CONTEXT_ELEMENT structure [Setup API], PCOMPATIBILITY_CONTEXT_ELEMENT, PCOMPATIBILITY_CONTEXT_ELEMENT structure pointer [Setup API], _COMPATIBILITY_CONTEXT_ELEMENT, setup.compatibility_context_element, winnt/COMPATIBILITY_CONTEXT_ELEMENT, winnt/PCOMPATIBILITY_CONTEXT_ELEMENT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPATIBILITY_CONTEXT_ELEMENT, *PCOMPATIBILITY_CONTEXT_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COMPATIBILITY_CONTEXT_ELEMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: COMPATIBILITY_CONTEXT_ELEMENT, *PCOMPATIBILITY_CONTEXT_ELEMENT
+req.redist: 
 ---
 
 # _COMPATIBILITY_CONTEXT_ELEMENT structure

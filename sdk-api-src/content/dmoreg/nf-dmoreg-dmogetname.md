@@ -4,17 +4,16 @@ title: DMOGetName function
 author: windows-sdk-content
 description: The DMOGetName function retrieves the name of a DMO from the registry.
 old-location: dshow\dmogetname.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7cb803c2-4fe1-46e3-868d-1b7c28b07a5b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: DMOGetName, DMOGetName function [DirectShow], dmoreg/DMOGetName, dshow.dmogetname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dmoreg.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Msdmo.lib
+req.dll: Msdmo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DMOGetName
 product: Windows
 targetos: Windows
-req.lib: Msdmo.lib
-req.dll: Msdmo.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DMOGetName function

@@ -4,17 +4,16 @@ title: IInkOverlay::put_hWnd
 author: windows-sdk-content
 description: Gets or sets the handle value of the window on which ink is drawn.
 old-location: tablet\inkoverlay_hwnd.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: fb08bdb5-4d2e-4a2e-9e23-bbff4cedc6e2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkOverlay interface [Tablet PC],hWnd property, IInkOverlay.hWnd, IInkOverlay.put_hWnd, IInkOverlay::get_hWnd, IInkOverlay::hWnd, IInkOverlay::put_hWnd, InkOverlay.get_hWnd, InkOverlay.put_hWnd, get_hWnd, hWnd property [Tablet PC], hWnd property [Tablet PC],IInkOverlay interface, msinkaut/IInkOverlay::get_hWnd, msinkaut/IInkOverlay::hWnd, msinkaut/IInkOverlay::put_hWnd, put_hWnd, tablet.inkoverlay_hwnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkOverlay.put_hWnd
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkOverlay::put_hWnd

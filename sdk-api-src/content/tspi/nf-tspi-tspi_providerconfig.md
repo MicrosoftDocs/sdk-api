@@ -4,17 +4,16 @@ title: TSPI_providerConfig function
 author: windows-sdk-content
 description: The TSPI_providerConfig function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_providerConfig.
 old-location: tspi\tspi_providerconfig.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b0fa2a9e-bc8b-4364-9442-2091f2366107
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_providerConfig, TSPI_providerConfig function [TAPI 2.2], _tspi_tspi_providerconfig, tspi.tspi_providerconfig, tspi/TSPI_providerConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_providerConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_providerConfig function

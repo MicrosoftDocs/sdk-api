@@ -4,17 +4,16 @@ title: SslEmptyCacheA function
 author: windows-sdk-content
 description: Removes the specified string from the Schannel cache.
 old-location: security\sslemptycache.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: c914d4e3-657e-45ef-ace8-2cea900a8a76
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SslEmptyCache, SslEmptyCache function [Security], SslEmptyCacheA, SslEmptyCacheW, schannel/SslEmptyCache, schannel/SslEmptyCacheA, schannel/SslEmptyCacheW, security.sslemptycache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: schannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCESVC_CONFIGURATION_LINE, *PSCESVC_CONFIGURATION_LINE
+req.lib: 
+req.dll: Schannel.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SslEmptyCacheW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Schannel.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SslEmptyCacheA function

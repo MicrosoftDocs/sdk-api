@@ -4,17 +4,16 @@ title: IContactManager::Load
 author: windows-sdk-content
 description: Loads an IContact object with the data from the contact referenced by the computer-local contact ID.
 old-location: wincontacts\_wincontacts_IContactManager_Load.htm
-old-project: wincontacts
+tech.root: wincontacts
 ms.assetid: d9addc49-72fd-4b87-bf48-a2a09b1161e9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IContactManager interface [Windows Contacts],Load method, IContactManager.Load, IContactManager::Load, Load, Load method [Windows Contacts], Load method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_Load, icontact/IContactManager::Load, wincontacts._wincontacts_IContactManager_Load
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContactManager.Load
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wab32.dll (Version 6.0 or later)
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContactManager::Load

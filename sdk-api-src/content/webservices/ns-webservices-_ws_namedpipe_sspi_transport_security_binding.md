@@ -4,17 +4,16 @@ title: "_WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING"
 author: windows-sdk-content
 description: The security binding subtype for specifying the use of the Windows Integrated Authentication protocol (such as Kerberos, NTLM or SPNEGO) with the named pipe transport.
 old-location: wsw\ws_namedpipe_sspi_transport_security_binding.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 02FCD206-23BC-4ED0-9E4A-76AB0926FD7C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING, WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING structure [Web Services for Windows], _WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING, webservices/WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING, wsw.ws_namedpipe_sspi_transport_security_binding
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING
+req.redist: 
 ---
 
 # _WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING structure

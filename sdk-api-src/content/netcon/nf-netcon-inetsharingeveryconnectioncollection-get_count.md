@@ -4,17 +4,16 @@ title: INetSharingEveryConnectionCollection::get_Count
 author: windows-sdk-content
 description: The get__Count method retrieves the number of items in the connections collection.
 old-location: ics\inetsharingeveryconnectioncollection_get_count.htm
-old-project: ics
+tech.root: ics
 ms.assetid: c387ab2c-7edd-4975-a735-d555dd7191cf
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetSharingEveryConnectionCollection interface [ICS/ICF],get_Count method, INetSharingEveryConnectionCollection.get_Count, INetSharingEveryConnectionCollection::get_Count, _ics_inetsharingeveryconnectioncollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],INetSharingEveryConnectionCollection interface, ics.inetsharingeveryconnectioncollection_get_count, netcon/INetSharingEveryConnectionCollection::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingEveryConnectionCollection.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingEveryConnectionCollection::get_Count

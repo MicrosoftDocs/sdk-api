@@ -4,7 +4,7 @@ title: "_avistdindex"
 author: windows-sdk-content
 description: Contains an AVI 2.0 standard index.
 old-location: dshow\avistdindex.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b437b333-84a3-44d3-a4cc-0d07a331b010
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: aviriff.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTDINDEX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AVISTDINDEX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AVISTDINDEX
+req.redist: 
 ---
 
 # _avistdindex structure

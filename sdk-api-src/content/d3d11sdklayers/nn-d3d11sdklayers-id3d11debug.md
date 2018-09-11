@@ -4,7 +4,7 @@ title: ID3D11Debug
 author: windows-sdk-content
 description: A debug interface controls debug settings, validates pipeline state and can only be used if the debug layer is turned on.
 old-location: direct3d11\id3d11debug.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 2c640295-7a91-4a7a-92d3-909d288eb0d6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Debug
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Debug interface

@@ -4,17 +4,16 @@ title: IAzScope::put_Name
 author: windows-sdk-content
 description: Sets or retrieves the name of the scope.
 old-location: security\iazscope_name.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 66c5722a-5217-4e77-b14f-f9cfa4e030c0
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzScope object [Security],Name property, IAzScope interface [Security],Name property, IAzScope.Name, IAzScope.put_Name, IAzScope::Name, IAzScope::get_Name, IAzScope::put_Name, Name property [Security], Name property [Security],AzScope object, Name property [Security],IAzScope interface, azroles/IAzScope::Name, azroles/IAzScope::get_Name, azroles/IAzScope::put_Name, put_Name, security.iazscope_name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - AzScope.Name
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzScope::put_Name

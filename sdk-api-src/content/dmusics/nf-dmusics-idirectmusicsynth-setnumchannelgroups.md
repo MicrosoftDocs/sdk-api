@@ -4,17 +4,16 @@ title: IDirectMusicSynth::SetNumChannelGroups
 author: windows-sdk-content
 description: The SetNumChannelGroups method instructs the synthesizer to set its number of channel groups to a new value.
 old-location: audio\idirectmusicsynth_setnumchannelgroups.htm
-old-project: audio
+tech.root: audio
 ms.assetid: b7a26fc6-11a9-4bb6-944f-dfbc772b4383
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],SetNumChannelGroups method, IDirectMusicSynth.SetNumChannelGroups, IDirectMusicSynth::SetNumChannelGroups, SetNumChannelGroups, SetNumChannelGroups method [Audio Devices], SetNumChannelGroups method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_setnumchannelgroups, audmp-routines_7a3156c4-8bab-4ad5-aca6-369f322e6cb7.xml, dmusics/IDirectMusicSynth::SetNumChannelGroups
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectMusicSynth.SetNumChannelGroups
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectMusicSynth::SetNumChannelGroups

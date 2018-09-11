@@ -4,17 +4,16 @@ title: ITextStoreAnchor::RequestLock
 author: windows-sdk-content
 description: ITextStoreAnchor::RequestLock method
 old-location: tsf\itextstoreanchor_requestlock.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 4cace5bd-d111-4a9a-af10-9ad454d4f2eb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],RequestLock method, ITextStoreAnchor.RequestLock, ITextStoreAnchor::RequestLock, RequestLock, RequestLock method [Text Services Framework], RequestLock method [Text Services Framework],ITextStoreAnchor interface, TS_LF_READ, TS_LF_READWRITE, TS_LF_SYNC, textstor/ITextStoreAnchor::RequestLock, tsf.itextstoreanchor_requestlock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreAnchor.RequestLock
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITextStoreAnchor::RequestLock

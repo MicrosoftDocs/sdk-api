@@ -4,17 +4,16 @@ title: IDXGIFactory3
 author: windows-sdk-content
 description: Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.
 old-location: direct3ddxgi\idxgifactory3.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 63B7A8E3-9A8F-409F-84DA-E9303C52A146
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIFactory3, IDXGIFactory3 interface [DXGI], IDXGIFactory3 interface [DXGI],described, direct3ddxgi.idxgifactory3, dxgi1_3/IDXGIFactory3
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIFactory3
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIFactory3 interface

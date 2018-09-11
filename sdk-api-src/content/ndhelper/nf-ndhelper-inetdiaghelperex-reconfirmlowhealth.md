@@ -4,17 +4,16 @@ title: INetDiagHelperEx::ReconfirmLowHealth
 author: windows-sdk-content
 description: Used to add a second Low Health pass after hypotheses have been diagnosed and before repairs are retrieved.
 old-location: ndf\inetdiaghelperex_reconfirmlowhealth.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: 4ac1c901-cfc3-4ef6-aceb-d496179145b8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: INetDiagHelperEx interface [NDF],ReconfirmLowHealth method, INetDiagHelperEx.ReconfirmLowHealth, INetDiagHelperEx::ReconfirmLowHealth, ReconfirmLowHealth, ReconfirmLowHealth method [NDF], ReconfirmLowHealth method [NDF],INetDiagHelperEx interface, ndf.inetdiaghelperex_reconfirmlowhealth, ndhelper/INetDiagHelperEx::ReconfirmLowHealth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REPAIR_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetDiagHelperEx.ReconfirmLowHealth
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetDiagHelperEx::ReconfirmLowHealth

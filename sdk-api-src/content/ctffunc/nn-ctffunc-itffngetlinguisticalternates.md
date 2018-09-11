@@ -4,7 +4,7 @@ title: ITfFnGetLinguisticAlternates
 author: windows-sdk-content
 description: The ITfFnGetLinguisticAlternates interface is implemented by a text service and/or by the TSF manager to provide linguistic alternates for the text within a given range passed as a parameter.
 old-location: tsf\itffngetlinguisticalternates.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 854FB6EC-CEF1-4FB6-AA5F-34B26B46A3CA
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfFnGetLinguisticAlternates
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Imekrcic.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITfFnGetLinguisticAlternates interface

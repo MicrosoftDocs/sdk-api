@@ -4,17 +4,16 @@ title: IVPBaseConfig::SetDirectDrawKernelHandle
 author: windows-sdk-content
 description: The SetDirectDrawKernelHandle method sets the kernel-mode handle to the DirectDraw object. This handle enables the device's mini-driver to communicate with DirectDraw.
 old-location: dshow\ivpbaseconfig_setdirectdrawkernelhandle.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f3a04341-6cca-4fb4-bf47-30659d039a0d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetDirectDrawKernelHandle method, IVPBaseConfig.SetDirectDrawKernelHandle, IVPBaseConfig::SetDirectDrawKernelHandle, IVPBaseConfigSetDirectDrawKernelHandle, SetDirectDrawKernelHandle, SetDirectDrawKernelHandle method [DirectShow], SetDirectDrawKernelHandle method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setdirectdrawkernelhandle, vpconfig/IVPBaseConfig::SetDirectDrawKernelHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vpconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9VideoStreamInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVPBaseConfig.SetDirectDrawKernelHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVPBaseConfig::SetDirectDrawKernelHandle

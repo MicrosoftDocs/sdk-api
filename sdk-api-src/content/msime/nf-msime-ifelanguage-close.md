@@ -4,17 +4,16 @@ title: IFELanguage::Close
 author: windows-sdk-content
 description: Terminates the IFELanguage object.
 old-location: intl\ifelanguage_close.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: EF03C40A-62D1-4B8E-9960-3CD2D515B7CE
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: Close, Close method [Internationalization for Windows Applications], Close method [Internationalization for Windows Applications],IFELanguage interface, IFELanguage interface [Internationalization for Windows Applications],Close method, IFELanguage.Close, IFELanguage::Close, intl.ifelanguage_close, msime/IFELanguage::Close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFELanguage.Close
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IFELanguage::Close

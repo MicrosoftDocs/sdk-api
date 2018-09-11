@@ -4,17 +4,16 @@ title: CVssWriter::GetSnapshotDeviceName
 author: windows-sdk-content
 description: The GetSnapshotDeviceName method returns the name of the device that hosts the shadow copy of the specified volume or file share.
 old-location: base\cvsswriter_getsnapshotdevicename.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: ac0beefe-0afd-45da-b1bb-1bd960b4b0f0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CVssWriter interface [VSS],GetSnapshotDeviceName method, CVssWriter.GetSnapshotDeviceName, CVssWriter::GetSnapshotDeviceName, GetSnapshotDeviceName, GetSnapshotDeviceName method [VSS], GetSnapshotDeviceName method [VSS],CVssWriter interface, _win32_cvsswriter_getsnapshotdevicename, base.cvsswriter_getsnapshotdevicename, vswriter/CVssWriter::GetSnapshotDeviceName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CVssWriter.GetSnapshotDeviceName
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CVssWriter::GetSnapshotDeviceName

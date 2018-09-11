@@ -4,7 +4,7 @@ title: TF_LANGBARITEMINFO
 author: windows-sdk-content
 description: The TF_LANGBARITEMINFO structure is used to hold information about a language bar item.
 old-location: tsf\tf_langbariteminfo.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 4a826a2c-4cae-4cbf-8a25-38337dcd498d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_LANGBARITEMINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TF_LANGBARITEMINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: TF_LANGBARITEMINFO
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # TF_LANGBARITEMINFO structure

@@ -4,7 +4,7 @@ title: lineproxyrequestlist_tag
 author: windows-sdk-content
 description: The LINEPROXYREQUESTLIST structure describes a list of proxy requests. The lineGetProxyStatus function returns the LINEPROXYREQUESTLIST structure.
 old-location: tapi2\lineproxyrequestlist.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: dc417954-56b4-4436-9582-7b656121fd6f
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEPROXYREQUESTLIST, *LPLINEPROXYREQUESTLIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEPROXYREQUESTLIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEPROXYREQUESTLIST, *LPLINEPROXYREQUESTLIST
+req.redist: 
 ---
 
 # lineproxyrequestlist_tag structure

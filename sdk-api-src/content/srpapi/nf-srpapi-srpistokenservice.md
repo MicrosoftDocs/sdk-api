@@ -4,17 +4,16 @@ title: SrpIsTokenService function
 author: windows-sdk-content
 description: Identifies whether a service is a token service.
 old-location: edp\srpistokenservice.htm
-old-project: EDP
+tech.root: EDP
 ms.assetid: 5049B594-A882-49F0-A18B-6A28818AD8D2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EDP.srpistokenservice, SrpIsTokenService, SrpIsTokenService function, srpapi/SrpIsTokenService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: srpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENTERPRISE_DATA_POLICIES
+req.lib: Srpapi.lib
+req.dll: Srpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SrpIsTokenService
 product: Windows
 targetos: Windows
-req.lib: Srpapi.lib
-req.dll: Srpapi.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SrpIsTokenService function

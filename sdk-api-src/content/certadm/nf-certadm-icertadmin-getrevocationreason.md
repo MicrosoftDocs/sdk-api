@@ -4,17 +4,16 @@ title: ICertAdmin::GetRevocationReason
 author: windows-sdk-content
 description: Returns the reason a certificate was revoked. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_getrevocationreason.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 244b121a-76ba-44fd-b15d-f076b722b030
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertAdmin object [Security],GetRevocationReason method, GetRevocationReason, GetRevocationReason method [Security], GetRevocationReason method [Security],CCertAdmin object, GetRevocationReason method [Security],ICertAdmin interface, GetRevocationReason method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],GetRevocationReason method, ICertAdmin.GetRevocationReason, ICertAdmin2 interface [Security],GetRevocationReason method, ICertAdmin2::GetRevocationReason, ICertAdmin::GetRevocationReason, certadm/ICertAdmin2::GetRevocationReason, certadm/ICertAdmin::GetRevocationReason, security.icertadmin2_getrevocationreason
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertAdmin.GetRevocationReason
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertAdmin::GetRevocationReason

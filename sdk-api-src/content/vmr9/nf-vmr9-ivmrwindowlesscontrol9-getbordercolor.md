@@ -4,17 +4,16 @@ title: IVMRWindowlessControl9::GetBorderColor
 author: windows-sdk-content
 description: The GetBorderColor method retrieves the current border color used by the VMR.
 old-location: dshow\ivmrwindowlesscontrol9_getbordercolor.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 314e6977-fe6d-40b2-a566-0e894f3d881c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetBorderColor, GetBorderColor method [DirectShow], GetBorderColor method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetBorderColor method, IVMRWindowlessControl9.GetBorderColor, IVMRWindowlessControl9::GetBorderColor, IVMRWindowlessControl9GetBorderColor, dshow.ivmrwindowlesscontrol9_getbordercolor, vmr9/IVMRWindowlessControl9::GetBorderColor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRWindowlessControl9.GetBorderColor
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRWindowlessControl9::GetBorderColor

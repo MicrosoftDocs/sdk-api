@@ -4,17 +4,16 @@ title: IDCompositionTableTransferEffect::SetGreenTableValue(UINT,IDCompositionAn
 author: windows-sdk-content
 description: Sets a value in the green table.
 old-location: directcomp\idcompositiontabletransfereffect_setgreentablevalue.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 1D2286EB-F053-440A-AF9A-9A00DBD9FA91
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetGreenTableValue method, IDCompositionTableTransferEffect.SetGreenTableValue, IDCompositionTableTransferEffect.SetGreenTableValue(UINT,IDCompositionAnimation), IDCompositionTableTransferEffect::SetGreenTableValue, IDCompositionTableTransferEffect::SetGreenTableValue(UINT,IDCompositionAnimation), SetGreenTableValue, SetGreenTableValue method [DirectComposition], SetGreenTableValue method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetGreenTableValue, directcomp.idcompositiontabletransfereffect_setgreentablevalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionTableTransferEffect.SetGreenTableValue
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionTableTransferEffect::SetGreenTableValue(UINT,IDCompositionAnimation)
@@ -68,7 +67,7 @@ The index of the value to set.
 
 ### -param animation
 
-
+TBD
 
 
 

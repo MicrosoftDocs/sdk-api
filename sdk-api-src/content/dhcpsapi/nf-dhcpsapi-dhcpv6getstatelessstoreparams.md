@@ -4,17 +4,16 @@ title: DhcpV6GetStatelessStoreParams function
 author: windows-sdk-content
 description: Retrieves the current DHCPv6 stateless client inventory configuration settings at the server or scope level.
 old-location: dhcp\dhcpv6getstatelessstoreparams.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 80a32132-a032-452f-9438-52a1eb280fdf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpV6GetStatelessStoreParams, DhcpV6GetStatelessStoreParams function [DHCP], dhcp.dhcpv6getstatelessstoreparams, dhcpsapi/DhcpV6GetStatelessStoreParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpV6GetStatelessStoreParams
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpV6GetStatelessStoreParams function

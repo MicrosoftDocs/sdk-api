@@ -4,17 +4,16 @@ title: IDvdControl2::AcceptParentalLevelChange
 author: windows-sdk-content
 description: The AcceptParentalLevelChange method accepts or rejects a request from the DVD Navigator to play content at a higher parental management level.
 old-location: dshow\idvdcontrol2_acceptparentallevelchange.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a990544e-6600-44b1-91f2-8b88fa43ccaf
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: AcceptParentalLevelChange, AcceptParentalLevelChange method [DirectShow], AcceptParentalLevelChange method [DirectShow],IDvdControl2 interface, IDvdControl2 interface [DirectShow],AcceptParentalLevelChange method, IDvdControl2.AcceptParentalLevelChange, IDvdControl2::AcceptParentalLevelChange, IDvdControl2AcceptParentalLevelChange, dshow.idvdcontrol2_acceptparentallevelchange, strmif/IDvdControl2::AcceptParentalLevelChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdControl2.AcceptParentalLevelChange
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl2::AcceptParentalLevelChange

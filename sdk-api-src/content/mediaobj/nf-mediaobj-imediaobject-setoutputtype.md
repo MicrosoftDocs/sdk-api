@@ -4,17 +4,16 @@ title: IMediaObject::SetOutputType
 author: windows-sdk-content
 description: The SetOutputType method sets the media type on an output stream, or tests whether a media type is acceptable.
 old-location: dshow\imediaobject_setoutputtype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1dda3c55-d37b-4e04-9509-0e5197d6b019
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaObject interface [DirectShow],SetOutputType method, IMediaObject.SetOutputType, IMediaObject::SetOutputType, IMediaObjectSetOutputType, SetOutputType, SetOutputType method [DirectShow], SetOutputType method [DirectShow],IMediaObject interface, dshow.imediaobject_setoutputtype, mediaobj/IMediaObject::SetOutputType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaObject.SetOutputType
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaObject::SetOutputType

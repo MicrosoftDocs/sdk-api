@@ -4,17 +4,16 @@ title: SetupDiGetClassDevsExW function
 author: windows-sdk-content
 description: The SetupDiGetClassDevsEx function returns a handle to a device information set that contains requested device information elements for a local or a remote computer.
 old-location: devinst\setupdigetclassdevsex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 9f13ffe1-1a60-4d9a-942d-63312ca9bc5b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiGetClassDevsEx, SetupDiGetClassDevsEx function [Device and Driver Installation], SetupDiGetClassDevsExA, SetupDiGetClassDevsExW, devinst.setupdigetclassdevsex, di-rtns_61e59e92-0451-4398-88af-0a14347aa74e.xml, setupapi/SetupDiGetClassDevsEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiGetClassDevsEx
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetClassDevsExW function

@@ -4,17 +4,16 @@ title: IWorkspaceResTypeRegistry::DeleteResourceType
 author: windows-sdk-content
 description: Unregisters a third-party file name extension with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_deleteresourcetype.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: a50bd4a0-8f59-4ed9-8f5f-c2522540c41e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DeleteResourceType, DeleteResourceType method [Remote Desktop Services], DeleteResourceType method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, DeleteResourceType method [Remote Desktop Services],Workspace object, IWorkspaceResTypeRegistry interface [Remote Desktop Services],DeleteResourceType method, IWorkspaceResTypeRegistry.DeleteResourceType, IWorkspaceResTypeRegistry::DeleteResourceType, Workspace object [Remote Desktop Services],DeleteResourceType method, termserv.iworkspacerestyperegistry_deleteresourcetype, workspaceax/IWorkspaceResTypeRegistry::DeleteResourceType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceax.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: TSWorkspace.dll
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: TSWorkspace.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - Workspace.DeleteResourceType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: TSWorkspace.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWorkspaceResTypeRegistry::DeleteResourceType

@@ -4,17 +4,16 @@ title: IWMSBufferAllocator::AllocateBuffer
 author: windows-sdk-content
 description: The AllocateBuffer method initializes a buffer.
 old-location: wmformat\iwmsbufferallocator_allocatebuffer.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 857fb8fa-0e86-46f2-907d-a244d6c699ef
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AllocateBuffer, AllocateBuffer method [windows Media Format], AllocateBuffer method [windows Media Format],IWMSBufferAllocator interface, IWMSBufferAllocator interface [windows Media Format],AllocateBuffer method, IWMSBufferAllocator.AllocateBuffer, IWMSBufferAllocator::AllocateBuffer, IWMSBufferAllocatorAllocateBuffer, wmformat.iwmsbufferallocator_allocatebuffer, wmsbuffer/IWMSBufferAllocator::AllocateBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsbuffer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPServices_StreamState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMSBufferAllocator.AllocateBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMSBufferAllocator::AllocateBuffer

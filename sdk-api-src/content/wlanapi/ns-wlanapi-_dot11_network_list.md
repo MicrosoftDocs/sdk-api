@@ -4,7 +4,7 @@ title: "_DOT11_NETWORK_LIST"
 author: windows-sdk-content
 description: Contains a list of 802.11 wireless networks.
 old-location: nwifi\dot11_network_list.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 607c5795-8168-4c6b-a2f3-65f31aea5cf5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_NETWORK_LIST, *PDOT11_NETWORK_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DOT11_NETWORK_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: DOT11_NETWORK_LIST, *PDOT11_NETWORK_LIST
+req.redist: 
 ---
 
 # _DOT11_NETWORK_LIST structure

@@ -4,17 +4,16 @@ title: ImmDisableTextFrameService function
 author: windows-sdk-content
 description: ImmDisableTextFrameService is no longer available for use as of Windows Vista.
 old-location: intl\immdisabletextframeservice.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: ce294f9e-ba0b-460d-8685-85371af8a7e6
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ImmDisableTextFrameService, ImmDisableTextFrameService function [Internationalization for Windows Applications], _win32_ImmDisableTextFrameService, imm/ImmDisableTextFrameService, intl.immdisabletextframeservice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ImmDisableTextFrameService
 product: Windows
 targetos: Windows
-req.lib: Imm32.lib
-req.dll: Imm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ImmDisableTextFrameService function

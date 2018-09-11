@@ -4,17 +4,16 @@ title: IWizardExtension::AddPages
 author: windows-sdk-content
 description: Adds extension pages to the wizard by filling an array with handles to PROPSHEETPAGE structures representing those pages.
 old-location: shell\IWizardExtension_AddPages.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2d9a5012-3b5e-4e55-984b-70a932bab569
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: AddPages, AddPages method [Windows Shell], AddPages method [Windows Shell],IWizardExtension interface, IWizardExtension interface [Windows Shell],AddPages method, IWizardExtension.AddPages, IWizardExtension::AddPages, _shell_IWizardExtension_AddPages, shell.IWizardExtension_AddPages, shobjidl/IWizardExtension::AddPages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWizardExtension.AddPages
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IWizardExtension::AddPages

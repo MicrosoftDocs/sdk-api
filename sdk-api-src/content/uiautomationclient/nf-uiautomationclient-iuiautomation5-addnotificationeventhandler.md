@@ -4,17 +4,16 @@ title: IUIAutomation5::AddNotificationEventHandler
 author: windows-sdk-content
 description: Registers a method that handles notification events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.
 old-location: winauto\uiauto_IUIAutomation5_AddNotificationEventHandler.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 1E6A4683-9439-4212-9EA6-91719A515C4B
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddNotificationEventHandler, AddNotificationEventHandler method [Windows Accessibility], AddNotificationEventHandler method [Windows Accessibility],IUIAutomation5 interface, IUIAutomation5 interface [Windows Accessibility],AddNotificationEventHandler method, IUIAutomation5.AddNotificationEventHandler, IUIAutomation5::AddNotificationEventHandler, uiautomationclient/IUIAutomation5::AddNotificationEventHandler, winauto.uiauto_IUIAutomation5_AddNotificationEventHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server, version 1709 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomation5.AddNotificationEventHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation5::AddNotificationEventHandler
@@ -67,9 +65,9 @@ Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a4027701220
 A pointer to the UI Automation element associated with the event handler.
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param cacheRequest [in]

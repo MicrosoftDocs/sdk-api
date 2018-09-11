@@ -4,17 +4,16 @@ title: BCryptGetFipsAlgorithmMode function
 author: windows-sdk-content
 description: Determines whether Federal Information Processing Standard (FIPS) compliance is enabled.
 old-location: security\bcryptgetfipsalgorithmmode.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: eb7b758d-3466-49fe-8729-a8a059fadcde
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCryptGetFipsAlgorithmMode, BCryptGetFipsAlgorithmMode function [Security], bcrypt/BCryptGetFipsAlgorithmMode, security.bcryptgetfipsalgorithmmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCryptGetFipsAlgorithmMode
 product: Windows
 targetos: Windows
-req.lib: Bcrypt.lib
-req.dll: Bcrypt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BCryptGetFipsAlgorithmMode function

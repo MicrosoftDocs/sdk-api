@@ -4,7 +4,7 @@ title: PFNGENERATEGROUPPOLICY
 author: windows-sdk-content
 description: The GenerateGroupPolicy callback function is an application-defined callback function that each policy extension must export when generating RSoP data in the planning mode.
 old-location: policy\generategrouppolicy.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 748b61a1-79fb-44b9-8c9b-0b1746fa981b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PFNGENERATEGROUPPOLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # PFNGENERATEGROUPPOLICY callback function

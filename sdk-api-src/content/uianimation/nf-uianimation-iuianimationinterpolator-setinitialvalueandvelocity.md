@@ -4,17 +4,16 @@ title: IUIAnimationInterpolator::SetInitialValueAndVelocity
 author: windows-sdk-content
 description: Sets the initial value and velocity at the start of the transition.
 old-location: uianimation\iuianimationinterpolator_setinitialvalueandvelocity.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: a1c5451a-b8d0-4eb7-883c-6bd1d585cb11
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationInterpolator interface [Windows Animation],SetInitialValueAndVelocity method, IUIAnimationInterpolator.SetInitialValueAndVelocity, IUIAnimationInterpolator::SetInitialValueAndVelocity, SetInitialValueAndVelocity, SetInitialValueAndVelocity method [Windows Animation], SetInitialValueAndVelocity method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_setinitialvalueandvelocity, uianimation/IUIAnimationInterpolator::SetInitialValueAndVelocity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationInterpolator.SetInitialValueAndVelocity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationInterpolator::SetInitialValueAndVelocity

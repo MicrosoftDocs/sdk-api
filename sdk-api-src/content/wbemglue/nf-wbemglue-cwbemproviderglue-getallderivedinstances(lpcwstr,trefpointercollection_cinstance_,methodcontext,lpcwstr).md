@@ -4,17 +4,16 @@ title: CWbemProviderGlue::GetAllDerivedInstances(LPCWSTR,TRefPointerCollection<C
 author: windows-sdk-content
 description: The GetAllDerivedInstances method retrieves a list of instances of a base class, or any children of that base class.
 old-location: wmi\cwbemproviderglue_getallderivedinstances.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: ecdca316-12a0-46c3-97df-85a087533837
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetAllDerivedInstances method, CWbemProviderGlue.GetAllDerivedInstances, CWbemProviderGlue.GetAllDerivedInstances(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR), CWbemProviderGlue::GetAllDerivedInstances, CWbemProviderGlue::GetAllDerivedInstances(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR), GetAllDerivedInstances, GetAllDerivedInstances method [Windows Management Instrumentation], GetAllDerivedInstances method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getallderivedinstances, wbemglue/CWbemProviderGlue::GetAllDerivedInstances, wmi.cwbemproviderglue_getallderivedinstances
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CWbemProviderGlue.GetAllDerivedInstances
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CWbemProviderGlue::GetAllDerivedInstances(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR)

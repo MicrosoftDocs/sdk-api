@@ -4,17 +4,16 @@ title: IGlobalInterfaceTable::GetInterfaceFromGlobal
 author: windows-sdk-content
 description: Retrieves a pointer to an interface on an object that is usable by the calling apartment. This interface must be currently registered in the global interface table.
 old-location: com\iglobalinterfacetable_getinterfacefromglobal.htm
-old-project: com
+tech.root: com
 ms.assetid: 3b37184d-c4e8-47b2-8f3f-008d3ea00759
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetInterfaceFromGlobal, GetInterfaceFromGlobal method [COM], GetInterfaceFromGlobal method [COM],IGlobalInterfaceTable interface, IGlobalInterfaceTable interface [COM],GetInterfaceFromGlobal method, IGlobalInterfaceTable.GetInterfaceFromGlobal, IGlobalInterfaceTable::GetInterfaceFromGlobal, _com_iglobalinterfacetable_getinterfacefromglobal, com.iglobalinterfacetable_getinterfacefromglobal, objidlbase/IGlobalInterfaceTable::GetInterfaceFromGlobal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGlobalInterfaceTable.GetInterfaceFromGlobal
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IGlobalInterfaceTable::GetInterfaceFromGlobal

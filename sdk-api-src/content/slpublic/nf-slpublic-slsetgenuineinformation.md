@@ -4,17 +4,16 @@ title: SLSetGenuineInformation function
 author: windows-sdk-content
 description: Specifies information about the genuine status of a Windows computer.
 old-location: security\slsetgenuineinformation.htm
-old-project: secslapi
+tech.root: SecSLApi
 ms.assetid: 20b82813-4c6e-4be8-969f-e6ed1fd5d008
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLSetGenuineInformation, SLSetGenuineInformation function [Security], SL_BRT_COMMIT, SL_BRT_DATA, security.slsetgenuineinformation, slpublic/SLSetGenuineInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_ACTIVATION_TYPE
+req.lib: Slc.lib
+req.dll: Slc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SLSetGenuineInformation
 product: Windows
 targetos: Windows
-req.lib: Slc.lib
-req.dll: Slc.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SLSetGenuineInformation function

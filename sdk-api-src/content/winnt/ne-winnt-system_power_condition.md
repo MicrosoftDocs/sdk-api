@@ -4,7 +4,7 @@ title: SYSTEM_POWER_CONDITION
 author: windows-sdk-content
 description: Used by the GUID_ACDC_POWER_SOURCE power event to indicate the current power source.
 old-location: base\system_power_condition.htm
-old-project: power
+tech.root: power
 ms.assetid: 66636507-466c-43fd-b46c-0b4dddecc15d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_POWER_CONDITION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYSTEM_POWER_CONDITION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: SYSTEM_POWER_CONDITION
+req.redist: 
 ---
 
 # SYSTEM_POWER_CONDITION enumeration

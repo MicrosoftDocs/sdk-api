@@ -4,17 +4,16 @@ title: IWSDSignatureProperty
 author: windows-sdk-content
 description: Provides properties of signed messages.
 old-location: ncd\iwsdsignatureproperty.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: 10e95100-4890-4c00-b231-bb7125fed197
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDSignatureProperty, IWSDSignatureProperty interface, IWSDSignatureProperty interface,described, ncd.iwsdsignatureproperty, wsdbase/IWSDSignatureProperty
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_CONFIG_PARAM_TYPE
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDSignatureProperty
 product: Windows
 targetos: Windows
-req.lib: Wsdapi.lib
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDSignatureProperty interface

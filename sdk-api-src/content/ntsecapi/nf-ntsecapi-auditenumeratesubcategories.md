@@ -4,17 +4,16 @@ title: AuditEnumerateSubCategories function
 author: windows-sdk-content
 description: Enumerates the available audit-policy subcategories.
 old-location: security\auditenumeratesubcategories_func.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: c5af83f4-9524-4a39-ad1d-39b21bb073bd
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AuditEnumerateSubCategories, AuditEnumerateSubCategories function [Security], ntsecapi/AuditEnumerateSubCategories, security.auditenumeratesubcategories_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - AuditEnumerateSubCategories
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AuditEnumerateSubCategories function

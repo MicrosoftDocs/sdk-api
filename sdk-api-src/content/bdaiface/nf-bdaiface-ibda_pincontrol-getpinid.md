@@ -4,17 +4,16 @@ title: IBDA_PinControl::GetPinID
 author: windows-sdk-content
 description: The GetPinID method retrieves the ID of the pin.
 old-location: mstv\ibda_pincontrol_getpinid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 90f6db23-d708-4773-b91a-e4b23d1e3c5b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetPinID, GetPinID method [Microsoft TV Technologies], GetPinID method [Microsoft TV Technologies],IBDA_PinControl interface, IBDA_PinControl interface [Microsoft TV Technologies],GetPinID method, IBDA_PinControl.GetPinID, IBDA_PinControl::GetPinID, IBDA_PinControlGetPinID, bdaiface/IBDA_PinControl::GetPinID, mstv.ibda_pincontrol_getpinid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_PinControl.GetPinID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_PinControl::GetPinID

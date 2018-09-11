@@ -4,17 +4,16 @@ title: PFXExportOptions
 author: windows-sdk-content
 description: Specifies how much of a certificate chain is included when creating a Personal Information Exchange (PFX) message.
 old-location: security\pfxexportoptions_enum.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 72a3ac43-aebf-4801-9e36-23cf338b18ab
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: PFXExportChainNoRoot, PFXExportChainWithRoot, PFXExportEEOnly, PFXExportOptions, PFXExportOptions enumeration [Security], certenroll/PFXExportChainNoRoot, certenroll/PFXExportChainWithRoot, certenroll/PFXExportEEOnly, certenroll/PFXExportOptions, security.pfxexportoptions_enum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PFXExportOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PFXExportOptions
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: PFXExportOptions
+req.redist: 
 ---
 
 # PFXExportOptions enumeration

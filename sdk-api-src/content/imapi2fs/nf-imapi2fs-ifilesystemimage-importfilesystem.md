@@ -4,17 +4,16 @@ title: IFileSystemImage::ImportFileSystem
 author: windows-sdk-content
 description: Imports the default file system on the current disc.
 old-location: imapi\ifilesystemimage_importfilesystem.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 87d654bc-f2c9-4a74-a822-352cdb242b5f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFileSystemImage interface [IMAPI],ImportFileSystem method, IFileSystemImage.ImportFileSystem, IFileSystemImage::ImportFileSystem, ImportFileSystem, ImportFileSystem method [IMAPI], ImportFileSystem method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_importfilesystem, imapi2fs/IFileSystemImage::ImportFileSystem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImage.ImportFileSystem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImage::ImportFileSystem

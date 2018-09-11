@@ -4,17 +4,16 @@ title: IWCNDevice::SetNetworkProfile
 author: windows-sdk-content
 description: The IWCNDevice::SetNetworkProfile method queues an XML WLAN profile to be provisioned to the device. This method may only be called prior to IWCNDevice::Connect.
 old-location: wcn\iwcndevice_setnetworkprofile.htm
-old-project: wcn
+tech.root: wcn
 ms.assetid: 267aa55a-005d-4db8-9569-f8ee77a15168
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IWCNDevice interface [Windows Connect Now],SetNetworkProfile method, IWCNDevice.SetNetworkProfile, IWCNDevice::SetNetworkProfile, SetNetworkProfile, SetNetworkProfile method [Windows Connect Now], SetNetworkProfile method [Windows Connect Now],IWCNDevice interface, wcn.iwcndevice_setnetworkprofile, wcndevice/IWCNDevice::SetNetworkProfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcndevice.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_SESSION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWCNDevice.SetNetworkProfile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWCNDevice::SetNetworkProfile

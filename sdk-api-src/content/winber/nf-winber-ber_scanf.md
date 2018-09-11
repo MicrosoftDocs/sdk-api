@@ -4,17 +4,16 @@ title: ber_scanf function
 author: windows-sdk-content
 description: The ber_scanf function decodes a BER element in a similar manner as sscanf_s.
 old-location: ldap\ber_scanf.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: bca69428-27e1-4028-bfcd-ad67bee672cc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ber_scanf, ber_scanf, ber_scanf function [LDAP], ldap.ber__scanf, ldap.ber_scanf, winber/ber_scanf"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winber.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ber_scanf
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ber_scanf function
@@ -70,7 +68,14 @@ Pointer to the decoded <a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93
 Encoding format string. For more information, see Remarks section.
 
 
-### -param param [in]
+### -param arg1
+
+TBD
+
+
+
+
+#### - param [in]
 
 Pointers to variables used to hold the values decoded as specified by the <i>fmt</i> argument.
 

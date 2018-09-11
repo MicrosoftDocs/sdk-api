@@ -4,17 +4,16 @@ title: RpcNsEntryObjectInqBeginW function
 author: windows-sdk-content
 description: The RpcNsEntryObjectInqBegin function creates an inquiry context for the objects of a name-service database entry.
 old-location: rpc\rpcnsentryobjectinqbegin.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: dc667dc3-0812-43d5-adc2-aa29ee67f045
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcNsEntryObjectInqBegin, RpcNsEntryObjectInqBegin function [RPC], RpcNsEntryObjectInqBeginA, RpcNsEntryObjectInqBeginW, _rpc_rpcnsentryobjectinqbegin, rpc.rpcnsentryobjectinqbegin, rpcnsi/RpcNsEntryObjectInqBegin, rpcnsi/RpcNsEntryObjectInqBeginA, rpcnsi/RpcNsEntryObjectInqBeginW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Rpcns4.lib
+req.dll: Rpcns4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcNsEntryObjectInqBeginW
 product: Windows
 targetos: Windows
-req.lib: Rpcns4.lib
-req.dll: Rpcns4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcNsEntryObjectInqBeginW function

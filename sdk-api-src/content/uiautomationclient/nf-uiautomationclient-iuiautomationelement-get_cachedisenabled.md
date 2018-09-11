@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CachedIsEnabled
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the element is enabled.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsEnabled.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: e3b6bf79-51a7-46bf-91af-4448df8e4be7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedIsEnabled property [Windows Accessibility], CachedIsEnabled property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsEnabled property, IUIAutomationElement.CachedIsEnabled, IUIAutomationElement.get_CachedIsEnabled, IUIAutomationElement::CachedIsEnabled, IUIAutomationElement::get_CachedIsEnabled, get_CachedIsEnabled, uiauto.uiauto_IUIAutomationElement_CachedIsEnabled, uiauto_IUIAutomationElement_CachedIsEnabled, uiautomationclient/IUIAutomationElement::CachedIsEnabled, uiautomationclient/IUIAutomationElement::get_CachedIsEnabled, winauto.uiauto_IUIAutomationElement_CachedIsEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CachedIsEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CachedIsEnabled

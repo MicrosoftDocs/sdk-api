@@ -4,17 +4,16 @@ title: ILocationReport::GetTimestamp
 author: windows-sdk-content
 description: Retrieves the date and time when the report was generated.
 old-location: winlocation_com_ref\ilocationreport_gettimestamp.htm
-old-project: locationapi
+tech.root: locationapi
 ms.assetid: 3573b2e7-fa76-4819-894d-d1215dc625bc
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetTimestamp, GetTimestamp method [WinLocation], GetTimestamp method [WinLocation],ILocationReport interface, ILocationReport interface [WinLocation],GetTimestamp method, ILocationReport.GetTimestamp, ILocationReport::GetTimestamp, WinLocation_COM_Ref.ilocationreport_gettimestamp, locationapi/ILocationReport::GetTimestamp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only],Windows 7
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCATION_REPORT_STATUS
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILocationReport.GetTimestamp
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: LocationAPI.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ILocationReport::GetTimestamp

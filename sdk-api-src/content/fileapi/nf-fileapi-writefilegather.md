@@ -4,17 +4,16 @@ title: WriteFileGather function
 author: windows-sdk-content
 description: Retrieves data from an array of buffers and writes the data to a file.
 old-location: fs\writefilegather.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 9590eabb-6e85-406e-8101-e67f87e6850b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WriteFileGather, WriteFileGather function [Files], _win32_writefilegather, base.writefilegather, fileapi/WriteFileGather, fs.writefilegather, winbase/WriteFileGather
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - WriteFileGather
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # WriteFileGather function

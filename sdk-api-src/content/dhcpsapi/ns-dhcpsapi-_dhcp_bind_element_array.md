@@ -4,7 +4,7 @@ title: "_DHCP_BIND_ELEMENT_ARRAY"
 author: windows-sdk-content
 description: The DHCP_BIND_ELEMENT_ARRAY structure defines an array of network binding elements used by a DHCP server.
 old-location: dhcp\dhcp_bind_element_array.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 9e43b2ab-f69d-4024-b6b1-8a36a3577767
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_BIND_ELEMENT_ARRAY, *LPDHCP_BIND_ELEMENT_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_BIND_ELEMENT_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_BIND_ELEMENT_ARRAY, *LPDHCP_BIND_ELEMENT_ARRAY
+req.redist: 
 ---
 
 # _DHCP_BIND_ELEMENT_ARRAY structure

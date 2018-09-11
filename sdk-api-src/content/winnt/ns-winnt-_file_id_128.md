@@ -4,7 +4,7 @@ title: "_FILE_ID_128"
 author: windows-sdk-content
 description: Defines a 128-bit file identifier.
 old-location: fs\ext_file_id_128.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 254ea6a9-e1dd-4b97-91f7-2693065c4bb8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_ID_128, *PFILE_ID_128
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EXT_FILE_ID_128
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: FILE_ID_128, *PFILE_ID_128
+req.redist: 
 ---
 
 # _FILE_ID_128 structure

@@ -4,17 +4,16 @@ title: IDvdInfo2::GetSubpictureAttributes
 author: windows-sdk-content
 description: The GetSubpictureAttributes method retrieves the attributes of the specified subpicture stream in the specified title or menu.
 old-location: dshow\idvdinfo2_getsubpictureattributes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3dce0c01-1d39-4f49-984b-8cce08a2e67b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetSubpictureAttributes, GetSubpictureAttributes method [DirectShow], GetSubpictureAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetSubpictureAttributes method, IDvdInfo2.GetSubpictureAttributes, IDvdInfo2::GetSubpictureAttributes, IDvdInfo2GetSubpictureAttributes, dshow.idvdinfo2_getsubpictureattributes, strmif/IDvdInfo2::GetSubpictureAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdInfo2.GetSubpictureAttributes
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo2::GetSubpictureAttributes
@@ -71,7 +69,7 @@ Index number, from 0 through 31, of the subpicture stream to query. See Remarks.
 
 ### -param pATR
 
-
+TBD
 
 
 

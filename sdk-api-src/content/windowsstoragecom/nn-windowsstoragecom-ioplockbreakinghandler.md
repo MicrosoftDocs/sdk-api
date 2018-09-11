@@ -4,17 +4,16 @@ title: IOplockBreakingHandler
 author: windows-sdk-content
 description: This interface is not currently implemented.
 old-location: winrt\ioplockbreakinghandler.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 76466E25-C3F1-4170-921E-8BE6B36B6BA3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOplockBreakingHandler, IOplockBreakingHandler interface [Windows Runtime], IOplockBreakingHandler interface [Windows Runtime],described, windowsstoragecom/IOplockBreakingHandler, winrt.ioplockbreakinghandler
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: windowsstoragecom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: Windows.storage.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOplockBreakingHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.storage.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOplockBreakingHandler interface

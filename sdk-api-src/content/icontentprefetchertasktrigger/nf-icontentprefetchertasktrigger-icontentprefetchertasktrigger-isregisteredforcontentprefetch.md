@@ -4,17 +4,16 @@ title: IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch
 author: windows-sdk-content
 description: Indicates if an app package has registered for the content prefetch background task.
 old-location: wsw\icontentprefetchertasktrigger_isregisteredforcontentprefetch.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 6F8A0A9B-CF05-47F9-8486-10DFE720E0DD
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IContentPrefetcherTaskTrigger interface [Web Services for Windows],IsRegisteredForContentPrefetch method, IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch, IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch, IsRegisteredForContentPrefetch, IsRegisteredForContentPrefetch method [Web Services for Windows], IsRegisteredForContentPrefetch method [Web Services for Windows],IContentPrefetcherTaskTrigger interface, icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch, wsw.icontentprefetchertasktrigger_isregisteredforcontentprefetch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: icontentprefetchertasktrigger.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch

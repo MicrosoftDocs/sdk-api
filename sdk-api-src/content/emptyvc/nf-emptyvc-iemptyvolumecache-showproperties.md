@@ -4,17 +4,16 @@ title: IEmptyVolumeCache::ShowProperties
 author: windows-sdk-content
 description: Notifies the handler to display its UI.
 old-location: lwef\iemptyvolumecache_showproperties.htm
-old-project: lwef
+tech.root: lwef
 ms.assetid: 3bce6251-b209-405a-8ac2-fd385f1c69ee
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IEmptyVolumeCache interface [Legacy Windows Environment Features],ShowProperties method, IEmptyVolumeCache.ShowProperties, IEmptyVolumeCache::ShowProperties, ShowProperties, ShowProperties method [Legacy Windows Environment Features], ShowProperties method [Legacy Windows Environment Features],IEmptyVolumeCache interface, _win32_IEmptyVolumeCache_ShowProperties, emptyvc/IEmptyVolumeCache::ShowProperties, lwef.iemptyvolumecache_showproperties, shell.iemptyvolumecache_showproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: emptyvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMI_VERSION
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEmptyVolumeCache.ShowProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEmptyVolumeCache::ShowProperties

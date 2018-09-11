@@ -4,17 +4,16 @@ title: CertGetIntendedKeyUsage function
 author: windows-sdk-content
 description: Acquires the intended key usage bytes from a certificate.
 old-location: security\certgetintendedkeyusage.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: d09c3626-f864-4774-8511-3e912f62e520
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CertGetIntendedKeyUsage, CertGetIntendedKeyUsage function [Security], _crypto2_certgetintendedkeyusage, security.certgetintendedkeyusage, wincrypt/CertGetIntendedKeyUsage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertGetIntendedKeyUsage
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertGetIntendedKeyUsage function

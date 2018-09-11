@@ -4,7 +4,7 @@ title: "_MT_ARBITRARY_HEADER"
 author: windows-sdk-content
 description: Contains format data for a binary stream in an Advanced Streaming Format (ASF) file.
 old-location: mf\mt_arbitrary_header.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: efe2ceb7-32f5-4a43-b4d9-807fe66d6edb
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MT_ARBITRARY_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MT_ARBITRARY_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MT_ARBITRARY_HEADER
+req.redist: 
 ---
 
 # _MT_ARBITRARY_HEADER structure

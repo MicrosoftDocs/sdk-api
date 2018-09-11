@@ -4,17 +4,16 @@ title: ICEnroll2
 author: windows-sdk-content
 description: The ICEnroll2 interface is one of several interfaces that represent the Certificate Enrollment Control.
 old-location: security\icenroll2.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 12c51daf-a72f-43da-9fb7-20ec261b4917
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ICEnroll2, ICEnroll2 interface [Security], ICEnroll2 interface [Security],described, _xen_icenroll2, security.icenroll2, xenroll/ICEnroll2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICEnroll2
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # ICEnroll2 interface

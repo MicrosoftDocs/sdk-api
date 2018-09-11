@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_fwpmtypes_0000_0000_0001"
 author: windows-sdk-content
 description: The DL_ADDRESS_TYPE enumerated type.
 old-location: fwp\dl_address_type.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 1ef0195a-af46-4eb3-8cc0-0408b644a7e9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwpmtypes.h
 req.include-header: Fwpmtypes.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DL_ADDRESS_TYPE, *PDL_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DL_ADDRESS_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: DL_ADDRESS_TYPE, *PDL_ADDRESS_TYPE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_fwpmtypes_0000_0000_0001 enumeration

@@ -4,17 +4,16 @@ title: ISurfaceImageSourceManagerNative::xaml
 author: windows-sdk-content
 description: Flushes all current GPU work for all SurfaceImageSource or VirtualSurfaceImageSource objects associated with the given device.
 old-location: winrt\isurfaceimagesourcemanagernative_flushallsurfaceswithdevice.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 2921FF9E-25C5-4DF6-B23F-7B60F0577983
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FlushAllSurfacesWithDevice, FlushAllSurfacesWithDevice method [Windows Runtime], FlushAllSurfacesWithDevice method [Windows Runtime],ISurfaceImageSourceManagerNative interface, ISurfaceImageSourceManagerNative interface [Windows Runtime],FlushAllSurfacesWithDevice method, ISurfaceImageSourceManagerNative.FlushAllSurfacesWithDevice, ISurfaceImageSourceManagerNative.xaml, ISurfaceImageSourceManagerNative::FlushAllSurfacesWithDevice, ISurfaceImageSourceManagerNative::xaml, windows/ISurfaceImageSourceManagerNative::FlushAllSurfacesWithDevice, winrt.isurfaceimagesourcemanagernative_flushallsurfaceswithdevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISurfaceImageSourceManagerNative.FlushAllSurfacesWithDevice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.UI.Xaml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISurfaceImageSourceManagerNative::xaml

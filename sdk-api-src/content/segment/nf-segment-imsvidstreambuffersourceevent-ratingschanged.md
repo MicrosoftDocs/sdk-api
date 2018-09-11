@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSourceEvent::RatingsChanged
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_ratingschanged.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0754fb90-3f68-4f10-ab9b-74f7f7aeb047
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],RatingsChanged method, IMSVidStreamBufferSourceEvent.RatingsChanged, IMSVidStreamBufferSourceEvent::RatingsChanged, IMSVidStreamBufferSourceEventRatingsChanged, RatingsChanged, RatingsChanged method [Microsoft TV Technologies], RatingsChanged method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_ratingschanged, segment/IMSVidStreamBufferSourceEvent::RatingsChanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSourceEvent.RatingsChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSourceEvent::RatingsChanged

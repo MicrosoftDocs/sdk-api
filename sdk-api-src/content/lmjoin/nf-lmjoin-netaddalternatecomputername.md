@@ -4,17 +4,16 @@ title: NetAddAlternateComputerName function
 author: windows-sdk-content
 description: Adds an alternate name for the specified computer.
 old-location: netmgmt\netaddalternatecomputername.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 710865c6-e327-439c-931d-de8674d69233
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetAddAlternateComputerName, NetAddAlternateComputerName function [Network Management], lmjoin/NetAddAlternateComputerName, netmgmt.netaddalternatecomputername
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmjoin.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetAddAlternateComputerName
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetAddAlternateComputerName function

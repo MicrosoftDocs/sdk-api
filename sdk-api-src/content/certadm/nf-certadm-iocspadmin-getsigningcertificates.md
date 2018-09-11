@@ -4,17 +4,16 @@ title: IOCSPAdmin::GetSigningCertificates
 author: windows-sdk-content
 description: Gets the signing certificates that are available on a responder server for a given certification authority (CA) certificate.
 old-location: security\iocspadmin_getsigningcertificates.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 762dc32f-90d4-4e88-a3cc-e77e729f0a98
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: GetSigningCertificates, GetSigningCertificates method [Security], GetSigningCertificates method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetSigningCertificates method, IOCSPAdmin.GetSigningCertificates, IOCSPAdmin::GetSigningCertificates, certadm/IOCSPAdmin::GetSigningCertificates, security.iocspadmin_getsigningcertificates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOCSPAdmin.GetSigningCertificates
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPAdmin::GetSigningCertificates

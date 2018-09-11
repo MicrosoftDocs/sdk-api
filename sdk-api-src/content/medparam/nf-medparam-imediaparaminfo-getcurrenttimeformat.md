@@ -4,17 +4,16 @@ title: IMediaParamInfo::GetCurrentTimeFormat
 author: windows-sdk-content
 description: The GetCurrentTimeFormat method retrieves the current time format.
 old-location: dshow\imediaparaminfo_getcurrenttimeformat.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b93b929c-c1a7-4e8e-93cf-118fcd6a3de9
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetCurrentTimeFormat, GetCurrentTimeFormat method [DirectShow], GetCurrentTimeFormat method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetCurrentTimeFormat method, IMediaParamInfo.GetCurrentTimeFormat, IMediaParamInfo::GetCurrentTimeFormat, IMediaParamInfoGetCurrentTimeFormat, dshow.imediaparaminfo_getcurrenttimeformat, medparam/IMediaParamInfo::GetCurrentTimeFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: medparam.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MP_TYPE
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaParamInfo.GetCurrentTimeFormat
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaParamInfo::GetCurrentTimeFormat

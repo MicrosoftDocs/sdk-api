@@ -4,17 +4,16 @@ title: IDot11AdHocInterface::IsDot11d
 author: windows-sdk-content
 description: Specifies whether the NIC is 802.11d compliant.
 old-location: nwifi\idot11adhocinterface_isdot11d.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 3854b2e3-853d-44cd-9b43-6c583f0df08f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDot11AdHocInterface interface [NativeWIFI],IsDot11d method, IDot11AdHocInterface.IsDot11d, IDot11AdHocInterface::IsDot11d, IsDot11d, IsDot11d method [NativeWIFI], IsDot11d method [NativeWIFI],IDot11AdHocInterface interface, adhoc/IDot11AdHocInterface::IsDot11d, nwifi.idot11adhocinterface_isdot11d
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocInterface.IsDot11d
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocInterface::IsDot11d

@@ -4,17 +4,16 @@ title: IVdsVolumeMF::QueryAccessPaths
 author: windows-sdk-content
 description: Returns a list of access paths and a drive letter, if one exists, for the current volume.
 old-location: base\ivdsvolumemf_queryaccesspaths.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 7d541245-c189-4abe-ac72-2928c7aeed95
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsVolumeMF interface [VDS],QueryAccessPaths method, IVdsVolumeMF.QueryAccessPaths, IVdsVolumeMF::QueryAccessPaths, QueryAccessPaths, QueryAccessPaths method [VDS], QueryAccessPaths method [VDS],IVdsVolumeMF interface, base.ivdsvolumemf_queryaccesspaths, vds/IVdsVolumeMF::QueryAccessPaths
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolumeMF.QueryAccessPaths
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolumeMF::QueryAccessPaths

@@ -4,17 +4,16 @@ title: InterlockedXor16 function
 author: windows-sdk-content
 description: Performs an atomic XOR operation on the specified SHORT values.
 old-location: base\interlockedxor16.htm
-old-project: sync
+tech.root: Sync
 ms.assetid: 414830ba-ce2b-4ed0-96f4-db5edd8e4ebe
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: InterlockedXor16, InterlockedXor16 function, base.interlockedxor16, winnt/InterlockedXor16
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InterlockedXor16
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InterlockedXor16 function

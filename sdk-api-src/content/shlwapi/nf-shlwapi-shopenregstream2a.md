@@ -4,17 +4,16 @@ title: SHOpenRegStream2A function
 author: windows-sdk-content
 description: Opens a registry value and supplies a stream that can be used to read from or write to the value. This function supersedes SHOpenRegStream.
 old-location: shell\SHOpenRegStream2.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2450dde0-cd02-4d48-be40-467b4b8be240
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHOpenRegStream2, SHOpenRegStream2 function [Windows Shell], SHOpenRegStream2A, SHOpenRegStream2W, STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_SHOpenRegStream2, shell.SHOpenRegStream2, shlwapi/SHOpenRegStream2, shlwapi/SHOpenRegStream2A, shlwapi/SHOpenRegStream2W
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - SHOpenRegStream2W
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHOpenRegStream2A function

@@ -4,17 +4,16 @@ title: WdsTransportProviderRefreshSettings function
 author: windows-sdk-content
 description: Instructs the transport provider to reread any relevant settings.
 old-location: wds\wdstransportproviderrefreshsettings.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: b5fc2340-6820-4b11-b96b-dcf3186f0786
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WdsTransportProviderRefreshSettings, WdsTransportProviderRefreshSettings callback, WdsTransportProviderRefreshSettings callback function [Windows Deployment Services], wds.wdstransportproviderrefreshsettings, wdstpdi/WdsTransportProviderRefreshSettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSPORTPROVIDER_CALLBACK_ID, *PTRANSPORTPROVIDER_CALLBACK_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsTransportProviderRefreshSettings
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsTransportProviderRefreshSettings function

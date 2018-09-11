@@ -4,17 +4,16 @@ title: ITMultiTrackTerminal::get_DirectionsInUse
 author: windows-sdk-content
 description: The get_DirectionsInUse method returns the direction of all tracks managed currently by the multitrack terminal.
 old-location: tapi3\itmultitrackterminal_get_directionsinuse.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: d9f739ea-3df5-4275-868a-3e0d611254c0
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITMultiTrackTerminal interface [TAPI 2.2],get_DirectionsInUse method, ITMultiTrackTerminal.get_DirectionsInUse, ITMultiTrackTerminal::get_DirectionsInUse, _tapi3_itmultitrackterminal_get_directionsinuse, get_DirectionsInUse, get_DirectionsInUse method [TAPI 2.2], get_DirectionsInUse method [TAPI 2.2],ITMultiTrackTerminal interface, tapi3.itmultitrackterminal_get_directionsinuse, tapi3if/ITMultiTrackTerminal::get_DirectionsInUse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITMultiTrackTerminal.get_DirectionsInUse
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITMultiTrackTerminal::get_DirectionsInUse

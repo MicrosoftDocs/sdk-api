@@ -4,17 +4,16 @@ title: ID2D1TransformedImageSource::GetProperties
 author: windows-sdk-content
 description: Retrieves the properties specified when the transformed image source was created.
 old-location: direct2d\id2d1transformedimagesource_getproperties.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: D8291B02-9C32-412B-8F25-63A4A551B023
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetProperties, GetProperties method [Direct2D], GetProperties method [Direct2D],ID2D1TransformedImageSource interface, ID2D1TransformedImageSource interface [Direct2D],GetProperties method, ID2D1TransformedImageSource.GetProperties, ID2D1TransformedImageSource::GetProperties, d2d1_3/ID2D1TransformedImageSource::GetProperties, direct2d.id2d1transformedimagesource_getproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: D2D1.lib
+req.dll: D2D1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1TransformedImageSource.GetProperties
 product: Windows
 targetos: Windows
-req.lib: D2D1.lib
-req.dll: D2D1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1TransformedImageSource::GetProperties

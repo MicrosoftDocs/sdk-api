@@ -4,17 +4,16 @@ title: IWSDDeviceProxy::Init
 author: windows-sdk-content
 description: Initializes the device proxy, optionally sharing a session with a previously initialized sponsoring device proxy.
 old-location: ncd\iwsddeviceproxy_init_method.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: d29212c8-2f29-41cc-ae35-8376ec5f0b7a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDDeviceProxy interface,Init method, IWSDDeviceProxy.Init, IWSDDeviceProxy::Init, Init, Init method, Init method,IWSDDeviceProxy interface, ncd.iwsddeviceproxy_init_method, wsdclient/IWSDDeviceProxy::Init
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDDeviceProxy.Init
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDDeviceProxy::Init

@@ -4,17 +4,16 @@ title: IPropertyDescription::GetColumnState
 author: windows-sdk-content
 description: Gets the column state flag, which describes how the property should be treated by interfaces or APIs that use this flag.
 old-location: properties\IPropertyDescription_GetColumnState.htm
-old-project: properties
+tech.root: properties
 ms.assetid: fcfb5905-884a-49ed-aa1d-acd3b95753bf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetColumnState, GetColumnState method [Windows Properties], GetColumnState method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetColumnState method, IPropertyDescription.GetColumnState, IPropertyDescription::GetColumnState, properties.IPropertyDescription_GetColumnState, propsys/IPropertyDescription::GetColumnState, shell.IPropertyDescription_GetColumnState, shell_IPropertyDescription_GetColumnState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription.GetColumnState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription::GetColumnState
@@ -62,7 +60,7 @@ Gets the column state flag, which describes how the property should be treated b
 
 ### -param pcsFlags
 
-
+TBD
 
 
 

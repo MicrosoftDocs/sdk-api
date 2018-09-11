@@ -4,17 +4,16 @@ title: IX509Enrollment::put_CertificateDescription
 author: windows-sdk-content
 description: Specifies or retrieves a string that contains a description of the certificate.
 old-location: security\ix509enrollment_certificatedescription_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 5057770b-79b1-4c83-bf2e-bff1eb91aea0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CertificateDescription property [Security], CertificateDescription property [Security],IX509Enrollment interface, IX509Enrollment interface [Security],CertificateDescription property, IX509Enrollment.CertificateDescription, IX509Enrollment.put_CertificateDescription, IX509Enrollment::CertificateDescription, IX509Enrollment::get_CertificateDescription, IX509Enrollment::put_CertificateDescription, certenroll/IX509Enrollment::CertificateDescription, certenroll/IX509Enrollment::get_CertificateDescription, certenroll/IX509Enrollment::put_CertificateDescription, put_CertificateDescription, security.ix509enrollment_certificatedescription_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509Enrollment.put_CertificateDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Enrollment::put_CertificateDescription

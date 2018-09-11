@@ -4,17 +4,16 @@ title: IDeviceModelPlugIn::SetTransformDeviceModelInfo
 author: windows-sdk-content
 description: Provides the plug-in with parameters to determine where in the transform sequence the specific plug-in occurs.
 old-location: wcs\IDeviceModelPlugIn_SetTransformDeviceModelInfo.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: 01d0815d-1a6b-48f3-9a81-65df0e185e8f
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: IDeviceModelPlugIn interface [Windows Color System],SetTransformDeviceModelInfo method, IDeviceModelPlugIn.SetTransformDeviceModelInfo, IDeviceModelPlugIn::SetTransformDeviceModelInfo, SetTransformDeviceModelInfo, SetTransformDeviceModelInfo method [Windows Color System], SetTransformDeviceModelInfo method [Windows Color System],IDeviceModelPlugIn interface, _color_IDeviceModelPlugIn::SetTransformDeviceModelInfo, wcs.IDeviceModelPlugIn_SetTransformDeviceModelInfo, wcsplugin/IDeviceModelPlugIn::SetTransformDeviceModelInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDeviceModelPlugIn.SetTransformDeviceModelInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceModelPlugIn::SetTransformDeviceModelInfo
@@ -62,7 +60,7 @@ Provides the plug-in with parameters to determine where in the transform sequenc
 
 ### -param iModelPosition
 
-
+TBD
 
 
 ### -param pIDeviceModelOther [in]

@@ -4,17 +4,16 @@ title: ComboBox_GetTextLength macro
 author: windows-sdk-content
 description: Gets the number of characters in the text of a combo box.
 old-location: controls\ComboBox_GetTextLength.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\combobox_gettextlength.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ComboBox_GetTextLength, ComboBox_GetTextLength macro [Windows Controls], _win32_ComboBox_GetTextLength, _win32_ComboBox_GetTextLength_cpp, controls.ComboBox_GetTextLength, controls._win32_ComboBox_GetTextLength, windowsx/ComboBox_GetTextLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ComboBox_GetTextLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ComboBox_GetTextLength macro

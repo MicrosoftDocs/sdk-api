@@ -4,17 +4,16 @@ title: CopyFileExA function
 author: windows-sdk-content
 description: Copies an existing file to a new file, notifying the application of its progress through a callback function.
 old-location: fs\copyfileex.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: e19f0299-54fa-4e1e-855a-d2c71d29611b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: COPY_FILE_ALLOW_DECRYPTED_DESTINATION, COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_NO_BUFFERING, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_RESTARTABLE, CopyFileEx, CopyFileEx function [Files], CopyFileExA, CopyFileExW, _win32_copyfileex, base.copyfileex, fs.copyfileex, winbase/CopyFileEx, winbase/CopyFileExA, winbase/CopyFileExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - CopyFileExW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CopyFileExA function

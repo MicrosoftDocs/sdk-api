@@ -4,17 +4,16 @@ title: IADsPathname::AddLeafElement
 author: windows-sdk-content
 description: Adds an element to the end of the directory path already set on the Pathname object.
 old-location: adsi\iadspathname_addleafelement.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 6f29f11f-965e-4556-af74-2bc06588410f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: AddLeafElement, AddLeafElement method [ADSI], AddLeafElement method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],AddLeafElement method, IADsPathname.AddLeafElement, IADsPathname::AddLeafElement, _ds_iadspathname_addleafelement, adsi.iadspathname__addleafelement, adsi.iadspathname_addleafelement, iads/IADsPathname::AddLeafElement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsPathname.AddLeafElement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsPathname::AddLeafElement

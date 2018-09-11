@@ -4,17 +4,16 @@ title: IWSManEx
 author: windows-sdk-content
 description: Extends the methods and properties of the IWSMan interface to include creating IWSManResourceLocator objects, methods that return enumeration and session flag values, and a method to get extended error information.
 old-location: winrm\iwsmanex.htm
-old-project: winrm
+tech.root: WinRM
 ms.assetid: 23fdd9d9-4a78-4c01-8e5d-c8007f39d5d6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSManEx, IWSManEx interface [Windows Remote Management], IWSManEx interface [Windows Remote Management],described, winrm.iwsmanex, wsmandisp/ IWSManEx
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsmandisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManProxyAuthenticationFlags
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSManEx
 product: Windows
 targetos: Windows
-req.lib: WSManDisp.tlb
-req.dll: WSMAuto.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSManEx interface

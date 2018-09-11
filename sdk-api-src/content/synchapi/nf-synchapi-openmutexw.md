@@ -4,17 +4,16 @@ title: OpenMutexW function
 author: windows-sdk-content
 description: Opens an existing named mutex object.
 old-location: base\openmutex.htm
-old-project: sync
+tech.root: Sync
 ms.assetid: 0ea363c2-1ff7-4bf5-9e94-f1f17b8c8a11
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: OpenMutex, OpenMutex function, OpenMutexA, OpenMutexW, _win32_openmutex, base.openmutex, synchapi/OpenMutex, synchapi/OpenMutexA, synchapi/OpenMutexW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ITEMPROP, *LPITEMPROP
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -54,10 +54,8 @@ api_name:
  - OpenMutexW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # OpenMutexW function

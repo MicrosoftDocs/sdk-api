@@ -4,17 +4,16 @@ title: ID3D10InfoQueue::SetMuteDebugOutput
 author: windows-sdk-content
 description: Set a boolean that turns the debug output on or off.
 old-location: direct3d10\id3d10infoqueue_setmutedebugoutput.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_setmutedebugoutput.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: ID3D10InfoQueue interface [Direct3D 10],SetMuteDebugOutput method, ID3D10InfoQueue.SetMuteDebugOutput, ID3D10InfoQueue::SetMuteDebugOutput, SetMuteDebugOutput, SetMuteDebugOutput method [Direct3D 10], SetMuteDebugOutput method [Direct3D 10],ID3D10InfoQueue interface, d3d10sdklayers/ID3D10InfoQueue::SetMuteDebugOutput, direct3d10.id3d10infoqueue_setmutedebugoutput, fc4951da-744c-9cda-d7ab-407692014dd0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_MESSAGE_SEVERITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10InfoQueue.SetMuteDebugOutput
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10InfoQueue::SetMuteDebugOutput

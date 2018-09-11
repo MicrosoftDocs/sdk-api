@@ -4,17 +4,16 @@ title: ScriptSubstituteSingleGlyph function
 author: windows-sdk-content
 description: Enables substitution of a single glyph with one alternate form of the same glyph for OpenType processing.
 old-location: intl\scriptsubstitutesingleglyph.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 1aecde5a-ddca-4163-9159-dafc15f9ca59
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ScriptSubstituteSingleGlyph, ScriptSubstituteSingleGlyph function [Internationalization for Windows Applications], _win32_ScriptSubstituteSingleGlyph, intl.scriptsubstitutesingleglyph, usp10/ScriptSubstituteSingleGlyph
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 
-req.redist: Usp10.dll version 1.600 or greater on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCRIPT_JUSTIFY
+req.lib: Usp10.lib
+req.dll: Usp10.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ScriptSubstituteSingleGlyph
 product: Windows
 targetos: Windows
-req.lib: Usp10.lib
-req.dll: Usp10.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: Usp10.dll version 1.600 or greater on Windows XP
 ---
 
 # ScriptSubstituteSingleGlyph function

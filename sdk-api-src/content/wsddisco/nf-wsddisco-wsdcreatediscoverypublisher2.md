@@ -4,17 +4,16 @@ title: WSDCreateDiscoveryPublisher2 function
 author: windows-sdk-content
 description: Creates an IWSDiscoveryPublisher object that supports signed messages.
 old-location: ncd\wsdcreatediscoverypublisher2.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: 43c17910-a4b6-4889-ba98-4e125b4a3ac0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSDCreateDiscoveryPublisher2, WSDCreateDiscoveryPublisher2 function, ncd.wsdcreatediscoverypublisher2, wsddisco/WSDCreateDiscoveryPublisher2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: Wsdapi.lib
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSDCreateDiscoveryPublisher2
 product: Windows
 targetos: Windows
-req.lib: Wsdapi.lib
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSDCreateDiscoveryPublisher2 function

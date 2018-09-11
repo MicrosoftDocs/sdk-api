@@ -4,17 +4,16 @@ title: "_D3D10_SHADER_DEBUG_INST_INFO"
 author: windows-sdk-content
 description: Contains instruction data.
 old-location: direct3d10\d3d10_shader_debug_inst_info.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_inst_info.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: D3D10_SHADER_DEBUG_INST_INFO, D3D10_SHADER_DEBUG_INST_INFO structure [Direct3D 10], _D3D10_SHADER_DEBUG_INST_INFO, be8000a0-f3a0-c087-b23f-aeedd69d29d6, d3d10_1shader/D3D10_SHADER_DEBUG_INST_INFO, direct3d10.d3d10_shader_debug_inst_info
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_SHADER_DEBUG_INST_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_SHADER_DEBUG_INST_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D10_SHADER_DEBUG_INST_INFO
+req.redist: 
 ---
 
 # _D3D10_SHADER_DEBUG_INST_INFO structure

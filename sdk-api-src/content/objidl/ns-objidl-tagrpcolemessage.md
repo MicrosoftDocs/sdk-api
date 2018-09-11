@@ -4,17 +4,16 @@ title: tagRPCOLEMESSAGE
 author: windows-sdk-content
 description: Contains marshaling invocation arguments and return values between COM components.
 old-location: com\rpcolemessage.htm
-old-project: com
+tech.root: com
 ms.assetid: b4761462-1910-431c-b5cd-c14fdda0b6b6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRPCOLEMESSAGE, PRPCOLEMESSAGE, PRPCOLEMESSAGE structure pointer [COM], RPCOLEMESSAGE, RPCOLEMESSAGE structure [COM], _com_RPCOLEMESSAGE, com.rpcolemessage, objidlbase/PRPCOLEMESSAGE, objidlbase/RPCOLEMESSAGE, tagRPCOLEMESSAGE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidl.h
 req.include-header: Objidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: ObjIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPCOLEMESSAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPCOLEMESSAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPCOLEMESSAGE
+req.redist: 
 ---
 
 # tagRPCOLEMESSAGE structure

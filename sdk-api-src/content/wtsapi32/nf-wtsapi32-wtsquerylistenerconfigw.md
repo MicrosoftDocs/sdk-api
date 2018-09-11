@@ -4,17 +4,16 @@ title: WTSQueryListenerConfigW function
 author: windows-sdk-content
 description: Retrieves configuration information for a Remote Desktop Services listener.
 old-location: termserv\wtsquerylistenerconfig.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: abdcb98e-c00c-444f-a6f9-ce98161c8b62
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WTSQueryListenerConfig, WTSQueryListenerConfig function [Remote Desktop Services], WTSQueryListenerConfigA, WTSQueryListenerConfigW, termserv.wtsquerylistenerconfig, wtsapi32/WTSQueryListenerConfig, wtsapi32/WTSQueryListenerConfigA, wtsapi32/WTSQueryListenerConfigW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_VIRTUAL_CLASS
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WTSQueryListenerConfigW
 product: Windows
 targetos: Windows
-req.lib: Wtsapi32.lib
-req.dll: Wtsapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WTSQueryListenerConfigW function

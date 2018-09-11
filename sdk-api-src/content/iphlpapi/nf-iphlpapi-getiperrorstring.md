@@ -4,17 +4,16 @@ title: GetIpErrorString function
 author: windows-sdk-content
 description: The GetIpErrorString function retrieves an IP Helper error string.
 old-location: iphlp\getiperrorstring.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 4f71777a-2e87-4411-89fd-12c165d4d8ae
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: GetIpErrorString, GetIpErrorString function [IP Helper], iphlp.getiperrorstring, iphlpapi/GetIpErrorString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetIpErrorString
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetIpErrorString function

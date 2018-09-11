@@ -4,17 +4,16 @@ title: MirrorVirtualDisk function
 author: windows-sdk-content
 description: Initiates a mirror operation for a virtual disk.
 old-location: vhd\mirrorvirtualdisk.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: eb72043a-7515-42c0-900d-feed4503ea7a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE, MIRROR_VIRTUAL_DISK_FLAG_NONE, MirrorVirtualDisk, MirrorVirtualDisk function [VHD], vdssys/MirrorVirtualDisk, vhd.mirrorvirtualdisk, virtdisk/MirrorVirtualDisk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIRTUAL_DISK_ACCESS_MASK
+req.lib: VirtDisk.lib
+req.dll: VirtDisk.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MirrorVirtualDisk
 product: Windows
 targetos: Windows
-req.lib: VirtDisk.lib
-req.dll: VirtDisk.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MirrorVirtualDisk function

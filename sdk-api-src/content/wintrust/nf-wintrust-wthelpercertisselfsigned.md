@@ -4,17 +4,16 @@ title: WTHelperCertIsSelfSigned function
 author: windows-sdk-content
 description: Checks whether a certificate is self-signed.
 old-location: security\wthelpercertisselfsigned.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 456b8c8c-6ca3-469a-a415-e72109696bf5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WTHelperCertIsSelfSigned, WTHelperCertIsSelfSigned function [Security], security.wthelpercertisselfsigned, wintrust/WTHelperCertIsSelfSigned
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEB, *PTEB
+req.lib: Wintrust.lib
+req.dll: Wintrust.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTHelperCertIsSelfSigned
 product: Windows
 targetos: Windows
-req.lib: Wintrust.lib
-req.dll: Wintrust.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WTHelperCertIsSelfSigned function

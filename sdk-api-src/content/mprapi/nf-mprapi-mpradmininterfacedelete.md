@@ -4,17 +4,16 @@ title: MprAdminInterfaceDelete function
 author: windows-sdk-content
 description: The MprAdminInterfaceDelete function deletes an interface on a specified server.
 old-location: rras\mpradmininterfacedelete.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: a02fff1d-c0e0-4a00-b77e-33cc45850bc6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminInterfaceDelete, MprAdminInterfaceDelete function [RAS], _mpr_mpradmininterfacedelete, mprapi/MprAdminInterfaceDelete, rras.mpradmininterfacedelete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminInterfaceDelete
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminInterfaceDelete function

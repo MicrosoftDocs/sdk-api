@@ -4,17 +4,16 @@ title: IScheduleCollection::AddRange
 author: windows-sdk-content
 description: Adds one or more schedules to the collection.
 old-location: pla\ischedulecollection_addrange.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: a1398bb5-d8a9-49c0-802c-2945428a3e0a
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],AddRange method, IScheduleCollection.AddRange, IScheduleCollection::AddRange, base.ischedulecollection_addrange, pla.ischedulecollection_addrange, pla/IScheduleCollection::AddRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IScheduleCollection.AddRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IScheduleCollection::AddRange

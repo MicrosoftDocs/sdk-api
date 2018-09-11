@@ -4,17 +4,16 @@ title: IAzApplication3::CreateScope2
 author: windows-sdk-content
 description: Creates a new IAzScope2 object with the specified name.
 old-location: security\iazapplication3_createscope2.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: f1e8bfe6-e074-4e9e-80f8-bcb8bd90f824
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: CreateScope2, CreateScope2 method [Security], CreateScope2 method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],CreateScope2 method, IAzApplication3.CreateScope2, IAzApplication3::CreateScope2, azroles/IAzApplication3::CreateScope2, security.iazapplication3_createscope2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzApplication3.CreateScope2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzApplication3::CreateScope2

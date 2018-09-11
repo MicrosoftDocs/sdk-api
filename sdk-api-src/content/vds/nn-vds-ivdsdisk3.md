@@ -4,17 +4,16 @@ title: IVdsDisk3
 author: windows-sdk-content
 description: Provides a method to retrieve property information for a disk, including the disk's location path.
 old-location: base\ivdsdisk3.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: e3004195-b180-4053-bf91-8f1a0e72f5a6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsDisk3, IVdsDisk3 interface, IVdsDisk3 interface,described, base.ivdsdisk3, vds/IVdsDisk3
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsDisk3
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsDisk3 interface

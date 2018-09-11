@@ -4,17 +4,16 @@ title: "_WIA_PROPID_TO_NAME"
 author: windows-sdk-content
 description: Provides a quick means by which applications can look up the standard Windows Image Acquisition (WIA) property name from the WIA property ID (or vice versa).
 old-location: wia\_wia_WIA_PROPID_TO_NAME.htm
-old-project: wia
+tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_propid_to_name.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWIA_PROPID_TO_NAME, PWIA_PROPID_TO_NAME, PWIA_PROPID_TO_NAME structure pointer [WIA], WIA_PROPID_TO_NAME, WIA_PROPID_TO_NAME structure [WIA], _WIA_PROPID_TO_NAME, _wia_WIA_PROPID_TO_NAME, wia._wia_WIA_PROPID_TO_NAME, wia_xp/PWIA_PROPID_TO_NAME, wia_xp/WIA_PROPID_TO_NAME"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wia_xp.h
 req.include-header: Wia.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIA_PROPID_TO_NAME, *PWIA_PROPID_TO_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WIA_PROPID_TO_NAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WIA_PROPID_TO_NAME, *PWIA_PROPID_TO_NAME
+req.redist: 
 ---
 
 # _WIA_PROPID_TO_NAME structure

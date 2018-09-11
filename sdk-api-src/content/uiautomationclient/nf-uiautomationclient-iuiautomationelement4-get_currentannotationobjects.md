@@ -4,17 +4,16 @@ title: IUIAutomationElement4::get_CurrentAnnotationObjects
 author: windows-sdk-content
 description: Returns the current list of annotation objects associated with this element, such as comment, header, footer, and so on.
 old-location: winauto\uiauto_IUIAutomationElement4_CurrentAnnotationObjects.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 504EB3B3-0241-4164-B775-F2D727D6B5B1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentAnnotationObjects property [Windows Accessibility], CurrentAnnotationObjects property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CurrentAnnotationObjects property, IUIAutomationElement4.CurrentAnnotationObjects, IUIAutomationElement4.get_CurrentAnnotationObjects, IUIAutomationElement4::CurrentAnnotationObjects, IUIAutomationElement4::get_CurrentAnnotationObjects, get_CurrentAnnotationObjects, uiautomationclient/IUIAutomationElement4::CurrentAnnotationObjects, uiautomationclient/IUIAutomationElement4::get_CurrentAnnotationObjects, winauto.uiauto_IUIAutomationElement4_CurrentAnnotationObjects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement4.get_CurrentAnnotationObjects
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAutomationCore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement4::get_CurrentAnnotationObjects

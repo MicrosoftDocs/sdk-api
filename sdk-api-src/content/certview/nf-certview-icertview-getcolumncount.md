@@ -4,17 +4,16 @@ title: ICertView::GetColumnCount
 author: windows-sdk-content
 description: Retrieves the number of columns in the view of the Certificate Services database.
 old-location: security\icertview2_getcolumncount.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 0297d8e3-5077-40da-88b7-adac252e0f1b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertView object [Security],GetColumnCount method, CVRC_COLUMN_MASK, CVRC_COLUMN_RESULT, CVRC_COLUMN_SCHEMA, CVRC_COLUMN_VALUE, GetColumnCount, GetColumnCount method [Security], GetColumnCount method [Security],CCertView object, GetColumnCount method [Security],ICertView interface, GetColumnCount method [Security],ICertView2 interface, ICertView interface [Security],GetColumnCount method, ICertView.GetColumnCount, ICertView2 interface [Security],GetColumnCount method, ICertView2::GetColumnCount, ICertView::GetColumnCount, certview/ICertView2::GetColumnCount, certview/ICertView::GetColumnCount, security.icertview2_getcolumncount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertView.GetColumnCount
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertView::GetColumnCount

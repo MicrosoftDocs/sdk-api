@@ -4,17 +4,16 @@ title: IMSVidClosedCaptioning2::put_Service
 author: windows-sdk-content
 description: The get_Service method sets the closed captioning service.
 old-location: mstv\imsvidclosedcaptioning2_put_service.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f638a7c3-bd0a-465d-b104-ea0066aec6d6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidClosedCaptioning2 interface [Microsoft TV Technologies],put_Service method, IMSVidClosedCaptioning2.put_Service, IMSVidClosedCaptioning2::put_Service, IMSVidClosedCaptioning2put_Service, mstv.imsvidclosedcaptioning2_put_service, put_Service, put_Service method [Microsoft TV Technologies], put_Service method [Microsoft TV Technologies],IMSVidClosedCaptioning2 interface, segment/IMSVidClosedCaptioning2::put_Service
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidClosedCaptioning2.put_Service
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidClosedCaptioning2::put_Service
@@ -62,7 +60,7 @@ The <b>get_Service</b> method sets the closed captioning service.
 
 ### -param On
 
-
+TBD
 
 
 

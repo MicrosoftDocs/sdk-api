@@ -4,17 +4,16 @@ title: IObjectArray
 author: windows-sdk-content
 description: Exposes methods that enable clients to access items in a collection of objects that support IUnknown.
 old-location: shell\IObjectArray.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ab0bb213-dc9c-4853-98d7-668e7ca76583
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IObjectArray, IObjectArray interface [Windows Shell], IObjectArray interface [Windows Shell],described, _shell_IObjectArray, objectarray/IObjectArray, shell.IObjectArray
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: objectarray.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjectArray
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectArray interface

@@ -4,17 +4,16 @@ title: IHandwrittenTextInsertion
 author: windows-sdk-content
 description: Used by the application's custom text entry code to insert the text into both the text field and the Text Services backing-store.
 old-location: tablet\ihandwrittentextinsertion.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 67fcf19a-a864-40de-987f-406f18726a9f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 67fcf19a-a864-40de-987f-406f18726a9f, IHandWrittenTextInsertion, IHandWrittenTextInsertion interface [Tablet PC], IHandWrittenTextInsertion interface [Tablet PC],described, peninputpanel/IHandWrittenTextInsertion, tablet.ihandwrittentextinsertion
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IHandWrittenTextInsertion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IHandwrittenTextInsertion interface

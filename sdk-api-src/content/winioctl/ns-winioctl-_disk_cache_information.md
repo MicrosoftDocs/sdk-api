@@ -4,7 +4,7 @@ title: "_DISK_CACHE_INFORMATION"
 author: windows-sdk-content
 description: Provides information about the disk cache.
 old-location: fs\disk_cache_information_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: ea175bea-5f2b-4f3e-9fe0-239b1d2e3d96
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISK_CACHE_INFORMATION, *PDISK_CACHE_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISK_CACHE_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISK_CACHE_INFORMATION, *PDISK_CACHE_INFORMATION
+req.redist: 
 ---
 
 # _DISK_CACHE_INFORMATION structure

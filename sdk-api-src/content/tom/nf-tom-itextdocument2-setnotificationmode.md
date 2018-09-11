@@ -4,17 +4,16 @@ title: ITextDocument2::SetNotificationMode
 author: windows-sdk-content
 description: Sets the notification mode.
 old-location: controls\itextdocument2_setnotificationmode.htm
-old-project: controls
+tech.root: controls
 ms.assetid: b3dd9895-9fdd-4919-9e3a-382bb130f4b9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetNotificationMode method, ITextDocument2.SetNotificationMode, ITextDocument2::SetNotificationMode, SetNotificationMode, SetNotificationMode method [Windows Controls], SetNotificationMode method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setnotificationmode, tom/ITextDocument2::SetNotificationMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextDocument2.SetNotificationMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextDocument2::SetNotificationMode

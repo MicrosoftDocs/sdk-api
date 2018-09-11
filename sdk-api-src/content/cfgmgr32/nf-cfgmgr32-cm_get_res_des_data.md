@@ -4,17 +4,16 @@ title: CM_Get_Res_Des_Data function
 author: windows-sdk-content
 description: The CM_Get_Res_Des_Data function retrieves the information stored in a resource descriptor on the local machine.
 old-location: devinst\cm_get_res_des_data.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: f35975ac-022e-4e7c-a331-da0ccd0440a1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Get_Res_Des_Data, CM_Get_Res_Des_Data function [Device and Driver Installation], cfgmgr32/CM_Get_Res_Des_Data, cfgmgrfn_76c92157-2495-4c52-a25f-9a02d83cff75.xml, devinst.cm_get_res_des_data
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CM_Get_Res_Des_Data
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: Cfgmgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Get_Res_Des_Data function

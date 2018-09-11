@@ -4,17 +4,16 @@ title: RpcNsBindingLookupBeginA function
 author: windows-sdk-content
 description: The RpcNsBindingLookupBegin function creates a lookup context for an interface and an object.
 old-location: rpc\rpcnsbindinglookupbegin.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 75b7e901-706a-4e3d-b958-d04a0709b993
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcNsBindingLookupBegin, RpcNsBindingLookupBegin function [RPC], RpcNsBindingLookupBeginA, RpcNsBindingLookupBeginW, _rpc_rpcnsbindinglookupbegin, rpc.rpcnsbindinglookupbegin, rpcnsi/RpcNsBindingLookupBegin, rpcnsi/RpcNsBindingLookupBeginA, rpcnsi/RpcNsBindingLookupBeginW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Rpcns4.lib
+req.dll: Rpcns4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcNsBindingLookupBeginW
 product: Windows
 targetos: Windows
-req.lib: Rpcns4.lib
-req.dll: Rpcns4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcNsBindingLookupBeginA function

@@ -4,17 +4,16 @@ title: IWMPErrorItem::get_errorContext
 author: windows-sdk-content
 description: The get_errorContext method retrieves a value indicating the context of the error.
 old-location: wmp\iwmperroritem_get_errorcontext.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 575f14e7-7a5b-4000-9957-253c40b1ef62
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_errorContext method, IWMPErrorItem.get_errorContext, IWMPErrorItem::get_errorContext, IWMPErrorItemget_errorContext, get_errorContext, get_errorContext method [Windows Media Player], get_errorContext method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_errorcontext, wmp/IWMPErrorItem::get_errorContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPErrorItem.get_errorContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPErrorItem::get_errorContext

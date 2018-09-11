@@ -4,17 +4,16 @@ title: PropSheet_IndexToId macro
 author: windows-sdk-content
 description: Takes the index of a property sheet page and returns its resource identifier (ID). You can use this macro or send the PSM_INDEXTOID message explicitly.
 old-location: controls\PropSheet_IndexToId.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_indextoid.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PropSheet_IndexToId, PropSheet_IndexToId macro [Windows Controls], _win32_PropSheet_IndexToId, _win32_PropSheet_IndexToId_cpp, controls.PropSheet_IndexToId, controls._win32_PropSheet_IndexToId, prsht/PropSheet_IndexToId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropSheet_IndexToId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PropSheet_IndexToId macro

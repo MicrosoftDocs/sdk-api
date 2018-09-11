@@ -4,7 +4,7 @@ title: "_VMRVideoDesc"
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later. The VMRVideoDesc structure describes a video stream to be deinterlaced.
 old-location: dshow\vmrvideodesc.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b02683ec-9bf9-4a69-87fb-d37a98f02e61
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMRVideoDesc
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMRVideoDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: VMRVideoDesc
+req.redist: 
 ---
 
 # _VMRVideoDesc structure

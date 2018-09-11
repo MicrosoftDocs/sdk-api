@@ -4,7 +4,7 @@ title: ID3D11AuthenticatedChannel
 author: windows-sdk-content
 description: Provides a communication channel with the graphics driver or the Microsoft Direct3D runtime.
 old-location: mf\id3d11authenticatedchannel.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: B2DE8E06-1571-4D50-9296-8EB4BB74D6BA
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11AuthenticatedChannel
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11AuthenticatedChannel interface

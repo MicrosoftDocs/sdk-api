@@ -4,17 +4,16 @@ title: WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
 author: windows-sdk-content
 description: Identifies the properties for requesting a security token from an issuer. It is used with WsRequestSecurityToken as part of the WS_REQUEST_SECURITY_TOKEN_PROPERTY* parameter.
 old-location: wsw\ws_request_security_token_property_id.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 7a2063eb-ab60-43d5-bd8c-41ef132abf50
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_REQUEST_SECURITY_TOKEN_PROPERTY_APPLIES_TO, WS_REQUEST_SECURITY_TOKEN_PROPERTY_EXISTING_TOKEN, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID enumeration [Web Services for Windows], WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_ENTROPY, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_SIZE, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_TYPE, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_TYPE, WS_REQUEST_SECURITY_TOKEN_PROPERTY_LOCAL_REQUEST_PARAMETERS, WS_REQUEST_SECURITY_TOKEN_PROPERTY_MESSAGE_PROPERTIES, WS_REQUEST_SECURITY_TOKEN_PROPERTY_REQUEST_ACTION, WS_REQUEST_SECURITY_TOKEN_PROPERTY_SECURE_CONVERSATION_VERSION, WS_REQUEST_SECURITY_TOKEN_PROPERTY_SERVICE_REQUEST_PARAMETERS, WS_REQUEST_SECURITY_TOKEN_PROPERTY_TRUST_VERSION, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_APPLIES_TO, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_EXISTING_TOKEN, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_ENTROPY, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_SIZE, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_TYPE, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_TYPE, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_LOCAL_REQUEST_PARAMETERS, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_MESSAGE_PROPERTIES, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_REQUEST_ACTION, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_SECURE_CONVERSATION_VERSION, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_SERVICE_REQUEST_PARAMETERS, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_TRUST_VERSION, wsw.ws_request_security_token_property_id
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
+req.redist: 
 ---
 
 # WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID enumeration

@@ -4,17 +4,16 @@ title: RpcBindingSetAuthInfoExW function
 author: windows-sdk-content
 description: The RpcBindingSetAuthInfoEx function sets a binding handle's authentication, authorization, and security quality-of-service information.
 old-location: rpc\rpcbindingsetauthinfoex.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 2438816c-995e-4398-999d-48a3538eec18
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcBindingSetAuthInfoEx, RpcBindingSetAuthInfoEx function [RPC], RpcBindingSetAuthInfoExA, RpcBindingSetAuthInfoExW, _rpc_rpcbindingsetauthinfoex, rpc.rpcbindingsetauthinfoex, rpcdce/RpcBindingSetAuthInfoEx, rpcdce/RpcBindingSetAuthInfoExA, rpcdce/RpcBindingSetAuthInfoExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcBindingSetAuthInfoExW
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcBindingSetAuthInfoExW function

@@ -4,17 +4,16 @@ title: ID2D1Properties::GetValue(U,BYTE,UINT32,)
 author: windows-sdk-content
 description: Gets the value of the specified property by index.
 old-location: direct2d\id2d1properties_getvalue.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 01678e13-df23-47bb-9af7-9f2ecaf03577
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetValue, GetValue method [Direct2D], GetValue method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValue method, ID2D1Properties.GetValue, ID2D1Properties.GetValue(U,BYTE,UINT32,), ID2D1Properties::GetValue, ID2D1Properties::GetValue(U,BYTE,UINT32,), ID2D1Properties::GetValue(UINT32,BYTE*,UINT32), d2d1_1/ID2D1Properties::GetValue, direct2d.id2d1properties_getvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Properties.GetValue
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Properties::GetValue(U,BYTE,UINT32,)
@@ -80,9 +79,9 @@ Type: <b>UINT32</b>
 The number of bytes in the data to be retrieved.
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 

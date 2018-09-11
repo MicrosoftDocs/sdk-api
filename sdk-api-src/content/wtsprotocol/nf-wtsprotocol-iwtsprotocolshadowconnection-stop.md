@@ -4,17 +4,16 @@ title: IWTSProtocolShadowConnection::Stop
 author: windows-sdk-content
 description: IWTSProtocolShadowConnection::Stop is no longer available. Instead, use IWRdsProtocolShadowConnection::Stop.
 old-location: termserv\iwtsprotocolshadowconnection_stop.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 629b82cb-7bf3-4a83-bc96-a1e6a757f974
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSProtocolShadowConnection interface [Remote Desktop Services],Stop method, IWTSProtocolShadowConnection.Stop, IWTSProtocolShadowConnection::Stop, Stop, Stop method [Remote Desktop Services], Stop method [Remote Desktop Services],IWTSProtocolShadowConnection interface, termserv.iwtsprotocolshadowconnection_stop, wtsprotocol/IWTSProtocolShadowConnection::Stop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSProtocolShadowConnection.Stop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSProtocolShadowConnection::Stop

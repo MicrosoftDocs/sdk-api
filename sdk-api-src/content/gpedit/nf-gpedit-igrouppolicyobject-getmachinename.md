@@ -4,17 +4,16 @@ title: IGroupPolicyObject::GetMachineName
 author: windows-sdk-content
 description: The GetMachineName method retrieves the computer name of the remote GPO. This is the name specified by the OpenRemoteMachineGPO method.
 old-location: policy\igrouppolicyobject_getmachinename.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 6ac20718-45d4-4a45-a95e-d159e4d6dacc
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetMachineName, GetMachineName method [Group Policy], GetMachineName method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetMachineName method, IGroupPolicyObject.GetMachineName, IGroupPolicyObject::GetMachineName, _win32_igrouppolicyobject_getmachinename, gpedit/IGroupPolicyObject::GetMachineName, policy.igrouppolicyobject_getmachinename
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGroupPolicyObject.GetMachineName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpedit.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGroupPolicyObject::GetMachineName

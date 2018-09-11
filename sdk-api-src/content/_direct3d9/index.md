@@ -2,7 +2,7 @@
 UID: TP:direct3d9
 ms.assetid: e1922644-f233-3eab-8912-7b4d2f26d8ec
 ms.author: windowssdkdev
-ms.date: 08/23/2018
+ms.date: 09/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,7 +20,6 @@ To develop Direct3D 9 Graphics, you need these headers:
  * [d3d9.h](../d3d9/index.md)
  * [d3d9caps.h](../d3d9caps/index.md)
  * [d3d9helper.h](../d3d9helper/index.md)
- * [d3d9types.h](../d3d9types/index.md)
 
 For programming guidance for this technology, see:
 * [Direct3D 9 Graphics](/windows/desktop/direct3d9)

@@ -4,17 +4,16 @@ title: CMSPCallBase::RemoveStream
 author: windows-sdk-content
 description: "(Interface RemoveStream) The RemoveStream method is called by the application to remove a stream from the call."
 old-location: tapi3\cmspcallbase_removestream.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 5e2b4261-ba0f-429a-aef5-974b2841bf0b
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],RemoveStream method, CMSPCallBase.RemoveStream, CMSPCallBase::RemoveStream, RemoveStream, RemoveStream method [TAPI 2.2], RemoveStream method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_removestream, mspcall/CMSPCallBase::RemoveStream, tapi3.cmspcallbase_removestream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mspcall.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSPCallBase.RemoveStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CMSPCallBase::RemoveStream

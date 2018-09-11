@@ -4,17 +4,16 @@ title: IChangeConflict::GetResolveActionForChange
 author: windows-sdk-content
 description: Gets the conflict resolution action for the conflict.
 old-location: winsync\ichangeconflict_getresolveactionforchange.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: b89124fe-200e-4061-974e-2d686de7a932
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetResolveActionForChange, GetResolveActionForChange method [Windows Sync], GetResolveActionForChange method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetResolveActionForChange method, IChangeConflict.GetResolveActionForChange, IChangeConflict::GetResolveActionForChange, winsync.ichangeconflict_getresolveactionforchange, winsync/IChangeConflict::GetResolveActionForChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IChangeConflict.GetResolveActionForChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IChangeConflict::GetResolveActionForChange

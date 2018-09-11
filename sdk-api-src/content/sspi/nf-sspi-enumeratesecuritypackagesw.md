@@ -4,17 +4,16 @@ title: EnumerateSecurityPackagesW function
 author: windows-sdk-content
 description: Returns an array of SecPkgInfo structures that provide information about the security packages available to the client.
 old-location: security\enumeratesecuritypackages.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 900790a6-111d-43f5-9316-e85aab03a3bc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: EnumerateSecurityPackages, EnumerateSecurityPackages function [Security], EnumerateSecurityPackagesA, EnumerateSecurityPackagesW, _ssp_enumeratesecuritypackages, security.enumeratesecuritypackages, sspi/EnumerateSecurityPackages, sspi/EnumerateSecurityPackagesA, sspi/EnumerateSecurityPackagesW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+req.lib: Secur32.lib
+req.dll: SspiCli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - EnumerateSecurityPackagesW
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: SspiCli.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # EnumerateSecurityPackagesW function

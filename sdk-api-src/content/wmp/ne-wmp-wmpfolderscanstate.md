@@ -4,7 +4,7 @@ title: WMPFolderScanState
 author: windows-sdk-content
 description: The WMPFolderScanState enumeration type defines the possible operational states of Windows Media Player as it monitors file folders for digital media content.
 old-location: wmp\wmpfolderscanstate.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 20909420-5f90-4334-b21a-82d6cdc6d019
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPFolderScanState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMPFolderScanState
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMPFolderScanState
+req.redist: 
 ---
 
 # WMPFolderScanState enumeration

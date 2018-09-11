@@ -4,17 +4,16 @@ title: FLICKDIRECTION
 author: windows-sdk-content
 description: Defines the directions in which a pen flick has occurred.
 old-location: tablet\flickdirection.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 49b282cb-45e6-4f80-9948-fd736c091e70
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 49b282cb-45e6-4f80-9948-fd736c091e70, FLICKDIRECTION, FLICKDIRECTION enumeration [Tablet PC], FLICKDIRECTION_DOWN, FLICKDIRECTION_DOWNLEFT, FLICKDIRECTION_DOWNRIGHT, FLICKDIRECTION_INVALID, FLICKDIRECTION_LEFT, FLICKDIRECTION_RIGHT, FLICKDIRECTION_UP, FLICKDIRECTION_UPLEFT, FLICKDIRECTION_UPRIGHT, tabflicks/FLICKDIRECTION, tabflicks/FLICKDIRECTION_DOWN, tabflicks/FLICKDIRECTION_DOWNLEFT, tabflicks/FLICKDIRECTION_DOWNRIGHT, tabflicks/FLICKDIRECTION_INVALID, tabflicks/FLICKDIRECTION_LEFT, tabflicks/FLICKDIRECTION_RIGHT, tabflicks/FLICKDIRECTION_UP, tabflicks/FLICKDIRECTION_UPLEFT, tabflicks/FLICKDIRECTION_UPRIGHT, tablet.flickdirection
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: tabflicks.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICKDIRECTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLICKDIRECTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: FLICKDIRECTION
+req.redist: 
 ---
 
 # FLICKDIRECTION enumeration

@@ -4,7 +4,7 @@ title: IBackgroundCopyQMgr
 author: windows-sdk-content
 description: Use the IBackgroundCopyQMgr interface to create a new group, retrieve an existing group, or enumerate all groups in the queue. A group contains a download job.
 old-location: bits\ibackgroundcopyqmgr.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 040662c3-0d96-416a-b5e6-a16a6d3034fc
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyQMgr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyQMgr interface

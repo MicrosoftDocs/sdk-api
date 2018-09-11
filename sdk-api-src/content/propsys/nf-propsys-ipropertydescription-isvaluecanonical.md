@@ -4,17 +4,16 @@ title: IPropertyDescription::IsValueCanonical
 author: windows-sdk-content
 description: Gets a value that indicates whether a property is canonical according to the definition of the property description.
 old-location: properties\IPropertyDescription_IsValueCanonical.htm
-old-project: properties
+tech.root: properties
 ms.assetid: e0eedb58-82ed-4481-8319-633ddf20949c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IPropertyDescription interface [Windows Properties],IsValueCanonical method, IPropertyDescription.IsValueCanonical, IPropertyDescription::IsValueCanonical, IsValueCanonical, IsValueCanonical method [Windows Properties], IsValueCanonical method [Windows Properties],IPropertyDescription interface, properties.IPropertyDescription_IsValueCanonical, propsys/IPropertyDescription::IsValueCanonical, shell.IPropertyDescription_IsValueCanonical, shell_IPropertyDescription_IsValueCanonical
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription.IsValueCanonical
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription::IsValueCanonical

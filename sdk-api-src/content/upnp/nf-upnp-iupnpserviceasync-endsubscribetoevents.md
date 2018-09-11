@@ -4,17 +4,16 @@ title: IUPnPServiceAsync::EndSubscribeToEvents
 author: windows-sdk-content
 description: EndSubscribeToEvents method retrieves the results of a previous BeginSubscribeToEvents operation.
 old-location: upnp\iupnpserviceasync_endsubscribetoevents.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: A0C0D01C-3A05-4498-9235-CBBF7D5D558F
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: EndSubscribeToEvents, EndSubscribeToEvents method [UPnP APIs], EndSubscribeToEvents method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndSubscribeToEvents method, IUPnPServiceAsync.EndSubscribeToEvents, IUPnPServiceAsync::EndSubscribeToEvents, upnp.iupnpserviceasync_endsubscribetoevents, upnp/IUPnPServiceAsync::EndSubscribeToEvents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPServiceAsync.EndSubscribeToEvents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPServiceAsync::EndSubscribeToEvents

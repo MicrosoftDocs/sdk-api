@@ -4,17 +4,16 @@ title: IFont::get_hFont
 author: windows-sdk-content
 description: Retrieves a handle to the font described by this font object.
 old-location: com\ifont_get_hfont.htm
-old-project: com
+tech.root: com
 ms.assetid: 19bfd78a-0e81-45c3-a3b8-bc893669e9f5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IFont interface [COM],get_hFont method, IFont.get_hFont, IFont::get_hFont, _ctrl_ifont_get_hfont, com.ifont_get_hfont, get_hFont, get_hFont method [COM], get_hFont method [COM],IFont interface, ocidl/IFont::get_hFont
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFont.get_hFont
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFont::get_hFont

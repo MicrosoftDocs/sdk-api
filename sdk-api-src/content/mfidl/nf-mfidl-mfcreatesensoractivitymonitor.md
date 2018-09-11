@@ -4,17 +4,16 @@ title: MFCreateSensorActivityMonitor function
 author: windows-sdk-content
 description: Initializes a new instance of the IMFSensorActivityMonitor interface.
 old-location: mf\mfcreatesensoractivitymonitor.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 852395EE-AA84-4C61-A55F-E8D925FA1447
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateSensorActivityMonitor, MFCreateSensorActivityMonitor function [Media Foundation], mf.mfcreatesensoractivitymonitor, mfidl/MFCreateSensorActivityMonitor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfsensorgroup.lib
+req.dll: Mfsensorgroup.lib
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateSensorActivityMonitor
 product: Windows
 targetos: Windows
-req.lib: Mfsensorgroup.lib
-req.dll: Mfsensorgroup.lib
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateSensorActivityMonitor function

@@ -4,17 +4,16 @@ title: IInkEdit::get_TextRTF
 author: windows-sdk-content
 description: Gets or sets the text of the InkEdit control, including all RTF codes.
 old-location: tablet\inkedit_textrtf.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 7819d1eb-03b3-407f-a50f-2f7dc7eb474a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkEdit interface [Tablet PC],TextRTF property, IInkEdit.TextRTF, IInkEdit.get_TextRTF, IInkEdit::TextRTF, IInkEdit::get_TextRTF, IInkEdit::put_TextRTF, InkEdit.get_TextRTF, InkEdit.put_TextRTF, TextRTF property [Tablet PC], TextRTF property [Tablet PC],IInkEdit interface, get_TextRTF, inked/IInkEdit::TextRTF, inked/IInkEdit::get_TextRTF, inked/IInkEdit::put_TextRTF, put_TextRTF, tablet.inkedit_textrtf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.put_TextRTF
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::get_TextRTF

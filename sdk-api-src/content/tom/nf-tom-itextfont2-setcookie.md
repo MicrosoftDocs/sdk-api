@@ -4,17 +4,16 @@ title: ITextFont2::SetCookie
 author: windows-sdk-content
 description: Sets the client cookie.
 old-location: controls\itextfont2_setcookie.htm
-old-project: controls
+tech.root: controls
 ms.assetid: d1b4c7a8-ba4c-482f-8431-14d45474ccc0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetCookie method, ITextFont2.SetCookie, ITextFont2::SetCookie, SetCookie, SetCookie method [Windows Controls], SetCookie method [Windows Controls],ITextFont2 interface, controls.itextfont2_setcookie, tom/ITextFont2::SetCookie
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont2.SetCookie
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont2::SetCookie

@@ -4,7 +4,7 @@ title: "_PDH_COUNTER_PATH_ELEMENTS_A"
 author: windows-sdk-content
 description: The PDH_COUNTER_PATH_ELEMENTS structure contains the components of a counter path.
 old-location: perf\pdh_counter_path_elements_str.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: ffa2a076-7267-406b-8eed-4a49504a7ad6
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDH_COUNTER_PATH_ELEMENTS_A, *PPDH_COUNTER_PATH_ELEMENTS_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PDH_COUNTER_PATH_ELEMENTS_W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PDH_COUNTER_PATH_ELEMENTS_A, *PPDH_COUNTER_PATH_ELEMENTS_A
+req.redist: 
 ---
 
 # _PDH_COUNTER_PATH_ELEMENTS_A structure

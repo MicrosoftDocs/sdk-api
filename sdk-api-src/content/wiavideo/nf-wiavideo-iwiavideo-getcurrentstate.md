@@ -4,17 +4,16 @@ title: IWiaVideo::GetCurrentState
 author: windows-sdk-content
 description: The IWiaVideo::GetCurrentState method specifies the state of the video stream as a member of the WIAVIDEO_STATE enumeration.
 old-location: wia\_wia_IWiaVideo_GetCurrentState.htm
-old-project: wia
+tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\getcurrentstate.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetCurrentState, GetCurrentState method [WIA], GetCurrentState method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],GetCurrentState method, IWiaVideo.GetCurrentState, IWiaVideo::GetCurrentState, _wia_IWiaVideo_GetCurrentState, wia._wia_IWiaVideo_GetCurrentState, wiavideo/IWiaVideo::GetCurrentState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wiavideo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIAVIDEO_STATE
+req.lib: 
+req.dll: Wiavideo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWiaVideo.GetCurrentState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wiavideo.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWiaVideo::GetCurrentState

@@ -4,7 +4,7 @@ title: LPDSENUMATTRIBUTES
 author: windows-sdk-content
 description: The DSEnumAttributesCallback function is an application-defined callback function that is called once for each attribute enumerated by the IDsDisplaySpecifier::EnumClassAttributes method.
 old-location: ad\dsenumattributescallback.htm
-old-project: ad
+tech.root: ad
 ms.assetid: f4f35119-9ffc-4fe9-aea1-2d4a5d4edd0b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - LPDSENUMATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # LPDSENUMATTRIBUTES callback function

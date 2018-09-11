@@ -4,17 +4,16 @@ title: ICreateTypeLib::SetLibFlags
 author: windows-sdk-content
 description: Sets library flags.
 old-location: automat\icreatetypelib_setlibflags.htm
-old-project: automat
+tech.root: automat
 ms.assetid: fc72635c-853f-4a0a-9869-263e4aa39b8b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetLibFlags method, ICreateTypeLib.SetLibFlags, ICreateTypeLib::SetLibFlags, SetLibFlags, SetLibFlags method [Automation], SetLibFlags method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetLibFlags, automat.icreatetypelib_setlibflags, oaidl/ICreateTypeLib::SetLibFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeLib.SetLibFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeLib::SetLibFlags

@@ -4,17 +4,16 @@ title: ICertRequest::GetDispositionMessage
 author: windows-sdk-content
 description: Gets a human-readable message that gives the current disposition of the certificate request.
 old-location: security\icertrequest2_getdispositionmessage.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: c3639cf6-c70f-4f15-a0ed-e60abe2955cb
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertRequest object [Security],GetDispositionMessage method, GetDispositionMessage, GetDispositionMessage method [Security], GetDispositionMessage method [Security],CCertRequest object, GetDispositionMessage method [Security],ICertRequest interface, GetDispositionMessage method [Security],ICertRequest2 interface, GetDispositionMessage method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetDispositionMessage method, ICertRequest.GetDispositionMessage, ICertRequest2 interface [Security],GetDispositionMessage method, ICertRequest2::GetDispositionMessage, ICertRequest3 interface [Security],GetDispositionMessage method, ICertRequest3::GetDispositionMessage, ICertRequest::GetDispositionMessage, certcli/ICertRequest2::GetDispositionMessage, certcli/ICertRequest3::GetDispositionMessage, certcli/ICertRequest::GetDispositionMessage, security.icertrequest2_getdispositionmessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - CCertRequest.GetDispositionMessage
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertRequest::GetDispositionMessage

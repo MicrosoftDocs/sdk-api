@@ -4,17 +4,16 @@ title: IEnhancedStorageSilo::SendCommand
 author: windows-sdk-content
 description: Sends a raw silo command to the silo object. This method is utilized to communicate with a silo which is not represented by a driver.
 old-location: enstor\ienhancedstoragesilo_sendcommand.htm
-old-project: enstor
+tech.root: enstor
 ms.assetid: 8b52815e-e100-4c25-b7d3-8469d1dad745
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IEnhancedStorageSilo interface [Enhanced Storage],SendCommand method, IEnhancedStorageSilo.SendCommand, IEnhancedStorageSilo::SendCommand, SendCommand, SendCommand method [Enhanced Storage], SendCommand method [Enhanced Storage],IEnhancedStorageSilo interface, ehstorapi/IEnhancedStorageSilo::SendCommand, enstor.ienhancedstoragesilo_sendcommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TimedLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnhancedStorageSilo.SendCommand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnhancedStorageSilo::SendCommand
@@ -62,7 +60,7 @@ Sends a raw silo command to the silo object. This method is utilized to communic
 
 ### -param Command
 
-
+TBD
 
 
 ### -param pbCommandBuffer [in]

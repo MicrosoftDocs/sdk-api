@@ -4,17 +4,16 @@ title: IInkRecognizerGuide::get_WritingBox
 author: windows-sdk-content
 description: Gets or sets the invisible writing area of the recognition guide in which writing can actually take place.
 old-location: tablet\inkrecognizerguide_writingbox.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 60e37b92-22c2-4a71-a4d1-815226d804fa
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 60e37b92-22c2-4a71-a4d1-815226d804fa, IInkRecognizerGuide interface [Tablet PC],WritingBox property, IInkRecognizerGuide.WritingBox, IInkRecognizerGuide.get_WritingBox, IInkRecognizerGuide::WritingBox, IInkRecognizerGuide::get_WritingBox, IInkRecognizerGuide::put_WritingBox, InkRecognizerGuide.get_WritingBox, InkRecognizerGuide.put_WritingBox, WritingBox property [Tablet PC], WritingBox property [Tablet PC],IInkRecognizerGuide interface, get_WritingBox, msinkaut/IInkRecognizerGuide::WritingBox, msinkaut/IInkRecognizerGuide::get_WritingBox, msinkaut/IInkRecognizerGuide::put_WritingBox, put_WritingBox, tablet.inkrecognizerguide_writingbox
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkRecognizerGuide.put_WritingBox
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizerGuide::get_WritingBox

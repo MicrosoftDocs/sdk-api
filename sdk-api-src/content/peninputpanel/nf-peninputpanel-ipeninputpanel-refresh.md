@@ -4,17 +4,16 @@ title: IPenInputPanel::Refresh
 author: windows-sdk-content
 description: Refresh is no longer available for use as of Windows XP Tablet PC Edition.
 old-location: tablet\peninputpanel_refresh.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 7f135184-76cc-4636-8c20-db29ca7d5540
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 7f135184-76cc-4636-8c20-db29ca7d5540, IPenInputPanel interface [Tablet PC],Refresh method, IPenInputPanel.Refresh, IPenInputPanel::Refresh, Refresh, Refresh method [Tablet PC], Refresh method [Tablet PC],IPenInputPanel interface, peninputpanel/IPenInputPanel::Refresh, tablet.peninputpanel_refresh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPenInputPanel.Refresh
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPenInputPanel::Refresh

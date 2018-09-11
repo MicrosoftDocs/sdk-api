@@ -4,17 +4,16 @@ title: IPropertyPageSite::OnStatusChange
 author: windows-sdk-content
 description: Informs the frame that the property page managed by this site has changed its state, that is, one or more property values have been changed in the page. Property pages should call this method whenever changes occur in their dialog boxes.
 old-location: com\ipropertypagesite_onstatuschange.htm
-old-project: com
+tech.root: com
 ms.assetid: cea36260-b0f6-489a-b02a-3ca3576c6431
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPropertyPageSite interface [COM],OnStatusChange method, IPropertyPageSite.OnStatusChange, IPropertyPageSite::OnStatusChange, OnStatusChange, OnStatusChange method [COM], OnStatusChange method [COM],IPropertyPageSite interface, PROPPAGESTATUS_DIRTY, PROPPAGESTATUS_VALIDATE, _ctrl_ipropertypagesite_onstatuschange, com.ipropertypagesite_onstatuschange, ocidl/IPropertyPageSite::OnStatusChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyPageSite.OnStatusChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyPageSite::OnStatusChange

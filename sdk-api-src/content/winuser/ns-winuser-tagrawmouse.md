@@ -4,17 +4,16 @@ title: tagRAWMOUSE
 author: windows-sdk-content
 description: Contains information about the state of the mouse.
 old-location: inputdev\rawmouse.htm
-old-project: inputdev
+tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawmouse.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPRAWMOUSE, *PRAWMOUSE, LPRAWMOUSE, LPRAWMOUSE structure pointer [Keyboard and Mouse Input], MOUSE_ATTRIBUTES_CHANGED, MOUSE_MOVE_ABSOLUTE, MOUSE_MOVE_RELATIVE, MOUSE_VIRTUAL_DESKTOP, PRAWMOUSE, PRAWMOUSE structure pointer [Keyboard and Mouse Input], RAWMOUSE, RAWMOUSE structure [Keyboard and Mouse Input], RI_MOUSE_BUTTON_1_DOWN, RI_MOUSE_BUTTON_1_UP, RI_MOUSE_BUTTON_2_DOWN, RI_MOUSE_BUTTON_2_UP, RI_MOUSE_BUTTON_3_DOWN, RI_MOUSE_BUTTON_3_UP, RI_MOUSE_BUTTON_4_DOWN, RI_MOUSE_BUTTON_4_UP, RI_MOUSE_BUTTON_5_DOWN, RI_MOUSE_BUTTON_5_UP, RI_MOUSE_LEFT_BUTTON_DOWN, RI_MOUSE_LEFT_BUTTON_UP, RI_MOUSE_MIDDLE_BUTTON_DOWN, RI_MOUSE_MIDDLE_BUTTON_UP, RI_MOUSE_RIGHT_BUTTON_DOWN, RI_MOUSE_RIGHT_BUTTON_UP, RI_MOUSE_WHEEL, _win32_RAWMOUSE_str, _win32_rawmouse_str_cpp, inputdev.rawmouse, tagRAWMOUSE, winui._win32_rawmouse_str, winuser/LPRAWMOUSE, winuser/PRAWMOUSE, winuser/RAWMOUSE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAWMOUSE, *PRAWMOUSE, *LPRAWMOUSE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAWMOUSE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: RAWMOUSE, *PRAWMOUSE, *LPRAWMOUSE
+req.redist: 
 ---
 
 # tagRAWMOUSE structure

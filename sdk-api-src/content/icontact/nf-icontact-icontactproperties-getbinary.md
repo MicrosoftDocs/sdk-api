@@ -4,17 +4,16 @@ title: IContactProperties::GetBinary
 author: windows-sdk-content
 description: Retrieves the binary data of a property using an IStream interface [Structured Storage].
 old-location: wincontacts\_wincontacts_IContactProperties_GetBinary.htm
-old-project: wincontacts
+tech.root: wincontacts
 ms.assetid: 1a62c5d3-7052-4c10-90e7-25f616ac36b8
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetBinary, GetBinary method [Windows Contacts], GetBinary method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetBinary method, IContactProperties.GetBinary, IContactProperties::GetBinary, _wincontacts_IContactProperties_GetBinary, icontact/IContactProperties::GetBinary, wincontacts._wincontacts_IContactProperties_GetBinary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContactProperties.GetBinary
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wab32.dll (Version 6.0 or later)
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContactProperties::GetBinary

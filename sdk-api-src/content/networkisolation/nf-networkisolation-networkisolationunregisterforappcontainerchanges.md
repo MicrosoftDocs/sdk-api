@@ -4,17 +4,16 @@ title: NetworkIsolationUnregisterForAppContainerChanges function
 author: windows-sdk-content
 description: Is used to cancel an app container change registration and stop receiving notifications.
 old-location: ics\networkisolationunregisterforappcontainerchanges.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 589f416d-058a-4711-863f-74b0dacc63eb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: NetworkIsolationUnregisterForAppContainerChanges, NetworkIsolationUnregisterForAppContainerChanges function [ICS/ICF], ics.networkisolationunregisterforappcontainerchanges, networkisolation/NetworkIsolationUnregisterForAppContainerChanges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: networkisolation.h
 req.include-header: Netfw.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: Firewallapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - NetworkIsolationUnregisterForAppContainerChanges
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Firewallapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NetworkIsolationUnregisterForAppContainerChanges function

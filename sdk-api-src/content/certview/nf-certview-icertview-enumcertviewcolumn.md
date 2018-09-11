@@ -4,17 +4,16 @@ title: ICertView::EnumCertViewColumn
 author: windows-sdk-content
 description: Obtains an instance of a column-enumeration sequence for the database schema.
 old-location: security\icertview2_enumcertviewcolumn.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: a51162f9-cc3d-4f06-993a-e5c9f57dd8a1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertView object [Security],EnumCertViewColumn method, CVRC_COLUMN_MASK, CVRC_COLUMN_RESULT, CVRC_COLUMN_SCHEMA, CVRC_COLUMN_VALUE, EnumCertViewColumn, EnumCertViewColumn method [Security], EnumCertViewColumn method [Security],CCertView object, EnumCertViewColumn method [Security],ICertView interface, EnumCertViewColumn method [Security],ICertView2 interface, ICertView interface [Security],EnumCertViewColumn method, ICertView.EnumCertViewColumn, ICertView2 interface [Security],EnumCertViewColumn method, ICertView2::EnumCertViewColumn, ICertView::EnumCertViewColumn, certview/ICertView2::EnumCertViewColumn, certview/ICertView::EnumCertViewColumn, security.icertview2_enumcertviewcolumn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertView.EnumCertViewColumn
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertView::EnumCertViewColumn

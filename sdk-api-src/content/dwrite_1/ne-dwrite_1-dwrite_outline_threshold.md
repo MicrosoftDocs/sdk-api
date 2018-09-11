@@ -4,17 +4,16 @@ title: DWRITE_OUTLINE_THRESHOLD
 author: windows-sdk-content
 description: The DWRITE_OUTLINE_THRESHOLD enumeration contains values that specify the policy used by the IDWriteFontFace1::GetRecommendedRenderingMode method to determine whether to render glyphs in outline mode.
 old-location: directwrite\dwrite_outline_threshold.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: F0159E05-A47F-444E-BB07-99AA97DAC0A3
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_OUTLINE_THRESHOLD, DWRITE_OUTLINE_THRESHOLD enumeration [Direct Write], DWRITE_OUTLINE_THRESHOLD_ALIASED, DWRITE_OUTLINE_THRESHOLD_ANTIALIASED, directwrite.dwrite_outline_threshold, dwrite_1/DWRITE_OUTLINE_THRESHOLD, dwrite_1/DWRITE_OUTLINE_THRESHOLD_ALIASED, dwrite_1/DWRITE_OUTLINE_THRESHOLD_ANTIALIASED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_OUTLINE_THRESHOLD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_OUTLINE_THRESHOLD enumeration

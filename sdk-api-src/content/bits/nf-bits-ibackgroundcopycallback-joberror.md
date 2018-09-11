@@ -4,17 +4,16 @@ title: IBackgroundCopyCallback::JobError
 author: windows-sdk-content
 description: BITS calls your implementation of the JobError method when the state of the job changes to BG_JOB_STATE_ERROR.
 old-location: bits\ibackgroundcopycallback_joberror.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 3e206195-1a8c-435e-9b8f-6517b8e3c4ca
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyCallback interface [BITS],JobError method, IBackgroundCopyCallback.JobError, IBackgroundCopyCallback::JobError, JobError, JobError method [BITS], JobError method [BITS],IBackgroundCopyCallback interface, _drz_ibackgroundcopycallback_joberror, bits.ibackgroundcopycallback_joberror, bits/IBackgroundCopyCallback::JobError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyCallback.JobError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyCallback::JobError

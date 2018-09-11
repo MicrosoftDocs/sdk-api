@@ -4,17 +4,16 @@ title: ImmDisableLegacyIME function
 author: windows-sdk-content
 description: Indicates that this thread is a Windows Store app&#32;UI thread.
 old-location: intl\immdisablelegacyime.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 5B207438-B437-45B0-AE0C-DDB1B19488F2
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IMMDisableLegacyIME, IMMDisableLegacyIME function [Internationalization for Windows Applications], ImmDisableLegacyIME, imm/IMMDisableLegacyIME, intl.immdisablelegacyime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMMDisableLegacyIME
 product: Windows
 targetos: Windows
-req.lib: Imm32.lib
-req.dll: Imm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ImmDisableLegacyIME function

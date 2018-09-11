@@ -4,17 +4,16 @@ title: IDWriteTextLayout2::SetFontFallback
 author: windows-sdk-content
 description: Apply a custom font fallback onto layout.
 old-location: directwrite\idwritetextlayout2_setfontfallback.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 63B86AE4-92D4-4748-A6E2-987B740080EB
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteTextLayout2 interface [Direct Write],SetFontFallback method, IDWriteTextLayout2.SetFontFallback, IDWriteTextLayout2::SetFontFallback, SetFontFallback, SetFontFallback method [Direct Write], SetFontFallback method [Direct Write],IDWriteTextLayout2 interface, directwrite.idwritetextlayout2_setfontfallback, dwrite_2/IDWriteTextLayout2::SetFontFallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextLayout2.SetFontFallback
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextLayout2::SetFontFallback

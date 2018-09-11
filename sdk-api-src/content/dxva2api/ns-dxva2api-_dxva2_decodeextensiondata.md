@@ -4,7 +4,7 @@ title: "_DXVA2_DecodeExtensionData"
 author: windows-sdk-content
 description: Contains private data for the IDirectXVideoDecoder::Execute method.
 old-location: mf\dxva2_decodeextensiondata.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2a1b7139-fcbb-40b0-9ed3-f9b1fe482358
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_DecodeExtensionData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVA2_DecodeExtensionData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVA2_DecodeExtensionData
+req.redist: 
 ---
 
 # _DXVA2_DecodeExtensionData structure

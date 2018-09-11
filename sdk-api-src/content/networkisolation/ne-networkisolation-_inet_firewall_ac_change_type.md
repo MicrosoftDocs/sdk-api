@@ -4,7 +4,7 @@ title: "_INET_FIREWALL_AC_CHANGE_TYPE"
 author: windows-sdk-content
 description: Specifies which type of app container change occurred.
 old-location: ics\inet_firewall_ac_change_type.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 196f7150-185f-4234-a585-1a94d6dc24d7
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: networkisolation.h
 req.include-header: Netfw.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INET_FIREWALL_AC_CHANGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INET_FIREWALL_AC_CHANGE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: INET_FIREWALL_AC_CHANGE_TYPE
+req.redist: 
 ---
 
 # _INET_FIREWALL_AC_CHANGE_TYPE enumeration

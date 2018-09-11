@@ -4,17 +4,16 @@ title: SetupSetPlatformPathOverrideA function
 author: windows-sdk-content
 description: The SetupSetPlatformPathOverride function is used to set a platform path override for a target machine when working with INFs from a different machine.
 old-location: setup\setupsetplatformpathoverride.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 98867613-18d8-4954-b37a-39c442756bbc
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupSetPlatformPathOverride, SetupSetPlatformPathOverride function [Setup API], SetupSetPlatformPathOverrideA, SetupSetPlatformPathOverrideW, _setupapi_setupsetplatformpathoverride, setup.setupsetplatformpathoverride, setupapi/SetupSetPlatformPathOverride, setupapi/SetupSetPlatformPathOverrideA, setupapi/SetupSetPlatformPathOverrideW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupSetPlatformPathOverrideW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupSetPlatformPathOverrideA function

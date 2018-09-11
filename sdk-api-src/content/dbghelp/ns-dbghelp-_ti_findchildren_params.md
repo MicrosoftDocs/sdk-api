@@ -4,17 +4,16 @@ title: "_TI_FINDCHILDREN_PARAMS"
 author: windows-sdk-content
 description: Contains type index information. It is used by the SymGetTypeInfo function.
 old-location: base\ti_findchildren_params_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 618717d2-879d-4284-a4c2-0a5102698ed9
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: TI_FINDCHILDREN_PARAMS, TI_FINDCHILDREN_PARAMS structure, _TI_FINDCHILDREN_PARAMS, _win32_ti_findchildren_params_str, base.ti_findchildren_params_str, dbghelp/TI_FINDCHILDREN_PARAMS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TI_FINDCHILDREN_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TI_FINDCHILDREN_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: TI_FINDCHILDREN_PARAMS
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _TI_FINDCHILDREN_PARAMS structure

@@ -4,7 +4,7 @@ title: D2D1_EDGEDETECTION_MODE
 author: windows-sdk-content
 description: Values for the D2D1_EDGEDETECTION_PROP_MODE property of the Edge Detection effect.
 old-location: direct2d\d2d1_edgedetection_mode.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 22C57518-8617-44F3-BC04-42605A77985C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_EDGEDETECTION_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_EDGEDETECTION_MODE
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_EDGEDETECTION_MODE
+req.redist: 
 ---
 
 # D2D1_EDGEDETECTION_MODE enumeration

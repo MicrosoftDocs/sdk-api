@@ -4,7 +4,7 @@ title: "_EAP_CONFIG_INPUT_FIELD_TYPE"
 author: windows-sdk-content
 description: Defines a set of possible input field types available when querying for user credentials.
 old-location: eaphost\eap_config_input_field_type.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: f05242ad-1e49-4a6d-b4f1-579c4b00ea28
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: eaptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_CONFIG_INPUT_FIELD_TYPE, *PEAP_CONFIG_INPUT_FIELD_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_CONFIG_INPUT_FIELD_TYPE
 product: Windows
 targetos: Windows
-req.lib: Eappprxy.lib
-req.dll: Eappprxy.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_CONFIG_INPUT_FIELD_TYPE, *PEAP_CONFIG_INPUT_FIELD_TYPE
+req.redist: 
 ---
 
 # _EAP_CONFIG_INPUT_FIELD_TYPE enumeration

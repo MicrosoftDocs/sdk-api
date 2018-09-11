@@ -4,17 +4,16 @@ title: "_RTM_DEST_INFO"
 author: windows-sdk-content
 description: The RTM_DEST_INFO structure is used to exchange destination information with clients registered with the routing table manager.
 old-location: rras\rtm_dest_info.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 6712ed2f-c5b4-416b-b345-a3d0c5d26820
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRTM_DEST_INFO, PRTM_DEST_INFO, PRTM_DEST_INFO structure pointer [RAS], RTM_DEST_INFO, RTM_DEST_INFO structure [RAS], _RTM_DEST_INFO, _rtmv2ref_rtm_dest_info, rras.rtm_dest_info, rtmv2/PRTM_DEST_INFO, rtmv2/RTM_DEST_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_DEST_INFO, *PRTM_DEST_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RTM_DEST_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RTM_DEST_INFO, *PRTM_DEST_INFO
+req.redist: 
 ---
 
 # _RTM_DEST_INFO structure

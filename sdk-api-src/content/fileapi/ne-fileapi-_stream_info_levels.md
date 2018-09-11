@@ -4,7 +4,7 @@ title: "_STREAM_INFO_LEVELS"
 author: windows-sdk-content
 description: Defines values that are used with the FindFirstStreamW function to specify the information level of the returned data.
 old-location: fs\stream_info_levels.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 411efcdc-e13a-4f27-a3da-31dff714e415
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STREAM_INFO_LEVELS
 product: Windows
 targetos: Windows
-req.lib: FhSvcCtl.lib
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: STREAM_INFO_LEVELS
+req.redist: 
 ---
 
 # _STREAM_INFO_LEVELS enumeration

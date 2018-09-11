@@ -4,17 +4,16 @@ title: DrvEnableSurface function
 author: windows-sdk-content
 description: The DrvEnableSurface function sets up a surface to be drawn on and associates it with a given physical device.
 old-location: display\drvenablesurface.htm
-old-project: display
+tech.root: display
 ms.assetid: a838a44a-243c-4d0d-bda3-eec9a626cb53
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvEnableSurface, DrvEnableSurface function [Display Devices], ddifncs_c0044970-ac75-4dae-af55-f6fd87079dbb.xml, display.drvenablesurface, winddi/DrvEnableSurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvEnableSurface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvEnableSurface function

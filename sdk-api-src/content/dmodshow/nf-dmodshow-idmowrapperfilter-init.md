@@ -4,17 +4,16 @@ title: IDMOWrapperFilter::Init
 author: windows-sdk-content
 description: The Init method initializes the DMO Wrapper filter with the specified DMO.
 old-location: dshow\idmowrapperfilter_init.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 45f305b5-82bc-44c1-9af7-93aab371ed33
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDMOWrapperFilter interface [DirectShow],Init method, IDMOWrapperFilter.Init, IDMOWrapperFilter::Init, IDMOWrapperFilterInit, Init, Init method [DirectShow], Init method [DirectShow],IDMOWrapperFilter interface, dmodshow/IDMOWrapperFilter::Init, dshow.idmowrapperfilter_init
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmodshow.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMEMHEAP
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDMOWrapperFilter.Init
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDMOWrapperFilter::Init

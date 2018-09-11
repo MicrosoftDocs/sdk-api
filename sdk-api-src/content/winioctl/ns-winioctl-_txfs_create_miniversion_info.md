@@ -4,7 +4,7 @@ title: "_TXFS_CREATE_MINIVERSION_INFO"
 author: windows-sdk-content
 description: Contains the version information about the miniversion created by FSCTL_TXFS_CREATE_MINIVERSION.
 old-location: fs\txfs_create_miniversion_info.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 247d1471-08f4-4717-bcd8-be9d01e23d79
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TXFS_CREATE_MINIVERSION_INFO, *PTXFS_CREATE_MINIVERSION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TXFS_CREATE_MINIVERSION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: TXFS_CREATE_MINIVERSION_INFO, *PTXFS_CREATE_MINIVERSION_INFO
+req.redist: 
 ---
 
 # _TXFS_CREATE_MINIVERSION_INFO structure

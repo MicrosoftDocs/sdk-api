@@ -4,17 +4,16 @@ title: ITfInputProcessorProfileActivationSink::OnActivated
 author: windows-sdk-content
 description: The ITfInputProcessorProfileActivationSink::OnActivated method is a callback that is called when an input processor profile is activated or deactivated.
 old-location: tsf\itfinputprocessorprofileactivationsink_onactivated.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: d171cf73-b409-4501-a956-06867c20f214
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfInputProcessorProfileActivationSink interface [Text Services Framework],OnActivated method, ITfInputProcessorProfileActivationSink.OnActivated, ITfInputProcessorProfileActivationSink::OnActivated, OnActivated, OnActivated method [Text Services Framework], OnActivated method [Text Services Framework],ITfInputProcessorProfileActivationSink interface, TF_IPSINK_FLAG_ACTIVE, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileActivationSink::OnActivated, tsf.itfinputprocessorprofileactivationsink_onactivated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfInputProcessorProfileActivationSink.OnActivated
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfInputProcessorProfileActivationSink::OnActivated
@@ -100,7 +98,7 @@ This is a keyboard layout.
 
 ### -param clsid
 
-
+TBD
 
 
 ### -param catid [in]

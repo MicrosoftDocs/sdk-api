@@ -4,17 +4,16 @@ title: HeapCompact function
 author: windows-sdk-content
 description: Returns the size of the largest committed free block in the specified heap. If the Disable heap coalesce on free global flag is set, this function also coalesces adjacent free blocks of memory in the heap.
 old-location: base\heapcompact.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 792ec16f-d6b0-4afd-a832-29fe12b25058
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapCompact, HeapCompact function, _win32_heapcompact, base.heapcompact, heapapi/HeapCompact, winbase/HeapCompact
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - HeapCompact
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HeapCompact function

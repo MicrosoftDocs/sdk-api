@@ -4,17 +4,16 @@ title: "_IPX_SERVER_ENTRY"
 author: windows-sdk-content
 description: The IPX_SERVER_ENTRY structure describes a particular IPX service.
 old-location: rras\ipx_server_entry.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 5b865c28-6a0e-4af3-a646-c1082b5c3ce5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PIPX_SERVER_ENTRY, IPX_SERVER_ENTRY, IPX_SERVER_ENTRY structure [RAS], PIPX_SERVER_ENTRY, PIPX_SERVER_ENTRY structure pointer [RAS], _IPX_SERVER_ENTRY, _mpr_ipx_server_entry, rras.ipx_server_entry, stm/IPX_SERVER_ENTRY, stm/PIPX_SERVER_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: stm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPX_SERVER_ENTRY, *PIPX_SERVER_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPX_SERVER_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: IPX_SERVER_ENTRY, *PIPX_SERVER_ENTRY
+req.redist: 
 ---
 
 # _IPX_SERVER_ENTRY structure

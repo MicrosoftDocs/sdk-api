@@ -4,17 +4,16 @@ title: IMultiQI
 author: windows-sdk-content
 description: Enables a client to query an object proxy, or handler, for multiple interfaces by using a single RPC call.
 old-location: com\imultiqi.htm
-old-project: com
+tech.root: com
 ms.assetid: 5e50396f-2931-403f-946a-dc096cb012cc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMultiQI, IMultiQI interface [COM], IMultiQI interface [COM],described, _com_imultiqi, com.imultiqi, objidlbase/IMultiQI
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMultiQI
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMultiQI interface

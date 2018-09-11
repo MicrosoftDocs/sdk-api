@@ -4,17 +4,16 @@ title: TraceLoggingWriteTagged macro
 author: windows-sdk-content
 description: Logs an event with an associated ETW activity id.
 old-location: tracelogging\traceloggingwritetagged.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: BBDFC2B1-33C6-4D5F-AA7B-91BB2A757B1E
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TraceLoggingWriteTagged, TraceLoggingWriteTagged macro, tracelogging.traceloggingwritetagged, traceloggingactivity/TraceLoggingWriteTagged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingactivity.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceLoggingWriteTagged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceLoggingWriteTagged macro

@@ -4,17 +4,16 @@ title: IUpdateDownloadContentCollection::get_Item
 author: windows-sdk-content
 description: Gets the download content for an update from an IUpdateDownloadContentCollection interface.
 old-location: wua\iupdatedownloadcontentcollection_item.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 64684a77-e264-40a5-a517-e4b58947c613
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IUpdateDownloadContentCollection interface [Windows Update Agent],Item property, IUpdateDownloadContentCollection.Item, IUpdateDownloadContentCollection.get_Item, IUpdateDownloadContentCollection::Item, IUpdateDownloadContentCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IUpdateDownloadContentCollection interface, get_Item, wua.iupdatedownloadcontentcollection_item, wuapi/IUpdateDownloadContentCollection::Item, wuapi/IUpdateDownloadContentCollection::get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUpdateDownloadContentCollection.get_Item
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateDownloadContentCollection::get_Item

@@ -4,17 +4,16 @@ title: IMSVidPlayback::put_EnableResetOnStop
 author: windows-sdk-content
 description: The put_EnableResetOnStop method indicates how playback will resume if the graph is rebuilt.
 old-location: mstv\imsvidplayback_put_enableresetonstop.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f2b4285c-3cf8-40dc-87eb-57419ef7343e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_EnableResetOnStop method, IMSVidPlayback.put_EnableResetOnStop, IMSVidPlayback::put_EnableResetOnStop, IMSVidPlaybackput_EnableResetOnStop, mstv.imsvidplayback_put_enableresetonstop, put_EnableResetOnStop, put_EnableResetOnStop method [Microsoft TV Technologies], put_EnableResetOnStop method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_EnableResetOnStop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidPlayback.put_EnableResetOnStop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidPlayback::put_EnableResetOnStop

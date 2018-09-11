@@ -4,7 +4,7 @@ title: "_HTTP_RESPONSE_HEADERS"
 author: windows-sdk-content
 description: Contains the headers sent with an HTTP response.
 old-location: http\http_response_headers.htm
-old-project: http
+tech.root: http
 ms.assetid: e783c27e-d215-4f6d-a080-92d915a7fc33
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_RESPONSE_HEADERS, *PHTTP_RESPONSE_HEADERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_RESPONSE_HEADERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_RESPONSE_HEADERS, *PHTTP_RESPONSE_HEADERS
+req.redist: 
 ---
 
 # _HTTP_RESPONSE_HEADERS structure

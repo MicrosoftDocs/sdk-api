@@ -4,17 +4,16 @@ title: SrpCloseThreadNetworkContext function
 author: windows-sdk-content
 description: Restores a thread back to the original context, which may have been optionally returned from SrpCreateThreadNetworkContext.
 old-location: edp\srpclosethreadnetworkcontext.htm
-old-project: EDP
+tech.root: EDP
 ms.assetid: AB8DD527-BABA-40D0-A423-2BEAAA544B2B
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EDP.srpclosethreadnetworkcontext, SrpCloseThreadNetworkContext, SrpCloseThreadNetworkContext function, srpapi/SrpCloseThreadNetworkContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: srpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENTERPRISE_DATA_POLICIES
+req.lib: Srpapi.lib
+req.dll: Srpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SrpCloseThreadNetworkContext
 product: Windows
 targetos: Windows
-req.lib: Srpapi.lib
-req.dll: Srpapi.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SrpCloseThreadNetworkContext function

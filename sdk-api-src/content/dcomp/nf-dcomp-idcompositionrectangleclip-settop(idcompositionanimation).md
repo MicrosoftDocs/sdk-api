@@ -4,17 +4,16 @@ title: IDCompositionRectangleClip::SetTop(IDCompositionAnimation)
 author: windows-sdk-content
 description: Changes the value of the Top property of a clip rectangle.
 old-location: directcomp\idcompositionrectangleclip_settop_float.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 7D3AB5CC-7295-4160-9AAB-91C61A445B24
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetTop method, IDCompositionRectangleClip.SetTop, IDCompositionRectangleClip.SetTop(IDCompositionAnimation), IDCompositionRectangleClip::SetTop, IDCompositionRectangleClip::SetTop(IDCompositionAnimation), IDCompositionRectangleClip::SetTop(float), SetTop, SetTop method [DirectComposition], SetTop method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetTop, directcomp.idcompositionrectangleclip_settop_float
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionRectangleClip.SetTop
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionRectangleClip::SetTop(IDCompositionAnimation)
@@ -62,7 +61,7 @@ Changes the value of the Top property of a clip rectangle. The Top property spec
 
 ### -param animation
 
-
+TBD
 
 
 

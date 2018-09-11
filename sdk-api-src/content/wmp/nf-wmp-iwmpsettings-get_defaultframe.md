@@ -4,17 +4,16 @@ title: IWMPSettings::get_defaultFrame
 author: windows-sdk-content
 description: The get_defaultFrame method retrieves the name of the frame used to display a URL that is received in a ScriptCommand event.
 old-location: wmp\iwmpsettings_get_defaultframe.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 815289bb-4ca5-45da-a27e-7484ba403316
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_defaultFrame method, IWMPSettings.get_defaultFrame, IWMPSettings::get_defaultFrame, IWMPSettingsget_defaultFrame, get_defaultFrame, get_defaultFrame method [Windows Media Player], get_defaultFrame method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_defaultframe, wmp/IWMPSettings::get_defaultFrame
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPSettings.get_defaultFrame
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPSettings::get_defaultFrame

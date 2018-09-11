@@ -4,17 +4,16 @@ title: IOleCache
 author: windows-sdk-content
 description: Provides control of the presentation data that gets cached inside of an object. Cached presentation data is available to the container of the object even when the server application is not running or is unavailable.
 old-location: com\iolecache.htm
-old-project: com
+tech.root: com
 ms.assetid: b5ef85d0-b54e-4831-87f1-ac6763179181
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleCache, IOleCache interface [COM], IOleCache interface [COM],described, _ole_iolecache, com.iolecache, oleidl/IOleCache
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleCache
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Adhocreportingexcelclient.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleCache interface

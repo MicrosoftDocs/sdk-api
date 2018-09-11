@@ -4,17 +4,16 @@ title: ADsGetObject function
 author: windows-sdk-content
 description: Binds to an object given its path and a specified interface identifier.
 old-location: adsi\adsgetobject.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 595b2c7f-584c-4343-a75c-327d8ed4ceb1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ADsGetObject, ADsGetObject function [ADSI], _ds_adsgetobject, adshlp/ADsGetObject, adsi.adsgetobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: Activeds.lib
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ADsGetObject
 product: Windows
 targetos: Windows
-req.lib: Activeds.lib
-req.dll: Activeds.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ADsGetObject function

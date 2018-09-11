@@ -4,17 +4,16 @@ title: IStylusPlugin::StylusUp
 author: windows-sdk-content
 description: Notifies the implementing plug-in that the user has raised the tablet pen from the tablet digitizer surface.
 old-location: tablet\istylusplugin_stylusup.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: b0f9e49c-6a16-43c5-a653-d6142e58019a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],StylusUp method, IStylusPlugin.StylusUp, IStylusPlugin::StylusUp, StylusUp, StylusUp method [Tablet PC], StylusUp method [Tablet PC],IStylusPlugin interface, b0f9e49c-6a16-43c5-a653-d6142e58019a, rtscom/IStylusPlugin::StylusUp, tablet.istylusplugin_stylusup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStylusPlugin.StylusUp
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStylusPlugin::StylusUp

@@ -4,17 +4,16 @@ title: "_tagSL_AD_ACTIVATION_INFO"
 author: windows-sdk-content
 description: Specifies information used for the retail or Active Directory phone activation of a license.
 old-location: security\sl_ad_activation_info.htm
-old-project: secslapi
+tech.root: SecSLApi
 ms.assetid: 17012938-3E59-47DA-A046-8264CC3F06AF
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PSL_AD_ACTIVATION_INFO, PSL_AD_ACTIVATION_INFO structure pointer [Security], SL_AD_ACTIVATION_INFO, SL_AD_ACTIVATION_INFO structure [Security], _tagSL_AD_ACTIVATION_INFO, security.sl_ad_activation_info, slpublic/PSL_AD_ACTIVATION_INFO, slpublic/SL_AD_ACTIVATION_INFO
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: slpublic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_AD_ACTIVATION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SL_AD_ACTIVATION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SL_AD_ACTIVATION_INFO
+req.redist: 
 ---
 
 # _tagSL_AD_ACTIVATION_INFO structure

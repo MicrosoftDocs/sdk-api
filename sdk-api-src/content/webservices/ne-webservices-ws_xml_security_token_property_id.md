@@ -4,17 +4,16 @@ title: WS_XML_SECURITY_TOKEN_PROPERTY_ID
 author: windows-sdk-content
 description: The keys for the bag of properties for the creation of XML security tokens. This enumeration is used within the WS_XML_SECURITY_TOKEN_PROPERTY structure, which is used as parameter for WsCreateXmlSecurityToken.
 old-location: wsw\ws_xml_security_token_property_id.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 78133ccf-4e3c-4c1b-97af-1a487b444ee0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_SECURITY_TOKEN_PROPERTY_ATTACHED_REFERENCE, WS_XML_SECURITY_TOKEN_PROPERTY_ID, WS_XML_SECURITY_TOKEN_PROPERTY_ID enumeration [Web Services for Windows], WS_XML_SECURITY_TOKEN_PROPERTY_UNATTACHED_REFERENCE, WS_XML_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME, WS_XML_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME, webservices/WS_XML_SECURITY_TOKEN_PROPERTY_ATTACHED_REFERENCE, webservices/WS_XML_SECURITY_TOKEN_PROPERTY_ID, webservices/WS_XML_SECURITY_TOKEN_PROPERTY_UNATTACHED_REFERENCE, webservices/WS_XML_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME, webservices/WS_XML_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME, wsw.ws_xml_security_token_property_id
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_SECURITY_TOKEN_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_SECURITY_TOKEN_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_SECURITY_TOKEN_PROPERTY_ID
+req.redist: 
 ---
 
 # WS_XML_SECURITY_TOKEN_PROPERTY_ID enumeration

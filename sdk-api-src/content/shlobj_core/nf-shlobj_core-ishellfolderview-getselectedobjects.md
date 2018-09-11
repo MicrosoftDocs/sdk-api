@@ -4,17 +4,16 @@ title: IShellFolderView::GetSelectedObjects
 author: windows-sdk-content
 description: Gets an array of the objects in the view that are selected and the number of those objects.
 old-location: shell\IShellFolderView_GetSelectedObjects.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9cb41312-a401-4d24-a7a7-7b03478cf684
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetSelectedObjects, GetSelectedObjects method [Windows Shell], GetSelectedObjects method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetSelectedObjects method, IShellFolderView.GetSelectedObjects, IShellFolderView::GetSelectedObjects, _shell_IShellFolderView_GetSelectedObjects, shell.IShellFolderView_GetSelectedObjects, shlobj_core/IShellFolderView::GetSelectedObjects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderView.GetSelectedObjects
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderView::GetSelectedObjects

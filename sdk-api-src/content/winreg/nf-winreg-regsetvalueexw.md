@@ -4,17 +4,16 @@ title: RegSetValueExW function
 author: windows-sdk-content
 description: Sets the data and type of a specified value under a registry key.
 old-location: base\regsetvalueex.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: 29b0e27c-4999-4e92-bd8b-bba74920bccc
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: RegSetValueEx, RegSetValueEx function, RegSetValueExA, RegSetValueExW, _win32_regsetvalueex, base.regsetvalueex, winreg/RegSetValueEx, winreg/RegSetValueExA, winreg/RegSetValueExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - RegSetValueExW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegSetValueExW function

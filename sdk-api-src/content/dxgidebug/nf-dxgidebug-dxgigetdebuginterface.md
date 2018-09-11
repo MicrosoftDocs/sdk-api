@@ -4,17 +4,16 @@ title: DXGIGetDebugInterface function
 author: windows-sdk-content
 description: Retrieves a debugging interface.
 old-location: direct3ddxgi\dxgigetdebuginterface.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 7702B842-6808-4CA9-A5B4-B1A1DC2479A7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: DXGIGetDebugInterface, DXGIGetDebugInterface function [DXGI], direct3ddxgi.dxgigetdebuginterface, dxgidebug/DXGIGetDebugInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dxgidebug.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
+req.lib: 
+req.dll: Dxgidebug.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGIGetDebugInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dxgidebug.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DXGIGetDebugInterface function

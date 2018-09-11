@@ -4,7 +4,7 @@ title: "_CHANGER_ELEMENT_STATUS_EX"
 author: windows-sdk-content
 description: Represents the status of the specified element.
 old-location: base\changer_element_status_ex_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 3780d1eb-b16b-4c51-8bbb-bf0a44606175
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANGER_ELEMENT_STATUS_EX, *PCHANGER_ELEMENT_STATUS_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CHANGER_ELEMENT_STATUS_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CHANGER_ELEMENT_STATUS_EX, *PCHANGER_ELEMENT_STATUS_EX
+req.redist: 
 ---
 
 # _CHANGER_ELEMENT_STATUS_EX structure

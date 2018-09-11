@@ -4,17 +4,16 @@ title: "_CONFLICT_DETAILS_A"
 author: windows-sdk-content
 description: The CONFLICT_DETAILS structure is used as a parameter to the CM_Get_Resource_Conflict_Details function.
 old-location: devinst\conflict_details.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 7f095104-4478-4047-b411-ac6bcc44a11f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PCONFLICT_DETAILS_A, CONFLICT_DETAILS, CONFLICT_DETAILS structure [Device and Driver Installation], CONFLICT_DETAILS_A, PCONFLICT_DETAILS, PCONFLICT_DETAILS structure pointer [Device and Driver Installation], _CONFLICT_DETAILS_A, cfgmgr32/CONFLICT_DETAILS, cfgmgr32/PCONFLICT_DETAILS, cfgmgrst_c9b5c398-f35c-4c09-9e25-8949b1d8dc1a.xml, devinst.conflict_details"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_A, *PCONFLICT_DETAILS_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CONFLICT_DETAILS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CONFLICT_DETAILS_A, *PCONFLICT_DETAILS_A
+req.redist: 
 ---
 
 # _CONFLICT_DETAILS_A structure

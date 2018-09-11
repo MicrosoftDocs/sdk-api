@@ -4,17 +4,16 @@ title: HTTPAPI_GREATER_VERSION macro
 author: windows-sdk-content
 description: Returns a non-zero value if an HTTPAPI_VERSION structure is greater than a specified major/minor version combination, or zero otherwise.
 old-location: http\httpapi_greater_version.htm
-old-project: http
+tech.root: http
 ms.assetid: e70500dd-e750-437c-8652-280f9cc9de1d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HTTPAPI_GREATER_VERSION, HTTPAPI_GREATER_VERSION macro [HTTP], http.httpapi_greater_version, http/HTTPAPI_GREATER_VERSION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERB, *PHTTP_VERB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_GREATER_VERSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HTTPAPI_GREATER_VERSION macro

@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::Cancel
 author: windows-sdk-content
 description: Cancels the job if it is running.
 old-location: fsrm\ifsrmfilemanagementjob_cancel.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 3abb6673-fdd8-4828-ba7a-7666208dc8f0
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: Cancel, Cancel method [File Server Resource Manager], Cancel method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],Cancel method, IFsrmFileManagementJob.Cancel, IFsrmFileManagementJob::Cancel, fs.ifsrmfilemanagementjob_cancel, fsrm.ifsrmfilemanagementjob_cancel, fsrmreports/IFsrmFileManagementJob::Cancel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmFileManagementJob.Cancel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::Cancel

@@ -4,17 +4,16 @@ title: IAMMediaContent2::get_PlaylistCount
 author: windows-sdk-content
 description: The get_PlaylistCount method retrieves the number of entries in an ASX file.
 old-location: dshow\iammediacontent2_get_playlistcount.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6f1a388e-de23-4441-bc65-33ce13519d70
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMMediaContent2 interface [DirectShow],get_PlaylistCount method, IAMMediaContent2.get_PlaylistCount, IAMMediaContent2::get_PlaylistCount, IAMMediaContent2get_PlaylistCount, dshow.iammediacontent2_get_playlistcount, get_PlaylistCount, get_PlaylistCount method [DirectShow], get_PlaylistCount method [DirectShow],IAMMediaContent2 interface, qnetwork/IAMMediaContent2::get_PlaylistCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMMediaContent2.get_PlaylistCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMediaContent2::get_PlaylistCount

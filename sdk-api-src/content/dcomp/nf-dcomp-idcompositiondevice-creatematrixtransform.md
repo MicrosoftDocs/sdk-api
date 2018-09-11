@@ -4,17 +4,16 @@ title: IDCompositionDevice::CreateMatrixTransform
 author: windows-sdk-content
 description: Creates a 2D 3-by-2 matrix transform object.
 old-location: directcomp\idcompositiondevice_creatematrixtransform.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 79291366-2fb2-4130-a642-4993648d8aa6
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateMatrixTransform, CreateMatrixTransform method [DirectComposition], CreateMatrixTransform method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateMatrixTransform method, IDCompositionDevice.CreateMatrixTransform, IDCompositionDevice::CreateMatrixTransform, dcomp/IDCompositionDevice::CreateMatrixTransform, directcomp.idcompositiondevice_creatematrixtransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice.CreateMatrixTransform
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice::CreateMatrixTransform

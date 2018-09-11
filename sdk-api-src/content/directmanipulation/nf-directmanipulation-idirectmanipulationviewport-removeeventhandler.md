@@ -4,17 +4,16 @@ title: IDirectManipulationViewport::RemoveEventHandler
 author: windows-sdk-content
 description: Removes an existing event handler from the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_removeeventhandler.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: ea8539c0-2c0e-4259-a104-ecc02a46372a
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],RemoveEventHandler method, IDirectManipulationViewport.RemoveEventHandler, IDirectManipulationViewport::RemoveEventHandler, RemoveEventHandler, RemoveEventHandler method [Direct Manipulation], RemoveEventHandler method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_removeeventhandler, directmanipulation/IDirectManipulationViewport::RemoveEventHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationViewport.RemoveEventHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationViewport::RemoveEventHandler

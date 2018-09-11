@@ -4,7 +4,7 @@ title: "_DXAPI_INTERFACE"
 author: windows-sdk-content
 description: The DXAPI_INTERFACE structure contains the interface callback functions that a video miniport driver implements to support Kernel-Mode Video Transport.
 old-location: display\dxapi_interface.htm
-old-project: display
+tech.root: display
 ms.assetid: 137473ea-4785-4118-86af-a859f69f425f
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXAPI_INTERFACE, *PDXAPI_INTERFACE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXAPI_INTERFACE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXAPI_INTERFACE, *PDXAPI_INTERFACE
+req.redist: 
 ---
 
 # _DXAPI_INTERFACE structure

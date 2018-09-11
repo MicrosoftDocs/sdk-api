@@ -4,17 +4,16 @@ title: IInkEdit::get_InkMode
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether ink collection is disabled, ink is collected, or ink and gestures are collected.
 old-location: tablet\inkedit_inkmode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 0e395907-108b-40cf-819b-65a34e4ffc4d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 0e395907-108b-40cf-819b-65a34e4ffc4d, Disabled, IInkEdit interface [Tablet PC],InkMode property, IInkEdit.InkMode, IInkEdit.get_InkMode, IInkEdit::InkMode, IInkEdit::get_InkMode, IInkEdit::put_InkMode, Ink, InkAndGesture, InkEdit.get_InkMode, InkEdit.put_InkMode, InkMode property [Tablet PC], InkMode property [Tablet PC],IInkEdit interface, get_InkMode, inked/IInkEdit::InkMode, inked/IInkEdit::get_InkMode, inked/IInkEdit::put_InkMode, put_InkMode, tablet.inkedit_inkmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.put_InkMode
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::get_InkMode

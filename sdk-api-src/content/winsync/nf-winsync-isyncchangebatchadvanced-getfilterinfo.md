@@ -4,17 +4,16 @@ title: ISyncChangeBatchAdvanced::GetFilterInfo
 author: windows-sdk-content
 description: Gets the ISyncFilterInfo that was specified when the change batch was created.
 old-location: winsync\isyncchangebatchadvanced_getfilterinfo.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: f630f806-cc5a-408e-bd84-49555ebb41c1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetFilterInfo, GetFilterInfo method [Windows Sync], GetFilterInfo method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],GetFilterInfo method, ISyncChangeBatchAdvanced.GetFilterInfo, ISyncChangeBatchAdvanced::GetFilterInfo, winsync.isyncchangebatchadvanced_getfilterinfo, winsync/ISyncChangeBatchAdvanced::GetFilterInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncChangeBatchAdvanced.GetFilterInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncChangeBatchAdvanced::GetFilterInfo

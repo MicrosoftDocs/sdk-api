@@ -4,17 +4,16 @@ title: IBDA_SignalProperties::GetNetworkType
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibda_signalproperties_getnetworktype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6c799cad-2371-4845-a783-e7227fb81c4c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetNetworkType, GetNetworkType method [Microsoft TV Technologies], GetNetworkType method [Microsoft TV Technologies],IBDA_SignalProperties interface, IBDA_SignalProperties interface [Microsoft TV Technologies],GetNetworkType method, IBDA_SignalProperties.GetNetworkType, IBDA_SignalProperties::GetNetworkType, IBDA_SignalPropertiesGetNetworkType, bdaiface/IBDA_SignalProperties::GetNetworkType, mstv.ibda_signalproperties_getnetworktype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_SignalProperties.GetNetworkType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_SignalProperties::GetNetworkType

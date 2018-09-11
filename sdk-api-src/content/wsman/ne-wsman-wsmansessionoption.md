@@ -4,17 +4,16 @@ title: WSManSessionOption
 author: windows-sdk-content
 description: Defines a set of extended options for the session. These options are used with the WSManSetSessionOption method.
 old-location: winrm\wsmansessionoption.htm
-old-project: winrm
+tech.root: WinRM
 ms.assetid: 6bfe6936-a9d2-4884-a354-41bd62a2feb0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSMAN_OPTION_ALLOW_NEGOTIATE_IMPLICIT_CREDENTIALS, WSMAN_OPTION_DEFAULT_OPERATION_TIMEOUTMS, WSMAN_OPTION_ENABLE_SPN_SERVER_PORT, WSMAN_OPTION_LOCALE, WSMAN_OPTION_MACHINE_ID, WSMAN_OPTION_MAX_ENVELOPE_SIZE_KB, WSMAN_OPTION_REDIRECT_LOCATION, WSMAN_OPTION_SHELL_MAX_DATA_SIZE_PER_MESSAGE_KB, WSMAN_OPTION_SKIP_CA_CHECK, WSMAN_OPTION_SKIP_CN_CHECK, WSMAN_OPTION_SKIP_REVOCATION_CHECK, WSMAN_OPTION_TIMEOUTMS_CLOSE_SHELL, WSMAN_OPTION_TIMEOUTMS_CREATE_SHELL, WSMAN_OPTION_TIMEOUTMS_RECEIVE_SHELL_OUTPUT, WSMAN_OPTION_TIMEOUTMS_RUN_SHELL_COMMAND, WSMAN_OPTION_TIMEOUTMS_SEND_SHELL_INPUT, WSMAN_OPTION_TIMEOUTMS_SIGNAL_SHELL, WSMAN_OPTION_UI_LANGUAGE, WSMAN_OPTION_UNENCRYPTED_MESSAGES, WSMAN_OPTION_UTF16, WSManSessionOption, WSManSessionOption enumeration [Windows Remote Management], winrm.wsmansessionoption, wsman/WSMAN_OPTION_ALLOW_NEGOTIATE_IMPLICIT_CREDENTIALS, wsman/WSMAN_OPTION_DEFAULT_OPERATION_TIMEOUTMS, wsman/WSMAN_OPTION_ENABLE_SPN_SERVER_PORT, wsman/WSMAN_OPTION_LOCALE, wsman/WSMAN_OPTION_MACHINE_ID, wsman/WSMAN_OPTION_MAX_ENVELOPE_SIZE_KB, wsman/WSMAN_OPTION_REDIRECT_LOCATION, wsman/WSMAN_OPTION_SHELL_MAX_DATA_SIZE_PER_MESSAGE_KB, wsman/WSMAN_OPTION_SKIP_CA_CHECK, wsman/WSMAN_OPTION_SKIP_CN_CHECK, wsman/WSMAN_OPTION_SKIP_REVOCATION_CHECK, wsman/WSMAN_OPTION_TIMEOUTMS_CLOSE_SHELL, wsman/WSMAN_OPTION_TIMEOUTMS_CREATE_SHELL, wsman/WSMAN_OPTION_TIMEOUTMS_RECEIVE_SHELL_OUTPUT, wsman/WSMAN_OPTION_TIMEOUTMS_RUN_SHELL_COMMAND, wsman/WSMAN_OPTION_TIMEOUTMS_SEND_SHELL_INPUT, wsman/WSMAN_OPTION_TIMEOUTMS_SIGNAL_SHELL, wsman/WSMAN_OPTION_UI_LANGUAGE, wsman/WSMAN_OPTION_UNENCRYPTED_MESSAGES, wsman/WSMAN_OPTION_UTF16, wsman/WSManSessionOption
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wsman.h
 req.include-header: 
-req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManSessionOption
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSManSessionOption
 product: Windows
 targetos: Windows
-req.lib: Wslapi.lib
-req.dll: Api-ms-win-wsl-api-l1-1-0.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSManSessionOption
+req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
 ---
 
 # WSManSessionOption enumeration

@@ -4,17 +4,16 @@ title: ITStream::get_MediaType
 author: windows-sdk-content
 description: The get_MediaType method gets the stream's media type.
 old-location: tapi3\itstream_get_mediatype.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 871caaf3-12c4-457c-8d0f-0ee9be52a58b
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITStream interface [TAPI 2.2],get_MediaType method, ITStream.get_MediaType, ITStream::get_MediaType, _tapi3_itstream_get_mediatype, get_MediaType, get_MediaType method [TAPI 2.2], get_MediaType method [TAPI 2.2],ITStream interface, tapi3.itstream_get_mediatype, tapi3if/ITStream::get_MediaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITStream.get_MediaType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITStream::get_MediaType

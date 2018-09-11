@@ -4,17 +4,16 @@ title: "_KERB_QUERY_TKT_CACHE_RESPONSE"
 author: windows-sdk-content
 description: Contains the results of querying the ticket cache.
 old-location: security\kerb_query_tkt_cache_response.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 2101c1de-f304-4d44-899f-f9f03cd50934
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PKERB_QUERY_TKT_CACHE_RESPONSE, KERB_QUERY_TKT_CACHE_RESPONSE, KERB_QUERY_TKT_CACHE_RESPONSE structure [Security], PKERB_QUERY_TKT_CACHE_RESPONSE, PKERB_QUERY_TKT_CACHE_RESPONSE structure pointer [Security], _KERB_QUERY_TKT_CACHE_RESPONSE, _lsa_kerb_query_tkt_cache_response, ntsecapi/KERB_QUERY_TKT_CACHE_RESPONSE, ntsecapi/PKERB_QUERY_TKT_CACHE_RESPONSE, security.kerb_query_tkt_cache_response"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_QUERY_TKT_CACHE_RESPONSE, *PKERB_QUERY_TKT_CACHE_RESPONSE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_QUERY_TKT_CACHE_RESPONSE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_QUERY_TKT_CACHE_RESPONSE, *PKERB_QUERY_TKT_CACHE_RESPONSE
+req.redist: 
 ---
 
 # _KERB_QUERY_TKT_CACHE_RESPONSE structure

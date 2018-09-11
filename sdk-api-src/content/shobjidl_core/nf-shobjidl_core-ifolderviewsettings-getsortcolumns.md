@@ -4,17 +4,16 @@ title: IFolderViewSettings::GetSortColumns
 author: windows-sdk-content
 description: Gets sort column information.
 old-location: shell\IFolderViewSettings_GetSortColumns.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d6115e72-1abc-46fe-b829-0ae1a436b26e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetSortColumns, GetSortColumns method [Windows Shell], GetSortColumns method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetSortColumns method, IFolderViewSettings.GetSortColumns, IFolderViewSettings::GetSortColumns, _shell_IFolderViewSettings_GetSortColumns, shell.IFolderViewSettings_GetSortColumns, shobjidl_core/IFolderViewSettings::GetSortColumns
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderViewSettings.GetSortColumns
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderViewSettings::GetSortColumns

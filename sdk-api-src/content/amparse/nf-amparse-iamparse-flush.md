@@ -4,17 +4,16 @@ title: IAMParse::Flush
 author: windows-sdk-content
 description: The Flush method clears the current file data to allow for a more rapid switch to a new file.
 old-location: dshow\iamparse_flush.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8ff33099-3dc4-4f43-8852-4bd6a8877f29
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: Flush, Flush method [DirectShow], Flush method [DirectShow],IAMParse interface, IAMParse interface [DirectShow],Flush method, IAMParse.Flush, IAMParse::Flush, IAMParseFlush, amparse/IAMParse::Flush, dshow.iamparse_flush
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amparse.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKADDR_IRDA, *PSOCKADDR_IRDA, *LPSOCKADDR_IRDA
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAMParse.Flush
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMParse::Flush

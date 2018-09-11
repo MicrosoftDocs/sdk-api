@@ -4,7 +4,7 @@ title: tagOFFLINEFILES_SYNC_STATE
 author: windows-sdk-content
 description: Describes the sync state of an Offline Files item.
 old-location: of\offlinefiles_sync_state.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 05d1e03e-2db4-4f1e-8813-98c8cf6d03b6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OFFLINEFILES_SYNC_STATE
 product: Windows
 targetos: Windows
-req.lib: CscApi.lib
-req.dll: CscApi.dll
-req.irql: 
+req.typenames: OFFLINEFILES_SYNC_STATE
+req.redist: 
 ---
 
 # tagOFFLINEFILES_SYNC_STATE enumeration

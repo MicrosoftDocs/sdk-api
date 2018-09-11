@@ -4,17 +4,16 @@ title: IBDA_AutoDemodulateEx::get_AuxInputCount
 author: windows-sdk-content
 description: The get_AuxInputCount method retrieves a count of the number of auxiliary inputs on the demodulator.
 old-location: mstv\ibda_autodemodulateex_get_auxinputcount.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: a23a1d54-377e-48cb-a4ff-dfd5a6972677
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_AutoDemodulateEx interface [Microsoft TV Technologies],get_AuxInputCount method, IBDA_AutoDemodulateEx.get_AuxInputCount, IBDA_AutoDemodulateEx::get_AuxInputCount, IBDA_AutoDemodulateExget_AuxInputCount, bdaiface/IBDA_AutoDemodulateEx::get_AuxInputCount, get_AuxInputCount, get_AuxInputCount method [Microsoft TV Technologies], get_AuxInputCount method [Microsoft TV Technologies],IBDA_AutoDemodulateEx interface, mstv.ibda_autodemodulateex_get_auxinputcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_AutoDemodulateEx.get_AuxInputCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_AutoDemodulateEx::get_AuxInputCount

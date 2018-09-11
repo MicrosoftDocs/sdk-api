@@ -4,17 +4,16 @@ title: IVdsLunNumber::GetLunNumber
 author: windows-sdk-content
 description: Retrieves the LUN number for a LUN.
 old-location: base\ivdslunnumber_getlunnumber.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 79aa7dc1-ef46-4b6d-8088-e42839625a16
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetLunNumber, GetLunNumber method, GetLunNumber method,IVdsLunNumber interface, IVdsLunNumber interface,GetLunNumber method, IVdsLunNumber.GetLunNumber, IVdsLunNumber::GetLunNumber, base.ivdslunnumber_getlunnumber, vds/IVdsLunNumber::GetLunNumber, vdshwprv/IVdsLunNumber::GetLunNumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLunNumber.GetLunNumber
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsLunNumber::GetLunNumber

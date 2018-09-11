@@ -4,17 +4,16 @@ title: OPMGetVideoOutputsFromIDirect3DDevice9Object function
 author: windows-sdk-content
 description: Creates an Output Protection Manager (OPM) object for each physical monitor that is associated with a particular Direct3D device.
 old-location: mf\opmgetvideooutputsfromidirect3ddevice9object.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9b287058-9e06-4c40-84f4-506aefce5b8a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: OPMGetVideoOutputsFromIDirect3DDevice9Object, OPMGetVideoOutputsFromIDirect3DDevice9Object function [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, mf.opmgetvideooutputsfromidirect3ddevice9object, opmapi/OPMGetVideoOutputsFromIDirect3DDevice9Object
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: opmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_VIDEO_OUTPUT_SEMANTICS
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPMGetVideoOutputsFromIDirect3DDevice9Object
 product: Windows
 targetos: Windows
-req.lib: Dxva2.lib
-req.dll: Dxva2.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OPMGetVideoOutputsFromIDirect3DDevice9Object function

@@ -4,17 +4,16 @@ title: IInkRecognizerGuide::get_Rows
 author: windows-sdk-content
 description: Gets or sets the number of rows in the recognition guide.
 old-location: tablet\inkrecognizerguide_rows.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 5b1204ca-40b0-4752-8294-6f94412e8e7c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 5b1204ca-40b0-4752-8294-6f94412e8e7c, IInkRecognizerGuide interface [Tablet PC],Rows property, IInkRecognizerGuide.Rows, IInkRecognizerGuide.get_Rows, IInkRecognizerGuide::Rows, IInkRecognizerGuide::get_Rows, IInkRecognizerGuide::put_Rows, InkRecognizerGuide.get_Rows, InkRecognizerGuide.put_Rows, Rows property [Tablet PC], Rows property [Tablet PC],IInkRecognizerGuide interface, get_Rows, msinkaut/IInkRecognizerGuide::Rows, msinkaut/IInkRecognizerGuide::get_Rows, msinkaut/IInkRecognizerGuide::put_Rows, put_Rows, tablet.inkrecognizerguide_rows
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkRecognizerGuide.put_Rows
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizerGuide::get_Rows

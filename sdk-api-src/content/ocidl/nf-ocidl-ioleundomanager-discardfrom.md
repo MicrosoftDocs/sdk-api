@@ -4,17 +4,16 @@ title: IOleUndoManager::DiscardFrom
 author: windows-sdk-content
 description: Instructs the undo manager to discard the specified undo unit and all undo units below it on the undo or redo stack.
 old-location: com\ioleundomanager_discardfrom.htm
-old-project: com
+tech.root: com
 ms.assetid: eb742d04-63cb-4505-bc91-8d87267a3a4a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DiscardFrom, DiscardFrom method [COM], DiscardFrom method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],DiscardFrom method, IOleUndoManager.DiscardFrom, IOleUndoManager::DiscardFrom, _ole_ioleundomanager_discardfrom, com.ioleundomanager_discardfrom, ocidl/IOleUndoManager::DiscardFrom
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleUndoManager.DiscardFrom
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleUndoManager::DiscardFrom

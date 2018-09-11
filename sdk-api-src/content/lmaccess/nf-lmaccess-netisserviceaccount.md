@@ -4,17 +4,16 @@ title: NetIsServiceAccount function
 author: windows-sdk-content
 description: Tests whether the specified standalone managed service account (sMSA) or group managed service account (gMSA) exists in the Netlogon store on the specified server.
 old-location: security\netisserviceaccount.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: 975e7c0d-d803-4d78-99ed-d07369341674
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetIsServiceAccount, NetIsServiceAccount function [Security], lmaccess/NetIsServiceAccount, security.netisserviceaccount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
+req.lib: 
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetIsServiceAccount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetIsServiceAccount function

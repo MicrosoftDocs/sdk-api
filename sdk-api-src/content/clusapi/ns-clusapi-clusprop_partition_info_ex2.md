@@ -4,17 +4,16 @@ title: CLUSPROP_PARTITION_INFO_EX2
 author: windows-sdk-content
 description: A value list entry that contains partition information for a storage class resource. This structure is as a input, and a as a return value for the CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO_EX2 control code.
 old-location: mscs\clusprop_partition_info_ex2.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: D6D26335-80D0-4949-99B4-FE18DD2FFF3C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUSPROP_PARTITION_INFO_EX2, CLUSPROP_PARTITION_INFO_EX2, CLUSPROP_PARTITION_INFO_EX2 structure [Failover Cluster], clusapi/CLUSPROP_PARTITION_INFO_EX2, mscs.clusprop_partition_info_ex2"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSPROP_PARTITION_INFO_EX2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSPROP_PARTITION_INFO_EX2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSPROP_PARTITION_INFO_EX2
+req.redist: 
 ---
 
 # CLUSPROP_PARTITION_INFO_EX2 structure

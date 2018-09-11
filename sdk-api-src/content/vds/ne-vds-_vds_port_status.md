@@ -4,17 +4,16 @@ title: "_VDS_PORT_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a port.
 old-location: base\vds_port_status.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 6e363020-caf4-4028-abd5-7f311edb2e69
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVDS_PORT_STATUS, VDS_PORT_STATUS, VDS_PORT_STATUS enumeration [VDS], VDS_PRS_FAILED, VDS_PRS_NOT_READY, VDS_PRS_OFFLINE, VDS_PRS_ONLINE, VDS_PRS_REMOVED, VDS_PRS_UNKNOWN, _VDS_PORT_STATUS, base.vds_port_status, vds/VDS_PORT_STATUS, vds/VDS_PRS_FAILED, vds/VDS_PRS_NOT_READY, vds/VDS_PRS_OFFLINE, vds/VDS_PRS_ONLINE, vds/VDS_PRS_REMOVED, vds/VDS_PRS_UNKNOWN, vdshwprv/VDS_PORT_STATUS, vdshwprv/VDS_PRS_FAILED, vdshwprv/VDS_PRS_NOT_READY, vdshwprv/VDS_PRS_OFFLINE, vdshwprv/VDS_PRS_ONLINE, vdshwprv/VDS_PRS_REMOVED, vdshwprv/VDS_PRS_UNKNOWN"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PORT_STATUS, *PVDS_PORT_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_PORT_STATUS
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PORT_STATUS, *PVDS_PORT_STATUS
+req.redist: 
 ---
 
 # _VDS_PORT_STATUS enumeration

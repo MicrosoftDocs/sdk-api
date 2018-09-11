@@ -4,17 +4,16 @@ title: "_SERVER_INFO_1503"
 author: windows-sdk-content
 description: The SERVER_INFO_1503 structure specifies the number of search operations that can be carried out simultaneously.
 old-location: netmgmt\server_info_1503_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: c369b350-a172-4989-a691-e7af0236c6a0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVER_INFO_1503, *PSERVER_INFO_1503, LPSERVER_INFO_1503, LPSERVER_INFO_1503 structure pointer [Network Management], PSERVER_INFO_1503, PSERVER_INFO_1503 structure pointer [Network Management], SERVER_INFO_1503, SERVER_INFO_1503 structure [Network Management], _SERVER_INFO_1503, _win32_server_info_1503_str, lmserver/LPSERVER_INFO_1503, lmserver/PSERVER_INFO_1503, lmserver/SERVER_INFO_1503, netmgmt.server_info_1503_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVER_INFO_1503, *PSERVER_INFO_1503, *LPSERVER_INFO_1503
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVER_INFO_1503
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SERVER_INFO_1503, *PSERVER_INFO_1503, *LPSERVER_INFO_1503
+req.redist: 
 ---
 
 # _SERVER_INFO_1503 structure

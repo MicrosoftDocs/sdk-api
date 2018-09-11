@@ -4,17 +4,16 @@ title: IFsrmPropertyDefinition::put_ValueDescriptions
 author: windows-sdk-content
 description: Descriptions for each of the possible values specified in the PossibleValues property.
 old-location: fsrm\ifsrmpropertydefinition_valuedescriptions.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 3c6a9457-c1bb-4bc3-853a-3676bb4ce6bb
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmPropertyDefinition interface [File Server Resource Manager],ValueDescriptions property, IFsrmPropertyDefinition.ValueDescriptions, IFsrmPropertyDefinition.put_ValueDescriptions, IFsrmPropertyDefinition::ValueDescriptions, IFsrmPropertyDefinition::get_ValueDescriptions, IFsrmPropertyDefinition::put_ValueDescriptions, ValueDescriptions property [File Server Resource Manager], ValueDescriptions property [File Server Resource Manager],IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_valuedescriptions, fsrm.ifsrmpropertydefinition_valuedescriptions, fsrmpipeline/IFsrmPropertyDefinition::ValueDescriptions, fsrmpipeline/IFsrmPropertyDefinition::get_ValueDescriptions, fsrmpipeline/IFsrmPropertyDefinition::put_ValueDescriptions, put_ValueDescriptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmPropertyDefinition.put_ValueDescriptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPropertyDefinition::put_ValueDescriptions

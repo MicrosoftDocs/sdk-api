@@ -4,17 +4,16 @@ title: IDXGIResource::SetEvictionPriority
 author: windows-sdk-content
 description: Set the priority for evicting the resource from memory.
 old-location: direct3ddxgi\idxgiresource_setevictionpriority.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource_setevictionpriority.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 27202bac-1045-b4a9-634f-9fe77668f2ab, DXGI_RESOURCE_PRIORITY_HIGH (0xa0000000), DXGI_RESOURCE_PRIORITY_LOW (0x50000000), DXGI_RESOURCE_PRIORITY_MAXIMUM (0xc8000000), DXGI_RESOURCE_PRIORITY_MINIMUM (0x28000000), DXGI_RESOURCE_PRIORITY_NORMAL (0x78000000), IDXGIResource interface [DXGI],SetEvictionPriority method, IDXGIResource.SetEvictionPriority, IDXGIResource::SetEvictionPriority, SetEvictionPriority, SetEvictionPriority method [DXGI], SetEvictionPriority method [DXGI],IDXGIResource interface, direct3ddxgi.idxgiresource_setevictionpriority, dxgi/IDXGIResource::SetEvictionPriority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIResource.SetEvictionPriority
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIResource::SetEvictionPriority

@@ -4,17 +4,16 @@ title: IMFSimpleAudioVolume::SetMute
 author: windows-sdk-content
 description: Mutes or unmutes the audio.
 old-location: mf\imfsimpleaudiovolume_setmute.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d8840d15-d4d5-481e-9002-54fdbf323c9c
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFSimpleAudioVolume interface [Media Foundation],SetMute method, IMFSimpleAudioVolume.SetMute, IMFSimpleAudioVolume::SetMute, SetMute, SetMute method [Media Foundation], SetMute method [Media Foundation],IMFSimpleAudioVolume interface, d8840d15-d4d5-481e-9002-54fdbf323c9c, mf.imfsimpleaudiovolume_setmute, mfidl/IMFSimpleAudioVolume::SetMute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSimpleAudioVolume.SetMute
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSimpleAudioVolume::SetMute

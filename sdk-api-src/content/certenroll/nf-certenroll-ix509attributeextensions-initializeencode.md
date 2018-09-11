@@ -4,17 +4,16 @@ title: IX509AttributeExtensions::InitializeEncode
 author: windows-sdk-content
 description: Initializes the object from an IX509Extensions collection.
 old-location: security\ix509attributeextensions_initializeencode_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: f5b6f0b9-ca49-42f2-842c-34c2445c3824
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509AttributeExtensions interface [Security],InitializeEncode method, IX509AttributeExtensions.InitializeEncode, IX509AttributeExtensions::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeExtensions interface, certenroll/IX509AttributeExtensions::InitializeEncode, security.ix509attributeextensions_initializeencode_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509AttributeExtensions.InitializeEncode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509AttributeExtensions::InitializeEncode
@@ -61,7 +60,7 @@ The <b>InitializeEncode</b> method initializes the object from an <a href="https
 
 ### -param pExtensions
 
-
+TBD
 
 
 

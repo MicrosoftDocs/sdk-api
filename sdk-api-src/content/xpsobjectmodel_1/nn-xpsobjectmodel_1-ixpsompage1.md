@@ -4,7 +4,7 @@ title: IXpsOMPage1
 author: windows-sdk-content
 description: Inherits from IXpsOMPage.
 old-location: xps\ixpsompage1.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 4f4ec7d9-da77-4d34-89aa-a73250c0e610
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_DOCUMENT_TYPE
+req.lib: None
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IXpsOMPage1
 product: Windows
 targetos: Windows
-req.lib: None
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMPage1 interface

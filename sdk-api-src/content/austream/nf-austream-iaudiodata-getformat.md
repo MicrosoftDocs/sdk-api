@@ -4,17 +4,16 @@ title: IAudioData::GetFormat
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetFormat method retrieves the current data format.
 old-location: dshow\iaudiodata_getformat.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7b06592d-2b9d-4f5a-bf74-331b07a13f0f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAudioData interface, IAudioData interface [DirectShow],GetFormat method, IAudioData.GetFormat, IAudioData::GetFormat, IAudioDataGetFormat, austream/IAudioData::GetFormat, dshow.iaudiodata_getformat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: austream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioData.GetFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioData::GetFormat

@@ -4,17 +4,16 @@ title: "_CRYPT_PROPERTY_REF"
 author: windows-sdk-content
 description: Contains information about a CNG context property.
 old-location: security\crypt_property_ref.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 450225b8-87f2-4ce2-853d-e78cf64bd13d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_PROPERTY_REF, CRYPT_PROPERTY_REF, CRYPT_PROPERTY_REF structure [Security], PCRYPT_PROPERTY_REF, PCRYPT_PROPERTY_REF structure pointer [Security], _CRYPT_PROPERTY_REF, bcrypt/CRYPT_PROPERTY_REF, bcrypt/PCRYPT_PROPERTY_REF, security.crypt_property_ref"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_PROPERTY_REF, *PCRYPT_PROPERTY_REF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_PROPERTY_REF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_PROPERTY_REF, *PCRYPT_PROPERTY_REF
+req.redist: 
 ---
 
 # _CRYPT_PROPERTY_REF structure

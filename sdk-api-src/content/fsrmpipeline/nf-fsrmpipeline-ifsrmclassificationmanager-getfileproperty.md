@@ -4,17 +4,16 @@ title: IFsrmClassificationManager::GetFileProperty
 author: windows-sdk-content
 description: Retrieves the specified property from the file or folder.
 old-location: fsrm\ifsrmclassificationmanager_getfileproperty.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: c8a3c4cb-4753-495b-88f4-2d6cdfef7dc7
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],GetFileProperty method, GetFileProperty, GetFileProperty method [File Server Resource Manager], GetFileProperty method [File Server Resource Manager],FsrmClassificationManager class, GetFileProperty method [File Server Resource Manager],IFsrmClassificationManager interface, GetFileProperty method [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],GetFileProperty method, IFsrmClassificationManager.GetFileProperty, IFsrmClassificationManager2 interface [File Server Resource Manager],GetFileProperty method, IFsrmClassificationManager2::GetFileProperty, IFsrmClassificationManager::GetFileProperty, fs.ifsrmclassificationmanager_getfileproperty, fsrm.ifsrmclassificationmanager_getfileproperty, fsrmpipeline/IFsrmClassificationManager2::GetFileProperty, fsrmpipeline/IFsrmClassificationManager::GetFileProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmClassificationManager.GetFileProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassificationManager::GetFileProperty

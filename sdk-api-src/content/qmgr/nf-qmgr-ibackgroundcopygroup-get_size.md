@@ -4,17 +4,16 @@ title: IBackgroundCopyGroup::get_Size
 author: windows-sdk-content
 description: Use the get_Size method to retrieve the size of all files in the group to download.
 old-location: bits\ibackgroundcopygroup_get_size.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 69190b6a-6920-4f84-9109-12079f00a6ae
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],get_Size method, IBackgroundCopyGroup.get_Size, IBackgroundCopyGroup::get_Size, bits.ibackgroundcopygroup_get_size, get_Size, get_Size method [BITS], get_Size method [BITS],IBackgroundCopyGroup interface, qmgr/IBackgroundCopyGroup::get_Size
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyGroup.get_Size
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyGroup::get_Size

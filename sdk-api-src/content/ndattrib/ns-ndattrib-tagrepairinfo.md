@@ -4,7 +4,7 @@ title: tagRepairInfo
 author: windows-sdk-content
 description: The RepairInfo structure contains data required for a particular repair option.
 old-location: ndf\repairinfo.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: 07639ac5-e586-4ab1-96e8-502c378de940
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndattrib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ndattrib.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RepairInfo, *PRepairInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RepairInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: RepairInfo, *PRepairInfo
+req.redist: 
 ---
 
 # tagRepairInfo structure

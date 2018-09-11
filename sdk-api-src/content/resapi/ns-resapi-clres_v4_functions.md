@@ -4,17 +4,16 @@ title: CLRES_V4_FUNCTIONS
 author: windows-sdk-content
 description: Contains pointers to all Resource API version 4.0 entry points, except StartupEx.
 old-location: mscs\clres_v4_functions.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: B3722540-2AC2-4B31-A22B-D40DE0AFA7BD
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLRES_V4_FUNCTIONS, CLRES_V4_FUNCTIONS, CLRES_V4_FUNCTIONS structure [Failover Cluster], PCLRES_V4_FUNCTIONS, PCLRES_V4_FUNCTIONS structure pointer [Failover Cluster], mscs.clres_v4_functions, resapi/CLRES_V4_FUNCTIONS, resapi/PCLRES_V4_FUNCTIONS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLRES_V4_FUNCTIONS, *PCLRES_V4_FUNCTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLRES_V4_FUNCTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CLRES_V4_FUNCTIONS, *PCLRES_V4_FUNCTIONS
+req.redist: 
 ---
 
 # CLRES_V4_FUNCTIONS structure

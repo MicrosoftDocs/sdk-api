@@ -4,17 +4,16 @@ title: IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex
 author: windows-sdk-content
 description: Gets a service identifier from a specified service record in an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 old-location: mstv\iisdbtsinformationdescriptor_getrecordserviceidbyindex.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 40738938-226d-4220-8092-a029bd6c038d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordServiceIdByIndex, GetRecordServiceIdByIndex method [Microsoft TV Technologies], GetRecordServiceIdByIndex method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetRecordServiceIdByIndex method, IIsdbTSInformationDescriptor.GetRecordServiceIdByIndex, IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex, dvbsiparser/IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex, mstv.iisdbtsinformationdescriptor_getrecordserviceidbyindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbTSInformationDescriptor.GetRecordServiceIdByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex

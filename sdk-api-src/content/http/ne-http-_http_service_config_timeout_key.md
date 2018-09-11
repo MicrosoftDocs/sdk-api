@@ -4,7 +4,7 @@ title: "_HTTP_SERVICE_CONFIG_TIMEOUT_KEY"
 author: windows-sdk-content
 description: The HTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration defines the type of timer that is queried or configured through the HTTP_SERVICE_CONFIG_TIMEOUT_SET structure.
 old-location: http\http_service_config_timeout_key.htm
-old-project: http
+tech.root: http
 ms.assetid: e591a6b8-e63f-40c3-bd48-e14cb9f89453
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_SERVICE_CONFIG_TIMEOUT_KEY, *PHTTP_SERVICE_CONFIG_TIMEOUT_KEY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_SERVICE_CONFIG_TIMEOUT_KEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_SERVICE_CONFIG_TIMEOUT_KEY, *PHTTP_SERVICE_CONFIG_TIMEOUT_KEY
+req.redist: 
 ---
 
 # _HTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration

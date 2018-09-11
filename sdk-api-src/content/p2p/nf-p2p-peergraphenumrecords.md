@@ -4,17 +4,16 @@ title: PeerGraphEnumRecords function
 author: windows-sdk-content
 description: The PeerGraphEnumRecords function creates and returns an enumeration handle used to enumerate records of a specific type of record, user, or both. An enumeration provides a snapshot of records at the time an enumeration is performed.
 old-location: p2p\peergraphenumrecords.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 528c7172-56ed-4e14-991a-69e9fde7b227
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerGraphEnumRecords, PeerGraphEnumRecords function [Peer Networking], p2p.peergraphenumrecords, p2p/PeerGraphEnumRecords
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2PGraph.lib
+req.dll: P2PGraph.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerGraphEnumRecords
 product: Windows
 targetos: Windows
-req.lib: P2PGraph.lib
-req.dll: P2PGraph.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerGraphEnumRecords function

@@ -4,17 +4,16 @@ title: IUserAccountChangeCallback
 author: windows-sdk-content
 description: Exposes a method which is called when the picture that represents a user account is changed.
 old-location: shell\IUserAccountChangeCallback.htm
-old-project: shell
+tech.root: shell
 ms.assetid: de72aa25-7d0c-445c-aa1b-f0f3bdc07d10
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IUserAccountChangeCallback, IUserAccountChangeCallback interface [Windows Shell], IUserAccountChangeCallback interface [Windows Shell],described, _shell_IUserAccountChangeCallback, shell.IUserAccountChangeCallback, shobjidl/IUserAccountChangeCallback
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUserAccountChangeCallback
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Shell32.dll (version 6.0.6000 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IUserAccountChangeCallback interface

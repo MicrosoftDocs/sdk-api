@@ -4,17 +4,16 @@ title: ITAddress2::EnumeratePreferredPhones
 author: windows-sdk-content
 description: The EnumeratePreferredPhones method enumerates the preferred phone objects for this address.
 old-location: tapi3\itaddress2_enumeratepreferredphones.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: a5a02f79-59b3-43f0-9b3b-fdd7839ba026
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumeratePreferredPhones, EnumeratePreferredPhones method [TAPI 2.2], EnumeratePreferredPhones method [TAPI 2.2],ITAddress2 interface, ITAddress2 interface [TAPI 2.2],EnumeratePreferredPhones method, ITAddress2.EnumeratePreferredPhones, ITAddress2::EnumeratePreferredPhones, _tapi3_itaddress2_enumeratepreferredphones, tapi3.itaddress2_enumeratepreferredphones, tapi3if/ITAddress2::EnumeratePreferredPhones
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddress2.EnumeratePreferredPhones
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddress2::EnumeratePreferredPhones

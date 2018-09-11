@@ -4,7 +4,7 @@ title: IWMSInternalAdminNetSource2
 author: windows-sdk-content
 description: The IWMSInternalAdminNetSource2 interface provides improved methods for password caching.
 old-location: wmformat\iwmsinternaladminnetsource2.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 6d334725-11d5-4249-a83d-fc8c1c35a56f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETSOURCE_URLCREDPOLICY_SETTINGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMSInternalAdminNetSource2.FindProxyForURLEx
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMSInternalAdminNetSource2 interface

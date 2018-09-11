@@ -4,17 +4,16 @@ title: ITraceDataCollector::get_FreeBuffers
 author: windows-sdk-content
 description: Retrieves the number of buffers that are allocated but unused in the event tracing session's buffer pool.
 old-location: pla\itracedatacollector_freebuffers.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 9e6d3c7d-4c73-452f-98fa-6c9d1bc912ff
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: FreeBuffers property [PLA], FreeBuffers property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],FreeBuffers property, ITraceDataCollector.FreeBuffers, ITraceDataCollector.get_FreeBuffers, ITraceDataCollector::FreeBuffers, ITraceDataCollector::get_FreeBuffers, base.itracedatacollector_freebuffers, get_FreeBuffers, pla.itracedatacollector_freebuffers, pla/ITraceDataCollector::FreeBuffers, pla/ITraceDataCollector::get_FreeBuffers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITraceDataCollector.get_FreeBuffers
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataCollector::get_FreeBuffers

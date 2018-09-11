@@ -4,17 +4,16 @@ title: IPBDASiParser::GetServices
 author: windows-sdk-content
 description: Retrieves a list of services from the program and system information protocol (PSIP) tables in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbdasiparser_getservices.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0d6848f2-6fcd-4e7c-b1fc-b8f56e6c65b6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetServices, GetServices method [Microsoft TV Technologies], GetServices method [Microsoft TV Technologies],IPBDASiParser interface, IPBDASiParser interface [Microsoft TV Technologies],GetServices method, IPBDASiParser.GetServices, IPBDASiParser::GetServices, dshow.ipbdasiparser_getservices, dvbsiparser/IPBDASiParser::GetServices, mstv.ipbdasiparser_getservices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPBDASiParser.GetServices
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IPBDASiParser::GetServices

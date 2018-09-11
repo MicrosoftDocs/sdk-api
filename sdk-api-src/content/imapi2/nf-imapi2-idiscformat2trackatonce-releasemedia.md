@@ -4,17 +4,16 @@ title: IDiscFormat2TrackAtOnce::ReleaseMedia
 author: windows-sdk-content
 description: Closes the track-writing session and releases the lock.
 old-location: imapi\idiscformat2trackatonce_releasemedia.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 0d6f85a9-94cc-426c-8442-14eb6e4024f3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],ReleaseMedia method, IDiscFormat2TrackAtOnce.ReleaseMedia, IDiscFormat2TrackAtOnce::ReleaseMedia, ReleaseMedia, ReleaseMedia method [IMAPI], ReleaseMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_releasemedia, imapi2/IDiscFormat2TrackAtOnce::ReleaseMedia
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2TrackAtOnce.ReleaseMedia
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2TrackAtOnce::ReleaseMedia

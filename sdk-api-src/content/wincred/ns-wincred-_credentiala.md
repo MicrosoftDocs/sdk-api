@@ -4,17 +4,16 @@ title: "_CREDENTIALA"
 author: windows-sdk-content
 description: The CREDENTIAL structure contains an individual credential.
 old-location: security\credential.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 6361b93c-4441-4a01-bd39-b95c42962497
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCREDENTIALA, CREDENTIAL, CREDENTIAL structure [Security], CREDENTIALA, CREDENTIALW, CRED_FLAGS_PROMPT_NOW, CRED_FLAGS_USERNAME_TARGET, CRED_PERSIST_ENTERPRISE, CRED_PERSIST_LOCAL_MACHINE, CRED_PERSIST_SESSION, CRED_TYPE_DOMAIN_CERTIFICATE, CRED_TYPE_DOMAIN_EXTENDED, CRED_TYPE_DOMAIN_PASSWORD, CRED_TYPE_DOMAIN_VISIBLE_PASSWORD, CRED_TYPE_GENERIC, CRED_TYPE_GENERIC_CERTIFICATE, CRED_TYPE_MAXIMUM, CRED_TYPE_MAXIMUM_EX, PCREDENTIAL, PCREDENTIAL structure pointer [Security], _CREDENTIALA, _cred_credential, security.credential, wincred/CREDENTIAL, wincred/CREDENTIALA, wincred/CREDENTIALW, wincred/PCREDENTIAL"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIALA, *PCREDENTIALA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CREDENTIALW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CREDENTIALA, *PCREDENTIALA
+req.redist: 
 ---
 
 # _CREDENTIALA structure

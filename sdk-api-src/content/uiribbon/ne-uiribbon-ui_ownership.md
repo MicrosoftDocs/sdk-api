@@ -4,17 +4,16 @@ title: UI_OWNERSHIP
 author: windows-sdk-content
 description: Specifies values that identify the ownership conditions under which an image is created by the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_ui_ownership.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_ownership.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_OWNERSHIP, UI_OWNERSHIP enumeration [Windows Ribbon], UI_OWNERSHIP_COPY, UI_OWNERSHIP_TRANSFER, scenicintent_UI_OWNERSHIP, uiribbon/UI_OWNERSHIP, uiribbon/UI_OWNERSHIP_COPY, uiribbon/UI_OWNERSHIP_TRANSFER, windowsribbon.windowsribbon_ui_ownership
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_OWNERSHIP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_OWNERSHIP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: UI_OWNERSHIP
+req.redist: 
 ---
 
 # UI_OWNERSHIP enumeration

@@ -4,7 +4,7 @@ title: "_MFSHUTDOWN_STATUS"
 author: windows-sdk-content
 description: Describes the current status of a call to the IMFShutdown::Shutdown method.
 old-location: mf\mfshutdown_status.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: a2257260-3f2c-4c6b-88cc-b8927b899782
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSHUTDOWN_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFSHUTDOWN_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFSHUTDOWN_STATUS
+req.redist: 
 ---
 
 # _MFSHUTDOWN_STATUS enumeration

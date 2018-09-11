@@ -4,17 +4,16 @@ title: "_TOKEN_INFORMATION_CLASS"
 author: windows-sdk-content
 description: Contains values that specify the type of information being assigned to or retrieved from an access token.
 old-location: security\token_information_class.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: cb606665-1266-4e71-a145-9b04bf157cdc
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PTOKEN_INFORMATION_CLASS, MaxTokenInfoClass, PTOKEN_INFORMATION_CLASS, PTOKEN_INFORMATION_CLASS enumeration pointer [Security], TOKEN_INFORMATION_CLASS, TOKEN_INFORMATION_CLASS enumeration [Security], TokenAccessInformation, TokenAppContainerNumber, TokenAppContainerSid, TokenAuditPolicy, TokenCapabilities, TokenDefaultDacl, TokenDeviceClaimAttributes, TokenDeviceGroups, TokenElevation, TokenElevationType, TokenGroups, TokenGroupsAndPrivileges, TokenHasRestrictions, TokenImpersonationLevel, TokenIntegrityLevel, TokenIsAppContainer, TokenIsRestricted, TokenLinkedToken, TokenLogonSid, TokenMandatoryPolicy, TokenOrigin, TokenOwner, TokenPrimaryGroup, TokenPrivileges, TokenRestrictedDeviceClaimAttributes, TokenRestrictedDeviceGroups, TokenRestrictedSids, TokenRestrictedUserClaimAttributes, TokenSandBoxInert, TokenSecurityAttributes, TokenSessionId, TokenSessionReference, TokenSource, TokenStatistics, TokenType, TokenUIAccess, TokenUser, TokenUserClaimAttributes, TokenVirtualizationAllowed, TokenVirtualizationEnabled, _TOKEN_INFORMATION_CLASS, _win32_token_information_class_str, security.token_information_class, winnt/MaxTokenInfoClass, winnt/PTOKEN_INFORMATION_CLASS, winnt/TOKEN_INFORMATION_CLASS, winnt/TokenAccessInformation, winnt/TokenAppContainerNumber, winnt/TokenAppContainerSid, winnt/TokenAuditPolicy, winnt/TokenCapabilities, winnt/TokenDefaultDacl, winnt/TokenDeviceClaimAttributes, winnt/TokenDeviceGroups, winnt/TokenElevation, winnt/TokenElevationType, winnt/TokenGroups, winnt/TokenGroupsAndPrivileges, winnt/TokenHasRestrictions, winnt/TokenImpersonationLevel, winnt/TokenIntegrityLevel, winnt/TokenIsAppContainer, winnt/TokenIsRestricted, winnt/TokenLinkedToken, winnt/TokenLogonSid, winnt/TokenMandatoryPolicy, winnt/TokenOrigin, winnt/TokenOwner, winnt/TokenPrimaryGroup, winnt/TokenPrivileges, winnt/TokenRestrictedDeviceClaimAttributes, winnt/TokenRestrictedDeviceGroups, winnt/TokenRestrictedSids, winnt/TokenRestrictedUserClaimAttributes, winnt/TokenSandBoxInert, winnt/TokenSecurityAttributes, winnt/TokenSessionId, winnt/TokenSessionReference, winnt/TokenSource, winnt/TokenStatistics, winnt/TokenType, winnt/TokenUIAccess, winnt/TokenUser, winnt/TokenUserClaimAttributes, winnt/TokenVirtualizationAllowed, winnt/TokenVirtualizationEnabled"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKEN_INFORMATION_CLASS, *PTOKEN_INFORMATION_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKEN_INFORMATION_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: TOKEN_INFORMATION_CLASS, *PTOKEN_INFORMATION_CLASS
+req.redist: 
 ---
 
 # _TOKEN_INFORMATION_CLASS enumeration

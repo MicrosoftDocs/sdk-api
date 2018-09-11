@@ -4,17 +4,16 @@ title: IMFASFContentInfo::GetProfile
 author: windows-sdk-content
 description: Retrieves an Advanced Systems Format (ASF) profile that describes the ASF content.
 old-location: mf\imfasfcontentinfo_getprofile.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6f74c896-a0c0-407b-b893-de15863bc2eb
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 6f74c896-a0c0-407b-b893-de15863bc2eb, GetProfile, GetProfile method [Media Foundation], GetProfile method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GetProfile method, IMFASFContentInfo.GetProfile, IMFASFContentInfo::GetProfile, mf.imfasfcontentinfo_getprofile, wmcontainer/IMFASFContentInfo::GetProfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFContentInfo.GetProfile
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFContentInfo::GetProfile

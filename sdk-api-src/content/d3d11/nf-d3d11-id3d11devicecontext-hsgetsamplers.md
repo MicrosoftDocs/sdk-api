@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::HSGetSamplers
 author: windows-sdk-content
 description: Get an array of sampler state interfaces from the hull-shader stage.
 old-location: direct3d11\id3d11devicecontext_hsgetsamplers.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 68200f28-85af-4275-8e9e-7f093fd94a0c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HSGetSamplers, HSGetSamplers method [Direct3D 11], HSGetSamplers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSGetSamplers method, ID3D11DeviceContext.HSGetSamplers, ID3D11DeviceContext::HSGetSamplers, c5ee5b99-92fc-30d9-6336-840480f3c84a, d3d11/ID3D11DeviceContext::HSGetSamplers, direct3d11.id3d11devicecontext_hsgetsamplers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.HSGetSamplers
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::HSGetSamplers

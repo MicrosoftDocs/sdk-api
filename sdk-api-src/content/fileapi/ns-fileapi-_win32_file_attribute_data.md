@@ -4,7 +4,7 @@ title: "_WIN32_FILE_ATTRIBUTE_DATA"
 author: windows-sdk-content
 description: Contains attribute information for a file or directory.
 old-location: fs\win32_file_attribute_data_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: e1a7fb5c-2d69-40e3-b9d8-b583a03d828a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_FILE_ATTRIBUTE_DATA, *LPWIN32_FILE_ATTRIBUTE_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WIN32_FILE_ATTRIBUTE_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: WIN32_FILE_ATTRIBUTE_DATA, *LPWIN32_FILE_ATTRIBUTE_DATA
+req.redist: 
 ---
 
 # _WIN32_FILE_ATTRIBUTE_DATA structure

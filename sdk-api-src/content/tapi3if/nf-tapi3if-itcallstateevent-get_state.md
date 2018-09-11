@@ -4,17 +4,16 @@ title: ITCallStateEvent::get_State
 author: windows-sdk-content
 description: The get_State method gets information on the new call state.
 old-location: tapi3\itcallstateevent_get_state.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 45e46b99-c65f-4296-9537-7fb7a4210727
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallStateEvent interface [TAPI 2.2],get_State method, ITCallStateEvent.get_State, ITCallStateEvent::get_State, _tapi3_itcallstateevent_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITCallStateEvent interface, tapi3.itcallstateevent_get_state, tapi3if/ITCallStateEvent::get_State
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallStateEvent.get_State
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallStateEvent::get_State

@@ -4,17 +4,16 @@ title: IVideoWindow::put_BackgroundPalette
 author: windows-sdk-content
 description: The put_BackgroundPalette method specifies whether the video window realizes its palette in the background.
 old-location: dshow\ivideowindow_put_backgroundpalette.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0b1d34b6-0043-4929-a496-cf84b5d47b55
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_BackgroundPalette method, IVideoWindow.put_BackgroundPalette, IVideoWindow::put_BackgroundPalette, IVideoWindowput_BackgroundPalette, control/IVideoWindow::put_BackgroundPalette, dshow.ivideowindow_put_backgroundpalette, put_BackgroundPalette, put_BackgroundPalette method [DirectShow], put_BackgroundPalette method [DirectShow],IVideoWindow interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IVideoWindow.put_BackgroundPalette
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoWindow::put_BackgroundPalette

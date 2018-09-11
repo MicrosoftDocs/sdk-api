@@ -4,17 +4,16 @@ title: CoGetMalloc function
 author: windows-sdk-content
 description: Retrieves a pointer to the default OLE task memory allocator (which supports the system implementation of the IMalloc interface) so applications can call its methods to manage memory.
 old-location: com\cogetmalloc.htm
-old-project: com
+tech.root: com
 ms.assetid: d1d09fbe-ca5c-4480-b807-3afcc043ccb9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoGetMalloc, CoGetMalloc function [COM], _com_CoGetMalloc, com.cogetmalloc, combaseapi/CoGetMalloc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CoGetMalloc
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoGetMalloc function

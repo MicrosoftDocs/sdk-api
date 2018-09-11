@@ -4,17 +4,16 @@ title: LsnBlockOffset function
 author: windows-sdk-content
 description: Returns the sector-aligned block offset that is contained in the specified LSN.
 old-location: fs\lsnblockoffset.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 72445d03-1b9a-48a6-993e-792e1f524f4b
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: LsnBlockOffset, LsnBlockOffset function [Files], clfsw32/LsnBlockOffset, fs.lsnblockoffset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - LsnBlockOffset
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # LsnBlockOffset function

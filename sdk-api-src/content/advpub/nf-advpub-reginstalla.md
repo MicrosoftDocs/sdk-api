@@ -4,17 +4,16 @@ title: RegInstallA function
 author: windows-sdk-content
 description: Updates the string registry values in the provided table.
 old-location: winprog\reginstalla.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 53BE8B69-2028-42EB-9A45-6CE776A7B9A6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RegInstallA, RegInstallA function [Windows API], advpub/RegInstallA, winprog.reginstalla
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: advpub.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIT_PARAM_TYPE
+req.lib: Advpack.lib
+req.dll: Advpack.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RegInstallA
 product: Windows
 targetos: Windows
-req.lib: Advpack.lib
-req.dll: Advpack.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # RegInstallA function

@@ -4,17 +4,16 @@ title: "_KERB_RETRIEVE_TKT_REQUEST"
 author: windows-sdk-content
 description: Contains information used to retrieve a ticket.
 old-location: security\kerb_retrieve_tkt_request.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 3b088c94-810b-44c7-887a-58e8dbd13603
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PKERB_RETRIEVE_TKT_REQUEST, >127, KERB_ETYPE_DES_CBC_CRC, KERB_ETYPE_DES_CBC_MD4, KERB_ETYPE_DES_CBC_MD5, KERB_ETYPE_NULL, KERB_ETYPE_RC4_HMAC_NT, KERB_ETYPE_RC4_MD4, KERB_RETRIEVE_TICKET_AS_KERB_CRED, KERB_RETRIEVE_TICKET_CACHE_TICKET, KERB_RETRIEVE_TICKET_DONT_USE_CACHE, KERB_RETRIEVE_TICKET_MAX_LIFETIME, KERB_RETRIEVE_TICKET_USE_CACHE_ONLY, KERB_RETRIEVE_TICKET_USE_CREDHANDLE, KERB_RETRIEVE_TICKET_WITH_SEC_CRED, KERB_RETRIEVE_TKT_REQUEST, KERB_RETRIEVE_TKT_REQUEST structure [Security], PKERB_RETRIEVE_TKT_REQUEST, PKERB_RETRIEVE_TKT_REQUEST structure pointer [Security], _KERB_RETRIEVE_TKT_REQUEST, _lsa_kerb_retrieve_tkt_request, ntsecapi/KERB_RETRIEVE_TKT_REQUEST, ntsecapi/PKERB_RETRIEVE_TKT_REQUEST, security.kerb_retrieve_tkt_request"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_RETRIEVE_TKT_REQUEST, *PKERB_RETRIEVE_TKT_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_RETRIEVE_TKT_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_RETRIEVE_TKT_REQUEST, *PKERB_RETRIEVE_TKT_REQUEST
+req.redist: 
 ---
 
 # _KERB_RETRIEVE_TKT_REQUEST structure

@@ -4,17 +4,16 @@ title: IISDB_LDT::GetRecordDescriptionId
 author: windows-sdk-content
 description: Gets the record description ID from an Integrated services Digital Broadcasting System (IDBS) linked description table (LDT). The description ID field identifies a collected description in the LDT.
 old-location: mstv\iisdb_ldt_getrecorddescriptionid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0c101068-8a33-4c65-b553-fcd5989c4bd7
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordDescriptionId, GetRecordDescriptionId method [Microsoft TV Technologies], GetRecordDescriptionId method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetRecordDescriptionId method, IISDB_LDT.GetRecordDescriptionId, IISDB_LDT::GetRecordDescriptionId, dvbsiparser/IISDB_LDT::GetRecordDescriptionId, mstv.iisdb_ldt_getrecorddescriptionid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IISDB_LDT.GetRecordDescriptionId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IISDB_LDT::GetRecordDescriptionId

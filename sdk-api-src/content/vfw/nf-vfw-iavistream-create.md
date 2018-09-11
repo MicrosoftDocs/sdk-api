@@ -4,17 +4,16 @@ title: IAVIStream::Create
 author: windows-sdk-content
 description: The Create method initializes a stream handler that is not associated with any file. Called when an application uses the AVIStreamCreate function.
 old-location: multimedia\iavistream_create.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 512ce9f8-f96c-4ef4-be1f-234165219ff7
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: Create, Create method [Windows Multimedia], Create method [Windows Multimedia],IAVIStream interface, IAVIStream interface [Windows Multimedia],Create method, IAVIStream.Create, IAVIStream::Create, _win32_IAVIStream_Create, multimedia.iavistream_create, vfw/IAVIStream::Create
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAVIStream.Create
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IAVIStream::Create

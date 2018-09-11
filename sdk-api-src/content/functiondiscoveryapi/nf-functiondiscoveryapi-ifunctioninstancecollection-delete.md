@@ -4,17 +4,16 @@ title: IFunctionInstanceCollection::Delete
 author: windows-sdk-content
 description: Removes the specified function instance from the collection.
 old-location: ncd\ifunctioninstancecollection_delete.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: e7f94912-9656-4a6b-8754-eb37358b5f9d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Delete, Delete method, Delete method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,Delete method, IFunctionInstanceCollection.Delete, IFunctionInstanceCollection::Delete, functiondiscoveryapi/IFunctionInstanceCollection::Delete, ncd.ifunctioninstancecollection_delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemVisibilityFlags
+req.lib: 
+req.dll: FunDisc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionInstanceCollection.Delete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FunDisc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionInstanceCollection::Delete

@@ -4,17 +4,16 @@ title: URL_SCHEME
 author: windows-sdk-content
 description: Used to specify URL schemes.
 old-location: shell\URL_SCHEME.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 45686920-356d-4dd7-8482-2427854a92ed
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: URL_SCHEME, URL_SCHEME enumeration [Windows Shell], URL_SCHEME_ABOUT, URL_SCHEME_FILE, URL_SCHEME_FTP, URL_SCHEME_GOPHER, URL_SCHEME_HTTP, URL_SCHEME_HTTPS, URL_SCHEME_INVALID, URL_SCHEME_JAVASCRIPT, URL_SCHEME_KNOWNFOLDER, URL_SCHEME_LOCAL, URL_SCHEME_MAILTO, URL_SCHEME_MAXVALUE, URL_SCHEME_MK, URL_SCHEME_MSHELP, URL_SCHEME_MSSHELLDEVICE, URL_SCHEME_MSSHELLIDLIST, URL_SCHEME_MSSHELLROOTED, URL_SCHEME_NEWS, URL_SCHEME_NNTP, URL_SCHEME_RES, URL_SCHEME_SEARCH, URL_SCHEME_SEARCH_MS, URL_SCHEME_SHELL, URL_SCHEME_SNEWS, URL_SCHEME_TELNET, URL_SCHEME_UNKNOWN, URL_SCHEME_VBSCRIPT, URL_SCHEME_WAIS, URL_SCHEME_WILDCARD, _win32_URL_SCHEME, shell.URL_SCHEME, shlwapi/URL_SCHEME, shlwapi/URL_SCHEME_ABOUT, shlwapi/URL_SCHEME_FILE, shlwapi/URL_SCHEME_FTP, shlwapi/URL_SCHEME_GOPHER, shlwapi/URL_SCHEME_HTTP, shlwapi/URL_SCHEME_HTTPS, shlwapi/URL_SCHEME_INVALID, shlwapi/URL_SCHEME_JAVASCRIPT, shlwapi/URL_SCHEME_KNOWNFOLDER, shlwapi/URL_SCHEME_LOCAL, shlwapi/URL_SCHEME_MAILTO, shlwapi/URL_SCHEME_MAXVALUE, shlwapi/URL_SCHEME_MK, shlwapi/URL_SCHEME_MSHELP, shlwapi/URL_SCHEME_MSSHELLDEVICE, shlwapi/URL_SCHEME_MSSHELLIDLIST, shlwapi/URL_SCHEME_MSSHELLROOTED, shlwapi/URL_SCHEME_NEWS, shlwapi/URL_SCHEME_NNTP, shlwapi/URL_SCHEME_RES, shlwapi/URL_SCHEME_SEARCH, shlwapi/URL_SCHEME_SEARCH_MS, shlwapi/URL_SCHEME_SHELL, shlwapi/URL_SCHEME_SNEWS, shlwapi/URL_SCHEME_TELNET, shlwapi/URL_SCHEME_UNKNOWN, shlwapi/URL_SCHEME_VBSCRIPT, shlwapi/URL_SCHEME_WAIS, shlwapi/URL_SCHEME_WILDCARD
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP, Windows Vista, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server, Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - URL_SCHEME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: URL_SCHEME
+req.redist: 
 ---
 
 # URL_SCHEME enumeration

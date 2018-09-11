@@ -4,17 +4,16 @@ title: IITResultSet::Get
 author: windows-sdk-content
 description: Gets the property in the specified row and column and fills the given property object.
 old-location: htmlhelp\iitresultset_get.htm
-old-project: htmlhelp
+tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetget.htm
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Get, Get method [HTML Help Workshop], Get method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Get method, IITResultSet.Get, IITResultSet::Get, htmlhelp.iitresultset_get, infotech/IITResultSet::Get, refIITResultSetGet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IITResultSet.Get
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IITResultSet::Get

@@ -4,17 +4,16 @@ title: SymAddrIncludeInlineTrace function
 author: windows-sdk-content
 description: Indicates whether the specified address is within an inline frame.
 old-location: base\symaddrincludeinlinetrace.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 12bb0fbf-3573-4efd-88a6-e94828906413
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymAddrIncludeInlineTrace, SymAddrIncludeInlineTrace function, base.symaddrincludeinlinetrace, dbghelp/SymAddrIncludeInlineTrace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.2 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: DbgHelp.lib
+req.dll: DbgHelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SymAddrIncludeInlineTrace
 product: Windows
 targetos: Windows
-req.lib: DbgHelp.lib
-req.dll: DbgHelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 6.2 or later
 ---
 
 # SymAddrIncludeInlineTrace function

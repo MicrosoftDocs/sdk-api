@@ -4,17 +4,16 @@ title: GetProcessHeaps function
 author: windows-sdk-content
 description: Returns the number of active heaps and retrieves handles to all of the active heaps for the calling process.
 old-location: base\getprocessheaps.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 6287c74d-5987-44ec-8b6f-2d5a08338877
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetProcessHeaps, GetProcessHeaps function, _win32_getprocessheaps, base.getprocessheaps, heapapi/GetProcessHeaps, winbase/GetProcessHeaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - GetProcessHeaps
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetProcessHeaps function

@@ -4,17 +4,16 @@ title: IOfflineFilesCache::ProcessAdminPinPolicy
 author: windows-sdk-content
 description: Causes Offline Files to process the &#0034;administratively assigned offline files&#0034; group policy.
 old-location: of\iofflinefilescache_processadminpinpolicy.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 25ee4586-3031-4815-9a35-ce57cf9366d7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],ProcessAdminPinPolicy method, IOfflineFilesCache.ProcessAdminPinPolicy, IOfflineFilesCache::ProcessAdminPinPolicy, ProcessAdminPinPolicy, ProcessAdminPinPolicy method [Offline Files], ProcessAdminPinPolicy method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::ProcessAdminPinPolicy, of.iofflinefilescache_processadminpinpolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesCache.ProcessAdminPinPolicy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesCache::ProcessAdminPinPolicy

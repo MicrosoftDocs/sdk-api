@@ -4,7 +4,7 @@ title: LPDHCP_HANDLE_OPTIONS
 author: windows-sdk-content
 description: The DhcpHandleOptionsHook function enables third-party DLLs to obtain commonly used options from a DHCP packet, avoiding the need to process the entire DHCP packet. The DhcpHandleOptionsHook function should not block.
 old-location: dhcp\dhcphandleoptionshook.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 51bb3d2c-953d-446a-ad70-eb6cc8d4dbca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dhcpssdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCOPE_MIB_INFO_V5, *LPSCOPE_MIB_INFO_V5
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpHandleOptionsHook
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # LPDHCP_HANDLE_OPTIONS callback function

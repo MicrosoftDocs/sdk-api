@@ -4,17 +4,16 @@ title: SHUpdateImageW function
 author: windows-sdk-content
 description: Notifies the Shell that an image in the system image list has changed.
 old-location: shell\SHUpdateImage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9df5860e-db65-4e43-aaf9-c1e0e33fc569
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHUpdateImage, SHUpdateImage function [Windows Shell], SHUpdateImageA, SHUpdateImageW, _win32_SHUpdateImage, shell.SHUpdateImage, shlobj_core/SHUpdateImage, shlobj_core/SHUpdateImageA, shlobj_core/SHUpdateImageW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.7 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHUpdateImageW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.7 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHUpdateImageW function

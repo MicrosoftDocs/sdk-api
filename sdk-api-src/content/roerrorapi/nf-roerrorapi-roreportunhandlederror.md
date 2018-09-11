@@ -4,17 +4,16 @@ title: RoReportUnhandledError function
 author: windows-sdk-content
 description: Triggers the Global Error Handler when an unhandled exception occurs.
 old-location: winrt\roreportunhandlederror.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: DE8F29B4-505C-480E-9258-9E5300BEA3F0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RoReportUnhandledError, RoReportUnhandledError function [Windows Runtime], roerrorapi/RoReportUnhandledError, winrt.roreportunhandlederror
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: Runtimeobject.lib
+req.dll: Api-ms-win-core-winrt-error-l1-1-1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - RoReportUnhandledError
 product: Windows
 targetos: Windows
-req.lib: Runtimeobject.lib
-req.dll: Api-ms-win-core-winrt-error-l1-1-1.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RoReportUnhandledError function

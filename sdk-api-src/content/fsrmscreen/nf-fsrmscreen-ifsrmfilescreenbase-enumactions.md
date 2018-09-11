@@ -4,17 +4,16 @@ title: IFsrmFileScreenBase::EnumActions
 author: windows-sdk-content
 description: Enumerates all the actions for the file screen object.
 old-location: fsrm\ifsrmfilescreenbase_enumactions.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: fbc22338-8271-407a-97c6-4a2329445979
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: EnumActions, EnumActions method [File Server Resource Manager], EnumActions method [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],EnumActions method, IFsrmFileScreenBase.EnumActions, IFsrmFileScreenBase::EnumActions, fs.ifsrmfilescreenbase_enumactions, fsrm.ifsrmfilescreenbase_enumactions, fsrmscreen/IFsrmFileScreenBase::EnumActions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmFileScreenBase.EnumActions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileScreenBase::EnumActions

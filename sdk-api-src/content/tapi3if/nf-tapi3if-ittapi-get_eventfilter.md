@@ -4,17 +4,16 @@ title: ITTAPI::get_EventFilter
 author: windows-sdk-content
 description: The get_EventFilter method gets the current event filter mask. The mask is a series of ORed members of the TAPI_EVENT enumeration.
 old-location: tapi3\ittapi_get_eventfilter.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c0544e9f-0bfc-43ab-bcf0-800afb0ebfcf
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],get_EventFilter method, ITTAPI.get_EventFilter, ITTAPI::get_EventFilter, _tapi3_ittapi_get_eventfilter, get_EventFilter, get_EventFilter method [TAPI 2.2], get_EventFilter method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_get_eventfilter, tapi3if/ITTAPI::get_EventFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTAPI.get_EventFilter
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTAPI::get_EventFilter

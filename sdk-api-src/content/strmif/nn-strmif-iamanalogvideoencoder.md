@@ -4,7 +4,7 @@ title: IAMAnalogVideoEncoder
 author: windows-sdk-content
 description: Note  This interface has been deprecated. Note  Microsoft does not provide an implementation of this interface.
 old-location: dshow\iamanalogvideoencoder.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: fb2927cf-c979-411f-a896-d010b684acf2
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMAnalogVideoEncoder
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMAnalogVideoEncoder interface

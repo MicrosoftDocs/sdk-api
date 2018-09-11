@@ -4,17 +4,16 @@ title: IUIAutomationWindowPattern::get_CurrentIsTopmost
 author: windows-sdk-content
 description: Indicates whether the window is the topmost element in the z-order.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentIsTopmost.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 478b5c42-5cae-4661-a9fd-fcc48b537b84
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentIsTopmost property [Windows Accessibility], CurrentIsTopmost property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CurrentIsTopmost property, IUIAutomationWindowPattern.CurrentIsTopmost, IUIAutomationWindowPattern.get_CurrentIsTopmost, IUIAutomationWindowPattern::CurrentIsTopmost, IUIAutomationWindowPattern::get_CurrentIsTopmost, get_CurrentIsTopmost, uiauto.uiauto_IUIAutomationWindowPattern_CurrentIsTopmost, uiauto_IUIAutomationWindowPattern_CurrentIsTopmost, uiautomationclient/IUIAutomationWindowPattern::CurrentIsTopmost, uiautomationclient/IUIAutomationWindowPattern::get_CurrentIsTopmost, winauto.uiauto_IUIAutomationWindowPattern_CurrentIsTopmost
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationWindowPattern.get_CurrentIsTopmost
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationWindowPattern::get_CurrentIsTopmost

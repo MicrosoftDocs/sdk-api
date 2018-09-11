@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxDocument2.ConnectedSubmit2
 title: IFaxDocument2::ConnectedSubmit2
 author: windows-sdk-content
 description: Submits one or more fax documents to the connected FaxServer.
-old-location: fax\_mfax_faxdocument2_connectedsubmit2_vb.htm
-old-project: Fax
+old-location: fax\_mfax_faxdocument2_cpp_mfax_faxdocument2_connectedsubmit2_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\connectedsubmit2.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: ConnectedSubmit2, ConnectedSubmit2 method [Fax Service], ConnectedSubmit2 method [Fax Service],FaxDocument object, FaxDocument object [Fax Service],ConnectedSubmit2 method, FaxDocument.ConnectedSubmit2, IFaxDocument2.ConnectedSubmit2, IFaxDocument2::ConnectedSubmit2, _mfax_faxdocument2.connectedsubmit2, fax._mfax_faxdocument2_connectedsubmit2, fax._mfax_faxdocument2_connectedsubmit2_vb
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: ConnectedSubmit2, ConnectedSubmit2 method [Fax Service], ConnectedSubmit2 method [Fax Service],IFaxDocument2 interface, IFaxDocument2 interface [Fax Service],ConnectedSubmit2 method, IFaxDocument2.ConnectedSubmit2, IFaxDocument2::ConnectedSubmit2, _mfax_faxdocument2.connectedsubmit2, fax._mfax_faxdocument2_connectedsubmit2, fax._mfax_faxdocument2_cpp_mfax_faxdocument2_connectedsubmit2_cpp, faxcomex/IFaxDocument2::ConnectedSubmit2
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxDocument.ConnectedSubmit2
+ - IFaxDocument2.ConnectedSubmit2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDocument2::ConnectedSubmit2
@@ -71,25 +69,25 @@ A <a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxS
 
 ### -param pvFaxOutgoingJobIDs [out]
 
-Type: <b>Variant*</b>
+Type: <b>VARIANT*</b>
 
-A <b>Variant</b> that holds an array of outbound job ID strings, one for each recipient of the fax.
-
-
-### -param plErrorBodyFile
+A <b>VARIANT</b> that holds an array of outbound job ID strings, one for each recipient of the fax.
 
 
+### -param plErrorBodyFile [out, retval]
 
+Type: <b>LONG*</b>
 
+A <b>LONG</b> representing the zero-based position of the submitted file that caused the fax send operation to fail. See Remarks.
 
 
 ## -returns
 
 
 
-Type: <b>Long*</b>
+Type: <b>HRESULT</b>
 
-A <b>Long</b> representing the zero-based position of the submitted file that caused the fax send operation to fail. See Remarks.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
@@ -98,19 +96,19 @@ A <b>Long</b> representing the zero-based position of the submitted file that ca
 
 
 
-<div class="alert"><b>Note</b>  To succeed, the <b>ConnectedSubmit2</b> method requires that the fax have at least one recipient, and either a cover page or a fax body. You can only use this method if the server (remote or local) is installed as a network printer on the local computer.</div>
+<div class="alert"><b>Note</b>  To succeed, the <b>IFaxDocument2::ConnectedSubmit2</b> method requires that the fax have at least one recipient, and either a cover page or a fax body. You can only use this method if the server (remote or local) is installed as a network printer on the local computer.</div>
 <div> </div>
-You must set the <a href="https://msdn.microsoft.com/en-us/library/Aa359008(v=VS.85).aspx">Bodies</a> property with a semi-colon delimited list of the files to be faxed before calling <b>ConnectedSubmit2</b>. 
+You must set the <a href="https://msdn.microsoft.com/c985862e-6681-4cc3-b559-ba8ae512389b">IFaxDocument2::Bodies</a> property with a semi-colon delimited list of the files to be faxed before calling <b>IFaxDocument2::ConnectedSubmit2</b>. 
 
 
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/en-us/library/ms684817(v=VS.85).aspx">Body</a> property must be <b>NULL</b> to use <b>ConnectedSubmit2</b>.</div>
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/02338d62-234d-4fd9-a136-24dbcab16f88">Body</a> property must be <b>NULL</b> to use <b>IFaxDocument2::ConnectedSubmit2</b>.</div>
 <div> </div>
 This method is not supported for a remote connection to a fax server running Windows XP Home Edition or Windows XP Professional, and will return the error: <a href="https://msdn.microsoft.com/en-us/library/ms693490(v=VS.85).aspx">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_LOW</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_NORMAL</a>, or <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_HIGH</a> access set correctly, depending on the <a href="https://msdn.microsoft.com/en-us/library/ms687026(v=VS.85).aspx">Priority</a> of the fax document.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_LOW</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_NORMAL</a>, or <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_HIGH</a> access set correctly, depending on the <a href="https://msdn.microsoft.com/4f7ebcad-ff7d-4c11-b4c4-c7325415231e">Priority</a> of the fax document.
 
-To illustrate <i>plErrorBodyFile</i>, here is an example: The following list of files is submitted as the value of <a href="https://msdn.microsoft.com/en-us/library/Aa359008(v=VS.85).aspx">Bodies</a>:
+To illustrate <i>plErrorBodyFile</i>, here is an example: The following list of files is submitted as the value of <a href="https://msdn.microsoft.com/c985862e-6681-4cc3-b559-ba8ae512389b">IFaxDocument2::Bodies</a>:
 
 "MyTextFile.txt;AnotherTextFile.txt;MyPDFfile.pdf;MyWordFile.doc".
 

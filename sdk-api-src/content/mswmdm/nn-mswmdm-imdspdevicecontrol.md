@@ -4,17 +4,16 @@ title: IMDSPDeviceControl
 author: windows-sdk-content
 description: The IMDSPDeviceControl interface provides methods for controlling devices.
 old-location: wmdm\imdspdevicecontrol.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: a196edef-f670-4c1f-92bd-172a75f3f420
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPDeviceControl, IMDSPDeviceControl interface [windows Media Device Manager], IMDSPDeviceControl interface [windows Media Device Manager],described, IMDSPDeviceControlInterface, mswmdm/IMDSPDeviceControl, wmdm.imdspdevicecontrol
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMDSPDeviceControl
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPDeviceControl interface

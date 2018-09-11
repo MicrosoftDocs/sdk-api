@@ -4,17 +4,16 @@ title: ITypeInfo::GetContainingTypeLib
 author: windows-sdk-content
 description: Retrieves the containing type library and the index of the type description within that type library.
 old-location: automat\itypeinfo_getcontainingtypelib.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 9ca58285-4778-4c2a-b800-dcda9b62e328
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetContainingTypeLib, GetContainingTypeLib method [Automation], GetContainingTypeLib method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetContainingTypeLib method, ITypeInfo.GetContainingTypeLib, ITypeInfo::GetContainingTypeLib, _oa96_ITypeInfo_GetContainingTypeLib, automat.itypeinfo_getcontainingtypelib, oaidl/ITypeInfo::GetContainingTypeLib
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo.GetContainingTypeLib
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo::GetContainingTypeLib

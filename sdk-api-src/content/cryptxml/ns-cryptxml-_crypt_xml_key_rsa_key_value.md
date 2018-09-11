@@ -4,17 +4,16 @@ title: "_CRYPT_XML_KEY_RSA_KEY_VALUE"
 author: windows-sdk-content
 description: Defines an RSA key value. The CRYPT_XML_KEY_RSA_KEY_VALUE structure is used as element of the key value union in the CRYPT_XML_KEY_VALUE structure.
 old-location: security\crypt_xml_key_rsa_key_value.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: e2b1344d-c108-4255-bd50-06d742ed67a8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_XML_KEY_RSA_KEY_VALUE, CRYPT_XML_KEY_RSA_KEY_VALUE structure [Security], _CRYPT_XML_KEY_RSA_KEY_VALUE, cryptxml/CRYPT_XML_KEY_RSA_KEY_VALUE, security.crypt_xml_key_rsa_key_value
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_KEY_RSA_KEY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_KEY_RSA_KEY_VALUE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_KEY_RSA_KEY_VALUE
+req.redist: 
 ---
 
 # _CRYPT_XML_KEY_RSA_KEY_VALUE structure

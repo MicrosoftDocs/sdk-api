@@ -4,17 +4,16 @@ title: IDCompositionDesktopDevice::CreateSurfaceFromHandle
 author: windows-sdk-content
 description: Creates a new composition surface object that wraps an existing composition surface.
 old-location: directcomp\idcompositiondesktopdevice_createsurfacefromhandle.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: BB0F8F27-16D8-42EB-874B-C16E8511B0B5
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateSurfaceFromHandle, CreateSurfaceFromHandle method [DirectComposition], CreateSurfaceFromHandle method [DirectComposition],IDCompositionDesktopDevice interface, IDCompositionDesktopDevice interface [DirectComposition],CreateSurfaceFromHandle method, IDCompositionDesktopDevice.CreateSurfaceFromHandle, IDCompositionDesktopDevice::CreateSurfaceFromHandle, dcomp/IDCompositionDesktopDevice::CreateSurfaceFromHandle, directcomp.idcompositiondesktopdevice_createsurfacefromhandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDesktopDevice.CreateSurfaceFromHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDesktopDevice::CreateSurfaceFromHandle

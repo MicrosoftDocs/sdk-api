@@ -4,17 +4,16 @@ title: IAudioFrameNative::core
 author: windows-sdk-content
 description: This method returns an interface that provides access to the audio data.
 old-location: winrt\iaudioframenative_getdata.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 4FA7CC9D-D379-4C08-8D4F-5301ECCDF372
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetData, GetData method [Windows Runtime], GetData method [Windows Runtime],IAudioFrameNative interface, IAudioFrameNative interface [Windows Runtime],GetData method, IAudioFrameNative.GetData, IAudioFrameNative.core, IAudioFrameNative::GetData, IAudioFrameNative::core, windows/IAudioFrameNative::GetData, winrt.iaudioframenative_getdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.core.interop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAudioFrameNative.GetData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioFrameNative::core

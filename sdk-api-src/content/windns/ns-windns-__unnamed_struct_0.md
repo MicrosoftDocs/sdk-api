@@ -4,7 +4,7 @@ title: IP6_ADDRESS
 author: windows-sdk-content
 description: The IP6_ADDRESS structure stores an IPv6 address.
 old-location: dns\ip6_address.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 789400be-03c7-4c4f-9e78-fa2573cf114d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IP6_ADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
+req.redist: 
 ---
 
 # IP6_ADDRESS structure

@@ -4,7 +4,7 @@ title: D3D11_FORMAT_SUPPORT2
 author: windows-sdk-content
 description: Unordered resource support options for a compute shader resource (see ID3D11Device::CheckFeatureSupport).
 old-location: direct3d11\d3d11_format_support2.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 40650aae-ec0d-4c44-8abd-32c00343b717
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_FORMAT_SUPPORT2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_FORMAT_SUPPORT2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_FORMAT_SUPPORT2
+req.redist: 
 ---
 
 # D3D11_FORMAT_SUPPORT2 enumeration

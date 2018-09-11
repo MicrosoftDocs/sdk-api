@@ -4,17 +4,16 @@ title: NCryptStreamOpenToProtect function
 author: windows-sdk-content
 description: Opens a stream object that can be used to encrypt large amounts of data to a given protection descriptor.
 old-location: security\ncryptstreamopentoprotect.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 7DE74BB1-1B84-4721-BE4A-4D2661E93E00
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptStreamOpenToProtect, NCryptStreamOpenToProtect function [Security], ncryptprotect/NCryptStreamOpenToProtect, security.ncryptstreamopentoprotect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NCRYPT_UI_POLICY
+req.lib: NCrypt.lib
+req.dll: NCrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCryptStreamOpenToProtect
 product: Windows
 targetos: Windows
-req.lib: NCrypt.lib
-req.dll: NCrypt.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NCryptStreamOpenToProtect function

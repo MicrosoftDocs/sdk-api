@@ -4,7 +4,7 @@ title: DISPATCHERQUEUE_THREAD_APARTMENTTYPE
 author: windows-sdk-content
 description: Specifies the threading apartment type for a new DispatcherQueueController.
 old-location: base\dispatcherqueue_thread_apartmenttype.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 46BCD25E-22C7-4D9C-A424-AFF0B0B41AB6
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dispatcherqueue.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -24,11 +23,12 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: DirectX::PackedVector
+req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DISPATCHERQUEUE_THREAD_APARTMENTTYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DISPATCHERQUEUE_THREAD_APARTMENTTYPE enumeration

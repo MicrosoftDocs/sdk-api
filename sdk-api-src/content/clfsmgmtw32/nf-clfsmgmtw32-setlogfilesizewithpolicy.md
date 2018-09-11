@@ -4,17 +4,16 @@ title: SetLogFileSizeWithPolicy function
 author: windows-sdk-content
 description: Adds or deletes containers from a log based on the state of the installed policies.
 old-location: fs\setlogfilesizewithpolicy.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 4da401cf-3606-4ae1-ae6f-37eb3dea6426
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: SetLogFileSizeWithPolicy, SetLogFileSizeWithPolicy function [Files], clfsmgmtw32/SetLogFileSizeWithPolicy, fs.setlogfilesizewithpolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsmgmtw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SetLogFileSizeWithPolicy
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # SetLogFileSizeWithPolicy function

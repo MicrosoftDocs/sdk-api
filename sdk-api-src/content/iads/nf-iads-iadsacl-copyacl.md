@@ -4,17 +4,16 @@ title: IADsAcl::CopyAcl
 author: windows-sdk-content
 description: The IADsAcl::CopyAcl method makes a copy of the existing ACL.
 old-location: adsi\iadsacl_copyacl.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 9ed78d7d-3448-4a49-920f-97221584541c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CopyAcl, CopyAcl method [ADSI], CopyAcl method [ADSI],IADsAcl interface, IADsAcl interface [ADSI],CopyAcl method, IADsAcl.CopyAcl, IADsAcl::CopyAcl, _ds_iadsacl_copyacl, adsi.iadsacl__copyacl, adsi.iadsacl_copyacl, iads/IADsAcl::CopyAcl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsAcl.CopyAcl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsAcl::CopyAcl

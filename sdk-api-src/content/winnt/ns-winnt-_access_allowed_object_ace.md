@@ -4,17 +4,16 @@ title: "_ACCESS_ALLOWED_OBJECT_ACE"
 author: windows-sdk-content
 description: Defines an access control entry (ACE) that controls allowed access to an object, a property set, or property.
 old-location: security\access_allowed_object_ace.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: ee91ca50-e81b-4872-95eb-349c2d5be004
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PACCESS_ALLOWED_OBJECT_ACE, 0, ACCESS_ALLOWED_OBJECT_ACE, ACCESS_ALLOWED_OBJECT_ACE structure [Security], ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP, ADS_RIGHT_DS_SELF, ADS_RIGHT_DS_WRITE_PROP, PACCESS_ALLOWED_OBJECT_ACE, PACCESS_ALLOWED_OBJECT_ACE structure pointer [Security], _ACCESS_ALLOWED_OBJECT_ACE, _win32_access_allowed_object_ace_str, security.access_allowed_object_ace, winnt/ACCESS_ALLOWED_OBJECT_ACE, winnt/PACCESS_ALLOWED_OBJECT_ACE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACCESS_ALLOWED_OBJECT_ACE, *PACCESS_ALLOWED_OBJECT_ACE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACCESS_ALLOWED_OBJECT_ACE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ACCESS_ALLOWED_OBJECT_ACE, *PACCESS_ALLOWED_OBJECT_ACE
+req.redist: 
 ---
 
 # _ACCESS_ALLOWED_OBJECT_ACE structure

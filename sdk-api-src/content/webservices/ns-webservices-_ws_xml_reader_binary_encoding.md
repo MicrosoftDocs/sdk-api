@@ -4,17 +4,16 @@ title: "_WS_XML_READER_BINARY_ENCODING"
 author: windows-sdk-content
 description: Used to indicate that the reader should interpret the bytes it reads as binary xml.
 old-location: wsw\ws_xml_reader_binary_encoding.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 51a0802b-6624-430e-96c1-a8470fac4937
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_READER_BINARY_ENCODING, WS_XML_READER_BINARY_ENCODING structure [Web Services for Windows], _WS_XML_READER_BINARY_ENCODING, webservices/WS_XML_READER_BINARY_ENCODING, wsw.ws_xml_reader_binary_encoding
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_READER_BINARY_ENCODING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_READER_BINARY_ENCODING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_READER_BINARY_ENCODING
+req.redist: 
 ---
 
 # _WS_XML_READER_BINARY_ENCODING structure

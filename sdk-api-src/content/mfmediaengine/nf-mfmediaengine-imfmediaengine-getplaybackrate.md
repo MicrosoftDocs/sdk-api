@@ -4,17 +4,16 @@ title: IMFMediaEngine::GetPlaybackRate
 author: windows-sdk-content
 description: Gets the current playback rate.
 old-location: mf\imfmediaengine_getplaybackrate.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: E270CB86-D90B-43FA-843B-F824970BD4F3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetPlaybackRate, GetPlaybackRate method [Media Foundation], GetPlaybackRate method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetPlaybackRate method, IMFMediaEngine.GetPlaybackRate, IMFMediaEngine::GetPlaybackRate, mf.imfmediaengine_getplaybackrate, mfmediaengine/IMFMediaEngine::GetPlaybackRate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngine.GetPlaybackRate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngine::GetPlaybackRate

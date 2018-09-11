@@ -4,17 +4,16 @@ title: CLUS_FTSET_INFO
 author: windows-sdk-content
 description: Contains information about an FT (fault tolerant) set. This structure is used by the CLUSPROP_FTSET_INFO structure to create an entry in a value list.
 old-location: mscs\clus_ftset_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 75F2589D-8F4F-4B65-AE05-DA48A1EED03F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUS_FTSET_INFO, CLUS_FTSET_INFO, CLUS_FTSET_INFO structure [Failover Cluster], PCLUS_FTSET_INFO, PCLUS_FTSET_INFO structure pointer [Failover Cluster], clusapi/CLUS_FTSET_INFO, clusapi/PCLUS_FTSET_INFO, mscs.clus_ftset_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_FTSET_INFO, *PCLUS_FTSET_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_FTSET_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_FTSET_INFO, *PCLUS_FTSET_INFO
+req.redist: 
 ---
 
 # CLUS_FTSET_INFO structure

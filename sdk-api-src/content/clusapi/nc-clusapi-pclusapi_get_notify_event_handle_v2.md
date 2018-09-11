@@ -4,17 +4,16 @@ title: PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2
 author: windows-sdk-content
 description: Retrieves a handle to a notification event.
 old-location: mscs\getnotifyeventhandle.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: DCA68080-B405-47E9-BC35-613EA56D1E59
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2, PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2 callback, PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2 callback function [Failover Cluster], clusapi/PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2, mscs.getnotifyeventhandle
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2 callback function

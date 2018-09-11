@@ -4,7 +4,7 @@ title: IUIAutomationSpreadsheetPattern
 author: windows-sdk-content
 description: Enables a client application to access the items (cells) in a spreadsheet.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetPattern.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 049DC33E-48C3-43AB-A5B0-401CDBAE4873
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationSpreadsheetPattern
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAutomationCore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationSpreadsheetPattern interface

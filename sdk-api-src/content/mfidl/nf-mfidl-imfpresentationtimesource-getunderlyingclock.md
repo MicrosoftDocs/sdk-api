@@ -4,17 +4,16 @@ title: IMFPresentationTimeSource::GetUnderlyingClock
 author: windows-sdk-content
 description: Retrieves the underlying clock that the presentation time source uses to generate its clock times.
 old-location: mf\imfpresentationtimesource_getunderlyingclock.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 09c8fef8-7288-4356-9671-4c927c0cf502
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 09c8fef8-7288-4356-9671-4c927c0cf502, GetUnderlyingClock, GetUnderlyingClock method [Media Foundation], GetUnderlyingClock method [Media Foundation],IMFPresentationTimeSource interface, IMFPresentationTimeSource interface [Media Foundation],GetUnderlyingClock method, IMFPresentationTimeSource.GetUnderlyingClock, IMFPresentationTimeSource::GetUnderlyingClock, mf.imfpresentationtimesource_getunderlyingclock, mfidl/IMFPresentationTimeSource::GetUnderlyingClock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFPresentationTimeSource.GetUnderlyingClock
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPresentationTimeSource::GetUnderlyingClock

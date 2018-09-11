@@ -4,7 +4,7 @@ title: D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
 author: windows-sdk-content
 description: Identifies how to check multisample quality levels.
 old-location: direct3d11\d3d11_check_multisample_quality_levels_flags.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 756AD5B2-3B6A-4F28-B034-93F59C41D02B
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
+req.redist: 
 ---
 
 # D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG enumeration

@@ -4,7 +4,7 @@ title: IWMLicenseRevocationAgent
 author: windows-sdk-content
 description: The IWMLicenseRevocationAgent interface handles messages from a DRM license server that involve license revocation.IWMLicenseRevocationAgent is the primary interface of the license revocation agent object.
 old-location: wmformat\iwmlicenserevocationagent.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 4cb5beb9-72b8-46cb-8460-56455785a7a0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMLicenseRevocationAgent
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib
-req.dll: Wmvcore.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMLicenseRevocationAgent interface

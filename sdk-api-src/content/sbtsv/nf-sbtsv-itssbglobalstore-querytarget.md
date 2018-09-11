@@ -4,17 +4,16 @@ title: ITsSbGlobalStore::QueryTarget
 author: windows-sdk-content
 description: Retrieves the ITsSbTarget object for the given parameters.
 old-location: termserv\itssbglobalstore_querytarget.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: e89ed692-66e5-49ed-b5d9-69eefeeae66f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbGlobalStore interface [Remote Desktop Services],QueryTarget method, ITsSbGlobalStore.QueryTarget, ITsSbGlobalStore::QueryTarget, QueryTarget, QueryTarget method [Remote Desktop Services], QueryTarget method [Remote Desktop Services],ITsSbGlobalStore interface, sbtsv/ITsSbGlobalStore::QueryTarget, termserv.itssbglobalstore_querytarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbGlobalStore.QueryTarget
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbGlobalStore::QueryTarget

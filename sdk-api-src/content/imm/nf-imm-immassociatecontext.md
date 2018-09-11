@@ -4,17 +4,16 @@ title: ImmAssociateContext function
 author: windows-sdk-content
 description: Associates the specified input context with the specified window. By default, the operating system associates the default input context with each window as it is created.
 old-location: intl\immassociatecontext.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 978ea304-c44d-4f00-b86f-932bbd5f603c
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ImmAssociateContext, ImmAssociateContext function [Internationalization for Windows Applications], _win32_ImmAssociateContext, imm/ImmAssociateContext, intl.immassociatecontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ImmAssociateContext
 product: Windows
 targetos: Windows
-req.lib: Imm32.lib
-req.dll: Imm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ImmAssociateContext function

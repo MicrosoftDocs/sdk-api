@@ -4,17 +4,16 @@ title: SetProcessDpiAwarenessContext function
 author: windows-sdk-content
 description: Sets the current process to a specified dots per inch (dpi) awareness context. The DPI awareness contexts are from the DPI_AWARENESS_CONTEXT value.
 old-location: hidpi\setprocessdpiawarenesscontext.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: EACD1784-BEFF-46C1-8665-CBC86A65833C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetProcessDpiAwarenessContext, SetProcessDpiAwarenessContext function [High DPI], hidpi.setprocessdpiawarenesscontext, winuser/SetProcessDpiAwarenessContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetProcessDpiAwarenessContext
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SetProcessDpiAwarenessContext function

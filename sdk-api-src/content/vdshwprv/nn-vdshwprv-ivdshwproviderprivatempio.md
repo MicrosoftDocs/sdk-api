@@ -4,17 +4,16 @@ title: IVdsHwProviderPrivateMpio
 author: windows-sdk-content
 description: Provides a method that sets the status of paths originating from a particular HBA port to the provider.
 old-location: base\ivdshwproviderprivatempio.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: fa60e832-1148-4ffb-bf70-bd7b27180cdd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsHwProviderPrivateMpio, IVdsHwProviderPrivateMpio interface [VDS], IVdsHwProviderPrivateMpio interface [VDS],described, base.ivdshwproviderprivatempio, vdshwprv/IVdsHwProviderPrivateMpio
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsHwProviderPrivateMpio
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsHwProviderPrivateMpio interface

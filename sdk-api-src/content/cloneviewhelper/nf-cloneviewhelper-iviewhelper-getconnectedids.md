@@ -4,17 +4,16 @@ title: IViewHelper::GetConnectedIDs
 author: windows-sdk-content
 description: The GetConnectedIDs method retrieves, for a given adapter, an array of identifiers for either targets or sources.
 old-location: display\iviewhelper_getconnectedids.htm
-old-project: display
+tech.root: display
 ms.assetid: ca3dfc5b-0851-4a09-8b5c-25b8c300c2bb
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: GetConnectedIDs, GetConnectedIDs method [Display Devices], GetConnectedIDs method [Display Devices],IViewHelper interface, IViewHelper interface [Display Devices],GetConnectedIDs method, IViewHelper.GetConnectedIDs, IViewHelper::GetConnectedIDs, TMM_Ref_0c676d81-3866-4c7e-91e9-cd986374fa00.xml, cloneviewhelper/IViewHelper::GetConnectedIDs, display.iviewhelper_getconnectedids
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support: Windows 7
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IViewHelper.GetConnectedIDs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IViewHelper::GetConnectedIDs

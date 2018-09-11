@@ -4,7 +4,7 @@ title: "_MF_CROSS_ORIGIN_POLICY"
 author: windows-sdk-content
 description: Maps to the W3C cross origin settings (CORS) attribute used by the HTML5 media element.
 old-location: mf\_mf_cross_origin_policy.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 77A8F413-5AA8-49E4-9846-A3F87FB878E7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CROSS_ORIGIN_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _MF_CROSS_ORIGIN_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_CROSS_ORIGIN_POLICY
+req.redist: 
 ---
 
 # _MF_CROSS_ORIGIN_POLICY enumeration

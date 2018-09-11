@@ -4,17 +4,16 @@ title: TSPI_phoneGetButtonInfo function
 author: windows-sdk-content
 description: The TSPI_phoneGetButtonInfo function returns information about a specified button.
 old-location: tspi\tspi_phonegetbuttoninfo.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b4db8075-1e45-4662-805c-6e3004517374
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_phoneGetButtonInfo, TSPI_phoneGetButtonInfo function [TAPI 2.2], _tspi_tspi_phonegetbuttoninfo, tspi.tspi_phonegetbuttoninfo, tspi/TSPI_phoneGetButtonInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_phoneGetButtonInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_phoneGetButtonInfo function

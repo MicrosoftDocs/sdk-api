@@ -4,17 +4,16 @@ title: IShellMenu::GetState
 author: windows-sdk-content
 description: Gets a filled SMDATA structure.
 old-location: shell\IShellMenu_GetState.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ea5d402f-2644-4e42-b1e7-2304f0ca71e2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetState, GetState method [Windows Shell], GetState method [Windows Shell],IShellMenu interface, IShellMenu interface [Windows Shell],GetState method, IShellMenu.GetState, IShellMenu::GetState, _shell_IShellMenu_GetState, shell.IShellMenu_GetState, shobjidl_core/IShellMenu::GetState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellMenu.GetState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellMenu::GetState

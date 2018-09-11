@@ -4,17 +4,16 @@ title: IOleUndoUnit
 author: windows-sdk-content
 description: Serves as the main interface on an undo unit. An undo unit encapsulates the information necessary to undo or redo a single action.
 old-location: com\ioleundounit.htm
-old-project: com
+tech.root: com
 ms.assetid: 0822c894-b96c-4b69-94d2-b052dff81f6e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleUndoUnit, IOleUndoUnit interface [COM], IOleUndoUnit interface [COM],described, _ole_ioleundounit, com.ioleundounit, ocidl/IOleUndoUnit
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleUndoUnit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleUndoUnit interface

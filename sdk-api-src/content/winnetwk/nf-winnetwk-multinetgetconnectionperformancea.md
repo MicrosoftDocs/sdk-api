@@ -4,17 +4,16 @@ title: MultinetGetConnectionPerformanceA function
 author: windows-sdk-content
 description: Returns information about the expected performance of a connection used to access a network resource.
 old-location: wnet\multinetgetconnectionperformance.htm
-old-project: wnet
+tech.root: WNet
 ms.assetid: 3ec4a397-e0d4-419c-9e12-6d76a87b1ca0
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: MultinetGetConnectionPerformance, MultinetGetConnectionPerformance function [Windows Networking (WNet)], MultinetGetConnectionPerformanceA, MultinetGetConnectionPerformanceW, _win32_multinetgetconnectionperformance, lpLocalName, lpProvider, lpRemoteName, winnetwk/MultinetGetConnectionPerformance, winnetwk/MultinetGetConnectionPerformanceA, winnetwk/MultinetGetConnectionPerformanceW, wnet.multinetgetconnectionperformance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MultinetGetConnectionPerformanceW
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # MultinetGetConnectionPerformanceA function

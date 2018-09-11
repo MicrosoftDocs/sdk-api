@@ -4,7 +4,7 @@ title: ldapmsg
 author: windows-sdk-content
 description: Used by an LDAP function to return results and error data.
 old-location: ldap\ldapmessage.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 547a0736-23a4-4bfd-8ae0-866825228b53
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LDAPMessage, *PLDAPMessage
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LDAPMessage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: LDAPMessage, *PLDAPMessage
+req.redist: 
 ---
 
 # ldapmsg structure

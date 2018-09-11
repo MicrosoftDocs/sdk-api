@@ -4,17 +4,16 @@ title: "_SECPKG_CREDENTIAL"
 author: windows-sdk-content
 description: Specifies the credentials.
 old-location: security\secpkg_credential.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 67BB382B-E6DB-4E93-90EE-6441751220B9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSECPKG_CREDENTIAL, PSECPKG_CREDENTIAL, PSECPKG_CREDENTIAL structure pointer [Security], SECPKG_CREDENTIAL, SECPKG_CREDENTIAL structure [Security], _SECPKG_CREDENTIAL, ntsecpkg/PSECPKG_CREDENTIAL, ntsecpkg/SECPKG_CREDENTIAL, security.secpkg_credential"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_CREDENTIAL, *PSECPKG_CREDENTIAL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_CREDENTIAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_CREDENTIAL, *PSECPKG_CREDENTIAL
+req.redist: 
 ---
 
 # _SECPKG_CREDENTIAL structure

@@ -4,17 +4,16 @@ title: IWbemContext::Next
 author: windows-sdk-content
 description: The IWbemContext::Next method retrieves the next value in an enumeration of all context values beginning with IWbemContext::BeginEnumeration.
 old-location: wmi\iwbemcontext_next.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: e316564c-a739-472b-b7a8-8acbf71e1c58
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemContext interface [Windows Management Instrumentation],Next method, IWbemContext.Next, IWbemContext::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IWbemContext interface, _hmm_iwbemcontext_next, wbemcli/IWbemContext::Next, wmi.iwbemcontext_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - IWbemContext.Next
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemContext::Next

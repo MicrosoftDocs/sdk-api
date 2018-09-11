@@ -4,17 +4,16 @@ title: ID2D1Ink::AddSegments
 author: windows-sdk-content
 description: Adds the given segments to the end of this ink object.
 old-location: direct2d\id2d1ink_addsegments.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 0AB546AC-F7AB-4C48-AA10-3DD2FF11B853
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddSegments, AddSegments method [Direct2D], AddSegments method [Direct2D],ID2D1Ink interface, ID2D1Ink interface [Direct2D],AddSegments method, ID2D1Ink.AddSegments, ID2D1Ink::AddSegments, d2d1_3/ID2D1Ink::AddSegments, direct2d.id2d1ink_addsegments
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: D2d1_3.lib
+req.dll: D2d1_3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Ink.AddSegments
 product: Windows
 targetos: Windows
-req.lib: D2d1_3.lib
-req.dll: D2d1_3.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Ink::AddSegments

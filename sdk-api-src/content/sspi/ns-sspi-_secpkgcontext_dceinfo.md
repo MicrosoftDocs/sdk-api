@@ -4,17 +4,16 @@ title: "_SecPkgContext_DceInfo"
 author: windows-sdk-content
 description: The SecPkgContext_DceInfo structure contains authorization data used by DCE services. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_dceinfo.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 490688d0-efdd-4a40-88b9-eb53ff592d2a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSecPkgContext_DceInfo, PSecPkgContext_DceInfo, PSecPkgContext_DceInfo structure pointer [Security], SecPkgContext_DceInfo, SecPkgContext_DceInfo structure [Security], _SecPkgContext_DceInfo, _ssp_secpkgcontext_dceinfo, security.secpkgcontext_dceinfo, sspi/PSecPkgContext_DceInfo, sspi/SecPkgContext_DceInfo"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_DceInfo, *PSecPkgContext_DceInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SecPkgContext_DceInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SecPkgContext_DceInfo, *PSecPkgContext_DceInfo
+req.redist: 
 ---
 
 # _SecPkgContext_DceInfo structure

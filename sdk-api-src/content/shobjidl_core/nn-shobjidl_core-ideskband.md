@@ -4,17 +4,16 @@ title: IDeskBand
 author: windows-sdk-content
 description: Used to obtain information about a band object.
 old-location: shell\IDeskBand.htm
-old-project: shell
+tech.root: shell
 ms.assetid: eb9f7f2a-a6be-4527-8a32-325dad4c8000
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IDeskBand, IDeskBand interface [Windows Shell], IDeskBand interface [Windows Shell],described, _win32_IDeskBand, shell.IDeskBand, shobjidl_core/IDeskBand
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDeskBand
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDeskBand interface

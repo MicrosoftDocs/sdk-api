@@ -4,17 +4,16 @@ title: tagOLEUIPASTESPECIALW
 author: windows-sdk-content
 description: Contains information that the OLE User Interface Library uses to initialize the Paste Special dialog box, as well as space for the library to return information when the dialog box is dismissed.
 old-location: com\oleuipastespecial_struct.htm
-old-project: com
+tech.root: com
 ms.assetid: bb346fa7-03ae-458d-8488-64db7a9c48e1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPOLEUIPASTESPECIALW, *POLEUIPASTESPECIALW, HIDECHANGEICON, LPOLEUIPASTESPECIAL, LPOLEUIPASTESPECIAL structure pointer [COM], NOREFRESHDATAOBJECT, OLEUIPASTESPECIAL, OLEUIPASTESPECIAL structure [COM], OLEUIPASTESPECIALA, OLEUIPASTESPECIALW, POLEUIPASTESPECIAL, POLEUIPASTESPECIAL structure pointer [COM], PSF_CHECKDISPLAYASICON, PSF_DISABLEDISPLAYASICON, PSF_SELECTPASTE, PSF_SELECTPASTELINK, PSF_SHOWHELP, STAYONCLIPBOARDCHANGE, _ole_OLEUIPASTESPECIAL_str, com.oleuipastespecial_struct, oledlg/LPOLEUIPASTESPECIAL, oledlg/OLEUIPASTESPECIAL, oledlg/OLEUIPASTESPECIALA, oledlg/OLEUIPASTESPECIALW, oledlg/POLEUIPASTESPECIAL, tagOLEUIPASTESPECIALW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTESPECIALW, *POLEUIPASTESPECIALW, *LPOLEUIPASTESPECIALW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OLEUIPASTESPECIALW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OLEUIPASTESPECIALW, *POLEUIPASTESPECIALW, *LPOLEUIPASTESPECIALW
+req.redist: 
 ---
 
 # tagOLEUIPASTESPECIALW structure

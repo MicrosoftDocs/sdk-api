@@ -4,17 +4,16 @@ title: "_CTL_ENTRY"
 author: windows-sdk-content
 description: An element of a certificate trust list (CTL).
 old-location: security\ctl_entry.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: ebc63847-b641-4205-b15c-7b32c1426c21
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCTL_ENTRY, CTL_ENTRY, CTL_ENTRY structure [Security], PCTL_ENTRY, PCTL_ENTRY structure pointer [Security], _CTL_ENTRY, _crypto2_ctl_entry, security.ctl_entry, wincrypt/CTL_ENTRY, wincrypt/PCTL_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CTL_ENTRY, *PCTL_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CTL_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CTL_ENTRY, *PCTL_ENTRY
+req.redist: 
 ---
 
 # _CTL_ENTRY structure

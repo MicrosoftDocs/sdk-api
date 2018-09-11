@@ -4,7 +4,7 @@ title: LANGGROUPLOCALE_ENUMPROCA
 author: windows-sdk-content
 description: An application-defined callback function that processes enumerated language group locale information provided by the EnumLanguageGroupLocales function.
 old-location: intl\enumlanguagegrouplocalesproc.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: e422c61f-7a97-4f95-8592-22a1eb5f616b
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNIVERSAL_NAME_INFOW, *LPUNIVERSAL_NAME_INFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LANGGROUPLOCALE_ENUMPROC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # LANGGROUPLOCALE_ENUMPROCA callback function

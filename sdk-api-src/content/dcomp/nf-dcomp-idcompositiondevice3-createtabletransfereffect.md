@@ -4,17 +4,16 @@ title: IDCompositionDevice3::CreateTableTransferEffect
 author: windows-sdk-content
 description: Creates an instance of IDCompositionTableTransferEffect.
 old-location: directcomp\idcompositiondevice3_createtabletransfereffect.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: C6438DB2-26DA-451A-B748-901C809C1369
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateTableTransferEffect, CreateTableTransferEffect method [DirectComposition], CreateTableTransferEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateTableTransferEffect method, IDCompositionDevice3.CreateTableTransferEffect, IDCompositionDevice3::CreateTableTransferEffect, dcomp/IDCompositionDevice3::CreateTableTransferEffect, directcomp.idcompositiondevice3_createtabletransfereffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice3.CreateTableTransferEffect
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice3::CreateTableTransferEffect

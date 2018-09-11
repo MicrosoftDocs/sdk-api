@@ -4,17 +4,16 @@ title: IConnector::GetDeviceIdConnectedTo
 author: windows-sdk-content
 description: The GetDeviceIdConnectedTo method gets the device identifier of the audio device, if any, that this connector is connected to.
 old-location: coreaudio\iconnector_getdeviceidconnectedto.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 8f62bdeb-4765-467f-b68d-d94fc9a51dfb
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetDeviceIdConnectedTo, GetDeviceIdConnectedTo method [Core Audio], GetDeviceIdConnectedTo method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetDeviceIdConnectedTo method, IConnector.GetDeviceIdConnectedTo, IConnector::GetDeviceIdConnectedTo, IConnectorGetDeviceIdConnectedTo, coreaudio.iconnector_getdeviceidconnectedto, devicetopology/IConnector::GetDeviceIdConnectedTo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IConnector.GetDeviceIdConnectedTo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IConnector::GetDeviceIdConnectedTo

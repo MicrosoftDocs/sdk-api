@@ -4,17 +4,16 @@ title: ICertEncodeBitString
 author: windows-sdk-content
 description: Provides methods for handling bit strings used in certificate extensions.
 old-location: security\icertencodebitstring.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 51178b67-46da-49f8-9bd7-a500e846e0a8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ICertEncodeBitString, ICertEncodeBitString interface [Security], ICertEncodeBitString interface [Security],described, _certsrv_icertencodebitstring, certenc/ICertEncodeBitString, security.icertencodebitstring
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertEncodeBitString
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeBitString interface

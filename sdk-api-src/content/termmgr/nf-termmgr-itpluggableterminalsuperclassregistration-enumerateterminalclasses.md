@@ -4,17 +4,16 @@ title: ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
 author: windows-sdk-content
 description: The EnumerateTerminalClasses method lists all terminal classes for the current terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_enumerateterminalclasses.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: dc75972d-7917-406d-8ed8-e05679ab86eb
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumerateTerminalClasses, EnumerateTerminalClasses method [TAPI 2.2], EnumerateTerminalClasses method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],EnumerateTerminalClasses method, ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses, ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses, _tapi3_itpluggableterminalsuperclassregistration_enumerateterminalclasses, tapi3.itpluggableterminalsuperclassregistration_enumerateterminalclasses, termmgr/ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses

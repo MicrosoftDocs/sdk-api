@@ -4,17 +4,16 @@ title: IVssBackupComponentsEx2::PreFastRecovery
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivssbackupcomponentsex2_prefastrecovery.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: ba06e324-0f17-4184-bc53-dcb82fb49292
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssBackupComponentsEx2 interface,PreFastRecovery method, IVssBackupComponentsEx2.PreFastRecovery, IVssBackupComponentsEx2::PreFastRecovery, PreFastRecovery, PreFastRecovery method, PreFastRecovery method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_prefastrecovery, vsbackup/IVssBackupComponentsEx2::PreFastRecovery
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssBackupComponentsEx2.PreFastRecovery
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponentsEx2::PreFastRecovery
@@ -64,17 +62,17 @@ This method is reserved for future use.
 
 ### -param SnapshotSetID
 
-
+TBD
 
 
 ### -param dwPreFastRecoveryFlags
 
-
+TBD
 
 
 ### -param ppAsync
 
-
+TBD
 
 
 

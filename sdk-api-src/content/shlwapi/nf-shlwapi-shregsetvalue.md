@@ -4,17 +4,16 @@ title: SHRegSetValue function
 author: windows-sdk-content
 description: Not supported.
 old-location: shell\SHRegSetValue.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 64accb02-0d1f-47bf-bc3c-2db7688764f1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHRegSetValue, SHRegSetValue function [Windows Shell], _shell_SHRegSetValue, shell.SHRegSetValue, shlwapi/SHRegSetValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: Shlwapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: 
+req.dll: Shlwapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHRegSetValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shlwapi.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHRegSetValue function

@@ -4,17 +4,16 @@ title: IGPM::GetBackupDir
 author: windows-sdk-content
 description: Creates and returns a GPMBackupDir object, which you can use to access the GPMBackup and GPMBackupCollection objects.
 old-location: gpmc\igpm_getbackupdir.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 4ffc8827-8427-4ee5-ad89-21f821d16d97
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPM class [GPMC],GetBackupDir method, GetBackupDir, GetBackupDir method [GPMC], GetBackupDir method [GPMC],GPM class, GetBackupDir method [GPMC],IGPM interface, IGPM interface [GPMC],GetBackupDir method, IGPM.GetBackupDir, IGPM::GetBackupDir, _win32_igpm_getbackupdir, gpmc.igpm_getbackupdir, gpmgmt/IGPM::GetBackupDir
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPM.GetBackupDir
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPM::GetBackupDir

@@ -4,17 +4,16 @@ title: IHolder::TrackResource
 author: windows-sdk-content
 description: Tracks the resource.
 old-location: cos\iholder_trackresource.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 8c87727a-fefd-4ef6-964c-3379d22178c2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IHolder interface [COM+],TrackResource method, IHolder.TrackResource, IHolder::TrackResource, TrackResource, TrackResource method [COM+], TrackResource method [COM+],IHolder interface, _dtc_IHolder_TrackResource, comsvcs/IHolder::TrackResource, cos.iholder_trackresource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IHolder.TrackResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IHolder::TrackResource
@@ -61,7 +60,7 @@ Tracks the resource.
 
 ### -param __MIDL__IHolder0003
 
-
+TBD
 
 
 

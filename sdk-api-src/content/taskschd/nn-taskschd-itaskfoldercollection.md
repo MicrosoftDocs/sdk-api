@@ -4,17 +4,16 @@ title: ITaskFolderCollection
 author: windows-sdk-content
 description: Provides information and control for a collection of folders that contain tasks.
 old-location: taskschd\itaskfoldercollection.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 1889a7e3-8fa2-4b96-9d55-656850f605da
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITaskFolderCollection, ITaskFolderCollection interface [Task Scheduler], ITaskFolderCollection interface [Task Scheduler],described, taskschd.itaskfoldercollection, taskschd/ITaskFolderCollection
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskFolderCollection
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskFolderCollection interface

@@ -4,7 +4,7 @@ title: FWP_DIRECTION_
 author: windows-sdk-content
 description: Direction of network traffic.
 old-location: fwp\fwp_direction_enum.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: ae0eeb36-1a41-426a-9878-77558464a91b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWP_DIRECTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWP_DIRECTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWP_DIRECTION
+req.redist: 
 ---
 
 # FWP_DIRECTION_ enumeration

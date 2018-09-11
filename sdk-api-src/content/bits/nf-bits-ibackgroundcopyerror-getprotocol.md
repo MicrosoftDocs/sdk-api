@@ -4,17 +4,16 @@ title: IBackgroundCopyError::GetProtocol
 author: windows-sdk-content
 description: Retrieves the protocol used to transfer the file. The remote file name identifies the protocol to use to transfer the file.
 old-location: bits\ibackgroundcopyerror_getprotocol.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 94c1fcc8-7132-41db-9a1c-cbe105e3b0bb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetProtocol, GetProtocol method [BITS], GetProtocol method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetProtocol method, IBackgroundCopyError.GetProtocol, IBackgroundCopyError::GetProtocol, _drz_ibackgroundcopyerror_getprotocol, bits.ibackgroundcopyerror_getprotocol, bits/IBackgroundCopyError::GetProtocol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyError.GetProtocol
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyError::GetProtocol
@@ -61,7 +60,7 @@ Retrieves the protocol used to transfer the file. The remote file name identifie
 
 ### -param pProtocol
 
-
+TBD
 
 
 

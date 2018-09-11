@@ -4,17 +4,16 @@ title: DragFinish function
 author: windows-sdk-content
 description: Releases memory that the system allocated for use in transferring file names to the application.
 old-location: shell\DragFinish.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9b15e8a5-de68-4dcb-8e1a-0ee0393aa9db
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DragFinish, DragFinish function [Windows Shell], _win32_DragFinish, shell.DragFinish, shellapi/DragFinish
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DragFinish
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DragFinish function

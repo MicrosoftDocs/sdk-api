@@ -4,17 +4,16 @@ title: "_WSAPROTOCOLCHAIN"
 author: windows-sdk-content
 description: The WSAPROTOCOLCHAIN structure contains a counted list of Catalog Entry identifiers that comprise a protocol chain.
 old-location: winsock\wsaprotocolchain_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: c0676f45-e3e3-45f2-9b34-d7318fddc282
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWSAPROTOCOLCHAIN, LPWSAPROTOCOLCHAIN, LPWSAPROTOCOLCHAIN structure pointer [Winsock], WSAPROTOCOLCHAIN, WSAPROTOCOLCHAIN structure [Winsock], _WSAPROTOCOLCHAIN, _win32_wsaprotocolchain_2, winsock.wsaprotocolchain_2, winsock2/LPWSAPROTOCOLCHAIN, winsock2/WSAPROTOCOLCHAIN"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAPROTOCOLCHAIN, *LPWSAPROTOCOLCHAIN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSAPROTOCOLCHAIN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSAPROTOCOLCHAIN, *LPWSAPROTOCOLCHAIN
+req.redist: 
 ---
 
 # _WSAPROTOCOLCHAIN structure

@@ -4,17 +4,16 @@ title: HTTP_SET_NULL_ID macro
 author: windows-sdk-content
 description: The HTTP_SET_NULL_ID macro sets the HTTP_OPAQUE_ID to NULL.
 old-location: http\http_set_null_id.htm
-old-project: http
+tech.root: http
 ms.assetid: d4a15361-3346-4c05-a3df-4503da183549
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HTTP_SET_NULL_ID, HTTP_SET_NULL_ID macro [HTTP], http.http_set_null_id, http/HTTP_SET_NULL_ID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERB, *PHTTP_VERB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_SET_NULL_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HTTP_SET_NULL_ID macro

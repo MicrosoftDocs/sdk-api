@@ -4,17 +4,16 @@ title: WsGetMetadataEndpoints function
 author: windows-sdk-content
 description: Returns the &#0034;Endpoints&#0034; defined within the metadata object documents.
 old-location: wsw\wsgetmetadataendpoints.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 1cf9f2ba-c303-4668-a959-8fad69746438
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsGetMetadataEndpoints, WsGetMetadataEndpoints function [Web Services for Windows], webservices/WsGetMetadataEndpoints, wsw.wsgetmetadataendpoints
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsGetMetadataEndpoints
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsGetMetadataEndpoints function

@@ -4,7 +4,7 @@ title: "_MFT_MESSAGE_TYPE"
 author: windows-sdk-content
 description: Defines messages for a Media Foundation transform (MFT).
 old-location: mf\mft_message_type.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 55b0aa32-53af-4f19-9d99-9885c1e28588
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFT_MESSAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFT_MESSAGE_TYPE
 product: Windows
 targetos: Windows
-req.lib: Mfobjects.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFT_MESSAGE_TYPE
+req.redist: 
 ---
 
 # _MFT_MESSAGE_TYPE enumeration

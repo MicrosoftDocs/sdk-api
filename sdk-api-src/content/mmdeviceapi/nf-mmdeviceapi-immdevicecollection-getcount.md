@@ -4,17 +4,16 @@ title: IMMDeviceCollection::GetCount
 author: windows-sdk-content
 description: The GetCount method retrieves a count of the devices in the device collection.
 old-location: coreaudio\immdevicecollection_getcount.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 236a611b-98ab-437c-9e36-8c8a7c32ffbc
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio],IMMDeviceCollection interface, IMMDeviceCollection interface [Core Audio],GetCount method, IMMDeviceCollection.GetCount, IMMDeviceCollection::GetCount, IMMDeviceCollectionGetCount, coreaudio.immdevicecollection_getcount, mmdeviceapi/IMMDeviceCollection::GetCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EndpointFormFactor
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMMDeviceCollection.GetCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMMDeviceCollection::GetCount

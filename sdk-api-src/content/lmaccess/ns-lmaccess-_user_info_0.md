@@ -4,17 +4,16 @@ title: "_USER_INFO_0"
 author: windows-sdk-content
 description: The USER_INFO_0 structure contains a user account name.
 old-location: netmgmt\user_info_0_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 5d24a2dd-d1ee-4c97-8fbc-0b336313b60c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPUSER_INFO_0, *PUSER_INFO_0, LPUSER_INFO_0, LPUSER_INFO_0 structure pointer [Network Management], PUSER_INFO_0, PUSER_INFO_0 structure pointer [Network Management], USER_INFO_0, USER_INFO_0 structure [Network Management], _USER_INFO_0, _win32_user_info_0_str, lmaccess/LPUSER_INFO_0, lmaccess/PUSER_INFO_0, lmaccess/USER_INFO_0, netmgmt.user_info_0_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INFO_0, *PUSER_INFO_0, *LPUSER_INFO_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USER_INFO_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: USER_INFO_0, *PUSER_INFO_0, *LPUSER_INFO_0
+req.redist: 
 ---
 
 # _USER_INFO_0 structure

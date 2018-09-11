@@ -4,17 +4,16 @@ title: SnmpMgrRequest function
 author: windows-sdk-content
 description: The SnmpMgrRequest function requests the specified operation be performed with the specified agent. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgrrequest.htm
-old-project: snmp
+tech.root: SNMP
 ms.assetid: f66ce774-dba0-466b-ad1e-671f9a487e0f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SNMP_ERRORSTATUS_BADVALUE, SNMP_ERRORSTATUS_GENERR, SNMP_ERRORSTATUS_NOERROR, SNMP_ERRORSTATUS_NOSUCHNAME, SNMP_ERRORSTATUS_READONLY, SNMP_ERRORSTATUS_TOOBIG, SNMP_PDU_GET, SNMP_PDU_GETNEXT, SNMP_PDU_SET, SnmpMgrRequest, SnmpMgrRequest function [SNMP], _snmp_snmpmgrrequest, mgmtapi/SnmpMgrRequest, snmp.snmpmgrrequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mgmtapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOURCE_GROUP_ENTRY, *PSOURCE_GROUP_ENTRY
+req.lib: Mgmtapi.lib
+req.dll: Mgmtapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SnmpMgrRequest
 product: Windows
 targetos: Windows
-req.lib: Mgmtapi.lib
-req.dll: Mgmtapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SnmpMgrRequest function

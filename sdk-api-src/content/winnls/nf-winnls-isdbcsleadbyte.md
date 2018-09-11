@@ -4,17 +4,16 @@ title: IsDBCSLeadByte function
 author: windows-sdk-content
 description: Determines if a specified character is a lead byte for the system default Windows ANSI code page (CP_ACP). A lead byte is the first byte of a two-byte character in a double-byte character set (DBCS) for the code page.
 old-location: intl\isdbcsleadbyte.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 13767af5-9313-4c11-8386-fe41c7720d49
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IsDBCSLeadByte, IsDBCSLeadByte function [Internationalization for Windows Applications], _win32_IsDBCSLeadByte, intl.isdbcsleadbyte, winnls/IsDBCSLeadByte
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - IsDBCSLeadByte
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IsDBCSLeadByte function

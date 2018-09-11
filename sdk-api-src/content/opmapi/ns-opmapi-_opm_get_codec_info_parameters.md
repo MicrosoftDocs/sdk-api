@@ -4,7 +4,7 @@ title: "_OPM_GET_CODEC_INFO_PARAMETERS"
 author: windows-sdk-content
 description: Contains information for the OPM_GET_CODEC_INFO command.
 old-location: mf\opm_get_codec_info_parameters.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9fb130e5-fd87-4a11-9c9e-7a106a091b35
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: Opmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_GET_CODEC_INFO_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPM_GET_CODEC_INFO_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OPM_GET_CODEC_INFO_PARAMETERS
+req.redist: 
 ---
 
 # _OPM_GET_CODEC_INFO_PARAMETERS structure

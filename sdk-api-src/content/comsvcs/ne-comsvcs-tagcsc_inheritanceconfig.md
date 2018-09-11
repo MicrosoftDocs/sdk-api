@@ -4,17 +4,16 @@ title: tagCSC_InheritanceConfig
 author: windows-sdk-content
 description: Indicates whether to create a new context based on the current context or to create a new context based solely upon the information in CServiceConfig.
 old-location: cos\csc_inheritanceconfig.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 9bc8c4f3-d13e-46b6-9187-904b05f66f66
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CSC_Ignore, CSC_Inherit, CSC_InheritanceConfig, CSC_InheritanceConfig enumeration [COM+], _cos_csc_inheritanceconfig, comsvcs/CSC_Ignore, comsvcs/CSC_Inherit, comsvcs/CSC_InheritanceConfig, cos.csc_inheritanceconfig, tagCSC_InheritanceConfig
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CSC_InheritanceConfig
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CSC_InheritanceConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CSC_InheritanceConfig
+req.redist: 
 ---
 
 # tagCSC_InheritanceConfig enumeration

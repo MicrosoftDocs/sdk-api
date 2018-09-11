@@ -4,17 +4,16 @@ title: ICredentialProviderCredentialEvents::SetFieldInteractiveState
 author: windows-sdk-content
 description: Communicates to the Logon UI or Credential UI that the interactivity state of a field has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldInteractiveState.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 649f0f65-78dd-4232-b471-9a18d1448f1d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldInteractiveState method, ICredentialProviderCredentialEvents.SetFieldInteractiveState, ICredentialProviderCredentialEvents::SetFieldInteractiveState, SetFieldInteractiveState, SetFieldInteractiveState method [Windows Shell], SetFieldInteractiveState method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldInteractiveState, credentialprovider/ICredentialProviderCredentialEvents::SetFieldInteractiveState, shell.ICredentialProviderCredentialEvents_SetFieldInteractiveState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProviderCredentialEvents.SetFieldInteractiveState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProviderCredentialEvents::SetFieldInteractiveState

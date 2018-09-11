@@ -4,17 +4,16 @@ title: IPropertyDescription::GetSortDescriptionLabel
 author: windows-sdk-content
 description: Gets the localized display string that describes the current sort order.
 old-location: properties\IPropertyDescription_GetSortDescriptionLabel.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 5cfa445b-953b-474f-ba7b-1ed6cfbf981d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSortDescriptionLabel, GetSortDescriptionLabel method [Windows Properties], GetSortDescriptionLabel method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetSortDescriptionLabel method, IPropertyDescription.GetSortDescriptionLabel, IPropertyDescription::GetSortDescriptionLabel, properties.IPropertyDescription_GetSortDescriptionLabel, propsys/IPropertyDescription::GetSortDescriptionLabel, shell.IPropertyDescription_GetSortDescriptionLabel, shell_IPropertyDescription_GetSortDescriptionLabel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription.GetSortDescriptionLabel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription::GetSortDescriptionLabel

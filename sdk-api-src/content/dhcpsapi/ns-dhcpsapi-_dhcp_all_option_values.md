@@ -4,7 +4,7 @@ title: "_DHCP_ALL_OPTION_VALUES"
 author: windows-sdk-content
 description: Defines the set of all option values defined on a DHCP server, organized according to class/vendor pairing.
 old-location: dhcp\dhcp_all_option_values.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: f6641ff6-c9f0-4ceb-9509-2c394f30ad93
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_ALL_OPTION_VALUES, *LPDHCP_ALL_OPTION_VALUES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_ALL_OPTION_VALUES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_ALL_OPTION_VALUES, *LPDHCP_ALL_OPTION_VALUES
+req.redist: 
 ---
 
 # _DHCP_ALL_OPTION_VALUES structure

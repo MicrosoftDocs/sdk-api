@@ -4,17 +4,16 @@ title: IReferenceClock::AdvisePeriodic
 author: windows-sdk-content
 description: The AdvisePeriodic method creates a periodic advise request.
 old-location: dshow\ireferenceclock_adviseperiodic.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c8e2545b-ea3c-441c-8721-e7dec09d100e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: AdvisePeriodic, AdvisePeriodic method [DirectShow], AdvisePeriodic method [DirectShow],IReferenceClock interface, IReferenceClock interface [DirectShow],AdvisePeriodic method, IReferenceClock.AdvisePeriodic, IReferenceClock::AdvisePeriodic, IReferenceClockAdvisePeriodic, dshow.ireferenceclock_adviseperiodic, strmif/IReferenceClock::AdvisePeriodic
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IReferenceClock.AdvisePeriodic
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IReferenceClock::AdvisePeriodic
@@ -66,12 +64,12 @@ The <code>AdvisePeriodic</code> method creates a periodic advise request.
 
 ### -param startTime
 
-
+TBD
 
 
 ### -param periodTime
 
-
+TBD
 
 
 ### -param hSemaphore [in]

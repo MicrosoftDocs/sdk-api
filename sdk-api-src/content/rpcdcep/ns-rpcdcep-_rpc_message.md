@@ -4,17 +4,16 @@ title: "_RPC_MESSAGE"
 author: windows-sdk-content
 description: The RPC_MESSAGE structure contains information shared between NDR and the rest of the RPC or OLE runtime.
 old-location: rpc\rpc_message.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: fd014622-97b3-4f76-8bc3-10821aa3c46e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRPC_MESSAGE, PRPC_MESSAGE, PRPC_MESSAGE structure pointer [RPC], RPC_MESSAGE, RPC_MESSAGE structure [RPC], _RPC_MESSAGE, rpc.rpc_message, rpcdcep/PRPC_MESSAGE, rpcdcep/RPC_MESSAGE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdcep.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_MESSAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.redist: 
 ---
 
 # _RPC_MESSAGE structure

@@ -4,17 +4,16 @@ title: IWICDevelopRaw::GetRenderMode
 author: windows-sdk-content
 description: Gets the current WICRawRenderMode.
 old-location: wic\_wic_codec_iwicdevelopraw_getrendermode.htm
-old-project: wic
+tech.root: wic
 ms.assetid: d8cf4508-6a2c-4d02-b98f-0455a3dc966c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetRenderMode, GetRenderMode method [Windows Imaging Component], GetRenderMode method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetRenderMode method, IWICDevelopRaw.GetRenderMode, IWICDevelopRaw::GetRenderMode, _wic_codec_iwicdevelopraw_getrendermode, wic._wic_codec_iwicdevelopraw_getrendermode, wincodec/IWICDevelopRaw::GetRenderMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWICDevelopRaw.GetRenderMode
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICDevelopRaw::GetRenderMode

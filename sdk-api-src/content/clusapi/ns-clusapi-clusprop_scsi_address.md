@@ -4,17 +4,16 @@ title: CLUSPROP_SCSI_ADDRESS
 author: windows-sdk-content
 description: Describes an address for a SCSI device.
 old-location: mscs\clusprop_scsi_address.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 30907886-0c86-4e8a-9a95-5b62f6ffff76
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUSPROP_SCSI_ADDRESS, CLUSPROP_SCSI_ADDRESS, CLUSPROP_SCSI_ADDRESS structure [Failover Cluster], PCLUSPROP_SCSI_ADDRESS, PCLUSPROP_SCSI_ADDRESS structure pointer [Failover Cluster], _wolf_clusprop_scsi_address, clusapi/CLUSPROP_SCSI_ADDRESS, clusapi/PCLUSPROP_SCSI_ADDRESS, mscs.clusprop_scsi_address"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSPROP_SCSI_ADDRESS, *PCLUSPROP_SCSI_ADDRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSPROP_SCSI_ADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSPROP_SCSI_ADDRESS, *PCLUSPROP_SCSI_ADDRESS
+req.redist: 
 ---
 
 # CLUSPROP_SCSI_ADDRESS structure

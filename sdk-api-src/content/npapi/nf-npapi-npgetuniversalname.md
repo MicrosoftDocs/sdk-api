@@ -4,17 +4,16 @@ title: NPGetUniversalName function
 author: windows-sdk-content
 description: Retrieves the universal name of a network resource. The NPGetUniversalName function can retrieve this universal name in UNC format or in the older, remote-name format.
 old-location: security\npgetuniversalname.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 976b5910-c34f-49fa-b25e-82bf607e33a9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: NPGetUniversalName, NPGetUniversalName function [Security], REMOTE_NAME_INFO_LEVEL, UNIVERSAL_NAME_INFO_LEVEL, _mnp_npgetuniversalname, npapi/NPGetUniversalName, security.npgetuniversalname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFICATION_USER_INPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NPGetUniversalName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NPGetUniversalName function

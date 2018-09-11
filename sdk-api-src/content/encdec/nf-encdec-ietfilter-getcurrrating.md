@@ -4,17 +4,16 @@ title: IETFilter::GetCurrRating
 author: windows-sdk-content
 description: The GetCurrRating method retrieves the current rating, based on the most recent media sample.
 old-location: mstv\ietfilter_getcurrrating.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d90d0842-2dd3-4b98-b619-1b71f7870be8
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCurrRating, GetCurrRating method [Microsoft TV Technologies], GetCurrRating method [Microsoft TV Technologies],IETFilter interface, IETFilter interface [Microsoft TV Technologies],GetCurrRating method, IETFilter.GetCurrRating, IETFilter::GetCurrRating, IETFilterGetCurrRating, encdec/IETFilter::GetCurrRating, mstv.ietfilter_getcurrrating
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IETFilter.GetCurrRating
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IETFilter::GetCurrRating

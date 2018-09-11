@@ -4,17 +4,16 @@ title: FwpmGetAppIdFromFileName0 function
 author: windows-sdk-content
 description: Retrieves an application identifier from a file name.
 old-location: fwp\fwpmgetappidfromfilename0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 9bf3a101-7782-4075-bc77-a003184d0cbe
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FwpmGetAppIdFromFileName0, FwpmGetAppIdFromFileName0 function [Filtering], fwp.fwpmgetappidfromfilename0, fwpmu/FwpmGetAppIdFromFileName0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FwpmGetAppIdFromFileName0
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FwpmGetAppIdFromFileName0 function

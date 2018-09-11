@@ -4,17 +4,16 @@ title: IMetaDataTables::GetGuid
 author: windows-sdk-content
 description: Gets a GUID from the row at the specified index.
 old-location: winrt\imetadatatables_getguid.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 037d722f-3efb-4c01-8445-b23caafbbdb2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetGuid, GetGuid method [Windows Runtime], GetGuid method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetGuid method, IMetaDataTables.GetGuid, IMetaDataTables::GetGuid, rometadataapi/IMetaDataTables::GetGuid, winrt.imetadatatables_getguid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataTables.GetGuid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataTables::GetGuid

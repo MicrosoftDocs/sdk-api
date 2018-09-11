@@ -4,17 +4,16 @@ title: IShellLibrary::SetOptions
 author: windows-sdk-content
 description: Sets the library options.
 old-location: shell\IShellLibrary_SetOptions.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8bec0c71-3170-4ff9-aa87-4880d6ac7e32
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetOptions method, IShellLibrary.SetOptions, IShellLibrary::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetOptions, shell.IShellLibrary_SetOptions, shobjidl_core/IShellLibrary::SetOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellLibrary.SetOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellLibrary::SetOptions

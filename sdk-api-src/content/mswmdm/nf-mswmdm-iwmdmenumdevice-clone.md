@@ -4,17 +4,16 @@ title: IWMDMEnumDevice::Clone
 author: windows-sdk-content
 description: The Clone method returns a copy of the IWMDMEnumDevice interface. The new enumerator specifies the same enumeration state as the current enumerator.
 old-location: wmdm\iwmdmenumdevice_clone.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: c8118950-d96f-4720-ab3a-f5ea93065875
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [windows Media Device Manager], Clone method [windows Media Device Manager],IWMDMEnumDevice interface, IWMDMEnumDevice interface [windows Media Device Manager],Clone method, IWMDMEnumDevice.Clone, IWMDMEnumDevice::Clone, IWMDMEnumDeviceClone, mswmdm/IWMDMEnumDevice::Clone, wmdm.iwmdmenumdevice_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMEnumDevice.Clone
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMEnumDevice::Clone

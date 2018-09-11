@@ -4,17 +4,16 @@ title: IDvdControl2::SetGPRM
 author: windows-sdk-content
 description: The SetGPRM method sets a general parameter register value.
 old-location: dshow\idvdcontrol2_setgprm.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 192bbf1d-a5de-4acf-b8d6-8a5f733da3a6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetGPRM method, IDvdControl2.SetGPRM, IDvdControl2::SetGPRM, IDvdControl2SetGPRM, SetGPRM, SetGPRM method [DirectShow], SetGPRM method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setgprm, strmif/IDvdControl2::SetGPRM
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdControl2.SetGPRM
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl2::SetGPRM

@@ -4,17 +4,16 @@ title: IMFCapturePreviewSink::SetMirrorState
 author: windows-sdk-content
 description: Enables or disables mirroring of the video preview stream.
 old-location: mf\imfcapturepreviewsink_setmirrorstate.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: F7F04E29-E7AD-46BD-AAF9-5B7BA68822EE
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetMirrorState method, IMFCapturePreviewSink.SetMirrorState, IMFCapturePreviewSink::SetMirrorState, SetMirrorState, SetMirrorState method [Media Foundation], SetMirrorState method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setmirrorstate, mfcaptureengine/IMFCapturePreviewSink::SetMirrorState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCapturePreviewSink.SetMirrorState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCapturePreviewSink::SetMirrorState

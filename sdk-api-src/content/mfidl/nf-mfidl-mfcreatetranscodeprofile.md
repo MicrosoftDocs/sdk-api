@@ -4,17 +4,16 @@ title: MFCreateTranscodeProfile function
 author: windows-sdk-content
 description: Creates an empty transcode profile object.
 old-location: mf\mfcreatetranscodeprofile.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2a482c6f-6e20-419a-a7eb-085c41cc8186
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateTranscodeProfile, MFCreateTranscodeProfile function [Media Foundation], mf.mfcreatetranscodeprofile, mfidl/MFCreateTranscodeProfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mf.lib
+req.dll: Mf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateTranscodeProfile
 product: Windows
 targetos: Windows
-req.lib: Mf.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateTranscodeProfile function

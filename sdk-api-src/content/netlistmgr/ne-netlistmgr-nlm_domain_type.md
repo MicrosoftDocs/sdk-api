@@ -4,7 +4,7 @@ title: NLM_DOMAIN_TYPE
 author: windows-sdk-content
 description: The NLM_DOMAIN_TYPE enumeration is a set of flags that specify the domain type of a network.
 old-location: nla\nlm_domain_type.htm
-old-project: nla
+tech.root: nla
 ms.assetid: fd1bc50a-c8d3-4594-870e-3bbb5c6ea1da
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_DOMAIN_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NLM_DOMAIN_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NLM_DOMAIN_TYPE
+req.redist: 
 ---
 
 # NLM_DOMAIN_TYPE enumeration

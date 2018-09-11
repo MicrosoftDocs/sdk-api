@@ -4,17 +4,16 @@ title: SYNCMGR_HANDLER_POLICIES
 author: windows-sdk-content
 description: Enumerates policies specified by a sync handler that deviate from the default policy.
 old-location: shell\SYNCMGR_HANDLER_POLICIES.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2baf39ea-2b28-4d38-8635-8f5efca54702
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SYNCMGR_HANDLER_POLICIES, SYNCMGR_HANDLER_POLICIES enumeration [Windows Shell], SYNCMGR_HPM_BACKGROUND_SYNC_ONLY, SYNCMGR_HPM_DISABLE_BROWSE, SYNCMGR_HPM_DISABLE_DISABLE, SYNCMGR_HPM_DISABLE_ENABLE, SYNCMGR_HPM_DISABLE_SCHEDULE, SYNCMGR_HPM_DISABLE_START_SYNC, SYNCMGR_HPM_DISABLE_STOP_SYNC, SYNCMGR_HPM_HIDDEN_BY_DEFAULT, SYNCMGR_HPM_NONE, SYNCMGR_HPM_PREVENT_ACTIVATE, SYNCMGR_HPM_PREVENT_DEACTIVATE, SYNCMGR_HPM_PREVENT_DISABLE, SYNCMGR_HPM_PREVENT_ENABLE, SYNCMGR_HPM_PREVENT_START_SYNC, SYNCMGR_HPM_PREVENT_STOP_SYNC, SYNCMGR_HPM_VALID_MASK, shell.SYNCMGR_HANDLER_POLICIES, shell_SYNCMGR_HANDLER_POLICIES, syncmgr/SYNCMGR_HANDLER_POLICIES, syncmgr/SYNCMGR_HPM_BACKGROUND_SYNC_ONLY, syncmgr/SYNCMGR_HPM_DISABLE_BROWSE, syncmgr/SYNCMGR_HPM_DISABLE_DISABLE, syncmgr/SYNCMGR_HPM_DISABLE_ENABLE, syncmgr/SYNCMGR_HPM_DISABLE_SCHEDULE, syncmgr/SYNCMGR_HPM_DISABLE_START_SYNC, syncmgr/SYNCMGR_HPM_DISABLE_STOP_SYNC, syncmgr/SYNCMGR_HPM_HIDDEN_BY_DEFAULT, syncmgr/SYNCMGR_HPM_NONE, syncmgr/SYNCMGR_HPM_PREVENT_ACTIVATE, syncmgr/SYNCMGR_HPM_PREVENT_DEACTIVATE, syncmgr/SYNCMGR_HPM_PREVENT_DISABLE, syncmgr/SYNCMGR_HPM_PREVENT_ENABLE, syncmgr/SYNCMGR_HPM_PREVENT_START_SYNC, syncmgr/SYNCMGR_HPM_PREVENT_STOP_SYNC, syncmgr/SYNCMGR_HPM_VALID_MASK
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_HANDLER_POLICIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGR_HANDLER_POLICIES
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SYNCMGR_HANDLER_POLICIES
+req.redist: 
 ---
 
 # SYNCMGR_HANDLER_POLICIES enumeration

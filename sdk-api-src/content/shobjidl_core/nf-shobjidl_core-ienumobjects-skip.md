@@ -4,17 +4,16 @@ title: IEnumObjects::Skip
 author: windows-sdk-content
 description: Skips a specified number of objects.
 old-location: shell\IEnumObjects_Skip.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 227be42b-c821-40f4-8bcb-9990d1ceefeb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IEnumObjects interface [Windows Shell],Skip method, IEnumObjects.Skip, IEnumObjects::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumObjects interface, _shell_IEnumObjects_Skip, shell.IEnumObjects_Skip, shobjidl_core/IEnumObjects::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumObjects.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumObjects::Skip

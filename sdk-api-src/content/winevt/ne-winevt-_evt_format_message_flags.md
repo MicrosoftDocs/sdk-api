@@ -4,17 +4,16 @@ title: "_EVT_FORMAT_MESSAGE_FLAGS"
 author: windows-sdk-content
 description: Defines the values that specify the message string from the event to format.
 old-location: wes\evt_format_message_flags.htm
-old-project: wes
+tech.root: WES
 ms.assetid: 6a8ed14a-1952-4fcf-ac66-12c1fecd363f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EVT_FORMAT_MESSAGE_FLAGS, EVT_FORMAT_MESSAGE_FLAGS enumeration [EventLog], EvtFormatMessageChannel, EvtFormatMessageEvent, EvtFormatMessageId, EvtFormatMessageKeyword, EvtFormatMessageLevel, EvtFormatMessageOpcode, EvtFormatMessageProvider, EvtFormatMessageTask, EvtFormatMessageXml, _EVT_FORMAT_MESSAGE_FLAGS, wes.evt_format_message_flags, winevt/EVT_FORMAT_MESSAGE_FLAGS, winevt/EvtFormatMessageChannel, winevt/EvtFormatMessageEvent, winevt/EvtFormatMessageId, winevt/EvtFormatMessageKeyword, winevt/EvtFormatMessageLevel, winevt/EvtFormatMessageOpcode, winevt/EvtFormatMessageProvider, winevt/EvtFormatMessageTask, winevt/EvtFormatMessageXml
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_FORMAT_MESSAGE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_FORMAT_MESSAGE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_FORMAT_MESSAGE_FLAGS
+req.redist: 
 ---
 
 # _EVT_FORMAT_MESSAGE_FLAGS enumeration

@@ -4,17 +4,16 @@ title: ITCallingCard::get_NumberOfDigits
 author: windows-sdk-content
 description: The get_NumberOfDigits method gets the number of digits in the existing card number.
 old-location: tapi3\itcallingcard_get_numberofdigits.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 9eacfd2d-b137-4923-9cfa-139473ba8298
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_NumberOfDigits method, ITCallingCard.get_NumberOfDigits, ITCallingCard::get_NumberOfDigits, _tapi3_itcallingcard_get_numberofdigits, get_NumberOfDigits, get_NumberOfDigits method [TAPI 2.2], get_NumberOfDigits method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_numberofdigits, tapi3if/ITCallingCard::get_NumberOfDigits
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallingCard.get_NumberOfDigits
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallingCard::get_NumberOfDigits

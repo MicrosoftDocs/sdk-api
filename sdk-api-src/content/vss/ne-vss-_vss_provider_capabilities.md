@@ -4,17 +4,16 @@ title: "_VSS_PROVIDER_CAPABILITIES"
 author: windows-sdk-content
 description: This enumeration is reserved for future use.
 old-location: base\_vss_provider_capabilities.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 933d7567-d3d3-49cd-970b-f1355702f290
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVSS_PROVIDER_CAPABILITIES, VSS_PROVIDER_CAPABILITIES, _VSS_PROVIDER_CAPABILITIES, _VSS_PROVIDER_CAPABILITIES enumeration, base._vss_provider_capabilities, vss/, vss/_VSS_PROVIDER_CAPABILITIES"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_PROVIDER_CAPABILITIES, *PVSS_PROVIDER_CAPABILITIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _VSS_PROVIDER_CAPABILITIES
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_PROVIDER_CAPABILITIES, *PVSS_PROVIDER_CAPABILITIES
+req.redist: 
 ---
 
 # _VSS_PROVIDER_CAPABILITIES enumeration

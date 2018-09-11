@@ -4,17 +4,16 @@ title: RemoveLogPolicy function
 author: windows-sdk-content
 description: Resets the specified policy to its default behavior.
 old-location: fs\removelogpolicy.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 06e8c1bf-f190-4f3d-a588-5c8dd2e99f43
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: RemoveLogPolicy, RemoveLogPolicy function [Files], clfsmgmtw32/RemoveLogPolicy, fs.removelogpolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsmgmtw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RemoveLogPolicy
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # RemoveLogPolicy function

@@ -4,17 +4,16 @@ title: IEnumStreamIdMap::Next
 author: windows-sdk-content
 description: The Next method retrieves the next n elements in the collection.
 old-location: dshow\ienumstreamidmap_next.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 49e7ab23-e57e-4437-a195-88bccb6002de
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IEnumStreamIdMap interface [DirectShow],Next method, IEnumStreamIdMap.Next, IEnumStreamIdMap::Next, IEnumStreamIdMapNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_next, strmif/IEnumStreamIdMap::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEnumStreamIdMap.Next
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumStreamIdMap::Next

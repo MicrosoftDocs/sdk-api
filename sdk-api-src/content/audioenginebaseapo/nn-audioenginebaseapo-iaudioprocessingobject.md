@@ -4,7 +4,7 @@ title: IAudioProcessingObject
 author: windows-sdk-content
 description: System Effects Audio Processing Objects (sAPOs) are typically used in or called from real-time process threads.
 old-location: audio\iaudioprocessingobject.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 71be0151-20dd-40e3-a478-d67e4d8d9c36
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioenginebaseapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APO_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioProcessingObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: All levels.
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioProcessingObject interface

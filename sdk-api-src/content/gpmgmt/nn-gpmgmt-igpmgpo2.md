@@ -4,7 +4,7 @@ title: IGPMGPO2
 author: windows-sdk-content
 description: The IGPMGPO2 interface supports methods that enable you to manage Group Policy objects (GPOs) and Starter Group Policy objects in the directory service.
 old-location: gpmc\igpmgpo2.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: c5c21ca6-2722-4821-8760-03b6cf2befa7
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGPMGPO2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMGPO2 interface

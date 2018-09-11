@@ -4,17 +4,16 @@ title: IFsrmRule::get_LastModified
 author: windows-sdk-content
 description: The date for the last time the rule was modified.
 old-location: fsrm\ifsrmrule_lastmodified.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 8f087d75-6432-40d3-b9bf-aec3733a7107
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],LastModified property, IFsrmRule.LastModified, IFsrmRule.get_LastModified, IFsrmRule::LastModified, IFsrmRule::get_LastModified, LastModified property [File Server Resource Manager], LastModified property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_lastmodified, fsrm.ifsrmrule_lastmodified, fsrmpipeline/IFsrmRule::LastModified, fsrmpipeline/IFsrmRule::get_LastModified, get_LastModified
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmRule.get_LastModified
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmRule::get_LastModified

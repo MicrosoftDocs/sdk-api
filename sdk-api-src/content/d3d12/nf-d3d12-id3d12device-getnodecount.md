@@ -4,17 +4,16 @@ title: ID3D12Device::GetNodeCount
 author: windows-sdk-content
 description: Reports the number of physical adapters (nodes) that are associated with this device.
 old-location: direct3d12\id3d12device_getnodecount.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 5C5BA618-1B53-45EA-A2E6-19FCAF4FB67C
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetNodeCount, GetNodeCount method, GetNodeCount method,ID3D12Device interface, ID3D12Device interface,GetNodeCount method, ID3D12Device.GetNodeCount, ID3D12Device::GetNodeCount, d3d12/ID3D12Device::GetNodeCount, direct3d12.id3d12device_getnodecount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12Device.GetNodeCount
 product: Windows
 targetos: Windows
-req.lib: D3d12.lib
-req.dll: D3d12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12Device::GetNodeCount

@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSource::get_RecordingAttribute
 author: windows-sdk-content
 description: The get_RecordingAttribute method retrieves the Stream Buffer Source filter that this object manages.
 old-location: mstv\imsvidstreambuffersource_get_recordingattribute.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9e7020c8-778d-4a24-ae29-3e66d4ac165a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],get_RecordingAttribute method, IMSVidStreamBufferSource.get_RecordingAttribute, IMSVidStreamBufferSource::get_RecordingAttribute, IMSVidStreamBufferSourceget_RecordingAttribute, get_RecordingAttribute, get_RecordingAttribute method [Microsoft TV Technologies], get_RecordingAttribute method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_get_recordingattribute, segment/IMSVidStreamBufferSource::get_RecordingAttribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSource.get_RecordingAttribute
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSource::get_RecordingAttribute

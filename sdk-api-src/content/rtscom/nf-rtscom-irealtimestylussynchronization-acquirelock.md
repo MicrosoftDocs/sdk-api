@@ -4,17 +4,16 @@ title: IRealTimeStylusSynchronization::AcquireLock
 author: windows-sdk-content
 description: Retrieves the specified lock.
 old-location: tablet\irealtimestylussynchronization_acquirelock.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 74e315c5-99c2-4ba5-bca5-72d812624fa0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 74e315c5-99c2-4ba5-bca5-72d812624fa0, AcquireLock, AcquireLock method [Tablet PC], AcquireLock method [Tablet PC],IRealTimeStylusSynchronization interface, IRealTimeStylusSynchronization interface [Tablet PC],AcquireLock method, IRealTimeStylusSynchronization.AcquireLock, IRealTimeStylusSynchronization::AcquireLock, rtscom/IRealTimeStylusSynchronization::AcquireLock, tablet.irealtimestylussynchronization_acquirelock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRealTimeStylusSynchronization.AcquireLock
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRealTimeStylusSynchronization::AcquireLock

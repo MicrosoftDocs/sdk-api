@@ -4,17 +4,16 @@ title: DhcpScanDatabase function
 author: windows-sdk-content
 description: Enumerates the leased DHCPv4 client IPv4 addresses that are not synchronized between the in-memory cache and the server database.
 old-location: dhcp\dhcpscandatabase.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 6324c197-7237-449f-ae23-4f04b1b7498e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpScanDatabase, DhcpScanDatabase function [DHCP], dhcp.dhcpscandatabase, dhcpsapi/DhcpScanDatabase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpScanDatabase
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpScanDatabase function

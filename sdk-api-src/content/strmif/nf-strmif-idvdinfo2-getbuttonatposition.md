@@ -4,17 +4,16 @@ title: IDvdInfo2::GetButtonAtPosition
 author: windows-sdk-content
 description: The GetButtonAtPosition method retrieves the button located at the specified point within the display window.
 old-location: dshow\idvdinfo2_getbuttonatposition.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f9c506b3-c9d9-4dc2-b318-f987ab8636dc
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetButtonAtPosition, GetButtonAtPosition method [DirectShow], GetButtonAtPosition method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetButtonAtPosition method, IDvdInfo2.GetButtonAtPosition, IDvdInfo2::GetButtonAtPosition, IDvdInfo2GetButtonAtPosition, dshow.idvdinfo2_getbuttonatposition, strmif/IDvdInfo2::GetButtonAtPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdInfo2.GetButtonAtPosition
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo2::GetButtonAtPosition
@@ -71,7 +69,7 @@ Current mouse pointer position as retrieved through the Win32 WM_MOUSEMOVE messa
 
 ### -param pulButtonIndex
 
-
+TBD
 
 
 

@@ -4,7 +4,7 @@ title: IOCTL_EMI_GET_METADATA
 author: windows-sdk-content
 description: The IOCTL_EMI_GET_METADATA control code retrieves EMI metadata from a device.
 old-location: powermeter\ioctl_emi_get_metadata.htm
-old-project: powermeter
+tech.root: powermeter
 ms.assetid: 3A1A76B0-2A46-4C15-84BC-CE75701C30B7
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: emi.h
 req.include-header: Emi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMI_MEASUREMENT_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_EMI_GET_METADATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_EMI_GET_METADATA IOCTL

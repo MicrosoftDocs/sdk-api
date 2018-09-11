@@ -4,17 +4,16 @@ title: GetThemePropertyOrigin function
 author: windows-sdk-content
 description: Retrieves the location of the theme property definition for a property.
 old-location: controls\GetThemePropertyOrigin.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemepropertyorigin.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetThemePropertyOrigin, GetThemePropertyOrigin function [Windows Controls], controls.GetThemePropertyOrigin, controls.inet_GetThemePropertyOrigin, inet_GetThemePropertyOrigin, inet_GetThemePropertyOrigin_cpp, uxtheme/GetThemePropertyOrigin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetThemePropertyOrigin
 product: Windows
 targetos: Windows
-req.lib: UxTheme.lib
-req.dll: UxTheme.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # GetThemePropertyOrigin function
@@ -88,7 +86,7 @@ Type: <b>int</b>
 Value of type <b>int</b> that specifies the property to retrieve. You may use any of the property values from Vssym32.h. These values are described in the reference pages for the functions that use them. For instance, the <a href="https://msdn.microsoft.com/en-us/library/Bb759749(v=VS.85).aspx">GetThemeInt</a> function uses the TMT_BORDERSIZE value. See the <a href="https://msdn.microsoft.com/en-us/library/Bb773178(v=VS.85).aspx">Visual Styles Reference</a> for a list of functions.
 
 
-### -param param
+### -param arg1
 
 TBD
 

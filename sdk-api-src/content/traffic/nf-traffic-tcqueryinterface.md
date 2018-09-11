@@ -4,17 +4,16 @@ title: TcQueryInterface function
 author: windows-sdk-content
 description: The TcQueryInterface function queries traffic control for related per-interface parameters.
 old-location: qos\tcqueryinterface.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 7cbee5e9-fecc-4bfc-8b65-f3fc3427c85d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TcQueryInterface, TcQueryInterface function [QOS], _gqos_tcqueryinterface, qos.tcqueryinterface, traffic/TcQueryInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: Traffic.lib
+req.dll: Traffic.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TcQueryInterface
 product: Windows
 targetos: Windows
-req.lib: Traffic.lib
-req.dll: Traffic.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TcQueryInterface function

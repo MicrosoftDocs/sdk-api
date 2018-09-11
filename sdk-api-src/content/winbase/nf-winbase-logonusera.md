@@ -4,17 +4,16 @@ title: LogonUserA function
 author: windows-sdk-content
 description: The Win32 LogonUser function attempts to log a user on to the local computer. LogonUser returns a handle to a user token that you can use to impersonate user.
 old-location: security\logonuser.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: a6d880a0-0aed-4bdb-89c9-4f667ecb510e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: LOGON32_LOGON_BATCH, LOGON32_LOGON_INTERACTIVE, LOGON32_LOGON_NETWORK, LOGON32_LOGON_NETWORK_CLEARTEXT, LOGON32_LOGON_NEW_CREDENTIALS, LOGON32_LOGON_SERVICE, LOGON32_LOGON_UNLOCK, LOGON32_PROVIDER_DEFAULT, LOGON32_PROVIDER_WINNT40, LOGON32_PROVIDER_WINNT50, LogonUser, LogonUser function [Security], LogonUserA, LogonUserW, _win32_logonuser, security.logonuser, winbase/LogonUser, winbase/LogonUserA, winbase/LogonUserW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - LogonUserW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # LogonUserA function

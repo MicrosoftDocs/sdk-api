@@ -4,17 +4,16 @@ title: ISyncCallback::OnProgress
 author: windows-sdk-content
 description: Occurs periodically during the synchronization session to report progress.
 old-location: winsync\isynccallback_onprogress.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 4a4dad07-b169-4767-a118-3b5c6c8b9764
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnProgress method, ISyncCallback.OnProgress, ISyncCallback::OnProgress, OnProgress, OnProgress method [Windows Sync], OnProgress method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onprogress, winsync/ISyncCallback::OnProgress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncCallback.OnProgress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncCallback::OnProgress

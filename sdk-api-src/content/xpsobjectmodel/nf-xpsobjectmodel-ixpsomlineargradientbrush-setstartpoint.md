@@ -4,17 +4,16 @@ title: IXpsOMLinearGradientBrush::SetStartPoint
 author: windows-sdk-content
 description: Sets the start point of the gradient.
 old-location: xps\ixpsomlineargradientbrush_setstartpoint.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: f2e40d75-c0de-4cba-850d-0c8c328e2950
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],SetStartPoint method, IXpsOMLinearGradientBrush.SetStartPoint, IXpsOMLinearGradientBrush::SetStartPoint, SetStartPoint, SetStartPoint method [XPS Documents and Packaging], SetStartPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, xps.ixpsomlineargradientbrush_setstartpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::SetStartPoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMLinearGradientBrush.SetStartPoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMLinearGradientBrush::SetStartPoint

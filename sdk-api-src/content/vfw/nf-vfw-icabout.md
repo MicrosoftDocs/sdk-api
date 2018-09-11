@@ -4,17 +4,16 @@ title: ICAbout macro
 author: windows-sdk-content
 description: The ICAbout macro notifies a video compression driver to display its About dialog box. You can use this macro or explicitly call the ICM_ABOUT message.
 old-location: multimedia\icabout.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 18ec2659-8589-4a13-95ea-825a3aecbf98
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICAbout, ICAbout macro [Windows Multimedia], _win32_ICAbout, multimedia.icabout, vfw/ICAbout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICAbout
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICAbout macro

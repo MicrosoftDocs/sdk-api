@@ -4,17 +4,16 @@ title: IATSC_VCT::GetRecordName
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordname.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b97baa53-d927-4a3c-91a5-3d06d26e797f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordName, GetRecordName method [Microsoft TV Technologies], GetRecordName method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordName method, IATSC_VCT.GetRecordName, IATSC_VCT::GetRecordName, IATSC_VCTGetRecordName, atscpsipparser/IATSC_VCT::GetRecordName, mstv.iatsc_vct_getrecordname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IATSC_VCT.GetRecordName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IATSC_VCT::GetRecordName

@@ -4,17 +4,16 @@ title: ISyncMgrConflict::GetResolutionHandler
 author: windows-sdk-content
 description: Gets the resolution handler for the conflict.
 old-location: shell\ISyncMgrConflict_GetResolutionHandler.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9adbc429-098c-4ba9-af62-54f772be83e3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetResolutionHandler, GetResolutionHandler method [Windows Shell], GetResolutionHandler method [Windows Shell],ISyncMgrConflict interface, ISyncMgrConflict interface [Windows Shell],GetResolutionHandler method, ISyncMgrConflict.GetResolutionHandler, ISyncMgrConflict::GetResolutionHandler, _shell_ISyncMgrConflict_GetResolutionHandler, shell.ISyncMgrConflict_GetResolutionHandler, syncmgr/ISyncMgrConflict::GetResolutionHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrConflict.GetResolutionHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrConflict::GetResolutionHandler

@@ -4,17 +4,16 @@ title: SetupScanFileQueueW function
 author: windows-sdk-content
 description: The SetupScanFileQueue function scans a setup file queue, performing an operation on each node in its copy list. The operation is specified by a set of flags. This function can be called either before or after the queue has been committed.
 old-location: setup\setupscanfilequeue.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 4d59bb19-bb4a-4a24-814b-322e46e40fab
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SPQ_SCAN_FILE_PRESENCE, SPQ_SCAN_FILE_VALIDITY, SPQ_SCAN_INFORM_USER, SPQ_SCAN_PRUNE_COPY_QUEUE, SPQ_SCAN_PRUNE_DELREN, SPQ_SCAN_USE_CALLBACK, SPQ_SCAN_USE_CALLBACKEX, SPQ_SCAN_USE_CALLBACK_SIGNERINFO, SetupScanFileQueue, SetupScanFileQueue function [Setup API], SetupScanFileQueueA, SetupScanFileQueueW, _setupapi_setupscanfilequeue, setup.setupscanfilequeue, setupapi/SetupScanFileQueue, setupapi/SetupScanFileQueueA, setupapi/SetupScanFileQueueW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupScanFileQueueW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupScanFileQueueW function

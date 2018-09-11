@@ -4,17 +4,16 @@ title: IOpcPartSet::CreatePart
 author: windows-sdk-content
 description: Creates a part object that represents a part and adds a pointer to the object's IOpcPart interface to the set.
 old-location: opc\iopcpartset_createpart.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 8c5de7ac-f51c-42f2-9068-8e9ede86ad97
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CreatePart, CreatePart method [Open Packaging Conventions], CreatePart method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],CreatePart method, IOpcPartSet.CreatePart, IOpcPartSet::CreatePart, msopc/IOpcPartSet::CreatePart, opc.iopcpartset_createpart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcPartSet.CreatePart
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcPartSet::CreatePart

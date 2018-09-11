@@ -4,17 +4,16 @@ title: IMoniker::ComposeWith
 author: windows-sdk-content
 description: Creates a new composite moniker by combining the current moniker with the specified moniker.
 old-location: com\imoniker_composewith.htm
-old-project: com
+tech.root: com
 ms.assetid: 6e41d79c-1a57-4270-aa84-160e0639852b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ComposeWith, ComposeWith method [COM], ComposeWith method [COM],IMoniker interface, IMoniker interface [COM],ComposeWith method, IMoniker.ComposeWith, IMoniker::ComposeWith, _com_imoniker_composewith, com.imoniker_composewith, objidl/IMoniker::ComposeWith
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMoniker.ComposeWith
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMoniker::ComposeWith

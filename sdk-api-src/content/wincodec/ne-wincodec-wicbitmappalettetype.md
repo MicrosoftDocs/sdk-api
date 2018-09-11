@@ -4,7 +4,7 @@ title: WICBitmapPaletteType
 author: windows-sdk-content
 description: Specifies the type of palette used for an indexed image format.
 old-location: wic\_wic_codec_wicbitmappalettetype.htm
-old-project: wic
+tech.root: wic
 ms.assetid: a8192905-2bae-4760-bf2d-64640c46e168
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICBitmapPaletteType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICBitmapPaletteType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICBitmapPaletteType
+req.redist: 
 ---
 
 # WICBitmapPaletteType enumeration

@@ -4,17 +4,16 @@ title: SHLoadLibraryFromItem function
 author: windows-sdk-content
 description: Creates and loads an IShellLibrary object from a specified library definition file.
 old-location: shell\SHLoadLibraryFromItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9692f9d1-1504-43d0-9eb1-3759a8e2b42d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHLoadLibraryFromItem, SHLoadLibraryFromItem function [Windows Shell], _shell_SHLoadLibraryFromItem, shell.SHLoadLibraryFromItem, shobjidl_core/SHLoadLibraryFromItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHLoadLibraryFromItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHLoadLibraryFromItem function

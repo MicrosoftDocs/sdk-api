@@ -4,17 +4,16 @@ title: IMF2DBuffer::GetContiguousLength
 author: windows-sdk-content
 description: Retrieves the number of bytes needed to store the contents of the buffer in contiguous format.
 old-location: mf\imf2dbuffer_getcontiguouslength.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 413d50f6-a047-4561-985d-9d1927825617
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 413d50f6-a047-4561-985d-9d1927825617, GetContiguousLength, GetContiguousLength method [Media Foundation], GetContiguousLength method [Media Foundation],IMF2DBuffer interface, IMF2DBuffer interface [Media Foundation],GetContiguousLength method, IMF2DBuffer.GetContiguousLength, IMF2DBuffer::GetContiguousLength, mf.imf2dbuffer_getcontiguouslength, mfobjects/IMF2DBuffer::GetContiguousLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMF2DBuffer.GetContiguousLength
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMF2DBuffer::GetContiguousLength

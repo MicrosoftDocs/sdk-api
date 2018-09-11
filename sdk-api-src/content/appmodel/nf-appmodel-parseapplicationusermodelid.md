@@ -4,17 +4,16 @@ title: ParseApplicationUserModelId function
 author: windows-sdk-content
 description: Deconstructs an application user model ID to its package family name and package relative application ID (PRAID).
 old-location: appxpkg\parseapplicationusermodelid.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 03B29E82-611F-47D1-8CB6-047B9BEB4D9E
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: ParseApplicationUserModelId, ParseApplicationUserModelId function [App packaging and management], appmodel/ParseApplicationUserModelId, appxpkg.parseapplicationusermodelid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PackageOrigin
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - ParseApplicationUserModelId
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ParseApplicationUserModelId function

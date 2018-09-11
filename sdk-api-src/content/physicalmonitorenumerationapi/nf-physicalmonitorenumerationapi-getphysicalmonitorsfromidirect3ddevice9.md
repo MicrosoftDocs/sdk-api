@@ -4,17 +4,16 @@ title: GetPhysicalMonitorsFromIDirect3DDevice9 function
 author: windows-sdk-content
 description: Retrieves the physical monitors associated with a Direct3D device.
 old-location: monitor\getphysicalmonitorsfromidirect3ddevice9.htm
-old-project: Monitor
+tech.root: Monitor
 ms.assetid: 1e0e9749-8ee4-42d5-ab7b-182222b6c429
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetPhysicalMonitorsFromIDirect3DDevice9, GetPhysicalMonitorsFromIDirect3DDevice9 function [Monitor Configuration], monitor.getphysicalmonitorsfromidirect3ddevice9, physicalmonitorenumerationapi/GetPhysicalMonitorsFromIDirect3DDevice9
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetPhysicalMonitorsFromIDirect3DDevice9
 product: Windows
 targetos: Windows
-req.lib: Dxva2.lib
-req.dll: Dxva2.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetPhysicalMonitorsFromIDirect3DDevice9 function

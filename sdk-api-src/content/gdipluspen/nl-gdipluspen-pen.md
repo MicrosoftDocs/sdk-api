@@ -4,7 +4,7 @@ title: Pen
 author: windows-sdk-content
 description: A Pen object is a Windows GDI+ object used to draw lines and curves.
 old-location: gdiplus\_gdiplus_CLASS_Pen_Class.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pen.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: gdipluspen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WmfPlaceableFileHeader
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Pen
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # Pen class

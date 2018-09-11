@@ -4,17 +4,16 @@ title: WcmSetProfileList function
 author: windows-sdk-content
 description: Reorders a profile list or a subset of a profile list.
 old-location: wcm\wcmsetprofilelist.htm
-old-project: wcm
+tech.root: wcm
 ms.assetid: c5efb2e8-c4c4-4e13-9f7a-ea2a40744655
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: WcmSetProfileList, WcmSetProfileList function [Windows Connection Manager], wcm.wcmsetprofilelist, wcmapi/WcmSetProfileList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wcmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCM_PROPERTY, *PWCM_PROPERTY
+req.lib: Wcmapi.lib
+req.dll: Wcmapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WcmSetProfileList
 product: Windows
 targetos: Windows
-req.lib: Wcmapi.lib
-req.dll: Wcmapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WcmSetProfileList function

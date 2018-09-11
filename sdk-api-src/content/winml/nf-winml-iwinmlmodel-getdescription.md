@@ -4,17 +4,16 @@ title: IWinMLModel::GetDescription
 author: windows-sdk-content
 description: Retrieves the WinML model description.
 old-location: machinelearning\iwinmlmodel_getdescription.htm
-old-project: MachineLearning
+tech.root: MachineLearning
 ms.assetid: 57B05316-8E6B-4490-B181-EB1717B15E31
 ms.author: windowssdkdev
 ms.date: 03/08/2018
 ms.keywords: GetDescription, GetDescription method, GetDescription method,IWinMLModel interface, IWinMLModel interface,GetDescription method, IWinMLModel.GetDescription, IWinMLModel::GetDescription, MachineLearning.iwinmlmodel_getdescription, winml/IWinMLModel::GetDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_TENSOR_DATA_TYPE
+req.lib: Winml.lib
+req.dll: Winml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWinMLModel.GetDescription
 product: Windows
 targetos: Windows
-req.lib: Winml.lib
-req.dll: Winml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWinMLModel::GetDescription

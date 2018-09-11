@@ -4,17 +4,16 @@ title: IMFSignedLibrary::GetProcedureAddress
 author: windows-sdk-content
 description: Gets the procedure address of the specified function in the signed library.
 old-location: mf\imfsignedlibrary_getprocedureaddress.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d32678b0-422d-4fe8-9bbc-fc203a39fdd5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetProcedureAddress, GetProcedureAddress method [Media Foundation], GetProcedureAddress method [Media Foundation],IMFSignedLibrary interface, IMFSignedLibrary interface [Media Foundation],GetProcedureAddress method, IMFSignedLibrary.GetProcedureAddress, IMFSignedLibrary::GetProcedureAddress, mf.imfsignedlibrary_getprocedureaddress, mfidl/IMFSignedLibrary::GetProcedureAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSignedLibrary.GetProcedureAddress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSignedLibrary::GetProcedureAddress

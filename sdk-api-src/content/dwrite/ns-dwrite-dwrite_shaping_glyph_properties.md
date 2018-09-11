@@ -4,17 +4,16 @@ title: DWRITE_SHAPING_GLYPH_PROPERTIES
 author: windows-sdk-content
 description: Contains shaping output properties for an output glyph.
 old-location: directwrite\dwrite_shaping_glyph_properties.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: debaa84f-8883-4117-9be0-962857b55020
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_SHAPING_GLYPH_PROPERTIES, DWRITE_SHAPING_GLYPH_PROPERTIES structure [Direct Write], directwrite.dwrite_shaping_glyph_properties, dwrite/DWRITE_SHAPING_GLYPH_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_SHAPING_GLYPH_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_SHAPING_GLYPH_PROPERTIES structure

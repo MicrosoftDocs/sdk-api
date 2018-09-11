@@ -4,7 +4,7 @@ title: TCP_ESTATS_TYPE
 author: windows-sdk-content
 description: Defines the type of extended statistics for a TCP connection that is requested or being set.
 old-location: iphlp\tcp_estats_type.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 96f55528-e74a-4360-a7a2-54ba19c3a284
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tcpestats.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TCP_ESTATS_TYPE, *PTCP_ESTATS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TCP_ESTATS_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TCP_ESTATS_TYPE, *PTCP_ESTATS_TYPE
+req.redist: 
 ---
 
 # TCP_ESTATS_TYPE enumeration

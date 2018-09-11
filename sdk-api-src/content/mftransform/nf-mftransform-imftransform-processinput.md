@@ -4,17 +4,16 @@ title: IMFTransform::ProcessInput
 author: windows-sdk-content
 description: Delivers data to an input stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_processinput.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c94d406b-7cd9-42d4-ae9e-3d21dbb47209
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFTransform interface [Media Foundation],ProcessInput method, IMFTransform.ProcessInput, IMFTransform::ProcessInput, ProcessInput, ProcessInput method [Media Foundation], ProcessInput method [Media Foundation],IMFTransform interface, c94d406b-7cd9-42d4-ae9e-3d21dbb47209, mf.imftransform_processinput, mftransform/IMFTransform::ProcessInput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTransform.ProcessInput
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTransform::ProcessInput

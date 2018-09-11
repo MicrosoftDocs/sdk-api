@@ -4,17 +4,16 @@ title: servent
 author: windows-sdk-content
 description: The servent structure is used to store or return the name and service number for a given service name.
 old-location: winsock\servent_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 8696b854-4d37-4d1b-8383-169b5dc7a2ae
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVENT, *PSERVENT, FAR *LPSERVENT, FAR *LPSERVENT structure [Winsock], PSERVENT, PSERVENT structure pointer [Winsock], SERVENT, SERVENT structure [Winsock], _win32_servent_2, servent, servent structure [Winsock], winsock.servent_2, winsock/FAR *LPSERVENT, winsock/PSERVENT, winsock/servent"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: Winsock2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVENT, *PSERVENT, *LPSERVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SERVENT, *PSERVENT, *LPSERVENT
+req.redist: 
 ---
 
 # servent structure

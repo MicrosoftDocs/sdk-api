@@ -4,17 +4,16 @@ title: IDiscFormat2RawCD::put_Recorder
 author: windows-sdk-content
 description: Sets the recording device to use for the write operation.
 old-location: imapi\idiscformat2rawcd_put_recorder.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: d3deefa8-40be-4cdc-aae1-e5fbe508f16f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],put_Recorder method, IDiscFormat2RawCD.put_Recorder, IDiscFormat2RawCD::put_Recorder, imapi.idiscformat2rawcd_put_recorder, imapi2/IDiscFormat2RawCD::put_Recorder, put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI],IDiscFormat2RawCD interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2RawCD.put_Recorder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2RawCD::put_Recorder

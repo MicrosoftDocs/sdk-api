@@ -4,17 +4,16 @@ title: IInputPanelConfiguration::EnableFocusTracking
 author: windows-sdk-content
 description: Enables a client process to opt-in to the focus tracking mechanism for Windows Store apps that controls the invoking and dismissing semantics of the touch keyboard.
 old-location: shell\iinputpanelconfiguration_enablefocustracking.htm
-old-project: shell
+tech.root: shell
 ms.assetid: C20962EF-DB24-43EE-ADA6-4550163F9F73
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: EnableFocusTracking, EnableFocusTracking method [Windows Shell], EnableFocusTracking method [Windows Shell],IInputPanelConfiguration interface, IInputPanelConfiguration interface [Windows Shell],EnableFocusTracking method, IInputPanelConfiguration.EnableFocusTracking, IInputPanelConfiguration::EnableFocusTracking, inputpanelconfiguration/IInputPanelConfiguration::EnableFocusTracking, shell.iinputpanelconfiguration_enablefocustracking
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inputpanelconfiguration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInputPanelConfiguration.EnableFocusTracking
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInputPanelConfiguration::EnableFocusTracking

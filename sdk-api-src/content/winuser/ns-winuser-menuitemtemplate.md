@@ -4,17 +4,16 @@ title: MENUITEMTEMPLATE
 author: windows-sdk-content
 description: Defines a menu item in a menu template.
 old-location: menurc\menuitemtemplate.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuitemtemplate.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*PMENUITEMTEMPLATE, MENUITEMTEMPLATE, MENUITEMTEMPLATE structure [Menus and Other Resources], MF_CHECKED, MF_GRAYED, MF_HELP, MF_MENUBARBREAK, MF_MENUBREAK, MF_OWNERDRAW, MF_POPUP, PMENUITEMTEMPLATE, PMENUITEMTEMPLATE structure pointer [Menus and Other Resources], _win32_MENUITEMTEMPLATE_str, _win32_menuitemtemplate_str_cpp, menurc.menuitemtemplate, winui._win32_menuitemtemplate_str, winuser/MENUITEMTEMPLATE, winuser/PMENUITEMTEMPLATE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MENUITEMTEMPLATE, *PMENUITEMTEMPLATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MENUITEMTEMPLATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: MENUITEMTEMPLATE, *PMENUITEMTEMPLATE
+req.redist: 
 ---
 
 # MENUITEMTEMPLATE structure

@@ -4,17 +4,16 @@ title: ISpellCheckerFactory::IsSupported
 author: windows-sdk-content
 description: Determines if the specified language is supported by a registered spell checker.
 old-location: intl\ispellcheckerfactory_issupported.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: eb21850d-d490-4055-8910-70f9c0090f59
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ISpellCheckerFactory interface [Internationalization for Windows Applications],IsSupported method, ISpellCheckerFactory.IsSupported, ISpellCheckerFactory::IsSupported, IsSupported, IsSupported method [Internationalization for Windows Applications], IsSupported method [Internationalization for Windows Applications],ISpellCheckerFactory interface, intl.ispellcheckerfactory_issupported, spellcheck/ISpellCheckerFactory::IsSupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpellCheckerFactory.IsSupported
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpellCheckerFactory::IsSupported

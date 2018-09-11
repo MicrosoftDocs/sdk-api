@@ -4,17 +4,16 @@ title: ITBasicCallControl::HandoffIndirect
 author: windows-sdk-content
 description: The HandoffIndirect method hands off the call to another application based on the media type of the call.
 old-location: tapi3\itbasiccallcontrol_handoffindirect.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 02579638-fafd-4c4a-91a3-460d7ebf6917
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: HandoffIndirect, HandoffIndirect method [TAPI 2.2], HandoffIndirect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],HandoffIndirect method, ITBasicCallControl.HandoffIndirect, ITBasicCallControl::HandoffIndirect, _tapi3_itbasiccallcontrol_handoffindirect, tapi3.itbasiccallcontrol_handoffindirect, tapi3if/ITBasicCallControl::HandoffIndirect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITBasicCallControl.HandoffIndirect
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITBasicCallControl::HandoffIndirect

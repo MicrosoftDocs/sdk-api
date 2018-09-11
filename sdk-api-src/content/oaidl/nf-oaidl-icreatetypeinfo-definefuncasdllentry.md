@@ -4,17 +4,16 @@ title: ICreateTypeInfo::DefineFuncAsDllEntry
 author: windows-sdk-content
 description: Associates a DLL entry point with the function that has the specified index.
 old-location: automat\icreatetypeinfo_definefuncasdllentry.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 47ec09af-0642-4645-b946-acabbb7c028a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DefineFuncAsDllEntry, DefineFuncAsDllEntry method [Automation], DefineFuncAsDllEntry method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],DefineFuncAsDllEntry method, ICreateTypeInfo.DefineFuncAsDllEntry, ICreateTypeInfo::DefineFuncAsDllEntry, _oa96_ICreateTypeInfo_DefineFuncAsDllEntry, automat.icreatetypeinfo_definefuncasdllentry, oaidl/ICreateTypeInfo::DefineFuncAsDllEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeInfo.DefineFuncAsDllEntry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeInfo::DefineFuncAsDllEntry

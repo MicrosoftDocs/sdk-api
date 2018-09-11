@@ -4,17 +4,16 @@ title: IProgressNotify
 author: windows-sdk-content
 description: Enables applications and other objects to receive notifications of changes in the progress of a downloading operation.
 old-location: com\iprogressnotify.htm
-old-project: com
+tech.root: com
 ms.assetid: 3f90437d-df8f-42b2-af81-519bfb9577b1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IProgressNotify, IProgressNotify interface [COM], IProgressNotify interface [COM],described, _com_iprogressnotify, com.iprogressnotify, objidl/IProgressNotify
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProgressNotify
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IProgressNotify interface

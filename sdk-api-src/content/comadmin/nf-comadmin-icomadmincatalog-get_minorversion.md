@@ -4,17 +4,16 @@ title: ICOMAdminCatalog::get_MinorVersion
 author: windows-sdk-content
 description: Retrieves the minor version number of the COMAdmin library.
 old-location: cos\icomadmincatalog_minorversion.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 25053a37-f44a-4e30-97b2-081b840c4448
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],MinorVersion property, ICOMAdminCatalog.MinorVersion, ICOMAdminCatalog.get_MinorVersion, ICOMAdminCatalog::MinorVersion, ICOMAdminCatalog::get_MinorVersion, MinorVersion property [COM+], MinorVersion property [COM+],ICOMAdminCatalog interface, _cos_IComAdminCatalog_get_MinorVersion, comadmin/ICOMAdminCatalog::MinorVersion, comadmin/ICOMAdminCatalog::get_MinorVersion, cos.icomadmincatalog_minorversion, get_MinorVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICOMAdminCatalog.get_MinorVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog::get_MinorVersion

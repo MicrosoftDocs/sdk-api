@@ -4,7 +4,7 @@ title: tagTOUCH_HIT_TESTING_PROXIMITY_EVALUATION
 author: windows-sdk-content
 description: Contains the hit test score that indicates whether the object is the likely target of the touch contact area, relative to other objects that intersect the touch contact area.
 old-location: input_touchhittest\touch_hit_testing_proximity_evaluation.htm
-old-project: Input_TouchHitTest
+tech.root: Input_TouchHitTest
 ms.assetid: a26facc3-fe63-4657-9bd6-821dd89cb11d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOUCH_HIT_TESTING_PROXIMITY_EVALUATION, *PTOUCH_HIT_TESTING_PROXIMITY_EVALUATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOUCH_HIT_TESTING_PROXIMITY_EVALUATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TOUCH_HIT_TESTING_PROXIMITY_EVALUATION, *PTOUCH_HIT_TESTING_PROXIMITY_EVALUATION
+req.redist: 
 ---
 
 # tagTOUCH_HIT_TESTING_PROXIMITY_EVALUATION structure

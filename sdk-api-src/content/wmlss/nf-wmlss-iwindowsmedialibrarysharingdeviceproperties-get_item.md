@@ -4,17 +4,16 @@ title: IWindowsMediaLibrarySharingDeviceProperties::get_Item
 author: windows-sdk-content
 description: The get_Item method retrieves an IWindowsMediaLibrarySharingDeviceProperty interface that represents an individual property for a media device.
 old-location: wmlss\IWMLSDevicePropertiesget_Item.htm
-old-project: wmlss
+tech.root: WMLSS
 ms.assetid: 0c679f64-9d7e-4239-8ee0-2aa5de553c58
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services],get_Item method, IWindowsMediaLibrarySharingDeviceProperties.get_Item, IWindowsMediaLibrarySharingDeviceProperties::get_Item, get_Item, get_Item method [Windows Media Library Sharing Services], get_Item method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDeviceProperties interface, wmlss.IWMLSDevicePropertiesget_Item, wmlss/IWindowsMediaLibrarySharingDeviceProperties::get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmlss.h
 req.include-header: Wmlss.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
+req.lib: 
+req.dll: WMPMediaSharing.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWindowsMediaLibrarySharingDeviceProperties.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: WMPMediaSharing.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowsMediaLibrarySharingDeviceProperties::get_Item

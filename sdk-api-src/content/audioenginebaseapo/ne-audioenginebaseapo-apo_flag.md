@@ -4,7 +4,7 @@ title: APO_FLAG
 author: windows-sdk-content
 description: The APO_FLAG enumeration defines constants that are used as flags by an audio processing object (APO).
 old-location: audio\apo_flag.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 42134625-A351-4CB6-B83C-3F2E662D1938
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: audioenginebaseapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APO_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - APO_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: APO_FLAG
+req.redist: 
 ---
 
 # APO_FLAG enumeration

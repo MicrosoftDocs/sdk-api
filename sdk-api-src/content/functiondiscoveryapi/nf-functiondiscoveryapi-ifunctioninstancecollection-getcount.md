@@ -4,17 +4,16 @@ title: IFunctionInstanceCollection::GetCount
 author: windows-sdk-content
 description: Gets the number of function instances in the collection.
 old-location: ncd\ifunctioninstancecollection_getcount_method.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: d74d10b1-dab1-4f7e-8dbc-434570bf9c79
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,GetCount method, IFunctionInstanceCollection.GetCount, IFunctionInstanceCollection::GetCount, functiondiscoveryapi/IFunctionInstanceCollection::GetCount, ncd.ifunctioninstancecollection_getcount_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemVisibilityFlags
+req.lib: 
+req.dll: FunDisc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionInstanceCollection.GetCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FunDisc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionInstanceCollection::GetCount

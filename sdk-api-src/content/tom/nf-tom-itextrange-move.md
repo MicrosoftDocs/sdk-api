@@ -4,17 +4,16 @@ title: ITextRange::Move
 author: windows-sdk-content
 description: Moves the insertion point forward or backward a specified number of units. If the range is nondegenerate, the range is collapsed to an insertion point at either end, depending on Count, and then is moved.
 old-location: controls\ITextRange_Move.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\move.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRange interface [Windows Controls],Move method, ITextRange.Move, ITextRange::Move, Move, Move method [Windows Controls], Move method [Windows Controls],ITextRange interface, _win32_ITextRange_Move, _win32_ITextRange_Move_cpp, controls.ITextRange_Move, controls._win32_ITextRange_Move, tom/ITextRange::Move
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange.Move
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange::Move

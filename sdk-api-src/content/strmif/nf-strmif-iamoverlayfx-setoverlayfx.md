@@ -4,17 +4,16 @@ title: IAMOverlayFX::SetOverlayFX
 author: windows-sdk-content
 description: The SetOverlayFX method applies the specified effects to the overlay surface.
 old-location: dshow\iamoverlayfx_setoverlayfx.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 08e44f4e-924a-4a4d-9fc5-c13b3c21c038
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMOverlayFX interface [DirectShow],SetOverlayFX method, IAMOverlayFX.SetOverlayFX, IAMOverlayFX::SetOverlayFX, IAMOverlayFXSetOverlayFX, SetOverlayFX, SetOverlayFX method [DirectShow], SetOverlayFX method [DirectShow],IAMOverlayFX interface, dshow.iamoverlayfx_setoverlayfx, strmif/IAMOverlayFX::SetOverlayFX
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMOverlayFX.SetOverlayFX
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMOverlayFX::SetOverlayFX

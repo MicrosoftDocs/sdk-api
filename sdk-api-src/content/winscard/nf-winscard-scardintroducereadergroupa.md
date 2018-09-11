@@ -4,17 +4,16 @@ title: SCardIntroduceReaderGroupA function
 author: windows-sdk-content
 description: Introduces a reader group to the smart card subsystem. However, the reader group is not created until the group is specified when adding a reader to the smart card database.
 old-location: security\scardintroducereadergroup.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: aaf7d2f9-71d5-42bb-a96f-71124be40aa3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardIntroduceReaderGroup, SCardIntroduceReaderGroup function [Security], SCardIntroduceReaderGroupA, SCardIntroduceReaderGroupW, _smart_scardintroducereadergroup, security.scardintroducereadergroup, winscard/SCardIntroduceReaderGroup, winscard/SCardIntroduceReaderGroupA, winscard/SCardIntroduceReaderGroupW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: Winscard.lib
+req.dll: Winscard.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SCardIntroduceReaderGroupW
 product: Windows
 targetos: Windows
-req.lib: Winscard.lib
-req.dll: Winscard.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SCardIntroduceReaderGroupA function

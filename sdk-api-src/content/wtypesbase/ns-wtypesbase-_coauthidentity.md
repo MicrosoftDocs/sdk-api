@@ -4,17 +4,16 @@ title: "_COAUTHIDENTITY"
 author: windows-sdk-content
 description: Contains a user name and password.
 old-location: com\coauthidentity.htm
-old-project: com
+tech.root: com
 ms.assetid: ce14f8a6-0495-491a-a5c7-de7c1d3efd95
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: COAUTHIDENTITY, COAUTHIDENTITY structure [COM], SEC_WINNT_AUTH_IDENTITY_ANSI, SEC_WINNT_AUTH_IDENTITY_UNICODE, _COAUTHIDENTITY, _com_COAUTHIDENTITY, com.coauthidentity, wtypesbase/COAUTHIDENTITY
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtypesbase.h
 req.include-header: WTypes.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COAUTHIDENTITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COAUTHIDENTITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: COAUTHIDENTITY
+req.redist: 
 ---
 
 # _COAUTHIDENTITY structure

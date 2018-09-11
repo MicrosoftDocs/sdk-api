@@ -4,17 +4,16 @@ title: "_EXPAND_VIRTUAL_DISK_FLAG"
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) expand request flags.
 old-location: vhd\expand_virtual_disk_flag.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: e117f103-5136-4dbb-87a0-9fb41d43a924
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EXPAND_VIRTUAL_DISK_FLAG, EXPAND_VIRTUAL_DISK_FLAG enumeration [VHD], EXPAND_VIRTUAL_DISK_FLAG_NONE, _EXPAND_VIRTUAL_DISK_FLAG, vdssys/EXPAND_VIRTUAL_DISK_FLAG, vdssys/EXPAND_VIRTUAL_DISK_FLAG_NONE, vhd.expand_virtual_disk_flag, virtdisk/EXPAND_VIRTUAL_DISK_FLAG, virtdisk/EXPAND_VIRTUAL_DISK_FLAG_NONE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXPAND_VIRTUAL_DISK_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - EXPAND_VIRTUAL_DISK_FLAG
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: EXPAND_VIRTUAL_DISK_FLAG
+req.redist: 
 ---
 
 # _EXPAND_VIRTUAL_DISK_FLAG enumeration

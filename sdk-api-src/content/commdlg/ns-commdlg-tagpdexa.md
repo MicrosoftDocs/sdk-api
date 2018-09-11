@@ -4,17 +4,16 @@ title: tagPDEXA
 author: windows-sdk-content
 description: Contains information that the PrintDlgEx function uses to initialize the Print property sheet. After the user closes the property sheet, the system uses this structure to return information about the user's selections.
 old-location: dlgbox\printdlgex_str.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\printdlgex.htm
 ms.author: windowssdkdev
-ms.date: 08/21/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPPRINTDLGEXA, LPPRINTDLGEX, LPPRINTDLGEX structure pointer [Dialog Boxes], PD_ALLPAGES, PD_COLLATE, PD_CURRENTPAGE, PD_DISABLEPRINTTOFILE, PD_ENABLEPRINTTEMPLATE, PD_ENABLEPRINTTEMPLATEHANDLE, PD_EXCLUSIONFLAGS, PD_EXCL_COPIESANDCOLLATE, PD_HIDEPRINTTOFILE, PD_NOCURRENTPAGE, PD_NOPAGENUMS, PD_NOSELECTION, PD_NOWARNING, PD_PAGENUMS, PD_PRINTTOFILE, PD_RESULT_APPLY, PD_RESULT_CANCEL, PD_RESULT_PRINT, PD_RETURNDC, PD_RETURNDEFAULT, PD_RETURNIC, PD_SELECTION, PD_USEDEVMODECOPIES, PD_USEDEVMODECOPIESANDCOLLATE, PD_USELARGETEMPLATE, PRINTDLGEX, PRINTDLGEX structure [Dialog Boxes], PRINTDLGEXA, PRINTDLGEXW, _win32_PRINTDLGEX_str, _win32_printdlgex_str_cpp, commdlg/LPPRINTDLGEX, commdlg/PRINTDLGEX, commdlg/PRINTDLGEXA, commdlg/PRINTDLGEXW, dlgbox.printdlgex_str, tagPDEXA, tagPDEXW, winui._win32_printdlgex_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: commdlg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRINTDLGEXA, *LPPRINTDLGEXA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - PRINTDLGEXW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: PRINTDLGEXA, *LPPRINTDLGEXA
+req.redist: 
 ---
 
 # tagPDEXA structure

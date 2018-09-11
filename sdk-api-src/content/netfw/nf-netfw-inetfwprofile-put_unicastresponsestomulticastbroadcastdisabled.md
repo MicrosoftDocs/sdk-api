@@ -4,17 +4,16 @@ title: INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled
 author: windows-sdk-content
 description: Indicates whether the firewall should not allow unicast responses to multicast and broadcast traffic.
 old-location: ics\inetfwprofile_unicastresponsestomulticastbroadcastdisabled.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 61a0c65e-8dfa-4f3e-a28f-141a72065123
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],UnicastResponsesToMulticastBroadcastDisabled property, INetFwProfile.UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile.put_UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile::UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile::get_UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled, UnicastResponsesToMulticastBroadcastDisabled property [ICS/ICF], UnicastResponsesToMulticastBroadcastDisabled property [ICS/ICF],INetFwProfile interface, ics.inetfwprofile_unicastresponsestomulticastbroadcastdisabled, netfw/INetFwProfile::UnicastResponsesToMulticastBroadcastDisabled, netfw/INetFwProfile::get_UnicastResponsesToMulticastBroadcastDisabled, netfw/INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled, put_UnicastResponsesToMulticastBroadcastDisabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwProfile.put_UnicastResponsesToMulticastBroadcastDisabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled

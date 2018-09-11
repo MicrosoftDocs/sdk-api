@@ -4,17 +4,16 @@ title: tagRpcCallType
 author: windows-sdk-content
 description: Specifies the set of RPC call types.
 old-location: rpc\rpccalltype.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: b7b95f51-ced4-423f-88b7-b1ec705af66f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcCallType, RpcCallType enumeration [RPC], rctGuaranteed, rctInvalid, rctNormal, rctTraining, rpc.rpccalltype, rpcasync/RpcCallType, rpcasync/rctGuaranteed, rpcasync/rctInvalid, rpcasync/rctNormal, rpcasync/rctTraining, tagRpcCallType
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: rpcasync.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RpcCallType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcCallType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RpcCallType
+req.redist: 
 ---
 
 # tagRpcCallType enumeration

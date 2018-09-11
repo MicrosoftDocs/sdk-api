@@ -4,17 +4,16 @@ title: IRDPSRAPITransportStream::ReadBuffer
 author: windows-sdk-content
 description: Called by the Remote Desktop Protocol (RDP) stack to read the contents of a stream buffer.
 old-location: rdp\irdpsrapitransportstream_readbuffer.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 0a6d9a76-48b8-4755-985e-efbef01a6382
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPITransportStream interface [RDP],ReadBuffer method, IRDPSRAPITransportStream.ReadBuffer, IRDPSRAPITransportStream::ReadBuffer, ReadBuffer, ReadBuffer method [RDP], ReadBuffer method [RDP],IRDPSRAPITransportStream interface, rdp.irdpsrapitransportstream_readbuffer, rdpencomapi/IRDPSRAPITransportStream::ReadBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPITransportStream.ReadBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPITransportStream::ReadBuffer

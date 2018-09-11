@@ -4,17 +4,16 @@ title: IAudioEndpointOffloadStreamVolume::GetChannelVolumes
 author: windows-sdk-content
 description: The GetChannelVolumes method retrieves the volume levels for the various audio channels in the offloaded stream.
 old-location: coreaudio\iaudioendpointoffloadstreamvolume_getchannelvolumes.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: B15CA88E-EDB3-4BB4-9B74-98BB1D0CE288
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetChannelVolumes, GetChannelVolumes method [Core Audio], GetChannelVolumes method [Core Audio],IAudioEndpointOffloadStreamVolume interface, IAudioEndpointOffloadStreamVolume interface [Core Audio],GetChannelVolumes method, IAudioEndpointOffloadStreamVolume.GetChannelVolumes, IAudioEndpointOffloadStreamVolume::GetChannelVolumes, audioengineendpoint/IAudioEndpointOffloadStreamVolume::GetChannelVolumes, coreaudio.iaudioendpointoffloadstreamvolume_getchannelvolumes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioEndpointOffloadStreamVolume.GetChannelVolumes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioEndpointOffloadStreamVolume::GetChannelVolumes

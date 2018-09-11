@@ -4,17 +4,16 @@ title: ITextFont::SetHidden
 author: windows-sdk-content
 description: Sets whether characters are hidden.
 old-location: controls\ITextFont_SetHidden.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\sethidden.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextFont interface [Windows Controls],SetHidden method, ITextFont.SetHidden, ITextFont::SetHidden, SetHidden, SetHidden method [Windows Controls], SetHidden method [Windows Controls],ITextFont interface, _win32_ITextFont_SetHidden, _win32_ITextFont_SetHidden_cpp, controls.ITextFont_SetHidden, controls._win32_ITextFont_SetHidden, tom/ITextFont::SetHidden
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont.SetHidden
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont::SetHidden

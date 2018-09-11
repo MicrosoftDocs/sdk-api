@@ -4,17 +4,16 @@ title: RpcErrorGetNextRecord function
 author: windows-sdk-content
 description: The RpcErrorGetNextRecord function retrieves the next extended error information record for an enumeration handle.
 old-location: rpc\rpcerrorgetnextrecord.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: cc2d3aa0-2956-4710-ad31-a347d9ef9043
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcErrorGetNextRecord, RpcErrorGetNextRecord function [RPC], _rpc_rpcerrorgetnextrecord, rpc.rpcerrorgetnextrecord, rpcasync/RpcErrorGetNextRecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_NOTIFICATION_TYPES
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcErrorGetNextRecord
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcErrorGetNextRecord function

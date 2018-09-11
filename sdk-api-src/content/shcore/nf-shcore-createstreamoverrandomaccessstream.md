@@ -4,17 +4,16 @@ title: CreateStreamOverRandomAccessStream function
 author: windows-sdk-content
 description: Creates an IStream around a Windows Runtime IRandomAccessStream object.
 old-location: winrt\createstreamoverrandomaccessstream.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: F9AB8A34-8AB1-4EF1-8659-DAD5713A89BF
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateStreamOverRandomAccessStream, CreateStreamOverRandomAccessStream function [Windows Runtime], shcore/CreateStreamOverRandomAccessStream, winrt.createstreamoverrandomaccessstream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shcore.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BSOS_OPTIONS
+req.lib: ShCore.lib
+req.dll: ShCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CreateStreamOverRandomAccessStream
 product: Windows
 targetos: Windows
-req.lib: ShCore.lib
-req.dll: ShCore.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CreateStreamOverRandomAccessStream function

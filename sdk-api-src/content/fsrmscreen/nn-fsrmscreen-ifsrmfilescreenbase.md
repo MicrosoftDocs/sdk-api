@@ -4,7 +4,7 @@ title: IFsrmFileScreenBase
 author: windows-sdk-content
 description: Base class for all file screen interfaces.
 old-location: fsrm\ifsrmfilescreenbase.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 9e52af8c-e03b-4b44-83bd-541fe1419d6c
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmFileScreenBase
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileScreenBase interface

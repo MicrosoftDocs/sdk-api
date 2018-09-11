@@ -4,17 +4,16 @@ title: IInkPicture::get_EraserWidth
 author: windows-sdk-content
 description: Gets or sets a value that specifies the width of the eraser pen tip.
 old-location: tablet\inkpicture_eraserwidth.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 8a880a9a-acd4-4cb1-aea7-4d834ecd9490
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 8a880a9a-acd4-4cb1-aea7-4d834ecd9490, EraserWidth property [Tablet PC], EraserWidth property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],EraserWidth property, IInkPicture.EraserWidth, IInkPicture.get_EraserWidth, IInkPicture::EraserWidth, IInkPicture::get_EraserWidth, IInkPicture::put_EraserWidth, InkPicture.get_EraserWidth, InkPicture.put_EraserWidth, get_EraserWidth, msinkaut/IInkPicture::EraserWidth, msinkaut/IInkPicture::get_EraserWidth, msinkaut/IInkPicture::put_EraserWidth, put_EraserWidth, tablet.inkpicture_eraserwidth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkPicture.put_EraserWidth
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkPicture::get_EraserWidth

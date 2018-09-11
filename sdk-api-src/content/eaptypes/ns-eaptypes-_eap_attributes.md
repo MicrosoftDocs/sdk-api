@@ -4,7 +4,7 @@ title: "_EAP_ATTRIBUTES"
 author: windows-sdk-content
 description: Contains an array of EAP attributes.
 old-location: eaphost\eap_attributes.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 2f88b475-a4ae-4c40-b0f8-2dd05c676619
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_ATTRIBUTES, EapAttributes
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_ATTRIBUTES, EapAttributes
+req.redist: 
 ---
 
 # _EAP_ATTRIBUTES structure

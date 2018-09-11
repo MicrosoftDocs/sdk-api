@@ -4,17 +4,16 @@ title: IWMSecureChannel::WMSC_SetSharedData
 author: windows-sdk-content
 description: The WMSC_SetSharedData method is used during the connection negotiation process.
 old-location: wmformat\iwmsecurechannel_wmsc_setshareddata.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: b6a87115-f781-4283-b343-301fdf7c5845
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_SetSharedData method, IWMSecureChannel.WMSC_SetSharedData, IWMSecureChannel::WMSC_SetSharedData, WMSC_SetSharedData, WMSC_SetSharedData method [windows Media Format], WMSC_SetSharedData method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_setshareddata, wmsecure/IWMSecureChannel::WMSC_SetSharedData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsecure.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMT_WATERMARK_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMSecureChannel.WMSC_SetSharedData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMSecureChannel::WMSC_SetSharedData

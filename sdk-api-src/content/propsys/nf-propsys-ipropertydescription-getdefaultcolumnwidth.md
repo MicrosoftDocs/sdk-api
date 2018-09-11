@@ -4,17 +4,16 @@ title: IPropertyDescription::GetDefaultColumnWidth
 author: windows-sdk-content
 description: Gets the default column width of the property in a list view.
 old-location: properties\IPropertyDescription_GetDefaultColumnWidth.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 3f39cb88-084b-4eca-8168-871dcdc74f98
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDefaultColumnWidth, GetDefaultColumnWidth method [Windows Properties], GetDefaultColumnWidth method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetDefaultColumnWidth method, IPropertyDescription.GetDefaultColumnWidth, IPropertyDescription::GetDefaultColumnWidth, properties.IPropertyDescription_GetDefaultColumnWidth, propsys/IPropertyDescription::GetDefaultColumnWidth, shell.IPropertyDescription_GetDefaultColumnWidth, shell_IPropertyDescription_GetDefaultColumnWidth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription.GetDefaultColumnWidth
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription::GetDefaultColumnWidth

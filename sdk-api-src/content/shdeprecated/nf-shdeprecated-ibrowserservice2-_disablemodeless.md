@@ -4,17 +4,16 @@ title: IBrowserService2::_DisableModeless
 author: windows-sdk-content
 description: Deprecated. Enables a derived class to ask the base class whether a modal UI is visible. A modal UI blocks minimize and close behavior in the browser window.
 old-location: shell\IBrowserService2__DisableModeless.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e13763de-a3cb-42ea-a3bc-e9324e14d336
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_DisableModeless method, IBrowserService2._DisableModeless, IBrowserService2::_DisableModeless, _DisableModeless, _DisableModeless method [Windows Shell], _DisableModeless method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_DisableModeless, shell.IBrowserService2__DisableModeless, zone_IBrowserService2__DisableModeless
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2._DisableModeless
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

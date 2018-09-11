@@ -4,17 +4,16 @@ title: IThumbnailHandlerFactory::GetThumbnailHandler
 author: windows-sdk-content
 description: Gets the requested thumbnail handler for the thumbnail of a given item.
 old-location: shell\IThumbnailHandlerFactory_GetThumbnailHandler.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ddd0caba-079f-4b22-8c89-6ba09adeba60
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetThumbnailHandler, GetThumbnailHandler method [Windows Shell], GetThumbnailHandler method [Windows Shell],IThumbnailHandlerFactory interface, IThumbnailHandlerFactory interface [Windows Shell],GetThumbnailHandler method, IThumbnailHandlerFactory.GetThumbnailHandler, IThumbnailHandlerFactory::GetThumbnailHandler, _shell_IThumbnailHandlerFactory_GetThumbnailHandler, shell.IThumbnailHandlerFactory_GetThumbnailHandler, shobjidl_core/IThumbnailHandlerFactory::GetThumbnailHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IThumbnailHandlerFactory.GetThumbnailHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IThumbnailHandlerFactory::GetThumbnailHandler

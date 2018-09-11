@@ -4,17 +4,16 @@ title: IWMReaderCallbackAdvanced::OnStreamSample
 author: windows-sdk-content
 description: The OnStreamSample method delivers stream samples from the source file without decompressing them first.
 old-location: wmformat\iwmreadercallbackadvanced_onstreamsample.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 6bfdd903-a3a4-4ef4-b88a-4d24c9c0f4b8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMReaderCallbackAdvanced interface [windows Media Format],OnStreamSample method, IWMReaderCallbackAdvanced.OnStreamSample, IWMReaderCallbackAdvanced::OnStreamSample, IWMReaderCallbackAdvancedOnStreamSample, OnStreamSample, OnStreamSample method [windows Media Format], OnStreamSample method [windows Media Format],IWMReaderCallbackAdvanced interface, wmformat.iwmreadercallbackadvanced_onstreamsample, wmsdkidl/IWMReaderCallbackAdvanced::OnStreamSample
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMReaderCallbackAdvanced.OnStreamSample
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderCallbackAdvanced::OnStreamSample

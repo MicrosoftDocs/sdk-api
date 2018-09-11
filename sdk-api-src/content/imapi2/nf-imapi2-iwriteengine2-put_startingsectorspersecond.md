@@ -4,17 +4,16 @@ title: IWriteEngine2::put_StartingSectorsPerSecond
 author: windows-sdk-content
 description: Sets the estimated number of sectors per second that the recording device can write to the media at the start of the writing process.
 old-location: imapi\iwriteengine2_put_startingsectorspersecond.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 80d6efdd-c3ce-4c6b-9bc2-7ad34c1dfb5e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],put_StartingSectorsPerSecond method, IWriteEngine2.put_StartingSectorsPerSecond, IWriteEngine2::put_StartingSectorsPerSecond, imapi.iwriteengine2_put_startingsectorspersecond, imapi2/IWriteEngine2::put_StartingSectorsPerSecond, put_StartingSectorsPerSecond, put_StartingSectorsPerSecond method [IMAPI], put_StartingSectorsPerSecond method [IMAPI],IWriteEngine2 interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWriteEngine2.put_StartingSectorsPerSecond
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IWriteEngine2::put_StartingSectorsPerSecond

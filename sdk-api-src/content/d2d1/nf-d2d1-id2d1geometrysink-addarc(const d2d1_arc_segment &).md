@@ -4,17 +4,16 @@ title: ID2D1GeometrySink::AddArc(const D2D1_ARC_SEGMENT &)
 author: windows-sdk-content
 description: Creates a single arc and adds it to the path geometry.
 old-location: direct2d\id2d1geometrysink_addarc.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 845fed36-8425-45fd-a12e-7537e5ba3c4f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddArc, AddArc methods [Direct2D], ID2D1GeometrySink.AddArc, ID2D1GeometrySink.AddArc(const D2D1_ARC_SEGMENT &), ID2D1GeometrySink::AddArc, ID2D1GeometrySink::AddArc(const D2D1_ARC_SEGMENT &), d2d1/AddArc, direct2d.id2d1geometrysink_addarc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1GeometrySink::AddArc
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1GeometrySink::AddArc(const D2D1_ARC_SEGMENT &)

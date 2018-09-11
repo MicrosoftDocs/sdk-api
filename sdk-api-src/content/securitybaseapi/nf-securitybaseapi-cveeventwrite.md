@@ -4,17 +4,16 @@ title: CveEventWrite function
 author: windows-sdk-content
 description: A tracing function for publishing events when an attempted security vulnerability exploit is detected in your user-mode application.
 old-location: etw\cveeventwrite.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 81CDC4A8-67B3-40AE-B492-89EF47BC5C4D
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: CveEventWrite, CveEventWrite function [ETW], etw.cveeventwrite, securitybaseapi/CveEventWrite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - CveEventWrite
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CveEventWrite function

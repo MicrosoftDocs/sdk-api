@@ -4,7 +4,7 @@ title: IFsrmAutoApplyQuota
 author: windows-sdk-content
 description: Used to automatically add the quota to new and existing subdirectories of the directory on which the automatic quota is applied.
 old-location: fsrm\ifsrmautoapplyquota.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 3eb30caa-ce29-4898-b1a7-bd905031ca98
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmAutoApplyQuota
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmAutoApplyQuota interface

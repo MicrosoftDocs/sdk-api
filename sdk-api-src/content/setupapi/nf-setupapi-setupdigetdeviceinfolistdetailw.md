@@ -4,17 +4,16 @@ title: SetupDiGetDeviceInfoListDetailW function
 author: windows-sdk-content
 description: The SetupDiGetDeviceInfoListDetail function retrieves information associated with a device information set including the class GUID, remote computer handle, and remote computer name.
 old-location: devinst\setupdigetdeviceinfolistdetail.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 3f624882-9ccc-4be1-92aa-8bba9f0022ea
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiGetDeviceInfoListDetail, SetupDiGetDeviceInfoListDetail function [Device and Driver Installation], SetupDiGetDeviceInfoListDetailA, SetupDiGetDeviceInfoListDetailW, devinst.setupdigetdeviceinfolistdetail, di-rtns_b25a6105-3c1f-4b79-ad07-37be79fa36ae.xml, setupapi/SetupDiGetDeviceInfoListDetail
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiGetDeviceInfoListDetail
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetDeviceInfoListDetailW function

@@ -4,17 +4,16 @@ title: ImmGetImeMenuItemsA function
 author: windows-sdk-content
 description: Retrieves the menu items that are registered in the IME menu of a specified input context.
 old-location: intl\immgetimemenuitems.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 452c864d-b2e7-452a-85f2-d06d46170865
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IGIMIF_RIGHTMENU, IGIMII_CMODE, IGIMII_CONFIGURE, IGIMII_HELP, IGIMII_INPUTTOOLS, IGIMII_OTHER, IGIMII_SMODE, IGIMII_TOOLS, ImmGetImeMenuItems, ImmGetImeMenuItems function [Internationalization for Windows Applications], ImmGetImeMenuItemsA, ImmGetImeMenuItemsW, _win32_ImmGetImeMenuItems, imm/ImmGetImeMenuItems, imm/ImmGetImeMenuItemsA, imm/ImmGetImeMenuItemsW, intl.immgetimemenuitems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ImmGetImeMenuItemsW
 product: Windows
 targetos: Windows
-req.lib: Imm32.lib
-req.dll: Imm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ImmGetImeMenuItemsA function

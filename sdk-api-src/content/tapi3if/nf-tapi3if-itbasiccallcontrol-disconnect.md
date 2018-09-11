@@ -4,17 +4,16 @@ title: ITBasicCallControl::Disconnect
 author: windows-sdk-content
 description: The Disconnect method disconnects the call. The call state will transition to CS_DISCONNECTED after the method completes successfully.
 old-location: tapi3\itbasiccallcontrol_disconnect.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b7d556fd-d3f5-4b93-96a9-cc5c58fb8a95
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: Disconnect, Disconnect method [TAPI 2.2], Disconnect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Disconnect method, ITBasicCallControl.Disconnect, ITBasicCallControl::Disconnect, _tapi3_itbasiccallcontrol_disconnect, tapi3.itbasiccallcontrol_disconnect, tapi3if/ITBasicCallControl::Disconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITBasicCallControl.Disconnect
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITBasicCallControl::Disconnect

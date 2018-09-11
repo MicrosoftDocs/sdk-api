@@ -4,17 +4,16 @@ title: SecurityProperty::GetOriginalCreatorName
 author: windows-sdk-content
 description: Retrieves the user name associated with the original base process that initiated the activity in which the current object is executing.
 old-location: cos\securityproperty_getoriginalcreatorname.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 403f0f36-f386-4eeb-905a-e04c5699db9b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetOriginalCreatorName, GetOriginalCreatorName method [COM+], GetOriginalCreatorName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetOriginalCreatorName method, SecurityProperty.GetOriginalCreatorName, SecurityProperty::GetOriginalCreatorName, _cos_SecurityProperty_GetOriginalCreatorName, comsvcs/SecurityProperty::GetOriginalCreatorName, cos.securityproperty_getoriginalcreatorname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SecurityProperty.GetOriginalCreatorName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # SecurityProperty::GetOriginalCreatorName

@@ -4,17 +4,16 @@ title: WTSEnumerateServersW function
 author: windows-sdk-content
 description: Returns a list of all Remote Desktop Session Host (RD Session Host) servers within the specified domain.
 old-location: termserv\wtsenumerateservers.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 49aa3813-4e29-420e-9309-3ef9b11f1da7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WTSEnumerateServers, WTSEnumerateServers function [Remote Desktop Services], WTSEnumerateServersA, WTSEnumerateServersW, termserv.wtsenumerateservers, wtsapi32/WTSEnumerateServers, wtsapi32/WTSEnumerateServersA, wtsapi32/WTSEnumerateServersW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_VIRTUAL_CLASS
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WTSEnumerateServersW
 product: Windows
 targetos: Windows
-req.lib: Wtsapi32.lib
-req.dll: Wtsapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WTSEnumerateServersW function

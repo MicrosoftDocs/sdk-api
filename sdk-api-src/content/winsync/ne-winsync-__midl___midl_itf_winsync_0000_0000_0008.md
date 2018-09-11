@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_winsync_0000_0000_0008"
 author: windows-sdk-content
 description: Indicates the type of information that is included in a change batch during filtered synchronization.
 old-location: winsync\filtering_type.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 6bcbc011-9d47-4c88-a62e-0c9366abc7d3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: FILTERING_TYPE, FILTERING_TYPE enumeration [Windows Sync], FT_CURRENT_ITEMS_ONLY, __MIDL___MIDL_itf_winsync_0000_0000_0008, winsync.filtering_type, winsync/FILTERING_TYPE, winsync/FT_CURRENT_ITEMS_ONLY
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERING_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILTERING_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: FILTERING_TYPE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_winsync_0000_0000_0008 enumeration

@@ -4,17 +4,16 @@ title: IWindowsMediaLibrarySharingDevices
 author: windows-sdk-content
 description: The IWindowsMediaLibrarySharingDevices.
 old-location: wmlss\IWindowsMediaLibrarySharingDevicesInterface.htm
-old-project: wmlss
+tech.root: WMLSS
 ms.assetid: 62e1f4d6-5b33-45d7-85d5-bc2c333c63e4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWindowsMediaLibrarySharingDevices, IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services],described, wmlss.IWindowsMediaLibrarySharingDevicesInterface, wmlss/IWindowsMediaLibrarySharingDevices
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmlss.h
 req.include-header: Wmlss.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
+req.lib: 
+req.dll: WMPMediaSharing.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWindowsMediaLibrarySharingDevices
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: WMPMediaSharing.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowsMediaLibrarySharingDevices interface

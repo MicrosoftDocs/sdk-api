@@ -4,17 +4,16 @@ title: IObjectId::InitializeFromAlgorithmName
 author: windows-sdk-content
 description: Initializes the object from an algorithm name or an object identifier.
 old-location: security\iobjectid_initializefromalgorithmname_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: ba8c1f11-9380-43a9-b444-b0fff114a176
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IObjectId interface [Security],InitializeFromAlgorithmName method, IObjectId.InitializeFromAlgorithmName, IObjectId::InitializeFromAlgorithmName, InitializeFromAlgorithmName, InitializeFromAlgorithmName method [Security], InitializeFromAlgorithmName method [Security],IObjectId interface, certenroll/IObjectId::InitializeFromAlgorithmName, security.iobjectid_initializefromalgorithmname_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectId.InitializeFromAlgorithmName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectId::InitializeFromAlgorithmName

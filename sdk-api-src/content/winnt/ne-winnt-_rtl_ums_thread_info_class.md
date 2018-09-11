@@ -4,7 +4,7 @@ title: "_RTL_UMS_THREAD_INFO_CLASS"
 author: windows-sdk-content
 description: Represents classes of information about user-mode scheduling (UMS) threads.
 old-location: base\ums_thread_info_class.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 2d6730b2-4d01-45f5-9514-0d91806f50d5
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTL_UMS_THREAD_INFO_CLASS, *PRTL_UMS_THREAD_INFO_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - UMS_THREAD_INFO_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: RTL_UMS_THREAD_INFO_CLASS, *PRTL_UMS_THREAD_INFO_CLASS
+req.redist: 
 ---
 
 # _RTL_UMS_THREAD_INFO_CLASS enumeration

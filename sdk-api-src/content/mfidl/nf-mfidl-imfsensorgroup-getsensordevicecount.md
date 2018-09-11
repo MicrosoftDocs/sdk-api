@@ -4,17 +4,16 @@ title: IMFSensorGroup::GetSensorDeviceCount
 author: windows-sdk-content
 description: Gets the number of devices that are virtualized by the sensor group.
 old-location: mf\imfsensorgroup_getsensordevicecount.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 687A4275-5963-486E-8D59-B1858D7E388D
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetSensorDeviceCount, GetSensorDeviceCount method [Media Foundation], GetSensorDeviceCount method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSensorDeviceCount method, IMFSensorGroup.GetSensorDeviceCount, IMFSensorGroup::GetSensorDeviceCount, mf.imfsensorgroup_getsensordevicecount, mfidl/IMFSensorGroup::GetSensorDeviceCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorGroup.GetSensorDeviceCount
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorGroup::GetSensorDeviceCount

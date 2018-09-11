@@ -4,17 +4,16 @@ title: RegisterApplicationRestart function
 author: windows-sdk-content
 description: Registers the active instance of an application for restart.
 old-location: recovery\registerapplicationrestart.htm
-old-project: recovery
+tech.root: Recovery
 ms.assetid: f4cd25b3-2aee-460f-9f9f-b45ecded094f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RESTART_NO_CRASH, RESTART_NO_HANG, RESTART_NO_PATCH, RESTART_NO_REBOOT, RegisterApplicationRestart, RegisterApplicationRestart function [Recovery], base.registerapplicationrestart, recovery.registerapplicationrestart, winbase/RegisterApplicationRestart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RegisterApplicationRestart
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # RegisterApplicationRestart function

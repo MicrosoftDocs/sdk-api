@@ -4,17 +4,16 @@ title: IServiceComTIIntrinsicsConfig
 author: windows-sdk-content
 description: Configures the COM Transaction Integrator (COMTI) intrinsics for the work that is done when calling the CoCreateActivity or CoEnterServiceDomain function.
 old-location: cos\iservicecomtiintrinsicsconfig.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: dafa74f9-21fb-4495-911a-60183d36d83c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IServiceComTIIntrinsicsConfig, IServiceComTIIntrinsicsConfig interface [COM+], IServiceComTIIntrinsicsConfig interface [COM+],described, _cos_IServiceComTIIntrinsicsConfig, comsvcs/IServiceComTIIntrinsicsConfig, cos.iservicecomtiintrinsicsconfig
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceComTIIntrinsicsConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceComTIIntrinsicsConfig interface

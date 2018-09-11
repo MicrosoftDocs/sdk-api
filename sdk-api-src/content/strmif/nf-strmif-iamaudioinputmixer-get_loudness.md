@@ -4,17 +4,16 @@ title: IAMAudioInputMixer::get_Loudness
 author: windows-sdk-content
 description: The get_Loudness method retrieves the loudness control setting.
 old-location: dshow\iamaudioinputmixer_get_loudness.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 620003c0-401f-4415-a82f-a80e7b32dbd3
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Loudness method, IAMAudioInputMixer.get_Loudness, IAMAudioInputMixer::get_Loudness, IAMAudioInputMixerget_Loudness, dshow.iamaudioinputmixer_get_loudness, get_Loudness, get_Loudness method [DirectShow], get_Loudness method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Loudness
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMAudioInputMixer.get_Loudness
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMAudioInputMixer::get_Loudness

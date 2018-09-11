@@ -4,17 +4,16 @@ title: IDiscFormat2TrackAtOnce::CancelAddTrack
 author: windows-sdk-content
 description: Cancels the current write operation.
 old-location: imapi\idiscformat2trackatonce_canceladdtrack.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 09e71d36-da1d-4ba0-bd6b-4ce4425d481a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CancelAddTrack, CancelAddTrack method [IMAPI], CancelAddTrack method [IMAPI],IDiscFormat2TrackAtOnce interface, IDiscFormat2TrackAtOnce interface [IMAPI],CancelAddTrack method, IDiscFormat2TrackAtOnce.CancelAddTrack, IDiscFormat2TrackAtOnce::CancelAddTrack, imapi.idiscformat2trackatonce_canceladdtrack, imapi2/IDiscFormat2TrackAtOnce::CancelAddTrack
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2TrackAtOnce.CancelAddTrack
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2TrackAtOnce::CancelAddTrack

@@ -4,17 +4,16 @@ title: ITextRange2::GetMathFunctionType
 author: windows-sdk-content
 description: Retrieves the math function type associated with the specified math function name.
 old-location: controls\itextrange2_getmathfunctiontype.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 00bae237-5853-430e-8313-563da0cf0fde
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetMathFunctionType, GetMathFunctionType method [Windows Controls], GetMathFunctionType method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetMathFunctionType method, ITextRange2.GetMathFunctionType, ITextRange2::GetMathFunctionType, controls.itextrange2_getmathfunctiontype, tom/ITextRange2::GetMathFunctionType, tomFunctionTypeIsLim, tomFunctionTypeNone, tomFunctionTypeTakesArg, tomFunctionTypeTakesLim, tomFunctionTypeTakesLim2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange2.GetMathFunctionType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange2::GetMathFunctionType

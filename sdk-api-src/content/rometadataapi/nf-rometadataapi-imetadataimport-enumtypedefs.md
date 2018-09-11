@@ -4,17 +4,16 @@ title: IMetaDataImport::EnumTypeDefs
 author: windows-sdk-content
 description: Enumerates TypeDef tokens representing all types within the current scope.
 old-location: winrt\imetadataimport_enumtypedefs.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 64dc7018-721f-4747-b798-fbf70bac18d5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumTypeDefs, EnumTypeDefs method [Windows Runtime], EnumTypeDefs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumTypeDefs method, IMetaDataImport.EnumTypeDefs, IMetaDataImport::EnumTypeDefs, rometadataapi/IMetaDataImport::EnumTypeDefs, winrt.imetadataimport_enumtypedefs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.EnumTypeDefs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::EnumTypeDefs

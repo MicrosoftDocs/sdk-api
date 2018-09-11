@@ -4,17 +4,16 @@ title: "_AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS"
 author: windows-sdk-content
 description: The AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS structure holds additional Authenticode policy information for chain verification of files.
 old-location: security\authenticode_extra_cert_chain_policy_status.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: bc123d07-0d59-49e0-b0e3-23dadb270347
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS structure [Security], PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS structure pointer [Security], _AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, _crypto2_authenticode_extra_cert_chain_policy_status, security.authenticode_extra_cert_chain_policy_status, wincrypt/AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, wincrypt/PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, *PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, *PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.redist: 
 ---
 
 # _AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS structure

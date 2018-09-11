@@ -4,17 +4,16 @@ title: IMFMediaBuffer::GetMaxLength
 author: windows-sdk-content
 description: Retrieves the allocated size of the buffer.
 old-location: mf\imfmediabuffer_getmaxlength.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: f0697f1d-18d6-4406-9f19-8cbaac08ad47
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetMaxLength, GetMaxLength method [Media Foundation], GetMaxLength method [Media Foundation],IMFMediaBuffer interface, IMFMediaBuffer interface [Media Foundation],GetMaxLength method, IMFMediaBuffer.GetMaxLength, IMFMediaBuffer::GetMaxLength, f0697f1d-18d6-4406-9f19-8cbaac08ad47, mf.imfmediabuffer_getmaxlength, mfobjects/IMFMediaBuffer::GetMaxLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaBuffer.GetMaxLength
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaBuffer::GetMaxLength

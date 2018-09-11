@@ -4,17 +4,16 @@ title: X509CertificateEnrollmentContext
 author: windows-sdk-content
 description: Specifies the nature of the end entity for which the certificate is intended.
 old-location: security\x509certificateenrollmentcontext_enum.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 2db0e129-a566-47ba-ab57-53c7db09e8e3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, X509CertificateEnrollmentContext, X509CertificateEnrollmentContext enumeration [Security], certenroll/ContextAdministratorForceMachine, certenroll/ContextMachine, certenroll/ContextUser, certenroll/X509CertificateEnrollmentContext, security.x509certificateenrollmentcontext_enum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509CertificateEnrollmentContext
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X509CertificateEnrollmentContext
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: X509CertificateEnrollmentContext
+req.redist: 
 ---
 
 # X509CertificateEnrollmentContext enumeration

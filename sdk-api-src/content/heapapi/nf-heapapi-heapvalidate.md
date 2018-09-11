@@ -4,17 +4,16 @@ title: HeapValidate function
 author: windows-sdk-content
 description: Validates the specified heap. The function scans all the memory blocks in the heap and verifies that the heap control structures maintained by the heap manager are in a consistent state.
 old-location: base\heapvalidate.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 036e95ff-f71f-49c3-8321-ed4c4bee5455
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapValidate, HeapValidate function, _win32_heapvalidate, base.heapvalidate, heapapi/HeapValidate, winbase/HeapValidate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - HeapValidate
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HeapValidate function

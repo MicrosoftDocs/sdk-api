@@ -4,17 +4,16 @@ title: ICDecompressExQuery function
 author: windows-sdk-content
 description: The ICDecompressExQuery function determines if a decompressor can decompress data with a specific format.
 old-location: multimedia\icdecompressexquery.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 6a1aa686-7f3d-43be-baaa-d20ea4a33f9b
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICDecompressExQuery, ICDecompressExQuery function [Windows Multimedia], _win32_ICDecompressExQuery, multimedia.icdecompressexquery, vfw/ICDecompressExQuery
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDecompressExQuery
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICDecompressExQuery function

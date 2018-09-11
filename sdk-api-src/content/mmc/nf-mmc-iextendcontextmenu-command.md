@@ -4,17 +4,16 @@ title: IExtendContextMenu::Command
 author: windows-sdk-content
 description: The IExtendContextMenu::Command method is called if one of the items you added to the context menu with IExtendContextMenu::AddMenuItems is subsequently selected.
 old-location: mmc\iextendcontextmenu_command.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: ee91a737-c6b4-48a1-88a2-57bef3730f5e
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: Command, Command method [MMC], Command method [MMC],IExtendContextMenu interface, IExtendContextMenu interface [MMC],Command method, IExtendContextMenu.Command, IExtendContextMenu::Command, _slate_iextendcontextmenu_command, mmc.iextendcontextmenu_command, mmc/IExtendContextMenu::Command
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExtendContextMenu.Command
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IExtendContextMenu::Command

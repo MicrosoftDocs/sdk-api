@@ -4,7 +4,7 @@ title: "_MilMatrix3x2D"
 author: windows-sdk-content
 description: Specifies a 3x2 matrix that describes a transform.
 old-location: dwm\milmatrix3x2d.htm
-old-project: dwm
+tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\milmatrix3x2d.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MilMatrix3x2D
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MilMatrix3x2D
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: MilMatrix3x2D
+req.redist: 
 ---
 
 # _MilMatrix3x2D structure

@@ -4,17 +4,16 @@ title: IShellFolderViewDual::get_Script
 author: windows-sdk-content
 description: Gets the scripting object for the view.
 old-location: shell\IShellFolderViewDual_get_Script.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9d683cda-0fe0-4984-b556-a6dd1223ca4c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Script method, IShellFolderViewDual.get_Script, IShellFolderViewDual::get_Script, _shell_IShellFolderViewDual_get_Script, get_Script, get_Script method [Windows Shell], get_Script method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_Script, shldisp/IShellFolderViewDual::get_Script
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderViewDual.get_Script
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderViewDual::get_Script

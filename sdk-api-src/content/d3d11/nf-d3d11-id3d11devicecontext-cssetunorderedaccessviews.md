@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::CSSetUnorderedAccessViews
 author: windows-sdk-content
 description: Sets an array of views for an unordered resource.
 old-location: direct3d11\id3d11devicecontext_cssetunorderedaccessviews.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 384a15c0-a035-4f83-a927-e2f763e5fb44
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 16820cec-2cc5-1d17-4d7f-118d1fd9660b, CSSetUnorderedAccessViews, CSSetUnorderedAccessViews method [Direct3D 11], CSSetUnorderedAccessViews method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSSetUnorderedAccessViews method, ID3D11DeviceContext.CSSetUnorderedAccessViews, ID3D11DeviceContext::CSSetUnorderedAccessViews, d3d11/ID3D11DeviceContext::CSSetUnorderedAccessViews, direct3d11.id3d11devicecontext_cssetunorderedaccessviews
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.CSSetUnorderedAccessViews
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::CSSetUnorderedAccessViews

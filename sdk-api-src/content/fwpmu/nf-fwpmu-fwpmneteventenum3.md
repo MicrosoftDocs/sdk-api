@@ -4,17 +4,16 @@ title: FwpmNetEventEnum3 function
 author: windows-sdk-content
 description: Returns the next page of results from the network event enumerator.
 old-location: fwp\fwpmneteventenum3.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: D7098530-9B20-4DB0-908D-EC8E365CB70D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FwpmNetEventEnum3, FwpmNetEventEnum3 function [Filtering], fwp.fwpmneteventenum3, fwpmu/FwpmNetEventEnum3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FwpmNetEventEnum3
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FwpmNetEventEnum3 function

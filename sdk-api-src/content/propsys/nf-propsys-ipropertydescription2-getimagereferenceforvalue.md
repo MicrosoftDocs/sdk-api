@@ -4,17 +4,16 @@ title: IPropertyDescription2::GetImageReferenceForValue
 author: windows-sdk-content
 description: Gets the image reference associated with a property value.
 old-location: properties\IPropertyDescription2_GetImageReferenceForValue.htm
-old-project: properties
+tech.root: properties
 ms.assetid: d5831e8c-0b98-4cdc-946e-3c359a04caed
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetImageReferenceForValue, GetImageReferenceForValue method [Windows Properties], GetImageReferenceForValue method [Windows Properties],IPropertyDescription2 interface, IPropertyDescription2 interface [Windows Properties],GetImageReferenceForValue method, IPropertyDescription2.GetImageReferenceForValue, IPropertyDescription2::GetImageReferenceForValue, properties.IPropertyDescription2_GetImageReferenceForValue, propsys/IPropertyDescription2::GetImageReferenceForValue, shell.IPropertyDescription2_GetImageReferenceForValue, shell_IPropertyDescription2_GetImageReferenceForValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription2.GetImageReferenceForValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription2::GetImageReferenceForValue

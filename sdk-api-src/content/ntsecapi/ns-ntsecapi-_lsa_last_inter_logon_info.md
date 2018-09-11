@@ -4,17 +4,16 @@ title: "_LSA_LAST_INTER_LOGON_INFO"
 author: windows-sdk-content
 description: Contains information about a logon session.
 old-location: security\lsa_last_inter_logon_info.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: FB935FED-571F-4298-8F83-0F805408179D
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PLSA_LAST_INTER_LOGON_INFO, LSA_LAST_INTER_LOGON_INFO, LSA_LAST_INTER_LOGON_INFO structure [Security], PLSA_LAST_INTER_LOGON_INFO, PLSA_LAST_INTER_LOGON_INFO structure pointer [Security], _LSA_LAST_INTER_LOGON_INFO, ntsecapi/LSA_LAST_INTER_LOGON_INFO, ntsecapi/PLSA_LAST_INTER_LOGON_INFO, security.lsa_last_inter_logon_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LSA_LAST_INTER_LOGON_INFO, *PLSA_LAST_INTER_LOGON_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LSA_LAST_INTER_LOGON_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: LSA_LAST_INTER_LOGON_INFO, *PLSA_LAST_INTER_LOGON_INFO
+req.redist: 
 ---
 
 # _LSA_LAST_INTER_LOGON_INFO structure

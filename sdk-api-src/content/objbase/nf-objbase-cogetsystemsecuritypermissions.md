@@ -4,17 +4,16 @@ title: CoGetSystemSecurityPermissions function
 author: windows-sdk-content
 description: Returns the default values of the Security Descriptors of the machine-wide launch and access permissions, as well as launch and access limits.
 old-location: com\cogetsystemsecuritypermissions.htm
-old-project: com
+tech.root: com
 ms.assetid: 8210A6A0-B861-4E85-8E5A-1BF82A01C54E
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoGetSystemSecurityPermissions, CoGetSystemSecurityPermissions function [COM], com.cogetsystemsecuritypermissions, objbase/CoGetSystemSecurityPermissions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: ComBase.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CoGetSystemSecurityPermissions
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: ComBase.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CoGetSystemSecurityPermissions function

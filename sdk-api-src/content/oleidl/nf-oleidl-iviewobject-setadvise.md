@@ -4,17 +4,16 @@ title: IViewObject::SetAdvise
 author: windows-sdk-content
 description: Establishes a connection between the view object and an advise sink so that the advise sink can be notified about changes in the object's view.
 old-location: com\iviewobject_setadvise.htm
-old-project: com
+tech.root: com
 ms.assetid: 64712679-8454-41fa-9497-f0ab97240a51
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ADVF_ONLYONCE, ADVF_PRIMEFIRST, IViewObject interface [COM],SetAdvise method, IViewObject.SetAdvise, IViewObject::SetAdvise, SetAdvise, SetAdvise method [COM], SetAdvise method [COM],IViewObject interface, _ole_iviewobject_setadvise, com.iviewobject_setadvise, oleidl/IViewObject::SetAdvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IViewObject.SetAdvise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IViewObject::SetAdvise

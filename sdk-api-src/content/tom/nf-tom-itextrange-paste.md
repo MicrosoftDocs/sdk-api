@@ -4,17 +4,16 @@ title: ITextRange::Paste
 author: windows-sdk-content
 description: Pastes text from a specified data object.
 old-location: controls\ITextRange_Paste.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\paste.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRange interface [Windows Controls],Paste method, ITextRange.Paste, ITextRange::Paste, Paste, Paste method [Windows Controls], Paste method [Windows Controls],ITextRange interface, _win32_ITextRange_Paste, _win32_ITextRange_Paste_cpp, controls.ITextRange_Paste, controls._win32_ITextRange_Paste, tom/ITextRange::Paste
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange.Paste
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange::Paste

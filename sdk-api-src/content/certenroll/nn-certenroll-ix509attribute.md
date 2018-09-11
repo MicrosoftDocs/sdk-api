@@ -4,17 +4,16 @@ title: IX509Attribute
 author: windows-sdk-content
 description: Can be used to represent an attribute in a PKCS #7, PKCS #10, or CMC certificate request.
 old-location: security\ix509attribute.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 20965768-2c6b-488a-ab7c-5e0f6f28ac9b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509Attribute, IX509Attribute interface [Security], IX509Attribute interface [Security],described, certenroll/IX509Attribute, security.ix509attribute
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509Attribute
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Attribute interface

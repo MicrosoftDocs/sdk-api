@@ -4,17 +4,16 @@ title: "_SYNC_TIME"
 author: windows-sdk-content
 description: Represents a date-and-time value.
 old-location: winsync\sync_time.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: f5e0df02-d016-4eae-9b9b-bfd754ade126
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: SYNC_TIME, SYNC_TIME structure [Windows Sync], _SYNC_TIME, winsync.sync_time, winsync/SYNC_TIME
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_TIME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNC_TIME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SYNC_TIME
+req.redist: 
 ---
 
 # _SYNC_TIME structure

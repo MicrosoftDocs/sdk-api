@@ -4,17 +4,16 @@ title: IDWriteFontSet::GetMatchingFonts(WCHAR const,DWRITE_FONT_WEIGHT,DWRITE_FO
 author: windows-sdk-content
 description: Returns a subset of fonts filtered by the given properties.
 old-location: directwrite\idwritefontset_getmatchingfonts_1.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 3282d528-9997-ee8f-c001-34650551f0e5
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetMatchingFonts, GetMatchingFonts method [Direct Write], GetMatchingFonts method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],GetMatchingFonts method, IDWriteFontSet.GetMatchingFonts, IDWriteFontSet.GetMatchingFonts(WCHAR const,DWRITE_FONT_WEIGHT,DWRITE_FONT_STRETCH,DWRITE_FONT_STYLE,IDWriteFontSet), IDWriteFontSet::GetMatchingFonts, IDWriteFontSet::GetMatchingFonts(WCHAR const,DWRITE_FONT_WEIGHT,DWRITE_FONT_STRETCH,DWRITE_FONT_STYLE,IDWriteFontSet), directwrite.idwritefontset_getmatchingfonts_1, dwrite_3/IDWriteFontSet::GetMatchingFonts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontSet.GetMatchingFonts
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontSet::GetMatchingFonts(WCHAR const,DWRITE_FONT_WEIGHT,DWRITE_FONT_STRETCH,DWRITE_FONT_STYLE,IDWriteFontSet)
@@ -62,22 +60,22 @@ Returns a subset of fonts filtered by the given properties.
 
 ### -param familyName
 
-
+TBD
 
 
 ### -param fontWeight
 
-
+TBD
 
 
 ### -param fontStretch
 
-
+TBD
 
 
 ### -param fontStyle
 
-
+TBD
 
 
 ### -param filteredSet [out]

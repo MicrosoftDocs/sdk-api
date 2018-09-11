@@ -4,7 +4,7 @@ title: "_DDPIXELFORMAT"
 author: windows-sdk-content
 description: The DDPIXELFORMAT structure describes the pixel format of a DirectDrawSurface object for the IDirectDrawSurface7::GetPixelFormat method.
 old-location: directdraw\ddpixelformat.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 17c531cb-7e65-482a-b3de-494874c1dd92
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDPIXELFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDPIXELFORMAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDPIXELFORMAT
+req.redist: 
 ---
 
 # _DDPIXELFORMAT structure

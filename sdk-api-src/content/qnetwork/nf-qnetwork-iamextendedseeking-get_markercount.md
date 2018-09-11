@@ -4,17 +4,16 @@ title: IAMExtendedSeeking::get_MarkerCount
 author: windows-sdk-content
 description: The get_MarkerCount method retrieves the number of markers in the current stream.
 old-location: dshow\iamextendedseeking_get_markercount.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: bd9c2ca8-e5f2-409e-aaf9-d89d81d2b02d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_MarkerCount method, IAMExtendedSeeking.get_MarkerCount, IAMExtendedSeeking::get_MarkerCount, IAMExtendedSeekingget_MarkerCount, dshow.iamextendedseeking_get_markercount, get_MarkerCount, get_MarkerCount method [DirectShow], get_MarkerCount method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_MarkerCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMExtendedSeeking.get_MarkerCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtendedSeeking::get_MarkerCount

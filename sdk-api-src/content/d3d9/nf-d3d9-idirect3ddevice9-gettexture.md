@@ -4,17 +4,16 @@ title: IDirect3DDevice9::GetTexture
 author: windows-sdk-content
 description: Retrieves a texture assigned to a stage for a device.
 old-location: direct3d9\idirect3ddevice9__gettexture.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__gettexture.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetTexture, GetTexture method [Direct3D 9], GetTexture method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetTexture method, IDirect3DDevice9.GetTexture, IDirect3DDevice9::GetTexture, b36b5e1a-bf59-6db1-b704-5002886b044f, d3d9helper/IDirect3DDevice9::GetTexture, direct3d9.idirect3ddevice9__gettexture
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DDevice9.GetTexture
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9::GetTexture

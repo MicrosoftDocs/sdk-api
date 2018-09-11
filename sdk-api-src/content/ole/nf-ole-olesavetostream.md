@@ -4,17 +4,16 @@ title: OleSaveToStream function
 author: windows-sdk-content
 description: Saves an object with the IPersistStream interface on it to the specified stream.
 old-location: com\olesavetostream.htm
-old-project: com
+tech.root: com
 ms.assetid: 0085c6a8-1a94-4379-9937-c8d792d130da
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleSaveToStream, OleSaveToStream function [COM], _ole_OleSaveToStream, com.olesavetostream, ole/OleSaveToStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ole.h
 req.include-header: Ole2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - OleSaveToStream
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleSaveToStream function
@@ -65,7 +63,12 @@ Saves an object with the <a href="https://msdn.microsoft.com/97ea64ee-d950-4872-
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

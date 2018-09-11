@@ -4,17 +4,16 @@ title: INetConnection::GetProperties
 author: windows-sdk-content
 description: The GetProperties method retrieves a structure that contains the properties for this network connection.
 old-location: ics\inetconnection_getproperties.htm
-old-project: ics
+tech.root: ics
 ms.assetid: ab27a7fd-061f-4ea2-8ce8-23d59957a46f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetProperties, GetProperties method [ICS/ICF], GetProperties method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],GetProperties method, INetConnection.GetProperties, INetConnection::GetProperties, _ics_inetconnection_getproperties, ics.inetconnection_getproperties, netcon/INetConnection::GetProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetConnection.GetProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetConnection::GetProperties

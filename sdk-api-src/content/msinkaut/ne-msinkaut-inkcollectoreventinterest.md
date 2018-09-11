@@ -4,17 +4,16 @@ title: InkCollectorEventInterest
 author: windows-sdk-content
 description: Defines values that are used to specify whether an event occurred on an ink collector and, if so, which event fired.
 old-location: tablet\inkcollectoreventinterest.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: db575790-345b-48da-b509-927eb2f47987
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: ICEI_AllEvents, ICEI_CursorButtonDown, ICEI_CursorButtonUp, ICEI_CursorDown, ICEI_CursorInRange, ICEI_CursorOutOfRange, ICEI_DblClick, ICEI_DefaultEvents, ICEI_MouseDown, ICEI_MouseMove, ICEI_MouseUp, ICEI_MouseWheel, ICEI_NewInAirPackets, ICEI_NewPackets, ICEI_Stroke, ICEI_SystemGesture, ICEI_TabletAdded, ICEI_TabletRemoved, InkCollectorEventInterest, InkCollectorEventInterest enumeration [Tablet PC], db575790-345b-48da-b509-927eb2f47987, msinkaut/ICEI_AllEvents, msinkaut/ICEI_CursorButtonDown, msinkaut/ICEI_CursorButtonUp, msinkaut/ICEI_CursorDown, msinkaut/ICEI_CursorInRange, msinkaut/ICEI_CursorOutOfRange, msinkaut/ICEI_DblClick, msinkaut/ICEI_DefaultEvents, msinkaut/ICEI_MouseDown, msinkaut/ICEI_MouseMove, msinkaut/ICEI_MouseUp, msinkaut/ICEI_MouseWheel, msinkaut/ICEI_NewInAirPackets, msinkaut/ICEI_NewPackets, msinkaut/ICEI_Stroke, msinkaut/ICEI_SystemGesture, msinkaut/ICEI_TabletAdded, msinkaut/ICEI_TabletRemoved, msinkaut/InkCollectorEventInterest, tablet.inkcollectoreventinterest
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkCollectorEventInterest
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InkCollectorEventInterest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkCollectorEventInterest
+req.redist: 
 ---
 
 # InkCollectorEventInterest enumeration

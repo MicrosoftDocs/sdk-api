@@ -4,17 +4,16 @@ title: CredFindBestCredentialW function
 author: windows-sdk-content
 description: Searches the Credentials Management (CredMan) database for the set of generic credentials that are associated with the current logon session and that best match the specified target resource.
 old-location: security\credfindbestcredential.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: b39e3167-dd63-4b81-b850-f3117be348a5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CredFindBestCredential, CredFindBestCredential function [Security], CredFindBestCredentialA, CredFindBestCredentialW, security.credfindbestcredential, wincred/CredFindBestCredential, wincred/CredFindBestCredentialA, wincred/CredFindBestCredentialW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - CredFindBestCredentialW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CredFindBestCredentialW function

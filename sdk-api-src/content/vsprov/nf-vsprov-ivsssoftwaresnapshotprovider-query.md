@@ -4,17 +4,16 @@ title: IVssSoftwareSnapshotProvider::Query
 author: windows-sdk-content
 description: Queries the provider for information about the shadow copies that the provider has completed.
 old-location: base\ivsssoftwaresnapshotprovider_query.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: bb238acc-7af0-43cf-bc2e-70e255978fb1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,Query method, IVssSoftwareSnapshotProvider.Query, IVssSoftwareSnapshotProvider::Query, Query, Query method, Query method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_query, vsprov/IVssSoftwareSnapshotProvider::Query
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssSoftwareSnapshotProvider.Query
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssSoftwareSnapshotProvider::Query

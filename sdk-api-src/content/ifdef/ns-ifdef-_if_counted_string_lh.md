@@ -4,7 +4,7 @@ title: "_IF_COUNTED_STRING_LH"
 author: windows-sdk-content
 description: The IF_COUNTED_STRING structure specifies a counted string for NDIS interfaces.
 old-location: netvista\if_counted_string.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 44B59154-C5CA-42F0-A972-021833E29D81
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ifdef.h
 req.include-header: Ntddndis.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IF_COUNTED_STRING_LH, *PIF_COUNTED_STRING_LH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IF_COUNTED_STRING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IF_COUNTED_STRING_LH, *PIF_COUNTED_STRING_LH
+req.redist: 
 ---
 
 # _IF_COUNTED_STRING_LH structure

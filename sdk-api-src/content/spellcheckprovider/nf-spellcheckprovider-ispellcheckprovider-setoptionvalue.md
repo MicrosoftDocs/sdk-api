@@ -4,17 +4,16 @@ title: ISpellCheckProvider::SetOptionValue
 author: windows-sdk-content
 description: Sets the value associated with the given option.
 old-location: intl\ispellcheckprovider_setoptionvalue.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 635E6024-DD9F-403D-B05F-B719EFE78FC0
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],SetOptionValue method, ISpellCheckProvider.SetOptionValue, ISpellCheckProvider::SetOptionValue, SetOptionValue, SetOptionValue method [Internationalization for Windows Applications], SetOptionValue method [Internationalization for Windows Applications],ISpellCheckProvider interface, intl.ispellcheckprovider_setoptionvalue, spellcheckprovider/ISpellCheckProvider::SetOptionValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheckprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpellCheckProvider.SetOptionValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpellCheckProvider::SetOptionValue

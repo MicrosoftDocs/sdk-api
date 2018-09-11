@@ -4,17 +4,16 @@ title: CLUSTER_NETWORK_ROLE
 author: windows-sdk-content
 description: Describes the role a network plays in the cluster.
 old-location: mscs\cluster_network_role.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 9c495cc4-d4d5-4465-9172-3171e55a14b0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_NETWORK_ROLE, CLUSTER_NETWORK_ROLE enumeration [Failover Cluster], ClusterNetworkRoleClientAccess, ClusterNetworkRoleInternalAndClient, ClusterNetworkRoleInternalUse, ClusterNetworkRoleNone, _CLUSTER_NETWORK_ROLE, _CLUSTER_NETWORK_ROLE enumeration [Failover Cluster], clusapi/CLUSTER_NETWORK_ROLE, clusapi/ClusterNetworkRoleClientAccess, clusapi/ClusterNetworkRoleInternalAndClient, clusapi/ClusterNetworkRoleInternalUse, clusapi/ClusterNetworkRoleNone, clusapi/_CLUSTER_NETWORK_ROLE, msclus/CLUSTER_NETWORK_ROLE, msclus/ClusterNetworkRoleClientAccess, msclus/ClusterNetworkRoleInternalAndClient, msclus/ClusterNetworkRoleInternalUse, msclus/ClusterNetworkRoleNone, msclus/_CLUSTER_NETWORK_ROLE, mscs.cluster_network_role
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_NETWORK_ROLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_NETWORK_ROLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_NETWORK_ROLE
+req.redist: 
 ---
 
 # CLUSTER_NETWORK_ROLE enumeration

@@ -4,17 +4,16 @@ title: "_VSS_PROVIDER_TYPE"
 author: windows-sdk-content
 description: Specifies the provider type.
 old-location: base\vss_provider_type.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 76a85ff4-df3c-4280-a6f1-2a1cff96ccfd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVSS_PROVIDER_TYPE, PVSS_PROVIDER_TYPE, PVSS_PROVIDER_TYPE enumeration pointer [VSS], VSS_PROVIDER_TYPE, VSS_PROVIDER_TYPE enumeration [VSS], VSS_PROV_FILESHARE, VSS_PROV_HARDWARE, VSS_PROV_SOFTWARE, VSS_PROV_SYSTEM, VSS_PROV_UNKNOWN, _VSS_PROVIDER_TYPE, _win32_vss_provider_type, base.vss_provider_type, vss/PVSS_PROVIDER_TYPE, vss/VSS_PROVIDER_TYPE, vss/VSS_PROV_FILESHARE, vss/VSS_PROV_HARDWARE, vss/VSS_PROV_SOFTWARE, vss/VSS_PROV_SYSTEM, vss/VSS_PROV_UNKNOWN"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_PROVIDER_TYPE, *PVSS_PROVIDER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_PROVIDER_TYPE
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_PROVIDER_TYPE, *PVSS_PROVIDER_TYPE
+req.redist: 
 ---
 
 # _VSS_PROVIDER_TYPE enumeration

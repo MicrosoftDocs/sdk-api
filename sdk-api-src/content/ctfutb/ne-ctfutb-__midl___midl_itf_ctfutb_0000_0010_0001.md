@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_ctfutb_0000_0010_0001"
 author: windows-sdk-content
 description: Elements of the TfLBIClick enumeration specify which mouse button was used to click a toolbar item.
 old-location: tsf\tflbiclick.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 7fd151dd-e4be-4ec8-b373-2115717d5ef4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TfLBIClick
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sptip.dll
-req.irql: 
+req.typenames: TfLBIClick
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # __MIDL___MIDL_itf_ctfutb_0000_0010_0001 enumeration

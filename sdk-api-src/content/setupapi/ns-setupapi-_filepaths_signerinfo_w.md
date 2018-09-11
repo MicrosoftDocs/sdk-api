@@ -4,17 +4,16 @@ title: "_FILEPATHS_SIGNERINFO_W"
 author: windows-sdk-content
 description: The FILEPATHS_SINGNERINFO structure stores source and target path information, and also file signature information.
 old-location: setup\filepaths_signerinfo.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: c651933f-cf61-4012-9d08-195336f2cb3d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: "*PFILEPATHS_SIGNERINFO_W, FILEOP_COPY, FILEOP_DELETE, FILEPATHS_SIGNERINFO, FILEPATHS_SIGNERINFO structure [Setup API], FILEPATHS_SIGNERINFO_W, PFILEPATHS_SIGNERINFO, PFILEPATHS_SIGNERINFO structure pointer [Setup API], SP_COPY_NOBROWSE, SP_COPY_NOSKIP, SP_COPY_WARNIFSKIP, _FILEPATHS_SIGNERINFO_W, _setupapi_filepaths_signerinfo, setup.filepaths_signerinfo, setupapi/FILEPATHS_SIGNERINFO, setupapi/PFILEPATHS_SIGNERINFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILEPATHS_SIGNERINFO_W, *PFILEPATHS_SIGNERINFO_W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILEPATHS_SIGNERINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: FILEPATHS_SIGNERINFO_W, *PFILEPATHS_SIGNERINFO_W
+req.redist: 
 ---
 
 # _FILEPATHS_SIGNERINFO_W structure

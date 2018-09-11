@@ -4,17 +4,16 @@ title: IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas
 author: windows-sdk-content
 description: Deletes all shadow copy storage areas (also called diff areas) on the specified volume that are not in use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_deleteunuseddiffareas.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: daa23f2c-8342-4387-800a-def5951896ee
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DeleteUnusedDiffAreas, DeleteUnusedDiffAreas method, DeleteUnusedDiffAreas method,IVssDifferentialSoftwareSnapshotMgmt3 interface, IVssDifferentialSoftwareSnapshotMgmt3 interface,DeleteUnusedDiffAreas method, IVssDifferentialSoftwareSnapshotMgmt3.DeleteUnusedDiffAreas, IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas, base.ivssdifferentialsoftwaresnapshotmgmt3_deleteunuseddiffareas, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssDifferentialSoftwareSnapshotMgmt3.DeleteUnusedDiffAreas
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas

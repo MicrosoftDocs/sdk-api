@@ -4,7 +4,7 @@ title: tagLOGPEN
 author: windows-sdk-content
 description: The LOGPEN structure defines the style, width, and color of a pen. The CreatePenIndirect function uses the LOGPEN structure.
 old-location: gdi\logpen.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 0e098b5a-e249-43ad-a6d8-2509b6562453
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOGPEN, *PLOGPEN, *NPLOGPEN, *LPLOGPEN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LOGPEN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: LOGPEN, *PLOGPEN, *NPLOGPEN, *LPLOGPEN
+req.redist: 
 ---
 
 # tagLOGPEN structure

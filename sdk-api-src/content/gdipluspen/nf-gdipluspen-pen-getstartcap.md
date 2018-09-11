@@ -4,17 +4,16 @@ title: Pen::GetStartCap
 author: windows-sdk-content
 description: The Pen::GetStartCap method gets the start cap currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetStartCap_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getstartcap.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetStartCap, GetStartCap method [GDI+], GetStartCap method [GDI+],Pen class, Pen class [GDI+],GetStartCap method, Pen.GetStartCap, Pen::GetStartCap, _gdiplus_CLASS_Pen_GetStartCap_, gdiplus._gdiplus_CLASS_Pen_GetStartCap_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WmfPlaceableFileHeader
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Pen.GetStartCap
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

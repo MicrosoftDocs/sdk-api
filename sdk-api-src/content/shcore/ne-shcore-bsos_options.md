@@ -4,17 +4,16 @@ title: BSOS_OPTIONS
 author: windows-sdk-content
 description: Specifies the behavior of a RandomAccessStream that encapsulates a Component Object Model (COM) IStream.
 old-location: winrt\bsos_options.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: C51D945B-37C6-44CB-BF80-5FA62EE1F477
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BSOS_DEFAULT, BSOS_OPTIONS, BSOS_OPTIONS enumeration [Windows Runtime], BSOS_PREFERDESTINATIONSTREAM, shcore/BSOS_DEFAULT, shcore/BSOS_OPTIONS, shcore/BSOS_PREFERDESTINATIONSTREAM, winrt.bsos_options
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shcore.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Shappmgr.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BSOS_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BSOS_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: BSOS_OPTIONS
+req.redist: 
 ---
 
 # BSOS_OPTIONS enumeration

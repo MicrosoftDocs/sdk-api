@@ -4,17 +4,16 @@ title: IMbnSmsReadMsgPdu::get_Index
 author: windows-sdk-content
 description: The index of the message in the device SMS store.
 old-location: mbn\imbnsmsreadmsgpdu_index.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: d464fd2f-40fe-4c94-9a6b-fdc45b566b6d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],Index property, IMbnSmsReadMsgPdu.Index, IMbnSmsReadMsgPdu.get_Index, IMbnSmsReadMsgPdu::Index, IMbnSmsReadMsgPdu::get_Index, Index property [Microsoft Broadband Networks], Index property [Microsoft Broadband Networks],IMbnSmsReadMsgPdu interface, get_Index, mbn.imbnsmsreadmsgpdu_index, mbnapi/IMbnSmsReadMsgPdu::Index, mbnapi/IMbnSmsReadMsgPdu::get_Index
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnSmsReadMsgPdu.get_Index
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSmsReadMsgPdu::get_Index

@@ -4,17 +4,16 @@ title: IEventClass2::get_PublisherID
 author: windows-sdk-content
 description: The CLSID for the event publisher.
 old-location: cos\ieventclass2_publisherid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: b54799a3-612d-44a8-9f65-5e2243d99344
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEventClass2 interface [COM+],PublisherID property, IEventClass2.PublisherID, IEventClass2.get_PublisherID, IEventClass2::PublisherID, IEventClass2::get_PublisherID, IEventClass2::put_PublisherID, PublisherID property [COM+], PublisherID property [COM+],IEventClass2 interface, _cos_IEventClass2_get_PublisherID, _cos_IEventClass2_put_PublisherID, cos.ieventclass2_publisherid, eventsys/IEventClass2::PublisherID, eventsys/IEventClass2::get_PublisherID, eventsys/IEventClass2::put_PublisherID, get_PublisherID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: Eventsys.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEventClass2.put_PublisherID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventClass2::get_PublisherID

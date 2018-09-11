@@ -4,17 +4,16 @@ title: ISpatialAudioObjectRenderStreamForHrtf
 author: windows-sdk-content
 description: Provides methods for controlling an Hrtf spatial audio object render stream, including starting, stopping, and resetting the stream.
 old-location: coreaudio\ispatialaudiorenderstreamforhrtf.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 9DFEF82A-1571-47AB-BE0E-059BCCC8289A
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: ISpatialAudioObjectRenderStreamForHrtf, ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio], ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio],described, coreaudio.ispatialaudiorenderstreamforhrtf, spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudiohrtf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioHrtfEnvironmentType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObjectRenderStreamForHrtf
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObjectRenderStreamForHrtf interface

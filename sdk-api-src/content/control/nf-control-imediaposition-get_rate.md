@@ -4,17 +4,16 @@ title: IMediaPosition::get_Rate
 author: windows-sdk-content
 description: The get_Rate method retrieves the playback rate.
 old-location: dshow\imediaposition_get_rate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: dbe18522-6adc-4a55-b74a-db05f619d40a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_Rate method, IMediaPosition.get_Rate, IMediaPosition::get_Rate, IMediaPositionget_Rate, control/IMediaPosition::get_Rate, dshow.imediaposition_get_rate, get_Rate, get_Rate method [DirectShow], get_Rate method [DirectShow],IMediaPosition interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IMediaPosition.get_Rate
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaPosition::get_Rate

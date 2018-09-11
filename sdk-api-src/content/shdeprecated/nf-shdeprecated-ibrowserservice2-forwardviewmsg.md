@@ -4,17 +4,16 @@ title: IBrowserService2::ForwardViewMsg
 author: windows-sdk-content
 description: Deprecated. Calls the SendMessage function with a message received by the view, using the _hwndView member of the BASEBROWSERDATA structure as the SendMessage hWnd parameter.
 old-location: shell\IBrowserService2_ForwardViewMsg.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8db9fbf9-9132-47a4-a788-93c303598ba0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ForwardViewMsg, ForwardViewMsg method [Windows Shell], ForwardViewMsg method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],ForwardViewMsg method, IBrowserService2.ForwardViewMsg, IBrowserService2::ForwardViewMsg, shdeprecated/IBrowserService2::ForwardViewMsg, shell.IBrowserService2_ForwardViewMsg, zone_IBrowserService2_ForwardViewMsg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2.ForwardViewMsg
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

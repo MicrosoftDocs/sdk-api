@@ -4,17 +4,16 @@ title: "_OSVERSIONINFOW"
 author: windows-sdk-content
 description: Contains operating system version information.
 old-location: base\osversioninfo_str.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: a173df17-dad2-4330-aa66-4ff789fd7cc2
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPOSVERSIONINFOW, *POSVERSIONINFOW, *PRTL_OSVERSIONINFOW, OSVERSIONINFO, OSVERSIONINFO structure, OSVERSIONINFOA, OSVERSIONINFOW, RTL_OSVERSIONINFOW, VER_PLATFORM_WIN32_NT, _OSVERSIONINFOA, _OSVERSIONINFOW, _win32_osversioninfo_str, base.osversioninfo_str, winnt/OSVERSIONINFO, winnt/OSVERSIONINFOA, winnt/OSVERSIONINFOW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OSVERSIONINFOW, *POSVERSIONINFOW, *LPOSVERSIONINFOW, RTL_OSVERSIONINFOW, *PRTL_OSVERSIONINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OSVERSIONINFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: OSVERSIONINFOW, *POSVERSIONINFOW, *LPOSVERSIONINFOW, RTL_OSVERSIONINFOW, *PRTL_OSVERSIONINFOW
+req.redist: 
 ---
 
 # _OSVERSIONINFOW structure

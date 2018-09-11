@@ -4,17 +4,16 @@ title: ICOMAdminCatalog::GetCollectionByQuery
 author: windows-sdk-content
 description: Retrieves a collection on the COM+ catalog given the key property values for all of its parent items.
 old-location: cos\icomadmincatalog_getcollectionbyquery.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6ec65e7c-fb67-4435-90cd-d17b8fbcbc84
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetCollectionByQuery, GetCollectionByQuery method [COM+], GetCollectionByQuery method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetCollectionByQuery method, ICOMAdminCatalog.GetCollectionByQuery, ICOMAdminCatalog::GetCollectionByQuery, _cos_ICOMAdminCatalog_GetCollectionByQuery, comadmin/ICOMAdminCatalog::GetCollectionByQuery, cos.icomadmincatalog_getcollectionbyquery
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog.GetCollectionByQuery
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog::GetCollectionByQuery

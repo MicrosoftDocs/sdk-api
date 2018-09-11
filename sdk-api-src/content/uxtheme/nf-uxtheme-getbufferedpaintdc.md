@@ -4,17 +4,16 @@ title: GetBufferedPaintDC function
 author: windows-sdk-content
 description: Gets the paint device context (DC). This is the same value retrieved by BeginBufferedPaint.
 old-location: controls\GetBufferedPaintDC.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpaintdc.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetBufferedPaintDC, GetBufferedPaintDC function [Windows Controls], _shell_GetBufferedPaintDC, _shell_GetBufferedPaintDC_cpp, controls.GetBufferedPaintDC, controls._shell_GetBufferedPaintDC, uxtheme/GetBufferedPaintDC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: 
+req.dll: UxTheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetBufferedPaintDC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UxTheme.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # GetBufferedPaintDC function

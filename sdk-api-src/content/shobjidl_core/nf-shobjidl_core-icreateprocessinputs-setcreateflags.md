@@ -4,17 +4,16 @@ title: ICreateProcessInputs::SetCreateFlags
 author: windows-sdk-content
 description: Set the flags that will be included in the call to CreateProcess.
 old-location: shell\icreateprocessinputs_setcreateflags.htm
-old-project: shell
+tech.root: shell
 ms.assetid: B929D77A-FEE4-40A1-8B40-34E2E73048F9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ICreateProcessInputs interface [Windows Shell],SetCreateFlags method, ICreateProcessInputs.SetCreateFlags, ICreateProcessInputs::SetCreateFlags, SetCreateFlags, SetCreateFlags method [Windows Shell], SetCreateFlags method [Windows Shell],ICreateProcessInputs interface, shell.icreateprocessinputs_setcreateflags, shobjidl_core/ICreateProcessInputs::SetCreateFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateProcessInputs.SetCreateFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateProcessInputs::SetCreateFlags

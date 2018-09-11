@@ -4,17 +4,16 @@ title: "_CABINET_INFO_A"
 author: windows-sdk-content
 description: The CABINET_INFO structure stores information about a cabinet file. The SetupIterateCabinet function specifies this structure as a parameter when it sends a SPFILENOTIFY_NEEDNEWCABINET notification to the cabinet callback routine.
 old-location: setup\cabinet_info_str.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 205bff19-d9ac-4dc0-ab11-92cf70a3bd49
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCABINET_INFO_A, CABINET_INFO, CABINET_INFO structure [Setup API], CABINET_INFO_A, PCABINET_INFO, PCABINET_INFO structure pointer [Setup API], _CABINET_INFO_A, _setupapi_cabinet_info_str, setup.cabinet_info_str, setupapi/CABINET_INFO, setupapi/PCABINET_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CABINET_INFO_A, *PCABINET_INFO_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CABINET_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CABINET_INFO_A, *PCABINET_INFO_A
+req.redist: 
 ---
 
 # _CABINET_INFO_A structure

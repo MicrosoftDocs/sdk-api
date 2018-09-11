@@ -4,17 +4,16 @@ title: IComQCEvents::OnQCPlayback
 author: windows-sdk-content
 description: Generated when a messages contents are replayed.
 old-location: cos\icomqcevents_onqcplayback.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 7cd9daf8-cc4d-4d48-b547-95b370f5a927
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCPlayback method, IComQCEvents.OnQCPlayback, IComQCEvents::OnQCPlayback, OnQCPlayback, OnQCPlayback method [COM+], OnQCPlayback method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCPlayback, comsvcs/IComQCEvents::OnQCPlayback, cos.icomqcevents_onqcplayback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComQCEvents.OnQCPlayback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComQCEvents::OnQCPlayback

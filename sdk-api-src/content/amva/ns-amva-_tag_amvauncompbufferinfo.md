@@ -4,7 +4,7 @@ title: "_tag_AMVAUncompBufferInfo"
 author: windows-sdk-content
 description: The AMVAUncompBufferInfo structure describes the uncompressed surfaces to be allocated by the video renderer.
 old-location: dshow\amvauncompbufferinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 113cc7ba-d05e-48a7-88cb-13645beb16d1
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: amva.h
 req.include-header: Videoacc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompBufferInfo, *LPAMVAUncompBufferInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AMVAUncompBufferInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AMVAUncompBufferInfo, *LPAMVAUncompBufferInfo
+req.redist: 
 ---
 
 # _tag_AMVAUncompBufferInfo structure

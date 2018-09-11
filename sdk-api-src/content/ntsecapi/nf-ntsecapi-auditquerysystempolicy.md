@@ -4,17 +4,16 @@ title: AuditQuerySystemPolicy function
 author: windows-sdk-content
 description: Retrieves system audit policy for one or more audit-policy subcategories.
 old-location: security\auditquerysystempolicy_func.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 5c268033-65fd-4a74-90a1-4b9e1e18daf1
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AuditQuerySystemPolicy, AuditQuerySystemPolicy function [Security], ntsecapi/AuditQuerySystemPolicy, security.auditquerysystempolicy_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - AuditQuerySystemPolicy
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AuditQuerySystemPolicy function

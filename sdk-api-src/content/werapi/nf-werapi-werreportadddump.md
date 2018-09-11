@@ -4,17 +4,16 @@ title: WerReportAddDump function
 author: windows-sdk-content
 description: Adds a dump of the specified type to the specified report.
 old-location: wer\werreportadddump.htm
-old-project: wer
+tech.root: wer
 ms.assetid: b40dac44-f7c5-43f0-876d-6f97c26bf461
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WER_DUMP_NOHEAP_ONQUEUE, WerDumpTypeHeapDump, WerDumpTypeMicroDump, WerDumpTypeMiniDump, WerReportAddDump, WerReportAddDump function [Windows Error Reporting], base.werreportadddump, wer.werreportadddump, werapi/WerReportAddDump
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
+req.lib: Wer.lib
+req.dll: Wer.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - WerReportAddDump
 product: Windows
 targetos: Windows
-req.lib: Wer.lib
-req.dll: Wer.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WerReportAddDump function

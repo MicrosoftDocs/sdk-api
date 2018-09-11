@@ -4,17 +4,16 @@ title: IEnroll::enumContainersWStr
 author: windows-sdk-content
 description: Retrieves the names of containers for the cryptographic service provider (CSP) specified by the ProviderNameWStr property.
 old-location: security\ienroll4_enumcontainerswstr.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: a08d97c9-8ee9-464e-862e-18c335695927
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IEnroll interface [Security],enumContainersWStr method, IEnroll.enumContainersWStr, IEnroll::enumContainersWStr, enumContainersWStr, enumContainersWStr method [Security], enumContainersWStr method [Security],IEnroll interface, security.ienroll4_enumcontainerswstr, xenroll/IEnroll::enumContainersWStr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnroll.enumContainersWStr
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll::enumContainersWStr
@@ -70,7 +68,7 @@ Specifies the ordinal position of the container whose name will be retrieved. Sp
 
 ### -param pbstr
 
-
+TBD
 
 
 

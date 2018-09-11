@@ -4,17 +4,16 @@ title: IWPCGamesSettings::IsBlocked
 author: windows-sdk-content
 description: Determines whether the specified game is blocked from execution.
 old-location: parcon\iwpcgamessettings_isblocked.htm
-old-project: parcon
+tech.root: parcon
 ms.assetid: a8cdd3ca-8a0d-4e4a-8a54-eb3ddcab52ff
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWPCGamesSettings interface,IsBlocked method, IWPCGamesSettings.IsBlocked, IWPCGamesSettings::IsBlocked, IsBlocked, IsBlocked method, IsBlocked method,IWPCGamesSettings interface, parcon.iwpcgamessettings_isblocked, wpcapi/IWPCGamesSettings::IsBlocked
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWPCGamesSettings.IsBlocked
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWPCGamesSettings::IsBlocked

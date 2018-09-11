@@ -4,17 +4,16 @@ title: CreateProcessWithTokenW function
 author: windows-sdk-content
 description: Creates a new process and its primary thread. The new process runs in the security context of the specified token. It can optionally load the user profile for the specified user.
 old-location: base\createprocesswithtokenw.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: b329866a-0c0d-4cb3-838c-36aac17c87ed
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: CREATE_DEFAULT_ERROR_MODE, CREATE_NEW_CONSOLE, CREATE_NEW_PROCESS_GROUP, CREATE_SEPARATE_WOW_VDM, CREATE_SUSPENDED, CREATE_UNICODE_ENVIRONMENT, CreateProcessWithTokenW, CreateProcessWithTokenW function, EXTENDED_STARTUPINFO_PRESENT, LOGON_NETCREDENTIALS_ONLY, LOGON_WITH_PROFILE, base.createprocesswithtokenw, winbase/CreateProcessWithTokenW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CreateProcessWithTokenW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CreateProcessWithTokenW function

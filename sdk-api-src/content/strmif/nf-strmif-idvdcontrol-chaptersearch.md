@@ -4,17 +4,16 @@ title: IDvdControl::ChapterSearch
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current chapter and starts playback from the specified chapter within the same title.
 old-location: dshow\idvdcontrol_chaptersearch.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1389df65-e269-4c2b-b276-a29da33fe515
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ChapterSearch, ChapterSearch method [DirectShow], ChapterSearch method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ChapterSearch method, IDvdControl.ChapterSearch, IDvdControl::ChapterSearch, IDvdControlChapterSearch, dshow.idvdcontrol_chaptersearch, strmif/IDvdControl::ChapterSearch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdControl.ChapterSearch
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl::ChapterSearch
@@ -67,7 +65,7 @@ Halts playback of the current chapter and starts playback from the specified cha
 
 ### -param ulChapter
 
-
+TBD
 
 
 

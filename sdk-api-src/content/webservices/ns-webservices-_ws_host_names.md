@@ -4,17 +4,16 @@ title: "_WS_HOST_NAMES"
 author: windows-sdk-content
 description: A structure containing a list of host names.
 old-location: wsw\ws_host_names.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 9815eb1e-0ce6-4b56-9f9a-e3938d502b72
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_HOST_NAMES, WS_HOST_NAMES structure [Web Services for Windows], _WS_HOST_NAMES, webservices/WS_HOST_NAMES, wsw.ws_host_names
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_HOST_NAMES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_HOST_NAMES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_HOST_NAMES
+req.redist: 
 ---
 
 # _WS_HOST_NAMES structure

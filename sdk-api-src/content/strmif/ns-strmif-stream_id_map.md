@@ -4,7 +4,7 @@ title: STREAM_ID_MAP
 author: windows-sdk-content
 description: The STREAM_ID_MAP structure describes an elementary stream within an MPEG-2 program stream. Used with the IEnumStreamIdMap interface methods.
 old-location: dshow\stream_id_map.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 75f41d9f-00a1-47e1-8b42-64de1e6abbdb
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_ID_MAP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STREAM_ID_MAP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: STREAM_ID_MAP
+req.redist: 
 ---
 
 # STREAM_ID_MAP structure

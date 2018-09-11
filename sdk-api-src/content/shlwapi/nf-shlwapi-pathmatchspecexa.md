@@ -4,17 +4,16 @@ title: PathMatchSpecExA function
 author: windows-sdk-content
 description: Matches a file name from a path against one or more file name patterns.
 old-location: shell\PathMatchSpecEx.htm
-old-project: shell
+tech.root: shell
 ms.assetid: bd9bf950-e349-4b67-8608-7acad84c0907
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: PMSF_DONT_STRIP_SPACES, PMSF_MULTIPLE, PMSF_NORMAL, PathMatchSpecEx, PathMatchSpecEx function [Windows Shell], PathMatchSpecExA, PathMatchSpecExW, _win32_PathMatchSpecEx, shell.PathMatchSpecEx, shlwapi/PathMatchSpecEx, shlwapi/PathMatchSpecExA, shlwapi/PathMatchSpecExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 7.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - PathMatchSpecExW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 7.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # PathMatchSpecExA function

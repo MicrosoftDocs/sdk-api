@@ -4,17 +4,16 @@ title: SetWinMetaFileBits function
 author: windows-sdk-content
 description: The SetWinMetaFileBits function converts a metafile from the older Windows format to the new enhanced format and stores the new metafile in memory.
 old-location: gdi\setwinmetafilebits.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: b7170c8a-da5f-4946-9c56-da3cffc84567
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetWinMetaFileBits, SetWinMetaFileBits function [Windows GDI], _win32_SetWinMetaFileBits, gdi.setwinmetafilebits, wingdi/SetWinMetaFileBits
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetWinMetaFileBits
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetWinMetaFileBits function

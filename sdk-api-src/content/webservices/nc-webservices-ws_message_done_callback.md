@@ -4,17 +4,16 @@ title: WS_MESSAGE_DONE_CALLBACK
 author: windows-sdk-content
 description: Notifies the caller that the message has completed its use of either the WS_XML_READER structure that was supplied to WsReadEnvelopeStartfunction, or of the WS_XML_WRITER structure supplied to the WsWriteEnvelopeStart function.
 old-location: wsw\ws_message_done_callback.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 59ab7cbe-dc66-4e74-bec9-ffb25173ff87
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_MESSAGE_DONE_CALLBACK, WS_MESSAGE_DONE_CALLBACK callback, WS_MESSAGE_DONE_CALLBACK callback function [Web Services for Windows], webservices/WS_MESSAGE_DONE_CALLBACK, wsw.ws_message_done_callback
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_MESSAGE_DONE_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WS_MESSAGE_DONE_CALLBACK callback function

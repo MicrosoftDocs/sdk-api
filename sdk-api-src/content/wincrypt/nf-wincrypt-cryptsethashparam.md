@@ -4,17 +4,16 @@ title: CryptSetHashParam function
 author: windows-sdk-content
 description: Customizes the operations of a hash object, including setting up initial hash contents and selecting a specific hashing algorithm.
 old-location: security\cryptsethashparam.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 0c8d3ef9-e7b5-4e49-a2f8-9c85b16549da
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptSetHashParam, CryptSetHashParam function [Security], HP_HASHVAL., HP_HMAC_INFO., _crypto2_cryptsethashparam, security.cryptsethashparam, wincrypt/CryptSetHashParam
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CryptSetHashParam
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptSetHashParam function

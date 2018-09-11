@@ -4,17 +4,16 @@ title: CHStringArray
 author: windows-sdk-content
 description: The following table lists the CHStringArray methods and operators.
 old-location: wmi\chstringarray.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 62959345-4fed-4107-b155-1746ad35c658
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "??1CHStringArray@@QAE@XZ, ??1CHStringArray@@QEAA@XZ, CHStringArray, CHStringArray class [Windows Management Instrumentation], CHStringArray class [Windows Management Instrumentation],described, _hmm_chstringarray, chstrarr/CHStringArray, wmi.chstringarray"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: class
 req.header: chstrarr.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - ??1CHStringArray@@QEAA@XZ
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHStringArray class

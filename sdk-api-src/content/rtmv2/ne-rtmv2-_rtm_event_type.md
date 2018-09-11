@@ -4,17 +4,16 @@ title: "_RTM_EVENT_TYPE"
 author: windows-sdk-content
 description: The RTM_EVENT_TYPE enumeration enumerates the events that the routing table manager can notify the client about using the RTM_EVENT_CALLBACK callback.
 old-location: rras\rtm_event_type.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: ea19f59c-8de7-4f52-8029-9775526120c9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRTM_EVENT_TYPE, PRTM_EVENT_TYPE, PRTM_EVENT_TYPE enumeration pointer [RAS], RTM_CHANGE_NOTIFICATION, RTM_ENTITY_DEREGISTERED, RTM_ENTITY_REGISTERED, RTM_EVENT_TYPE, RTM_EVENT_TYPE enumeration [RAS], RTM_ROUTE_EXPIRED, _RTM_EVENT_TYPE, _rtmv2ref_rtm_event_type, rras.rtm_event_type, rtmv2/PRTM_EVENT_TYPE, rtmv2/RTM_CHANGE_NOTIFICATION, rtmv2/RTM_ENTITY_DEREGISTERED, rtmv2/RTM_ENTITY_REGISTERED, rtmv2/RTM_EVENT_TYPE, rtmv2/RTM_ROUTE_EXPIRED"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RTM_EVENT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Ntdll.dll
-req.irql: 
-req.product: ADAM
+req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.redist: 
 ---
 
 # _RTM_EVENT_TYPE enumeration

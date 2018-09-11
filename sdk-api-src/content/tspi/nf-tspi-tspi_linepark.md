@@ -4,17 +4,16 @@ title: TSPI_linePark function
 author: windows-sdk-content
 description: The TSPI_linePark function parks the specified call according to the specified park mode.
 old-location: tspi\tspi_linepark.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6ff14bfc-ba48-4f70-b732-81c19dba92c5
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_linePark, TSPI_linePark function [TAPI 2.2], _tspi_tspi_linepark, tspi.tspi_linepark, tspi/TSPI_linePark
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_linePark
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_linePark function

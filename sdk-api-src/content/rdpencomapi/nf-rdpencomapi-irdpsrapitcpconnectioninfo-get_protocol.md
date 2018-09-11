@@ -4,17 +4,16 @@ title: IRDPSRAPITcpConnectionInfo::get_Protocol
 author: windows-sdk-content
 description: Retrieves the protocol that is being used by the sharer or by the viewer for communication.
 old-location: rdp\irdpsrapitcpconnectioninfo_protocol.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 1ca6d2db-bbd9-4332-bee6-7454a4c3cbea
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],Protocol property, IRDPSRAPITcpConnectionInfo.Protocol, IRDPSRAPITcpConnectionInfo.get_Protocol, IRDPSRAPITcpConnectionInfo::Protocol, IRDPSRAPITcpConnectionInfo::get_Protocol, Protocol property [RDP], Protocol property [RDP],IRDPSRAPITcpConnectionInfo interface, Protocol property [RDP],RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP],Protocol property, get_Protocol, rdp.irdpsrapitcpconnectioninfo_protocol, rdpencomapi/IRDPSRAPITcpConnectionInfo::Protocol, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_Protocol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RDPSRAPITcpConnectionInfo.Protocol
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPITcpConnectionInfo::get_Protocol

@@ -4,17 +4,16 @@ title: CoCreateFreeThreadedMarshaler function
 author: windows-sdk-content
 description: Creates an aggregatable object capable of context-dependent marshaling.
 old-location: com\cocreatefreethreadedmarshaler.htm
-old-project: com
+tech.root: com
 ms.assetid: f97a2a39-7291-4a1d-b770-0a34f7f5b60f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoCreateFreeThreadedMarshaler, CoCreateFreeThreadedMarshaler function [COM], _com_CoCreateFreeThreadedMarshaler, com.cocreatefreethreadedmarshaler, combaseapi/CoCreateFreeThreadedMarshaler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CoCreateFreeThreadedMarshaler
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoCreateFreeThreadedMarshaler function

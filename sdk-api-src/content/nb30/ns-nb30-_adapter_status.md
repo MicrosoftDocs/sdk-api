@@ -4,7 +4,7 @@ title: "_ADAPTER_STATUS"
 author: windows-sdk-content
 description: The ADAPTER_STATUS structure contains information about a network adapter.
 old-location: netbios\adapter_status.htm
-old-project: NetBIOS
+tech.root: NetBIOS
 ms.assetid: 402bc5ce-bce4-4ba9-b82d-13cd3dc7097b
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADAPTER_STATUS, *PADAPTER_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADAPTER_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: ADAPTER_STATUS, *PADAPTER_STATUS
+req.redist: 
 ---
 
 # _ADAPTER_STATUS structure

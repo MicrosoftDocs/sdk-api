@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxConfiguration.get_DiscountRateStart
 title: IFaxConfiguration::get_DiscountRateStart
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates the time at which the discount rate period begins.
-old-location: fax\_mfax_FaxConfiguration_DiscountRateStart_vb.htm
-old-project: Fax
+old-location: fax\_mfax_IFaxConfiguration_DiscountRateStart.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\discountratestart.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: DiscountRateStart property [Fax Service], DiscountRateStart property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],DiscountRateStart property, FaxConfiguration.DiscountRateStart, IFaxConfiguration.get_DiscountRateStart, IFaxConfiguration::get_DiscountRateStart, _mfax_IFaxConfiguration_DiscountRateStart, fax._mfax_FaxConfiguration_DiscountRateStart_vb, get_DiscountRateStart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: DiscountRateStart property [Fax Service], DiscountRateStart property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],DiscountRateStart property, IFaxConfiguration.DiscountRateStart, IFaxConfiguration.get_DiscountRateStart, IFaxConfiguration::DiscountRateStart, IFaxConfiguration::get_DiscountRateStart, IFaxConfiguration::put_DiscountRateStart, _mfax_IFaxConfiguration_DiscountRateStart, fax._mfax_IFaxConfiguration_DiscountRateStart, faxcomex/IFaxConfiguration::DiscountRateStart, faxcomex/IFaxConfiguration::get_DiscountRateStart, faxcomex/IFaxConfiguration::put_DiscountRateStart, get_DiscountRateStart
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Faxcomex.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxConfiguration.DiscountRateStart
+ - IFaxConfiguration.DiscountRateStart
+ - IFaxConfiguration.get_DiscountRateStart
+ - IFaxConfiguration.put_DiscountRateStart
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxConfiguration::get_DiscountRateStart
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358913(v=VS.85).aspx">FaxConfiguration</a>
+<a href="https://msdn.microsoft.com/20a771ed-98c3-4d26-89dc-799008954767">IFaxConfiguration</a>
  
 
  

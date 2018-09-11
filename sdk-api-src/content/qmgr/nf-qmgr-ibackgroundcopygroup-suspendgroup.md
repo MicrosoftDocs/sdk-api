@@ -4,17 +4,16 @@ title: IBackgroundCopyGroup::SuspendGroup
 author: windows-sdk-content
 description: Use the SuspendGroup method to pause a group in the download queue. New groups, groups that are in error, or groups that have finished downloading are automatically suspended.
 old-location: bits\ibackgroundcopygroup_suspendgroup.htm
-old-project: bits
+tech.root: bits
 ms.assetid: ac7600dd-3943-46cf-ad2d-f33d0099f2af
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],SuspendGroup method, IBackgroundCopyGroup.SuspendGroup, IBackgroundCopyGroup::SuspendGroup, SuspendGroup, SuspendGroup method [BITS], SuspendGroup method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_suspendgroup, qmgr/IBackgroundCopyGroup::SuspendGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyGroup.SuspendGroup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyGroup::SuspendGroup

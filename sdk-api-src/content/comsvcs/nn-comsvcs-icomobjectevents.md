@@ -4,17 +4,16 @@ title: IComObjectEvents
 author: windows-sdk-content
 description: Notifies the subscriber if an instance of a just-in-time (JIT) activated object has been created or freed.
 old-location: cos\icomobjectevents.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 4354fc5b-4d72-4a56-b246-2ae2cf9b5ae1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComObjectEvents, IComObjectEvents interface [COM+], IComObjectEvents interface [COM+],described, _dtc_IComObjectEvents, comsvcs/IComObjectEvents, cos.icomobjectevents
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComObjectEvents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComObjectEvents interface

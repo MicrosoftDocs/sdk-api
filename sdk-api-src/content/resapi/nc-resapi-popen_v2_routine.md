@@ -4,17 +4,16 @@ title: POPEN_V2_ROUTINE
 author: windows-sdk-content
 description: Opens a resource.
 old-location: mscs\openv2.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: EA798D15-9458-4F66-8D0E-13DA383552F7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUS_RESDLL_OPEN_RECOVER_MONITOR_STATE, OpenV2, OpenV2 callback, OpenV2 callback function [Failover Cluster], POPEN_V2_ROUTINE, POPEN_V2_ROUTINE callback function [Failover Cluster], mscs.openv2, resapi/OpenV2, resapi/POPEN_V2_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - OpenV2 callback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # POPEN_V2_ROUTINE callback function

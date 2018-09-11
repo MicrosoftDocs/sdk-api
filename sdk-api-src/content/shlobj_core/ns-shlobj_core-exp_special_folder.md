@@ -4,17 +4,16 @@ title: EXP_SPECIAL_FOLDER
 author: windows-sdk-content
 description: Holds an extra data block used by IShellLinkDataList. It holds special folder information.
 old-location: shell\EXP_SPECIAL_FOLDER_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e80fa582-8dd1-4924-a3ca-a2ee668653d3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPEXP_SPECIAL_FOLDER, EXP_SPECIAL_FOLDER, EXP_SPECIAL_FOLDER structure [Windows Shell], LPEXP_SPECIAL_FOLDER, LPEXP_SPECIAL_FOLDER structure pointer [Windows Shell], _win32_EXP_SPECIAL_FOLDER_str, shell.EXP_SPECIAL_FOLDER_str, shlobj_core/EXP_SPECIAL_FOLDER, shlobj_core/LPEXP_SPECIAL_FOLDER"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXP_SPECIAL_FOLDER, *LPEXP_SPECIAL_FOLDER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EXP_SPECIAL_FOLDER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: EXP_SPECIAL_FOLDER, *LPEXP_SPECIAL_FOLDER
+req.redist: 
 ---
 
 # EXP_SPECIAL_FOLDER structure

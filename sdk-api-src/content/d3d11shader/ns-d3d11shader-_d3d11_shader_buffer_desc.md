@@ -4,7 +4,7 @@ title: "_D3D11_SHADER_BUFFER_DESC"
 author: windows-sdk-content
 description: Describes a shader constant-buffer.
 old-location: direct3d11\d3d11_shader_buffer_desc.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: deea8d5d-2431-4449-baa8-68a4b9b30307
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_BUFFER_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_SHADER_BUFFER_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_SHADER_BUFFER_DESC
+req.redist: 
 ---
 
 # _D3D11_SHADER_BUFFER_DESC structure

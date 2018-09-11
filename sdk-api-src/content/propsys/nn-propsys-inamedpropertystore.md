@@ -4,17 +4,16 @@ title: INamedPropertyStore
 author: windows-sdk-content
 description: Exposes methods that get and set named properties.
 old-location: shell\INamedPropertyStore.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5f7997ba-a5c8-42b5-90c8-5cb34afd6092
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: INamedPropertyStore, INamedPropertyStore interface [Windows Shell], INamedPropertyStore interface [Windows Shell],described, _shell_INamedPropertyStore, propsys/INamedPropertyStore, shell.INamedPropertyStore
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INamedPropertyStore
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # INamedPropertyStore interface

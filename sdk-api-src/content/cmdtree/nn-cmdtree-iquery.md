@@ -4,17 +4,16 @@ title: IQuery
 author: windows-sdk-content
 description: The IQuery interface is reserved for future use.
 old-location: indexsrv\iquery.htm
-old-project: IndexSrv
+tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2c55.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: IQuery, IQuery interface [Indexing Service], IQuery interface [Indexing Service],described, _idxs_IQuery, cmdtree/IQuery, indexsrv.iquery
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: cmdtree.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IQuery.GetCardinalityEstimate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IQuery interface

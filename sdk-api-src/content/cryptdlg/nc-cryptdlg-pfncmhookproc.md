@@ -4,17 +4,16 @@ title: PFNCMHOOKPROC
 author: windows-sdk-content
 description: Called before messages are processed by the certificate selection dialog box produced by the CertSelectCertificate function.
 old-location: security\pfncmhookproc.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 7172c995-a46b-437b-beaf-a0649cb8ec3d
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: PFNCMHOOKPROC, PFNCMHOOKPROC callback, PFNCMHOOKPROC callback function [Security], cryptdlg/PFNCMHOOKPROC, security.pfncmhookproc
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: cryptdlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_ClientCreds, *PSecPkgContext_ClientCreds
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PFNCMHOOKPROC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PFNCMHOOKPROC callback function

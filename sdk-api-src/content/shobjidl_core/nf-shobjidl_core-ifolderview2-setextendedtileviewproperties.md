@@ -4,17 +4,16 @@ title: IFolderView2::SetExtendedTileViewProperties
 author: windows-sdk-content
 description: Sets the list of extended tile properties for an item.
 old-location: shell\IFolderView2_SetExtendedTileViewProperties.htm
-old-project: shell
+tech.root: shell
 ms.assetid: efb2eb1a-47fa-45b2-8d8d-fc75bbe46c80
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetExtendedTileViewProperties method, IFolderView2.SetExtendedTileViewProperties, IFolderView2::SetExtendedTileViewProperties, SetExtendedTileViewProperties, SetExtendedTileViewProperties method [Windows Shell], SetExtendedTileViewProperties method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetExtendedTileViewProperties, shell.IFolderView2_SetExtendedTileViewProperties, shobjidl_core/IFolderView2::SetExtendedTileViewProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderView2.SetExtendedTileViewProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderView2::SetExtendedTileViewProperties

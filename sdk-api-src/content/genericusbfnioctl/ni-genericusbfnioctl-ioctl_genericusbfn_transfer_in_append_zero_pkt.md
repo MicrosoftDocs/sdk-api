@@ -4,7 +4,7 @@ title: IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT
 author: windows-sdk-content
 description: This I/O control code (IOCTL) is sent by a user-mode service or application to issue an IN direction transfer on the endpoint that corresponds to the specified pipe ID in the input buffer.
 old-location: buses\ioctl_genericusbfn_transfer_in_append_zero_pkt.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 9EA139CD-2B00-4B03-AB0D-AE8FB66B687B
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT IOCTL

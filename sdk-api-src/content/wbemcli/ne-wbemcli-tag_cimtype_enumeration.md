@@ -4,17 +4,16 @@ title: tag_CIMTYPE_ENUMERATION
 author: windows-sdk-content
 description: Defines values that specify different CIM data types.
 old-location: wmi\cimtype_enumeration.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: ab67954c-ead2-4906-9680-503612d3f12d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CIMTYPE_ENUMERATION, CIMTYPE_ENUMERATION enumeration [Windows Management Instrumentation], CIM_BOOLEAN, CIM_CHAR16, CIM_DATETIME, CIM_EMPTY, CIM_FLAG_ARRAY, CIM_ILLEGAL, CIM_OBJECT, CIM_REAL32, CIM_REAL64, CIM_REFERENCE, CIM_SINT16, CIM_SINT32, CIM_SINT64, CIM_SINT8, CIM_STRING, CIM_UINT16, CIM_UINT32, CIM_UINT64, CIM_UINT8, tag_CIMTYPE_ENUMERATION, wbemcli/CIMTYPE_ENUMERATION, wbemcli/CIM_BOOLEAN, wbemcli/CIM_CHAR16, wbemcli/CIM_DATETIME, wbemcli/CIM_EMPTY, wbemcli/CIM_FLAG_ARRAY, wbemcli/CIM_ILLEGAL, wbemcli/CIM_OBJECT, wbemcli/CIM_REAL32, wbemcli/CIM_REAL64, wbemcli/CIM_REFERENCE, wbemcli/CIM_SINT16, wbemcli/CIM_SINT32, wbemcli/CIM_SINT64, wbemcli/CIM_SINT8, wbemcli/CIM_STRING, wbemcli/CIM_UINT16, wbemcli/CIM_UINT32, wbemcli/CIM_UINT64, wbemcli/CIM_UINT8, wmi.cimtype_enumeration
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CIMTYPE_ENUMERATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CIMTYPE_ENUMERATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CIMTYPE_ENUMERATION
+req.redist: 
 ---
 
 # tag_CIMTYPE_ENUMERATION enumeration

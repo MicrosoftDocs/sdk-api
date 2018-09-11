@@ -4,17 +4,16 @@ title: IFsrmFileScreenManager::CreateFileScreen
 author: windows-sdk-content
 description: Creates a file screen object.
 old-location: fsrm\ifsrmfilescreenmanager_createfilescreen.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 5e35c647-2b5a-486b-b8c5-0bc25bd313ad
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: CreateFileScreen, CreateFileScreen method [File Server Resource Manager], CreateFileScreen method [File Server Resource Manager],FsrmFileScreenManager class, CreateFileScreen method [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],CreateFileScreen method, IFsrmFileScreenManager interface [File Server Resource Manager],CreateFileScreen method, IFsrmFileScreenManager.CreateFileScreen, IFsrmFileScreenManager::CreateFileScreen, fs.ifsrmfilescreenmanager_createfilescreen, fsrm.ifsrmfilescreenmanager_createfilescreen, fsrmscreen/IFsrmFileScreenManager::CreateFileScreen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmFileScreenManager.CreateFileScreen
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileScreenManager::CreateFileScreen

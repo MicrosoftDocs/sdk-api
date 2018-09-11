@@ -4,17 +4,16 @@ title: GetGamingDeviceModelInformation function
 author: windows-sdk-content
 description: Gets information about the device that the game is running on.
 old-location: gamingdvcinfo\getgamingdevicemodelinformation.htm
-old-project: gamingdvcinfo
+tech.root: gamingdvcinfo
 ms.assetid: 78101CBA-63B5-4B3F-9CEC-A215F32D9EB8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetGamingDeviceModelInformation, GetGamingDeviceModelInformation function, gamingdeviceinformation/GetGamingDeviceModelInformation, gamingdvcinfo.getgamingdevicemodelinformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: gamingdeviceinformation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GAMING_DEVICE_VENDOR_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetGamingDeviceModelInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # GetGamingDeviceModelInformation function

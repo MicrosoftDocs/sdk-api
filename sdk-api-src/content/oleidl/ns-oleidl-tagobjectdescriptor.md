@@ -4,17 +4,16 @@ title: tagOBJECTDESCRIPTOR
 author: windows-sdk-content
 description: Represents the data structure used for the CF_OBJECTDESRIPTOR and CF_LINKSRCDESCRIPTOR file formats.
 old-location: com\objectdescriptor.htm
-old-project: com
+tech.root: com
 ms.assetid: 5865e16b-c1a5-4bfd-8d94-c2f8f73b1205
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPLINKSRCDESCRIPTOR, *LPOBJECTDESCRIPTOR, *PLINKSRCDESCRIPTOR, *POBJECTDESCRIPTOR, LINKSRCDESCRIPTOR, LPOBJECTDESCRIPTOR, LPOBJECTDESCRIPTOR structure pointer [COM], OBJECTDESCRIPTOR, OBJECTDESCRIPTOR structure [COM], POBJECTDESCRIPTOR, POBJECTDESCRIPTOR structure pointer [COM], _ole_OBJECTDESCRIPTOR, com.objectdescriptor, oleidl/LPOBJECTDESCRIPTOR, oleidl/OBJECTDESCRIPTOR, oleidl/POBJECTDESCRIPTOR, tagOBJECTDESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: OleIdl.Idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OBJECTDESCRIPTOR, *POBJECTDESCRIPTOR, *LPOBJECTDESCRIPTOR, LINKSRCDESCRIPTOR, *PLINKSRCDESCRIPTOR, *LPLINKSRCDESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OBJECTDESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OBJECTDESCRIPTOR, *POBJECTDESCRIPTOR, *LPOBJECTDESCRIPTOR, LINKSRCDESCRIPTOR, *PLINKSRCDESCRIPTOR, *LPLINKSRCDESCRIPTOR
+req.redist: 
 ---
 
 # tagOBJECTDESCRIPTOR structure

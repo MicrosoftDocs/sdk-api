@@ -4,17 +4,16 @@ title: SetBrushOrgEx function
 author: windows-sdk-content
 description: The SetBrushOrgEx function sets the brush origin that GDI assigns to the next brush an application selects into the specified device context.
 old-location: gdi\setbrushorgex.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: dcc7575a-49fd-4306-8baa-57e9e0d5ed1f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetBrushOrgEx, SetBrushOrgEx function [Windows GDI], _win32_SetBrushOrgEx, gdi.setbrushorgex, wingdi/SetBrushOrgEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SetBrushOrgEx
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetBrushOrgEx function

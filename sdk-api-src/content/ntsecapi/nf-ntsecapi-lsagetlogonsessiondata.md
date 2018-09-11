@@ -4,17 +4,16 @@ title: LsaGetLogonSessionData function
 author: windows-sdk-content
 description: Retrieves information about a specified logon session.
 old-location: security\lsagetlogonsessiondata.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: b1478a7a-f508-4b98-8c7b-adeb2f07bb86
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: LsaGetLogonSessionData, LsaGetLogonSessionData function [Security], _lsa_lsagetlogonsessiondata, ntsecapi/LsaGetLogonSessionData, security.lsagetlogonsessiondata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LsaGetLogonSessionData
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: Secur32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # LsaGetLogonSessionData function

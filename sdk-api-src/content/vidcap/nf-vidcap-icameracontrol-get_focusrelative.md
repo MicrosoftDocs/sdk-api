@@ -4,17 +4,16 @@ title: ICameraControl::get_FocusRelative
 author: windows-sdk-content
 description: The get_FocusRelative method returns the relative focus. The relative focus indicates the direction in which the lens group is moving.
 old-location: dshow\icameracontrol_get_focusrelative.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 21bc1cbe-747b-4846-814f-1aed0ac614d6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICameraControl interface [DirectShow],get_FocusRelative method, ICameraControl.get_FocusRelative, ICameraControl::get_FocusRelative, ICameraControlget_FocusRelative, dshow.icameracontrol_get_focusrelative, get_FocusRelative, get_FocusRelative method [DirectShow], get_FocusRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_FocusRelative
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICameraControl.get_FocusRelative
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICameraControl::get_FocusRelative

@@ -4,17 +4,16 @@ title: IWSManResourceLocator::AddOption
 author: windows-sdk-content
 description: Adds data required to process the request. For example, some WMI providers may require an IWbemContext or SWbemNamedValueSet object with provider-specific information.
 old-location: winrm\iwsmanresourcelocator_addoption.htm
-old-project: winrm
+tech.root: WinRM
 ms.assetid: a6709cb7-35a1-41b6-981e-13d3f1bf9816
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddOption, AddOption method [Windows Remote Management], AddOption method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],AddOption method, IWSManResourceLocator.AddOption, IWSManResourceLocator::AddOption, winrm.iwsmanresourcelocator_addoption, wsmandisp/IWSManResourceLocator::AddOption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManProxyAuthenticationFlags
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSManResourceLocator.AddOption
 product: Windows
 targetos: Windows
-req.lib: WSManDisp.tlb
-req.dll: WSMAuto.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSManResourceLocator::AddOption

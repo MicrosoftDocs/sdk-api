@@ -4,17 +4,16 @@ title: FEATURE_ERROR
 author: windows-sdk-content
 description: This structure is intended for infrastructure use only.
 old-location: winprog\feature_error.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: D289E97E-CEA7-408E-98D5-44A5B07B512A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FEATURE_ERROR, FEATURE_ERROR structure [Windows API], featurestagingapi/FEATURE_ERROR, winprog.feature_error
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: featurestagingapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FEATURE_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FEATURE_ERROR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FEATURE_ERROR
+req.redist: 
 ---
 
 # FEATURE_ERROR structure

@@ -4,17 +4,16 @@ title: ScrollWindow function
 author: windows-sdk-content
 description: The ScrollWindow function scrolls the contents of the specified window's client area.
 old-location: controls\ScrollWindow.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\scrollwindow.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ScrollWindow, ScrollWindow function [Windows Controls], _win32_ScrollWindow, _win32_ScrollWindow_cpp, controls.ScrollWindow, controls._win32_ScrollWindow, winuser/ScrollWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ScrollWindow
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ScrollWindow function

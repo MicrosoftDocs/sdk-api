@@ -4,17 +4,16 @@ title: INetFwOpenPort::get_Name
 author: windows-sdk-content
 description: Specifies the friendly name of this port.
 old-location: ics\inetfwopenport_name.htm
-old-project: ics
+tech.root: ics
 ms.assetid: f81abb86-095c-4459-af71-a0c10f7b1acd
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],Name property, INetFwOpenPort.Name, INetFwOpenPort.get_Name, INetFwOpenPort::Name, INetFwOpenPort::get_Name, INetFwOpenPort::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwOpenPort interface, get_Name, ics.inetfwopenport_name, netfw/INetFwOpenPort::Name, netfw/INetFwOpenPort::get_Name, netfw/INetFwOpenPort::put_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwOpenPort.put_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwOpenPort::get_Name

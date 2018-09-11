@@ -4,17 +4,16 @@ title: "_MSV1_0_SUBAUTH_LOGON"
 author: windows-sdk-content
 description: Used by subauthentication DLLs.
 old-location: security\msv1_0_subauth_logon.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: e53cb14a-097c-4ee4-ab7a-baa4b6699cc7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMSV1_0_SUBAUTH_LOGON, MSV1_0_ALLOW_SERVER_TRUST_ACCOUNT, MSV1_0_ALLOW_WORKSTATION_TRUST_ACCOUNT, MSV1_0_CLEARTEXT_PASSWORD_ALLOWED, MSV1_0_DONT_TRY_GUEST_ACCOUNT, MSV1_0_RETURN_PASSWORD_EXPIRY, MSV1_0_RETURN_PROFILE_PATH, MSV1_0_RETURN_USER_PARAMETERS, MSV1_0_SUBAUTH_LOGON, MSV1_0_SUBAUTH_LOGON structure [Security], MSV1_0_TRY_GUEST_ACCOUNT_ONLY, MSV1_0_TRY_SPECIFIED_DOMAIN_ONLY, MSV1_0_UPDATE_LOGON_STATISTICS, PMSV1_0_SUBAUTH_LOGON, PMSV1_0_SUBAUTH_LOGON structure pointer [Security], _MSV1_0_SUBAUTH_LOGON, _lsa_msv1_0_subauth_logon, ntsecapi/MSV1_0_SUBAUTH_LOGON, ntsecapi/PMSV1_0_SUBAUTH_LOGON, security.msv1_0_subauth_logon"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSV1_0_SUBAUTH_LOGON, *PMSV1_0_SUBAUTH_LOGON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MSV1_0_SUBAUTH_LOGON
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: MSV1_0_SUBAUTH_LOGON, *PMSV1_0_SUBAUTH_LOGON
+req.redist: 
 ---
 
 # _MSV1_0_SUBAUTH_LOGON structure

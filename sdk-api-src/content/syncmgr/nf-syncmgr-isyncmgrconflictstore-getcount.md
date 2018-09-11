@@ -4,17 +4,16 @@ title: ISyncMgrConflictStore::GetCount
 author: windows-sdk-content
 description: Gets the number of conflicts in the store.
 old-location: shell\ISyncMgrConflictStore_GetCount.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1a41bc9a-6f5d-47bf-9186-711292d8be07
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],ISyncMgrConflictStore interface, ISyncMgrConflictStore interface [Windows Shell],GetCount method, ISyncMgrConflictStore.GetCount, ISyncMgrConflictStore::GetCount, _shell_ISyncMgrConflictStore_GetCount, shell.ISyncMgrConflictStore_GetCount, syncmgr/ISyncMgrConflictStore::GetCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrConflictStore.GetCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrConflictStore::GetCount

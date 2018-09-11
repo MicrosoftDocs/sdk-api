@@ -4,17 +4,16 @@ title: AgileReferenceOptions
 author: windows-sdk-content
 description: Specifies options for the RoGetAgileReference function.
 old-location: winrt\agilereferenceoptions.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: F46FD597-F278-4DA8-BC94-26836684AD7E
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AGILEREFERENCE_DEFAULT, AGILEREFERENCE_DELAYEDMARSHAL, AgileReferenceOptions, AgileReferenceOptions enumeration [Windows Runtime], combaseapi/AGILEREFERENCE_DEFAULT, combaseapi/AGILEREFERENCE_DELAYEDMARSHAL, combaseapi/AgileReferenceOptions, winrt.agilereferenceoptions
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: combaseapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: ComAdmin.Idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AgileReferenceOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AgileReferenceOptions enumeration

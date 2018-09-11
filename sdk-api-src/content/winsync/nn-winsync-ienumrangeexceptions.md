@@ -4,17 +4,16 @@ title: IEnumRangeExceptions
 author: windows-sdk-content
 description: Enumerates range exceptions that are stored in a knowledge object.
 old-location: winsync\ienumrangeexceptions.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 1b2724a3-2f5f-4f30-8cf5-e31f16d4cd14
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumRangeExceptions, IEnumRangeExceptions interface [Windows Sync], IEnumRangeExceptions interface [Windows Sync],described, winsync.ienumrangeexceptions, winsync/IEnumRangeExceptions
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumRangeExceptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumRangeExceptions interface

@@ -4,17 +4,16 @@ title: ITextStoreACPServices::CreateRange
 author: windows-sdk-content
 description: ITextStoreACPServices::CreateRange method
 old-location: tsf\itextstoreacpservices_createrange.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 727945e7-b876-460e-9b06-8d03734f53b2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateRange, CreateRange method [Text Services Framework], CreateRange method [Text Services Framework],ITextStoreACPServices interface, ITextStoreACPServices interface [Text Services Framework],CreateRange method, ITextStoreACPServices.CreateRange, ITextStoreACPServices::CreateRange, _tsf_itextstoreacpservices_createrange_ref, msctf/ITextStoreACPServices::CreateRange, tsf.itextstoreacpservices_createrange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreACPServices.CreateRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITextStoreACPServices::CreateRange

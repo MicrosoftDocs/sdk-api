@@ -4,7 +4,7 @@ title: tagEapPacket
 author: windows-sdk-content
 description: Contains a packet of opaque data sent during an EAP authentication session.
 old-location: eaphost\eappacket.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: a5d78db0-990f-4318-8f1a-4e903221845f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eapmethodtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EapPacket
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapPacket
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EapPacket
+req.redist: 
 ---
 
 # tagEapPacket structure

@@ -4,17 +4,16 @@ title: IXpsOMObjectFactory1::CreatePackageFromFile1
 author: windows-sdk-content
 description: Opens an XPS package file and returns an instantiated XPS document object tree. This method will read a file that contains an XPS document that is of type XPS_DOCUMENT_TYPE_ XPS or XPS_DOCUMENT_TYPE_ OPENXPS.
 old-location: xps\ixpsomobjectfactory1_createpackagefromfile1.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: c5641576-9280-48a5-9fb6-ef3d2811386a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreatePackageFromFile1, CreatePackageFromFile1 method [XPS Documents and Packaging], CreatePackageFromFile1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreatePackageFromFile1 method, IXpsOMObjectFactory1.CreatePackageFromFile1, IXpsOMObjectFactory1::CreatePackageFromFile1, xps.ixpsomobjectfactory1_createpackagefromfile1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageFromFile1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_DOCUMENT_TYPE
+req.lib: None
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IXpsOMObjectFactory1.CreatePackageFromFile1
 product: Windows
 targetos: Windows
-req.lib: None
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMObjectFactory1::CreatePackageFromFile1
@@ -77,7 +75,7 @@ FALSE: The software will not attempt to optimize the object tree.
 
 ### -param package
 
-
+TBD
 
 
 

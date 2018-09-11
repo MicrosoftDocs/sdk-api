@@ -4,17 +4,16 @@ title: MFFrameRateToAverageTimePerFrame function
 author: windows-sdk-content
 description: Converts a video frame rate into a frame duration.
 old-location: mf\mfframeratetoaveragetimeperframe.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 750f6920-3386-4d50-9d59-73e876b406da
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 750f6920-3386-4d50-9d59-73e876b406da, MFFrameRateToAverageTimePerFrame, MFFrameRateToAverageTimePerFrame function [Media Foundation], mf.mfframeratetoaveragetimeperframe, mfapi/MFFrameRateToAverageTimePerFrame
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFFrameRateToAverageTimePerFrame
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFFrameRateToAverageTimePerFrame function

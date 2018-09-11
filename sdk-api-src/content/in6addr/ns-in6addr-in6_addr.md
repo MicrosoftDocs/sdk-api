@@ -4,7 +4,7 @@ title: in6_addr
 author: windows-sdk-content
 description: The IN6_ADDR structure specifies an IPv6 transport address.
 old-location: netvista\in6_addr.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 218b07e8-94cf-42f2-a762-13fc1f7c4473
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: in6addr.h
 req.include-header: Ws2ipdef.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IN6_ADDR, *PIN6_ADDR, *LPIN6_ADDR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IN6_ADDR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IN6_ADDR, *PIN6_ADDR, *LPIN6_ADDR
+req.redist: 
 ---
 
 # in6_addr structure

@@ -4,17 +4,16 @@ title: "_KERB_PROFILE_BUFFER_TYPE"
 author: windows-sdk-content
 description: Lists the type of logon profile returned.
 old-location: security\kerb_profile_buffer_type.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: c590b6fd-c241-4ff8-9475-c8af7de7b431
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PKERB_PROFILE_BUFFER_TYPE, KERB_PROFILE_BUFFER_TYPE, KERB_PROFILE_BUFFER_TYPE enumeration [Security], KerbInteractiveProfile, KerbTicketProfile, PKERB_PROFILE_BUFFER_TYPE, PKERB_PROFILE_BUFFER_TYPE enumeration pointer [Security], _KERB_PROFILE_BUFFER_TYPE, _lsa_kerb_profile_buffer_type, ntsecapi/KERB_PROFILE_BUFFER_TYPE, ntsecapi/KerbInteractiveProfile, ntsecapi/KerbTicketProfile, ntsecapi/PKERB_PROFILE_BUFFER_TYPE, security.kerb_profile_buffer_type"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_PROFILE_BUFFER_TYPE, *PKERB_PROFILE_BUFFER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_PROFILE_BUFFER_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_PROFILE_BUFFER_TYPE, *PKERB_PROFILE_BUFFER_TYPE
+req.redist: 
 ---
 
 # _KERB_PROFILE_BUFFER_TYPE enumeration

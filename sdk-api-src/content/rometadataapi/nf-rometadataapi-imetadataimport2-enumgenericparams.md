@@ -4,17 +4,16 @@ title: IMetaDataImport2::EnumGenericParams
 author: windows-sdk-content
 description: Gets an enumerator for an array of generic parameter tokens associated with the specified TypeDef or MethodDef token.
 old-location: winrt\imetadataimport2_enumgenericparams.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 7ad0d834-7b77-4c90-b28f-fc9e54e9deb7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumGenericParams, EnumGenericParams method [Windows Runtime], EnumGenericParams method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],EnumGenericParams method, IMetaDataImport2.EnumGenericParams, IMetaDataImport2::EnumGenericParams, rometadataapi/IMetaDataImport2::EnumGenericParams, winrt.imetadataimport2_enumgenericparams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport2.EnumGenericParams
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport2::EnumGenericParams

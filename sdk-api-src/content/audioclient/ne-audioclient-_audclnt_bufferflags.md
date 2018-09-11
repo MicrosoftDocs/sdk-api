@@ -4,17 +4,16 @@ title: "_AUDCLNT_BUFFERFLAGS"
 author: windows-sdk-content
 description: The _AUDCLNT_BUFFERFLAGS enumeration defines flags that indicate the status of an audio endpoint buffer.
 old-location: coreaudio\_audclnt_bufferflags.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: ac4ec901-b1e2-4c4e-b9fc-1808d5338d15
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY, AUDCLNT_BUFFERFLAGS_SILENT, AUDCLNT_BUFFERFLAGS_TIMESTAMP_ERROR, _AUDCLNT_BUFFERFLAGS, _AUDCLNT_BUFFERFLAGS , _AUDCLNT_BUFFERFLAGS enumeration [Core Audio], audioclient/AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY, audioclient/AUDCLNT_BUFFERFLAGS_SILENT, audioclient/AUDCLNT_BUFFERFLAGS_TIMESTAMP_ERROR, audioclient/_AUDCLNT_BUFFERFLAGS, coreaudio._audclnt_bufferflags
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - _AUDCLNT_BUFFERFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # _AUDCLNT_BUFFERFLAGS enumeration

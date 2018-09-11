@@ -4,17 +4,16 @@ title: WS_VALUE_TYPE
 author: windows-sdk-content
 description: The types of fixed-size primitives.
 old-location: wsw\ws_value_type.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 6075ed1c-ceb5-421a-8a76-3a64b9e6dbe3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_BOOL_VALUE_TYPE, WS_DATETIME_VALUE_TYPE, WS_DECIMAL_VALUE_TYPE, WS_DOUBLE_VALUE_TYPE, WS_DURATION_VALUE_TYPE, WS_FLOAT_VALUE_TYPE, WS_GUID_VALUE_TYPE, WS_INT16_VALUE_TYPE, WS_INT32_VALUE_TYPE, WS_INT64_VALUE_TYPE, WS_INT8_VALUE_TYPE, WS_TIMESPAN_VALUE_TYPE, WS_UINT16_VALUE_TYPE, WS_UINT32_VALUE_TYPE, WS_UINT64_VALUE_TYPE, WS_UINT8_VALUE_TYPE, WS_VALUE_TYPE, WS_VALUE_TYPE enumeration [Web Services for Windows], webservices/WS_BOOL_VALUE_TYPE, webservices/WS_DATETIME_VALUE_TYPE, webservices/WS_DECIMAL_VALUE_TYPE, webservices/WS_DOUBLE_VALUE_TYPE, webservices/WS_DURATION_VALUE_TYPE, webservices/WS_FLOAT_VALUE_TYPE, webservices/WS_GUID_VALUE_TYPE, webservices/WS_INT16_VALUE_TYPE, webservices/WS_INT32_VALUE_TYPE, webservices/WS_INT64_VALUE_TYPE, webservices/WS_INT8_VALUE_TYPE, webservices/WS_TIMESPAN_VALUE_TYPE, webservices/WS_UINT16_VALUE_TYPE, webservices/WS_UINT32_VALUE_TYPE, webservices/WS_UINT64_VALUE_TYPE, webservices/WS_UINT8_VALUE_TYPE, webservices/WS_VALUE_TYPE, wsw.ws_value_type
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_VALUE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_VALUE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_VALUE_TYPE
+req.redist: 
 ---
 
 # WS_VALUE_TYPE enumeration

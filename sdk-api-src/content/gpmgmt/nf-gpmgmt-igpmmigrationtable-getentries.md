@@ -4,17 +4,16 @@ title: IGPMMigrationTable::GetEntries
 author: windows-sdk-content
 description: Returns a IGPMMapEntryCollection interface.
 old-location: gpmc\igpmmigrationtable_getentries.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 5de22bba-10f9-49f7-83f3-053f5e58b66e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMMigrationTable class [GPMC],GetEntries method, GetEntries, GetEntries method [GPMC], GetEntries method [GPMC],GPMMigrationTable class, GetEntries method [GPMC],IGPMMigrationTable interface, IGPMMigrationTable interface [GPMC],GetEntries method, IGPMMigrationTable.GetEntries, IGPMMigrationTable::GetEntries, gpmc.igpmmigrationtable_getentries, gpmgmt/IGPMMigrationTable::GetEntries
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMMigrationTable.GetEntries
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMMigrationTable::GetEntries

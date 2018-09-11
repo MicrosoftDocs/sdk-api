@@ -4,17 +4,16 @@ title: ITextPara::SetStyle
 author: windows-sdk-content
 description: Sets the paragraph style for the paragraphs in a range.
 old-location: controls\ITextPara_SetStyle.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparasetstyle.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextPara interface [Windows Controls],SetStyle method, ITextPara.SetStyle, ITextPara::SetStyle, SetStyle, SetStyle method [Windows Controls], SetStyle method [Windows Controls],ITextPara interface, _win32_ITextPara_SetStyle, _win32_ITextPara_SetStyle_cpp, controls.ITextPara_SetStyle, controls._win32_ITextPara_SetStyle, tom/ITextPara::SetStyle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextPara.SetStyle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextPara::SetStyle

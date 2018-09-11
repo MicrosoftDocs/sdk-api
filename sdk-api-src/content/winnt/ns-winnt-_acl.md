@@ -4,17 +4,16 @@ title: "_ACL"
 author: windows-sdk-content
 description: Header of an access control list (ACL).
 old-location: security\acl.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PACL, ACL, ACL structure [Security], PACL, PACL structure pointer [Security], _ACL, _win32_acl_str, security.acl, winnt/ACL, winnt/PACL"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ACL
+req.redist: 
 ---
 
 # _ACL structure

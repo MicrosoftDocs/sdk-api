@@ -4,17 +4,16 @@ title: MFGetStrideForBitmapInfoHeader function
 author: windows-sdk-content
 description: Calculates the minimum surface stride for a video format.
 old-location: mf\mfgetstrideforbitmapinfoheader.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 09612b83-8b14-4286-9562-9e3d00fe2c2b
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 09612b83-8b14-4286-9562-9e3d00fe2c2b, MFGetStrideForBitmapInfoHeader, MFGetStrideForBitmapInfoHeader function [Media Foundation], mf.mfgetstrideforbitmapinfoheader, mfapi/MFGetStrideForBitmapInfoHeader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Evr.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFGetStrideForBitmapInfoHeader
 product: Windows
 targetos: Windows
-req.lib: Evr.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFGetStrideForBitmapInfoHeader function

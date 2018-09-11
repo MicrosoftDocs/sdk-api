@@ -2,19 +2,18 @@
 UID: NF:faxcom.IFaxJob.get_UserName
 title: IFaxJob::get_UserName
 author: windows-sdk-content
-description: The UserName property is a null-terminated string that contains the name of the user who submitted the fax job to the job queue. The UserName property applies only to outgoing fax transmissions.
-old-location: fax\_mfax_ifaxjob_get_username_vb.htm
-old-project: Fax
+description: The IFaxJob::get_UserName property is a null-terminated string that contains the name of the user who submitted the fax job to the job queue. The IFaxJob::get_UserName property applies only to outgoing fax transmissions.
+old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_username_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6jad.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxJob object [Fax Service],UserName property, FaxJob.UserName, IFaxJob.get_UserName, IFaxJob::get_UserName, UserName property [Fax Service], UserName property [Fax Service],FaxJob object, _mfax_ifaxjob_get_username, fax._mfax_ifaxjob_get_username, fax._mfax_ifaxjob_get_username_vb, get_UserName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxJob interface [Fax Service],UserName property, IFaxJob.UserName, IFaxJob.get_UserName, IFaxJob::UserName, IFaxJob::get_UserName, UserName property [Fax Service], UserName property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_username, fax._mfax_ifaxjob_get_username, fax._mfax_ifaxjob_mfax_ifaxjob_get_username_cpp, faxcom/IFaxJob::UserName, faxcom/IFaxJob::get_UserName, get_UserName
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxJob.UserName
+ - IFaxJob.UserName
+ - IFaxJob.get_UserName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxJob::get_UserName
@@ -52,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>UserName</b> property is a null-terminated string that contains the name of the user who submitted the fax job to the job queue. The <b>UserName</b> property applies only to outgoing fax transmissions.
+The <b>IFaxJob::get_UserName</b> property is a null-terminated string that contains the name of the user who submitted the fax job to the job queue. The <b>IFaxJob::get_UserName</b> property applies only to outgoing fax transmissions.
 
 
 This property is read-only.
@@ -65,9 +64,9 @@ This property is read-only.
 
 
 
-You can use the <b>UserName</b> property to retrieve the name of the person who initiated the fax job.
+You can use the <b>IFaxJob::get_UserName</b> property to retrieve the name of the person who initiated the fax job.
 
-<b>UserName</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
+<b>IFaxJob::get_UserName</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
 
 
@@ -85,19 +84,15 @@ You can use the <b>UserName</b> property to retrieve the name of the person who 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690298(v=VS.85).aspx">FaxJob</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/ms692310(v=VS.85).aspx">IFaxJob</a>
 
 
 
+<a href="https://msdn.microsoft.com/31a02244-4ea4-4231-aec3-3d699defcfc4">IFaxJob::get_SenderName</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/ms692372(v=VS.85).aspx">IFaxJobs</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms691367(v=VS.85).aspx">SenderName</a>
  
 
  

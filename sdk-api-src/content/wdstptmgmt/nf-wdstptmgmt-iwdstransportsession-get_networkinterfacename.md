@@ -4,17 +4,16 @@ title: IWdsTransportSession::get_NetworkInterfaceName
 author: windows-sdk-content
 description: Receives the name of the server network interface used by this transport session.
 old-location: wds\iwdstransportsession_networkinterfacename.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: 2408b109-6878-4c66-ba44-196c10b2ae96
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],NetworkInterfaceName property, IWdsTransportSession.NetworkInterfaceName, IWdsTransportSession.get_NetworkInterfaceName, IWdsTransportSession::NetworkInterfaceName, IWdsTransportSession::get_NetworkInterfaceName, NetworkInterfaceName property [Windows Deployment Services], NetworkInterfaceName property [Windows Deployment Services],IWdsTransportSession interface, get_NetworkInterfaceName, wds.iwdstransportsession_networkinterfacename, wdstptmgmt/IWdsTransportSession::NetworkInterfaceName, wdstptmgmt/IWdsTransportSession::get_NetworkInterfaceName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWdsTransportSession.get_NetworkInterfaceName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportSession::get_NetworkInterfaceName

@@ -4,17 +4,16 @@ title: IWMPCore3::newPlaylist
 author: windows-sdk-content
 description: The newPlaylist method retrieves a pointer to an IWMPPlaylist interface for a new playlist.
 old-location: wmp\iwmpcore3_newplaylist.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 61af7ce9-7fc6-4907-b423-3e6d2d8f39ac
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCore3 interface [Windows Media Player],newPlaylist method, IWMPCore3.newPlaylist, IWMPCore3::newPlaylist, IWMPCore3newPlaylist, newPlaylist, newPlaylist method [Windows Media Player], newPlaylist method [Windows Media Player],IWMPCore3 interface, wmp.iwmpcore3_newplaylist, wmp/IWMPCore3::newPlaylist
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCore3.newPlaylist
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCore3::newPlaylist

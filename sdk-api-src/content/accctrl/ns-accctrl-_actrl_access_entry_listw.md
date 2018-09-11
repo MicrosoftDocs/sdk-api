@@ -4,17 +4,16 @@ title: "_ACTRL_ACCESS_ENTRY_LISTW"
 author: windows-sdk-content
 description: Contains a list of access entries.
 old-location: com\actrl_access_entry_list.htm
-old-project: com
+tech.root: com
 ms.assetid: d0e71756-0247-4c6b-b8b5-a343121b7406
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PACTRL_ACCESS_ENTRY_LISTW, ACTRL_ACCESS_ENTRY_LIST, ACTRL_ACCESS_ENTRY_LIST structure [COM], ACTRL_ACCESS_ENTRY_LISTA, ACTRL_ACCESS_ENTRY_LISTW, PACTRL_ACCESS_ENTRY_LIST, PACTRL_ACCESS_ENTRY_LIST structure pointer [COM], _ACTRL_ACCESS_ENTRY_LISTA, _ACTRL_ACCESS_ENTRY_LISTW, accctrl/ACTRL_ACCESS_ENTRY_LIST, accctrl/ACTRL_ACCESS_ENTRY_LISTA, accctrl/ACTRL_ACCESS_ENTRY_LISTW, accctrl/PACTRL_ACCESS_ENTRY_LIST, com.actrl_access_entry_list"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: accctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACTRL_ACCESS_ENTRY_LISTW, *PACTRL_ACCESS_ENTRY_LISTW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,8 +42,8 @@ api_name:
  - ACTRL_ACCESS_ENTRY_LISTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.typenames: ACTRL_ACCESS_ENTRY_LISTW, *PACTRL_ACCESS_ENTRY_LISTW
+req.redist: 
 ---
 
 # _ACTRL_ACCESS_ENTRY_LISTW structure

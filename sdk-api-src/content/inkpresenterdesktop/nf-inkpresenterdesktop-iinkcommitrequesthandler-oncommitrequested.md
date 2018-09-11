@@ -4,17 +4,16 @@ title: IInkCommitRequestHandler::OnCommitRequested
 author: windows-sdk-content
 description: Requests that the app commit all pending Microsoft DirectComposition commands to the app's DirectComposition visual tree.
 old-location: input_ink\iinkcommitrequesthandler_oncommitrequested.htm
-old-project: input_ink
+tech.root: input_ink
 ms.assetid: c40ddcd3-ebb6-442b-b36d-2d7d27cfa5db
 ms.author: windowssdkdev
 ms.date: 07/16/2018
 ms.keywords: IInkCommitRequestHandler interface,OnCommitRequested method, IInkCommitRequestHandler.OnCommitRequested, IInkCommitRequestHandler::OnCommitRequested, InkPresenterDesktop.iinkcommitrequesthandler_oncommitrequested, OnCommitRequested, OnCommitRequested method, OnCommitRequested method,IInkCommitRequestHandler interface, inkpresenterdesktop/IInkCommitRequestHandler::OnCommitRequested, input_ink.iinkcommitrequesthandler_oncommitrequested
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inkpresenterdesktop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInkCommitRequestHandler.OnCommitRequested
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkCommitRequestHandler::OnCommitRequested

@@ -4,7 +4,7 @@ title: IMFMuxStreamMediaTypeManager
 author: windows-sdk-content
 description: Enables the management of stream configurations for a multiplexed media source. A stream configuration defines a set of substreams that can be included the multiplexed output.
 old-location: mf\imfmuxstreammediatypemanager.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: BBDAEF1C-DFEC-4647-8B74-E2ABB25F87CC
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFMuxStreamMediaTypeManager
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMuxStreamMediaTypeManager interface

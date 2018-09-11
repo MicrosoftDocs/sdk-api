@@ -4,17 +4,16 @@ title: IAMNetShowConfig::put_EnableUDP
 author: windows-sdk-content
 description: The put_EnableUDP method enables or disablles UDP-based streaming.
 old-location: dshow\iamnetshowconfig_put_enableudp.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 2573573e-97e0-4ed4-b702-8c54ef47c5f4
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableUDP method, IAMNetShowConfig.put_EnableUDP, IAMNetShowConfig::put_EnableUDP, IAMNetShowConfigput_EnableUDP, dshow.iamnetshowconfig_put_enableudp, put_EnableUDP, put_EnableUDP method [DirectShow], put_EnableUDP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableUDP
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMNetShowConfig.put_EnableUDP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMNetShowConfig::put_EnableUDP

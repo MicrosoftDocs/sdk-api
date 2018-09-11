@@ -4,17 +4,16 @@ title: UI_COLLECTIONCHANGE
 author: windows-sdk-content
 description: Specifies values that identify the types of changes that can be made to a collection.
 old-location: windowsribbon\windowsribbon_ui_collectionchange.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_collectionchange.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_COLLECTIONCHANGE, UI_COLLECTIONCHANGE enumeration [Windows Ribbon], UI_COLLECTIONCHANGE_INSERT, UI_COLLECTIONCHANGE_REMOVE, UI_COLLECTIONCHANGE_REPLACE, UI_COLLECTIONCHANGE_RESET, scenicintent_UI_COLLECTIONCHANGE, uiribbon/UI_COLLECTIONCHANGE, uiribbon/UI_COLLECTIONCHANGE_INSERT, uiribbon/UI_COLLECTIONCHANGE_REMOVE, uiribbon/UI_COLLECTIONCHANGE_REPLACE, uiribbon/UI_COLLECTIONCHANGE_RESET, windowsribbon.windowsribbon_ui_collectionchange
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_COLLECTIONCHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_COLLECTIONCHANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: UI_COLLECTIONCHANGE
+req.redist: 
 ---
 
 # UI_COLLECTIONCHANGE enumeration

@@ -4,17 +4,16 @@ title: Rect::GetLocation
 author: windows-sdk-content
 description: The Rect::GetLocation method gets the coordinates of the upper-left corner of the rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Rect_GetLocation_point_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getlocation.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetLocation, GetLocation method [GDI+], GetLocation method [GDI+],Rect class, Rect class [GDI+],GetLocation method, Rect.GetLocation, Rect::GetLocation, _gdiplus_CLASS_Rect_GetLocation_point_, gdiplus._gdiplus_CLASS_Rect_GetLocation_point_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Rect.GetLocation
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

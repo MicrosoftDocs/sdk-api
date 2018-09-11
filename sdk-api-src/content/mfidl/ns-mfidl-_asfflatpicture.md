@@ -4,7 +4,7 @@ title: "_ASFFlatPicture"
 author: windows-sdk-content
 description: Contains an image that is stored as metadata for a media source. This structure is used as the data item for the WM/Picture metadata attribute.
 old-location: mf\asf_flat_picture.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2aa190bd-3431-4f37-bf2b-0801047793b3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASF_FLAT_PICTURE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ASF_FLAT_PICTURE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ASF_FLAT_PICTURE
+req.redist: 
 ---
 
 # _ASFFlatPicture structure

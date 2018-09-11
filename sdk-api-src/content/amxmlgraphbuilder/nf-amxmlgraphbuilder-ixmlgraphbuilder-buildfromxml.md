@@ -4,17 +4,16 @@ title: IXMLGraphBuilder::BuildFromXML
 author: windows-sdk-content
 description: The BuildFromXML method loads a filter graph from an XML element.
 old-location: dshow\ixmlgraphbuilder_buildfromxml.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 953449da-620e-44cd-880c-b4c13d8bdbf6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: BuildFromXML, BuildFromXML method [DirectShow], BuildFromXML method [DirectShow],IXMLGraphBuilder interface, IXMLGraphBuilder interface [DirectShow],BuildFromXML method, IXMLGraphBuilder.BuildFromXML, IXMLGraphBuilder::BuildFromXML, IXMLGraphBuilderBuildFromXML, amxmlgraphbuilder/IXMLGraphBuilder::BuildFromXML, dshow.ixmlgraphbuilder_buildfromxml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amxmlgraphbuilder.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_FRAMESTEP_STEP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IXMLGraphBuilder.BuildFromXML
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IXMLGraphBuilder::BuildFromXML

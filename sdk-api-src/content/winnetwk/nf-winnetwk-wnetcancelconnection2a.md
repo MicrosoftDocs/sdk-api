@@ -4,17 +4,16 @@ title: WNetCancelConnection2A function
 author: windows-sdk-content
 description: The WNetCancelConnection2 function cancels an existing network connection. You can also call the function to remove remembered network connections that are not currently connected.
 old-location: wnet\wnetcancelconnection2.htm
-old-project: wnet
+tech.root: WNet
 ms.assetid: 8bb8222f-6ede-4bf4-a6e4-681560cce162
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: 0, CONNECT_UPDATE_PROFILE, WNetCancelConnection2, WNetCancelConnection2 function [Windows Networking (WNet)], WNetCancelConnection2A, WNetCancelConnection2W, _win32_wnetcancelconnection2, winnetwk/WNetCancelConnection2, winnetwk/WNetCancelConnection2A, winnetwk/WNetCancelConnection2W, wnet.wnetcancelconnection2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WNetCancelConnection2W
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNetCancelConnection2A function

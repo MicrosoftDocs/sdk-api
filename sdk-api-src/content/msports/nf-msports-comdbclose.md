@@ -4,17 +4,16 @@ title: ComDBClose function
 author: windows-sdk-content
 description: ComDBClose closes a handle to the COM port database.
 old-location: serports\comdbclose.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 3ea720ba-6cc9-4862-83d2-4f87e5c13da4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ComDBClose, ComDBClose function [Serial Ports], comdb_0274a1cb-0128-48c8-b536-3a10792582f4.xml, msports/ComDBClose, serports.comdbclose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msports.h
 req.include-header: Msports.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.lib: Msports.lib
+req.dll: Msports.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ComDBClose
 product: Windows
 targetos: Windows
-req.lib: Msports.lib
-req.dll: Msports.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ComDBClose function

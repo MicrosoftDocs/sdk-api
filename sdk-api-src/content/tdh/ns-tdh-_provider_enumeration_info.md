@@ -4,7 +4,7 @@ title: "_PROVIDER_ENUMERATION_INFO"
 author: windows-sdk-content
 description: Defines the array of providers that have registered a MOF or manifest on the computer.
 old-location: etw\provider_enumeration_info_struct.htm
-old-project: etw
+tech.root: etw
 ms.assetid: bb4548fb-70e5-4726-bc92-adb7ba7be0e4
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROVIDER_ENUMERATION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROVIDER_ENUMERATION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PROVIDER_ENUMERATION_INFO
+req.redist: 
 ---
 
 # _PROVIDER_ENUMERATION_INFO structure

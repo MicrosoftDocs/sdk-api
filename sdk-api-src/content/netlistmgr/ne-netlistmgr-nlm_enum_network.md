@@ -4,7 +4,7 @@ title: NLM_ENUM_NETWORK
 author: windows-sdk-content
 description: The NLM_ENUM_NETWORK enumeration contains a set of flags that specify what types of networks are enumerated.
 old-location: nla\nlm_enum_network.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 37eb1e2e-d769-4e58-b93d-582312bd500a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_ENUM_NETWORK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NLM_ENUM_NETWORK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NLM_ENUM_NETWORK
+req.redist: 
 ---
 
 # NLM_ENUM_NETWORK enumeration

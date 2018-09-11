@@ -4,17 +4,16 @@ title: IX509CertificateTemplates::get_ItemByOid
 author: windows-sdk-content
 description: Retrieves an IX509CertificateTemplate object from the collection by object identifier.
 old-location: security\ix509certificatetemplates_itembyoid.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: f601a98b-035d-428b-8579-8e26365e4b78
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509CertificateTemplates interface [Security],ItemByOid property, IX509CertificateTemplates.ItemByOid, IX509CertificateTemplates.get_ItemByOid, IX509CertificateTemplates::ItemByOid, IX509CertificateTemplates::get_ItemByOid, ItemByOid property [Security], ItemByOid property [Security],IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::ItemByOid, certenroll/IX509CertificateTemplates::get_ItemByOid, get_ItemByOid, security.ix509certificatetemplates_itembyoid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509CertificateTemplates.get_ItemByOid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateTemplates::get_ItemByOid

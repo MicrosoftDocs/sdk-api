@@ -4,7 +4,7 @@ title: PRADIUS_EXTENSION_PROCESS_EX
 author: windows-sdk-content
 description: The RadiusExtensionProcessEx function is an application-defined function and is called by NPS for each authentication or accounting packet that NPS receives from the network access server (NAS).
 old-location: nps\IAS_radiusextensionprocessex.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 7525b719-5741-4256-8759-421a407b9e44
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: authif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PRADIUS_EXTENSION_PROCESS_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PRADIUS_EXTENSION_PROCESS_EX callback function

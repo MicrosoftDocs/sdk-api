@@ -4,17 +4,16 @@ title: ResolveNeighbor function
 author: windows-sdk-content
 description: Resolves the physical address for a neighbor IP address entry on the local computer.
 old-location: iphlp\resolveneighbor.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: c9d902c7-6543-4811-8116-003a5153bd27
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: ResolveNeighbor, ResolveNeighbor function [IP Helper], iphlp.resolveneighbor, iphlpapi/ResolveNeighbor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResolveNeighbor
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ResolveNeighbor function

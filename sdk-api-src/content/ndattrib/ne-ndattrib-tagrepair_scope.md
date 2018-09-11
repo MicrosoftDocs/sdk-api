@@ -4,7 +4,7 @@ title: tagREPAIR_SCOPE
 author: windows-sdk-content
 description: The REPAIR_SCOPE enumeration describes the scope of modification for a given repair.
 old-location: ndf\repair_scope.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: f9be87ae-82a1-4613-abeb-15ccba1bf360
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ndattrib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REPAIR_SCOPE, *PREPAIR_SCOPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - REPAIR_SCOPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: REPAIR_SCOPE, *PREPAIR_SCOPE
+req.redist: 
 ---
 
 # tagREPAIR_SCOPE enumeration

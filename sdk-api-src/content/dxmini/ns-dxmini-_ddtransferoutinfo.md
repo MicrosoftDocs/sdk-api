@@ -4,7 +4,7 @@ title: "_DDTRANSFEROUTINFO"
 author: windows-sdk-content
 description: The DDTRANSFEROUTINFO structure returns the polarity of the field being captured.
 old-location: display\ddtransferoutinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 0c029912-0540-438a-a255-aeb1a58ad275
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDTRANSFEROUTINFO, *PDDTRANSFEROUTINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDTRANSFEROUTINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DDTRANSFEROUTINFO, *PDDTRANSFEROUTINFO
+req.redist: 
 ---
 
 # _DDTRANSFEROUTINFO structure

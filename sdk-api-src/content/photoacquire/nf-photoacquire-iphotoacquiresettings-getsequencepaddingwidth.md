@@ -4,17 +4,16 @@ title: IPhotoAcquireSettings::GetSequencePaddingWidth
 author: windows-sdk-content
 description: The GetSequencePaddingWidth method retrieves a value indicating how wide sequential fields in file names will be.
 old-location: picacq\iphotoacquiresettings_getsequencepaddingwidth.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: d19a103e-0f5a-493d-a515-21d8730e39e3
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSequencePaddingWidth, GetSequencePaddingWidth method [Picture Acquisition], GetSequencePaddingWidth method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetSequencePaddingWidth method, IPhotoAcquireSettings.GetSequencePaddingWidth, IPhotoAcquireSettings::GetSequencePaddingWidth, IPhotoAcquireSettingsGetSequencePaddingWidth, photoacquire/IPhotoAcquireSettings::GetSequencePaddingWidth, picacq.iphotoacquiresettings_getsequencepaddingwidth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireSettings.GetSequencePaddingWidth
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireSettings::GetSequencePaddingWidth

@@ -4,17 +4,16 @@ title: ISectionList::GetSectionData
 author: windows-sdk-content
 description: The GetSectionData method retrieves a section.
 old-location: mstv\isectionlist_getsectiondata.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b03d1727-9ebd-4e78-b7d0-c6d0959aab8a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSectionData, GetSectionData method [Microsoft TV Technologies], GetSectionData method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],GetSectionData method, ISectionList.GetSectionData, ISectionList::GetSectionData, ISectionListGetSectionData, mpeg2data/ISectionList::GetSectionData, mstv.isectionlist_getsectiondata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2data.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISectionList.GetSectionData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISectionList::GetSectionData

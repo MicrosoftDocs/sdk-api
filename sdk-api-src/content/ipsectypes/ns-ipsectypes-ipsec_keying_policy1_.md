@@ -4,7 +4,7 @@ title: IPSEC_KEYING_POLICY1_
 author: windows-sdk-content
 description: Defines an unordered set of keying modules that will be tried for IPsec.
 old-location: fwp\ipsec_keying_policy1.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 4b574e1c-ce0f-4c72-a14b-5ca0ed8aa005
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_KEYING_POLICY1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_KEYING_POLICY1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_KEYING_POLICY1
+req.redist: 
 ---
 
 # IPSEC_KEYING_POLICY1_ structure

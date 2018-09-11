@@ -4,17 +4,16 @@ title: IDefaultFolderMenuInitialize
 author: windows-sdk-content
 description: Provides methods used to get and set shortcut menu information. This information is the same as that provided to SHCreateDefaultContextMenu through the DEFCONTEXTMENU structure.
 old-location: shell\IDefaultFolderMenuInitialize.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 23C75435-E43D-4451-8F03-AE051BC1B66D
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IDefaultFolderMenuInitialize, IDefaultFolderMenuInitialize interface [Windows Shell], IDefaultFolderMenuInitialize interface [Windows Shell],described, shell.IDefaultFolderMenuInitialize, shobjidl_core/IDefaultFolderMenuInitialize
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDefaultFolderMenuInitialize
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.1 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDefaultFolderMenuInitialize interface

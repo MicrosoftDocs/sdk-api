@@ -4,17 +4,16 @@ title: MMCPropPageCallback function
 author: windows-sdk-content
 description: The MMCPropPageCallback function is only required by Microsoft Foundation Classes (MFC)-based snap-ins. The function sets the correct module state during page creation.
 old-location: mmc\mmcproppagecallback.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: c1f952c5-df0f-4cc5-8d20-66a3a6701060
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: MMCPropPageCallback, MMCPropPageCallback callback, MMCPropPageCallback callback function [MMC], _slate_mmcproppagecallback, mmc.mmcproppagecallback, mmc/MMCPropPageCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMCPropPageCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MMCPropPageCallback function

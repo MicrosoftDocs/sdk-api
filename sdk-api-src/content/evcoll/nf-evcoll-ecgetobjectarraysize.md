@@ -4,17 +4,16 @@ title: EcGetObjectArraySize function
 author: windows-sdk-content
 description: Retrieves the number of indexes of the array of property values for the event sources of a subscription.
 old-location: wec\ecgetobjectarraysize.htm
-old-project: WEC
+tech.root: WEC
 ms.assetid: f04c1748-d8b3-4000-a322-7854f8e7f5f9
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcGetObjectArraySize, EcGetObjectArraySize function, evcoll/EcGetObjectArraySize, wec.ecgetobjectarraysize, wes.ecgetobjectarraysize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EC_VARIANT_TYPE
+req.lib: Wecapi.lib
+req.dll: Wecapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EcGetObjectArraySize
 product: Windows
 targetos: Windows
-req.lib: Wecapi.lib
-req.dll: Wecapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EcGetObjectArraySize function
@@ -74,7 +72,7 @@ The size of the array (the number of indexes).
 
 
 
-This function returns BOOL __stdcall.
+This function returns BOOL.
 
 
 

@@ -4,17 +4,16 @@ title: IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper
 author: windows-sdk-content
 description: The AllocateSurfaceHelper method allocates a Direct3D surface based on application-specified parameters.
 old-location: dshow\ivmrsurfaceallocatornotify9_allocatesurfacehelper.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b69db9e9-6ab0-40ad-b929-30613c0b9e4b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: AllocateSurfaceHelper, AllocateSurfaceHelper method [DirectShow], AllocateSurfaceHelper method [DirectShow],IVMRSurfaceAllocatorNotify9 interface, IVMRSurfaceAllocatorNotify9 interface [DirectShow],AllocateSurfaceHelper method, IVMRSurfaceAllocatorNotify9.AllocateSurfaceHelper, IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper, IVMRSurfaceAllocatorNotify9AllocateSurfaceHelper, dshow.ivmrsurfaceallocatornotify9_allocatesurfacehelper, vmr9/IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRSurfaceAllocatorNotify9.AllocateSurfaceHelper
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper

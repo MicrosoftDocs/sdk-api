@@ -4,7 +4,7 @@ title: MCI_DGV_STATUS_PARMSW
 author: windows-sdk-content
 description: The MCI_DGV_STATUS_PARMS structure contains parameters for the MCI_STATUS command for digital-video devices.
 old-location: multimedia\mci_dgv_status_parms.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: bbc09d4c-4231-48a8-97f6-54cbb32303b1
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MCI_DGV_STATUS_PARMSW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MCI_DGV_STATUS_PARMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: MCI_DGV_STATUS_PARMSW
+req.redist: 
 ---
 
 # MCI_DGV_STATUS_PARMSW structure

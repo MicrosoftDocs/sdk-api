@@ -4,17 +4,16 @@ title: IDirectInputEffectDriver::DownloadEffect
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::DownloadEffect method sends an effect to the device.
 old-location: hid\idirectinputeffectdriver_downloadeffect.htm
-old-project: hid
+tech.root: hid
 ms.assetid: c10ee6f6-ed9e-45f9-b98d-db62d250a420
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: DownloadEffect, DownloadEffect method [Human Input Devices], DownloadEffect method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],DownloadEffect method, IDirectInputEffectDriver.DownloadEffect, IDirectInputEffectDriver::DownloadEffect, di_ref_6f931ad9-9a30-45a6-aae5-0b10b1e4e4a7.xml, dinputd/IDirectInputEffectDriver::DownloadEffect, hid.idirectinputeffectdriver_downloadeffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectInputEffectDriver.DownloadEffect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectInputEffectDriver::DownloadEffect
@@ -59,9 +58,29 @@ The <b>IDirectInputEffectDriver::DownloadEffect</b> method sends an effect to th
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
+
+TBD
+
+
+### -param arg5
+
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IVdsMaintenance::StopMaintenance
 author: windows-sdk-content
 description: Stops a maintenance operation.
 old-location: base\ivdsmaintenance_stopmaintenance.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 542f84d7-eb97-4738-b7c0-1c95bc5e063c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsMaintenance interface [VDS],StopMaintenance method, IVdsMaintenance.StopMaintenance, IVdsMaintenance::StopMaintenance, StopMaintenance, StopMaintenance method [VDS], StopMaintenance method [VDS],IVdsMaintenance interface, base.ivdsmaintenance_stopmaintenance, vds/IVdsMaintenance::StopMaintenance, vdshwprv/IVdsMaintenance::StopMaintenance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsMaintenance.StopMaintenance
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsMaintenance::StopMaintenance

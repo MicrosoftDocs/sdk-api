@@ -4,17 +4,16 @@ title: ID3D11VideoContext::VideoProcessorSetOutputExtension
 author: windows-sdk-content
 description: Sets a driver-specific video processing state.
 old-location: mf\id3d11videocontext_videoprocessorsetoutputextension.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 38279599-09C8-4BB1-8946-0B066D96E22B
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputExtension method, ID3D11VideoContext.VideoProcessorSetOutputExtension, ID3D11VideoContext::VideoProcessorSetOutputExtension, VideoProcessorSetOutputExtension, VideoProcessorSetOutputExtension method [Media Foundation], VideoProcessorSetOutputExtension method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputExtension, mf.id3d11videocontext_videoprocessorsetoutputextension
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext.VideoProcessorSetOutputExtension
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext::VideoProcessorSetOutputExtension

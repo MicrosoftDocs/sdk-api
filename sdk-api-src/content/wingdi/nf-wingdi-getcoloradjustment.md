@@ -4,17 +4,16 @@ title: GetColorAdjustment function
 author: windows-sdk-content
 description: The GetColorAdjustment function retrieves the color adjustment values for the specified device context (DC).
 old-location: gdi\getcoloradjustment.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 405c0d0d-9433-4f4a-9957-5c42a0fb3a07
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetColorAdjustment, GetColorAdjustment function [Windows GDI], _win32_GetColorAdjustment, gdi.getcoloradjustment, wingdi/GetColorAdjustment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetColorAdjustment
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetColorAdjustment function

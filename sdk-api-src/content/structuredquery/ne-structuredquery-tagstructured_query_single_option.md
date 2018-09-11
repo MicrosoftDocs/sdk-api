@@ -4,7 +4,7 @@ title: tagSTRUCTURED_QUERY_SINGLE_OPTION
 author: windows-sdk-content
 description: A set of flags to be used with IQueryParser::SetOption and IQueryParser::GetOption to indicate individual options.
 old-location: search\_search_STRUCTURED_QUERY_SINGLE_OPTION.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\structured_query_single_option.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: structuredquery.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: StringCchVPrintf_lW (Unicode) and StringCchVPrintf_lA (ANSI)
+req.unicode-ansi: 
 req.idl: Structuredquery.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STRUCTURED_QUERY_SINGLE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STRUCTURED_QUERY_SINGLE_OPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: STRUCTURED_QUERY_SINGLE_OPTION
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # tagSTRUCTURED_QUERY_SINGLE_OPTION enumeration

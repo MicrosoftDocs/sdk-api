@@ -4,17 +4,16 @@ title: ITaskHandler::Start
 author: windows-sdk-content
 description: Called to start the COM handler.
 old-location: taskschd\itaskhandler_start.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: e0a51387-e638-40ee-a4e4-edd7f3115975
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITaskHandler interface [Task Scheduler],Start method, ITaskHandler.Start, ITaskHandler::Start, Start, Start method [Task Scheduler], Start method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_start, taskschd/ITaskHandler::Start
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskHandler.Start
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskHandler::Start

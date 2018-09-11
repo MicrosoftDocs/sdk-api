@@ -4,17 +4,16 @@ title: PMGM_LOCAL_JOIN_CALLBACK
 author: windows-sdk-content
 description: The PMGM_LOCAL_JOIN_CALLBACK callback is a call into a routing protocol to notify the protocol that IGMP has detected new receivers for a group on an interface that is currently owned by the routing protocol.
 old-location: rras\pmgm_local_join_callback.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: e8245b09-0fbc-49c3-a7bb-534115c74c88
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PMGM_LOCAL_JOIN_CALLBACK, PMGM_LOCAL_JOIN_CALLBACK callback, PMGM_LOCAL_JOIN_CALLBACK callback function [RAS], _mpr_pmgm_local_join_callback, mgm/PMGM_LOCAL_JOIN_CALLBACK, rras.pmgm_local_join_callback
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: mgm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_MEDIUM, *PSTREAM_MEDIUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PMGM_LOCAL_JOIN_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # PMGM_LOCAL_JOIN_CALLBACK callback function

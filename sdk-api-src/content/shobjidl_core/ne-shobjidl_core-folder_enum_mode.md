@@ -4,17 +4,16 @@ title: FOLDER_ENUM_MODE
 author: windows-sdk-content
 description: Used by IObjectWithFolderEnumMode::GetMode and IObjectWithFolderEnumMode::SetMode methods to get and set the display modes for the folders.
 old-location: shell\FOLDER_ENUM_MODE.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ef360e40-63c9-49a0-bcfa-1f2e2ff11a3a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: FEM_NAVIGATION, FEM_VIEWRESULT, FOLDER_ENUM_MODE, FOLDER_ENUM_MODE enumeration [Windows Shell], _shell_FOLDER_ENUM_MODE, shell.FOLDER_ENUM_MODE, shobjidl_core/FEM_NAVIGATION, shobjidl_core/FEM_VIEWRESULT, shobjidl_core/FOLDER_ENUM_MODE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FOLDER_ENUM_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FOLDER_ENUM_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: FOLDER_ENUM_MODE
+req.redist: 
 ---
 
 # FOLDER_ENUM_MODE enumeration

@@ -4,17 +4,16 @@ title: IRDPSRAPIInvitation::get_GroupName
 author: windows-sdk-content
 description: The group name.
 old-location: rdp\irdpsrapiinvitation_groupname.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 7ac76417-bb5c-40ae-a22a-b322b42b0d2c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GroupName property [RDP], GroupName property [RDP],IRDPSRAPIInvitation interface, GroupName property [RDP],RDPSRAPIInvitation object, IRDPSRAPIInvitation interface [RDP],GroupName property, IRDPSRAPIInvitation.GroupName, IRDPSRAPIInvitation.get_GroupName, IRDPSRAPIInvitation::GroupName, IRDPSRAPIInvitation::get_GroupName, RDPSRAPIInvitation object [RDP],GroupName property, get_GroupName, rdp.irdpsrapiinvitation_groupname, rdpencomapi/IRDPSRAPIInvitation::GroupName, rdpencomapi/IRDPSRAPIInvitation::get_GroupName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RDPSRAPIInvitation.GroupName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIInvitation::get_GroupName

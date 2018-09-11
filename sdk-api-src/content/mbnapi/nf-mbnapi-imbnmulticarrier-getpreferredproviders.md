@@ -4,17 +4,16 @@ title: IMbnMultiCarrier::GetPreferredProviders
 author: windows-sdk-content
 description: Gets the list of subscribed providers visible in the current area for a multi-carrier device minus the current registered provider.
 old-location: mbn\imbnmulticarrier_getpreferredproviders.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 91D27D4D-5838-4D6D-BECF-B336B9F3B52A
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetPreferredProviders, GetPreferredProviders method [Microsoft Broadband Networks], GetPreferredProviders method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetPreferredProviders method, IMbnMultiCarrier.GetPreferredProviders, IMbnMultiCarrier::GetPreferredProviders, mbn.imbnmulticarrier_getpreferredproviders, mbnapi/IMbnMultiCarrier::GetPreferredProviders
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnMultiCarrier.GetPreferredProviders
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnMultiCarrier::GetPreferredProviders
@@ -62,7 +60,7 @@ Gets the list of subscribed providers visible in the current area for a multi-ca
 
 ### -param preferredMulticarrierProviders
 
-
+TBD
 
 
 

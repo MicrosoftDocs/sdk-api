@@ -4,7 +4,7 @@ title: GAMING_DEVICE_VENDOR_ID
 author: windows-sdk-content
 description: Indicates the vendor of the console that the game is running on.
 old-location: gamingdvcinfo\gaming_device_vendor_id.htm
-old-project: gamingdvcinfo
+tech.root: gamingdvcinfo
 ms.assetid: 0A74E610-9853-4299-A278-41C3B7F47D9C
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: gamingdeviceinformation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GAMING_DEVICE_VENDOR_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GAMING_DEVICE_VENDOR_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxsutility.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: GAMING_DEVICE_VENDOR_ID
+req.redist: 
 ---
 
 # GAMING_DEVICE_VENDOR_ID enumeration

@@ -4,17 +4,16 @@ title: SfcGetNextProtectedFile function
 author: windows-sdk-content
 description: Retrieves the complete list of protected files.
 old-location: setup\sfcgetnextprotectedfile.htm
-old-project: wfp
+tech.root: Wfp
 ms.assetid: 122261d5-b758-4088-8c8b-64b38c6092f1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SfcGetNextProtectedFile, SfcGetNextProtectedFile function [Setup API], _win32_sfcgetnextprotectedfile, setup.sfcgetnextprotectedfile, sfc/SfcGetNextProtectedFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sfc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_UNREMOVEDEVICE_PARAMS, *PSP_UNREMOVEDEVICE_PARAMS
+req.lib: Sfc.lib
+req.dll: Sfc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SfcGetNextProtectedFile
 product: Windows
 targetos: Windows
-req.lib: Sfc.lib
-req.dll: Sfc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SfcGetNextProtectedFile function

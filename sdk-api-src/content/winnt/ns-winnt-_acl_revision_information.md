@@ -4,17 +4,16 @@ title: "_ACL_REVISION_INFORMATION"
 author: windows-sdk-content
 description: Contains revision information about an ACL structure.
 old-location: security\acl_revision_information.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: cdc7f6b1-aaa1-4893-a192-5a42233b3ec1
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PACL_REVISION_INFORMATION, ACL_REVISION_INFORMATION, ACL_REVISION_INFORMATION structure [Security], PACL_REVISION_INFORMATION, PACL_REVISION_INFORMATION structure pointer [Security], _ACL_REVISION_INFORMATION, _win32_acl_revision_information_str, security.acl_revision_information, winnt/ACL_REVISION_INFORMATION, winnt/PACL_REVISION_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACL_REVISION_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACL_REVISION_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ACL_REVISION_INFORMATION
+req.redist: 
 ---
 
 # _ACL_REVISION_INFORMATION structure

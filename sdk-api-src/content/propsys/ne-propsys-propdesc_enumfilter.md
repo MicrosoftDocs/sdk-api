@@ -4,7 +4,7 @@ title: PROPDESC_ENUMFILTER
 author: windows-sdk-content
 description: Describes the filtered list of property descriptions that is returned.
 old-location: properties\PROPDESC_ENUMFILTER.htm
-old-project: properties
+tech.root: properties
 ms.assetid: dae1fadc-d7ea-4cad-b441-0e5c9708f5ce
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPDESC_ENUMFILTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROPDESC_ENUMFILTER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PROPDESC_ENUMFILTER
+req.redist: 
 ---
 
 # PROPDESC_ENUMFILTER enumeration

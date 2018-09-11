@@ -4,17 +4,16 @@ title: IMFASFIndexer::SetIndexStatus
 author: windows-sdk-content
 description: Configures the index for a stream.
 old-location: mf\imfasfindexer_setindexstatus.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: bad10893-07af-4b46-bab1-2878553813b5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFASFIndexer interface [Media Foundation],SetIndexStatus method, IMFASFIndexer.SetIndexStatus, IMFASFIndexer::SetIndexStatus, SetIndexStatus, SetIndexStatus method [Media Foundation], SetIndexStatus method [Media Foundation],IMFASFIndexer interface, bad10893-07af-4b46-bab1-2878553813b5, mf.imfasfindexer_setindexstatus, wmcontainer/IMFASFIndexer::SetIndexStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFIndexer.SetIndexStatus
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFIndexer::SetIndexStatus
@@ -66,7 +64,7 @@ Configures the index for a stream.
 
 ### -param pbIndexDescriptor
 
-
+TBD
 
 
 ### -param cbIndexDescriptor [in]

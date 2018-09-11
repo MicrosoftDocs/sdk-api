@@ -4,17 +4,16 @@ title: IAMNetShowConfig::put_HTTPProxyPort
 author: windows-sdk-content
 description: The put_HTTPProxyPort method specifies the port for the HTTP proxy server.
 old-location: dshow\iamnetshowconfig_put_httpproxyport.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: dada8684-66e7-4983-984a-589d48d167ba
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_HTTPProxyPort method, IAMNetShowConfig.put_HTTPProxyPort, IAMNetShowConfig::put_HTTPProxyPort, IAMNetShowConfigput_HTTPProxyPort, dshow.iamnetshowconfig_put_httpproxyport, put_HTTPProxyPort, put_HTTPProxyPort method [DirectShow], put_HTTPProxyPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_HTTPProxyPort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMNetShowConfig.put_HTTPProxyPort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMNetShowConfig::put_HTTPProxyPort

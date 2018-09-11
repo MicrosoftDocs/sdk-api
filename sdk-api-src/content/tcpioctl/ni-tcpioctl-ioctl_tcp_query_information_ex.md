@@ -4,17 +4,16 @@ title: IOCTL_TCP_QUERY_INFORMATION_EX
 author: windows-sdk-content
 description: Retrieves information from the TCP/IP driver.
 old-location: winprog\ioctl_tcp_query_information_ex.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: b992b585-e1c8-4262-a6e0-ad8b5047620f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOCTL_TCP_QUERY_INFORMATION_EX, IOCTL_TCP_QUERY_INFORMATION_EX control, IOCTL_TCP_QUERY_INFORMATION_EX control code [Windows API], tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX, winprog.ioctl_tcp_query_information_ex
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: tcpioctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TCP_ESTATS_SYN_OPTS_ROS_v0, *PTCP_ESTATS_SYN_OPTS_ROS_v0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_TCP_QUERY_INFORMATION_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_TCP_QUERY_INFORMATION_EX IOCTL

@@ -4,17 +4,16 @@ title: PathGradientBrush::SetCenterPoint(IN const Point &)
 author: windows-sdk-content
 description: This topic lists the SetCenterPoint methods of the PathGradientBrushclass. For a complete list of methods for the PathGradientBrushclass, see PathGradientBrush Methods.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetCenterPoint_Methods.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\pathgradientbrushsetcenterpointmethods.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: PathGradientBrush.SetCenterPoint, PathGradientBrush.SetCenterPoint(IN const Point &), PathGradientBrush::SetCenterPoint, PathGradientBrush::SetCenterPoint(IN const Point &), SetCenterPoint, SetCenterPoint methods [GDI+], _gdiplus_CLASS_PathGradientBrush_SetCenterPoint_Methods, gdiplus._gdiplus_CLASS_PathGradientBrush_SetCenterPoint_Methods, gdipluspath/SetCenterPoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WmfPlaceableFileHeader
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PathGradientBrush.SetCenterPoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # PathGradientBrush::SetCenterPoint(IN const Point &)

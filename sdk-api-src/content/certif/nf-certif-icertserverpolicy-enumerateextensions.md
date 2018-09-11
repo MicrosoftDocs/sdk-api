@@ -4,17 +4,16 @@ title: ICertServerPolicy::EnumerateExtensions
 author: windows-sdk-content
 description: Retrieves the object identifier (OID) of the current extension and moves the internal enumeration pointer to the next extension.
 old-location: security\icertserverpolicy_enumerateextensions.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 565ff4d5-0d22-466d-8458-f98b992a1868
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateExtensions method, EnumerateExtensions, EnumerateExtensions method [Security], EnumerateExtensions method [Security],CCertServerPolicy object, EnumerateExtensions method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateExtensions method, ICertServerPolicy.EnumerateExtensions, ICertServerPolicy::EnumerateExtensions, _certsrv_icertserverpolicy_enumerateextensions, certif/ICertServerPolicy::EnumerateExtensions, security.icertserverpolicy_enumerateextensions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertServerPolicy.EnumerateExtensions
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertServerPolicy::EnumerateExtensions

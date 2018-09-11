@@ -4,7 +4,7 @@ title: tagVMRMONITORINFO
 author: windows-sdk-content
 description: The VMRMONITORINFO structure is used in the IVMRMonitorConfig::GetAvailableMonitors method to set and retrieve information about monitors on the system (VMR-7 only).
 old-location: dshow\vmrmonitorinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 87567836-c01e-4615-a8e7-9ca590b6f7c9
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMRMONITORINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - VMRMONITORINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: VMRMONITORINFO
+req.redist: 
 req.product: Windows XP
 ---
 

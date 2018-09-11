@@ -4,17 +4,16 @@ title: IAMNetworkStatus::get_ReceivedPackets
 author: windows-sdk-content
 description: The get_ReceivedPackets method retrieves the number of packets that have been received.
 old-location: dshow\iamnetworkstatus_get_receivedpackets.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9437489d-87bf-45d4-82f3-22e8adb4df54
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_ReceivedPackets method, IAMNetworkStatus.get_ReceivedPackets, IAMNetworkStatus::get_ReceivedPackets, IAMNetworkStatusget_ReceivedPackets, dshow.iamnetworkstatus_get_receivedpackets, get_ReceivedPackets, get_ReceivedPackets method [DirectShow], get_ReceivedPackets method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_ReceivedPackets
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMNetworkStatus.get_ReceivedPackets
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMNetworkStatus::get_ReceivedPackets

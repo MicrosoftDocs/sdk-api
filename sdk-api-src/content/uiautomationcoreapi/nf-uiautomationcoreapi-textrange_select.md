@@ -4,17 +4,16 @@ title: TextRange_Select function
 author: windows-sdk-content
 description: Selects a text range.
 old-location: winauto\uiauto_TextRange_SelectConPat.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 9d781be6-9eed-4559-9c68-424eb6326ee9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TextRange_Select, TextRange_Select function [Windows Accessibility], uiauto.uiauto_TextRange_SelectConPat, uiauto_TextRange_SelectConPat, uiautomationcoreapi/TextRange_Select, winauto.uiauto_TextRange_SelectConPat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TextRange_Select
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TextRange_Select function

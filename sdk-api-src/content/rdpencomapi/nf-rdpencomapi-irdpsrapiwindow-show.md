@@ -4,17 +4,16 @@ title: IRDPSRAPIWindow::Show
 author: windows-sdk-content
 description: Brings the current window to the foreground.
 old-location: rdp\irdpsrapiwindow_show.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 6b7aa5e7-7981-41c4-bb47-30b3d0d54bc1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIWindow interface [RDP],Show method, IRDPSRAPIWindow.Show, IRDPSRAPIWindow::Show, Show, Show method [RDP], Show method [RDP],IRDPSRAPIWindow interface, rdp.irdpsrapiwindow_show, rdpencomapi/IRDPSRAPIWindow::Show
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPIWindow.Show
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIWindow::Show

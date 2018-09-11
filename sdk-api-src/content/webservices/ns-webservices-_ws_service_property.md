@@ -4,17 +4,16 @@ title: "_WS_SERVICE_PROPERTY"
 author: windows-sdk-content
 description: Specifies a service specific setting.
 old-location: wsw\ws_service_property.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: d25cab25-2227-4afe-ae45-93a229d7f78b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SERVICE_PROPERTY, WS_SERVICE_PROPERTY structure [Web Services for Windows], _WS_SERVICE_PROPERTY, webservices/WS_SERVICE_PROPERTY, wsw.ws_service_property
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SERVICE_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SERVICE_PROPERTY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SERVICE_PROPERTY
+req.redist: 
 ---
 
 # _WS_SERVICE_PROPERTY structure

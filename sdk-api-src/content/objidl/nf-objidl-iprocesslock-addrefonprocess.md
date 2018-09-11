@@ -4,17 +4,16 @@ title: IProcessLock::AddRefOnProcess
 author: windows-sdk-content
 description: Increments the reference count of the process.
 old-location: com\iprocesslock_addrefonprocess.htm
-old-project: com
+tech.root: com
 ms.assetid: 7c82273f-7303-45c2-92e2-48ffab094756
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddRefOnProcess, AddRefOnProcess method [COM], AddRefOnProcess method [COM],IProcessLock interface, IProcessLock interface [COM],AddRefOnProcess method, IProcessLock.AddRefOnProcess, IProcessLock::AddRefOnProcess, _com_iprocesslock_addrefonprocess, com.iprocesslock_addrefonprocess, objidl/IProcessLock::AddRefOnProcess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProcessLock.AddRefOnProcess
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IProcessLock::AddRefOnProcess

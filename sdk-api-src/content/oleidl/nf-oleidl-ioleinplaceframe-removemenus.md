@@ -4,17 +4,16 @@ title: IOleInPlaceFrame::RemoveMenus
 author: windows-sdk-content
 description: Removes a container's menu elements from the composite menu.
 old-location: com\ioleinplaceframe_removemenus.htm
-old-project: com
+tech.root: com
 ms.assetid: 92d9fcda-8ede-4f38-ad56-59c4a75fe45a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleInPlaceFrame interface [COM],RemoveMenus method, IOleInPlaceFrame.RemoveMenus, IOleInPlaceFrame::RemoveMenus, RemoveMenus, RemoveMenus method [COM], RemoveMenus method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_removemenus, com.ioleinplaceframe_removemenus, oleidl/IOleInPlaceFrame::RemoveMenus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceFrame.RemoveMenus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceFrame::RemoveMenus

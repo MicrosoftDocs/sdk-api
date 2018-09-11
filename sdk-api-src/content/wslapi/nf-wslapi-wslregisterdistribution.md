@@ -4,17 +4,16 @@ title: WslRegisterDistribution function
 author: windows-sdk-content
 description: Registers a new distribution with the Windows Subsystem for Linux (WSL).
 old-location: wsl\wslregisterdistribution.htm
-old-project: wsl
+tech.root: wsl
 ms.assetid: 34D5D38D-A155-42DE-9E9B-2BD7E414E4EC
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WslRegisterDistribution, WslRegisterDistribution function, wsl.wslregisterdistribution, wslapi/WslRegisterDistribution
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wslapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSL_DISTRIBUTION_FLAGS
+req.lib: Wslapi.lib
+req.dll: Api-ms-win-wsl-api-l1-1-0.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WslRegisterDistribution
 product: Windows
 targetos: Windows
-req.lib: Wslapi.lib
-req.dll: Api-ms-win-wsl-api-l1-1-0.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WslRegisterDistribution function

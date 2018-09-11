@@ -4,17 +4,16 @@ title: IAudioEndpointVolume::GetChannelCount
 author: windows-sdk-content
 description: The GetChannelCount method gets a count of the channels in the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_getchannelcount.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 83fd9afe-9bca-4569-a705-0e366b56522e
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetChannelCount, GetChannelCount method [Core Audio], GetChannelCount method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetChannelCount method, IAudioEndpointVolume.GetChannelCount, IAudioEndpointVolume::GetChannelCount, IAudioEndpointVolumeGetChannelCount, coreaudio.iaudioendpointvolume_getchannelcount, endpointvolume/IAudioEndpointVolume::GetChannelCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAudioEndpointVolume.GetChannelCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioEndpointVolume::GetChannelCount

@@ -4,17 +4,16 @@ title: IComResourceEvents::OnResourceRecycle
 author: windows-sdk-content
 description: Generated when an object is finished with a resource.
 old-location: cos\icomresourceevents_onresourcerecycle.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 615e0f73-2935-4ef3-94c9-5c74b5c82db4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceRecycle method, IComResourceEvents.OnResourceRecycle, IComResourceEvents::OnResourceRecycle, OnResourceRecycle, OnResourceRecycle method [COM+], OnResourceRecycle method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceRecycle, comsvcs/IComResourceEvents::OnResourceRecycle, cos.icomresourceevents_onresourcerecycle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComResourceEvents.OnResourceRecycle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComResourceEvents::OnResourceRecycle

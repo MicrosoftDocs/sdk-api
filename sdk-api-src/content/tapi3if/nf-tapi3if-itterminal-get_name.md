@@ -4,17 +4,16 @@ title: ITTerminal::get_Name
 author: windows-sdk-content
 description: The get_Name method gets a descriptive name of the terminal. The name must be usable to the user.
 old-location: tapi3\itterminal_get_name.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: ad3a44ff-ad63-4fd0-9cfd-c97c0cea6162
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_Name method, ITTerminal.get_Name, ITTerminal::get_Name, _tapi3_itterminal_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_name, tapi3if/ITTerminal::get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTerminal.get_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTerminal::get_Name

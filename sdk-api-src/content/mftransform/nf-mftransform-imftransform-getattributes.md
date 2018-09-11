@@ -4,17 +4,16 @@ title: IMFTransform::GetAttributes
 author: windows-sdk-content
 description: Gets the global attribute store for this Media Foundation transform (MFT).
 old-location: mf\imftransform_getattributes.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: cb3ba2bc-550c-43b4-a69c-b546f2b92acc
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetAttributes, GetAttributes method [Media Foundation], GetAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetAttributes method, IMFTransform.GetAttributes, IMFTransform::GetAttributes, cb3ba2bc-550c-43b4-a69c-b546f2b92acc, mf.imftransform_getattributes, mftransform/IMFTransform::GetAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTransform.GetAttributes
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTransform::GetAttributes

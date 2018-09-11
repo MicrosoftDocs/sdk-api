@@ -4,17 +4,16 @@ title: IAMDirectSound::SetFocusWindow
 author: windows-sdk-content
 description: The SetFocusWindow method specifies a window to handle sound playback.
 old-location: dshow\iamdirectsound_setfocuswindow.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3fc9dbb3-83bb-4c46-8ada-a7b7b8a784fe
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMDirectSound interface [DirectShow],SetFocusWindow method, IAMDirectSound.SetFocusWindow, IAMDirectSound::SetFocusWindow, IAMDirectSoundSetWindowFocus, SetFocusWindow, SetFocusWindow method [DirectShow], SetFocusWindow method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::SetFocusWindow, dshow.iamdirectsound_setfocuswindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKADDR_IRDA, *PSOCKADDR_IRDA, *LPSOCKADDR_IRDA
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAMDirectSound.SetFocusWindow
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMDirectSound::SetFocusWindow
@@ -63,9 +62,14 @@ The <code>SetFocusWindow</code> method specifies a window to handle sound playba
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

@@ -4,7 +4,7 @@ title: "_SCOPEDATAITEM"
 author: windows-sdk-content
 description: The SCOPEDATAITEM structure specifies items to be inserted into the scope pane.
 old-location: mmc\scopedataitem.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: c392f25c-80e7-4c91-9063-36143320b9aa
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCOPEDATAITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCOPEDATAITEM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SCOPEDATAITEM
+req.redist: 
 ---
 
 # _SCOPEDATAITEM structure

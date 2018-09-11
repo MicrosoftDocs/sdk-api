@@ -4,17 +4,16 @@ title: LoadIconMetric function
 author: windows-sdk-content
 description: Loads a specified icon resource with a client-specified system metric.
 old-location: controls\LoadIconMetric.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\loadiconmetric.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LIM_LARGE, LIM_SMALL, LoadIconMetric, LoadIconMetric function [Windows Controls], _shell_LoadIconMetric, _shell_LoadIconMetric_cpp, commctrl/LoadIconMetric, controls.LoadIconMetric, controls._shell_LoadIconMetric
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - LoadIconMetric
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: Comctl32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # LoadIconMetric function

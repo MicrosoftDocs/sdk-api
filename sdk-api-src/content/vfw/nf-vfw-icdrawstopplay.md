@@ -4,17 +4,16 @@ title: ICDrawStopPlay macro
 author: windows-sdk-content
 description: The ICDrawStopPlay macro notifies a rendering driver when a play operation is complete. You can use this macro or explicitly call the ICM_DRAW_STOP_PLAY message.
 old-location: multimedia\icdrawstopplay.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 41faa7cd-13c9-47bc-a62e-c09c7d3264d7
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICDrawStopPlay, ICDrawStopPlay macro [Windows Multimedia], _win32_ICDrawStopPlay, multimedia.icdrawstopplay, vfw/ICDrawStopPlay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDrawStopPlay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICDrawStopPlay macro

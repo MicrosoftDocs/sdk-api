@@ -4,17 +4,16 @@ title: INetFwRule::get_Name
 author: windows-sdk-content
 description: Specifies the friendly name of this rule.
 old-location: ics\inetfwrule_name.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 669ea684-5b00-4b60-8259-fad02cca572b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwRule interface [ICS/ICF],Name property, INetFwRule.Name, INetFwRule.get_Name, INetFwRule::Name, INetFwRule::get_Name, INetFwRule::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwRule interface, get_Name, ics.inetfwrule_name, netfw/INetFwRule::Name, netfw/INetFwRule::get_Name, netfw/INetFwRule::put_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwRule.put_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwRule::get_Name

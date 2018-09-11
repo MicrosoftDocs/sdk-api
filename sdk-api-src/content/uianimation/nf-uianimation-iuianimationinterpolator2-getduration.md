@@ -4,17 +4,16 @@ title: IUIAnimationInterpolator2::GetDuration
 author: windows-sdk-content
 description: Gets the duration of a transition for the given dimension.
 old-location: uianimation\iuianimationinterpolator2_getduration.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 962FAF0A-CFA9-4F0D-AADC-75B42E788151
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetDuration, GetDuration method [Windows Animation], GetDuration method [Windows Animation],IUIAnimationInterpolator2 interface, IUIAnimationInterpolator2 interface [Windows Animation],GetDuration method, IUIAnimationInterpolator2.GetDuration, IUIAnimationInterpolator2::GetDuration, uianimation.iuianimationinterpolator2_getduration, uianimation/IUIAnimationInterpolator2::GetDuration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationInterpolator2.GetDuration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationInterpolator2::GetDuration

@@ -4,7 +4,7 @@ title: "_DD_GETFLIPSTATUSDATA"
 author: windows-sdk-content
 description: The DD_GETFLIPSTATUSDATA structure returns the flip status information.
 old-location: display\dd_getflipstatusdata.htm
-old-project: display
+tech.root: display
 ms.assetid: da3b90e0-1a60-434b-966c-a7ebabff33ee
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_GETFLIPSTATUSDATA, DD_GETFLIPSTATUSDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_GETFLIPSTATUSDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_GETFLIPSTATUSDATA, DD_GETFLIPSTATUSDATA"
+req.redist: 
 ---
 
 # _DD_GETFLIPSTATUSDATA structure

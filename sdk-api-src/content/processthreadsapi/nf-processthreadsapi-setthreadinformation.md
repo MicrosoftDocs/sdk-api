@@ -4,17 +4,16 @@ title: SetThreadInformation function
 author: windows-sdk-content
 description: Sets information for the specified thread.
 old-location: base\setthreadinformation.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: c0159bea-870a-46b7-a350-91fe52efae49
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: SetThreadInformation, SetThreadInformation function, base.setthreadinformation, processthreadsapi/SetThreadInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - SetThreadInformation
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetThreadInformation function

@@ -4,17 +4,16 @@ title: IHeaderCtrl2::SetChangeTimeOut
 author: windows-sdk-content
 description: The IHeaderCtrl2::SetChangeTimeOut sets the time-out interval between the time a change takes place in the filter attributes and the posting of an MMCN_FILTER_CHANGE filter change notification, which is sent to the snap-in's IComponent::Notify method.
 old-location: mmc\iheaderctrl2_setchangetimeout.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 26a6a9bc-6556-4576-a810-d7c07c07cfd1
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IHeaderCtrl2 interface [MMC],SetChangeTimeOut method, IHeaderCtrl2.SetChangeTimeOut, IHeaderCtrl2::SetChangeTimeOut, SetChangeTimeOut, SetChangeTimeOut method [MMC], SetChangeTimeOut method [MMC],IHeaderCtrl2 interface, _slate_iheaderctrl2_setchangetimeout, mmc.iheaderctrl2_setchangetimeout, mmc/IHeaderCtrl2::SetChangeTimeOut
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IHeaderCtrl2.SetChangeTimeOut
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IHeaderCtrl2::SetChangeTimeOut

@@ -4,7 +4,7 @@ title: EMI_CHANNEL_MEASUREMENT_DATA
 author: windows-sdk-content
 description: The EMI_MEASUREMENT_DATA structure provides data about the current energy measurement and the time at which the measurement was taken.
 old-location: powermeter\emi_measurement_data.htm
-old-project: powermeter
+tech.root: powermeter
 ms.assetid: 5D8E8146-D6B4-427B-9B17-0FB4FB0372A8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: emi.h
 req.include-header: Emi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMI_CHANNEL_MEASUREMENT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EMI_MEASUREMENT_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EMI_CHANNEL_MEASUREMENT_DATA
+req.redist: 
 ---
 
 # EMI_CHANNEL_MEASUREMENT_DATA structure

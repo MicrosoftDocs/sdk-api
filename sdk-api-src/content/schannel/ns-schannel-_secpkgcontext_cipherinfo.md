@@ -4,17 +4,16 @@ title: "_SecPkgContext_CipherInfo"
 author: windows-sdk-content
 description: Cipher info structure. This is returned by SECPKG_ATTR_CIPHER_INFO ulAttribute from the QueryContextAttributes (Schannel) function.
 old-location: security\secpkgcontext_cipherinfo.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 204D3520-76B6-42C0-83A4-45769F66364A
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSecPkgContext_CipherInfo, PSecPkgContext_CipherInfo, PSecPkgContext_CipherInfo structure pointer [Security], SecPkgContext_CipherInfo, SecPkgContext_CipherInfo structure [Security], _SecPkgContext_CipherInfo, schannel/PSecPkgContext_CipherInfo, schannel/SecPkgContext_CipherInfo, security.secpkgcontext_cipherinfo"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_CipherInfo, *PSecPkgContext_CipherInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SecPkgContext_CipherInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SecPkgContext_CipherInfo, *PSecPkgContext_CipherInfo
+req.redist: 
 ---
 
 # _SecPkgContext_CipherInfo structure

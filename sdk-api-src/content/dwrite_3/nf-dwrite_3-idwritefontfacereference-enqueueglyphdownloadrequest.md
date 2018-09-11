@@ -4,17 +4,16 @@ title: IDWriteFontFaceReference::EnqueueGlyphDownloadRequest
 author: windows-sdk-content
 description: Adds a request to the font download queue (IDWriteFontDownloadQueue).
 old-location: directwrite\idwritefontfacereference_enqueueglyphdownloadrequest.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 4e35c011-8d5b-0bb5-fea2-4034b8e379aa
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: EnqueueGlyphDownloadRequest, EnqueueGlyphDownloadRequest method [Direct Write], EnqueueGlyphDownloadRequest method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],EnqueueGlyphDownloadRequest method, IDWriteFontFaceReference.EnqueueGlyphDownloadRequest, IDWriteFontFaceReference::EnqueueGlyphDownloadRequest, directwrite.idwritefontfacereference_enqueueglyphdownloadrequest, dwrite_3/IDWriteFontFaceReference::EnqueueGlyphDownloadRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFaceReference.EnqueueGlyphDownloadRequest
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFaceReference::EnqueueGlyphDownloadRequest

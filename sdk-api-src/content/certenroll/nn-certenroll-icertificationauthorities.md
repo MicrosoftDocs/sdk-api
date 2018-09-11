@@ -4,17 +4,16 @@ title: ICertificationAuthorities
 author: windows-sdk-content
 description: The ICertificationAuthorities interface defines the following methods and properties that manage a collection of ICertificationAuthority objects.
 old-location: security\icertificationauthorities.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 8dad280a-1fe7-4a4b-9392-eee3aa9bcde9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertificationAuthorities, ICertificationAuthorities interface [Security], ICertificationAuthorities interface [Security],described, certenroll/ICertificationAuthorities, security.icertificationauthorities
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: CertEnroll.dll
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertificationAuthorities
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificationAuthorities interface

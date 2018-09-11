@@ -4,17 +4,16 @@ title: PeerCollabUnsubscribeEndpointData function
 author: windows-sdk-content
 description: Removes a subscription to an endpoint created with PeerCollabSubscribeEndpointData.
 old-location: p2p\peercollabunsubscribeendpointdata.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: af07c7f5-bce2-4479-ad2a-8e501cfb6710
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerCollabUnsubscribeEndpointData, PeerCollabUnsubscribeEndpointData function [Peer Networking], p2p.peercollabunsubscribeendpointdata, p2p/PeerCollabUnsubscribeEndpointData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerCollabUnsubscribeEndpointData
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerCollabUnsubscribeEndpointData function

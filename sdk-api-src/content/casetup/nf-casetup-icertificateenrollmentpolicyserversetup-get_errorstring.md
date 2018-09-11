@@ -4,17 +4,16 @@ title: ICertificateEnrollmentPolicyServerSetup::get_ErrorString
 author: windows-sdk-content
 description: Retrieves a string that contains additional information about Certificate Enrollment Policy (CEP) Web Service setup failure.
 old-location: security\icertificateenrollmentpolicyserversetup_errorstring.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: CA9103BD-96CA-4FF3-B78D-A1F1345E58D3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ErrorString property [Security], ErrorString property [Security],ICertificateEnrollmentPolicyServerSetup interface, ICertificateEnrollmentPolicyServerSetup interface [Security],ErrorString property, ICertificateEnrollmentPolicyServerSetup.ErrorString, ICertificateEnrollmentPolicyServerSetup.get_ErrorString, ICertificateEnrollmentPolicyServerSetup::ErrorString, ICertificateEnrollmentPolicyServerSetup::get_ErrorString, casetup/ICertificateEnrollmentPolicyServerSetup::ErrorString, casetup/ICertificateEnrollmentPolicyServerSetup::get_ErrorString, get_ErrorString, security.icertificateenrollmentpolicyserversetup_errorstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertificateEnrollmentPolicyServerSetup.get_ErrorString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificateEnrollmentPolicyServerSetup::get_ErrorString

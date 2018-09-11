@@ -4,17 +4,16 @@ title: IFsrmFileScreenManager::get_ActionVariableDescriptions
 author: windows-sdk-content
 description: Retrieves the descriptions for the macros contained in the IFsrmFileScreenManager::ActionVariables property.
 old-location: fsrm\ifsrmfilescreenmanager_actionvariabledescriptions.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 93d7cc4d-3367-4fe2-8e4c-c12be6867d69
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: ActionVariableDescriptions property [File Server Resource Manager], ActionVariableDescriptions property [File Server Resource Manager],FsrmFileScreenManager class, ActionVariableDescriptions property [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],ActionVariableDescriptions property, IFsrmFileScreenManager interface [File Server Resource Manager],ActionVariableDescriptions property, IFsrmFileScreenManager.ActionVariableDescriptions, IFsrmFileScreenManager.get_ActionVariableDescriptions, IFsrmFileScreenManager::ActionVariableDescriptions, IFsrmFileScreenManager::get_ActionVariableDescriptions, fs.ifsrmfilescreenmanager_actionvariabledescriptions, fsrm.ifsrmfilescreenmanager_actionvariabledescriptions, fsrmscreen/IFsrmFileScreenManager::ActionVariableDescriptions, fsrmscreen/IFsrmFileScreenManager::get_ActionVariableDescriptions, get_ActionVariableDescriptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmFileScreenManager.ActionVariableDescriptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileScreenManager::get_ActionVariableDescriptions

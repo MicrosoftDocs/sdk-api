@@ -4,17 +4,16 @@ title: IWCWizard97Callback
 author: windows-sdk-content
 description: The IWCWizard97Callback interface is called by a Failover Cluster Administrator extension to add a Wizard97 property page to a Wizard97 wizard, such as the Cluster Application Wizard.
 old-location: mscs\iwcwizard97callback.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: cbde3bcf-8242-49dc-9ac0-a4b078ea526e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWCWizard97Callback, IWCWizard97Callback interface [Failover Cluster], IWCWizard97Callback interface [Failover Cluster],described, _wolf_iwcwizard97callback, cluadmex/IWCWizard97Callback, mscs.iwcwizard97callback
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWCWizard97Callback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWCWizard97Callback interface

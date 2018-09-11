@@ -4,17 +4,16 @@ title: IVdsSubSystem::ReplaceDrive
 author: windows-sdk-content
 description: Replaces or migrates one drive with another in the subsystem.
 old-location: base\ivdssubsystem_replacedrive.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 349fa2aa-94cd-4db0-9682-c39bcd9f9109
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsSubSystem interface [VDS],ReplaceDrive method, IVdsSubSystem.ReplaceDrive, IVdsSubSystem::ReplaceDrive, ReplaceDrive, ReplaceDrive method [VDS], ReplaceDrive method [VDS],IVdsSubSystem interface, base.ivdssubsystem_replacedrive, vds/IVdsSubSystem::ReplaceDrive, vdshwprv/IVdsSubSystem::ReplaceDrive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSubSystem.ReplaceDrive
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsSubSystem::ReplaceDrive

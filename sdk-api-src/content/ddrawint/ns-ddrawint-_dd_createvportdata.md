@@ -4,7 +4,7 @@ title: "_DD_CREATEVPORTDATA"
 author: windows-sdk-content
 description: The DD_CREATEVPORTDATA structure contains the information necessary to describe the video port extensions (VPE) object being created.
 old-location: display\dd_createvportdata.htm
-old-project: display
+tech.root: display
 ms.assetid: c4dea564-399a-46ee-ad71-7a374d6fbc0a
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_CREATEVPORTDATA, DD_CREATEVPORTDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_CREATEVPORTDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_CREATEVPORTDATA, DD_CREATEVPORTDATA"
+req.redist: 
 ---
 
 # _DD_CREATEVPORTDATA structure

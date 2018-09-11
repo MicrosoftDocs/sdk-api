@@ -4,17 +4,16 @@ title: ICustomDestinationList::CommitList
 author: windows-sdk-content
 description: Declares that the Jump List initiated by a call to ICustomDestinationList::BeginList is complete and ready for display.
 old-location: shell\ICustomDestinationList_CommitList.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5f9aa598-9a94-4210-84cd-f4b39e47b260
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CommitList, CommitList method [Windows Shell], CommitList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],CommitList method, ICustomDestinationList.CommitList, ICustomDestinationList::CommitList, _shell_ICustomDestinationList_CommitList, shell.ICustomDestinationList_CommitList, shobjidl_core/ICustomDestinationList::CommitList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.1 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICustomDestinationList.CommitList
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.1 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICustomDestinationList::CommitList

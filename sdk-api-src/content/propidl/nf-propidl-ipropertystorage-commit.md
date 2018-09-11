@@ -4,17 +4,16 @@ title: IPropertyStorage::Commit
 author: windows-sdk-content
 description: Saves changes made to a property storage object to the parent storage object.
 old-location: stg\ipropertystorage_commit.htm
-old-project: stg
+tech.root: Stg
 ms.assetid: 00efae8b-023e-425d-b7cd-c40c17d7948e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Commit, Commit method [Structured Storage], Commit method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],Commit, IPropertyStorage interface [Structured Storage],Commit method, IPropertyStorage.Commit, IPropertyStorage::Commit, _stg_ipropertystorage_commit, propidl/IPropertyStorage::Commit, stg.ipropertystorage_commit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propidl.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROFILEINFOW, *LPPROFILEINFOW
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyStorage.Commit
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyStorage::Commit

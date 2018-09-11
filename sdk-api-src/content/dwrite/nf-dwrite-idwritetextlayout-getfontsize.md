@@ -4,17 +4,16 @@ title: IDWriteTextLayout::GetFontSize
 author: windows-sdk-content
 description: Gets the font em height of the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetFontSize.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 31cf375a-d749-4af1-9470-73439fe6276e
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetFontSize, GetFontSize method [Direct Write], GetFontSize method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontSize method, IDWriteTextLayout.GetFontSize, IDWriteTextLayout::GetFontSize, directwrite.IDWriteTextLayout_GetFontSize, dwrite/IDWriteTextLayout::GetFontSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextLayout.GetFontSize
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextLayout::GetFontSize

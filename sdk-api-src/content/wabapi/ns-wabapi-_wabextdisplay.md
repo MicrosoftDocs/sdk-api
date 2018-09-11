@@ -4,17 +4,16 @@ title: "_WABEXTDISPLAY"
 author: windows-sdk-content
 description: Do not use. Used by the Windows Address Book (WAB) to initialize user's IContextMenu Interface and IShellPropSheetExt Interface implementations.
 old-location: wab\_wab_WABEXTDISPLAY.htm
-old-project: wab
+tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\wabextdisplay.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWABEXTDISPLAY, LPWABEXTDISPLAY, LPWABEXTDISPLAY structure pointer [Windows Address Book], WABEXTDISPLAY, WABEXTDISPLAY structure [Windows Address Book], WAB_CONTEXT_ADRLIST, WAB_DISPLAY_LDAPURL, _WABEXTDISPLAY, _wab_WABEXTDISPLAY, wab._wab_WABEXTDISPLAY, wabapi/LPWABEXTDISPLAY, wabapi/WABEXTDISPLAY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WABEXTDISPLAY, *LPWABEXTDISPLAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - WABEXTDISPLAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: WABEXTDISPLAY, *LPWABEXTDISPLAY
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

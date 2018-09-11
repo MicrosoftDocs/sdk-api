@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxStatus.get_Tsid
 title: IFaxStatus::get_Tsid
 author: windows-sdk-content
 description: Retrieves the Tsid property for the FaxStatus object of a parent FaxPort object. The Tsid property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the fax port.
-old-location: fax\_mfax_ifaxstatus_get_tsid_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_tsid_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_22p0.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxStatus object [Fax Service],Tsid property, FaxStatus.Tsid, IFaxStatus.get_Tsid, IFaxStatus::get_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_tsid, fax._mfax_ifaxstatus_get_tsid, fax._mfax_ifaxstatus_get_tsid_vb, get_Tsid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxStatus interface [Fax Service],Tsid property, IFaxStatus.Tsid, IFaxStatus.get_Tsid, IFaxStatus::Tsid, IFaxStatus::get_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_tsid, fax._mfax_ifaxstatus_get_tsid, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_tsid_cpp, faxcom/IFaxStatus::Tsid, faxcom/IFaxStatus::get_Tsid, get_Tsid
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxStatus.Tsid
+ - IFaxStatus.Tsid
+ - IFaxStatus.get_Tsid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxStatus::get_Tsid
@@ -81,10 +80,6 @@ The <b>IFaxStatus::get_Tsid</b> method allocates the memory required for the buf
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms690310(v=VS.85).aspx">FaxStatus</a>
 
 
 

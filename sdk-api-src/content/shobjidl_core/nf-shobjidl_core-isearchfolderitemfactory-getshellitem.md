@@ -4,17 +4,16 @@ title: ISearchFolderItemFactory::GetShellItem
 author: windows-sdk-content
 description: Gets the search folder as a IShellItem.
 old-location: shell\ISearchFolderItemFactory_GetShellItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fc5dd159-8a47-479f-b087-bd161093d0a0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetShellItem, GetShellItem method [Windows Shell], GetShellItem method [Windows Shell],ISearchFolderItemFactory interface, ISearchFolderItemFactory interface [Windows Shell],GetShellItem method, ISearchFolderItemFactory.GetShellItem, ISearchFolderItemFactory::GetShellItem, _shell_ISearchFolderItemFactory_GetShellItem, shell.ISearchFolderItemFactory_GetShellItem, shobjidl_core/ISearchFolderItemFactory::GetShellItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchFolderItemFactory.GetShellItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchFolderItemFactory::GetShellItem

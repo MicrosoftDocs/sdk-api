@@ -4,17 +4,16 @@ title: IWICComponentInfo::GetVersion
 author: windows-sdk-content
 description: Retrieves the component's version.
 old-location: wic\_wic_codec_iwiccomponentinfo_getversion.htm
-old-project: wic
+tech.root: wic
 ms.assetid: f65d13ae-ccec-49a8-8818-225464b3a117
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetVersion, GetVersion method [Windows Imaging Component], GetVersion method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetVersion method, IWICComponentInfo.GetVersion, IWICComponentInfo::GetVersion, _wic_codec_iwiccomponentinfo_getversion, wic._wic_codec_iwiccomponentinfo_getversion, wincodec/IWICComponentInfo::GetVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICComponentInfo.GetVersion
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICComponentInfo::GetVersion

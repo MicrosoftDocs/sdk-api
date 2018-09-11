@@ -4,17 +4,16 @@ title: TSPI_lineCloseCall function
 author: windows-sdk-content
 description: The TSPI_lineCloseCall function deallocates the call after completing or aborting all outstanding asynchronous operations on the call.
 old-location: tspi\tspi_lineclosecall.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 86f5490c-8401-4235-8ddd-313794bd5bf1
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineCloseCall, TSPI_lineCloseCall function [TAPI 2.2], _tspi_tspi_lineclosecall, tspi.tspi_lineclosecall, tspi/TSPI_lineCloseCall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineCloseCall
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineCloseCall function

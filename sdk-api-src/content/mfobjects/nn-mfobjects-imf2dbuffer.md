@@ -4,7 +4,7 @@ title: IMF2DBuffer
 author: windows-sdk-content
 description: Represents a buffer that contains a two-dimensional surface, such as a video frame.
 old-location: mf\imf2dbuffer.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 80eb23db-a7c0-4dbe-97d8-0dc07a34d8f7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMF2DBuffer
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMF2DBuffer interface

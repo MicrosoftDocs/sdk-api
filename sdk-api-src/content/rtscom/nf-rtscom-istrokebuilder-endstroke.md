@@ -4,17 +4,16 @@ title: IStrokeBuilder::EndStroke
 author: windows-sdk-content
 description: Ends a stroke and returns the stroke object.
 old-location: tablet\istrokebuilder_endstroke.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: a535cd20-d24a-4044-a757-fb2b593650b9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: EndStroke, EndStroke method [Tablet PC], EndStroke method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],EndStroke method, IStrokeBuilder.EndStroke, IStrokeBuilder::EndStroke, a535cd20-d24a-4044-a757-fb2b593650b9, rtscom/IStrokeBuilder::EndStroke, tablet.istrokebuilder_endstroke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStrokeBuilder.EndStroke
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStrokeBuilder::EndStroke

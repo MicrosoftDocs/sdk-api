@@ -4,7 +4,7 @@ title: LOCATION_REPORT_STATUS
 author: windows-sdk-content
 description: Defines possible status for new reports of a particular report type.
 old-location: winlocation_com_ref\location_report_status.htm
-old-project: locationapi
+tech.root: locationapi
 ms.assetid: 440e64cb-d09c-47cd-9434-8d4479fa52e2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: locationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only],Windows 7
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: UnloadPerfCounterTextStringsW (Unicode) and UnloadPerfCounterTextStringsA (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCATION_REPORT_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LOCATION_REPORT_STATUS
 product: Windows
 targetos: Windows
-req.lib: Loadperf.lib
-req.dll: Loadperf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: LOCATION_REPORT_STATUS
+req.redist: 
 ---
 
 # LOCATION_REPORT_STATUS enumeration

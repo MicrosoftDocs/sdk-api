@@ -4,17 +4,16 @@ title: DXGI_ADAPTER_DESC3
 author: windows-sdk-content
 description: Describes an adapter (or video card) that uses Microsoft DirectX Graphics Infrastructure (DXGI) 1.6.
 old-location: direct3ddxgi\dxgi_adapter_desc3.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: A04B37C9-9F83-4812-AAF6-14FA49976051
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: DXGI_ADAPTER_DESC3, DXGI_ADAPTER_DESC3 structure [DXGI], direct3ddxgi.dxgi_adapter_desc3, dxgi1_6/DXGI_ADAPTER_DESC3
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi1_6.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_ADAPTER_DESC3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_ADAPTER_DESC3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_ADAPTER_DESC3
+req.redist: 
 ---
 
 # DXGI_ADAPTER_DESC3 structure

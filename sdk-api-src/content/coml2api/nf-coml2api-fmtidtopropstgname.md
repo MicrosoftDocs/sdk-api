@@ -4,17 +4,16 @@ title: FmtIdToPropStgName function
 author: windows-sdk-content
 description: Converts a property set format identifier (FMTID) to its storage or stream name.
 old-location: stg\fmtidtopropstgname.htm
-old-project: stg
+tech.root: Stg
 ms.assetid: 044f8883-bbd2-4cd3-b9dc-739ecb711bdd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FmtIdToPropStgName, FmtIdToPropStgName function [Structured Storage], _stg_fmtidtopropstgname, coml2api/FmtIdToPropStgName, stg.fmtidtopropstgname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Propidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - FmtIdToPropStgName
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # FmtIdToPropStgName function

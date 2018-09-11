@@ -4,17 +4,16 @@ title: RegisterWaitForSingleObject function
 author: windows-sdk-content
 description: Directs a wait thread in the thread pool to wait on the object.
 old-location: base\registerwaitforsingleobject.htm
-old-project: sync
+tech.root: Sync
 ms.assetid: d0cd8b28-6e20-449a-94dd-cca2be46b812
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: RegisterWaitForSingleObject, RegisterWaitForSingleObject function, WT_EXECUTEDEFAULT, WT_EXECUTEINIOTHREAD, WT_EXECUTEINPERSISTENTTHREAD, WT_EXECUTEINWAITTHREAD, WT_EXECUTELONGFUNCTION, WT_EXECUTEONLYONCE, WT_TRANSFER_IMPERSONATION, _win32_registerwaitforsingleobject, base.registerwaitforsingleobject, winbase/RegisterWaitForSingleObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - RegisterWaitForSingleObject
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # RegisterWaitForSingleObject function

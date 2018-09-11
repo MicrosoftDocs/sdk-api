@@ -4,17 +4,16 @@ title: "_CRYPT_XML_KEY_INFO_ITEM"
 author: windows-sdk-content
 description: Encapsulates key information data that corresponds to a KeyInfo element. The KeyInfo element enables the recipient to obtain the key needed to validate the signature.
 old-location: security\crypt_xml_key_info_item.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 3fbb1623-d493-49f1-a004-74ec8d22520e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_XML_KEYINFO_TYPE_CUSTOM, CRYPT_XML_KEYINFO_TYPE_KEYNAME, CRYPT_XML_KEYINFO_TYPE_KEYVALUE, CRYPT_XML_KEYINFO_TYPE_RETRIEVAL, CRYPT_XML_KEYINFO_TYPE_X509DATA, CRYPT_XML_KEY_INFO_ITEM, CRYPT_XML_KEY_INFO_ITEM structure [Security], _CRYPT_XML_KEY_INFO_ITEM, cryptxml/CRYPT_XML_KEY_INFO_ITEM, security.crypt_xml_key_info_item
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_KEY_INFO_ITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_KEY_INFO_ITEM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_KEY_INFO_ITEM
+req.redist: 
 ---
 
 # _CRYPT_XML_KEY_INFO_ITEM structure

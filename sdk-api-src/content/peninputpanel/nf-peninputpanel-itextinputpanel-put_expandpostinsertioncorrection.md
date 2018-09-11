@@ -4,17 +4,16 @@ title: ITextInputPanel::put_ExpandPostInsertionCorrection
 author: windows-sdk-content
 description: Gets or sets a value that indicates whether the correction comb on the Tablet PC Input Panel is automatically expanded.
 old-location: tablet\itextinputpanel_expandpostinsertioncorrection.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: fda9ac46-7aa0-4991-94df-d71772b90726
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: ExpandPostInsertionCorrection property [Tablet PC], ExpandPostInsertionCorrection property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],ExpandPostInsertionCorrection property, ITextInputPanel.ExpandPostInsertionCorrection, ITextInputPanel.get_ExpandPostInsertionCorrection, ITextInputPanel.put_ExpandPostInsertionCorrection, ITextInputPanel::ExpandPostInsertionCorrection, ITextInputPanel::get_ExpandPostInsertionCorrection, ITextInputPanel::put_ExpandPostInsertionCorrection, fda9ac46-7aa0-4991-94df-d71772b90726, peninputpanel/ITextInputPanel::ExpandPostInsertionCorrection, peninputpanel/ITextInputPanel::get_ExpandPostInsertionCorrection, peninputpanel/ITextInputPanel::put_ExpandPostInsertionCorrection, put_ExpandPostInsertionCorrection, tablet.itextinputpanel_expandpostinsertioncorrection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - ITextInputPanel.put_ExpandPostInsertionCorrection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanel::put_ExpandPostInsertionCorrection

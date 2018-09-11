@@ -4,17 +4,16 @@ title: "_BCRYPT_MULTI_OBJECT_LENGTH_STRUCT"
 author: windows-sdk-content
 description: The BCRYPT_MULTI_OBJECT_LENGTH_STRUCT structure contains information to determine the size of the pbHashObject buffer for the BCryptCreateMultiHash function.
 old-location: security\bcrypt_multi_object_length_struct.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: CA85EA5A-4FAD-4896-BAD3-1D4C1CBD4735
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCRYPT_MULTI_OBJECT_LENGTH_STRUCT, BCRYPT_MULTI_OBJECT_LENGTH_STRUCT structure [Security], _BCRYPT_MULTI_OBJECT_LENGTH_STRUCT, bcrypt/BCRYPT_MULTI_OBJECT_LENGTH_STRUCT, security.bcrypt_multi_object_length_struct
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 Update [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 Update [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_MULTI_OBJECT_LENGTH_STRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_MULTI_OBJECT_LENGTH_STRUCT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_MULTI_OBJECT_LENGTH_STRUCT
+req.redist: 
 ---
 
 # _BCRYPT_MULTI_OBJECT_LENGTH_STRUCT structure

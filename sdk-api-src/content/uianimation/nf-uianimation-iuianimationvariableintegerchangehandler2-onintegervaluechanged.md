@@ -4,17 +4,16 @@ title: IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged
 author: windows-sdk-content
 description: Handles events that occur when the integer value of an animation variable changes in the specified dimension.
 old-location: uianimation\iuianimationvariableintegerchangehandler2_onintegervaluechanged.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 76889784-BF1B-475B-8D84-201BEE6F0594
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation],OnIntegerValueChanged method, IUIAnimationVariableIntegerChangeHandler2.OnIntegerValueChanged, IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged, OnIntegerValueChanged, OnIntegerValueChanged method [Windows Animation], OnIntegerValueChanged method [Windows Animation],IUIAnimationVariableIntegerChangeHandler2 interface, uianimation.iuianimationvariableintegerchangehandler2_onintegervaluechanged, uianimation/IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationVariableIntegerChangeHandler2.OnIntegerValueChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged

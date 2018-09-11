@@ -4,7 +4,7 @@ title: "_SCOPE_MIB_INFO_V5"
 author: windows-sdk-content
 description: Contains information about a specific DHCP scope.
 old-location: dhcp\scope_mib_info_v5.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 5144d83e-f21e-4f68-bf33-c7245b31da01
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCOPE_MIB_INFO_V5, *LPSCOPE_MIB_INFO_V5
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SCOPE_MIB_INFO_V5
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SCOPE_MIB_INFO_V5, *LPSCOPE_MIB_INFO_V5
+req.redist: 
 ---
 
 # _SCOPE_MIB_INFO_V5 structure

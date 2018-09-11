@@ -4,17 +4,16 @@ title: DhcpEnumSubnets function
 author: windows-sdk-content
 description: The DhcpEnumSubnets function returns an enumerated list of subnets defined on the DHCP server.
 old-location: dhcp\dhcpenumsubnets.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 333381c9-66d1-44ef-911b-d543c79abefb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpEnumSubnets, DhcpEnumSubnets function [DHCP], dhcp.dhcpenumsubnets, dhcpsapi/DhcpEnumSubnets
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpEnumSubnets
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpEnumSubnets function

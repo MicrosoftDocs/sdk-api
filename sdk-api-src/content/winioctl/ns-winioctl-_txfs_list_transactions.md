@@ -4,7 +4,7 @@ title: "_TXFS_LIST_TRANSACTIONS"
 author: windows-sdk-content
 description: Contains a list of transactions.
 old-location: fs\txfs_list_transactions.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 4c5ec2eb-f0d9-4603-96d5-1a53e56e97b8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TXFS_LIST_TRANSACTIONS, *PTXFS_LIST_TRANSACTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TXFS_LIST_TRANSACTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: TXFS_LIST_TRANSACTIONS, *PTXFS_LIST_TRANSACTIONS
+req.redist: 
 ---
 
 # _TXFS_LIST_TRANSACTIONS structure

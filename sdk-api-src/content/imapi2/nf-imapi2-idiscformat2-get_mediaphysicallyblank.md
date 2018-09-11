@@ -4,17 +4,16 @@ title: IDiscFormat2::get_MediaPhysicallyBlank
 author: windows-sdk-content
 description: Determines if the current media is reported as physically blank by the drive.
 old-location: imapi\idiscformat2_get_mediaphysicallyblank.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 5a797742-9142-415b-896b-09526894c2a6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],get_MediaPhysicallyBlank method, IDiscFormat2.get_MediaPhysicallyBlank, IDiscFormat2::get_MediaPhysicallyBlank, get_MediaPhysicallyBlank, get_MediaPhysicallyBlank method [IMAPI], get_MediaPhysicallyBlank method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_get_mediaphysicallyblank, imapi2/IDiscFormat2::get_MediaPhysicallyBlank
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2.get_MediaPhysicallyBlank
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2::get_MediaPhysicallyBlank

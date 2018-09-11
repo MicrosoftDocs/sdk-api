@@ -4,17 +4,16 @@ title: "_NETLOGON_INFO_4"
 author: windows-sdk-content
 description: Defines a level-4 control query response from a domain controller.
 old-location: winprog\netlogon_info_4.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 6a0ffd68-149f-4d5d-8a8a-69f429ca135a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PNETLOGON_INFO_4, NETLOGON_INFO_4, NETLOGON_INFO_4 structure [Windows API], PNETLOGON_INFO_4, PNETLOGON_INFO_4 structure pointer [Windows API], _NETLOGON_INFO_4, lmaccess/NETLOGON_INFO_4, lmaccess/PNETLOGON_INFO_4, winprog.netlogon_info_4"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETLOGON_INFO_4, *PNETLOGON_INFO_4
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NETLOGON_INFO_4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NETLOGON_INFO_4, *PNETLOGON_INFO_4
+req.redist: 
 ---
 
 # _NETLOGON_INFO_4 structure

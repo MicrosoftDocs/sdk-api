@@ -4,17 +4,16 @@ title: IDCompositionLinearTransferEffect::SetAlphaDisable
 author: windows-sdk-content
 description: Specifies whether to apply the transfer function to the alpha channel.
 old-location: directcomp\idcompositionlineartransfereffect_setalphadisable.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: B0D76D35-FDB8-45CA-8D41-8D6C9597ED1B
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetAlphaDisable method, IDCompositionLinearTransferEffect.SetAlphaDisable, IDCompositionLinearTransferEffect::SetAlphaDisable, SetAlphaDisable, SetAlphaDisable method [DirectComposition], SetAlphaDisable method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetAlphaDisable, directcomp.idcompositionlineartransfereffect_setalphadisable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionLinearTransferEffect.SetAlphaDisable
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionLinearTransferEffect::SetAlphaDisable

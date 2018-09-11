@@ -4,7 +4,7 @@ title: "_ASF_INDEX_IDENTIFIER"
 author: windows-sdk-content
 description: Specifies an index for the ASF indexer object.
 old-location: mf\asf_index_identifier.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8103a62e-6d1a-4dcd-af91-cedb30523004
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASF_INDEX_IDENTIFIER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ASF_INDEX_IDENTIFIER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ASF_INDEX_IDENTIFIER
+req.redist: 
 ---
 
 # _ASF_INDEX_IDENTIFIER structure

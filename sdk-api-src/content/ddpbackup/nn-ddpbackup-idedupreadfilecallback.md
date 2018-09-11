@@ -4,7 +4,7 @@ title: IDedupReadFileCallback
 author: windows-sdk-content
 description: A callback interface, implemented by backup applications, that enables Data Deduplication to read content from metadata and container files residing in a backup store and optionally improve restore efficiency.
 old-location: dedup\idedupreadfilecallback.htm
-old-project: dedup
+tech.root: dedup
 ms.assetid: 0B7F5A5B-EB60-4BAF-86AF-D9101F3B482C
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ddpbackup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_BACKUP_SUPPORT_PARAM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDedupReadFileCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDedupReadFileCallback interface

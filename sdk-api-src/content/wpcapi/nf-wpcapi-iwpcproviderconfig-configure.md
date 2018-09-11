@@ -4,17 +4,16 @@ title: IWPCProviderConfig::Configure
 author: windows-sdk-content
 description: Called for the current provider when you click a user tile in the Parental Controls Control Panel. This method allows for changes to the configuration.
 old-location: parcon\iwpcproviderconfig_configure.htm
-old-project: parcon
+tech.root: parcon
 ms.assetid: a2853259-4fc5-47e7-a77e-0ea4024ee00c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Configure, Configure method, Configure method,IWPCProviderConfig interface, IWPCProviderConfig interface,Configure method, IWPCProviderConfig.Configure, IWPCProviderConfig::Configure, parcon.iwpcproviderconfig_configure, wpcapi/IWPCProviderConfig::Configure
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWPCProviderConfig.Configure
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWPCProviderConfig::Configure

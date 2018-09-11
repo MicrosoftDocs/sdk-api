@@ -4,17 +4,16 @@ title: ITocParser::RemoveTocByIndex
 author: windows-sdk-content
 description: The RemoveTocByIndex method removes a table of contents, specified by an index, from the TOC Parser object.
 old-location: mf\itocparser_removetocbyindex.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7ec459bf-c631-4ad4-beb3-4cd1e89c1d35
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ITocParser interface [Media Foundation],RemoveTocByIndex method, ITocParser.RemoveTocByIndex, ITocParser::RemoveTocByIndex, RemoveTocByIndex, RemoveTocByIndex method [Media Foundation], RemoveTocByIndex method [Media Foundation],ITocParser interface, codecapi.itocparser_removetocbyindex, mf.itocparser_removetocbyindex, wmcodecdsp/ITocParser::RemoveTocByIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITocParser.RemoveTocByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ITocParser::RemoveTocByIndex
@@ -60,9 +58,9 @@ The <b>RemoveTocByIndex</b> method removes a table of contents, specified by an 
 
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param dwTocIndex [in]

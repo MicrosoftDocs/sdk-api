@@ -4,17 +4,16 @@ title: IGroupPolicyObject::GetFileSysPath
 author: windows-sdk-content
 description: The GetFileSysPath method retrieves the file system path to the root of the specified GPO section. The path is in UNC format.
 old-location: policy\igrouppolicyobject_getfilesyspath.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 9f0837ff-31bb-4eaa-82e4-ef127f8e605a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetFileSysPath, GetFileSysPath method [Group Policy], GetFileSysPath method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetFileSysPath method, IGroupPolicyObject.GetFileSysPath, IGroupPolicyObject::GetFileSysPath, _win32_igrouppolicyobject_getfilesyspath, gpedit/IGroupPolicyObject::GetFileSysPath, policy.igrouppolicyobject_getfilesyspath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGroupPolicyObject.GetFileSysPath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpedit.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGroupPolicyObject::GetFileSysPath

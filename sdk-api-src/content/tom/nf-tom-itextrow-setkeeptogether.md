@@ -4,17 +4,16 @@ title: ITextRow::SetKeepTogether
 author: windows-sdk-content
 description: Sets whether this row is allowed to be broken across pages.
 old-location: controls\itextrow_setkeeptogether.htm
-old-project: controls
+tech.root: controls
 ms.assetid: ca2130b4-3e29-43d7-b03d-a6c45897e447
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRow interface [Windows Controls],SetKeepTogether method, ITextRow.SetKeepTogether, ITextRow::SetKeepTogether, SetKeepTogether, SetKeepTogether method [Windows Controls], SetKeepTogether method [Windows Controls],ITextRow interface, controls.itextrow_setkeeptogether, tom/ITextRow::SetKeepTogether
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRow.SetKeepTogether
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRow::SetKeepTogether

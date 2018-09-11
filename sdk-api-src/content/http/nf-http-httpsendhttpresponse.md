@@ -4,17 +4,16 @@ title: HttpSendHttpResponse function
 author: windows-sdk-content
 description: Sends an HTTP response to the specified HTTP request.
 old-location: http\httpsendhttpresponse.htm
-old-project: http
+tech.root: http
 ms.assetid: 0183584f-105e-4fa3-8991-d3f2dfca1d62
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HTTP_SEND_RESPONSE_FLAG_BUFFER_DATA, HTTP_SEND_RESPONSE_FLAG_DISCONNECT, HTTP_SEND_RESPONSE_FLAG_ENABLE_NAGLING, HTTP_SEND_RESPONSE_FLAG_MORE_DATA, HTTP_SEND_RESPONSE_FLAG_OPAQUE, HTTP_SEND_RESPONSE_FLAG_PROCESS_RANGES, HttpSendHttpResponse, HttpSendHttpResponse function [HTTP], _http_httpsendhttpresponse, http.httpsendhttpresponse, http/HttpSendHttpResponse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERB, *PHTTP_VERB
+req.lib: Httpapi.lib
+req.dll: Httpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HttpSendHttpResponse
 product: Windows
 targetos: Windows
-req.lib: Httpapi.lib
-req.dll: Httpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HttpSendHttpResponse function

@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::GetOverlayPosition
 author: windows-sdk-content
 description: Retrieves the display coordinates of this surface. This method is used on a visible, active overlay surface (that is, a surface that has the DDSCAPS_OVERLAY flag set).
 old-location: directdraw\idirectdrawsurface7_getoverlayposition.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 008502f7-468f-4d79-a309-75ebdbe29ff3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetOverlayPosition, GetOverlayPosition method [DirectDraw], GetOverlayPosition method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetOverlayPosition method, IDirectDrawSurface7.GetOverlayPosition, IDirectDrawSurface7::GetOverlayPosition, ddraw/IDirectDrawSurface7::GetOverlayPosition, directdraw.idirectdrawsurface7_getoverlayposition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.GetOverlayPosition
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::GetOverlayPosition
@@ -59,9 +58,14 @@ Retrieves the display coordinates of this surface. This method is used on a visi
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

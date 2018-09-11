@@ -4,17 +4,16 @@ title: PREGISTER_PROTOCOL
 author: windows-sdk-content
 description: The RegisterProtocol function registers the routing protocol with the router manager. It also informs the router manager of the functionality that the routing protocol supports.
 old-location: rras\registerprotocol.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: b9027ef9-e573-4df0-b37e-d09956c1f8ee
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PREGISTER_PROTOCOL, PREGISTER_PROTOCOL callback, RegisterProtocol, RegisterProtocol callback function [RAS], _mpr_registerprotocol, routprot/RegisterProtocol, rras.registerprotocol
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RegisterProtocol
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PREGISTER_PROTOCOL callback function

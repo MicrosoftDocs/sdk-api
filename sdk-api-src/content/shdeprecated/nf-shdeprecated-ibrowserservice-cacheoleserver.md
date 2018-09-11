@@ -4,17 +4,16 @@ title: IBrowserService::CacheOLEServer
 author: windows-sdk-content
 description: Deprecated. Caches a reference to an external object to avoid reloading the server on reuse.
 old-location: shell\IBrowserService_CacheOLEServer.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8999e7d7-f29d-4fc8-8f1f-7a8e8b8f45e6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CacheOLEServer, CacheOLEServer method [Windows Shell], CacheOLEServer method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],CacheOLEServer method, IBrowserService.CacheOLEServer, IBrowserService::CacheOLEServer, shdeprecated/IBrowserService::CacheOLEServer, shell.IBrowserService_CacheOLEServer, zone_IBrowserService_CacheOLEServer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService.CacheOLEServer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

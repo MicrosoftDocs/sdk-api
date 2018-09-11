@@ -4,7 +4,7 @@ title: IAMAsyncReaderTimestampScaling
 author: windows-sdk-content
 description: Enables a pull-mode source filter to support larger file sizes.
 old-location: dshow\iamasyncreadertimestampscaling.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 159ed107-383d-4a1a-b172-f2e339d6bc83
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMAsyncReaderTimestampScaling
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMAsyncReaderTimestampScaling interface

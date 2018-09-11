@@ -4,17 +4,16 @@ title: IMcastLeaseInfo::put_LeaseStopTime
 author: windows-sdk-content
 description: The put_LeaseStopTime method sets the stop time of the lease. This method, along with put_LeaseStartTime, allows you to renew a lease without calling IMcastAddressAllocation::CreateLeaseInfo.
 old-location: tapi3\imcastleaseinfo_put_leasestoptime.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: dd171ebe-c436-46cf-9a4a-31f22acbaab2
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],put_LeaseStopTime method, IMcastLeaseInfo.put_LeaseStopTime, IMcastLeaseInfo::put_LeaseStopTime, _tapi3_imcastleaseinfo_put_leasestoptime, mdhcp/IMcastLeaseInfo::put_LeaseStopTime, put_LeaseStopTime, put_LeaseStopTime method [TAPI 2.2], put_LeaseStopTime method [TAPI 2.2],IMcastLeaseInfo interface, tapi3.imcastleaseinfo_put_leasestoptime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMcastLeaseInfo.put_LeaseStopTime
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Mdhcp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMcastLeaseInfo::put_LeaseStopTime

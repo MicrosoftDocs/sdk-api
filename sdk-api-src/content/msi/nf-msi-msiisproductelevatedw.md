@@ -4,17 +4,16 @@ title: MsiIsProductElevatedW function
 author: windows-sdk-content
 description: The MsiIsProductElevated function returns whether or not the product is managed.
 old-location: setup\msiisproductelevated.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 1bf6616c-3d5a-45c9-ab69-c0bb41b3e067
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MsiIsProductElevated, MsiIsProductElevated function, MsiIsProductElevatedA, MsiIsProductElevatedW, _msi_msiisproductelevated, msi/MsiIsProductElevated, msi/MsiIsProductElevatedA, msi/MsiIsProductElevatedW, setup.msiisproductelevated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MsiIsProductElevatedW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiIsProductElevatedW function

@@ -4,17 +4,16 @@ title: IX509EndorsementKey::Open
 author: windows-sdk-content
 description: Opens the endorsement key. The endorsement key must be open before you can retrieve an information from the endorsement key, add or remove certificates, or export the endorsement key.
 old-location: security\ix509endorsementkey_open.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 06855fc0-0d87-4fe7-9525-55eb60bffcd1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509EndorsementKey interface [Security],Open method, IX509EndorsementKey.Open, IX509EndorsementKey::Open, Open, Open method [Security], Open method [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::Open, security.ix509endorsementkey_open
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509EndorsementKey.Open
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509EndorsementKey::Open

@@ -4,17 +4,16 @@ title: IUPnPServices
 author: windows-sdk-content
 description: The IUPnPServices interface enumerates a collection of services.
 old-location: upnp\iupnpservices.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 8d5e487f-d2d4-4603-918c-e751d698be3c
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPServices, IUPnPServices interface [UPnP APIs], IUPnPServices interface [UPnP APIs],described, _upnp_iupnpservices, upnp.iupnpservices, upnp/IUPnPServices
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUPnPServices.This interface has no methods.
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPServices interface

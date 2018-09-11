@@ -4,17 +4,16 @@ title: FtpGetCurrentDirectoryW function
 author: windows-sdk-content
 description: Retrieves the current directory for the specified FTP session.
 old-location: wininet\ftpgetcurrentdirectory.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 1b757061-469b-4c11-9d0d-38b300216221
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: FtpGetCurrentDirectory, FtpGetCurrentDirectory function [WinINet], FtpGetCurrentDirectoryA, FtpGetCurrentDirectoryW, _inet_ftpgetcurrentdirectory_function, wininet.ftpgetcurrentdirectory, wininet/FtpGetCurrentDirectory, wininet/FtpGetCurrentDirectoryA, wininet/FtpGetCurrentDirectoryW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FtpGetCurrentDirectoryW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FtpGetCurrentDirectoryW function

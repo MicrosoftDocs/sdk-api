@@ -4,17 +4,16 @@ title: IMFVideoDeviceID::GetDeviceID
 author: windows-sdk-content
 description: Returns the identifier of the video device supported by an EVR mixer or presenter.
 old-location: mf\imfvideodeviceid_getdeviceid.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e23ebce0-be58-413a-ab71-d94811c96029
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetDeviceID, GetDeviceID method [Media Foundation], GetDeviceID method [Media Foundation],IMFVideoDeviceID interface, IMFVideoDeviceID interface [Media Foundation],GetDeviceID method, IMFVideoDeviceID.GetDeviceID, IMFVideoDeviceID::GetDeviceID, e23ebce0-be58-413a-ab71-d94811c96029, evr/IMFVideoDeviceID::GetDeviceID, mf.imfvideodeviceid_getdeviceid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoDeviceID.GetDeviceID
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoDeviceID::GetDeviceID

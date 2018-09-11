@@ -4,7 +4,7 @@ title: tagTCKEYDOWN
 author: windows-sdk-content
 description: Contains information about a key press in a tab control. It is used with the TCN_KEYDOWN notification code. This structure supersedes the TC_KEYDOWN structure.
 old-location: controls\NMTCKEYDOWN.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\tab\structures\nmtckeydown.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NMTCKEYDOWN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - NMTCKEYDOWN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: NMTCKEYDOWN
+req.redist: 
 ---
 
 # tagTCKEYDOWN structure

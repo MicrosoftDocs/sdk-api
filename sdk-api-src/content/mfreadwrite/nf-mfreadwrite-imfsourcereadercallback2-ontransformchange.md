@@ -4,17 +4,16 @@ title: IMFSourceReaderCallback2::OnTransformChange
 author: windows-sdk-content
 description: Called when the transform chain in the IMFSourceReader is built or modified.
 old-location: mf\imfsourcereadercallback2_ontransformchange.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 84A4154C-574C-4B78-A83B-2EE036C0A68D
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFSourceReaderCallback2 interface [Media Foundation],OnTransformChange method, IMFSourceReaderCallback2.OnTransformChange, IMFSourceReaderCallback2::OnTransformChange, OnTransformChange, OnTransformChange method [Media Foundation], OnTransformChange method [Media Foundation],IMFSourceReaderCallback2 interface, mf.imfsourcereadercallback2_ontransformchange, mfreadwrite/IMFSourceReaderCallback2::OnTransformChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_SOURCE_READER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSourceReaderCallback2.OnTransformChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSourceReaderCallback2::OnTransformChange

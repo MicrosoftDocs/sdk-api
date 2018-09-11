@@ -4,17 +4,16 @@ title: EnterCriticalSection function
 author: windows-sdk-content
 description: Waits for ownership of the specified critical section object. The function returns when the calling thread is granted ownership.
 old-location: base\entercriticalsection.htm
-old-project: sync
+tech.root: Sync
 ms.assetid: bb307b7a-66fc-4d19-b774-deca8bf90492
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: EnterCriticalSection, EnterCriticalSection function, _win32_entercriticalsection, base.entercriticalsection, synchapi/EnterCriticalSection, winbase/EnterCriticalSection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ITEMPROP, *LPITEMPROP
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - EnterCriticalSection
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # EnterCriticalSection function

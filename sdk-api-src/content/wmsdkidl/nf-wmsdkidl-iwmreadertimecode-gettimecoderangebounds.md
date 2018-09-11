@@ -4,17 +4,16 @@ title: IWMReaderTimecode::GetTimecodeRangeBounds
 author: windows-sdk-content
 description: The GetTimecodeRangeBounds method retrieves the starting and ending time codes for a specified SMPTE time code range.
 old-location: wmformat\iwmreadertimecode_gettimecoderangebounds.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 5bc1f21c-0aca-4e45-ac82-898cb8b9f4cc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetTimecodeRangeBounds, GetTimecodeRangeBounds method [windows Media Format], GetTimecodeRangeBounds method [windows Media Format],IWMReaderTimecode interface, IWMReaderTimecode interface [windows Media Format],GetTimecodeRangeBounds method, IWMReaderTimecode.GetTimecodeRangeBounds, IWMReaderTimecode::GetTimecodeRangeBounds, IWMReaderTimecodeGetTimecodeRangeBounds, wmformat.iwmreadertimecode_gettimecoderangebounds, wmsdkidl/IWMReaderTimecode::GetTimecodeRangeBounds
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMReaderTimecode.GetTimecodeRangeBounds
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderTimecode::GetTimecodeRangeBounds

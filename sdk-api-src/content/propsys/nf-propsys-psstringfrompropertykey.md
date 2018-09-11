@@ -4,17 +4,16 @@ title: PSStringFromPropertyKey function
 author: windows-sdk-content
 description: Creates a string that identifies a property from that property's key.
 old-location: properties\PSStringFromPropertyKey.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 081f8e6d-9189-44f9-9b27-e85f4793da48
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSStringFromPropertyKey, PSStringFromPropertyKey function [Windows Properties], _shell_PSStringFromPropertyKey, properties.PSStringFromPropertyKey, propsys/PSStringFromPropertyKey, shell.PSStringFromPropertyKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSStringFromPropertyKey
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # PSStringFromPropertyKey function

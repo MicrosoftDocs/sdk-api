@@ -4,17 +4,16 @@ title: IWMResizerProps::GetFullCropRegion
 author: windows-sdk-content
 description: Retrieves the source and destination rectangles.
 old-location: mf\iwmresizerpropsgetfullcropregion.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 91c37040-a698-489b-95fd-f3088f62e4c9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetFullCropRegion, GetFullCropRegion method [Media Foundation], GetFullCropRegion method [Media Foundation],IWMResizerProps interface, IWMResizerProps interface [Media Foundation],GetFullCropRegion method, IWMResizerProps.GetFullCropRegion, IWMResizerProps::GetFullCropRegion, codecapi.iwmresizerpropsgetfullcropregion, mf.iwmresizerpropsgetfullcropregion, wmcodecdsp/IWMResizerProps::GetFullCropRegion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMResizerProps.GetFullCropRegion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMResizerProps::GetFullCropRegion

@@ -4,17 +4,16 @@ title: "_MINIDUMP_MEMORY_INFO_LIST"
 author: windows-sdk-content
 description: Contains a list of memory regions.
 old-location: base\minidump_memory_info_list_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: c1c9a79b-a35a-47e8-be4c-10b3c4ace937
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PMINIDUMP_MEMORY_INFO_LIST, MINIDUMP_MEMORY_INFO_LIST, MINIDUMP_MEMORY_INFO_LIST structure, PMINIDUMP_MEMORY_INFO_LIST, PMINIDUMP_MEMORY_INFO_LIST structure pointer, _MINIDUMP_MEMORY_INFO_LIST, base.minidump_memory_info_list_str, minidumpapiset/MINIDUMP_MEMORY_INFO_LIST, minidumpapiset/PMINIDUMP_MEMORY_INFO_LIST"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 6.3 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_MEMORY_INFO_LIST, *PMINIDUMP_MEMORY_INFO_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_MEMORY_INFO_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_MEMORY_INFO_LIST, *PMINIDUMP_MEMORY_INFO_LIST
+req.redist: DbgHelp.dll 6.3 or later
 ---
 
 # _MINIDUMP_MEMORY_INFO_LIST structure

@@ -4,17 +4,16 @@ title: IStylusPlugin::CustomStylusDataAdded
 author: windows-sdk-content
 description: Notifies the implementing plug-in that custom stylus data is available.
 old-location: tablet\istylusplugin_customstylusdataadded.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 0d3f556c-b0a8-4346-b7da-82f1a3c2603c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 0d3f556c-b0a8-4346-b7da-82f1a3c2603c, CustomStylusDataAdded, CustomStylusDataAdded method [Tablet PC], CustomStylusDataAdded method [Tablet PC],IStylusPlugin interface, IStylusPlugin interface [Tablet PC],CustomStylusDataAdded method, IStylusPlugin.CustomStylusDataAdded, IStylusPlugin::CustomStylusDataAdded, rtscom/IStylusPlugin::CustomStylusDataAdded, tablet.istylusplugin_customstylusdataadded
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStylusPlugin.CustomStylusDataAdded
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStylusPlugin::CustomStylusDataAdded

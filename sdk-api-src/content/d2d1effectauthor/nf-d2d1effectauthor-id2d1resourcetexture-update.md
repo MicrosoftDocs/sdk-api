@@ -4,17 +4,16 @@ title: ID2D1ResourceTexture::Update
 author: windows-sdk-content
 description: Updates the specific resource texture inside the specific range or box using the supplied data.
 old-location: direct2d\id2d1resourcetexture_update.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: B2E36886-DAD5-47EA-9252-541283064D98
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1ResourceTexture interface [Direct2D],Update method, ID2D1ResourceTexture.Update, ID2D1ResourceTexture::Update, Update, Update method [Direct2D], Update method [Direct2D],ID2D1ResourceTexture interface, d2d1effectauthor/ID2D1ResourceTexture::Update, direct2d.id2d1resourcetexture_update
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_USAGE
+req.lib: D2d1.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID2D1ResourceTexture.Update
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1ResourceTexture::Update
@@ -69,7 +68,7 @@ The "left" extent of the updates if specified; if <b>NULL</b>, the entire textur
 
 ### -param maximimumExtents
 
-
+TBD
 
 
 ### -param strides [in]

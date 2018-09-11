@@ -4,17 +4,16 @@ title: "_SecPkgContext_SupportedSignatures"
 author: windows-sdk-content
 description: Specifies the signature algorithms supported by an Schannel connection.
 old-location: security\secpkgcontext_supportedsignatures.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: b4b58175-1367-4c91-8680-523a4b125c76
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSecPkgContext_SupportedSignatures, PSecPkgContext_SupportedSignatures, PSecPkgContext_SupportedSignatures structure pointer [Security], SecPkgContext_SupportedSignatures, SecPkgContext_SupportedSignatures structure [Security], _SecPkgContext_SupportedSignatures, schannel/PSecPkgContext_SupportedSignatures, schannel/SecPkgContext_SupportedSignatures, security.secpkgcontext_supportedsignatures"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_SupportedSignatures, *PSecPkgContext_SupportedSignatures
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SecPkgContext_SupportedSignatures
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SecPkgContext_SupportedSignatures, *PSecPkgContext_SupportedSignatures
+req.redist: 
 ---
 
 # _SecPkgContext_SupportedSignatures structure

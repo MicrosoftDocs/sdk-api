@@ -4,17 +4,16 @@ title: IMSVidCtl::get_Window
 author: windows-sdk-content
 description: The get_Window method retrieves the window associated with the Video Control.
 old-location: mstv\imsvidctl_get_window.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 88121bed-c626-4c1a-b415-8d162c43df9d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_Window method, IMSVidCtl.get_Window, IMSVidCtl::get_Window, IMSVidCtlget_Window, get_Window, get_Window method [Microsoft TV Technologies], get_Window method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_window, msvidctl/IMSVidCtl::get_Window
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.get_Window
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::get_Window

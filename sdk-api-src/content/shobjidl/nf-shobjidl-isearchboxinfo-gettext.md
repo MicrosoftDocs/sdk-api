@@ -4,17 +4,16 @@ title: ISearchBoxInfo::GetText
 author: windows-sdk-content
 description: Retrieves the contents of the search box as plain text.
 old-location: shell\ISearchBoxInfo_GetText.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2bfb65d5-a27e-41f7-883e-2e1afe912586
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetText, GetText method [Windows Shell], GetText method [Windows Shell],ISearchBoxInfo interface, ISearchBoxInfo interface [Windows Shell],GetText method, ISearchBoxInfo.GetText, ISearchBoxInfo::GetText, _shell_ISearchBoxInfo_GetText, shell.ISearchBoxInfo_GetText, shobjidl/ISearchBoxInfo::GetText
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchBoxInfo.GetText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchBoxInfo::GetText

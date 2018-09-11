@@ -4,17 +4,16 @@ title: FNFCIDELETE macro
 author: windows-sdk-content
 description: The FNFCIDELETE macro provides the declaration for the application-defined callback function to delete a file in the FCI context.
 old-location: winprog\fnfcidelete.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 5c85ad86-2794-4f7c-8c10-18fea3519b11
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FNFCIDELETE, FNFCIDELETE macro [Windows API], fci/FNFCIDELETE, winprog.fnfcidelete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: fci.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_ROUTE_CALLBACKROUTINES, *PFAX_ROUTE_CALLBACKROUTINES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FNFCIDELETE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FNFCIDELETE macro

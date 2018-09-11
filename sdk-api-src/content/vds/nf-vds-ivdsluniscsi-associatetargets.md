@@ -4,17 +4,16 @@ title: IVdsLunIscsi::AssociateTargets
 author: windows-sdk-content
 description: Associates LUNs with subsystem iSCSI targets.
 old-location: base\ivdsluniscsi_associatetargets.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: eb80020b-caf8-4d85-b250-d9a8738b8848
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AssociateTargets, AssociateTargets method [VDS], AssociateTargets method [VDS],IVdsLunIscsi interface, IVdsLunIscsi interface [VDS],AssociateTargets method, IVdsLunIscsi.AssociateTargets, IVdsLunIscsi::AssociateTargets, base.ivdsluniscsi_associatetargets, vds/IVdsLunIscsi::AssociateTargets, vdshwprv/IVdsLunIscsi::AssociateTargets
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLunIscsi.AssociateTargets
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsLunIscsi::AssociateTargets

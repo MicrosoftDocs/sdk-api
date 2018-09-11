@@ -4,17 +4,16 @@ title: AmsiCloseSession function
 author: windows-sdk-content
 description: Close a session that was opened by AmsiOpenSession.
 old-location: amsi\amsiclosesession.htm
-old-project: AMSI
+tech.root: AMSI
 ms.assetid: 1DF760A2-22AE-427E-8395-1EE34BD7BCAB
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AmsiCloseSession, AmsiCloseSession function [Antimalware Scan Interface], amsi.amsiclosesession, amsi/AmsiCloseSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: amsi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: Amsi.lib
+req.dll: Amsi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AmsiCloseSession
 product: Windows
 targetos: Windows
-req.lib: Amsi.lib
-req.dll: Amsi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AmsiCloseSession function

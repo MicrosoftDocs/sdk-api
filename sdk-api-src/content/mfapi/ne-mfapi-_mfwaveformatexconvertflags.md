@@ -4,7 +4,7 @@ title: "_MFWaveFormatExConvertFlags"
 author: windows-sdk-content
 description: Contains flags that specify how to convert an audio media type.
 old-location: mf\mfwaveformatexconvertflags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: cd4a54f3-58e5-4e39-8615-e5037972c9c4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFWaveFormatExConvertFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFWaveFormatExConvertFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFWaveFormatExConvertFlags
+req.redist: 
 ---
 
 # _MFWaveFormatExConvertFlags enumeration

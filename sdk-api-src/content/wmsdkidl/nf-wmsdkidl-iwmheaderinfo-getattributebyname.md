@@ -4,17 +4,16 @@ title: IWMHeaderInfo::GetAttributeByName
 author: windows-sdk-content
 description: The GetAttributeByName method returns a descriptive attribute that is stored in the header section of the ASF file.
 old-location: wmformat\iwmheaderinfo_getattributebyname.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 8941b989-f052-4e61-a64a-06748947fcf4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetAttributeByName, GetAttributeByName method [windows Media Format], GetAttributeByName method [windows Media Format],IWMHeaderInfo interface, GetAttributeByName method [windows Media Format],IWMHeaderInfo2 interface, GetAttributeByName method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetAttributeByName method, IWMHeaderInfo.GetAttributeByName, IWMHeaderInfo2 interface [windows Media Format],GetAttributeByName method, IWMHeaderInfo2::GetAttributeByName, IWMHeaderInfo3 interface [windows Media Format],GetAttributeByName method, IWMHeaderInfo3::GetAttributeByName, IWMHeaderInfo::GetAttributeByName, IWMHeaderInfoGetAttributeByName, wmformat.iwmheaderinfo_getattributebyname, wmsdkidl/IWMHeaderInfo2::GetAttributeByName, wmsdkidl/IWMHeaderInfo3::GetAttributeByName, wmsdkidl/IWMHeaderInfo::GetAttributeByName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - IWMHeaderInfo3.GetAttributeByName
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMHeaderInfo::GetAttributeByName

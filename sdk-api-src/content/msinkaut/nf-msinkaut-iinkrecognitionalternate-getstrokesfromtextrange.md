@@ -4,17 +4,16 @@ title: IInkRecognitionAlternate::GetStrokesFromTextRange
 author: windows-sdk-content
 description: Retrives the collection that corresponds to the smallest set of recognition segments that contains a specified character range within the alternate.
 old-location: tablet\iinkrecognitionalternate_getstrokesfromtextrange.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 7dd8fa24-191f-465d-abd2-9a489df0324a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 7dd8fa24-191f-465d-abd2-9a489df0324a, GetStrokesFromTextRange, GetStrokesFromTextRange method [Tablet PC], GetStrokesFromTextRange method [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],GetStrokesFromTextRange method, IInkRecognitionAlternate.GetStrokesFromTextRange, IInkRecognitionAlternate::GetStrokesFromTextRange, msinkaut/IInkRecognitionAlternate::GetStrokesFromTextRange, tablet.iinkrecognitionalternate_getstrokesfromtextrange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkRecognitionAlternate.GetStrokesFromTextRange
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognitionAlternate::GetStrokesFromTextRange

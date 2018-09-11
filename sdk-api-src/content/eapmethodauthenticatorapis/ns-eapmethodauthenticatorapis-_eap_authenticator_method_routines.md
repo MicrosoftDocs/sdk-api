@@ -4,7 +4,7 @@ title: "_EAP_AUTHENTICATOR_METHOD_ROUTINES"
 author: windows-sdk-content
 description: Contains a set of function pointers to the EAPHost Authenticator Method APIs.
 old-location: eaphost\eap_authenticator_method_routines.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 8ec96ee2-678a-45c0-bfeb-c460ee863620
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_AUTHENTICATOR_METHOD_ROUTINES, *PEAP_AUTHENTICATOR_METHOD_ROUTINES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_AUTHENTICATOR_METHOD_ROUTINES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_AUTHENTICATOR_METHOD_ROUTINES, *PEAP_AUTHENTICATOR_METHOD_ROUTINES
+req.redist: 
 ---
 
 # _EAP_AUTHENTICATOR_METHOD_ROUTINES structure

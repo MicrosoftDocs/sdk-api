@@ -4,17 +4,16 @@ title: IMFMediaEngineEx::GetStreamAttribute
 author: windows-sdk-content
 description: Gets a stream-level attribute from the media resource.
 old-location: mf\imfmediaengineex_getstreamattribute.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2C64CD7B-F376-47DF-AD5A-DE5EBC665288
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetStreamAttribute, GetStreamAttribute method [Media Foundation], GetStreamAttribute method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStreamAttribute method, IMFMediaEngineEx.GetStreamAttribute, IMFMediaEngineEx::GetStreamAttribute, mf.imfmediaengineex_getstreamattribute, mfmediaengine/IMFMediaEngineEx::GetStreamAttribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineEx.GetStreamAttribute
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineEx::GetStreamAttribute

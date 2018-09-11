@@ -4,17 +4,16 @@ title: IDXGIInfoQueue::GetMuteDebugOutput
 author: windows-sdk-content
 description: Determines whether the debug output is turned on or off.
 old-location: direct3ddxgi\idxgiinfoqueue_getmutedebugoutput.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 8123DE14-31C1-4304-A295-C7D0C3633C36
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetMuteDebugOutput, GetMuteDebugOutput method [DXGI], GetMuteDebugOutput method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetMuteDebugOutput method, IDXGIInfoQueue.GetMuteDebugOutput, IDXGIInfoQueue::GetMuteDebugOutput, direct3ddxgi.idxgiinfoqueue_getmutedebugoutput, dxgidebug/IDXGIInfoQueue::GetMuteDebugOutput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
+req.lib: 
+req.dll: DXGIDebug.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGIInfoQueue.GetMuteDebugOutput
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DXGIDebug.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIInfoQueue::GetMuteDebugOutput

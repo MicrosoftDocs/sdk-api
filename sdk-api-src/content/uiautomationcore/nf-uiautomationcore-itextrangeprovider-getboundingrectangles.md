@@ -4,17 +4,16 @@ title: ITextRangeProvider::GetBoundingRectangles
 author: windows-sdk-content
 description: Retrieves a collection of bounding rectangles for each fully or partially visible line of text in a text range.
 old-location: winauto\uiauto_ITextRangeProvider_GetBoundingRectangles.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 2ca1d170-538b-4dc2-83f3-850e1873c0d1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetBoundingRectangles, GetBoundingRectangles method [Windows Accessibility], GetBoundingRectangles method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],GetBoundingRectangles method, ITextRangeProvider.GetBoundingRectangles, ITextRangeProvider::GetBoundingRectangles, uiauto.uiauto_ITextRangeProvider_GetBoundingRectangles, uiauto_ITextRangeProvider_GetBoundingRectangles, uiautomationcore/ITextRangeProvider::GetBoundingRectangles, winauto.uiauto_ITextRangeProvider_GetBoundingRectangles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRangeProvider.GetBoundingRectangles
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRangeProvider::GetBoundingRectangles

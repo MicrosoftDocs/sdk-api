@@ -4,17 +4,16 @@ title: IX509SignatureInformation::GetSignatureAlgorithm
 author: windows-sdk-content
 description: Retrieves the signing algorithm object identifier (OID).
 old-location: security\ix509signatureinformation_getsignaturealgorithm_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: e5b43e74-d802-43ff-bdf2-96ab475c31e7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSignatureAlgorithm, GetSignatureAlgorithm method [Security], GetSignatureAlgorithm method [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],GetSignatureAlgorithm method, IX509SignatureInformation.GetSignatureAlgorithm, IX509SignatureInformation::GetSignatureAlgorithm, certenroll/IX509SignatureInformation::GetSignatureAlgorithm, security.ix509signatureinformation_getsignaturealgorithm_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509SignatureInformation.GetSignatureAlgorithm
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509SignatureInformation::GetSignatureAlgorithm

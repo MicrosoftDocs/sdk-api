@@ -4,17 +4,16 @@ title: "_RM_APP_TYPE"
 author: windows-sdk-content
 description: Specifies the type of application that is described by the RM_PROCESS_INFO structure.
 old-location: rstmgr\rm_app_type.htm
-old-project: rstmgr
+tech.root: RstMgr
 ms.assetid: f980b11c-8de1-45dc-b514-8f4cf571afa6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RM_APP_TYPE, RmConsole, RmCritical, RmExplorer, RmMainWindow, RmOtherWindow, RmService, RmUnknownApp, _RM_APP_TYPE, _RM_APP_TYPE enumeration [Restart Mgr], restartmanager/RmConsole, restartmanager/RmCritical, restartmanager/RmExplorer, restartmanager/RmMainWindow, restartmanager/RmOtherWindow, restartmanager/RmService, restartmanager/RmUnknownApp, restartmanager/_RM_APP_TYPE, rstmgr.rm_app_type
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: restartmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_APP_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RM_APP_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RM_APP_TYPE
+req.redist: 
 ---
 
 # _RM_APP_TYPE enumeration

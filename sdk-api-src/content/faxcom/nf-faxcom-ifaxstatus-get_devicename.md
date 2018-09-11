@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxStatus.get_DeviceName
 title: IFaxStatus::get_DeviceName
 author: windows-sdk-content
 description: Retrieves the DeviceName property for the FaxStatus object of a parent FaxPort object. The DeviceName property is a null-terminated string that contains the user-friendly display name for the fax port.
-old-location: fax\_mfax_ifaxstatus_get_devicename_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_devicename_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_67mt.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: DeviceName property [Fax Service], DeviceName property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],DeviceName property, FaxStatus.DeviceName, IFaxStatus.get_DeviceName, IFaxStatus::get_DeviceName, _mfax_ifaxstatus_get_devicename, fax._mfax_ifaxstatus_get_devicename, fax._mfax_ifaxstatus_get_devicename_vb, get_DeviceName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: DeviceName property [Fax Service], DeviceName property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],DeviceName property, IFaxStatus.DeviceName, IFaxStatus.get_DeviceName, IFaxStatus::DeviceName, IFaxStatus::get_DeviceName, _mfax_ifaxstatus_get_devicename, fax._mfax_ifaxstatus_get_devicename, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_devicename_cpp, faxcom/IFaxStatus::DeviceName, faxcom/IFaxStatus::get_DeviceName, get_DeviceName
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxStatus.DeviceName
+ - IFaxStatus.DeviceName
+ - IFaxStatus.get_DeviceName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxStatus::get_DeviceName
@@ -64,7 +63,7 @@ This property is read-only.
 
 
 
-Note that it is possible for multiple fax ports to have the same user-friendly name. You can use the <a href="https://msdn.microsoft.com/en-us/library/ms690754(v=VS.85).aspx">DeviceId</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object to uniquely identify a fax port, and associate a FaxStatus object with a <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object.
+Note that it is possible for multiple fax ports to have the same user-friendly name. You can use the <a href="https://msdn.microsoft.com/dd6c8cce-b2fd-4c77-8e74-dc1d851c0de6">DeviceId</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object to uniquely identify a fax port, and associate a FaxStatus object with a <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object.
 
 The <b>IFaxStatus::get_DeviceName</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
@@ -76,19 +75,11 @@ The <b>IFaxStatus::get_DeviceName</b> method allocates the memory required for t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690754(v=VS.85).aspx">DeviceId</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms690310(v=VS.85).aspx">FaxStatus</a>
 
 
 
@@ -101,6 +92,10 @@ The <b>IFaxStatus::get_DeviceName</b> method allocates the memory required for t
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms690794(v=VS.85).aspx">IFaxStatus</a>
+
+
+
+<a href="https://msdn.microsoft.com/dd6c8cce-b2fd-4c77-8e74-dc1d851c0de6">IFaxStatus::get_DeviceId</a>
 
 
 

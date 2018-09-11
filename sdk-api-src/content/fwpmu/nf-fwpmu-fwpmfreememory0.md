@@ -4,17 +4,16 @@ title: FwpmFreeMemory0 function
 author: windows-sdk-content
 description: Is used to release memory resources allocated by the Windows Filtering Platform (WFP) functions.
 old-location: fwp\fwpmfreememory0_func.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: ba9f8c1e-f75c-4bf0-b68b-e21a358575fc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FwpmFreeMemory0, FwpmFreeMemory0 function [Filtering], fwp.fwpmfreememory0_func, fwpmu/FwpmFreeMemory0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FwpmFreeMemory0
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FwpmFreeMemory0 function

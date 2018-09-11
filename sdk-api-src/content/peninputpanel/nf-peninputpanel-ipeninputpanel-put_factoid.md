@@ -4,17 +4,16 @@ title: IPenInputPanel::put_Factoid
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the string name of the factoid used by the PenInputPanel object.
 old-location: tablet\peninputpanel_factoid.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 1497502f-ce0e-4965-ab6a-af3c3ecdb0fe
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 1497502f-ce0e-4965-ab6a-af3c3ecdb0fe, Factoid property [Tablet PC], Factoid property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],Factoid property, IPenInputPanel.Factoid, IPenInputPanel.put_Factoid, IPenInputPanel::Factoid, IPenInputPanel::get_Factoid, IPenInputPanel::put_Factoid, PenInputPanel.get_Factoid, PenInputPanel.put_Factoid, get_Factoid, peninputpanel/IPenInputPanel::Factoid, peninputpanel/IPenInputPanel::get_Factoid, peninputpanel/IPenInputPanel::put_Factoid, put_Factoid, tablet.peninputpanel_factoid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - PenInputPanel.put_Factoid
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPenInputPanel::put_Factoid

@@ -4,17 +4,16 @@ title: ITPhoneEvent::get_ButtonLampId
 author: windows-sdk-content
 description: The get_ButtonLampId method returns a long value indicating which button or lamp triggered the event. This information is available only when ITPhoneEvent::get_Event returns PE_LAMPMODE or PE_BUTTON.
 old-location: tapi3\itphoneevent_get_buttonlampid.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 43b87d10-8cb9-4795-8778-70c8f8ae6300
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_ButtonLampId method, ITPhoneEvent.get_ButtonLampId, ITPhoneEvent::get_ButtonLampId, _tapi3_itphoneevent_get_buttonlampid, get_ButtonLampId, get_ButtonLampId method [TAPI 2.2], get_ButtonLampId method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_buttonlampid, tapi3if/ITPhoneEvent::get_ButtonLampId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPhoneEvent.get_ButtonLampId
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPhoneEvent::get_ButtonLampId

@@ -4,7 +4,7 @@ title: IEmptyVolumeCacheCallBack
 author: windows-sdk-content
 description: Exposes methods that are used by a disk cleanup handler to communicate with the disk cleanup manager.
 old-location: lwef\iemptyvolumecachecallback.htm
-old-project: lwef
+tech.root: lwef
 ms.assetid: d6775458-3b39-4ee8-90f9-d8a749bd1800
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: emptyvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMI_VERSION
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEmptyVolumeCacheCallBack
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEmptyVolumeCacheCallBack interface

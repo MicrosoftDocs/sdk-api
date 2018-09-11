@@ -4,17 +4,16 @@ title: CWbemProviderGlue::GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWS
 author: windows-sdk-content
 description: The GetEmptyInstance method retrieves a single unpopulated instance of the specified class.
 old-location: wmi\cwbemproviderglue_getemptyinstance.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 2873b466-3782-4d63-a777-5b25e3fb7615
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CWbemProviderGlue.GetEmptyInstance, CWbemProviderGlue.GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR), CWbemProviderGlue::GetEmptyInstance, CWbemProviderGlue::GetEmptyInstance methods [Windows Management Instrumentation], CWbemProviderGlue::GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR), GetEmptyInstance, wbemglue/CWbemProviderGlue::GetEmptyInstance, wmi.cwbemproviderglue_getemptyinstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CWbemProviderGlue::GetEmptyInstance
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CWbemProviderGlue::GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR)

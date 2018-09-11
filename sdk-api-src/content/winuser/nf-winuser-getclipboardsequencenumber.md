@@ -4,17 +4,16 @@ title: GetClipboardSequenceNumber function
 author: windows-sdk-content
 description: Retrieves the clipboard sequence number for the current window station.
 old-location: dataxchg\getclipboardsequencenumber.htm
-old-project: dataxchg
+tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getclipboardsequencenumber.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetClipboardSequenceNumber, GetClipboardSequenceNumber function [Data Exchange], _win32_GetClipboardSequenceNumber, _win32_getclipboardsequencenumber_cpp, dataxchg.getclipboardsequencenumber, winui._win32_getclipboardsequencenumber, winuser/GetClipboardSequenceNumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GetClipboardSequenceNumber
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetClipboardSequenceNumber function

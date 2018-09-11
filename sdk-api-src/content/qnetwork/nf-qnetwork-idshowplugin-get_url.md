@@ -4,17 +4,16 @@ title: IDShowPlugin::get_URL
 author: windows-sdk-content
 description: The get_URL method retrieves the URL of the current web page.
 old-location: dshow\idshowplugin_get_url.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: df1a2643-c89e-4edf-bd85-bce1c410d6cd
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDShowPlugin interface [DirectShow],get_URL method, IDShowPlugin.get_URL, IDShowPlugin::get_URL, IDShowPluginget_URL, dshow.idshowplugin_get_url, get_URL, get_URL method [DirectShow], get_URL method [DirectShow],IDShowPlugin interface, qnetwork/IDShowPlugin::get_URL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDShowPlugin.get_URL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDShowPlugin::get_URL

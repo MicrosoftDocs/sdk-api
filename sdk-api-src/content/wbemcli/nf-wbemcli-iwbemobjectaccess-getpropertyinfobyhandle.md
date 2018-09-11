@@ -4,17 +4,16 @@ title: IWbemObjectAccess::GetPropertyInfoByHandle
 author: windows-sdk-content
 description: The GetPropertyInfoByHandle method returns the name and data type of the property that is associated with a property handle.
 old-location: wmi\iwbemobjectaccess_getpropertyinfobyhandle.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: a29157a8-50da-485d-a2b1-bf9645ba9963
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: GetPropertyInfoByHandle, GetPropertyInfoByHandle method [Windows Management Instrumentation], GetPropertyInfoByHandle method [Windows Management Instrumentation],IWbemObjectAccess interface, IWbemObjectAccess interface [Windows Management Instrumentation],GetPropertyInfoByHandle method, IWbemObjectAccess.GetPropertyInfoByHandle, IWbemObjectAccess::GetPropertyInfoByHandle, _hmm_iwbemobjectaccess_getpropertyinfobyhandle, wbemcli/IWbemObjectAccess::GetPropertyInfoByHandle, wmi.iwbemobjectaccess_getpropertyinfobyhandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Esscli.dll; Fastprox.dll; Wbemess.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IWbemObjectAccess.GetPropertyInfoByHandle
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Esscli.dll; Fastprox.dll; Wbemess.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemObjectAccess::GetPropertyInfoByHandle

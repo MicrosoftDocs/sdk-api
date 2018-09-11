@@ -4,17 +4,16 @@ title: DateTime_GetIdealSize macro
 author: windows-sdk-content
 description: Gets the size needed to display the control without clipping. Use this macro or send the DTM_GETIDEALSIZE message explicitly.
 old-location: controls\DateTime_GetIdealSize.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getidealsize.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DateTime_GetIdealSize, DateTime_GetIdealSize macro [Windows Controls], _shell_DateTime_GetIdealSize, _shell_DateTime_GetIdealSize_cpp, commctrl/DateTime_GetIdealSize, controls.DateTime_GetIdealSize, controls._shell_DateTime_GetIdealSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DateTime_GetIdealSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DateTime_GetIdealSize macro

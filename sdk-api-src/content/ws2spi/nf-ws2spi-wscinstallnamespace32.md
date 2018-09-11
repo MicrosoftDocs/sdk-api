@@ -4,17 +4,16 @@ title: WSCInstallNameSpace32 function
 author: windows-sdk-content
 description: Installs a specified 32-bit namespace provider.
 old-location: winsock\wscinstallnamespace32.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: b107fbe6-bbfb-45be-8419-4d85d3c4e80c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSCInstallNameSpace32, WSCInstallNamespace32, WSCInstallNamespace32 function [Winsock], winsock.wscinstallnamespace32, ws2spi/WSCInstallNamespace32
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 x64 Edition [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_PROVIDER_INFO_TYPE
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSCInstallNamespace32
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSCInstallNameSpace32 function

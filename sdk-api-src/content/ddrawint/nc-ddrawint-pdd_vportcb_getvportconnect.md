@@ -4,7 +4,7 @@ title: PDD_VPORTCB_GETVPORTCONNECT
 author: windows-sdk-content
 description: The DdVideoPortGetConnectInfo callback function returns the connections supported by the specified VPE object.
 old-location: display\ddvideoportgetconnectinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: b6be5f94-6d4d-4f7a-a8d9-15bfc7a15d3b
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdVideoPortGetConnectInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PDD_VPORTCB_GETVPORTCONNECT callback function

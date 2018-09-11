@@ -4,7 +4,7 @@ title: D3D11_RESOURCE_FLAGS
 author: windows-sdk-content
 description: Used with ID3D11On12Device::CreateWrappedResourceto override flags that would be inferred by the resource properties or heap properties, including bind flags, misc flags, and CPU access flags.
 old-location: direct3d12\d3d11_resource_flags.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 50C1ACA1-714C-467A-A548-B5EE50DA3E3D
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11on12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_RESOURCE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_RESOURCE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_RESOURCE_FLAGS
+req.redist: 
 ---
 
 # D3D11_RESOURCE_FLAGS structure

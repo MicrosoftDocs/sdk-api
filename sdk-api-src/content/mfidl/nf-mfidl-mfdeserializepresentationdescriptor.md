@@ -4,17 +4,16 @@ title: MFDeserializePresentationDescriptor function
 author: windows-sdk-content
 description: Deserializes a presentation descriptor from a byte array.
 old-location: mf\mfdeserializepresentationdescriptor.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4f567b86-bce2-49fe-9d43-d1dfa57a86cb
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 4f567b86-bce2-49fe-9d43-d1dfa57a86cb, MFDeserializePresentationDescriptor, MFDeserializePresentationDescriptor function [Media Foundation], mf.mfdeserializepresentationdescriptor, mfidl/MFDeserializePresentationDescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFDeserializePresentationDescriptor
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFDeserializePresentationDescriptor function

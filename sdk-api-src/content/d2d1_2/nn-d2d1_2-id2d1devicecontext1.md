@@ -4,7 +4,7 @@ title: ID2D1DeviceContext1
 author: windows-sdk-content
 description: Enables creation and drawing of geometry realization objects.
 old-location: direct2d\id2d1devicecontext1.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: E08FDAE4-05D3-472C-9AD9-228BAF989F1D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d2d1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_RENDERING_PRIORITY
+req.lib: D2d1.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID2D1DeviceContext1
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext1 interface

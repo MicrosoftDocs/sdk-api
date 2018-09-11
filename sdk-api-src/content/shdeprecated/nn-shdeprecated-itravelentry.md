@@ -4,17 +4,16 @@ title: ITravelEntry
 author: windows-sdk-content
 description: Deprecated. Exposes methods to identify, invoke, and update an individual item in the browser's travel history.
 old-location: shell\ITravelEntry.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b8a5d532-c1fd-4302-b983-cc9a74270321
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ITravelEntry, ITravelEntry interface [Windows Shell], ITravelEntry interface [Windows Shell],described, shdeprecated/ITravelEntry, shell.ITravelEntry, zone_ITravelEntry
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITravelEntry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

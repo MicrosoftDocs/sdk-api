@@ -4,17 +4,16 @@ title: IDCompositionAnimation::AddRepeat
 author: windows-sdk-content
 description: Adds a repeat segment that causes the specified portion of an animation function to be repeated.
 old-location: directcomp\idcompositionanimation_addrepeat.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 14179e2f-3ede-4137-baa4-074bb31e1481
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: AddRepeat, AddRepeat method [DirectComposition], AddRepeat method [DirectComposition],IDCompositionAnimation interface, IDCompositionAnimation interface [DirectComposition],AddRepeat method, IDCompositionAnimation.AddRepeat, IDCompositionAnimation::AddRepeat, dcompanimation/IDCompositionAnimation::AddRepeat, directcomp.idcompositionanimation_addrepeat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcompanimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionAnimation.AddRepeat
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionAnimation::AddRepeat

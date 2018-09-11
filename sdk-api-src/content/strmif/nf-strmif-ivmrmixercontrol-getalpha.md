@@ -4,17 +4,16 @@ title: IVMRMixerControl::GetAlpha
 author: windows-sdk-content
 description: The GetAlpha method retrieves the constant alpha value that is applied to this video stream.
 old-location: dshow\ivmrmixercontrol_getalpha.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a0a82a8f-a03a-43d7-8fb0-4c15b0cb7c27
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetAlpha, GetAlpha method [DirectShow], GetAlpha method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetAlpha method, IVMRMixerControl.GetAlpha, IVMRMixerControl::GetAlpha, IVMRMixerControlGetAlpha, dshow.ivmrmixercontrol_getalpha, strmif/IVMRMixerControl::GetAlpha
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRMixerControl.GetAlpha
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRMixerControl::GetAlpha

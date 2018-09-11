@@ -4,17 +4,16 @@ title: CreateIconFromResourceEx function
 author: windows-sdk-content
 description: Creates an icon or cursor from resource bits describing the icon.
 old-location: menurc\createiconfromresourceex.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\createiconfromresourceex.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CreateIconFromResourceEx, CreateIconFromResourceEx function [Menus and Other Resources], LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_MONOCHROME, LR_SHARED, _win32_CreateIconFromResourceEx, _win32_createiconfromresourceex_cpp, menurc.createiconfromresourceex, winui._win32_createiconfromresourceex, winuser/CreateIconFromResourceEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateIconFromResourceEx
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # CreateIconFromResourceEx function

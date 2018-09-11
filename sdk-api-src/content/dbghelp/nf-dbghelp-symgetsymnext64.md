@@ -4,17 +4,16 @@ title: SymGetSymNext64 function
 author: windows-sdk-content
 description: Retrieves the symbol information for the next symbol.
 old-location: base\symgetsymnext64.htm
-old-project: debug
+tech.root: debug
 ms.assetid: e58f21b9-c2fc-48f6-af45-3c9ec42809c1
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymGetSymNext, SymGetSymNext function, SymGetSymNext64, SymGetSymNext64 function, _win32_symgetsymnext64, base.symgetsymnext64, dbghelp/SymGetSymNext, dbghelp/SymGetSymNext64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - SymGetSymNext
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # SymGetSymNext64 function

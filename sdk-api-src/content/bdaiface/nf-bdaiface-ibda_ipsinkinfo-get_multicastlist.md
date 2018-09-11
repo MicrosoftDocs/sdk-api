@@ -4,17 +4,16 @@ title: IBDA_IPSinkInfo::get_MulticastList
 author: windows-sdk-content
 description: This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
 old-location: mstv\ibda_ipsinkinfo_get_multicastlist.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 29375c69-5e45-4fc5-98d2-1cc1c750b809
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_IPSinkInfo interface [Microsoft TV Technologies],get_MulticastList method, IBDA_IPSinkInfo.get_MulticastList, IBDA_IPSinkInfo::get_MulticastList, IBDA_IPSinkInfoget_MulticastList, bdaiface/IBDA_IPSinkInfo::get_MulticastList, get_MulticastList, get_MulticastList method [Microsoft TV Technologies], get_MulticastList method [Microsoft TV Technologies],IBDA_IPSinkInfo interface, mstv.ibda_ipsinkinfo_get_multicastlist
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_IPSinkInfo.get_MulticastList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_IPSinkInfo::get_MulticastList

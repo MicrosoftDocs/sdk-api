@@ -4,17 +4,16 @@ title: Module32Next function
 author: windows-sdk-content
 description: Retrieves information about the next module associated with a process or thread.
 old-location: toolhelp\module32next.htm
-old-project: ToolHelp
+tech.root: ToolHelp
 ms.assetid: 88ec1af4-bae7-4cd7-b830-97a98fb337f4
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: Module32Next, Module32Next function [ToolHelp], Module32NextW, _win32_module32next, base.module32next, tlhelp32/Module32Next, tlhelp32/Module32NextW, toolhelp.module32next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TpcGetSamplesArgs
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - Module32NextW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Module32Next function

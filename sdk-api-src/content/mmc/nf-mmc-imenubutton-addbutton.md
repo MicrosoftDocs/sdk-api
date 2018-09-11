@@ -4,17 +4,16 @@ title: IMenuButton::AddButton
 author: windows-sdk-content
 description: The IMenuButton::AddButton method enables a user to add a button to the MMC menu bar for a particular view.
 old-location: mmc\imenubutton_addbutton.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 75d19e2a-0d3e-4883-852e-983fcee8166a
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: AddButton, AddButton method [MMC], AddButton method [MMC],IMenuButton interface, IMenuButton interface [MMC],AddButton method, IMenuButton.AddButton, IMenuButton::AddButton, _slate_imenubutton_addbutton, mmc.imenubutton_addbutton, mmc/IMenuButton::AddButton
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMenuButton.AddButton
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMenuButton::AddButton

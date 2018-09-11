@@ -4,17 +4,16 @@ title: IGPMGPO::SetWMIFilter
 author: windows-sdk-content
 description: Links the GPMWMIFilter object to the current Group Policy object (GPO). This method can also be used to unlink existing WMI filters from the GPO.
 old-location: gpmc\igpmgpo_setwmifilter.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: bd086bae-9436-4612-95d6-56fe431d2c51
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMGPO class [GPMC],SetWMIFilter method, IGPMGPO interface [GPMC],SetWMIFilter method, IGPMGPO.SetWMIFilter, IGPMGPO::SetWMIFilter, SetWMIFilter, SetWMIFilter method [GPMC], SetWMIFilter method [GPMC],GPMGPO class, SetWMIFilter method [GPMC],IGPMGPO interface, _win32_igpmgpo_setwmifilter, gpmc.igpmgpo_setwmifilter, gpmgmt/IGPMGPO::SetWMIFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMGPO.SetWMIFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMGPO::SetWMIFilter

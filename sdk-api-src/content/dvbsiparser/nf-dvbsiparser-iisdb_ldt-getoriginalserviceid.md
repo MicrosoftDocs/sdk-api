@@ -4,17 +4,16 @@ title: IISDB_LDT::GetOriginalServiceId
 author: windows-sdk-content
 description: Gets the original_service_id field from an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_getoriginalserviceid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 030c01e3-6149-4a61-aeb2-01143642213b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetOriginalServiceId, GetOriginalServiceId method [Microsoft TV Technologies], GetOriginalServiceId method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetOriginalServiceId method, IISDB_LDT.GetOriginalServiceId, IISDB_LDT::GetOriginalServiceId, dvbsiparser/IISDB_LDT::GetOriginalServiceId, mstv.iisdb_ldt_getoriginalserviceid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IISDB_LDT.GetOriginalServiceId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IISDB_LDT::GetOriginalServiceId

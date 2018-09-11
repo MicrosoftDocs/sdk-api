@@ -4,17 +4,16 @@ title: DsValidateSubnetNameW function
 author: windows-sdk-content
 description: The DsValidateSubnetName function validates a subnet name in the form xxx.xxx.xxx.xxx/YY.
 old-location: ad\dsvalidatesubnetname.htm
-old-project: ad
+tech.root: ad
 ms.assetid: bed49e08-4cb7-439c-bfb7-815263ec7568
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsValidateSubnetName, DsValidateSubnetName function [Active Directory], DsValidateSubnetNameA, DsValidateSubnetNameW, _glines_dsvalidatesubnetname, ad.dsvalidatesubnetname, dsgetdc/DsValidateSubnetName, dsgetdc/DsValidateSubnetNameA, dsgetdc/DsValidateSubnetNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - DsValidateSubnetNameW
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DsValidateSubnetNameW function

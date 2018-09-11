@@ -4,7 +4,7 @@ title: tagDVD_SUBPICTURE_CODING
 author: windows-sdk-content
 description: Indicates what kind of content the subpicture stream contains.
 old-location: dshow\dvd_subpicture_coding.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 46f45dfb-9be7-4222-b6fb-ea95b60323cd
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_SUBPICTURE_CODING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_SUBPICTURE_CODING
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: DVD_SUBPICTURE_CODING
+req.redist: 
 ---
 
 # tagDVD_SUBPICTURE_CODING enumeration

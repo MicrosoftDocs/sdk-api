@@ -4,7 +4,7 @@ title: "_D3D11_AES_CTR_IV"
 author: windows-sdk-content
 description: Contains an initialization vector (IV) for 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption.
 old-location: mf\d3d11_aes_ctr_iv.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2D1B24CA-6386-4406-9195-40913744C9CF
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_AES_CTR_IV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_AES_CTR_IV
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_AES_CTR_IV
+req.redist: 
 ---
 
 # _D3D11_AES_CTR_IV structure

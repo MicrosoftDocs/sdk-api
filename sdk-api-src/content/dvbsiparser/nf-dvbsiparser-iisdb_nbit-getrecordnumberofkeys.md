@@ -4,17 +4,16 @@ title: IISDB_NBIT::GetRecordNumberOfKeys
 author: windows-sdk-content
 description: Returns the number_of_keys field value for a section in an for an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getrecordnumberofkeys.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0ce49e6c-8a85-4620-a2ca-379c3bb30d64
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordNumberOfKeys, GetRecordNumberOfKeys method [Microsoft TV Technologies], GetRecordNumberOfKeys method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordNumberOfKeys method, IISDB_NBIT.GetRecordNumberOfKeys, IISDB_NBIT::GetRecordNumberOfKeys, dvbsiparser/IISDB_NBIT::GetRecordNumberOfKeys, mstv.iisdb_nbit_getrecordnumberofkeys
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IISDB_NBIT.GetRecordNumberOfKeys
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IISDB_NBIT::GetRecordNumberOfKeys

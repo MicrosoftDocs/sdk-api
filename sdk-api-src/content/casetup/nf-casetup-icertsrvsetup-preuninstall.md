@@ -4,17 +4,16 @@ title: ICertSrvSetup::PreUnInstall
 author: windows-sdk-content
 description: Temporarily saves role-specific state information and then it uninstalls the role.
 old-location: security\icertsrvsetup_preuninstall.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 2872a7fb-fe96-4ace-b5f4-af88350835ab
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ICertSrvSetup interface [Security],PreUnInstall method, ICertSrvSetup.PreUnInstall, ICertSrvSetup::PreUnInstall, PreUnInstall, PreUnInstall method [Security], PreUnInstall method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::PreUnInstall, security.icertsrvsetup_preuninstall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertSrvSetup.PreUnInstall
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertSrvSetup::PreUnInstall

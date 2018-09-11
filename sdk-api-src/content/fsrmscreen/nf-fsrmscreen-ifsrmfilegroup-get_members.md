@@ -4,17 +4,16 @@ title: IFsrmFileGroup::get_Members
 author: windows-sdk-content
 description: Retrieves or sets the filename patterns that determine the files that are included in the file group.
 old-location: fsrm\ifsrmfilegroup_members.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 242a86ab-9dec-4106-9a49-70c12cc6de91
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmFileGroup interface [File Server Resource Manager],Members property, IFsrmFileGroup.Members, IFsrmFileGroup.get_Members, IFsrmFileGroup::Members, IFsrmFileGroup::get_Members, IFsrmFileGroup::put_Members, Members property [File Server Resource Manager], Members property [File Server Resource Manager],IFsrmFileGroup interface, fs.ifsrmfilegroup_members, fsrm.ifsrmfilegroup_members, fsrmscreen/IFsrmFileGroup::Members, fsrmscreen/IFsrmFileGroup::get_Members, fsrmscreen/IFsrmFileGroup::put_Members, get_Members
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmFileGroup.put_Members
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileGroup::get_Members

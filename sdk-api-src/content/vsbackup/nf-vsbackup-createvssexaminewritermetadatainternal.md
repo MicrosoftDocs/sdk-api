@@ -4,17 +4,16 @@ title: CreateVssExamineWriterMetadataInternal function
 author: windows-sdk-content
 description: The CreateVssExamineWriterMetadata function creates an IVssExamineWriterMetadata object.
 old-location: base\createvssexaminewritermetadata.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: cb322541-d8c0-4a2e-9ce5-453d19ac3fd1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateVssExamineWriterMetadata, CreateVssExamineWriterMetadata function [VSS], CreateVssExamineWriterMetadataInternal, _win32_createvssexaminewritermetadata, base.createvssexaminewritermetadata, vsbackup/CreateVssExamineWriterMetadata, vsbackup/CreateVssExamineWriterMetadataInternal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: VssApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CreateVssExamineWriterMetadataInternal
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: VssApi.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CreateVssExamineWriterMetadataInternal function

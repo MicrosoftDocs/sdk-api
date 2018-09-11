@@ -4,17 +4,16 @@ title: ITsSbTarget::get_TargetPropertySet
 author: windows-sdk-content
 description: Retrieves or specifies the set of properties for the target.
 old-location: termserv\itssbtarget_targetpropertyset.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 0c3e84d6-17a2-452f-98bd-f9b8670710e9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetPropertySet property, ITsSbTarget.TargetPropertySet, ITsSbTarget.get_TargetPropertySet, ITsSbTarget::TargetPropertySet, ITsSbTarget::get_TargetPropertySet, ITsSbTarget::put_TargetPropertySet, ITsSbTargetEx interface [Remote Desktop Services],TargetPropertySet property, ITsSbTargetEx.TargetPropertySet, ITsSbTargetEx::get_TargetPropertySet, ITsSbTargetEx::put_TargetPropertySet, TargetPropertySet property [Remote Desktop Services], TargetPropertySet property [Remote Desktop Services],ITsSbTarget interface, TargetPropertySet property [Remote Desktop Services],ITsSbTargetEx interface, get_TargetPropertySet, sbtsv/ITsSbTarget::TargetPropertySet, sbtsv/ITsSbTarget::get_TargetPropertySet, sbtsv/ITsSbTarget::put_TargetPropertySet, sbtsv/ITsSbTargetEx::TargetPropertySet, sbtsv/ITsSbTargetEx::get_TargetPropertySet, sbtsv/ITsSbTargetEx::put_TargetPropertySet, termserv.itssbtarget_targetpropertyset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - ITsSbTargetEx.put_TargetPropertySet
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbTarget::get_TargetPropertySet

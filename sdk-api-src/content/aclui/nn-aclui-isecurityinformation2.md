@@ -4,17 +4,16 @@ title: ISecurityInformation2
 author: windows-sdk-content
 description: Enables the access control editor to obtain information from the client that is not provided by the ISecurityInformation interface.
 old-location: security\isecurityinformation2.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 5cb7a096-5088-424a-82d1-0351ce5bb413
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: ISecurityInformation2, ISecurityInformation2 interface [Security], ISecurityInformation2 interface [Security],described, _win32_isecurityinformation2, aclui/ISecurityInformation2, security.isecurityinformation2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_PAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISecurityInformation2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISecurityInformation2 interface

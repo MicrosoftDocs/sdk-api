@@ -4,17 +4,16 @@ title: ILLoadFromStreamEx function
 author: windows-sdk-content
 description: This function may be altered or unavailable.
 old-location: shell\ILLoadFromStreamEx_IStream_PIDLIST_ABSOLUTE.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6fb735b6-a8c3-439e-9f20-4fda8f008b28
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ILLoadFromStreamEx, ILLoadFromStreamEx function [Windows Shell], ILLoadFromStreamEx(IStream*,PIDLIST_ABSOLUTE*), _shell_ILLoadFromStreamEx_IStream_PIDLIST_ABSOLUTE, shell.ILLoadFromStreamEx_IStream_PIDLIST_ABSOLUTE, shlobj_core/ILLoadFromStreamEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ILLoadFromStreamEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ILLoadFromStreamEx function

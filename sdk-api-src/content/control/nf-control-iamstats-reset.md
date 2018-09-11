@@ -4,17 +4,16 @@ title: IAMStats::Reset
 author: windows-sdk-content
 description: The Reset method resets all statistics to zero.
 old-location: dshow\iamstats_reset.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: daa5f3c0-6785-46b6-987f-acef798b0ed9
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMStats interface [DirectShow],Reset method, IAMStats.Reset, IAMStats::Reset, IAMStatsReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IAMStats interface, control/IAMStats::Reset, dshow.iamstats_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAMStats.Reset
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMStats::Reset

@@ -4,17 +4,16 @@ title: IDMOVideoOutputOptimizations::GetCurrentOperationMode
 author: windows-sdk-content
 description: The GetCurrentOperationMode method retrieves the optimization features in effect.
 old-location: dshow\idmovideooutputoptimizations_getcurrentoperationmode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ddfc65ea-e336-40b8-a901-53ebc3ee7d86
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetCurrentOperationMode, GetCurrentOperationMode method [DirectShow], GetCurrentOperationMode method [DirectShow],IDMOVideoOutputOptimizations interface, IDMOVideoOutputOptimizations interface [DirectShow],GetCurrentOperationMode method, IDMOVideoOutputOptimizations.GetCurrentOperationMode, IDMOVideoOutputOptimizations::GetCurrentOperationMode, IDMOVideoOutputOptimizationsGetCurrentOperationMode, dshow.idmovideooutputoptimizations_getcurrentoperationmode, mediaobj/IDMOVideoOutputOptimizations::GetCurrentOperationMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDMOVideoOutputOptimizations.GetCurrentOperationMode
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDMOVideoOutputOptimizations::GetCurrentOperationMode

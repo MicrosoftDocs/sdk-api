@@ -4,17 +4,16 @@ title: IAzClientContext::GetBusinessRuleString
 author: windows-sdk-content
 description: Returns the application-specific string for the business rule (BizRule).
 old-location: security\iazclientcontext_getbusinessrulestring.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 44cd9331-4891-45fe-9392-04c19da0ac7d
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzClientContext object [Security],GetBusinessRuleString method, GetBusinessRuleString, GetBusinessRuleString method [Security], GetBusinessRuleString method [Security],AzClientContext object, GetBusinessRuleString method [Security],IAzClientContext interface, IAzClientContext interface [Security],GetBusinessRuleString method, IAzClientContext.GetBusinessRuleString, IAzClientContext::GetBusinessRuleString, azroles/IAzClientContext::GetBusinessRuleString, security.iazclientcontext_getbusinessrulestring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzClientContext.GetBusinessRuleString
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzClientContext::GetBusinessRuleString

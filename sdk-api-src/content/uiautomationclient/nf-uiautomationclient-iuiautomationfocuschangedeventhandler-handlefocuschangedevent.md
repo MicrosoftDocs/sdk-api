@@ -4,17 +4,16 @@ title: IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent
 author: windows-sdk-content
 description: Handles the event raised when the keyboard focus moves to a different UI Automation element.
 old-location: winauto\uiauto_IUIAutomationFocusChangedEventHandler_HandleFocusChangedEvent.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 7d90982f-4805-4ebb-a9f9-e335dc15d519
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HandleFocusChangedEvent, HandleFocusChangedEvent method [Windows Accessibility], HandleFocusChangedEvent method [Windows Accessibility],IUIAutomationFocusChangedEventHandler interface, IUIAutomationFocusChangedEventHandler interface [Windows Accessibility],HandleFocusChangedEvent method, IUIAutomationFocusChangedEventHandler.HandleFocusChangedEvent, IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent, uiauto.uiauto_IUIAutomationFocusChangedEventHandler_HandleFocusChangedEvent, uiauto_IUIAutomationFocusChangedEventHandler_HandleFocusChangedEvent, uiautomationclient/IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent, winauto.uiauto_IUIAutomationFocusChangedEventHandler_HandleFocusChangedEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationFocusChangedEventHandler.HandleFocusChangedEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent

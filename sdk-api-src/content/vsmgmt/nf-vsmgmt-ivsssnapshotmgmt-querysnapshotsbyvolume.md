@@ -4,17 +4,16 @@ title: IVssSnapshotMgmt::QuerySnapshotsByVolume
 author: windows-sdk-content
 description: Reserved for system use.
 old-location: base\ivsssnapshotmgmt_querysnapshotsbyvolume.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: c74322d8-24a6-4463-82a5-c06e7624a1ca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssSnapshotMgmt interface [VSS],QuerySnapshotsByVolume method, IVssSnapshotMgmt.QuerySnapshotsByVolume, IVssSnapshotMgmt::QuerySnapshotsByVolume, QuerySnapshotsByVolume, QuerySnapshotsByVolume method [VSS], QuerySnapshotsByVolume method [VSS],IVssSnapshotMgmt interface, base.ivsssnapshotmgmt_querysnapshotsbyvolume, vsmgmt/IVssSnapshotMgmt::QuerySnapshotsByVolume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssSnapshotMgmt.QuerySnapshotsByVolume
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssSnapshotMgmt::QuerySnapshotsByVolume

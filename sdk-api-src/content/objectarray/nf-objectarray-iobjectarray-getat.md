@@ -4,17 +4,16 @@ title: IObjectArray::GetAt
 author: windows-sdk-content
 description: Provides a pointer to a specified object's interface. The object and interface are specified by index and interface ID.
 old-location: shell\IObjectArray_GetAt.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 168d2f09-60c9-457a-b4dd-7678f97eda1b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetAt, GetAt method [Windows Shell], GetAt method [Windows Shell],IObjectArray interface, IObjectArray interface [Windows Shell],GetAt method, IObjectArray.GetAt, IObjectArray::GetAt, _shell_IObjectArray_GetAt, objectarray/IObjectArray::GetAt, shell.IObjectArray_GetAt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objectarray.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjectArray.GetAt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectArray::GetAt

@@ -4,17 +4,16 @@ title: WS_HEAP_PROPERTY_ID
 author: windows-sdk-content
 description: Each heap property is identified by an ID and has an associated value.
 old-location: wsw\ws_heap_property_id.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: c047a3b9-27a1-464c-b9f9-0b0c6cf8eb97
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_HEAP_PROPERTY_ACTUAL_SIZE, WS_HEAP_PROPERTY_ID, WS_HEAP_PROPERTY_ID enumeration [Web Services for Windows], WS_HEAP_PROPERTY_MAX_SIZE, WS_HEAP_PROPERTY_REQUESTED_SIZE, WS_HEAP_PROPERTY_TRIM_SIZE, webservices/WS_HEAP_PROPERTY_ACTUAL_SIZE, webservices/WS_HEAP_PROPERTY_ID, webservices/WS_HEAP_PROPERTY_MAX_SIZE, webservices/WS_HEAP_PROPERTY_REQUESTED_SIZE, webservices/WS_HEAP_PROPERTY_TRIM_SIZE, wsw.ws_heap_property_id
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_HEAP_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_HEAP_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_HEAP_PROPERTY_ID
+req.redist: 
 ---
 
 # WS_HEAP_PROPERTY_ID enumeration

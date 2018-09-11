@@ -4,7 +4,7 @@ title: APPX_KEY_INFO
 author: windows-sdk-content
 description: Windows app package key information.
 old-location: appxpkg\appx_key_info.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 16D21F7E-0F98-47F3-BB96-0E2D263B249B
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_KEY_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - APPX_KEY_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: APPX_KEY_INFO
+req.redist: 
 ---
 
 # APPX_KEY_INFO structure

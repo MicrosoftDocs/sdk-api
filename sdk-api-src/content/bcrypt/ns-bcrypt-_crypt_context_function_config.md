@@ -4,17 +4,16 @@ title: "_CRYPT_CONTEXT_FUNCTION_CONFIG"
 author: windows-sdk-content
 description: Contains configuration information for a cryptographic function of a CNG context.
 old-location: security\crypt_context_function_config.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 53026095-c871-4027-ac7d-428f1cb4aafe
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_CONTEXT_FUNCTION_CONFIG, CRYPT_CONTEXT_FUNCTION_CONFIG, CRYPT_CONTEXT_FUNCTION_CONFIG structure [Security], CRYPT_EXCLUSIVE, PCRYPT_CONTEXT_FUNCTION_CONFIG, PCRYPT_CONTEXT_FUNCTION_CONFIG structure pointer [Security], _CRYPT_CONTEXT_FUNCTION_CONFIG, bcrypt/CRYPT_CONTEXT_FUNCTION_CONFIG, bcrypt/PCRYPT_CONTEXT_FUNCTION_CONFIG, security.crypt_context_function_config"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_CONTEXT_FUNCTION_CONFIG, *PCRYPT_CONTEXT_FUNCTION_CONFIG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_CONTEXT_FUNCTION_CONFIG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_CONTEXT_FUNCTION_CONFIG, *PCRYPT_CONTEXT_FUNCTION_CONFIG
+req.redist: 
 ---
 
 # _CRYPT_CONTEXT_FUNCTION_CONFIG structure

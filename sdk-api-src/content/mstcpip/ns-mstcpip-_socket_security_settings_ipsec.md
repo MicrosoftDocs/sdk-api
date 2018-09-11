@@ -4,17 +4,16 @@ title: "_SOCKET_SECURITY_SETTINGS_IPSEC"
 author: windows-sdk-content
 description: Specifies various security requirements and settings that are specific to IPsec.
 old-location: winsock\socket_security_settings_ipsec.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 99af6ebd-6a7d-4753-8bc6-cfd42919843e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SOCKET_SECURITY_SETTINGS_IPSEC, SOCKET_SECURITY_SETTINGS_IPSEC structure [Winsock], SOCKET_SETTINGS_ALLOW_INSECURE, SOCKET_SETTINGS_GUARANTEE_ENCRYPTION, SOCKET_SETTINGS_IPSEC_SKIP_FILTER_INSTANTIATION, _SOCKET_SECURITY_SETTINGS_IPSEC, mstcpip/SOCKET_SECURITY_SETTINGS_IPSEC, winsock.socket_security_settings_ipsec
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstcpip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKET_SECURITY_SETTINGS_IPSEC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SOCKET_SECURITY_SETTINGS_IPSEC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SOCKET_SECURITY_SETTINGS_IPSEC
+req.redist: 
 ---
 
 # _SOCKET_SECURITY_SETTINGS_IPSEC structure

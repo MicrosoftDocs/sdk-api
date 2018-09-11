@@ -4,17 +4,16 @@ title: ID2D1DeviceContext6::BlendImage
 author: windows-sdk-content
 description: Draws an image to the device context using the specified blend mode. Results are equivalent to using Direct2D's built-in Blend effect.
 old-location: direct2d\id2d1devicecontext6_blendimage.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 598E98CA-3485-4188-84F0-DD711461AE44
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BlendImage, BlendImage method [Direct2D], BlendImage method [Direct2D],ID2D1DeviceContext6 interface, ID2D1DeviceContext6 interface [Direct2D],BlendImage method, ID2D1DeviceContext6.BlendImage, ID2D1DeviceContext6::BlendImage, d2d1_3/ID2D1DeviceContext6::BlendImage, direct2d.id2d1devicecontext6_blendimage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DeviceContext6.BlendImage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext6::BlendImage

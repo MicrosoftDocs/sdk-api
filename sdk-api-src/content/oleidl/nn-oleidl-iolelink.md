@@ -4,17 +4,16 @@ title: IOleLink
 author: windows-sdk-content
 description: Enables a linked object to provide its container with functions pertaining to linking.
 old-location: com\iolelink.htm
-old-project: com
+tech.root: com
 ms.assetid: 4a34a90d-df1b-4bbf-8365-9d741c18ff74
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleLink, IOleLink interface [COM], IOleLink interface [COM],described, _ole_iolelink, com.iolelink, oleidl/IOleLink
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleLink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Adhocreportingexcelclient.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleLink interface

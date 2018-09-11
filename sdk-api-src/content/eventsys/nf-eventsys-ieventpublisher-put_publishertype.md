@@ -4,17 +4,16 @@ title: IEventPublisher::put_PublisherType
 author: windows-sdk-content
 description: The optional administrative group for the event publisher.
 old-location: com\ieventpublisher_publishertype.htm
-old-project: com
+tech.root: com
 ms.assetid: b92b9493-bfee-4898-9e58-0a1cf9b59ffa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEventPublisher interface [COM],PublisherType property, IEventPublisher.PublisherType, IEventPublisher.put_PublisherType, IEventPublisher::PublisherType, IEventPublisher::get_PublisherType, IEventPublisher::put_PublisherType, PublisherType property [COM], PublisherType property [COM],IEventPublisher interface, _com_ieventpublisher_publishertype, com.ieventpublisher_publishertype, eventsys/IEventPublisher::PublisherType, eventsys/IEventPublisher::get_PublisherType, eventsys/IEventPublisher::put_PublisherType, put_PublisherType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEventPublisher.put_PublisherType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventPublisher::put_PublisherType

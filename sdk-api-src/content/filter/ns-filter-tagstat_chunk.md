@@ -4,17 +4,16 @@ title: tagSTAT_CHUNK
 author: windows-sdk-content
 description: Describes the characteristics of a chunk.
 old-location: indexsrv\stat_chunk.htm
-old-project: IndexSrv
+tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_6a5n.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: STAT_CHUNK, STAT_CHUNK structure [Indexing Service], _idxs_STAT_CHUNK, filter/STAT_CHUNK, indexsrv.stat_chunk, tagSTAT_CHUNK
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: filter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STAT_CHUNK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STAT_CHUNK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: STAT_CHUNK
+req.redist: 
 ---
 
 # tagSTAT_CHUNK structure

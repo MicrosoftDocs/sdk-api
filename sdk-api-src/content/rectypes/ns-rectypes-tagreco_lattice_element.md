@@ -4,17 +4,16 @@ title: tagRECO_LATTICE_ELEMENT
 author: windows-sdk-content
 description: Corresponds to one word or one East Asian character, typically; however, an element may also correspond to a gesture, a shape, or some other code.
 old-location: tablet\reco_lattice_element.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: c4100cb9-d666-4e74-ac12-7f242b3c60d4
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: RECO_LATTICE_ELEMENT, RECO_LATTICE_ELEMENT structure [Tablet PC], c4100cb9-d666-4e74-ac12-7f242b3c60d4, rectypes/RECO_LATTICE_ELEMENT, tablet.reco_lattice_element, tagRECO_LATTICE_ELEMENT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_LATTICE_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RECO_LATTICE_ELEMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RECO_LATTICE_ELEMENT
+req.redist: 
 ---
 
 # tagRECO_LATTICE_ELEMENT structure

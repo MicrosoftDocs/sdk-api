@@ -4,7 +4,7 @@ title: D2D1_SVG_UNIT_TYPE
 author: windows-sdk-content
 description: Defines the coordinate system used for SVG gradient or clipPath elements.
 old-location: direct2d\d2d1_svg_unit_type.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: EF7CD98A-AE8D-42B3-BA1F-D50EB2FB88A6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_UNIT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_SVG_UNIT_TYPE
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_SVG_UNIT_TYPE
+req.redist: 
 ---
 
 # D2D1_SVG_UNIT_TYPE enumeration

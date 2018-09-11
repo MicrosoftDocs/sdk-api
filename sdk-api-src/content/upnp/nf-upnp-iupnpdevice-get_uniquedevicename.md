@@ -4,17 +4,16 @@ title: IUPnPDevice::get_UniqueDeviceName
 author: windows-sdk-content
 description: The UniqueDeviceName property specifies the unique device name (UDN) of the device. A UDN is unique; no two devices can have the same UDN.
 old-location: upnp\iupnpdevice_uniquedevicename.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: ca644bd3-6580-44da-87f5-11d543814043
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_UniqueDeviceName method, IUPnPDevice.get_UniqueDeviceName, IUPnPDevice::get_UniqueDeviceName, _upnp_iupnpdevice_uniquedevicename, get_UniqueDeviceName, get_UniqueDeviceName method [UPnP APIs], get_UniqueDeviceName method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_uniquedevicename, upnp/IUPnPDevice::get_UniqueDeviceName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDevice.get_UniqueDeviceName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDevice::get_UniqueDeviceName

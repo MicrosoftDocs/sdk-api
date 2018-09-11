@@ -4,17 +4,16 @@ title: DirectDrawEnumerateW function
 author: windows-sdk-content
 description: This function is superseded by the DirectDrawEnumerateEx function.
 old-location: directdraw\directdrawenumerate.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 1f994adb-79ff-4cc1-8769-0faeed893503
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DirectDrawEnumerate, DirectDrawEnumerate function [DirectDraw], DirectDrawEnumerateW, ddraw/DirectDrawEnumerate, ddraw/DirectDrawEnumerateW, directdraw.directdrawenumerate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - DirectDrawEnumerateW
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DirectDrawEnumerateW function

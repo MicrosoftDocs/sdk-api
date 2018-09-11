@@ -4,17 +4,16 @@ title: IProvideWinSATResultsInfo::get_SystemRating
 author: windows-sdk-content
 description: Retrieves the base score for the computer.
 old-location: winsat\iprovidewinsatresultsinfo_systemrating.htm
-old-project: winsat
+tech.root: WinSAT
 ms.assetid: 4fe20830-bf86-4551-ba73-534740cabab5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IProvideWinSATResultsInfo interface [WinSAT],SystemRating property, IProvideWinSATResultsInfo.SystemRating, IProvideWinSATResultsInfo.get_SystemRating, IProvideWinSATResultsInfo::SystemRating, IProvideWinSATResultsInfo::get_SystemRating, SystemRating property [WinSAT], SystemRating property [WinSAT],IProvideWinSATResultsInfo interface, get_SystemRating, winsat.iprovidewinsatresultsinfo_systemrating, winsatcominterfacei/IProvideWinSATResultsInfo::SystemRating, winsatcominterfacei/IProvideWinSATResultsInfo::get_SystemRating
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IProvideWinSATResultsInfo.get_SystemRating
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Winsatapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IProvideWinSATResultsInfo::get_SystemRating

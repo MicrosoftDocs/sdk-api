@@ -4,7 +4,7 @@ title: IBDA_EthernetFilter
 author: windows-sdk-content
 description: The IBDA_EthernetFilter interface is implemented on a Network Provider.
 old-location: mstv\ibda_ethernetfilter.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f4f9d6c0-0acf-416b-adb3-643ac0167d0a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_EthernetFilter
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_EthernetFilter interface

@@ -4,17 +4,16 @@ title: IPropertyStore::Commit
 author: windows-sdk-content
 description: After a change has been made, this method saves the changes.
 old-location: audio\ipropertystore_commit.htm
-old-project: audio
+tech.root: audio
 ms.assetid: a3cc6815-a16f-45e7-a2d5-8f354f712170
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Commit, Commit (IPropertyStore), Commit method [Audio Devices], Commit method [Audio Devices],IPropertyStore interface, IPropertyStore interface [Audio Devices],Commit method, IPropertyStore.Commit, IPropertyStore::Commit, audio.ipropertystore_commit, audio_syseffects_r_65453880-01ab-4b73-b766-bb1daeb863ba.xml, propsys/IPropertyStore::Commit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available with Windows Vista and later versions of the Windows operating system.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.idl
+req.dll: 
+req.irql: All levels
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPropertyStore.Commit
 product: Windows
 targetos: Windows
-req.lib: Propsys.idl
-req.dll: 
-req.irql: All levels
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyStore::Commit

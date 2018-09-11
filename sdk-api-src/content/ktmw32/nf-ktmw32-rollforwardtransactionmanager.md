@@ -4,17 +4,16 @@ title: RollforwardTransactionManager function
 author: windows-sdk-content
 description: Recovers information only to the specified virtual clock value.
 old-location: fs\rollforwardtransactionmanager.htm
-old-project: ktm
+tech.root: ktm
 ms.assetid: 13492b74-8707-46bb-93f1-59c3c5ceab6d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RollforwardTransactionManager, RollforwardTransactionManager function [Files], fs.rollforwardtransactionmanager, ktmw32/RollforwardTransactionManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+req.lib: KtmW32.lib
+req.dll: KtmW32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RollforwardTransactionManager
 product: Windows
 targetos: Windows
-req.lib: KtmW32.lib
-req.dll: KtmW32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # RollforwardTransactionManager function

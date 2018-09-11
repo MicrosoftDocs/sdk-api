@@ -4,17 +4,16 @@ title: IVssCreateWriterMetadata::AddComponent
 author: windows-sdk-content
 description: The AddComponent method adds a database or file group as a component to be backed up.
 old-location: base\ivsscreatewritermetadata_addcomponent.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: fdbcbcea-d49e-49bc-9bb8-2210a9de02a4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddComponent, AddComponent method [VSS], AddComponent method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddComponent method, IVssCreateWriterMetadata.AddComponent, IVssCreateWriterMetadata::AddComponent, _win32_ivsscreatewritermetadata_addcomponent, base.ivsscreatewritermetadata_addcomponent, vswriter/IVssCreateWriterMetadata::AddComponent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssCreateWriterMetadata.AddComponent
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssCreateWriterMetadata::AddComponent
@@ -64,7 +62,7 @@ The <b>AddComponent</b> method adds a
 
 ### -param ct
 
-
+TBD
 
 
 ### -param wszLogicalPath [in]

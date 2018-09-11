@@ -4,17 +4,16 @@ title: IUPnPServiceAsync::EndSCPDDownload
 author: windows-sdk-content
 description: EndSCPDDownload method retrieves the results of a previous asynchronous download of an Service Control Protocol Description (SCPD) document.
 old-location: upnp\iupnpserviceasync_endscpddownload.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 1C4F7986-9282-4775-B9B2-338AC44F2243
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: EndSCPDDownload, EndSCPDDownload method [UPnP APIs], EndSCPDDownload method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndSCPDDownload method, IUPnPServiceAsync.EndSCPDDownload, IUPnPServiceAsync::EndSCPDDownload, upnp.iupnpserviceasync_endscpddownload, upnp/IUPnPServiceAsync::EndSCPDDownload
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPServiceAsync.EndSCPDDownload
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPServiceAsync::EndSCPDDownload

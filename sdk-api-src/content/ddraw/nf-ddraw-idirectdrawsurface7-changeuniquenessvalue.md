@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::ChangeUniquenessValue
 author: windows-sdk-content
 description: Manually updates the uniqueness value for this surface.
 old-location: directdraw\idirectdrawsurface7_changeuniquenessvalue.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 4d714fb7-7e12-45ab-ae40-7fc2a65b9e7e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ChangeUniquenessValue, ChangeUniquenessValue method [DirectDraw], ChangeUniquenessValue method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],ChangeUniquenessValue method, IDirectDrawSurface7.ChangeUniquenessValue, IDirectDrawSurface7::ChangeUniquenessValue, ddraw/IDirectDrawSurface7::ChangeUniquenessValue, directdraw.idirectdrawsurface7_changeuniquenessvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.ChangeUniquenessValue
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::ChangeUniquenessValue

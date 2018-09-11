@@ -4,17 +4,16 @@ title: IAMMediaContent::get_Description
 author: windows-sdk-content
 description: The get_Description method retrieves a description of the content.
 old-location: dshow\iammediacontent_get_description.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: fc0c14f3-2764-4897-8ddb-ed1146d98597
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Description method, IAMMediaContent.get_Description, IAMMediaContent::get_Description, IAMMediaContentget_Description, dshow.iammediacontent_get_description, get_Description, get_Description method [DirectShow], get_Description method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMMediaContent.get_Description
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMediaContent::get_Description

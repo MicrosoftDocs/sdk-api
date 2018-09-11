@@ -4,17 +4,16 @@ title: ConvertDefaultLocale function
 author: windows-sdk-content
 description: Converts a default locale value to an actual locale identifier.
 old-location: intl\convertdefaultlocale.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: e227bb9f-f072-4e44-bd55-24c98b990a36
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ConvertDefaultLocale, ConvertDefaultLocale function [Internationalization for Windows Applications], _win32_ConvertDefaultLocale, intl.convertdefaultlocale, winnls/ConvertDefaultLocale
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - ConvertDefaultLocale
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ConvertDefaultLocale function

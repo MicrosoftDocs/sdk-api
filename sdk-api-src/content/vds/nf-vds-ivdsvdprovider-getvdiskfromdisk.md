@@ -4,17 +4,16 @@ title: IVdsVdProvider::GetVDiskFromDisk
 author: windows-sdk-content
 description: Returns an IVdsVDisk interface pointer for the virtual disk given an IVdsDisk interface pointer.
 old-location: base\ivdsvdprovider_getvdiskfromdisk.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: ef5fd5e0-d11f-44e1-8947-787f1e592c5c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetVDiskFromDisk, GetVDiskFromDisk method, GetVDiskFromDisk method,IVdsVdProvider interface, IVdsVdProvider interface,GetVDiskFromDisk method, IVdsVdProvider.GetVDiskFromDisk, IVdsVdProvider::GetVDiskFromDisk, base.ivdsvdprovider_getvdiskfromdisk, vds/IVdsVdProvider::GetVDiskFromDisk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVdProvider.GetVDiskFromDisk
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVdProvider::GetVDiskFromDisk

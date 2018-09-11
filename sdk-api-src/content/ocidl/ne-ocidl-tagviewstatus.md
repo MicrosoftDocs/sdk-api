@@ -4,17 +4,16 @@ title: tagVIEWSTATUS
 author: windows-sdk-content
 description: Specifies the opacity of the object and the drawing aspects supported by the object.
 old-location: com\viewstatus.htm
-old-project: com
+tech.root: com
 ms.assetid: 7b3118af-db29-4eb1-9b1b-38a8ebe42f19
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: VIEWSTATUS, VIEWSTATUS enumeration [COM], VIEWSTATUS_3DSURFACE, VIEWSTATUS_DVASPECTOPAQUE, VIEWSTATUS_DVASPECTTRANSPARENT, VIEWSTATUS_OPAQUE, VIEWSTATUS_SOLIDBKGND, VIEWSTATUS_SURFACE, _ole_VIEWSTATUS, com.viewstatus, ocidl/VIEWSTATUS, ocidl/VIEWSTATUS_3DSURFACE, ocidl/VIEWSTATUS_DVASPECTOPAQUE, ocidl/VIEWSTATUS_DVASPECTTRANSPARENT, ocidl/VIEWSTATUS_OPAQUE, ocidl/VIEWSTATUS_SOLIDBKGND, ocidl/VIEWSTATUS_SURFACE, tagVIEWSTATUS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VIEWSTATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: VIEWSTATUS
+req.redist: 
 ---
 
 # tagVIEWSTATUS enumeration

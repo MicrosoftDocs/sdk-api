@@ -4,7 +4,7 @@ title: TTEMBEDINFO
 author: windows-sdk-content
 description: The TTEMBEDINFO structure contains a list of URLs from which the embedded font object may be legitimately referenced.
 old-location: gdi\ttembedinfo.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 7e1828bf-c9ed-4120-b91f-b4eb45191e48
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: t2embapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TTEMBEDINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TTEMBEDINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TTEMBEDINFO
+req.redist: 
 ---
 
 # TTEMBEDINFO structure

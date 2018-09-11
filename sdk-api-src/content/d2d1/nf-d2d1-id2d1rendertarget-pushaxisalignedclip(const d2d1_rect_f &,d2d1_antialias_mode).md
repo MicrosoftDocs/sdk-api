@@ -4,17 +4,16 @@ title: ID2D1RenderTarget::PushAxisAlignedClip(const D2D1_RECT_F &,D2D1_ANTIALIAS
 author: windows-sdk-content
 description: Specifies a rectangle to which all subsequent drawing operations are clipped.
 old-location: direct2d\id2d1rendertarget_pushaxisalignedclip.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 8b777425-07b1-4494-889a-0c947fb61315
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1RenderTarget.PushAxisAlignedClip, ID2D1RenderTarget.PushAxisAlignedClip(const D2D1_RECT_F &,D2D1_ANTIALIAS_MODE), ID2D1RenderTarget::PushAxisAlignedClip, ID2D1RenderTarget::PushAxisAlignedClip(const D2D1_RECT_F &,D2D1_ANTIALIAS_MODE), PushAxisAlignedClip, PushAxisAlignedClip methods [Direct2D], d2d1_1/PushAxisAlignedClip, direct2d.id2d1rendertarget_pushaxisalignedclip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: D2d1.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1RenderTarget::PushAxisAlignedClip
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1RenderTarget::PushAxisAlignedClip(const D2D1_RECT_F &,D2D1_ANTIALIAS_MODE)

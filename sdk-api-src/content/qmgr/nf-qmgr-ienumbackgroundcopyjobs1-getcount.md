@@ -4,17 +4,16 @@ title: IEnumBackgroundCopyJobs1::GetCount
 author: windows-sdk-content
 description: Use the GetCount method to retrieve a count of the number of jobs in the enumeration.
 old-location: bits\ienumbackgroundcopyjobs1_getcount.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 3deaf2fd-84a0-49f8-8a7d-91a39701683a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBackgroundCopyJobs1 interface, IEnumBackgroundCopyJobs1 interface [BITS],GetCount method, IEnumBackgroundCopyJobs1.GetCount, IEnumBackgroundCopyJobs1::GetCount, bits.ienumbackgroundcopyjobs1_getcount, qmgr/IEnumBackgroundCopyJobs1::GetCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumBackgroundCopyJobs1.GetCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumBackgroundCopyJobs1::GetCount

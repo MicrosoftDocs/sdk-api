@@ -4,17 +4,16 @@ title: CBGETRSVPOBJECTS
 author: windows-sdk-content
 description: The cbGetRsvpObjects function is a callback function for LPMs to asynchronously return results for LPM_GetRsvpObjects requests.
 old-location: qos\cbgetrsvpobjects.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: baedb3e9-7768-4666-8bd7-78dd1d0eb0de
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CBGETRSVPOBJECTS, CBGETRSVPOBJECTS callback function [QOS], _gqos_cbpgetrsvpobjects, cbGetRsvpObjects, cbGetRsvpObjects callback, cbGetRsvpObjects callback function [QOS], lpmapi/cbGetRsvpObjects, qos.cbgetrsvpobjects, qos.cbpgetrsvpobjects
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CBGETRSVPOBJECTS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CBGETRSVPOBJECTS callback function

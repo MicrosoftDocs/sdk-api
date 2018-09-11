@@ -4,17 +4,16 @@ title: IAudioEndpointLastBufferControl::IsLastBufferControlSupported
 author: windows-sdk-content
 description: Indicates if last buffer control is supported.
 old-location: coreaudio\iaudioendpointlastbuffercontrol_islastbuffercontrolsupported.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 9ee7095a-957f-429d-b19d-df90246f8608
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioEndpointLastBufferControl interface [Core Audio],IsLastBufferControlSupported method, IAudioEndpointLastBufferControl.IsLastBufferControlSupported, IAudioEndpointLastBufferControl::IsLastBufferControlSupported, IsLastBufferControlSupported, IsLastBufferControlSupported method [Core Audio], IsLastBufferControlSupported method [Core Audio],IAudioEndpointLastBufferControl interface, audioengineendpoint/IAudioEndpointLastBufferControl::IsLastBufferControlSupported, coreaudio.iaudioendpointlastbuffercontrol_islastbuffercontrolsupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioEndpointLastBufferControl.IsLastBufferControlSupported
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioEndpointLastBufferControl::IsLastBufferControlSupported

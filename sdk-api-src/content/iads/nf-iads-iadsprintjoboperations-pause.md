@@ -4,17 +4,16 @@ title: IADsPrintJobOperations::Pause
 author: windows-sdk-content
 description: The IADsPrintJobOperations::Pause method halts the processing of the current print job. Call the IADsPrintJobOperations::Resume method to continue the processing.
 old-location: adsi\iadsprintjoboperations_pause.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 8e1e5c1b-7a06-4781-9be5-71d170987e24
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsPrintJobOperations interface [ADSI],Pause method, IADsPrintJobOperations.Pause, IADsPrintJobOperations::Pause, Pause, Pause method [ADSI], Pause method [ADSI],IADsPrintJobOperations interface, _ds_iadsprintjoboperations_pause, adsi.iadsprintjoboperations__pause, adsi.iadsprintjoboperations_pause, iads/IADsPrintJobOperations::Pause
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsPrintJobOperations.Pause
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsPrintJobOperations::Pause

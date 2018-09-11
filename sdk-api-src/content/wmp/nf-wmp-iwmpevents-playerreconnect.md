@@ -4,17 +4,16 @@ title: IWMPEvents::PlayerReconnect
 author: windows-sdk-content
 description: The PlayerReconnect event occurs when a remoted Windows Media Player control reconnects to the Player.
 old-location: wmp\iwmpevents_iwmpevents__playerreconnect.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 16e9aa76-8ecf-471e-a30c-b8cf834cee0e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlayerReconnect method, IWMPEvents.PlayerReconnect, IWMPEvents::PlayerReconnect, IWMPEventsPlayerReconnect, PlayerReconnect, PlayerReconnect method [Windows Media Player], PlayerReconnect method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playerreconnect, wmp/IWMPEvents::PlayerReconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEvents.PlayerReconnect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEvents::PlayerReconnect

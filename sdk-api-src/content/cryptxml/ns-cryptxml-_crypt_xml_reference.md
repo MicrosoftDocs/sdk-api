@@ -4,17 +4,16 @@ title: "_CRYPT_XML_REFERENCE"
 author: windows-sdk-content
 description: Contains information used to populate the Reference element.
 old-location: security\crypt_xml_reference.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: af16af5a-b1e5-4250-bdb1-f3fceb1830b9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_XML_REFERENCE, CRYPT_XML_REFERENCE, CRYPT_XML_REFERENCE structure [Security], PCRYPT_XML_REFERENCE, PCRYPT_XML_REFERENCE structure pointer [Security], _CRYPT_XML_REFERENCE, cryptxml/CRYPT_XML_REFERENCE, cryptxml/PCRYPT_XML_REFERENCE, security.crypt_xml_reference"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_REFERENCE, *PCRYPT_XML_REFERENCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_REFERENCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_REFERENCE, *PCRYPT_XML_REFERENCE
+req.redist: 
 ---
 
 # _CRYPT_XML_REFERENCE structure

@@ -4,17 +4,16 @@ title: tagGESTUREINFO
 author: windows-sdk-content
 description: Stores information about a gesture.
 old-location: wintouch\gestureinfo.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: f5b8b530-ff1e-4d78-a12f-86990fe9ac88
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PGESTUREINFO, GESTUREINFO, GESTUREINFO structure [Windows Touch], PGESTUREINFO, PGESTUREINFO structure pointer [Windows Touch], tagGESTUREINFO, wintouch.gestureinfo, winuser/GESTUREINFO, winuser/PGESTUREINFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GESTUREINFO, *PGESTUREINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GESTUREINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: GESTUREINFO, *PGESTUREINFO
+req.redist: 
 ---
 
 # tagGESTUREINFO structure

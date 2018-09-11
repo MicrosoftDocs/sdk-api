@@ -4,17 +4,16 @@ title: acmDriverOpen function
 author: windows-sdk-content
 description: The acmDriverOpen function opens the specified ACM driver and returns a driver instance handle that can be used to communicate with the driver.
 old-location: multimedia\acmdriveropen.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: a2b98e82-be7a-4e14-bc74-4926eb663ef9
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_acmDriverOpen, acmDriverOpen, acmDriverOpen function [Windows Multimedia], msacm/acmDriverOpen, multimedia.acmdriveropen"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.lib: Msacm32.lib
+req.dll: Msacm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - acmDriverOpen
 product: Windows
 targetos: Windows
-req.lib: Msacm32.lib
-req.dll: Msacm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # acmDriverOpen function

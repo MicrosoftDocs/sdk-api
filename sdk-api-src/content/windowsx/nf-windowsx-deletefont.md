@@ -4,17 +4,16 @@ title: DeleteFont macro
 author: windows-sdk-content
 description: The DeleteFont macro deletes a font object, freeing all system resources associated with the font object.
 old-location: gdi\deletefont.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 5cb6c667-3c8b-41cf-b2b7-9e1e89729da7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DeleteFont, DeleteFont macro [Windows GDI], _win32_DeleteFont, gdi.deletefont, windowsx/DeleteFont
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DeleteFont
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DeleteFont macro

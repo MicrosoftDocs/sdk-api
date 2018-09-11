@@ -4,17 +4,16 @@ title: IReferenceTrackerManager::xaml
 author: windows-sdk-content
 description: Registers an IReferenceTrackerHost interface with XAML.
 old-location: winrt\ireferencetrackermanager_setreferencetrackerhost.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 02828d30-5023-4bd6-9c7a-8a3458462655
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IReferenceTrackerManager interface [Windows Runtime],SetReferenceTrackerHost method, IReferenceTrackerManager.SetReferenceTrackerHost, IReferenceTrackerManager.xaml, IReferenceTrackerManager::SetReferenceTrackerHost, IReferenceTrackerManager::xaml, SetReferenceTrackerHost, SetReferenceTrackerHost method [Windows Runtime], SetReferenceTrackerHost method [Windows Runtime],IReferenceTrackerManager interface, windows/IReferenceTrackerManager::SetReferenceTrackerHost, winrt.ireferencetrackermanager_setreferencetrackerhost
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IReferenceTrackerManager.SetReferenceTrackerHost
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IReferenceTrackerManager::xaml

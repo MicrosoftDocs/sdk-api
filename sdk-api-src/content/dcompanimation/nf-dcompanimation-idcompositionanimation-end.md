@@ -4,17 +4,16 @@ title: IDCompositionAnimation::End
 author: windows-sdk-content
 description: Adds an end segment that marks the end of an animation function.
 old-location: directcomp\idcompositionanimation_end.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 71287ae2-d930-4e96-8c12-538d2b58ccc6
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: End, End method [DirectComposition], End method [DirectComposition],IDCompositionAnimation interface, IDCompositionAnimation interface [DirectComposition],End method, IDCompositionAnimation.End, IDCompositionAnimation::End, dcompanimation/IDCompositionAnimation::End, directcomp.idcompositionanimation_end
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcompanimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionAnimation.End
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionAnimation::End

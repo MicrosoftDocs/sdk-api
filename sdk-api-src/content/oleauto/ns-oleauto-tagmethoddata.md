@@ -4,7 +4,7 @@ title: tagMETHODDATA
 author: windows-sdk-content
 description: Describes a method or property.
 old-location: automat\methoddata.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 85fd7121-3eed-4a83-9ba2-caa81fa1e048
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: METHODDATA, *LPMETHODDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - METHODDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: METHODDATA, *LPMETHODDATA
+req.redist: 
 ---
 
 # tagMETHODDATA structure

@@ -4,17 +4,16 @@ title: IWMVideoDecoderHurryup::GetHurryup
 author: windows-sdk-content
 description: Retrieves the current speed mode of the video decoder.
 old-location: mf\iwmvideodecoderhurryupgethurryup.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c5c58acd-ebf9-46ce-977b-1478b42559c4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetHurryup, GetHurryup method [Media Foundation], GetHurryup method [Media Foundation],IWMVideoDecoderHurryup interface, IWMVideoDecoderHurryup interface [Media Foundation],GetHurryup method, IWMVideoDecoderHurryup.GetHurryup, IWMVideoDecoderHurryup::GetHurryup, codecapi.iwmvideodecoderhurryupgethurryup, mf.iwmvideodecoderhurryupgethurryup, wmcodecdsp/IWMVideoDecoderHurryup::GetHurryup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMVideoDecoderHurryup.GetHurryup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMVideoDecoderHurryup::GetHurryup

@@ -4,17 +4,16 @@ title: WTSVirtualChannelPurgeOutput function
 author: windows-sdk-content
 description: Deletes all queued output data sent from the server to the client on a specified virtual channel.
 old-location: termserv\wtsvirtualchannelpurgeoutput.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 9edd06d1-3f5a-4d83-8c3c-16b761ce4c60
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WTSVirtualChannelPurgeOutput, WTSVirtualChannelPurgeOutput function [Remote Desktop Services], _win32_wtsvirtualchannelpurgeoutput, termserv.wtsvirtualchannelpurgeoutput, wtsapi32/WTSVirtualChannelPurgeOutput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_VIRTUAL_CLASS
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTSVirtualChannelPurgeOutput
 product: Windows
 targetos: Windows
-req.lib: Wtsapi32.lib
-req.dll: Wtsapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WTSVirtualChannelPurgeOutput function

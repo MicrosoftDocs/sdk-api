@@ -4,7 +4,7 @@ title: PDD_KERNELCB_SYNCVIDEOPORT
 author: windows-sdk-content
 description: The DdSyncVideoPortData callback function sets and modifies VPE object data before it is passed to the video miniport driver.
 old-location: display\ddsyncvideoportdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 3726a505-c3cf-4784-886e-2f4524fb0c5b
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdSyncVideoPortData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PDD_KERNELCB_SYNCVIDEOPORT callback function

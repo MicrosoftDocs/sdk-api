@@ -4,17 +4,16 @@ title: ICommDlgBrowser::OnStateChange
 author: windows-sdk-content
 description: Called after a state, identified by the uChange parameter, has changed in the IShellView interface.
 old-location: shell\ICommDlgBrowser_OnStateChange.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ec9f0e5d-ca64-4ab4-b2cc-6d0748ede8b2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CDBOSC_KILLFOCUS, CDBOSC_RENAME, CDBOSC_SELCHANGE, CDBOSC_SETFOCUS, CDBOSC_STATECHANGE, ICommDlgBrowser interface [Windows Shell],OnStateChange method, ICommDlgBrowser.OnStateChange, ICommDlgBrowser::OnStateChange, OnStateChange, OnStateChange method [Windows Shell], OnStateChange method [Windows Shell],ICommDlgBrowser interface, _win32_ICommDlgBrowser_OnStateChange, shell.ICommDlgBrowser_OnStateChange, shobjidl_core/ICommDlgBrowser::OnStateChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICommDlgBrowser.OnStateChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICommDlgBrowser::OnStateChange

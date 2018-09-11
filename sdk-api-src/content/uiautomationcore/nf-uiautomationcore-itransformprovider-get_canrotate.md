@@ -4,17 +4,16 @@ title: ITransformProvider::get_CanRotate
 author: windows-sdk-content
 description: Indicates whether the control can be rotated.
 old-location: winauto\uiauto_ITransformProvider_CanRotate.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 9943a5d7-916d-4546-8aba-fe5abe3e4eb2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CanRotate property [Windows Accessibility], CanRotate property [Windows Accessibility],ITransformProvider interface, ITransformProvider interface [Windows Accessibility],CanRotate property, ITransformProvider.CanRotate, ITransformProvider.get_CanRotate, ITransformProvider::CanRotate, ITransformProvider::get_CanRotate, get_CanRotate, uiauto.uiauto_ITransformProvider_CanRotate, uiauto_ITransformProvider_CanRotate, uiautomationcore/ITransformProvider::CanRotate, uiautomationcore/ITransformProvider::get_CanRotate, winauto.uiauto_ITransformProvider_CanRotate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITransformProvider.get_CanRotate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITransformProvider::get_CanRotate

@@ -4,17 +4,16 @@ title: IFECommon::IsDefaultIME
 author: windows-sdk-content
 description: Determines if the IME specified by the class ID is the default IME on a local computer.
 old-location: intl\ifecommon_isdefaultime.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: FFC3E200-54D4-4C47-A4A3-87AA2A4A2232
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IFECommon interface [Internationalization for Windows Applications],IsDefaultIME method, IFECommon.IsDefaultIME, IFECommon::IsDefaultIME, IsDefaultIME, IsDefaultIME method [Internationalization for Windows Applications], IsDefaultIME method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_isdefaultime, msime/IFECommon::IsDefaultIME
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFECommon.IsDefaultIME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IFECommon::IsDefaultIME

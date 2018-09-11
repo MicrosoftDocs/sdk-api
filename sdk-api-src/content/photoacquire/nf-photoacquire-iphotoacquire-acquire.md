@@ -4,17 +4,16 @@ title: IPhotoAcquire::Acquire
 author: windows-sdk-content
 description: The Acquire method acquires photos from a device.
 old-location: picacq\iphotoacquire_acquire.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 1000511f-40a6-4d5e-a55f-97e25f6c1e11
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Acquire, Acquire method [Picture Acquisition], Acquire method [Picture Acquisition],IPhotoAcquire interface, IPhotoAcquire interface [Picture Acquisition],Acquire method, IPhotoAcquire.Acquire, IPhotoAcquire::Acquire, IPhotoAcquireAcquire, photoacquire/IPhotoAcquire::Acquire, picacq.iphotoacquire_acquire
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquire.Acquire
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquire::Acquire

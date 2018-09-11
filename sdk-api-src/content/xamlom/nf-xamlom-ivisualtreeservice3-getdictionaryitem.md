@@ -4,17 +4,16 @@ title: IVisualTreeService3::GetDictionaryItem
 author: windows-sdk-content
 description: Gets an item from a ResourceDictionary.
 old-location: xaml_diagnostics\ivisualtreeservice3_getdictionaryitem.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: E836FE12-A49A-427C-8013-F1AFBD2C08A2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetDictionaryItem, GetDictionaryItem method, GetDictionaryItem method,IVisualTreeService3 interface, IVisualTreeService3 interface,GetDictionaryItem method, IVisualTreeService3.GetDictionaryItem, IVisualTreeService3::GetDictionaryItem, xaml_diagnostics.ivisualtreeservice3_getdictionaryitem, xamlom/IVisualTreeService3::GetDictionaryItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualMutationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualTreeService3.GetDictionaryItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualTreeService3::GetDictionaryItem

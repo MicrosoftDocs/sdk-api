@@ -4,7 +4,7 @@ title: "_avisuperindex"
 author: windows-sdk-content
 description: Contains an AVI 2.0 super index (index of indexes).
 old-location: dshow\avisuperindex.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 57c855ef-d4ea-4e11-a37b-941335ccf657
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: aviriff.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISUPERINDEX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AVISUPERINDEX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AVISUPERINDEX
+req.redist: 
 ---
 
 # _avisuperindex structure

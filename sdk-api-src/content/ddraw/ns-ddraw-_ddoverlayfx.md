@@ -4,7 +4,7 @@ title: "_DDOVERLAYFX"
 author: windows-sdk-content
 description: The DDOVERLAYFX structure passes overlay information to the IDirectDrawSurface7::UpdateOverlay method.
 old-location: directdraw\ddoverlayfx.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 83b56211-0483-4e22-90b4-83ac5eaaa2f4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDOVERLAYFX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDOVERLAYFX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDOVERLAYFX
+req.redist: 
 ---
 
 # _DDOVERLAYFX structure

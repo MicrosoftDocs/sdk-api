@@ -4,17 +4,16 @@ title: ISpatialAudioObjectForHrtf::SetOrientation
 author: windows-sdk-content
 description: Sets the orientation in 3D space, relative to the listener's frame of reference, from which the ISpatialAudioObjectForHrtf audio data will be rendered.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setorientation.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 2B88643A-C81A-4F11-BFD0-EEF4C65861C8
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetOrientation method, ISpatialAudioObjectForHrtf.SetOrientation, ISpatialAudioObjectForHrtf::SetOrientation, SetOrientation, SetOrientation method [Core Audio], SetOrientation method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setorientation, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetOrientation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiohrtf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioHrtfEnvironmentType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObjectForHrtf.SetOrientation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObjectForHrtf::SetOrientation

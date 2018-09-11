@@ -4,17 +4,16 @@ title: IDataObject::EnumDAdvise
 author: windows-sdk-content
 description: Creates an object that can be used to enumerate the current advisory connections.
 old-location: com\idataobject_enumdadvise.htm
-old-project: com
+tech.root: com
 ms.assetid: 319637fd-d9b5-4da0-ac92-4c52fa9f5231
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumDAdvise, EnumDAdvise method [COM], EnumDAdvise method [COM],IDataObject interface, IDataObject interface [COM],EnumDAdvise method, IDataObject.EnumDAdvise, IDataObject::EnumDAdvise, _ole_idataobject_enumdadvise, com.idataobject_enumdadvise, objidl/IDataObject::EnumDAdvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataObject.EnumDAdvise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataObject::EnumDAdvise

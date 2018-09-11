@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0007"
 author: windows-sdk-content
 description: Defines values for the type of window.
 old-location: rdp\rdpsrapi_wnd_flags.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 0ba626e0-b6dc-4331-9541-0c27c73b3de4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RDPSRAPI_WND_FLAGS, RDPSRAPI_WND_FLAGS enumeration [RDP], WND_FLAG_PRIVILEGED, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0007, rdp.rdpsrapi_wnd_flags, rdpencomapi/RDPSRAPI_WND_FLAGS, rdpencomapi/WND_FLAG_PRIVILEGED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -26,9 +25,10 @@ req.idl: Rdpencomapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: MsTscAx.dll
-tech.root: 
-req.typenames: RDPSRAPI_WND_FLAGS
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RDPSRAPI_WND_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsTscAx.dll
-req.irql: 
-req.product: ADAM
+req.typenames: RDPSRAPI_WND_FLAGS
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_rdpencomapi_0000_0000_0007 enumeration

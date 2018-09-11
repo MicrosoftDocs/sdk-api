@@ -4,17 +4,16 @@ title: IGetClusterUIInfo::GetClusterName
 author: windows-sdk-content
 description: Returns the name of the cluster.
 old-location: mscs\igetclusteruiinfo_getclustername.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 2c892250-80b7-4bf8-9514-64833d0e3450
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetClusterName, GetClusterName method [Failover Cluster], GetClusterName method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetClusterName method, IGetClusterUIInfo.GetClusterName, IGetClusterUIInfo::GetClusterName, _wolf_igetclusteruiinfo_getclustername, cluadmex/IGetClusterUIInfo::GetClusterName, mscs.igetclusteruiinfo_getclustername
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetClusterUIInfo.GetClusterName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetClusterUIInfo::GetClusterName

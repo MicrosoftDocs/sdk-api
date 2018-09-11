@@ -4,17 +4,16 @@ title: ITraceDataProvider::get_Properties
 author: windows-sdk-content
 description: Retrieves the list of extended data items that Event Tracing for Windows (ETW) includes with the event.
 old-location: pla\itracedataprovider_properties.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 1dc21423-fa55-4312-b86a-63d4f59e4cf1
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ITraceDataProvider interface [PLA],Properties property, ITraceDataProvider.Properties, ITraceDataProvider.get_Properties, ITraceDataProvider::Properties, ITraceDataProvider::get_Properties, Properties property [PLA], Properties property [PLA],ITraceDataProvider interface, base.itracedataprovider_properties, get_Properties, pla.itracedataprovider_properties, pla/ITraceDataProvider::Properties, pla/ITraceDataProvider::get_Properties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITraceDataProvider.get_Properties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataProvider::get_Properties

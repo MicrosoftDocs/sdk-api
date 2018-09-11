@@ -4,17 +4,16 @@ title: DnsValidateServerStatus function
 author: windows-sdk-content
 description: The DnsValidateServerStatus function validates an IP address as a suitable DNS server.
 old-location: dns\dnsvalidateserverstatus.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 5b362d05-87b2-44dd-8198-bcb5ab5a64f6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DNS_VALSVR_ERROR_INVALID_ADDR, DNS_VALSVR_ERROR_INVALID_NAME, DNS_VALSVR_ERROR_NO_AUTH, DNS_VALSVR_ERROR_NO_RESPONSE, DNS_VALSVR_ERROR_NO_TCP, DNS_VALSVR_ERROR_REFUSED, DNS_VALSVR_ERROR_UNKNOWN, DNS_VALSVR_ERROR_UNREACHABLE, DnsValidateServerStatus, DnsValidateServerStatus function [DNS], ERROR_SUCCESS, dns.dnsvalidateserverstatus, windns/DnsValidateServerStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_FREE_TYPE
+req.lib: Dnsapi.lib
+req.dll: Dnsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DnsValidateServerStatus
 product: Windows
 targetos: Windows
-req.lib: Dnsapi.lib
-req.dll: Dnsapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DnsValidateServerStatus function

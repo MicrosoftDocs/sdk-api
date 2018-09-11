@@ -4,17 +4,16 @@ title: WTSCloseServer function
 author: windows-sdk-content
 description: Closes an open handle to a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtscloseserver.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 092a6107-21bf-40a7-9fe7-f069eb0c89ca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WTSCloseServer, WTSCloseServer function [Remote Desktop Services], _win32_wtscloseserver, termserv.wtscloseserver, wtsapi32/WTSCloseServer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_VIRTUAL_CLASS
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTSCloseServer
 product: Windows
 targetos: Windows
-req.lib: Wtsapi32.lib
-req.dll: Wtsapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WTSCloseServer function

@@ -4,17 +4,16 @@ title: IMFInputTrustAuthority::Reset
 author: windows-sdk-content
 description: Resets the input trust authority (ITA) to its initial state.
 old-location: mf\imfinputtrustauthority_reset.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: beb8e598-5a35-46b0-aa13-6bef38b9defb
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFInputTrustAuthority interface [Media Foundation],Reset method, IMFInputTrustAuthority.Reset, IMFInputTrustAuthority::Reset, Reset, Reset method [Media Foundation], Reset method [Media Foundation],IMFInputTrustAuthority interface, beb8e598-5a35-46b0-aa13-6bef38b9defb, mf.imfinputtrustauthority_reset, mfidl/IMFInputTrustAuthority::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFInputTrustAuthority.Reset
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFInputTrustAuthority::Reset

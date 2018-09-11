@@ -4,17 +4,16 @@ title: ISensor::GetEventInterest
 author: windows-sdk-content
 description: Retrieves the current event interest settings.
 old-location: winsensors_com_ref\isensor_geteventinterest.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: 8324817e-c310-4b90-b5b4-c7e113e3502e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetEventInterest, GetEventInterest method, GetEventInterest method,ISensor interface, ISensor interface,GetEventInterest method, ISensor.GetEventInterest, ISensor::GetEventInterest, sensorsapi/ISensor::GetEventInterest, winsensors_com_ref.isensor_geteventinterest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensor.GetEventInterest
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensor::GetEventInterest

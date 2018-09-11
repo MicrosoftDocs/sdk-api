@@ -4,17 +4,16 @@ title: CHString::GetBufferSetLength
 author: windows-sdk-content
 description: The GetBufferSetLength method returns a pointer to the internal character buffer for the CHString object, truncating or increasing its length if necessary to exactly match the length specified in nNewLength.
 old-location: wmi\chstring_getbuffersetlength.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: de40f3a3-1880-426d-b3c2-864f0f45f218
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],GetBufferSetLength method, CHString.GetBufferSetLength, CHString::GetBufferSetLength, GetBufferSetLength, GetBufferSetLength method [Windows Management Instrumentation], GetBufferSetLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getbuffersetlength, chstring/CHString::GetBufferSetLength, wmi.chstring_getbuffersetlength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CHString.GetBufferSetLength
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHString::GetBufferSetLength

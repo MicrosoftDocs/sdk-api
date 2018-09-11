@@ -4,17 +4,16 @@ title: IFEDictionary::GetWords
 author: windows-sdk-content
 description: Gets word entries from a dictionary.
 old-location: intl\ifedictionary_getwords.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 9FEA7E1C-166B-4CA4-B25E-0406AD60AC0B
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetWords, GetWords method [Internationalization for Windows Applications], GetWords method [Internationalization for Windows Applications],IFEDictionary interface, IFED_POS_ADJECTIVE, IFED_POS_ADJECTIVE_VERB, IFED_POS_ADNOUN, IFED_POS_ADVERB, IFED_POS_AFFIX, IFED_POS_ALL, IFED_POS_AUXILIARY_VERB, IFED_POS_CONJUNCTION, IFED_POS_DEPENDENT, IFED_POS_IDIOMS, IFED_POS_INDEPENDENT, IFED_POS_INFLECTIONALSUFFIX, IFED_POS_INTERJECTION, IFED_POS_NONE, IFED_POS_NOUN, IFED_POS_PARTICLE, IFED_POS_PREFIX, IFED_POS_SUB_VERB, IFED_POS_SUFFIX, IFED_POS_SYMBOLS, IFED_POS_TANKANJI, IFED_POS_VERB, IFED_REG_ALL, IFED_REG_AUTO, IFED_REG_GRAMMAR, IFED_REG_NONE, IFED_REG_USER, IFED_SELECT_ALL, IFED_SELECT_COMMENT, IFED_SELECT_DISPLAY, IFED_SELECT_NONE, IFED_SELECT_POS, IFED_SELECT_READING, IFEDictionary interface [Internationalization for Windows Applications],GetWords method, IFEDictionary.GetWords, IFEDictionary::GetWords, NULL, intl.ifedictionary_getwords, msime/IFEDictionary::GetWords
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFEDictionary.GetWords
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IFEDictionary::GetWords

@@ -4,17 +4,16 @@ title: IPart::UnregisterControlChangeCallback
 author: windows-sdk-content
 description: The UnregisterControlChangeCallback method removes the registration of an IControlChangeNotify interface that the client previously registered by a call to the IPart::RegisterControlChangeCallback method.
 old-location: coreaudio\ipart_unregistercontrolchangecallback.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: d3341421-6dab-43f3-87a8-83ee8a986a04
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IPart interface [Core Audio],UnregisterControlChangeCallback method, IPart.UnregisterControlChangeCallback, IPart::UnregisterControlChangeCallback, IPartUnregisterControlChangeCallback, UnregisterControlChangeCallback, UnregisterControlChangeCallback method [Core Audio], UnregisterControlChangeCallback method [Core Audio],IPart interface, coreaudio.ipart_unregistercontrolchangecallback, devicetopology/IPart::UnregisterControlChangeCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPart.UnregisterControlChangeCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPart::UnregisterControlChangeCallback

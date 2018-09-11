@@ -4,7 +4,7 @@ title: "_DDOPENSURFACEIN"
 author: windows-sdk-content
 description: The DDOPENSURFACEIN structure contains the DirectDrawSurface object information.
 old-location: display\ddopensurfacein.htm
-old-project: display
+tech.root: display
 ms.assetid: 98a5d436-096d-4698-8f2c-31a0455300ff
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDOPENSURFACEIN, *LPDDOPENSURFACEIN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDOPENSURFACEIN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDOPENSURFACEIN, *LPDDOPENSURFACEIN
+req.redist: 
 ---
 
 # _DDOPENSURFACEIN structure

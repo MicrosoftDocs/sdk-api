@@ -4,17 +4,16 @@ title: IBrowserService2::_CloseAndReleaseToolbars
 author: windows-sdk-content
 description: Deprecated. Requests the closing of the browser toolbars hosted by the derived class.
 old-location: shell\IBrowserService2__CloseAndReleaseToolbars.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2028fbc6-41e1-4d98-9149-7de6458c5446
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_CloseAndReleaseToolbars method, IBrowserService2._CloseAndReleaseToolbars, IBrowserService2::_CloseAndReleaseToolbars, _CloseAndReleaseToolbars, _CloseAndReleaseToolbars method [Windows Shell], _CloseAndReleaseToolbars method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_CloseAndReleaseToolbars, shell.IBrowserService2__CloseAndReleaseToolbars, zone_IBrowserService2__CloseAndReleaseToolbars
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2._CloseAndReleaseToolbars
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

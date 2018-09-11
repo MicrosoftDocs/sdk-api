@@ -4,17 +4,16 @@ title: IVssBackupComponents::SetRestoreState
 author: windows-sdk-content
 description: The SetRestoreState method defines an overall configuration for a restore operation.
 old-location: base\ivssbackupcomponents_setrestorestate.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: bc85e93f-1034-41cc-bf69-025aa86a56fd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetRestoreState method, IVssBackupComponents.SetRestoreState, IVssBackupComponents::SetRestoreState, SetRestoreState, SetRestoreState method [VSS], SetRestoreState method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setrestorestate, base.ivssbackupcomponents_setrestorestate, vsbackup/IVssBackupComponents::SetRestoreState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.SetRestoreState
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::SetRestoreState

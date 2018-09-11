@@ -4,17 +4,16 @@ title: ITBasicCallControl::BlindTransfer
 author: windows-sdk-content
 description: The BlindTransfer method performs a blind or single-step transfer of the specified call to the specified destination address. The application must be the owner of the call. After a successful transfer, the call state transitions to CS_DISCONNECTED.
 old-location: tapi3\itbasiccallcontrol_blindtransfer.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 766a48af-512a-4ad6-99e1-436141bf8447
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: BlindTransfer, BlindTransfer method [TAPI 2.2], BlindTransfer method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],BlindTransfer method, ITBasicCallControl.BlindTransfer, ITBasicCallControl::BlindTransfer, _tapi3_itbasiccallcontrol_blindtransfer, tapi3.itbasiccallcontrol_blindtransfer, tapi3if/ITBasicCallControl::BlindTransfer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITBasicCallControl.BlindTransfer
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITBasicCallControl::BlindTransfer

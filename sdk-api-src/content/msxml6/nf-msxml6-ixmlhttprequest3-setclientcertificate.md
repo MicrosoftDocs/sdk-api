@@ -4,17 +4,16 @@ title: IXMLHTTPRequest3::SetClientCertificate
 author: windows-sdk-content
 description: Sets a client certificate to be used to authenticate against the URL specified in the Open method.
 old-location: ixhr2\ixmlhttprequest3_setclientcertificate.htm
-old-project: ixhr2
+tech.root: ixhr2
 ms.assetid: fc3e2645-666c-42af-babd-1f476b6356b8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IXMLHTTPRequest3 interface [XMLHttpRequest2],SetClientCertificate method, IXMLHTTPRequest3.SetClientCertificate, IXMLHTTPRequest3::SetClientCertificate, SetClientCertificate, SetClientCertificate method [XMLHttpRequest2], SetClientCertificate method [XMLHttpRequest2],IXMLHTTPRequest3 interface, ixhr2.ixmlhttprequest3_setclientcertificate, msxml6/IXMLHTTPRequest3::SetClientCertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XHR_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXMLHTTPRequest3.SetClientCertificate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IXMLHTTPRequest3::SetClientCertificate

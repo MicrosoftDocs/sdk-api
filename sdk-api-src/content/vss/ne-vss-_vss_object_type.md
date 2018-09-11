@@ -4,17 +4,16 @@ title: "_VSS_OBJECT_TYPE"
 author: windows-sdk-content
 description: Used by requesters to identify an object as a shadow copy set, shadow copy, or provider.
 old-location: base\vss_object_type.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: b7c91003-0ce7-463e-a816-c212da9dc31e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVSS_OBJECT_TYPE, PVSS_OBJECT_TYPE, PVSS_OBJECT_TYPE enumeration pointer [VSS], VSS_OBJECT_NONE, VSS_OBJECT_PROVIDER, VSS_OBJECT_SNAPSHOT, VSS_OBJECT_SNAPSHOT_SET, VSS_OBJECT_TYPE, VSS_OBJECT_TYPE enumeration [VSS], VSS_OBJECT_TYPE_COUNT, VSS_OBJECT_UNKNOWN, _VSS_OBJECT_TYPE, _win32_vss_object_type, base.vss_object_type, vss/PVSS_OBJECT_TYPE, vss/VSS_OBJECT_NONE, vss/VSS_OBJECT_PROVIDER, vss/VSS_OBJECT_SNAPSHOT, vss/VSS_OBJECT_SNAPSHOT_SET, vss/VSS_OBJECT_TYPE, vss/VSS_OBJECT_TYPE_COUNT, vss/VSS_OBJECT_UNKNOWN"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_OBJECT_TYPE, *PVSS_OBJECT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_OBJECT_TYPE
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_OBJECT_TYPE, *PVSS_OBJECT_TYPE
+req.redist: 
 ---
 
 # _VSS_OBJECT_TYPE enumeration

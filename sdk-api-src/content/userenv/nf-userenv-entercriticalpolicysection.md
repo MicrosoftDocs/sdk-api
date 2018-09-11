@@ -4,17 +4,16 @@ title: EnterCriticalPolicySection function
 author: windows-sdk-content
 description: The EnterCriticalPolicySection function pauses the application of policy to allow applications to safely read policy settings.
 old-location: policy\entercriticalpolicysection.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: d17578b3-3a71-456b-97ca-961b81572528
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: EnterCriticalPolicySection, EnterCriticalPolicySection function [Group Policy], _win32_entercriticalpolicysection, policy.entercriticalpolicysection, userenv/EnterCriticalPolicySection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EnterCriticalPolicySection
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # EnterCriticalPolicySection function

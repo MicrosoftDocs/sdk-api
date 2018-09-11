@@ -4,17 +4,16 @@ title: "__MIDL_IEventObjectChange_0001"
 author: windows-sdk-content
 description: Indicates the nature of the change to an event object.
 old-location: com\eoc_changetype.htm
-old-project: com
+tech.root: com
 ms.assetid: 1dad5849-4c6c-4632-953c-1bb18f14e8c1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EOC_ChangeType, EOC_ChangeType enumeration [COM], EOC_DeletedObject, EOC_ModifiedObject, EOC_NewObject, __MIDL_IEventObjectChange_0001, _com_EOC_ChangeType, com.eoc_changetype, eventsys/EOC_ChangeType, eventsys/EOC_DeletedObject, eventsys/EOC_ModifiedObject, eventsys/EOC_NewObject
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EOC_ChangeType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EOC_ChangeType
+req.redist: 
 ---
 
 # __MIDL_IEventObjectChange_0001 enumeration

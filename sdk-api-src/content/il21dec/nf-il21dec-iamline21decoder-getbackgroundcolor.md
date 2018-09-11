@@ -4,17 +4,16 @@ title: IAMLine21Decoder::GetBackgroundColor
 author: windows-sdk-content
 description: The GetBackgroundColor method retrieves the background color used by the Line 21 Decoder filter for overlay. The default background color is magenta.
 old-location: dshow\iamline21decoder_getbackgroundcolor.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ba75dc5b-207e-4425-a8fe-8da16fc89921
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [DirectShow], GetBackgroundColor method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetBackgroundColor method, IAMLine21Decoder.GetBackgroundColor, IAMLine21Decoder::GetBackgroundColor, IAMLine21DecoderGetBackgroundColor, dshow.iamline21decoder_getbackgroundcolor, il21dec/IAMLine21Decoder::GetBackgroundColor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: il21dec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMLine21Decoder.GetBackgroundColor
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMLine21Decoder::GetBackgroundColor

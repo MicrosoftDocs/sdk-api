@@ -4,17 +4,16 @@ title: IX509Attribute::get_RawData
 author: windows-sdk-content
 description: Retrieves the attribute value.
 old-location: security\ix509attribute_rawdata_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: a8e67f3c-4c05-4742-8251-a03335054b2e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509Attribute interface [Security],RawData property, IX509Attribute.RawData, IX509Attribute.get_RawData, IX509Attribute::RawData, IX509Attribute::get_RawData, RawData property [Security], RawData property [Security],IX509Attribute interface, certenroll/IX509Attribute::RawData, certenroll/IX509Attribute::get_RawData, get_RawData, security.ix509attribute_rawdata_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509Attribute.get_RawData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Attribute::get_RawData

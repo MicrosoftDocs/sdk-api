@@ -4,7 +4,7 @@ title: drt_settings_tag
 author: windows-sdk-content
 description: DRT_SETTINGS structure contains the settings utilized by the local Distributed Routing Table.
 old-location: p2p\drt_settings.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 22408b8e-b114-43cd-8f84-3eaf8508f441
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_SETTINGS, *PDRT_SETTINGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRT_SETTINGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRT_SETTINGS, *PDRT_SETTINGS
+req.redist: 
 ---
 
 # drt_settings_tag structure

@@ -4,17 +4,16 @@ title: IWindowsMediaLibrarySharingServices::put_computerInternetMediaSharingAllo
 author: windows-sdk-content
 description: The put_computerInternetMediaSharingAllowedState method specifies whether media libraries on the computer are allowed to be shared on the Internet.
 old-location: wmlss\IWMLSSput_computerInternetMediaSharingAllowedState.htm
-old-project: wmlss
+tech.root: WMLSS
 ms.assetid: d41d63d7-2b15-4dd5-bbc1-17696924a624
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_computerInternetMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices.put_computerInternetMediaSharingAllowedState, IWindowsMediaLibrarySharingServices::put_computerInternetMediaSharingAllowedState, put_computerInternetMediaSharingAllowedState, put_computerInternetMediaSharingAllowedState method [Windows Media Library Sharing Services], put_computerInternetMediaSharingAllowedState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_computerInternetMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::put_computerInternetMediaSharingAllowedState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmlss.h
 req.include-header: Wmlss.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
+req.lib: 
+req.dll: WMPMediaSharing.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWindowsMediaLibrarySharingServices.put_computerInternetMediaSharingAllowedState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: WMPMediaSharing.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowsMediaLibrarySharingServices::put_computerInternetMediaSharingAllowedState

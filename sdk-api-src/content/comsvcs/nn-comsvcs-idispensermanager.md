@@ -4,17 +4,16 @@ title: IDispenserManager
 author: windows-sdk-content
 description: Connects to the dispenser manager.
 old-location: cos\idispensermanager.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: a0465d78-f8b7-4934-9dc6-c8f0ead04bf1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IDispenserManager, IDispenserManager interface [COM+], IDispenserManager interface [COM+],described, _dtc_IDispenserManager_Interface, comsvcs/IDispenserManager, cos.idispensermanager
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDispenserManager
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDispenserManager interface

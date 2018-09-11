@@ -4,17 +4,16 @@ title: IMFHttpDownloadRequest::GetTimeSeekResult
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to retrieve the values of the TimeSeekRange.DLNA.ORG HTTP header, if any, that the server specified in its response.
 old-location: mf\imfhttpdownloadrequest_gettimeseekresult.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: C7647460-8BAA-4480-A296-D83DFFBC5800
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetTimeSeekResult, GetTimeSeekResult method [Media Foundation], GetTimeSeekResult method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetTimeSeekResult method, IMFHttpDownloadRequest.GetTimeSeekResult, IMFHttpDownloadRequest::GetTimeSeekResult, mf.imfhttpdownloadrequest_gettimeseekresult, mfidl/IMFHttpDownloadRequest::GetTimeSeekResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFHttpDownloadRequest.GetTimeSeekResult
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFHttpDownloadRequest::GetTimeSeekResult
@@ -77,7 +75,7 @@ The end time offset, specified in units of one-hundred nanoseconds
 
 ### -param pqwDuration
 
-
+TBD
 
 
 

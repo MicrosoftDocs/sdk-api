@@ -4,7 +4,7 @@ title: tagABORTPATH
 author: windows-sdk-content
 description: Contains data for the AbortPath, BeginPath, EndPath, CloseFigure, FlattenPath, WidenPath, SetMetaRgn, SaveDC, and RealizePalette enhanced metafile records.
 old-location: gdi\enhanced_metafile_records_with_no_parameters.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: ee9f57af-8d96-4b85-b8ab-4eb57e6c7c78
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMRABORTPATH, *PEMRABORTPATH, EMRBEGINPATH, *PEMRBEGINPATH, EMRENDPATH, *PEMRENDPATH, EMRCLOSEFIGURE, *PEMRCLOSEFIGURE, EMRFLATTENPATH, *PEMRFLATTENPATH, EMRWIDENPATH, *PEMRWIDENPATH, EMRSETMETARGN, *PEMRSETMETARGN, EMRSAVEDC, *PEMRSAVEDC, EMRREALIZEPALETTE, *PEMRREALIZEPALETTE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EMRABORTPATH
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EMRABORTPATH, *PEMRABORTPATH, EMRBEGINPATH, *PEMRBEGINPATH, EMRENDPATH, *PEMRENDPATH, EMRCLOSEFIGURE, *PEMRCLOSEFIGURE, EMRFLATTENPATH, *PEMRFLATTENPATH, EMRWIDENPATH, *PEMRWIDENPATH, EMRSETMETARGN, *PEMRSETMETARGN, EMRSAVEDC, *PEMRSAVEDC, EMRREALIZEPALETTE, *PEMRREALIZEPALETTE
+req.redist: 
 ---
 
 # tagABORTPATH structure

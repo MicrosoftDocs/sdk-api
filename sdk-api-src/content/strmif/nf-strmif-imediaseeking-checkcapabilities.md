@@ -4,17 +4,16 @@ title: IMediaSeeking::CheckCapabilities
 author: windows-sdk-content
 description: The CheckCapabilities method queries whether a stream has specified seeking capabilities.
 old-location: dshow\imediaseeking_checkcapabilities.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d0062f66-213d-4f91-9f73-780be39ee432
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: CheckCapabilities, CheckCapabilities method [DirectShow], CheckCapabilities method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],CheckCapabilities method, IMediaSeeking.CheckCapabilities, IMediaSeeking::CheckCapabilities, IMediaSeekingCheckCapabilities, dshow.imediaseeking_checkcapabilities, strmif/IMediaSeeking::CheckCapabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaSeeking.CheckCapabilities
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaSeeking::CheckCapabilities

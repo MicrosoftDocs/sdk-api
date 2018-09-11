@@ -4,17 +4,16 @@ title: UiaReturnRawElementProvider function
 author: windows-sdk-content
 description: Gets an interface to the UI Automation provider for a window.
 old-location: winauto\uiauto_UiaReturnRawElementProviderFunction.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 800dfad2-2263-4069-a1fe-f737842b3357
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UiaReturnRawElementProvider, UiaReturnRawElementProvider function [Windows Accessibility], uiauto.uiauto_UiaReturnRawElementProviderFunction, uiauto_UiaReturnRawElementProviderFunction, uiautomationcoreapi/UiaReturnRawElementProvider, winauto.uiauto_UiaReturnRawElementProviderFunction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - UiaReturnRawElementProvider
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaReturnRawElementProvider function

@@ -4,17 +4,16 @@ title: ISelectionProvider2::get_LastSelectedItem
 author: windows-sdk-content
 description: Gets the last item in a group of selected items.
 old-location: winauto\uiauto_ISelectionProvider2_LastSelectedItem.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 94A9A0EC-EE57-4D80-841E-7442139B9306
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ISelectionProvider2 interface [Windows Accessibility],LastSelectedItem property, ISelectionProvider2.LastSelectedItem, ISelectionProvider2.get_LastSelectedItem, ISelectionProvider2::LastSelectedItem, ISelectionProvider2::get_LastSelectedItem, LastSelectedItem property [Windows Accessibility], LastSelectedItem property [Windows Accessibility],ISelectionProvider2 interface, get_LastSelectedItem, uiautomationcore/ISelectionProvider2::LastSelectedItem, uiautomationcore/ISelectionProvider2::get_LastSelectedItem, winauto.uiauto_ISelectionProvider2_LastSelectedItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISelectionProvider2.get_LastSelectedItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISelectionProvider2::get_LastSelectedItem

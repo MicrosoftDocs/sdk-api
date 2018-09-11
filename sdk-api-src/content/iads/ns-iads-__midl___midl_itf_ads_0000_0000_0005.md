@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_ads_0000_0000_0005"
 author: windows-sdk-content
 description: The ADS_PATH structure is an ADSI representation of the Path attribute syntax.
 old-location: adsi\ads_path.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: b8393a81-3e2a-4e59-a6be-def779efbe82
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_PATH, *PADS_PATH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADS_PATH
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ADS_PATH, *PADS_PATH
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_ads_0000_0000_0005 structure

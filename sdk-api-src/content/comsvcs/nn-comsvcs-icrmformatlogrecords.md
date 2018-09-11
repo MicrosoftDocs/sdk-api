@@ -4,17 +4,16 @@ title: ICrmFormatLogRecords
 author: windows-sdk-content
 description: Converts the log records to viewable format so that they can be presented using a generic monitoring tool.
 old-location: cos\icrmformatlogrecords.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: aa801bd0-5253-4f9f-8859-b808d4dc081b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICrmFormatLogRecords, ICrmFormatLogRecords interface [COM+], ICrmFormatLogRecords interface [COM+],described, _dtc_ICrmFormatLogRecords_Interface, comsvcs/ICrmFormatLogRecords, cos.icrmformatlogrecords
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmFormatLogRecords
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmFormatLogRecords interface

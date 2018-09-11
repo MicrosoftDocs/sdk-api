@@ -4,17 +4,16 @@ title: LsaSetTrustedDomainInformation function
 author: windows-sdk-content
 description: The LsaSetTrustedDomainInformation function modifies a Policy object's information about a trusted domain.
 old-location: security\lsasettrusteddomaininformation.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: a7b89ea7-af92-46ba-ac73-2fba1cc27680
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: LsaSetTrustedDomainInformation, LsaSetTrustedDomainInformation function [Security], TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _lsa_lsasettrusteddomaininformation, ntsecapi/LsaSetTrustedDomainInformation, security.lsasettrusteddomaininformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LsaSetTrustedDomainInformation
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # LsaSetTrustedDomainInformation function

@@ -4,17 +4,16 @@ title: UShortMult function
 author: windows-sdk-content
 description: Multiplies one value of type USHORT by another.
 old-location: shell\UShortMult.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ecade442-3272-4886-87e1-057f82f465cf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: UShortMult, UShortMult function [Windows Shell], WordMult, _shell_UShortMult, intsafe/UShortMult, shell.UShortMult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UShortMult
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # UShortMult function

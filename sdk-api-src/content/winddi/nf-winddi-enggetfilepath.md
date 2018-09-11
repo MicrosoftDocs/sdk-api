@@ -4,17 +4,16 @@ title: EngGetFilePath function
 author: windows-sdk-content
 description: The EngGetFilePath function determines the file path associated with the specified font file.
 old-location: display\enggetfilepath.htm
-old-project: display
+tech.root: display
 ms.assetid: 751a9bef-f1ee-43a0-958b-f90ac63b2f37
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngGetFilePath, EngGetFilePath function [Display Devices], display.enggetfilepath, gdifncs_219a84bc-93a3-4a5f-bf0e-d0087737fdb0.xml, winddi/EngGetFilePath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngGetFilePath
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngGetFilePath function

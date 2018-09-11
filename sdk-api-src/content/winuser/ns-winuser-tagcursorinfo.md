@@ -4,17 +4,16 @@ title: tagCURSORINFO
 author: windows-sdk-content
 description: Contains global cursor information.
 old-location: menurc\cursorinfo.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorstructures\cursorinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPCURSORINFO, *PCURSORINFO, CURSORINFO, CURSORINFO structure [Menus and Other Resources], CURSOR_SHOWING, CURSOR_SUPPRESSED, LPCURSORINFO, LPCURSORINFO structure pointer [Menus and Other Resources], PCURSORINFO, PCURSORINFO structure pointer [Menus and Other Resources], _win32_CURSORINFO_str, _win32_cursorinfo_str_cpp, menurc.cursorinfo, tagCURSORINFO, winui._win32_cursorinfo_str, winuser/CURSORINFO, winuser/LPCURSORINFO, winuser/PCURSORINFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CURSORINFO, *PCURSORINFO, *LPCURSORINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CURSORINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: CURSORINFO, *PCURSORINFO, *LPCURSORINFO
+req.redist: 
 ---
 
 # tagCURSORINFO structure

@@ -4,17 +4,16 @@ title: ID3D11VideoDevice::GetVideoDecoderProfile
 author: windows-sdk-content
 description: Gets a profile that is supported by the driver.
 old-location: mf\id3d11videodevice_getvideodecoderprofile.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8D958469-7FC3-4B4F-82BF-271662CF0088
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetVideoDecoderProfile, GetVideoDecoderProfile method [Media Foundation], GetVideoDecoderProfile method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],GetVideoDecoderProfile method, ID3D11VideoDevice.GetVideoDecoderProfile, ID3D11VideoDevice::GetVideoDecoderProfile, d3d11/ID3D11VideoDevice::GetVideoDecoderProfile, mf.id3d11videodevice_getvideodecoderprofile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoDevice.GetVideoDecoderProfile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoDevice::GetVideoDecoderProfile

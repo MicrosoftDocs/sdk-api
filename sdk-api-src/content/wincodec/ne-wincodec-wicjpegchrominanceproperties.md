@@ -4,7 +4,7 @@ title: WICJpegChrominanceProperties
 author: windows-sdk-content
 description: Specifies the JPEG chrominance table property.
 old-location: wic\_wic_codec_wicjpegchrominanceproperties.htm
-old-project: wic
+tech.root: wic
 ms.assetid: edfa5f86-4c8b-4ba7-a017-d3ff9525b659
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICJpegChrominanceProperties
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICJpegChrominanceProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICJpegChrominanceProperties
+req.redist: 
 ---
 
 # WICJpegChrominanceProperties enumeration

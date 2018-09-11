@@ -4,7 +4,7 @@ title: "_DD_CREATEMOCOMPDATA"
 author: windows-sdk-content
 description: The DD_CREATEMOCOMPDATA structure contains the data required to begin using motion compensation.
 old-location: display\dd_createmocompdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 53b2aa38-b007-4938-8fdb-c3482735ae36
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_CREATEMOCOMPDATA, DD_CREATEMOCOMPDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_CREATEMOCOMPDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_CREATEMOCOMPDATA, DD_CREATEMOCOMPDATA"
+req.redist: 
 ---
 
 # _DD_CREATEMOCOMPDATA structure

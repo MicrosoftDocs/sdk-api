@@ -4,17 +4,16 @@ title: IMSVidCtl::View
 author: windows-sdk-content
 description: The View method configures the Video Control to view an input source, which can be a tune request, a DVD, or a media file.
 old-location: mstv\imsvidctl_view.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ec0e2a88-13c0-42f3-ba7d-8ebff1234b86
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],View method, IMSVidCtl.View, IMSVidCtl::View, IMSVidCtlView, View, View method [Microsoft TV Technologies], View method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_view, msvidctl/IMSVidCtl::View
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.View
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::View
@@ -62,7 +60,7 @@ The <b>View</b> method configures the Video Control to view an input source, whi
 
 ### -param v
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: Ndr64AsyncServerCallAll function
 author: windows-sdk-content
 description: Ndr64AsyncServerCallAll is not intended to be directly called by applications.
 old-location: rpc\ndr64asyncservercallall.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 0B8203F2-2EE0-4DBD-B1B8-FD9E7E073E6F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Ndr64AsyncServerCallAll, Ndr64AsyncServerCallAll function [RPC], rpc.ndr64asyncservercallall, rpcndr/Ndr64AsyncServerCallAll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Ndr64AsyncServerCallAll
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # Ndr64AsyncServerCallAll function

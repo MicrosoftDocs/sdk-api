@@ -4,17 +4,16 @@ title: IWICBitmapCodecProgressNotification::RegisterProgressNotification
 author: windows-sdk-content
 description: Registers a progress notification callback function.
 old-location: wic\_wic_codec_iwicbitmapcodecprogressnotification_registerprogressnotification.htm
-old-project: wic
+tech.root: wic
 ms.assetid: ac47178a-f149-4313-8673-ece59e88cfb3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICBitmapCodecProgressNotification interface [Windows Imaging Component],RegisterProgressNotification method, IWICBitmapCodecProgressNotification.RegisterProgressNotification, IWICBitmapCodecProgressNotification::RegisterProgressNotification, RegisterProgressNotification, RegisterProgressNotification method [Windows Imaging Component], RegisterProgressNotification method [Windows Imaging Component],IWICBitmapCodecProgressNotification interface, _wic_codec_iwicbitmapcodecprogressnotification_registerprogressnotification, wic._wic_codec_iwicbitmapcodecprogressnotification_registerprogressnotification, wincodec/IWICBitmapCodecProgressNotification::RegisterProgressNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWICBitmapCodecProgressNotification.RegisterProgressNotification
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapCodecProgressNotification::RegisterProgressNotification

@@ -4,17 +4,16 @@ title: ScrollDC function
 author: windows-sdk-content
 description: The ScrollDC function scrolls a rectangle of bits horizontally and vertically.
 old-location: controls\ScrollDC.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\scrolldc.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ScrollDC, ScrollDC function [Windows Controls], _win32_ScrollDC, _win32_ScrollDC_cpp, controls.ScrollDC, controls._win32_ScrollDC, winuser/ScrollDC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - ScrollDC
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ScrollDC function

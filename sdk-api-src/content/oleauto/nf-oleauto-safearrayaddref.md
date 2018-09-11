@@ -4,17 +4,16 @@ title: SafeArrayAddRef function
 author: windows-sdk-content
 description: Increases the pinning reference count of the descriptor for the specified safe array by one, and may increase the pinning reference count of the data for the specified safe array by one if that data was dynamically allocated, as determined by the descriptor of the safe array.
 old-location: automat\safearrayaddref.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 0745D2E7-447E-4688-ADCF-1F889BC55BFB
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SafeArrayAddRef, SafeArrayAddRef function [Automation], automat.safearrayaddref, oleauto/SafeArrayAddRef
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: Mincore.lib
+req.dll: Oleaut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SafeArrayAddRef
 product: Windows
 targetos: Windows
-req.lib: Mincore.lib
-req.dll: Oleaut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SafeArrayAddRef function

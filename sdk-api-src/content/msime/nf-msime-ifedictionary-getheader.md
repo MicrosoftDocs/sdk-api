@@ -4,17 +4,16 @@ title: IFEDictionary::GetHeader
 author: windows-sdk-content
 description: Gets a dictionary header from a dictionary file without opening the dictionary.
 old-location: intl\ifedictionary_getheader.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: DA710A33-BCBC-47B8-857F-5E6DF142C433
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetHeader, GetHeader method [Internationalization for Windows Applications], GetHeader method [Internationalization for Windows Applications],IFEDictionary interface, IFED_ACTIVE_DICT, IFED_ATOK10, IFED_ATOK9, IFED_MSIME2_BIN_SYSTEM, IFED_MSIME2_BIN_USER, IFED_MSIME2_TEXT_USER, IFED_MSIME95_BIN_SYSTEM, IFED_MSIME95_BIN_USER, IFED_MSIME95_TEXT_USER, IFED_MSIME97_BIN_SYSTEM, IFED_MSIME97_BIN_USER, IFED_MSIME97_TEXT_USER, IFED_MSIME98_BIN_SYSTEM, IFED_MSIME98_BIN_USER, IFED_MSIME98_SYSTEM_CE, IFED_MSIME98_TEST_USER, IFED_MSIME_BIN_SYSTEM, IFED_MSIME_BIN_USER, IFED_MSIME_TEXT_USER, IFED_NEC_AI_, IFED_PIME2_BIN_STANDARD_SYSTEM, IFED_PIME2_BIN_SYSTEM, IFED_PIME2_BIN_USER, IFED_TYPE_ALL, IFED_TYPE_ENGLISH, IFED_TYPE_GENERAL, IFED_TYPE_NAMEPLACE, IFED_TYPE_NONE, IFED_TYPE_REVERSE, IFED_TYPE_SPEECH, IFED_UNKNOWN, IFED_VJE_20, IFED_WX_II, IFED_WX_III, IFEDictionary interface [Internationalization for Windows Applications],GetHeader method, IFEDictionary.GetHeader, IFEDictionary::GetHeader, intl.ifedictionary_getheader, msime/IFEDictionary::GetHeader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFEDictionary.GetHeader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IFEDictionary::GetHeader

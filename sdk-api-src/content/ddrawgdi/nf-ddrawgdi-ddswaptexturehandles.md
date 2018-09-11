@@ -4,17 +4,16 @@ title: DdSwapTextureHandles function
 author: windows-sdk-content
 description: Developed for device driver interfaces (DDIs) prior to Microsoft DirectDraw 7.0 and does nothing on Microsoft Windows NT systems. All parameters are ignored. GdiEntry16 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddswaptexturehandles.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddswaptexturehandles.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DdSwapTextureHandles, DdSwapTextureHandles function [Windows API], GdiEntry16, _dxgkernel_ddswaptexturehandles, ddrawgdi/DdSwapTextureHandles, ddrawgdi/GdiEntry16, winprog._dxgkernel_ddswaptexturehandles, winui._dxgkernel_ddswaptexturehandles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ddrawgdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDPIXELFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - GdiEntry16
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DdSwapTextureHandles function

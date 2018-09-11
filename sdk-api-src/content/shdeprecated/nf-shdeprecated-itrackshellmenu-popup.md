@@ -4,17 +4,16 @@ title: ITrackShellMenu::Popup
 author: windows-sdk-content
 description: Displays a modal pop-up menu at a specific location.
 old-location: shell\ITrackShellMenu_Popup.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a8098143-6f36-496c-81af-f06fb83c9920
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ITrackShellMenu interface [Windows Shell],Popup method, ITrackShellMenu.Popup, ITrackShellMenu::Popup, Popup, Popup method [Windows Shell], Popup method [Windows Shell],ITrackShellMenu interface, _shell_ITrackShellMenu_Popup, shdeprecated/ITrackShellMenu::Popup, shell.ITrackShellMenu_Popup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITrackShellMenu.Popup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 4.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITrackShellMenu::Popup

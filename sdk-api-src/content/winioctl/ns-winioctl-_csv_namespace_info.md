@@ -4,7 +4,7 @@ title: "_CSV_NAMESPACE_INFO"
 author: windows-sdk-content
 description: Contains the output for the FSCTL_IS_CSV_FILE control code that retrieves namespace information for a file.
 old-location: fs\csv_namespace_info.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: E6F3D334-6974-40E2-B00A-17CA5F05C3F4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CSV_NAMESPACE_INFO, *PCSV_NAMESPACE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CSV_NAMESPACE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CSV_NAMESPACE_INFO, *PCSV_NAMESPACE_INFO
+req.redist: 
 ---
 
 # _CSV_NAMESPACE_INFO structure

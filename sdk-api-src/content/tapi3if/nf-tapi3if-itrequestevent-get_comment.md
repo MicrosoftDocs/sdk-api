@@ -4,17 +4,16 @@ title: ITRequestEvent::get_Comment
 author: windows-sdk-content
 description: The get_Comment method gets the comment.
 old-location: tapi3\itrequestevent_get_comment.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 2150d521-cbd2-457f-b3c6-97761941a442
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_Comment method, ITRequestEvent.get_Comment, ITRequestEvent::get_Comment, _tapi3_itrequestevent_get_comment, get_Comment, get_Comment method [TAPI 2.2], get_Comment method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_comment, tapi3if/ITRequestEvent::get_Comment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITRequestEvent.get_Comment
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITRequestEvent::get_Comment

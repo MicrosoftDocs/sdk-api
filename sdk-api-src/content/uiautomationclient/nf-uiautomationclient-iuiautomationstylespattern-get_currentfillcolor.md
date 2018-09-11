@@ -4,17 +4,16 @@ title: IUIAutomationStylesPattern::get_CurrentFillColor
 author: windows-sdk-content
 description: Retrieves the fill color of an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CurrentFillColor.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 3B1C3731-72E5-4407-AFA8-4E5ACB3F1FD2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentFillColor property [Windows Accessibility], CurrentFillColor property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentFillColor property, IUIAutomationStylesPattern.CurrentFillColor, IUIAutomationStylesPattern.get_CurrentFillColor, IUIAutomationStylesPattern::CurrentFillColor, IUIAutomationStylesPattern::get_CurrentFillColor, get_CurrentFillColor, uiautomationclient/IUIAutomationStylesPattern::CurrentFillColor, uiautomationclient/IUIAutomationStylesPattern::get_CurrentFillColor, winauto.uiauto_IUIAutomationStylesPattern_CurrentFillColor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationStylesPattern.get_CurrentFillColor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationStylesPattern::get_CurrentFillColor

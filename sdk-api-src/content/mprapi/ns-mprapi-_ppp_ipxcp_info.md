@@ -4,17 +4,16 @@ title: "_PPP_IPXCP_INFO"
 author: windows-sdk-content
 description: The PPP_IPXCP_INFO structure contains the result of a PPP Internetwork Packet Exchange (IPX) projection operation.
 old-location: rras\ppp_ipxcp_info.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 6e269c4e-8014-4d59-a7dc-3314a67a4d12
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PPP_IPXCP_INFO, PPP_IPXCP_INFO structure [RAS], _PPP_IPXCP_INFO, _mpr_ppp_ipxcp_info, mprapi/PPP_IPXCP_INFO, rras.ppp_ipxcp_info
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PPP_IPXCP_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PPP_IPXCP_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: PPP_IPXCP_INFO
+req.redist: 
 ---
 
 # _PPP_IPXCP_INFO structure

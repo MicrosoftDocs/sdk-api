@@ -4,17 +4,16 @@ title: GetThreadIOPendingFlag function
 author: windows-sdk-content
 description: Determines whether a specified thread has any I/O requests pending.
 old-location: base\getthreadiopendingflag.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 5502f735-38f5-44a4-908d-1b421ee66aec
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetThreadIOPendingFlag, GetThreadIOPendingFlag function, base.getthreadiopendingflag, processthreadsapi/GetThreadIOPendingFlag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - GetThreadIOPendingFlag
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetThreadIOPendingFlag function

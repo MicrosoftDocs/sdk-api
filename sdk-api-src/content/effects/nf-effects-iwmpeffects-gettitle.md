@@ -4,17 +4,16 @@ title: IWMPEffects::GetTitle
 author: windows-sdk-content
 description: The GetTitle method gets the display title of the visualization.
 old-location: wmp\iwmpeffects_gettitle.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 051a0d25-0773-4b9d-879e-5cc60633e406
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EffectsGetTitle, GetTitle, GetTitle method [Windows Media Player], GetTitle method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetTitle method, IWMPEffects.GetTitle, IWMPEffects::GetTitle, effects/IWMPEffects::GetTitle, wmp.iwmpeffects_gettitle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player version 7.0 or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEffects.GetTitle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEffects::GetTitle

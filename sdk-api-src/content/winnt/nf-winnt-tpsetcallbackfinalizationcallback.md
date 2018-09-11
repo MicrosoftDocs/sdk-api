@@ -4,17 +4,16 @@ title: TpSetCallbackFinalizationCallback function
 author: windows-sdk-content
 description: Indicates a function to call when the callback environment is finalized.
 old-location: base\tpsetcallbackfinalizationcallback.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 425898A7-5E98-490A-912A-A409D1E2DFDE
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: TpSetCallbackFinalizationCallback, TpSetCallbackFinalizationCallback function, base.tpsetcallbackfinalizationcallback, winnt/TpSetCallbackFinalizationCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TpSetCallbackFinalizationCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # TpSetCallbackFinalizationCallback function

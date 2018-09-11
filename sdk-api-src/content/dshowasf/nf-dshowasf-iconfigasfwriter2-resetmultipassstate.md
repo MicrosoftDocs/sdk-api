@@ -4,17 +4,16 @@ title: IConfigAsfWriter2::ResetMultiPassState
 author: windows-sdk-content
 description: The ResetMultiPassState method resets the filter when a preprocessing encoding pass is canceled before it is completed.
 old-location: dshow\iconfigasfwriter2_resetmultipassstate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ca2ec239-ffb9-4030-9160-77a0c9be0a07
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IConfigAsfWriter2 interface [DirectShow],ResetMultiPassState method, IConfigAsfWriter2.ResetMultiPassState, IConfigAsfWriter2::ResetMultiPassState, IConfigAsfWriter2ResetMultiPassState, ResetMultiPassState, ResetMultiPassState method [DirectShow], ResetMultiPassState method [DirectShow],IConfigAsfWriter2 interface, dshow.iconfigasfwriter2_resetmultipassstate, dshowasf/IConfigAsfWriter2::ResetMultiPassState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConfigAsfWriter2.ResetMultiPassState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IConfigAsfWriter2::ResetMultiPassState

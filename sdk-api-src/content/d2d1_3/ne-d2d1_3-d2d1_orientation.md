@@ -4,7 +4,7 @@ title: D2D1_ORIENTATION
 author: windows-sdk-content
 description: Specifies the flip and rotation at which an image appears.
 old-location: direct2d\d2d1_orientation.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: CFDE26F2-2D10-4B7E-A7B0-A2A86923116E
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_ORIENTATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_ORIENTATION
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_ORIENTATION
+req.redist: 
 ---
 
 # D2D1_ORIENTATION enumeration

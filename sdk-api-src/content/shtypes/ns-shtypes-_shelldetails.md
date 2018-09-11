@@ -4,17 +4,16 @@ title: "_SHELLDETAILS"
 author: windows-sdk-content
 description: Reports detailed information on an item in a Shell folder.
 old-location: shell\SHELLDETAILS_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2910debb-b769-4498-bd99-9fbf16567e15
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPSHELLDETAILS, LPSHELLDETAILS, LPSHELLDETAILS structure pointer [Windows Shell], LVCFMT_CENTER, LVCFMT_COL_HAS_IMAGES, LVCFMT_LEFT, LVCFMT_RIGHT, SHELLDETAILS, SHELLDETAILS structure [Windows Shell], The alignment of the leftmost column is always left-justified and cannot be changed., _SHELLDETAILS, _win32_SHELLDETAILS_str, shell.SHELLDETAILS_str, shtypes/LPSHELLDETAILS, shtypes/SHELLDETAILS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELLDETAILS, *LPSHELLDETAILS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHELLDETAILS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SHELLDETAILS, *LPSHELLDETAILS
+req.redist: 
 ---
 
 # _SHELLDETAILS structure

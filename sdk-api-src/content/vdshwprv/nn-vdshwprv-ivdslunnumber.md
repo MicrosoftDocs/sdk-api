@@ -4,17 +4,16 @@ title: IVdsLunNumber
 author: windows-sdk-content
 description: Provides a method to query the LUN number for a LUN.
 old-location: base\ivdslunnumber.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 77bd95f7-005a-474f-97c4-e211432b447d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsLunNumber, IVdsLunNumber interface, IVdsLunNumber interface,described, base.ivdslunnumber, vds/IVdsLunNumber, vdshwprv/IVdsLunNumber
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLunNumber
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsLunNumber interface

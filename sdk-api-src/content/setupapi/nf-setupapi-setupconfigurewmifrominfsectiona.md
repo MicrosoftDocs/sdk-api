@@ -4,17 +4,16 @@ title: SetupConfigureWmiFromInfSectionA function
 author: windows-sdk-content
 description: The SetupConfigureWmiFromInfSection function configures the security of the WMI data that is exposed by an INF file when passed to the [DDInstall.WMI] section.
 old-location: setup\setupconfigurewmifrominfsection.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 1fcf9086-fde1-414c-9073-22452c3ffc6d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SCWMI_CLOBBER_SECURITY, SetupConfigureWmiFromInfSection, SetupConfigureWmiFromInfSection function [Setup API], SetupConfigureWmiFromInfSectionA, SetupConfigureWmiFromInfSectionW, _setupapi_setupuninstalloeminf, setup.setupconfigurewmifrominfsection, setupapi/SetupConfigureWmiFromInfSection, setupapi/SetupConfigureWmiFromInfSectionA, setupapi/SetupConfigureWmiFromInfSectionW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupConfigureWmiFromInfSectionW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupConfigureWmiFromInfSectionA function
@@ -105,7 +103,7 @@ If and only if this flag is set does the security information passed to this fun
 
 
 
-This function returns WINSETUPAPI BOOL __stdcall.
+This function returns WINSETUPAPI BOOL.
 
 
 

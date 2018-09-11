@@ -4,17 +4,16 @@ title: "_SOURCE_MEDIA_A"
 author: windows-sdk-content
 description: The SOURCE_MEDIA structure is used with the SPFILENOTIFY_NEEDMEDIA notification to pass source media information.
 old-location: setup\source_media_str.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 93a72ec8-b979-4e61-bb06-eed1a6432f16
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSOURCE_MEDIA_A, PSOURCE_MEDIA, PSOURCE_MEDIA structure pointer [Setup API], SOURCE_MEDIA, SOURCE_MEDIA structure [Setup API], SOURCE_MEDIA_A, _SOURCE_MEDIA_A, _setupapi_source_media_str, setup.source_media_str, setupapi/PSOURCE_MEDIA, setupapi/SOURCE_MEDIA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOURCE_MEDIA_A, *PSOURCE_MEDIA_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SOURCE_MEDIA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SOURCE_MEDIA_A, *PSOURCE_MEDIA_A
+req.redist: 
 ---
 
 # _SOURCE_MEDIA_A structure

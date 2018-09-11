@@ -4,7 +4,7 @@ title: "_DXVA2_Fixed32"
 author: windows-sdk-content
 description: Defines a 32-bit fixed-point number.
 old-location: mf\dxva2_fixed32.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5f8f4515-1cf4-4060-813b-c746649c5c40
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_Fixed32
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVA2_Fixed32
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVA2_Fixed32
+req.redist: 
 ---
 
 # _DXVA2_Fixed32 structure

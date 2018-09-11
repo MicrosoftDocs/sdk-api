@@ -4,17 +4,16 @@ title: IWMPEffects::DisplayPropertyPage
 author: windows-sdk-content
 description: The DisplayPropertyPage method displays the property page of a visualization, if it exists.
 old-location: wmp\iwmpeffects_displaypropertypage.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: dadde782-577d-4dcb-b8ae-2f6ddca77a40
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: DisplayPropertyPage, DisplayPropertyPage method [Windows Media Player], DisplayPropertyPage method [Windows Media Player],IWMPEffects interface, EffectsDisplayPropertyPage, IWMPEffects interface [Windows Media Player],DisplayPropertyPage method, IWMPEffects.DisplayPropertyPage, IWMPEffects::DisplayPropertyPage, effects/IWMPEffects::DisplayPropertyPage, wmp.iwmpeffects_displaypropertypage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player version 7.0 or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEffects.DisplayPropertyPage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEffects::DisplayPropertyPage

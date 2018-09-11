@@ -4,17 +4,16 @@ title: IPrincipal::put_LogonType
 author: windows-sdk-content
 description: Gets or sets the security logon method that is required to run the tasks that are associated with the principal.
 old-location: taskschd\iprincipal_logontype.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: cf0a8ad4-f1bb-46a2-ae92-d00e08b8d459
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPrincipal interface [Task Scheduler],LogonType property, IPrincipal.LogonType, IPrincipal.put_LogonType, IPrincipal::LogonType, IPrincipal::get_LogonType, IPrincipal::put_LogonType, LogonType property [Task Scheduler], LogonType property [Task Scheduler],IPrincipal interface, TASK_LOGON_GROUP, TASK_LOGON_INTERACTIVE_TOKEN, TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD, TASK_LOGON_NONE, TASK_LOGON_PASSWORD, TASK_LOGON_S4U, TASK_LOGON_SERVICE_ACCOUNT, put_LogonType, taskschd.iprincipal_logontype, taskschd/IPrincipal::LogonType, taskschd/IPrincipal::get_LogonType, taskschd/IPrincipal::put_LogonType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IPrincipal.put_LogonType
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IPrincipal::put_LogonType

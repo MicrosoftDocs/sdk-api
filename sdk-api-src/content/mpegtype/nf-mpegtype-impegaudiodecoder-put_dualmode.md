@@ -4,17 +4,16 @@ title: IMpegAudioDecoder::put_DualMode
 author: windows-sdk-content
 description: Specifies the channel to be decoded.
 old-location: dshow\impegaudiodecoder_put_dualmode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b183f669-14bf-44d4-a17d-09cbc593309d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_DualMode method, IMpegAudioDecoder.put_DualMode, IMpegAudioDecoder::put_DualMode, IMpegAudioDecoderputDualMode, dshow.impegaudiodecoder_put_dualmode, mpegtype/IMpegAudioDecoder::put_DualMode, put_DualMode, put_DualMode method [DirectShow], put_DualMode method [DirectShow],IMpegAudioDecoder interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpegtype.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_CONTEXT, *PMPEG_CONTEXT
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMpegAudioDecoder.put_DualMode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMpegAudioDecoder::put_DualMode

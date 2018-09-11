@@ -4,17 +4,16 @@ title: "_SP_INF_INFORMATION"
 author: windows-sdk-content
 description: The SP_INF_INFORMATION structure stores information about an INF file, including the style, number of constituent INF files, and version data.
 old-location: setup\sp_inf_information_str.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 1fb08456-bc84-41a1-9f02-8fb499801831
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSP_INF_INFORMATION, INF_STYLE_NONE, INF_STYLE_OLDNT, INF_STYLE_WIN4, PSP_INF_INFORMATION, PSP_INF_INFORMATION structure pointer [Setup API], SP_INF_INFORMATION, SP_INF_INFORMATION structure [Setup API], _SP_INF_INFORMATION, _setupapi_sp_inf_information_str, setup.sp_inf_information_str, setupapi/PSP_INF_INFORMATION, setupapi/SP_INF_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_INF_INFORMATION, *PSP_INF_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_INF_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_INF_INFORMATION, *PSP_INF_INFORMATION
+req.redist: 
 ---
 
 # _SP_INF_INFORMATION structure

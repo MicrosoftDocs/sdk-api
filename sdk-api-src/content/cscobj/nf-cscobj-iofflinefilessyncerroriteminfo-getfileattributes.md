@@ -4,17 +4,16 @@ title: IOfflineFilesSyncErrorItemInfo::GetFileAttributes
 author: windows-sdk-content
 description: Retrieves the Win32 file attributes for the item.
 old-location: of\iofflinefilessyncerroriteminfo_getfileattributes.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 4e14d571-230b-4757-8e81-2fb8dc6b9c3f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFileAttributes, GetFileAttributes method [Offline Files], GetFileAttributes method [Offline Files],IOfflineFilesSyncErrorItemInfo interface, IOfflineFilesSyncErrorItemInfo interface [Offline Files],GetFileAttributes method, IOfflineFilesSyncErrorItemInfo.GetFileAttributes, IOfflineFilesSyncErrorItemInfo::GetFileAttributes, cscobj/IOfflineFilesSyncErrorItemInfo::GetFileAttributes, of.iofflinefilessyncerroriteminfo_getfileattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesSyncErrorItemInfo.GetFileAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesSyncErrorItemInfo::GetFileAttributes

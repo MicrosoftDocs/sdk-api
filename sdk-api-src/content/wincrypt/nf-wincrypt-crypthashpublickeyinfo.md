@@ -4,17 +4,16 @@ title: CryptHashPublicKeyInfo function
 author: windows-sdk-content
 description: Encodes the public key information in a CERT_PUBLIC_KEY_INFO structure and computes the hash of the encoded bytes.
 old-location: security\crypthashpublickeyinfo.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: b0c419b7-ebb3-42c6-9f6a-59b55a2db1b2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptHashPublicKeyInfo, CryptHashPublicKeyInfo function [Security], _crypto2_crypthashpublickeyinfo, security.crypthashpublickeyinfo, wincrypt/CryptHashPublicKeyInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptHashPublicKeyInfo
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptHashPublicKeyInfo function

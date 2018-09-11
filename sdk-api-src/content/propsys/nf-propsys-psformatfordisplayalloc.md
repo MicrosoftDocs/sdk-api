@@ -4,17 +4,16 @@ title: PSFormatForDisplayAlloc function
 author: windows-sdk-content
 description: Gets a formatted, Unicode string representation of a property value stored in a PROPVARIANT structure. This function allocates memory for the output string.
 old-location: properties\PSFormatForDisplayAlloc.htm
-old-project: properties
+tech.root: properties
 ms.assetid: d411ea72-fb29-47b6-a7f6-0839b3e2caf2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSFormatForDisplayAlloc, PSFormatForDisplayAlloc function [Windows Properties], properties.PSFormatForDisplayAlloc, propsys/PSFormatForDisplayAlloc, shell.PSFormatForDisplayAlloc, shell_PSFormatForDisplayAlloc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSFormatForDisplayAlloc
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # PSFormatForDisplayAlloc function

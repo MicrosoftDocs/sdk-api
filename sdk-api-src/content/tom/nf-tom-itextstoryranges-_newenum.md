@@ -4,17 +4,16 @@ title: ITextStoryRanges::_NewEnum
 author: windows-sdk-content
 description: Retrieves an IEnumVARIANT enumerator interface for this collection of stories.
 old-location: controls\ITextStoryRanges__NewEnum.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\_newenum.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextStoryRanges interface [Windows Controls],_NewEnum method, ITextStoryRanges._NewEnum, ITextStoryRanges::_NewEnum, _NewEnum, _NewEnum method [Windows Controls], _NewEnum method [Windows Controls],ITextStoryRanges interface, _win32_ITextStoryRanges__NewEnum, _win32_ITextStoryRanges__NewEnum_cpp, controls.ITextStoryRanges__NewEnum, controls._win32_ITextStoryRanges__NewEnum, tom/ITextStoryRanges::_NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoryRanges._NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextStoryRanges::_NewEnum

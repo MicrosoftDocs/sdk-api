@@ -4,7 +4,7 @@ title: D3D12_VERSIONED_ROOT_SIGNATURE_DESC
 author: windows-sdk-content
 description: Holds any version of a root signature description, and is designed to be used with serialization/deserialization functions.
 old-location: direct3d12\d3d12_versioned_root_signature_desc.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 46F692DD-55FF-4DFF-AF11-78CAD10922C1
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_VERSIONED_ROOT_SIGNATURE_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_VERSIONED_ROOT_SIGNATURE_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_VERSIONED_ROOT_SIGNATURE_DESC
+req.redist: 
 ---
 
 # D3D12_VERSIONED_ROOT_SIGNATURE_DESC structure

@@ -4,17 +4,16 @@ title: IWTSProtocolConnection::GetClientData
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetClientData is no longer available. Instead, use IWRdsProtocolConnection::GetClientData.
 old-location: termserv\iwtsprotocolconnection_getclientdata.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 1330fbb4-4c10-493b-ad95-3c2ad975459a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetClientData, GetClientData method [Remote Desktop Services], GetClientData method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetClientData method, IWTSProtocolConnection.GetClientData, IWTSProtocolConnection::GetClientData, termserv.iwtsprotocolconnection_getclientdata, wtsprotocol/IWTSProtocolConnection::GetClientData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSProtocolConnection.GetClientData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSProtocolConnection::GetClientData

@@ -4,17 +4,16 @@ title: IShellItemResources::SetTimes
 author: windows-sdk-content
 description: Sets file times.
 old-location: shell\IShellItemResources_SetTimes.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d5112da8-36a0-4b13-b674-c68eab24266d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellItemResources interface [Windows Shell],SetTimes method, IShellItemResources.SetTimes, IShellItemResources::SetTimes, SetTimes, SetTimes method [Windows Shell], SetTimes method [Windows Shell],IShellItemResources interface, _shell_IShellItemResources_SetTimes, shell.IShellItemResources_SetTimes, shobjidl_core/IShellItemResources::SetTimes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellItemResources.SetTimes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellItemResources::SetTimes

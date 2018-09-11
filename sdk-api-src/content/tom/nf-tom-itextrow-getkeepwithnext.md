@@ -4,17 +4,16 @@ title: ITextRow::GetKeepWithNext
 author: windows-sdk-content
 description: Gets whether this row should appear on the same page as the row that follows it.
 old-location: controls\itextrow_getkeepwithnext.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 67c5f06c-9f45-430b-ae9f-0ca1931df411
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetKeepWithNext, GetKeepWithNext method [Windows Controls], GetKeepWithNext method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetKeepWithNext method, ITextRow.GetKeepWithNext, ITextRow::GetKeepWithNext, controls.itextrow_getkeepwithnext, tom/ITextRow::GetKeepWithNext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRow.GetKeepWithNext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRow::GetKeepWithNext

@@ -4,17 +4,16 @@ title: ITargetInfo
 author: windows-sdk-content
 description: Defines the offline target information, specifically, file and registry locations as well as wow64 information.
 old-location: smi\itargetinfo.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: f1dd3c93-43ca-4804-8330-55acaccf8ea8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ITargetInfo, ITargetInfo interface [SMI], ITargetInfo interface [SMI],described, smi.itargetinfo, wcmconfig/ITargetInfo
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITargetInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITargetInfo interface

@@ -4,7 +4,7 @@ title: NET_ADDRESS_INFO_
 author: windows-sdk-content
 description: Contains IP address information returned by the ParseNetworkString function.
 old-location: iphlp\net_address_info.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 1a59cc13-a3fc-4489-aafd-444a96d9a339
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_INFO, *PNET_ADDRESS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_ADDRESS_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_ADDRESS_INFO, *PNET_ADDRESS_INFO
+req.redist: 
 ---
 
 # NET_ADDRESS_INFO_ structure

@@ -4,17 +4,16 @@ title: ExportNtmsDatabase function
 author: windows-sdk-content
 description: The ExportNtmsDatabase function creates a consistent set of database files in the RSM database directory.
 old-location: fs\exportntmsdatabase.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 0c6df5d3-c771-4749-8fbd-de5c02ffa5d9
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: ExportNtmsDatabase, ExportNtmsDatabase function [Files], _zaw_exportntmsdatabase, base.exportntmsdatabase, fs.exportntmsdatabase, ntmsapi/ExportNtmsDatabase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ExportNtmsDatabase
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ExportNtmsDatabase function

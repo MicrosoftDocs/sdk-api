@@ -4,7 +4,7 @@ title: ITQueueEvent
 author: windows-sdk-content
 description: The ITQueueEvent interface contains methods that retrieve the description of Automatic Call Distribution (ACD) queue events.
 old-location: tapi3\itqueueevent.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 7e4655ff-6ed4-4166-91f7-49d2e0556662
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_STATE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITQueueEvent
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITQueueEvent interface

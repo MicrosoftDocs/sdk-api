@@ -4,17 +4,16 @@ title: IDirectDrawKernel::ReleaseKernelHandle
 author: windows-sdk-content
 description: The IDirectDrawKernel::ReleaseKernelHandle method releases a kernel-mode handle to the DirectDraw object.
 old-location: display\idirectdrawkernel_releasekernelhandle.htm
-old-project: display
+tech.root: display
 ms.assetid: bbf3df75-f061-44d8-9ad4-e8524b6cb186
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: IDirectDrawKernel interface [Display Devices],ReleaseKernelHandle method, IDirectDrawKernel.ReleaseKernelHandle, IDirectDrawKernel::ReleaseKernelHandle, ReleaseKernelHandle, ReleaseKernelHandle method [Display Devices], ReleaseKernelHandle method [Display Devices],IDirectDrawKernel interface, ddfncs_5bb4adb5-8149-43bf-9a1a-b6447a68adac.xml, ddkernel/IDirectDrawKernel::ReleaseKernelHandle, display.idirectdrawkernel_releasekernelhandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddkernel.h
 req.include-header: Ddkernel.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MONMSGSTRUCT, *PMONMSGSTRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawKernel.ReleaseKernelHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawKernel::ReleaseKernelHandle

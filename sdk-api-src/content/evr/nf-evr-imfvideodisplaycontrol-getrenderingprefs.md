@@ -4,17 +4,16 @@ title: IMFVideoDisplayControl::GetRenderingPrefs
 author: windows-sdk-content
 description: Gets various video rendering settings.
 old-location: mf\imfvideodisplaycontrol_getrenderingprefs.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9a5bd1d6-e604-4798-af29-ad0c1931b651
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 9a5bd1d6-e604-4798-af29-ad0c1931b651, GetRenderingPrefs, GetRenderingPrefs method [Media Foundation], GetRenderingPrefs method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetRenderingPrefs method, IMFVideoDisplayControl.GetRenderingPrefs, IMFVideoDisplayControl::GetRenderingPrefs, evr/IMFVideoDisplayControl::GetRenderingPrefs, mf.imfvideodisplaycontrol_getrenderingprefs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoDisplayControl.GetRenderingPrefs
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoDisplayControl::GetRenderingPrefs

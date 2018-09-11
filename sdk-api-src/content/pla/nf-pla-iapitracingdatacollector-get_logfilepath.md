@@ -4,17 +4,16 @@ title: IApiTracingDataCollector::get_LogFilePath
 author: windows-sdk-content
 description: Retrieves or sets the name of the log file that contains the API trace data.
 old-location: pla\iapitracingdatacollector_logfilepath.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 17e876d5-c1d2-4ab8-9f9e-40d66528e57d
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IApiTracingDataCollector interface [PLA],LogFilePath property, IApiTracingDataCollector.LogFilePath, IApiTracingDataCollector.get_LogFilePath, IApiTracingDataCollector::LogFilePath, IApiTracingDataCollector::get_LogFilePath, IApiTracingDataCollector::put_LogFilePath, LogFilePath property [PLA], LogFilePath property [PLA],IApiTracingDataCollector interface, base.iapitracingdatacollector_logfilepath, get_LogFilePath, pla.iapitracingdatacollector_logfilepath, pla/IApiTracingDataCollector::LogFilePath, pla/IApiTracingDataCollector::get_LogFilePath, pla/IApiTracingDataCollector::put_LogFilePath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IApiTracingDataCollector.put_LogFilePath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IApiTracingDataCollector::get_LogFilePath

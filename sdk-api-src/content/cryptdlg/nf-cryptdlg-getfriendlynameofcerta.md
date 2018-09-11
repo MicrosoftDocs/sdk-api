@@ -4,17 +4,16 @@ title: GetFriendlyNameOfCertA function
 author: windows-sdk-content
 description: Retrieves the display name for a certificate.
 old-location: security\getfriendlynameofcert.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: a66a8573-b234-4d5d-bd38-72a3a44a0419
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: GetFriendlyNameOfCert, GetFriendlyNameOfCert function [Security], GetFriendlyNameOfCertA, GetFriendlyNameOfCertW, cryptdlg/GetFriendlyNameOfCert, cryptdlg/GetFriendlyNameOfCertA, cryptdlg/GetFriendlyNameOfCertW, security.getfriendlynameofcert
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cryptdlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_ClientCreds, *PSecPkgContext_ClientCreds
+req.lib: 
+req.dll: CryptDlg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - GetFriendlyNameOfCertW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CryptDlg.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetFriendlyNameOfCertA function

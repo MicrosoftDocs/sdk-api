@@ -4,17 +4,16 @@ title: LockServiceDatabase function
 author: windows-sdk-content
 description: Requests ownership of the service control manager (SCM) database lock. Only one process can own the lock at any specified time.
 old-location: base\lockservicedatabase.htm
-old-project: services
+tech.root: Services
 ms.assetid: 87861465-c966-479a-b906-27ae36cc83c8
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: LockServiceDatabase, LockServiceDatabase function, _win32_lockservicedatabase, base.lockservicedatabase, winsvc/LockServiceDatabase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LockServiceDatabase
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # LockServiceDatabase function

@@ -4,7 +4,7 @@ title: "_HTTP_DATA_CHUNK"
 author: windows-sdk-content
 description: Represents an individual block of data either in memory, in a file, or in the HTTP Server API response-fragment cache.
 old-location: http\http_data_chunk.htm
-old-project: http
+tech.root: http
 ms.assetid: ae67c066-c8bd-483f-829f-30192f49593d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_DATA_CHUNK, *PHTTP_DATA_CHUNK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_DATA_CHUNK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_DATA_CHUNK, *PHTTP_DATA_CHUNK
+req.redist: 
 ---
 
 # _HTTP_DATA_CHUNK structure

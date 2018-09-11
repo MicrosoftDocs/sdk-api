@@ -4,17 +4,16 @@ title: "_SecPkgContext_NativeNamesA"
 author: windows-sdk-content
 description: The SecPkgContext_NativeNames structure returns the client and server principal names from the outbound ticket. This structure is valid only for client outbound tickets. This structure is returned by QueryContextAttributes (General).
 old-location: security\secpkgcontext_nativenames.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: f935093f-5661-4ced-94f1-c4b21c3b9f69
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSecPkgContext_NativeNamesA, PSecPkgContext_NativeNames, PSecPkgContext_NativeNames structure pointer [Security], SecPkgContext_NativeNames, SecPkgContext_NativeNames structure [Security], SecPkgContext_NativeNamesA, _SecPkgContext_NativeNamesA, _SecPkgContext_NativeNamesW, security.secpkgcontext_nativenames, sspi/PSecPkgContext_NativeNames, sspi/SecPkgContext_NativeNames"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_NativeNamesA, *PSecPkgContext_NativeNamesA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SecPkgContext_NativeNames
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SecPkgContext_NativeNamesA, *PSecPkgContext_NativeNamesA
+req.redist: 
 ---
 
 # _SecPkgContext_NativeNamesA structure

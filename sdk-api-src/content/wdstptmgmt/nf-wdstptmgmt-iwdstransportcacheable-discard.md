@@ -4,17 +4,16 @@ title: IWdsTransportCacheable::Discard
 author: windows-sdk-content
 description: Discards all changes made to the object data members by clearing the IWdsTransportCacheable::Dirty property and then calling the object's IWdsTransportCacheable::Refresh method to reread the current object data.
 old-location: wds\iwdstransportcacheable_discard.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: 5c8495b9-6c76-4bb0-8237-5f9008cefc91
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Discard, Discard method [Windows Deployment Services], Discard method [Windows Deployment Services],IWdsTransportCacheable interface, IWdsTransportCacheable interface [Windows Deployment Services],Discard method, IWdsTransportCacheable.Discard, IWdsTransportCacheable::Discard, wds.iwdstransportcacheable_discard, wdstptmgmt/IWdsTransportCacheable::Discard
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWdsTransportCacheable.Discard
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportCacheable::Discard

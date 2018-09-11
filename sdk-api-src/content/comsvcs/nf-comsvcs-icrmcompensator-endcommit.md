@@ -4,17 +4,16 @@ title: ICrmCompensator::EndCommit
 author: windows-sdk-content
 description: Notifies the CRM Compensator that it has delivered all the log records available during the commit phase.
 old-location: cos\icrmcompensator_endcommit.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 83701797-c386-4471-91ed-cbe936b1988e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EndCommit, EndCommit method [COM+], EndCommit method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],EndCommit method, ICrmCompensator.EndCommit, ICrmCompensator::EndCommit, _dtc_ICrmCompensator_EndCommit, comsvcs/ICrmCompensator::EndCommit, cos.icrmcompensator_endcommit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmCompensator.EndCommit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmCompensator::EndCommit

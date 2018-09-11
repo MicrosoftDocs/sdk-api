@@ -4,7 +4,7 @@ title: NETISO_FLAG
 author: windows-sdk-content
 description: Specifies whether binaries should be returned for app containers.
 old-location: ics\netiso_flag.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 0e07c3ed-0561-453d-b92a-cd0db07ea5cf
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: networkisolation.h
 req.include-header: Netfw.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NETISO_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NETISO_FLAG
+req.redist: 
 ---
 
 # NETISO_FLAG enumeration

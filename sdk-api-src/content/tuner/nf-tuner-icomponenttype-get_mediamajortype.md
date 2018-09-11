@@ -4,17 +4,16 @@ title: IComponentType::get_MediaMajorType
 author: windows-sdk-content
 description: The get_MediaMajorType method retrieves the DirectShow media major type as a BSTR.
 old-location: mstv\icomponenttype_get_mediamajortype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 4c1fc49d-acca-40fe-85cf-909092ceb5ef
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get_MediaMajorType method, IComponentType.get_MediaMajorType, IComponentType::get_MediaMajorType, IComponentTypeget_MediaMajorType, get_MediaMajorType, get_MediaMajorType method [Microsoft TV Technologies], get_MediaMajorType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_mediamajortype, tuner/IComponentType::get_MediaMajorType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponentType.get_MediaMajorType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponentType::get_MediaMajorType
@@ -65,7 +63,7 @@ The <b>get_MediaMajorType</b> method retrieves the DirectShow media major type a
 
 ### -param MediaMajorType
 
-
+TBD
 
 
 

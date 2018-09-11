@@ -4,17 +4,16 @@ title: "_CERT_STRONG_SIGN_PARA"
 author: windows-sdk-content
 description: Contains parameters used to check for strong signatures on certificates, certificate revocation lists (CRLs), online certificate status protocol (OCSP) responses, and PKCS #7 messages.
 old-location: security\cert_strong_sign_para.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 12D9F82C-F484-43B0-BD55-F07321058671
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA structure [Security], PCCERT_STRONG_SIGN_PARA, PCCERT_STRONG_SIGN_PARA structure pointer [Security], PCERT_STRONG_SIGN_PARA, PCERT_STRONG_SIGN_PARA structure pointer [Security], _CERT_STRONG_SIGN_PARA, security.cert_strong_sign_para, szOID_CERT_STRONG_KEY_OS_1, szOID_CERT_STRONG_SIGN_OS_1, wincrypt/CERT_STRONG_SIGN_PARA, wincrypt/PCCERT_STRONG_SIGN_PARA, wincrypt/PCERT_STRONG_SIGN_PARA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_STRONG_SIGN_PARA, *PCERT_STRONG_SIGN_PARA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_STRONG_SIGN_PARA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_STRONG_SIGN_PARA, *PCERT_STRONG_SIGN_PARA
+req.redist: 
 ---
 
 # _CERT_STRONG_SIGN_PARA structure

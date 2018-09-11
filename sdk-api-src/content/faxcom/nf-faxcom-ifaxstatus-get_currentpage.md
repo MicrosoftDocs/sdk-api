@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxStatus.get_CurrentPage
 title: IFaxStatus::get_CurrentPage
 author: windows-sdk-content
 description: Retrieves the CurrentPage property for the FaxStatus object of a parent FaxPort object. The CurrentPage property is a number that identifies the current page of an active outbound fax job on a specific port.
-old-location: fax\_mfax_ifaxstatus_get_currentpage_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_currentpage_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3kx1.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: CurrentPage property [Fax Service], CurrentPage property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],CurrentPage property, FaxStatus.CurrentPage, IFaxStatus.get_CurrentPage, IFaxStatus::get_CurrentPage, _mfax_ifaxstatus_get_currentpage, fax._mfax_ifaxstatus_get_currentpage, fax._mfax_ifaxstatus_get_currentpage_vb, get_CurrentPage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: CurrentPage property [Fax Service], CurrentPage property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],CurrentPage property, IFaxStatus.CurrentPage, IFaxStatus.get_CurrentPage, IFaxStatus::CurrentPage, IFaxStatus::get_CurrentPage, _mfax_ifaxstatus_get_currentpage, fax._mfax_ifaxstatus_get_currentpage, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_currentpage_cpp, faxcom/IFaxStatus::CurrentPage, faxcom/IFaxStatus::get_CurrentPage, get_CurrentPage
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxStatus.CurrentPage
+ - IFaxStatus.CurrentPage
+ - IFaxStatus.get_CurrentPage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxStatus::get_CurrentPage
@@ -66,7 +65,7 @@ This property is read-only.
 
 If the current page is not available, the <b>IFaxStatus::get_CurrentPage</b> method returns zero.
 
-You can use the <b>CurrentPage</b> property of a <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/ms692296(v=VS.85).aspx">PageCount</a> property of the object to provide users with a running page count for an outbound fax job. For example, you could inform a user that the fax server is currently transmitting the second page of a four page transmission.
+You can use the <b>CurrentPage</b> property of a <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/7dd672cb-e460-4594-8aff-67292d4b34e3">PageCount</a> property of the object to provide users with a running page count for an outbound fax job. For example, you could inform a user that the fax server is currently transmitting the second page of a four page transmission.
 
 
 
@@ -84,10 +83,6 @@ You can use the <b>CurrentPage</b> property of a <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690310(v=VS.85).aspx">FaxStatus</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/ms691281(v=VS.85).aspx">IFaxPort</a>
 
 
@@ -100,7 +95,7 @@ You can use the <b>CurrentPage</b> property of a <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692296(v=VS.85).aspx">PageCount</a>
+<a href="https://msdn.microsoft.com/7dd672cb-e460-4594-8aff-67292d4b34e3">IFaxStatus::get_PageCount</a>
  
 
  

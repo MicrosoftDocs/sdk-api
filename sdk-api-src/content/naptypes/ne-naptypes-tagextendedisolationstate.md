@@ -4,7 +4,7 @@ title: tagExtendedIsolationState
 author: windows-sdk-content
 description: Describes the extended isolation state of a connection.
 old-location: nap\extendedisolationstate.htm
-old-project: nap
+tech.root: nap
 ms.assetid: 1466247a-eecf-4912-810a-07cabb9c83da
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: naptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: LoadMUILibraryW (Unicode) and LoadMUILibraryA (ANSI)
+req.unicode-ansi: 
 req.idl: NapTypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ExtendedIsolationState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ExtendedIsolationState
 product: Windows
 targetos: Windows
-req.lib: Muiload.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: ExtendedIsolationState
+req.redist: 
 ---
 
 # tagExtendedIsolationState enumeration

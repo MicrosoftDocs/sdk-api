@@ -4,17 +4,16 @@ title: MCIWndPlayFromTo macro
 author: windows-sdk-content
 description: The MCIWndPlayFromTo macro plays a portion of content between specified starting and ending locations.
 old-location: multimedia\mciwndplayfromto.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: a592c28c-322f-4fd1-90e9-632703bf40c1
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndPlayFromTo, MCIWndPlayFromTo macro [Windows Multimedia], _win32_MCIWndPlayFromTo, multimedia.mciwndplayfromto, vfw/MCIWndPlayFromTo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndPlayFromTo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndPlayFromTo macro

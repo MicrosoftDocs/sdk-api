@@ -4,7 +4,7 @@ title: "_DD_CANCREATESURFACEDATA"
 author: windows-sdk-content
 description: The DD_CANCREATESURFACEDATA structure contains information necessary to indicate whether a surface--in the case of CanCreateD3DBuffer, a buffer--can be created.
 old-location: display\dd_cancreatesurfacedata.htm
-old-project: display
+tech.root: display
 ms.assetid: 35ac7efd-1949-497c-8730-2c4414aed977
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_CANCREATESURFACEDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA"
+req.redist: 
 ---
 
 # _DD_CANCREATESURFACEDATA structure

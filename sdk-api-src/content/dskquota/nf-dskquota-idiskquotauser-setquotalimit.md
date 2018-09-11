@@ -4,17 +4,16 @@ title: IDiskQuotaUser::SetQuotaLimit
 author: windows-sdk-content
 description: Sets the user's quota limit value on the volume.
 old-location: fs\idiskquotauser_setquotalimit.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: f7c99415-685b-4a21-ac7b-68f4816aafb0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDiskQuotaUser interface [Files],SetQuotaLimit method, IDiskQuotaUser.SetQuotaLimit, IDiskQuotaUser::SetQuotaLimit, SetQuotaLimit, SetQuotaLimit method [Files], SetQuotaLimit method [Files],IDiskQuotaUser interface, _win32_idiskquotauser_setquotalimit, base.idiskquotauser_setquotalimit, dskquota/IDiskQuotaUser::SetQuotaLimit, fs.idiskquotauser_setquotalimit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaUser.SetQuotaLimit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaUser::SetQuotaLimit

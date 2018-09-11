@@ -4,17 +4,16 @@ title: IMalloc::HeapMinimize
 author: windows-sdk-content
 description: Minimizes the heap as much as possible by releasing unused memory to the operating system, coalescing adjacent free blocks, and committing free pages.
 old-location: com\imalloc_heapminimize.htm
-old-project: com
+tech.root: com
 ms.assetid: b57e32eb-a637-47d8-b136-05cb193e9f73
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HeapMinimize, HeapMinimize method [COM], HeapMinimize method [COM],IMalloc interface, IMalloc interface [COM],HeapMinimize method, IMalloc.HeapMinimize, IMalloc::HeapMinimize, _com_imalloc_heapminimize, com.imalloc_heapminimize, objidlbase/IMalloc::HeapMinimize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMalloc.HeapMinimize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMalloc::HeapMinimize

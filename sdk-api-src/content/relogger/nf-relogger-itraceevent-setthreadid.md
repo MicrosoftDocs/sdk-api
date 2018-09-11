@@ -4,17 +4,16 @@ title: ITraceEvent::SetThreadId
 author: windows-sdk-content
 description: Sets the identifier of a thread that generates an event.
 old-location: etw\ievent_setthreadid.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 9f5d293e-da87-4b83-9407-fc4179a42a46
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: ITraceEvent interface [ETW],SetThreadId method, ITraceEvent.SetThreadId, ITraceEvent::SetThreadId, SetThreadId, SetThreadId method [ETW], SetThreadId method [ETW],ITraceEvent interface, etw.ievent_setthreadid, relogger/ITraceEvent::SetThreadId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITraceEvent.SetThreadId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceEvent::SetThreadId

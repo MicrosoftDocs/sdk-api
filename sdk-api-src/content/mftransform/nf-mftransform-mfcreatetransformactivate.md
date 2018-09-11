@@ -4,17 +4,16 @@ title: MFCreateTransformActivate function
 author: windows-sdk-content
 description: Creates a generic activation object for Media Foundation transforms (MFTs).
 old-location: mf\mfcreatetransformactivate.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 845c7114-756b-4d0f-a92e-9c6e2eba7c94
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateTransformActivate, MFCreateTransformActivate function [Media Foundation], mf.mfcreatetransformactivate, mftransform/MFCreateTransformActivate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateTransformActivate
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateTransformActivate function

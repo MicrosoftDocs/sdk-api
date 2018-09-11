@@ -4,17 +4,16 @@ title: PxeDhcpv6ParseRelayForw function
 author: windows-sdk-content
 description: This function can be used by a provider to parse RELAY-FORW messages and their nested OPTION_RELAY_MSG messages.
 old-location: wds\pxedhcpv6parserelayforw.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: 1D9F1FFF-3ABB-4580-A5F2-C74B5E7EEAC9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PxeDhcpv6ParseRelayForw, PxeDhcpv6ParseRelayForw function [Windows Deployment Services], wds.pxedhcpv6parserelayforw, wdspxe/PxeDhcpv6ParseRelayForw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDS_CLI_CRED, *PWDS_CLI_CRED, *LPWDS_CLI_CRED
+req.lib: WdsPxe.lib
+req.dll: WdsPxe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PxeDhcpv6ParseRelayForw
 product: Windows
 targetos: Windows
-req.lib: WdsPxe.lib
-req.dll: WdsPxe.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PxeDhcpv6ParseRelayForw function

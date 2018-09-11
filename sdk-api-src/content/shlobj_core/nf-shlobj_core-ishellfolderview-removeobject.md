@@ -4,17 +4,16 @@ title: IShellFolderView::RemoveObject
 author: windows-sdk-content
 description: RemoveObject may be altered or unavailable.
 old-location: shell\IShellFolderView_RemoveObject.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5e96040b-5b6a-4323-a5c4-f30e534ed15a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellFolderView interface [Windows Shell],RemoveObject method, IShellFolderView.RemoveObject, IShellFolderView::RemoveObject, RemoveObject, RemoveObject method [Windows Shell], RemoveObject method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_RemoveObject, shell.IShellFolderView_RemoveObject, shlobj_core/IShellFolderView::RemoveObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderView.RemoveObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderView::RemoveObject

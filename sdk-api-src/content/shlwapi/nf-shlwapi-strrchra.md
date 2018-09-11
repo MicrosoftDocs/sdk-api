@@ -4,17 +4,16 @@ title: StrRChrA function
 author: windows-sdk-content
 description: Searches a string for the last occurrence of a specified character. The comparison is case-sensitive.
 old-location: shell\StrRChr.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7f1e91ad-aaa0-4449-834e-8e309c88d6b1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StrRChr, StrRChr function [Windows Shell], StrRChrA, StrRChrW, _win32_StrRChr, shell.StrRChr, shlwapi/StrRChr, shlwapi/StrRChrA, shlwapi/StrRChrW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - StrRChrW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # StrRChrA function

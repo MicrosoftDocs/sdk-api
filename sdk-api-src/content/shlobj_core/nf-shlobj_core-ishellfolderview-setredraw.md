@@ -4,17 +4,16 @@ title: IShellFolderView::SetRedraw
 author: windows-sdk-content
 description: Allows a view to be redrawn or prevents it from being redrawn.
 old-location: shell\IShellFolderView_SetRedraw.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fe249faa-561f-4179-a478-4ff284ffa963
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetRedraw method, IShellFolderView.SetRedraw, IShellFolderView::SetRedraw, SetRedraw, SetRedraw method [Windows Shell], SetRedraw method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetRedraw, shell.IShellFolderView_SetRedraw, shlobj_core/IShellFolderView::SetRedraw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderView.SetRedraw
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderView::SetRedraw

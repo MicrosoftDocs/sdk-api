@@ -4,17 +4,16 @@ title: MappingRecognizeText function
 author: windows-sdk-content
 description: Calls upon an ELS service to recognize text. For example, the Microsoft Language Detection service will attempt to recognize the language in which the input text is written.
 old-location: intl\mappingrecognizetext.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 49f30bdd-4612-423b-9913-9c35ad8a88d5
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MappingRecognizeText, MappingRecognizeText function [Internationalization for Windows Applications], elscore/MappingRecognizeText, intl.mappingrecognizetext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: elscore.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, *PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
+req.lib: Elscore.lib
+req.dll: Elscore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MappingRecognizeText
 product: Windows
 targetos: Windows
-req.lib: Elscore.lib
-req.dll: Elscore.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # MappingRecognizeText function

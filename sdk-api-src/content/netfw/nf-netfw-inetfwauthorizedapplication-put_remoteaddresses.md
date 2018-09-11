@@ -4,17 +4,16 @@ title: INetFwAuthorizedApplication::put_RemoteAddresses
 author: windows-sdk-content
 description: Specifies a set of the remote addresses from which the application can listen for traffic.
 old-location: ics\inetfwauthorizedapplication_remoteaddresses.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 56e51590-8cde-4c7d-8034-bc13f16f2617
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],RemoteAddresses property, INetFwAuthorizedApplication.RemoteAddresses, INetFwAuthorizedApplication.put_RemoteAddresses, INetFwAuthorizedApplication::RemoteAddresses, INetFwAuthorizedApplication::get_RemoteAddresses, INetFwAuthorizedApplication::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwAuthorizedApplication interface, ics.inetfwauthorizedapplication_remoteaddresses, netfw/INetFwAuthorizedApplication::RemoteAddresses, netfw/INetFwAuthorizedApplication::get_RemoteAddresses, netfw/INetFwAuthorizedApplication::put_RemoteAddresses, put_RemoteAddresses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwAuthorizedApplication.put_RemoteAddresses
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwAuthorizedApplication::put_RemoteAddresses

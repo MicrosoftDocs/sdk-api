@@ -4,7 +4,7 @@ title: IMFVideoProcessorControl2
 author: windows-sdk-content
 description: Configures the Video Processor MFT.
 old-location: mf\imfvideoprocessorcontrol2.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: FE314254-AAE4-482E-A7AE-28B2591E0060
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFVideoProcessorControl2
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mfsensorgroup.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoProcessorControl2 interface

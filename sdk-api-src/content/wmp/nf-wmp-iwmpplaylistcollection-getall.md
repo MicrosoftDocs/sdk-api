@@ -4,17 +4,16 @@ title: IWMPPlaylistCollection::getAll
 author: windows-sdk-content
 description: The getAll method retrieves a pointer to an IWMPPlaylistArray interface representing all of the playlists in the library.
 old-location: wmp\iwmpplaylistcollection_getall.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 5ebd966f-5fee-4a8a-909e-5adcbdebab54
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],getAll method, IWMPPlaylistCollection.getAll, IWMPPlaylistCollection::getAll, IWMPPlaylistCollectiongetAll, getAll, getAll method [Windows Media Player], getAll method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_getall, wmp/IWMPPlaylistCollection::getAll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPPlaylistCollection.getAll
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPPlaylistCollection::getAll

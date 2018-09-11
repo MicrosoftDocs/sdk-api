@@ -4,7 +4,7 @@ title: "_IMAPI_MEDIA_PHYSICAL_TYPE"
 author: windows-sdk-content
 description: Defines values for the currently known media types supported by IMAPI.
 old-location: imapi\imapi_media_physical_type.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 027c5e09-6cf7-4d7c-8381-07dc92cc43c5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_MEDIA_PHYSICAL_TYPE, *PIMAPI_MEDIA_PHYSICAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMAPI_MEDIA_PHYSICAL_TYPE
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IMAPI_MEDIA_PHYSICAL_TYPE, *PIMAPI_MEDIA_PHYSICAL_TYPE
+req.redist: 
 ---
 
 # _IMAPI_MEDIA_PHYSICAL_TYPE enumeration

@@ -4,17 +4,16 @@ title: RegSetKeySecurity function
 author: windows-sdk-content
 description: Sets the security of an open registry key.
 old-location: security\regsetkeysecurity.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 08bf8fc1-6a08-490e-b589-730211774257
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: RegSetKeySecurity, RegSetKeySecurity function [Security], _win32_regsetkeysecurity, security.regsetkeysecurity, winreg/RegSetKeySecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - RegSetKeySecurity
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegSetKeySecurity function

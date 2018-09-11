@@ -4,17 +4,16 @@ title: IMFTimedTextTrackList::GetTrackById
 author: windows-sdk-content
 description: Gets a text track in the list from the identifier of the track.
 old-location: mf\imftimedtexttracklist_gettrackbyid.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5653ED8A-36B1-488C-9D76-50D64BA78BA8
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetTrackById, GetTrackById method [Media Foundation], GetTrackById method [Media Foundation],IMFTimedTextTrackList interface, IMFTimedTextTrackList interface [Media Foundation],GetTrackById method, IMFTimedTextTrackList.GetTrackById, IMFTimedTextTrackList::GetTrackById, mf.imftimedtexttracklist_gettrackbyid, mfmediaengine/IMFTimedTextTrackList::GetTrackById
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextTrackList.GetTrackById
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextTrackList::GetTrackById
@@ -62,12 +60,12 @@ Gets a text track in the list from the identifier of the track.
 
 ### -param trackId
 
-
+TBD
 
 
 ### -param track
 
-
+TBD
 
 
 

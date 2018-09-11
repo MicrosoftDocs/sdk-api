@@ -4,7 +4,7 @@ title: "_DDFLIPOVERLAYINFO"
 author: windows-sdk-content
 description: The DDFLIPOVERLAYINFO structure contains the flip information for the surface.
 old-location: display\ddflipoverlayinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 04e4baba-4b6c-4f0a-8197-1fb2d83f53d6
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDFLIPOVERLAYINFO, *PDDFLIPOVERLAYINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDFLIPOVERLAYINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DDFLIPOVERLAYINFO, *PDDFLIPOVERLAYINFO
+req.redist: 
 ---
 
 # _DDFLIPOVERLAYINFO structure

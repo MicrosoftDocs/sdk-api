@@ -4,17 +4,16 @@ title: IDirectDrawClipper::Initialize
 author: windows-sdk-content
 description: Initializes a DirectDrawClipper object that was created by using the CoCreateInstance COM function.
 old-location: directdraw\idirectdrawclipper_initialize.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: b0b71af4-f806-4264-bd14-b556b31aab29
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDirectDrawClipper interface [DirectDraw],Initialize method, IDirectDrawClipper.Initialize, IDirectDrawClipper::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::Initialize, directdraw.idirectdrawclipper_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawClipper.Initialize
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawClipper::Initialize
@@ -60,9 +59,14 @@ Initializes a DirectDrawClipper object that was created by using the <a href="ht
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

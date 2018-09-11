@@ -4,17 +4,16 @@ title: VarCyFromR4 function
 author: windows-sdk-content
 description: Converts a float value to a currency value.
 old-location: automat\varcyfromr4.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 6ee9eb83-5358-496e-ba4d-8ad529bc42ca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarCyFromR4, VarCyFromR4 function [Automation], _oa96_VarCyFromR4, automat.varcyfromr4, oleauto/VarCyFromR4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarCyFromR4
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarCyFromR4 function

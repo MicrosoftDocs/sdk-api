@@ -4,17 +4,16 @@ title: IBackgroundCopyFile3::SetValidationState
 author: windows-sdk-content
 description: Sets the validation state of this file.
 old-location: bits\ibackgroundcopyfile3_setvalidationstate.htm
-old-project: bits
+tech.root: bits
 ms.assetid: c032ce32-07a4-4ab2-ae57-f9d526d1371a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyFile3 interface [BITS],SetValidationState method, IBackgroundCopyFile3.SetValidationState, IBackgroundCopyFile3::SetValidationState, SetValidationState, SetValidationState method [BITS], SetValidationState method [BITS],IBackgroundCopyFile3 interface, bits.ibackgroundcopyfile3_setvalidationstate, bits3_0/IBackgroundCopyFile3::SetValidationState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBackgroundCopyFile3.SetValidationState
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyFile3::SetValidationState
@@ -62,7 +61,7 @@ Sets the validation state of this file.
 
 ### -param state
 
-
+TBD
 
 
 

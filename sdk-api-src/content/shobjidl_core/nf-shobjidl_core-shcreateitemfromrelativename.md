@@ -4,17 +4,16 @@ title: SHCreateItemFromRelativeName function
 author: windows-sdk-content
 description: Creates and initializes a Shell item object from a relative parsing name.
 old-location: shell\SHCreateItemFromRelativeName.htm
-old-project: shell
+tech.root: shell
 ms.assetid: af6c2e8b-c812-4858-a9db-24549dedc2aa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHCreateItemFromRelativeName, SHCreateItemFromRelativeName function [Windows Shell], _shell_SHCreateItemFromRelativeName, shell.SHCreateItemFromRelativeName, shobjidl_core/SHCreateItemFromRelativeName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHCreateItemFromRelativeName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHCreateItemFromRelativeName function

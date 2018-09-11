@@ -4,17 +4,16 @@ title: IRawCDImageTrackInfo::get_DigitalAudioCopySetting
 author: windows-sdk-content
 description: Retrieves the value for the bit that represents the current digital audio copy setting on the resulting media. Please see the IMAPI_CD_TRACK_DIGITAL_COPY_SETTING enumeration for possible values.
 old-location: imapi\irawcdimagetrackinfo_get_digitalaudiocopysetting.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 1b9f277d-b1bb-4704-8a25-cd26fdf46069
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_DigitalAudioCopySetting method, IRawCDImageTrackInfo.get_DigitalAudioCopySetting, IRawCDImageTrackInfo::get_DigitalAudioCopySetting, get_DigitalAudioCopySetting, get_DigitalAudioCopySetting method [IMAPI], get_DigitalAudioCopySetting method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_digitalaudiocopysetting, imapi2/IRawCDImageTrackInfo::get_DigitalAudioCopySetting
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawCDImageTrackInfo.get_DigitalAudioCopySetting
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRawCDImageTrackInfo::get_DigitalAudioCopySetting

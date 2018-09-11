@@ -4,7 +4,7 @@ title: "_DDGETKERNELCAPSOUT"
 author: windows-sdk-content
 description: The DDGETKERNELCAPSOUT structure contains the capabilities of the Microsoft DirectDraw object.
 old-location: display\ddgetkernelcapsout.htm
-old-project: display
+tech.root: display
 ms.assetid: 7c0ccd18-3892-4512-9957-1ac01fa83f0f
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDGETKERNELCAPSOUT, *LPDDGETKERNELCAPSOUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDGETKERNELCAPSOUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDGETKERNELCAPSOUT, *LPDDGETKERNELCAPSOUT
+req.redist: 
 ---
 
 # _DDGETKERNELCAPSOUT structure

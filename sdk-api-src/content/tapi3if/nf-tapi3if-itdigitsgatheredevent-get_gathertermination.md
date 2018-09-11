@@ -4,17 +4,16 @@ title: ITDigitsGatheredEvent::get_GatherTermination
 author: windows-sdk-content
 description: The get_GatherTermination method gets the reason why the TAPI Server terminated the gathering of digits on the call.
 old-location: tapi3\itdigitsgatheredevent_get_gathertermination.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 97c123b9-4497-43f3-b747-660d3f9f5848
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_GatherTermination method, ITDigitsGatheredEvent.get_GatherTermination, ITDigitsGatheredEvent::get_GatherTermination, _tapi3_itdigitsgatheredevent_get_gathertermination, get_GatherTermination, get_GatherTermination method [TAPI 2.2], get_GatherTermination method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_gathertermination, tapi3if/ITDigitsGatheredEvent::get_GatherTermination
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDigitsGatheredEvent.get_GatherTermination
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITDigitsGatheredEvent::get_GatherTermination

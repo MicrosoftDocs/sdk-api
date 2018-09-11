@@ -4,17 +4,16 @@ title: "_VDS_INTERCONNECT_ADDRESS_TYPE"
 author: windows-sdk-content
 description: Defines the set of the valid address types of a physical interconnect.
 old-location: base\vds_interconnect_address_type.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 20d75585-a80c-49bc-9f9c-5aae8e5f2c21
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_IA_FCFS, VDS_IA_FCPH, VDS_IA_FCPH3, VDS_IA_MAC, VDS_IA_SCSI, VDS_IA_UNKNOWN, VDS_INTERCONNECT_ADDRESS_TYPE, VDS_INTERCONNECT_ADDRESS_TYPE enumeration [VDS], _VDS_INTERCONNECT_ADDRESS_TYPE, base.vds_interconnect_address_type, vdslun/VDS_IA_FCFS, vdslun/VDS_IA_FCPH, vdslun/VDS_IA_FCPH3, vdslun/VDS_IA_MAC, vdslun/VDS_IA_SCSI, vdslun/VDS_IA_UNKNOWN, vdslun/VDS_INTERCONNECT_ADDRESS_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_INTERCONNECT_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_INTERCONNECT_ADDRESS_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_INTERCONNECT_ADDRESS_TYPE
+req.redist: 
 ---
 
 # _VDS_INTERCONNECT_ADDRESS_TYPE enumeration

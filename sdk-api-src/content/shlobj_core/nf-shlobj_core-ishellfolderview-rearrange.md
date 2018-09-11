@@ -4,17 +4,16 @@ title: IShellFolderView::Rearrange
 author: windows-sdk-content
 description: Rearrange may be altered or unavailable.
 old-location: shell\IShellFolderView_Rearrange.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9fe955db-dab3-4e53-9c1b-979794052035
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellFolderView interface [Windows Shell],Rearrange method, IShellFolderView.Rearrange, IShellFolderView::Rearrange, Rearrange, Rearrange method [Windows Shell], Rearrange method [Windows Shell],IShellFolderView interface, SHCIDS_ALLFIELDS, SHCIDS_CANONICALONLY, _shell_IShellFolderView_Rearrange, shell.IShellFolderView_Rearrange, shlobj_core/IShellFolderView::Rearrange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderView.Rearrange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderView::Rearrange

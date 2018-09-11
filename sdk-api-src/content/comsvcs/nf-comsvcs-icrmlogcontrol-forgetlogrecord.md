@@ -4,17 +4,16 @@ title: ICrmLogControl::ForgetLogRecord
 author: windows-sdk-content
 description: Forgets the last log record written by this instance of the interface.
 old-location: cos\icrmlogcontrol_forgetlogrecord.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: c1871ca0-0586-41de-9684-2babaafe8796
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ForgetLogRecord, ForgetLogRecord method [COM+], ForgetLogRecord method [COM+],ICrmLogControl interface, ICrmLogControl interface [COM+],ForgetLogRecord method, ICrmLogControl.ForgetLogRecord, ICrmLogControl::ForgetLogRecord, _dtc_ICrmLogControl_ForgetLogRecord, comsvcs/ICrmLogControl::ForgetLogRecord, cos.icrmlogcontrol_forgetlogrecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmLogControl.ForgetLogRecord
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmLogControl::ForgetLogRecord

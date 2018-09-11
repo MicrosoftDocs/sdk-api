@@ -4,17 +4,16 @@ title: IADsClass::Qualifiers
 author: windows-sdk-content
 description: Returns a collection of ADSI objects that describe additional qualifiers for this schema class.
 old-location: adsi\iadsclass_qualifiers.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: d05e4278-2dfb-4832-a97d-eb35253ae535
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsClass interface [ADSI],Qualifiers method, IADsClass.Qualifiers, IADsClass::Qualifiers, Qualifiers, Qualifiers method [ADSI], Qualifiers method [ADSI],IADsClass interface, _ds_iadsclass_qualifiers, adsi.iadsclass__qualifiers, adsi.iadsclass_qualifiers, iads/IADsClass::Qualifiers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsClass.Qualifiers
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsClass::Qualifiers

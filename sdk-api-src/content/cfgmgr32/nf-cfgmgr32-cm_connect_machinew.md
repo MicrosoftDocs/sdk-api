@@ -4,17 +4,16 @@ title: CM_Connect_MachineW function
 author: windows-sdk-content
 description: The CM_Connect_Machine function creates a connection to a remote machine.
 old-location: devinst\cm_connect_machine.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 4108a35f-0861-4142-a798-731287515910
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Connect_Machine, CM_Connect_Machine function [Device and Driver Installation], CM_Connect_MachineW, cfgmgr32/CM_Connect_Machine, cfgmgr32/CM_Connect_MachineW, cfgmgrfn_5214f459-40fa-4805-b7e4-ee7a1606b659.xml, devinst.cm_connect_machine
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CM_Connect_MachineW
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Connect_MachineW function

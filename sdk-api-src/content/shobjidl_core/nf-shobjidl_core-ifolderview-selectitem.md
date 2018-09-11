@@ -4,17 +4,16 @@ title: IFolderView::SelectItem
 author: windows-sdk-content
 description: Selects an item in the folder's view.
 old-location: shell\IFolderView_SelectItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6db262ea-861b-4bc5-955f-b81945313ea8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFolderView interface [Windows Shell],SelectItem method, IFolderView.SelectItem, IFolderView::SelectItem, SelectItem, SelectItem method [Windows Shell], SelectItem method [Windows Shell],IFolderView interface, _shell_IFolderView_SelectItem, shell.IFolderView_SelectItem, shobjidl_core/IFolderView::SelectItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderView.SelectItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderView::SelectItem

@@ -4,17 +4,16 @@ title: IWbemEventConsumerProvider::FindConsumer
 author: windows-sdk-content
 description: The FindConsumer function locates and returns sink objects to which WMI can send events.
 old-location: wmi\iwbemeventconsumerprovider_findconsumer.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 196c839a-5b8f-4ff6-b6cf-3483db275e8b
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: FindConsumer, FindConsumer method [Windows Management Instrumentation], FindConsumer method [Windows Management Instrumentation],IWbemEventConsumerProvider interface, IWbemEventConsumerProvider interface [Windows Management Instrumentation],FindConsumer method, IWbemEventConsumerProvider.FindConsumer, IWbemEventConsumerProvider::FindConsumer, _hmm_iwbemeventconsumerprovider_findconsumer, wbemprov/IWbemEventConsumerProvider::FindConsumer, wmi.iwbemeventconsumerprovider_findconsumer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemEventConsumerProvider.FindConsumer
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wbemsvc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemEventConsumerProvider::FindConsumer

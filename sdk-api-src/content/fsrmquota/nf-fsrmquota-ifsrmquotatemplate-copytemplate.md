@@ -4,17 +4,16 @@ title: IFsrmQuotaTemplate::CopyTemplate
 author: windows-sdk-content
 description: Copies the property values of the specified template to this template.
 old-location: fsrm\ifsrmquotatemplate_copytemplate.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 00aa7693-3c6e-4688-915e-59c31e5b8e6e
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: CopyTemplate, CopyTemplate method [File Server Resource Manager], CopyTemplate method [File Server Resource Manager],IFsrmQuotaTemplate interface, IFsrmQuotaTemplate interface [File Server Resource Manager],CopyTemplate method, IFsrmQuotaTemplate.CopyTemplate, IFsrmQuotaTemplate::CopyTemplate, fs.ifsrmquotatemplate_copytemplate, fsrm.ifsrmquotatemplate_copytemplate, fsrmquota/IFsrmQuotaTemplate::CopyTemplate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmQuotaTemplate.CopyTemplate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmQuotaTemplate::CopyTemplate

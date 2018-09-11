@@ -4,7 +4,7 @@ title: drt_status_tag
 author: windows-sdk-content
 description: The DRT_STATUS enumeration defines the status of a local DRT instance.
 old-location: p2p\drt_status.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 4bd81191-862c-4537-9c90-4b9fec270a16
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRT_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRT_STATUS
+req.redist: 
 ---
 
 # drt_status_tag enumeration

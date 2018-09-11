@@ -4,7 +4,7 @@ title: DISPLAYCONFIG_TARGET_BASE_TYPE
 author: windows-sdk-content
 description: Specifies base output technology info for a given target ID.
 old-location: display\displayconfig_target_base_type.htm
-old-project: display
+tech.root: display
 ms.assetid: 7916E714-9A3C-4682-AC08-9B6EE222D8B7
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_TARGET_BASE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISPLAYCONFIG_TARGET_BASE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISPLAYCONFIG_TARGET_BASE_TYPE
+req.redist: 
 ---
 
 # DISPLAYCONFIG_TARGET_BASE_TYPE structure

@@ -4,17 +4,16 @@ title: UalRegisterProduct function
 author: windows-sdk-content
 description: Registers a product with User Access Logging (UAL).
 old-location: ual\ualregisterproduct.htm
-old-project: ual
+tech.root: ual
 ms.assetid: EF5A9F0E-DD6A-4CFB-B8A6-AA4298FC6BE8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: UalRegisterProduct, UalRegisterProduct function [User Access Logging], ual.ualregisterproduct, ual/UalRegisterProduct
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ual.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECORD_READING_POLICY
+req.lib: Ualapi.lib
+req.dll: Ualapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UalRegisterProduct
 product: Windows
 targetos: Windows
-req.lib: Ualapi.lib
-req.dll: Ualapi.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UalRegisterProduct function

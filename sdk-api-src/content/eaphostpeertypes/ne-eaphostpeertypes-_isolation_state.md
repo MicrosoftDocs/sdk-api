@@ -4,7 +4,7 @@ title: "_ISOLATION_STATE"
 author: windows-sdk-content
 description: Defines the set of possible isolation state values of a machine.
 old-location: eaphost\isolation_state.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 460e447b-87c6-41df-8e8b-055e95426ca6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: eaphostpeertypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ISOLATION_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISOLATION_STATE
 product: Windows
 targetos: Windows
-req.lib: Eappcfg.lib
-req.dll: Eappcfg.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: ISOLATION_STATE
+req.redist: 
 ---
 
 # _ISOLATION_STATE enumeration

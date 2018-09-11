@@ -4,17 +4,16 @@ title: MAPISENDMAIL
 author: windows-sdk-content
 description: Sends an ANSI message.
 old-location: mapi\mapisendmail.htm
-old-project: windowsmapi
+tech.root: WindowsMAPI
 ms.assetid: 1d7da0f2-b736-401e-86bd-fc4375ccc0d1
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/29/2018
 ms.keywords: MAPISendMail, MAPISendMail callback, MAPISendMail callback function, mapi.mapisendmail, mapi/MAPISendMail
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MAPISendMail
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MAPISENDMAIL callback function

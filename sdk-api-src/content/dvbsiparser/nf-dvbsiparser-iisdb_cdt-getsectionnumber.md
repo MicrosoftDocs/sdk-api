@@ -4,17 +4,16 @@ title: IISDB_CDT::GetSectionNumber
 author: windows-sdk-content
 description: Gets the section_number field value from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getsectionnumber.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 61825be5-01c4-4d5f-be4a-6752ebf8dee8
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSectionNumber, GetSectionNumber method [Microsoft TV Technologies], GetSectionNumber method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetSectionNumber method, IISDB_CDT.GetSectionNumber, IISDB_CDT::GetSectionNumber, dvbsiparser/IISDB_CDT::GetSectionNumber, mstv.iisdb_cdt_getsectionnumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IISDB_CDT.GetSectionNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IISDB_CDT::GetSectionNumber

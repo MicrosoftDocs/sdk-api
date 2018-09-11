@@ -4,7 +4,7 @@ title: D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE
 author: windows-sdk-content
 description: Values for the D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE property of the RGB to Hue effect.
 old-location: direct2d\d2d1_rgbtohue_output_color_space.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: DD87B97F-553A-4E36-A245-5ED15F33C62B
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE
+req.redist: 
 ---
 
 # D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE enumeration

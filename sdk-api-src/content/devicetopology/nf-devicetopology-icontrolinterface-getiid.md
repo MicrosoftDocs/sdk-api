@@ -4,17 +4,16 @@ title: IControlInterface::GetIID
 author: windows-sdk-content
 description: The GetIID method gets the interface ID of the function-specific control interface of the part.
 old-location: coreaudio\icontrolinterface_getiid.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: c6d46f37-6b9a-4d20-8a97-9fb5284dbc42
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetIID, GetIID method [Core Audio], GetIID method [Core Audio],IControlInterface interface, IControlInterface interface [Core Audio],GetIID method, IControlInterface.GetIID, IControlInterface::GetIID, IControlInterfaceGetIID, coreaudio.icontrolinterface_getiid, devicetopology/IControlInterface::GetIID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IControlInterface.GetIID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IControlInterface::GetIID

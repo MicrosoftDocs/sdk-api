@@ -4,17 +4,16 @@ title: IWbemPath::GetScope
 author: windows-sdk-content
 description: Retrieves a scope based upon an index.
 old-location: wmi\iwbempath_getscope.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 9601fb2b-583d-4481-8237-32db72432c63
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: GetScope, GetScope method [Windows Management Instrumentation], GetScope method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetScope method, IWbemPath.GetScope, IWbemPath::GetScope, _hmm_iwbempath_getscope, wmi.iwbempath_getscope, wmiutils/IWbemPath::GetScope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMIQ_ASSOCQ_FLAGS
+req.lib: Wbemuuid.lib
+req.dll: Wmiutils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemPath.GetScope
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmiutils.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemPath::GetScope

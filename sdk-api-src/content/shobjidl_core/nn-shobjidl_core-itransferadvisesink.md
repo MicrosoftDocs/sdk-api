@@ -4,17 +4,16 @@ title: ITransferAdviseSink
 author: windows-sdk-content
 description: Exposes methods supporting status collection and failure information.
 old-location: shell\ITransferAdviseSink.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 70866a03-2b22-4518-a9e6-2f06edaa4b5d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ITransferAdviseSink, ITransferAdviseSink interface [Windows Shell], ITransferAdviseSink interface [Windows Shell],described, _shell_ITransferAdviseSink, shell.ITransferAdviseSink, shobjidl_core/ITransferAdviseSink
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITransferAdviseSink
 product: Windows
 targetos: Windows
-req.lib: Explorerframe.lib
-req.dll: Explorerframe.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITransferAdviseSink interface

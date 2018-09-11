@@ -4,7 +4,7 @@ title: ITraceRelogger
 author: windows-sdk-content
 description: Provides access to the relogging functionality, allowing you to manipulate and relog events from an ETW trace stream.
 old-location: etw\itracerelogger.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 08073b9a-5ae0-4e88-a502-647567418005
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: relogger.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITraceRelogger
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceRelogger interface

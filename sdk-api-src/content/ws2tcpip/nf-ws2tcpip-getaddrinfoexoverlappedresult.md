@@ -4,17 +4,16 @@ title: GetAddrInfoExOverlappedResult function
 author: windows-sdk-content
 description: Gets the return code for an OVERLAPPED structure used by an asynchronous operation for the GetAddrInfoEx function.
 old-location: winsock\getaddrinfoexoverlappedresult.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: BBA6E407-561C-4B3C-9218-0047477E82DE
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: GetAddrInfoExOverlappedResult, GetAddrInfoExOverlappedResult function [Winsock], winsock.getaddrinfoexoverlappedresult, ws2tcpip/GetAddrInfoExOverlappedResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetAddrInfoExOverlappedResult
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetAddrInfoExOverlappedResult function

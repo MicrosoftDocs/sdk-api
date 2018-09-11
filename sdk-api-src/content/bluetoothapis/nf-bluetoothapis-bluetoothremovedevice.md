@@ -4,17 +4,16 @@ title: BluetoothRemoveDevice function
 author: windows-sdk-content
 description: Removes authentication between a Bluetooth device and the computer and clears cached service information for the device.
 old-location: bluetooth\bluetoothremovedevice.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: dd4f6468-ccc2-4072-95c5-97553308ae47
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BluetoothRemoveDevice, BluetoothRemoveDevice function [Bluetooth], bluetooth.bluetoothremovedevice, bluetoothapis/BluetoothRemoveDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_IO_CAPABILITY
+req.lib: Bthprops.lib
+req.dll: Bthprops.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - BluetoothRemoveDevice
 product: Windows
 targetos: Windows
-req.lib: Bthprops.lib
-req.dll: Bthprops.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothRemoveDevice function

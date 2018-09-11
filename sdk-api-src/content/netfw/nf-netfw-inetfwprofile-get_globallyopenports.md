@@ -4,17 +4,16 @@ title: INetFwProfile::get_GloballyOpenPorts
 author: windows-sdk-content
 description: Retrieves the collection of globally open ports of the profile.
 old-location: ics\inetfwprofile_globallyopenports.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 9bb27bb1-7185-4b9a-a529-383e052e5016
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GloballyOpenPorts property [ICS/ICF], GloballyOpenPorts property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],GloballyOpenPorts property, INetFwProfile.GloballyOpenPorts, INetFwProfile.get_GloballyOpenPorts, INetFwProfile::GloballyOpenPorts, INetFwProfile::get_GloballyOpenPorts, get_GloballyOpenPorts, ics.inetfwprofile_globallyopenports, netfw/INetFwProfile::GloballyOpenPorts, netfw/INetFwProfile::get_GloballyOpenPorts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwProfile.get_GloballyOpenPorts
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwProfile::get_GloballyOpenPorts

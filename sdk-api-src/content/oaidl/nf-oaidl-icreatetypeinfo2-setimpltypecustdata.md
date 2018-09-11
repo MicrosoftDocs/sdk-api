@@ -4,17 +4,16 @@ title: ICreateTypeInfo2::SetImplTypeCustData
 author: windows-sdk-content
 description: Sets a value for custom data for the specified implementation type.
 old-location: automat\icreatetypeinfo2_setimpltypecustdata.htm
-old-project: automat
+tech.root: automat
 ms.assetid: f9dee7fc-b713-4a68-a8ea-2398a266e728
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetImplTypeCustData method, ICreateTypeInfo2.SetImplTypeCustData, ICreateTypeInfo2::SetImplTypeCustData, SetImplTypeCustData, SetImplTypeCustData method [Automation], SetImplTypeCustData method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetImplTypeCustData, automat.icreatetypeinfo2_setimpltypecustdata, oaidl/ICreateTypeInfo2::SetImplTypeCustData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeInfo2.SetImplTypeCustData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeInfo2::SetImplTypeCustData

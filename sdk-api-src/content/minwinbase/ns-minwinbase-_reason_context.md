@@ -4,7 +4,7 @@ title: "_REASON_CONTEXT"
 author: windows-sdk-content
 description: Contains information about a power request. This structure is used by the PowerCreateRequest and SetWaitableTimerEx functions.
 old-location: base\reason_context.htm
-old-project: power
+tech.root: power
 ms.assetid: 006bb84f-5e51-4f6e-8a44-6b50e763c5ca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minwinbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REASON_CONTEXT, *PREASON_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - REASON_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: REASON_CONTEXT, *PREASON_CONTEXT
+req.redist: 
 ---
 
 # _REASON_CONTEXT structure

@@ -4,17 +4,16 @@ title: capPreview macro
 author: windows-sdk-content
 description: The capPreview macro enables or disables preview mode.
 old-location: multimedia\cappreview.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: c6888e35-9915-4ffb-ac0d-3cc1419fdac3
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_capPreview, capPreview, capPreview macro [Windows Multimedia], multimedia.cappreview, vfw/capPreview"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capPreview
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # capPreview macro

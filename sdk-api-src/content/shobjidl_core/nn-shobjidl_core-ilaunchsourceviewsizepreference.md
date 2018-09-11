@@ -4,17 +4,16 @@ title: ILaunchSourceViewSizePreference
 author: windows-sdk-content
 description: Provides methods for retrieving information about the source application.
 old-location: shell\ILaunchSourceViewSizePreference.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 94436BC1-658E-4D33-866D-9C05282291A8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ILaunchSourceViewSizePreference, ILaunchSourceViewSizePreference interface [Windows Shell], ILaunchSourceViewSizePreference interface [Windows Shell],described, shell.ILaunchSourceViewSizePreference, shobjidl_core/ILaunchSourceViewSizePreference
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILaunchSourceViewSizePreference
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ILaunchSourceViewSizePreference interface

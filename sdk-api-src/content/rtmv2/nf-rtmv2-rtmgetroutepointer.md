@@ -4,17 +4,16 @@ title: RtmGetRoutePointer function
 author: windows-sdk-content
 description: The RtmGetRoutePointer function obtains a direct pointer to a route that allows the owner of the route read access.
 old-location: rras\rtmgetroutepointer.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 889e318c-b515-48bc-9117-83e8c1bb6f1a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RtmGetRoutePointer, RtmGetRoutePointer function [RAS], _rtmv2ref_rtmgetroutepointer, rras.rtmgetroutepointer, rtmv2/RtmGetRoutePointer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmGetRoutePointer
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmGetRoutePointer function

@@ -4,17 +4,16 @@ title: ID3D12CommandQueue::SetMarker
 author: windows-sdk-content
 description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command queue.
 old-location: direct3d12\id3d12commandqueue_setmarker.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 993996E9-40B8-4FC6-B1CF-883829F8D1F5
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D12CommandQueue interface,SetMarker method, ID3D12CommandQueue.SetMarker, ID3D12CommandQueue::SetMarker, SetMarker, SetMarker method, SetMarker method,ID3D12CommandQueue interface, d3d12/ID3D12CommandQueue::SetMarker, direct3d12.id3d12commandqueue_setmarker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12CommandQueue.SetMarker
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12CommandQueue::SetMarker

@@ -4,7 +4,7 @@ title: peer_event_synchronized_data_tag
 author: windows-sdk-content
 description: The PEER_EVENT_SYNCHRONIZED_DATA is pointed to by a PEER_GRAPH_EVENT_DATA structure's union if a PEER_GRAPH_EVENT_RECORD_CHANGE or PEER_GROUP_EVENT_RECORD_CHANGE event is triggered.
 old-location: p2p\peer_event_synchronized_data.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: ae7dc220-a827-4671-97b3-1ac039ab3e08
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_EVENT_SYNCHRONIZED_DATA, *PPEER_EVENT_SYNCHRONIZED_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_EVENT_SYNCHRONIZED_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_EVENT_SYNCHRONIZED_DATA, *PPEER_EVENT_SYNCHRONIZED_DATA
+req.redist: 
 ---
 
 # peer_event_synchronized_data_tag structure

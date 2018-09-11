@@ -4,7 +4,7 @@ title: peer_pnrp_registration_info_tag
 author: windows-sdk-content
 description: Contains the information provided by a peer identity when it registers with a PNRP cloud.
 old-location: p2p\peer_pnrp_registration_info.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 2825cb65-94b4-4bed-acff-7fa35a992284
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack for Windows XP
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_PNRP_REGISTRATION_INFO, *PPEER_PNRP_REGISTRATION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_PNRP_REGISTRATION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_PNRP_REGISTRATION_INFO, *PPEER_PNRP_REGISTRATION_INFO
+req.redist: 
 ---
 
 # peer_pnrp_registration_info_tag structure

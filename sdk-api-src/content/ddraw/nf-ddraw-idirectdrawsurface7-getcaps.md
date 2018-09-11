@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::GetCaps
 author: windows-sdk-content
 description: Retrieves the capabilities of this surface. These capabilities are not necessarily related to the capabilities of the display device.
 old-location: directdraw\idirectdrawsurface7_getcaps.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 971290b7-7df6-41c7-8197-b6169ddd092b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCaps, GetCaps method [DirectDraw], GetCaps method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetCaps method, IDirectDrawSurface7.GetCaps, IDirectDrawSurface7::GetCaps, ddraw/IDirectDrawSurface7::GetCaps, directdraw.idirectdrawsurface7_getcaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.GetCaps
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::GetCaps

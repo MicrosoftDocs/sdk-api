@@ -4,17 +4,16 @@ title: IAppxEncryptionFactory::CreateEncryptedPackageReader
 author: windows-sdk-content
 description: Creates a new instance of IAppxEncryptedPackageReader.
 old-location: appxpkg\iappxencryptionfactory_createencryptedpackagereader.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 325E4883-69D7-4E2A-A664-3CA3C5559CB3
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: CreateEncryptedPackageReader, CreateEncryptedPackageReader method [App packaging and management], CreateEncryptedPackageReader method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],CreateEncryptedPackageReader method, IAppxEncryptionFactory.CreateEncryptedPackageReader, IAppxEncryptionFactory::CreateEncryptedPackageReader, appxpackaging/IAppxEncryptionFactory::CreateEncryptedPackageReader, appxpkg.iappxencryptionfactory_createencryptedpackagereader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxEncryptionFactory.CreateEncryptedPackageReader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxEncryptionFactory::CreateEncryptedPackageReader

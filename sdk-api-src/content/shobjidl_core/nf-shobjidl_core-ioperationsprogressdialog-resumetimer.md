@@ -4,17 +4,16 @@ title: IOperationsProgressDialog::ResumeTimer
 author: windows-sdk-content
 description: Resumes progress dialog timer.
 old-location: shell\IOperationsProgressDialog_ResumeTimer.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c2f219f8-75c0-4101-a499-2770bb01ab7b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],ResumeTimer method, IOperationsProgressDialog.ResumeTimer, IOperationsProgressDialog::ResumeTimer, ResumeTimer, ResumeTimer method [Windows Shell], ResumeTimer method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_ResumeTimer, shell.IOperationsProgressDialog_ResumeTimer, shobjidl_core/IOperationsProgressDialog::ResumeTimer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOperationsProgressDialog.ResumeTimer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOperationsProgressDialog::ResumeTimer

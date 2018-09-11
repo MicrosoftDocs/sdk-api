@@ -4,17 +4,16 @@ title: IDirectManipulationCompositor::AddContent
 author: windows-sdk-content
 description: Associates content (owned by the caller) with the compositor, assigns a composition device to the content, and specifies the position of the content in the composition tree relative to other composition visuals.
 old-location: directmanipulation\idirectmanipulationcompositor_addcontent.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 16c1a911-43cb-4c18-9e29-12a69b715e6a
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: AddContent, AddContent method [Direct Manipulation], AddContent method [Direct Manipulation],IDirectManipulationCompositor interface, IDirectManipulationCompositor interface [Direct Manipulation],AddContent method, IDirectManipulationCompositor.AddContent, IDirectManipulationCompositor::AddContent, directmanipulation.idirectmanipulationcompositor_addcontent, directmanipulation/IDirectManipulationCompositor::AddContent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationCompositor.AddContent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationCompositor::AddContent

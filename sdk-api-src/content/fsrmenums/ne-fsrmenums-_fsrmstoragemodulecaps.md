@@ -4,7 +4,7 @@ title: "_FsrmStorageModuleCaps"
 author: windows-sdk-content
 description: Flags that define the capabilities of the storage module.
 old-location: fsrm\fsrmstoragemodulecaps.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 15d9bddc-fe6c-40c9-ba12-587c57c0bfcf
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmStorageModuleCaps
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FsrmStorageModuleCaps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FsrmStorageModuleCaps
+req.redist: 
 ---
 
 # _FsrmStorageModuleCaps enumeration

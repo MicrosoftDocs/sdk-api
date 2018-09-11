@@ -4,17 +4,16 @@ title: "_TASK_PROCESSTOKENSID"
 author: windows-sdk-content
 description: Defines the types of process security identifier (SID) that can be used by tasks.
 old-location: taskschd\task_processtokensid_type.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 3a9243b9-f764-430b-8184-1fd97e74a5f1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TASK_PROCESSTOKENSID_DEFAULT, TASK_PROCESSTOKENSID_NONE, TASK_PROCESSTOKENSID_TYPE, TASK_PROCESSTOKENSID_TYPE enumeration [Task Scheduler], TASK_PROCESSTOKENSID_UNRESTRICTED, _TASK_PROCESSTOKENSID, taskschd.task_processtokensid_type, taskschd/TASK_PROCESSTOKENSID_DEFAULT, taskschd/TASK_PROCESSTOKENSID_NONE, taskschd/TASK_PROCESSTOKENSID_TYPE, taskschd/TASK_PROCESSTOKENSID_UNRESTRICTED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_PROCESSTOKENSID_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TASK_PROCESSTOKENSID_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TASK_PROCESSTOKENSID_TYPE
+req.redist: 
 ---
 
 # _TASK_PROCESSTOKENSID enumeration

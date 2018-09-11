@@ -4,17 +4,16 @@ title: INET_PORT_RESERVATION_TOKEN
 author: windows-sdk-content
 description: Contains a port reservation token for a block of TCP or UDP ports.
 old-location: winsock\inet_port_reservation_token.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 1AA2FF8C-BEAB-4D38-B53A-68E0628748FF
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PINET_PORT_RESERVATION_TOKEN, INET_PORT_RESERVATION_TOKEN, INET_PORT_RESERVATION_TOKEN structure [Winsock], PINET_PORT_RESERVATION_TOKEN, PINET_PORT_RESERVATION_TOKEN structure pointer [Winsock], mstcpip/INET_PORT_RESERVATION_TOKEN, mstcpip/PINET_PORT_RESERVATION_TOKEN, winsock.inet_port_reservation_token"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstcpip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INET_PORT_RESERVATION_TOKEN, *PINET_PORT_RESERVATION_TOKEN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INET_PORT_RESERVATION_TOKEN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: INET_PORT_RESERVATION_TOKEN, *PINET_PORT_RESERVATION_TOKEN
+req.redist: 
 ---
 
 # INET_PORT_RESERVATION_TOKEN structure

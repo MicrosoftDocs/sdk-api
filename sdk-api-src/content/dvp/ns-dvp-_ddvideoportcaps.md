@@ -4,7 +4,7 @@ title: "_DDVIDEOPORTCAPS"
 author: windows-sdk-content
 description: The DDVIDEOPORTCAPS structure describes the capabilities and alignment restrictions of a hardware video port.
 old-location: display\ddvideoportcaps.htm
-old-project: display
+tech.root: display
 ms.assetid: ea85f189-7308-48ad-b159-1809749f8183
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvp.h
 req.include-header: Dvp.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Dvbsiparser.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*LPDDVIDEOPORTCAPS, DDVIDEOPORTCAPS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDVIDEOPORTCAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: "*LPDDVIDEOPORTCAPS, DDVIDEOPORTCAPS"
+req.redist: 
 ---
 
 # _DDVIDEOPORTCAPS structure

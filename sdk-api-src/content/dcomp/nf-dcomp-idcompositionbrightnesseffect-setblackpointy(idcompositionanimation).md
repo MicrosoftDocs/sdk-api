@@ -4,17 +4,16 @@ title: IDCompositionBrightnessEffect::SetBlackPointY(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the y value of the black point.
 old-location: directcomp\idcompositionbrightnesseffect_setblackpointy.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 0E480983-07A7-4C58-BE2B-BCEDD2EA1A1A
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetBlackPointY method, IDCompositionBrightnessEffect.SetBlackPointY, IDCompositionBrightnessEffect.SetBlackPointY(IDCompositionAnimation), IDCompositionBrightnessEffect::SetBlackPointY, IDCompositionBrightnessEffect::SetBlackPointY(IDCompositionAnimation), SetBlackPointY, SetBlackPointY method [DirectComposition], SetBlackPointY method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetBlackPointY, directcomp.idcompositionbrightnesseffect_setblackpointy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionBrightnessEffect.SetBlackPointY
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionBrightnessEffect::SetBlackPointY(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Sets the y value of the black point.
 
 ### -param animation
 
-
+TBD
 
 
 

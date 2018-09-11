@@ -4,7 +4,7 @@ title: D3D11_FEATURE_DATA_ARCHITECTURE_INFO
 author: windows-sdk-content
 description: Describes information about Direct3D 11.1 adapter architecture.
 old-location: direct3d11\d3d11_feature_data_architecture_info.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: BC815FDB-984C-4857-AF48-8B471F46CDD4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_FEATURE_DATA_ARCHITECTURE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,9 +39,8 @@ api_name:
  - D3D11_FEATURE_DATA_ARCHITECTURE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_FEATURE_DATA_ARCHITECTURE_INFO
+req.redist: 
 ---
 
 # D3D11_FEATURE_DATA_ARCHITECTURE_INFO structure

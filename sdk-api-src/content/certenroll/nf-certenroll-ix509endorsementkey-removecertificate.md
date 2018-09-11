@@ -4,17 +4,16 @@ title: IX509EndorsementKey::RemoveCertificate
 author: windows-sdk-content
 description: Removes an endorsement certificate related to the endorsement key from the key storage provider. You can only call the RemoveCertificate method after the Open method has been successfully called.
 old-location: security\ix509endorsementkey_removecertificate.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 40c5d77c-9b0d-4ee4-a02e-cec9b2f1b392
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509EndorsementKey interface [Security],RemoveCertificate method, IX509EndorsementKey.RemoveCertificate, IX509EndorsementKey::RemoveCertificate, RemoveCertificate, RemoveCertificate method [Security], RemoveCertificate method [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::RemoveCertificate, security.ix509endorsementkey_removecertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509EndorsementKey.RemoveCertificate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509EndorsementKey::RemoveCertificate

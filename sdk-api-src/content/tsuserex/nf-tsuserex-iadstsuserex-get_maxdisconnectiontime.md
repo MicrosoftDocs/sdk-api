@@ -4,17 +4,16 @@ title: IADsTSUserEx::get_MaxDisconnectionTime
 author: windows-sdk-content
 description: The maximum amount of time that a disconnected Remote Desktop Services session remains active on the Remote Desktop Session Host (RD Session Host) server. After the specified number of minutes have elapsed, the session is terminated.
 old-location: termserv\iadstsuserex_maxdisconnectiontime.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 35f0f7fd-eff9-4ee0-99f0-83af7ec2796a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],MaxDisconnectionTime property, IADsTSUserEx.MaxDisconnectionTime, IADsTSUserEx.get_MaxDisconnectionTime, IADsTSUserEx::MaxDisconnectionTime, IADsTSUserEx::get_MaxDisconnectionTime, IADsTSUserEx::put_MaxDisconnectionTime, MaxDisconnectionTime property [Remote Desktop Services], MaxDisconnectionTime property [Remote Desktop Services],IADsTSUserEx interface, get_MaxDisconnectionTime, termserv.iadstsuserex_maxdisconnectiontime, tsuserex/IADsTSUserEx::MaxDisconnectionTime, tsuserex/IADsTSUserEx::get_MaxDisconnectionTime, tsuserex/IADsTSUserEx::put_MaxDisconnectionTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Tsuserex.tlb
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: Tsuserex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IADsTSUserEx.put_MaxDisconnectionTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tsuserex.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IADsTSUserEx::get_MaxDisconnectionTime

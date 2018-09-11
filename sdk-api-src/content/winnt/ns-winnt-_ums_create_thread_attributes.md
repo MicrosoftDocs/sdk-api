@@ -4,7 +4,7 @@ title: "_UMS_CREATE_THREAD_ATTRIBUTES"
 author: windows-sdk-content
 description: Specifies attributes for a user-mode scheduling (UMS) worker thread.
 old-location: base\ums_create_thread_attributes.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 5d3e1721-c439-49bb-9cb6-8386fa8aaf50
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UMS_CREATE_THREAD_ATTRIBUTES, *PUMS_CREATE_THREAD_ATTRIBUTES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UMS_CREATE_THREAD_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: UMS_CREATE_THREAD_ATTRIBUTES, *PUMS_CREATE_THREAD_ATTRIBUTES
+req.redist: 
 ---
 
 # _UMS_CREATE_THREAD_ATTRIBUTES structure

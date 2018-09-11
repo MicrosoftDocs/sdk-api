@@ -4,17 +4,16 @@ title: IVdsAsync::QueryStatus
 author: windows-sdk-content
 description: Returns when the asynchronous operation is in progress, or has either finished successfully or failed.
 old-location: base\ivdsasync_querystatus.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 993228ae-4817-4d88-8544-9cd57cbe8b49
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsAsync interface [VDS],QueryStatus method, IVdsAsync.QueryStatus, IVdsAsync::QueryStatus, QueryStatus, QueryStatus method [VDS], QueryStatus method [VDS],IVdsAsync interface, base.ivdsasync_querystatus, vds/IVdsAsync::QueryStatus, vdshwprv/IVdsAsync::QueryStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsAsync.QueryStatus
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsAsync::QueryStatus

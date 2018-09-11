@@ -4,17 +4,16 @@ title: IBDA_ConditionalAccess::SetProgram
 author: windows-sdk-content
 description: The SetProgram method sets the program number.
 old-location: mstv\ibda_conditionalaccess_setprogram.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d38fc9bc-70e8-419e-b7be-33d1f53a723e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],SetProgram method, IBDA_ConditionalAccess.SetProgram, IBDA_ConditionalAccess::SetProgram, IBDA_ConditionalAccessSetProgram, SetProgram, SetProgram method [Microsoft TV Technologies], SetProgram method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::SetProgram, mstv.ibda_conditionalaccess_setprogram
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_ConditionalAccess.SetProgram
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_ConditionalAccess::SetProgram

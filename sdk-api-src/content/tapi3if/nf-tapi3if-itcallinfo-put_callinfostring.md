@@ -4,17 +4,16 @@ title: ITCallInfo::put_CallInfoString
 author: windows-sdk-content
 description: The put_CallInfoString method sets call information items described by a string, such as the displayable address.
 old-location: tapi3\itcallinfo_put_callinfostring.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: d22f1afb-e036-40d0-9a7f-61d8d24d2376
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],put_CallInfoString method, ITCallInfo.put_CallInfoString, ITCallInfo::put_CallInfoString, _tapi3_itcallinfo_put_callinfostring, put_CallInfoString, put_CallInfoString method [TAPI 2.2], put_CallInfoString method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_put_callinfostring, tapi3if/ITCallInfo::put_CallInfoString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallInfo.put_CallInfoString
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallInfo::put_CallInfoString

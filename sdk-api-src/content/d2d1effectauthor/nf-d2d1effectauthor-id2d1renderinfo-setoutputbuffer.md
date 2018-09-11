@@ -4,17 +4,16 @@ title: ID2D1RenderInfo::SetOutputBuffer
 author: windows-sdk-content
 description: Allows a caller to control the output precision and channel-depth of the transform in which the render information is encapsulated.
 old-location: direct2d\id2d1renderinfo_setoutputbuffer.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 4267FCA0-10AF-4731-8B68-B3425FA00185
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1RenderInfo interface [Direct2D],SetOutputBuffer method, ID2D1RenderInfo.SetOutputBuffer, ID2D1RenderInfo::SetOutputBuffer, SetOutputBuffer, SetOutputBuffer method [Direct2D], SetOutputBuffer method [Direct2D],ID2D1RenderInfo interface, d2d1effectauthor/ID2D1RenderInfo::SetOutputBuffer, direct2d.id2d1renderinfo_setoutputbuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_USAGE
+req.lib: D2d1.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID2D1RenderInfo.SetOutputBuffer
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1RenderInfo::SetOutputBuffer

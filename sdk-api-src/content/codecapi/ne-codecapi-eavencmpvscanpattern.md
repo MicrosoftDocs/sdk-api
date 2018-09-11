@@ -4,7 +4,7 @@ title: eAVEncMPVScanPattern
 author: windows-sdk-content
 description: Specifies the macroblock scan pattern. This enumeration is used with the AVEncMPVScanPattern property.
 old-location: dshow\eavencmpvscanpattern.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8204705e-b944-4479-b8c8-d64ab9a4d5f2
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - eAVEncMPVScanPattern
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # eAVEncMPVScanPattern enumeration

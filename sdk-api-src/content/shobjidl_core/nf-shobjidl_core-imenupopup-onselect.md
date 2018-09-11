@@ -4,17 +4,16 @@ title: IMenuPopup::OnSelect
 author: windows-sdk-content
 description: Handles selection notifications.
 old-location: shell\IMenuPopup_OnSelect.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 972e8a08-e1ce-4bd2-b602-20b7b1acb71f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IMenuPopup interface [Windows Shell],OnSelect method, IMenuPopup.OnSelect, IMenuPopup::OnSelect, MPOS_CANCELLEVEL, MPOS_CHILDTRACKING, MPOS_EXECUTE, MPOS_FULLCANCEL, MPOS_SELECTLEFT, MPOS_SELECTRIGHT, OnSelect, OnSelect method [Windows Shell], OnSelect method [Windows Shell],IMenuPopup interface, _win32_IMenuPopup_OnSelect, shell.IMenuPopup_OnSelect, shobjidl_core/IMenuPopup::OnSelect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMenuPopup.OnSelect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IMenuPopup::OnSelect

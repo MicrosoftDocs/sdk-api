@@ -4,7 +4,7 @@ title: "_OVERLAPPED_ENTRY"
 author: windows-sdk-content
 description: Contains the information returned by a call to the GetQueuedCompletionStatusEx function.
 old-location: fs\overlapped_entry.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 3e244e6c-0731-477a-b1d3-2601c29449ca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minwinbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OVERLAPPED_ENTRY, *LPOVERLAPPED_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - OVERLAPPED_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: OVERLAPPED_ENTRY, *LPOVERLAPPED_ENTRY
+req.redist: 
 ---
 
 # _OVERLAPPED_ENTRY structure

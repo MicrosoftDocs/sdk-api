@@ -4,17 +4,16 @@ title: IContextMenu2
 author: windows-sdk-content
 description: Exposes methods that either create or merge a shortcut (context) menu associated with a Shell object. Extends IContextMenu by adding a method that allows client objects to handle messages associated with owner-drawn menu items.
 old-location: shell\IContextMenu2.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4e3331ad-4adc-4ea9-8a22-6aad15f618c8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IContextMenu2, IContextMenu2 interface [Windows Shell], IContextMenu2 interface [Windows Shell],described, _win32_IContextMenu2, shell.IContextMenu2, shobjidl_core/IContextMenu2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContextMenu2
 product: Windows
 targetos: Windows
-req.lib: Twinapi.lib
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IContextMenu2 interface

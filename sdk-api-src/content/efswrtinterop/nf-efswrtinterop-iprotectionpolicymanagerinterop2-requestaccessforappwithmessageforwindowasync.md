@@ -4,17 +4,16 @@ title: IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindow
 author: windows-sdk-content
 description: Request access to enterprise-protected content for a specific target app.
 old-location: edp\iprotectionpolicymanagerinterop2_requestaccessforappwithmessageforwindowasync.htm
-old-project: EDP
+tech.root: EDP
 ms.assetid: D78D0095-826A-4E6F-9420-873382A76B87
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccessforappwithmessageforwindowasync, IProtectionPolicyManagerInterop2 interface,RequestAccessForAppWithMessageForWindowAsync method, IProtectionPolicyManagerInterop2.RequestAccessForAppWithMessageForWindowAsync, IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync, RequestAccessForAppWithMessageForWindowAsync, RequestAccessForAppWithMessageForWindowAsync method, RequestAccessForAppWithMessageForWindowAsync method,IProtectionPolicyManagerInterop2 interface, efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: efswrtinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TimedLevel
+req.lib: 
+req.dll: Efswrt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProtectionPolicyManagerInterop2.RequestAccessForAppWithMessageForWindowAsync
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Efswrt.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync

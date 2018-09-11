@@ -4,17 +4,16 @@ title: IVMRSurfaceAllocatorEx9::GetSurfaceEx
 author: windows-sdk-content
 description: The GetSurfaceEx method retrieves a Direct3D surface and a destination rectangle.
 old-location: dshow\ivmrsurfaceallocatorex9_getsurfaceex.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 828f1ea6-4093-4a33-bc41-0f6fff752bcf
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetSurfaceEx, GetSurfaceEx method [DirectShow], GetSurfaceEx method [DirectShow],IVMRSurfaceAllocatorEx9 interface, IVMRSurfaceAllocatorEx9 interface [DirectShow],GetSurfaceEx method, IVMRSurfaceAllocatorEx9.GetSurfaceEx, IVMRSurfaceAllocatorEx9::GetSurfaceEx, IVMRSurfaceAllocatorEx9GetSurfaceEx, dshow.ivmrsurfaceallocatorex9_getsurfaceex, vmr9/IVMRSurfaceAllocatorEx9::GetSurfaceEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRSurfaceAllocatorEx9.GetSurfaceEx
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRSurfaceAllocatorEx9::GetSurfaceEx
@@ -83,7 +81,7 @@ Receives a pointer to the <b>IDirect3DSurface9</b> interface. The caller must re
 
 ### -param lprcDst
 
-
+TBD
 
 
 

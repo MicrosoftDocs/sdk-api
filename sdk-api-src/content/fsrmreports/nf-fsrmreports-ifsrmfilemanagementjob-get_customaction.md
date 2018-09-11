@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::get_CustomAction
 author: windows-sdk-content
 description: The action to execute when all the conditions are met.
 old-location: fsrm\ifsrmfilemanagementjob_customaction.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 25014b2d-4f08-45bb-a4c4-d8ab72dc53b1
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: CustomAction property [File Server Resource Manager], CustomAction property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],CustomAction property, IFsrmFileManagementJob.CustomAction, IFsrmFileManagementJob.get_CustomAction, IFsrmFileManagementJob::CustomAction, IFsrmFileManagementJob::get_CustomAction, fs.ifsrmfilemanagementjob_customaction, fsrm.ifsrmfilemanagementjob_customaction, fsrmreports/IFsrmFileManagementJob::CustomAction, fsrmreports/IFsrmFileManagementJob::get_CustomAction, get_CustomAction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmFileManagementJob.get_CustomAction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::get_CustomAction

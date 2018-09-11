@@ -4,17 +4,16 @@ title: IEnumComponents::Skip
 author: windows-sdk-content
 description: The Skip method skips the specified element in the collection without retrieving it.
 old-location: mstv\ienumcomponents_skip.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f63eca00-c47c-4b9f-8f7a-7080c23653ce
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IEnumComponents interface [Microsoft TV Technologies],Skip method, IEnumComponents.Skip, IEnumComponents::Skip, IEnumComponentsSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumComponents interface, mstv.ienumcomponents_skip, tuner/IEnumComponents::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumComponents.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumComponents::Skip

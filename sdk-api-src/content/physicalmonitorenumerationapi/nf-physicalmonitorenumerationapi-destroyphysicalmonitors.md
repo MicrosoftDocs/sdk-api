@@ -4,17 +4,16 @@ title: DestroyPhysicalMonitors function
 author: windows-sdk-content
 description: Closes an array of physical monitor handles.
 old-location: monitor\destroyphysicalmonitors.htm
-old-project: Monitor
+tech.root: Monitor
 ms.assetid: ec9bbadf-93f3-4842-9bcc-e6a76f2f1ccf
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: DestroyPhysicalMonitors, DestroyPhysicalMonitors function [Monitor Configuration], monitor.destroyphysicalmonitors, physicalmonitorenumerationapi/DestroyPhysicalMonitors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DestroyPhysicalMonitors
 product: Windows
 targetos: Windows
-req.lib: Dxva2.lib
-req.dll: Dxva2.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DestroyPhysicalMonitors function

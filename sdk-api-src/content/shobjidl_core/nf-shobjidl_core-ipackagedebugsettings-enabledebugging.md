@@ -4,17 +4,16 @@ title: IPackageDebugSettings::EnableDebugging
 author: windows-sdk-content
 description: Enables debug mode for the processes of the specified package.
 old-location: shell\IPackageDebugSettings_EnableDebugging.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a3afae41-b46e-47c8-95bb-a0aa747c6353
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: EnableDebugging, EnableDebugging method [Windows Shell], EnableDebugging method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],EnableDebugging method, IPackageDebugSettings.EnableDebugging, IPackageDebugSettings::EnableDebugging, shell.IPackageDebugSettings_EnableDebugging, shobjidl_core/IPackageDebugSettings::EnableDebugging
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPackageDebugSettings.EnableDebugging
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPackageDebugSettings::EnableDebugging

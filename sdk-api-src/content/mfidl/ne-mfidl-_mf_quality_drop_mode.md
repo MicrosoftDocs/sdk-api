@@ -4,7 +4,7 @@ title: "_MF_QUALITY_DROP_MODE"
 author: windows-sdk-content
 description: Specifies how aggressively a pipeline component should drop samples.
 old-location: mf\mf_quality_drop_mode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e40751d2-9abf-4fe6-8829-9b1fbf4531e8
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_QUALITY_DROP_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_QUALITY_DROP_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_QUALITY_DROP_MODE
+req.redist: 
 ---
 
 # _MF_QUALITY_DROP_MODE enumeration

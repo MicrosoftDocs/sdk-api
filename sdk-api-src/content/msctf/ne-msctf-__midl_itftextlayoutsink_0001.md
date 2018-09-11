@@ -4,7 +4,7 @@ title: "__MIDL_ITfTextLayoutSink_0001"
 author: windows-sdk-content
 description: Elements of the TfLayoutCode enumeration specify the type of layout change in an ITfTextLayoutSink::OnLayoutChange notification.
 old-location: tsf\tflayoutcode.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: b9ff6d11-68f2-47c5-b8d7-b3bc2533fdbb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -26,9 +25,10 @@ req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: MsClus.tlb
-tech.root: 
-req.typenames: TfLayoutCode
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TfLayoutCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TfLayoutCode
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # __MIDL_ITfTextLayoutSink_0001 enumeration

@@ -4,7 +4,7 @@ title: "_DD_NONLOCALVIDMEMCAPS"
 author: windows-sdk-content
 description: The DD_NONLOCALVIDMEMCAPS structure contains the capabilities for nonlocal display memory.
 old-location: display\dd_nonlocalvidmemcaps.htm
-old-project: display
+tech.root: display
 ms.assetid: 1ccc7de7-e5a3-4dc0-9375-a54460d43936
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DD_NONLOCALVIDMEMCAPS, *PDD_NONLOCALVIDMEMCAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_NONLOCALVIDMEMCAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DD_NONLOCALVIDMEMCAPS, *PDD_NONLOCALVIDMEMCAPS
+req.redist: 
 ---
 
 # _DD_NONLOCALVIDMEMCAPS structure

@@ -4,17 +4,16 @@ title: IDWriteFontFace3::GetPanose
 author: windows-sdk-content
 description: Gets the PANOSE values from the font, used for font selection and matching.
 old-location: directwrite\idwritefontface3_getpanose.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 977AFC97-9747-4FCE-861E-E1C40975B2E9
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetPanose, GetPanose method [Direct Write], GetPanose method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetPanose method, IDWriteFontFace3.GetPanose, IDWriteFontFace3::GetPanose, directwrite.idwritefontface3_getpanose, dwrite_3/IDWriteFontFace3::GetPanose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace3.GetPanose
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace3::GetPanose

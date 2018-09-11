@@ -4,17 +4,16 @@ title: RegDisablePredefinedCacheEx function
 author: windows-sdk-content
 description: Disables handle caching for all predefined registry handles for the current process.
 old-location: base\regdisablepredefinedcacheex.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: a56cf7d9-0ac4-4719-af41-3c0cdcef6faf
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: RegDisablePredefinedCacheEx, RegDisablePredefinedCacheEx function, base.regdisablepredefinedcacheex, winreg/RegDisablePredefinedCacheEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - RegDisablePredefinedCacheEx
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegDisablePredefinedCacheEx function

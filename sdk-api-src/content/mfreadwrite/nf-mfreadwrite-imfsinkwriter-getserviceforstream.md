@@ -4,17 +4,16 @@ title: IMFSinkWriter::GetServiceForStream
 author: windows-sdk-content
 description: Queries the underlying media sink or encoder for an interface.
 old-location: mf\imfsinkwriter_getserviceforstream.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 166f8f71-e52d-43b1-9137-e4bf79bf5421
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetServiceForStream, GetServiceForStream method [Media Foundation], GetServiceForStream method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],GetServiceForStream method, IMFSinkWriter.GetServiceForStream, IMFSinkWriter::GetServiceForStream, mf.imfsinkwriter_getserviceforstream, mfreadwrite/IMFSinkWriter::GetServiceForStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update Supplement for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_SOURCE_READER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSinkWriter.GetServiceForStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSinkWriter::GetServiceForStream

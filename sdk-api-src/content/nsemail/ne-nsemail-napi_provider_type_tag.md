@@ -4,17 +4,16 @@ title: napi_provider_type_tag
 author: windows-sdk-content
 description: Specifies the type of hosting expected for a namespace provider.
 old-location: winsock\napi_provider_type.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 0d845cc5-a84a-43fe-b9e7-d1a9153bae73
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: NAPI_PROVIDER_TYPE, NAPI_PROVIDER_TYPE enumeration [Winsock], ProviderType_Application, ProviderType_Service, napi_provider_type_tag, nsemail/NAPI_PROVIDER_TYPE, nsemail/ProviderType_Application, nsemail/ProviderType_Service, winsock.napi_provider_type
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: nsemail.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAPI_PROVIDER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NAPI_PROVIDER_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NAPI_PROVIDER_TYPE
+req.redist: 
 ---
 
 # napi_provider_type_tag enumeration

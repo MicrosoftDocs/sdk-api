@@ -4,17 +4,16 @@ title: ID2D1DeviceContext2::CreateGradientMesh
 author: windows-sdk-content
 description: Creates a new ID2D1GradientMesh instance using the given array of patches.
 old-location: direct2d\id2d1devicecontext2_creategradientmesh.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 7c471ba3-fb0f-b735-d10b-9d0a56b32863
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateGradientMesh, CreateGradientMesh method [Direct2D], CreateGradientMesh method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateGradientMesh method, ID2D1DeviceContext2.CreateGradientMesh, ID2D1DeviceContext2::CreateGradientMesh, d2d1_3/ID2D1DeviceContext2::CreateGradientMesh, direct2d.id2d1devicecontext2_creategradientmesh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DeviceContext2.CreateGradientMesh
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext2::CreateGradientMesh

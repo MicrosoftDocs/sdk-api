@@ -4,17 +4,16 @@ title: IRunningObjectTable::NoteChangeTime
 author: windows-sdk-content
 description: Records the time that a running object was last modified. The object must have previously been registered with the running object table (ROT). This method stores the time of last change in the ROT.
 old-location: com\irunningobjecttable_notechangetime.htm
-old-project: com
+tech.root: com
 ms.assetid: 7bc410f8-3a39-478d-bc4d-adcd976f305b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRunningObjectTable interface [COM],NoteChangeTime method, IRunningObjectTable.NoteChangeTime, IRunningObjectTable::NoteChangeTime, NoteChangeTime, NoteChangeTime method [COM], NoteChangeTime method [COM],IRunningObjectTable interface, _com_irunningobjecttable_notechangetime, com.irunningobjecttable_notechangetime, objidl/IRunningObjectTable::NoteChangeTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRunningObjectTable.NoteChangeTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRunningObjectTable::NoteChangeTime

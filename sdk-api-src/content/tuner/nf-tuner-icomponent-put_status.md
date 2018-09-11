@@ -4,17 +4,16 @@ title: IComponent::put_Status
 author: windows-sdk-content
 description: The put_Status method sets the requested or actual status of the component.
 old-location: mstv\icomponent_put_status.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f1f9cf98-69fd-4c54-8023-742f86413220
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],put_Status method, IComponent.put_Status, IComponent::put_Status, IComponentput_Status, mstv.icomponent_put_status, put_Status, put_Status method [Microsoft TV Technologies], put_Status method [Microsoft TV Technologies],IComponent interface, tuner/IComponent::put_Status
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponent.put_Status
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponent::put_Status

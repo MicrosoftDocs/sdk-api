@@ -4,17 +4,16 @@ title: IResultData::Sort
 author: windows-sdk-content
 description: Sorts all items in the result pane.
 old-location: mmc\iresultdata_sort.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 457eccaf-3727-4b29-a38b-9f009749673e
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IResultData interface [MMC],Sort method, IResultData.Sort, IResultData2 interface [MMC],Sort method, IResultData2::Sort, IResultData::Sort, RSI_DESCENDING = 0x0001, RSI_NOSORTICON = 0x0002, Sort, Sort method [MMC], Sort method [MMC],IResultData interface, Sort method [MMC],IResultData2 interface, _slate_iresultdata_sort, mmc.iresultdata_sort, mmc/IResultData2::Sort, mmc/IResultData::Sort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IResultData2.Sort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IResultData::Sort

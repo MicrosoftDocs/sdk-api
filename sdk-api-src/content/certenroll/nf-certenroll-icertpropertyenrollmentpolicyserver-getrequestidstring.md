@@ -4,17 +4,16 @@ title: ICertPropertyEnrollmentPolicyServer::GetRequestIdString
 author: windows-sdk-content
 description: Retrieves a unique string identifier for the certificate request sent to the certification authority during enrollment.
 old-location: security\icertpropertyenrollmentpolicyserver_getrequestidstring.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: c9855a9d-938f-4579-8447-a931dbba1428
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetRequestIdString, GetRequestIdString method [Security], GetRequestIdString method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetRequestIdString method, ICertPropertyEnrollmentPolicyServer.GetRequestIdString, ICertPropertyEnrollmentPolicyServer::GetRequestIdString, certenroll/ICertPropertyEnrollmentPolicyServer::GetRequestIdString, security.icertpropertyenrollmentpolicyserver_getrequestidstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertPropertyEnrollmentPolicyServer.GetRequestIdString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyEnrollmentPolicyServer::GetRequestIdString

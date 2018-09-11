@@ -4,17 +4,16 @@ title: IMSVidAnalogTuner::put_CountryCode
 author: windows-sdk-content
 description: The put_CountryCode method specifies the tuner's country/region code.
 old-location: mstv\imsvidanalogtuner_put_countrycode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e6ec6975-8953-45df-9d86-cf8b8888bba6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],put_CountryCode method, IMSVidAnalogTuner.put_CountryCode, IMSVidAnalogTuner::put_CountryCode, IMSVidAnalogTunerput_CountryCode, mstv.imsvidanalogtuner_put_countrycode, put_CountryCode, put_CountryCode method [Microsoft TV Technologies], put_CountryCode method [Microsoft TV Technologies],IMSVidAnalogTuner interface, segment/IMSVidAnalogTuner::put_CountryCode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidAnalogTuner.put_CountryCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidAnalogTuner::put_CountryCode

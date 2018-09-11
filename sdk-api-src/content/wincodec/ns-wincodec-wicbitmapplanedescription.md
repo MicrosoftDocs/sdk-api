@@ -4,7 +4,7 @@ title: WICBitmapPlaneDescription
 author: windows-sdk-content
 description: Specifies the pixel format and size of a component plane.
 old-location: wic\wicbitmapplanedescription.htm
-old-project: wic
+tech.root: wic
 ms.assetid: A5685E9B-F2B9-4A1B-9CEA-044E5FA1CC6D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICBitmapPlaneDescription
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICBitmapPlaneDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICBitmapPlaneDescription
+req.redist: 
 ---
 
 # WICBitmapPlaneDescription structure

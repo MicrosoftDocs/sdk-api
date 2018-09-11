@@ -4,7 +4,7 @@ title: ISimpleCommandCreator
 author: windows-sdk-content
 description: Contains methods for interacting with the file catalog.
 old-location: search\isimplecommandcreator.htm
-old-project: search
+tech.root: search
 ms.assetid: CAC6BE83-863B-4DB0-B4FF-40029C242AE9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: indexsrv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDREP_BREAK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimpleCommandCreator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISimpleCommandCreator interface

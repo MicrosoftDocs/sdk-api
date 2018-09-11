@@ -4,17 +4,16 @@ title: IUIAutomationCacheRequest::get_AutomationElementMode
 author: windows-sdk-content
 description: Indicates whether returned elements contain full references to the underlying UI, or only cached information.
 old-location: winauto\uiauto_IUIAutomationCacheRequest_AutomationElementMode.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: dd4c6407-d14e-4e67-9681-1f90741da38e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AutomationElementMode property [Windows Accessibility], AutomationElementMode property [Windows Accessibility],IUIAutomationCacheRequest interface, IUIAutomationCacheRequest interface [Windows Accessibility],AutomationElementMode property, IUIAutomationCacheRequest.AutomationElementMode, IUIAutomationCacheRequest.get_AutomationElementMode, IUIAutomationCacheRequest::AutomationElementMode, IUIAutomationCacheRequest::get_AutomationElementMode, IUIAutomationCacheRequest::put_AutomationElementMode, get_AutomationElementMode, uiauto.uiauto_IUIAutomationCacheRequest_AutomationElementMode, uiauto_IUIAutomationCacheRequest_AutomationElementMode, uiautomationclient/IUIAutomationCacheRequest::AutomationElementMode, uiautomationclient/IUIAutomationCacheRequest::get_AutomationElementMode, uiautomationclient/IUIAutomationCacheRequest::put_AutomationElementMode, winauto.uiauto_IUIAutomationCacheRequest_AutomationElementMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IUIAutomationCacheRequest.put_AutomationElementMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationCacheRequest::get_AutomationElementMode

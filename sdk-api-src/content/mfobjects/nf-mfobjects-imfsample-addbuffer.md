@@ -4,17 +4,16 @@ title: IMFSample::AddBuffer
 author: windows-sdk-content
 description: Adds a buffer to the end of the list of buffers in the sample.
 old-location: mf\imfsample_addbuffer.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 61c2a1dc-b9fe-4296-bf33-d54006cad32b
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 61c2a1dc-b9fe-4296-bf33-d54006cad32b, AddBuffer, AddBuffer method [Media Foundation], AddBuffer method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],AddBuffer method, IMFSample.AddBuffer, IMFSample::AddBuffer, mf.imfsample_addbuffer, mfobjects/IMFSample::AddBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSample.AddBuffer
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSample::AddBuffer

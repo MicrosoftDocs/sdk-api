@@ -4,17 +4,16 @@ title: INamedPropertyStore::SetNamedValue
 author: windows-sdk-content
 description: Sets the value of a named property.
 old-location: shell\INamedPropertyStore_SetNamedValue.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e1ccf53f-3117-45c2-a0ff-94f1bb084414
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: INamedPropertyStore interface [Windows Shell],SetNamedValue method, INamedPropertyStore.SetNamedValue, INamedPropertyStore::SetNamedValue, SetNamedValue, SetNamedValue method [Windows Shell], SetNamedValue method [Windows Shell],INamedPropertyStore interface, _shell_INamedPropertyStore_SetNamedValue, propsys/INamedPropertyStore::SetNamedValue, shell.INamedPropertyStore_SetNamedValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INamedPropertyStore.SetNamedValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # INamedPropertyStore::SetNamedValue
@@ -69,7 +67,7 @@ A pointer to the property name, as a Unicode string, in the named property store
 
 ### -param propvar
 
-
+TBD
 
 
 

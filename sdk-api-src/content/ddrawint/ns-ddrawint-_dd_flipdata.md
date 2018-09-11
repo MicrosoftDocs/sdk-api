@@ -4,7 +4,7 @@ title: "_DD_FLIPDATA"
 author: windows-sdk-content
 description: The DD_FLIPDATA structure contains information needed to do a flip.
 old-location: display\dd_flipdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 1926db26-4a29-4ddb-85c6-dd2074eba0b8
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_FLIPDATA, DD_FLIPDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_FLIPDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_FLIPDATA, DD_FLIPDATA"
+req.redist: 
 ---
 
 # _DD_FLIPDATA structure

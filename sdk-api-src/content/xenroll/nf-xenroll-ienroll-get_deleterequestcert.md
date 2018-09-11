@@ -4,17 +4,16 @@ title: IEnroll::get_DeleteRequestCert
 author: windows-sdk-content
 description: The DeleteRequestCert property of IEnroll4 sets or retrieves a Boolean value that determines whether dummy certificates in the request store are deleted.
 old-location: security\ienroll4_deleterequestcert.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 54b85347-cdc1-42e3-bc26-0b50bd58131a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: DeleteRequestCert property [Security], DeleteRequestCert property [Security],IEnroll interface, IEnroll interface [Security],DeleteRequestCert property, IEnroll.DeleteRequestCert, IEnroll.get_DeleteRequestCert, IEnroll::DeleteRequestCert, IEnroll::get_DeleteRequestCert, IEnroll::put_DeleteRequestCert, get_DeleteRequestCert, security.ienroll4_deleterequestcert, xenroll/IEnroll::DeleteRequestCert, xenroll/IEnroll::get_DeleteRequestCert, xenroll/IEnroll::put_DeleteRequestCert
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEnroll.put_DeleteRequestCert
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll::get_DeleteRequestCert

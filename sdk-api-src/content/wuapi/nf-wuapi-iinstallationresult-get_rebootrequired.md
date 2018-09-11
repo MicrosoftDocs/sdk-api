@@ -4,17 +4,16 @@ title: IInstallationResult::get_RebootRequired
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether you must restart the computer to complete the installation or uninstallation of an update.
 old-location: wua\iinstallationresult_rebootrequired.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 7a865933-53f7-4d3e-88cf-088acedeed02
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IInstallationResult interface [Windows Update Agent],RebootRequired property, IInstallationResult.RebootRequired, IInstallationResult.get_RebootRequired, IInstallationResult::RebootRequired, IInstallationResult::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],IInstallationResult interface, get_RebootRequired, wua.iinstallationresult_rebootrequired, wuapi/IInstallationResult::RebootRequired, wuapi/IInstallationResult::get_RebootRequired
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInstallationResult.get_RebootRequired
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IInstallationResult::get_RebootRequired

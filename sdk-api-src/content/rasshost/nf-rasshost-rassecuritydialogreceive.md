@@ -4,17 +4,16 @@ title: RasSecurityDialogReceive function
 author: windows-sdk-content
 description: The RasSecurityDialogReceive function starts an asynchronous operation that receives a remote user's response to a security challenge.
 old-location: rras\rassecuritydialogreceive.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: ed5fcea6-6533-4c78-bd49-dfeaafd8192a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RasSecurityDialogReceive, RasSecurityDialogReceive function [RAS], _ras_rassecuritydialogreceive, rasshost/RasSecurityDialogReceive, rras.rassecuritydialogreceive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rasshost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_AUTH_ATTRIBUTE, *PRAS_AUTH_ATTRIBUTE
+req.lib: 
+req.dll: Rasman.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RasSecurityDialogReceive
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rasman.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasSecurityDialogReceive function

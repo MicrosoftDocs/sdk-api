@@ -4,7 +4,7 @@ title: "_DHCPV6_IP_ARRAY"
 author: windows-sdk-content
 description: The DHCPV6_IP_ARRAY structure contains an array of DHCP IPv6 address structures.
 old-location: dhcp\dhcpv6_ip_array.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: B87CF991-FFC8-4CB4-8EE9-66716EC9B58D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCPV6_IP_ARRAY, *LPDHCPV6_IP_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCPV6_IP_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCPV6_IP_ARRAY, *LPDHCPV6_IP_ARRAY
+req.redist: 
 ---
 
 # _DHCPV6_IP_ARRAY structure

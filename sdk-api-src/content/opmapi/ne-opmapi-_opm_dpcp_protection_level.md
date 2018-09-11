@@ -4,7 +4,7 @@ title: "_OPM_DPCP_PROTECTION_LEVEL"
 author: windows-sdk-content
 description: Specifies the protection level for DisplayPort Content Protection (DPCP).
 old-location: mf\opm_dpcp_protection_level.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c761f3c1-f18e-4ae9-9aa1-1ba440a6c8df
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: opmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_DPCP_PROTECTION_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPM_DPCP_PROTECTION_LEVEL
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: OPM_DPCP_PROTECTION_LEVEL
+req.redist: 
 ---
 
 # _OPM_DPCP_PROTECTION_LEVEL enumeration

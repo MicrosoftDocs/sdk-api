@@ -4,17 +4,16 @@ title: IWMReaderAdvanced2::Preroll
 author: windows-sdk-content
 description: The Preroll method is used to begin prerolling (buffering data) for the reader.
 old-location: wmformat\iwmreaderadvanced2_preroll.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: c216adf1-390c-45cc-acae-645fe29f55de
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],Preroll method, IWMReaderAdvanced2.Preroll, IWMReaderAdvanced2::Preroll, IWMReaderAdvanced2Preroll, Preroll, Preroll method [windows Media Format], Preroll method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_preroll, wmsdkidl/IWMReaderAdvanced2::Preroll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMReaderAdvanced2.Preroll
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderAdvanced2::Preroll

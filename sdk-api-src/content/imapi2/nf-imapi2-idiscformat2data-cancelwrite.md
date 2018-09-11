@@ -4,17 +4,16 @@ title: IDiscFormat2Data::CancelWrite
 author: windows-sdk-content
 description: Cancels the current write operation.
 old-location: imapi\idiscformat2data_cancelwrite.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 0fe5705e-7f48-4a4e-a535-a3dd105a6139
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CancelWrite, CancelWrite method [IMAPI], CancelWrite method [IMAPI],IDiscFormat2Data interface, IDiscFormat2Data interface [IMAPI],CancelWrite method, IDiscFormat2Data.CancelWrite, IDiscFormat2Data::CancelWrite, imapi.idiscformat2data_cancelwrite, imapi2/IDiscFormat2Data::CancelWrite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2Data.CancelWrite
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2Data::CancelWrite

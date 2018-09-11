@@ -4,17 +4,16 @@ title: WSAInstallServiceClassW function
 author: windows-sdk-content
 description: The WSAInstallServiceClass function registers a service class schema within a namespace.
 old-location: winsock\wsainstallserviceclass_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 06760319-aeeb-4ad7-b77a-01efea7ed904
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSAInstallServiceClass, WSAInstallServiceClass function [Winsock], WSAInstallServiceClassA, WSAInstallServiceClassW, _win32_wsainstallserviceclass_2, winsock.wsainstallserviceclass_2, winsock2/WSAInstallServiceClass, winsock2/WSAInstallServiceClassA, winsock2/WSAInstallServiceClassW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WSAInstallServiceClassW
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSAInstallServiceClassW function

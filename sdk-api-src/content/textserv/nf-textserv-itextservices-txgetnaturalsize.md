@@ -4,17 +4,16 @@ title: ITextServices::TxGetNaturalSize
 author: windows-sdk-content
 description: Allows a control to be resized so it fits its content appropriately.
 old-location: controls\ITextServices_TxGetNaturalSize.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetnaturalsize.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetNaturalSize method, ITextServices.TxGetNaturalSize, ITextServices::TxGetNaturalSize, TXTNS_EMU, TXTNS_FITTOCONTENT, TXTNS_FITTOCONTENT2, TXTNS_FITTOCONTENT3, TXTNS_FITTOCONTENTWSP, TXTNS_INCLUDELASTLINE, TXTNS_ROUNDTOLINE, TxGetNaturalSize, TxGetNaturalSize method [Windows Controls], TxGetNaturalSize method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetNaturalSize, _win32_ITextServices_TxGetNaturalSize_cpp, controls.ITextServices_TxGetNaturalSize, controls._win32_ITextServices_TxGetNaturalSize, textserv/ITextServices::TxGetNaturalSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextServices.TxGetNaturalSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextServices::TxGetNaturalSize

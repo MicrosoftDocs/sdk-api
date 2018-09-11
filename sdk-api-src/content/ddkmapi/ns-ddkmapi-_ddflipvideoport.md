@@ -4,7 +4,7 @@ title: "_DDFLIPVIDEOPORT"
 author: windows-sdk-content
 description: The DDFLIPVIDEOPORT structure contains the information required to flip the hardware video port.
 old-location: display\ddflipvideoport.htm
-old-project: display
+tech.root: display
 ms.assetid: c30c100c-8c91-44e2-b75b-92ce73d44047
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDFLIPVIDEOPORT, *LPDDFLIPVIDEOPORT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDFLIPVIDEOPORT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDFLIPVIDEOPORT, *LPDDFLIPVIDEOPORT
+req.redist: 
 ---
 
 # _DDFLIPVIDEOPORT structure

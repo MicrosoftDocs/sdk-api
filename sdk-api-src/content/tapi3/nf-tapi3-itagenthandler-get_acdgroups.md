@@ -4,17 +4,16 @@ title: ITAgentHandler::get_ACDGroups
 author: windows-sdk-content
 description: The get_ACDGroups method creates a collection of ACD groups currently associated with the agent handler.
 old-location: tapi3\itagenthandler_get_acdgroups.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 72dcc4c8-fac6-4635-995e-18a5693da99b
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgentHandler interface [TAPI 2.2],get_ACDGroups method, ITAgentHandler.get_ACDGroups, ITAgentHandler::get_ACDGroups, _tapi3_itagenthandler_get_acdgroups, get_ACDGroups, get_ACDGroups method [TAPI 2.2], get_ACDGroups method [TAPI 2.2],ITAgentHandler interface, tapi3.itagenthandler_get_acdgroups, tapi3cc/ITAgentHandler::get_ACDGroups
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentHandler.get_ACDGroups
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentHandler::get_ACDGroups

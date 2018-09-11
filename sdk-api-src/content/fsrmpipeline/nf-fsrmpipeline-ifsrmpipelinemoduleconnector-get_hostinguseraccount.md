@@ -4,17 +4,16 @@ title: IFsrmPipelineModuleConnector::get_HostingUserAccount
 author: windows-sdk-content
 description: The user account under which the module runs.
 old-location: fsrm\ifsrmpipelinemoduleconnector_hostinguseraccount.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: c5935160-81e9-4e2a-88ac-a37d2a78fcff
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],HostingUserAccount property, HostingUserAccount property [File Server Resource Manager], HostingUserAccount property [File Server Resource Manager],FsrmPipelineModuleConnector class, HostingUserAccount property [File Server Resource Manager],IFsrmPipelineModuleConnector interface, IFsrmPipelineModuleConnector interface [File Server Resource Manager],HostingUserAccount property, IFsrmPipelineModuleConnector.HostingUserAccount, IFsrmPipelineModuleConnector.get_HostingUserAccount, IFsrmPipelineModuleConnector::HostingUserAccount, IFsrmPipelineModuleConnector::get_HostingUserAccount, fs.ifsrmpipelinemoduleconnector_hostinguseraccount, fsrm.ifsrmpipelinemoduleconnector_hostinguseraccount, fsrmpipeline/IFsrmPipelineModuleConnector::HostingUserAccount, fsrmpipeline/IFsrmPipelineModuleConnector::get_HostingUserAccount, get_HostingUserAccount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmPipelineModuleConnector.HostingUserAccount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPipelineModuleConnector::get_HostingUserAccount

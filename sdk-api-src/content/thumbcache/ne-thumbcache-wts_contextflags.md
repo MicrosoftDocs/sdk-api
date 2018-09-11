@@ -4,17 +4,16 @@ title: WTS_CONTEXTFLAGS
 author: windows-sdk-content
 description: Specifies the context of a thumbnail extraction. Used by IThumbnailSettings::SetContext.
 old-location: shell\WTS_CONTEXTFLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 062B148E-19FB-4bcd-82CE-669B2ACD0BF6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: WTSCF_APPSTYLE, WTSCF_DEFAULT, WTSCF_FAST, WTSCF_SQUARE, WTSCF_WIDE, WTS_CONTEXTFLAGS, WTS_CONTEXTFLAGS enumeration [Windows Shell], shell.WTS_CONTEXTFLAGS, thumbcache/WTSCF_APPSTYLE, thumbcache/WTSCF_DEFAULT, thumbcache/WTSCF_FAST, thumbcache/WTSCF_SQUARE, thumbcache/WTSCF_WIDE, thumbcache/WTS_CONTEXTFLAGS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: thumbcache.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_CONTEXTFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTS_CONTEXTFLAGS
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: WTS_CONTEXTFLAGS
+req.redist: 
 ---
 
 # WTS_CONTEXTFLAGS enumeration

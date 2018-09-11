@@ -4,17 +4,16 @@ title: LPCFHOOKPROC
 author: windows-sdk-content
 description: Receives messages or notifications intended for the default dialog box procedure of the Font dialog box. This is an application-defined or library-defined callback procedure that is used with the ChooseFont function.
 old-location: dlgbox\cfhookproc.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\cfhookproc.htm
 ms.author: windowssdkdev
-ms.date: 08/21/2018
+ms.date: 08/24/2018
 ms.keywords: CFHookProc, LPCFHOOKPROC, LPCFHOOKPROC callback, LPCFHOOKPROC callback function [Dialog Boxes], _win32_CFHookProc, _win32_cfhookproc_cpp, commdlg/LPCFHOOKPROC, dlgbox.cfhookproc, winui._win32_cfhookproc
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: commdlg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UDACCEL, *LPUDACCEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - LPCFHOOKPROC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # LPCFHOOKPROC callback function

@@ -4,7 +4,7 @@ title: tagDVD_PLAYBACK_LOCATION2
 author: windows-sdk-content
 description: The DVD_PLAYBACK_LOCATION2 structure indicates DVD playback location.
 old-location: dshow\dvd_playback_location2.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 58506709-42e2-43e4-a4c7-b522b7d06e6f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_PLAYBACK_LOCATION2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_PLAYBACK_LOCATION2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: DVD_PLAYBACK_LOCATION2
+req.redist: 
 ---
 
 # tagDVD_PLAYBACK_LOCATION2 structure

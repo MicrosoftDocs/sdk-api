@@ -4,17 +4,16 @@ title: RpcAsyncGetCallStatus function
 author: windows-sdk-content
 description: The client calls the RpcAsyncGetCallStatus function to determine the current status of an asynchronous remote call.
 old-location: rpc\rpcasyncgetcallstatus.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: caa3add7-d07f-4d56-ad96-51dc67f66117
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcAsyncGetCallStatus, RpcAsyncGetCallStatus function [RPC], _rpc_rpcasyncgetcallstatus, rpc.rpcasyncgetcallstatus, rpcasync/RpcAsyncGetCallStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_NOTIFICATION_TYPES
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcAsyncGetCallStatus
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcAsyncGetCallStatus function

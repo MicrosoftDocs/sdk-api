@@ -4,17 +4,16 @@ title: ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated
 author: windows-sdk-content
 description: ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated method
 old-location: tsf\itftransitoryextensionsink_ontransitoryextensionupdated.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 2501e0b7-a1fe-46ee-8b18-b13de875d66b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfTransitoryExtensionSink interface [Text Services Framework],OnTransitoryExtensionUpdated method, ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated, ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated, OnTransitoryExtensionUpdated, OnTransitoryExtensionUpdated method [Text Services Framework], OnTransitoryExtensionUpdated method [Text Services Framework],ITfTransitoryExtensionSink interface, msctf/ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated, tsf.itftransitoryextensionsink_ontransitoryextensionupdated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated

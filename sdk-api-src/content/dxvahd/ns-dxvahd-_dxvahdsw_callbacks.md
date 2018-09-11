@@ -4,7 +4,7 @@ title: "_DXVAHDSW_CALLBACKS"
 author: windows-sdk-content
 description: Contains pointers to functions implemented by a software plug-in for Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahdsw_callbacks.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 74c329cc-af54-4cf8-8cb6-eed9e96db4c5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHDSW_CALLBACKS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVAHDSW_CALLBACKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVAHDSW_CALLBACKS
+req.redist: 
 ---
 
 # _DXVAHDSW_CALLBACKS structure

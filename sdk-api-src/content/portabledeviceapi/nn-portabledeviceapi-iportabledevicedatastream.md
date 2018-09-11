@@ -4,17 +4,16 @@ title: IPortableDeviceDataStream
 author: windows-sdk-content
 description: The IPortableDeviceDataStream interface exposes additional methods on an IStream that is used for data transfers.
 old-location: wpdsdk\iportabledevicedatastream.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: d7bd955a-886f-4081-bfc3-cd2d7e2cfb24
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPortableDeviceDataStream, IPortableDeviceDataStream interface [Windows Portable Devices SDK], IPortableDeviceDataStream interface [Windows Portable Devices SDK],described, IPortableDeviceDataStreamInterface, portabledeviceapi/IPortableDeviceDataStream, wpdsdk.iportabledevicedatastream
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceDataStream
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceDataStream interface

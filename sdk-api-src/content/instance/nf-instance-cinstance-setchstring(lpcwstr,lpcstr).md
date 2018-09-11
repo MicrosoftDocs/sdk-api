@@ -4,17 +4,16 @@ title: CInstance::SetCHString(LPCWSTR,LPCSTR)
 author: windows-sdk-content
 description: The SetCHString(LPCWSTR, LPCSTR) method sets a string property.
 old-location: wmi\cinstance_setchstring_lpcwstr__lpcstr_.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: a5a7a7ab-d187-4eff-a2b9-bd87229c83d1
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?SetCHString@CInstance@@QAE_NPBG0@Z, ?SetCHString@CInstance@@QAE_NPBGPBD@Z, ?SetCHString@CInstance@@QEAA_NPEBG0@Z, ?SetCHString@CInstance@@QEAA_NPEBGPEBD@Z, CInstance interface [Windows Management Instrumentation],SetCHString method, CInstance.SetCHString, CInstance.SetCHString(LPCWSTR,LPCSTR), CInstance::SetCHString, CInstance::SetCHString(LPCWSTR,LPCSTR), SetCHString, SetCHString method [Windows Management Instrumentation], SetCHString method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetCHString, wmi.cinstance_setchstring_lpcwstr__lpcstr_"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - ?SetCHString@CInstance@@QEAA_NPEBGPEBD@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::SetCHString(LPCWSTR,LPCSTR)

@@ -4,17 +4,16 @@ title: IAudioSessionManager::GetAudioSessionControl
 author: windows-sdk-content
 description: The GetAudioSessionControl method retrieves an audio session control.
 old-location: coreaudio\iaudiosessionmanager_getaudiosessioncontrol.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 42de66dd-46df-40af-9d8a-39ee9f91b468
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetAudioSessionControl, GetAudioSessionControl method [Core Audio], GetAudioSessionControl method [Core Audio],IAudioSessionManager interface, IAudioSessionManager interface [Core Audio],GetAudioSessionControl method, IAudioSessionManager.GetAudioSessionControl, IAudioSessionManager::GetAudioSessionControl, IAudioSessionManagerGetAudioSessionControl, audiopolicy/IAudioSessionManager::GetAudioSessionControl, coreaudio.iaudiosessionmanager_getaudiosessioncontrol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionManager.GetAudioSessionControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionManager::GetAudioSessionControl

@@ -4,17 +4,16 @@ title: StgOpenLayoutDocfile function
 author: windows-sdk-content
 description: Opens a compound file on an ILockBytes implementation that is capable of monitoring sector data.
 old-location: stg\stgopenlayoutdocfile.htm
-old-project: stg
+tech.root: Stg
 ms.assetid: 6ecfb6bd-e623-42b6-9b95-f0563921ac15
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: StgOpenLayoutDocfile, StgOpenLayoutDocfile function [Structured Storage], _stg_stgopenlayoutdocfile, objbase/StgOpenLayoutDocfile, stg.stgopenlayoutdocfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: DfLayout.lib
+req.dll: DfLayout.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - StgOpenLayoutDocfile
 product: Windows
 targetos: Windows
-req.lib: DfLayout.lib
-req.dll: DfLayout.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # StgOpenLayoutDocfile function

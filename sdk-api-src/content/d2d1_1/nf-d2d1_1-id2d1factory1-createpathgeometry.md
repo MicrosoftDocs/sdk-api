@@ -4,17 +4,16 @@ title: ID2D1Factory1::CreatePathGeometry
 author: windows-sdk-content
 description: Creates an ID2D1PathGeometry1 object.
 old-location: direct2d\id2d1factory1_createpathgeometry.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 182e7dbc-ab49-427f-8801-d94e4ed9a308
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreatePathGeometry, CreatePathGeometry method [Direct2D], CreatePathGeometry method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],CreatePathGeometry method, ID2D1Factory1.CreatePathGeometry, ID2D1Factory1::CreatePathGeometry, d2d1_1/ID2D1Factory1::CreatePathGeometry, direct2d.id2d1factory1_createpathgeometry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Factory1.CreatePathGeometry
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Factory1::CreatePathGeometry

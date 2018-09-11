@@ -4,17 +4,16 @@ title: IWMPCdromBurn::getItemInfo
 author: windows-sdk-content
 description: The getItemInfo method retrieves the value of the specified attribute for the CD.
 old-location: wmp\iwmpcdromburn_getiteminfo.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: f54b406f-0441-4ed3-8f8b-6794ab2180d9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],getItemInfo method, IWMPCdromBurn.getItemInfo, IWMPCdromBurn::getItemInfo, IWMPCdromBurngetItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_getiteminfo, wmp/IWMPCdromBurn::getItemInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCdromBurn.getItemInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCdromBurn::getItemInfo

@@ -4,17 +4,16 @@ title: QueryChangesVirtualDisk function
 author: windows-sdk-content
 description: Retrieves information about changes to the specified areas of a virtual hard disk (VHD) that are tracked by resilient change tracking (RCT).
 old-location: vhd\querychangesvirtualdisk.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 633FA684-5CC6-4615-B62C-54C60B38E652
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: QueryChangesVirtualDisk, QueryChangesVirtualDisk function [VHD], vdssys/QueryChangesVirtualDisk, vhd.querychangesvirtualdisk, virtdisk/QueryChangesVirtualDisk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIRTUAL_DISK_ACCESS_MASK
+req.lib: VirtDisk.lib
+req.dll: VirtDisk.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QueryChangesVirtualDisk
 product: Windows
 targetos: Windows
-req.lib: VirtDisk.lib
-req.dll: VirtDisk.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # QueryChangesVirtualDisk function

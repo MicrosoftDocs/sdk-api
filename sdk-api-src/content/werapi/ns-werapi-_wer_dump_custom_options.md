@@ -4,17 +4,16 @@ title: "_WER_DUMP_CUSTOM_OPTIONS"
 author: windows-sdk-content
 description: Specifies custom minidump information to be collected by the WerReportAddDump function.
 old-location: wer\wer_dump_custom_options.htm
-old-project: wer
+tech.root: wer
 ms.assetid: 6ea32573-ac1a-4f9b-b4ba-b5767927924f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWER_DUMP_CUSTOM_OPTIONS, PWER_DUMP_CUSTOM_OPTIONS, PWER_DUMP_CUSTOM_OPTIONS structure pointer [Windows Error Reporting], WER_DUMP_CUSTOM_OPTIONS, WER_DUMP_CUSTOM_OPTIONS structure [Windows Error Reporting], WER_DUMP_MASK_DUMPTYPE, WER_DUMP_MASK_ONLY_THISTHREAD, WER_DUMP_MASK_OTHERTHREADFLAGS, WER_DUMP_MASK_OTHERTHREADFLAGS_EX, WER_DUMP_MASK_OTHER_MODULESFLAGS, WER_DUMP_MASK_PREFERRED_MODULESFLAGS, WER_DUMP_MASK_PREFERRED_MODULE_LIST, WER_DUMP_MASK_THREADFLAGS, WER_DUMP_MASK_THREADFLAGS_EX, _WER_DUMP_CUSTOM_OPTIONS, base.wer_dump_custom_options, wer.wer_dump_custom_options, werapi/PWER_DUMP_CUSTOM_OPTIONS, werapi/WER_DUMP_CUSTOM_OPTIONS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: werapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WER_DUMP_CUSTOM_OPTIONS, *PWER_DUMP_CUSTOM_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WER_DUMP_CUSTOM_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WER_DUMP_CUSTOM_OPTIONS, *PWER_DUMP_CUSTOM_OPTIONS
+req.redist: 
 ---
 
 # _WER_DUMP_CUSTOM_OPTIONS structure

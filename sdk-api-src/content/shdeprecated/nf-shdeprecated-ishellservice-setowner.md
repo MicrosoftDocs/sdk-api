@@ -4,17 +4,16 @@ title: IShellService::SetOwner
 author: windows-sdk-content
 description: Deprecated. Declares an owner reference to the service object.
 old-location: shell\IShellService_SetOwner.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ef3865b2-b651-4072-86f2-2996fce061a4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellService interface [Windows Shell],SetOwner method, IShellService.SetOwner, IShellService::SetOwner, SetOwner, SetOwner method [Windows Shell], SetOwner method [Windows Shell],IShellService interface, shdeprecated/IShellService::SetOwner, shell.IShellService_SetOwner, zone_IShellService_SetOwner
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IShellService.SetOwner
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

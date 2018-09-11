@@ -4,17 +4,16 @@ title: IVssComponent::GetRestoreTarget
 author: windows-sdk-content
 description: The GetRestoreTarget method returns the restore target (in terms of the VSS_RESTORE_TARGET enumeration) for the current component.
 old-location: base\ivsscomponent_getrestoretarget.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: e2361e38-8757-4a29-bbaf-7f659d1095d9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetRestoreTarget, GetRestoreTarget method [VSS], GetRestoreTarget method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreTarget method, IVssComponent.GetRestoreTarget, IVssComponent::GetRestoreTarget, _win32_ivsscomponent_getrestoretarget, base.ivsscomponent_getrestoretarget, vswriter/IVssComponent::GetRestoreTarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssComponent.GetRestoreTarget
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponent::GetRestoreTarget

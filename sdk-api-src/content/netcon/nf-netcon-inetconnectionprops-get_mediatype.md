@@ -4,17 +4,16 @@ title: INetConnectionProps::get_MediaType
 author: windows-sdk-content
 description: The get_MediaType method retrieves the media type for the connection.
 old-location: ics\inetconnectionprops_get_mediatype.htm
-old-project: ics
+tech.root: ics
 ms.assetid: cefaee7c-22ce-4171-8789-fe6befc7e313
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_MediaType method, INetConnectionProps.get_MediaType, INetConnectionProps::get_MediaType, _ics_inetconnectionprops_get_mediatype, get_MediaType, get_MediaType method [ICS/ICF], get_MediaType method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_mediatype, netcon/INetConnectionProps::get_MediaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetConnectionProps.get_MediaType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetConnectionProps::get_MediaType

@@ -4,17 +4,16 @@ title: MprAdminInterfaceGetInfo function
 author: windows-sdk-content
 description: The MprAdminInterfaceGetInfo function retrieves information for a specified interface on a specified server.
 old-location: rras\mpradmininterfacegetinfo.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: a6d353f0-1d68-4a37-89f3-cdab0fc7972a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminInterfaceGetInfo, MprAdminInterfaceGetInfo function [RAS], _mpr_mpradmininterfacegetinfo, mprapi/MprAdminInterfaceGetInfo, rras.mpradmininterfacegetinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminInterfaceGetInfo
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminInterfaceGetInfo function

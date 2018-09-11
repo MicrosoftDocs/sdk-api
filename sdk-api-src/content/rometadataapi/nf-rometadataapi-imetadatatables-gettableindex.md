@@ -4,17 +4,16 @@ title: IMetaDataTables::GetTableIndex
 author: windows-sdk-content
 description: Gets the index for the table referenced by the specified token.
 old-location: winrt\imetadatatables_gettableindex.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 4bc00076-f706-4941-84bd-f1b9c61934e5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetTableIndex, GetTableIndex method [Windows Runtime], GetTableIndex method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetTableIndex method, IMetaDataTables.GetTableIndex, IMetaDataTables::GetTableIndex, rometadataapi/IMetaDataTables::GetTableIndex, winrt.imetadatatables_gettableindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataTables.GetTableIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataTables::GetTableIndex

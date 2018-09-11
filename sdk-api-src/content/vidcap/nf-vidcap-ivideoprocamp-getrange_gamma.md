@@ -4,17 +4,16 @@ title: IVideoProcAmp::getRange_Gamma
 author: windows-sdk-content
 description: The getRange_Gamma method returns the range of gamma settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_gamma.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 36914aed-d11c-42c0-a0e5-ba1d3ba6dd22
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Gamma method, IVideoProcAmp.getRange_Gamma, IVideoProcAmp::getRange_Gamma, IVideoProcAmpgetRange_Gamma, dshow.ivideoprocamp_getrange_gamma, getRange_Gamma, getRange_Gamma method [DirectShow], getRange_Gamma method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Gamma
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVideoProcAmp.getRange_Gamma
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoProcAmp::getRange_Gamma

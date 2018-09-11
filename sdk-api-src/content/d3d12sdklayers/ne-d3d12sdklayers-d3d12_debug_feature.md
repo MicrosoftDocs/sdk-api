@@ -4,7 +4,7 @@ title: D3D12_DEBUG_FEATURE
 author: windows-sdk-content
 description: Flags for optional D3D12 Debug Layer features.
 old-location: direct3d12\d3d12_debug_feature.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 36E0A5DC-8313-4D9D-988C-21E6FFCC8730
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_DEBUG_FEATURE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_DEBUG_FEATURE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_DEBUG_FEATURE
+req.redist: 
 ---
 
 # D3D12_DEBUG_FEATURE enumeration

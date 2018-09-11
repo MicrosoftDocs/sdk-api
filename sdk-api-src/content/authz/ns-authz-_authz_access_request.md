@@ -4,17 +4,16 @@ title: "_AUTHZ_ACCESS_REQUEST"
 author: windows-sdk-content
 description: Defines an access check request.
 old-location: security\authz_access_request.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3748075c-b31a-4669-b8a6-1a540449d8fa
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PAUTHZ_ACCESS_REQUEST, AUTHZ_ACCESS_REQUEST, AUTHZ_ACCESS_REQUEST structure [Security], PAUTHZ_ACCESS_REQUEST, PAUTHZ_ACCESS_REQUEST structure pointer [Security], _AUTHZ_ACCESS_REQUEST, _win32_authz_access_request, authz/AUTHZ_ACCESS_REQUEST, authz/PAUTHZ_ACCESS_REQUEST, security.authz_access_request"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: authz.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHZ_ACCESS_REQUEST, *PAUTHZ_ACCESS_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AUTHZ_ACCESS_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AUTHZ_ACCESS_REQUEST, *PAUTHZ_ACCESS_REQUEST
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # _AUTHZ_ACCESS_REQUEST structure

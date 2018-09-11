@@ -4,17 +4,16 @@ title: IWPCProviderConfig::GetUserSummary
 author: windows-sdk-content
 description: Retrieves the information for each user by using the Parental Controls Control Panel.
 old-location: parcon\iwpcproviderconfig_getusersummary.htm
-old-project: parcon
+tech.root: parcon
 ms.assetid: 89d70aef-9bca-4984-99d1-082041257393
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetUserSummary, GetUserSummary method, GetUserSummary method,IWPCProviderConfig interface, IWPCProviderConfig interface,GetUserSummary method, IWPCProviderConfig.GetUserSummary, IWPCProviderConfig::GetUserSummary, parcon.iwpcproviderconfig_getusersummary, wpcapi/IWPCProviderConfig::GetUserSummary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWPCProviderConfig.GetUserSummary
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWPCProviderConfig::GetUserSummary

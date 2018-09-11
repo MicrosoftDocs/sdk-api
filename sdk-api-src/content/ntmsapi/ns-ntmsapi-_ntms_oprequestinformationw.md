@@ -4,17 +4,16 @@ title: "_NTMS_OPREQUESTINFORMATIONW"
 author: windows-sdk-content
 description: The NTMS_OPREQUESTINFORMATION structure defines the properties specific to operator-request system control for RSM.
 old-location: fs\ntms_oprequestinformation.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: d6ff9240-8f58-4f2e-9298-ff2f0193eeba
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: NTMS_CHANGER, NTMS_DRIVE, NTMS_IEDOOR, NTMS_IEPORT., NTMS_LIBRARY, NTMS_OPREQUESTINFORMATION, NTMS_OPREQUESTINFORMATION structure [Files], NTMS_OPREQUESTINFORMATIONW, NTMS_OPREQ_CLEANER, NTMS_OPREQ_DEVICESERVICE, NTMS_OPREQ_MESSAGE, NTMS_OPREQ_MOVEMEDIA, NTMS_OPREQ_NEWMEDIA, NTMS_OPSTATE_ACTIVE, NTMS_OPSTATE_COMPLETE, NTMS_OPSTATE_INPROGRESS, NTMS_OPSTATE_REFUSED, NTMS_OPSTATE_SUBMITTED, NTMS_PARTITION, NTMS_PHYSICAL_MEDIA, NTMS_STORAGESLOT, NTMS_UNKNOWN, _NTMS_OPREQUESTINFORMATIONA, _NTMS_OPREQUESTINFORMATIONW, _zaw_ntms_oprequestinformation, base.ntms_oprequestinformation, fs.ntms_oprequestinformation, ntmsapi/NTMS_OPREQUESTINFORMATION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTMS_OPREQUESTINFORMATIONW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTMS_OPREQUESTINFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: NTMS_OPREQUESTINFORMATIONW
+req.redist: 
 ---
 
 # _NTMS_OPREQUESTINFORMATIONW structure

@@ -4,17 +4,16 @@ title: IImageList2::Replace2
 author: windows-sdk-content
 description: Replaces an image in an image list.
 old-location: controls\IImageList2_Replace2.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\replace2.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IImageList2 interface [Windows Controls],Replace2 method, IImageList2.Replace2, IImageList2::Replace2, ILR_DEFAULT, ILR_HORIZONTAL_CENTER, ILR_HORIZONTAL_LEFT, ILR_HORIZONTAL_RIGHT, ILR_SCALE_ASPECTRATIO, ILR_SCALE_CLIP, ILR_VERTICAL_BOTTOM, ILR_VERTICAL_CENTER, ILR_VERTICAL_TOP, Replace2, Replace2 method [Windows Controls], Replace2 method [Windows Controls],IImageList2 interface, _shell_IImageList2_Replace2, _shell_IImageList2_Replace2_cpp, commoncontrols/IImageList2::Replace2, controls.IImageList2_Replace2, controls._shell_IImageList2_Replace2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IImageList2.Replace2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comctl32.dll (version 6.0 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IImageList2::Replace2

@@ -4,17 +4,16 @@ title: IDXGIFactory2
 author: windows-sdk-content
 description: The IDXGIFactory2 interface includes methods to create a newer version swap chain with more features than IDXGISwapChain and to monitor stereoscopic 3D capabilities.
 old-location: direct3ddxgi\idxgifactory2.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: D4F210E1-E184-410A-947A-22ED47B3E9F3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIFactory2, IDXGIFactory2 interface [DXGI], IDXGIFactory2 interface [DXGI],described, direct3ddxgi.idxgifactory2, dxgi1_2/IDXGIFactory2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIFactory2
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIFactory2 interface

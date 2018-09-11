@@ -4,17 +4,16 @@ title: IDirectManipulationViewport::GetStatus
 author: windows-sdk-content
 description: Gets the state of the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_getstatus.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 1c02b2b2-8291-4151-b9c9-d80bf71f5ef5
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetStatus, GetStatus method [Direct Manipulation], GetStatus method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetStatus method, IDirectManipulationViewport.GetStatus, IDirectManipulationViewport::GetStatus, directmanipulation.idirectmanipulationviewport_getstatus, directmanipulation/IDirectManipulationViewport::GetStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationViewport.GetStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationViewport::GetStatus

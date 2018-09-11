@@ -4,17 +4,16 @@ title: IDirectManipulationViewport::SetViewportTransform
 author: windows-sdk-content
 description: Specifies the transform from the viewport coordinate system to the window client coordinate system.
 old-location: directmanipulation\idirectmanipulationviewport_setviewporttransform.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: a35e0565-2833-45d3-b7dc-cf05bf644e96
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetViewportTransform method, IDirectManipulationViewport.SetViewportTransform, IDirectManipulationViewport::SetViewportTransform, SetViewportTransform, SetViewportTransform method [Direct Manipulation], SetViewportTransform method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setviewporttransform, directmanipulation/IDirectManipulationViewport::SetViewportTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationViewport.SetViewportTransform
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationViewport::SetViewportTransform

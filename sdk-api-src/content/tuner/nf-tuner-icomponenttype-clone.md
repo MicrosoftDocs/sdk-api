@@ -4,17 +4,16 @@ title: IComponentType::Clone
 author: windows-sdk-content
 description: The Clone method creates a new copy of this component type.
 old-location: mstv\icomponenttype_clone.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 34cab0cb-8b38-4d03-be2a-ef14bd9505f2
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IComponentType interface, IComponentType interface [Microsoft TV Technologies],Clone method, IComponentType.Clone, IComponentType::Clone, IComponentTypeClone, mstv.icomponenttype_clone, tuner/IComponentType::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponentType.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponentType::Clone
@@ -65,7 +63,7 @@ The <b>Clone</b> method creates a new copy of this component type.
 
 ### -param NewCT
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: CHString::CHString(const unsigned char)
 author: windows-sdk-content
 description: Each of the following constructors initializes a new CHString object with the specified data.
 old-location: wmi\chstring_chstring.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: d49e1600-d5d4-4c44-81c5-1b8c53b768de
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CHString, CHString.CHString, CHString.CHString(const unsigned char), CHString::CHString, CHString::CHString constructors [Windows Management Instrumentation], CHString::CHString(const unsigned char), chstring/CHString::CHString, wmi.chstring_chstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CHString::CHString
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHString::CHString(const unsigned char)

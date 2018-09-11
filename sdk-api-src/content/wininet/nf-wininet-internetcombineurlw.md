@@ -4,17 +4,16 @@ title: InternetCombineUrlW function
 author: windows-sdk-content
 description: Combines a base and relative URL into a single URL. The resultant URL is canonicalized (see InternetCanonicalizeUrl).
 old-location: wininet\internetcombineurl.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 2efcf28a-e82b-47f2-8e8c-95fee70a87e4
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: InternetCombineUrl, InternetCombineUrl function [WinINet], InternetCombineUrlA, InternetCombineUrlW, _inet_internetcombineurl_function, wininet.internetcombineurl, wininet/InternetCombineUrl, wininet/InternetCombineUrlA, wininet/InternetCombineUrlW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - InternetCombineUrlW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InternetCombineUrlW function

@@ -4,7 +4,7 @@ title: tagCHANNEL_PDU_HEADER
 author: windows-sdk-content
 description: Contains information about a data block being received by the server end of a virtual channel.
 old-location: termserv\channel_pdu_header_str.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: f980e746-fc05-45e8-af27-6f137ef01bf9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pchannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CHANNEL_PDU_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.redist: 
 ---
 
 # tagCHANNEL_PDU_HEADER structure

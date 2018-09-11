@@ -4,17 +4,16 @@ title: ICEnroll::put_WriteCertToCSP
 author: windows-sdk-content
 description: The WriteCertToCSP property of ICEnroll4 sets or retrieves a Boolean value that determines whether a certificate should be written to the cryptographic service provider (CSP).
 old-location: security\icenroll4_writecerttocsp.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: cc622f5b-e6d0-48c5-8535-29d6d4b02129
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CEnroll object [Security],WriteCertToCSP property, ICEnroll interface [Security],WriteCertToCSP property, ICEnroll.WriteCertToCSP, ICEnroll.put_WriteCertToCSP, ICEnroll2 interface [Security],WriteCertToCSP property, ICEnroll2.WriteCertToCSP, ICEnroll2::get_WriteCertToCSP, ICEnroll2::put_WriteCertToCSP, ICEnroll3 interface [Security],WriteCertToCSP property, ICEnroll3.WriteCertToCSP, ICEnroll3::get_WriteCertToCSP, ICEnroll3::put_WriteCertToCSP, ICEnroll4 interface [Security],WriteCertToCSP property, ICEnroll4.WriteCertToCSP, ICEnroll4::WriteCertToCSP, ICEnroll4::get_WriteCertToCSP, ICEnroll4::put_WriteCertToCSP, ICEnroll::get_WriteCertToCSP, ICEnroll::put_WriteCertToCSP, WriteCertToCSP property [Security], WriteCertToCSP property [Security],CEnroll object, WriteCertToCSP property [Security],ICEnroll interface, WriteCertToCSP property [Security],ICEnroll2 interface, WriteCertToCSP property [Security],ICEnroll3 interface, WriteCertToCSP property [Security],ICEnroll4 interface, put_WriteCertToCSP, security.icenroll4_writecerttocsp, xenroll/ICEnroll2::WriteCertToCSP, xenroll/ICEnroll2::get_WriteCertToCSP, xenroll/ICEnroll2::put_WriteCertToCSP, xenroll/ICEnroll3::WriteCertToCSP, xenroll/ICEnroll3::get_WriteCertToCSP, xenroll/ICEnroll3::put_WriteCertToCSP, xenroll/ICEnroll4::WriteCertToCSP, xenroll/ICEnroll4::get_WriteCertToCSP, xenroll/ICEnroll4::put_WriteCertToCSP, xenroll/ICEnroll::WriteCertToCSP, xenroll/ICEnroll::get_WriteCertToCSP, xenroll/ICEnroll::put_WriteCertToCSP
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -52,10 +52,8 @@ api_name:
  - CEnroll.WriteCertToCSP
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # ICEnroll::put_WriteCertToCSP

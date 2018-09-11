@@ -4,17 +4,16 @@ title: tag_SWbemQueryQualifiedName
 author: windows-sdk-content
 description: The SWbemQueryQualifiedName structure stores property names for the IWbemQuery::GetAnalysis method.
 old-location: wmi\swbemqueryqualifiedname.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: ce8031a1-b30f-4ff6-90d8-42e46e1b6d89
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: SWbemQueryQualifiedName, SWbemQueryQualifiedName structure [Windows Management Instrumentation], tag_SWbemQueryQualifiedName, wmi.swbemqueryqualifiedname, wmiutils/SWbemQueryQualifiedName
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmiutils.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SWbemQueryQualifiedName
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SWbemQueryQualifiedName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SWbemQueryQualifiedName
+req.redist: 
 ---
 
 # tag_SWbemQueryQualifiedName structure

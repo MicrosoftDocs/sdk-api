@@ -4,17 +4,16 @@ title: "_RIO_BUF"
 author: windows-sdk-content
 description: Specifies a portion of a registered buffer used for sending or receiving network data with the Winsock registered I/O extensions.
 old-location: winsock\rio_buf.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: DD55194E-EE66-4FD4-87BC-E855922CEEA1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRIO_BUF, PRIO_BUF, PRIO_BUF structure pointer [Winsock], RIO_BUF, RIO_BUF structure [Winsock], _RIO_BUF, mswsockdef/PRIO_BUF, mswsockdef/RIO_BUF, winsock.rio_buf"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mswsockdef.h
 req.include-header: Mswsock.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RIO_BUF, *PRIO_BUF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RIO_BUF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: RIO_BUF, *PRIO_BUF
+req.redist: 
 ---
 
 # _RIO_BUF structure

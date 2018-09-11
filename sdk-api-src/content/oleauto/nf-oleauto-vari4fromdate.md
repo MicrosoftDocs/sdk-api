@@ -4,17 +4,16 @@ title: VarI4FromDate function
 author: windows-sdk-content
 description: Converts a date value to a long value.
 old-location: automat\vari4fromdate.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 97ef1fb3-11c8-4889-82d4-9be4734a95ba
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarI4FromDate, VarI4FromDate function [Automation], _oa96_VarI4FromDate, automat.vari4fromdate, oleauto/VarI4FromDate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarI4FromDate
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarI4FromDate function

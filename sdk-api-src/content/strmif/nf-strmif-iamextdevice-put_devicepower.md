@@ -4,17 +4,16 @@ title: IAMExtDevice::put_DevicePower
 author: windows-sdk-content
 description: The put_DevicePower method assigns the external device's power mode to either on, off, or standby.
 old-location: dshow\iamextdevice_put_devicepower.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9cb0c200-aaf4-44fb-b217-6a44a36089b5
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMExtDevice interface [DirectShow],put_DevicePower method, IAMExtDevice.put_DevicePower, IAMExtDevice::put_DevicePower, IAMExtDeviceput_DevicePower, dshow.iamextdevice_put_devicepower, put_DevicePower, put_DevicePower method [DirectShow], put_DevicePower method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::put_DevicePower
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMExtDevice.put_DevicePower
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtDevice::put_DevicePower

@@ -4,7 +4,7 @@ title: tagRGBQUAD
 author: windows-sdk-content
 description: The RGBQUAD structure describes a color consisting of relative intensities of red, green, and blue.
 old-location: gdi\rgbquad.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 22e0991d-078e-4b44-9f03-004137e31f6c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RGBQUAD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RGBQUAD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: RGBQUAD
+req.redist: 
 ---
 
 # tagRGBQUAD structure

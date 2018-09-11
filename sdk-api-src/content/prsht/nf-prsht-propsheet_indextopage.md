@@ -4,17 +4,16 @@ title: PropSheet_IndexToPage macro
 author: windows-sdk-content
 description: Takes the index of a property sheet page and returns its HPROPSHEETPAGE handle. You can use this macro or send the PSM_INDEXTOPAGE message explicitly.
 old-location: controls\PropSheet_IndexToPage.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_indextopage.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PropSheet_IndexToPage, PropSheet_IndexToPage macro [Windows Controls], _win32_PropSheet_IndexToPage, _win32_PropSheet_IndexToPage_cpp, controls.PropSheet_IndexToPage, controls._win32_PropSheet_IndexToPage, prsht/PropSheet_IndexToPage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropSheet_IndexToPage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PropSheet_IndexToPage macro

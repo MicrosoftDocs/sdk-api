@@ -4,17 +4,16 @@ title: "_WINBIO_STORAGE_RECORD"
 author: windows-sdk-content
 description: Contains a biometric template and associated data in a standard format.
 old-location: secbiomet\winbio_storage_record.htm
-old-project: secbiomet
+tech.root: SecBioMet
 ms.assetid: fd638a08-cff0-4984-8580-a1eecd509a1f
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWINBIO_STORAGE_RECORD, PWINBIO_STORAGE_RECORD, PWINBIO_STORAGE_RECORD structure pointer [Windows Biometric Framework API], WINBIO_STORAGE_RECORD, WINBIO_STORAGE_RECORD structure [Windows Biometric Framework API], _WINBIO_STORAGE_RECORD, secbiomet.winbio_storage_record, winbio_adapter/PWINBIO_STORAGE_RECORD, winbio_adapter/WINBIO_STORAGE_RECORD"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbio_adapter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_STORAGE_RECORD, *PWINBIO_STORAGE_RECORD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINBIO_STORAGE_RECORD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINBIO_STORAGE_RECORD, *PWINBIO_STORAGE_RECORD
+req.redist: 
 ---
 
 # _WINBIO_STORAGE_RECORD structure

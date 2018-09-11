@@ -4,17 +4,16 @@ title: "_APTTYPEQUALIFIER"
 author: windows-sdk-content
 description: Specifies the set of possible COM apartment type qualifiers.
 old-location: com\apttypequalifier.htm
-old-project: com
+tech.root: com
 ms.assetid: ac28076d-d266-4939-b6c1-d56494ffbcd8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: APTTYPEQUALIFIER, APTTYPEQUALIFIER enumeration [COM], APTTYPEQUALIFIER_IMPLICIT_MTA, APTTYPEQUALIFIER_NA_ON_IMPLICIT_MTA, APTTYPEQUALIFIER_NA_ON_MAINSTA, APTTYPEQUALIFIER_NA_ON_MTA, APTTYPEQUALIFIER_NA_ON_STA, APTTYPEQUALIFIER_NONE, _APTTYPEQUALIFIER, com.apttypequalifier, objidlbase/APTTYPEQUALIFIER, objidlbase/APTTYPEQUALIFIER_IMPLICIT_MTA, objidlbase/APTTYPEQUALIFIER_NA_ON_IMPLICIT_MTA, objidlbase/APTTYPEQUALIFIER_NA_ON_MAINSTA, objidlbase/APTTYPEQUALIFIER_NA_ON_MTA, objidlbase/APTTYPEQUALIFIER_NA_ON_STA, objidlbase/APTTYPEQUALIFIER_NONE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidlbase.h
 req.include-header: Objidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Objidlbase.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APTTYPEQUALIFIER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - APTTYPEQUALIFIER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: APTTYPEQUALIFIER
+req.redist: 
 ---
 
 # _APTTYPEQUALIFIER enumeration

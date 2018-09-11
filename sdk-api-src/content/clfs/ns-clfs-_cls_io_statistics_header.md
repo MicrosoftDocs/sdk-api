@@ -4,7 +4,7 @@ title: "_CLS_IO_STATISTICS_HEADER"
 author: windows-sdk-content
 description: Header for information retrieved by the GetLogIoStatistics function, which defines the I/O performance counters of a log.
 old-location: fs\clfs_io_statistics_header.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: ebf3f962-5c15-4caf-910a-13bf02137046
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLS_IO_STATISTICS_HEADER, *PCLS_IO_STATISTICS_HEADER, PPCLS_IO_STATISTICS_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLFS_IO_STATISTICS_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLS_IO_STATISTICS_HEADER, *PCLS_IO_STATISTICS_HEADER, PPCLS_IO_STATISTICS_HEADER
+req.redist: 
 ---
 
 # _CLS_IO_STATISTICS_HEADER structure

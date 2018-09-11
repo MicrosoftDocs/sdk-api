@@ -4,17 +4,16 @@ title: Icmp6CreateFile function
 author: windows-sdk-content
 description: The Icmp6CreateFile function opens a handle on which IPv6 ICMP echo requests can be issued.
 old-location: iphlp\icmp6createfile.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 2ddb23d8-a4e6-47c4-a552-2815ccaf055f
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: Icmp6CreateFile, Icmp6CreateFile function [IP Helper], icmpapi/Icmp6CreateFile, iphlp.icmp6createfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: icmpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Icmp6CreateFile
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # Icmp6CreateFile function

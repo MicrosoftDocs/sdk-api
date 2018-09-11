@@ -4,17 +4,16 @@ title: IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
 author: windows-sdk-content
 description: Enables providers to support auto-recover shadow copies.
 old-location: base\ivssprovidercreatesnapshotset_prefinalcommitsnapshots.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 6d6895b9-6e6c-4c4c-b7c9-a4eff771567a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PreFinalCommitSnapshots method, IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots, IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots, PreFinalCommitSnapshots, PreFinalCommitSnapshots method [VSS], PreFinalCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_prefinalcommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots

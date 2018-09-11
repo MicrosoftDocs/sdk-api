@@ -4,17 +4,16 @@ title: IDataCollectorSet::get_TaskArguments
 author: windows-sdk-content
 description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IDataCollectorSet::Task property.
 old-location: pla\idatacollectorset_get_taskarguments.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 7bd045df-379b-40fb-b309-cec531493018
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],TaskArguments property, IDataCollectorSet.TaskArguments, IDataCollectorSet.get_TaskArguments, IDataCollectorSet::TaskArguments, IDataCollectorSet::get_TaskArguments, IDataCollectorSet::put_TaskArguments, TaskArguments property [PLA], TaskArguments property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_taskarguments, get_TaskArguments, pla.idatacollectorset_get_taskarguments, pla/IDataCollectorSet::TaskArguments, pla/IDataCollectorSet::get_TaskArguments, pla/IDataCollectorSet::put_TaskArguments
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataCollectorSet.put_TaskArguments
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::get_TaskArguments

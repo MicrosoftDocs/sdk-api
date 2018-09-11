@@ -4,17 +4,16 @@ title: PowerSettingRegisterNotification function
 author: windows-sdk-content
 description: Registers to receive notification when a power setting changes.
 old-location: base\powersettingregisternotification.htm
-old-project: power
+tech.root: power
 ms.assetid: 0fbca717-2367-4407-8094-3eb2b717b59c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DEVICE_NOTIFY_CALLBACK, DEVICE_NOTIFY_SERVICE_HANDLE, PowerSettingRegisterNotification, PowerSettingRegisterNotification function, base.powersettingregisternotification, powersetting/PowerSettingRegisterNotification, powrprof/PowerSettingRegisterNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powersetting.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: Powrprof.lib
+req.dll: Powrprof.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - PowerSettingRegisterNotification
 product: Windows
 targetos: Windows
-req.lib: Powrprof.lib
-req.dll: Powrprof.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PowerSettingRegisterNotification function

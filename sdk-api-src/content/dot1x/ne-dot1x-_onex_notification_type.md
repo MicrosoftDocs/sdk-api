@@ -4,7 +4,7 @@ title: "_ONEX_NOTIFICATION_TYPE"
 author: windows-sdk-content
 description: Specifies the possible values of the NotificationCode member of the WLAN_NOTIFICATION_DATA structure for 802.1X module notifications.
 old-location: nwifi\onex_notification_type.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: c5892938-9798-4c09-a766-4924cda4d090
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dot1x.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ONEX_NOTIFICATION_TYPE, PONEX_NOTIFICATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ONEX_NOTIFICATION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ONEX_NOTIFICATION_TYPE, PONEX_NOTIFICATION_TYPE
+req.redist: 
 ---
 
 # _ONEX_NOTIFICATION_TYPE enumeration

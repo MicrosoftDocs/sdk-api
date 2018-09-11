@@ -4,17 +4,16 @@ title: Gender
 author: windows-sdk-content
 description: Do not use. The Gender enumeration specifies the possible values for the PR_GENDER property.
 old-location: wab\_wab_gender.htm
-old-project: wab
+tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\enums\gender.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: Gender, Gender enumeration [Windows Address Book], _wab_gender, genderFemale, genderMale, genderUnspecified, wab._wab_gender, wabtags/Gender, wabtags/genderFemale, wabtags/genderMale, wabtags/genderUnspecified
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wabtags.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Gender
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows Address Book 5.0
 ---
 

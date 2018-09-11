@@ -4,17 +4,16 @@ title: ISyncMgrEventLinkUIOperation::Init
 author: windows-sdk-content
 description: Enables Sync Center to provide the event to link to so ISyncMgrUIOperation::Run knows which event to operate upon.
 old-location: shell\ISyncMgrEventLinkUIOperation_Init.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6f9c9fd9-54f9-423d-af91-6f569a7c8616
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrEventLinkUIOperation interface [Windows Shell],Init method, ISyncMgrEventLinkUIOperation.Init, ISyncMgrEventLinkUIOperation::Init, Init, Init method [Windows Shell], Init method [Windows Shell],ISyncMgrEventLinkUIOperation interface, _shell_ISyncMgrEventLinkUIOperation_Init, shell.ISyncMgrEventLinkUIOperation_Init, syncmgr/ISyncMgrEventLinkUIOperation::Init
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrEventLinkUIOperation.Init
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrEventLinkUIOperation::Init

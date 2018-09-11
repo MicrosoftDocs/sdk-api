@@ -4,7 +4,7 @@ title: "_DD_CLIPPER_GLOBAL"
 author: windows-sdk-content
 description: The DD_CLIPPER_GLOBAL structure contains the global DirectDrawClipper data that can be shared between object instances.
 old-location: display\dd_clipper_global.htm
-old-project: display
+tech.root: display
 ms.assetid: 14dffd72-748c-4087-81ef-215eb009bdea
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_CLIPPER_GLOBAL, DD_CLIPPER_GLOBAL"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_CLIPPER_GLOBAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_CLIPPER_GLOBAL, DD_CLIPPER_GLOBAL"
+req.redist: 
 ---
 
 # _DD_CLIPPER_GLOBAL structure

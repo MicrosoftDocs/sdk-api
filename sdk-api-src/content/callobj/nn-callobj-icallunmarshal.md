@@ -4,17 +4,16 @@ title: ICallUnmarshal
 author: windows-sdk-content
 description: Is used on the server (receiving) side of a remote invocation.
 old-location: com\icallunmarshal.htm
-old-project: com
+tech.root: com
 ms.assetid: 66de8d71-c27c-41bd-a741-02de5c779290
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICallUnmarshal, ICallUnmarshal interface [COM], ICallUnmarshal interface [COM],described, _com_icallunmarshal_interface, callobj/ICallUnmarshal, com.icallunmarshal
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICallUnmarshal
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICallUnmarshal interface

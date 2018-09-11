@@ -4,7 +4,7 @@ title: DNS_TSIG_DATAW
 author: windows-sdk-content
 description: The DNS_TSIG_DATA structure represents a secret key transaction authentication (TSIG) resource record (RR) as specified in RFC 2845 and RFC 3645.
 old-location: dns\dns_tsig_data.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 32077169-d319-45c0-982f-8d470cd70111
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_TSIG_DATAW, *PDNS_TSIG_DATAW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_TSIG_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_TSIG_DATAW, *PDNS_TSIG_DATAW
+req.redist: 
 ---
 
 # DNS_TSIG_DATAW structure

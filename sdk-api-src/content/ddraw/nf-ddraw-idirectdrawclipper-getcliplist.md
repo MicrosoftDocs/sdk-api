@@ -4,17 +4,16 @@ title: IDirectDrawClipper::GetClipList
 author: windows-sdk-content
 description: Retrieves a copy of the clip list that is associated with a DirectDrawClipper object. To select a subset of the clip list, you can pass a rectangle that clips the clip list.
 old-location: directdraw\idirectdrawclipper_getcliplist.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 0446f8b9-c965-4336-ae78-5bb791861844
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetClipList, GetClipList method [DirectDraw], GetClipList method [DirectDraw],IDirectDrawClipper interface, IDirectDrawClipper interface [DirectDraw],GetClipList method, IDirectDrawClipper.GetClipList, IDirectDrawClipper::GetClipList, ddraw/IDirectDrawClipper::GetClipList, directdraw.idirectdrawclipper_getcliplist
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawClipper.GetClipList
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawClipper::GetClipList
@@ -60,9 +59,19 @@ Retrieves a copy of the clip list that is associated with a DirectDrawClipper ob
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
 
 
 

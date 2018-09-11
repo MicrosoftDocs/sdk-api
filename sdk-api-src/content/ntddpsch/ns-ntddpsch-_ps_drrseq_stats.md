@@ -4,17 +4,16 @@ title: "_PS_DRRSEQ_STATS"
 author: windows-sdk-content
 description: The PS_DRRSEQ_STATS structure provides network interface card (NIC) and packet sequencer&#8211;packet shaper statistics. Note that the PS_DRRSEQ_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.
 old-location: qos\ps_drrseq_stats.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: c8d5bf61-5a19-4bbd-ae4c-0502b6803191
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPS_DRRSEQ_STATS, PPS_DRRSEQ_STATS, PPS_DRRSEQ_STATS structure pointer [QOS], PS_DRRSEQ_STATS, PS_DRRSEQ_STATS structure [QOS], _PS_DRRSEQ_STATS, _gqos_ps_drrseq_stats, ntddpsch/PPS_DRRSEQ_STATS, ntddpsch/PS_DRRSEQ_STATS, qos.ps_drrseq_stats"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntddpsch.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PS_DRRSEQ_STATS, *PPS_DRRSEQ_STATS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PS_DRRSEQ_STATS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: PS_DRRSEQ_STATS, *PPS_DRRSEQ_STATS
+req.redist: 
 ---
 
 # _PS_DRRSEQ_STATS structure

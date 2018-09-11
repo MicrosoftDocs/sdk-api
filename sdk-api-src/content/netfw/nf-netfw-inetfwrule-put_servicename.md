@@ -4,17 +4,16 @@ title: INetFwRule::put_ServiceName
 author: windows-sdk-content
 description: Specifies the service name property of the application.
 old-location: ics\inetfwrule_servicename.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 52bcc317-b900-44b6-8ab4-637ffbd74729
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwRule interface [ICS/ICF],ServiceName property, INetFwRule.ServiceName, INetFwRule.put_ServiceName, INetFwRule::ServiceName, INetFwRule::get_ServiceName, INetFwRule::put_ServiceName, ServiceName property [ICS/ICF], ServiceName property [ICS/ICF],INetFwRule interface, ics.inetfwrule_servicename, netfw/INetFwRule::ServiceName, netfw/INetFwRule::get_ServiceName, netfw/INetFwRule::put_ServiceName, put_ServiceName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwRule.put_ServiceName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwRule::put_ServiceName

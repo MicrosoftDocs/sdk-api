@@ -4,17 +4,16 @@ title: IPackageDebugSettings::GetPackageExecutionState
 author: windows-sdk-content
 description: Returns the current execution state of the specified package.
 old-location: shell\IPackageDebugSettings_GetPackageExecutionState.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 39560adc-9d35-48ec-8b70-2ed4b83dd1f6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetPackageExecutionState, GetPackageExecutionState method [Windows Shell], GetPackageExecutionState method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],GetPackageExecutionState method, IPackageDebugSettings.GetPackageExecutionState, IPackageDebugSettings::GetPackageExecutionState, shell.IPackageDebugSettings_GetPackageExecutionState, shobjidl_core/IPackageDebugSettings::GetPackageExecutionState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPackageDebugSettings.GetPackageExecutionState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPackageDebugSettings::GetPackageExecutionState

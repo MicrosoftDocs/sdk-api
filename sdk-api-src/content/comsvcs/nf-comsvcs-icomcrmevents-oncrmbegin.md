@@ -4,17 +4,16 @@ title: IComCRMEvents::OnCRMBegin
 author: windows-sdk-content
 description: Generated when a CRM clerk is starting, either due to a client registering a compensator or during recovery.
 old-location: cos\icomcrmevents_oncrmbegin.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 8975cb5e-024f-40bf-acd7-c5af0abd88a0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMBegin method, IComCRMEvents.OnCRMBegin, IComCRMEvents::OnCRMBegin, OnCRMBegin, OnCRMBegin method [COM+], OnCRMBegin method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMBegin, comsvcs/IComCRMEvents::OnCRMBegin, cos.icomcrmevents_oncrmbegin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComCRMEvents.OnCRMBegin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComCRMEvents::OnCRMBegin

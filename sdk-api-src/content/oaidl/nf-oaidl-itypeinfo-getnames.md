@@ -4,17 +4,16 @@ title: ITypeInfo::GetNames
 author: windows-sdk-content
 description: Retrieves the variable with the specified member ID or the name of the property or method and the parameters that correspond to the specified function ID.
 old-location: automat\itypeinfo_getnames.htm
-old-project: automat
+tech.root: automat
 ms.assetid: ff318d92-9624-48aa-a0f9-8b8826121753
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetNames, GetNames method [Automation], GetNames method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetNames method, ITypeInfo.GetNames, ITypeInfo::GetNames, _oa96_ITypeInfo_GetNames, automat.itypeinfo_getnames, oaidl/ITypeInfo::GetNames
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo.GetNames
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo::GetNames

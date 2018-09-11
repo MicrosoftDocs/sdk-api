@@ -4,7 +4,7 @@ title: IEnumDot11AdHocSecuritySettings
 author: windows-sdk-content
 description: Represents the collection of security settings associated with each visible wireless ad hoc network.
 old-location: nwifi\ienumdot11adhocsecuritysettings.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 137abd1b-997d-4003-9fef-8db56b273149
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumDot11AdHocSecuritySettings
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumDot11AdHocSecuritySettings interface

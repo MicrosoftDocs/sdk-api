@@ -4,17 +4,16 @@ title: IATSCTuningSpace::get_MaxMinorChannel
 author: windows-sdk-content
 description: The get_MaxMinorChannel method gets the highest minor channel number for this tuning space.
 old-location: mstv\iatsctuningspace_get_maxminorchannel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 55bfef31-f9c2-4edb-b4a9-369424584316
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],get_MaxMinorChannel method, IATSCTuningSpace.get_MaxMinorChannel, IATSCTuningSpace::get_MaxMinorChannel, IATSCTuningSpaceget_MaxMinorChannel, get_MaxMinorChannel, get_MaxMinorChannel method [Microsoft TV Technologies], get_MaxMinorChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, mstv.iatsctuningspace_get_maxminorchannel, tuner/IATSCTuningSpace::get_MaxMinorChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IATSCTuningSpace.get_MaxMinorChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IATSCTuningSpace::get_MaxMinorChannel
@@ -65,7 +63,7 @@ The <b>get_MaxMinorChannel</b> method gets the highest minor channel number for 
 
 ### -param MaxMinorChannelVal
 
-
+TBD
 
 
 

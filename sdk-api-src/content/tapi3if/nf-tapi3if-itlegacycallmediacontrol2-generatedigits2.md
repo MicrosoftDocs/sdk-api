@@ -4,17 +4,16 @@ title: ITLegacyCallMediaControl2::GenerateDigits2
 author: windows-sdk-content
 description: The GenerateDigits2 method causes digits to be output on the current call. This method extends the ITLegacyCallMediaControl::GenerateDigits method by adding a duration parameter.
 old-location: tapi3\itlegacycallmediacontrol2_generatedigits2.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 63ea18ef-18ca-4771-a7d9-60d4e8c514a5
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: GenerateDigits2, GenerateDigits2 method [TAPI 2.2], GenerateDigits2 method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GenerateDigits2 method, ITLegacyCallMediaControl2.GenerateDigits2, ITLegacyCallMediaControl2::GenerateDigits2, _tapi3_itlegacycallmediacontrol2_generatedigits2, tapi3.itlegacycallmediacontrol2_generatedigits2, tapi3if/ITLegacyCallMediaControl2::GenerateDigits2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITLegacyCallMediaControl2.GenerateDigits2
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITLegacyCallMediaControl2::GenerateDigits2

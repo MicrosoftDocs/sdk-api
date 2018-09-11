@@ -4,17 +4,16 @@ title: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
 author: windows-sdk-content
 description: Specifies the various actions that can be performed when a resource has an embedded failure.
 old-location: mscs\cluster_resource_embedded_failure_action.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 72251E97-0DBC-4EEA-BACF-3F7677483F29
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION, CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION enumeration [Failover Cluster], ClusterResourceEmbeddedFailureActionLogOnly, ClusterResourceEmbeddedFailureActionNone, ClusterResourceEmbeddedFailureActionRecover, clusapi/CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION, clusapi/ClusterResourceEmbeddedFailureActionLogOnly, clusapi/ClusterResourceEmbeddedFailureActionNone, clusapi/ClusterResourceEmbeddedFailureActionRecover, msclus/CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION, msclus/ClusterResourceEmbeddedFailureActionLogOnly, msclus/ClusterResourceEmbeddedFailureActionNone, msclus/ClusterResourceEmbeddedFailureActionRecover, mscs.cluster_resource_embedded_failure_action
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: CluAdmEx.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
+req.redist: 
 ---
 
 # CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION enumeration

@@ -4,17 +4,16 @@ title: "_MPR_SERVER_0"
 author: windows-sdk-content
 description: The MPR_SERVER_0 structure is used to retrieve information about a device.
 old-location: rras\mpr_server_0.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: cffda25b-28f8-4d76-987c-eadcea9c032b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMPR_SERVER_0, MPR_SERVER_0, MPR_SERVER_0 structure [RAS], PMPR_SERVER_0, PMPR_SERVER_0 structure pointer [RAS], _MPR_SERVER_0, _mpr_mpr_server_0, mprapi/MPR_SERVER_0, mprapi/PMPR_SERVER_0, rras.mpr_server_0"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR_SERVER_0, *PMPR_SERVER_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPR_SERVER_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPR_SERVER_0, *PMPR_SERVER_0
+req.redist: 
 ---
 
 # _MPR_SERVER_0 structure

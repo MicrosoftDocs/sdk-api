@@ -4,17 +4,16 @@ title: NtDeviceIoControlFile function
 author: windows-sdk-content
 description: Deprecated. Builds descriptors for the supplied buffer(s) and passes the untyped data to the device driver associated with the file handle. NtDeviceIoControlFile is superseded by DeviceIoControl.
 old-location: winprog\ntdeviceiocontrolfile.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntdeviceiocontrolfile.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NtDeviceIoControlFile, NtDeviceIoControlFile function [Windows API], winprog.ntdeviceiocontrolfile, winternl/NtDeviceIoControlFile, winui.ntdeviceiocontrolfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_VERSION
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NtDeviceIoControlFile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Ntdll.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # NtDeviceIoControlFile function

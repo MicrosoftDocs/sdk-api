@@ -4,17 +4,16 @@ title: SetupDiSetDeviceInstallParamsA function
 author: windows-sdk-content
 description: The SetupDiSetDeviceInstallParams function sets device installation parameters for a device information set or a particular device information element.
 old-location: devinst\setupdisetdeviceinstallparams.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 20384538-e124-41f7-94a6-c0fb9f5fe6a0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiSetDeviceInstallParams, SetupDiSetDeviceInstallParams function [Device and Driver Installation], SetupDiSetDeviceInstallParamsA, SetupDiSetDeviceInstallParamsW, devinst.setupdisetdeviceinstallparams, di-rtns_4d977738-ea9e-4bb7-b0a6-37099647b8c8.xml, setupapi/SetupDiSetDeviceInstallParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiSetDeviceInstallParams
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiSetDeviceInstallParamsA function

@@ -4,17 +4,16 @@ title: IXpsOMSignatureBlockResourceCollection::InsertAt
 author: windows-sdk-content
 description: Inserts an IXpsOMSignatureBlockResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_insertat.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: bcb9d712-35b6-4dfc-91dc-dd376950e1e8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMSignatureBlockResourceCollection.InsertAt, IXpsOMSignatureBlockResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, xps.ixpsomsignatureblockresourcecollection_insertat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::InsertAt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMSignatureBlockResourceCollection.InsertAt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMSignatureBlockResourceCollection::InsertAt

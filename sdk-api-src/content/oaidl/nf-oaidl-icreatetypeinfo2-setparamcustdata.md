@@ -4,17 +4,16 @@ title: ICreateTypeInfo2::SetParamCustData
 author: windows-sdk-content
 description: Sets a value for the custom data for the specified parameter.
 old-location: automat\icreatetypeinfo2_setparamcustdata.htm
-old-project: automat
+tech.root: automat
 ms.assetid: df1a1ab0-c971-4d3e-ba63-45be66330027
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetParamCustData method, ICreateTypeInfo2.SetParamCustData, ICreateTypeInfo2::SetParamCustData, SetParamCustData, SetParamCustData method [Automation], SetParamCustData method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetParamCustData, automat.icreatetypeinfo2_setparamcustdata, oaidl/ICreateTypeInfo2::SetParamCustData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeInfo2.SetParamCustData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeInfo2::SetParamCustData

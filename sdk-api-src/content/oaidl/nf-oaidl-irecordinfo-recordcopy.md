@@ -4,17 +4,16 @@ title: IRecordInfo::RecordCopy
 author: windows-sdk-content
 description: Copies an existing record into the passed in buffer.
 old-location: automat\irecordinfo_recordcopy.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 0e5a57a2-06d1-47b3-8e3c-c8718b550bcb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRecordInfo interface [Automation],RecordCopy method, IRecordInfo.RecordCopy, IRecordInfo::RecordCopy, RecordCopy, RecordCopy method [Automation], RecordCopy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordCopy, automat.irecordinfo_recordcopy, oaidl/IRecordInfo::RecordCopy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRecordInfo.RecordCopy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRecordInfo::RecordCopy

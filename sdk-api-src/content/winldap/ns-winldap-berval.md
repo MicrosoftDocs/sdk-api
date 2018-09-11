@@ -4,7 +4,7 @@ title: berval
 author: windows-sdk-content
 description: The berval structure represents arbitrary binary data that is encoded according to Basic Encoding Rules (BER). Use a berval to represent any attribute that cannot be represented by a null-terminated string.
 old-location: ldap\berval.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 1f279905-ab02-4a8b-9b77-e8ea2b56e882
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LDAP_BERVAL, *PLDAP_BERVAL, BERVAL, *PBERVAL, BerValue
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LDAP_BERVAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: LDAP_BERVAL, *PLDAP_BERVAL, BERVAL, *PBERVAL, BerValue
+req.redist: 
 ---
 
 # berval structure

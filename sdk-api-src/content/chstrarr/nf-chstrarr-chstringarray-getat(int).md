@@ -4,17 +4,16 @@ title: CHStringArray::GetAt(int)
 author: windows-sdk-content
 description: Gets the array element at the specified index.
 old-location: wmi\chstringarray_getat.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: a950bc1e-1c13-4880-aee7-9a4606979993
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],GetAt method, CHStringArray.GetAt, CHStringArray.GetAt(int), CHStringArray::GetAt, CHStringArray::GetAt(int), GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_getat, chstrarr/CHStringArray::GetAt, wmi.chstringarray_getat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstrarr.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CHStringArray.GetAt
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHStringArray::GetAt(int)

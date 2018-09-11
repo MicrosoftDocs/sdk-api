@@ -4,17 +4,16 @@ title: IItemEnumerator::MoveNext
 author: windows-sdk-content
 description: Moves the current position to the next item in the enumerator if available.
 old-location: smi\iitemenumerator_movenext.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: bdec3ee4-e66a-4e93-9109-c5721d06eb63
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IItemEnumerator interface [SMI],MoveNext method, IItemEnumerator.MoveNext, IItemEnumerator::MoveNext, MoveNext, MoveNext method [SMI], MoveNext method [SMI],IItemEnumerator interface, smi.iitemenumerator_movenext, wcmconfig/IItemEnumerator::MoveNext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IItemEnumerator.MoveNext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IItemEnumerator::MoveNext

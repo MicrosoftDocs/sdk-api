@@ -4,17 +4,16 @@ title: lineGetAgentSessionList function
 author: windows-sdk-content
 description: The lineGetAgentSessionList function returns a list of agent sessions created for the specified agent.
 old-location: tapi2\linegetagentsessionlist.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6473d5dd-e08e-47f8-acad-b60943525b83
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: "_tapi2_linegetagentsessionlist, lineGetAgentSessionList, lineGetAgentSessionList function [TAPI 2.2], tapi/lineGetAgentSessionList, tapi2.linegetagentsessionlist"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - lineGetAgentSessionList
 product: Windows
 targetos: Windows
-req.lib: Tapi32.lib
-req.dll: Tapi32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # lineGetAgentSessionList function

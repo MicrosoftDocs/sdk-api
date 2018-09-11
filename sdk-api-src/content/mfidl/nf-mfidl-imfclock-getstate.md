@@ -4,17 +4,16 @@ title: IMFClock::GetState
 author: windows-sdk-content
 description: Retrieves the current state of the clock.
 old-location: mf\imfclock_getstate.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8e2dda03-f589-4572-b715-2be7b29a6ace
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 8e2dda03-f589-4572-b715-2be7b29a6ace, GetState, GetState method [Media Foundation], GetState method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetState method, IMFClock.GetState, IMFClock::GetState, mf.imfclock_getstate, mfidl/IMFClock::GetState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFClock.GetState
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFClock::GetState

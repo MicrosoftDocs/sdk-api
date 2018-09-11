@@ -4,17 +4,16 @@ title: ICertSrvSetup::SetCASetupProperty
 author: windows-sdk-content
 description: Sets a property value for a certification authority (CA) configuration.
 old-location: security\icertsrvsetup_setcasetupproperty.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 91df1926-a4b6-4ba2-ab59-0258293fc1c0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ICertSrvSetup interface [Security],SetCASetupProperty method, ICertSrvSetup.SetCASetupProperty, ICertSrvSetup::SetCASetupProperty, SetCASetupProperty, SetCASetupProperty method [Security], SetCASetupProperty method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetCASetupProperty, security.icertsrvsetup_setcasetupproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertSrvSetup.SetCASetupProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertSrvSetup::SetCASetupProperty

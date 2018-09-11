@@ -4,17 +4,16 @@ title: IVdsController::GetPortProperties
 author: windows-sdk-content
 description: Returns the properties of the specified controller port.
 old-location: base\ivdscontroller_getportproperties.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 01972923-2a43-4a80-80f8-8dab4207bbc4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetPortProperties, GetPortProperties method [VDS], GetPortProperties method [VDS],IVdsController interface, IVdsController interface [VDS],GetPortProperties method, IVdsController.GetPortProperties, IVdsController::GetPortProperties, base.ivdscontroller_getportproperties, vds/IVdsController::GetPortProperties, vdshwprv/IVdsController::GetPortProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsController.GetPortProperties
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsController::GetPortProperties

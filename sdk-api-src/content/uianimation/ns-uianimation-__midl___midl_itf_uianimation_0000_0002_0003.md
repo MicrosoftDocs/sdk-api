@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_UIAnimation_0000_0002_0003"
 author: windows-sdk-content
 description: Defines a keyframe, which represents a time offset within a storyboard.
 old-location: uianimation\ui_animation_keyframe.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 4ac3d524-35a6-4cb9-a468-b7f88500a49c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*UI_ANIMATION_KEYFRAME, UI_ANIMATION_KEYFRAME, UI_ANIMATION_KEYFRAME structure [Windows Animation], __MIDL___MIDL_itf_UIAnimation_0000_0002_0003, uianimation.ui_animation_keyframe, uianimation/UI_ANIMATION_KEYFRAME"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_ANIMATION_KEYFRAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: "*UI_ANIMATION_KEYFRAME"
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_UIAnimation_0000_0002_0003 structure

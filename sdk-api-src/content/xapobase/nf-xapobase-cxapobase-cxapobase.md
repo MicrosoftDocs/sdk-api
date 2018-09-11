@@ -4,17 +4,16 @@ title: CXAPOBase::CXAPOBase
 author: windows-sdk-content
 description: Creates an instance of the CXAPOBase class.
 old-location: xaudio2\cxapobase_cxapobase.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.CXAPOBase(const XAPO_REGISTRATION_PROPERTIES)
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CXAPOBase, CXAPOBase interface [XAudio2 Audio Mixing APIs],CXAPOBase method, CXAPOBase method [XAudio2 Audio Mixing APIs], CXAPOBase method [XAudio2 Audio Mixing APIs],CXAPOBase interface, CXAPOBase.CXAPOBase, CXAPOBase::CXAPOBase, xapobase/CXAPOBase::CXAPOBase, xaudio2.cxapobase_cxapobase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xapobase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAPO_REGISTRATION_PROPERTIES
+req.lib: XAPOBase.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CXAPOBase.CXAPOBase
 product: Windows
 targetos: Windows
-req.lib: XAPOBase.lib
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # CXAPOBase::CXAPOBase
@@ -63,7 +61,7 @@ Creates an instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee4
 
 ### -param pRegistrationProperties
 
-
+TBD
 
 
 

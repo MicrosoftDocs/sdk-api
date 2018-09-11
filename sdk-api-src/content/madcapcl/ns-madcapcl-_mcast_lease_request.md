@@ -4,7 +4,7 @@ title: "_MCAST_LEASE_REQUEST"
 author: windows-sdk-content
 description: The MCAST_LEASE_REQUEST structure defines the request, renew, or release parameters for a given multicast scope. In the MCAST_API_VERSION_1 implementation, only one IP address may be allocated at a time.
 old-location: madcap\mcast_lease_request.htm
-old-project: madcap
+tech.root: madcap
 ms.assetid: 3110a1f3-e252-4eab-bf69-cbecfd65a5e0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: madcapcl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MCAST_LEASE_REQUEST, *PMCAST_LEASE_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCAST_LEASE_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MCAST_LEASE_REQUEST, *PMCAST_LEASE_REQUEST
+req.redist: 
 ---
 
 # _MCAST_LEASE_REQUEST structure

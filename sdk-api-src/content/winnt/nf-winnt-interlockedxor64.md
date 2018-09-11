@@ -4,17 +4,16 @@ title: InterlockedXor64 function
 author: windows-sdk-content
 description: Performs an atomic XOR operation on the specified LONGLONG values.
 old-location: base\interlockedxor64.htm
-old-project: sync
+tech.root: Sync
 ms.assetid: b0eef2c9-5b28-462b-91cb-20a337efca7e
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: InterlockedXor64, InterlockedXor64 function, base.interlockedxor64, winnt/InterlockedXor64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InterlockedXor64
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InterlockedXor64 function

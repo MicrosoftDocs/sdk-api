@@ -4,7 +4,7 @@ title: "_DFS_SUPPORTED_NAMESPACE_VERSION_INFO"
 author: windows-sdk-content
 description: Contains version information for a DFS namespace.
 old-location: dfs\dfs_supported_namespace_version_info.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: ee75c500-70c6-4dce-9d38-36cacd695746
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_SUPPORTED_NAMESPACE_VERSION_INFO, *PDFS_SUPPORTED_NAMESPACE_VERSION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DFS_SUPPORTED_NAMESPACE_VERSION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DFS_SUPPORTED_NAMESPACE_VERSION_INFO, *PDFS_SUPPORTED_NAMESPACE_VERSION_INFO
+req.redist: 
 ---
 
 # _DFS_SUPPORTED_NAMESPACE_VERSION_INFO structure

@@ -4,17 +4,16 @@ title: IXamlDiagnostics::GetHandleFromIInspectable
 author: windows-sdk-content
 description: Gets an InstanceHandle representation of an IInspectable.
 old-location: xaml_diagnostics\ixamldiagnostics_gethandlefromiinspectable.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: 334497D9-11ED-4002-AEAB-0454EB62E53C
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetHandleFromIInspectable, GetHandleFromIInspectable method, GetHandleFromIInspectable method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetHandleFromIInspectable method, IXamlDiagnostics.GetHandleFromIInspectable, IXamlDiagnostics::GetHandleFromIInspectable, xaml_diagnostics.ixamldiagnostics_gethandlefromiinspectable, xamlom/IXamlDiagnostics::GetHandleFromIInspectable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualMutationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXamlDiagnostics.GetHandleFromIInspectable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXamlDiagnostics::GetHandleFromIInspectable

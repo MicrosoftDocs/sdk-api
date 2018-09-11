@@ -4,17 +4,16 @@ title: "_VDS_PARTITION_INFORMATION_EX"
 author: windows-sdk-content
 description: This structure is reserved for system use.
 old-location: base\vds_partition_information_ex.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 99ded61d-fcbc-4e1c-8b3a-69c14d4c20bb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: PVDS_PARTITION_INFORMATION_EX, PVDS_PARTITION_INFORMATION_EX structure pointer, VDS_PARTITION_INFORMATION_EX, VDS_PARTITION_INFORMATION_EX structure, _VDS_PARTITION_INFORMATION_EX, base.vds_partition_information_ex, vds/PVDS_PARTITION_INFORMATION_EX, vds/VDS_PARTITION_INFORMATION_EX
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PARTITION_INFORMATION_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_PARTITION_INFORMATION_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PARTITION_INFORMATION_EX
+req.redist: 
 ---
 
 # _VDS_PARTITION_INFORMATION_EX structure

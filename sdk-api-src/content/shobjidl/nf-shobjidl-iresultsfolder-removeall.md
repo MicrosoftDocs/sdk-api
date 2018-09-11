@@ -4,17 +4,16 @@ title: IResultsFolder::RemoveAll
 author: windows-sdk-content
 description: Removes all items from a results folder.
 old-location: shell\IResultsFolder_RemoveAll.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2aac1b5a-298a-4682-9874-7cf114ce1f63
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IResultsFolder interface [Windows Shell],RemoveAll method, IResultsFolder.RemoveAll, IResultsFolder::RemoveAll, RemoveAll, RemoveAll method [Windows Shell], RemoveAll method [Windows Shell],IResultsFolder interface, _shell_IResultsFolder_RemoveAll, shell.IResultsFolder_RemoveAll, shobjidl/IResultsFolder::RemoveAll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IResultsFolder.RemoveAll
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IResultsFolder::RemoveAll

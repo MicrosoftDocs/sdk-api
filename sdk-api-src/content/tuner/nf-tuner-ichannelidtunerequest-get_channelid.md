@@ -4,17 +4,16 @@ title: IChannelIDTuneRequest::get_ChannelID
 author: windows-sdk-content
 description: Provider-defined channel identifier in string format.
 old-location: mstv\ichannelidtunerequest_channelid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 95f4a109-c368-41aa-aeb1-4e8aebb54f94
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ChannelID property [Microsoft TV Technologies], ChannelID property [Microsoft TV Technologies],IChannelIDTuneRequest interface, IChannelIDTuneRequest interface [Microsoft TV Technologies],ChannelID property, IChannelIDTuneRequest.ChannelID, IChannelIDTuneRequest.get_ChannelID, IChannelIDTuneRequest::ChannelID, IChannelIDTuneRequest::get_ChannelID, IChannelIDTuneRequest::put_ChannelID, get_ChannelID, mstv.ichannelidtunerequest_channelid, tuner/IChannelIDTuneRequest::ChannelID, tuner/IChannelIDTuneRequest::get_ChannelID, tuner/IChannelIDTuneRequest::put_ChannelID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IChannelIDTuneRequest.put_ChannelID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IChannelIDTuneRequest::get_ChannelID

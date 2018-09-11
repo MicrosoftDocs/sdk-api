@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSource2::put_RateEx
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersource2_put_rateex.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b213ad08-8a72-4b4a-bffa-b68783693340
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],put_RateEx method, IMSVidStreamBufferSource2.put_RateEx, IMSVidStreamBufferSource2::put_RateEx, IMSVidStreamBufferSource2put_RateEx, mstv.imsvidstreambuffersource2_put_rateex, put_RateEx, put_RateEx method [Microsoft TV Technologies], put_RateEx method [Microsoft TV Technologies],IMSVidStreamBufferSource2 interface, segment/IMSVidStreamBufferSource2::put_RateEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSource2.put_RateEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSource2::put_RateEx
@@ -68,7 +66,7 @@ The <b>put_RateEx</b> method sets the playback rate, and sets the frame rate for
 
 ### -param dwRate
 
-
+TBD
 
 
 ### -param dwFramesPerSecond [in]

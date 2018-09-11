@@ -4,17 +4,16 @@ title: IMFTimedTextStyle::GetTextDecoration
 author: windows-sdk-content
 description: Gets how text is decorated for the timed-text style.
 old-location: mf\imftimedtextstyle_gettextdecoration.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5B987C19-5F59-4B5D-BA40-341FA4B3CD35
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetTextDecoration, GetTextDecoration method [Media Foundation], GetTextDecoration method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetTextDecoration method, IMFTimedTextStyle.GetTextDecoration, IMFTimedTextStyle::GetTextDecoration, mf.imftimedtextstyle_gettextdecoration, mfmediaengine/IMFTimedTextStyle::GetTextDecoration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextStyle.GetTextDecoration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextStyle::GetTextDecoration
@@ -62,7 +60,7 @@ Gets how text is decorated for the timed-text style.
 
 ### -param textDecoration
 
-
+TBD
 
 
 

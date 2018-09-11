@@ -4,17 +4,16 @@ title: DsReplicaAddA function
 author: windows-sdk-content
 description: Adds a replication source reference to a destination naming context.
 old-location: ad\dsreplicaadd.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 33bd1b61-b9ed-479f-a128-fb7ddbb5e9af
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DS_REPADD_ASYNCHRONOUS_OPERATION, DS_REPADD_ASYNCHRONOUS_REPLICA, DS_REPADD_DISABLE_NOTIFICATION, DS_REPADD_DISABLE_PERIODIC, DS_REPADD_INITIAL, DS_REPADD_INTERSITE_MESSAGING, DS_REPADD_NEVER_NOTIFY, DS_REPADD_PERIODIC, DS_REPADD_USE_COMPRESSION, DS_REPADD_WRITEABLE, DsReplicaAdd, DsReplicaAdd function [Active Directory], DsReplicaAddA, DsReplicaAddW, _glines_dsreplicaadd, ad.dsreplicaadd, ntdsapi/DsReplicaAdd, ntdsapi/DsReplicaAddA, ntdsapi/DsReplicaAddW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsReplicaAddW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsReplicaAddA function

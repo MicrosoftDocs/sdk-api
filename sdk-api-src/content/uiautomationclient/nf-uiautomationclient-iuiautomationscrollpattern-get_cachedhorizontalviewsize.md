@@ -4,17 +4,16 @@ title: IUIAutomationScrollPattern::get_CachedHorizontalViewSize
 author: windows-sdk-content
 description: Retrieves the cached horizontal size of the viewable region of a scrollable element.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedHorizontalViewSize.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 948f29d5-6e3b-4eb7-b0de-cf78e7ea956a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedHorizontalViewSize property [Windows Accessibility], CachedHorizontalViewSize property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedHorizontalViewSize property, IUIAutomationScrollPattern.CachedHorizontalViewSize, IUIAutomationScrollPattern.get_CachedHorizontalViewSize, IUIAutomationScrollPattern::CachedHorizontalViewSize, IUIAutomationScrollPattern::get_CachedHorizontalViewSize, get_CachedHorizontalViewSize, uiauto.uiauto_IUIAutomationScrollPattern_CachedHorizontalViewSize, uiauto_IUIAutomationScrollPattern_CachedHorizontalViewSize, uiautomationclient/IUIAutomationScrollPattern::CachedHorizontalViewSize, uiautomationclient/IUIAutomationScrollPattern::get_CachedHorizontalViewSize, winauto.uiauto_IUIAutomationScrollPattern_CachedHorizontalViewSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationScrollPattern.get_CachedHorizontalViewSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationScrollPattern::get_CachedHorizontalViewSize

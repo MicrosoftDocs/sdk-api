@@ -4,17 +4,16 @@ title: CSecureChannelServer::SACAuth
 author: windows-sdk-content
 description: The SACAuth method establishes a secure authenticated channel between components.
 old-location: wmdm\csecurechannelserver_sacauth.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: e32aac59-4b7f-4c0e-a200-0dec50d89cb0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],SACAuth method, CSecureChannelServer.SACAuth, CSecureChannelServer::SACAuth, CSecureChannelServerSACAuth, SACAuth, SACAuth method [windows Media Device Manager], SACAuth method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::SACAuth, wmdm.csecurechannelserver_sacauth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: scserver.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CSecureChannelServer.SACAuth
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CSecureChannelServer::SACAuth

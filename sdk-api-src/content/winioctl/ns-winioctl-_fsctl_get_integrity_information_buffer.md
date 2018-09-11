@@ -4,7 +4,7 @@ title: "_FSCTL_GET_INTEGRITY_INFORMATION_BUFFER"
 author: windows-sdk-content
 description: Contains the integrity information for a file or directory.
 old-location: fs\fsctl_get_integrity_information_buffer.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: ab87f987-b734-4ad0-af16-1ba967db48d7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FSCTL_GET_INTEGRITY_INFORMATION_BUFFER, *PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FSCTL_GET_INTEGRITY_INFORMATION_BUFFER, *PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER
+req.redist: 
 ---
 
 # _FSCTL_GET_INTEGRITY_INFORMATION_BUFFER structure

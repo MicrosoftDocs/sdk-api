@@ -4,17 +4,16 @@ title: "_VSS_SNAPSHOT_STATE"
 author: windows-sdk-content
 description: Specify the state of a given shadow copy operation.
 old-location: base\vss_snapshot_state.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 0f9ce651-c9ad-454f-88a5-1f877c7c06ca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVSS_SNAPSHOT_STATE, PVSS_SNAPSHOT_STATE, PVSS_SNAPSHOT_STATE enumeration pointer [VSS], VSS_SNAPSHOT_STATE, VSS_SNAPSHOT_STATE enumeration [VSS], VSS_SS_ABORTED, VSS_SS_COMMITTED, VSS_SS_COUNT, VSS_SS_CREATED, VSS_SS_DELETED, VSS_SS_POSTCOMMITTED, VSS_SS_PRECOMMITTED, VSS_SS_PREFINALCOMMITTED, VSS_SS_PREPARED, VSS_SS_PREPARING, VSS_SS_PROCESSING_COMMIT, VSS_SS_PROCESSING_POSTCOMMIT, VSS_SS_PROCESSING_POSTFINALCOMMIT, VSS_SS_PROCESSING_PRECOMMIT, VSS_SS_PROCESSING_PREFINALCOMMIT, VSS_SS_PROCESSING_PREPARE, VSS_SS_UNKNOWN, _VSS_SNAPSHOT_STATE, _win32_vss_snapshot_state, base.vss_snapshot_state, vss/PVSS_SNAPSHOT_STATE, vss/VSS_SNAPSHOT_STATE, vss/VSS_SS_ABORTED, vss/VSS_SS_COMMITTED, vss/VSS_SS_COUNT, vss/VSS_SS_CREATED, vss/VSS_SS_DELETED, vss/VSS_SS_POSTCOMMITTED, vss/VSS_SS_PRECOMMITTED, vss/VSS_SS_PREFINALCOMMITTED, vss/VSS_SS_PREPARED, vss/VSS_SS_PREPARING, vss/VSS_SS_PROCESSING_COMMIT, vss/VSS_SS_PROCESSING_POSTCOMMIT, vss/VSS_SS_PROCESSING_POSTFINALCOMMIT, vss/VSS_SS_PROCESSING_PRECOMMIT, vss/VSS_SS_PROCESSING_PREFINALCOMMIT, vss/VSS_SS_PROCESSING_PREPARE, vss/VSS_SS_UNKNOWN"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_SNAPSHOT_STATE, *PVSS_SNAPSHOT_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_SNAPSHOT_STATE
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_SNAPSHOT_STATE, *PVSS_SNAPSHOT_STATE
+req.redist: 
 ---
 
 # _VSS_SNAPSHOT_STATE enumeration

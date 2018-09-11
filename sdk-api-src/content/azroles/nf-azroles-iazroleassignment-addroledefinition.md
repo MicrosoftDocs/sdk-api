@@ -4,17 +4,16 @@ title: IAzRoleAssignment::AddRoleDefinition
 author: windows-sdk-content
 description: Adds the specified IAzRoleDefinition object to this IAzRoleAssignment object.
 old-location: security\iazroleassignment_addroledefinition.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9946d273-3726-40f4-b438-7f2377fc8013
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AddRoleDefinition, AddRoleDefinition method [Security], AddRoleDefinition method [Security],IAzRoleAssignment interface, IAzRoleAssignment interface [Security],AddRoleDefinition method, IAzRoleAssignment.AddRoleDefinition, IAzRoleAssignment::AddRoleDefinition, azroles/IAzRoleAssignment::AddRoleDefinition, security.iazroleassignment_addroledefinition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzRoleAssignment.AddRoleDefinition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzRoleAssignment::AddRoleDefinition

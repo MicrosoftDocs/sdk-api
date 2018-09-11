@@ -4,7 +4,7 @@ title: "_DDLOCKININFO"
 author: windows-sdk-content
 description: The DDLOCKININFO structure contains the surface information.
 old-location: display\ddlockininfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 4a4fb927-9037-4a42-9052-8b14ff899fe0
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDLOCKININFO, *PDDLOCKININFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDLOCKININFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DDLOCKININFO, *PDDLOCKININFO
+req.redist: 
 ---
 
 # _DDLOCKININFO structure

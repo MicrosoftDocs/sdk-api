@@ -4,17 +4,16 @@ title: IBackgroundCopyGroup::get_GroupID
 author: windows-sdk-content
 description: Use the get_GroupID method to retrieve the group's identifier.
 old-location: bits\ibackgroundcopygroup_get_groupid.htm
-old-project: bits
+tech.root: bits
 ms.assetid: fde4dfb9-002b-436e-96c1-a893a95dcacc
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],get_GroupID method, IBackgroundCopyGroup.get_GroupID, IBackgroundCopyGroup::get_GroupID, bits.ibackgroundcopygroup_get_groupid, get_GroupID, get_GroupID method [BITS], get_GroupID method [BITS],IBackgroundCopyGroup interface, qmgr/IBackgroundCopyGroup::get_GroupID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyGroup.get_GroupID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyGroup::get_GroupID
@@ -64,7 +62,7 @@ Use the <b>get_GroupID</b> method to retrieve the group's identifier.
 
 ### -param pguidGroupID
 
-
+TBD
 
 
 

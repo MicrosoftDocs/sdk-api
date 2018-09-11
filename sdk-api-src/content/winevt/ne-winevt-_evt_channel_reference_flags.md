@@ -4,17 +4,16 @@ title: "_EVT_CHANNEL_REFERENCE_FLAGS"
 author: windows-sdk-content
 description: Defines the values that specify how a channel is referenced.
 old-location: wes\evt_channel_reference_flags.htm
-old-project: wes
+tech.root: WES
 ms.assetid: 4f86dce0-1b01-4258-af86-b3fe1eca010a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EVT_CHANNEL_REFERENCE_FLAGS, EVT_CHANNEL_REFERENCE_FLAGS enumeration [EventLog], EvtChannelReferenceImported, _EVT_CHANNEL_REFERENCE_FLAGS, wes.evt_channel_reference_flags, winevt/EVT_CHANNEL_REFERENCE_FLAGS, winevt/EvtChannelReferenceImported
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_CHANNEL_REFERENCE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_CHANNEL_REFERENCE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_CHANNEL_REFERENCE_FLAGS
+req.redist: 
 ---
 
 # _EVT_CHANNEL_REFERENCE_FLAGS enumeration

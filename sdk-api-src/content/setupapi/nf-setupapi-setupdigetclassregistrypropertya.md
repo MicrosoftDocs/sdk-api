@@ -4,17 +4,16 @@ title: SetupDiGetClassRegistryPropertyA function
 author: windows-sdk-content
 description: The SetupDiGetClassRegistryProperty function retrieves a property for a specified device setup class from the registry.
 old-location: devinst\setupdigetclassregistryproperty.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 79a600af-15c1-4afc-a2cd-568b97d979dc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiGetClassRegistryProperty, SetupDiGetClassRegistryProperty function [Device and Driver Installation], SetupDiGetClassRegistryPropertyA, SetupDiGetClassRegistryPropertyW, devinst.setupdigetclassregistryproperty, di-rtns_98a6c47a-6fb5-4752-9f0e-23ad00f4e5f2.xml, setupapi/SetupDiGetClassRegistryProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: DesktopFor universal, call CM_Get_Class_Registry_Property
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiGetClassRegistryProperty
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetClassRegistryPropertyA function

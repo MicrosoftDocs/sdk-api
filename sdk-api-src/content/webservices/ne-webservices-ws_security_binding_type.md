@@ -4,17 +4,16 @@ title: WS_SECURITY_BINDING_TYPE
 author: windows-sdk-content
 description: The type of the security binding, used as a selector for subtypes of WS_SECURITY_BINDING.
 old-location: wsw\ws_security_binding_type.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: caa3d71c-420c-4be0-a371-0f2d48ebd757
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TYPE, WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TYPE, WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE, WS_SAML_MESSAGE_SECURITY_BINDING_TYPE, WS_SECURITY_BINDING_TYPE, WS_SECURITY_BINDING_TYPE enumeration [Web Services for Windows], WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TYPE, WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE, WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TYPE, WS_USERNAME_MESSAGE_SECURITY_BINDING_TYPE, WS_XML_TOKEN_MESSAGE_SECURITY_BINDING_TYPE, webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TYPE, webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TYPE, webservices/WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE, webservices/WS_SAML_MESSAGE_SECURITY_BINDING_TYPE, webservices/WS_SECURITY_BINDING_TYPE, webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TYPE, webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE, webservices/WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TYPE, webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_TYPE, webservices/WS_XML_TOKEN_MESSAGE_SECURITY_BINDING_TYPE, wsw.ws_security_binding_type
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_BINDING_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SECURITY_BINDING_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SECURITY_BINDING_TYPE
+req.redist: 
 ---
 
 # WS_SECURITY_BINDING_TYPE enumeration

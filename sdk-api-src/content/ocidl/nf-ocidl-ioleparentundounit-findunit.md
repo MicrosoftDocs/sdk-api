@@ -4,17 +4,16 @@ title: IOleParentUndoUnit::FindUnit
 author: windows-sdk-content
 description: Indicates whether the specified unit is a child of this undo unit or one of its children, that is if the specified unit is part of the hierarchy in this parent unit.
 old-location: com\ioleparentundounit_findunit.htm
-old-project: com
+tech.root: com
 ms.assetid: 096e6cc4-7843-49fa-b1d7-bce034d4b7ce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FindUnit, FindUnit method [COM], FindUnit method [COM],IOleParentUndoUnit interface, IOleParentUndoUnit interface [COM],FindUnit method, IOleParentUndoUnit.FindUnit, IOleParentUndoUnit::FindUnit, _ole_ioleparentundounit_findunit, com.ioleparentundounit_findunit, ocidl/IOleParentUndoUnit::FindUnit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleParentUndoUnit.FindUnit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleParentUndoUnit::FindUnit

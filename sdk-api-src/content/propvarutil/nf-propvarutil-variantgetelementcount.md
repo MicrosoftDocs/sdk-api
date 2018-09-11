@@ -4,17 +4,16 @@ title: VariantGetElementCount function
 author: windows-sdk-content
 description: Retrieves the element count of a variant structure.
 old-location: properties\VariantGetElementCount.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 2bf96650-c0c4-4c99-9a04-d36d506b8f68
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VariantGetElementCount, VariantGetElementCount function [Windows Properties], _shell_VariantGetElementCount, properties.VariantGetElementCount, propvarutil/VariantGetElementCount, shell.VariantGetElementCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VariantGetElementCount
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # VariantGetElementCount function

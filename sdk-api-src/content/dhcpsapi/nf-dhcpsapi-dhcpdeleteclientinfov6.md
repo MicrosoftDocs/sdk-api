@@ -4,17 +4,16 @@ title: DhcpDeleteClientInfoV6 function
 author: windows-sdk-content
 description: Deletes the specified DHCPv6 client address release record from the DHCPv6 server database.
 old-location: dhcp\dhcpdeleteclientinfov6.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: ffa57208-09c4-4185-8cd9-abcf5db60f39
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpDeleteClientInfoV6, DhcpDeleteClientInfoV6 function [DHCP], dhcp.dhcpdeleteclientinfov6, dhcpsapi/DhcpDeleteClientInfoV6
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpDeleteClientInfoV6
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpDeleteClientInfoV6 function

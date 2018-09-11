@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_mfidl_0000_0109_0003"
 author: windows-sdk-content
 description: Specifies the sharing mode of an IMFSensorDevice.
 old-location: mf\mfsensordevicemode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: D405AB48-13EC-4859-91B6-0DB797F85DBE
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mfidl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFSensorDeviceMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFSensorDeviceMode
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_mfidl_0000_0109_0003 enumeration

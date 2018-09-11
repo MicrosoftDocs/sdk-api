@@ -4,17 +4,16 @@ title: GET_Y_LPARAM macro
 author: windows-sdk-content
 description: Retrieves the signed y-coordinate from the given LPARAM value.
 old-location: winmsg\get_y_lparam.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\get_y_lparam.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: GET_Y_LPARAM, GET_Y_LPARAM macro [Windows and Messages], _win32_GET_Y_LPARAM, _win32_get_y_lparam_cpp, windowsx/GET_Y_LPARAM, winmsg.get_y_lparam, winui._win32_get_y_lparam
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: Windowsx.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GET_Y_LPARAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GET_Y_LPARAM macro

@@ -4,17 +4,16 @@ title: IAMTimecodeDisplay::SetTCDisplay
 author: windows-sdk-content
 description: The SetTCDisplay method sets the timecode character generator output characteristics.
 old-location: dshow\iamtimecodedisplay_settcdisplay.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 34d55c5a-d213-4fb2-b81c-b117d025f3ec
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMTimecodeDisplay interface [DirectShow],SetTCDisplay method, IAMTimecodeDisplay.SetTCDisplay, IAMTimecodeDisplay::SetTCDisplay, IAMTimecodeDisplaySetTCDisplay, SetTCDisplay, SetTCDisplay method [DirectShow], SetTCDisplay method [DirectShow],IAMTimecodeDisplay interface, dshow.iamtimecodedisplay_settcdisplay, strmif/IAMTimecodeDisplay::SetTCDisplay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMTimecodeDisplay.SetTCDisplay
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMTimecodeDisplay::SetTCDisplay

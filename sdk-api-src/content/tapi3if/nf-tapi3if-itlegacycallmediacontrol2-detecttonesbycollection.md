@@ -4,17 +4,16 @@ title: ITLegacyCallMediaControl2::DetectTonesByCollection
 author: windows-sdk-content
 description: The DetectTonesByCollection method enables and disables the detection of inband tones on the call. Each time a specified tone is detected, a message is sent to the application.
 old-location: tapi3\itlegacycallmediacontrol2_detecttonesbycollection.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 09cbcd9d-66cd-4131-b45c-cb3898d8446d
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: DetectTonesByCollection, DetectTonesByCollection method [TAPI 2.2], DetectTonesByCollection method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],DetectTonesByCollection method, ITLegacyCallMediaControl2.DetectTonesByCollection, ITLegacyCallMediaControl2::DetectTonesByCollection, _tapi3_itlegacycallmediacontrol2_detecttonesbycollection, tapi3.itlegacycallmediacontrol2_detecttonesbycollection, tapi3if/ITLegacyCallMediaControl2::DetectTonesByCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITLegacyCallMediaControl2.DetectTonesByCollection
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITLegacyCallMediaControl2::DetectTonesByCollection

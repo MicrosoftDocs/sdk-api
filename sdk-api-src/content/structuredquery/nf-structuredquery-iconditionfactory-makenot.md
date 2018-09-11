@@ -4,17 +4,16 @@ title: IConditionFactory::MakeNot
 author: windows-sdk-content
 description: Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node).
 old-location: search\_search_IConditionFactory_MakeNot.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\makenot.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IConditionFactory interface [search],MakeNot method, IConditionFactory.MakeNot, IConditionFactory::MakeNot, MakeNot, MakeNot method [search], MakeNot method [search],IConditionFactory interface, _search_IConditionFactory_MakeNot, search._search_IConditionFactory_MakeNot, structuredquery/IConditionFactory::MakeNot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConditionFactory.MakeNot
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IConditionFactory::MakeNot

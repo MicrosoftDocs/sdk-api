@@ -4,17 +4,16 @@ title: ITfFnConfigure::Show
 author: windows-sdk-content
 description: ITfFnConfigure::Show method
 old-location: tsf\itffnconfigure_show.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 34670748-460b-4ece-b742-83b0cf87d901
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfFnConfigure interface [Text Services Framework],Show method, ITfFnConfigure.Show, ITfFnConfigure::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfFnConfigure interface, _tsf_itffnconfigure_show_ref, ctffunc/ITfFnConfigure::Show, tsf.itffnconfigure_show
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: Imekrcic.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfFnConfigure.Show
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Imekrcic.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfFnConfigure::Show

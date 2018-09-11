@@ -4,17 +4,16 @@ title: MFCreateMediaTypeFromProperties function
 author: windows-sdk-content
 description: Create an IMFMediaType from properties.
 old-location: mf\mfcreatemediatypefromproperties.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: F34F5C7F-880B-40A8-85EF-537CD36759CB
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateMediaTypeFromProperties, MFCreateMediaTypeFromProperties function [Media Foundation], mf.mfcreatemediatypefromproperties, mfidl/MFCreateMediaTypeFromProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateMediaTypeFromProperties
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateMediaTypeFromProperties function

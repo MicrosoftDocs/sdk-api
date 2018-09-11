@@ -4,17 +4,16 @@ title: IWbemUnsecuredApartment::CreateSinkStub
 author: windows-sdk-content
 description: The CreateSinkStub method is similar to the IUnsecuredApartment::CreateObjectStub and creates an object forwarder sink and performs access checks for receiving asynchronous calls from Windows Management.
 old-location: wmi\iwbemunsecuredapartment_createsinkstub.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 546ae2f8-c208-4846-a3ba-e124aefe619d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CreateSinkStub, CreateSinkStub method [Windows Management Instrumentation], CreateSinkStub method [Windows Management Instrumentation],IWbemUnsecuredApartment interface, IWbemUnsecuredApartment interface [Windows Management Instrumentation],CreateSinkStub method, IWbemUnsecuredApartment.CreateSinkStub, IWbemUnsecuredApartment::CreateSinkStub, WBEM_FLAG_UNSECAPP_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DEFAULT_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DONT_CHECK_ACCESS, wbemcli/IWbemUnsecuredApartment::CreateSinkStub, wmi.iwbemunsecuredapartment_createsinkstub
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Unsecapp.exe
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemUnsecuredApartment.CreateSinkStub
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Unsecapp.exe
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemUnsecuredApartment::CreateSinkStub

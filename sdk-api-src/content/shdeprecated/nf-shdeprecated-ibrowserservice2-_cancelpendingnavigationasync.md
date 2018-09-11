@@ -4,17 +4,16 @@ title: IBrowserService2::_CancelPendingNavigationAsync
 author: windows-sdk-content
 description: Deprecated. Enables a derived class to request that the base class cancel any pending navigation.
 old-location: shell\IBrowserService2__CancelPendingNavigationAsync.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fa3605fe-ebff-48f9-a9d2-9146c719696d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_CancelPendingNavigationAsync method, IBrowserService2._CancelPendingNavigationAsync, IBrowserService2::_CancelPendingNavigationAsync, _CancelPendingNavigationAsync, _CancelPendingNavigationAsync method [Windows Shell], _CancelPendingNavigationAsync method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_CancelPendingNavigationAsync, shell.IBrowserService2__CancelPendingNavigationAsync, zone_IBrowserService2__CancelPendingNavigationAsync
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2._CancelPendingNavigationAsync
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

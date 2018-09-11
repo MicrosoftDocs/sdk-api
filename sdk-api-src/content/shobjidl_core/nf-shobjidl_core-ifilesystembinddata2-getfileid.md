@@ -4,17 +4,16 @@ title: IFileSystemBindData2::GetFileID
 author: windows-sdk-content
 description: Gets the unique file identifier for the current file.
 old-location: shell\IFileSystemBindData2_GetFileID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 77052ae5-d663-4bf8-967a-29bd5dc85706
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetFileID, GetFileID method [Windows Shell], GetFileID method [Windows Shell],IFileSystemBindData2 interface, IFileSystemBindData2 interface [Windows Shell],GetFileID method, IFileSystemBindData2.GetFileID, IFileSystemBindData2::GetFileID, _shell_IFileSystemBindData2_GetFileID, shell.IFileSystemBindData2_GetFileID, shobjidl_core/IFileSystemBindData2::GetFileID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemBindData2.GetFileID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemBindData2::GetFileID

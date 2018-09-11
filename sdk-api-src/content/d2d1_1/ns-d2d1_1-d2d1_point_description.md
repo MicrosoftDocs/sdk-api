@@ -4,7 +4,7 @@ title: D2D1_POINT_DESCRIPTION
 author: windows-sdk-content
 description: Describes a point on a path geometry.
 old-location: direct2d\d2d1_point_description.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: d6e7a4c1-135f-4ffe-91d7-486de8a9338d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: D2D1.lib
-tech.root: 
-req.typenames: D2D1_POINT_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_POINT_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_POINT_DESCRIPTION
+req.redist: 
 ---
 
 # D2D1_POINT_DESCRIPTION structure

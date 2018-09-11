@@ -4,17 +4,16 @@ title: D3D10_QUERY_DATA_SO_STATISTICS
 author: windows-sdk-content
 description: Query information about the amount of data streamed out to the stream-output buffers in between ID3D10Asynchronous::Begin and ID3D10Asynchronous::End.
 old-location: direct3d10\d3d10_query_data_so_statistics.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_query_data_so_statistics.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: D3D10_QUERY_DATA_SO_STATISTICS, D3D10_QUERY_DATA_SO_STATISTICS structure [Direct3D 10], cf410b92-83dc-df50-69b8-4970b24d4f1c, d3d10/D3D10_QUERY_DATA_SO_STATISTICS, direct3d10.d3d10_query_data_so_statistics
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_QUERY_DATA_SO_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_QUERY_DATA_SO_STATISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D10_QUERY_DATA_SO_STATISTICS
+req.redist: 
 ---
 
 # D3D10_QUERY_DATA_SO_STATISTICS structure

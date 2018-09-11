@@ -4,7 +4,7 @@ title: "_STORAGE_PORT_CODE_SET"
 author: windows-sdk-content
 description: Reserved for system use.
 old-location: fs\storage_port_code_set.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 1c1032e8-30b8-45ad-973a-c7616139b26e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winioctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STORAGE_PORT_CODE_SET, *PSTORAGE_PORT_CODE_SET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STORAGE_PORT_CODE_SET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STORAGE_PORT_CODE_SET, *PSTORAGE_PORT_CODE_SET
+req.redist: 
 ---
 
 # _STORAGE_PORT_CODE_SET enumeration

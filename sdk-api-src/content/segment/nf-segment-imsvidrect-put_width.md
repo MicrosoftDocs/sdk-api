@@ -4,17 +4,16 @@ title: IMSVidRect::put_Width
 author: windows-sdk-content
 description: The put_Width method specifies the width of the rectangle.
 old-location: mstv\imsvidrect_put_width.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 35eed36a-de3e-4bb6-8b1b-179ba72b568a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Width method, IMSVidRect.put_Width, IMSVidRect::put_Width, IMSVidRectput_Width, mstv.imsvidrect_put_width, put_Width, put_Width method [Microsoft TV Technologies], put_Width method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Width
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidRect.put_Width
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidRect::put_Width

@@ -4,17 +4,16 @@ title: IDataCollector::get_OutputLocation
 author: windows-sdk-content
 description: Retrieves the decorated file name if PLA were to create it now.
 old-location: pla\idatacollector_outputlocation.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: c5453d16-4aa4-4c25-bfc7-514693317473
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollector interface [PLA],OutputLocation property, IDataCollector.OutputLocation, IDataCollector.get_OutputLocation, IDataCollector::OutputLocation, IDataCollector::get_OutputLocation, OutputLocation property [PLA], OutputLocation property [PLA],IDataCollector interface, base.idatacollector_outputlocation, get_OutputLocation, pla.idatacollector_outputlocation, pla/IDataCollector::OutputLocation, pla/IDataCollector::get_OutputLocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDataCollector.get_OutputLocation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollector::get_OutputLocation

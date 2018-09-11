@@ -4,17 +4,16 @@ title: OleSavePictureFile function
 author: windows-sdk-content
 description: Saves a picture to a file.
 old-location: automat\olesavepicturefile.htm
-old-project: automat
+tech.root: automat
 ms.assetid: ac46d390-9e08-4f79-a621-60ea75f4acff
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: OleSavePictureFile, OleSavePictureFile function [Automation], _oa96_OleSavePictureFile, automat.olesavepicturefile, olectl/OleSavePictureFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: olectl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PARAMDATA, *LPPARAMDATA
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OleSavePictureFile
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleSavePictureFile function

@@ -4,17 +4,16 @@ title: NetGetAnyDCName function
 author: windows-sdk-content
 description: The NetGetAnyDCName function returns the name of any domain controller (DC) for a domain that is directly trusted by the specified server.
 old-location: netmgmt\netgetanydcname.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 64dacbf4-46c2-4f82-b250-b7d338535e7c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetGetAnyDCName, NetGetAnyDCName function [Network Management], _win32_netgetanydcname, lmaccess/NetGetAnyDCName, netmgmt.netgetanydcname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetGetAnyDCName
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetGetAnyDCName function

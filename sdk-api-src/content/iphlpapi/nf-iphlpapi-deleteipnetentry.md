@@ -4,17 +4,16 @@ title: DeleteIpNetEntry function
 author: windows-sdk-content
 description: The DeleteIpNetEntry function deletes an ARP entry from the ARP table on the local computer.
 old-location: iphlp\deleteipnetentry.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 0d338676-b66f-410c-8022-5576096954b4
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: DeleteIpNetEntry, DeleteIpNetEntry function [IP Helper], _iphlp_deleteipnetentry, iphlp.deleteipnetentry, iphlpapi/DeleteIpNetEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DeleteIpNetEntry
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # DeleteIpNetEntry function

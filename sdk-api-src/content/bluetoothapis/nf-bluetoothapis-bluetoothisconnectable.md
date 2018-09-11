@@ -4,17 +4,16 @@ title: BluetoothIsConnectable function
 author: windows-sdk-content
 description: The BluetoothIsConnectable function determines whether a Bluetooth radio or radios is connectable.
 old-location: bluetooth\bluetoothisconnectable.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: e20ad938-cab4-4017-95bf-8d6843f048eb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BluetoothIsConnectable, BluetoothIsConnectable function [Bluetooth], bluetooth.bluetoothisconnectable, bluetoothapis/BluetoothIsConnectable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_IO_CAPABILITY
+req.lib: Bthprops.lib
+req.dll: Bthprops.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - BluetoothIsConnectable
 product: Windows
 targetos: Windows
-req.lib: Bthprops.lib
-req.dll: Bthprops.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothIsConnectable function

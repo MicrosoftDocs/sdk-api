@@ -4,17 +4,16 @@ title: ISelector::put_SourceNodeId
 author: windows-sdk-content
 description: The put_SourceNodeId method activates a source node.
 old-location: dshow\iselector_put_sourcenodeid.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6cf6a406-eeb8-45ba-9c4c-0fdc6d6a30cf
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ISelector interface [DirectShow],put_SourceNodeId method, ISelector.put_SourceNodeId, ISelector::put_SourceNodeId, ISelectorput_SourceNodeId, dshow.iselector_put_sourcenodeid, put_SourceNodeId, put_SourceNodeId method [DirectShow], put_SourceNodeId method [DirectShow],ISelector interface, vidcap/ISelector::put_SourceNodeId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISelector.put_SourceNodeId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ISelector::put_SourceNodeId

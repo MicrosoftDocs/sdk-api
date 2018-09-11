@@ -4,17 +4,16 @@ title: IVMRSurfaceAllocator9::TerminateDevice
 author: windows-sdk-content
 description: The TerminateDevice method releases the Direct3D device.
 old-location: dshow\ivmrsurfaceallocator9_terminatedevice.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 5006265d-6f2b-433b-b3ce-a7074d6eb159
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRSurfaceAllocator9 interface [DirectShow],TerminateDevice method, IVMRSurfaceAllocator9.TerminateDevice, IVMRSurfaceAllocator9::TerminateDevice, IVMRSurfaceAllocator9TerminateDevice, TerminateDevice, TerminateDevice method [DirectShow], TerminateDevice method [DirectShow],IVMRSurfaceAllocator9 interface, dshow.ivmrsurfaceallocator9_terminatedevice, vmr9/IVMRSurfaceAllocator9::TerminateDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRSurfaceAllocator9.TerminateDevice
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRSurfaceAllocator9::TerminateDevice

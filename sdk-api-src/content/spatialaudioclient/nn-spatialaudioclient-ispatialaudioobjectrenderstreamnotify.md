@@ -4,17 +4,16 @@ title: ISpatialAudioObjectRenderStreamNotify
 author: windows-sdk-content
 description: Provides notifications for spatial audio clients to respond to changes in the state of an ISpatialAudioObjectRenderStream.
 old-location: coreaudio\ispatialaudioobjectrenderstreamnotify.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 3729D985-9040-43AD-A8B0-045509FE2F20
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: ISpatialAudioObjectRenderStreamNotify, ISpatialAudioObjectRenderStreamNotify interface [Core Audio], ISpatialAudioObjectRenderStreamNotify interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstreamnotify, spatialaudioclient/ISpatialAudioObjectRenderStreamNotify
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioObjectType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObjectRenderStreamNotify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObjectRenderStreamNotify interface

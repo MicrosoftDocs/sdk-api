@@ -4,17 +4,16 @@ title: IMetaDataImport::ResolveTypeRef
 author: windows-sdk-content
 description: Resolves a Type reference represented by the specified TypeRef token.
 old-location: winrt\imetadataimport_resolvetyperef.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: d19d47c7-bf06-4daa-bda6-8aca6939a543
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMetaDataImport interface [Windows Runtime],ResolveTypeRef method, IMetaDataImport.ResolveTypeRef, IMetaDataImport::ResolveTypeRef, ResolveTypeRef, ResolveTypeRef method [Windows Runtime], ResolveTypeRef method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::ResolveTypeRef, winrt.imetadataimport_resolvetyperef
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.ResolveTypeRef
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::ResolveTypeRef

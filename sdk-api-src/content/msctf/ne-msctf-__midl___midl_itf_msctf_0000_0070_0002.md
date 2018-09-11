@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_msctf_0000_0070_0002"
 author: windows-sdk-content
 description: Elements of the TF_DA_COLORTYPE enumeration specify the format of the color contained in the TF_DA_COLOR structure.
 old-location: tsf\tf_da_colortype.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: f692e188-d2f4-453b-a576-c6c05fd5f02a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -26,9 +25,10 @@ req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: MsClus.tlb
-tech.root: 
-req.typenames: TF_DA_COLORTYPE
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TF_DA_COLORTYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TF_DA_COLORTYPE
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # __MIDL___MIDL_itf_msctf_0000_0070_0002 enumeration

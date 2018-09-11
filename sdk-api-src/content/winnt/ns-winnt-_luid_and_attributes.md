@@ -4,17 +4,16 @@ title: "_LUID_AND_ATTRIBUTES"
 author: windows-sdk-content
 description: Represents a locally unique identifier (LUID) and its attributes.
 old-location: security\luid_and_attributes.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: f337b561-4b67-42a0-b8de-06f546bafb26
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PLUID_AND_ATTRIBUTES, LUID_AND_ATTRIBUTES, LUID_AND_ATTRIBUTES structure [Security], PLUID_AND_ATTRIBUTES, PLUID_AND_ATTRIBUTES structure pointer [Security], _LUID_AND_ATTRIBUTES, _win32_luid_and_attributes_str, security.luid_and_attributes, winnt/LUID_AND_ATTRIBUTES, winnt/PLUID_AND_ATTRIBUTES"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LUID_AND_ATTRIBUTES, *PLUID_AND_ATTRIBUTES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LUID_AND_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: LUID_AND_ATTRIBUTES, *PLUID_AND_ATTRIBUTES
+req.redist: 
 ---
 
 # _LUID_AND_ATTRIBUTES structure

@@ -4,17 +4,16 @@ title: IGuideData::GetProgramProperties
 author: windows-sdk-content
 description: The GetProgramProperties method retrieves the properties for a specified program.
 old-location: mstv\iguidedata_getprogramproperties.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 57eb55bf-49d9-471e-b59c-0d87aa3c3e3c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetProgramProperties, GetProgramProperties method [Microsoft TV Technologies], GetProgramProperties method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetProgramProperties method, IGuideData.GetProgramProperties, IGuideData::GetProgramProperties, IGuideDataGetProgramProperties, bdatif/IGuideData::GetProgramProperties, mstv.iguidedata_getprogramproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGuideData.GetProgramProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGuideData::GetProgramProperties

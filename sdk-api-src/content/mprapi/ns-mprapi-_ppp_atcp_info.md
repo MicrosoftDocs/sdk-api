@@ -4,17 +4,16 @@ title: "_PPP_ATCP_INFO"
 author: windows-sdk-content
 description: The PPP_ATCP_INFO structure contains the result of a PPP AppleTalk projection operation.
 old-location: rras\ppp_atcp_info.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 48d2404b-df8d-4ed0-9203-921474c88551
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PPP_ATCP_INFO, PPP_ATCP_INFO structure [RAS], _PPP_ATCP_INFO, _mpr_ppp_atcp_info, mprapi/PPP_ATCP_INFO, rras.ppp_atcp_info
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PPP_ATCP_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PPP_ATCP_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: PPP_ATCP_INFO
+req.redist: 
 ---
 
 # _PPP_ATCP_INFO structure

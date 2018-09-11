@@ -4,17 +4,16 @@ title: IDWriteColorGlyphRunEnumerator1::GetCurrentRun
 author: windows-sdk-content
 description: Gets the current color glyph run.
 old-location: directwrite\idwritecolorglyphrunenumerator1_getcurrentrun.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 0FEFD8EB-20E7-4E04-9C31-1A763D2FB816
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetCurrentRun, GetCurrentRun method [Direct Write], GetCurrentRun method [Direct Write],IDWriteColorGlyphRunEnumerator1 interface, IDWriteColorGlyphRunEnumerator1 interface [Direct Write],GetCurrentRun method, IDWriteColorGlyphRunEnumerator1.GetCurrentRun, IDWriteColorGlyphRunEnumerator1::GetCurrentRun, directwrite.idwritecolorglyphrunenumerator1_getcurrentrun, dwrite_3/IDWriteColorGlyphRunEnumerator1::GetCurrentRun
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDWriteColorGlyphRunEnumerator1.GetCurrentRun
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteColorGlyphRunEnumerator1::GetCurrentRun

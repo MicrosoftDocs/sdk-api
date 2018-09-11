@@ -4,17 +4,16 @@ title: IVssComponent::GetPartialFileCount
 author: windows-sdk-content
 description: The GetPartialFileCount method returns the number of partial files associated with a component.
 old-location: base\ivsscomponent_getpartialfilecount.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 7be84c00-49c4-4c44-9c12-7994247726a5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetPartialFileCount, GetPartialFileCount method [VSS], GetPartialFileCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPartialFileCount method, IVssComponent.GetPartialFileCount, IVssComponent::GetPartialFileCount, _win32_ivsscomponent_getpartialfilecount, base.ivsscomponent_getpartialfilecount, vswriter/IVssComponent::GetPartialFileCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssComponent.GetPartialFileCount
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponent::GetPartialFileCount

@@ -4,17 +4,16 @@ title: "_DELETE_SNAPSHOT_VHDSET_FLAG"
 author: windows-sdk-content
 description: Contains flags affecting the behavior of the DeleteSnapshotVhdSet function.
 old-location: vhd\delete_snapshot_vhdset_flag.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 42B56389-8ECE-4127-A641-7F0A0A1E7D2D
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PDELETE_SNAPSHOT_VHDSET_FLAG, DELETE_SNAPSHOT_VHDSET_FLAG, DELETE_SNAPSHOT_VHDSET_FLAG enumeration [VHD], DELETE_SNAPSHOT_VHDSET_FLAG_NONE, DELETE_SNAPSHOT_VHDSET_FLAG_PERSIST_RCT, PDELETE_SNAPSHOT_VHDSET_FLAG, PDELETE_SNAPSHOT_VHDSET_FLAG enumeration pointer [VHD], _DELETE_SNAPSHOT_VHDSET_FLAG, vdssys/DELETE_SNAPSHOT_VHDSET_FLAG, vdssys/DELETE_SNAPSHOT_VHDSET_FLAG_NONE, vdssys/DELETE_SNAPSHOT_VHDSET_FLAG_PERSIST_RCT, vdssys/PDELETE_SNAPSHOT_VHDSET_FLAG, vhd.delete_snapshot_vhdset_flag, virtdisk/DELETE_SNAPSHOT_VHDSET_FLAG, virtdisk/DELETE_SNAPSHOT_VHDSET_FLAG_NONE, virtdisk/DELETE_SNAPSHOT_VHDSET_FLAG_PERSIST_RCT, virtdisk/PDELETE_SNAPSHOT_VHDSET_FLAG"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DELETE_SNAPSHOT_VHDSET_FLAG, *PDELETE_SNAPSHOT_VHDSET_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - DELETE_SNAPSHOT_VHDSET_FLAG
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: DELETE_SNAPSHOT_VHDSET_FLAG, *PDELETE_SNAPSHOT_VHDSET_FLAG
+req.redist: 
 ---
 
 # _DELETE_SNAPSHOT_VHDSET_FLAG enumeration

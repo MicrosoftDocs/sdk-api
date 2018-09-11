@@ -4,17 +4,16 @@ title: DRMSetNameAndDescription function
 author: windows-sdk-content
 description: Allows an application to specify names and descriptions of the license in multiple (human) languages.
 old-location: rm\drmsetnameanddescription.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: c5dc8aa8-f45b-4b8a-bd83-0661db424303
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DRMSetNameAndDescription, DRMSetNameAndDescription function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetNameAndDescription, rm.drmsetnameanddescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_SELECTIONSTYLE
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMSetNameAndDescription
 product: Windows
 targetos: Windows
-req.lib: Msdrm.lib
-req.dll: Msdrm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

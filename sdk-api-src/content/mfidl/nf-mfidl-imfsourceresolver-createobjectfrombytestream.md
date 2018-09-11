@@ -4,17 +4,16 @@ title: IMFSourceResolver::CreateObjectFromByteStream
 author: windows-sdk-content
 description: Creates a media source from a byte stream. This method is synchronous.
 old-location: mf\imfsourceresolver_createobjectfrombytestream.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e4a4aad5-0924-4251-b0da-6919ae010bf0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreateObjectFromByteStream, CreateObjectFromByteStream method [Media Foundation], CreateObjectFromByteStream method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],CreateObjectFromByteStream method, IMFSourceResolver.CreateObjectFromByteStream, IMFSourceResolver::CreateObjectFromByteStream, e4a4aad5-0924-4251-b0da-6919ae010bf0, mf.imfsourceresolver_createobjectfrombytestream, mfidl/IMFSourceResolver::CreateObjectFromByteStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSourceResolver.CreateObjectFromByteStream
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSourceResolver::CreateObjectFromByteStream

@@ -4,17 +4,16 @@ title: IWMPSettings::get_rate
 author: windows-sdk-content
 description: The get_rate method retrieves the current playback rate for video.
 old-location: wmp\iwmpsettings_get_rate.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 1c3f2938-733f-42fc-ae07-66aad715958b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_rate method, IWMPSettings.get_rate, IWMPSettings::get_rate, IWMPSettingsget_rate, get_rate, get_rate method [Windows Media Player], get_rate method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_rate, wmp/IWMPSettings::get_rate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPSettings.get_rate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPSettings::get_rate

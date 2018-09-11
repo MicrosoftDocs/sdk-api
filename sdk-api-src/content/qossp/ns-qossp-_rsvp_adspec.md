@@ -4,17 +4,16 @@ title: "_RSVP_ADSPEC"
 author: windows-sdk-content
 description: The QOS object RSVP_ADSPEC provides a means by which information describing network devices along the data path between sender and receiver, pertaining to RSVP functionality and available services, is provided or retrieved.
 old-location: qos\rsvp_adspec.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 90fad5de-7105-4126-a6db-d4fb663e01f4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPRSVP_ADSPEC, LPRSVP_ADSPEC, LPRSVP_ADSPEC structure pointer [QOS], RSVP_ADSPEC, RSVP_ADSPEC structure [QOS], _RSVP_ADSPEC, _gqos_rsvp_adspec, qos.rsvp_adspec, qossp/LPRSVP_ADSPEC, qossp/RSVP_ADSPEC"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_ADSPEC, *LPRSVP_ADSPEC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RSVP_ADSPEC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RSVP_ADSPEC, *LPRSVP_ADSPEC
+req.redist: 
 ---
 
 # _RSVP_ADSPEC structure

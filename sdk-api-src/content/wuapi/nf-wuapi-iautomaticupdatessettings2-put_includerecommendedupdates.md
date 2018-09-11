@@ -4,17 +4,16 @@ title: IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether to include optional or recommended updates when a search for updates and installation of updates is performed.
 old-location: wua\iautomaticupdatessettings2_includerecommendedupdates.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 502b0490-8834-496a-8691-d9325ad86799
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IAutomaticUpdatesSettings2 interface [Windows Update Agent],IncludeRecommendedUpdates property, IAutomaticUpdatesSettings2.IncludeRecommendedUpdates, IAutomaticUpdatesSettings2.put_IncludeRecommendedUpdates, IAutomaticUpdatesSettings2::IncludeRecommendedUpdates, IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates, IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates, IncludeRecommendedUpdates property [Windows Update Agent], IncludeRecommendedUpdates property [Windows Update Agent],IAutomaticUpdatesSettings2 interface, put_IncludeRecommendedUpdates, wua.iautomaticupdatessettings2_includerecommendedupdates, wuapi/IAutomaticUpdatesSettings2::IncludeRecommendedUpdates, wuapi/IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates, wuapi/IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IAutomaticUpdatesSettings2.put_IncludeRecommendedUpdates
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates

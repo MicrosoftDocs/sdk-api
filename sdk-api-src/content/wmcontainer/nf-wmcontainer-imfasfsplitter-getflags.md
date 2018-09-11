@@ -4,17 +4,16 @@ title: IMFASFSplitter::GetFlags
 author: windows-sdk-content
 description: Retrieves the option flags that are set on the ASF splitter.
 old-location: mf\imfasfsplitter_getflags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: ba008e4a-98ad-4633-8b80-1d2ffce04b9c
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetFlags method, IMFASFSplitter.GetFlags, IMFASFSplitter::GetFlags, ba008e4a-98ad-4633-8b80-1d2ffce04b9c, mf.imfasfsplitter_getflags, wmcontainer/IMFASFSplitter::GetFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFSplitter.GetFlags
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFSplitter::GetFlags

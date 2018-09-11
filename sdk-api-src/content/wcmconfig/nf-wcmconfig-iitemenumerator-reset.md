@@ -4,17 +4,16 @@ title: IItemEnumerator::Reset
 author: windows-sdk-content
 description: Resets the state of the enumerator to its initialized state. You must immediately follow IItemEnumerator::Reset with a call to IItemEnumerator::MoveNext on the enumerator in order to set the current pointer at the first position in the enumeration.
 old-location: smi\iitemenumerator_reset.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: 6da5d581-7f8c-48fa-8522-1e51a805ad9b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IItemEnumerator interface [SMI],Reset method, IItemEnumerator.Reset, IItemEnumerator::Reset, Reset, Reset method [SMI], Reset method [SMI],IItemEnumerator interface, smi.iitemenumerator_reset, wcmconfig/IItemEnumerator::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IItemEnumerator.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IItemEnumerator::Reset

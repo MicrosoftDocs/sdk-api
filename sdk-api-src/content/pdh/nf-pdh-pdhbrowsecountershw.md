@@ -4,17 +4,16 @@ title: PdhBrowseCountersHW function
 author: windows-sdk-content
 description: Displays a Browse Counters dialog box that the user can use to select one or more counters that they want to add to the query. This function is identical to the PdhBrowseCounters function, except that it supports the use of handles to data sources.
 old-location: perf\pdhbrowsecountersh.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: ab835bf8-1adc-463f-99c3-654a328af98a
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PdhBrowseCountersH, PdhBrowseCountersH function [Perf], PdhBrowseCountersHA, PdhBrowseCountersHW, _win32_pdhbrowsecountersh, base.pdhbrowsecountersh, pdh/PdhBrowseCountersH, pdh/PdhBrowseCountersHA, pdh/PdhBrowseCountersHW, perf.pdhbrowsecountersh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PdhBrowseCountersHW
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhBrowseCountersHW function

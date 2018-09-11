@@ -4,17 +4,16 @@ title: FILEMUIINFO_GET_MUI_TYPEIDS macro
 author: windows-sdk-content
 description: Gets the MUI module types array associated with the type identifier offset information in the dwTypeIDMUIOffset member of a FILEMUIINFO structure.
 old-location: intl\filemuiinfo_get_mui_typeids.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 7f42e8e3-d308-4c2a-96c4-26df9f032211
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: FILEMUIINFO_GET_MUI_TYPEIDS, FILEMUIINFO_GET_MUI_TYPEIDS macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_MUI_TYPEIDS, intl.filemuiinfo_get_mui_typeids, winnls/FILEMUIINFO_GET_MUI_TYPEIDS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILEMUIINFO_GET_MUI_TYPEIDS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FILEMUIINFO_GET_MUI_TYPEIDS macro

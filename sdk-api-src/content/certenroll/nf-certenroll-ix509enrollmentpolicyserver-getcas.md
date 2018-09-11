@@ -4,17 +4,16 @@ title: IX509EnrollmentPolicyServer::GetCAs
 author: windows-sdk-content
 description: Retrieves a collection of certification enrollment servers included in the policy.
 old-location: security\ix509enrollmentpolicyserver_getcas.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 37836fd1-e95a-4025-b268-f78a9113e568
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetCAs, GetCAs method [Security], GetCAs method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCAs method, IX509EnrollmentPolicyServer.GetCAs, IX509EnrollmentPolicyServer::GetCAs, certenroll/IX509EnrollmentPolicyServer::GetCAs, security.ix509enrollmentpolicyserver_getcas
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509EnrollmentPolicyServer.GetCAs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509EnrollmentPolicyServer::GetCAs

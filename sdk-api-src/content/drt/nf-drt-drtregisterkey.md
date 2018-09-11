@@ -4,17 +4,16 @@ title: DrtRegisterKey function
 author: windows-sdk-content
 description: The DrtRegisterKey function registers a key in the DRT.
 old-location: p2p\drtregisterkey.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 9aa1ee16-648d-4769-a464-4659dea14dba
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrtRegisterKey, DrtRegisterKey function [Peer Networking], drt/DrtRegisterKey, p2p.drtregisterkey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+req.lib: Drt.lib
+req.dll: Drt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DrtRegisterKey
 product: Windows
 targetos: Windows
-req.lib: Drt.lib
-req.dll: Drt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DrtRegisterKey function

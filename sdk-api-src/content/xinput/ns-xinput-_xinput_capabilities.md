@@ -4,17 +4,16 @@ title: "_XINPUT_CAPABILITIES"
 author: windows-sdk-content
 description: Describes the capabilities of a connected controller. The XInputGetCapabilities function returns XINPUT_CAPABILITIES.
 old-location: xinput\xinput_capabilities.htm
-old-project: xinput
+tech.root: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_CAPABILITIES
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: "*PXINPUT_CAPABILITIES, PXINPUT_CAPABILITIES, PXINPUT_CAPABILITIES structure pointer [XInput Game Controller APIs], XINPUT_CAPABILITIES, XINPUT_CAPABILITIES structure [XInput Game Controller APIs], _XINPUT_CAPABILITIES, xinput.xinput_capabilities, xinput/PXINPUT_CAPABILITIES, xinput/XINPUT_CAPABILITIES"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: xinput.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XINPUT_CAPABILITIES, *PXINPUT_CAPABILITIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XINPUT_CAPABILITIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: XINPUT_CAPABILITIES, *PXINPUT_CAPABILITIES
+req.redist: 
 ---
 
 # _XINPUT_CAPABILITIES structure

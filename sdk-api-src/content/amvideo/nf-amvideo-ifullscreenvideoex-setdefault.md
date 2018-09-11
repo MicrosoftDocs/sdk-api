@@ -4,17 +4,16 @@ title: IFullScreenVideoEx::SetDefault
 author: windows-sdk-content
 description: The SetDefault method saves the current settings.
 old-location: dshow\ifullscreenvideoex_setdefault.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1821703c-0da1-4b3e-a921-a66770b8ee0d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetDefault method, IFullScreenVideoEx.SetDefault, IFullScreenVideoEx::SetDefault, IFullScreenVideoSetDefault, SetDefault, SetDefault method [DirectShow], SetDefault method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetDefault, dshow.ifullscreenvideoex_setdefault
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IFullScreenVideoEx.SetDefault
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IFullScreenVideoEx::SetDefault

@@ -4,17 +4,16 @@ title: POFFLINE_ROUTINE
 author: windows-sdk-content
 description: Marks a resource as unavailable for use after cleanup processing is complete.
 old-location: mscs\offline.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 1d67a4f5-66f8-4818-8b63-d0f50452f889
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Offline, Offline callback, Offline callback function [Failover Cluster], POFFLINE_ROUTINE, POFFLINE_ROUTINE callback function [Failover Cluster], _wolf_offline, mscs.offline, resapi/Offline, resapi/POFFLINE_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Offline
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # POFFLINE_ROUTINE callback function

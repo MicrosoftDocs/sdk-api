@@ -4,17 +4,16 @@ title: IMFDeviceTransform::GetInputStreamAttributes
 author: windows-sdk-content
 description: The GetInputStreamAttributes method gets the attribute store for an input stream on this Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_getinputstreamattributes.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 087696C2-BD29-4BAE-8285-1B127E0D076E
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetInputStreamAttributes, GetInputStreamAttributes method [Streaming Media Devices], GetInputStreamAttributes method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetInputStreamAttributes method, IMFDeviceTransform.GetInputStreamAttributes, IMFDeviceTransform::GetInputStreamAttributes, mftransform/IMFDeviceTransform::GetInputStreamAttributes, stream.imfdevicetransform_getinputstreamattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDeviceTransform.GetInputStreamAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDeviceTransform::GetInputStreamAttributes
@@ -62,7 +60,7 @@ The <b>GetInputStreamAttributes</b> method gets the attribute store for an input
 
 ### -param dwInputStreamID
 
-
+TBD
 
 
 ### -param ppAttributes [out]

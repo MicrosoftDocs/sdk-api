@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::put_ExpirationDirectory
 author: windows-sdk-content
 description: The root directory that will contain the expired files.
 old-location: fsrm\ifsrmfilemanagementjob_expirationdirectory.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 7c8a2584-23ff-4839-b426-8f5411955746
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: ExpirationDirectory property [File Server Resource Manager], ExpirationDirectory property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],ExpirationDirectory property, IFsrmFileManagementJob.ExpirationDirectory, IFsrmFileManagementJob.put_ExpirationDirectory, IFsrmFileManagementJob::ExpirationDirectory, IFsrmFileManagementJob::get_ExpirationDirectory, IFsrmFileManagementJob::put_ExpirationDirectory, fs.ifsrmfilemanagementjob_expirationdirectory, fsrm.ifsrmfilemanagementjob_expirationdirectory, fsrmreports/IFsrmFileManagementJob::ExpirationDirectory, fsrmreports/IFsrmFileManagementJob::get_ExpirationDirectory, fsrmreports/IFsrmFileManagementJob::put_ExpirationDirectory, put_ExpirationDirectory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmFileManagementJob.put_ExpirationDirectory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::put_ExpirationDirectory

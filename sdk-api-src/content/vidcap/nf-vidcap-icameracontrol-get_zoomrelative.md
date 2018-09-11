@@ -4,17 +4,16 @@ title: ICameraControl::get_ZoomRelative
 author: windows-sdk-content
 description: The get_ZoomRelative method returns the camera's relative zoom. The relative zoom indicates the direction in which the lens is moving.
 old-location: dshow\icameracontrol_get_zoomrelative.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c1926541-d7c7-4a16-bbe7-0d93dec89c67
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICameraControl interface [DirectShow],get_ZoomRelative method, ICameraControl.get_ZoomRelative, ICameraControl::get_ZoomRelative, ICameraControlget_ZoomRelative, dshow.icameracontrol_get_zoomrelative, get_ZoomRelative, get_ZoomRelative method [DirectShow], get_ZoomRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_ZoomRelative
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICameraControl.get_ZoomRelative
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICameraControl::get_ZoomRelative

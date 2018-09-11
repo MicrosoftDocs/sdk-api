@@ -4,17 +4,16 @@ title: AVIFileCreateStreamW function
 author: windows-sdk-content
 description: The AVIFileCreateStream function creates a new stream in an existing file and creates an interface to the new stream.
 old-location: multimedia\avifilecreatestream.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: bff87fbb-fcd8-4dd4-93d0-9cab39c30409
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIFileCreateStream, AVIFileCreateStream function [Windows Multimedia], AVIFileCreateStreamA, AVIFileCreateStreamW, _win32_AVIFileCreateStream, multimedia.avifilecreatestream, vfw/AVIFileCreateStream, vfw/AVIFileCreateStreamA, vfw/AVIFileCreateStreamW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - AVIFileCreateStreamW
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIFileCreateStreamW function

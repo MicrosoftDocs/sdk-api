@@ -4,17 +4,16 @@ title: ID3D12InfoQueue::GetMessage
 author: windows-sdk-content
 description: Get a message from the message queue.
 old-location: direct3d12\id3d12infoqueue_getmessage.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: B7B6D1C4-18FD-492A-8346-CA02FCD3EC4B
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetMessage, GetMessage method, GetMessage method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetMessage method, ID3D12InfoQueue.GetMessage, ID3D12InfoQueue::GetMessage, d3d12sdklayers/ID3D12InfoQueue::GetMessage, direct3d12.id3d12infoqueue_getmessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_RLDO_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12InfoQueue.GetMessage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12InfoQueue::GetMessage

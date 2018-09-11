@@ -4,17 +4,16 @@ title: CLUS_RESSUBCLASS_NETWORK
 author: windows-sdk-content
 description: Identifies a resource subclass that manages an IP address provider.
 old-location: mscs\clus_ressubclass_network.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 1dea2545-f0d4-4730-87af-19de135c1640
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUS_RESSUBCLASS_NETWORK, CLUS_RESSUBCLASS_NETWORK enumeration [Failover Cluster], CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL, clusapi/CLUS_RESSUBCLASS_NETWORK, clusapi/CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL, msclus/CLUS_RESSUBCLASS_NETWORK, msclus/CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL, mscs.clus_ressubclass_network
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: CluAdmEx.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_RESSUBCLASS_NETWORK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUS_RESSUBCLASS_NETWORK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_RESSUBCLASS_NETWORK
+req.redist: 
 ---
 
 # CLUS_RESSUBCLASS_NETWORK enumeration

@@ -4,17 +4,16 @@ title: ITaskbarList3::SetThumbnailClip
 author: windows-sdk-content
 description: Selects a portion of a window's client area to display as that window's thumbnail in the taskbar.
 old-location: shell\ITaskbarList3_SetThumbnailClip.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a22c4708-af59-4ccb-9ddb-885d14c17a33
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetThumbnailClip method, ITaskbarList3.SetThumbnailClip, ITaskbarList3::SetThumbnailClip, SetThumbnailClip, SetThumbnailClip method [Windows Shell], SetThumbnailClip method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetThumbnailClip, shell.ITaskbarList3_SetThumbnailClip, shobjidl_core/ITaskbarList3::SetThumbnailClip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Explorerframe.lib
+req.dll: Explorerframe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskbarList3.SetThumbnailClip
 product: Windows
 targetos: Windows
-req.lib: Explorerframe.lib
-req.dll: Explorerframe.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskbarList3::SetThumbnailClip

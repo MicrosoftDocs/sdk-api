@@ -4,17 +4,16 @@ title: IFilterMapper::RegisterFilterInstance
 author: windows-sdk-content
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Registers an identifiable instance of a filter.
 old-location: dshow\ifiltermapper_registerfilterinstance.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ce42047c-0b74-4ad4-b5a1-ea66fc6bffc3
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IFilterMapper interface [DirectShow],RegisterFilterInstance method, IFilterMapper.RegisterFilterInstance, IFilterMapper::RegisterFilterInstance, IFilterMapperRegisterFilterInstance, RegisterFilterInstance, RegisterFilterInstance method [DirectShow], RegisterFilterInstance method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_registerfilterinstance, strmif/IFilterMapper::RegisterFilterInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFilterMapper.RegisterFilterInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IFilterMapper::RegisterFilterInstance

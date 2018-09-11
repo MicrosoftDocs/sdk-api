@@ -4,17 +4,16 @@ title: IMDSPDevice3
 author: windows-sdk-content
 description: The IMDSPDevice3 interface must be supported for devices that expect to synchronize with Windows Media Player.
 old-location: wmdm\imdspdevice3.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 919c26f4-6954-462a-8b4a-530e78bb72e6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPDevice3, IMDSPDevice3 interface [windows Media Device Manager], IMDSPDevice3 interface [windows Media Device Manager],described, IMDSPDevice3Interface, mswmdm/IMDSPDevice3, wmdm.imdspdevice3
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMDSPDevice3
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPDevice3 interface

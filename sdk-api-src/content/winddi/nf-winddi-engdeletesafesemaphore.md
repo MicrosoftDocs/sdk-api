@@ -4,17 +4,16 @@ title: EngDeleteSafeSemaphore function
 author: windows-sdk-content
 description: The EngDeleteSafeSemaphore function removes a reference to the specified safe semaphore.
 old-location: display\engdeletesafesemaphore.htm
-old-project: display
+tech.root: display
 ms.assetid: d4789803-2343-4d9a-a146-79206d88d59e
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngDeleteSafeSemaphore, EngDeleteSafeSemaphore function [Display Devices], display.engdeletesafesemaphore, gdifncs_ffbf0904-619e-48be-ada1-4269c8a92f55.xml, winddi/EngDeleteSafeSemaphore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngDeleteSafeSemaphore
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngDeleteSafeSemaphore function

@@ -4,17 +4,16 @@ title: ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString
 author: windows-sdk-content
 description: Finalizes the current composition with the value currently shown to the user.
 old-location: tsf\itfintegratablecandidatelistuielement_finalizeexactcompositionstring.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 1A81C1D7-2D7A-41A0-9DB7-0F30AE610051
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FinalizeExactCompositionString, FinalizeExactCompositionString method [Text Services Framework], FinalizeExactCompositionString method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ITfIntegratableCandidateListUIElement interface [Text Services Framework],FinalizeExactCompositionString method, ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString, ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString, ctffunc/ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString, tsf.itfintegratablecandidatelistuielement_finalizeexactcompositionstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString

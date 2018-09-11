@@ -4,17 +4,16 @@ title: IAMMediaTypeSample::GetTime
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetTime method retrieves the stream times at which the sample should start and stop.
 old-location: dshow\iammediatypesample_gettime.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ffbbc857-ddcc-4625-b591-b95a256d40ba
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetTime method, IAMMediaTypeSample.GetTime, IAMMediaTypeSample::GetTime, IAMMediaTypeSampleGetTime, amstream/IAMMediaTypeSample::GetTime, dshow.iammediatypesample_gettime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAMMediaTypeSample.GetTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMediaTypeSample::GetTime

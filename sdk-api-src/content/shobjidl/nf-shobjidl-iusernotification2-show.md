@@ -4,17 +4,16 @@ title: IUserNotification2::Show
 author: windows-sdk-content
 description: Displays the user information in a balloon-style tooltip.
 old-location: shell\IUserNotification2_Show.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 928e9a78-6976-4dcb-b01d-766561f6a861
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IUserNotification2 interface [Windows Shell],Show method, IUserNotification2.Show, IUserNotification2::Show, Show, Show method [Windows Shell], Show method [Windows Shell],IUserNotification2 interface, _shell_IUserNotification2_Show, shell.IUserNotification2_Show, shobjidl/IUserNotification2::Show
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUserNotification2.Show
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IUserNotification2::Show

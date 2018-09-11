@@ -4,17 +4,16 @@ title: IWICPalette::IsGrayscale
 author: windows-sdk-content
 description: Retrieves a value that describes whether a palette is grayscale.
 old-location: wic\_wic_codec_iwicpalette_isgrayscale.htm
-old-project: wic
+tech.root: wic
 ms.assetid: a559fa20-a967-4f8f-b978-f36365d3f00a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],IsGrayscale method, IWICPalette.IsGrayscale, IWICPalette::IsGrayscale, IsGrayscale, IsGrayscale method [Windows Imaging Component], IsGrayscale method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_isgrayscale, wic._wic_codec_iwicpalette_isgrayscale, wincodec/IWICPalette::IsGrayscale
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICPalette.IsGrayscale
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICPalette::IsGrayscale

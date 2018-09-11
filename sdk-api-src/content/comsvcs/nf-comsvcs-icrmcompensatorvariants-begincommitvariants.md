@@ -4,17 +4,16 @@ title: ICrmCompensatorVariants::BeginCommitVariants
 author: windows-sdk-content
 description: Notifies the CRM Compensator of the commit phase (phase two) of the transaction completion and that records are about to be delivered.
 old-location: cos\icrmcompensatorvariants_begincommitvariants.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: a6cd7421-5173-4edb-b752-5fbc44bac6dc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BeginCommitVariants, BeginCommitVariants method [COM+], BeginCommitVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],BeginCommitVariants method, ICrmCompensatorVariants.BeginCommitVariants, ICrmCompensatorVariants::BeginCommitVariants, _dtc_ICrmCompensatorVariants_BeginCommitVariants, comsvcs/ICrmCompensatorVariants::BeginCommitVariants, cos.icrmcompensatorvariants_begincommitvariants
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmCompensatorVariants.BeginCommitVariants
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmCompensatorVariants::BeginCommitVariants

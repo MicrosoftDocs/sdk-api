@@ -4,17 +4,16 @@ title: ITSDT::GetTableDescriptorByIndex
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itsdt_gettabledescriptorbyindex.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9adcc8f6-44a7-41c6-b42a-e45c33cd5d6a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, ITSDT.GetTableDescriptorByIndex, ITSDT::GetTableDescriptorByIndex, ITSDTGetTableDescriptorByIndex, mpeg2psiparser/ITSDT::GetTableDescriptorByIndex, mstv.itsdt_gettabledescriptorbyindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITSDT.GetTableDescriptorByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ITSDT::GetTableDescriptorByIndex

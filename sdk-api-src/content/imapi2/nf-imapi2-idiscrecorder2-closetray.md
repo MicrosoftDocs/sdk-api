@@ -4,17 +4,16 @@ title: IDiscRecorder2::CloseTray
 author: windows-sdk-content
 description: Closes the media tray.
 old-location: imapi\idiscrecorder2_closetray.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 0a30f3bb-68fc-45d5-826d-79ed9209f391
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CloseTray, CloseTray method [IMAPI], CloseTray method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],CloseTray method, IDiscRecorder2.CloseTray, IDiscRecorder2::CloseTray, imapi.idiscrecorder2_closetray, imapi2/IDiscRecorder2::CloseTray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder2.CloseTray
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder2::CloseTray

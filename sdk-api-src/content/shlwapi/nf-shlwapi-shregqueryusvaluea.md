@@ -4,17 +4,16 @@ title: SHRegQueryUSValueA function
 author: windows-sdk-content
 description: Retrieves the type and data for a specified name associated with an open registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegQueryUSValue.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 302a51b5-9cf9-46e5-908c-df0d3c31c91c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHRegQueryUSValue, SHRegQueryUSValue function [Windows Shell], SHRegQueryUSValueA, SHRegQueryUSValueW, _win32_SHRegQueryUSValue, shell.SHRegQueryUSValue, shlwapi/SHRegQueryUSValue, shlwapi/SHRegQueryUSValueA, shlwapi/SHRegQueryUSValueW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - SHRegQueryUSValueW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHRegQueryUSValueA function

@@ -4,17 +4,16 @@ title: ResUtilFreeParameterBlock function
 author: windows-sdk-content
 description: Deallocates memory that has been allocated for a parameter block by ResUtilDupParameterBlock.
 old-location: mscs\resutilfreeparameterblock.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 2e884794-dbb7-47a8-8843-e9c030ce515d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PRESUTIL_FREE_PARAMETER_BLOCK, PRESUTIL_FREE_PARAMETER_BLOCK function [Failover Cluster], ResUtilFreeParameterBlock, ResUtilFreeParameterBlock function [Failover Cluster], _wolf_resutilfreeparameterblock, mscs.resutilfreeparameterblock, resapi/PRESUTIL_FREE_PARAMETER_BLOCK, resapi/ResUtilFreeParameterBlock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ResUtilFreeParameterBlock
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilFreeParameterBlock function

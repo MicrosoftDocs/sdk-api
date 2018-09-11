@@ -4,17 +4,16 @@ title: IWCWizard97Callback::EnableNext
 author: windows-sdk-content
 description: Enables or disables the Next or Finish button on a Wizard97 wizard page, depending on whether the current page is last.
 old-location: mscs\iwcwizard97callback_enablenext.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: aac4dd75-aa98-4db0-8201-33d4c115896b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnableNext, EnableNext method [Failover Cluster], EnableNext method [Failover Cluster],IWCWizard97Callback interface, IWCWizard97Callback interface [Failover Cluster],EnableNext method, IWCWizard97Callback.EnableNext, IWCWizard97Callback::EnableNext, _wolf_iwcwizard97callback_enablenext, cluadmex/IWCWizard97Callback::EnableNext, mscs.iwcwizard97callback_enablenext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWCWizard97Callback.EnableNext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWCWizard97Callback::EnableNext

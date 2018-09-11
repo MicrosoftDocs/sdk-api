@@ -4,17 +4,16 @@ title: ICaptureGraphBuilder::FindInterface
 author: windows-sdk-content
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Looks for the specified interface on the filter, upstream and downstream from the filter, and, optionally, only on the output pin of the given category.
 old-location: dshow\icapturegraphbuilder_findinterface.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 23fe9a5a-0f3b-44b3-9d37-6889214657bf
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: FindInterface, FindInterface method [DirectShow], FindInterface method [DirectShow],ICaptureGraphBuilder interface, ICaptureGraphBuilder interface [DirectShow],FindInterface method, ICaptureGraphBuilder.FindInterface, ICaptureGraphBuilder::FindInterface, ICaptureGraphBuilderFindInterface, dshow.icapturegraphbuilder_findinterface, strmif/ICaptureGraphBuilder::FindInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICaptureGraphBuilder.FindInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # ICaptureGraphBuilder::FindInterface

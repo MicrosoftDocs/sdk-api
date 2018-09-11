@@ -4,17 +4,16 @@ title: IDsAdminNewObjPrimarySite::Commit
 author: windows-sdk-content
 description: The IDsAdminNewObjPrimarySite::Commit method causes a single-page primary object creation extension's IDsAdminNewObjExt::WriteData method to be called and writes the temporary object to persistent memory.
 old-location: ad\idsadminnewobjprimarysite_commit.htm
-old-project: ad
+tech.root: ad
 ms.assetid: a7e56a9b-bd3c-4229-9735-32ec9549856d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Commit, Commit method [Active Directory], Commit method [Active Directory],IDsAdminNewObjPrimarySite interface, IDsAdminNewObjPrimarySite interface [Active Directory],Commit method, IDsAdminNewObjPrimarySite.Commit, IDsAdminNewObjPrimarySite::Commit, _glines_idsadminnewobjprimarysite_commit, ad.idsadminnewobjprimarysite__commit, ad.idsadminnewobjprimarysite_commit, dsadmin/IDsAdminNewObjPrimarySite::Commit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsAdminNewObjPrimarySite.Commit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DSAdmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsAdminNewObjPrimarySite::Commit

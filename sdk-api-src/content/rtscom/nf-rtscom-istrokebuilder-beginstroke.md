@@ -4,17 +4,16 @@ title: IStrokeBuilder::BeginStroke
 author: windows-sdk-content
 description: Begins a stroke on an ink object by using packet data from a RealTimeStylus Class object.
 old-location: tablet\istrokebuilder_beginstroke.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 40b8ce05-0272-4505-8361-13bb6ca701ea
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 40b8ce05-0272-4505-8361-13bb6ca701ea, BeginStroke, BeginStroke method [Tablet PC], BeginStroke method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],BeginStroke method, IStrokeBuilder.BeginStroke, IStrokeBuilder::BeginStroke, rtscom/IStrokeBuilder::BeginStroke, tablet.istrokebuilder_beginstroke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStrokeBuilder.BeginStroke
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStrokeBuilder::BeginStroke

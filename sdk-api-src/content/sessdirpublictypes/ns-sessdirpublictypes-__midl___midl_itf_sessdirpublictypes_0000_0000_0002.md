@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0002"
 author: windows-sdk-content
 description: Defines the IP address of a target.
 old-location: termserv\tssd_connectionpoint.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 489d79ab-8a59-4789-9dca-df26018bf58c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sessdirpublictypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSSD_ConnectionPoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0002 structure

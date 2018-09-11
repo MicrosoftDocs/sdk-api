@@ -4,17 +4,16 @@ title: IAccessible::get_accFocus
 author: windows-sdk-content
 description: The IAccessible::get_accFocus method retrieves the object that has the keyboard focus. All objects that may receive the keyboard focus must support this property.
 old-location: winauto\iaccessible_iaccessible__get_accfocus.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 42114c5d-8f28-458a-8d22-ac1531cd50d2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accFocus method, IAccessible.get_accFocus, IAccessible::get_accFocus, VT_DISPATCH, VT_EMPTY, VT_I4, _msaa_IAccessible_get_accFocus, get_accFocus, get_accFocus method [Windows Accessibility], get_accFocus method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accfocus, oleacc/IAccessible::get_accFocus, winauto.iaccessible_iaccessible__get_accfocus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 
-req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessible.get_accFocus
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ---
 
 # IAccessible::get_accFocus
@@ -62,7 +60,7 @@ The <b>IAccessible::get_accFocus</b> method retrieves the object that has the ke
 
 ### -param pvarChild
 
-
+TBD
 
 
 

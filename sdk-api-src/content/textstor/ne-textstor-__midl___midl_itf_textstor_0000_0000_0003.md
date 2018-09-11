@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_textstor_0000_0000_0003"
 author: windows-sdk-content
 description: Elements of the TsRunType enumeration specify if a text run is visible, hidden, or is a private data type embedded in the text run.
 old-location: tsf\tsruntype.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 47da6ff6-34c9-4c36-a254-ce8396723fcb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TsRunType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TsRunType
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # __MIDL___MIDL_itf_textstor_0000_0000_0003 enumeration

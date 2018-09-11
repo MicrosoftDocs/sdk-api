@@ -4,17 +4,16 @@ title: IActionCollection
 author: windows-sdk-content
 description: Contains the actions that are performed by the task.
 old-location: taskschd\iactioncollection.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: aa7781b6-2600-4af5-95b8-2ac7928946fa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IActionCollection, IActionCollection interface [Task Scheduler], IActionCollection interface [Task Scheduler],described, actions [Task Scheduler],collection interface, taskschd.iactioncollection, taskschd/IActionCollection
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActionCollection
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IActionCollection interface

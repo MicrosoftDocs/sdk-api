@@ -4,17 +4,16 @@ title: ITaskSettings::put_StartWhenAvailable
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the Task Scheduler can start the task at any time after its scheduled time has passed.
 old-location: taskschd\itasksettings_startwhenavailable.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 93002ed0-4d85-491c-9111-6bb5d62ebac2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],StartWhenAvailable property, ITaskSettings.StartWhenAvailable, ITaskSettings.put_StartWhenAvailable, ITaskSettings::StartWhenAvailable, ITaskSettings::get_StartWhenAvailable, ITaskSettings::put_StartWhenAvailable, StartWhenAvailable property [Task Scheduler], StartWhenAvailable property [Task Scheduler],ITaskSettings interface, put_StartWhenAvailable, taskschd.itasksettings_startwhenavailable, taskschd/ITaskSettings::StartWhenAvailable, taskschd/ITaskSettings::get_StartWhenAvailable, taskschd/ITaskSettings::put_StartWhenAvailable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITaskSettings.put_StartWhenAvailable
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskSettings::put_StartWhenAvailable

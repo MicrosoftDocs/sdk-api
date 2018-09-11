@@ -4,7 +4,7 @@ title: D3D12_UAV_DIMENSION
 author: windows-sdk-content
 description: Identifies unordered-access view options.
 old-location: direct3d12\d3d12_uav_dimension.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 2D4DA7D4-8AC6-4507-BCC2-FB5C5431BB73
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_UAV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_UAV_DIMENSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_UAV_DIMENSION
+req.redist: 
 ---
 
 # D3D12_UAV_DIMENSION enumeration

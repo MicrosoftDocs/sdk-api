@@ -4,17 +4,16 @@ title: IGroupPolicyObject::GetPropertySheetPages
 author: windows-sdk-content
 description: The GetPropertySheetPages method retrieves the property sheet pages associated with the GPO.
 old-location: policy\igrouppolicyobject_getpropertysheetpages.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: d464d5fc-64f0-4f34-bcc0-35d92e65f79b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetPropertySheetPages, GetPropertySheetPages method [Group Policy], GetPropertySheetPages method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetPropertySheetPages method, IGroupPolicyObject.GetPropertySheetPages, IGroupPolicyObject::GetPropertySheetPages, _win32_igrouppolicyobject_getpropertysheetpages, gpedit/IGroupPolicyObject::GetPropertySheetPages, policy.igrouppolicyobject_getpropertysheetpages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGroupPolicyObject.GetPropertySheetPages
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpedit.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGroupPolicyObject::GetPropertySheetPages

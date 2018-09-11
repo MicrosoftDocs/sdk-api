@@ -4,17 +4,16 @@ title: "_SHChangeDWORDAsIDList"
 author: windows-sdk-content
 description: SHChangeDWORDAsIDList may be altered or unavailable.
 old-location: shell\SHChangeDWORDAsIDList.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ebc05a9c-ed2b-41ff-93fb-9d8059fa360c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList structure pointer [Windows Shell], SHChangeDWORDAsIDList, SHChangeDWORDAsIDList structure [Windows Shell], _SHChangeDWORDAsIDList, _shell_SHChangeDWORDAsIDList, shell.SHChangeDWORDAsIDList, shlobj_core/LPSHChangeDWORDAsIDList, shlobj_core/SHChangeDWORDAsIDList"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHChangeDWORDAsIDList, *LPSHChangeDWORDAsIDList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHChangeDWORDAsIDList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHChangeDWORDAsIDList, *LPSHChangeDWORDAsIDList
+req.redist: 
 ---
 
 # _SHChangeDWORDAsIDList structure

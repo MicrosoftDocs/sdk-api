@@ -4,7 +4,7 @@ title: IWMSecureChannel
 author: windows-sdk-content
 description: The IWMSecureChannel interface provides methods that allow two DLLs to validate each other and perform secure communication.
 old-location: wmformat\iwmsecurechannel.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsecure.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMT_WATERMARK_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMSecureChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMSecureChannel interface

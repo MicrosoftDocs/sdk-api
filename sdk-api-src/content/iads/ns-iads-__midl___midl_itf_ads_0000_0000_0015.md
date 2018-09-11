@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_ads_0000_0000_0015"
 author: windows-sdk-content
 description: Used with the ADSVALUE structure to contain a distinguished name attribute value that also contains binary data.
 old-location: adsi\ads_dn_with_binary.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 541dd19d-79a1-4a74-b4a1-31cdf69fbf0c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_DN_WITH_BINARY, *PADS_DN_WITH_BINARY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADS_DN_WITH_BINARY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ADS_DN_WITH_BINARY, *PADS_DN_WITH_BINARY
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_ads_0000_0000_0015 structure

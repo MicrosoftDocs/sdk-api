@@ -4,17 +4,16 @@ title: ConvertSidToStringSidW function
 author: windows-sdk-content
 description: Converts a security identifier (SID) to a string format suitable for display, storage, or transmission.
 old-location: security\convertsidtostringsid.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: e673e727-edb1-450c-9e1a-a3dc90acc929
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: ConvertSidToStringSid, ConvertSidToStringSid function [Security], ConvertSidToStringSidA, ConvertSidToStringSidW, _win32_convertsidtostringsid, sddl/ConvertSidToStringSid, sddl/ConvertSidToStringSidA, sddl/ConvertSidToStringSidW, security.convertsidtostringsid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sddl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - ConvertSidToStringSidW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ConvertSidToStringSidW function

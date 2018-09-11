@@ -4,17 +4,16 @@ title: IVdsServiceIscsi::SetInitiatorSharedSecret
 author: windows-sdk-content
 description: Sets the initiator CHAP shared secret that is used for mutual CHAP authentication when the initiator authenticates the target.
 old-location: base\ivdsserviceiscsi_setinitiatorsharedsecret.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 90f9cf10-a0be-4ed1-8b0c-e6cc46384ba0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],SetInitiatorSharedSecret method, IVdsServiceIscsi.SetInitiatorSharedSecret, IVdsServiceIscsi::SetInitiatorSharedSecret, SetInitiatorSharedSecret, SetInitiatorSharedSecret method [VDS], SetInitiatorSharedSecret method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_setinitiatorsharedsecret, vds/IVdsServiceIscsi::SetInitiatorSharedSecret
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsServiceIscsi.SetInitiatorSharedSecret
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsServiceIscsi::SetInitiatorSharedSecret

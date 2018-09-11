@@ -4,17 +4,16 @@ title: WdsTransportProviderOpenContent function
 author: windows-sdk-content
 description: Opens a new static view of a content stream.
 old-location: wds\wdstransportprovideropencontent.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: 95bea971-9c97-4d66-871d-5ef7407b9659
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WdsTransportProviderOpenContent, WdsTransportProviderOpenContent callback, WdsTransportProviderOpenContent callback function [Windows Deployment Services], wds.wdstransportprovideropencontent, wdstpdi/WdsTransportProviderOpenContent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSPORTPROVIDER_CALLBACK_ID, *PTRANSPORTPROVIDER_CALLBACK_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsTransportProviderOpenContent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsTransportProviderOpenContent function

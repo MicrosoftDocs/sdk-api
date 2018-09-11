@@ -4,17 +4,16 @@ title: GetRTTAndHopCount function
 author: windows-sdk-content
 description: The GetRTTAndHopCount function determines the round-trip time (RTT) and hop count to the specified destination.
 old-location: iphlp\getrttandhopcount.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 4e84fe6f-40bd-4f0e-bb78-4180e13577aa
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: GetRTTAndHopCount, GetRTTAndHopCount function [IP Helper], _iphlp_getrttandhopcount, iphlp.getrttandhopcount, iphlpapi/GetRTTAndHopCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetRTTAndHopCount
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetRTTAndHopCount function

@@ -4,17 +4,16 @@ title: ICCompressQuery macro
 author: windows-sdk-content
 description: The ICCompressQuery macro queries a video compression driver to determine if it supports a specific input format or if it can compress a specific input format to a specific output format.
 old-location: multimedia\iccompressquery.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 5e34a830-5e0c-41e5-9e4a-2d827c73ceeb
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICCompressQuery, ICCompressQuery macro [Windows Multimedia], _win32_ICCompressQuery, multimedia.iccompressquery, vfw/ICCompressQuery
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICCompressQuery
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICCompressQuery macro

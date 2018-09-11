@@ -4,17 +4,16 @@ title: ICertServerExit
 author: windows-sdk-content
 description: Exported by the server engine and is called by exit modules.
 old-location: security\icertserverexit.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 1554c09c-a7c1-44ad-9821-93c0913212fc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ICertServerExit, ICertServerExit interface [Security], ICertServerExit interface [Security],described, _certsrv_icertserverexit, certif/ICertServerExit, security.icertserverexit
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certif.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertServerExit
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertServerExit interface

@@ -4,17 +4,16 @@ title: IXpsOMPackage1::WriteToFile1
 author: windows-sdk-content
 description: Writes an XPS OM to a file as an XPS package of a specified type.
 old-location: xps\ixpsompackage1_writetofile1.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 524f951f-5a2b-4ed1-8435-4426739d38f8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsOMPackage1 interface [XPS Documents and Packaging],WriteToFile1 method, IXpsOMPackage1.WriteToFile1, IXpsOMPackage1::WriteToFile1, WriteToFile1, WriteToFile1 method [XPS Documents and Packaging], WriteToFile1 method [XPS Documents and Packaging],IXpsOMPackage1 interface, xps.ixpsompackage1_writetofile1, xpsobjectmodel_1/IXpsOMPackage1::WriteToFile1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_DOCUMENT_TYPE
+req.lib: None
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IXpsOMPackage1.WriteToFile1
 product: Windows
 targetos: Windows
-req.lib: None
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMPackage1::WriteToFile1

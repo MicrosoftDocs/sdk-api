@@ -4,7 +4,7 @@ title: TS_STATUS
 author: windows-sdk-content
 description: The TS_STATUS structure contains document status data.
 old-location: tsf\ts_status.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: d27d81f2-8599-4b65-866b-4e8fd2f589f5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TS_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TS_STATUS
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # TS_STATUS structure

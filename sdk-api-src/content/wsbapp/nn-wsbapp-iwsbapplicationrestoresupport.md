@@ -4,17 +4,16 @@ title: IWsbApplicationRestoreSupport
 author: windows-sdk-content
 description: Defines methods for performing application-specific restore tasks.
 old-location: wsb\iwsbapplicationrestoresupport.htm
-old-project: wsb
+tech.root: wsb
 ms.assetid: 694f9b4d-0ca8-4dbe-829c-6ac18c9aa140
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IWsbApplicationRestoreSupport, IWsbApplicationRestoreSupport interface [Windows Server Backup], IWsbApplicationRestoreSupport interface [Windows Server Backup],described, wsb.iwsbapplicationrestoresupport, wsbapp/IWsbApplicationRestoreSupport
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsbapp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWsbApplicationRestoreSupport
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWsbApplicationRestoreSupport interface

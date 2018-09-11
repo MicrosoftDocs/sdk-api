@@ -4,7 +4,7 @@ title: IEnumDirectory
 author: windows-sdk-content
 description: The IEnumDirectory interface provides COM-standard enumeration methods for the ITDirectory interface. The ITRendezvous::EnumerateDefaultDirectories method returns a pointer to IEnumDirectory.
 old-location: tapi3\ienumdirectory.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 9c1e83c5-c718-4a3b-916d-e844a8377a29
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumDirectory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumDirectory interface

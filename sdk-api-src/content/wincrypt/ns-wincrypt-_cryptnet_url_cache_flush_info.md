@@ -4,17 +4,16 @@ title: "_CRYPTNET_URL_CACHE_FLUSH_INFO"
 author: windows-sdk-content
 description: Contains expiry information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry.
 old-location: security\cryptnet_url_cache_flush_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 68b52dbe-c521-4281-9a00-d91ee14dd697
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPTNET_URL_CACHE_FLUSH_INFO, CRYPTNET_URL_CACHE_DEFAULT_FLUSH, CRYPTNET_URL_CACHE_DISABLE_FLUSH, CRYPTNET_URL_CACHE_FLUSH_INFO, CRYPTNET_URL_CACHE_FLUSH_INFO structure [Security], PCRYPTNET_URL_CACHE_FLUSH_INFO, PCRYPTNET_URL_CACHE_FLUSH_INFO structure pointer [Security], _CRYPTNET_URL_CACHE_FLUSH_INFO, security.cryptnet_url_cache_flush_info, wincrypt/CRYPTNET_URL_CACHE_FLUSH_INFO, wincrypt/PCRYPTNET_URL_CACHE_FLUSH_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTNET_URL_CACHE_FLUSH_INFO, *PCRYPTNET_URL_CACHE_FLUSH_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPTNET_URL_CACHE_FLUSH_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPTNET_URL_CACHE_FLUSH_INFO, *PCRYPTNET_URL_CACHE_FLUSH_INFO
+req.redist: 
 ---
 
 # _CRYPTNET_URL_CACHE_FLUSH_INFO structure

@@ -4,17 +4,16 @@ title: TraceLoggingDescription macro
 author: windows-sdk-content
 description: Wrapper macro for setting a description for an event.
 old-location: tracelogging\traceloggingdescription.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: 90521B97-2651-46C9-8292-925F53F88CE7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TraceLoggingDescription, TraceLoggingDescription macro, tracelogging.traceloggingdescription, traceloggingprovider/TraceLoggingDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceLoggingDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceLoggingDescription macro

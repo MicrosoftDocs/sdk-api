@@ -4,17 +4,16 @@ title: ScriptPositionSingleGlyph function
 author: windows-sdk-content
 description: Positions a single glyph with a single adjustment using a specified feature provided in the font for OpenType processing. Most often, applications use this function to align a glyph optically at the beginning or end of a line.
 old-location: intl\scriptpositionsingleglyph.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 8dc776a9-fdde-4982-a2ca-e4384615bc47
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ScriptPositionSingleGlyph, ScriptPositionSingleGlyph function [Internationalization for Windows Applications], _win32_ScriptPositionSingleGlyph, intl.scriptpositionsingleglyph, usp10/ScriptPositionSingleGlyph
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 
-req.redist: Usp10.dll version 1.600 or greater on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCRIPT_JUSTIFY
+req.lib: Usp10.lib
+req.dll: Usp10.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ScriptPositionSingleGlyph
 product: Windows
 targetos: Windows
-req.lib: Usp10.lib
-req.dll: Usp10.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: Usp10.dll version 1.600 or greater on Windows XP
 ---
 
 # ScriptPositionSingleGlyph function

@@ -4,17 +4,16 @@ title: INamedPropertyStore::GetNameAt
 author: windows-sdk-content
 description: Gets the name of a property at a specified index in the property store.
 old-location: shell\INamedPropertyStore_GetNameAt.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2fd3896e-b170-49af-811e-a1f2facc7a84
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetNameAt, GetNameAt method [Windows Shell], GetNameAt method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNameAt method, INamedPropertyStore.GetNameAt, INamedPropertyStore::GetNameAt, _shell_INamedPropertyStore_GetNameAt, propsys/INamedPropertyStore::GetNameAt, shell.INamedPropertyStore_GetNameAt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INamedPropertyStore.GetNameAt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # INamedPropertyStore::GetNameAt

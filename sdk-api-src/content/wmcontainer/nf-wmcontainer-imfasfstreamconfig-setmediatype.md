@@ -4,17 +4,16 @@ title: IMFASFStreamConfig::SetMediaType
 author: windows-sdk-content
 description: Sets the media type for the Advanced Systems Format (ASF) stream configuration object.
 old-location: mf\imfasfstreamconfig_setmediatype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 53b7c4fd-a3bc-4e15-b2f6-380cae8ab2f6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 53b7c4fd-a3bc-4e15-b2f6-380cae8ab2f6, IMFASFStreamConfig interface [Media Foundation],SetMediaType method, IMFASFStreamConfig.SetMediaType, IMFASFStreamConfig::SetMediaType, SetMediaType, SetMediaType method [Media Foundation], SetMediaType method [Media Foundation],IMFASFStreamConfig interface, mf.imfasfstreamconfig_setmediatype, wmcontainer/IMFASFStreamConfig::SetMediaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFStreamConfig.SetMediaType
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFStreamConfig::SetMediaType

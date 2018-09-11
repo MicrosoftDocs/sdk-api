@@ -4,17 +4,16 @@ title: ITextServices::TxGetText
 author: windows-sdk-content
 description: Returns all of the Unicode plain text in the control as a BSTR.
 old-location: controls\ITextServices_TxGetText.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgettext.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetText method, ITextServices.TxGetText, ITextServices::TxGetText, TxGetText, TxGetText method [Windows Controls], TxGetText method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetText, _win32_ITextServices_TxGetText_cpp, controls.ITextServices_TxGetText, controls._win32_ITextServices_TxGetText, textserv/ITextServices::TxGetText
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextServices.TxGetText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextServices::TxGetText

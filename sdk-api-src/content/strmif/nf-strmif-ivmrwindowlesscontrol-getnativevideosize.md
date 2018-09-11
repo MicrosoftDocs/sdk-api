@@ -4,17 +4,16 @@ title: IVMRWindowlessControl::GetNativeVideoSize
 author: windows-sdk-content
 description: The GetNativeVideoSize method retrieves the un-stretched video size and aspect ratio of the video.
 old-location: dshow\ivmrwindowlesscontrol_getnativevideosize.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: cc8fd96d-e9a8-4911-9330-a4cf71a2d926
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetNativeVideoSize, GetNativeVideoSize method [DirectShow], GetNativeVideoSize method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetNativeVideoSize method, IVMRWindowlessControl.GetNativeVideoSize, IVMRWindowlessControl::GetNativeVideoSize, IVMRWindowlessControlGetNativeVideoSize, dshow.ivmrwindowlesscontrol_getnativevideosize, strmif/IVMRWindowlessControl::GetNativeVideoSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRWindowlessControl.GetNativeVideoSize
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRWindowlessControl::GetNativeVideoSize

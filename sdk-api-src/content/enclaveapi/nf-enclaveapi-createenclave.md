@@ -4,17 +4,16 @@ title: CreateEnclave function
 author: windows-sdk-content
 description: Creates a new uninitialized enclave. An enclave is an isolated region of code and data within the address space for an application. Only code that runs within the enclave can access data within the same enclave.
 old-location: base\createenclave.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 2193AE42-D9CC-4A9C-8676-7DE432ED58C3
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: CreateEnclave, CreateEnclave function, ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, base.createenclave, enclaveapi/CreateEnclave
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: enclaveapi.h
 req.include-header: Winbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: Kernel32.lib
+req.dll: Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - CreateEnclave
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # CreateEnclave function

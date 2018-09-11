@@ -4,17 +4,16 @@ title: DWRITE_FONT_STYLE
 author: windows-sdk-content
 description: Represents the style of a font face as normal, italic, or oblique.
 old-location: directwrite\dwrite_font_style.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: e48a3b82-4a60-472d-8cb8-a6f63d7eeefc
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_FONT_STYLE, DWRITE_FONT_STYLE enumeration [Direct Write], DWRITE_FONT_STYLE_ITALIC, DWRITE_FONT_STYLE_NORMAL, DWRITE_FONT_STYLE_OBLIQUE, directwrite.dwrite_font_style, dwrite/DWRITE_FONT_STYLE, dwrite/DWRITE_FONT_STYLE_ITALIC, dwrite/DWRITE_FONT_STYLE_NORMAL, dwrite/DWRITE_FONT_STYLE_OBLIQUE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_FONT_STYLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_FONT_STYLE enumeration

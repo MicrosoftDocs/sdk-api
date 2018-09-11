@@ -4,17 +4,16 @@ title: ISBE2MediaTypeProfile::AddStream
 author: windows-sdk-content
 description: Adds a stream to a media type profile.
 old-location: mstv\isbe2mediatypeprofile_addstream.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f847d4f1-e748-4ed5-bc79-cfff90601379
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: AddStream, AddStream method [Microsoft TV Technologies], AddStream method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],AddStream method, ISBE2MediaTypeProfile.AddStream, ISBE2MediaTypeProfile::AddStream, mstv.isbe2mediatypeprofile_addstream, sbe/ISBE2MediaTypeProfile::AddStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: Sbe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISBE2MediaTypeProfile.AddStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sbe.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISBE2MediaTypeProfile::AddStream

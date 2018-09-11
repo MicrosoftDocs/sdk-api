@@ -4,17 +4,16 @@ title: IAppxPackageWriter::Close
 author: windows-sdk-content
 description: Writes footprint files at the end of the app package, and closes the package writer object's output stream.
 old-location: appxpkg\iappxpackagewriter_close.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 294625B2-1141-44EE-A769-365C3B37EBD9
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxPackageWriter interface, IAppxPackageWriter interface [App packaging and management],Close method, IAppxPackageWriter.Close, IAppxPackageWriter::Close, appxpackaging/IAppxPackageWriter::Close, appxpkg.iappxpackagewriter_close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxPackageWriter.Close
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxPackageWriter::Close

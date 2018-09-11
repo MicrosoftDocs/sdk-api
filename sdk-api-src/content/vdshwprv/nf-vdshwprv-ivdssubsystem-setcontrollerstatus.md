@@ -4,17 +4,16 @@ title: IVdsSubSystem::SetControllerStatus
 author: windows-sdk-content
 description: Sets the status (either online or offline) of the controllers in the subsystem.
 old-location: base\ivdssubsystem_setcontrollerstatus.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 080a48a5-1c25-440a-ad3c-528cdaef40e9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsSubSystem interface [VDS],SetControllerStatus method, IVdsSubSystem.SetControllerStatus, IVdsSubSystem::SetControllerStatus, SetControllerStatus, SetControllerStatus method [VDS], SetControllerStatus method [VDS],IVdsSubSystem interface, base.ivdssubsystem_setcontrollerstatus, vds/IVdsSubSystem::SetControllerStatus, vdshwprv/IVdsSubSystem::SetControllerStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSubSystem.SetControllerStatus
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsSubSystem::SetControllerStatus

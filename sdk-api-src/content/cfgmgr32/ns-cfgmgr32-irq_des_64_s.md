@@ -4,17 +4,16 @@ title: IRQ_Des_64_s
 author: windows-sdk-content
 description: The IRQ_DES structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
 old-location: devinst\irq_des.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: fa8b8d96-6642-4f5a-b65c-0c7470340251
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PIRQ_DES_64, IRQ_DES, IRQ_DES structure [Device and Driver Installation], IRQ_DES_64, IRQ_Des_64_s, PIRQ_DES, PIRQ_DES structure pointer [Device and Driver Installation], cfgmgr32/IRQ_DES, cfgmgr32/PIRQ_DES, cfgmgrst_039f414c-eefc-46f0-acbe-a94d09406d92.xml, devinst.irq_des"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IRQ_DES_64, *PIRQ_DES_64
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IRQ_DES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: IRQ_DES_64, *PIRQ_DES_64
+req.redist: 
 ---
 
 # IRQ_Des_64_s structure

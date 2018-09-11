@@ -4,17 +4,16 @@ title: FILE_ATTRIBUTES_ARRAY
 author: windows-sdk-content
 description: Contains the clipboard format definition for CFSTR_FILE_ATTRIBUTES_ARRAY.
 old-location: shell\FILE_ATTRIBUTES_ARRAY.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 222a1e97-df2f-49ad-be07-3172f49ecd06
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: FILE_ATTRIBUTES_ARRAY, FILE_ATTRIBUTES_ARRAY structure [Windows Shell], _shell_FILE_ATTRIBUTES_ARRAY, shell.FILE_ATTRIBUTES_ARRAY, shlobj_core/FILE_ATTRIBUTES_ARRAY
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_ATTRIBUTES_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILE_ATTRIBUTES_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: FILE_ATTRIBUTES_ARRAY
+req.redist: 
 ---
 
 # FILE_ATTRIBUTES_ARRAY structure

@@ -4,17 +4,16 @@ title: IUIAutomationSynchronizedInputPattern::StartListening
 author: windows-sdk-content
 description: Causes the Microsoft UI Automation provider to start listening for mouse or keyboard input.
 old-location: winauto\uiauto_IUIAutomationSynchronizedInputPattern_StartListening.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 2ecd413e-c1a8-404f-9a11-8c2c8428d6d7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationSynchronizedInputPattern interface [Windows Accessibility],StartListening method, IUIAutomationSynchronizedInputPattern.StartListening, IUIAutomationSynchronizedInputPattern::StartListening, StartListening, StartListening method [Windows Accessibility], StartListening method [Windows Accessibility],IUIAutomationSynchronizedInputPattern interface, uiauto.uiauto_IUIAutomationSynchronizedInputPattern_StartListening, uiauto_IUIAutomationSynchronizedInputPattern_StartListening, uiautomationclient/IUIAutomationSynchronizedInputPattern::StartListening, winauto.uiauto_IUIAutomationSynchronizedInputPattern_StartListening
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationSynchronizedInputPattern.StartListening
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationSynchronizedInputPattern::StartListening

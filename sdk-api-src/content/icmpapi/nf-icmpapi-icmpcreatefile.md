@@ -4,17 +4,16 @@ title: IcmpCreateFile function
 author: windows-sdk-content
 description: The IcmpCreateFile function opens a handle on which IPv4 ICMP echo requests can be issued.
 old-location: iphlp\icmpcreatefile.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: b435b38b-df86-4991-9772-c712c9ea606f
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: IcmpCreateFile, IcmpCreateFile function [IP Helper], _iphlp_icmpcreatefile, icmpapi/IcmpCreateFile, iphlp.icmpcreatefile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: icmpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP; Icmp.dll on Windows 2000 Server and Windows 2000 Professional
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IcmpCreateFile
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP; Icmp.dll on Windows 2000 Server and Windows 2000 Professional
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IcmpCreateFile function

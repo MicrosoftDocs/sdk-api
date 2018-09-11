@@ -4,17 +4,16 @@ title: DiscoverManagementService function
 author: windows-sdk-content
 description: Discovers the MDM service.
 old-location: mdmreg\discovermanagementservice.htm
-old-project: MDMReg
+tech.root: MDMReg
 ms.assetid: 0b01225c-83db-4b13-ad7e-52beae05a8ee
 ms.author: windowssdkdev
 ms.date: 02/21/2018
 ms.keywords: DiscoverManagementService, DiscoverManagementService function [MDM Registration], mdmreg.discovermanagementservice, mdmregistration/DiscoverManagementService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGISTRATION_INFORMATION_CLASS, *PREGISTRATION_INFORMATION_CLASS
+req.lib: MDMRegistration.lib
+req.dll: MDMRegistration.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DiscoverManagementService
 product: Windows
 targetos: Windows
-req.lib: MDMRegistration.lib
-req.dll: MDMRegistration.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # DiscoverManagementService function

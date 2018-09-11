@@ -4,17 +4,16 @@ title: IEnumPIDMap::Reset
 author: windows-sdk-content
 description: The Reset method moves the iterator to the beginning of the collection.
 old-location: dshow\ienumpidmap_reset.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 4f5cc44e-10c0-441f-b34c-80f94c5f6bca
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IEnumPIDMap interface [DirectShow],Reset method, IEnumPIDMap.Reset, IEnumPIDMap::Reset, IEnumPIDMapReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumPIDMap interface, bdaiface/IEnumPIDMap::Reset, dshow.ienumpidmap_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IEnumPIDMap.Reset
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumPIDMap::Reset

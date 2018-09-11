@@ -4,17 +4,16 @@ title: IAzObjectPicker::get_Name
 author: windows-sdk-content
 description: Gets the name of the IAzObjectPicker object.
 old-location: security\iazobjectpicker_name_method.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: b42ebb74-deb0-4182-8447-2c7886963a7e
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IAzObjectPicker interface [Security],Name property, IAzObjectPicker.Name, IAzObjectPicker.get_Name, IAzObjectPicker::Name, IAzObjectPicker::get_Name, Name property [Security], Name property [Security],IAzObjectPicker interface, azroles/IAzObjectPicker::Name, azroles/IAzObjectPicker::get_Name, get_Name, security.iazobjectpicker_name_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAzObjectPicker.get_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzObjectPicker::get_Name

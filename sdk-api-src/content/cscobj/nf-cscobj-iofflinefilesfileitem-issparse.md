@@ -4,17 +4,16 @@ title: IOfflineFilesFileItem::IsSparse
 author: windows-sdk-content
 description: Determines whether an item in the Offline Files cache is sparsely cached.
 old-location: of\iofflinefilesfileitem_issparse.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 6f731b25-f4f0-4635-af00-dbd1ba4e5f11
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IOfflineFilesFileItem interface [Offline Files],IsSparse method, IOfflineFilesFileItem.IsSparse, IOfflineFilesFileItem::IsSparse, IsSparse, IsSparse method [Offline Files], IsSparse method [Offline Files],IOfflineFilesFileItem interface, cscobj/IOfflineFilesFileItem::IsSparse, of.iofflinefilesfileitem_issparse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesFileItem.IsSparse
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesFileItem::IsSparse

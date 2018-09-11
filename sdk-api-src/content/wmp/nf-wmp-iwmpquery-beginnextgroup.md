@@ -4,17 +4,16 @@ title: IWMPQuery::beginNextGroup
 author: windows-sdk-content
 description: The beginNextGroup method begins a new condition group.
 old-location: wmp\iwmpquery_beginnextgroup.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: c81a8125-2cfa-40e2-afc5-672c2866b880
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPQuery interface [Windows Media Player],beginNextGroup method, IWMPQuery.beginNextGroup, IWMPQuery::beginNextGroup, IWMPQuerybeginNextGroup, beginNextGroup, beginNextGroup method [Windows Media Player], beginNextGroup method [Windows Media Player],IWMPQuery interface, wmp.iwmpquery_beginnextgroup, wmp/IWMPQuery::beginNextGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPQuery.beginNextGroup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPQuery::beginNextGroup

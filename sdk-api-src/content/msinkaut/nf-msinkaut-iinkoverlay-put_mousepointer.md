@@ -4,17 +4,16 @@ title: IInkOverlay::put_MousePointer
 author: windows-sdk-content
 description: Gets or sets a value that indicates the type of mouse pointer that appears.
 old-location: tablet\inkoverlay_mousepointer.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: cf687894-b005-4a86-9a71-dc27b225b1e4
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkOverlay interface [Tablet PC],MousePointer property, IInkOverlay.MousePointer, IInkOverlay.put_MousePointer, IInkOverlay::MousePointer, IInkOverlay::get_MousePointer, IInkOverlay::put_MousePointer, InkOverlay.get_MousePointer, InkOverlay.put_MousePointer, MousePointer property [Tablet PC], MousePointer property [Tablet PC],IInkOverlay interface, get_MousePointer, msinkaut/IInkOverlay::MousePointer, msinkaut/IInkOverlay::get_MousePointer, msinkaut/IInkOverlay::put_MousePointer, put_MousePointer, tablet.inkoverlay_mousepointer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkOverlay.put_MousePointer
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkOverlay::put_MousePointer

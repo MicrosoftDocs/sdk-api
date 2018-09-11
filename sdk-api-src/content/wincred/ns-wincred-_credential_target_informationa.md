@@ -4,17 +4,16 @@ title: "_CREDENTIAL_TARGET_INFORMATIONA"
 author: windows-sdk-content
 description: The CREDENTIAL_TARGET_INFORMATION structure contains the target computer's name, domain, and tree.
 old-location: security\credential_target_information.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 92180f2c-ef7c-4481-9b6f-19234c114afb
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCREDENTIAL_TARGET_INFORMATIONA, CREDENTIAL_TARGET_INFORMATION, CREDENTIAL_TARGET_INFORMATION structure [Security], CREDENTIAL_TARGET_INFORMATIONA, PCREDENTIAL_TARGET_INFORMATION, PCREDENTIAL_TARGET_INFORMATION structure pointer [Security], _CREDENTIAL_TARGET_INFORMATIONA, _cred_credential_target_information, security.credential_target_information, wincred/CREDENTIAL_TARGET_INFORMATION, wincred/PCREDENTIAL_TARGET_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_TARGET_INFORMATIONA, *PCREDENTIAL_TARGET_INFORMATIONA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CREDENTIAL_TARGET_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CREDENTIAL_TARGET_INFORMATIONA, *PCREDENTIAL_TARGET_INFORMATIONA
+req.redist: 
 ---
 
 # _CREDENTIAL_TARGET_INFORMATIONA structure

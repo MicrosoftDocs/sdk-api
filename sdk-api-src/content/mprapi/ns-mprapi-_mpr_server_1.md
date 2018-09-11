@@ -4,17 +4,16 @@ title: "_MPR_SERVER_1"
 author: windows-sdk-content
 description: Is used to retrieve and set the number of ports available for the Point-to-Point Tunneling Protocol (PPTP) and Layer 2 Tunneling Protocol (L2TP) on a device.
 old-location: rras\mpr_server_1.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: ea27a928-055b-4705-8f7c-dd9a221b2573
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMPR_SERVER_1, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, MPR_SERVER_1, MPR_SERVER_1 structure [RAS], PMPR_SERVER_1, PMPR_SERVER_1 structure pointer [RAS], _MPR_SERVER_1, mprapi/MPR_SERVER_1, mprapi/PMPR_SERVER_1, rras.mpr_server_1"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR_SERVER_1, *PMPR_SERVER_1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPR_SERVER_1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPR_SERVER_1, *PMPR_SERVER_1
+req.redist: 
 ---
 
 # _MPR_SERVER_1 structure

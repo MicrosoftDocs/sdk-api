@@ -4,7 +4,7 @@ title: "_CHANGER_ELEMENT_LIST"
 author: windows-sdk-content
 description: Represents a range of elements of a single type, typically for an operation such as getting or initializing the status of multiple elements.
 old-location: base\changer_element_list_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: cb1fcf78-b36a-4551-8eeb-da58edc80890
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANGER_ELEMENT_LIST, *PCHANGER_ELEMENT_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CHANGER_ELEMENT_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CHANGER_ELEMENT_LIST, *PCHANGER_ELEMENT_LIST
+req.redist: 
 ---
 
 # _CHANGER_ELEMENT_LIST structure

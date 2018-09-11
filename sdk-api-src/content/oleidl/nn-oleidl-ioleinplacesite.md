@@ -4,17 +4,16 @@ title: IOleInPlaceSite
 author: windows-sdk-content
 description: Manages the interaction between the container and the object's in-place client site. Recall that the client site is the display site for embedded objects, and provides position and conceptual information about the object.
 old-location: com\ioleinplacesite.htm
-old-project: com
+tech.root: com
 ms.assetid: 6d37e022-8c19-48b3-affb-e0eca19b5e05
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleInPlaceSite, IOleInPlaceSite interface [COM], IOleInPlaceSite interface [COM],described, _ole_ioleinplacesite, com.ioleinplacesite, oleidl/IOleInPlaceSite
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceSite
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Adhocreportingexcelclient.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSite interface

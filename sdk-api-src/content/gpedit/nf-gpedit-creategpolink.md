@@ -4,17 +4,16 @@ title: CreateGPOLink function
 author: windows-sdk-content
 description: The CreateGPOLink function creates a link between the specified GPO and the specified site, domain, or organizational unit.
 old-location: policy\creategpolink.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 25d1035d-4ece-4f57-88f2-139f39dbdb86
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CreateGPOLink, CreateGPOLink function [Group Policy], _win32_creategpolink, gpedit/CreateGPOLink, policy.creategpolink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: gpedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: GPEdit.lib
+req.dll: GPEdit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateGPOLink
 product: Windows
 targetos: Windows
-req.lib: GPEdit.lib
-req.dll: GPEdit.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CreateGPOLink function

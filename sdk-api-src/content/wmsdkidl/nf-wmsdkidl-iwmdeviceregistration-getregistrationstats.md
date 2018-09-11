@@ -4,17 +4,16 @@ title: IWMDeviceRegistration::GetRegistrationStats
 author: windows-sdk-content
 description: The GetRegistrationStats method retrieves the number of devices in the device registration database that have a specified type.
 old-location: wmformat\iwmdeviceregistration_getregistrationstats.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 56c5b2c7-46c2-42e4-a7d4-f1b3e56ffbcb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetRegistrationStats, GetRegistrationStats method [windows Media Format], GetRegistrationStats method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetRegistrationStats method, IWMDeviceRegistration.GetRegistrationStats, IWMDeviceRegistration::GetRegistrationStats, IWMDeviceRegistrationGetRegistrationStats, wmformat.iwmdeviceregistration_getregistrationstats, wmsdkidl/IWMDeviceRegistration::GetRegistrationStats
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: WMStubDRM.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDeviceRegistration.GetRegistrationStats
 product: Windows
 targetos: Windows
-req.lib: WMStubDRM.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDeviceRegistration::GetRegistrationStats

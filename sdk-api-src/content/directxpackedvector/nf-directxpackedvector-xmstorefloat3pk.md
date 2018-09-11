@@ -4,17 +4,16 @@ title: XMStoreFloat3PK function
 author: windows-sdk-content
 description: Stores an XMVECTOR in a XMFLOAT3PK.
 old-location: dxmath\xmstorefloat3pk.htm
-old-project: dxmath
+tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat3PK(XMFLOAT3PK@,XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: DirectX::PackedVector.XMStoreFloat3PK, XMStoreFloat3PK, XMStoreFloat3PK method [DirectX Math Support APIs], dxmath.xmstorefloat3pk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: DirectX::PackedVector
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - XMStoreFloat3PK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # XMStoreFloat3PK function

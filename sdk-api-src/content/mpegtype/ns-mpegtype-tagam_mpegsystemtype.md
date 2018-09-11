@@ -4,7 +4,7 @@ title: tagAM_MPEGSYSTEMTYPE
 author: windows-sdk-content
 description: The AM_MPEGSYSTEMTYPE structure defines the format block for an MPEG-1 system stream.
 old-location: dshow\am_mpegsystemtype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 218bf0c3-e618-4dcc-8618-34cd1fb5c0a8
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mpegtype.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_MPEGSYSTEMTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_MPEGSYSTEMTYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: AM_MPEGSYSTEMTYPE
+req.redist: 
 ---
 
 # tagAM_MPEGSYSTEMTYPE structure

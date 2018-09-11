@@ -4,17 +4,16 @@ title: IEnumTASK::Next
 author: windows-sdk-content
 description: The IEnumTASK::Next method enables MMC to retrieve the next task in the snap-in's list of tasks.
 old-location: mmc\ienumtask_next.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: cb568307-7172-4941-a888-ff059f5256b6
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IEnumTASK interface [MMC],Next method, IEnumTASK.Next, IEnumTASK::Next, Next, Next method [MMC], Next method [MMC],IEnumTASK interface, _slate_ienumtask_next, mmc.ienumtask_next, mmc/IEnumTASK::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumTASK.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumTASK::Next

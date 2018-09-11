@@ -4,17 +4,16 @@ title: IConnectionPointContainer::FindConnectionPoint
 author: windows-sdk-content
 description: Returns a pointer to the IConnectionPoint interface of a connection point for a specified IID, if that IID describes a supported outgoing interface.
 old-location: com\iconnectionpointcontainer_findconnectionpoint.htm
-old-project: com
+tech.root: com
 ms.assetid: bbe55013-13ca-43e8-8d5e-ef89076df039
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FindConnectionPoint, FindConnectionPoint method [COM], FindConnectionPoint method [COM],IConnectionPointContainer interface, IConnectionPointContainer interface [COM],FindConnectionPoint method, IConnectionPointContainer.FindConnectionPoint, IConnectionPointContainer::FindConnectionPoint, _com_iconnectionpointcontainer_findconnectionpoint, com.iconnectionpointcontainer_findconnectionpoint, ocidl/IConnectionPointContainer::FindConnectionPoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConnectionPointContainer.FindConnectionPoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IConnectionPointContainer::FindConnectionPoint

@@ -4,17 +4,16 @@ title: "_MINIDUMP_IO_CALLBACK"
 author: windows-sdk-content
 description: Contains I/O callback information.
 old-location: base\minidump_io_callback.htm
-old-project: debug
+tech.root: debug
 ms.assetid: db38f035-1fb8-4715-846f-59392aac2d4e
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PMINIDUMP_IO_CALLBACK, MINIDUMP_IO_CALLBACK, MINIDUMP_IO_CALLBACK structure, PMINIDUMP_IO_CALLBACK, PMINIDUMP_IO_CALLBACK structure pointer, _MINIDUMP_IO_CALLBACK, base.minidump_io_callback, minidumpapiset/MINIDUMP_IO_CALLBACK, minidumpapiset/PMINIDUMP_IO_CALLBACK"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
-req.redist: DbgHelp.dll 6.5 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_IO_CALLBACK, *PMINIDUMP_IO_CALLBACK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_IO_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_IO_CALLBACK, *PMINIDUMP_IO_CALLBACK
+req.redist: DbgHelp.dll 6.5 or later
 ---
 
 # _MINIDUMP_IO_CALLBACK structure

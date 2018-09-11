@@ -4,17 +4,16 @@ title: IStringCollection::Add
 author: windows-sdk-content
 description: Adds an item to the collection.
 old-location: wua\istringcollection_add.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: f5412e0d-a8b7-43a6-b7a5-95d662459f78
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Add, Add method [Windows Update Agent], Add method [Windows Update Agent],IStringCollection interface, IStringCollection interface [Windows Update Agent],Add method, IStringCollection.Add, IStringCollection::Add, wua.istringcollection_add, wuapi/IStringCollection::Add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStringCollection.Add
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IStringCollection::Add

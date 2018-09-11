@@ -4,17 +4,16 @@ title: IXAudio2::CreateSourceVoice
 author: windows-sdk-content
 description: Creates and configures a source voice.
 old-location: xaudio2\ixaudio2_interface_createsourcevoice.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateSourceVoice(IXAudio2SourceVoice@,const WAVEFORMATEX,UINT32,float,IXAudio2VoiceCallback,const XAUDIO2_VOICE_SENDS,const XAUDIO2_EFFECT_CHAIN)
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateSourceVoice, CreateSourceVoice method [XAudio2 Audio Mixing APIs], CreateSourceVoice method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CreateSourceVoice method, IXAudio2.CreateSourceVoice, IXAudio2::CreateSourceVoice, xaudio2.ixaudio2_interface_createsourcevoice, xaudio2/IXAudio2::CreateSourceVoice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2_FILTER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXAudio2.CreateSourceVoice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXAudio2::CreateSourceVoice
@@ -143,7 +141,7 @@ The number of channels in a source voice must be less than or equal to XAUDIO2_M
 
 ### -param X2DEFAULT
 
-
+TBD
 
 
 

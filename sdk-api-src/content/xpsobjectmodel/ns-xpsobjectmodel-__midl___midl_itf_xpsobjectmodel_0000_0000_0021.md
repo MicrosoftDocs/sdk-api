@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0021"
 author: windows-sdk-content
 description: Describes the placement and location of a glyph.
 old-location: xps\xps_glyph_index.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 0ea30e0f-f32b-4a38-9591-27cb1fe7f234
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_GLYPH_INDEX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XPS_GLYPH_INDEX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: XPS_GLYPH_INDEX
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0021 structure

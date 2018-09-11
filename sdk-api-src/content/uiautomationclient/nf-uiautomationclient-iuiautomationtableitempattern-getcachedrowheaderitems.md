@@ -4,17 +4,16 @@ title: IUIAutomationTableItemPattern::GetCachedRowHeaderItems
 author: windows-sdk-content
 description: Retrieves the cached row headers associated with a table item or cell.
 old-location: winauto\uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 69d4a632-8e35-4569-8c14-f56e9fd84c34
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCachedRowHeaderItems, GetCachedRowHeaderItems method [Windows Accessibility], GetCachedRowHeaderItems method [Windows Accessibility],IUIAutomationTableItemPattern interface, IUIAutomationTableItemPattern interface [Windows Accessibility],GetCachedRowHeaderItems method, IUIAutomationTableItemPattern.GetCachedRowHeaderItems, IUIAutomationTableItemPattern::GetCachedRowHeaderItems, uiauto.uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems, uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems, uiautomationclient/IUIAutomationTableItemPattern::GetCachedRowHeaderItems, winauto.uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTableItemPattern.GetCachedRowHeaderItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTableItemPattern::GetCachedRowHeaderItems

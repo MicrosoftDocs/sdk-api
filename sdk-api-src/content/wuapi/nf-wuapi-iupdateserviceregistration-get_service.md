@@ -4,17 +4,16 @@ title: IUpdateServiceRegistration::get_Service
 author: windows-sdk-content
 description: Gets a pointer to an IUpdateService2 interface. This property is the default property.
 old-location: wua\iupdateserviceregistration_service.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: d890c92f-c0f5-4445-ba6d-044bb0d6983b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IUpdateServiceRegistration interface [Windows Update Agent],Service property, IUpdateServiceRegistration.Service, IUpdateServiceRegistration.get_Service, IUpdateServiceRegistration::Service, IUpdateServiceRegistration::get_Service, Service property [Windows Update Agent], Service property [Windows Update Agent],IUpdateServiceRegistration interface, get_Service, wua.iupdateserviceregistration_service, wuapi/IUpdateServiceRegistration::Service, wuapi/IUpdateServiceRegistration::get_Service
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUpdateServiceRegistration.get_Service
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateServiceRegistration::get_Service

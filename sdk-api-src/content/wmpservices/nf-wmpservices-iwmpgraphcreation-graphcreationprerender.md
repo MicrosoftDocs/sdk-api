@@ -4,17 +4,16 @@ title: IWMPGraphCreation::GraphCreationPreRender
 author: windows-sdk-content
 description: The GraphCreationPreRender method is called by Windows Media Player before a file is rendered.
 old-location: wmp\iwmpgraphcreation_graphcreationprerender.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: d3375fa9-2ab0-4e82-9196-0b3971a00185
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GraphCreationPreRender, GraphCreationPreRender method [Windows Media Player], GraphCreationPreRender method [Windows Media Player],IWMPGraphCreation interface, IWMPGraphCreation interface [Windows Media Player],GraphCreationPreRender method, IWMPGraphCreation.GraphCreationPreRender, IWMPGraphCreation::GraphCreationPreRender, IWMPGraphCreationGraphCreationPreRenderdeprecated, wmp.iwmpgraphcreation_graphcreationprerender, wmpservices/IWMPGraphCreation::GraphCreationPreRender
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 10 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPServices_StreamState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPGraphCreation.GraphCreationPreRender
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPGraphCreation::GraphCreationPreRender

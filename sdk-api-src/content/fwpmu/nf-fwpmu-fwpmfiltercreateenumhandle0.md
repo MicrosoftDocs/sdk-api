@@ -4,17 +4,16 @@ title: FwpmFilterCreateEnumHandle0 function
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of filter objects.
 old-location: fwp\fwpmfiltercreateenumhandle0_func.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: fd8ffa91-a205-441c-9145-da8b441cef28
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FwpmFilterCreateEnumHandle0, FwpmFilterCreateEnumHandle0 function [Filtering], fwp.fwpmfiltercreateenumhandle0_func, fwpmu/FwpmFilterCreateEnumHandle0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FwpmFilterCreateEnumHandle0
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FwpmFilterCreateEnumHandle0 function

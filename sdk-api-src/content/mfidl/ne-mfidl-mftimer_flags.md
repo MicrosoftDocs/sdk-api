@@ -4,7 +4,7 @@ title: MFTIMER_FLAGS
 author: windows-sdk-content
 description: Contains flags for the IMFTimer::SetTimer method.
 old-location: mf\mftimer_flags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: bd94247a-ed58-4857-a39d-16880eea75e0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFTIMER_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFTIMER_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFTIMER_FLAGS
+req.redist: 
 ---
 
 # MFTIMER_FLAGS enumeration

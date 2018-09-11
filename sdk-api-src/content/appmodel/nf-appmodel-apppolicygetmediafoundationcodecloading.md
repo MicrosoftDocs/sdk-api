@@ -4,17 +4,16 @@ title: AppPolicyGetMediaFoundationCodecLoading function
 author: windows-sdk-content
 description: Retrieves a value indicating whether a process’s policy allows it to load non-Windows (third-party) plugins. You can use the value to decide whether or not to allow non-Windows (third-party) plugins.
 old-location: appxpkg\apppolicygetmediafoundationcodecloading.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 59231147-0505-4353-AADE-D81701ECBAD5
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: AppPolicyGetMediaFoundationCodecLoading, AppPolicyGetMediaFoundationCodecLoading function [App packaging and management], appmodel/AppPolicyGetMediaFoundationCodecLoading, appxpkg.apppolicygetmediafoundationcodecloading
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PackageOrigin
+req.lib: OneCoreUap.lib
+req.dll: Api-ms-win-appmodel-runtime-l1-1-2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AppPolicyGetMediaFoundationCodecLoading
 product: Windows
 targetos: Windows
-req.lib: OneCoreUap.lib
-req.dll: Api-ms-win-appmodel-runtime-l1-1-2.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AppPolicyGetMediaFoundationCodecLoading function

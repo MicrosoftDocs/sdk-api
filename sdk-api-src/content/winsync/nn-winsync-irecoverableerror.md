@@ -4,17 +4,16 @@ title: IRecoverableError
 author: windows-sdk-content
 description: Represents a recoverable error that occurred when an item was loaded or when an item was saved.
 old-location: winsync\irecoverableerror.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: a8b8a84a-6083-4696-bef1-46145a4d71c8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IRecoverableError, IRecoverableError interface [Windows Sync], IRecoverableError interface [Windows Sync],described, winsync.irecoverableerror, winsync/IRecoverableError
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRecoverableError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IRecoverableError interface

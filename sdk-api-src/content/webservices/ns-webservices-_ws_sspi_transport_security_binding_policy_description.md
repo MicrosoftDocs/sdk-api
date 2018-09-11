@@ -4,17 +4,16 @@ title: "_WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION"
 author: windows-sdk-content
 description: This type description is used with template APIs to describe the templates generated accordingly to input policy setting.
 old-location: wsw\ws_sspi_transport_security_binding_policy_description.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: aca1700b-1cdf-44b7-b3bf-02d30ba74aeb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION, WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION, webservices/WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION, wsw.ws_sspi_transport_security_binding_policy_description
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION
+req.redist: 
 ---
 
 # _WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION structure

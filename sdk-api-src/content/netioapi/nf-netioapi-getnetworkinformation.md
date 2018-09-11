@@ -4,17 +4,16 @@ title: GetNetworkInformation function
 author: windows-sdk-content
 description: Reserved for future use. Do not use this function.
 old-location: netvista\getnetworkinformation.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 5c28b606-a8ab-48de-8cfb-97fa877c52c8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetNetworkInformation, GetNetworkInformation function [Network Drivers Starting with Windows Vista], iphelper_a4a29ea4-0581-4c98-a294-6042db2937c3.xml, netioapi/GetNetworkInformation, netvista.getnetworkinformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetNetworkInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # GetNetworkInformation function

@@ -4,17 +4,16 @@ title: ITScriptableAudioFormat::get_FormatTag
 author: windows-sdk-content
 description: The get_FormatTag method returns the value for the wFormatTag member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_formattag.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 073e4800-d84a-4f12-81ce-eba4a4e139fc
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_FormatTag method, ITScriptableAudioFormat.get_FormatTag, ITScriptableAudioFormat::get_FormatTag, _tapi3_itscriptableaudioformat_get_formattag, get_FormatTag, get_FormatTag method [TAPI 2.2], get_FormatTag method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_formattag, tapi3if/ITScriptableAudioFormat::get_FormatTag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITScriptableAudioFormat.get_FormatTag
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITScriptableAudioFormat::get_FormatTag

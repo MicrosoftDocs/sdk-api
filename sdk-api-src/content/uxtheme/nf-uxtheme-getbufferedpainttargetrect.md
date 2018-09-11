@@ -4,17 +4,16 @@ title: GetBufferedPaintTargetRect function
 author: windows-sdk-content
 description: Retrieves the target rectangle specified by BeginBufferedPaint.
 old-location: controls\GetBufferedPaintTargetRect.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpainttargetrect.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetBufferedPaintTargetRect, GetBufferedPaintTargetRect function [Windows Controls], _shell_GetBufferedPaintTargetRect, _shell_GetBufferedPaintTargetRect_cpp, controls.GetBufferedPaintTargetRect, controls._shell_GetBufferedPaintTargetRect, uxtheme/GetBufferedPaintTargetRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: 
+req.dll: UxTheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetBufferedPaintTargetRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UxTheme.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # GetBufferedPaintTargetRect function

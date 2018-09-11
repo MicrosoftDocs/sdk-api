@@ -4,17 +4,16 @@ title: "_WER_EXCEPTION_INFORMATION"
 author: windows-sdk-content
 description: Contains exception information for the WerReportAddDump function.
 old-location: wer\wer_exception_information.htm
-old-project: wer
+tech.root: wer
 ms.assetid: 4548068a-e654-40c9-9654-c5178575b42c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWER_EXCEPTION_INFORMATION, PWER_EXCEPTION_INFORMATION, PWER_EXCEPTION_INFORMATION structure pointer [Windows Error Reporting], WER_EXCEPTION_INFORMATION, WER_EXCEPTION_INFORMATION structure [Windows Error Reporting], _WER_EXCEPTION_INFORMATION, base.wer_exception_information, wer.wer_exception_information, werapi/PWER_EXCEPTION_INFORMATION, werapi/WER_EXCEPTION_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: werapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WER_EXCEPTION_INFORMATION, *PWER_EXCEPTION_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WER_EXCEPTION_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WER_EXCEPTION_INFORMATION, *PWER_EXCEPTION_INFORMATION
+req.redist: 
 ---
 
 # _WER_EXCEPTION_INFORMATION structure

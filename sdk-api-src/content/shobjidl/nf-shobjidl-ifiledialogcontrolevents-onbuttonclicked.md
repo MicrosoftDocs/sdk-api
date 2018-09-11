@@ -4,17 +4,16 @@ title: IFileDialogControlEvents::OnButtonClicked
 author: windows-sdk-content
 description: Called when the user clicks a command button.
 old-location: shell\IFileDialogControlEvents_OnButtonClicked.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 46dc28a4-717f-42b6-bff7-56f4902f075c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnButtonClicked method, IFileDialogControlEvents.OnButtonClicked, IFileDialogControlEvents::OnButtonClicked, OnButtonClicked, OnButtonClicked method [Windows Shell], OnButtonClicked method [Windows Shell],IFileDialogControlEvents interface, shell.IFileDialogControlEvents_OnButtonClicked, shell_IFileDialogControlEvents_OnButtonClicked, shobjidl/IFileDialogControlEvents::OnButtonClicked
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialogControlEvents.OnButtonClicked
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialogControlEvents::OnButtonClicked

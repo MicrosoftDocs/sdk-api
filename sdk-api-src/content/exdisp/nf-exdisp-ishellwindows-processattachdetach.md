@@ -4,17 +4,16 @@ title: IShellWindows::ProcessAttachDetach
 author: windows-sdk-content
 description: Deprecated. Always returns S_OK.
 old-location: shell\IShellWindows_ProcessAttachDetach.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 79bc04f0-7b03-40aa-8324-7b4eccc8c527
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellWindows interface [Windows Shell],ProcessAttachDetach method, IShellWindows.ProcessAttachDetach, IShellWindows::ProcessAttachDetach, ProcessAttachDetach, ProcessAttachDetach method [Windows Shell], ProcessAttachDetach method [Windows Shell],IShellWindows interface, _win32_IShellWindows_ProcessAttachDetach, exdisp/IShellWindows::ProcessAttachDetach, shell.IShellWindows_ProcessAttachDetach
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IShellWindows.ProcessAttachDetach
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5
 ---
 

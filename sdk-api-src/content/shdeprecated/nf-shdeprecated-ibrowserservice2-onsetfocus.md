@@ -4,17 +4,16 @@ title: IBrowserService2::OnSetFocus
 author: windows-sdk-content
 description: Deprecated. Calls the derived class from the base class on receipt of a WM_SETFOCUS message. The derived class handles the message.
 old-location: shell\IBrowserService2_OnSetFocus.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 107a2ce8-2914-423a-bda7-4aeb112965bc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnSetFocus method, IBrowserService2.OnSetFocus, IBrowserService2::OnSetFocus, OnSetFocus, OnSetFocus method [Windows Shell], OnSetFocus method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnSetFocus, shell.IBrowserService2_OnSetFocus, zone_IBrowserService2_OnSetFocus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2.OnSetFocus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

@@ -4,17 +4,16 @@ title: SetROP2 function
 author: windows-sdk-content
 description: The SetROP2 function sets the current foreground mix mode.
 old-location: gdi\setrop2.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: a462a03d-e2c8-403e-aab4-ae03fb96f06f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: R2_BLACK, R2_COPYPEN, R2_MASKNOTPEN, R2_MASKPEN, R2_MASKPENNOT, R2_MERGENOTPEN, R2_MERGEPEN, R2_MERGEPENNOT, R2_NOP, R2_NOT, R2_NOTCOPYPEN, R2_NOTMASKPEN, R2_NOTMERGEPEN, R2_NOTXORPEN, R2_WHITE, R2_XORPEN, SetROP2, SetROP2 function [Windows GDI], _win32_SetROP2, gdi.setrop2, wingdi/SetROP2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetROP2
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetROP2 function

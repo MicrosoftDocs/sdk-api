@@ -4,17 +4,16 @@ title: INetworkEvents::NetworkDeleted
 author: windows-sdk-content
 description: The NetworkDeleted method is called when a network is deleted.
 old-location: nla\inetworkevents_networkdeleted.htm
-old-project: nla
+tech.root: nla
 ms.assetid: ae54cc29-6da8-405d-92f9-654239150dd0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkDeleted method, INetworkEvents.NetworkDeleted, INetworkEvents::NetworkDeleted, NetworkDeleted, NetworkDeleted method [Network Awareness], NetworkDeleted method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkDeleted, nla.inetworkevents_networkdeleted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetworkEvents.NetworkDeleted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetworkEvents::NetworkDeleted
@@ -62,7 +60,7 @@ The <b>NetworkDeleted</b> method is called when a network is deleted.
 
 ### -param networkId
 
-
+TBD
 
 
 

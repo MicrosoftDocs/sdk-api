@@ -4,17 +4,16 @@ title: INetSharingConfiguration::get_SharingEnabled
 author: windows-sdk-content
 description: The get_SharingEnabled method determines whether sharing is enabled on this connection.
 old-location: ics\inetsharingconfiguration_get_sharingenabled.htm
-old-project: ics
+tech.root: ics
 ms.assetid: b8872235-0ef3-4ade-8085-fd90f40549af
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetSharingConfiguration interface [ICS/ICF],get_SharingEnabled method, INetSharingConfiguration.get_SharingEnabled, INetSharingConfiguration::get_SharingEnabled, _ics_inetsharingconfiguration_get_sharingenabled, get_SharingEnabled, get_SharingEnabled method [ICS/ICF], get_SharingEnabled method [ICS/ICF],INetSharingConfiguration interface, ics.inetsharingconfiguration_get_sharingenabled, netcon/INetSharingConfiguration::get_SharingEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingConfiguration.get_SharingEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingConfiguration::get_SharingEnabled

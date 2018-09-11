@@ -4,17 +4,16 @@ title: ITDirectoryObjectConference::put_AdvertisingScope
 author: windows-sdk-content
 description: The put_AdvertisingScope method sets the advertising scope.
 old-location: tapi3\itdirectoryobjectconference_put_advertisingscope.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 74d7c770-e11d-4d87-acdb-821d64feed0c
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_AdvertisingScope method, ITDirectoryObjectConference.put_AdvertisingScope, ITDirectoryObjectConference::put_AdvertisingScope, _tapi3_itdirectoryobjectconference_put_advertisingscope, put_AdvertisingScope, put_AdvertisingScope method [TAPI 2.2], put_AdvertisingScope method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_AdvertisingScope, tapi3.itdirectoryobjectconference_put_advertisingscope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDirectoryObjectConference.put_AdvertisingScope
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITDirectoryObjectConference::put_AdvertisingScope

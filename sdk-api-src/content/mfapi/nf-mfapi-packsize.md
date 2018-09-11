@@ -4,17 +4,16 @@ title: PackSize function
 author: windows-sdk-content
 description: Packs a UINT32 width value and a UINT32 height value into a UINT64 value that represents a size.
 old-location: mf\packsize.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: F3DCEEA5-2D88-49FC-87DB-DEB0AE48E984
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: PackSize, PackSize function [Media Foundation], mf.packsize, mfapi/PackSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PackSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # PackSize function

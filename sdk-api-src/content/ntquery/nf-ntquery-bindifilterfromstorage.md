@@ -4,17 +4,16 @@ title: BindIFilterFromStorage function
 author: windows-sdk-content
 description: Retrieves the IFilter interface pointer for the specified storage object. This is especially useful when filtering the contents of a document and processing embedded OLE objects that are accessible through their IStorage interfaces.
 old-location: indexsrv\bindifilterfromstorage.htm
-old-project: IndexSrv
+tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_1cth.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: BindIFilterFromStorage, BindIFilterFromStorage function [Indexing Service], _idxs_BindIFilterFromStorage, indexsrv.bindifilterfromstorage, ntquery/BindIFilterFromStorage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MediaLabelInfo, *pMediaLabelInfo
+req.lib: Ntquery.lib
+req.dll: Ntquery.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BindIFilterFromStorage
 product: Windows
 targetos: Windows
-req.lib: Ntquery.lib
-req.dll: Ntquery.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # BindIFilterFromStorage function

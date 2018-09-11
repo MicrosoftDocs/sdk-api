@@ -4,17 +4,16 @@ title: GetStorageDependencyInformation function
 author: windows-sdk-content
 description: Returns the relationships between virtual hard disks (VHDs) or CD or DVD image file (ISO) or the volumes contained within those disks and their parent disk or volume.
 old-location: vhd\getstoragedependencyinformation.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 9ed3ec7c-5e50-4e81-bba7-798f2fbcf29d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetStorageDependencyInformation, GetStorageDependencyInformation function [VHD], vdssys/GetStorageDependencyInformation, vhd.getstoragedependencyinformation, virtdisk/GetStorageDependencyInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIRTUAL_DISK_ACCESS_MASK
+req.lib: VirtDisk.lib
+req.dll: VirtDisk.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetStorageDependencyInformation
 product: Windows
 targetos: Windows
-req.lib: VirtDisk.lib
-req.dll: VirtDisk.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # GetStorageDependencyInformation function

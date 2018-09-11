@@ -4,17 +4,16 @@ title: tagACCEL
 author: windows-sdk-content
 description: Defines an accelerator key used in an accelerator table.
 old-location: menurc\accel.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorstructures\accel.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPACCEL, ACCEL, ACCEL structure [Menus and Other Resources], FALT, FCONTROL, FNOINVERT, FSHIFT, FVIRTKEY, LPACCEL, LPACCEL structure pointer [Menus and Other Resources], _win32_ACCEL_str, _win32_accel_str_cpp, menurc.accel, tagACCEL, winui._win32_accel_str, winuser/ACCEL, winuser/LPACCEL"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACCEL, *LPACCEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACCEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ACCEL, *LPACCEL
+req.redist: 
 ---
 
 # tagACCEL structure

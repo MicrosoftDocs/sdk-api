@@ -4,17 +4,16 @@ title: IADs::SetInfo
 author: windows-sdk-content
 description: The IADs::SetInfo method saves the cached property values of the ADSI object to the underlying directory store.
 old-location: adsi\iads_setinfo.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: e7ff6acd-b7c4-463d-a34f-fd793067c63a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADs interface [ADSI],SetInfo method, IADs.SetInfo, IADs::SetInfo, SetInfo, SetInfo method [ADSI], SetInfo method [ADSI],IADs interface, _ds_iads_setinfo, adsi.iads__setinfo, adsi.iads_setinfo, iads/IADs::SetInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADs.SetInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADs::SetInfo

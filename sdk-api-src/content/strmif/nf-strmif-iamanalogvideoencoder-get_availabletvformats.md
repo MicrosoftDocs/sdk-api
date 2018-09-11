@@ -4,17 +4,16 @@ title: IAMAnalogVideoEncoder::get_AvailableTVFormats
 author: windows-sdk-content
 description: Note  The IAMAnalogVideoEncoder interface is deprecated. The get_AvailableTVFormats method retrieves the analog video standards (NTSC/M, PAL/B, SECAM/K1, and so on) supported by the encoder.
 old-location: dshow\iamanalogvideoencoder_get_availabletvformats.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 739a5f6f-2498-49f4-9c9d-008bd71d4855
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],get_AvailableTVFormats method, IAMAnalogVideoEncoder.get_AvailableTVFormats, IAMAnalogVideoEncoder::get_AvailableTVFormats, IAMAnalogVideoEncoderget_AvailableTVFormats, dshow.iamanalogvideoencoder_get_availabletvformats, get_AvailableTVFormats, get_AvailableTVFormats method [DirectShow], get_AvailableTVFormats method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::get_AvailableTVFormats
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMAnalogVideoEncoder.get_AvailableTVFormats
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMAnalogVideoEncoder::get_AvailableTVFormats

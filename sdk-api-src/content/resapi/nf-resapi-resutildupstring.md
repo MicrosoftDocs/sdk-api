@@ -4,17 +4,16 @@ title: ResUtilDupString function
 author: windows-sdk-content
 description: Duplicates a null-terminated Unicode string.
 old-location: mscs\resutildupstring.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 7d993247-ea8c-46a0-a11e-e03b981ed4ae
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PRESUTIL_DUP_STRING, PRESUTIL_DUP_STRING function [Failover Cluster], ResUtilDupString, ResUtilDupString function [Failover Cluster], _wolf_resutildupstring, mscs.resutildupstring, resapi/PRESUTIL_DUP_STRING, resapi/ResUtilDupString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilDupString
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilDupString function

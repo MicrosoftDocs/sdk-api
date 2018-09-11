@@ -4,17 +4,16 @@ title: Font::GetHeight(IN REAL)
 author: windows-sdk-content
 description: This topic lists the GetHeight methods of the Font class. For a complete list of methods for the Font class, see Font Methods.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetHeight_Methods.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\fontgetheightmethods.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Font.GetHeight, Font.GetHeight(IN REAL), Font::GetHeight, Font::GetHeight(IN REAL), GetHeight, GetHeight methods [GDI+], _gdiplus_CLASS_Font_GetHeight_Methods, gdiplus._gdiplus_CLASS_Font_GetHeight_Methods, gdiplusheaders/GetHeight
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Font.GetHeight
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # Font::GetHeight(IN REAL)

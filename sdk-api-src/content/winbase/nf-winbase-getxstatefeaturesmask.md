@@ -4,17 +4,16 @@ title: GetXStateFeaturesMask function
 author: windows-sdk-content
 description: Returns the mask of XState features set within a CONTEXT structure.
 old-location: base\getxstatefeaturesmask.htm
-old-project: debug
+tech.root: debug
 ms.assetid: D9A8D0B6-21E3-46B7-AB88-CE2FF4025A17
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: GetXStateFeaturesMask, GetXStateFeaturesMask function, base.getxstatefeaturesmask, winbase/GetXStateFeaturesMask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 with SP1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 with SP1 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetXStateFeaturesMask
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetXStateFeaturesMask function

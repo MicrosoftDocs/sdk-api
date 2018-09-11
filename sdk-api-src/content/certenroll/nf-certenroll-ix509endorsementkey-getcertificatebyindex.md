@@ -4,17 +4,16 @@ title: IX509EndorsementKey::GetCertificateByIndex
 author: windows-sdk-content
 description: Gets the endorsement certificate associated with the endorsement key from the key storage provider for the specified index.
 old-location: security\ix509endorsementkey_getcertificatebyindex.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: ab1eb37a-d79e-4d02-8e60-6c093f42c68f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetCertificateByIndex, GetCertificateByIndex method [Security], GetCertificateByIndex method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],GetCertificateByIndex method, IX509EndorsementKey.GetCertificateByIndex, IX509EndorsementKey::GetCertificateByIndex, certenroll/IX509EndorsementKey::GetCertificateByIndex, security.ix509endorsementkey_getcertificatebyindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509EndorsementKey.GetCertificateByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509EndorsementKey::GetCertificateByIndex

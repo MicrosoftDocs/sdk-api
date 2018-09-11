@@ -4,17 +4,16 @@ title: ISCTE_EAS::GetDetailsMinor
 author: windows-sdk-content
 description: The GetDetailsMinor method returns the minor channel number for the details channel.
 old-location: mstv\iscte_eas_getdetailsminor.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 59d43d84-2120-4200-b1e7-4603c1693018
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDetailsMinor, GetDetailsMinor method [Microsoft TV Technologies], GetDetailsMinor method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsMinor method, ISCTE_EAS.GetDetailsMinor, ISCTE_EAS::GetDetailsMinor, ISCTE_EASGetDetailsMinor, atscpsipparser/ISCTE_EAS::GetDetailsMinor, mstv.iscte_eas_getdetailsminor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISCTE_EAS.GetDetailsMinor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISCTE_EAS::GetDetailsMinor

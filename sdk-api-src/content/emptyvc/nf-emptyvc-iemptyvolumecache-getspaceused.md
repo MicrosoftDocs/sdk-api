@@ -4,17 +4,16 @@ title: IEmptyVolumeCache::GetSpaceUsed
 author: windows-sdk-content
 description: Requests the amount of disk space that the disk cleanup handler can free.
 old-location: lwef\iemptyvolumecache_getspaceused.htm
-old-project: lwef
+tech.root: lwef
 ms.assetid: c8ec2f70-f327-49d4-babb-a9640f105003
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSpaceUsed, GetSpaceUsed method [Legacy Windows Environment Features], GetSpaceUsed method [Legacy Windows Environment Features],IEmptyVolumeCache interface, IEmptyVolumeCache interface [Legacy Windows Environment Features],GetSpaceUsed method, IEmptyVolumeCache.GetSpaceUsed, IEmptyVolumeCache::GetSpaceUsed, _win32_IEmptyVolumeCache_GetSpaceUsed, emptyvc/IEmptyVolumeCache::GetSpaceUsed, lwef.iemptyvolumecache_getspaceused, shell.iemptyvolumecache_getspaceused
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: emptyvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMI_VERSION
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEmptyVolumeCache.GetSpaceUsed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEmptyVolumeCache::GetSpaceUsed
@@ -62,7 +60,7 @@ Requests the amount of disk space that the disk cleanup handler can free.
 
 ### -param pdwlSpaceUsed
 
-
+TBD
 
 
 ### -param picb [in]

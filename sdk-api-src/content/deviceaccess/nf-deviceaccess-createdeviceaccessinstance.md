@@ -4,17 +4,16 @@ title: CreateDeviceAccessInstance function
 author: windows-sdk-content
 description: Creates the object that's used to access a device. The instantiated object implements the IDeviceIoControl and ICreateDeviceAccessAsync interfaces.
 old-location: deviceaccess\createdeviceaccessinstance.htm
-old-project: deviceaccess
+tech.root: deviceaccess
 ms.assetid: 082d6297-20ac-4557-8205-0451482a5758
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: CreateDeviceAccessInstance, CreateDeviceAccessInstance function [Device Access Broker API], deviceaccess.createdeviceaccessinstance, deviceaccess/CreateDeviceAccessInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: deviceaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIDEOMEMORYINFO
+req.lib: Deviceaccess.lib
+req.dll: Deviceaccess.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CreateDeviceAccessInstance
 product: Windows
 targetos: Windows
-req.lib: Deviceaccess.lib
-req.dll: Deviceaccess.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CreateDeviceAccessInstance function

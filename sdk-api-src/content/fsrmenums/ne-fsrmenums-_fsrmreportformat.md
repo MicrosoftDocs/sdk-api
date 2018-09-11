@@ -4,7 +4,7 @@ title: "_FsrmReportFormat"
 author: windows-sdk-content
 description: Defines the file formats that you can use when generating reports.
 old-location: fsrm\fsrmreportformat.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 0f8fd733-034a-40d0-b59b-4c70fff5fd42
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: FsrmEnums.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmReportFormat
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FsrmReportFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FsrmReportFormat
+req.redist: 
 ---
 
 # _FsrmReportFormat enumeration

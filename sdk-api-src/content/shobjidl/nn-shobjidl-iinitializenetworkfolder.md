@@ -4,17 +4,16 @@ title: IInitializeNetworkFolder
 author: windows-sdk-content
 description: Exposes a method that initializes the network data source CLSID_NetworkPlaces as specified.
 old-location: shell\IInitializeNetworkFolder.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 65072af3-7583-4b15-b282-e7aa50cae3a8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IInitializeNetworkFolder, IInitializeNetworkFolder interface [Windows Shell], IInitializeNetworkFolder interface [Windows Shell],described, _shell_IInitializeNetworkFolder, shell.IInitializeNetworkFolder, shobjidl/IInitializeNetworkFolder
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInitializeNetworkFolder
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Shimgvw.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IInitializeNetworkFolder interface

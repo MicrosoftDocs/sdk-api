@@ -4,17 +4,16 @@ title: "_VDS_STORAGE_POOL_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a storage pool.
 old-location: base\vds_storage_pool_status.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: b2af30c8-116c-4e51-bffc-0dee9a4bd04e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_SPS_NOT_READY, VDS_SPS_OFFLINE, VDS_SPS_ONLINE, VDS_SPS_UNKNOWN, VDS_STORAGE_POOL_STATUS, VDS_STORAGE_POOL_STATUS enumeration, _VDS_STORAGE_POOL_STATUS, base.vds_storage_pool_status, vds/VDS_SPS_NOT_READY, vds/VDS_SPS_OFFLINE, vds/VDS_SPS_ONLINE, vds/VDS_SPS_UNKNOWN, vds/VDS_STORAGE_POOL_STATUS, vdshwprv/VDS_SPS_NOT_READY, vdshwprv/VDS_SPS_OFFLINE, vdshwprv/VDS_SPS_ONLINE, vdshwprv/VDS_SPS_UNKNOWN, vdshwprv/VDS_STORAGE_POOL_STATUS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_STORAGE_POOL_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_STORAGE_POOL_STATUS
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_STORAGE_POOL_STATUS
+req.redist: 
 ---
 
 # _VDS_STORAGE_POOL_STATUS enumeration

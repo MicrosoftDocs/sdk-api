@@ -4,17 +4,16 @@ title: ITLegacyAddressMediaControl2::ConfigDialog
 author: windows-sdk-content
 description: The ConfigDialog method causes the provider of the specified line device to display a dialog box to allow the user to configure parameters related to the line device. The parameters that can be edited are those currently in use on the device.
 old-location: tapi3\itlegacyaddressmediacontrol2_configdialog.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: ac2f7afe-4531-454a-8696-ca21556a049a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ConfigDialog, ConfigDialog method [TAPI 2.2], ConfigDialog method [TAPI 2.2],ITLegacyAddressMediaControl2 interface, ITLegacyAddressMediaControl2 interface [TAPI 2.2],ConfigDialog method, ITLegacyAddressMediaControl2.ConfigDialog, ITLegacyAddressMediaControl2::ConfigDialog, _tapi3_itlegacyaddressmediacontrol2_configdialog, tapi3.itlegacyaddressmediacontrol2_configdialog, tapi3if/ITLegacyAddressMediaControl2::ConfigDialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITLegacyAddressMediaControl2.ConfigDialog
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITLegacyAddressMediaControl2::ConfigDialog

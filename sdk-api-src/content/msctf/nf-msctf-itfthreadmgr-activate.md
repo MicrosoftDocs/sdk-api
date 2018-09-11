@@ -4,17 +4,16 @@ title: ITfThreadMgr::Activate
 author: windows-sdk-content
 description: ITfThreadMgr::Activate method
 old-location: tsf\itfthreadmgr_activate.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: bd9058c0-55b0-4231-a336-7cea4db75c0f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Activate, Activate method [Text Services Framework], Activate method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],Activate method, ITfThreadMgr.Activate, ITfThreadMgr::Activate, _tsf_itfthreadmgr_activate_ref, msctf/ITfThreadMgr::Activate, tsf.itfthreadmgr_activate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfThreadMgr.Activate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfThreadMgr::Activate

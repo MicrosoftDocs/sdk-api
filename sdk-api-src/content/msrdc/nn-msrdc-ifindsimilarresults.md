@@ -4,17 +4,16 @@ title: IFindSimilarResults
 author: windows-sdk-content
 description: Provides methods for retrieving information from the file list returned by the ISimilarity::FindSimilarFileId method.
 old-location: rdc\ifindsimilarresults.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 3118cf53-c544-48bc-ac38-79ca2252f83f
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IFindSimilarResults, IFindSimilarResults interface [Remote Differential Compression], IFindSimilarResults interface [Remote Differential Compression],described, fs.ifindsimilarresults, msrdc/IFindSimilarResults, rdc.ifindsimilarresults
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFindSimilarResults
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IFindSimilarResults interface

@@ -4,17 +4,16 @@ title: CryptGetUserKey function
 author: windows-sdk-content
 description: Retrieves a handle of one of a user's two public/private key pairs.
 old-location: security\cryptgetuserkey.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: d9166b98-e5f1-4e5c-b6f1-2a086b102e0f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptGetUserKey, CryptGetUserKey function [Security], _crypto2_cryptgetuserkey, security.cryptgetuserkey, wincrypt/CryptGetUserKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CryptGetUserKey
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptGetUserKey function

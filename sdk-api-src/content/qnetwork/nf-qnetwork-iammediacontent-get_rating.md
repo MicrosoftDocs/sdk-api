@@ -4,17 +4,16 @@ title: IAMMediaContent::get_Rating
 author: windows-sdk-content
 description: The get_Rating method retrieves the rating.
 old-location: dshow\iammediacontent_get_rating.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 2eeb1356-23f5-48dc-be71-062f1501d163
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Rating method, IAMMediaContent.get_Rating, IAMMediaContent::get_Rating, IAMMediaContentget_Rating, dshow.iammediacontent_get_rating, get_Rating, get_Rating method [DirectShow], get_Rating method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Rating
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMMediaContent.get_Rating
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMediaContent::get_Rating

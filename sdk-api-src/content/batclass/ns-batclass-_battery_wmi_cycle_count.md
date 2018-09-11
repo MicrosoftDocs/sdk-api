@@ -4,7 +4,7 @@ title: "_BATTERY_WMI_CYCLE_COUNT"
 author: windows-sdk-content
 description: Defines information about number of charge cycles of a battery for use with the BatteryClassQueryWmiDataBlock function.
 old-location: battery\battery_wmi_cycle_count.htm
-old-project: battery
+tech.root: battery
 ms.assetid: DFC94773-C198-4FC4-813C-0986ABA953A5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: batclass.h
 req.include-header: Batclass.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BATTERY_WMI_CYCLE_COUNT, *PBATTERY_WMI_CYCLE_COUNT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BATTERY_WMI_CYCLE_COUNT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BATTERY_WMI_CYCLE_COUNT, *PBATTERY_WMI_CYCLE_COUNT
+req.redist: 
 ---
 
 # _BATTERY_WMI_CYCLE_COUNT structure

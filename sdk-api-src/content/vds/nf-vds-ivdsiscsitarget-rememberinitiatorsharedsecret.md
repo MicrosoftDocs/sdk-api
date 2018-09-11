@@ -4,17 +4,16 @@ title: IVdsIscsiTarget::RememberInitiatorSharedSecret
 author: windows-sdk-content
 description: Communicates the initiator CHAP secret that is used for mutual CHAP authentication when the initiator authenticates the target.
 old-location: base\ivdsiscsitarget_rememberinitiatorsharedsecret.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 3546f42c-2c30-4819-982d-9c186d9f858e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],RememberInitiatorSharedSecret method, IVdsIscsiTarget.RememberInitiatorSharedSecret, IVdsIscsiTarget::RememberInitiatorSharedSecret, RememberInitiatorSharedSecret, RememberInitiatorSharedSecret method [VDS], RememberInitiatorSharedSecret method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_rememberinitiatorsharedsecret, vds/IVdsIscsiTarget::RememberInitiatorSharedSecret, vdshwprv/IVdsIscsiTarget::RememberInitiatorSharedSecret
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsIscsiTarget.RememberInitiatorSharedSecret
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsIscsiTarget::RememberInitiatorSharedSecret

@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CurrentNativeWindowHandle
 author: windows-sdk-content
 description: Retrieves the window handle of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentNativeWindowHandle.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 9a59f674-6b48-4679-bc24-fe46ebae2041
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentNativeWindowHandle property [Windows Accessibility], CurrentNativeWindowHandle property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentNativeWindowHandle property, IUIAutomationElement.CurrentNativeWindowHandle, IUIAutomationElement.get_CurrentNativeWindowHandle, IUIAutomationElement::CurrentNativeWindowHandle, IUIAutomationElement::get_CurrentNativeWindowHandle, get_CurrentNativeWindowHandle, uiauto.uiauto_IUIAutomationElement_CurrentNativeWindowHandle, uiauto_IUIAutomationElement_CurrentNativeWindowHandle, uiautomationclient/IUIAutomationElement::CurrentNativeWindowHandle, uiautomationclient/IUIAutomationElement::get_CurrentNativeWindowHandle, winauto.uiauto_IUIAutomationElement_CurrentNativeWindowHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CurrentNativeWindowHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CurrentNativeWindowHandle

@@ -4,17 +4,16 @@ title: Tbsip_Context_Close function
 author: windows-sdk-content
 description: Closes a context handle, which releases resources associated with the context in TBS and closes the binding handle used to communicate with TBS.
 old-location: tbs\_tbsip_context_close.htm
-old-project: tbs
+tech.root: TBS
 ms.assetid: 405c600b-f752-48e8-9eea-473fcdf1eb2f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Tbsip_Context_Close, Tbsip_Context_Close function [TBS], tbs._tbsip_context_close, tbs/Tbsip_Context_Close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tbs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Tbs.lib
+req.dll: Tbs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Tbsip_Context_Close
 product: Windows
 targetos: Windows
-req.lib: Tbs.lib
-req.dll: Tbs.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Tbsip_Context_Close function

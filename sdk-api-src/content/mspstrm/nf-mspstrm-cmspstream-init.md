@@ -4,17 +4,16 @@ title: CMSPStream::Init
 author: windows-sdk-content
 description: The Init method is called by the MSPCall when the stream is created. It initializes the members, calls MSPCallAddRef on the call object, and queries for various interfaces on the filter graph.
 old-location: tapi3\cmspstream_init.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 8e522987-ac94-4597-8491-4c66b15aa262
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CMSPStream interface [TAPI 2.2],Init method, CMSPStream.Init, CMSPStream::Init, Init, Init method [TAPI 2.2], Init method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_init, mspstrm/CMSPStream::Init, tapi3.cmspstream_init
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mspstrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSPStream.Init
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CMSPStream::Init

@@ -4,17 +4,16 @@ title: IContextMenuSite::DoContextMenuPopup
 author: windows-sdk-content
 description: DoContextMenuPopup is no longer available for use as of Windows Server 2003.
 old-location: shell\IContextMenuSite_DoContextMenuPopup.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5601dc9c-e008-4387-b0d3-4cbdf29b7849
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CMF_ASYNCVERBSTATE, CMF_CANRENAME, CMF_DEFAULTONLY, CMF_DISABLEDVERBS, CMF_DONOTPICKDEFAULT, CMF_EXPLORE, CMF_EXTENDEDVERBS, CMF_INCLUDESTATIC, CMF_ITEMMENU, CMF_NODEFAULT, CMF_NORMAL, CMF_NOVERBS, CMF_OPTIMIZEFORINVOKE, CMF_RESERVED, CMF_SYNCCASCADEMENU, CMF_VERBSONLY, DoContextMenuPopup, DoContextMenuPopup method [Windows Shell], DoContextMenuPopup method [Windows Shell],IContextMenuSite interface, IContextMenuSite interface [Windows Shell],DoContextMenuPopup method, IContextMenuSite.DoContextMenuPopup, IContextMenuSite::DoContextMenuPopup, _shell_IContextMenuSite_DoContextMenuPopup, shell.IContextMenuSite_DoContextMenuPopup, shobjidl_core/IContextMenuSite::DoContextMenuPopup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContextMenuSite.DoContextMenuPopup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IContextMenuSite::DoContextMenuPopup

@@ -4,7 +4,7 @@ title: tagFUNCFLAGS
 author: windows-sdk-content
 description: Specifies function flags.
 old-location: automat\funcflags.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 290f8769-dde4-47b9-b3bb-680efc95f532
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FUNCFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FUNCFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: FUNCFLAGS
+req.redist: 
 ---
 
 # tagFUNCFLAGS enumeration

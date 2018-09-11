@@ -4,17 +4,16 @@ title: DhcpV4GetFreeIPAddress function
 author: windows-sdk-content
 description: Retrieves the list of available IPv4 addresses that can be leased to clients.
 old-location: dhcp\dhcpv4getfreeipaddress.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: acce28e6-ea4a-4f27-8fb6-913f0e5aa52e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpV4GetFreeIPAddress, DhcpV4GetFreeIPAddress function [DHCP], dhcp.dhcpv4getfreeipaddress, dhcpsapi/DhcpV4GetFreeIPAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpV4GetFreeIPAddress
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpV4GetFreeIPAddress function

@@ -4,17 +4,16 @@ title: IDvbLinkageDescriptor::GetPrivateData
 author: windows-sdk-content
 description: Gets the private data from a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_getprivatedata.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 959aeb87-b661-4567-a6fd-2d28be6b0a02
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetPrivateData, GetPrivateData method [Microsoft TV Technologies], GetPrivateData method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetPrivateData method, IDvbLinkageDescriptor.GetPrivateData, IDvbLinkageDescriptor::GetPrivateData, dvbsiparser/IDvbLinkageDescriptor::GetPrivateData, mstv.idvblinkagedescriptor_getprivatedata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbLinkageDescriptor.GetPrivateData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbLinkageDescriptor::GetPrivateData

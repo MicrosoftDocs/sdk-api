@@ -4,17 +4,16 @@ title: IAMAudioRendererStats::GetStatParam
 author: windows-sdk-content
 description: The GetStatParam method retrieves performance information from the audio renderer.
 old-location: dshow\iamaudiorendererstats_getstatparam.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: bc01cac7-316f-4d18-ae68-c3db4dbf03fa
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetStatParam, GetStatParam method [DirectShow], GetStatParam method [DirectShow],IAMAudioRendererStats interface, IAMAudioRendererStats interface [DirectShow],GetStatParam method, IAMAudioRendererStats.GetStatParam, IAMAudioRendererStats::GetStatParam, IAMAudioRendererStatsGetStatParam, dshow.iamaudiorendererstats_getstatparam, strmif/IAMAudioRendererStats::GetStatParam
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMAudioRendererStats.GetStatParam
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMAudioRendererStats::GetStatParam

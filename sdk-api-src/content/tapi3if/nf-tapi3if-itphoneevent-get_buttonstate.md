@@ -4,17 +4,16 @@ title: ITPhoneEvent::get_ButtonState
 author: windows-sdk-content
 description: The get_ButtonState method returns a PHONE_BUTTON_STATE value specifying the state to which the button has transitioned. This information is available only when the ITPhoneEvent::get_Event method returns PE_BUTTON.
 old-location: tapi3\itphoneevent_get_buttonstate.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6eedda9d-c127-446d-972c-09a7c1a4bd0f
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_ButtonState method, ITPhoneEvent.get_ButtonState, ITPhoneEvent::get_ButtonState, _tapi3_itphoneevent_get_buttonstate, get_ButtonState, get_ButtonState method [TAPI 2.2], get_ButtonState method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_buttonstate, tapi3if/ITPhoneEvent::get_ButtonState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPhoneEvent.get_ButtonState
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPhoneEvent::get_ButtonState

@@ -4,17 +4,16 @@ title: SHGetPathFromIDListEx function
 author: windows-sdk-content
 description: Converts an item identifier list to a file system path. This function extends SHGetPathFromIDList by allowing you to set the initial size of the string buffer and declare the options below.
 old-location: shell\SHGetPathFromIDListEx.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 80270c59-275d-4b13-b16c-0c07bb79ed8e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GPFIDL_ALTNAME, GPFIDL_DEFAULT, GPFIDL_UNCPRINTER, SHGetPathFromIDListEx, SHGetPathFromIDListEx function [Windows Shell], _shell_SHGetPathFromIDListEx, shell.SHGetPathFromIDListEx, shlobj_core/SHGetPathFromIDListEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHGetPathFromIDListEx
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHGetPathFromIDListEx function

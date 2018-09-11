@@ -4,17 +4,16 @@ title: IBackgroundCopyManager::GetErrorDescription
 author: windows-sdk-content
 description: Retrieves a description for the specified error code.
 old-location: bits\ibackgroundcopymanager_geterrordescription.htm
-old-project: bits
+tech.root: bits
 ms.assetid: e62e2bde-485d-42d4-b824-a682ab9e16ca
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetErrorDescription, GetErrorDescription method [BITS], GetErrorDescription method [BITS],IBackgroundCopyManager interface, IBackgroundCopyManager interface [BITS],GetErrorDescription method, IBackgroundCopyManager.GetErrorDescription, IBackgroundCopyManager::GetErrorDescription, _drz_ibackgroundcopymanager_geterrordescription, bits.ibackgroundcopymanager_geterrordescription, bits/IBackgroundCopyManager::GetErrorDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyManager.GetErrorDescription
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyManager::GetErrorDescription
@@ -81,7 +80,7 @@ To retrieve the system's default user language identifier, use the following cal
 
 ### -param pErrorDescription
 
-
+TBD
 
 
 

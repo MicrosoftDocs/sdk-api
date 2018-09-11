@@ -4,17 +4,16 @@ title: ICatRegister
 author: windows-sdk-content
 description: Provides methods for registering and unregistering component category information in the registry. This includes both the human-readable names of categories and the categories implemented/required by a given component or class.
 old-location: com\icatregister.htm
-old-project: com
+tech.root: com
 ms.assetid: 3f4f9beb-51db-407f-91ea-6e32ff5796ce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICatRegister, ICatRegister interface [COM], ICatRegister interface [COM],described, _com_icatregister, com.icatregister, comcat/ICatRegister
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comcat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ServerInformation, *PServerInformation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICatRegister
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatRegister interface

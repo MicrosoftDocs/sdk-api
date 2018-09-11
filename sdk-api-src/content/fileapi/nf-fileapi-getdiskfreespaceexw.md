@@ -4,17 +4,16 @@ title: GetDiskFreeSpaceExW function
 author: windows-sdk-content
 description: Retrieves information about the amount of space that is available on a disk volume, which is the total amount of space, the total amount of free space, and the total amount of free space available to the user that is associated with the calling thread.
 old-location: fs\getdiskfreespaceex.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: a52f2dbd-bda6-4217-9e72-f100f8bbe334
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDiskFreeSpaceEx, GetDiskFreeSpaceEx function [Files], GetDiskFreeSpaceExA, GetDiskFreeSpaceExW, _win32_getdiskfreespaceex, base.getdiskfreespaceex, fileapi/GetDiskFreeSpaceEx, fileapi/GetDiskFreeSpaceExA, fileapi/GetDiskFreeSpaceExW, fs.getdiskfreespaceex, winbase/GetDiskFreeSpaceEx, winbase/GetDiskFreeSpaceExA, winbase/GetDiskFreeSpaceExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - GetDiskFreeSpaceExW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # GetDiskFreeSpaceExW function

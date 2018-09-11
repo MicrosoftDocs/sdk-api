@@ -4,17 +4,16 @@ title: IDWriteFontFace3::AreCharactersLocal
 author: windows-sdk-content
 description: Determines whether the specified characters are local.
 old-location: directwrite\idwritefontface3_arecharacterslocal.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 4cbb6895-3151-c6dd-881e-50d3532c8a14
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: AreCharactersLocal, AreCharactersLocal method [Direct Write], AreCharactersLocal method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],AreCharactersLocal method, IDWriteFontFace3.AreCharactersLocal, IDWriteFontFace3::AreCharactersLocal, directwrite.idwritefontface3_arecharacterslocal, dwrite_3/IDWriteFontFace3::AreCharactersLocal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace3.AreCharactersLocal
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace3::AreCharactersLocal

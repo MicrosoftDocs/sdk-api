@@ -4,17 +4,16 @@ title: ISyncMgrUIOperation::Run
 author: windows-sdk-content
 description: Performs the actual display of UI for a handler or sync item when requested to do so by Sync Center.
 old-location: shell\ISyncMgrUIOperation_Run.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 66dd853e-0fb0-4736-982a-e0183cb51842
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrUIOperation interface [Windows Shell],Run method, ISyncMgrUIOperation.Run, ISyncMgrUIOperation::Run, Run, Run method [Windows Shell], Run method [Windows Shell],ISyncMgrUIOperation interface, _shell_ISyncMgrUIOperation_Run, shell.ISyncMgrUIOperation_Run, syncmgr/ISyncMgrUIOperation::Run
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrUIOperation.Run
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrUIOperation::Run

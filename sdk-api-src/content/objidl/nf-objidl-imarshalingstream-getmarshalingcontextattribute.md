@@ -4,17 +4,16 @@ title: IMarshalingStream::GetMarshalingContextAttribute
 author: windows-sdk-content
 description: Gets information about the marshaling context.
 old-location: com\imarshalingstream_getmarshalingcontextattribute.htm
-old-project: com
+tech.root: com
 ms.assetid: 60B401C8-1ACA-412D-B754-997C39454821
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetMarshalingContextAttribute, GetMarshalingContextAttribute method [COM], GetMarshalingContextAttribute method [COM],IMarshalingStream interface, IMarshalingStream interface [COM],GetMarshalingContextAttribute method, IMarshalingStream.GetMarshalingContextAttribute, IMarshalingStream::GetMarshalingContextAttribute, com.imarshalingstream_getmarshalingcontextattribute, objidl/IMarshalingStream::GetMarshalingContextAttribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: Objidlbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMarshalingStream.GetMarshalingContextAttribute
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMarshalingStream::GetMarshalingContextAttribute

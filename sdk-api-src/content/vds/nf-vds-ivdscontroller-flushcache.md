@@ -4,17 +4,16 @@ title: IVdsController::FlushCache
 author: windows-sdk-content
 description: Flushes the cache of the controller to a persistent store.
 old-location: base\ivdscontroller_flushcache.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: a27a887d-c254-4e50-be96-564db12a673a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: FlushCache, FlushCache method [VDS], FlushCache method [VDS],IVdsController interface, IVdsController interface [VDS],FlushCache method, IVdsController.FlushCache, IVdsController::FlushCache, base.ivdscontroller_flushcache, vds/IVdsController::FlushCache, vdshwprv/IVdsController::FlushCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsController.FlushCache
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsController::FlushCache

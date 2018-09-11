@@ -4,7 +4,7 @@ title: "_DOMAINDESC"
 author: windows-sdk-content
 description: Contains data about an element in a domain tree obtained with the IDsBrowseDomainTree::GetDomains method.
 old-location: ad\domaindesc.htm
-old-project: ad
+tech.root: ad
 ms.assetid: c788d106-2cc7-4d67-8568-23e858c0075f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOMAIN_DESC, DOMAINDESC, *PDOMAIN_DESC, *LPDOMAINDESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DOMAIN_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DOMAIN_DESC, DOMAINDESC, *PDOMAIN_DESC, *LPDOMAINDESC
+req.redist: 
 ---
 
 # _DOMAINDESC structure

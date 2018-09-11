@@ -4,17 +4,16 @@ title: IImageList2::DiscardImages
 author: windows-sdk-content
 description: Discards images from list, as specified.
 old-location: controls\IImageList2_DiscardImages.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\discardimages.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DiscardImages, DiscardImages method [Windows Controls], DiscardImages method [Windows Controls],IImageList2 interface, IImageList2 interface [Windows Controls],DiscardImages method, IImageList2.DiscardImages, IImageList2::DiscardImages, ILDI_PURGE, ILDI_QUERYACCESS, ILDI_RESETACCESS, ILDI_STANDBY, _shell_IImageList2_DiscardImages, _shell_IImageList2_DiscardImages_cpp, commoncontrols/IImageList2::DiscardImages, controls.IImageList2_DiscardImages, controls._shell_IImageList2_DiscardImages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IImageList2.DiscardImages
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comctl32.dll (version 6.0 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IImageList2::DiscardImages

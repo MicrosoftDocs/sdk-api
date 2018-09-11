@@ -4,17 +4,16 @@ title: IDVBTLocator::get_Mode
 author: windows-sdk-content
 description: The get_Mode method receives the transmission mode.
 old-location: mstv\idvbtlocator_get_mode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1896ca9d-fb43-49eb-88a7-c6217d468a2b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_Mode method, IDVBTLocator.get_Mode, IDVBTLocator::get_Mode, IDVBTLocatorget_Mode, get_Mode, get_Mode method [Microsoft TV Technologies], get_Mode method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_mode, tuner/IDVBTLocator::get_Mode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVBTLocator.get_Mode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVBTLocator::get_Mode
@@ -65,7 +63,7 @@ The <b>get_Mode</b> method receives the transmission mode.
 
 ### -param mode
 
-
+TBD
 
 
 

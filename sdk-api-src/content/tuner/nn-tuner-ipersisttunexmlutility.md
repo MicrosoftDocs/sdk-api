@@ -4,7 +4,7 @@ title: IPersistTuneXmlUtility
 author: windows-sdk-content
 description: Defines utility methods for deserializing XML tuning requests to objects that expose their IUnknown interfaces.
 old-location: mstv\ipersisttunexmlutility.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: aa03015f-094f-499f-99fb-2e15ead74f15
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistTuneXmlUtility
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistTuneXmlUtility interface

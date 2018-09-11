@@ -4,17 +4,16 @@ title: MFEndCreateFile function
 author: windows-sdk-content
 description: Completes an asynchronous request to create a byte stream from a file.
 old-location: mf\mfendcreatefile.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: daa92660-5d0d-4c7c-985a-ad621eca4bfc
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFEndCreateFile, MFEndCreateFile function [Media Foundation], daa92660-5d0d-4c7c-985a-ad621eca4bfc, mf.mfendcreatefile, mfapi/MFEndCreateFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFEndCreateFile
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFEndCreateFile function

@@ -4,17 +4,16 @@ title: ISyncMgrEnumItems
 author: windows-sdk-content
 description: Exposes methods that enumerate through an array of SYNCMGRITEM structures.
 old-location: shell\syncmgr_isyncmgrenumitems.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d90e3a19-0ea8-4396-a6e7-dafe1dc9b2ec
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrEnumItems, ISyncMgrEnumItems interface [Windows Shell], ISyncMgrEnumItems interface [Windows Shell],described, mobsync/ISyncMgrEnumItems, shell.syncmgr_isyncmgrenumitems, syncmgr.isyncmgrenumitems
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRSTATUS
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrEnumItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mobsync.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrEnumItems interface

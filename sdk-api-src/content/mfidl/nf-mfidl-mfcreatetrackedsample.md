@@ -4,17 +4,16 @@ title: MFCreateTrackedSample function
 author: windows-sdk-content
 description: Creates an IMFTrackedSample object that tracks the reference counts on a video media sample.
 old-location: mf\mfcreatetrackedsample.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 05FB8F94-94B2-46A5-A890-E37E501233E2
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateTrackedSample, MFCreateTrackedSample function [Media Foundation], mf.mfcreatetrackedsample, mfidl/MFCreateTrackedSample
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateTrackedSample
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateTrackedSample function

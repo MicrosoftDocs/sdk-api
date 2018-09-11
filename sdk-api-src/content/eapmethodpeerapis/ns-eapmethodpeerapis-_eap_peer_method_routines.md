@@ -4,7 +4,7 @@ title: "_EAP_PEER_METHOD_ROUTINES"
 author: windows-sdk-content
 description: Contains a set of function pointers to the EAPHost Peer Method APIs.
 old-location: eaphost\eap_peer_method_routines.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: fb15d5d0-f27b-4249-bf6f-afc67f6ae7dc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eapmethodpeerapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_PEER_METHOD_ROUTINES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_PEER_METHOD_ROUTINES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_PEER_METHOD_ROUTINES
+req.redist: 
 ---
 
 # _EAP_PEER_METHOD_ROUTINES structure

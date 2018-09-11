@@ -4,17 +4,16 @@ title: ICertView::OpenView
 author: windows-sdk-content
 description: Opens a view to a Certificate Services database and instantiates an instance of an IEnumCERTVIEWROW object.
 old-location: security\icertview2_openview.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: d68a5463-f711-4737-b0ad-889f7e4855d5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertView object [Security],OpenView method, ICertView interface [Security],OpenView method, ICertView.OpenView, ICertView2 interface [Security],OpenView method, ICertView2::OpenView, ICertView::OpenView, OpenView, OpenView method [Security], OpenView method [Security],CCertView object, OpenView method [Security],ICertView interface, OpenView method [Security],ICertView2 interface, certview/ICertView2::OpenView, certview/ICertView::OpenView, security.icertview2_openview
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertView.OpenView
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertView::OpenView

@@ -4,7 +4,7 @@ title: IScheduleCollection
 author: windows-sdk-content
 description: Manages a collection of Schedule objects.To get this interface, access the IDataCollectorSet::Schedules property.
 old-location: pla\ischedulecollection.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 40b4a77c-5ab4-4443-801c-2e425b6ca1bc
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IScheduleCollection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IScheduleCollection interface

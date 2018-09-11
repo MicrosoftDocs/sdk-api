@@ -4,17 +4,16 @@ title: IVssCreateWriterMetadata
 author: windows-sdk-content
 description: The IVssCreateWriterMetadata interface is a C++ (not COM) interface containing methods to construct the Writer Metadata Document in response to an Identify event. It is used only in the CVssWriter::OnIdentify method.
 old-location: base\ivsscreatewritermetadata.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 427ed302-c3b7-483a-aa48-da6fec1160a9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssCreateWriterMetadata, IVssCreateWriterMetadata interface [VSS], IVssCreateWriterMetadata interface [VSS],described, _win32_ivsscreatewritermetadata, base.ivsscreatewritermetadata, vswriter/IVssCreateWriterMetadata
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: class
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssCreateWriterMetadata
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssCreateWriterMetadata class

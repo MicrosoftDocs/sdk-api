@@ -4,17 +4,16 @@ title: ID2D1Ink::GetSegmentCount
 author: windows-sdk-content
 description: Returns the number of segments in this ink object.
 old-location: direct2d\id2d1ink_getsegmentcount.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 8222B527-FEEE-4456-8C0E-35437CB81DE5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSegmentCount, GetSegmentCount method [Direct2D], GetSegmentCount method [Direct2D],ID2D1Ink interface, ID2D1Ink interface [Direct2D],GetSegmentCount method, ID2D1Ink.GetSegmentCount, ID2D1Ink::GetSegmentCount, d2d1_3/ID2D1Ink::GetSegmentCount, direct2d.id2d1ink_getsegmentcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: D2d1_3.lib
+req.dll: D2d1_3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Ink.GetSegmentCount
 product: Windows
 targetos: Windows
-req.lib: D2d1_3.lib
-req.dll: D2d1_3.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Ink::GetSegmentCount

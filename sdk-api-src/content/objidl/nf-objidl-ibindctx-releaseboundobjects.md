@@ -4,17 +4,16 @@ title: IBindCtx::ReleaseBoundObjects
 author: windows-sdk-content
 description: Releases all pointers to all objects that were previously registered by calls to RegisterObjectBound.
 old-location: com\ibindctx_releaseboundobjects.htm
-old-project: com
+tech.root: com
 ms.assetid: 12107633-6e7f-4d41-8e5c-5739cff98552
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IBindCtx interface [COM],ReleaseBoundObjects method, IBindCtx.ReleaseBoundObjects, IBindCtx::ReleaseBoundObjects, ReleaseBoundObjects, ReleaseBoundObjects method [COM], ReleaseBoundObjects method [COM],IBindCtx interface, _com_ibindctx_releaseboundobjects, com.ibindctx_releaseboundobjects, objidl/IBindCtx::ReleaseBoundObjects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBindCtx.ReleaseBoundObjects
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBindCtx::ReleaseBoundObjects

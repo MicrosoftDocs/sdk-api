@@ -4,17 +4,16 @@ title: IUpdateLockdown::LockDown
 author: windows-sdk-content
 description: Restricts access to the methods and properties of the object that implements this method.
 old-location: wua\iupdatelockdown_lockdown.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 3d3be6f8-acdc-4cef-a0bc-6572a5b315d8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IUpdateLockdown interface [Windows Update Agent],Lockdown method, IUpdateLockdown.LockDown, IUpdateLockdown::LockDown, IUpdateLockdown::Lockdown, LockDown, Lockdown method [Windows Update Agent], Lockdown method [Windows Update Agent],IUpdateLockdown interface, wua.iupdatelockdown_lockdown, wuapi/IUpdateLockdown::Lockdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUpdateLockdown.Lockdown
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateLockdown::LockDown

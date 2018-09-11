@@ -4,17 +4,16 @@ title: "_TRUSTED_PASSWORD_INFO"
 author: windows-sdk-content
 description: The TRUSTED_PASSWORD_INFO structure is used to query or set the password for a trusted domain.
 old-location: security\trusted_password_info.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: 2c3aca10-8efd-4278-8127-2d31db776c0e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PTRUSTED_PASSWORD_INFO, PTRUSTED_PASSWORD_INFO, PTRUSTED_PASSWORD_INFO structure pointer [Security], TRUSTED_PASSWORD_INFO, TRUSTED_PASSWORD_INFO structure [Security], _TRUSTED_PASSWORD_INFO, _lsa_trusted_password_info, ntsecapi/PTRUSTED_PASSWORD_INFO, ntsecapi/TRUSTED_PASSWORD_INFO, security.trusted_password_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_PASSWORD_INFO, *PTRUSTED_PASSWORD_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TRUSTED_PASSWORD_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: TRUSTED_PASSWORD_INFO, *PTRUSTED_PASSWORD_INFO
+req.redist: 
 ---
 
 # _TRUSTED_PASSWORD_INFO structure

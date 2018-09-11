@@ -4,17 +4,16 @@ title: ISynchronizedInputProvider::StartListening
 author: windows-sdk-content
 description: Starts listening for input of the specified type.
 old-location: winauto\uiauto_ISynchronizedInputProvider_StartListening.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: ad9e6ca3-b38c-41f8-9c61-ce51786672eb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ISynchronizedInputProvider interface [Windows Accessibility],StartListening method, ISynchronizedInputProvider.StartListening, ISynchronizedInputProvider::StartListening, StartListening, StartListening method [Windows Accessibility], StartListening method [Windows Accessibility],ISynchronizedInputProvider interface, uiauto.uiauto_ISynchronizedInputProvider_StartListening, uiauto_ISynchronizedInputProvider_StartListening, uiautomationcore/ISynchronizedInputProvider::StartListening, winauto.uiauto_ISynchronizedInputProvider_StartListening
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISynchronizedInputProvider.StartListening
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISynchronizedInputProvider::StartListening

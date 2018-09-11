@@ -4,17 +4,16 @@ title: IWCNDevice::GetIntegerAttribute
 author: windows-sdk-content
 description: The GetIntegerAttribute method gets a cached attribute from the device as an integer.
 old-location: wcn\iwcndevice_getintegerattribute.htm
-old-project: wcn
+tech.root: wcn
 ms.assetid: 95ad3427-c8c9-4ac9-8c8e-c9bedf855a37
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetIntegerAttribute, GetIntegerAttribute method [Windows Connect Now], GetIntegerAttribute method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetIntegerAttribute method, IWCNDevice.GetIntegerAttribute, IWCNDevice::GetIntegerAttribute, wcn.iwcndevice_getintegerattribute, wcndevice/IWCNDevice::GetIntegerAttribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcndevice.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_SESSION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWCNDevice.GetIntegerAttribute
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWCNDevice::GetIntegerAttribute

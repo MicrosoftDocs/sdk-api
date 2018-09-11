@@ -4,7 +4,7 @@ title: IAppxBundleManifestReader
 author: windows-sdk-content
 description: Provides a read-only object model for manifests of bundle packages.
 old-location: appxpkg\iappxbundlemanifestreader.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 2ABC7B5A-6489-4B52-B1C4-22D432EC9947
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxBundleManifestReader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxBundleManifestReader interface

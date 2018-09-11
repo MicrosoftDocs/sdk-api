@@ -4,17 +4,16 @@ title: ITextRange2::GetDropCap
 author: windows-sdk-content
 description: Gets the drop-cap parameters of the paragraph that contains this range.
 old-location: controls\itextrange2_getdropcap.htm
-old-project: controls
+tech.root: controls
 ms.assetid: c653c002-6708-4813-83ae-1ea578bdcee2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDropCap, GetDropCap method [Windows Controls], GetDropCap method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetDropCap method, ITextRange2.GetDropCap, ITextRange2::GetDropCap, controls.itextrange2_getdropcap, tom/ITextRange2::GetDropCap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: Tom.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange2.GetDropCap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange2::GetDropCap

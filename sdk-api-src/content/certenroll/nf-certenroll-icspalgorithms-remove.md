@@ -4,17 +4,16 @@ title: ICspAlgorithms::Remove
 author: windows-sdk-content
 description: Removes an ICspAlgorithm object from the collection by index number.
 old-location: security\icspalgorithms_remove_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 9116ca78-3b99-4b9a-97af-d01077e201f7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICspAlgorithms interface [Security],Remove method, ICspAlgorithms.Remove, ICspAlgorithms::Remove, Remove, Remove method [Security], Remove method [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::Remove, security.icspalgorithms_remove_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICspAlgorithms.Remove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspAlgorithms::Remove

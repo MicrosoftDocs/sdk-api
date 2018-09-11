@@ -4,17 +4,16 @@ title: ListBox_Enable macro
 author: windows-sdk-content
 description: Enables or disables a list box control.
 old-location: controls\ListBox_Enable.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_enable.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ListBox_Enable, ListBox_Enable macro [Windows Controls], _win32_ListBox_Enable, _win32_ListBox_Enable_cpp, controls.ListBox_Enable, controls._win32_ListBox_Enable, windowsx/ListBox_Enable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ListBox_Enable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ListBox_Enable macro

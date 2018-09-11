@@ -4,17 +4,16 @@ title: IDsAdminNewObjExt::WriteData
 author: windows-sdk-content
 description: Enables the object creation wizard extension to write its data into an object in Active Directory Domain Services.
 old-location: ad\idsadminnewobjext_writedata.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 1788c124-c740-4f77-9687-63113d3b14a8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DSA_NEWOBJ_CTX_CLEANUP, DSA_NEWOBJ_CTX_POSTCOMMIT, DSA_NEWOBJ_CTX_PRECOMMIT, IDsAdminNewObjExt interface [Active Directory],WriteData method, IDsAdminNewObjExt.WriteData, IDsAdminNewObjExt::WriteData, WriteData, WriteData method [Active Directory], WriteData method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_writedata, ad.idsadminnewobjext__writedata, ad.idsadminnewobjext_writedata, dsadmin/IDsAdminNewObjExt::WriteData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsAdminNewObjExt.WriteData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DSAdmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsAdminNewObjExt::WriteData

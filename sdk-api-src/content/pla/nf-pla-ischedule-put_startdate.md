@@ -4,17 +4,16 @@ title: ISchedule::put_StartDate
 author: windows-sdk-content
 description: Retrieves or sets the date when the schedule becomes valid.
 old-location: pla\ischedule_startdate.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 1bb90c84-0249-4714-9371-d2aed2922d9b
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ISchedule interface [PLA],StartDate property, ISchedule.StartDate, ISchedule.put_StartDate, ISchedule::StartDate, ISchedule::get_StartDate, ISchedule::put_StartDate, StartDate property [PLA], StartDate property [PLA],ISchedule interface, base.ischedule_startdate, pla.ischedule_startdate, pla/ISchedule::StartDate, pla/ISchedule::get_StartDate, pla/ISchedule::put_StartDate, put_StartDate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ISchedule.put_StartDate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISchedule::put_StartDate

@@ -4,17 +4,16 @@ title: EngDeleteClip function
 author: windows-sdk-content
 description: The EngDeleteClip function deletes a CLIPOBJ structure allocated by EngCreateClip.
 old-location: display\engdeleteclip.htm
-old-project: display
+tech.root: display
 ms.assetid: 7af85df1-1e37-4a69-82a0-1c1eec32dd48
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngDeleteClip, EngDeleteClip function [Display Devices], display.engdeleteclip, gdifncs_0ca10e14-e720-49f3-8c56-9c9dd646f04f.xml, winddi/EngDeleteClip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngDeleteClip
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngDeleteClip function

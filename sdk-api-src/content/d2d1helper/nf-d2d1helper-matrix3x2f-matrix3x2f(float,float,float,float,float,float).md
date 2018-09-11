@@ -4,17 +4,16 @@ title: Matrix3x2F::Matrix3x2F(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)
 author: windows-sdk-content
 description: Instantiates a new instance of the Matrix3x2F class that contains the specified values.
 old-location: direct2d\matrix3x2f_matrix3x2f_float__float__float__float__float__float_.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: f4701597-9473-4333-9e6d-60000ccea40e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: D2D1.Matrix3x2F.Matrix3x2F, D2D1::Matrix3x2F::Matrix3x2F, Matrix3x2F, Matrix3x2F constructor [Direct2D], Matrix3x2F constructor [Direct2D],Matrix3x2F interface, Matrix3x2F interface [Direct2D],Matrix3x2F constructor, Matrix3x2F.Matrix3x2F, Matrix3x2F.Matrix3x2F(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT), Matrix3x2F::Matrix3x2F, Matrix3x2F::Matrix3x2F(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT), d2d1helper/Matrix3x2F::Matrix3x2F, direct2d.matrix3x2f_matrix3x2f_float__float__float__float__float__float_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1helper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: D2D1
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VIGNETTE_PROP
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Matrix3x2F.Matrix3x2F
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Matrix3x2F::Matrix3x2F(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)
@@ -61,32 +60,32 @@ Instantiates a new instance of the <a href="https://msdn.microsoft.com/54b9e75c-
 
 ### -param m11
 
-
+TBD
 
 
 ### -param m12
 
-
+TBD
 
 
 ### -param m21
 
-
+TBD
 
 
 ### -param m22
 
-
+TBD
 
 
 ### -param m31
 
-
+TBD
 
 
 ### -param m32
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IDCompositionCompositeEffect::SetMode
 author: windows-sdk-content
 description: Sets the mode for the composite effect.
 old-location: directcomp\idcompositioncompositeeffect_setmode.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: E93FAAA1-A9C3-466A-9023-99745EA6A49B
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionCompositeEffect interface [DirectComposition],SetMode method, IDCompositionCompositeEffect.SetMode, IDCompositionCompositeEffect::SetMode, SetMode, SetMode method [DirectComposition], SetMode method [DirectComposition],IDCompositionCompositeEffect interface, dcomp/IDCompositionCompositeEffect::SetMode, directcomp.idcompositioncompositeeffect_setmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionCompositeEffect.SetMode
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionCompositeEffect::SetMode

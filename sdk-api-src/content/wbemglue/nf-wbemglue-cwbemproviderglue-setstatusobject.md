@@ -4,17 +4,16 @@ title: CWbemProviderGlue::SetStatusObject
 author: windows-sdk-content
 description: The SetStatusObject method sets the parameters of a status object used to supply more information when an error occurs. This status object is derived from the Win32_PrivilegesStatus class.
 old-location: wmi\cwbemproviderglue_setstatusobject.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 2f094359-66ea-4604-85f8-1f6bc9a81cd1
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?SetStatusObject@CWbemProviderGlue@@SA_NPEAVMethodContext@@PEBG1JPEBUtagSAFEARRAY@@2@Z, ?SetStatusObject@CWbemProviderGlue@@SG_NPAVMethodContext@@PBG1JPBUtagSAFEARRAY@@2@Z, CWbemProviderGlue interface [Windows Management Instrumentation],SetStatusObject method, CWbemProviderGlue.SetStatusObject, CWbemProviderGlue::SetStatusObject, SetStatusObject, SetStatusObject method [Windows Management Instrumentation], SetStatusObject method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_setstatusobject, wbemglue/CWbemProviderGlue::SetStatusObject, wmi.cwbemproviderglue_setstatusobject"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ?SetStatusObject@CWbemProviderGlue@@SG_NPAVMethodContext@@PBG1JPBUtagSAFEARRAY@@2@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CWbemProviderGlue::SetStatusObject
@@ -71,7 +69,7 @@ The <b>SetStatusObject</b> method sets the parameters of a status object used to
 
 ### -param pContext
 
-
+TBD
 
 
 ### -param pNamespace

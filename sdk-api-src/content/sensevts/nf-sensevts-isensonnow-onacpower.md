@@ -4,17 +4,16 @@ title: ISensOnNow::OnACPower
 author: windows-sdk-content
 description: SENS calls the OnACPower method to notify your application that the computer is using AC power.
 old-location: sens\isensonnow_onacpower.htm
-old-project: sens
+tech.root: Sens
 ms.assetid: 4d9e8de9-a329-4f8c-883b-e4baab04729b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISensOnNow interface [SENS],OnACPower method, ISensOnNow.OnACPower, ISensOnNow::OnACPower, OnACPower, OnACPower method [SENS], OnACPower method [SENS],ISensOnNow interface, _zaw_isensonnow_onacpower, sens.isensonnow_onacpower, sensevts/ISensOnNow::OnACPower, syncmgr.isensonnow_onacpower
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Sensevts.tlb
-tech.root: 
-req.typenames: QOCINFO, *LPQOCINFO
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensOnNow.OnACPower
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sens.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensOnNow::OnACPower

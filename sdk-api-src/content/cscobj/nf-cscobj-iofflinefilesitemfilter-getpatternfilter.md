@@ -4,17 +4,16 @@ title: IOfflineFilesItemFilter::GetPatternFilter
 author: windows-sdk-content
 description: Provides a filter pattern string to limit enumerated items based on item name patterns.
 old-location: of\iofflinefilesitemfilter_getpatternfilter.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 570cf25c-d4a4-42d6-8f33-bb660a7e99ab
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPatternFilter, GetPatternFilter method [Offline Files], GetPatternFilter method [Offline Files],IOfflineFilesItemFilter interface, IOfflineFilesItemFilter interface [Offline Files],GetPatternFilter method, IOfflineFilesItemFilter.GetPatternFilter, IOfflineFilesItemFilter::GetPatternFilter, cscobj/IOfflineFilesItemFilter::GetPatternFilter, of.iofflinefilesitemfilter_getpatternfilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesItemFilter.GetPatternFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesItemFilter::GetPatternFilter

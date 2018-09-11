@@ -4,17 +4,16 @@ title: IEnumContextProps::Reset
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumcontextprops_reset.htm
-old-project: com
+tech.root: com
 ms.assetid: de6a45d2-f0f7-4233-92d2-8e59d4685557
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumContextProps interface [COM],Reset method, IEnumContextProps.Reset, IEnumContextProps::Reset, Reset, Reset method [COM], Reset method [COM],IEnumContextProps interface, _com_ienumcontextprops_reset, com.ienumcontextprops_reset, objidlbase/IEnumContextProps::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumContextProps.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumContextProps::Reset

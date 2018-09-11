@@ -4,7 +4,7 @@ title: D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS
 author: windows-sdk-content
 description: Specifies video processing capabilities that relate to deinterlacing, inverse telecine (IVTC), and frame-rate conversion.
 old-location: mf\d3d11_video_processor_processor_caps.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9AD4ED7B-B12E-4DFD-BB85-BC19FC6C755A
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: D3d11.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS
+req.redist: 
 ---
 
 # D3D11_VIDEO_PROCESSOR_PROCESSOR_CAPS enumeration

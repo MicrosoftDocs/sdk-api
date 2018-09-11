@@ -4,7 +4,7 @@ title: "_MIB_IPMCAST_OIF_STATS_LH"
 author: windows-sdk-content
 description: Stores the statistics that are associated with an outgoing multicast interface.
 old-location: mib\mib_ipmcast_oif_stats.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 0d1a2396-883b-4ca5-b8a0-11a3d3575a61
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IPMCAST_OIF_STATS_LH, *PMIB_IPMCAST_OIF_STATS_LH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_IPMCAST_OIF_STATS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_IPMCAST_OIF_STATS_LH, *PMIB_IPMCAST_OIF_STATS_LH
+req.redist: 
 ---
 
 # _MIB_IPMCAST_OIF_STATS_LH structure

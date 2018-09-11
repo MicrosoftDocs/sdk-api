@@ -4,17 +4,16 @@ title: IMILBitmapEffectRenderContext::SetRegionOfInterest
 author: windows-sdk-content
 description: Sets the region of interest for the effect.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_setregionofinterest.htm
-old-project: wibe
+tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setregionofinterest.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetRegionOfInterest method, IMILBitmapEffectRenderContext.SetRegionOfInterest, IMILBitmapEffectRenderContext::SetRegionOfInterest, SetRegionOfInterest, SetRegionOfInterest method [WPF Bitmap Effects], SetRegionOfInterest method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, _wibe_imilbitmapeffectrendercontext_setregionofinterest, mileffects/IMILBitmapEffectRenderContext::SetRegionOfInterest, wibe._wibe_imilbitmapeffectrendercontext_setregionofinterest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 
-req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: 
+req.dll: Mileffects.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMILBitmapEffectRenderContext.SetRegionOfInterest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mileffects.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Microsoft .Net 3.0
 ---
 
 # IMILBitmapEffectRenderContext::SetRegionOfInterest

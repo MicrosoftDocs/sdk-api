@@ -4,17 +4,16 @@ title: "_CREDENTIAL_ATTRIBUTEW"
 author: windows-sdk-content
 description: The CREDENTIAL_ATTRIBUTE structure contains an application-defined attribute of the credential. An attribute is a keyword-value pair. It is up to the application to define the meaning of the attribute.
 old-location: security\credential_attribute.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: eb46766c-5f05-4e4a-9550-173347f156d9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCREDENTIAL_ATTRIBUTEW, CREDENTIAL_ATTRIBUTE, CREDENTIAL_ATTRIBUTE structure [Security], CREDENTIAL_ATTRIBUTEW, PCREDENTIAL_ATTRIBUTE, PCREDENTIAL_ATTRIBUTE structure pointer [Security], _CREDENTIAL_ATTRIBUTEW, _cred_credential_attribute, security.credential_attribute, wincred/CREDENTIAL_ATTRIBUTE, wincred/PCREDENTIAL_ATTRIBUTE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_ATTRIBUTEW, *PCREDENTIAL_ATTRIBUTEW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CREDENTIAL_ATTRIBUTE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CREDENTIAL_ATTRIBUTEW, *PCREDENTIAL_ATTRIBUTEW
+req.redist: 
 ---
 
 # _CREDENTIAL_ATTRIBUTEW structure

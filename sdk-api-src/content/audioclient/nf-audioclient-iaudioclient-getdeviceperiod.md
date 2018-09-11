@@ -4,17 +4,16 @@ title: IAudioClient::GetDevicePeriod
 author: windows-sdk-content
 description: The GetDevicePeriod method retrieves the length of the periodic interval separating successive processing passes by the audio engine on the data in the endpoint buffer.
 old-location: coreaudio\iaudioclient_getdeviceperiod.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: f2f75fce-9eca-488d-b183-87d97d4e599a
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetDevicePeriod, GetDevicePeriod method [Core Audio], GetDevicePeriod method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetDevicePeriod method, IAudioClient.GetDevicePeriod, IAudioClient::GetDevicePeriod, IAudioClientGetDevicePeriod, audioclient/IAudioClient::GetDevicePeriod, coreaudio.iaudioclient_getdeviceperiod
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioClient.GetDevicePeriod
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioClient::GetDevicePeriod

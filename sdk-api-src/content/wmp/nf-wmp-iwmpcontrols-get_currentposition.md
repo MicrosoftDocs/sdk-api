@@ -4,17 +4,16 @@ title: IWMPControls::get_currentPosition
 author: windows-sdk-content
 description: The get_currentPosition method retrieves the current position in the media item in seconds from the beginning.
 old-location: wmp\iwmpcontrols_get_currentposition.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: ba7d42b4-2025-4881-b1eb-98636bb1c5ce
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentPosition method, IWMPControls.get_currentPosition, IWMPControls::get_currentPosition, IWMPControlsget_currentPosition, get_currentPosition, get_currentPosition method [Windows Media Player], get_currentPosition method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentposition, wmp/IWMPControls::get_currentPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPControls.get_currentPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPControls::get_currentPosition

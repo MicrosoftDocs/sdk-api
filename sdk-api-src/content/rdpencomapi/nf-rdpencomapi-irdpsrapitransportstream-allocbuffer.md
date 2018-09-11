@@ -4,17 +4,16 @@ title: IRDPSRAPITransportStream::AllocBuffer
 author: windows-sdk-content
 description: Called by the Remote Desktop Protocol (RDP) stack to allocate a stream buffer.
 old-location: rdp\irdpsrapitransportstream_allocbuffer.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 5e53aedb-d3a2-4468-9df9-f058485d7bc4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AllocBuffer, AllocBuffer method [RDP], AllocBuffer method [RDP],IRDPSRAPITransportStream interface, IRDPSRAPITransportStream interface [RDP],AllocBuffer method, IRDPSRAPITransportStream.AllocBuffer, IRDPSRAPITransportStream::AllocBuffer, rdp.irdpsrapitransportstream_allocbuffer, rdpencomapi/IRDPSRAPITransportStream::AllocBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPITransportStream.AllocBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPITransportStream::AllocBuffer

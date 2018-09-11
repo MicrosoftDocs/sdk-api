@@ -2,7 +2,7 @@
 UID: TP:hcp
 ms.assetid: deb7e581-770e-366c-b7a1-3cfb933d5208
 ms.author: windowssdkdev
-ms.date: 08/23/2018
+ms.date: 09/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

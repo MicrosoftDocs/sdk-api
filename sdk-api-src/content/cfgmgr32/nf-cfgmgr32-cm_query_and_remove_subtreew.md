@@ -4,17 +4,16 @@ title: CM_Query_And_Remove_SubTreeW function
 author: windows-sdk-content
 description: The CM_Query_And_Remove_SubTree function checks whether a device instance and its children can be removed and, if so, it removes them.
 old-location: devinst\cm_query_and_remove_subtree.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 0a80cddd-d5be-42cb-ba11-0a3292b973a3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Query_And_Remove_SubTree, CM_Query_And_Remove_SubTree function [Device and Driver Installation], CM_Query_And_Remove_SubTreeW, cfgmgr32/CM_Query_And_Remove_SubTree, cfgmgr32/CM_Query_And_Remove_SubTreeW, cfgmgrfn_81d4975f-cc31-49aa-8fa7-984abd25c26b.xml, devinst.cm_query_and_remove_subtree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CM_Query_And_Remove_SubTreeW
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Query_And_Remove_SubTreeW function

@@ -4,17 +4,16 @@ title: IImePad::Request
 author: windows-sdk-content
 description: Called by an IImePadApplet to insert text into an app.
 old-location: intl\iimepad_request.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: C74B0374-D6C7-44C7-94EF-E97B46534462
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IImePad interface [Internationalization for Windows Applications],Request method, IImePad.Request, IImePad::Request, IMEPADREQ_CHANGESTRING, IMEPADREQ_DELETESTRING, IMEPADREQ_FORCEIMEPADWINDOWSHOW, IMEPADREQ_GETAPPLETUISTYLE, IMEPADREQ_GETAPPLHWND, IMEPADREQ_GETCOMPOSITIONSTRING, IMEPADREQ_GETCOMPOSITIONSTRINGINFO, IMEPADREQ_GETCONVERSIONSTATUS, IMEPADREQ_GETCURRENTIMEINFO, IMEPADREQ_GETCURRENTUILANG, IMEPADREQ_GETDEFAULTUILANGID, IMEPADREQ_GETVERSION, IMEPADREQ_INSERTSTRING, IMEPADREQ_ISAPPLETACTIVE, IMEPADREQ_ISIMEPADWINDOWVISIBLE, IMEPADREQ_POSTMODALNOTIFY, IMEPADREQ_SENDCONTROL, IMEPADREQ_SETAPPLETMINMAXSIZE, IMEPADREQ_SETAPPLETSIZE, IMEPADREQ_SETAPPLETUISTYLE, Request, Request method [Internationalization for Windows Applications], Request method [Internationalization for Windows Applications],IImePad interface, imepad/IImePad::Request, intl.iimepad_request
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imepad.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMESTRUCT, *PIMESTRUCT, *NPIMESTRUCT, *LPIMESTRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IImePad.Request
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IImePad::Request

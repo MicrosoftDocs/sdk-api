@@ -4,17 +4,16 @@ title: CertFindCRLInStore function
 author: windows-sdk-content
 description: Finds the first or next certificate revocation list (CRL) context in a certificate store that matches a search criterion established by the dwFindType parameter and the associated pvFindPara parameter.
 old-location: security\certfindcrlinstore.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 3e481912-204a-4d86-ab67-81f8ae4d1aaa
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRL_FIND_ANY, CRL_FIND_EXISTING, CRL_FIND_ISSUED_BY, CRL_FIND_ISSUED_BY_AKI_FLAG, CRL_FIND_ISSUED_BY_BASE_FLAG, CRL_FIND_ISSUED_BY_DELTA_FLAG, CRL_FIND_ISSUED_BY_SIGNATURE_FLAG, CRL_FIND_ISSUED_FOR, CRL_FIND_ISSUED_FOR_SET_STRONG_PROPERTIES_FLAG, CertFindCRLInStore, CertFindCRLInStore function [Security], _crypto2_certfindcrlinstore, security.certfindcrlinstore, wincrypt/CertFindCRLInStore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertFindCRLInStore
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertFindCRLInStore function

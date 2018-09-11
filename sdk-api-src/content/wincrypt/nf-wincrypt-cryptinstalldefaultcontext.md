@@ -4,17 +4,16 @@ title: CryptInstallDefaultContext function
 author: windows-sdk-content
 description: Installs a specific provider to be the default context provider for the specified algorithm.
 old-location: security\cryptinstalldefaultcontext.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 79d121df-0699-424e-a8de-5fc2b396afc2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_DEFAULT_CONTEXT_AUTO_RELEASE_FLAG, CRYPT_DEFAULT_CONTEXT_CERT_SIGN_OID, CRYPT_DEFAULT_CONTEXT_MULTI_CERT_SIGN_OID, CRYPT_DEFAULT_CONTEXT_PROCESS_FLAG, CryptInstallDefaultContext, CryptInstallDefaultContext function [Security], _crypto2_cryptinstalldefaultcontext, security.cryptinstalldefaultcontext, wincrypt/CryptInstallDefaultContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptInstallDefaultContext
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptInstallDefaultContext function

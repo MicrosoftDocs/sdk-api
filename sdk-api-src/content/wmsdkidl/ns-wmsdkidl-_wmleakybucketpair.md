@@ -4,7 +4,7 @@ title: "_WMLeakyBucketPair"
 author: windows-sdk-content
 description: The WM_LEAKY_BUCKET_PAIR structure describes the buffering requirements for a VBR file. This structure is used with the ASFLeakyBucketPairs attribute.
 old-location: wmformat\wm_leaky_bucket_pair.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 8fada83d-cb66-4411-9ff5-0eb4c02a3b5f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_LEAKY_BUCKET_PAIR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WM_LEAKY_BUCKET_PAIR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WM_LEAKY_BUCKET_PAIR
+req.redist: 
 ---
 
 # _WMLeakyBucketPair structure

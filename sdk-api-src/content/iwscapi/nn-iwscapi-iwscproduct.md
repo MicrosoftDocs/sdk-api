@@ -4,17 +4,16 @@ title: IWscProduct
 author: windows-sdk-content
 description: Provides methods for getting product information for an individual provider to interact with Windows Security Center.
 old-location: winprog\iwscproduct.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: C637E67A-CED7-4235-AAF3-22730E9C7E91
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWscProduct, IWscProduct interface [Windows API], IWscProduct interface [Windows API],described, iwscapi/IWscProduct, winprog.iwscproduct
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: iwscapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wsccapi.lib
-tech.root: 
-req.typenames: WSC_SECURITY_SIGNATURE_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWscProduct
 product: Windows
 targetos: Windows
-req.lib: Wscapi.lib
-req.dll: Wscapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IWscProduct interface

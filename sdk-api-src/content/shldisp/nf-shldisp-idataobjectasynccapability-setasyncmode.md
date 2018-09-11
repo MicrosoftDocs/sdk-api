@@ -4,17 +4,16 @@ title: IDataObjectAsyncCapability::SetAsyncMode
 author: windows-sdk-content
 description: Called by a drop source to specify whether the data object supports asynchronous data extraction.
 old-location: shell\IDataObjectAsyncCapability_SetAsyncMode.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 97DCCA78-F25E-47de-8292-F0C6ED9DFD35
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IDataObjectAsyncCapability interface [Windows Shell],SetAsyncMode method, IDataObjectAsyncCapability.SetAsyncMode, IDataObjectAsyncCapability::SetAsyncMode, SetAsyncMode, SetAsyncMode method [Windows Shell], SetAsyncMode method [Windows Shell],IDataObjectAsyncCapability interface, shell.IDataObjectAsyncCapability_SetAsyncMode, shldisp/IDataObjectAsyncCapability::SetAsyncMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataObjectAsyncCapability.SetAsyncMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 6.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDataObjectAsyncCapability::SetAsyncMode

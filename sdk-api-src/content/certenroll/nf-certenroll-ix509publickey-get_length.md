@@ -4,17 +4,16 @@ title: IX509PublicKey::get_Length
 author: windows-sdk-content
 description: Retrieves the length of the public key.
 old-location: security\ix509publickey_length_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: c386fb27-84c5-4570-9cdb-202baa726b96
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509PublicKey interface [Security],Length property, IX509PublicKey.Length, IX509PublicKey.get_Length, IX509PublicKey::Length, IX509PublicKey::get_Length, Length property [Security], Length property [Security],IX509PublicKey interface, certenroll/IX509PublicKey::Length, certenroll/IX509PublicKey::get_Length, get_Length, security.ix509publickey_length_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509PublicKey.get_Length
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PublicKey::get_Length

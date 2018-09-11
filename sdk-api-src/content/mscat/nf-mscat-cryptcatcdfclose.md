@@ -4,17 +4,16 @@ title: CryptCATCDFClose function
 author: windows-sdk-content
 description: Closes a catalog definition file (CDF) and frees the memory for the corresponding CRYPTCATCDF structure.
 old-location: security\cryptcatcdfclose.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 9f2a1175-f9fe-4f4d-bf6f-e4f4c59739ec
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptCATCDFClose, CryptCATCDFClose function [Security], mscat/CryptCATCDFClose, security.cryptcatcdfclose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSP_PINMODE, *PKSP_PINMODE
+req.lib: 
+req.dll: Wintrust.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptCATCDFClose
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wintrust.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CryptCATCDFClose function

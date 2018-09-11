@@ -4,17 +4,16 @@ title: VDS_IPADDRESS_TYPE
 author: windows-sdk-content
 description: Defines the set of valid types for an IP address.
 old-location: base\vds_ipaddress_type.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 9121957f-1626-4d52-9749-0a769fece5fa
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_IPADDRESS_TYPE, VDS_IPADDRESS_TYPE enumeration [VDS], VDS_IPT_EMPTY, VDS_IPT_IPV4, VDS_IPT_IPV6, VDS_IPT_TEXT, base.vds_ipaddress_type, vds/VDS_IPADDRESS_TYPE, vds/VDS_IPT_EMPTY, vds/VDS_IPT_IPV4, vds/VDS_IPT_IPV6, vds/VDS_IPT_TEXT, vdshwprv/VDS_IPADDRESS_TYPE, vdshwprv/VDS_IPT_EMPTY, vdshwprv/VDS_IPT_IPV4, vdshwprv/VDS_IPT_IPV6, vdshwprv/VDS_IPT_TEXT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_IPADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_IPADDRESS_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_IPADDRESS_TYPE
+req.redist: VDS 1.1
 ---
 
 # VDS_IPADDRESS_TYPE enumeration

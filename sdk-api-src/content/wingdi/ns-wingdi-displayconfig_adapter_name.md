@@ -4,7 +4,7 @@ title: DISPLAYCONFIG_ADAPTER_NAME
 author: windows-sdk-content
 description: The DISPLAYCONFIG_ADAPTER_NAME structure contains information about the display adapter.
 old-location: display\displayconfig_adapter_name.htm
-old-project: display
+tech.root: display
 ms.assetid: 248f325f-37ae-48f4-a758-ee78a3e3f0b8
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_ADAPTER_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISPLAYCONFIG_ADAPTER_NAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISPLAYCONFIG_ADAPTER_NAME
+req.redist: 
 ---
 
 # DISPLAYCONFIG_ADAPTER_NAME structure

@@ -4,17 +4,16 @@ title: IDCompositionSurface::EndDraw
 author: windows-sdk-content
 description: Marks the end of drawing on this Microsoft DirectComposition surface object.
 old-location: directcomp\idcompositionsurface_enddraw.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 127195F7-6000-4D8C-B850-3E4D40BC4082
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: EndDraw, EndDraw method [DirectComposition], EndDraw method [DirectComposition],IDCompositionSurface interface, IDCompositionSurface interface [DirectComposition],EndDraw method, IDCompositionSurface.EndDraw, IDCompositionSurface::EndDraw, dcomp/IDCompositionSurface::EndDraw, directcomp.idcompositionsurface_enddraw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionSurface.EndDraw
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionSurface::EndDraw

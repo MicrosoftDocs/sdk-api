@@ -4,17 +4,16 @@ title: capPaletteAuto macro
 author: windows-sdk-content
 description: The capPaletteAuto macro requests that the capture driver sample video frames and automatically create a new palette. You can use this macro or explicitly call the WM_CAP_PAL_AUTOCREATE message.
 old-location: multimedia\cappaletteauto.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: d83e7dbc-d063-4e76-a7a1-37eaf73b5e8a
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_capPaletteAuto, capPaletteAuto, capPaletteAuto macro [Windows Multimedia], multimedia.cappaletteauto, vfw/capPaletteAuto"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capPaletteAuto
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # capPaletteAuto macro

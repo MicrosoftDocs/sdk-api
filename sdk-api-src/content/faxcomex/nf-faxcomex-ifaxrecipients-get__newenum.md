@@ -4,17 +4,16 @@ title: IFaxRecipients::get__NewEnum
 author: windows-sdk-content
 description: The IFaxRecipients::get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the FaxRecipients collection.
 old-location: fax\_mfax_ifaxrecipients_get__newenum.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_22p9.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: IFaxRecipients interface [Fax Service],get__NewEnum method, IFaxRecipients.get__NewEnum, IFaxRecipients::get__NewEnum, _mfax_ifaxrecipients_get__newenum, fax._mfax_ifaxrecipients_get__newenum, faxcomex/IFaxRecipients::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxRecipients interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFaxRecipients.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxRecipients::get__NewEnum

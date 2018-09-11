@@ -4,7 +4,7 @@ title: DISPLAYCONFIG_RATIONAL
 author: windows-sdk-content
 description: The DISPLAYCONFIG_RATIONAL structure describes a fractional value that represents vertical and horizontal frequencies of a video mode (that is, vertical sync and horizontal sync).
 old-location: display\displayconfig_rational.htm
-old-project: display
+tech.root: display
 ms.assetid: 1f2f25f7-5ea1-46f4-ad9f-c50c367bb600
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_RATIONAL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISPLAYCONFIG_RATIONAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISPLAYCONFIG_RATIONAL
+req.redist: 
 ---
 
 # DISPLAYCONFIG_RATIONAL structure

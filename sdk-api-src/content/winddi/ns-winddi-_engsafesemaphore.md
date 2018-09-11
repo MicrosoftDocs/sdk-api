@@ -4,7 +4,7 @@ title: "_ENGSAFESEMAPHORE"
 author: windows-sdk-content
 description: The ENGSAFESEMAPHORE structure provides the driver with a thread-safe semaphore.
 old-location: display\engsafesemaphore.htm
-old-project: display
+tech.root: display
 ms.assetid: 225ca482-6a45-4726-b51b-57fa76b8c5b0
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENGSAFESEMAPHORE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ENGSAFESEMAPHORE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: ENGSAFESEMAPHORE
+req.redist: 
 ---
 
 # _ENGSAFESEMAPHORE structure

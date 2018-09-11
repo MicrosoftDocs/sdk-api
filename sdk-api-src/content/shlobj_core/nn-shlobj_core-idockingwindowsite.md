@@ -4,17 +4,16 @@ title: IDockingWindowSite
 author: windows-sdk-content
 description: Exposes methods that manage the border space for one or more IDockingWindow objects. This interface is implemented by the browser and is similar to the IOleInPlaceUIWindow interface.
 old-location: shell\IDockingWindowSite.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7418a6af-74ce-4435-8ed9-af106df0f95b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IDockingWindowSite, IDockingWindowSite interface [Windows Shell], IDockingWindowSite interface [Windows Shell],described, _win32_IDockingWindowSite, shell.IDockingWindowSite, shlobj_core/IDockingWindowSite
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDockingWindowSite
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDockingWindowSite interface

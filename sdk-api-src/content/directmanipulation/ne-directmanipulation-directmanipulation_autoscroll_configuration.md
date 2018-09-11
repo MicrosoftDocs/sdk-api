@@ -4,7 +4,7 @@ title: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
 author: windows-sdk-content
 description: Determines the type and direction of automatic scrolling animation to apply.
 old-location: directmanipulation\directmanipulation_autoscroll_configuration.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 1184DD40-D615-440F-8B87-D53A475F8313
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
+req.redist: 
 ---
 
 # DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION enumeration

@@ -4,17 +4,16 @@ title: "_MODIFY_VHDSET_FLAG"
 author: windows-sdk-content
 description: Contains flags affecting the behavior of the ModifyVhdSet function.
 old-location: vhd\modify_vhdset_flag.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: E983A928-CE3A-4B68-BDB5-CC21CB2BCC6F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMODIFY_VHDSET_FLAG, MODIFY_VHDSET_FLAG, MODIFY_VHDSET_FLAG enumeration [VHD], MODIFY_VHDSET_FLAG_NONE, PMODIFY_VHDSET_FLAG, PMODIFY_VHDSET_FLAG enumeration pointer [VHD], _MODIFY_VHDSET_FLAG, vdssys/MODIFY_VHDSET_FLAG, vdssys/MODIFY_VHDSET_FLAG_NONE, vdssys/PMODIFY_VHDSET_FLAG, vhd.modify_vhdset_flag, virtdisk/MODIFY_VHDSET_FLAG, virtdisk/MODIFY_VHDSET_FLAG_NONE, virtdisk/PMODIFY_VHDSET_FLAG"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODIFY_VHDSET_FLAG, *PMODIFY_VHDSET_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MODIFY_VHDSET_FLAG
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: MODIFY_VHDSET_FLAG, *PMODIFY_VHDSET_FLAG
+req.redist: 
 ---
 
 # _MODIFY_VHDSET_FLAG enumeration

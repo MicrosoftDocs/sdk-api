@@ -4,17 +4,16 @@ title: IValueMap::get_Value
 author: windows-sdk-content
 description: Retrieves or sets the value of the collection.
 old-location: pla\ivaluemap_value.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 9f344845-956e-4254-82e2-e4e00f6a371b
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IValueMap interface [PLA],Value property, IValueMap.Value, IValueMap.get_Value, IValueMap::Value, IValueMap::get_Value, IValueMap::put_Value, Value property [PLA], Value property [PLA],IValueMap interface, base.ivaluemap_value, get_Value, pla.ivaluemap_value, pla/IValueMap::Value, pla/IValueMap::get_Value, pla/IValueMap::put_Value
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IValueMap.put_Value
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IValueMap::get_Value

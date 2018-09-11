@@ -4,17 +4,16 @@ title: UiaHPatternObjectFromVariant function
 author: windows-sdk-content
 description: Gets a control pattern object from a VARIANT type.
 old-location: winauto\uiauto_UiaHPatternObjectFromVariantFunction.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: dd5d0d4b-75fa-4215-bd48-79d58a9a4862
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UiaHPatternObjectFromVariant, UiaHPatternObjectFromVariant function [Windows Accessibility], uiauto.uiauto_UiaHPatternObjectFromVariantFunction, uiauto_UiaHPatternObjectFromVariantFunction, uiautomationcoreapi/UiaHPatternObjectFromVariant, winauto.uiauto_UiaHPatternObjectFromVariantFunction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UiaHPatternObjectFromVariant
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaHPatternObjectFromVariant function

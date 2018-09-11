@@ -4,17 +4,16 @@ title: IVideoProcAmp::put_BacklightCompensation
 author: windows-sdk-content
 description: The put_BacklightCompensation method sets the camera's backlight compensation.
 old-location: dshow\ivideoprocamp_put_backlightcompensation.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 52a9a841-b3d0-41fe-b531-70fa6bac4517
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_BacklightCompensation method, IVideoProcAmp.put_BacklightCompensation, IVideoProcAmp::put_BacklightCompensation, IVideoProcAmpput_BacklightCompensation, dshow.ivideoprocamp_put_backlightcompensation, put_BacklightCompensation, put_BacklightCompensation method [DirectShow], put_BacklightCompensation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_BacklightCompensation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVideoProcAmp.put_BacklightCompensation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoProcAmp::put_BacklightCompensation

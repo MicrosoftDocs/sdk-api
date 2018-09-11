@@ -4,7 +4,7 @@ title: VIDEOENCODER_BITRATE_MODE
 author: windows-sdk-content
 description: The VIDEOENCODER_BITRATE_MODE enumeration type defines the three types of bitrates supported by the IEncoderAPI interface.
 old-location: dshow\videoencoder_bitrate_mode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ccceae9a-6d1d-4453-bd84-88cefc20320e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIDEOENCODER_BITRATE_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VIDEOENCODER_BITRATE_MODE
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: VIDEOENCODER_BITRATE_MODE
+req.redist: 
 ---
 
 # VIDEOENCODER_BITRATE_MODE enumeration

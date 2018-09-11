@@ -4,7 +4,7 @@ title: BITMAPV5HEADER
 author: windows-sdk-content
 description: The BITMAPV5HEADER structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure.
 old-location: gdi\bitmapv5header.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: ec5db6f9-93fa-4dbe-afdb-c039292b26e3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAPV5HEADER, *LPBITMAPV5HEADER, *PBITMAPV5HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BITMAPV5HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: BITMAPV5HEADER, *LPBITMAPV5HEADER, *PBITMAPV5HEADER
+req.redist: 
 ---
 
 # BITMAPV5HEADER structure

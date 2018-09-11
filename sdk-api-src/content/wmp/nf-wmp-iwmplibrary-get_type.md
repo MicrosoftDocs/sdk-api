@@ -4,17 +4,16 @@ title: IWMPLibrary::get_type
 author: windows-sdk-content
 description: The get_type method retrieves a value that indicates the library type.
 old-location: wmp\iwmplibrary_get_type.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 95f36972-2227-4fe8-88d7-41f7aebbf67a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPLibrary interface [Windows Media Player],get_type method, IWMPLibrary.get_type, IWMPLibrary::get_type, IWMPLibraryget_type, get_type, get_type method [Windows Media Player], get_type method [Windows Media Player],IWMPLibrary interface, wmp.iwmplibrary_get_type, wmp/IWMPLibrary::get_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPLibrary.get_type
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPLibrary::get_type

@@ -4,7 +4,7 @@ title: "_EAPHOST_AUTH_INFO"
 author: windows-sdk-content
 description: Describes current authentication information throughout different stages of the EAP authentication process.
 old-location: eaphost\eaphost_auth_info.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: b05a1862-9709-4459-a445-5ea4e00cab88
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaphostpeertypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAPHOST_AUTH_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAPHOST_AUTH_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAPHOST_AUTH_INFO
+req.redist: 
 ---
 
 # _EAPHOST_AUTH_INFO structure

@@ -4,17 +4,16 @@ title: MonthCal_SetCurrentView macro
 author: windows-sdk-content
 description: Sets the view for a month calendar control. You can use this macro or send the MCM_SETCURRENTVIEW message explicitly.
 old-location: controls\MonthCal_SetCurrentView.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcurrentview.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: MCMV_CENTURY, MCMV_DECADE, MCMV_MONTH, MCMV_YEAR, MonthCal_SetCurrentView, MonthCal_SetCurrentView macro [Windows Controls], _shell_MonthCal_SetCurrentView, _shell_MonthCal_SetCurrentView_cpp, commctrl/MonthCal_SetCurrentView, controls.MonthCal_SetCurrentView, controls._shell_MonthCal_SetCurrentView
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MonthCal_SetCurrentView
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # MonthCal_SetCurrentView macro

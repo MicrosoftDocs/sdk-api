@@ -4,7 +4,7 @@ title: peer_publication_scope_tag
 author: windows-sdk-content
 description: Defines the set of scopes for the publication of peer objects or data.
 old-location: p2p\peer_publication_scope.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: fecb9403-f790-4955-a879-fb3e6fbfe8ca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_PUBLICATION_SCOPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_PUBLICATION_SCOPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_PUBLICATION_SCOPE
+req.redist: 
 ---
 
 # peer_publication_scope_tag enumeration

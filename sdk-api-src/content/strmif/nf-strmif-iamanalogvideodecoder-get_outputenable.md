@@ -4,17 +4,16 @@ title: IAMAnalogVideoDecoder::get_OutputEnable
 author: windows-sdk-content
 description: The get_OutputEnable method determines whether the video port bus is enabled.
 old-location: dshow\iamanalogvideodecoder_get_outputenable.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 2379079d-3852-45c7-a290-b3a33ea8af1a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_OutputEnable method, IAMAnalogVideoDecoder.get_OutputEnable, IAMAnalogVideoDecoder::get_OutputEnable, IAMAnalogVideoDecoderget_OutputEnable, dshow.iamanalogvideodecoder_get_outputenable, get_OutputEnable, get_OutputEnable method [DirectShow], get_OutputEnable method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_OutputEnable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMAnalogVideoDecoder.get_OutputEnable
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMAnalogVideoDecoder::get_OutputEnable

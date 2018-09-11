@@ -4,17 +4,16 @@ title: IVMRWindowlessControl::SetVideoPosition
 author: windows-sdk-content
 description: The SetVideoPosition method sets the source and destination rectangles for the video.
 old-location: dshow\ivmrwindowlesscontrol_setvideoposition.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3cf75b8e-850d-4514-9502-a71c801e0d92
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],SetVideoPosition method, IVMRWindowlessControl.SetVideoPosition, IVMRWindowlessControl::SetVideoPosition, IVMRWindowlessControlSetVideoPosition, SetVideoPosition, SetVideoPosition method [DirectShow], SetVideoPosition method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_setvideoposition, strmif/IVMRWindowlessControl::SetVideoPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRWindowlessControl.SetVideoPosition
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRWindowlessControl::SetVideoPosition

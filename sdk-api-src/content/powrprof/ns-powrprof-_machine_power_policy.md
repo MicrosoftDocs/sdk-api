@@ -4,7 +4,7 @@ title: "_MACHINE_POWER_POLICY"
 author: windows-sdk-content
 description: Contains computer power policy settings that are unique to each power scheme on the computer.
 old-location: base\machine_power_policy_str.htm
-old-project: power
+tech.root: power
 ms.assetid: 41dca573-a73d-430c-9bd3-083e72aecbdc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MACHINE_POWER_POLICY, *PMACHINE_POWER_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MACHINE_POWER_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: MACHINE_POWER_POLICY, *PMACHINE_POWER_POLICY
+req.redist: 
 ---
 
 # _MACHINE_POWER_POLICY structure

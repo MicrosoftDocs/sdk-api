@@ -4,17 +4,16 @@ title: IContactProperties
 author: windows-sdk-content
 description: Do not use. Used to retrieve, set, create, and remove properties on an IContact. Property names and extension mechanisms are described in icontactproperties.h.
 old-location: wincontacts\_wincontacts_IContactProperties.htm
-old-project: wincontacts
+tech.root: wincontacts
 ms.assetid: c9c0d73d-4c39-4f7c-9bc6-46d764f157bd
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IContactProperties, IContactProperties interface [Windows Contacts], IContactProperties interface [Windows Contacts],described, _wincontacts_IContactProperties, icontact/IContactProperties, wincontacts._wincontacts_IContactProperties
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: icontact.h
 req.include-header: Contact.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContactProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wab32.dll (Version 6.0 or later)
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContactProperties interface

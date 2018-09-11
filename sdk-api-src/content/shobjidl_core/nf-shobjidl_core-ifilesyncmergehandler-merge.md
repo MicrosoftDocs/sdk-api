@@ -4,17 +4,16 @@ title: IFileSyncMergeHandler::Merge
 author: windows-sdk-content
 description: IFileSyncMergeHandler::Merge method
 old-location: shell\IFileSyncMergeHandler_Merge.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8B8410E1-0213-4647-966A-A6F9D231DCA2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileSyncMergeHandler interface [Windows Shell],Merge method, IFileSyncMergeHandler.Merge, IFileSyncMergeHandler::Merge, MUS_COMPLETE, MUS_FAILED, MUS_USERINPUTNEEDED, Merge, Merge method [Windows Shell], Merge method [Windows Shell],IFileSyncMergeHandler interface, shell.IFileSyncMergeHandler_Merge, shobjidl_core/IFileSyncMergeHandler::Merge
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSyncMergeHandler.Merge
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSyncMergeHandler::Merge

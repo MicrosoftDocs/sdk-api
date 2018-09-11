@@ -4,17 +4,16 @@ title: IVideoWindow::get_WindowState
 author: windows-sdk-content
 description: The get_WindowState method queries whether the video window is visible, hidden, minimized, or maximized.
 old-location: dshow\ivideowindow_get_windowstate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ecda497c-634b-4a7e-9f21-85bde307c796
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_WindowState method, IVideoWindow.get_WindowState, IVideoWindow::get_WindowState, IVideoWindowget_WindowState, control/IVideoWindow::get_WindowState, dshow.ivideowindow_get_windowstate, get_WindowState, get_WindowState method [DirectShow], get_WindowState method [DirectShow],IVideoWindow interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IVideoWindow.get_WindowState
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoWindow::get_WindowState

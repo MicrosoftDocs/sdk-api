@@ -4,7 +4,7 @@ title: D3D11_FILTER_TYPE
 author: windows-sdk-content
 description: Types of magnification or minification sampler filters.
 old-location: direct3d11\d3d11_filter_type.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 294ab4b3-a5fc-4b87-ae87-bf41752132b8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_FILTER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_FILTER_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_FILTER_TYPE
+req.redist: 
 ---
 
 # D3D11_FILTER_TYPE enumeration

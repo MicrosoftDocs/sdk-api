@@ -4,17 +4,16 @@ title: ICaptureGraphBuilder2::SetOutputFileName
 author: windows-sdk-content
 description: The SetOutputFileName method creates the file writing section of the filter graph.
 old-location: dshow\icapturegraphbuilder2_setoutputfilename.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b81a79c1-a6f2-4c80-ae86-095fb9f78673
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],SetOutputFileName method, ICaptureGraphBuilder2.SetOutputFileName, ICaptureGraphBuilder2::SetOutputFileName, ICaptureGraphBuilder2SetOutputFileName, SetOutputFileName, SetOutputFileName method [DirectShow], SetOutputFileName method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_setoutputfilename, strmif/ICaptureGraphBuilder2::SetOutputFileName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICaptureGraphBuilder2.SetOutputFileName
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # ICaptureGraphBuilder2::SetOutputFileName
@@ -89,7 +87,7 @@ Pointer to a <b>GUID</b> that represents either the media subtype of the output 
 
 ### -param lpstrFile
 
-
+TBD
 
 
 ### -param ppf [out]
@@ -99,7 +97,7 @@ Address of a pointer that receives the multiplexer's <a href="https://msdn.micro
 
 ### -param ppSink
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IWMHeaderInfo3::GetAttributeIndices
 author: windows-sdk-content
 description: The GetAttributeIndices method retrieves a list of valid attribute indices within specified parameters.
 old-location: wmformat\iwmheaderinfo3_getattributeindices.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 15c8f0c2-f2d4-441a-b6a9-774da820d03c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetAttributeIndices, GetAttributeIndices method [windows Media Format], GetAttributeIndices method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],GetAttributeIndices method, IWMHeaderInfo3.GetAttributeIndices, IWMHeaderInfo3::GetAttributeIndices, IWMHeaderInfo3GetAttributeIndices, wmformat.iwmheaderinfo3_getattributeindices, wmsdkidl/IWMHeaderInfo3::GetAttributeIndices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMHeaderInfo3.GetAttributeIndices
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMHeaderInfo3::GetAttributeIndices

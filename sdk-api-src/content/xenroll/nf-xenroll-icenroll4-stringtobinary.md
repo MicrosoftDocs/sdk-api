@@ -4,17 +4,16 @@ title: ICEnroll4::stringToBinary
 author: windows-sdk-content
 description: Converts an encoded string to a binary data BLOB. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_stringtobinary.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: abcc395f-f989-4098-818a-160e427b1da0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CEnroll object [Security],stringToBinary method, ICEnroll4 interface [Security],stringToBinary method, ICEnroll4.stringToBinary, ICEnroll4::stringToBinary, _xen_icenroll4_stringtobinary, security.icenroll4_stringtobinary, stringToBinary, stringToBinary method [Security], stringToBinary method [Security],CEnroll object, stringToBinary method [Security],ICEnroll4 interface, xenroll/ICEnroll4::stringToBinary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CEnroll.stringToBinary
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # ICEnroll4::stringToBinary

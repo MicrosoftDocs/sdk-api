@@ -4,17 +4,16 @@ title: IStorageProviderHandler::GetPropertyHandlerFromUri
 author: windows-sdk-content
 description: Gets an instance of IStorageProviderPropertyHandler associated with the provided URI.
 old-location: shell\istorageproviderhandler_getpropertyhandlerfromuri.htm
-old-project: shell
+tech.root: shell
 ms.assetid: C02A9690-1E98-4960-B5E7-E75BDAAF9A62
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetPropertyHandlerFromUri, GetPropertyHandlerFromUri method [Windows Shell], GetPropertyHandlerFromUri method [Windows Shell],IStorageProviderHandler interface, IStorageProviderHandler interface [Windows Shell],GetPropertyHandlerFromUri method, IStorageProviderHandler.GetPropertyHandlerFromUri, IStorageProviderHandler::GetPropertyHandlerFromUri, shell.istorageproviderhandler_getpropertyhandlerfromuri, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromUri
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: storageprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR50_SERVICE_CHARACTERISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStorageProviderHandler.GetPropertyHandlerFromUri
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IStorageProviderHandler::GetPropertyHandlerFromUri
@@ -67,7 +65,7 @@ The URI for the relevant file.
 
 ### -param propertyHandler
 
-
+TBD
 
 
 

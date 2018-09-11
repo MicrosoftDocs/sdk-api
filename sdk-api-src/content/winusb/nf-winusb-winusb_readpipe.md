@@ -4,17 +4,16 @@ title: WinUsb_ReadPipe function
 author: windows-sdk-content
 description: The WinUsb_ReadPipe function reads data from the specified pipe.
 old-location: buses\winusb_readpipe.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 936e535b-9084-4e3d-908e-0e965f658827
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WinUsb_ReadPipe, WinUsb_ReadPipe function [Buses], buses.winusb_readpipe, winusb/WinUsb_ReadPipe, winusbfunc_a18a80b3-9f2b-45a5-bd34-dac4bddb1053.xml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+req.lib: Winusb.lib
+req.dll: Winusb.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinUsb_ReadPipe
 product: Windows
 targetos: Windows
-req.lib: Winusb.lib
-req.dll: Winusb.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WinUsb_ReadPipe function

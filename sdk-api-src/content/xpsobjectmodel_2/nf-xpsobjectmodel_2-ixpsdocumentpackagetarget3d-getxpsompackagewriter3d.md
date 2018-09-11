@@ -4,17 +4,16 @@ title: IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D
 author: windows-sdk-content
 description: Gets a new IXpsOMPackageWriter3D object for the document package.
 old-location: xps\ixpsdocumentpackagetarget3d_getxpsompackagewriter3d.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 2F3A6997-B325-4406-A731-5C2EAD875125
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetXpsOMPackageWriter3D, GetXpsOMPackageWriter3D method [XPS Documents and Packaging], GetXpsOMPackageWriter3D method [XPS Documents and Packaging],IXpsDocumentPackageTarget3D interface, IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging],GetXpsOMPackageWriter3D method, IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D, IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D, xps.ixpsdocumentpackagetarget3d_getxpsompackagewriter3d, xpsobjectmodel_2/IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_DOCUMENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D
@@ -82,7 +80,7 @@ A readable stream which holds 3D model description. The model description may be
 
 ### -param packageWriter
 
-
+TBD
 
 
 

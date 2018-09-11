@@ -4,7 +4,7 @@ title: "_DRM_STATUS_MSG"
 author: windows-sdk-content
 description: Used by the custom callback function to specify why the callback function is being called.
 old-location: rm\drm_status_msg.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 9420c415-09ef-43a0-b458-bfaae9857314
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msdrmdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_STATUS_MSG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRM_STATUS_MSG
 product: Windows
 targetos: Windows
-req.lib: Msdrm.lib
-req.dll: Msdrm.dll
-req.irql: 
+req.typenames: DRM_STATUS_MSG
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

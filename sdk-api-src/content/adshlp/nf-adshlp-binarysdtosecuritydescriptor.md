@@ -4,17 +4,16 @@ title: BinarySDToSecurityDescriptor function
 author: windows-sdk-content
 description: Converts a binary security descriptor to an IADsSecurityDescriptor object.
 old-location: adsi\binarysdtosecuritydescriptor.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: c93d00d2-7155-4bf4-8a65-2412022a2fba
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: BinarySDToSecurityDescriptor, BinarySDToSecurityDescriptor function [ADSI], adshlp/BinarySDToSecurityDescriptor, adsi.binarysdtosecuritydescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: Activeds.lib
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BinarySDToSecurityDescriptor
 product: Windows
 targetos: Windows
-req.lib: Activeds.lib
-req.dll: Activeds.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BinarySDToSecurityDescriptor function

@@ -4,17 +4,16 @@ title: XInputGetDSoundAudioDeviceGuids function
 author: windows-sdk-content
 description: Gets the sound rendering and sound capture device GUIDs that are associated with the headset connected to the specified controller.
 old-location: xinput\xinputgetdsoundaudiodeviceguids.htm
-old-project: xinput
+tech.root: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetDSoundAudioDeviceGuids(DWORD,GUID*@,GUID*@)
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/29/2018
 ms.keywords: XInputGetDSoundAudioDeviceGuids, XInputGetDSoundAudioDeviceGuids function [XInput Game Controller APIs], xinput.xinputgetdsoundaudiodeviceguids, xinput/XInputGetDSoundAudioDeviceGuids
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: xinput.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Xinput.lib; Xinput9_1_0.lib
+req.dll: Xinput9_1_0.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XInputGetDSoundAudioDeviceGuids
 product: Windows
 targetos: Windows
-req.lib: Xinput.lib; Xinput9_1_0.lib
-req.dll: Xinput9_1_0.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # XInputGetDSoundAudioDeviceGuids function

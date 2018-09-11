@@ -4,17 +4,16 @@ title: IADsNameTranslate::Set
 author: windows-sdk-content
 description: Directs the directory service to set up a specified object for name translation.
 old-location: adsi\iadsnametranslate_set.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 1c126333-3d5c-4ba3-8c66-de778e26488f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsNameTranslate interface [ADSI],Set method, IADsNameTranslate.Set, IADsNameTranslate::Set, Set, Set method [ADSI], Set method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_set, adsi.iadsnametranslate__set, adsi.iadsnametranslate_set, iads/IADsNameTranslate::Set
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsNameTranslate.Set
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsNameTranslate::Set

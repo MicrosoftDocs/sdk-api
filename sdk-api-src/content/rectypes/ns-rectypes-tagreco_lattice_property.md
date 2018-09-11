@@ -4,17 +4,16 @@ title: tagRECO_LATTICE_PROPERTY
 author: windows-sdk-content
 description: Contains a property used in the lattice.
 old-location: tablet\reco_lattice_property.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: cbf35f4e-cc13-4d5e-886f-22a6f0e26411
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: RECO_LATTICE_PROPERTY, RECO_LATTICE_PROPERTY structure [Tablet PC], cbf35f4e-cc13-4d5e-886f-22a6f0e26411, rectypes/RECO_LATTICE_PROPERTY, tablet.reco_lattice_property, tagRECO_LATTICE_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_LATTICE_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RECO_LATTICE_PROPERTY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RECO_LATTICE_PROPERTY
+req.redist: 
 ---
 
 # tagRECO_LATTICE_PROPERTY structure

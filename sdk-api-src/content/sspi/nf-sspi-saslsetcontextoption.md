@@ -4,17 +4,16 @@ title: SaslSetContextOption function
 author: windows-sdk-content
 description: Sets the value of the specified property for the specified SASL context.
 old-location: security\saslsetcontextoption.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 3c3b1209-b0de-4100-8dfe-53ea314b790b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SASL_OPTION_AUTHZ_PROCESSING, SASL_OPTION_AUTHZ_STRING, SASL_OPTION_RECV_SIZE, SASL_OPTION_SEND_SIZE, SaslSetContextOption, SaslSetContextOption function [Security], security.saslsetcontextoption, sspi/SaslSetContextOption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SaslSetContextOption
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: Secur32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SaslSetContextOption function

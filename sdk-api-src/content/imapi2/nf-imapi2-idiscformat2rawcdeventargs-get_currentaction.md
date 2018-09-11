@@ -4,17 +4,16 @@ title: IDiscFormat2RawCDEventArgs::get_CurrentAction
 author: windows-sdk-content
 description: Retrieves the current write action being performed.
 old-location: imapi\idiscformat2rawcdeventargs_get_currentaction.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 2a29f77e-e895-4cb0-b1f0-83df07931893
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2RawCDEventArgs interface [IMAPI],get_CurrentAction method, IDiscFormat2RawCDEventArgs.get_CurrentAction, IDiscFormat2RawCDEventArgs::get_CurrentAction, get_CurrentAction, get_CurrentAction method [IMAPI], get_CurrentAction method [IMAPI],IDiscFormat2RawCDEventArgs interface, imapi.idiscformat2rawcdeventargs_get_currentaction, imapi2/IDiscFormat2RawCDEventArgs::get_CurrentAction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2RawCDEventArgs.get_CurrentAction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2RawCDEventArgs::get_CurrentAction

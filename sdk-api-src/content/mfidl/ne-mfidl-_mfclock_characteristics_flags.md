@@ -4,7 +4,7 @@ title: "_MFCLOCK_CHARACTERISTICS_FLAGS"
 author: windows-sdk-content
 description: Contains flags that describe the characteristics of a clock.
 old-location: mf\mfclock_characteristics_flags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8064ce25-6c79-479b-a1a8-bdcc2c29ad54
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFCLOCK_CHARACTERISTICS_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCLOCK_CHARACTERISTICS_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFCLOCK_CHARACTERISTICS_FLAGS
+req.redist: 
 ---
 
 # _MFCLOCK_CHARACTERISTICS_FLAGS enumeration

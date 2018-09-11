@@ -4,17 +4,16 @@ title: IMFMediaEngineEx::InsertAudioEffect
 author: windows-sdk-content
 description: Inserts an audio effect.
 old-location: mf\imfmediaengineex_insertaudioeffect.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0D9ED497-A991-473F-A775-CA780A1E0E06
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: FALSE, IMFMediaEngineEx interface [Media Foundation],InsertAudioEffect method, IMFMediaEngineEx.InsertAudioEffect, IMFMediaEngineEx::InsertAudioEffect, InsertAudioEffect, InsertAudioEffect method [Media Foundation], InsertAudioEffect method [Media Foundation],IMFMediaEngineEx interface, TRUE, mf.imfmediaengineex_insertaudioeffect, mfmediaengine/IMFMediaEngineEx::InsertAudioEffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineEx.InsertAudioEffect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineEx::InsertAudioEffect

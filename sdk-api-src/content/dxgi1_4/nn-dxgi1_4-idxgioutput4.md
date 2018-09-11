@@ -4,17 +4,16 @@ title: IDXGIOutput4
 author: windows-sdk-content
 description: Represents an adapter output (such as a monitor). The IDXGIOutput4 interface exposes a method to check for overlay color space support.
 old-location: direct3ddxgi\idxgioutput4.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 6B9B4242-7B10-4022-9105-6903FEAE1161
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIOutput4, IDXGIOutput4 interface [DXGI], IDXGIOutput4 interface [DXGI],described, direct3ddxgi.idxgioutput4, dxgi1_4/IDXGIOutput4
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_4.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIOutput4
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: Dxgi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIOutput4 interface

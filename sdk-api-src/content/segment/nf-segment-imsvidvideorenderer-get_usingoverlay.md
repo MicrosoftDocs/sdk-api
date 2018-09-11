@@ -4,17 +4,16 @@ title: IMSVidVideoRenderer::get_UsingOverlay
 author: windows-sdk-content
 description: The get_UsingOverlay method queries whether the Video Mixing Renderer (VMR) is using the hardware overlay.
 old-location: mstv\imsvidvideorenderer_get_usingoverlay.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: bd41cbcc-b8a8-4b08-9b25-399e366614ce
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_UsingOverlay method, IMSVidVideoRenderer.get_UsingOverlay, IMSVidVideoRenderer::get_UsingOverlay, IMSVidVideoRendererget_UsingOverlay, get_UsingOverlay, get_UsingOverlay method [Microsoft TV Technologies], get_UsingOverlay method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_usingoverlay, segment/IMSVidVideoRenderer::get_UsingOverlay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRenderer.get_UsingOverlay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRenderer::get_UsingOverlay
@@ -62,7 +60,7 @@ The <b>get_UsingOverlay</b> method queries whether the Video Mixing Renderer (VM
 
 ### -param UseOverlayVal
 
-
+TBD
 
 
 

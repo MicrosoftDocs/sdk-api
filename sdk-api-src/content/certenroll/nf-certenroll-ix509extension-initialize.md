@@ -4,17 +4,16 @@ title: IX509Extension::Initialize
 author: windows-sdk-content
 description: Initializes an IX509Extension object by using an object identifier (OID) and a byte array that contains the Distinguished Encoding Rules (DER) encoded extension.
 old-location: security\ix509extension_initialize_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: a01a371b-7dc2-4204-8029-269ac4a9c0d5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509Extension interface [Security],Initialize method, IX509Extension.Initialize, IX509Extension::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509Extension interface, certenroll/IX509Extension::Initialize, security.ix509extension_initialize_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509Extension.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Extension::Initialize

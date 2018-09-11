@@ -4,17 +4,16 @@ title: IWMPSyncDevice::get_status
 author: windows-sdk-content
 description: The get_status method retrieves a value that indicates the status of the relationship between Windows Media Player and the device.
 old-location: wmp\iwmpsyncdevice_get_status.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 2b194161-c25c-43d9-90ee-dd25ff61034b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_status method, IWMPSyncDevice.get_status, IWMPSyncDevice::get_status, IWMPSyncDeviceget_status, get_status, get_status method [Windows Media Player], get_status method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_status, wmp/IWMPSyncDevice::get_status
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 10 or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPSyncDevice.get_status
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPSyncDevice::get_status

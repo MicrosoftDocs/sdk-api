@@ -4,17 +4,16 @@ title: ITfPropertyStore::OnTextUpdated
 author: windows-sdk-content
 description: ITfPropertyStore::OnTextUpdated method
 old-location: tsf\itfpropertystore_ontextupdated.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 6e3d6341-6e5b-445e-b6ac-48853a5b56f2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfPropertyStore interface [Text Services Framework],OnTextUpdated method, ITfPropertyStore.OnTextUpdated, ITfPropertyStore::OnTextUpdated, OnTextUpdated, OnTextUpdated method [Text Services Framework], OnTextUpdated method [Text Services Framework],ITfPropertyStore interface, TF_TU_CORRECTION, _tsf_itfpropertystore_ontextupdated_ref, msctf/ITfPropertyStore::OnTextUpdated, tsf.itfpropertystore_ontextupdated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfPropertyStore.OnTextUpdated
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfPropertyStore::OnTextUpdated

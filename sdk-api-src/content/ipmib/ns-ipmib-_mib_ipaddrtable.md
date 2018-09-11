@@ -4,7 +4,7 @@ title: "_MIB_IPADDRTABLE"
 author: windows-sdk-content
 description: Contains a table of IPv4 address entries.
 old-location: mib\mib_ipaddrtable.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 12a929e5-813d-4dae-9ea0-5a3c0a88cf05
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IPADDRTABLE, *PMIB_IPADDRTABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_IPADDRTABLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_IPADDRTABLE, *PMIB_IPADDRTABLE
+req.redist: 
 ---
 
 # _MIB_IPADDRTABLE structure

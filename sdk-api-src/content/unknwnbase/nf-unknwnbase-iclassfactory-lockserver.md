@@ -4,17 +4,16 @@ title: IClassFactory::LockServer
 author: windows-sdk-content
 description: Locks an object application open in memory. This enables instances to be created more quickly.
 old-location: com\iclassfactory_lockserver.htm
-old-project: com
+tech.root: com
 ms.assetid: 4c817b89-013d-477f-a713-5e320896dfa0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IClassFactory interface [COM],LockServer method, IClassFactory.LockServer, IClassFactory::LockServer, LockServer, LockServer method [COM], LockServer method [COM],IClassFactory interface, _com_iclassfactory_lockserver, com.iclassfactory_lockserver, unknwnbase/IClassFactory::LockServer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: unknwnbase.h
 req.include-header: Unknwn.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IClassFactory.LockServer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IClassFactory::LockServer

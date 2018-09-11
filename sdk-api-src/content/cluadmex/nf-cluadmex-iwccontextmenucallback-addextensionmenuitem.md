@@ -4,17 +4,16 @@ title: IWCContextMenuCallback::AddExtensionMenuItem
 author: windows-sdk-content
 description: Adds a menu item to a Failover Cluster Administrator context menu.
 old-location: mscs\iwccontextmenucallback_addextensionmenuitem.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 0eedc564-c82d-4309-b11c-c87d2e73c2c9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddExtensionMenuItem, AddExtensionMenuItem method [Failover Cluster], AddExtensionMenuItem method [Failover Cluster],IWCContextMenuCallback interface, IWCContextMenuCallback interface [Failover Cluster],AddExtensionMenuItem method, IWCContextMenuCallback.AddExtensionMenuItem, IWCContextMenuCallback::AddExtensionMenuItem, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_SEPARATOR, MF_STRING, MF_UNCHECKED, _wolf_iwccontextmenucallback_addextensionmenuitem, cluadmex/IWCContextMenuCallback::AddExtensionMenuItem, mscs.iwccontextmenucallback_addextensionmenuitem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWCContextMenuCallback.AddExtensionMenuItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWCContextMenuCallback::AddExtensionMenuItem

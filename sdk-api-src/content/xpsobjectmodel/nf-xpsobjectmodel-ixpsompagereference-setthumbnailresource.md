@@ -4,17 +4,16 @@ title: IXpsOMPageReference::SetThumbnailResource
 author: windows-sdk-content
 description: Sets the pointer to the IXpsOMImageResource interface of the thumbnail image resource to be assigned to the page.
 old-location: xps\ixpsompagereference_setthumbnailresource.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: b44c041d-dccd-4b64-b85b-454b203b865b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetThumbnailResource method, IXpsOMPageReference.SetThumbnailResource, IXpsOMPageReference::SetThumbnailResource, SetThumbnailResource, SetThumbnailResource method [XPS Documents and Packaging], SetThumbnailResource method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setthumbnailresource, xpsobjectmodel/IXpsOMPageReference::SetThumbnailResource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMPageReference.SetThumbnailResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMPageReference::SetThumbnailResource

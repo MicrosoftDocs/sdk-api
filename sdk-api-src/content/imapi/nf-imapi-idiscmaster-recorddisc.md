@@ -4,17 +4,16 @@ title: IDiscMaster::RecordDisc
 author: windows-sdk-content
 description: Burns the staged image to media in the active disc recorder.
 old-location: imapi\idiscmaster_recorddisc.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 2b234dc5-2409-49d8-83be-0ffea74f5bcf
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscMaster interface [IMAPI],RecordDisc method, IDiscMaster.RecordDisc, IDiscMaster::RecordDisc, RecordDisc, RecordDisc method [IMAPI], RecordDisc method [IMAPI],IDiscMaster interface, _win32_idiscmaster_recorddisc, base.idiscmaster_recorddisc, imapi.idiscmaster_recorddisc, imapi/IDiscMaster::RecordDisc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscMaster.RecordDisc
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscMaster::RecordDisc

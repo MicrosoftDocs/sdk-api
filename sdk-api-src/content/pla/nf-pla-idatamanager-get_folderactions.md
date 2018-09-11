@@ -4,17 +4,16 @@ title: IDataManager::get_FolderActions
 author: windows-sdk-content
 description: Retrieves a collection that you use to manage the actions to take on each folder in the data collector set when the age and size conditions are met.
 old-location: pla\idatamanager_folderactions.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 59fad3d2-9971-4608-8576-977d4dd8ace4
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: FolderActions property [PLA], FolderActions property [PLA],IDataManager interface, IDataManager interface [PLA],FolderActions property, IDataManager.FolderActions, IDataManager.get_FolderActions, IDataManager::FolderActions, IDataManager::get_FolderActions, base.idatamanager_folderactions, get_FolderActions, pla.idatamanager_folderactions, pla/IDataManager::FolderActions, pla/IDataManager::get_FolderActions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDataManager.get_FolderActions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataManager::get_FolderActions

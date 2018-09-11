@@ -4,17 +4,16 @@ title: IMSVidFilePlayback2::put___SourceFilter
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.
 old-location: mstv\imsvidfileplayback2_put___sourcefilter.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 257e93ec-fb26-45fb-b07b-4491dbf2528a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidFilePlayback2 interface [Microsoft TV Technologies],put___SourceFilter method, IMSVidFilePlayback2.put___SourceFilter, IMSVidFilePlayback2::put___SourceFilter, IMSVidFilePlayback2put___SourceFilter, mstv.imsvidfileplayback2_put___sourcefilter, put___SourceFilter, put___SourceFilter method [Microsoft TV Technologies], put___SourceFilter method [Microsoft TV Technologies],IMSVidFilePlayback2 interface, segment/IMSVidFilePlayback2::put___SourceFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidFilePlayback2.put___SourceFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidFilePlayback2::put___SourceFilter

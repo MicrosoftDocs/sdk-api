@@ -4,17 +4,16 @@ title: ID3D11CryptoSession::GetCryptoType
 author: windows-sdk-content
 description: Gets the type of encryption that is supported by this session.
 old-location: mf\id3d11cryptosession_getcryptotype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: D5F62BFA-EA46-4BDD-8D8C-5D9D5BB590B9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: D3D11_CRYPTO_TYPE_AES128_CTR, GetCryptoType, GetCryptoType method [Media Foundation], GetCryptoType method [Media Foundation],ID3D11CryptoSession interface, ID3D11CryptoSession interface [Media Foundation],GetCryptoType method, ID3D11CryptoSession.GetCryptoType, ID3D11CryptoSession::GetCryptoType, d3d11/ID3D11CryptoSession::GetCryptoType, mf.id3d11cryptosession_getcryptotype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11CryptoSession.GetCryptoType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11CryptoSession::GetCryptoType

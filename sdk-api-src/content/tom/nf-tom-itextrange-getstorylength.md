@@ -4,17 +4,16 @@ title: ITextRange::GetStoryLength
 author: windows-sdk-content
 description: Gets the count of characters in the range's story.
 old-location: controls\ITextRange_GetStoryLength.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstorylength.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetStoryLength, GetStoryLength method [Windows Controls], GetStoryLength method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetStoryLength method, ITextRange.GetStoryLength, ITextRange::GetStoryLength, _win32_ITextRange_GetStoryLength, _win32_ITextRange_GetStoryLength_cpp, controls.ITextRange_GetStoryLength, controls._win32_ITextRange_GetStoryLength, tom/ITextRange::GetStoryLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange.GetStoryLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange::GetStoryLength

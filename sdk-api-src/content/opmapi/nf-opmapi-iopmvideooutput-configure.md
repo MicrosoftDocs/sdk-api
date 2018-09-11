@@ -4,17 +4,16 @@ title: IOPMVideoOutput::Configure
 author: windows-sdk-content
 description: Configures a video output.
 old-location: mf\iopmvideooutput_iopmvideooutput__configure.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b8eb3561-7e81-4f4c-bcb1-1657f8556aea
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: Configure, Configure method [Media Foundation], Configure method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],Configure method, IOPMVideoOutput.Configure, IOPMVideoOutput::Configure, mf.iopmvideooutput_iopmvideooutput__configure, opmapi/IOPMVideoOutput::Configure
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: opmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_VIDEO_OUTPUT_SEMANTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOPMVideoOutput.Configure
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOPMVideoOutput::Configure

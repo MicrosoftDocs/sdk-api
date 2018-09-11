@@ -4,17 +4,16 @@ title: "_CRYPT_PROVIDER_DATA"
 author: windows-sdk-content
 description: Used to pass data between WinVerifyTrust and trust providers.
 old-location: security\crypt_provider_data.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 93ea2ad5-65da-4daa-bfd4-e3d1307829b2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_PROVIDER_DATA, CPD_REVOCATION_CHECK_CHAIN, CPD_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, CPD_REVOCATION_CHECK_END_CERT, CPD_REVOCATION_CHECK_NONE, CPD_USE_NT5_CHAIN_FLAG, CRYPT_PROVIDER_DATA, CRYPT_PROVIDER_DATA structure [Security], PCRYPT_PROVIDER_DATA, PCRYPT_PROVIDER_DATA structure pointer [Security], _CRYPT_PROVIDER_DATA, security.crypt_provider_data, wintrust/CRYPT_PROVIDER_DATA, wintrust/PCRYPT_PROVIDER_DATA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_PROVIDER_DATA, *PCRYPT_PROVIDER_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_PROVIDER_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: CRYPT_PROVIDER_DATA, *PCRYPT_PROVIDER_DATA
+req.redist: 
 ---
 
 # _CRYPT_PROVIDER_DATA structure

@@ -4,7 +4,7 @@ title: IFunctionInstanceCollectionQuery
 author: windows-sdk-content
 description: Implements the asynchronous query for a collection of function instances based on category and subcategory.
 old-location: ncd\ifunctioninstancecollectionquery.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: ae279ac1-ed7a-431b-a5aa-d60f5f9a64b0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemVisibilityFlags
+req.lib: 
+req.dll: FunDisc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionInstanceCollectionQuery
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FunDisc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionInstanceCollectionQuery interface

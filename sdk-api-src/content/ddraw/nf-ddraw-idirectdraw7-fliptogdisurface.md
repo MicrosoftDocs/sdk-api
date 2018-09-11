@@ -4,17 +4,16 @@ title: IDirectDraw7::FlipToGDISurface
 author: windows-sdk-content
 description: Makes the surface that the GDI writes to the primary surface.
 old-location: directdraw\idirectdraw7_fliptogdisurface.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 495cace2-a315-4937-b0d9-9f77f5d95f66
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FlipToGDISurface, FlipToGDISurface method [DirectDraw], FlipToGDISurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],FlipToGDISurface method, IDirectDraw7.FlipToGDISurface, IDirectDraw7::FlipToGDISurface, ddraw/IDirectDraw7::FlipToGDISurface, directdraw.idirectdraw7_fliptogdisurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDraw7.FlipToGDISurface
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDraw7::FlipToGDISurface

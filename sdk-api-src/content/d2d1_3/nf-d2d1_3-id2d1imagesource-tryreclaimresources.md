@@ -4,17 +4,16 @@ title: ID2D1ImageSource::TryReclaimResources
 author: windows-sdk-content
 description: Restores access to resources that were previously offered by calling OfferResources.
 old-location: direct2d\id2d1imagesource_tryreclaimresources.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 9639353D-EA3B-4ABD-A4DE-405B18218801
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1ImageSource interface [Direct2D],TryReclaimResources method, ID2D1ImageSource.TryReclaimResources, ID2D1ImageSource::TryReclaimResources, TryReclaimResources, TryReclaimResources method [Direct2D], TryReclaimResources method [Direct2D],ID2D1ImageSource interface, d2d1_3/ID2D1ImageSource::TryReclaimResources, direct2d.id2d1imagesource_tryreclaimresources
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: D2D1.lib
+req.dll: D2D1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1ImageSource.TryReclaimResources
 product: Windows
 targetos: Windows
-req.lib: D2D1.lib
-req.dll: D2D1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1ImageSource::TryReclaimResources

@@ -4,17 +4,16 @@ title: "_APPCATEGORYINFOLIST"
 author: windows-sdk-content
 description: Provides a list of supported application categories from an application publisher to Add/Remove Programs in Control Panel.
 old-location: shell\APPCATEGORYINFOLIST.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c590d9ab-ab41-4192-a6c2-c6c2c931e873
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: APPCATEGORYINFOLIST, APPCATEGORYINFOLIST structure [Windows Shell], _APPCATEGORYINFOLIST, appmgmt/APPCATEGORYINFOLIST, inet_APPCATEGORYINFOLIST, shell.APPCATEGORYINFOLIST
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: appmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPCATEGORYINFOLIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - APPCATEGORYINFOLIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: APPCATEGORYINFOLIST
+req.redist: 
 ---
 
 # _APPCATEGORYINFOLIST structure

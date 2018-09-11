@@ -4,17 +4,16 @@ title: IDirect3D9Ex
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3D9Ex interface (which inherits from IDirect3D9) to create Microsoft Direct3D 9Ex objects and set up the environment.
 old-location: direct3d9\idirect3d9ex.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9ex.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 88878a9a-f85c-f0f1-6268-c5b3e11bb875, IDirect3D9Ex, IDirect3D9Ex interface [Direct3D 9], IDirect3D9Ex interface [Direct3D 9],described, d3d9/IDirect3D9Ex, direct3d9.idirect3d9ex
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3D9Ex
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3D9Ex interface

@@ -4,7 +4,7 @@ title: IPlayToSourceClassFactory
 author: windows-sdk-content
 description: Creates an instance of the PlayToSource object.
 old-location: mf\iplaytosourceclassfactory.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: F8F9FEC6-836C-429A-BADD-5CD1E550AED0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfsharingengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PLAYTO_SOURCE_CREATEFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPlayToSourceClassFactory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPlayToSourceClassFactory interface

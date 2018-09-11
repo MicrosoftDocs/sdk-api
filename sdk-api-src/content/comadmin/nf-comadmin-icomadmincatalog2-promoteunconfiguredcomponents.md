@@ -4,17 +4,16 @@ title: ICOMAdminCatalog2::PromoteUnconfiguredComponents
 author: windows-sdk-content
 description: Promotes the specified classes from unconfigured components to configured components.
 old-location: cos\icomadmincatalog2_promoteunconfiguredcomponents.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: e6ed7fa7-3736-4e82-a153-116f4aa141a1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: COMAdmin32BitComponent, COMAdmin64BitComponent, ICOMAdminCatalog2 interface [COM+],PromoteUnconfiguredComponents method, ICOMAdminCatalog2.PromoteUnconfiguredComponents, ICOMAdminCatalog2::PromoteUnconfiguredComponents, PromoteUnconfiguredComponents, PromoteUnconfiguredComponents method [COM+], PromoteUnconfiguredComponents method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_PromoteUnconfiguredComponents, comadmin/ICOMAdminCatalog2::PromoteUnconfiguredComponents, cos.icomadmincatalog2_promoteunconfiguredcomponents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog2.PromoteUnconfiguredComponents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog2::PromoteUnconfiguredComponents

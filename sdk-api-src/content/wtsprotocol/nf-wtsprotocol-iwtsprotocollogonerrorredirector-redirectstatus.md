@@ -4,17 +4,16 @@ title: IWTSProtocolLogonErrorRedirector::RedirectStatus
 author: windows-sdk-content
 description: IWTSProtocolLogonErrorRedirector::RedirectStatus is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::RedirectStatus.
 old-location: termserv\iwtsprotocollogonerrorredirector_redirectstatus.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: a333db5a-3564-4d33-bfd6-244975cc3c4f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectStatus method, IWTSProtocolLogonErrorRedirector.RedirectStatus, IWTSProtocolLogonErrorRedirector::RedirectStatus, RedirectStatus, RedirectStatus method [Remote Desktop Services], RedirectStatus method [Remote Desktop Services],IWTSProtocolLogonErrorRedirector interface, termserv.iwtsprotocollogonerrorredirector_redirectstatus, wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSProtocolLogonErrorRedirector.RedirectStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSProtocolLogonErrorRedirector::RedirectStatus

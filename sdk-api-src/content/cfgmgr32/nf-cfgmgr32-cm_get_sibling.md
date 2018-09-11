@@ -4,17 +4,16 @@ title: CM_Get_Sibling function
 author: windows-sdk-content
 description: The CM_Get_Sibling function obtains a device instance handle to the next sibling node of a specified device node (devnode) in the local machine's device tree.
 old-location: devinst\cm_get_sibling.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: ac3b7bca-1504-465a-8dcf-dcde9da686a9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Get_Sibling, CM_Get_Sibling function [Device and Driver Installation], cfgmgr32/CM_Get_Sibling, cfgmgrfn_cc0cd494-9629-4915-a0b3-e634516eb62f.xml, devinst.cm_get_sibling
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
+req.dll: CfgMgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CM_Get_Sibling
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
-req.dll: CfgMgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Get_Sibling function

@@ -4,7 +4,7 @@ title: IDeviceRequestCompletionCallback
 author: windows-sdk-content
 description: Provides a method to handle the completion of calls to the DeviceIoControlAsyncmethod.
 old-location: deviceaccess\idevicerequestcompletioncallback.htm
-old-project: deviceaccess
+tech.root: deviceaccess
 ms.assetid: 88746199-fc42-4f1d-9f97-ebd573e9cb3c
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: deviceaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIDEOMEMORYINFO
+req.lib: Deviceaccess.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDeviceRequestCompletionCallback
 product: Windows
 targetos: Windows
-req.lib: Deviceaccess.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceRequestCompletionCallback interface

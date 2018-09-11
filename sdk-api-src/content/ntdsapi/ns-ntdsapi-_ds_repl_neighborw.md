@@ -4,7 +4,7 @@ title: "_DS_REPL_NEIGHBORW"
 author: windows-sdk-content
 description: Contains inbound replication state data for a particular naming context and source server pair, as returned by the DsReplicaGetInfo and DsReplicaGetInfo2 functions.
 old-location: ad\ds_repl_neighbor.htm
-old-project: ad
+tech.root: ad
 ms.assetid: acab74f4-5739-4310-895b-081062c0360b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_NEIGHBORW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DS_REPL_NEIGHBOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DS_REPL_NEIGHBORW
+req.redist: 
 ---
 
 # _DS_REPL_NEIGHBORW structure

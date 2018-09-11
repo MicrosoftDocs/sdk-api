@@ -4,17 +4,16 @@ title: "_VDS_STORAGE_POOL_PROP"
 author: windows-sdk-content
 description: Defines the properties of a storage pool object.
 old-location: base\vds_storage_pool_prop.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 2a82e872-2005-4b05-b67a-161b16c4f3aa
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVDS_STORAGE_POOL_PROP, PVDS_STORAGE_POOL_PROP, PVDS_STORAGE_POOL_PROP structure pointer, VDS_H_DEGRADED, VDS_H_HEALTHY, VDS_H_UNKNOWN, VDS_STORAGE_POOL_PROP, VDS_STORAGE_POOL_PROP structure, _VDS_STORAGE_POOL_PROP, base.vds_storage_pool_prop, vds/PVDS_STORAGE_POOL_PROP, vds/VDS_STORAGE_POOL_PROP, vdshwprv/PVDS_STORAGE_POOL_PROP, vdshwprv/VDS_STORAGE_POOL_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_STORAGE_POOL_PROP, *PVDS_STORAGE_POOL_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_STORAGE_POOL_PROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_STORAGE_POOL_PROP, *PVDS_STORAGE_POOL_PROP
+req.redist: 
 ---
 
 # _VDS_STORAGE_POOL_PROP structure

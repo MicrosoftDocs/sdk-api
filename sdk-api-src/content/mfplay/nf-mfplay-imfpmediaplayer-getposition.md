@@ -4,17 +4,16 @@ title: IMFPMediaPlayer::GetPosition
 author: windows-sdk-content
 description: Gets the current playback position.
 old-location: mf\imfpmediaplayer_getposition.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e3401c66-0dc7-46ef-9a38-088d605a3038
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetPosition, GetPosition method [Media Foundation], GetPosition method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetPosition method, IMFPMediaPlayer.GetPosition, IMFPMediaPlayer::GetPosition, MFP_POSITIONTYPE_100NS, mf.imfpmediaplayer_getposition, mfplay/IMFPMediaPlayer::GetPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaPlayer.GetPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaPlayer::GetPosition

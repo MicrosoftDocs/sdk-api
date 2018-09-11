@@ -4,17 +4,16 @@ title: ID3D11VideoContext::VideoProcessorGetStreamStereoFormat
 author: windows-sdk-content
 description: Gets the stereo 3D format for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamstereoformat.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: FCEE6C95-C631-4268-9B06-686B8AC7D80C
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: FALSE, ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamStereoFormat method, ID3D11VideoContext.VideoProcessorGetStreamStereoFormat, ID3D11VideoContext::VideoProcessorGetStreamStereoFormat, TRUE, VideoProcessorGetStreamStereoFormat, VideoProcessorGetStreamStereoFormat method [Media Foundation], VideoProcessorGetStreamStereoFormat method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamStereoFormat, mf.id3d11videocontext_videoprocessorgetstreamstereoformat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext.VideoProcessorGetStreamStereoFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext::VideoProcessorGetStreamStereoFormat
@@ -71,7 +70,7 @@ The zero-based index of the input stream. To get the maximum number of streams, 
 
 ### -param pEnable
 
-
+TBD
 
 
 ### -param pFormat [out]

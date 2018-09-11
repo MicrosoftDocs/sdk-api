@@ -4,17 +4,16 @@ title: IWMPStringCollection2::getItemInfo
 author: windows-sdk-content
 description: The getItemInfo method retrieves the string corresponding to the specified string collection item index and name.
 old-location: wmp\iwmpstringcollection2_getiteminfo.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 1915d71f-aca3-4943-a4da-ed8f2fa3f46d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPStringCollection2 interface [Windows Media Player],getItemInfo method, IWMPStringCollection2.getItemInfo, IWMPStringCollection2::getItemInfo, IWMPStringCollection2getItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_getiteminfo, wmp/IWMPStringCollection2::getItemInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPStringCollection2.getItemInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPStringCollection2::getItemInfo

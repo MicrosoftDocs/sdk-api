@@ -4,17 +4,16 @@ title: IVdsVdProvider::QueryVDisks
 author: windows-sdk-content
 description: Returns a list of all virtual disks that are managed by the provider.
 old-location: base\ivdsvdprovider_querysurfaceddisks.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: eab65da4-eb26-46f5-9978-972fd8dffb41
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsVdProvider interface,QueryVDisks method, IVdsVdProvider.QueryVDisks, IVdsVdProvider::QueryVDisks, QueryVDisks, QueryVDisks method, QueryVDisks method,IVdsVdProvider interface, base.ivdsvdprovider_querysurfaceddisks, vds/IVdsVdProvider::QueryVDisks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVdProvider.QueryVDisks
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVdProvider::QueryVDisks

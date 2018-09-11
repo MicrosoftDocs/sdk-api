@@ -4,17 +4,16 @@ title: IVssComponentEx2::GetFailure
 author: windows-sdk-content
 description: VSS requesters call this method to retrieve component-level errors reported by writers.
 old-location: base\ivsscomponentex2_getfailure.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: a5d739d3-9169-4b25-a590-35703e77dacc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetFailure, GetFailure method, GetFailure method,IVssComponentEx2 interface, IVssComponentEx2 interface,GetFailure method, IVssComponentEx2.GetFailure, IVssComponentEx2::GetFailure, S_OK, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, VSS_E_WRITER_NOT_RESPONDING, VSS_E_WRITER_STATUS_NOT_AVAILABLE, base.ivsscomponentex2_getfailure, vswriter/IVssComponentEx2::GetFailure
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssComponentEx2.GetFailure
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponentEx2::GetFailure

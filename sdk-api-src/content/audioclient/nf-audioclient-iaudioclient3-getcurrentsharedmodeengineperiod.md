@@ -4,17 +4,16 @@ title: IAudioClient3::GetCurrentSharedModeEnginePeriod
 author: windows-sdk-content
 description: Returns the current format and periodicity of the audio engine.
 old-location: coreaudio\iaudioclient3_getcurrentsharedmodeengineperiod.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: F91E46F5-5D12-4D53-842B-4495CAA3E09E
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetCurrentSharedModeEnginePeriod, GetCurrentSharedModeEnginePeriod method [Core Audio], GetCurrentSharedModeEnginePeriod method [Core Audio],IAudioClient3 interface, IAudioClient3 interface [Core Audio],GetCurrentSharedModeEnginePeriod method, IAudioClient3.GetCurrentSharedModeEnginePeriod, IAudioClient3::GetCurrentSharedModeEnginePeriod, audioclient/IAudioClient3::GetCurrentSharedModeEnginePeriod, coreaudio.iaudioclient3_getcurrentsharedmodeengineperiod
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioClient3.GetCurrentSharedModeEnginePeriod
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioClient3::GetCurrentSharedModeEnginePeriod

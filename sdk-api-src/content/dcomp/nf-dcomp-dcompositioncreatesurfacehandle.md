@@ -4,17 +4,16 @@ title: DCompositionCreateSurfaceHandle function
 author: windows-sdk-content
 description: Creates a new composition surface object that can be bound to a Microsoft DirectX swap chain or swap buffer and associated with a visual.
 old-location: directcomp\dcompositioncreatesurfacehandle.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 550BA10B-D582-4A57-A69D-3EFFC7313D8F
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: COMPOSITIONSURFACE_ALL_ACCESS, COMPOSITIONSURFACE_READ, COMPOSITIONSURFACE_WRITE, DCompositionCreateSurfaceHandle, DCompositionCreateSurfaceHandle function [DirectComposition], dcomp/DCompositionCreateSurfaceHandle, directcomp.dcompositioncreatesurfacehandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - DCompositionCreateSurfaceHandle
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DCompositionCreateSurfaceHandle function

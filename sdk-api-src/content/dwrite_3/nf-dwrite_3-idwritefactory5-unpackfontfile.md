@@ -4,17 +4,16 @@ title: IDWriteFactory5::UnpackFontFile
 author: windows-sdk-content
 description: The UnpackFontFile method unpacks font data from a container file (WOFF or WOFF2) and returns the unpacked font data in the form of a font file stream.
 old-location: directwrite\idwritefactory5_unpackfontfile.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: F82863DC-BFC8-49D3-93C5-DCA45093F81A
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteFactory5 interface [Direct Write],UnpackFontFile method, IDWriteFactory5.UnpackFontFile, IDWriteFactory5::UnpackFontFile, UnpackFontFile, UnpackFontFile method [Direct Write], UnpackFontFile method [Direct Write],IDWriteFactory5 interface, directwrite.idwritefactory5_unpackfontfile, dwrite_3/IDWriteFactory5::UnpackFontFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDWriteFactory5.UnpackFontFile
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFactory5::UnpackFontFile

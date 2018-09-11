@@ -4,17 +4,16 @@ title: ID3D11ShaderReflectionVariable::GetDesc
 author: windows-sdk-content
 description: Get a shader-variable description.
 old-location: direct3d11\id3d11shaderreflectionvariable_getdesc.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: a384e172-763f-4f4c-b6fb-f657fa31e5ee
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 6ae72773-659b-8911-13a0-cbaa49ed3c83, GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11ShaderReflectionVariable interface, ID3D11ShaderReflectionVariable interface [Direct3D 11],GetDesc method, ID3D11ShaderReflectionVariable.GetDesc, ID3D11ShaderReflectionVariable::GetDesc, d3d11shader/ID3D11ShaderReflectionVariable::GetDesc, direct3d11.id3d11shaderreflectionvariable_getdesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_VERSION_TYPE
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11ShaderReflectionVariable.GetDesc
 product: Windows
 targetos: Windows
-req.lib: D3DCompiler.lib
-req.dll: D3DCompiler_47.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11ShaderReflectionVariable::GetDesc

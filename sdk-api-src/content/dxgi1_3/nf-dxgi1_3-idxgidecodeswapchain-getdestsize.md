@@ -4,17 +4,16 @@ title: IDXGIDecodeSwapChain::GetDestSize
 author: windows-sdk-content
 description: Gets the size of the destination surface to use for the video processing blit operation.
 old-location: direct3ddxgi\idxgidecodeswapchain_getdestsize.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: FA01A6C1-7731-4B30-845F-4C2514B6AD77
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetDestSize, GetDestSize method [DXGI], GetDestSize method [DXGI],IDXGIDecodeSwapChain interface, IDXGIDecodeSwapChain interface [DXGI],GetDestSize method, IDXGIDecodeSwapChain.GetDestSize, IDXGIDecodeSwapChain::GetDestSize, direct3ddxgi.idxgidecodeswapchain_getdestsize, dxgi1_3/IDXGIDecodeSwapChain::GetDestSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIDecodeSwapChain.GetDestSize
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIDecodeSwapChain::GetDestSize

@@ -4,17 +4,16 @@ title: DsClientMakeSpnForTargetServerA function
 author: windows-sdk-content
 description: Constructs a service principal name (SPN) that identifies a specific server to use for authentication.
 old-location: ad\dsclientmakespnfortargetserver.htm
-old-project: ad
+tech.root: ad
 ms.assetid: d205e7cc-4879-41a4-baa7-75e7dd177cd0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsClientMakeSpnForTargetServer, DsClientMakeSpnForTargetServer function [Active Directory], DsClientMakeSpnForTargetServerA, DsClientMakeSpnForTargetServerW, _glines_dsclientmakespnfortargetserver, ad.dsclientmakespnfortargetserver, ntdsapi/DsClientMakeSpnForTargetServer, ntdsapi/DsClientMakeSpnForTargetServerA, ntdsapi/DsClientMakeSpnForTargetServerW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsClientMakeSpnForTargetServerW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsClientMakeSpnForTargetServerA function

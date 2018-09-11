@@ -4,17 +4,16 @@ title: HTTP_GREATER_VERSION macro
 author: windows-sdk-content
 description: Returns a non-zero value if an HTTP_VERSION structure is greater than a specified major/minor version combination, or zero otherwise.
 old-location: http\http_greater_version.htm
-old-project: http
+tech.root: http
 ms.assetid: 741b6f26-4c87-459e-a672-daf098f0c9e6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HTTP_GREATER_VERSION, HTTP_GREATER_VERSION macro [HTTP], _http_http_greater_version, http.http_greater_version, http/HTTP_GREATER_VERSION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERB, *PHTTP_VERB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_GREATER_VERSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HTTP_GREATER_VERSION macro

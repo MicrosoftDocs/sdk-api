@@ -4,17 +4,16 @@ title: IMFTimedTextCue::GetTrackId
 author: windows-sdk-content
 description: Gets the identifier of the timed-text cue.
 old-location: mf\imftimedtextcue_gettrackid.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 967CA2AC-A36A-4875-9882-6EF4748EC92C
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetTrackId, GetTrackId method [Media Foundation], GetTrackId method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetTrackId method, IMFTimedTextCue.GetTrackId, IMFTimedTextCue::GetTrackId, mf.imftimedtextcue_gettrackid, mfmediaengine/IMFTimedTextCue::GetTrackId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextCue.GetTrackId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextCue::GetTrackId

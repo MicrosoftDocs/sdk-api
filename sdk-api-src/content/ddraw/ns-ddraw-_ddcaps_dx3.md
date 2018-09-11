@@ -4,7 +4,7 @@ title: "_DDCAPS_DX3"
 author: windows-sdk-content
 description: The DDCAPS structure represents the capabilities of the hardware exposed through the DirectDraw object.
 old-location: directdraw\ddcaps.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 4ddda0a7-c0db-47cf-a908-959aabb530c6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDCAPS_DX3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDCAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDCAPS_DX3
+req.redist: 
 ---
 
 # _DDCAPS_DX3 structure

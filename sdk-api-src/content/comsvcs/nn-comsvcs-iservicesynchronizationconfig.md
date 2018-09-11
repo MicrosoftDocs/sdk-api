@@ -4,17 +4,16 @@ title: IServiceSynchronizationConfig
 author: windows-sdk-content
 description: Configures the synchronization for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
 old-location: cos\iservicesynchronizationconfig.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: c4856738-66bf-4982-9440-83b72148c85c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IServiceSynchronizationConfig, IServiceSynchronizationConfig interface [COM+], IServiceSynchronizationConfig interface [COM+],described, _cos_IServiceSynchronizationConfig, comsvcs/IServiceSynchronizationConfig, cos.iservicesynchronizationconfig
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceSynchronizationConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceSynchronizationConfig interface

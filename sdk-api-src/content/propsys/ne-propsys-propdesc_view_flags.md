@@ -4,7 +4,7 @@ title: PROPDESC_VIEW_FLAGS
 author: windows-sdk-content
 description: These flags describe properties in property description list strings.
 old-location: properties\PROPDESC_VIEW_FLAGS.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 8b38d085-180b-47c1-b703-8c4feaaa9ccb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPDESC_VIEW_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROPDESC_VIEW_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PROPDESC_VIEW_FLAGS
+req.redist: 
 ---
 
 # PROPDESC_VIEW_FLAGS enumeration

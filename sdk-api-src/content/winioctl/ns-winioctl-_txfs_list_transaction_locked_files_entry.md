@@ -4,7 +4,7 @@ title: "_TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY"
 author: windows-sdk-content
 description: Contains information about a locked transaction.
 old-location: fs\txfs_list_transaction_locked_files_entry.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 220ccb27-c7a2-4d4e-8efd-5c8f8d1697cd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, *PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, *PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
+req.redist: 
 ---
 
 # _TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY structure

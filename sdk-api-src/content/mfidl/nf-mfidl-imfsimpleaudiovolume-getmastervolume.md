@@ -4,17 +4,16 @@ title: IMFSimpleAudioVolume::GetMasterVolume
 author: windows-sdk-content
 description: Retrieves the master volume level.
 old-location: mf\imfsimpleaudiovolume_getmastervolume.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 03ce097e-c4e5-4dac-84c0-b569efc420bc
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 03ce097e-c4e5-4dac-84c0-b569efc420bc, GetMasterVolume, GetMasterVolume method [Media Foundation], GetMasterVolume method [Media Foundation],IMFSimpleAudioVolume interface, IMFSimpleAudioVolume interface [Media Foundation],GetMasterVolume method, IMFSimpleAudioVolume.GetMasterVolume, IMFSimpleAudioVolume::GetMasterVolume, mf.imfsimpleaudiovolume_getmastervolume, mfidl/IMFSimpleAudioVolume::GetMasterVolume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSimpleAudioVolume.GetMasterVolume
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSimpleAudioVolume::GetMasterVolume

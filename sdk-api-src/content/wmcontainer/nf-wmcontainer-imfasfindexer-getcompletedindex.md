@@ -4,17 +4,16 @@ title: IMFASFIndexer::GetCompletedIndex
 author: windows-sdk-content
 description: Retrieves the completed index from the ASF indexer object.
 old-location: mf\imfasfindexer_getcompletedindex.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: aca721e8-e610-4022-a3da-8ff5a5943e3e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetCompletedIndex, GetCompletedIndex method [Media Foundation], GetCompletedIndex method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetCompletedIndex method, IMFASFIndexer.GetCompletedIndex, IMFASFIndexer::GetCompletedIndex, aca721e8-e610-4022-a3da-8ff5a5943e3e, mf.imfasfindexer_getcompletedindex, wmcontainer/IMFASFIndexer::GetCompletedIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFIndexer.GetCompletedIndex
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFIndexer::GetCompletedIndex

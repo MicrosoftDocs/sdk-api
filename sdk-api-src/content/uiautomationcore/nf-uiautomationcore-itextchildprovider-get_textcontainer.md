@@ -4,17 +4,16 @@ title: ITextChildProvider::get_TextContainer
 author: windows-sdk-content
 description: Retrieves this element's nearest ancestor provider that supports the Text control pattern.
 old-location: winauto\uiauto_ITextChildProvider_TextContainer.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: E355AFA9-40D8-4F37-9E3D-9A3923B1F6E5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextChildProvider interface [Windows Accessibility],TextContainer property, ITextChildProvider.TextContainer, ITextChildProvider.get_TextContainer, ITextChildProvider::TextContainer, ITextChildProvider::get_TextContainer, TextContainer property [Windows Accessibility], TextContainer property [Windows Accessibility],ITextChildProvider interface, get_TextContainer, uiautomationcore/ITextChildProvider::TextContainer, uiautomationcore/ITextChildProvider::get_TextContainer, winauto.uiauto_ITextChildProvider_TextContainer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITextChildProvider.get_TextContainer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAutomationCore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextChildProvider::get_TextContainer

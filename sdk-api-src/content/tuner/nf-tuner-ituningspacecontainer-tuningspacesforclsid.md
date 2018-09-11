@@ -4,17 +4,16 @@ title: ITuningSpaceContainer::TuningSpacesForCLSID
 author: windows-sdk-content
 description: The TuningSpacesForCLSID method retrieves a collection of tuning spaces that match the specified CLSID.This method is intended for Automation clients, because it returns the CLSID as a BSTR.
 old-location: mstv\ituningspacecontainer_tuningspacesforclsid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 8e2d6103-baed-40ee-9a94-9434cf8e3474
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],TuningSpacesForCLSID method, ITuningSpaceContainer.TuningSpacesForCLSID, ITuningSpaceContainer::TuningSpacesForCLSID, TuningSpacesForCLSID, TuningSpacesForCLSID method [Microsoft TV Technologies], TuningSpacesForCLSID method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_tuningspacesforclsid, tuner/ITuningSpaceContainer::TuningSpacesForCLSID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITuningSpaceContainer.TuningSpacesForCLSID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITuningSpaceContainer::TuningSpacesForCLSID
@@ -74,7 +72,7 @@ String representation of the CLSID of the tuning space.
 
 ### -param NewColl
 
-
+TBD
 
 
 

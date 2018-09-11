@@ -4,17 +4,16 @@ title: IDXGIFactory2::CreateSwapChainForHwnd
 author: windows-sdk-content
 description: Creates a swap chain that is associated with an HWND handle to the output window for the swap chain.
 old-location: direct3ddxgi\idxgifactory2_createswapchain1.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CreateSwapChainForHwnd, CreateSwapChainForHwnd method [DXGI], CreateSwapChainForHwnd method [DXGI],IDXGIFactory2 interface, IDXGIFactory2 interface [DXGI],CreateSwapChainForHwnd method, IDXGIFactory2.CreateSwapChainForHwnd, IDXGIFactory2::CreateSwapChainForHwnd, direct3ddxgi.idxgifactory2_createswapchain1, dxgi1_2/IDXGIFactory2::CreateSwapChainForHwnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIFactory2.CreateSwapChainForHwnd
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIFactory2::CreateSwapChainForHwnd

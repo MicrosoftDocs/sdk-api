@@ -4,17 +4,16 @@ title: IMFAsyncResult::GetStateNoAddRef
 author: windows-sdk-content
 description: Returns the state object specified by the caller in the asynchronous Begin method, without incrementing the object's reference count.
 old-location: mf\imfasyncresult_getstatenoaddref.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 37ba820c-5253-48de-a960-c546e50e8672
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 37ba820c-5253-48de-a960-c546e50e8672, GetStateNoAddRef, GetStateNoAddRef method [Media Foundation], GetStateNoAddRef method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetStateNoAddRef method, IMFAsyncResult.GetStateNoAddRef, IMFAsyncResult::GetStateNoAddRef, mf.imfasyncresult_getstatenoaddref, mfobjects/IMFAsyncResult::GetStateNoAddRef
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFAsyncResult.GetStateNoAddRef
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFAsyncResult::GetStateNoAddRef

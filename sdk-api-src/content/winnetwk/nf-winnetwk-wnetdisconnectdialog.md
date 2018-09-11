@@ -4,17 +4,16 @@ title: WNetDisconnectDialog function
 author: windows-sdk-content
 description: The WNetDisconnectDialog function starts a general browsing dialog box for disconnecting from network resources. The function requires a handle to the owner window for the dialog box.
 old-location: wnet\wnetdisconnectdialog.htm
-old-project: wnet
+tech.root: WNet
 ms.assetid: 76e0f38a-e057-4496-9c2f-7ea73d19bd76
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: RESOURCETYPE_DISK, WNetDisconnectDialog, WNetDisconnectDialog function [Windows Networking (WNet)], _win32_wnetdisconnectdialog, winnetwk/WNetDisconnectDialog, wnet.wnetdisconnectdialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WNetDisconnectDialog
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNetDisconnectDialog function

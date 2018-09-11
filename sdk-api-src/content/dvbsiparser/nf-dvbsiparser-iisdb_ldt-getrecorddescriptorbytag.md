@@ -4,17 +4,16 @@ title: IISDB_LDT::GetRecordDescriptorByTag
 author: windows-sdk-content
 description: Searches a record in an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT) for a specific descriptor tag.
 old-location: mstv\iisdb_ldt_getrecorddescriptorbytag.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6d1fc08c-9c5b-4361-a144-d8b423250c51
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IISDB_LDT.GetRecordDescriptorByTag, IISDB_LDT::GetRecordDescriptorByTag, dvbsiparser/IISDB_LDT::GetRecordDescriptorByTag, mstv.iisdb_ldt_getrecorddescriptorbytag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IISDB_LDT.GetRecordDescriptorByTag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IISDB_LDT::GetRecordDescriptorByTag

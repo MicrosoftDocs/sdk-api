@@ -4,17 +4,16 @@ title: "_VDS_TARGET_NOTIFICATION"
 author: windows-sdk-content
 description: Defines the details of iSCSI target events.
 old-location: base\vds_target_notification.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 71453c9c-d6a7-4527-8988-c0388d7a9991
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_NF_TARGET_ARRIVE, VDS_NF_TARGET_DEPART, VDS_NF_TARGET_MODIFY, VDS_TARGET_NOTIFICATION, VDS_TARGET_NOTIFICATION structure [VDS], _VDS_TARGET_NOTIFICATION, base.vds_target_notification, vds/_VDS_TARGET_NOTIFICATION, vdshwprv/_VDS_TARGET_NOTIFICATION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_TARGET_NOTIFICATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_TARGET_NOTIFICATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_TARGET_NOTIFICATION
+req.redist: VDS 1.1
 ---
 
 # _VDS_TARGET_NOTIFICATION structure

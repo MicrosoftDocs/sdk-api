@@ -4,17 +4,16 @@ title: CLUSTER_OBJECT_TYPE
 author: windows-sdk-content
 description: Defines the type of object for which a notification is requested or generated.
 old-location: mscs\cluster_object_type.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 714C0EF1-7397-4227-B4B1-AFC5E61E08C2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_OBJECT_TYPE, CLUSTER_OBJECT_TYPE enumeration [Failover Cluster], CLUSTER_OBJECT_TYPE_CLUSTER, CLUSTER_OBJECT_TYPE_GROUP, CLUSTER_OBJECT_TYPE_GROUPSET, CLUSTER_OBJECT_TYPE_NETWORK, CLUSTER_OBJECT_TYPE_NETWORK_INTERFACE, CLUSTER_OBJECT_TYPE_NODE, CLUSTER_OBJECT_TYPE_NONE, CLUSTER_OBJECT_TYPE_QUORUM, CLUSTER_OBJECT_TYPE_REGISTRY, CLUSTER_OBJECT_TYPE_RESOURCE, CLUSTER_OBJECT_TYPE_RESOURCE_TYPE, CLUSTER_OBJECT_TYPE_SHARED_VOLUME, clusapi/CLUSTER_OBJECT_TYPE, clusapi/CLUSTER_OBJECT_TYPE_CLUSTER, clusapi/CLUSTER_OBJECT_TYPE_GROUP, clusapi/CLUSTER_OBJECT_TYPE_GROUPSET, clusapi/CLUSTER_OBJECT_TYPE_NETWORK, clusapi/CLUSTER_OBJECT_TYPE_NETWORK_INTERFACE, clusapi/CLUSTER_OBJECT_TYPE_NODE, clusapi/CLUSTER_OBJECT_TYPE_NONE, clusapi/CLUSTER_OBJECT_TYPE_QUORUM, clusapi/CLUSTER_OBJECT_TYPE_REGISTRY, clusapi/CLUSTER_OBJECT_TYPE_RESOURCE, clusapi/CLUSTER_OBJECT_TYPE_RESOURCE_TYPE, clusapi/CLUSTER_OBJECT_TYPE_SHARED_VOLUME, msclus/CLUSTER_OBJECT_TYPE, msclus/CLUSTER_OBJECT_TYPE_CLUSTER, msclus/CLUSTER_OBJECT_TYPE_GROUP, msclus/CLUSTER_OBJECT_TYPE_GROUPSET, msclus/CLUSTER_OBJECT_TYPE_NETWORK, msclus/CLUSTER_OBJECT_TYPE_NETWORK_INTERFACE, msclus/CLUSTER_OBJECT_TYPE_NODE, msclus/CLUSTER_OBJECT_TYPE_NONE, msclus/CLUSTER_OBJECT_TYPE_QUORUM, msclus/CLUSTER_OBJECT_TYPE_REGISTRY, msclus/CLUSTER_OBJECT_TYPE_RESOURCE, msclus/CLUSTER_OBJECT_TYPE_RESOURCE_TYPE, msclus/CLUSTER_OBJECT_TYPE_SHARED_VOLUME, mscs.cluster_object_type
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_OBJECT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_OBJECT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_OBJECT_TYPE
+req.redist: 
 ---
 
 # CLUSTER_OBJECT_TYPE enumeration

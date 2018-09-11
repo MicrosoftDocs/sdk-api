@@ -4,17 +4,16 @@ title: "_ApplicationProcessSummary"
 author: windows-sdk-content
 description: Represents summary information about a process hosting COM+ applications.
 old-location: cos\applicationprocesssummary.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 2402aca6-4992-4c6e-a6ff-b4cc50c57dde
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ApplicationProcessSummary, ApplicationProcessSummary structure [COM+], _ApplicationProcessSummary, comsvcs/ApplicationProcessSummary, cos.applicationprocesssummary
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ApplicationProcessSummary
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ApplicationProcessSummary
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ApplicationProcessSummary
+req.redist: 
 ---
 
 # _ApplicationProcessSummary structure

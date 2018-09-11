@@ -4,17 +4,16 @@ title: DWRITE_PANOSE_FINIALS
 author: windows-sdk-content
 description: The DWRITE_PANOSE_FINIALS enumeration contains values that specify how character ends and miniscule ascenders are treated.
 old-location: directwrite\dwrite_panose_finials.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 8B0B2768-26E6-4163-91DD-DFE69C981C56
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_PANOSE_FINIALS, DWRITE_PANOSE_FINIALS enumeration [Direct Write], DWRITE_PANOSE_FINIALS_ANY, DWRITE_PANOSE_FINIALS_NONE_CLOSED_LOOPS, DWRITE_PANOSE_FINIALS_NONE_NO_LOOPS, DWRITE_PANOSE_FINIALS_NONE_OPEN_LOOPS, DWRITE_PANOSE_FINIALS_NO_FIT, DWRITE_PANOSE_FINIALS_ROUND_CLOSED_LOOPS, DWRITE_PANOSE_FINIALS_ROUND_NO_LOOPS, DWRITE_PANOSE_FINIALS_ROUND_OPEN_LOOPS, DWRITE_PANOSE_FINIALS_SHARP_CLOSED_LOOPS, DWRITE_PANOSE_FINIALS_SHARP_NO_LOOPS, DWRITE_PANOSE_FINIALS_SHARP_OPEN_LOOPS, DWRITE_PANOSE_FINIALS_TAPERED_CLOSED_LOOPS, DWRITE_PANOSE_FINIALS_TAPERED_NO_LOOPS, DWRITE_PANOSE_FINIALS_TAPERED_OPEN_LOOPS, directwrite.dwrite_panose_finials, dwrite_1/DWRITE_PANOSE_FINIALS, dwrite_1/DWRITE_PANOSE_FINIALS_ANY, dwrite_1/DWRITE_PANOSE_FINIALS_NONE_CLOSED_LOOPS, dwrite_1/DWRITE_PANOSE_FINIALS_NONE_NO_LOOPS, dwrite_1/DWRITE_PANOSE_FINIALS_NONE_OPEN_LOOPS, dwrite_1/DWRITE_PANOSE_FINIALS_NO_FIT, dwrite_1/DWRITE_PANOSE_FINIALS_ROUND_CLOSED_LOOPS, dwrite_1/DWRITE_PANOSE_FINIALS_ROUND_NO_LOOPS, dwrite_1/DWRITE_PANOSE_FINIALS_ROUND_OPEN_LOOPS, dwrite_1/DWRITE_PANOSE_FINIALS_SHARP_CLOSED_LOOPS, dwrite_1/DWRITE_PANOSE_FINIALS_SHARP_NO_LOOPS, dwrite_1/DWRITE_PANOSE_FINIALS_SHARP_OPEN_LOOPS, dwrite_1/DWRITE_PANOSE_FINIALS_TAPERED_CLOSED_LOOPS, dwrite_1/DWRITE_PANOSE_FINIALS_TAPERED_NO_LOOPS, dwrite_1/DWRITE_PANOSE_FINIALS_TAPERED_OPEN_LOOPS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_PANOSE_FINIALS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_PANOSE_FINIALS enumeration

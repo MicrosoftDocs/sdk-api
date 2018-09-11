@@ -4,17 +4,16 @@ title: IPhotoAcquireDeviceSelectionDialog::SetTitle
 author: windows-sdk-content
 description: The SetTitle method sets the title of the device selection dialog box.
 old-location: picacq\iphotoacquiredeviceselectiondialog_settitle.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: e8338978-3232-41b2-87ee-11eee3e90fc6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],SetTitle method, IPhotoAcquireDeviceSelectionDialog.SetTitle, IPhotoAcquireDeviceSelectionDialog::SetTitle, IPhotoAcquireDeviceSelectionDialogSetTitle, SetTitle, SetTitle method [Picture Acquisition], SetTitle method [Picture Acquisition],IPhotoAcquireDeviceSelectionDialog interface, photoacquire/IPhotoAcquireDeviceSelectionDialog::SetTitle, picacq.iphotoacquiredeviceselectiondialog_settitle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireDeviceSelectionDialog.SetTitle
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireDeviceSelectionDialog::SetTitle

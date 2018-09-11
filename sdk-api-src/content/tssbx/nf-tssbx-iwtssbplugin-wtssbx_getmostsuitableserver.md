@@ -4,17 +4,16 @@ title: IWTSSBPlugin::WTSSBX_GetMostSuitableServer
 author: windows-sdk-content
 description: Returns the ID of the server to which Terminal Services Session Broker (TS&#160;Session Broker) should direct the incoming connection.
 old-location: termserv\iwtssbplugin_wtssbx_getmostsuitableserver.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: d25527ec-1007-4b7b-93ad-6c96780dddec
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],WTSSBX_GetMostSuitableServer method, IWTSSBPlugin.WTSSBX_GetMostSuitableServer, IWTSSBPlugin::WTSSBX_GetMostSuitableServer, WTSSBX_GetMostSuitableServer, WTSSBX_GetMostSuitableServer method [Remote Desktop Services], WTSSBX_GetMostSuitableServer method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_wtssbx_getmostsuitableserver, tssbx/IWTSSBPlugin::WTSSBX_GetMostSuitableServer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tssbx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_NOTIFICATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSSBPlugin.WTSSBX_GetMostSuitableServer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSSBPlugin::WTSSBX_GetMostSuitableServer

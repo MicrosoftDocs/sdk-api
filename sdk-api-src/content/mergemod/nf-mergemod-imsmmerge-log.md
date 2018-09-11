@@ -4,17 +4,16 @@ title: IMsmMerge::Log
 author: windows-sdk-content
 description: The Log method writes a text string to the currently open log file. For more information, see the Log method of the Merge object.
 old-location: setup\imsmmerge_log.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 15c7450b-6887-4a54-8f4f-ac2cf5944f17
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMsmMerge interface,Log method, IMsmMerge.Log, IMsmMerge::Log, Log, Log method, Log method,IMsmMerge interface, _msi_log_function, mergemod/IMsmMerge::Log, setup.imsmmerge_log
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Mergemod.dll 1.0 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_MEMORY_REGION_INFORMATION
+req.lib: 
+req.dll: Mergemod.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMsmMerge.Log
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mergemod.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMsmMerge::Log

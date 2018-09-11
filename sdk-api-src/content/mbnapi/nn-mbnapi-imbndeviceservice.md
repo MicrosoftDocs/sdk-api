@@ -4,17 +4,16 @@ title: IMbnDeviceService
 author: windows-sdk-content
 description: Allows for communicating with a device service on a particular Mobile Broadband device.
 old-location: mbn\imbndeviceservice.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 5C587408-DF03-4123-BA5A-C2CCC378F60A
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnDeviceService, IMbnDeviceService interface [Microsoft Broadband Networks], IMbnDeviceService interface [Microsoft Broadband Networks],described, mbn.imbndeviceservice, mbnapi/IMbnDeviceService
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnDeviceService
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnDeviceService interface

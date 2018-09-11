@@ -4,17 +4,16 @@ title: IShellImageDataAbort
 author: windows-sdk-content
 description: Exposes a single method used to abort IShellImageData processes.
 old-location: shell\IShellImageDataAbort.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 98a79c41-a384-4486-af51-a33cd5f0750e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellImageDataAbort, IShellImageDataAbort interface [Windows Shell], IShellImageDataAbort interface [Windows Shell],described, _shell_IShellImageDataAbort, shell.IShellImageDataAbort, shimgdata/IShellImageDataAbort
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shimgdata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageDataAbort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageDataAbort interface

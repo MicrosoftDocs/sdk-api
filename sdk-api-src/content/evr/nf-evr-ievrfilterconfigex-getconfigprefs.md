@@ -4,17 +4,16 @@ title: IEVRFilterConfigEx::GetConfigPrefs
 author: windows-sdk-content
 description: Gets the configuration parameters for the Microsoft DirectShow Enhanced Video Renderer Filter filter.
 old-location: mf\ievrfilterconfigex_getconfigprefs.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8b286b77-de5f-44ce-82f4-d11a76fe2c4d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetConfigPrefs, GetConfigPrefs method [Media Foundation], GetConfigPrefs method [Media Foundation],IEVRFilterConfigEx interface, IEVRFilterConfigEx interface [Media Foundation],GetConfigPrefs method, IEVRFilterConfigEx.GetConfigPrefs, IEVRFilterConfigEx::GetConfigPrefs, evr/IEVRFilterConfigEx::GetConfigPrefs, mf.ievrfilterconfigex_getconfigprefs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEVRFilterConfigEx.GetConfigPrefs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEVRFilterConfigEx::GetConfigPrefs

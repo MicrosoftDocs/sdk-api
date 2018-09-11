@@ -4,17 +4,16 @@ title: IESEvent::GetEventType
 author: windows-sdk-content
 description: Gets the GUID that identifies an event that is derived from the IESEvent interface. The GUID is contained in an IESEvent object, which ispassed in a call to IESEventService::FireESEvent.
 old-location: mstv\iesevent_geteventtype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 8418116a-2393-4a1b-8c5b-2356d373e426
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetEventType, GetEventType method [Microsoft TV Technologies], GetEventType method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetEventType method, IESEvent.GetEventType, IESEvent::GetEventType, mstv.iesevent_geteventtype, tuner/IESEvent::GetEventType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IESEvent.GetEventType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IESEvent::GetEventType

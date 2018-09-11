@@ -4,17 +4,16 @@ title: IXAudio2EngineCallback::OnCriticalError
 author: windows-sdk-content
 description: Called if a critical system error occurs that requires XAudio2 to be closed down and restarted.
 old-location: xaudio2\ixaudio2enginecallback_oncriticalerror.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2enginecallback.IXAudio2EngineCallback.OnCriticalError(HRESULT)
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs],OnCriticalError method, IXAudio2EngineCallback.OnCriticalError, IXAudio2EngineCallback::OnCriticalError, OnCriticalError, OnCriticalError method [XAudio2 Audio Mixing APIs], OnCriticalError method [XAudio2 Audio Mixing APIs],IXAudio2EngineCallback interface, xaudio2.ixaudio2enginecallback_oncriticalerror, xaudio2/IXAudio2EngineCallback::OnCriticalError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2_FILTER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXAudio2EngineCallback.OnCriticalError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXAudio2EngineCallback::OnCriticalError

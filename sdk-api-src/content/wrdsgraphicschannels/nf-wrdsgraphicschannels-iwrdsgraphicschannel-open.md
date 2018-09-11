@@ -4,17 +4,16 @@ title: IWRdsGraphicsChannel::Open
 author: windows-sdk-content
 description: Called to open a channel.
 old-location: termserv\iwrdsgraphicschannel_open.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 3b32b37f-6b1f-4682-9e2e-4a64e5c36e04
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWRdsGraphicsChannel interface [Remote Desktop Services],Open method, IWRdsGraphicsChannel.Open, IWRdsGraphicsChannel::Open, Open, Open method [Remote Desktop Services], Open method [Remote Desktop Services],IWRdsGraphicsChannel interface, termserv.iwrdsgraphicschannel_open, wrdsgraphicschannels/IWRdsGraphicsChannel::Open
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wrdsgraphicschannels.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRdsGraphicsChannelType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWRdsGraphicsChannel.Open
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWRdsGraphicsChannel::Open

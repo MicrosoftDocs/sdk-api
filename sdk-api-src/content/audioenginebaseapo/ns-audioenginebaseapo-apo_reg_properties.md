@@ -4,7 +4,7 @@ title: APO_REG_PROPERTIES
 author: windows-sdk-content
 description: The APO_REG_PROPERTIES structure is used by IAudioProcessingObject::GetRegistrationProperties for returning the registration properties of an audio processing object (APO).
 old-location: audio\apo_reg_properties.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 466215E5-5345-4570-A29B-086562882F5D
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: audioenginebaseapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APO_REG_PROPERTIES, *PAPO_REG_PROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - APO_REG_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: All levels.
+req.typenames: APO_REG_PROPERTIES, *PAPO_REG_PROPERTIES
+req.redist: 
 ---
 
 # APO_REG_PROPERTIES structure

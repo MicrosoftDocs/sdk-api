@@ -4,17 +4,16 @@ title: IDirectManipulationDeferContactService::DeferContact
 author: windows-sdk-content
 description: Specifies the amount of time to defer the execution of a call to SetContact for this pointerId.
 old-location: directmanipulation\idirectmanipulationdefercontactservice_defercontact.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: DEC97DD5-E43F-4541-8A80-D20EC8026493
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: DeferContact, DeferContact method [Direct Manipulation], DeferContact method [Direct Manipulation],IDirectManipulationDeferContactService interface, IDirectManipulationDeferContactService interface [Direct Manipulation],DeferContact method, IDirectManipulationDeferContactService.DeferContact, IDirectManipulationDeferContactService::DeferContact, directmanipulation.idirectmanipulationdefercontactservice_defercontact, directmanipulation/IDirectManipulationDeferContactService::DeferContact
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationDeferContactService.DeferContact
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationDeferContactService::DeferContact

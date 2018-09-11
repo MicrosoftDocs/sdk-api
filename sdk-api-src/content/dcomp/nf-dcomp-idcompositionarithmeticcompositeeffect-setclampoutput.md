@@ -4,17 +4,16 @@ title: IDCompositionArithmeticCompositeEffect::SetClampOutput
 author: windows-sdk-content
 description: Specifies whether to clamp color values before the effect passes the values to the next effect in the graph.
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setclampoutput.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 6558E6E7-FEF3-43F0-8508-197BA1DE3D10
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetClampOutput method, IDCompositionArithmeticCompositeEffect.SetClampOutput, IDCompositionArithmeticCompositeEffect::SetClampOutput, SetClampOutput, SetClampOutput method [DirectComposition], SetClampOutput method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetClampOutput, directcomp.idcompositionarithmeticcompositeeffect_setclampoutput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionArithmeticCompositeEffect.SetClampOutput
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionArithmeticCompositeEffect::SetClampOutput

@@ -4,17 +4,16 @@ title: "_SECURITY_MESSAGE"
 author: windows-sdk-content
 description: The SECURITY_MESSAGE structure is used with the RasSecurityDialogComplete function to indicate the results of a RAS security DLL authentication transaction.
 old-location: rras\security_message_str.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 7eab7bff-1c72-4382-980f-be4e58d60159
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSECURITY_MESSAGE, PSECURITY_MESSAGE, PSECURITY_MESSAGE structure pointer [RAS], SECURITYMSG_ERROR, SECURITYMSG_FAILURE, SECURITYMSG_SUCCESS, SECURITY_MESSAGE, SECURITY_MESSAGE structure [RAS], _SECURITY_MESSAGE, _ras_security_message_str, rasshost/PSECURITY_MESSAGE, rasshost/SECURITY_MESSAGE, rras.security_message_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rasshost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECURITY_MESSAGE, *PSECURITY_MESSAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECURITY_MESSAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECURITY_MESSAGE, *PSECURITY_MESSAGE
+req.redist: 
 ---
 
 # _SECURITY_MESSAGE structure

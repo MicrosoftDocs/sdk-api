@@ -4,17 +4,16 @@ title: HT_Get8BPPMaskPalette function
 author: windows-sdk-content
 description: The HT_Get8BPPMaskPalette function returns a mask palette for an 8-bits-per-pixel device type.
 old-location: display\ht_get8bppmaskpalette.htm
-old-project: display
+tech.root: display
 ms.assetid: 46e9b3e1-e9a5-4c18-8595-6f883a790b01
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: HT_Get8BPPMaskPalette, HT_Get8BPPMaskPalette function [Display Devices], display.ht_get8bppmaskpalette, gdifncs_5d4e6366-f721-442d-9666-12cadfef89b9.xml, winddi/HT_Get8BPPMaskPalette
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HT_Get8BPPMaskPalette
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # HT_Get8BPPMaskPalette function

@@ -4,7 +4,7 @@ title: "_MFSTREAMSINK_MARKER_TYPE"
 author: windows-sdk-content
 description: Defines stream marker information for the IMFStreamSink::PlaceMarker method.
 old-location: mf\mfstreamsink_marker_type.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d1c5f8ee-a451-44af-bf43-7623cea2be37
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSTREAMSINK_MARKER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFSTREAMSINK_MARKER_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFSTREAMSINK_MARKER_TYPE
+req.redist: 
 ---
 
 # _MFSTREAMSINK_MARKER_TYPE enumeration

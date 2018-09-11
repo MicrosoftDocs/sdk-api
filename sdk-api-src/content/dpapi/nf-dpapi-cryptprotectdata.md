@@ -4,17 +4,16 @@ title: CryptProtectData function
 author: windows-sdk-content
 description: Performs encryption on the data in a DATA_BLOB structure.
 old-location: security\cryptprotectdata.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 765a68fd-f105-49fc-a738-4a8129eb0770
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPTPROTECT_AUDIT, CRYPTPROTECT_LOCAL_MACHINE, CRYPTPROTECT_UI_FORBIDDEN, CryptProtectData, CryptProtectData function [Security], _crypto2_cryptprotectdata, dpapi/CryptProtectData, security.cryptprotectdata, wincrypt/CryptProtectData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ONEX_VARIABLE_BLOB, *PONEX_VARIABLE_BLOB
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CryptProtectData
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CryptProtectData function

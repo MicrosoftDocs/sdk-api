@@ -4,17 +4,16 @@ title: ISelectionProvider::get_IsSelectionRequired
 author: windows-sdk-content
 description: Indicates whether the Microsoft UI Automation provider requires at least one child element to be selected.
 old-location: winauto\uiauto_ISelectionProvider_IsSelectionRequired.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 1b1ee10d-39de-480f-901f-198d9a9c48f8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ISelectionProvider interface [Windows Accessibility],IsSelectionRequired property, ISelectionProvider.IsSelectionRequired, ISelectionProvider.get_IsSelectionRequired, ISelectionProvider::IsSelectionRequired, ISelectionProvider::get_IsSelectionRequired, IsSelectionRequired property [Windows Accessibility], IsSelectionRequired property [Windows Accessibility],ISelectionProvider interface, get_IsSelectionRequired, uiauto.uiauto_ISelectionProvider_IsSelectionRequired, uiauto_ISelectionProvider_IsSelectionRequired, uiautomationcore/ISelectionProvider::IsSelectionRequired, uiautomationcore/ISelectionProvider::get_IsSelectionRequired, winauto.uiauto_ISelectionProvider_IsSelectionRequired
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISelectionProvider.get_IsSelectionRequired
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISelectionProvider::get_IsSelectionRequired

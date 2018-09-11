@@ -4,17 +4,16 @@ title: IX509CertificateRequestCertificate::get_NotBefore
 author: windows-sdk-content
 description: Specifies or retrieves the date and time before which the certificate is not valid.
 old-location: security\ix509certificaterequestcertificate_notbefore_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 2568df97-6864-452d-aa18-a5ee47956abd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestCertificate interface [Security],NotBefore property, IX509CertificateRequestCertificate.NotBefore, IX509CertificateRequestCertificate.get_NotBefore, IX509CertificateRequestCertificate::NotBefore, IX509CertificateRequestCertificate::get_NotBefore, IX509CertificateRequestCertificate::put_NotBefore, NotBefore property [Security], NotBefore property [Security],IX509CertificateRequestCertificate interface, certenroll/IX509CertificateRequestCertificate::NotBefore, certenroll/IX509CertificateRequestCertificate::get_NotBefore, certenroll/IX509CertificateRequestCertificate::put_NotBefore, get_NotBefore, security.ix509certificaterequestcertificate_notbefore_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509CertificateRequestCertificate.put_NotBefore
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestCertificate::get_NotBefore

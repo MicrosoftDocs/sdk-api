@@ -4,17 +4,16 @@ title: "_WSB_OB_STATUS_INFO"
 author: windows-sdk-content
 description: Contains information to update the cloud backup provider status in the Windows Server Backup MMC snap-in.
 old-location: wsb\wsb_ob_status_info.htm
-old-project: wsb
+tech.root: wsb
 ms.assetid: 5836B3FC-5590-4678-A6BE-AD7C59E0FAFD
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: WSB_OB_STATUS_INFO, WSB_OB_STATUS_INFO structure [Windows Server Backup], _WSB_OB_STATUS_INFO, wsb.wsb_ob_status_info, wsbonline/WSB_OB_STATUS_INFO
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsbonline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSB_OB_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSB_OB_STATUS_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSB_OB_STATUS_INFO
+req.redist: 
 ---
 
 # _WSB_OB_STATUS_INFO structure

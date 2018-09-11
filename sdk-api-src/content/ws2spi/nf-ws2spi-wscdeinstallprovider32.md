@@ -4,17 +4,16 @@ title: WSCDeinstallProvider32 function
 author: windows-sdk-content
 description: Removes the specified 32-bit transport provider from the system configuration database.
 old-location: winsock\wscdeinstallprovider32.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 3de74059-dbfb-49b9-830b-7b2f81f8b68c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSCDeinstallProvider32, WSCDeinstallProvider32 function [Winsock], winsock.wscdeinstallprovider32, ws2spi/WSCDeinstallProvider32
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 x64 Edition [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_PROVIDER_INFO_TYPE
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSCDeinstallProvider32
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSCDeinstallProvider32 function

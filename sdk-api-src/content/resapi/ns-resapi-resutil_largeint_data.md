@@ -4,17 +4,16 @@ title: RESUTIL_LARGEINT_DATA
 author: windows-sdk-content
 description: Describes the default, maximum, and minimum values allowed for a signed large integer.
 old-location: mscs\resutil_largeint_data.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 2498a771-f430-4faa-81c8-78d56905d18b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRESUTIL_LARGEINT_DATA, PRESUTIL_LARGEINT_DATA, PRESUTIL_LARGEINT_DATA structure pointer [Failover Cluster], RESUTIL_LARGEINT_DATA, RESUTIL_LARGEINT_DATA structure [Failover Cluster], _wolf_resutil_largeint_data, mscs.resutil_largeint_data, resapi/PRESUTIL_LARGEINT_DATA, resapi/RESUTIL_LARGEINT_DATA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESUTIL_LARGEINT_DATA, *PRESUTIL_LARGEINT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RESUTIL_LARGEINT_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RESUTIL_LARGEINT_DATA, *PRESUTIL_LARGEINT_DATA
+req.redist: 
 ---
 
 # RESUTIL_LARGEINT_DATA structure

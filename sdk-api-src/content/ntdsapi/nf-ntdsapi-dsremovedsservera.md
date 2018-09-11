@@ -4,17 +4,16 @@ title: DsRemoveDsServerA function
 author: windows-sdk-content
 description: The DsRemoveDsServer function removes all traces of a directory service agent (DSA) from the global area of the directory service.
 old-location: ad\dsremovedsserver.htm
-old-project: ad
+tech.root: ad
 ms.assetid: a79a2b71-10c7-495b-861f-0c7a4d86f720
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsRemoveDsServer, DsRemoveDsServer function [Active Directory], DsRemoveDsServerA, DsRemoveDsServerW, _glines_dsremovedsserver, ad.dsremovedsserver, ntdsapi/DsRemoveDsServer, ntdsapi/DsRemoveDsServerA, ntdsapi/DsRemoveDsServerW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsRemoveDsServerW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsRemoveDsServerA function

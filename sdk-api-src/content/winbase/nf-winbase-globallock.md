@@ -4,17 +4,16 @@ title: GlobalLock function
 author: windows-sdk-content
 description: Locks a global memory object and returns a pointer to the first byte of the object's memory block.
 old-location: base\globallock.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 0d7deac2-c9c4-4adc-8a0a-edfc512a4d6c
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GlobalLock, GlobalLock function, _win32_globallock, base.globallock, winbase/GlobalLock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - GlobalLock
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GlobalLock function

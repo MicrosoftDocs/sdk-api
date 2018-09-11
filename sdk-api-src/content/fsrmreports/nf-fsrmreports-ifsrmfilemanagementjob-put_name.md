@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::put_Name
 author: windows-sdk-content
 description: The name of the file management job.
 old-location: fsrm\ifsrmfilemanagementjob_name.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 48f0b5ad-a986-4d56-a50f-4bb4dfa7a4b8
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Name property, IFsrmFileManagementJob.Name, IFsrmFileManagementJob.put_Name, IFsrmFileManagementJob::Name, IFsrmFileManagementJob::get_Name, IFsrmFileManagementJob::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_name, fsrm.ifsrmfilemanagementjob_name, fsrmreports/IFsrmFileManagementJob::Name, fsrmreports/IFsrmFileManagementJob::get_Name, fsrmreports/IFsrmFileManagementJob::put_Name, put_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmFileManagementJob.put_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::put_Name

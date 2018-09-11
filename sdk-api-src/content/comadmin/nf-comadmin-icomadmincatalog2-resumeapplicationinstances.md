@@ -4,17 +4,16 @@ title: ICOMAdminCatalog2::ResumeApplicationInstances
 author: windows-sdk-content
 description: Resumes the specified application server processes.
 old-location: cos\icomadmincatalog2_resumeapplicationinstances.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 675ecabc-1414-4cf6-b691-805e9a5cb61c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],ResumeApplicationInstances method, ICOMAdminCatalog2.ResumeApplicationInstances, ICOMAdminCatalog2::ResumeApplicationInstances, ResumeApplicationInstances, ResumeApplicationInstances method [COM+], ResumeApplicationInstances method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_ResumeApplicationInstances, comadmin/ICOMAdminCatalog2::ResumeApplicationInstances, cos.icomadmincatalog2_resumeapplicationinstances
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog2.ResumeApplicationInstances
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog2::ResumeApplicationInstances

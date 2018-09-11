@@ -4,17 +4,16 @@ title: IWbemHiPerfProvider::CreateRefreshableObject
 author: windows-sdk-content
 description: Requests a refreshable instance object.
 old-location: wmi\iwbemhiperfprovider_createrefreshableobject.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 1eb414e0-cdf6-4caa-88a5-8da17a32449c
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CreateRefreshableObject, CreateRefreshableObject method [Windows Management Instrumentation], CreateRefreshableObject method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],CreateRefreshableObject method, IWbemHiPerfProvider.CreateRefreshableObject, IWbemHiPerfProvider::CreateRefreshableObject, _hmm_iwbemhiperfprovider_createrefreshableobject, wbemprov/IWbemHiPerfProvider::CreateRefreshableObject, wmi.iwbemhiperfprovider_createrefreshableobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: Wbemuuid.lib
+req.dll: Wmiprvsd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemHiPerfProvider.CreateRefreshableObject
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmiprvsd.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemHiPerfProvider::CreateRefreshableObject
@@ -90,7 +88,7 @@ Reserved. This parameter must be 0.
 
 ### -param pContext
 
-
+TBD
 
 
 ### -param ppRefreshable [out]
@@ -101,7 +99,7 @@ Pointer that holds the reference to a
 
 ### -param plId
 
-
+TBD
 
 
 

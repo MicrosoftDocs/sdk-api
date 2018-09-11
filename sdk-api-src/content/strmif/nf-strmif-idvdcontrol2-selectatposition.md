@@ -4,17 +4,16 @@ title: IDvdControl2::SelectAtPosition
 author: windows-sdk-content
 description: The SelectAtPosition method highlights the menu button under the mouse pointer position.
 old-location: dshow\idvdcontrol2_selectatposition.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f6cb9cb4-0792-43f5-b53b-02a38ccf0398
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectAtPosition method, IDvdControl2.SelectAtPosition, IDvdControl2::SelectAtPosition, IDvdControl2SelectAtPosition, SelectAtPosition, SelectAtPosition method [DirectShow], SelectAtPosition method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectatposition, strmif/IDvdControl2::SelectAtPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdControl2.SelectAtPosition
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl2::SelectAtPosition

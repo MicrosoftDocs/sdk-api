@@ -4,17 +4,16 @@ title: ITfRange::ShiftStart
 author: windows-sdk-content
 description: ITfRange::ShiftStart method
 old-location: tsf\itfrange_shiftstart.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: f9f983b1-a5fa-4857-b73c-b879c566d6f6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftStart method, ITfRange.ShiftStart, ITfRange::ShiftStart, ShiftStart, ShiftStart method [Text Services Framework], ShiftStart method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftstart_ref, msctf/ITfRange::ShiftStart, tsf.itfrange_shiftstart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfRange.ShiftStart
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfRange::ShiftStart

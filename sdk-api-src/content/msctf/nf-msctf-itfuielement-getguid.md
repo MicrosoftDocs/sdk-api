@@ -4,17 +4,16 @@ title: ITfUIElement::GetGUID
 author: windows-sdk-content
 description: The ITfUIElement::GetGUID method returns the unique id of this UI element.
 old-location: tsf\itfuielement_getguid.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 0456761e-58fc-4cda-a576-829dd2c1235f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetGUID, GetGUID method [Text Services Framework], GetGUID method [Text Services Framework],ITfUIElement interface, ITfUIElement interface [Text Services Framework],GetGUID method, ITfUIElement.GetGUID, ITfUIElement::GetGUID, msctf/ITfUIElement::GetGUID, tsf.itfuielement_getguid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfUIElement.GetGUID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfUIElement::GetGUID

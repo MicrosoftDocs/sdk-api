@@ -4,17 +4,16 @@ title: IDCompositionScaleTransform::SetScaleY(IDCompositionAnimation)
 author: windows-sdk-content
 description: Changes the value of the ScaleY property of a 2D scale transform.
 old-location: directcomp\idcompositionscaletransform_setscaley_float.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: D47D6FA3-D5D2-47BD-8DE0-6E0EE08EE7C4
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetScaleY method, IDCompositionScaleTransform.SetScaleY, IDCompositionScaleTransform.SetScaleY(IDCompositionAnimation), IDCompositionScaleTransform::SetScaleY, IDCompositionScaleTransform::SetScaleY(IDCompositionAnimation), IDCompositionScaleTransform::SetScaleY(float), SetScaleY, SetScaleY method [DirectComposition], SetScaleY method [DirectComposition],IDCompositionScaleTransform interface, dcomp/IDCompositionScaleTransform::SetScaleY, directcomp.idcompositionscaletransform_setscaley_float
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionScaleTransform.SetScaleY
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionScaleTransform::SetScaleY(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Changes the value of the ScaleY property of a 2D scale transform. The ScaleY pro
 
 ### -param animation
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IDCompositionSurface::Scroll
 author: windows-sdk-content
 description: Scrolls a rectangular area of a Microsoft DirectComposition logical surface.
 old-location: directcomp\idcompositionsurface_scroll.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 0764C59A-DDDE-420C-B044-827B7EDC6CF1
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionSurface interface [DirectComposition],Scroll method, IDCompositionSurface.Scroll, IDCompositionSurface::Scroll, Scroll, Scroll method [DirectComposition], Scroll method [DirectComposition],IDCompositionSurface interface, dcomp/IDCompositionSurface::Scroll, directcomp.idcompositionsurface_scroll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionSurface.Scroll
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionSurface::Scroll

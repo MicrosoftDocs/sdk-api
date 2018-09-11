@@ -4,17 +4,16 @@ title: VariantToStrRet function
 author: windows-sdk-content
 description: If the source variant is a VT_BSTR, extracts string and places it into a STRRET structure.
 old-location: properties\VariantToStrRet.htm
-old-project: properties
+tech.root: properties
 ms.assetid: dfc1f52e-58c6-48fd-8da9-1d4d5115912c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VariantToStrRet, VariantToStrRet function [Windows Properties], _shell_VariantToStrRet, properties.VariantToStrRet, propvarutil/VariantToStrRet, shell.VariantToStrRet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VariantToStrRet
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # VariantToStrRet function

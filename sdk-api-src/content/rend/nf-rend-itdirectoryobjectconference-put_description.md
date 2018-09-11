@@ -4,17 +4,16 @@ title: ITDirectoryObjectConference::put_Description
 author: windows-sdk-content
 description: The put_Description method sets the description of the conference.
 old-location: tapi3\itdirectoryobjectconference_put_description.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 46f58067-22ec-490e-b6cc-0fdc12dbb8f7
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_Description method, ITDirectoryObjectConference.put_Description, ITDirectoryObjectConference::put_Description, _tapi3_itdirectoryobjectconference_put_description, put_Description, put_Description method [TAPI 2.2], put_Description method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_Description, tapi3.itdirectoryobjectconference_put_description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDirectoryObjectConference.put_Description
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITDirectoryObjectConference::put_Description

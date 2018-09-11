@@ -4,7 +4,7 @@ title: SYNC_ENGINE_STATE_FLAGS
 author: windows-sdk-content
 description: Specifies values used by any sync engine to expose their internal engine states to the Property Store's PKEY_StorageProviderStatus value in the File Indexer To update the property, first call IShellItem2::GetPropertyStore with the GPS_EXTRINSICPROPERTIES flag. Next, call the IPropertyStore::SetValue method of the returned object, specifying the PKEY_StorageProviderStatus key, to set the property's bitmask value using these SYNC_ENGINE_STATE_FLAGS.
 old-location: properties\SYNC_ENGINE_STATE_FLAGS.htm
-old-project: properties
+tech.root: properties
 ms.assetid: BD81EE89-AAB3-4270-8F62-B26708740EE1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_ENGINE_STATE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNC_ENGINE_STATE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: SYNC_ENGINE_STATE_FLAGS
+req.redist: 
 ---
 
 # SYNC_ENGINE_STATE_FLAGS enumeration

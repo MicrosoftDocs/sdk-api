@@ -4,17 +4,16 @@ title: INameSpaceTreeControlFolderCapabilities
 author: windows-sdk-content
 description: Exposes a single method that retrieves the status of a folder's System.IsPinnedToNameSpaceTree filtering support.
 old-location: shell\INameSpaceTreeControlFolderCapabilities.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2a5580f6-42cb-46c7-9507-a59d36b2cd91
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControlFolderCapabilities, INameSpaceTreeControlFolderCapabilities interface [Windows Shell], INameSpaceTreeControlFolderCapabilities interface [Windows Shell],described, _shell_INameSpaceTreeControlFolderCapabilities, shell.INameSpaceTreeControlFolderCapabilities, shobjidl_core/INameSpaceTreeControlFolderCapabilities
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControlFolderCapabilities
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControlFolderCapabilities interface

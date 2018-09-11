@@ -4,17 +4,16 @@ title: GetDevicePowerState function
 author: windows-sdk-content
 description: Retrieves the current power state of the specified device.
 old-location: base\getdevicepowerstate.htm
-old-project: power
+tech.root: power
 ms.assetid: 017965d8-78f1-4643-b3d1-25f1303bced7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDevicePowerState, GetDevicePowerState function, _win32_getdevicepowerstate, base.getdevicepowerstate, winbase/GetDevicePowerState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetDevicePowerState
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetDevicePowerState function

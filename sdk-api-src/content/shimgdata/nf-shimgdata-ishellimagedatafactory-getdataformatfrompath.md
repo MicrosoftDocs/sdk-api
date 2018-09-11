@@ -4,17 +4,16 @@ title: IShellImageDataFactory::GetDataFormatFromPath
 author: windows-sdk-content
 description: Determines a file's format based on its extension.
 old-location: shell\IShellImageDataFactory_GetDataFormatFromPath.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ca6aa555-5997-43c6-84d1-35a24301d0a2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetDataFormatFromPath, GetDataFormatFromPath method [Windows Shell], GetDataFormatFromPath method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],GetDataFormatFromPath method, IShellImageDataFactory.GetDataFormatFromPath, IShellImageDataFactory::GetDataFormatFromPath, _shell_IShellImageDataFactory_GetDataFormatFromPath, shell.IShellImageDataFactory_GetDataFormatFromPath, shimgdata/IShellImageDataFactory::GetDataFormatFromPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageDataFactory.GetDataFormatFromPath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageDataFactory::GetDataFormatFromPath

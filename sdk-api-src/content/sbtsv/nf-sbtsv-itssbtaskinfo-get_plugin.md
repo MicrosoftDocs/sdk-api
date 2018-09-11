@@ -4,17 +4,16 @@ title: ITsSbTaskInfo::get_Plugin
 author: windows-sdk-content
 description: Retrieves the display name of the task agent.
 old-location: termserv\itssbtaskinfo_plugin.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 1302377f-08db-413a-9f6c-ab9c974cf760
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],Plugin property, ITsSbTaskInfo.Plugin, ITsSbTaskInfo.get_Plugin, ITsSbTaskInfo::Plugin, ITsSbTaskInfo::get_Plugin, Plugin property [Remote Desktop Services], Plugin property [Remote Desktop Services],ITsSbTaskInfo interface, get_Plugin, sbtsv/ITsSbTaskInfo::Plugin, sbtsv/ITsSbTaskInfo::get_Plugin, termserv.itssbtaskinfo_plugin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbTaskInfo.get_Plugin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbTaskInfo::get_Plugin

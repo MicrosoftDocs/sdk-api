@@ -4,17 +4,16 @@ title: IMFMediaEngineEx::GetRealTimeMode
 author: windows-sdk-content
 description: Gets the real time mode used for the next call to SetSource or Load.
 old-location: mf\imfmediaengineex_getrealtimemode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 473a2b5a-5b9d-4754-bd32-89c9c4ab8c4a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetRealTimeMode, GetRealTimeMode method [Media Foundation], GetRealTimeMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetRealTimeMode method, IMFMediaEngineEx.GetRealTimeMode, IMFMediaEngineEx::GetRealTimeMode, mf.imfmediaengineex_getrealtimemode, mfmediaengine/IMFMediaEngineEx::GetRealTimeMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineEx.GetRealTimeMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineEx::GetRealTimeMode

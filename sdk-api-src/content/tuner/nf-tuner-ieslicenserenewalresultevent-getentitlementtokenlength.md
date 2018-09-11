@@ -4,17 +4,16 @@ title: IESLicenseRenewalResultEvent::GetEntitlementTokenLength
 author: windows-sdk-content
 description: Gets the length of the entitlement token in a protected-content license from a LicenseRenewalResult event.
 old-location: mstv\ieslicenserenewalresultevent_getentitlementtokenlength.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e1c8f12c-c2f1-48c1-90fc-051ac87863d5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetEntitlementTokenLength, GetEntitlementTokenLength method [DirectShow], GetEntitlementTokenLength method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetEntitlementTokenLength method, IESLicenseRenewalResultEvent.GetEntitlementTokenLength, IESLicenseRenewalResultEvent::GetEntitlementTokenLength, mstv.ieslicenserenewalresultevent_getentitlementtokenlength, tuner/IESLicenseRenewalResultEvent::GetEntitlementTokenLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IESLicenseRenewalResultEvent.GetEntitlementTokenLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IESLicenseRenewalResultEvent::GetEntitlementTokenLength

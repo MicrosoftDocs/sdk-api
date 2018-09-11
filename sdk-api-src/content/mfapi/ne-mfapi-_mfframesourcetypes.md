@@ -4,7 +4,7 @@ title: "_MFFrameSourceTypes"
 author: windows-sdk-content
 description: Describes the type of data provided by a frame source.
 old-location: mf\mfframesourcetypes.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: F5926479-C41D-4702-8220-6A79859BD0F4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFFrameSourceTypes
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFFrameSourceTypes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFFrameSourceTypes
+req.redist: 
 ---
 
 # _MFFrameSourceTypes enumeration

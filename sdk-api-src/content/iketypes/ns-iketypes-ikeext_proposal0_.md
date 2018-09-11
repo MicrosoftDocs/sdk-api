@@ -4,7 +4,7 @@ title: IKEEXT_PROPOSAL0_
 author: windows-sdk-content
 description: Is used to store an IKE/AuthIP main mode proposal.
 old-location: fwp\ikeext_proposal0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 59568ef7-12bd-407a-a8ee-9bf261f49883
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEEXT_PROPOSAL0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEEXT_PROPOSAL0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEEXT_PROPOSAL0
+req.redist: 
 ---
 
 # IKEEXT_PROPOSAL0_ structure

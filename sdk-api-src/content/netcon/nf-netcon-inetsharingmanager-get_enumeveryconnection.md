@@ -4,17 +4,16 @@ title: INetSharingManager::get_EnumEveryConnection
 author: windows-sdk-content
 description: The get_EnumEveryConnection method retrieves an enumeration interface for all the connections in the connection folder.
 old-location: ics\inetsharingmanager_get_enumeveryconnection.htm
-old-project: ics
+tech.root: ics
 ms.assetid: f200ffbf-3ce1-4c1b-b4c6-28a8784b5cb8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_EnumEveryConnection method, INetSharingManager.get_EnumEveryConnection, INetSharingManager::get_EnumEveryConnection, _ics_inetsharingmanager_get_enumeveryconnection, get_EnumEveryConnection, get_EnumEveryConnection method [ICS/ICF], get_EnumEveryConnection method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_enumeveryconnection, netcon/INetSharingManager::get_EnumEveryConnection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingManager.get_EnumEveryConnection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingManager::get_EnumEveryConnection
@@ -65,7 +63,7 @@ The
 
 ### -param ppColl
 
-
+TBD
 
 
 

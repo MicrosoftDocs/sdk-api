@@ -4,7 +4,7 @@ title: "_DHCP_IP_CLUSTER"
 author: windows-sdk-content
 description: The DHCP_IP_CLUSTER structure defines the address and mast for a network cluster.
 old-location: dhcp\dhcp_ip_cluster.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 6dad62c3-c56f-4526-ae5c-dbb74cb13c8f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_IP_CLUSTER, *LPDHCP_IP_CLUSTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_IP_CLUSTER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_IP_CLUSTER, *LPDHCP_IP_CLUSTER
+req.redist: 
 ---
 
 # _DHCP_IP_CLUSTER structure

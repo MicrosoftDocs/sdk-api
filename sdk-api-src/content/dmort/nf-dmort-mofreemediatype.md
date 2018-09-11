@@ -4,17 +4,16 @@ title: MoFreeMediaType function
 author: windows-sdk-content
 description: The MoFreeMediaType function frees the allocated members of a media type structure.
 old-location: dshow\mofreemediatype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a1f0949d-a590-4759-87b5-f47307bc3ec0
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: MoFreeMediaType, MoFreeMediaType function [DirectShow], dmort/MoFreeMediaType, dshow.mofreemediatype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dmort.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: Msdmo.lib
+req.dll: Msdmo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MoFreeMediaType
 product: Windows
 targetos: Windows
-req.lib: Msdmo.lib
-req.dll: Msdmo.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # MoFreeMediaType function

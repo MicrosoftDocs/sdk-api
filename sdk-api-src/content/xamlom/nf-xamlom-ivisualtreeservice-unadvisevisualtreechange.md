@@ -4,17 +4,16 @@ title: IVisualTreeService::UnadviseVisualTreeChange
 author: windows-sdk-content
 description: Stops listening for changes to the visual tree.
 old-location: xaml_diagnostics\ivisualtreeservice_unadvisevisualtreechange.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: E77CBED8-F214-48AC-903E-F01B6EECA2ED
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVisualTreeService interface,UnadviseVisualTreeChange method, IVisualTreeService.UnadviseVisualTreeChange, IVisualTreeService::UnadviseVisualTreeChange, UnadviseVisualTreeChange, UnadviseVisualTreeChange method, UnadviseVisualTreeChange method,IVisualTreeService interface, xaml_diagnostics.ivisualtreeservice_unadvisevisualtreechange, xamlom/IVisualTreeService::UnadviseVisualTreeChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualMutationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualTreeService.UnadviseVisualTreeChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualTreeService::UnadviseVisualTreeChange
@@ -62,7 +60,7 @@ Stops listening for changes to the visual tree.
 
 ### -param pCallback
 
-
+TBD
 
 
 

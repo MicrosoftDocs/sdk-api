@@ -4,17 +4,16 @@ title: INameSpaceTreeControl2
 author: windows-sdk-content
 description: Extends the INameSpaceTreeControl interface by providing methods that get and set the display styles of treeview controls for use with Shell namespace items.
 old-location: shell\INameSpaceTreeControl2.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5f9514db-35fe-44c7-9324-d69022628913
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControl2, INameSpaceTreeControl2 interface [Windows Shell], INameSpaceTreeControl2 interface [Windows Shell],described, _shell_INameSpaceTreeControl2, shell.INameSpaceTreeControl2, shobjidl/INameSpaceTreeControl2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControl2
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Shimgvw.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControl2 interface

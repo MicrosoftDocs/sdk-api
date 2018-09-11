@@ -4,17 +4,16 @@ title: InetIsOffline function
 author: windows-sdk-content
 description: Determines whether the system is connected to the Internet.
 old-location: shell\InetIsOffline.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e0afac1c-c083-4b60-a30f-5dfc1a4b8fd3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: InetIsOffline, InetIsOffline function [Windows Shell], _win32_InetIsOffline, intshcut/InetIsOffline, shell.InetIsOffline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intshcut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URLASSOCIATIONDIALOG_IN_FLAGS
+req.lib: 
+req.dll: Url.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InetIsOffline
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Url.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # InetIsOffline function

@@ -4,17 +4,16 @@ title: IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition
 author: windows-sdk-content
 description: Creates an accelerate-decelerate transition.
 old-location: uianimation\iuianimationtransitionlibrary_createacceleratedeceleratetransition.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 97a0c6cc-991b-464f-b000-1d1199c5f4de
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateAccelerateDecelerateTransition, CreateAccelerateDecelerateTransition method [Windows Animation], CreateAccelerateDecelerateTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateAccelerateDecelerateTransition method, IUIAnimationTransitionLibrary.CreateAccelerateDecelerateTransition, IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition, uianimation.iuianimationtransitionlibrary_createacceleratedeceleratetransition, uianimation/IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationTransitionLibrary.CreateAccelerateDecelerateTransition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition

@@ -4,17 +4,16 @@ title: IEnumBackgroundCopyJobs::Clone
 author: windows-sdk-content
 description: Creates another IEnumBackgroundCopyJobs enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbackgroundcopyjobs_clone.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 5d83af74-c24c-41e2-aef4-d7210a1d0160
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBackgroundCopyJobs interface, IEnumBackgroundCopyJobs interface [BITS],Clone method, IEnumBackgroundCopyJobs.Clone, IEnumBackgroundCopyJobs::Clone, _drz_ienumbackgroundcopyjobs_clone, bits.ienumbackgroundcopyjobs_clone, bits/IEnumBackgroundCopyJobs::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumBackgroundCopyJobs.Clone
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumBackgroundCopyJobs::Clone
@@ -64,7 +63,7 @@ Using this method, a client can record a particular point in the enumeration seq
 
 ### -param ppenum
 
-
+TBD
 
 
 

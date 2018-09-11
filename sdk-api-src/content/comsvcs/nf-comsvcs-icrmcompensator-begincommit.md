@@ -4,17 +4,16 @@ title: ICrmCompensator::BeginCommit
 author: windows-sdk-content
 description: Notifies the CRM Compensator of the commit phase of the transaction completion and that records are about to be delivered.
 old-location: cos\icrmcompensator_begincommit.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 350f91f9-b019-4c70-9c3e-0d567479d3d0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BeginCommit, BeginCommit method [COM+], BeginCommit method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],BeginCommit method, ICrmCompensator.BeginCommit, ICrmCompensator::BeginCommit, _dtc_ICrmCompensator_BeginCommit, comsvcs/ICrmCompensator::BeginCommit, cos.icrmcompensator_begincommit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmCompensator.BeginCommit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmCompensator::BeginCommit

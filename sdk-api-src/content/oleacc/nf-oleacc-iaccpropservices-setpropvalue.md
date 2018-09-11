@@ -4,17 +4,16 @@ title: IAccPropServices::SetPropValue
 author: windows-sdk-content
 description: Use SetPropValue to identify the accessible element to be annotated, specify the property to be annotated, and provide a new value for that property.
 old-location: winauto\iaccpropservices_iaccpropservices__setpropvalue.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: c86acb70-fa77-4f95-8a99-e60872cdaa7e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccPropServices interface [Windows Accessibility],SetPropValue method, IAccPropServices.SetPropValue, IAccPropServices::SetPropValue, SetPropValue, SetPropValue method [Windows Accessibility], SetPropValue method [Windows Accessibility],IAccPropServices interface, _msaa_IAccPropServices_SetPropValue, msaa.iaccpropservices_iaccpropservices__setpropvalue, oleacc/IAccPropServices::SetPropValue, winauto.iaccpropservices_iaccpropservices__setpropvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
-req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: 
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccPropServices.SetPropValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 ---
 
 # IAccPropServices::SetPropValue

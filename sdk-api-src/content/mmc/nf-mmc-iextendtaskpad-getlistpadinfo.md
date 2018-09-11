@@ -4,17 +4,16 @@ title: IExtendTaskPad::GetListPadInfo
 author: windows-sdk-content
 description: The IExtendTaskPad::GetListPadInfo method is used for list-view taskpads only.
 old-location: mmc\iextendtaskpad_getlistpadinfo.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 73e9d281-9bf9-4a50-b3e8-226ed3593f7a
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: GetListPadInfo, GetListPadInfo method [MMC], GetListPadInfo method [MMC],IExtendTaskPad interface, IExtendTaskPad interface [MMC],GetListPadInfo method, IExtendTaskPad.GetListPadInfo, IExtendTaskPad::GetListPadInfo, _slate_iextendtaskpad_getlistpadinfo, mmc.iextendtaskpad_getlistpadinfo, mmc/IExtendTaskPad::GetListPadInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExtendTaskPad.GetListPadInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IExtendTaskPad::GetListPadInfo

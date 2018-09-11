@@ -4,17 +4,16 @@ title: MFDeserializeAttributesFromStream function
 author: windows-sdk-content
 description: Loads attributes from a stream into an attribute store.
 old-location: mf\mfdeserializeattributesfromstream.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: cc0bccfd-7e67-4e55-9d3e-ebcd91b94a3a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFDeserializeAttributesFromStream, MFDeserializeAttributesFromStream function [Media Foundation], cc0bccfd-7e67-4e55-9d3e-ebcd91b94a3a, mf.mfdeserializeattributesfromstream, mfobjects/MFDeserializeAttributesFromStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFDeserializeAttributesFromStream
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFDeserializeAttributesFromStream function

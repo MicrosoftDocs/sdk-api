@@ -4,17 +4,16 @@ title: IQueryCodePage
 author: windows-sdk-content
 description: Gets and sets the numeric value (Code Page identifier) of the ANSI code page.
 old-location: shell\IQueryCodePage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 362a0b69-ca57-4d56-8c14-8f32aa41926c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IQueryCodePage, IQueryCodePage interface [Windows Shell], IQueryCodePage interface [Windows Shell],described, _shell_IQueryCodePage, shell.IQueryCodePage, shobjidl/IQueryCodePage
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IQueryCodePage
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IQueryCodePage interface

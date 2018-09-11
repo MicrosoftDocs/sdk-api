@@ -4,17 +4,16 @@ title: SetServiceStatus function
 author: windows-sdk-content
 description: Updates the service control manager's status information for the calling service.
 old-location: base\setservicestatus.htm
-old-project: services
+tech.root: Services
 ms.assetid: bb5943ff-2814-40f2-bee0-ae7132befde9
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: SetServiceStatus, SetServiceStatus function, _win32_setservicestatus, base.setservicestatus, winsvc/SetServiceStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - SetServiceStatus
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SetServiceStatus function

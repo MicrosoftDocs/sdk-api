@@ -4,17 +4,16 @@ title: WDStatus function
 author: windows-sdk-content
 description: Returns the current status of Windows Defender.
 old-location: lwef\defender_wdstatus.htm
-old-project: lwef
+tech.root: lwef
 ms.assetid: 885729a7-13a4-401e-ad7b-4f679777531b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: WDStatus, WDStatus function [Legacy Windows Environment Features], lwef.defender_wdstatus, shell.defender_wdstatus, shell_defender_WDStatus, windowsdefender/WDStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: windowsdefender.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: MpClient.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WDStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MpClient.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WDStatus function

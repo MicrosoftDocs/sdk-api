@@ -4,17 +4,16 @@ title: IAMWMBufferPassCallback::Notify
 author: windows-sdk-content
 description: The Notify method is called by the pin for each buffer that is delivered during streaming.
 old-location: dshow\iamwmbufferpasscallback_notify.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 13778b61-0e75-412f-b1e4-eaaf5ec0c853
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMWMBufferPassCallback interface [DirectShow],Notify method, IAMWMBufferPassCallback.Notify, IAMWMBufferPassCallback::Notify, IAMWMBufferPassCallbackNotify, Notify, Notify method [DirectShow], Notify method [DirectShow],IAMWMBufferPassCallback interface, dshow.iamwmbufferpasscallback_notify, dshowasf/IAMWMBufferPassCallback::Notify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAMWMBufferPassCallback.Notify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows Media Format 9 Series or later
 ---
 

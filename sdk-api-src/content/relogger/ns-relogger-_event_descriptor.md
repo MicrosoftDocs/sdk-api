@@ -4,7 +4,7 @@ title: "_EVENT_DESCRIPTOR"
 author: windows-sdk-content
 description: Contains metadata that defines the event.
 old-location: etw\event_descriptor.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 907e6c38-5eaa-49da-9dc0-d055dcc69d1a
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: relogger.h
 req.include-header: Evntprov.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Relogger.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_DESCRIPTOR, *PEVENT_DESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENT_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: EVENT_DESCRIPTOR, *PEVENT_DESCRIPTOR
+req.redist: 
 ---
 
 # _EVENT_DESCRIPTOR structure

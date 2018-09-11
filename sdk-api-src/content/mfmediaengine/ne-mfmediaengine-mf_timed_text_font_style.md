@@ -4,7 +4,7 @@ title: MF_TIMED_TEXT_FONT_STYLE
 author: windows-sdk-content
 description: Specifies the font style of the timed text.
 old-location: mf\mf_timed_text_font_style.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 29D8CCBD-B69A-46B5-8320-06C0E2EA81AE
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mfmediaengine.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_TIMED_TEXT_FONT_STYLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_TIMED_TEXT_FONT_STYLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_TIMED_TEXT_FONT_STYLE
+req.redist: 
 ---
 
 # MF_TIMED_TEXT_FONT_STYLE enumeration

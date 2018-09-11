@@ -4,17 +4,16 @@ title: NetMessageNameEnum function
 author: windows-sdk-content
 description: The NetMessageNameEnum function lists the message aliases that receive messages on a specified computer. The function requires that the messenger service be started.
 old-location: netmgmt\netmessagenameenum.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: fc1b11e6-294d-47d3-8c63-bee80b5a8581
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 0, 1, NetMessageNameEnum, NetMessageNameEnum function [Network Management], _win32_netmessagenameenum, lmmsg/NetMessageNameEnum, netmgmt.netmessagenameenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmmsg.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETSETUP_PROVISIONING_PARAMS, *PNETSETUP_PROVISIONING_PARAMS
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetMessageNameEnum
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetMessageNameEnum function

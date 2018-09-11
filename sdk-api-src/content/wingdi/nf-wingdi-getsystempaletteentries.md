@@ -4,17 +4,16 @@ title: GetSystemPaletteEntries function
 author: windows-sdk-content
 description: The GetSystemPaletteEntries function retrieves a range of palette entries from the system palette that is associated with the specified device context (DC).
 old-location: gdi\getsystempaletteentries.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 67bb0adf-ae7f-48d5-bc62-82ece45aeee6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSystemPaletteEntries, GetSystemPaletteEntries function [Windows GDI], _win32_GetSystemPaletteEntries, gdi.getsystempaletteentries, wingdi/GetSystemPaletteEntries
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - GetSystemPaletteEntries
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetSystemPaletteEntries function

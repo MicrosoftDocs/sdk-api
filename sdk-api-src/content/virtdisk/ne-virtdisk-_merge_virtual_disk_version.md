@@ -4,17 +4,16 @@ title: "_MERGE_VIRTUAL_DISK_VERSION"
 author: windows-sdk-content
 description: Contains the version of the virtual hard disk (VHD) MERGE_VIRTUAL_DISK_PARAMETERS structure to use in calls to VHD functions.
 old-location: vhd\merge_virtual_disk_version.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 1f542a51-d314-4add-a389-d450785b0a73
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MERGE_VIRTUAL_DISK_VERSION, MERGE_VIRTUAL_DISK_VERSION enumeration [VHD], MERGE_VIRTUAL_DISK_VERSION_1, MERGE_VIRTUAL_DISK_VERSION_2, MERGE_VIRTUAL_DISK_VERSION_UNSPECIFIED, _MERGE_VIRTUAL_DISK_VERSION, vdssys/MERGE_VIRTUAL_DISK_VERSION, vdssys/MERGE_VIRTUAL_DISK_VERSION_1, vdssys/MERGE_VIRTUAL_DISK_VERSION_2, vdssys/MERGE_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.merge_virtual_disk_version, virtdisk/MERGE_VIRTUAL_DISK_VERSION, virtdisk/MERGE_VIRTUAL_DISK_VERSION_1, virtdisk/MERGE_VIRTUAL_DISK_VERSION_2, virtdisk/MERGE_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MERGE_VIRTUAL_DISK_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MERGE_VIRTUAL_DISK_VERSION
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: MERGE_VIRTUAL_DISK_VERSION
+req.redist: 
 ---
 
 # _MERGE_VIRTUAL_DISK_VERSION enumeration

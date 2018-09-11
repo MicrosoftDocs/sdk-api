@@ -4,17 +4,16 @@ title: IXpsOMGradientStop::GetColor
 author: windows-sdk-content
 description: Gets the color value and color profile of the gradient stop.
 old-location: xps\ixpsomgradientstop_getcolor.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 6630d58f-d0f0-4b39-a14c-d3955f0f401a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetColor, GetColor method [XPS Documents and Packaging], GetColor method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],GetColor method, IXpsOMGradientStop.GetColor, IXpsOMGradientStop::GetColor, xps.ixpsomgradientstop_getcolor, xpsobjectmodel/IXpsOMGradientStop::GetColor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMGradientStop.GetColor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMGradientStop::GetColor

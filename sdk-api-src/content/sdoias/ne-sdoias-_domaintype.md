@@ -4,7 +4,7 @@ title: "_DOMAINTYPE"
 author: windows-sdk-content
 description: The values of the IASDOMAINTYPE enumeration type specify whether the SDO computer is part of a domain, and if so, what type of domain.
 old-location: nps\SDO_iasdomaintype.htm
-old-project: nps
+tech.root: nps
 ms.assetid: d6c36f76-d265-446b-986e-b23d9550ba3b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.unicode-ansi: 
 req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IASDOMAINTYPE, *PIASDOMAINTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IASDOMAINTYPE
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: IASDOMAINTYPE, *PIASDOMAINTYPE
+req.redist: 
 ---
 
 # _DOMAINTYPE enumeration

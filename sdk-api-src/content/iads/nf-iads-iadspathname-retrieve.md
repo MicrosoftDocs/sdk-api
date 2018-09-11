@@ -4,17 +4,16 @@ title: IADsPathname::Retrieve
 author: windows-sdk-content
 description: The IADsPathname::Retrieve method retrieves the path of the object with different format types.
 old-location: adsi\iadspathname_retrieve.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: c34f2a5e-5faf-45bf-acc6-8db5fc8bf5fa
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsPathname interface [ADSI],Retrieve method, IADsPathname.Retrieve, IADsPathname::Retrieve, Retrieve, Retrieve method [ADSI], Retrieve method [ADSI],IADsPathname interface, _ds_iadspathname_retrieve, adsi.iadspathname__retrieve, adsi.iadspathname_retrieve, iads/IADsPathname::Retrieve
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsPathname.Retrieve
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsPathname::Retrieve

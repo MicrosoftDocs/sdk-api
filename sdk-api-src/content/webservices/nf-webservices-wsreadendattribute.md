@@ -4,17 +4,16 @@ title: WsReadEndAttribute function
 author: windows-sdk-content
 description: Moves the reader back to the element node containing the attribute that was read.
 old-location: wsw\wsreadendattribute.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 1181ca68-f67b-47e1-b9de-1bc57ecf36f6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsReadEndAttribute, WsReadEndAttribute function [Web Services for Windows], webservices/WsReadEndAttribute, wsw.wsreadendattribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsReadEndAttribute
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsReadEndAttribute function

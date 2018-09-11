@@ -4,17 +4,16 @@ title: WlanQueryInterface function
 author: windows-sdk-content
 description: The WlanQueryInterface function queries various parameters of a specified interface.
 old-location: nwifi\wlanqueryinterface.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: e20eb9a3-5824-48ee-b13e-b0252bbf495e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WlanQueryInterface, WlanQueryInterface function [NativeWIFI], nwifi.wlanqueryinterface, wlanapi/WlanQueryInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
-req.redist: Wireless LAN API for Windows XP with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
+req.lib: Wlanapi.lib
+req.dll: Wlanapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WlanQueryInterface
 product: Windows
 targetos: Windows
-req.lib: Wlanapi.lib
-req.dll: Wlanapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: Wireless LAN API for Windows XP with SP2
 ---
 
 # WlanQueryInterface function

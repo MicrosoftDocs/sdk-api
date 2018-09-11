@@ -4,17 +4,16 @@ title: IUIAutomationProxyFactoryMapping::RemoveEntry
 author: windows-sdk-content
 description: Removes an entry from the table of proxy factories.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_RemoveEntry.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 1a09fbda-9e95-4f31-b669-e68310071aa9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationProxyFactoryMapping interface [Windows Accessibility],RemoveEntry method, IUIAutomationProxyFactoryMapping.RemoveEntry, IUIAutomationProxyFactoryMapping::RemoveEntry, RemoveEntry, RemoveEntry method [Windows Accessibility], RemoveEntry method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, uiauto.uiauto_IUIAutomationProxyFactoryMapping_RemoveEntry, uiauto_IUIAutomationProxyFactoryMapping_RemoveEntry, uiautomationclient/IUIAutomationProxyFactoryMapping::RemoveEntry, winauto.uiauto_IUIAutomationProxyFactoryMapping_RemoveEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationProxyFactoryMapping.RemoveEntry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationProxyFactoryMapping::RemoveEntry

@@ -4,17 +4,16 @@ title: GetDpiForMonitor function
 author: windows-sdk-content
 description: Queries the dots per inch (dpi) of a display.
 old-location: hidpi\getdpiformonitor.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: AB741D14-0BA1-4C33-91D8-1331BE96DE95
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDpiForMonitor, GetDpiForMonitor function [High DPI], hidpi.getdpiformonitor, shellscalingapi/GetDpiForMonitor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: Shcore.lib
+req.dll: Shcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetDpiForMonitor
 product: Windows
 targetos: Windows
-req.lib: Shcore.lib
-req.dll: Shcore.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetDpiForMonitor function

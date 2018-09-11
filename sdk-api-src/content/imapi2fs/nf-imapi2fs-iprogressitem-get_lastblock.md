@@ -4,17 +4,16 @@ title: IProgressItem::get_LastBlock
 author: windows-sdk-content
 description: Retrieves the last block in this segment of the result image.
 old-location: imapi\iprogressitem_get_lastblock.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: ad75e708-4a10-45b9-89c2-11270f6edd9e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IProgressItem interface [IMAPI],get_LastBlock method, IProgressItem.get_LastBlock, IProgressItem::get_LastBlock, get_LastBlock, get_LastBlock method [IMAPI], get_LastBlock method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_lastblock, imapi2fs/IProgressItem::get_LastBlock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProgressItem.get_LastBlock
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IProgressItem::get_LastBlock

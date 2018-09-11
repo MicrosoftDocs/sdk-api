@@ -4,17 +4,16 @@ title: SHGetNewLinkInfoW function
 author: windows-sdk-content
 description: Creates a name for a new shortcut based on the shortcut's proposed target. This function does not create the shortcut, just the name.
 old-location: shell\SHGetNewLinkInfo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ca658d5c-af7b-400c-8f4d-7d4b07bf7f2b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHGNLI_NOLNK, SHGNLI_NOLOCNAME, SHGNLI_NOUNIQUE, SHGNLI_PIDL, SHGNLI_PREFIXNAME, SHGNLI_USEURLEXT, SHGetNewLinkInfo, SHGetNewLinkInfo function [Windows Shell], SHGetNewLinkInfoA, SHGetNewLinkInfoW, _win32_SHGetNewLinkInfo, shell.SHGetNewLinkInfo, shellapi/SHGetNewLinkInfo, shellapi/SHGetNewLinkInfoA, shellapi/SHGetNewLinkInfoW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHGetNewLinkInfoW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHGetNewLinkInfoW function

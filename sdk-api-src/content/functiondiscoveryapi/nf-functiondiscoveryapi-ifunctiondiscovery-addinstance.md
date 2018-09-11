@@ -4,17 +4,16 @@ title: IFunctionDiscovery::AddInstance
 author: windows-sdk-content
 description: Creates or modifies a function instance.
 old-location: ncd\ifunctiondiscovery_addinstance_method.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: a99213b5-b310-4ce2-99ca-07b343f08c4d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AddInstance, AddInstance method, AddInstance method,IFunctionDiscovery interface, IFunctionDiscovery interface,AddInstance method, IFunctionDiscovery.AddInstance, IFunctionDiscovery::AddInstance, functiondiscoveryapi/IFunctionDiscovery::AddInstance, ncd.ifunctiondiscovery_addinstance_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemVisibilityFlags
+req.lib: 
+req.dll: FunDisc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionDiscovery.AddInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FunDisc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionDiscovery::AddInstance

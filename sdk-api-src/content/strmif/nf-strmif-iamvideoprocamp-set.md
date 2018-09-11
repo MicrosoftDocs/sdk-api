@@ -4,17 +4,16 @@ title: IAMVideoProcAmp::Set
 author: windows-sdk-content
 description: The Set method sets video quality for a specified property.
 old-location: dshow\iamvideoprocamp_set.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 18826377-ddf7-4c36-8995-43310ea077dd
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMVideoProcAmp interface [DirectShow],Set method, IAMVideoProcAmp.Set, IAMVideoProcAmp::Set, IAMVideoProcAmpSet, Set, Set method [DirectShow], Set method [DirectShow],IAMVideoProcAmp interface, dshow.iamvideoprocamp_set, strmif/IAMVideoProcAmp::Set
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMVideoProcAmp.Set
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMVideoProcAmp::Set

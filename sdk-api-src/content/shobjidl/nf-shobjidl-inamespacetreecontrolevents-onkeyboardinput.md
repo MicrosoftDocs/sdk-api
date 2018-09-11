@@ -4,17 +4,16 @@ title: INameSpaceTreeControlEvents::OnKeyboardInput
 author: windows-sdk-content
 description: Called when the user presses a key on the keyboard.
 old-location: shell\INameSpaceTreeControlEvents_OnKeyboardInput.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b5034847-cba9-4ebe-8578-c933234396e2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnKeyboardInput method, INameSpaceTreeControlEvents.OnKeyboardInput, INameSpaceTreeControlEvents::OnKeyboardInput, OnKeyboardInput, OnKeyboardInput method [Windows Shell], OnKeyboardInput method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnKeyboardInput, shell.INameSpaceTreeControlEvents_OnKeyboardInput, shobjidl/INameSpaceTreeControlEvents::OnKeyboardInput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControlEvents.OnKeyboardInput
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControlEvents::OnKeyboardInput

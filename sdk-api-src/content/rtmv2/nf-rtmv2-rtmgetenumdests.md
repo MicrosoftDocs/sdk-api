@@ -4,17 +4,16 @@ title: RtmGetEnumDests function
 author: windows-sdk-content
 description: The RtmGetEnumDests function retrieves the next set of destinations in the specified enumeration.
 old-location: rras\rtmgetenumdests.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: f793b54e-9591-4b9f-b109-8487013c7af5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RtmGetEnumDests, RtmGetEnumDests function [RAS], _rtmv2ref_rtmgetenumdests, rras.rtmgetenumdests, rtmv2/RtmGetEnumDests
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmGetEnumDests
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmGetEnumDests function

@@ -4,17 +4,16 @@ title: "_SecPkgContext_ConnectionInfo"
 author: windows-sdk-content
 description: The SecPkgContext_ConnectionInfo structure contains protocol and cipher information. This structure is used by the InitializeSecurityContext (Schannel) function.This attribute is supported only by the Schannel security support provider (SSP).
 old-location: security\secpkgcontext_connectioninfo.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 5380c03b-d2c5-4a0d-96a1-c39305b9c9ac
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSecPkgContext_ConnectionInfo, 0 (Zero), CALG_3DES, CALG_AES_128, CALG_AES_256, CALG_DES, CALG_DH_EPHEM, CALG_MD5, CALG_RC2, CALG_RC4, CALG_RSA_KEYX, CALG_SHA, PSecPkgContext_ConnectionInfo, PSecPkgContext_ConnectionInfo structure pointer [Security], SP_PROT_PCT1_CLIENT, SP_PROT_PCT1_SERVER, SP_PROT_SSL2_CLIENT, SP_PROT_SSL2_SERVER, SP_PROT_SSL3_CLIENT, SP_PROT_SSL3_SERVER, SP_PROT_TLS1_1_CLIENT, SP_PROT_TLS1_1_SERVER, SP_PROT_TLS1_2_CLIENT, SP_PROT_TLS1_2_SERVER, SP_PROT_TLS1_CLIENT, SP_PROT_TLS1_SERVER, SecPkgContext_ConnectionInfo, SecPkgContext_ConnectionInfo structure [Security], _SecPkgContext_ConnectionInfo, _ssp_secpkgcontext_connectioninfo, schannel/PSecPkgContext_ConnectionInfo, schannel/SecPkgContext_ConnectionInfo, security.secpkgcontext_connectioninfo"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_ConnectionInfo, *PSecPkgContext_ConnectionInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SecPkgContext_ConnectionInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SecPkgContext_ConnectionInfo, *PSecPkgContext_ConnectionInfo
+req.redist: 
 ---
 
 # _SecPkgContext_ConnectionInfo structure

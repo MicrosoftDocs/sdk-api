@@ -4,17 +4,16 @@ title: IDVB_EIT::RegisterForWhenCurrent
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_eit_registerforwhencurrent.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 276c254f-5740-4241-a5ee-82f25885f8c6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDVB_EIT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IDVB_EIT.RegisterForWhenCurrent, IDVB_EIT::RegisterForWhenCurrent, IDVB_EITRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IDVB_EIT interface, dvbsiparser/IDVB_EIT::RegisterForWhenCurrent, mstv.idvb_eit_registerforwhencurrent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVB_EIT.RegisterForWhenCurrent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVB_EIT::RegisterForWhenCurrent

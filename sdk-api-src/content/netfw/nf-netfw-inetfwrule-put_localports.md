@@ -4,17 +4,16 @@ title: INetFwRule::put_LocalPorts
 author: windows-sdk-content
 description: Specifies the list of local ports for this rule.
 old-location: ics\inetfwrule_localports.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 72c4f00c-d5c4-4d93-892b-ec9a63f8df09
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ""*", "RPC", "RPC-EPMap", "Teredo", INetFwRule interface [ICS/ICF],LocalPorts property, INetFwRule.LocalPorts, INetFwRule.put_LocalPorts, INetFwRule::LocalPorts, INetFwRule::get_LocalPorts, INetFwRule::put_LocalPorts, LocalPorts property [ICS/ICF], LocalPorts property [ICS/ICF],INetFwRule interface, ics.inetfwrule_localports, netfw/INetFwRule::LocalPorts, netfw/INetFwRule::get_LocalPorts, netfw/INetFwRule::put_LocalPorts, put_LocalPorts"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwRule.put_LocalPorts
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwRule::put_LocalPorts

@@ -4,17 +4,16 @@ title: CSecureChannelClient::SetSessionKey
 author: windows-sdk-content
 description: The SetSessionKey method sets the key for this session that is used to communicate with another component. This method is not used by applications.
 old-location: wmdm\csecurechannelclient_setsessionkey.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: a57ffca0-3098-415c-bea5-a3ea9efbd591
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],SetSessionKey method, CSecureChannelClient.SetSessionKey, CSecureChannelClient::SetSessionKey, CSecureChannelClientSetSessionKey, SetSessionKey, SetSessionKey method [windows Media Device Manager], SetSessionKey method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::SetSessionKey, wmdm.csecurechannelclient_setsessionkey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: scclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CSecureChannelClient.SetSessionKey
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CSecureChannelClient::SetSessionKey

@@ -4,17 +4,16 @@ title: IX509PolicyServerUrl::put_AuthFlags
 author: windows-sdk-content
 description: Specifies and retrieves a value that indicates the authentication type used by the client to authenticate itself to the certificate enrollment policy (CEP) server.
 old-location: security\ix509policyserverurl_authflags.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: c59387e3-2160-480a-beef-8e9dae064a1a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AuthFlags property [Security], AuthFlags property [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],AuthFlags property, IX509PolicyServerUrl.AuthFlags, IX509PolicyServerUrl.put_AuthFlags, IX509PolicyServerUrl::AuthFlags, IX509PolicyServerUrl::get_AuthFlags, IX509PolicyServerUrl::put_AuthFlags, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509PolicyServerUrl::AuthFlags, certenroll/IX509PolicyServerUrl::get_AuthFlags, certenroll/IX509PolicyServerUrl::put_AuthFlags, put_AuthFlags, security.ix509policyserverurl_authflags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509PolicyServerUrl.put_AuthFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PolicyServerUrl::put_AuthFlags

@@ -4,7 +4,7 @@ title: "_HARDWARE_COUNTER_DATA"
 author: windows-sdk-content
 description: Contains the hardware counter value.
 old-location: hcp\hardware_counter_data.htm
-old-project: hcp
+tech.root: hcp
 ms.assetid: 7224b623-c097-44e8-b9da-5fdfad3fb505
 ms.author: windowssdkdev
 ms.date: 03/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HARDWARE_COUNTER_DATA, *PHARDWARE_COUNTER_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HARDWARE_COUNTER_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: HARDWARE_COUNTER_DATA, *PHARDWARE_COUNTER_DATA
+req.redist: 
 ---
 
 # _HARDWARE_COUNTER_DATA structure

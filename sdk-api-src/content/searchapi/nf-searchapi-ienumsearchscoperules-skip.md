@@ -4,17 +4,16 @@ title: IEnumSearchScopeRules::Skip
 author: windows-sdk-content
 description: Skips the specified number of elements.
 old-location: search\_search_IEnumSearchScopeRules_Skip.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchscoperules\skip.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IEnumSearchScopeRules interface [search],Skip method, IEnumSearchScopeRules.Skip, IEnumSearchScopeRules::Skip, Skip, Skip method [search], Skip method [search],IEnumSearchScopeRules interface, _search_IEnumSearchScopeRules_Skip, search._search_IEnumSearchScopeRules_Skip, searchapi/IEnumSearchScopeRules::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumSearchScopeRules.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumSearchScopeRules::Skip

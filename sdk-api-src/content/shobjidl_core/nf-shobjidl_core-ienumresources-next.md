@@ -4,17 +4,16 @@ title: IEnumResources::Next
 author: windows-sdk-content
 description: Gets the next SHELL_ITEM_RESOURCE structure.
 old-location: shell\IEnumResources_Next.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b5d0d754-4252-476a-b3af-0ba257eab339
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IEnumResources interface [Windows Shell],Next method, IEnumResources.Next, IEnumResources::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumResources interface, _shell_IEnumResources_Next, shell.IEnumResources_Next, shobjidl_core/IEnumResources::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumResources.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumResources::Next

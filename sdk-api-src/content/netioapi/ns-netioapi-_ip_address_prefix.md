@@ -4,7 +4,7 @@ title: "_IP_ADDRESS_PREFIX"
 author: windows-sdk-content
 description: Stores an IP address prefix.
 old-location: iphlp\ip_address_prefix.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 3a6598d8-77e4-46f7-9397-124157508207
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_ADDRESS_PREFIX, *PIP_ADDRESS_PREFIX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IP_ADDRESS_PREFIX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: IP_ADDRESS_PREFIX, *PIP_ADDRESS_PREFIX
+req.redist: 
 ---
 
 # _IP_ADDRESS_PREFIX structure

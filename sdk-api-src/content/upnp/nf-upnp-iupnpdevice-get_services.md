@@ -4,17 +4,16 @@ title: IUPnPDevice::get_Services
 author: windows-sdk-content
 description: The Services property specifies the list of services provided by the device.
 old-location: upnp\iupnpdevice_services.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 3b854a5a-a0a9-4236-83c1-98b3671bfc74
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_Services method, IUPnPDevice.get_Services, IUPnPDevice::get_Services, _upnp_iupnpdevice_services, get_Services, get_Services method [UPnP APIs], get_Services method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_services, upnp/IUPnPDevice::get_Services
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDevice.get_Services
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDevice::get_Services

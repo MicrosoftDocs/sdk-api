@@ -4,17 +4,16 @@ title: IWMPSyncDevice::get_partnershipIndex
 author: windows-sdk-content
 description: The get_partnershipIndex method retrieves the index of the device partnership.
 old-location: wmp\iwmpsyncdevice_get_partnershipindex.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: a7f04b97-8a09-4feb-b776-649aa9d6f407
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_partnershipIndex method, IWMPSyncDevice.get_partnershipIndex, IWMPSyncDevice::get_partnershipIndex, IWMPSyncDeviceget_partnershipIndex, get_partnershipIndex, get_partnershipIndex method [Windows Media Player], get_partnershipIndex method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_partnershipindex, wmp/IWMPSyncDevice::get_partnershipIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 10 or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPSyncDevice.get_partnershipIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPSyncDevice::get_partnershipIndex

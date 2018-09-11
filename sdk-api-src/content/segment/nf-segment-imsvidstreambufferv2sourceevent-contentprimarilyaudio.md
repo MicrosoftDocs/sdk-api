@@ -4,17 +4,16 @@ title: IMSVidStreamBufferV2SourceEvent::ContentPrimarilyAudio
 author: windows-sdk-content
 description: Fired when an SBE2 source filter receives a STREAMBUFFER_EC_PRIMARY_AUDIO event, which is fired through the IMSVidStreamBufferSourceEvent3 interface, and indicates that SBE is processing primarily audio data.
 old-location: mstv\imsvidstreambufferv2sourceevent_contentprimarilyaudio.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9056bed3-b4da-4eca-a573-0d9bda3d2127
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ContentPrimarilyAudio, ContentPrimarilyAudio method [Microsoft TV Technologies], ContentPrimarilyAudio method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],ContentPrimarilyAudio method, IMSVidStreamBufferV2SourceEvent.ContentPrimarilyAudio, IMSVidStreamBufferV2SourceEvent::ContentPrimarilyAudio, mstv.imsvidstreambufferv2sourceevent_contentprimarilyaudio, segment/IMSVidStreamBufferV2SourceEvent::ContentPrimarilyAudio
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferV2SourceEvent.ContentPrimarilyAudio
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferV2SourceEvent::ContentPrimarilyAudio

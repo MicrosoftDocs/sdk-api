@@ -4,17 +4,16 @@ title: IFaxInboundRoutingExtensions::get__NewEnum
 author: windows-sdk-content
 description: The IFaxInboundRoutingExtensions::get__NewEnum method returns a reference to an enumerator object that you can use to iterate through the IFaxInboundRoutingExtensions collection.
 old-location: fax\_mfax_ifaxinboundroutingextensions_get__newenum.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9965.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: IFaxInboundRoutingExtensions interface [Fax Service],get__NewEnum method, IFaxInboundRoutingExtensions.get__NewEnum, IFaxInboundRoutingExtensions::get__NewEnum, _mfax_ifaxinboundroutingextensions_get__newenum, fax._mfax_ifaxinboundroutingextensions_get__newenum, faxcomex/IFaxInboundRoutingExtensions::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxInboundRoutingExtensions interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFaxInboundRoutingExtensions.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxInboundRoutingExtensions::get__NewEnum

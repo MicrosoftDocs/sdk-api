@@ -4,7 +4,7 @@ title: "_AMCOPPCommand"
 author: windows-sdk-content
 description: The AMCOPPCommand structure contains a Certified Output Protection Protocol (COPP) command.
 old-location: dshow\amcoppcommand.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8b2c06e9-f1b7-4185-8ade-b5abe9ac776d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMCOPPCommand, *LPAMCOPPCommand
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AMCOPPCommand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP
+req.typenames: AMCOPPCommand, *LPAMCOPPCommand
+req.redist: 
 ---
 
 # _AMCOPPCommand structure

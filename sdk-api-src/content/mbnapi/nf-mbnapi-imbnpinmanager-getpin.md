@@ -4,17 +4,16 @@ title: IMbnPinManager::GetPin
 author: windows-sdk-content
 description: Gets a specific type of PIN.
 old-location: mbn\imbnpinmanager_getpin.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 21752fb9-db6b-4fd1-9c6f-a756408bda53
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetPin, GetPin method [Microsoft Broadband Networks], GetPin method [Microsoft Broadband Networks],IMbnPinManager interface, IMbnPinManager interface [Microsoft Broadband Networks],GetPin method, IMbnPinManager.GetPin, IMbnPinManager::GetPin, mbn.imbnpinmanager_getpin, mbnapi/IMbnPinManager::GetPin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnPinManager.GetPin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnPinManager::GetPin

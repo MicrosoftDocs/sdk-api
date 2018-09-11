@@ -4,17 +4,16 @@ title: ITaskScheduler::Delete
 author: windows-sdk-content
 description: The Delete method deletes a task.
 old-location: taskschd\itaskscheduler_delete.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 87f21acc-e6e0-4645-84b8-b35a2eb2e80b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Delete, Delete method [Task Scheduler], Delete method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],Delete method, ITaskScheduler.Delete, ITaskScheduler::Delete, _msb_itaskscheduler_delete, mstask/ITaskScheduler::Delete, taskschd.itaskscheduler_delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 
-req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskScheduler.Delete
 product: Windows
 targetos: Windows
-req.lib: Mstask.lib
-req.dll: Mstask.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ---
 
 # ITaskScheduler::Delete

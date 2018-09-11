@@ -4,17 +4,16 @@ title: PSCreatePropertyStoreFromPropertySetStorage function
 author: windows-sdk-content
 description: Wraps an IPropertySetStorage interface in an IPropertyStore interface.
 old-location: properties\PSCreatePropertyStoreFromPropertySetStorage.htm
-old-project: properties
+tech.root: properties
 ms.assetid: efba5a2a-df26-4f7e-9ddf-ec471e3d547c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSCreatePropertyStoreFromPropertySetStorage, PSCreatePropertyStoreFromPropertySetStorage function [Windows Properties], STGM_READ, STGM_READWRITE, STGM_WRITE, _shell_PSCreatePropertyStoreFromPropertySetStorage, properties.PSCreatePropertyStoreFromPropertySetStorage, propsys/PSCreatePropertyStoreFromPropertySetStorage, shell.PSCreatePropertyStoreFromPropertySetStorage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSCreatePropertyStoreFromPropertySetStorage
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # PSCreatePropertyStoreFromPropertySetStorage function

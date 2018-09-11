@@ -4,17 +4,16 @@ title: ICrmCompensatorVariants::PrepareRecordVariants
 author: windows-sdk-content
 description: Delivers a log record to the CRM Compensator during the prepare phase.
 old-location: cos\icrmcompensatorvariants_preparerecordvariants.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 5cbe3bf9-b82c-42da-ac19-dddb5837368e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICrmCompensatorVariants interface [COM+],PrepareRecordVariants method, ICrmCompensatorVariants.PrepareRecordVariants, ICrmCompensatorVariants::PrepareRecordVariants, PrepareRecordVariants, PrepareRecordVariants method [COM+], PrepareRecordVariants method [COM+],ICrmCompensatorVariants interface, _dtc_ICrmCompensatorVariants_PrepareRecordVariants, comsvcs/ICrmCompensatorVariants::PrepareRecordVariants, cos.icrmcompensatorvariants_preparerecordvariants
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmCompensatorVariants.PrepareRecordVariants
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmCompensatorVariants::PrepareRecordVariants

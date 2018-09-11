@@ -4,17 +4,16 @@ title: "_SRCCODEINFOW"
 author: windows-sdk-content
 description: Contains line information.
 old-location: base\srccodeinfo_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 8a2ee743-d2e8-402a-b659-0c0b75052d1d
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PSRCCODEINFOW, PSRCCODEINFO, PSRCCODEINFO structure pointer, SRCCODEINFO, SRCCODEINFO structure, SRCCODEINFOW, _SRCCODEINFO, _SRCCODEINFOW, base.srccodeinfo_str, dbghelp/PSRCCODEINFO, dbghelp/SRCCODEINFO, dbghelp/SRCCODEINFOW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SRCCODEINFOW, *PSRCCODEINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - SRCCODEINFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SRCCODEINFOW, *PSRCCODEINFOW
+req.redist: DbgHelp.dll 6.1 or later
 ---
 
 # _SRCCODEINFOW structure

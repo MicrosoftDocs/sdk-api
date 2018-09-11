@@ -4,17 +4,16 @@ title: ClusterClearBackupStateForSharedVolume function
 author: windows-sdk-content
 description: Clears the backup state for the cluster shared volume.
 old-location: mscs\clusterclearbackupstateforsharedvolume.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 54ebfff4-8898-49ed-9a45-07286cda5fb4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusterClearBackupStateForSharedVolume, ClusterClearBackupStateForSharedVolume function [Failover Cluster], PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME, PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME function [Failover Cluster], mscs.clusterclearbackupstateforsharedvolume, resapi/ClusterClearBackupStateForSharedVolume, resapi/PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.Lib
+req.dll: ResUtils.Dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ClusterClearBackupStateForSharedVolume
 product: Windows
 targetos: Windows
-req.lib: ResUtils.Lib
-req.dll: ResUtils.Dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterClearBackupStateForSharedVolume function

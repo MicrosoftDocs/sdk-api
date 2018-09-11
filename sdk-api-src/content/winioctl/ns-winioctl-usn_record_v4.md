@@ -4,7 +4,7 @@ title: USN_RECORD_V4
 author: windows-sdk-content
 description: Contains the information for an update sequence number (USN) change journal version 4.0 record. The version 2.0 and 3.0 records are defined by the USN_RECORD_V2 (also called USN_RECORD) and USN_RECORD_V3 structures respectively.
 old-location: fs\usn_record_v4.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 2636D1A1-6FD1-4F84-954C-499DCCE6E390
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USN_RECORD_V4, *PUSN_RECORD_V4
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USN_RECORD_V4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: USN_RECORD_V4, *PUSN_RECORD_V4
+req.redist: 
 ---
 
 # USN_RECORD_V4 structure

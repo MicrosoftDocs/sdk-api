@@ -4,17 +4,16 @@ title: acmDriverDetailsW function
 author: windows-sdk-content
 description: The acmDriverDetails function queries a specified ACM driver to determine its capabilities.
 old-location: multimedia\acmdriverdetails.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: f8fcce73-1cac-463d-8e2d-1372d6b64614
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_acmDriverDetails, acmDriverDetails, acmDriverDetails function [Windows Multimedia], acmDriverDetailsA, acmDriverDetailsW, msacm/acmDriverDetails, msacm/acmDriverDetailsA, msacm/acmDriverDetailsW, multimedia.acmdriverdetails"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.lib: Msacm32.lib
+req.dll: Msacm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - acmDriverDetailsW
 product: Windows
 targetos: Windows
-req.lib: Msacm32.lib
-req.dll: Msacm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # acmDriverDetailsW function

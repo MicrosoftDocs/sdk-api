@@ -4,17 +4,16 @@ title: SHSetUnreadMailCountW function
 author: windows-sdk-content
 description: Stores the current user's unread message count for a specified email account in the registry.
 old-location: shell\SHSetUnreadMailCount.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4a0e1ade-8df1-41b5-b6ea-dad427b50f5a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHSetUnreadMailCount, SHSetUnreadMailCount function [Windows Shell], SHSetUnreadMailCountW, _shell_SHSetUnreadMailCount, shell.SHSetUnreadMailCount, shellapi/SHSetUnreadMailCount, shellapi/SHSetUnreadMailCountW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.60 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SHSetUnreadMailCountW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.60 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHSetUnreadMailCountW function

@@ -4,17 +4,16 @@ title: IPropertyPage
 author: windows-sdk-content
 description: Provides the main features of a property page object that manages a particular page within a property sheet.
 old-location: com\ipropertypage.htm
-old-project: com
+tech.root: com
 ms.assetid: ad2cb3ae-dd24-4774-95bd-f5a0773c68b1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPropertyPage, IPropertyPage interface [COM], IPropertyPage interface [COM],described, _ctrl_ipropertypage, com.ipropertypage, ocidl/IPropertyPage
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyPage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyPage interface

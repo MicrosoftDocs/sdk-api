@@ -4,17 +4,16 @@ title: MFGetAttributeUINT64 function
 author: windows-sdk-content
 description: Returns a UINT64 value from an attribute store, or a default value if the attribute is not present.
 old-location: mf\mfgetattributeuint64.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 843946a4-d270-4440-9818-59e95cbf9a5b
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 843946a4-d270-4440-9818-59e95cbf9a5b, MFGetAttributeUINT64, MFGetAttributeUINT64 function [Media Foundation], mf.mfgetattributeuint64, mfapi/MFGetAttributeUINT64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFGetAttributeUINT64
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFGetAttributeUINT64 function

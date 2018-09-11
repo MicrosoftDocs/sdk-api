@@ -4,17 +4,16 @@ title: IMediaEvent::WaitForCompletion
 author: windows-sdk-content
 description: The WaitForCompletion method waits for the filter graph to render all available data. The filter graph must be running or the method fails.
 old-location: dshow\imediaevent_waitforcompletion.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 760a90fe-7cbc-4f09-ba64-afe0ab0b4c74
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaEvent interface [DirectShow],WaitForCompletion method, IMediaEvent.WaitForCompletion, IMediaEvent::WaitForCompletion, IMediaEventWaitForCompletion, WaitForCompletion, WaitForCompletion method [DirectShow], WaitForCompletion method [DirectShow],IMediaEvent interface, control/IMediaEvent::WaitForCompletion, dshow.imediaevent_waitforcompletion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IMediaEvent.WaitForCompletion
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaEvent::WaitForCompletion

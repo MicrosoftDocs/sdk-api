@@ -4,17 +4,16 @@ title: IResourceManager::NotifyAcquire
 author: windows-sdk-content
 description: The NotifyAcquire method notifies the resource manager that an attempt to acquire a resource has completed.
 old-location: dshow\iresourcemanager_notifyacquire.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a5c52f5b-1c21-4f4c-b698-15b6ec7f7fed
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IResourceManager interface [DirectShow],NotifyAcquire method, IResourceManager.NotifyAcquire, IResourceManager::NotifyAcquire, IResourceManagerNotifyAcquire, NotifyAcquire, NotifyAcquire method [DirectShow], NotifyAcquire method [DirectShow],IResourceManager interface, dshow.iresourcemanager_notifyacquire, strmif/IResourceManager::NotifyAcquire
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IResourceManager.NotifyAcquire
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IResourceManager::NotifyAcquire

@@ -4,17 +4,16 @@ title: capDlgVideoSource macro
 author: windows-sdk-content
 description: The capDlgVideoSource macro displays a dialog box in which the user can control the video source.
 old-location: multimedia\capdlgvideosource.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 9913a9e0-13ee-4f4b-9e8b-0f2549e4ded3
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_capDlgVideoSource, capDlgVideoSource, capDlgVideoSource macro [Windows Multimedia], multimedia.capdlgvideosource, vfw/capDlgVideoSource"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capDlgVideoSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # capDlgVideoSource macro

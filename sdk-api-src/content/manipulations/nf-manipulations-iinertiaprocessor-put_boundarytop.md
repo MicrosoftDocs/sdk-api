@@ -4,17 +4,16 @@ title: IInertiaProcessor::put_BoundaryTop
 author: windows-sdk-content
 description: The BoundaryTop property limits how far towards the top of the screen the target object can move.
 old-location: wintouch\iinertiaprocessor_topboundary.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 5864cf0e-c632-414c-a8b1-e8367474e904
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BoundaryTop property [Windows Touch], BoundaryTop property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],BoundaryTop property, IInertiaProcessor.BoundaryTop, IInertiaProcessor.put_BoundaryTop, IInertiaProcessor::BoundaryTop, IInertiaProcessor::get_BoundaryTop, IInertiaProcessor::put_BoundaryTop, manipulations/IInertiaProcessor::BoundaryTop, manipulations/IInertiaProcessor::get_BoundaryTop, manipulations/IInertiaProcessor::put_BoundaryTop, put_BoundaryTop, wintouch.iinertiaprocessor_topboundary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IInertiaProcessor.put_BoundaryTop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInertiaProcessor::put_BoundaryTop

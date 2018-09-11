@@ -4,17 +4,16 @@ title: IMediaParams::AddEnvelope
 author: windows-sdk-content
 description: The AddEnvelope method adds an envelope to a parameter.
 old-location: dshow\imediaparams_addenvelope.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: acf7c96c-ce0c-40d0-b4a1-dd571fa2a514
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: AddEnvelope, AddEnvelope method [DirectShow], AddEnvelope method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],AddEnvelope method, IMediaParams.AddEnvelope, IMediaParams::AddEnvelope, IMediaParamsAddEnvelope, dshow.imediaparams_addenvelope, medparam/IMediaParams::AddEnvelope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: medparam.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MP_TYPE
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaParams.AddEnvelope
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaParams::AddEnvelope
@@ -71,12 +69,12 @@ Zero-based index of the parameter, or DWORD_ALLPARAMS to add the envelope to eve
 
 ### -param cSegments
 
-
+TBD
 
 
 ### -param pEnvelopeSegments
 
-
+TBD
 
 
 

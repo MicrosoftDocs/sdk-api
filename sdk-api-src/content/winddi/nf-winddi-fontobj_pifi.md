@@ -4,17 +4,16 @@ title: FONTOBJ_pifi function
 author: windows-sdk-content
 description: The FONTOBJ_pifi function retrieves the pointer to the IFIMETRICS structure associated with a specified font.
 old-location: display\fontobj_pifi.htm
-old-project: display
+tech.root: display
 ms.assetid: 797341c8-7346-477a-9c7c-b6abbeaac4b2
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: FONTOBJ_pifi, FONTOBJ_pifi function [Display Devices], display.fontobj_pifi, gdifncs_702d11ac-850f-4e4d-aefa-1ccf404edb56.xml, winddi/FONTOBJ_pifi
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FONTOBJ_pifi
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FONTOBJ_pifi function

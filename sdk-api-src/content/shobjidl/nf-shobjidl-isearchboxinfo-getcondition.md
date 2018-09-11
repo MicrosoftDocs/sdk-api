@@ -4,17 +4,16 @@ title: ISearchBoxInfo::GetCondition
 author: windows-sdk-content
 description: Retrieves the contents of the search box as an ICondition object.
 old-location: shell\ISearchBoxInfo_GetCondition.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9a1159df-78ef-493b-8286-eefb0ac004ef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetCondition, GetCondition method [Windows Shell], GetCondition method [Windows Shell],ISearchBoxInfo interface, ISearchBoxInfo interface [Windows Shell],GetCondition method, ISearchBoxInfo.GetCondition, ISearchBoxInfo::GetCondition, _shell_ISearchBoxInfo_GetCondition, shell.ISearchBoxInfo_GetCondition, shobjidl/ISearchBoxInfo::GetCondition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchBoxInfo.GetCondition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchBoxInfo::GetCondition

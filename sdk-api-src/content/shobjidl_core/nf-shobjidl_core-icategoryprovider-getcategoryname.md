@@ -4,17 +4,16 @@ title: ICategoryProvider::GetCategoryName
 author: windows-sdk-content
 description: Gets the name of the specified category.
 old-location: shell\ICategoryProvider_GetCategoryName.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3730394a-8720-46cc-a9da-cd5cf0df7eeb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetCategoryName, GetCategoryName method [Windows Shell], GetCategoryName method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],GetCategoryName method, ICategoryProvider.GetCategoryName, ICategoryProvider::GetCategoryName, inet_ICategoryProvider_GetCategoryName, shell.ICategoryProvider_GetCategoryName, shobjidl_core/ICategoryProvider::GetCategoryName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICategoryProvider.GetCategoryName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICategoryProvider::GetCategoryName

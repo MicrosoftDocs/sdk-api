@@ -4,17 +4,16 @@ title: ResUtilGetFileTimeProperty function
 author: windows-sdk-content
 description: TBD. The PRESUTIL_GET_FILETIME_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetfiletimeproperty.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 80e05f95-d57f-40a4-a56c-bbadcfaa144e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PRESUTIL_GET_FILETIME_PROPERTY, PRESUTIL_GET_FILETIME_PROPERTY function [Failover Cluster], ResUtilGetFileTimeProperty, ResUtilGetFileTimeProperty function [Failover Cluster], mscs.resutilgetfiletimeproperty, resapi/PRESUTIL_GET_FILETIME_PROPERTY, resapi/ResUtilGetFileTimeProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib; ResApi.lib on Windows Server 2008 R2 and Windows Server 2008
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilGetFileTimeProperty
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib; ResApi.lib on Windows Server 2008 R2 and Windows Server 2008
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilGetFileTimeProperty function

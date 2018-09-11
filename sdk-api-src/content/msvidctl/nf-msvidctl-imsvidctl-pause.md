@@ -4,17 +4,16 @@ title: IMSVidCtl::Pause
 author: windows-sdk-content
 description: The Pause method pauses the filter graph.
 old-location: mstv\imsvidctl_pause.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: fd7687d8-325f-4a51-ab57-ffcc45a9157b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Pause method, IMSVidCtl.Pause, IMSVidCtl::Pause, IMSVidCtlPause, Pause, Pause method [Microsoft TV Technologies], Pause method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_pause, msvidctl/IMSVidCtl::Pause
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.Pause
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::Pause

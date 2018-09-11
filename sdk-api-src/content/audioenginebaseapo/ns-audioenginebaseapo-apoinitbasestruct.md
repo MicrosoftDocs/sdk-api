@@ -4,7 +4,7 @@ title: APOInitBaseStruct
 author: windows-sdk-content
 description: The APOInitBaseStruct structure is the base initialization header that must precede other initialization data in IAudioProcessingObject::Initialize.
 old-location: audio\apoinitbasestruct.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 15C973AE-B0E8-42FD-9F34-671A6A915B47
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: audioenginebaseapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APOInitBaseStruct
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - APOInitBaseStruct
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: All levels.
+req.typenames: APOInitBaseStruct
+req.redist: 
 ---
 
 # APOInitBaseStruct structure

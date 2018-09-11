@@ -4,17 +4,16 @@ title: Graphics::FillRectangle(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL)
 author: windows-sdk-content
 description: This topic lists the FillRectangle methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillRectangle_Methods.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillrectanglemethods.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: FillRectangle, FillRectangle methods [GDI+], Graphics.FillRectangle, Graphics.FillRectangle(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL), Graphics::FillRectangle, Graphics::FillRectangle(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_FillRectangle_Methods, gdiplus._gdiplus_CLASS_Graphics_FillRectangle_Methods, gdiplusgraphics/FillRectangle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Graphics.FillRectangle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # Graphics::FillRectangle(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL)

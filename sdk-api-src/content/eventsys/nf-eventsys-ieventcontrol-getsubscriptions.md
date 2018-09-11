@@ -4,17 +4,16 @@ title: IEventControl::GetSubscriptions
 author: windows-sdk-content
 description: Retrieves the collection of subscriptions associated with an event method.
 old-location: cos\ieventcontrol_getsubscriptions.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: ba39305d-8dc3-40fe-b6f6-d5c22f54a180
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetSubscriptions, GetSubscriptions method [COM+], GetSubscriptions method [COM+],IEventControl interface, IEventControl interface [COM+],GetSubscriptions method, IEventControl.GetSubscriptions, IEventControl::GetSubscriptions, _cos_IEventControl_GetSubscriptions, cos.ieventcontrol_getsubscriptions, eventsys/IEventControl::GetSubscriptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEventControl.GetSubscriptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventControl::GetSubscriptions

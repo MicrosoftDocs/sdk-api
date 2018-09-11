@@ -4,17 +4,16 @@ title: IMFMediaEngineClassFactory2::CreateMediaKeys2
 author: windows-sdk-content
 description: Creates a media keys object based on the specified key system.
 old-location: mf\imfmediaengineclassfactory2_createmediakeys2.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 857F4573-41B3-488C-88A9-4744EBE5D38B
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreateMediaKeys2, CreateMediaKeys2 method [Media Foundation], CreateMediaKeys2 method [Media Foundation],IMFMediaEngineClassFactory2 interface, IMFMediaEngineClassFactory2 interface [Media Foundation],CreateMediaKeys2 method, IMFMediaEngineClassFactory2.CreateMediaKeys2, IMFMediaEngineClassFactory2::CreateMediaKeys2, mf.imfmediaengineclassfactory2_createmediakeys2, mfmediaengine/IMFMediaEngineClassFactory2::CreateMediaKeys2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineClassFactory2.CreateMediaKeys2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineClassFactory2::CreateMediaKeys2

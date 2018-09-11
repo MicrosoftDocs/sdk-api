@@ -4,17 +4,16 @@ title: ID3D11Debug::ValidateContextForDispatch
 author: windows-sdk-content
 description: Verifies whether the dispatch pipeline state is valid.
 old-location: direct3d11\id3d11debug_validatecontextfordispatch.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 0ddabb4f-eeed-46d4-a1d2-501180edffe0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID3D11Debug interface [Direct3D 11],ValidateContextForDispatch method, ID3D11Debug.ValidateContextForDispatch, ID3D11Debug::ValidateContextForDispatch, ValidateContextForDispatch, ValidateContextForDispatch method [Direct3D 11], ValidateContextForDispatch method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::ValidateContextForDispatch, direct3d11.id3d11debug_validatecontextfordispatch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Debug.ValidateContextForDispatch
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Debug::ValidateContextForDispatch

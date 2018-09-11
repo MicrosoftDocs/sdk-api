@@ -4,17 +4,16 @@ title: ITfContextOwner::GetTextExt
 author: windows-sdk-content
 description: The ITfContextOwner::GetTextExt method returns the bounding box, in screen coordinates, of the text at a specified character position. The caller must have a read-only lock on the document before calling this method.
 old-location: tsf\itfcontextowner_gettextext.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: edde0ba7-1d88-4c32-b794-761b66d73507
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetTextExt method, ITfContextOwner.GetTextExt, ITfContextOwner::GetTextExt, _tsf_itfcontextowner_gettextext_ref, msctf/ITfContextOwner::GetTextExt, tsf.itfcontextowner_gettextext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msimtf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfContextOwner.GetTextExt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msimtf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfContextOwner::GetTextExt

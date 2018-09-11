@@ -4,17 +4,16 @@ title: IMFTopologyNode::SetObject
 author: windows-sdk-content
 description: Sets the object associated with this node.
 old-location: mf\imftopologynode_setobject.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: bbef706d-a4a0-4ff3-bfdb-8ba39d70617c
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFTopologyNode interface [Media Foundation],SetObject method, IMFTopologyNode.SetObject, IMFTopologyNode::SetObject, SetObject, SetObject method [Media Foundation], SetObject method [Media Foundation],IMFTopologyNode interface, bbef706d-a4a0-4ff3-bfdb-8ba39d70617c, mf.imftopologynode_setobject, mfidl/IMFTopologyNode::SetObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTopologyNode.SetObject
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTopologyNode::SetObject

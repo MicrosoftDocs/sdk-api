@@ -4,17 +4,16 @@ title: GetKerningPairsA function
 author: windows-sdk-content
 description: The GetKerningPairs function retrieves the character-kerning pairs for the currently selected font for the specified device context.
 old-location: gdi\getkerningpairs.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 9aba629f-afab-4ef3-8e1d-d0b90e122e94
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetKerningPairs, GetKerningPairs function [Windows GDI], GetKerningPairsA, GetKerningPairsW, _win32_GetKerningPairs, gdi.getkerningpairs, wingdi/GetKerningPairs, wingdi/GetKerningPairsA, wingdi/GetKerningPairsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - GetKerningPairsW
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetKerningPairsA function

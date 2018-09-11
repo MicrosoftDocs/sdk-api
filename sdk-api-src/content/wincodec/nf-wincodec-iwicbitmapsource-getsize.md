@@ -4,17 +4,16 @@ title: IWICBitmapSource::GetSize
 author: windows-sdk-content
 description: Retrieves the pixel width and height of the bitmap.
 old-location: wic\_wic_codec_iwicbitmapsource_getsize.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 2fba35fd-288c-4095-83b8-d2320dc5916c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSize, GetSize method [Windows Imaging Component], GetSize method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],GetSize method, IWICBitmapSource.GetSize, IWICBitmapSource::GetSize, _wic_codec_iwicbitmapsource_getsize, wic._wic_codec_iwicbitmapsource_getsize, wincodec/IWICBitmapSource::GetSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapSource.GetSize
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapSource::GetSize

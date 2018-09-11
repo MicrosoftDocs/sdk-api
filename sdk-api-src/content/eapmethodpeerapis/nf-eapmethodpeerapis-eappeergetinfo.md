@@ -4,17 +4,16 @@ title: EapPeerGetInfo function
 author: windows-sdk-content
 description: Obtains a set of function pointers for an implementation of the EAP peer method EapPeerGetInfo currently loaded on the EAPHost service.
 old-location: eaphost\eappeergetinfo.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 99b7e136-b502-435b-9c62-a0e106ec8ec5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapPeerGetInfo, EapPeerGetInfo function [EAPHost], eaphost.eappeergetinfo, eapmethodpeerapis/EapPeerGetInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_AUTHENTICATOR_METHOD_ROUTINES, *PEAP_AUTHENTICATOR_METHOD_ROUTINES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapPeerGetInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapPeerGetInfo function

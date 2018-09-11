@@ -4,17 +4,16 @@ title: IAudioLoudness
 author: windows-sdk-content
 description: The IAudioLoudness interface provides access to a &#0034;loudness&#0034; compensation control.
 old-location: coreaudio\iaudioloudness.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: c182d6ae-c55b-4e3b-9639-7c2f2f7d826d
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioLoudness, IAudioLoudness interface [Core Audio], IAudioLoudness interface [Core Audio],described, coreaudio.iaudioloudness, devicetopology/IAudioLoudness
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioLoudness
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioLoudness interface

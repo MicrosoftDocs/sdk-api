@@ -4,7 +4,7 @@ title: "_PAYLOAD_FILTER_PREDICATE"
 author: windows-sdk-content
 description: Defines an event payload filter predicate that describes how to filter on a single field in a trace session.
 old-location: etw\payload_filter_predicate.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 6B8C03C9-2936-4FEE-AEF4-ABC368B1CB75
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PAYLOAD_FILTER_PREDICATE, *PPAYLOAD_FILTER_PREDICATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PAYLOAD_FILTER_PREDICATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PAYLOAD_FILTER_PREDICATE, *PPAYLOAD_FILTER_PREDICATE
+req.redist: 
 ---
 
 # _PAYLOAD_FILTER_PREDICATE structure

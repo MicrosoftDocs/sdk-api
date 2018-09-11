@@ -4,17 +4,16 @@ title: IWbemServices::PutClass
 author: windows-sdk-content
 description: The IWbemServices::PutClass method creates a new class or updates an existing one. The class specified by the pObject parameter must have been correctly initialized with all of the required property values.
 old-location: wmi\iwbemservices_putclass.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: fcb8694e-6bf1-426d-bc1d-18cf9925f1e0
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemServices interface [Windows Management Instrumentation],PutClass method, IWbemServices.PutClass, IWbemServices::PutClass, PutClass, PutClass method [Windows Management Instrumentation], PutClass method [Windows Management Instrumentation],IWbemServices interface, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_OWNER_UPDATE, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_UPDATE_COMPATIBLE, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_putclass, wbemcli/IWbemServices::PutClass, wmi.iwbemservices_putclass
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -54,10 +54,8 @@ api_name:
  - IWbemServices.PutClass
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemServices::PutClass

@@ -4,17 +4,16 @@ title: StringFromCLSID function
 author: windows-sdk-content
 description: Converts a CLSID into a string of printable characters. Different CLSIDs always convert to different strings.
 old-location: com\stringfromclsid.htm
-old-project: com
+tech.root: com
 ms.assetid: 61210ebd-cbf3-4e78-b077-53d2779053eb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: StringFromCLSID, StringFromCLSID function [COM], _com_StringFromCLSID, com.stringfromclsid, combaseapi/StringFromCLSID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - StringFromCLSID
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # StringFromCLSID function

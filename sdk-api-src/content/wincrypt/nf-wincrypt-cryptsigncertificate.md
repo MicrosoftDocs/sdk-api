@@ -4,17 +4,16 @@ title: CryptSignCertificate function
 author: windows-sdk-content
 description: The CryptSignCertificate function signs the &#0034;to be signed&#0034; information in the encoded signed content.
 old-location: security\cryptsigncertificate.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 27578149-e5c0-47e5-8309-0d0ed7075d13
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptSignCertificate, CryptSignCertificate function [Security], _crypto2_cryptsigncertificate, security.cryptsigncertificate, wincrypt/CryptSignCertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptSignCertificate
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptSignCertificate function

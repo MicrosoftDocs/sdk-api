@@ -4,17 +4,16 @@ title: IOleDocument::GetDocMiscStatus
 author: windows-sdk-content
 description: Retrieves status information about the document object.
 old-location: com\ioledocument_getdocmiscstatus.htm
-old-project: com
+tech.root: com
 ms.assetid: de279d46-057e-4c3a-8af3-14f7b65147fd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetDocMiscStatus, GetDocMiscStatus method [COM], GetDocMiscStatus method [COM],IOleDocument interface, IOleDocument interface [COM],GetDocMiscStatus method, IOleDocument.GetDocMiscStatus, IOleDocument::GetDocMiscStatus, _ole_ioledocument_getdocmiscstatus, com.ioledocument_getdocmiscstatus, docobj/IOleDocument::GetDocMiscStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOCMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOleDocument.GetDocMiscStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOleDocument::GetDocMiscStatus

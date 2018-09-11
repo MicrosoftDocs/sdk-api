@@ -4,7 +4,7 @@ title: "_HTTP_SERVICE_BINDING_TYPE"
 author: windows-sdk-content
 description: HTTP_SERVICE_BINDING_TYPE enumerated type specifies the string type for service names.
 old-location: http\http_service_binding_type.htm
-old-project: http
+tech.root: http
 ms.assetid: 8de36795-c99d-46ce-b9e4-a933de7d4c5c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_SERVICE_BINDING_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_SERVICE_BINDING_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_SERVICE_BINDING_TYPE
+req.redist: 
 ---
 
 # _HTTP_SERVICE_BINDING_TYPE enumeration

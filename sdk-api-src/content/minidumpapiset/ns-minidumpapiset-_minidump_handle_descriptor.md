@@ -4,17 +4,16 @@ title: "_MINIDUMP_HANDLE_DESCRIPTOR"
 author: windows-sdk-content
 description: Contains the state of an individual system handle at the time the minidump was written.
 old-location: base\minidump_handle_descriptor_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 8387513a-137a-418e-8341-8066965849e6
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PMINIDUMP_HANDLE_DESCRIPTOR, MINIDUMP_HANDLE_DESCRIPTOR, MINIDUMP_HANDLE_DESCRIPTOR structure, PMINIDUMP_HANDLE_DESCRIPTOR, PMINIDUMP_HANDLE_DESCRIPTOR structure pointer, _MINIDUMP_HANDLE_DESCRIPTOR, _win32_minidump_handle_descriptor_str, base.minidump_handle_descriptor_str, minidumpapiset/MINIDUMP_HANDLE_DESCRIPTOR, minidumpapiset/PMINIDUMP_HANDLE_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_HANDLE_DESCRIPTOR, *PMINIDUMP_HANDLE_DESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_HANDLE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_HANDLE_DESCRIPTOR, *PMINIDUMP_HANDLE_DESCRIPTOR
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_HANDLE_DESCRIPTOR structure

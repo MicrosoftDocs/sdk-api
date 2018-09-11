@@ -4,17 +4,16 @@ title: IDirectXVideoDecoder::GetVideoDecoderService
 author: windows-sdk-content
 description: Retrieves the DirectX Video Acceleration (DXVA) decoder service that created this decoder device.
 old-location: mf\idirectxvideodecoder_getvideodecoderservice.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 092c49cd-6bfc-4ed0-9378-5751ad19296c
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 092c49cd-6bfc-4ed0-9378-5751ad19296c, GetVideoDecoderService, GetVideoDecoderService method [Media Foundation], GetVideoDecoderService method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],GetVideoDecoderService method, IDirectXVideoDecoder.GetVideoDecoderService, IDirectXVideoDecoder::GetVideoDecoderService, dxva2api/IDirectXVideoDecoder::GetVideoDecoderService, mf.idirectxvideodecoder_getvideodecoderservice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirectXVideoDecoder.GetVideoDecoderService
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectXVideoDecoder::GetVideoDecoderService
@@ -63,7 +61,7 @@ Retrieves the DirectX Video Acceleration (DXVA) decoder service that created thi
 
 ### -param ppService
 
-
+TBD
 
 
 

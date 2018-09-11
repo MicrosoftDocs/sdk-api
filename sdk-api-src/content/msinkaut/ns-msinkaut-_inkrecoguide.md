@@ -4,17 +4,16 @@ title: "_InkRecoGuide"
 author: windows-sdk-content
 description: Deprecated. Represents information about the recognition guide. Use the WritingBox Property, DrawnBox Property, Rows Property, Columns Property, and Midline Property [InkRecognizerGuide Class] properties instead.
 old-location: tablet\inkrecoguide.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: c35fcb28-f21f-427c-8d5f-6e6a73945956
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: DISPID_InkRecognizerGuide, DISPID_InkRecognizerGuide structure [Tablet PC], InkRecoGuide, InkRecoGuide structure [Tablet PC], _InkRecoGuide, c35fcb28-f21f-427c-8d5f-6e6a73945956, msinkaut/InkRecoGuide, tablet.inkrecoguide
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecoGuide
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISPID_InkRecognizerGuide
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkRecoGuide
+req.redist: 
 ---
 
 # _InkRecoGuide structure

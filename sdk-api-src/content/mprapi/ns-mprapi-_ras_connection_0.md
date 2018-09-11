@@ -4,17 +4,16 @@ title: "_RAS_CONNECTION_0"
 author: windows-sdk-content
 description: The RAS_CONNECTION_0 structure contains general information regarding a specific connection, such as user name or domain. For more detailed information about a specific connection, such as bytes sent or received, see RAS_CONNECTION_1.
 old-location: rras\ras_connection_0.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: e2561365-be3f-44cd-bb3c-18b001fc4d5d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRAS_CONNECTION_0, PRAS_CONNECTION_0, PRAS_CONNECTION_0 structure pointer [RAS], RAS_CONNECTION_0, RAS_CONNECTION_0 structure [RAS], RAS_FLAGS_ARAP_CONNECTION, RAS_FLAGS_DORMANT, RAS_FLAGS_IKEV2_CONNECTION, RAS_FLAGS_MESSENGER_PRESENT, RAS_FLAGS_PPP_CONNECTION, RAS_FLAGS_QUARANTINE_PRESENT, _RAS_CONNECTION_0, _mpr_ras_connection_0, mprapi/PRAS_CONNECTION_0, mprapi/RAS_CONNECTION_0, rras.ras_connection_0"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_CONNECTION_0, *PRAS_CONNECTION_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAS_CONNECTION_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RAS_CONNECTION_0, *PRAS_CONNECTION_0
+req.redist: 
 ---
 
 # _RAS_CONNECTION_0 structure

@@ -4,17 +4,16 @@ title: ISdoCollection::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an IEnumVARIANT interface for a Server Data Objects (SDO) collection.
 old-location: nps\SDO_isdocollection_get__newenum.htm
-old-project: nps
+tech.root: nps
 ms.assetid: f41211cf-7ed6-4f49-ba90-a72b6eb4db3e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],get__NewEnum method, ISdoCollection.get__NewEnum, ISdoCollection::get__NewEnum, _sdo_isdocollection_get__newenum, get__NewEnum, get__NewEnum method [Network Policy Server], get__NewEnum method [Network Policy Server],ISdoCollection interface, nps.SDO_isdocollection_get__newenum, sdo.isdocollection_get__newenum, sdoias/ISdoCollection::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VENDORPROPERTIES
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISdoCollection.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Iassdo.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISdoCollection::get__NewEnum

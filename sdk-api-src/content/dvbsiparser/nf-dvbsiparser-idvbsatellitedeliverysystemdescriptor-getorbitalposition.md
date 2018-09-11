@@ -4,17 +4,16 @@ title: IDvbSatelliteDeliverySystemDescriptor::GetOrbitalPosition
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_getorbitalposition.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1fc3f934-5a9f-4e76-ae1c-e74ea332e8e6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetOrbitalPosition, GetOrbitalPosition method [Microsoft TV Technologies], GetOrbitalPosition method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetOrbitalPosition method, IDvbSatelliteDeliverySystemDescriptor.GetOrbitalPosition, IDvbSatelliteDeliverySystemDescriptor::GetOrbitalPosition, IDvbSatelliteDeliverySystemDescriptorGetOrbitalPosition, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetOrbitalPosition, mstv.idvbsatellitedeliverysystemdescriptor_getorbitalposition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbSatelliteDeliverySystemDescriptor.GetOrbitalPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbSatelliteDeliverySystemDescriptor::GetOrbitalPosition

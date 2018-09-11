@@ -4,17 +4,16 @@ title: IDvdInfo2::GetVMGAttributes
 author: windows-sdk-content
 description: The GetVMGAttributes method retrieves attributes of all video, audio, and subpicture streams for the Video Manager Menu.
 old-location: dshow\idvdinfo2_getvmgattributes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ddb1059a-e1c5-4506-b565-fd871ad8385f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetVMGAttributes, GetVMGAttributes method [DirectShow], GetVMGAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetVMGAttributes method, IDvdInfo2.GetVMGAttributes, IDvdInfo2::GetVMGAttributes, IDvdInfo2GetVMGAttributes, dshow.idvdinfo2_getvmgattributes, strmif/IDvdInfo2::GetVMGAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdInfo2.GetVMGAttributes
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo2::GetVMGAttributes

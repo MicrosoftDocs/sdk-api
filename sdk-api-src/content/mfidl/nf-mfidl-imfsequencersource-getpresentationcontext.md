@@ -4,17 +4,16 @@ title: IMFSequencerSource::GetPresentationContext
 author: windows-sdk-content
 description: Maps a presentation descriptor to its associated sequencer element identifier and the topology it represents.
 old-location: mf\imfsequencersource_getpresentationcontext.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c444ccad-68b8-40eb-9e87-0b4d61ac725d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetPresentationContext, GetPresentationContext method [Media Foundation], GetPresentationContext method [Media Foundation],IMFSequencerSource interface, IMFSequencerSource interface [Media Foundation],GetPresentationContext method, IMFSequencerSource.GetPresentationContext, IMFSequencerSource::GetPresentationContext, c444ccad-68b8-40eb-9e87-0b4d61ac725d, mf.imfsequencersource_getpresentationcontext, mfidl/IMFSequencerSource::GetPresentationContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSequencerSource.GetPresentationContext
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSequencerSource::GetPresentationContext

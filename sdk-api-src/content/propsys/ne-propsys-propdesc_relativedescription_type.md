@@ -4,7 +4,7 @@ title: PROPDESC_RELATIVEDESCRIPTION_TYPE
 author: windows-sdk-content
 description: Describes the relative description type for a property description, as determined by the relativeDescriptionType attribute of the displayInfo element.
 old-location: properties\PROPDESC_RELATIVEDESCRIPTION_TYPE.htm
-old-project: properties
+tech.root: properties
 ms.assetid: cc9d59db-88d6-4726-ac1e-15b483afd637
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPDESC_RELATIVEDESCRIPTION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROPDESC_RELATIVEDESCRIPTION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PROPDESC_RELATIVEDESCRIPTION_TYPE
+req.redist: 
 ---
 
 # PROPDESC_RELATIVEDESCRIPTION_TYPE enumeration

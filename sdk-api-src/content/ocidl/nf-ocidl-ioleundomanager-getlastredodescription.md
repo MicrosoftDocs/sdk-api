@@ -4,17 +4,16 @@ title: IOleUndoManager::GetLastRedoDescription
 author: windows-sdk-content
 description: Retrieves the description for the top-level undo unit that is on top of the redo stack.
 old-location: com\ioleundomanager_getlastredodescription.htm
-old-project: com
+tech.root: com
 ms.assetid: b3d514cf-1d1f-4b5b-89f6-d0e03aa794cc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetLastRedoDescription, GetLastRedoDescription method [COM], GetLastRedoDescription method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],GetLastRedoDescription method, IOleUndoManager.GetLastRedoDescription, IOleUndoManager::GetLastRedoDescription, _ole_ioleundomanager_getlastredodescription, com.ioleundomanager_getlastredodescription, ocidl/IOleUndoManager::GetLastRedoDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleUndoManager.GetLastRedoDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleUndoManager::GetLastRedoDescription

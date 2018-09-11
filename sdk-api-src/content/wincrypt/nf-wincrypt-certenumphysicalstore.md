@@ -4,17 +4,16 @@ title: CertEnumPhysicalStore function
 author: windows-sdk-content
 description: The CertEnumPhysicalStore function retrieves the physical stores on a computer. The function calls the provided callback function for each physical store found.
 old-location: security\certenumphysicalstore.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 5804d565-5129-4e6d-8b3d-9bd938807740
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CertEnumPhysicalStore, CertEnumPhysicalStore function [Security], _crypto2_certenumphysicalstore, security.certenumphysicalstore, wincrypt/CertEnumPhysicalStore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertEnumPhysicalStore
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertEnumPhysicalStore function

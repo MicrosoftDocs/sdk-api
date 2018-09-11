@@ -4,17 +4,16 @@ title: IAsyncInfo::get_ErrorCode
 author: windows-sdk-content
 description: Retrieves the termination status of the asynchronous operation.
 old-location: winrt\iasyncinfo_errorcode.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 1de13cb9-3f1f-44b5-984f-8e7ccb31cec9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ErrorCode property [Windows Runtime], ErrorCode property [Windows Runtime],IAsyncInfo interface, IAsyncInfo interface [Windows Runtime],ErrorCode property, IAsyncInfo.ErrorCode, IAsyncInfo.get_ErrorCode, IAsyncInfo::ErrorCode, IAsyncInfo::get_ErrorCode, asyncinfo/IAsyncInfo::ErrorCode, asyncinfo/IAsyncInfo::get_ErrorCode, get_ErrorCode, winrt.iasyncinfo_errorcode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: asyncinfo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAsyncInfo.get_ErrorCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAsyncInfo::get_ErrorCode

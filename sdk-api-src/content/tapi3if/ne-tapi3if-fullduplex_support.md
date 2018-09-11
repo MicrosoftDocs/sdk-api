@@ -4,7 +4,7 @@ title: FULLDUPLEX_SUPPORT
 author: windows-sdk-content
 description: The FULLDUPLEX_SUPPORT enum is used by applications interacting with legacy TSPs to indicate whether a specified terminal supports full duplex operations. This enum is returned by the ITLegacyWaveSupport::IsFullDuplex method.
 old-location: tapi3\fullduplex_support.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 36f9f126-361f-448a-a464-ffef1de25d26
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FULLDUPLEX_SUPPORT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FULLDUPLEX_SUPPORT
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: FULLDUPLEX_SUPPORT
+req.redist: 
 ---
 
 # FULLDUPLEX_SUPPORT enumeration

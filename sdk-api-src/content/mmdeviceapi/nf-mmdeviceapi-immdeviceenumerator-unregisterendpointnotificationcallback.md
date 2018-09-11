@@ -4,17 +4,16 @@ title: IMMDeviceEnumerator::UnregisterEndpointNotificationCallback
 author: windows-sdk-content
 description: The UnregisterEndpointNotificationCallback method deletes the registration of a notification interface that the client registered in a previous call to the IMMDeviceEnumerator::RegisterEndpointNotificationCallback method.
 old-location: coreaudio\immdeviceenumerator_unregisterendpointnotificationcallback.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: dc1e85af-f399-469d-806a-a2d80b700b75
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IMMDeviceEnumerator interface [Core Audio],UnregisterEndpointNotificationCallback method, IMMDeviceEnumerator.UnregisterEndpointNotificationCallback, IMMDeviceEnumerator::UnregisterEndpointNotificationCallback, IMMDeviceEnumeratorUnregisterEndpointNotificationC, UnregisterEndpointNotificationCallback, UnregisterEndpointNotificationCallback method [Core Audio], UnregisterEndpointNotificationCallback method [Core Audio],IMMDeviceEnumerator interface, coreaudio.immdeviceenumerator_unregisterendpointnotificationcallback, mmdeviceapi/IMMDeviceEnumerator::UnregisterEndpointNotificationCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EndpointFormFactor
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMMDeviceEnumerator.UnregisterEndpointNotificationCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMMDeviceEnumerator::UnregisterEndpointNotificationCallback
@@ -65,7 +63,7 @@ The <b>UnregisterEndpointNotificationCallback</b> method deletes the registratio
 
 ### -param pClient
 
-
+TBD
 
 
 

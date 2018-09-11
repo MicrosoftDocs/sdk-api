@@ -4,17 +4,16 @@ title: IUIAnimationVariable::GetCurrentStoryboard
 author: windows-sdk-content
 description: Gets the storyboard that is currently animating the animation variable.
 old-location: uianimation\iuianimationvariable_getcurrentstoryboard.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 56042549-d6f6-4eed-8079-c1b14acbe160
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetCurrentStoryboard, GetCurrentStoryboard method [Windows Animation], GetCurrentStoryboard method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetCurrentStoryboard method, IUIAnimationVariable.GetCurrentStoryboard, IUIAnimationVariable::GetCurrentStoryboard, uianimation.iuianimationvariable_getcurrentstoryboard, uianimation/IUIAnimationVariable::GetCurrentStoryboard
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationVariable.GetCurrentStoryboard
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationVariable::GetCurrentStoryboard

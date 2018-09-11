@@ -4,17 +4,16 @@ title: ISCTE_EAS::GetDetailsAudioOOBSourceID
 author: windows-sdk-content
 description: The GetDetailsAudioOOBSourceID method returns the source identifier of the virtual audio channel for the emergency alert.
 old-location: mstv\iscte_eas_getdetailsaudiooobsourceid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ab054225-e8e6-4f78-9010-15fc8e5ad15b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDetailsAudioOOBSourceID, GetDetailsAudioOOBSourceID method [Microsoft TV Technologies], GetDetailsAudioOOBSourceID method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsAudioOOBSourceID method, ISCTE_EAS.GetDetailsAudioOOBSourceID, ISCTE_EAS::GetDetailsAudioOOBSourceID, ISCTE_EASGetDetailsAudioOOBSourceID, atscpsipparser/ISCTE_EAS::GetDetailsAudioOOBSourceID, mstv.iscte_eas_getdetailsaudiooobsourceid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISCTE_EAS.GetDetailsAudioOOBSourceID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISCTE_EAS::GetDetailsAudioOOBSourceID

@@ -4,17 +4,16 @@ title: CredUnprotectA function
 author: windows-sdk-content
 description: Decrypts credentials that were previously encrypted by using the CredProtect function.
 old-location: security\credunprotect.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 7a22fb2b-edfc-45f2-b2d2-729f3761584d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CredUnprotect, CredUnprotect function [Security], CredUnprotectA, CredUnprotectW, security.credunprotect, wincred/CredUnprotect, wincred/CredUnprotectA, wincred/CredUnprotectW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - CredUnprotectW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CredUnprotectA function

@@ -4,17 +4,16 @@ title: PSPropertyBag_WritePOINTS function
 author: windows-sdk-content
 description: Stores the property coordinates in aPOINTS structure of a specified property bag.
 old-location: properties\PSPropertyBag_WritePOINTS.htm
-old-project: properties
+tech.root: properties
 ms.assetid: B1E3E061-042A-4ba0-98F2-EA8A022882CC
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSPropertyBag_WritePOINTS, PSPropertyBag_WritePOINTS function [Windows Properties], properties.PSPropertyBag_WritePOINTS, propsys/PSPropertyBag_WritePOINTS, shell.PSPropertyBag_WritePOINTS, shell_PSPropertyBag_WritePOINTS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSPropertyBag_WritePOINTS
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PSPropertyBag_WritePOINTS function

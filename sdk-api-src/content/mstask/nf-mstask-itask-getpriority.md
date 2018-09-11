@@ -4,17 +4,16 @@ title: ITask::GetPriority
 author: windows-sdk-content
 description: This method retrieves the priority for the task.
 old-location: taskschd\itask_getpriority.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 4ace8ab8-e629-4cf9-9bdf-416b2f67c4cd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetPriority, GetPriority method [Task Scheduler], GetPriority method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetPriority method, ITask.GetPriority, ITask::GetPriority, _msb_itask_getpriority, mstask/ITask::GetPriority, taskschd.itask_getpriority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITask.GetPriority
 product: Windows
 targetos: Windows
-req.lib: Mstask.lib
-req.dll: Mstask.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ITask::GetPriority

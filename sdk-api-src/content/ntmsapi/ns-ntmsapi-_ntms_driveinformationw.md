@@ -4,17 +4,16 @@ title: "_NTMS_DRIVEINFORMATIONW"
 author: windows-sdk-content
 description: The NTMS_DRIVEINFORMATION structure defines properties specific to a drive object.
 old-location: fs\ntms_driveinformation.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: a095a8f1-a059-4aed-88da-a139286993b5
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: NTMS_DRIVEINFORMATION, NTMS_DRIVEINFORMATION structure [Files], NTMS_DRIVEINFORMATIONW, NTMS_DRIVESTATE_BEING_CLEANED, NTMS_DRIVESTATE_DISMOUNTABLE, NTMS_DRIVESTATE_DISMOUNTED, NTMS_DRIVESTATE_LOADED, NTMS_DRIVESTATE_MOUNTED, NTMS_DRIVESTATE_UNLOADED, _NTMS_DRIVEINFORMATIONA, _NTMS_DRIVEINFORMATIONW, _zaw_ntms_driveinformation, base.ntms_driveinformation, fs.ntms_driveinformation, ntmsapi/NTMS_DRIVEINFORMATION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTMS_DRIVEINFORMATIONW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTMS_DRIVEINFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: NTMS_DRIVEINFORMATIONW
+req.redist: 
 ---
 
 # _NTMS_DRIVEINFORMATIONW structure

@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSourceEvent::TimeHole
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_timehole.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6f1c3d20-7ae2-4223-8481-c22ef8422531
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],TimeHole method, IMSVidStreamBufferSourceEvent.TimeHole, IMSVidStreamBufferSourceEvent::TimeHole, IMSVidStreamBufferSourceEventTimeHole, TimeHole, TimeHole method [Microsoft TV Technologies], TimeHole method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_timehole, segment/IMSVidStreamBufferSourceEvent::TimeHole
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSourceEvent.TimeHole
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSourceEvent::TimeHole

@@ -4,17 +4,16 @@ title: ITargetInfo::SetTargetMode
 author: windows-sdk-content
 description: Sets the target mode.
 old-location: smi\itargetinfo_settargetmode.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: f8c5e67f-a084-4916-8371-bba4e7fb1da1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ITargetInfo interface [SMI],SetTargetMode method, ITargetInfo.SetTargetMode, ITargetInfo::SetTargetMode, SetTargetMode, SetTargetMode method [SMI], SetTargetMode method [SMI],ITargetInfo interface, smi.itargetinfo_settargetmode, wcmconfig/ITargetInfo::SetTargetMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITargetInfo.SetTargetMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITargetInfo::SetTargetMode

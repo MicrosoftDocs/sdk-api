@@ -4,17 +4,16 @@ title: IMFContentProtectionDevice::InvokeFunction
 author: windows-sdk-content
 description: Calls into the implementation of the protection system in the security processor.
 old-location: mf\imfcontentprotectiondevice_invokefunction.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1BEC7122-1DFB-49D7-BE60-7CE9D83A64F5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFContentProtectionDevice interface [Media Foundation],InvokeFunction method, IMFContentProtectionDevice.InvokeFunction, IMFContentProtectionDevice::InvokeFunction, InvokeFunction, InvokeFunction method [Media Foundation], InvokeFunction method [Media Foundation],IMFContentProtectionDevice interface, mf.imfcontentprotectiondevice_invokefunction, mfidl/IMFContentProtectionDevice::InvokeFunction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFContentProtectionDevice.InvokeFunction
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFContentProtectionDevice::InvokeFunction

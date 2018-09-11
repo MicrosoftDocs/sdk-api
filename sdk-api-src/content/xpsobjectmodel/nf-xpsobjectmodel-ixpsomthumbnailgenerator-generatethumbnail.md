@@ -4,17 +4,16 @@ title: IXpsOMThumbnailGenerator::GenerateThumbnail
 author: windows-sdk-content
 description: Generates a thumbnail image of a page.
 old-location: xps\ixpsomthumbnailgenerator_generatethumbnail.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 8a2431f0-50e5-43a9-8940-62d9babad297
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GenerateThumbnail, GenerateThumbnail method [XPS Documents and Packaging], GenerateThumbnail method [XPS Documents and Packaging],IXpsOMThumbnailGenerator interface, IXpsOMThumbnailGenerator interface [XPS Documents and Packaging],GenerateThumbnail method, IXpsOMThumbnailGenerator.GenerateThumbnail, IXpsOMThumbnailGenerator::GenerateThumbnail, xps.ixpsomthumbnailgenerator_generatethumbnail, xpsobjectmodel/IXpsOMThumbnailGenerator::GenerateThumbnail
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMThumbnailGenerator.GenerateThumbnail
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMThumbnailGenerator::GenerateThumbnail

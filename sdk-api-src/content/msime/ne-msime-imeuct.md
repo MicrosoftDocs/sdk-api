@@ -4,7 +4,7 @@ title: IMEUCT
 author: windows-sdk-content
 description: Type of user comment in a IMEWRD structure.
 old-location: intl\imeuct.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: B4969E4E-1918-4963-B9F2-606556FD5978
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMEUCT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: IMEUCT
+req.redist: 
 ---
 
 # IMEUCT enumeration

@@ -4,17 +4,16 @@ title: IDWriteFontFace3::GetRecommendedRenderingMode
 author: windows-sdk-content
 description: Determines the recommended text rendering and grid-fit mode to be used based on the font, size, world transform, and measuring mode.
 old-location: directwrite\idwritefontface3_getrecommendedrenderingmode.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 9EF4A414-8DD9-431B-81A6-D87F4CF9AA73
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetRecommendedRenderingMode, GetRecommendedRenderingMode method [Direct Write], GetRecommendedRenderingMode method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetRecommendedRenderingMode method, IDWriteFontFace3.GetRecommendedRenderingMode, IDWriteFontFace3::GetRecommendedRenderingMode, directwrite.idwritefontface3_getrecommendedrenderingmode, dwrite_3/IDWriteFontFace3::GetRecommendedRenderingMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace3.GetRecommendedRenderingMode
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace3::GetRecommendedRenderingMode

@@ -4,7 +4,7 @@ title: IMFSpatialAudioSample
 author: windows-sdk-content
 description: Represents a multimedia sample with spatial sound information. Every IMFSpatialAudioSample contains one or more IMFSpatialAudioObjectBuffer objects.
 old-location: mf\imfspatialaudiosample.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: EA0277BF-C9C8-42FE-9206-A87FC3C50A9F
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEVICE_INFO
+req.lib: Mfobjects.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSpatialAudioSample
 product: Windows
 targetos: Windows
-req.lib: Mfobjects.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSpatialAudioSample interface

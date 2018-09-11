@@ -4,17 +4,16 @@ title: WlxIsLockOk function
 author: windows-sdk-content
 description: Winlogon calls this function before attempting to lock the workstation.
 old-location: security\wlxislockok.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 764d7fc9-57d8-472a-9b91-ebfbe3628452
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WlxIsLockOk, WlxIsLockOk function [Security], _gina_wlxislockok, security.wlxislockok, winwlx/WlxIsLockOk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICONINFOEXW, *PICONINFOEXW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WlxIsLockOk
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WlxIsLockOk function

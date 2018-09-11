@@ -4,17 +4,16 @@ title: SetupDecompressOrCopyFileW function
 author: windows-sdk-content
 description: The SetupDecompressOrCopyFile function copies a file, decompressing it if necessary.
 old-location: setup\setupdecompressorcopyfile.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 6058567b-fa34-472b-91d8-3c5f9ee741b1
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupDecompressOrCopyFile, SetupDecompressOrCopyFile function [Setup API], SetupDecompressOrCopyFileA, SetupDecompressOrCopyFileW, _setupapi_setupdecompressorcopyfile, setup.setupdecompressorcopyfile, setupapi/SetupDecompressOrCopyFile, setupapi/SetupDecompressOrCopyFileA, setupapi/SetupDecompressOrCopyFileW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupDecompressOrCopyFileW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDecompressOrCopyFileW function

@@ -4,17 +4,16 @@ title: IDCompositionRectangleClip::SetBottomRightRadiusX(IDCompositionAnimation)
 author: windows-sdk-content
 description: Changes or animates the value of the BottomRightRadiusX property of this clip. The BottomRightRadiusX property specifies the x radius of the ellipse that rounds the lower-right corner of the clip.
 old-location: directcomp\idcompositionrectangleclip_setbottomrightradiusx.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 036E842C-320B-4C6B-9D83-561B2A107A59
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionRectangleClip.SetBottomRightRadiusX, IDCompositionRectangleClip.SetBottomRightRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetBottomRightRadiusX, IDCompositionRectangleClip::SetBottomRightRadiusX(IDCompositionAnimation), SetBottomRightRadiusX, SetBottomRightRadiusX methods [DirectComposition], dcomp/SetBottomRightRadiusX, directcomp.idcompositionrectangleclip_setbottomrightradiusx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionRectangleClip::SetBottomRightRadiusX
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionRectangleClip::SetBottomRightRadiusX(IDCompositionAnimation)

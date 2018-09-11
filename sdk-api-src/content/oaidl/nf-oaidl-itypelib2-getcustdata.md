@@ -4,17 +4,16 @@ title: ITypeLib2::GetCustData
 author: windows-sdk-content
 description: Gets the custom data.
 old-location: automat\itypelib2_getcustdata.htm
-old-project: automat
+tech.root: automat
 ms.assetid: e2f29070-6768-4734-a3e2-c9258375b33c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCustData, GetCustData method [Automation], GetCustData method [Automation],ITypeLib2 interface, ITypeLib2 interface [Automation],GetCustData method, ITypeLib2.GetCustData, ITypeLib2::GetCustData, _oa96_ITypeLib2_GetCustData, automat.itypelib2_getcustdata, oaidl/ITypeLib2::GetCustData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeLib2.GetCustData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeLib2::GetCustData

@@ -4,17 +4,16 @@ title: htonl function
 author: windows-sdk-content
 description: The htonl function converts a u_long from host to TCP/IP network byte order (which is big-endian).
 old-location: winsock\htonl_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: e3a18c5e-7efb-43d9-9abc-9d573bbb1923
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "_win32_htonl_2, htonl, htonl function [Winsock], winsock.htonl_2, winsock/htonl"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: smiVENDORINFO, *smiLPVENDORINFO
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - htonl
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # htonl function

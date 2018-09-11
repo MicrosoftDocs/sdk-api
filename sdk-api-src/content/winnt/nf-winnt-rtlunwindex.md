@@ -4,17 +4,16 @@ title: RtlUnwindEx function
 author: windows-sdk-content
 description: Initiates an unwind of procedure call frames.
 old-location: base\rtlunwindex.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 3d2d8778-311e-4cc1-b280-4f83ab457755
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: RtlUnwindEx, RtlUnwindEx function, base.rtlunwindex, winnt/RtlUnwindEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - RtlUnwindEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows XP Professional x64 Edition or 64-bit editions of Windows Server 2003
 ---
 

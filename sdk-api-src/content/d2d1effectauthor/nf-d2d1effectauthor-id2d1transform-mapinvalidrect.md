@@ -4,17 +4,16 @@ title: ID2D1Transform::MapInvalidRect
 author: windows-sdk-content
 description: Sets the input rectangles for this rendering pass into the transform.
 old-location: direct2d\id2d1transform_setinputrects.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 46E6EAF3-7EC7-4433-90E5-4C6E3A56AFA5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1Transform interface [Direct2D],MapInvalidRect method, ID2D1Transform.MapInvalidRect, ID2D1Transform::MapInvalidRect, MapInvalidRect, MapInvalidRect method [Direct2D], MapInvalidRect method [Direct2D],ID2D1Transform interface, d2d1effectauthor/ID2D1Transform::MapInvalidRect, direct2d.id2d1transform_setinputrects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_USAGE
+req.lib: D2d1.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID2D1Transform.MapInvalidRect
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Transform::MapInvalidRect

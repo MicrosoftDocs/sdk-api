@@ -4,17 +4,16 @@ title: IConnectableCredentialProviderCredential::Disconnect
 author: windows-sdk-content
 description: Disconnects an IConnectableCredentialProviderCredential object.
 old-location: shell\IConnectableCredentialProviderCredential_Disconnect.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 749147ce-9c05-4303-9ed2-62af047e6608
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Disconnect, Disconnect method [Windows Shell], Disconnect method [Windows Shell],IConnectableCredentialProviderCredential interface, IConnectableCredentialProviderCredential interface [Windows Shell],Disconnect method, IConnectableCredentialProviderCredential.Disconnect, IConnectableCredentialProviderCredential::Disconnect, _shell_IConnectableCredentialProviderCredential_Disconnect, credentialprovider/IConnectableCredentialProviderCredential::Disconnect, shell.IConnectableCredentialProviderCredential_Disconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IConnectableCredentialProviderCredential.Disconnect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IConnectableCredentialProviderCredential::Disconnect

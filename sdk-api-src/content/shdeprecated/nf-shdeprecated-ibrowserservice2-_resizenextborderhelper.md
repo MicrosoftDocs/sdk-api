@@ -4,17 +4,16 @@ title: IBrowserService2::_ResizeNextBorderHelper
 author: windows-sdk-content
 description: Deprecated. A helper method used by the implementation of IBrowserService2::_ResizeNextBorder.
 old-location: shell\IBrowserService2__ResizeNextBorderHelper.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 850025c0-96a0-4b7b-aa87-18325b0aecab
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_ResizeNextBorderHelper method, IBrowserService2._ResizeNextBorderHelper, IBrowserService2::_ResizeNextBorderHelper, _ResizeNextBorderHelper, _ResizeNextBorderHelper method [Windows Shell], _ResizeNextBorderHelper method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_ResizeNextBorderHelper, shell.IBrowserService2__ResizeNextBorderHelper, zone_IBrowserService2__ResizeNextBorderHelper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2._ResizeNextBorderHelper
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

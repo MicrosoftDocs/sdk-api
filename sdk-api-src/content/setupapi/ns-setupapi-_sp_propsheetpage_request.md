@@ -4,17 +4,16 @@ title: "_SP_PROPSHEETPAGE_REQUEST"
 author: windows-sdk-content
 description: An SP_PROPSHEETPAGE_REQUEST structure can be passed as the first parameter (lpv) to the ExtensionPropSheetPageProc entry point in the SetupAPI DLL.
 old-location: devinst\sp_propsheetpage_request.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: f9a4e685-e396-4b2f-a452-14389eb44620
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PSP_PROPSHEETPAGE_REQUEST, PSP_PROPSHEETPAGE_REQUEST, PSP_PROPSHEETPAGE_REQUEST structure pointer [Device and Driver Installation], SP_PROPSHEETPAGE_REQUEST, SP_PROPSHEETPAGE_REQUEST structure [Device and Driver Installation], _SP_PROPSHEETPAGE_REQUEST, devinst.sp_propsheetpage_request, di-struct_03c50681-4081-4ae3-88ba-32a10e937207.xml, setupapi/PSP_PROPSHEETPAGE_REQUEST, setupapi/SP_PROPSHEETPAGE_REQUEST"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_PROPSHEETPAGE_REQUEST, *PSP_PROPSHEETPAGE_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_PROPSHEETPAGE_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_PROPSHEETPAGE_REQUEST, *PSP_PROPSHEETPAGE_REQUEST
+req.redist: 
 ---
 
 # _SP_PROPSHEETPAGE_REQUEST structure

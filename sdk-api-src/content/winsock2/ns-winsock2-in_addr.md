@@ -4,17 +4,16 @@ title: in_addr
 author: windows-sdk-content
 description: The in_addr structure represents an IPv4 Internet address.
 old-location: winsock\in_addr_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: FAR *LPIN_ADDR, FAR *LPIN_ADDR structure [Winsock], IN_ADDR, IN_ADDR [Winsock], IN_ADDR structure [Winsock], PIN_ADDR, PIN_ADDR structure pointer [Winsock], _win32_in_addr_2, in_addr, in_addr structure [Winsock], inaddr/FAR *LPIN_ADDR, inaddr/PIN_ADDR, inaddr/in_addr, winsock.in_addr_2, winsock2/FAR *LPIN_ADDR, winsock2/PIN_ADDR, winsock2/in_addr
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IN_ADDR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # in_addr structure

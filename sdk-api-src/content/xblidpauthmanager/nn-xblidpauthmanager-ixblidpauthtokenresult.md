@@ -4,17 +4,16 @@ title: IXblIdpAuthTokenResult
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult.htm
-old-project: xblidp
+tech.root: xblidp
 ms.assetid: F3E2F3FD-0258-4AB9-B86E-5B12AD8ECA52
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,described, xblidp.ixblidpauthtokenresult, xblidpauthmanager/IXblIdpAuthTokenResult
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: xblidpauthmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXblIdpAuthTokenResult
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXblIdpAuthTokenResult interface

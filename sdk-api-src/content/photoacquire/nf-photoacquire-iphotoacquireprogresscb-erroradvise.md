@@ -4,17 +4,16 @@ title: IPhotoAcquireProgressCB::ErrorAdvise
 author: windows-sdk-content
 description: The ErrorAdvise method provides custom error handling for errors that occur during acquisition. The application provides the implementation of the ErrorAdvise method.
 old-location: picacq\iphotoacquireprogresscb_erroradvise.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 60454ae7-9be9-4414-9865-2b874bbe54c1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ErrorAdvise, ErrorAdvise method [Picture Acquisition], ErrorAdvise method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],ErrorAdvise method, IPhotoAcquireProgressCB.ErrorAdvise, IPhotoAcquireProgressCB::ErrorAdvise, IPhotoAcquireProgressCBErrorAdvise, photoacquire/IPhotoAcquireProgressCB::ErrorAdvise, picacq.iphotoacquireprogresscb_erroradvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireProgressCB.ErrorAdvise
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireProgressCB::ErrorAdvise

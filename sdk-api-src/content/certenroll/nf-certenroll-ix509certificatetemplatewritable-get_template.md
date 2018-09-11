@@ -4,17 +4,16 @@ title: IX509CertificateTemplateWritable::get_Template
 author: windows-sdk-content
 description: Retrieves a copy of the IX509CertificateTemplate object that was used to initialize this IX509CertificateTemplateWritable instance.
 old-location: security\ix509certificatetemplatewritable_template.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 35eef4e5-fcd9-4017-9d15-d8d418e063e7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509CertificateTemplateWritable interface [Security],Template property, IX509CertificateTemplateWritable.Template, IX509CertificateTemplateWritable.get_Template, IX509CertificateTemplateWritable::Template, IX509CertificateTemplateWritable::get_Template, Template property [Security], Template property [Security],IX509CertificateTemplateWritable interface, certenroll/IX509CertificateTemplateWritable::Template, certenroll/IX509CertificateTemplateWritable::get_Template, get_Template, security.ix509certificatetemplatewritable_template
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509CertificateTemplateWritable.get_Template
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateTemplateWritable::get_Template

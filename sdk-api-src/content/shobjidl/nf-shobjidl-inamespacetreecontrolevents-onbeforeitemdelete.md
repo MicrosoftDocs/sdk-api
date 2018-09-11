@@ -4,17 +4,16 @@ title: INameSpaceTreeControlEvents::OnBeforeItemDelete
 author: windows-sdk-content
 description: Called before an IShellItem and all of its children are deleted.
 old-location: shell\INameSpaceTreeControlEvents_OnBeforeItemDelete.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6d602c9d-7305-41d3-b757-3e9e125c6cbd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnBeforeItemDelete method, INameSpaceTreeControlEvents.OnBeforeItemDelete, INameSpaceTreeControlEvents::OnBeforeItemDelete, OnBeforeItemDelete, OnBeforeItemDelete method [Windows Shell], OnBeforeItemDelete method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnBeforeItemDelete, shell.INameSpaceTreeControlEvents_OnBeforeItemDelete, shobjidl/INameSpaceTreeControlEvents::OnBeforeItemDelete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControlEvents.OnBeforeItemDelete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControlEvents::OnBeforeItemDelete

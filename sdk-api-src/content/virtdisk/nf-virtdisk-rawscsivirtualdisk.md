@@ -4,17 +4,16 @@ title: RawSCSIVirtualDisk function
 author: windows-sdk-content
 description: Issues an embedded SCSI request directly to a virtual hard disk.
 old-location: vhd\rawscsivirtualdisk.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: AB766EC7-2D6E-44EB-9C5C-C840A77242CE
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RawSCSIVirtualDisk, RawSCSIVirtualDisk function [VHD], vdssys/RawSCSIVirtualDisk, vhd.rawscsivirtualdisk, virtdisk/RawSCSIVirtualDisk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIRTUAL_DISK_ACCESS_MASK
+req.lib: VirtDisk.lib
+req.dll: VirtDisk.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RawSCSIVirtualDisk
 product: Windows
 targetos: Windows
-req.lib: VirtDisk.lib
-req.dll: VirtDisk.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # RawSCSIVirtualDisk function

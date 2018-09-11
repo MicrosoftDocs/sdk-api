@@ -4,17 +4,16 @@ title: IStringTable::DeleteAllStrings
 author: windows-sdk-content
 description: The IStringTable::DeleteAllStrings method enables a snap-in to delete all strings from the snap-in's string table.
 old-location: mmc\istringtable_deleteallstrings.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 9a0b02f6-3c15-4687-a1b8-2beba40dd1dc
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: DeleteAllStrings, DeleteAllStrings method [MMC], DeleteAllStrings method [MMC],IStringTable interface, IStringTable interface [MMC],DeleteAllStrings method, IStringTable.DeleteAllStrings, IStringTable::DeleteAllStrings, _slate_istringtable_deleteallstrings, mmc.istringtable_deleteallstrings, mmc/IStringTable::DeleteAllStrings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStringTable.DeleteAllStrings
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IStringTable::DeleteAllStrings

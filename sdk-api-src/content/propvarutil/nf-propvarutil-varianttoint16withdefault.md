@@ -4,17 +4,16 @@ title: VariantToInt16WithDefault function
 author: windows-sdk-content
 description: Extracts an Int16 property value of a variant structure. If no value exists, then the specified default value is returned.
 old-location: properties\VariantToInt16WithDefault.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 4d6d0b7d-ae20-456c-9ef4-97fa682ece8b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VariantToInt16WithDefault, VariantToInt16WithDefault function [Windows Properties], _shell_VariantToInt16WithDefault, properties.VariantToInt16WithDefault, propvarutil/VariantToInt16WithDefault, shell.VariantToInt16WithDefault
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VariantToInt16WithDefault
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # VariantToInt16WithDefault function

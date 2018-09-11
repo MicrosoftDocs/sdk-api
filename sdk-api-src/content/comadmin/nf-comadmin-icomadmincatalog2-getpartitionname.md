@@ -4,17 +4,16 @@ title: ICOMAdminCatalog2::GetPartitionName
 author: windows-sdk-content
 description: Retrieves the name of the specified COM+ application.
 old-location: cos\icomadmincatalog2_getpartitionname.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 08d3efb2-1e2e-42e3-aefe-644db3b480f4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetPartitionName, GetPartitionName method [COM+], GetPartitionName method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GetPartitionName method, ICOMAdminCatalog2.GetPartitionName, ICOMAdminCatalog2::GetPartitionName, _cos_icomadmincatalog2_GetPartitionName, comadmin/ICOMAdminCatalog2::GetPartitionName, cos.icomadmincatalog2_getpartitionname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog2.GetPartitionName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog2::GetPartitionName

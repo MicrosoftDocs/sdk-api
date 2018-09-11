@@ -4,17 +4,16 @@ title: IAzApplication::DeleteOperation
 author: windows-sdk-content
 description: Removes the IAzOperation object with the specified name from the IAzApplication object.
 old-location: security\iazapplication_deleteoperation.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2541e01d-20a4-424f-b8e0-5d6dedfbd7fe
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzApplication object [Security],DeleteOperation method, DeleteOperation, DeleteOperation method [Security], DeleteOperation method [Security],AzApplication object, DeleteOperation method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteOperation method, IAzApplication.DeleteOperation, IAzApplication::DeleteOperation, azroles/IAzApplication::DeleteOperation, security.iazapplication_deleteoperation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzApplication.DeleteOperation
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::DeleteOperation

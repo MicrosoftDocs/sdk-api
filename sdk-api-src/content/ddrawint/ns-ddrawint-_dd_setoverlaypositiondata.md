@@ -4,7 +4,7 @@ title: "_DD_SETOVERLAYPOSITIONDATA"
 author: windows-sdk-content
 description: The DD_SETOVERLAYPOSITIONDATA structure contains information necessary to change the display coordinates of an overlay surface.
 old-location: display\dd_setoverlaypositiondata.htm
-old-project: display
+tech.root: display
 ms.assetid: edfcbe23-81af-41fb-b29e-cd6e2da4d603
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_SETOVERLAYPOSITIONDATA, DD_SETOVERLAYPOSITIONDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_SETOVERLAYPOSITIONDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_SETOVERLAYPOSITIONDATA, DD_SETOVERLAYPOSITIONDATA"
+req.redist: 
 ---
 
 # _DD_SETOVERLAYPOSITIONDATA structure

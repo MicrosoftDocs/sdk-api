@@ -4,17 +4,16 @@ title: EcOpenSubscription function
 author: windows-sdk-content
 description: Opens an existing subscription or creates a new subscription.
 old-location: wec\ecopensubscription.htm
-old-project: WEC
+tech.root: WEC
 ms.assetid: 3b4ef765-b557-4142-ba7d-e2556bd067ec
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcOpenSubscription, EcOpenSubscription function, evcoll/EcOpenSubscription, wec.ecopensubscription, wes.ecopensubscription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EC_VARIANT_TYPE
+req.lib: Wecapi.lib
+req.dll: Wecapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EcOpenSubscription
 product: Windows
 targetos: Windows
-req.lib: Wecapi.lib
-req.dll: Wecapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EcOpenSubscription function

@@ -4,17 +4,16 @@ title: ISdo::PutProperty
 author: windows-sdk-content
 description: The PutProperty method sets the value of the specified property.
 old-location: nps\SDO_isdo_putproperty.htm
-old-project: nps
+tech.root: nps
 ms.assetid: c2e440a7-d58c-4542-bd0b-a06b810edd34
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ISdo interface [Network Policy Server],PutProperty method, ISdo.PutProperty, ISdo::PutProperty, PutProperty, PutProperty method [Network Policy Server], PutProperty method [Network Policy Server],ISdo interface, _sdo_isdo_putproperty, nps.SDO_isdo_putproperty, sdo.isdo_putproperty, sdoias/ISdo::PutProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VENDORPROPERTIES
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISdo.PutProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Iassdo.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISdo::PutProperty

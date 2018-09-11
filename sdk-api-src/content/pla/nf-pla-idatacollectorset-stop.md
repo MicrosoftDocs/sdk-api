@@ -4,17 +4,16 @@ title: IDataCollectorSet::Stop
 author: windows-sdk-content
 description: Manually stops the data collector set.
 old-location: pla\idatacollectorset_stop.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: b869ea8e-4fc8-4974-9e1c-1d2c480c3b0e
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],Stop method, IDataCollectorSet.Stop, IDataCollectorSet::Stop, Stop, Stop method [PLA], Stop method [PLA],IDataCollectorSet interface, base.idatacollectorset_stop, pla.idatacollectorset_stop, pla/IDataCollectorSet::Stop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataCollectorSet.Stop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::Stop

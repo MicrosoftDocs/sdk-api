@@ -4,17 +4,16 @@ title: IAzTask2
 author: windows-sdk-content
 description: Extends the IAzTask interface with a method that returns the role assignments associated with the task.
 old-location: security\iaztask2.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: fa9994c5-1866-41ab-9cae-2d0e7208f79c
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IAzTask2, IAzTask2 interface [Security], IAzTask2 interface [Security],described, azroles/IAzTask2, security.iaztask2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzTask2
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzTask2 interface

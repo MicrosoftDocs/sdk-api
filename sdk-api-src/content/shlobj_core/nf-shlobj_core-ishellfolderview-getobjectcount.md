@@ -4,17 +4,16 @@ title: IShellFolderView::GetObjectCount
 author: windows-sdk-content
 description: Gets the number of items in the folder view.
 old-location: shell\IShellFolderView_GetObjectCount.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a68dca56-ae89-4280-b1de-8c85362bf9c6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetObjectCount, GetObjectCount method [Windows Shell], GetObjectCount method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetObjectCount method, IShellFolderView.GetObjectCount, IShellFolderView::GetObjectCount, _shell_IShellFolderView_GetObjectCount, shell.IShellFolderView_GetObjectCount, shlobj_core/IShellFolderView::GetObjectCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderView.GetObjectCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderView::GetObjectCount

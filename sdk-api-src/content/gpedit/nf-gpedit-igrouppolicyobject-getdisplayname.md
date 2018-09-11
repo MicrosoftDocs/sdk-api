@@ -4,17 +4,16 @@ title: IGroupPolicyObject::GetDisplayName
 author: windows-sdk-content
 description: The GetDisplayName method retrieves the display name for the GPO.
 old-location: policy\igrouppolicyobject_getdisplayname.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: a16592c3-8fa1-4859-b379-ef31999a3fdd
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Group Policy], GetDisplayName method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetDisplayName method, IGroupPolicyObject.GetDisplayName, IGroupPolicyObject::GetDisplayName, _win32_igrouppolicyobject_getdisplayname, gpedit/IGroupPolicyObject::GetDisplayName, policy.igrouppolicyobject_getdisplayname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGroupPolicyObject.GetDisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpedit.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGroupPolicyObject::GetDisplayName

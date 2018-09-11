@@ -4,17 +4,16 @@ title: StringFormat::GetMeasurableCharacterRangeCount
 author: windows-sdk-content
 description: The StringFormat::GetMeasurableCharacterRangeCount method gets the number of measurable character ranges that are currently set. The character ranges that are set can be measured in a string by using the MeasureCharacterRanges method.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCount_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getmeasurablecharacterrangecount.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetMeasurableCharacterRangeCount, GetMeasurableCharacterRangeCount method [GDI+], GetMeasurableCharacterRangeCount method [GDI+],StringFormat class, StringFormat class [GDI+],GetMeasurableCharacterRangeCount method, StringFormat.GetMeasurableCharacterRangeCount, StringFormat::GetMeasurableCharacterRangeCount, _gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCount_, gdiplus._gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCount_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - StringFormat.GetMeasurableCharacterRangeCount
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

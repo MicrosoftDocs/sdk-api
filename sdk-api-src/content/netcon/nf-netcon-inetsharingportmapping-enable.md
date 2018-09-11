@@ -4,17 +4,16 @@ title: INetSharingPortMapping::Enable
 author: windows-sdk-content
 description: The Enable method enables a port mapping for a particular connection.
 old-location: ics\inetsharingportmapping_enable.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 55a639f3-9180-4d02-9d10-659a398fa32f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Enable, Enable method [ICS/ICF], Enable method [ICS/ICF],INetSharingPortMapping interface, INetSharingPortMapping interface [ICS/ICF],Enable method, INetSharingPortMapping.Enable, INetSharingPortMapping::Enable, _ics_inetsharingportmapping_enable, ics.inetsharingportmapping_enable, netcon/INetSharingPortMapping::Enable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingPortMapping.Enable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingPortMapping::Enable

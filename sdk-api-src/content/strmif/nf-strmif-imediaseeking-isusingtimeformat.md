@@ -4,17 +4,16 @@ title: IMediaSeeking::IsUsingTimeFormat
 author: windows-sdk-content
 description: The IsUsingTimeFormat method determines whether seek operations are currently using a specified time format.
 old-location: dshow\imediaseeking_isusingtimeformat.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 27211946-9b05-40fc-823e-efad87a730a3
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaSeeking interface [DirectShow],IsUsingTimeFormat method, IMediaSeeking.IsUsingTimeFormat, IMediaSeeking::IsUsingTimeFormat, IMediaSeekingIsUsingTimeFormat, IsUsingTimeFormat, IsUsingTimeFormat method [DirectShow], IsUsingTimeFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_isusingtimeformat, strmif/IMediaSeeking::IsUsingTimeFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaSeeking.IsUsingTimeFormat
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaSeeking::IsUsingTimeFormat

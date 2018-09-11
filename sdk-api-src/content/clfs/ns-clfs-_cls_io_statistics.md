@@ -4,7 +4,7 @@ title: "_CLS_IO_STATISTICS"
 author: windows-sdk-content
 description: Defines the statistics that are reported by GetLogIoStatistics.
 old-location: fs\clfs_io_statistics.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 99544331-0a7c-4efd-93a7-e94011375394
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLS_IO_STATISTICS, *PCLS_IO_STATISTICS, PPCLS_IO_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLFS_IO_STATISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLS_IO_STATISTICS, *PCLS_IO_STATISTICS, PPCLS_IO_STATISTICS
+req.redist: 
 ---
 
 # _CLS_IO_STATISTICS structure

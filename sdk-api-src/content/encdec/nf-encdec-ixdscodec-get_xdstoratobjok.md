@@ -4,17 +4,16 @@ title: IXDSCodec::get_XDSToRatObjOK
 author: windows-sdk-content
 description: The get_XDSToRatObjOK method queries whether the XDSToRat object was created successfully.
 old-location: mstv\ixdscodec_get_xdstoratobjok.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 846f3f68-8745-416d-9f0e-1e6ef83054b2
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IXDSCodec interface [Microsoft TV Technologies],get_XDSToRatObjOK method, IXDSCodec.get_XDSToRatObjOK, IXDSCodec::get_XDSToRatObjOK, IXDSCodecXDSToRatObjOK, encdec/IXDSCodec::get_XDSToRatObjOK, get_XDSToRatObjOK, get_XDSToRatObjOK method [Microsoft TV Technologies], get_XDSToRatObjOK method [Microsoft TV Technologies],IXDSCodec interface, mstv.ixdscodec_get_xdstoratobjok
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXDSCodec.get_XDSToRatObjOK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IXDSCodec::get_XDSToRatObjOK

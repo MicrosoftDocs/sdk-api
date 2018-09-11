@@ -4,17 +4,16 @@ title: ITsSbTaskInfo::get_EndTime
 author: windows-sdk-content
 description: Retrieves the latest time the task agent can start the task.
 old-location: termserv\itssbtaskinfo_endtime.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 3bf8b99f-02d2-41b4-82e1-7403b827b701
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EndTime property [Remote Desktop Services], EndTime property [Remote Desktop Services],ITsSbTaskInfo interface, ITsSbTaskInfo interface [Remote Desktop Services],EndTime property, ITsSbTaskInfo.EndTime, ITsSbTaskInfo.get_EndTime, ITsSbTaskInfo::EndTime, ITsSbTaskInfo::get_EndTime, get_EndTime, sbtsv/ITsSbTaskInfo::EndTime, sbtsv/ITsSbTaskInfo::get_EndTime, termserv.itssbtaskinfo_endtime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbTaskInfo.get_EndTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbTaskInfo::get_EndTime

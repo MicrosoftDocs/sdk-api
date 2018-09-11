@@ -4,17 +4,16 @@ title: IAppxManifestMainPackageDependenciesEnumerator::GetHasCurrent
 author: windows-sdk-content
 description: Determines whether there is a &lt;MainPackageDependency&gt; element at the current position of the enumerator.
 old-location: appxpkg\iappxmanifestmainpackagedependenciesenumerator_gethascurrent.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: DB350E8E-8A0B-4742-B7E3-2133603A0714
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxManifestMainPackageDependenciesEnumerator interface, IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management],GetHasCurrent method, IAppxManifestMainPackageDependenciesEnumerator.GetHasCurrent, IAppxManifestMainPackageDependenciesEnumerator::GetHasCurrent, appxpackaging/IAppxManifestMainPackageDependenciesEnumerator::GetHasCurrent, appxpkg.iappxmanifestmainpackagedependenciesenumerator_gethascurrent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxManifestMainPackageDependenciesEnumerator.GetHasCurrent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxManifestMainPackageDependenciesEnumerator::GetHasCurrent

@@ -4,17 +4,16 @@ title: IFileDialogControlEvents
 author: windows-sdk-content
 description: Exposes methods that allow an application to be notified of events that are related to controls that the application has added to a common file dialog.
 old-location: shell\IFileDialogControlEvents.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 745ee176-53bc-4388-beaa-a0856a438ee6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileDialogControlEvents, IFileDialogControlEvents interface [Windows Shell], IFileDialogControlEvents interface [Windows Shell],described, shell.IFileDialogControlEvents, shell_IFileDialogControlEvents, shobjidl/IFileDialogControlEvents
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialogControlEvents
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Comdlg32.dll (version 6.1 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialogControlEvents interface

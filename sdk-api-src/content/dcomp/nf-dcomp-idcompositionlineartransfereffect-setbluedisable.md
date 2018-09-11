@@ -4,17 +4,16 @@ title: IDCompositionLinearTransferEffect::SetBlueDisable
 author: windows-sdk-content
 description: Specifies whether to apply the transfer function to the blue channel.
 old-location: directcomp\idcompositionlineartransfereffect_setbluedisable.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: DE87E53B-4469-4B30-8397-6A0712DE8A6C
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetBlueDisable method, IDCompositionLinearTransferEffect.SetBlueDisable, IDCompositionLinearTransferEffect::SetBlueDisable, SetBlueDisable, SetBlueDisable method [DirectComposition], SetBlueDisable method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetBlueDisable, directcomp.idcompositionlineartransfereffect_setbluedisable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionLinearTransferEffect.SetBlueDisable
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionLinearTransferEffect::SetBlueDisable

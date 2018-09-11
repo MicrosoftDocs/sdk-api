@@ -4,17 +4,16 @@ title: IShellImageStore::Commit
 author: windows-sdk-content
 description: Writes the contents specified by pdwLoc to storage.
 old-location: shell\IShellImageStore_Commit.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 99ae5347-b140-4698-9fc5-bd60870d9149
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Commit, Commit method [Windows Shell], Commit method [Windows Shell],IShellImageStore interface, IShellImageStore interface [Windows Shell],Commit method, IShellImageStore.Commit, IShellImageStore::Commit, _win32_IShellImageStore_Commit, shell.IShellImageStore_Commit, shlobj/IShellImageStore::Commit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageStore.Commit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageStore::Commit
@@ -62,7 +60,7 @@ Writes the contents specified by <i>pdwLoc</i> to storage.
 
 ### -param pdwLock
 
-
+TBD
 
 
 

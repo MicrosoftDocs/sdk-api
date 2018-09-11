@@ -4,7 +4,7 @@ title: "_DDOPENSURFACEOUT"
 author: windows-sdk-content
 description: The DDOPENSURFACEOUT structure contains a new DirectDrawSurface handle, if the ddRVal member of DDOPENSURFACEOUT is set to DD_OK. This new handle must be used on all subsequent calls that require a DirectDrawSurface handle.
 old-location: display\ddopensurfaceout.htm
-old-project: display
+tech.root: display
 ms.assetid: 0cf0db38-f512-4ca1-a386-5544a1c9433e
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDOPENSURFACEOUT, *LPDDOPENSURFACEOUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDOPENSURFACEOUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDOPENSURFACEOUT, *LPDDOPENSURFACEOUT
+req.redist: 
 ---
 
 # _DDOPENSURFACEOUT structure

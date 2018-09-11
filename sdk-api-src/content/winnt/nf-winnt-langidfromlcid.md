@@ -4,17 +4,16 @@ title: LANGIDFROMLCID macro
 author: windows-sdk-content
 description: Retrieves a language identifier from a locale identifier.
 old-location: intl\langidfromlcid.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 23392f93-8724-4b58-879e-4f48aaba4084
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: LANGIDFROMLCID, LANGIDFROMLCID macro [Internationalization for Windows Applications], _win32_LANGIDFROMLCID, intl.langidfromlcid, winnt/LANGIDFROMLCID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LANGIDFROMLCID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # LANGIDFROMLCID macro

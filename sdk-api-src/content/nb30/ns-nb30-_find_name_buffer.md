@@ -4,7 +4,7 @@ title: "_FIND_NAME_BUFFER"
 author: windows-sdk-content
 description: The FIND_NAME_BUFFER structure contains information about a local network session.
 old-location: netbios\find_name_buffer.htm
-old-project: NetBIOS
+tech.root: NetBIOS
 ms.assetid: d35cd375-6207-4019-bd3e-20dc302e9c45
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FIND_NAME_BUFFER, *PFIND_NAME_BUFFER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FIND_NAME_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: FIND_NAME_BUFFER, *PFIND_NAME_BUFFER
+req.redist: 
 ---
 
 # _FIND_NAME_BUFFER structure

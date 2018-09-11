@@ -4,17 +4,16 @@ title: ITextRange2::InsertTable
 author: windows-sdk-content
 description: Inserts a table in a range.
 old-location: controls\itextrange2_inserttable.htm
-old-project: controls
+tech.root: controls
 ms.assetid: f62cc778-8f06-43d1-985b-d233b02d3255
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRange2 interface [Windows Controls],InsertTable method, ITextRange2.InsertTable, ITextRange2::InsertTable, InsertTable, InsertTable method [Windows Controls], InsertTable method [Windows Controls],ITextRange2 interface, controls.itextrange2_inserttable, tom/ITextRange2::InsertTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange2.InsertTable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange2::InsertTable

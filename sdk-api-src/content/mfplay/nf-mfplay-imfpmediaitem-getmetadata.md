@@ -4,17 +4,16 @@ title: IMFPMediaItem::GetMetadata
 author: windows-sdk-content
 description: Gets a property store that contains metadata for the source, such as author or title.
 old-location: mf\imfpmediaitem_getmetadata.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 212d468f-de5e-4a55-aaa4-ed487bbf6a00
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetMetadata, GetMetadata method [Media Foundation], GetMetadata method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetMetadata method, IMFPMediaItem.GetMetadata, IMFPMediaItem::GetMetadata, mf.imfpmediaitem_getmetadata, mfplay/IMFPMediaItem::GetMetadata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaItem.GetMetadata
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaItem::GetMetadata

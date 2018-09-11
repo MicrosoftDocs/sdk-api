@@ -4,17 +4,16 @@ title: RpcServerInqDefaultPrincNameA function
 author: windows-sdk-content
 description: The RpcServerInqDefaultPrincName function obtains the default principal name for a given authentication service.
 old-location: rpc\rpcserverinqdefaultprincname.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: b265e0ae-cdef-450e-bf16-25da5bea7d5e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcServerInqDefaultPrincName, RpcServerInqDefaultPrincName function [RPC], RpcServerInqDefaultPrincNameA, RpcServerInqDefaultPrincNameW, _rpc_rpcserverinqdefaultprincname, rpc.rpcserverinqdefaultprincname, rpcdce/RpcServerInqDefaultPrincName, rpcdce/RpcServerInqDefaultPrincNameA, rpcdce/RpcServerInqDefaultPrincNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcServerInqDefaultPrincNameW
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcServerInqDefaultPrincNameA function

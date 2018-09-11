@@ -4,17 +4,16 @@ title: IEventSubscription::RemovePublisherProperty
 author: windows-sdk-content
 description: Removes a property and its value from the property bag that defines publisher context.
 old-location: cos\ieventsubscription_removepublisherproperty.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 3893e605-dd01-47d3-bb7d-095964433ef9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEventSubscription interface [COM+],RemovePublisherProperty method, IEventSubscription.RemovePublisherProperty, IEventSubscription::RemovePublisherProperty, RemovePublisherProperty, RemovePublisherProperty method [COM+], RemovePublisherProperty method [COM+],IEventSubscription interface, _cos_IEventSubscription_RemovePublisherProperty, cos.ieventsubscription_removepublisherproperty, eventsys/IEventSubscription::RemovePublisherProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEventSubscription.RemovePublisherProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventSubscription::RemovePublisherProperty

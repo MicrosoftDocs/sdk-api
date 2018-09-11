@@ -4,17 +4,16 @@ title: IEnumDot11AdHocInterfaces::Reset
 author: windows-sdk-content
 description: Resets to the beginning of the enumeration sequence.
 old-location: nwifi\ienumdot11adhocinterfaces_reset.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: e310cc06-acc0-4a65-bea7-c9b39900b7ca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumDot11AdHocInterfaces interface [NativeWIFI],Reset method, IEnumDot11AdHocInterfaces.Reset, IEnumDot11AdHocInterfaces::Reset, Reset, Reset method [NativeWIFI], Reset method [NativeWIFI],IEnumDot11AdHocInterfaces interface, adhoc/IEnumDot11AdHocInterfaces::Reset, nwifi.ienumdot11adhocinterfaces_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumDot11AdHocInterfaces.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumDot11AdHocInterfaces::Reset

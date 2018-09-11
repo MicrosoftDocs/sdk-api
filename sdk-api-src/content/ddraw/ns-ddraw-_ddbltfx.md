@@ -4,7 +4,7 @@ title: "_DDBLTFX"
 author: windows-sdk-content
 description: The DDBLTFX structure passes raster operations (ROPs), effects, and override information to the IDirectDrawSurface7::Blt method. This structure is also part of the DDBLTBATCH structure that is used with the IDirectDrawSurface7::BltBatch method.
 old-location: directdraw\ddbltfx.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: a542434f-61d3-4c73-a087-ffb83a509c67
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDBLTFX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDBLTFX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDBLTFX
+req.redist: 
 ---
 
 # _DDBLTFX structure

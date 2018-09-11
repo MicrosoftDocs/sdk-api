@@ -4,7 +4,7 @@ title: TF_LMLATTELEMENT
 author: windows-sdk-content
 description: The TF_LMLATTELEMENT structure contains information about a lattice element. A lattice element is used in speech recognition. This structure is used with the IEnumTfLatticeElements::Next method.
 old-location: tsf\tf_lmlattelement.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 55cc631f-c9ab-4ca8-ab5b-43e8a2e88fc9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_LMLATTELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TF_LMLATTELEMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: TF_LMLATTELEMENT
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # TF_LMLATTELEMENT structure

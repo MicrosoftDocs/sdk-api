@@ -4,17 +4,16 @@ title: IISDB_BIT::Initialize
 author: windows-sdk-content
 description: Initializes the object by using captured table section data for an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_initialize.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1c38cbc0-4e47-4f15-9a9b-548e74af6462
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IISDB_BIT interface [Microsoft TV Technologies],Initialize method, IISDB_BIT.Initialize, IISDB_BIT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_BIT interface, dvbsiparser/IISDB_BIT::Initialize, mstv.iisdb_bit_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IISDB_BIT.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IISDB_BIT::Initialize

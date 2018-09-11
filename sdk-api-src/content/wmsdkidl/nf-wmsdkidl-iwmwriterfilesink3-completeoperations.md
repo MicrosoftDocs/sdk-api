@@ -4,17 +4,16 @@ title: IWMWriterFileSink3::CompleteOperations
 author: windows-sdk-content
 description: The CompleteOperations method stops the writer sink after completing all operations in progress. This method is used with unbuffered I/O.
 old-location: wmformat\iwmwriterfilesink3_completeoperations.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 6eb4f09f-627e-4409-9f08-8f655aa7d0ec
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CompleteOperations, CompleteOperations method [windows Media Format], CompleteOperations method [windows Media Format],IWMWriterFileSink3 interface, IWMWriterFileSink3 interface [windows Media Format],CompleteOperations method, IWMWriterFileSink3.CompleteOperations, IWMWriterFileSink3::CompleteOperations, IWMWriterFileSink3CompleteOperations, wmformat.iwmwriterfilesink3_completeoperations, wmsdkidl/IWMWriterFileSink3::CompleteOperations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMWriterFileSink3.CompleteOperations
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMWriterFileSink3::CompleteOperations

@@ -4,17 +4,16 @@ title: IDWriteFontList1::GetFontFaceReference
 author: windows-sdk-content
 description: Gets a font face reference given its zero-based index.
 old-location: directwrite\idwritefontlist1_getfontfacereference.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: E8EFDD13-2B6E-4C50-9A5D-AFBB4C0AF08B
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetFontFaceReference, GetFontFaceReference method [Direct Write], GetFontFaceReference method [Direct Write],IDWriteFontList1 interface, IDWriteFontList1 interface [Direct Write],GetFontFaceReference method, IDWriteFontList1.GetFontFaceReference, IDWriteFontList1::GetFontFaceReference, directwrite.idwritefontlist1_getfontfacereference, dwrite_3/IDWriteFontList1::GetFontFaceReference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontList1.GetFontFaceReference
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontList1::GetFontFaceReference

@@ -4,17 +4,16 @@ title: IVdsLun::Delete
 author: windows-sdk-content
 description: Deletes the LUN and all of its plexes. Any data on the LUN is lost. VDS frees the extents allocated to the LUN.
 old-location: base\ivdslun_delete.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 21522c62-0b60-4c70-b2bd-7a33aa94d280
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsLun interface, IVdsLun interface [VDS],Delete method, IVdsLun.Delete, IVdsLun::Delete, base.ivdslun_delete, vds/IVdsLun::Delete, vdshwprv/IVdsLun::Delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLun.Delete
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsLun::Delete

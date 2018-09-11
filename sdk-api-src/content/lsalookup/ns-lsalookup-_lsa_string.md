@@ -4,17 +4,16 @@ title: "_LSA_STRING"
 author: windows-sdk-content
 description: Used by Local Security Authority (LSA) functions to specify an ANSI string.
 old-location: security\lsa_string.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 4ae4160f-bcad-41d9-8239-91da44702b76
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PLSA_STRING, LSA_STRING, LSA_STRING structure [Security], PLSA_STRING, PLSA_STRING structure pointer [Security], _LSA_STRING, _lsa_lsa_string, lsalookup/LSA_STRING, lsalookup/PLSA_STRING, security.lsa_string"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lsalookup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LSA_STRING, *PLSA_STRING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LSA_STRING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: LSA_STRING, *PLSA_STRING
+req.redist: 
 ---
 
 # _LSA_STRING structure

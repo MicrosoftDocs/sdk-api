@@ -4,17 +4,16 @@ title: IVssComponent::AddDifferencedFilesByLastModifyLSN
 author: windows-sdk-content
 description: Not supported.
 old-location: base\ivsscomponent_adddifferencedfilesbylastmodifylsn.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: e708a6e9-9e4e-4620-8251-65b14a7bc6ee
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddDifferencedFilesByLastModifyLSN, AddDifferencedFilesByLastModifyLSN method [VSS], AddDifferencedFilesByLastModifyLSN method [VSS],IVssComponent interface, IVssComponent interface [VSS],AddDifferencedFilesByLastModifyLSN method, IVssComponent.AddDifferencedFilesByLastModifyLSN, IVssComponent::AddDifferencedFilesByLastModifyLSN, _win32_ivsscomponent_adddifferencedfilesbylastmodifylsn, base.ivsscomponent_adddifferencedfilesbylastmodifylsn, vswriter/IVssComponent::AddDifferencedFilesByLastModifyLSN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssComponent.AddDifferencedFilesByLastModifyLSN
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponent::AddDifferencedFilesByLastModifyLSN
@@ -65,22 +63,22 @@ This method is reserved for system use.
 
 ### -param wszPath
 
-
+TBD
 
 
 ### -param wszFilespec
 
-
+TBD
 
 
 ### -param bRecursive
 
-
+TBD
 
 
 ### -param bstrLsnString
 
-
+TBD
 
 
 

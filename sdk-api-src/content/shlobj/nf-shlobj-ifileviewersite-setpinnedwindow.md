@@ -4,17 +4,16 @@ title: IFileViewerSite::SetPinnedWindow
 author: windows-sdk-content
 description: Sets the pinned window. When the user selects a new file to view, the Shell directs the file viewer to display the new file in the pinned window instead of creating a new window.
 old-location: shell\IFileViewerSite_SetPinnedWindow.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7c2bcb76-84aa-404e-9e0a-9ee966b6c91e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileViewerSite interface [Windows Shell],SetPinnedWindow method, IFileViewerSite.SetPinnedWindow, IFileViewerSite::SetPinnedWindow, SetPinnedWindow, SetPinnedWindow method [Windows Shell], SetPinnedWindow method [Windows Shell],IFileViewerSite interface, _win32_IFileViewerSite_SetPinnedWindow, shell.IFileViewerSite_SetPinnedWindow, shlobj/IFileViewerSite::SetPinnedWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileViewerSite.SetPinnedWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileViewerSite::SetPinnedWindow

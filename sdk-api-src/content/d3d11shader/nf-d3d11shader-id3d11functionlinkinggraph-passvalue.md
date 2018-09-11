@@ -4,17 +4,16 @@ title: ID3D11FunctionLinkingGraph::PassValue
 author: windows-sdk-content
 description: Passes a value from a source linking node to a destination linking node.
 old-location: direct3d11\id3d11functionlinkinggraph_passvalue.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 78489B91-E56D-4338-BCCB-6807EA0E8367
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID3D11FunctionLinkingGraph interface [Direct3D 11],PassValue method, ID3D11FunctionLinkingGraph.PassValue, ID3D11FunctionLinkingGraph::PassValue, PassValue, PassValue method [Direct3D 11], PassValue method [Direct3D 11],ID3D11FunctionLinkingGraph interface, d3d11shader/ID3D11FunctionLinkingGraph::PassValue, direct3d11.id3d11functionlinkinggraph_passvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_VERSION_TYPE
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11FunctionLinkingGraph.PassValue
 product: Windows
 targetos: Windows
-req.lib: D3DCompiler.lib
-req.dll: D3DCompiler_47.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11FunctionLinkingGraph::PassValue

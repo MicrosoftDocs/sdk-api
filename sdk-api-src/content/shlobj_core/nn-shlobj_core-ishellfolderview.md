@@ -4,17 +4,16 @@ title: IShellFolderView
 author: windows-sdk-content
 description: Exposes methods that manipulate Shell folder views.
 old-location: shell\IShellFolderView.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e3b0b35f-6707-4e37-8470-31b1d4421d07
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellFolderView, IShellFolderView interface [Windows Shell], IShellFolderView interface [Windows Shell],described, _shell_IShellFolderView, shell.IShellFolderView, shlobj_core/IShellFolderView
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderView
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderView interface

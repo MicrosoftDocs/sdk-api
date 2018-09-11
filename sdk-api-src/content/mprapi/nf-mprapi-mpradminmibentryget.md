@@ -4,17 +4,16 @@ title: MprAdminMIBEntryGet function
 author: windows-sdk-content
 description: The MprAdminMIBEntryGet function retrieves the value of one of the variables exported by a routing protocol or router manager.
 old-location: rras\mpradminmibentryget.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 98e88364-4757-4b43-8316-6d4d9b3c2f29
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminMIBEntryGet, MprAdminMIBEntryGet function [RAS], _mpr_mpradminmibentryget, mprapi/MprAdminMIBEntryGet, rras.mpradminmibentryget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminMIBEntryGet
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminMIBEntryGet function

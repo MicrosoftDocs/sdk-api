@@ -4,17 +4,16 @@ title: IDirect3DDevice9::ColorFill
 author: windows-sdk-content
 description: Allows an application to fill a rectangular area of a D3DPOOL_DEFAULT surface with a specified color.
 old-location: direct3d9\idirect3ddevice9__colorfill.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__colorfill.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: ColorFill, ColorFill method [Direct3D 9], ColorFill method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],ColorFill method, IDirect3DDevice9.ColorFill, IDirect3DDevice9::ColorFill, b637fa24-0e80-8d43-dece-17fb81ac14e4, d3d9helper/IDirect3DDevice9::ColorFill, direct3d9.idirect3ddevice9__colorfill
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DDevice9.ColorFill
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9::ColorFill

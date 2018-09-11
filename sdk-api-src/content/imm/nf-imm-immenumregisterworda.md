@@ -4,17 +4,16 @@ title: ImmEnumRegisterWordA function
 author: windows-sdk-content
 description: Enumerates the register strings having the specified reading string, style, and register string.
 old-location: intl\immenumregisterword.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: ebeed3f9-1164-49d8-a7af-61244976643b
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ImmEnumRegisterWord, ImmEnumRegisterWord function [Internationalization for Windows Applications], ImmEnumRegisterWordA, ImmEnumRegisterWordW, _win32_ImmEnumRegisterWord, imm/ImmEnumRegisterWord, imm/ImmEnumRegisterWordA, imm/ImmEnumRegisterWordW, intl.immenumregisterword
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ImmEnumRegisterWordW
 product: Windows
 targetos: Windows
-req.lib: Imm32.lib
-req.dll: Imm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ImmEnumRegisterWordA function

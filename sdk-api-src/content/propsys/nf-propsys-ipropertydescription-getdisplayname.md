@@ -4,17 +4,16 @@ title: IPropertyDescription::GetDisplayName
 author: windows-sdk-content
 description: Gets the display name of the property as it is shown in any UI.
 old-location: properties\IPropertyDescription_GetDisplayName.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 54ee12a4-15fe-454b-8233-297e98bc8a22
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Windows Properties], GetDisplayName method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetDisplayName method, IPropertyDescription.GetDisplayName, IPropertyDescription::GetDisplayName, properties.IPropertyDescription_GetDisplayName, propsys/IPropertyDescription::GetDisplayName, shell.IPropertyDescription_GetDisplayName, shell_IPropertyDescription_GetDisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription.GetDisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription::GetDisplayName
@@ -62,7 +60,7 @@ Gets the display name of the property as it is shown in any UI.
 
 ### -param ppszName
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IAMExtendedErrorInfo::get_ErrorDescription
 author: windows-sdk-content
 description: The get_ErrorDescription method retrieves the extended error description.
 old-location: dshow\iamextendederrorinfo_get_errordescription.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d417855e-7df6-4978-b971-a91b79c5fa2c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMExtendedErrorInfo interface [DirectShow],get_ErrorDescription method, IAMExtendedErrorInfo.get_ErrorDescription, IAMExtendedErrorInfo::get_ErrorDescription, IAMExtendedErrorInfoget_ErrorDescription, dshow.iamextendederrorinfo_get_errordescription, get_ErrorDescription, get_ErrorDescription method [DirectShow], get_ErrorDescription method [DirectShow],IAMExtendedErrorInfo interface, qnetwork/IAMExtendedErrorInfo::get_ErrorDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMExtendedErrorInfo.get_ErrorDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtendedErrorInfo::get_ErrorDescription

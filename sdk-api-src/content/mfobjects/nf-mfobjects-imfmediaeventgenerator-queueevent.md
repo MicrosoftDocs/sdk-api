@@ -4,17 +4,16 @@ title: IMFMediaEventGenerator::QueueEvent
 author: windows-sdk-content
 description: Puts a new event in the object's queue.
 old-location: mf\imfmediaeventgenerator_queueevent.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3bc33665-1385-41e1-9ad0-991fc93e91c0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 3bc33665-1385-41e1-9ad0-991fc93e91c0, IMFMediaEventGenerator interface [Media Foundation],QueueEvent method, IMFMediaEventGenerator.QueueEvent, IMFMediaEventGenerator::QueueEvent, QueueEvent, QueueEvent method [Media Foundation], QueueEvent method [Media Foundation],IMFMediaEventGenerator interface, mf.imfmediaeventgenerator_queueevent, mfobjects/IMFMediaEventGenerator::QueueEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaEventGenerator.QueueEvent
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEventGenerator::QueueEvent

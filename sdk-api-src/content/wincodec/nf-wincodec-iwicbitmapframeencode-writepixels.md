@@ -4,17 +4,16 @@ title: IWICBitmapFrameEncode::WritePixels
 author: windows-sdk-content
 description: Copies scan-line data from a caller-supplied buffer to the IWICBitmapFrameEncode object.
 old-location: wic\_wic_codec_iwicbitmapframeencode_writepixels.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 6b430fe0-5230-47dc-95c0-aeabd138cefe
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],WritePixels method, IWICBitmapFrameEncode.WritePixels, IWICBitmapFrameEncode::WritePixels, WritePixels, WritePixels method [Windows Imaging Component], WritePixels method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_writepixels, wic._wic_codec_iwicbitmapframeencode_writepixels, wincodec/IWICBitmapFrameEncode::WritePixels
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapFrameEncode.WritePixels
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapFrameEncode::WritePixels

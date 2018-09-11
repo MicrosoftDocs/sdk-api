@@ -4,7 +4,7 @@ title: "_TAPE_GET_DRIVE_PARAMETERS"
 author: windows-sdk-content
 description: Describes the tape drive. It is used by the GetTapeParameters function.
 old-location: backup\tape_get_drive_parameters_str.htm
-old-project: backup
+tech.root: backup
 ms.assetid: 02fc702b-3f34-47d0-b8ba-7a9f497659ad
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TAPE_GET_DRIVE_PARAMETERS, *PTAPE_GET_DRIVE_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TAPE_GET_DRIVE_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TAPE_GET_DRIVE_PARAMETERS, *PTAPE_GET_DRIVE_PARAMETERS
+req.redist: 
 ---
 
 # _TAPE_GET_DRIVE_PARAMETERS structure

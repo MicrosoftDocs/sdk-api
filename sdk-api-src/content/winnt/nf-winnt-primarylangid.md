@@ -4,17 +4,16 @@ title: PRIMARYLANGID macro
 author: windows-sdk-content
 description: Extracts a primary language identifier from a language identifier.
 old-location: intl\primarylangid.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: e463a2dc-bf36-4fbb-8df6-799ca1d549fa
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: PRIMARYLANGID, PRIMARYLANGID macro [Internationalization for Windows Applications], _win32_PRIMARYLANGID, intl.primarylangid, winnt/PRIMARYLANGID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PRIMARYLANGID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PRIMARYLANGID macro

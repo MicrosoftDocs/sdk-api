@@ -4,7 +4,7 @@ title: IFunctionDiscovery
 author: windows-sdk-content
 description: This interface is used by client programs to discover function instances, get the default function instance for a category, and create advanced Function Discovery query objects that enable registering Function Discovery defaults, among other things.
 old-location: ncd\ifunctiondiscovery.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 352a8d61-7d3a-423d-8b7e-1163d4fa1e00
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemVisibilityFlags
+req.lib: 
+req.dll: FunDisc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionDiscovery
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FunDisc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionDiscovery interface

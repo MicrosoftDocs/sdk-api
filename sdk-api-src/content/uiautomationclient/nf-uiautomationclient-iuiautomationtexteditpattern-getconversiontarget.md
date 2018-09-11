@@ -4,17 +4,16 @@ title: IUIAutomationTextEditPattern::GetConversionTarget
 author: windows-sdk-content
 description: Returns the current conversion target range.
 old-location: winauto\uiauto_IUIAutomationTextEditPattern_GetConversionTarget.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: C7471306-9D7F-5FE8-9A57-7A3ABB45B59F
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetConversionTarget, GetConversionTarget method [Windows Accessibility], GetConversionTarget method [Windows Accessibility],IUIAutomationTextEditPattern interface, IUIAutomationTextEditPattern interface [Windows Accessibility],GetConversionTarget method, IUIAutomationTextEditPattern.GetConversionTarget, IUIAutomationTextEditPattern::GetConversionTarget, uiautomationclient/IUIAutomationTextEditPattern::GetConversionTarget, winauto.uiauto_IUIAutomationTextEditPattern_GetConversionTarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTextEditPattern.GetConversionTarget
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTextEditPattern::GetConversionTarget

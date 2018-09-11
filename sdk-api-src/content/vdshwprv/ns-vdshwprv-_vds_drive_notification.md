@@ -4,17 +4,16 @@ title: "_VDS_DRIVE_NOTIFICATION"
 author: windows-sdk-content
 description: Defines the details of drive events.
 old-location: base\vds_drive_notification.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 933376b3-d5eb-407b-941c-4e2b61774c1a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_DRIVE_NOTIFICATION, VDS_DRIVE_NOTIFICATION structure [VDS], VDS_NF_DRIVE_ARRIVE, VDS_NF_DRIVE_DEPART, VDS_NF_DRIVE_MODIFY, VDS_NF_DRIVE_REMOVED, _VDS_DRIVE_NOTIFICATION, base.vds_drive_notification, vds/_VDS_DRIVE_NOTIFICATION, vdshwprv/_VDS_DRIVE_NOTIFICATION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_DRIVE_NOTIFICATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_DRIVE_NOTIFICATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_DRIVE_NOTIFICATION
+req.redist: 
 ---
 
 # _VDS_DRIVE_NOTIFICATION structure

@@ -4,17 +4,16 @@ title: IBackgroundCopyError::GetFile
 author: windows-sdk-content
 description: Retrieves an interface pointer to the file object associated with the error.
 old-location: bits\ibackgroundcopyerror_getfile.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 7b6d4bd4-2102-4e6b-b250-1d73fae94cf9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetFile, GetFile method [BITS], GetFile method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetFile method, IBackgroundCopyError.GetFile, IBackgroundCopyError::GetFile, _drz_ibackgroundcopyerror_getfile, bits.ibackgroundcopyerror_getfile, bits/IBackgroundCopyError::GetFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyError.GetFile
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyError::GetFile
@@ -61,7 +60,7 @@ Retrieves an interface pointer to the file object associated with the error.
 
 ### -param pVal
 
-
+TBD
 
 
 

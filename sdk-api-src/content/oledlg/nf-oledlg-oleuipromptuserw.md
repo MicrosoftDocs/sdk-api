@@ -4,17 +4,16 @@ title: OleUIPromptUserW function
 author: windows-sdk-content
 description: Displays a dialog box with the specified template and returns the response (button identifier) from the user. This function is used to display OLE warning messages, for example, Class Not Registered.
 old-location: com\oleuipromptuser.htm
-old-project: com
+tech.root: com
 ms.assetid: a4c437d9-7242-401f-96fe-4b1c793a1170
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleUIPromptUser, OleUIPromptUser function [COM], OleUIPromptUserA, OleUIPromptUserW, _ole_OleUIPromptUser, com.oleuipromptuser, oledlg/OleUIPromptUser, oledlg/OleUIPromptUserA, oledlg/OleUIPromptUserW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: OleDlg.lib
+req.dll: OleDlg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OleUIPromptUserW
 product: Windows
 targetos: Windows
-req.lib: OleDlg.lib
-req.dll: OleDlg.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleUIPromptUserW function
@@ -74,7 +72,14 @@ The resource number of the dialog box to be displayed. See Remarks.
 The handle to the parent window of the dialog box.
 
 
-### -param param [in]
+### -param arg1
+
+TBD
+
+
+
+
+#### - param [in]
 
 Optional. The title of the dialog box followed by a list of arguments for the format string in the static control (IDC_PU_TEXT) of the dialog box. The caller must be sure to pass the correct number and types of arguments.
 

@@ -4,17 +4,16 @@ title: D3D10_SO_DECLARATION_ENTRY
 author: windows-sdk-content
 description: Description of a vertex element in a vertex buffer in an output slot.
 old-location: direct3d10\d3d10_so_declaration_entry.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_so_declaration_entry.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 367a5fa7-5907-24fc-2124-92ee48f50140, D3D10_SO_DECLARATION_ENTRY, D3D10_SO_DECLARATION_ENTRY structure [Direct3D 10], d3d10/D3D10_SO_DECLARATION_ENTRY, direct3d10.d3d10_so_declaration_entry
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_SO_DECLARATION_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_SO_DECLARATION_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D10_SO_DECLARATION_ENTRY
+req.redist: 
 ---
 
 # D3D10_SO_DECLARATION_ENTRY structure

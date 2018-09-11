@@ -4,7 +4,7 @@ title: "_DDKERNELCAPS"
 author: windows-sdk-content
 description: The DDKERNELCAPS structure notifies the client what support, if any, exists in the miniport driver for the kernel-mode video transport.
 old-location: display\ddkernelcaps.htm
-old-project: display
+tech.root: display
 ms.assetid: d02d26f5-34cf-4a3c-b67c-0f9191bb854b
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkernel.h
 req.include-header: Ddkernel.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*LPDDKERNELCAPS, DDKERNELCAPS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDKERNELCAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*LPDDKERNELCAPS, DDKERNELCAPS"
+req.redist: 
 ---
 
 # _DDKERNELCAPS structure

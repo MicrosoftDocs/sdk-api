@@ -4,17 +4,16 @@ title: IUIAnimationTransition::SetInitialValue
 author: windows-sdk-content
 description: Sets the initial value for the transition.
 old-location: uianimation\iuianimationtransition_setinitialvalue.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 5e931eee-8b28-4be2-a760-8f62b5ce89ed
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationTransition interface [Windows Animation],SetInitialValue method, IUIAnimationTransition.SetInitialValue, IUIAnimationTransition::SetInitialValue, SetInitialValue, SetInitialValue method [Windows Animation], SetInitialValue method [Windows Animation],IUIAnimationTransition interface, uianimation.iuianimationtransition_setinitialvalue, uianimation/IUIAnimationTransition::SetInitialValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationTransition.SetInitialValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationTransition::SetInitialValue

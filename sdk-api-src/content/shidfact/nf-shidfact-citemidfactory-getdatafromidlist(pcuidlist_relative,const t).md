@@ -4,17 +4,16 @@ title: CItemIDFactory::GetDataFromIDList(PCUIDLIST_RELATIVE,const T)
 author: windows-sdk-content
 description: Gets a read only pointer to the client provided structure in the first ItemID in the IDList.
 old-location: shell\citemidfactory_getdatafromidlist.htm
-old-project: shell
+tech.root: shell
 ms.assetid: E3E2233D-F424-4BF9-AAC4-4DC2FB75E214
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetDataFromIDList method, CItemIDFactory.GetDataFromIDList, CItemIDFactory.GetDataFromIDList(PCUIDLIST_RELATIVE,const T), CItemIDFactory::GetDataFromIDList, CItemIDFactory::GetDataFromIDList(PCUIDLIST_RELATIVE,const T), GetDataFromIDList, GetDataFromIDList method [Windows Shell], GetDataFromIDList method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getdatafromidlist, shidfact/CItemIDFactory::GetDataFromIDList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shidfact.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CItemIDFactory.GetDataFromIDList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CItemIDFactory::GetDataFromIDList(PCUIDLIST_RELATIVE,const T)

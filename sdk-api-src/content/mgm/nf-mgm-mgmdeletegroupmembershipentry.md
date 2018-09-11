@@ -4,17 +4,16 @@ title: MgmDeleteGroupMembershipEntry function
 author: windows-sdk-content
 description: The MgmDeleteGroupMembershipEntry function notifies the multicast group manager that there are no more receivers present for the specified groups on the specified interface.
 old-location: rras\mgmdeletegroupmembershipentry.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: fe39d824-3154-4479-bd70-09b2b6593885
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MGM_FORWARD_STATE, MGM_JOIN_STATE_FLAG, MgmDeleteGroupMembershipEntry, MgmDeleteGroupMembershipEntry function [RAS], _mpr_mgmdeletegroupmembershipentry, mgm/MgmDeleteGroupMembershipEntry, rras.mgmdeletegroupmembershipentry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mgm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MGM_ENUM_TYPES
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MgmDeleteGroupMembershipEntry
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MgmDeleteGroupMembershipEntry function

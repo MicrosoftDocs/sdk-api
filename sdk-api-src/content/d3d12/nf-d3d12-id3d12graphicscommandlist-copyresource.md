@@ -4,17 +4,16 @@ title: ID3D12GraphicsCommandList::CopyResource
 author: windows-sdk-content
 description: Copies the entire contents of the source resource to the destination resource.
 old-location: direct3d12\id3d12graphicscommandlist_copyresource.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: EFC305CF-FBA9-4192-999B-6C6BFCDFF51F
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CopyResource, CopyResource method, CopyResource method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,CopyResource method, ID3D12GraphicsCommandList.CopyResource, ID3D12GraphicsCommandList::CopyResource, d3d12/ID3D12GraphicsCommandList::CopyResource, direct3d12.id3d12graphicscommandlist_copyresource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12GraphicsCommandList.CopyResource
 product: Windows
 targetos: Windows
-req.lib: D3d12.lib
-req.dll: D3d12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12GraphicsCommandList::CopyResource

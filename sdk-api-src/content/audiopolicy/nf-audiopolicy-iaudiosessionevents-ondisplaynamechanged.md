@@ -4,17 +4,16 @@ title: IAudioSessionEvents::OnDisplayNameChanged
 author: windows-sdk-content
 description: The OnDisplayNameChanged method notifies the client that the display name for the session has changed.
 old-location: coreaudio\iaudiosessionevents_ondisplaynamechanged.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 65d21f0c-b6f1-4506-975c-6d0308b3fc2f
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnDisplayNameChanged method, IAudioSessionEvents.OnDisplayNameChanged, IAudioSessionEvents::OnDisplayNameChanged, IAudioSessionEventsOnDisplayNameChanged, OnDisplayNameChanged, OnDisplayNameChanged method [Core Audio], OnDisplayNameChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnDisplayNameChanged, coreaudio.iaudiosessionevents_ondisplaynamechanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionEvents.OnDisplayNameChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionEvents::OnDisplayNameChanged

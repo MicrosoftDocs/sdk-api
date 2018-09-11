@@ -4,17 +4,16 @@ title: PerfStartProvider function
 author: windows-sdk-content
 description: Registers the provider.
 old-location: perf\perfstartprovider.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: b417b19b-adbc-40e3-aca1-c2cd94a79232
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PerfStartProvider, PerfStartProvider function [Perf], base.perfstartprovider, perf.perfstartprovider, perflib/PerfStartProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PerfRegInfoType
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PerfStartProvider
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PerfStartProvider function

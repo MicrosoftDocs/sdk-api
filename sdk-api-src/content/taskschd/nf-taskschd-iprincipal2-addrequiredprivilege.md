@@ -4,17 +4,16 @@ title: IPrincipal2::AddRequiredPrivilege
 author: windows-sdk-content
 description: Adds the required privilege to the task process token.
 old-location: taskschd\iprincipal2_addrequiredprivilege.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 74b7fffa-7e16-43e1-9176-677d9948f448
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddRequiredPrivilege, AddRequiredPrivilege method [Task Scheduler], AddRequiredPrivilege method [Task Scheduler],IPrincipal2 interface, IPrincipal2 interface [Task Scheduler],AddRequiredPrivilege method, IPrincipal2.AddRequiredPrivilege, IPrincipal2::AddRequiredPrivilege, taskschd.iprincipal2_addrequiredprivilege, taskschd/IPrincipal2::AddRequiredPrivilege
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPrincipal2.AddRequiredPrivilege
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IPrincipal2::AddRequiredPrivilege

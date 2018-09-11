@@ -4,17 +4,16 @@ title: IADsPathname::Set
 author: windows-sdk-content
 description: Sets up the Pathname object for parsing a directory path.
 old-location: adsi\iadspathname_set.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 1672c1b0-1008-41e7-8ca4-eefb559f523d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsPathname interface [ADSI],Set method, IADsPathname.Set, IADsPathname::Set, Set, Set method [ADSI], Set method [ADSI],IADsPathname interface, _ds_iadspathname_set, adsi.iadspathname__set, adsi.iadspathname_set, iads/IADsPathname::Set
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsPathname.Set
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsPathname::Set

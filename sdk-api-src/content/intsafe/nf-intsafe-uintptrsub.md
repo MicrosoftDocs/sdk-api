@@ -4,17 +4,16 @@ title: UIntPtrSub function
 author: windows-sdk-content
 description: Subtracts one value of type UINT_PTR from another.
 old-location: shell\UIntPtrSub.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 629bc700-ca64-4849-bdad-59e67857ff8d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: UIntPtrSub, UIntPtrSub function [Windows Shell], _shell_UIntPtrSub, intsafe/UIntPtrSub, shell.UIntPtrSub
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UIntPtrSub
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # UIntPtrSub function

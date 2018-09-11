@@ -4,17 +4,16 @@ title: SetThreadStackGuarantee function
 author: windows-sdk-content
 description: Sets the minimum size of the stack associated with the calling thread or fiber that will be available during any stack overflow exceptions.
 old-location: base\setthreadstackguarantee.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 42595cba-413b-4b71-8d32-f873ed78c39c
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: SetThreadStackGuarantee, SetThreadStackGuarantee function, base.setthreadstackguarantee, processthreadsapi/SetThreadStackGuarantee, winbase/SetThreadStackGuarantee
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - SetThreadStackGuarantee
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetThreadStackGuarantee function

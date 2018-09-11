@@ -4,17 +4,16 @@ title: "_TASK_ENUM_FLAGS"
 author: windows-sdk-content
 description: Defines how the Task Scheduler enumerates through registered tasks.
 old-location: taskschd\task_enum_flags.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: c77e597b-c8d9-426c-aa9d-7bb8536b349a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TASK_ENUM_FLAGS, TASK_ENUM_FLAGS enumeration [Task Scheduler], TASK_ENUM_HIDDEN, _TASK_ENUM_FLAGS, taskschd.task_enum_flags, taskschd/TASK_ENUM_FLAGS, taskschd/TASK_ENUM_HIDDEN
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_ENUM_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TASK_ENUM_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TASK_ENUM_FLAGS
+req.redist: 
 ---
 
 # _TASK_ENUM_FLAGS enumeration

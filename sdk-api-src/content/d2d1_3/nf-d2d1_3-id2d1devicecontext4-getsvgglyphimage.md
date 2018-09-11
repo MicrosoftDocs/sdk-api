@@ -4,17 +4,16 @@ title: ID2D1DeviceContext4::GetSvgGlyphImage
 author: windows-sdk-content
 description: Retrieves an image of the SVG glyph from the color glyph cache.
 old-location: direct2d\id2d1devicecontext4_getsvgglyphimage.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 096ED0A3-6222-4DC4-9463-E90D36F2442A
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSvgGlyphImage, GetSvgGlyphImage method [Direct2D], GetSvgGlyphImage method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],GetSvgGlyphImage method, ID2D1DeviceContext4.GetSvgGlyphImage, ID2D1DeviceContext4::GetSvgGlyphImage, d2d1_3/ID2D1DeviceContext4::GetSvgGlyphImage, direct2d.id2d1devicecontext4_getsvgglyphimage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DeviceContext4.GetSvgGlyphImage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext4::GetSvgGlyphImage

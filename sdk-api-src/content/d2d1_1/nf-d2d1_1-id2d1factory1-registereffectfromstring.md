@@ -4,17 +4,16 @@ title: ID2D1Factory1::RegisterEffectFromString
 author: windows-sdk-content
 description: Registers an effect within the factory instance with the property XML specified as a string.
 old-location: direct2d\id2d1factory1_registereffect.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 9988aad6-0487-4f48-a05c-1dfb944f6ce7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1Factory1 interface [Direct2D],RegisterEffectFromString method, ID2D1Factory1.RegisterEffectFromString, ID2D1Factory1::RegisterEffectFromString, RegisterEffectFromString, RegisterEffectFromString method [Direct2D], RegisterEffectFromString method [Direct2D],ID2D1Factory1 interface, d2d1_1/ID2D1Factory1::RegisterEffectFromString, direct2d.id2d1factory1_registereffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Factory1.RegisterEffectFromString
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Factory1::RegisterEffectFromString
@@ -75,7 +74,7 @@ A list of the effect properties, types, and metadata.
 
 ### -param bindings
 
-
+TBD
 
 
 ### -param bindingsCount

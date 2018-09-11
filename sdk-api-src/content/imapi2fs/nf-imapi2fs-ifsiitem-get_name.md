@@ -4,17 +4,16 @@ title: IFsiItem::get_Name
 author: windows-sdk-content
 description: Retrieves the name of the directory or file item in the file system image.
 old-location: imapi\ifsiitem_get_name.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 4cb6e270-6bbf-414f-a9ed-b290da3dafe9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFsiItem interface [IMAPI],get_Name method, IFsiItem.get_Name, IFsiItem::get_Name, get_Name, get_Name method [IMAPI], get_Name method [IMAPI],IFsiItem interface, imapi.ifsiitem_get_name, imapi2fs/IFsiItem::get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsiItem.get_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFsiItem::get_Name

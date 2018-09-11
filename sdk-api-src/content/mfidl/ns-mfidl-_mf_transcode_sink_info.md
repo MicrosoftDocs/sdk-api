@@ -4,7 +4,7 @@ title: "_MF_TRANSCODE_SINK_INFO"
 author: windows-sdk-content
 description: Contains information about the audio and video streams for the transcode sink activation object.
 old-location: mf\mf_transcode_sink_info.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b8f66128-88d5-4fe0-99f3-59621080be5c
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_TRANSCODE_SINK_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_TRANSCODE_SINK_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_TRANSCODE_SINK_INFO
+req.redist: 
 ---
 
 # _MF_TRANSCODE_SINK_INFO structure

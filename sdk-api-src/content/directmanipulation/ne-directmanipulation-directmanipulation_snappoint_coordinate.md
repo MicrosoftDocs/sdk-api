@@ -4,7 +4,7 @@ title: DIRECTMANIPULATION_SNAPPOINT_COORDINATE
 author: windows-sdk-content
 description: Defines the coordinate system for a collection of snap points.
 old-location: directmanipulation\directmanipulation_snappoint_coordinate.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 954ab792-e2b9-4cc0-a0dc-fcb6c6cdf156
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_SNAPPOINT_COORDINATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIRECTMANIPULATION_SNAPPOINT_COORDINATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIRECTMANIPULATION_SNAPPOINT_COORDINATE
+req.redist: 
 ---
 
 # DIRECTMANIPULATION_SNAPPOINT_COORDINATE enumeration

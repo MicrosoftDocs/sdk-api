@@ -4,17 +4,16 @@ title: IBackgroundCopyJobHttpOptions::GetClientCertificate
 author: windows-sdk-content
 description: Retrieves the client certificate from the job.
 old-location: bits\ibackgroundcopyjobhttpoptions_getclientcertificate.htm
-old-project: bits
+tech.root: bits
 ms.assetid: cd317bf9-1d4b-438e-beec-15ea7da90fc9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetClientCertificate, GetClientCertificate method [BITS], GetClientCertificate method [BITS],IBackgroundCopyJobHttpOptions interface, IBackgroundCopyJobHttpOptions interface [BITS],GetClientCertificate method, IBackgroundCopyJobHttpOptions.GetClientCertificate, IBackgroundCopyJobHttpOptions::GetClientCertificate, bits.ibackgroundcopyjobhttpoptions_getclientcertificate, bits2_5/IBackgroundCopyJobHttpOptions::GetClientCertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits2_5.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBackgroundCopyJobHttpOptions.GetClientCertificate
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJobHttpOptions::GetClientCertificate

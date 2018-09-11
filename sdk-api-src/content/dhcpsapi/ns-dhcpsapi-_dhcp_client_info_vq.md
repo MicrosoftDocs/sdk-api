@@ -4,7 +4,7 @@ title: "_DHCP_CLIENT_INFO_VQ"
 author: windows-sdk-content
 description: Defines information about the DHCPv4 client.
 old-location: dhcp\dhcp_client_info_vq.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: f7bd832d-b4a4-404c-8959-e9653b62d434
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_CLIENT_INFO_VQ, *LPDHCP_CLIENT_INFO_VQ
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_CLIENT_INFO_VQ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_CLIENT_INFO_VQ, *LPDHCP_CLIENT_INFO_VQ
+req.redist: 
 ---
 
 # _DHCP_CLIENT_INFO_VQ structure

@@ -4,17 +4,16 @@ title: IEnumVARIANT::Clone
 author: windows-sdk-content
 description: Creates a copy of the current state of enumeration.
 old-location: automat\ienumvariant_clone.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 44beac4a-784d-461e-8a4b-71bdcf512fbc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [Automation], Clone method [Automation],IEnumVARIANT interface, IEnumVARIANT interface [Automation],Clone method, IEnumVARIANT.Clone, IEnumVARIANT::Clone, _oa96_IEnumVARIANT::Clone, automat.ienumvariant_clone, oaidl/IEnumVARIANT::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumVARIANT.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumVARIANT::Clone

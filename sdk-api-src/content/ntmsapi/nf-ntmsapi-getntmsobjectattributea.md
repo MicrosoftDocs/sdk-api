@@ -4,17 +4,16 @@ title: GetNtmsObjectAttributeA function
 author: windows-sdk-content
 description: The GetNtmsObjectAttribute function retrieves the extended attribute (named private data) from the specified RSM object.
 old-location: fs\getntmsobjectattribute.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 9a92d60c-a25f-4775-adb9-1a02af3c8917
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: GetNtmsObjectAttribute, GetNtmsObjectAttribute function [Files], GetNtmsObjectAttributeA, GetNtmsObjectAttributeW, _zaw_getntmsobjectattribute, base.getntmsobjectattribute, fs.getntmsobjectattribute, ntmsapi/GetNtmsObjectAttribute, ntmsapi/GetNtmsObjectAttributeA, ntmsapi/GetNtmsObjectAttributeW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetNtmsObjectAttributeW
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetNtmsObjectAttributeA function

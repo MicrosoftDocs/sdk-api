@@ -4,17 +4,16 @@ title: ip_mreq
 author: windows-sdk-content
 description: The ip_mreq structure provides multicast group information for IPv4 addresses.
 old-location: winsock\ip_mreq.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 0bcf4c17-679d-42fc-b77e-722ce955d01f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PIP_MREQ, IP_MREQ, IP_MREQ [Winsock], IP_MREQ structure [Winsock], PIP_MREQ, PIP_MREQ structure pointer [Winsock], ip_mreq, ip_mreq structure [Winsock], winsock.ip_mreq, ws2ipdef/PIP_MREQ, ws2ipdef/ip_mreq, ws2tcpip/PIP_MREQ, ws2tcpip/ip_mreq"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_MREQ, *PIP_MREQ
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IP_MREQ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: IP_MREQ, *PIP_MREQ
+req.redist: 
 ---
 
 # ip_mreq structure

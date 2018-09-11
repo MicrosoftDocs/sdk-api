@@ -4,7 +4,7 @@ title: D3D12_ROOT_PARAMETER
 author: windows-sdk-content
 description: Describes the slot of a root signature version 1.0.
 old-location: direct3d12\d3d12_root_parameter.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: CC1DFE85-7F83-4551-86C6-1AFDF746FC92
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_ROOT_PARAMETER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_ROOT_PARAMETER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_ROOT_PARAMETER
+req.redist: 
 ---
 
 # D3D12_ROOT_PARAMETER structure

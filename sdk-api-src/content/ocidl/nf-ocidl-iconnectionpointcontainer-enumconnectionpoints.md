@@ -4,17 +4,16 @@ title: IConnectionPointContainer::EnumConnectionPoints
 author: windows-sdk-content
 description: Creates an enumerator object to iterate through all the connection points supported in the connectable object, one connection point per outgoing IID.
 old-location: com\iconnectionpointcontainer_enumconnectionpoints.htm
-old-project: com
+tech.root: com
 ms.assetid: 527f94b6-af8e-4ff0-8e99-cd4c5d692628
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumConnectionPoints, EnumConnectionPoints method [COM], EnumConnectionPoints method [COM],IConnectionPointContainer interface, IConnectionPointContainer interface [COM],EnumConnectionPoints method, IConnectionPointContainer.EnumConnectionPoints, IConnectionPointContainer::EnumConnectionPoints, _com_iconnectionpointcontainer_enumconnectionpoints, com.iconnectionpointcontainer_enumconnectionpoints, ocidl/IConnectionPointContainer::EnumConnectionPoints
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConnectionPointContainer.EnumConnectionPoints
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IConnectionPointContainer::EnumConnectionPoints

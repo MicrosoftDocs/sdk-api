@@ -4,17 +4,16 @@ title: IObjMgr::Remove
 author: windows-sdk-content
 description: Removes an object from the collection of managed objects.
 old-location: shell\IObjMgr_Remove.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 21f8cce6-0d48-4b8e-8f15-1f95b112892d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IObjMgr interface [Windows Shell],Remove method, IObjMgr.Remove, IObjMgr::Remove, Remove, Remove method [Windows Shell], Remove method [Windows Shell],IObjMgr interface, _win32_IObjMgr_Remove, shell.IObjMgr_Remove, shlobj_core/IObjMgr::Remove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjMgr.Remove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IObjMgr::Remove

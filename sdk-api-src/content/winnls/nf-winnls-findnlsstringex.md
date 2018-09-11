@@ -4,17 +4,16 @@ title: FindNLSStringEx function
 author: windows-sdk-content
 description: Locates a Unicode string (wide characters) or its equivalent in another Unicode string for a locale specified by name.Caution  Because strings with very different binary representations can compare as identical, this function can raise certain security concerns. For more information, see the discussion of comparison functions in Security Considerations:\_International Features.
 old-location: intl\findnlsstringex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 38339881-30d2-4f55-9fee-81916ab15135
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: FIND_ENDSWITH, FIND_FROMEND, FIND_FROMSTART, FIND_STARTSWITH, FindNLSStringEx, FindNLSStringEx function [Internationalization for Windows Applications], LINGUISTIC_IGNORECASE, LINGUISTIC_IGNOREDIACRITIC, NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, NORM_LINGUISTIC_CASING, _win32_FindNLSStringEx, intl.findnlsstringex, winnls/FindNLSStringEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - FindNLSStringEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FindNLSStringEx function

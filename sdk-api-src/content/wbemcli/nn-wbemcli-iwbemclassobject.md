@@ -4,17 +4,16 @@ title: IWbemClassObject
 author: windows-sdk-content
 description: Contains and manipulates both class definitions and class object instances.
 old-location: wmi\iwbemclassobject.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: a3ce37d7-5580-4b84-9119-78412c8e0d27
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], IWbemClassObject interface [Windows Management Instrumentation],described, WbemClassObject, _hmm_iwbemclassobject, wbemcli/IWbemClassObject, wmi.iwbemclassobject
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: WbemUuid.lib
+req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - WbemClassObject
 product: Windows
 targetos: Windows
-req.lib: WbemUuid.lib
-req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemClassObject interface

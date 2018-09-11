@@ -4,17 +4,16 @@ title: "_CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO"
 author: windows-sdk-content
 description: Contains the length, in bits, of the public key and the names of the signing and hashing algorithms used for strong signing.
 old-location: security\crypt_verify_cert_sign_strong_properties_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 7D68DE3D-B05D-4E06-9BA1-72E407E5FED2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO structure [Security], PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO structure pointer [Security], _CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, security.crypt_verify_cert_sign_strong_properties_info, wincrypt/CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, wincrypt/PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, *PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, *PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
+req.redist: 
 ---
 
 # _CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO structure

@@ -4,17 +4,16 @@ title: IUIAutomationElement4::get_CurrentLevel
 author: windows-sdk-content
 description: Returns the current 1-based integer for the level (hierarchy) for the element.
 old-location: winauto\uiauto_IUIAutomationElement4_CurrentLevel.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 8CC086B2-F245-4BCA-BEF7-D8808040CE0D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentLevel property [Windows Accessibility], CurrentLevel property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CurrentLevel property, IUIAutomationElement4.CurrentLevel, IUIAutomationElement4.get_CurrentLevel, IUIAutomationElement4::CurrentLevel, IUIAutomationElement4::get_CurrentLevel, get_CurrentLevel, uiautomationclient/IUIAutomationElement4::CurrentLevel, uiautomationclient/IUIAutomationElement4::get_CurrentLevel, winauto.uiauto_IUIAutomationElement4_CurrentLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement4.get_CurrentLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAutomationCore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement4::get_CurrentLevel

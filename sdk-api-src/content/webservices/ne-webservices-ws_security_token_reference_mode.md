@@ -4,17 +4,16 @@ title: WS_SECURITY_TOKEN_REFERENCE_MODE
 author: windows-sdk-content
 description: With message and mixed-mode security bindings, the mechanism to use to refer to a security token from signatures, encrypted items and derived tokens.
 old-location: wsw\ws_security_token_reference_mode.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 09cd0350-d310-4335-9850-e0f6246be472
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SECURITY_TOKEN_REFERENCE_MODE, WS_SECURITY_TOKEN_REFERENCE_MODE enumeration [Web Services for Windows], WS_SECURITY_TOKEN_REFERENCE_MODE_CERT_THUMBPRINT, WS_SECURITY_TOKEN_REFERENCE_MODE_LOCAL_ID, WS_SECURITY_TOKEN_REFERENCE_MODE_SAML_ASSERTION_ID, WS_SECURITY_TOKEN_REFERENCE_MODE_SECURITY_CONTEXT_ID, WS_SECURITY_TOKEN_REFERENCE_MODE_XML_BUFFER, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE_CERT_THUMBPRINT, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE_LOCAL_ID, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE_SAML_ASSERTION_ID, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE_SECURITY_CONTEXT_ID, webservices/WS_SECURITY_TOKEN_REFERENCE_MODE_XML_BUFFER, wsw.ws_security_token_reference_mode
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_TOKEN_REFERENCE_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SECURITY_TOKEN_REFERENCE_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SECURITY_TOKEN_REFERENCE_MODE
+req.redist: 
 ---
 
 # WS_SECURITY_TOKEN_REFERENCE_MODE enumeration

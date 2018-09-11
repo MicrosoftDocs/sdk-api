@@ -4,17 +4,16 @@ title: SetupDiCreateDeviceInfoListExW function
 author: windows-sdk-content
 description: The SetupDiCreateDeviceInfoList function creates an empty device information set on a remote or a local computer and optionally associates the set with a device setup class .
 old-location: devinst\setupdicreatedeviceinfolistex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 4dae7b07-2e24-4fd8-82f2-f947296ce3c4
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiCreateDeviceInfoListEx, SetupDiCreateDeviceInfoListEx function [Device and Driver Installation], SetupDiCreateDeviceInfoListExA, SetupDiCreateDeviceInfoListExW, devinst.setupdicreatedeviceinfolistex, di-rtns_584dc470-c07f-4658-b16d-53a2594dabf9.xml, setupapi/SetupDiCreateDeviceInfoListEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiCreateDeviceInfoListEx
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiCreateDeviceInfoListExW function

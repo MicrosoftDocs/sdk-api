@@ -4,17 +4,16 @@ title: IAccessible::get_accHelpTopic
 author: windows-sdk-content
 description: The IAccessible::get_accHelpTopic method retrieves the full path of the WinHelp file that is associated with the specified object; it also retrieves the identifier of the appropriate topic within that file.
 old-location: winauto\iaccessible_iaccessible__get_acchelptopic.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: a8f4ae56-6bd9-4615-a87d-a4de2f7632b1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accHelpTopic method, IAccessible.get_accHelpTopic, IAccessible::get_accHelpTopic, _msaa_IAccessible_get_accHelpTopic, get_accHelpTopic, get_accHelpTopic method [Windows Accessibility], get_accHelpTopic method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_acchelptopic, oleacc/IAccessible::get_accHelpTopic, winauto.iaccessible_iaccessible__get_acchelptopic
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 
-req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessible.get_accHelpTopic
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ---
 
 # IAccessible::get_accHelpTopic

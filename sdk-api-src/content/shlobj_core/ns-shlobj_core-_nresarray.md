@@ -4,17 +4,16 @@ title: "_NRESARRAY"
 author: windows-sdk-content
 description: Defines the CF_NETRESOURCE clipboard format.
 old-location: shell\NRESARRAY.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 261338c2-8fb4-4d10-8392-f9f6254a30ed
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPNRESARRAY, LPNRESARRAY, LPNRESARRAY structure pointer [Windows Shell], NRESARRAY, NRESARRAY structure [Windows Shell], _NRESARRAY, _win32_NRESARRAY, shell.NRESARRAY, shlobj_core/LPNRESARRAY, shlobj_core/NRESARRAY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NRESARRAY, *LPNRESARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NRESARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: NRESARRAY, *LPNRESARRAY
+req.redist: 
 ---
 
 # _NRESARRAY structure

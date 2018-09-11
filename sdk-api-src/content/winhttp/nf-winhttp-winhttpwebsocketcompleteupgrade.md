@@ -4,17 +4,16 @@ title: WinHttpWebSocketCompleteUpgrade function
 author: windows-sdk-content
 description: Completes a WebSocket handshake started by WinHttpSendRequest.
 old-location: http\winhttpwebsocketcompleteupgrade.htm
-old-project: winhttp
+tech.root: WinHttp
 ms.assetid: a5d5971b-ac76-4be5-b884-a0e5ef9a495a
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WinHttpWebSocketCompleteUpgrade, WinHttpWebSocketCompleteUpgrade function [WinHTTP], http.winhttpwebsocketcompleteupgrade, winhttp/WinHttpWebSocketCompleteUpgrade
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_WEB_SOCKET_OPERATION
+req.lib: Winhttp.lib
+req.dll: Winhttp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinHttpWebSocketCompleteUpgrade
 product: Windows
 targetos: Windows
-req.lib: Winhttp.lib
-req.dll: Winhttp.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WinHttpWebSocketCompleteUpgrade function

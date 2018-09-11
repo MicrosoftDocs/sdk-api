@@ -4,17 +4,16 @@ title: IAction::put_Id
 author: windows-sdk-content
 description: Gets or sets the identifier of the action.
 old-location: taskschd\iaction_id.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: e24a0382-e214-41eb-80e4-acd024993123
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IAction interface [Task Scheduler],Id property, IAction.Id, IAction.put_Id, IAction::Id, IAction::get_Id, IAction::put_Id, Id property [Task Scheduler], Id property [Task Scheduler],IAction interface, put_Id, taskschd.iaction_id, taskschd/IAction::Id, taskschd/IAction::get_Id, taskschd/IAction::put_Id
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IAction.put_Id
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAction::put_Id

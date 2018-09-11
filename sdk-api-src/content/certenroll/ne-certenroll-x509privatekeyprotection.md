@@ -4,17 +4,16 @@ title: X509PrivateKeyProtection
 author: windows-sdk-content
 description: Specifies the level of private key protection supported by a cryptographic provider.
 old-location: security\x509privatekeyprotection.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 70f398bc-95bf-459c-901c-d829946aedca
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: X509PrivateKeyProtection, X509PrivateKeyProtection enumeration [Security], XCN_NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG, XCN_NCRYPT_UI_NO_PROTECTION_FLAG, XCN_NCRYPT_UI_PROTECT_KEY_FLAG, certenroll/X509PrivateKeyProtection, certenroll/XCN_NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG, certenroll/XCN_NCRYPT_UI_NO_PROTECTION_FLAG, certenroll/XCN_NCRYPT_UI_PROTECT_KEY_FLAG, security.x509privatekeyprotection
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509PrivateKeyProtection
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X509PrivateKeyProtection
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: X509PrivateKeyProtection
+req.redist: 
 ---
 
 # X509PrivateKeyProtection enumeration

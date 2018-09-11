@@ -4,17 +4,16 @@ title: tagSTATDATA
 author: windows-sdk-content
 description: Contains information used to specify each advisory connection.
 old-location: com\statdata.htm
-old-project: com
+tech.root: com
 ms.assetid: f31469b2-4a4a-4da5-9229-38ddd0bcc88e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSTATDATA, LPSTATDATA, LPSTATDATA structure pointer [COM], STATDATA, STATDATA structure [COM], _ole_STATDATA, com.statdata, objidl/LPSTATDATA, objidl/STATDATA, tagSTATDATA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: ObjIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STATDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STATDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: STATDATA
+req.redist: 
 ---
 
 # tagSTATDATA structure

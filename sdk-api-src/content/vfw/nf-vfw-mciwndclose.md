@@ -4,17 +4,16 @@ title: MCIWndClose macro
 author: windows-sdk-content
 description: The MCIWndClose macro closes an MCI device or file associated with an MCIWnd window.
 old-location: multimedia\mciwndclose.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: f0adc980-c7f6-4937-b844-f65b98047e84
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndClose, MCIWndClose macro [Windows Multimedia], _win32_MCIWndClose, multimedia.mciwndclose, vfw/MCIWndClose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndClose
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndClose macro

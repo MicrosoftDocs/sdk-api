@@ -4,7 +4,7 @@ title: PACKAGE_ID
 author: windows-sdk-content
 description: Represents package identification information, such as name, version, and publisher.
 old-location: appxpkg\package_id.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 4B15281A-2227-47B7-A750-0A01DB8543FC
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PACKAGE_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PACKAGE_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: PACKAGE_ID
+req.redist: 
 ---
 
 # PACKAGE_ID structure

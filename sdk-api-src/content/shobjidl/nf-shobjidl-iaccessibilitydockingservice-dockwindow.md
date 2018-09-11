@@ -4,17 +4,16 @@ title: IAccessibilityDockingService::DockWindow
 author: windows-sdk-content
 description: Docks the specified window handle to the specified monitor handle.
 old-location: com\iaccessibilitydockingservice_dockwindow.htm
-old-project: com
+tech.root: com
 ms.assetid: 99C6A82C-A421-4A5E-B23A-167384A7AB90
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DockWindow, DockWindow method [COM], DockWindow method [COM],IAccessibilityDockingService interface, IAccessibilityDockingService interface [COM],DockWindow method, IAccessibilityDockingService.DockWindow, IAccessibilityDockingService::DockWindow, com.iaccessibilitydockingservice_dockwindow, shobjidl/IAccessibilityDockingService::DockWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessibilityDockingService.DockWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IAccessibilityDockingService::DockWindow
@@ -72,7 +70,7 @@ The monitor on which the accessibility application window will be docked.
 
 ### -param cyRequested
 
-
+TBD
 
 
 ### -param pCallback [in]

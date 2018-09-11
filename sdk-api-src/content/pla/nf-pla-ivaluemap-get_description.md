@@ -4,17 +4,16 @@ title: IValueMap::get_Description
 author: windows-sdk-content
 description: Retrieves or sets a description of the collection.
 old-location: pla\ivaluemap_description.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 04936082-e377-46f3-b218-28a2403eee9d
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Description property [PLA], Description property [PLA],IValueMap interface, IValueMap interface [PLA],Description property, IValueMap.Description, IValueMap.get_Description, IValueMap::Description, IValueMap::get_Description, IValueMap::put_Description, base.ivaluemap_description, get_Description, pla.ivaluemap_description, pla/IValueMap::Description, pla/IValueMap::get_Description, pla/IValueMap::put_Description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IValueMap.put_Description
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IValueMap::get_Description

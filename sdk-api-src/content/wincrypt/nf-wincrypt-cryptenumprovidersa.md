@@ -4,17 +4,16 @@ title: CryptEnumProvidersA function
 author: windows-sdk-content
 description: Important  This API is deprecated.
 old-location: security\cryptenumproviders.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 2d93ef0f-b48f-481b-ba62-c535476fde08
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptEnumProviders, CryptEnumProviders function [Security], CryptEnumProvidersA, CryptEnumProvidersW, _crypto2_cryptenumproviders, security.cryptenumproviders, wincrypt/CryptEnumProviders, wincrypt/CryptEnumProvidersA, wincrypt/CryptEnumProvidersW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - CryptEnumProvidersW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptEnumProvidersA function

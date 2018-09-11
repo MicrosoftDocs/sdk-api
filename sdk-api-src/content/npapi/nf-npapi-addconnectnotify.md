@@ -4,17 +4,16 @@ title: AddConnectNotify function
 author: windows-sdk-content
 description: Called before and after each add connection operation (WNetAddConnection, WNetAddConnection2, and WNetAddConnection3) is attempted by the Multiple Provider Router (MPR).
 old-location: security\addconnectnotify.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: a061b088-81ca-4276-a0d6-9f1d1282a039
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: AddConnectNotify, AddConnectNotify function [Security], _mnp_addconnectnotify, npapi/AddConnectNotify, security.addconnectnotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFICATION_USER_INPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AddConnectNotify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # AddConnectNotify function

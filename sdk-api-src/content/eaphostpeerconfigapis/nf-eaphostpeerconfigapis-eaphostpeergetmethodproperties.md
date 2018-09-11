@@ -4,17 +4,16 @@ title: EapHostPeerGetMethodProperties function
 author: windows-sdk-content
 description: Used to retrieve the properties of an EAP method given the connection and user data.
 old-location: eaphost\eaphostpeergetmethodproperties.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: b553c022-c9a2-4cf7-8c09-e629b49cd929
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapHostPeerGetMethodProperties, EapHostPeerGetMethodProperties function [EAPHost], eaphost.eaphostpeergetmethodproperties, eaphostpeerconfigapis/EapHostPeerGetMethodProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_AUTHENTICATOR_SEND_TIMEOUT
+req.lib: Eappcfg.lib
+req.dll: Eappcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapHostPeerGetMethodProperties
 product: Windows
 targetos: Windows
-req.lib: Eappcfg.lib
-req.dll: Eappcfg.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapHostPeerGetMethodProperties function

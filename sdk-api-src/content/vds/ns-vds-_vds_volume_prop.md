@@ -4,17 +4,16 @@ title: "_VDS_VOLUME_PROP"
 author: windows-sdk-content
 description: Defines the properties of a volume object.
 old-location: base\vds_volume_prop.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 3628b312-f830-4a1c-beb7-ad002a94313c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVDS_VOLUME_PROP, PVDS_VOLUME_PROP, PVDS_VOLUME_PROP structure pointer [VDS], VDS_VOLUME_PROP, VDS_VOLUME_PROP structure [VDS], _VDS_VOLUME_PROP, base.vds_volume_prop, vds/PVDS_VOLUME_PROP, vds/_VDS_VOLUME_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_PROP, *PVDS_VOLUME_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_VOLUME_PROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_VOLUME_PROP, *PVDS_VOLUME_PROP
+req.redist: 
 ---
 
 # _VDS_VOLUME_PROP structure

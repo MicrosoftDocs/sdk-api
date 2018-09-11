@@ -4,17 +4,16 @@ title: GetNumberOfPhysicalMonitorsFromHMONITOR function
 author: windows-sdk-content
 description: Retrieves the number of physical monitors associated with an HMONITOR monitor handle.
 old-location: monitor\getnumberofphysicalmonitorsfromhmonitor.htm
-old-project: Monitor
+tech.root: Monitor
 ms.assetid: c4cc3012-10ae-4435-8d81-e0a9eb62b55c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetNumberOfPhysicalMonitorsFromHMONITOR, GetNumberOfPhysicalMonitorsFromHMONITOR function [Monitor Configuration], monitor.getnumberofphysicalmonitorsfromhmonitor, physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromHMONITOR
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetNumberOfPhysicalMonitorsFromHMONITOR
 product: Windows
 targetos: Windows
-req.lib: Dxva2.lib
-req.dll: Dxva2.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetNumberOfPhysicalMonitorsFromHMONITOR function

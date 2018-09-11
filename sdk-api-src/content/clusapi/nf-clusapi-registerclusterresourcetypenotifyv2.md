@@ -4,17 +4,16 @@ title: RegisterClusterResourceTypeNotifyV2 function
 author: windows-sdk-content
 description: Adds a notification type to a cluster notification port.
 old-location: mscs\registerclusterresourcetypenotifyv2.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 2E7DE3C3-F64B-4D5E-ADE9-B7CE60CB0E78
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RegisterClusterResourceTypeNotifyV2, RegisterClusterResourceTypeNotifyV2 function [Failover Cluster], clusapi/RegisterClusterResourceTypeNotifyV2, mscs.registerclusterresourcetypenotifyv2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RegisterClusterResourceTypeNotifyV2
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # RegisterClusterResourceTypeNotifyV2 function

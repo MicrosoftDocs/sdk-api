@@ -4,17 +4,16 @@ title: IColumnManager::SetColumnInfo
 author: windows-sdk-content
 description: Sets the state for a specified column.
 old-location: shell\IColumnManager_SetColumnInfo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3a52d634-0ff0-4dbc-81cb-90cdffe4f6ae
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IColumnManager interface [Windows Shell],SetColumnInfo method, IColumnManager.SetColumnInfo, IColumnManager::SetColumnInfo, SetColumnInfo, SetColumnInfo method [Windows Shell], SetColumnInfo method [Windows Shell],IColumnManager interface, shell.IColumnManager_SetColumnInfo, shell_IColumnManager_SetColumnInfo, shobjidl_core/IColumnManager::SetColumnInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IColumnManager.SetColumnInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IColumnManager::SetColumnInfo

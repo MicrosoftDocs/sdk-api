@@ -4,17 +4,16 @@ title: SetThreadpoolCallbackLibrary function
 author: windows-sdk-content
 description: Ensures that the specified DLL remains loaded as long as there are outstanding callbacks.
 old-location: base\setthreadpoolcallbacklibrary.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 41d5d8c5-4938-4274-bcfa-b122bbc70530
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: SetThreadpoolCallbackLibrary, SetThreadpoolCallbackLibrary function, base.setthreadpoolcallbacklibrary, winbase/SetThreadpoolCallbackLibrary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetThreadpoolCallbackLibrary
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetThreadpoolCallbackLibrary function

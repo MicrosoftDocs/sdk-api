@@ -4,17 +4,16 @@ title: IUIAutomationAnnotationPattern::get_CachedDateTime
 author: windows-sdk-content
 description: Retrieves the cached date and time that this annotation was created.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedDateTime.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 506019F7-0EC3-4FEA-9B22-C84548ACD8A6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedDateTime property [Windows Accessibility], CachedDateTime property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CachedDateTime property, IUIAutomationAnnotationPattern.CachedDateTime, IUIAutomationAnnotationPattern.get_CachedDateTime, IUIAutomationAnnotationPattern::CachedDateTime, IUIAutomationAnnotationPattern::get_CachedDateTime, get_CachedDateTime, uiautomationclient/IUIAutomationAnnotationPattern::CachedDateTime, uiautomationclient/IUIAutomationAnnotationPattern::get_CachedDateTime, winauto.uiauto_IUIAutomationAnnotationPattern_CachedDateTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationAnnotationPattern.get_CachedDateTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationAnnotationPattern::get_CachedDateTime

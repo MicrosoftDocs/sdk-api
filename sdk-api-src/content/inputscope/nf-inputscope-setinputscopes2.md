@@ -4,17 +4,16 @@ title: SetInputScopes2 function
 author: windows-sdk-content
 description: The application must call SetInputScope with IS_DEFAULT before a window is destroyed to clear the reference of the interface.
 old-location: tsf\SetInputScopes2.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 0b3e0e98-412f-4c6f-aa06-a7f17f8869ac
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetInputScopes2, SetInputScopes2 function [Text Services Framework], inputscope/SetInputScopes2, tsf.SetInputScopes2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: inputscope.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InputScope
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetInputScopes2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SetInputScopes2 function

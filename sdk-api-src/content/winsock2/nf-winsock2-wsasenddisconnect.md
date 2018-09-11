@@ -4,17 +4,16 @@ title: WSASendDisconnect function
 author: windows-sdk-content
 description: The WSASendDisconnect function initiates termination of the connection for the socket and sends disconnect data.
 old-location: winsock\wsasenddisconnect_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: c05fc719-e35a-4194-ac01-a294b19ccce9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSASendDisconnect, WSASendDisconnect function [Winsock], _win32_wsasenddisconnect_2, winsock.wsasenddisconnect_2, winsock2/WSASendDisconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSASendDisconnect
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSASendDisconnect function

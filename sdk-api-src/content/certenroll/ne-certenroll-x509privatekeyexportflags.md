@@ -4,17 +4,16 @@ title: X509PrivateKeyExportFlags
 author: windows-sdk-content
 description: Specifies the export policy for a private key.
 old-location: security\x509privatekeyexportflags.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: a50af298-a579-462f-8744-78aa84070360
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: X509PrivateKeyExportFlags, X509PrivateKeyExportFlags enumeration [Security], XCN_NCRYPT_ALLOW_ARCHIVING_FLAG, XCN_NCRYPT_ALLOW_EXPORT_FLAG, XCN_NCRYPT_ALLOW_EXPORT_NONE, XCN_NCRYPT_ALLOW_PLAINTEXT_ARCHIVING_FLAG, XCN_NCRYPT_ALLOW_PLAINTEXT_EXPORT_FLAG, certenroll/X509PrivateKeyExportFlags, certenroll/XCN_NCRYPT_ALLOW_ARCHIVING_FLAG, certenroll/XCN_NCRYPT_ALLOW_EXPORT_FLAG, certenroll/XCN_NCRYPT_ALLOW_EXPORT_NONE, certenroll/XCN_NCRYPT_ALLOW_PLAINTEXT_ARCHIVING_FLAG, certenroll/XCN_NCRYPT_ALLOW_PLAINTEXT_EXPORT_FLAG, security.x509privatekeyexportflags
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509PrivateKeyExportFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X509PrivateKeyExportFlags
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: X509PrivateKeyExportFlags
+req.redist: 
 ---
 
 # X509PrivateKeyExportFlags enumeration

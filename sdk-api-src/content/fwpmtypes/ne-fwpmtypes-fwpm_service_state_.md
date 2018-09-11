@@ -4,7 +4,7 @@ title: FWPM_SERVICE_STATE_
 author: windows-sdk-content
 description: Specifies the current state of the filter engine.
 old-location: fwp\fwpm_service_state.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 80a3695a-71ac-4c8b-897e-80c4231ad570
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwpmtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_SERVICE_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPM_SERVICE_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPM_SERVICE_STATE
+req.redist: 
 ---
 
 # FWPM_SERVICE_STATE_ enumeration

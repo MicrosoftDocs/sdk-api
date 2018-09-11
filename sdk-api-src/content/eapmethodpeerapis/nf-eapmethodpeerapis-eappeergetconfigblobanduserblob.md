@@ -4,17 +4,16 @@ title: EapPeerGetConfigBlobAndUserBlob function
 author: windows-sdk-content
 description: Allows EAP method developers to provide the various connection properties and user properties supported by the method. EAPHost invokes this function to create the connection property and user property of the EAP method.
 old-location: eaphost\eappeergetconfigblobanduserblob.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 81817FAA-20AE-4556-BAA5-0EF2A955B6A3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapPeerGetConfigBlobAndUserBlob, EapPeerGetConfigBlobAndUserBlob function [EAPHost], eaphost.eappeergetconfigblobanduserblob, eapmethodpeerapis/EapPeerGetConfigBlobAndUserBlob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_AUTHENTICATOR_METHOD_ROUTINES, *PEAP_AUTHENTICATOR_METHOD_ROUTINES
+req.lib: 
+req.dll: Eappcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapPeerGetConfigBlobAndUserBlob
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Eappcfg.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapPeerGetConfigBlobAndUserBlob function

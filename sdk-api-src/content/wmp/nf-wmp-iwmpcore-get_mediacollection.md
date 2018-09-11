@@ -4,17 +4,16 @@ title: IWMPCore::get_mediaCollection
 author: windows-sdk-content
 description: The get_mediaCollection method retrieves a pointer to an IWMPMediaCollection interface.
 old-location: wmp\iwmpcore_get_mediacollection.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 41b090ca-edf0-440e-b578-26c5ad064657
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_mediaCollection method, IWMPCore.get_mediaCollection, IWMPCore::get_mediaCollection, IWMPCoreget_mediaCollection, get_mediaCollection, get_mediaCollection method [Windows Media Player], get_mediaCollection method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_mediacollection, wmp/IWMPCore::get_mediaCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCore.get_mediaCollection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCore::get_mediaCollection

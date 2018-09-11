@@ -4,17 +4,16 @@ title: IDCompositionVisual3::SetDepthMode
 author: windows-sdk-content
 description: Sets the depth mode property associated with this visual.
 old-location: directcomp\idcompositionvisual3_setdepthmode.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 670C4203-50CE-47AA-A896-04A9F75302E3
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetDepthMode method, IDCompositionVisual3.SetDepthMode, IDCompositionVisual3::SetDepthMode, SetDepthMode, SetDepthMode method [DirectComposition], SetDepthMode method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetDepthMode, directcomp.idcompositionvisual3_setdepthmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionVisual3.SetDepthMode
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionVisual3::SetDepthMode

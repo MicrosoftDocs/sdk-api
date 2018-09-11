@@ -4,17 +4,16 @@ title: CoIsOle1Class function
 author: windows-sdk-content
 description: Determines whether the specified CLSID represents an OLE 1 object.
 old-location: com\coisole1class.htm
-old-project: com
+tech.root: com
 ms.assetid: 3f6a021d-c8fe-40dd-9c3a-30f22ad76ce3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoIsOle1Class, CoIsOle1Class function [COM], _com_CoIsOle1Class, com.coisole1class, objbase/CoIsOle1Class
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CoIsOle1Class
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CoIsOle1Class function

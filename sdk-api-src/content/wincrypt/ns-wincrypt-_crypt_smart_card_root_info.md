@@ -4,17 +4,16 @@ title: "_CRYPT_SMART_CARD_ROOT_INFO"
 author: windows-sdk-content
 description: Contains the smart card and session IDs associated with a certificate context.
 old-location: security\crypt_smart_card_root_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 165a1a9e-e426-4823-8d1b-f13c338964c9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_SMART_CARD_ROOT_INFO, CRYPT_SMART_CARD_ROOT_INFO, CRYPT_SMART_CARD_ROOT_INFO structure [Security], PCRYPT_SMART_CARD_ROOT_INFO, PCRYPT_SMART_CARD_ROOT_INFO structure pointer [Security], _CRYPT_SMART_CARD_ROOT_INFO, security.crypt_smart_card_root_info, wincrypt/CRYPT_SMART_CARD_ROOT_INFO, wincrypt/PCRYPT_SMART_CARD_ROOT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_SMART_CARD_ROOT_INFO, *PCRYPT_SMART_CARD_ROOT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_SMART_CARD_ROOT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_SMART_CARD_ROOT_INFO, *PCRYPT_SMART_CARD_ROOT_INFO
+req.redist: 
 ---
 
 # _CRYPT_SMART_CARD_ROOT_INFO structure

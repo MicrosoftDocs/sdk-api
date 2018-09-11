@@ -4,17 +4,16 @@ title: IToc::AddEntryList
 author: windows-sdk-content
 description: The AddEntryList method adds an entry list to the table of contents and assigns an index to the entry list.
 old-location: mf\itoc_addentrylist.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8d04d6b8-d110-45a3-b3bb-5a7b680ddabe
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: AddEntryList, AddEntryList method [Media Foundation], AddEntryList method [Media Foundation],IToc interface, IToc interface [Media Foundation],AddEntryList method, IToc.AddEntryList, IToc::AddEntryList, codecapi.itoc_addentrylist, mf.itoc_addentrylist, wmcodecdsp/IToc::AddEntryList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IToc.AddEntryList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IToc::AddEntryList

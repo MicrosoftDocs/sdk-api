@@ -4,17 +4,16 @@ title: CInstance::GetEmbeddedObject
 author: windows-sdk-content
 description: The GetEmbeddedObject method retrieves a pointer to an embedded CInstance object. The pointer can be used to get and set properties of that embedded object.
 old-location: wmi\cinstance_getembeddedobject.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: e7daf313-d454-4e2c-8a8b-4f1bd9e19c58
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?GetEmbeddedObject@CInstance@@QBE_NPBGPAPAV1@PAVMethodContext@@@Z, CInstance interface [Windows Management Instrumentation],GetEmbeddedObject method, CInstance.GetEmbeddedObject, CInstance::GetEmbeddedObject, GetEmbeddedObject, GetEmbeddedObject method [Windows Management Instrumentation], GetEmbeddedObject method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getembeddedobject, instance/CInstance::GetEmbeddedObject, wmi.cinstance_getembeddedobject"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ?GetEmbeddedObject@CInstance@@QBE_NPBGPAPAV1@PAVMethodContext@@@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::GetEmbeddedObject

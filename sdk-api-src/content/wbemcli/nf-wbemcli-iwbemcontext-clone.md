@@ -4,17 +4,16 @@ title: IWbemContext::Clone
 author: windows-sdk-content
 description: The IWbemContext::Clone method makes a logical copy of the current IWbemContext object. This method can be useful when many calls must be made which have largely identical IWbemContext objects.
 old-location: wmi\iwbemcontext_clone.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: a832f4b0-a450-4f74-a6ec-d205f57c1656
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: Clone, Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],Clone method, IWbemContext.Clone, IWbemContext::Clone, _hmm_iwbemcontext_clone, wbemcli/IWbemContext::Clone, wmi.iwbemcontext_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - IWbemContext.Clone
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemContext::Clone

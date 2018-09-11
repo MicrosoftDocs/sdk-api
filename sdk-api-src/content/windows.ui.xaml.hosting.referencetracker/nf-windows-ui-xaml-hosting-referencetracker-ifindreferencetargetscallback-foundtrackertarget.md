@@ -4,17 +4,16 @@ title: IFindReferenceTargetsCallback::xaml
 author: windows-sdk-content
 description: Called whenever a XAML object reference tracker target is found.
 old-location: winrt\ifindreferencetargetscallback_foundtrackertarget.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: f8959af6-a857-4bca-a469-d68f70e2fadf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FoundTrackerTarget, FoundTrackerTarget method [Windows Runtime], FoundTrackerTarget method [Windows Runtime],IFindReferenceTargetsCallback interface, IFindReferenceTargetsCallback interface [Windows Runtime],FoundTrackerTarget method, IFindReferenceTargetsCallback.FoundTrackerTarget, IFindReferenceTargetsCallback.xaml, IFindReferenceTargetsCallback::FoundTrackerTarget, IFindReferenceTargetsCallback::xaml, windows/IFindReferenceTargetsCallback::FoundTrackerTarget, winrt.ifindreferencetargetscallback_foundtrackertarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFindReferenceTargetsCallback.FoundTrackerTarget
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFindReferenceTargetsCallback::xaml

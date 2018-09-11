@@ -4,17 +4,16 @@ title: IXpsSignatureManager::AddSignatureBlock
 author: windows-sdk-content
 description: Creates a new IXpsSignatureBlock interface and adds it to the signature block collection.
 old-location: xps\ixpssignaturemanager_addsignatureblock.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: a299882f-b9f4-4297-8438-e92d148a4014
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddSignatureBlock, AddSignatureBlock method [XPS Documents and Packaging], AddSignatureBlock method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],AddSignatureBlock method, IXpsSignatureManager.AddSignatureBlock, IXpsSignatureManager::AddSignatureBlock, xps.ixpssignaturemanager_addsignatureblock, xpsdigitalsignature/IXpsSignatureManager::AddSignatureBlock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSignatureManager.AddSignatureBlock
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSignatureManager::AddSignatureBlock

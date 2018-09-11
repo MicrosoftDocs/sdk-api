@@ -4,7 +4,7 @@ title: "_ENCRYPTION_CERTIFICATE"
 author: windows-sdk-content
 description: Contains a certificate and the SID of its owner.
 old-location: fs\encryption_certificate_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 33b36659-48bb-4297-8142-f8702db03d20
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winefs.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENCRYPTION_CERTIFICATE, *PENCRYPTION_CERTIFICATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ENCRYPTION_CERTIFICATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: ENCRYPTION_CERTIFICATE, *PENCRYPTION_CERTIFICATE
+req.redist: 
 ---
 
 # _ENCRYPTION_CERTIFICATE structure

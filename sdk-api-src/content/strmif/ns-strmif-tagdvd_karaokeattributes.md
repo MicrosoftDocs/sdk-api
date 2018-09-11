@@ -4,7 +4,7 @@ title: tagDVD_KaraokeAttributes
 author: windows-sdk-content
 description: The DVD_KaraokeAttributes structure contains information about a karaoke audio stream. The IDvdInfo2::GetKaraokeAttributes method fills in a DVD_KaraokeAttributes structure for a specified stream.
 old-location: dshow\dvd_karaokeattributes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: dffb0b0e-edce-47e7-b9c0-983fdd2c4746
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_KaraokeAttributes
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_KaraokeAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: DVD_KaraokeAttributes
+req.redist: 
 ---
 
 # tagDVD_KaraokeAttributes structure

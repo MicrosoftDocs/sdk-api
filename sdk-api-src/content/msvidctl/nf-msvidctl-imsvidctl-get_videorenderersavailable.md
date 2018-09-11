@@ -4,17 +4,16 @@ title: IMSVidCtl::get_VideoRenderersAvailable
 author: windows-sdk-content
 description: The get_VideoRenderersAvailable method retrieves a collection of video renderers available on the local system.
 old-location: mstv\imsvidctl_get_videorenderersavailable.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 20e5b2f3-33ea-4b0d-84b8-e4b0b61e0348
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_VideoRenderersAvailable method, IMSVidCtl.get_VideoRenderersAvailable, IMSVidCtl::get_VideoRenderersAvailable, IMSVidCtlget_VideoRenderersAvailable, get_VideoRenderersAvailable, get_VideoRenderersAvailable method [Microsoft TV Technologies], get_VideoRenderersAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_videorenderersavailable, msvidctl/IMSVidCtl::get_VideoRenderersAvailable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.get_VideoRenderersAvailable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::get_VideoRenderersAvailable
@@ -62,7 +60,7 @@ The <b>get_VideoRenderersAvailable</b> method retrieves a collection of video re
 
 ### -param pVal
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: D3D10_RESOURCE_DIMENSION
 author: windows-sdk-content
 description: Identifies the type of resource being used.
 old-location: direct3d10\d3d10_resource_dimension.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_resource_dimension.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 63b970df-266a-f05f-9db6-cec5c9ae14a6, D3D10_RESOURCE_DIMENSION, D3D10_RESOURCE_DIMENSION enumeration [Direct3D 10], D3D10_RESOURCE_DIMENSION_BUFFER, D3D10_RESOURCE_DIMENSION_TEXTURE1D, D3D10_RESOURCE_DIMENSION_TEXTURE2D, D3D10_RESOURCE_DIMENSION_TEXTURE3D, D3D10_RESOURCE_DIMENSION_UNKNOWN, d3d10/D3D10_RESOURCE_DIMENSION, d3d10/D3D10_RESOURCE_DIMENSION_BUFFER, d3d10/D3D10_RESOURCE_DIMENSION_TEXTURE1D, d3d10/D3D10_RESOURCE_DIMENSION_TEXTURE2D, d3d10/D3D10_RESOURCE_DIMENSION_TEXTURE3D, d3d10/D3D10_RESOURCE_DIMENSION_UNKNOWN, direct3d10.d3d10_resource_dimension
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_RESOURCE_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_RESOURCE_DIMENSION
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D3D10_RESOURCE_DIMENSION
+req.redist: 
 ---
 
 # D3D10_RESOURCE_DIMENSION enumeration

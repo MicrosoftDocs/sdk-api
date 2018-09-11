@@ -4,17 +4,16 @@ title: IUpdateHistoryEntry::get_ServerSelection
 author: windows-sdk-content
 description: Gets the ServerSelection value that indicates which server provided an update.
 old-location: wua\iupdatehistoryentry_serverselection.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 26b1c4ce-edc0-46cb-80f7-6a140df9c88b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],ServerSelection property, IUpdateHistoryEntry.ServerSelection, IUpdateHistoryEntry.get_ServerSelection, IUpdateHistoryEntry::ServerSelection, IUpdateHistoryEntry::get_ServerSelection, ServerSelection property [Windows Update Agent], ServerSelection property [Windows Update Agent],IUpdateHistoryEntry interface, get_ServerSelection, ssDefault, ssManagedServer, ssOthers, ssWindowsUpdate, wua.iupdatehistoryentry_serverselection, wuapi/IUpdateHistoryEntry::ServerSelection, wuapi/IUpdateHistoryEntry::get_ServerSelection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUpdateHistoryEntry.get_ServerSelection
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateHistoryEntry::get_ServerSelection

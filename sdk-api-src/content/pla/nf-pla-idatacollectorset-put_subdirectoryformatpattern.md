@@ -4,17 +4,16 @@ title: IDataCollectorSet::put_SubdirectoryFormatPattern
 author: windows-sdk-content
 description: Retrieves or sets a format pattern to use when decorating the folder name.
 old-location: pla\idatacollectorset_get_subdirectoryformatpattern.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 83b7df10-8b00-4d64-bf71-2c68e037ab3f
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],SubdirectoryFormatPattern property, IDataCollectorSet.SubdirectoryFormatPattern, IDataCollectorSet.put_SubdirectoryFormatPattern, IDataCollectorSet::SubdirectoryFormatPattern, IDataCollectorSet::get_SubdirectoryFormatPattern, IDataCollectorSet::put_SubdirectoryFormatPattern, SubdirectoryFormatPattern property [PLA], SubdirectoryFormatPattern property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_subdirectoryformatpattern, pla.idatacollectorset_get_subdirectoryformatpattern, pla/IDataCollectorSet::SubdirectoryFormatPattern, pla/IDataCollectorSet::get_SubdirectoryFormatPattern, pla/IDataCollectorSet::put_SubdirectoryFormatPattern, put_SubdirectoryFormatPattern
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataCollectorSet.put_SubdirectoryFormatPattern
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::put_SubdirectoryFormatPattern

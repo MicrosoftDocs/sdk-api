@@ -4,17 +4,16 @@ title: IDXGIFactory2::RegisterStereoStatusWindow
 author: windows-sdk-content
 description: Registers an application window to receive notification messages of changes of stereo status.
 old-location: direct3ddxgi\idxgifactory2_RegisterStereoStatusWindow.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 42DA05B8-1490-45B6-B22D-95176EBE7150
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],RegisterStereoStatusWindow method, IDXGIFactory2.RegisterStereoStatusWindow, IDXGIFactory2::RegisterStereoStatusWindow, RegisterStereoStatusWindow, RegisterStereoStatusWindow method [DXGI], RegisterStereoStatusWindow method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_RegisterStereoStatusWindow, dxgi1_2/IDXGIFactory2::RegisterStereoStatusWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIFactory2.RegisterStereoStatusWindow
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIFactory2::RegisterStereoStatusWindow

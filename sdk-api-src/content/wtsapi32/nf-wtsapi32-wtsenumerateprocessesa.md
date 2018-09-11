@@ -4,17 +4,16 @@ title: WTSEnumerateProcessesA function
 author: windows-sdk-content
 description: Retrieves information about the active processes on a specified Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsenumerateprocesses.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: ddfae294-2e7c-416e-b328-76d011b4af39
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WTSEnumerateProcesses, WTSEnumerateProcesses function [Remote Desktop Services], WTSEnumerateProcessesA, WTSEnumerateProcessesW, _win32_wtsenumerateprocesses, termserv.wtsenumerateprocesses, wtsapi32/WTSEnumerateProcesses, wtsapi32/WTSEnumerateProcessesA, wtsapi32/WTSEnumerateProcessesW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_VIRTUAL_CLASS
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - WTSEnumerateProcessesW
 product: Windows
 targetos: Windows
-req.lib: Wtsapi32.lib
-req.dll: Wtsapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WTSEnumerateProcessesA function

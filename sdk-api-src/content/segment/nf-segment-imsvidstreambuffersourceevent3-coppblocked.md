@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSourceEvent3::COPPBlocked
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersourceevent3_coppblocked.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: a3da78ea-4694-45a4-9284-d40c08f12fe5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: COPPBlocked, COPPBlocked method [Microsoft TV Technologies], COPPBlocked method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent3 interface, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],COPPBlocked method, IMSVidStreamBufferSourceEvent3.COPPBlocked, IMSVidStreamBufferSourceEvent3::COPPBlocked, IMSVidStreamBufferSourceEvent3COPPBlocked, mstv.imsvidstreambuffersourceevent3_coppblocked, segment/IMSVidStreamBufferSourceEvent3::COPPBlocked
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSourceEvent3.COPPBlocked
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSourceEvent3::COPPBlocked

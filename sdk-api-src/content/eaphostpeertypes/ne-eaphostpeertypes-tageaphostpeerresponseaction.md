@@ -4,7 +4,7 @@ title: tagEapHostPeerResponseAction
 author: windows-sdk-content
 description: Defines the set of actions an EAP authenticator or peer method can indicate to a supplicant during authentication.
 old-location: eaphost\eaphostpeerresponseaction.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 59bf6e02-90b5-4f9a-9865-b71852c61db9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: eaphostpeertypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EapHostPeerResponseAction
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapHostPeerResponseAction
 product: Windows
 targetos: Windows
-req.lib: Eappcfg.lib
-req.dll: Eappcfg.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EapHostPeerResponseAction
+req.redist: 
 ---
 
 # tagEapHostPeerResponseAction enumeration

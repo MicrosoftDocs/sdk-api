@@ -4,17 +4,16 @@ title: IX509PrivateKey::put_Algorithm
 author: windows-sdk-content
 description: Specifies or retrieves an object identifier (OID) for the public key algorithm.
 old-location: security\ix509privatekey_algorithm.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 40d2eae1-733a-4e5b-bb15-71301d73f438
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Algorithm property [Security], Algorithm property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Algorithm property, IX509PrivateKey.Algorithm, IX509PrivateKey.put_Algorithm, IX509PrivateKey::Algorithm, IX509PrivateKey::get_Algorithm, IX509PrivateKey::put_Algorithm, certenroll/IX509PrivateKey::Algorithm, certenroll/IX509PrivateKey::get_Algorithm, certenroll/IX509PrivateKey::put_Algorithm, put_Algorithm, security.ix509privatekey_algorithm
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509PrivateKey.put_Algorithm
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PrivateKey::put_Algorithm

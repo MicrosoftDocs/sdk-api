@@ -4,17 +4,16 @@ title: IMalloc::GetSize
 author: windows-sdk-content
 description: Retrieves the size of a previously allocated block of memory.
 old-location: com\imalloc_getsize.htm
-old-project: com
+tech.root: com
 ms.assetid: abf8cb53-7c1b-4dde-9745-30a45ad030b7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetSize, GetSize method [COM], GetSize method [COM],IMalloc interface, IMalloc interface [COM],GetSize method, IMalloc.GetSize, IMalloc::GetSize, _com_imalloc_getsize, com.imalloc_getsize, objidlbase/IMalloc::GetSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMalloc.GetSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMalloc::GetSize

@@ -4,7 +4,7 @@ title: "_AM_WST_PAGE"
 author: windows-sdk-content
 description: The AM_WST_PAGE structure identifies a World Standard Teletext (WST) page.
 old-location: dshow\am_wst_page.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6bed254f-35e4-40d0-9a59-0a2575aa61e1
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iwstdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_WST_PAGE, *PAM_WST_PAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_WST_PAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: AM_WST_PAGE, *PAM_WST_PAGE
+req.redist: 
 ---
 
 # _AM_WST_PAGE structure

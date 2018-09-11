@@ -4,17 +4,16 @@ title: WlanUIEditProfile function
 author: windows-sdk-content
 description: Displays the wireless profile user interface (UI).
 old-location: nwifi\wlanuieditprofile.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: e6453a70-2a11-4f01-adc1-67346a5856b2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WlanUIEditProfile, WlanUIEditProfile function [NativeWIFI], nwifi.wlanuieditprofile, wlanapi/WlanUIEditProfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
+req.lib: Wlanui.lib
+req.dll: Wlanui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WlanUIEditProfile
 product: Windows
 targetos: Windows
-req.lib: Wlanui.lib
-req.dll: Wlanui.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WlanUIEditProfile function

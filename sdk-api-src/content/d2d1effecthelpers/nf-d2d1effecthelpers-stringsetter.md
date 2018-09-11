@@ -4,17 +4,16 @@ title: StringSetter function
 author: windows-sdk-content
 description: Calls a member-function property setter callback for a string-type property.
 old-location: direct2d\stringsetter.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 6BCDB312-13D8-47EA-BB88-4172C3A02DBE
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: StringSetter, StringSetter function [Direct2D], d2d1effecthelpers/StringSetter, direct2d.stringsetter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1effecthelpers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_RANGE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - StringSetter
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # StringSetter function
@@ -80,7 +79,7 @@ Type: <b>UINT32</b>
 The number of bytes in the data to be retrieved.
 
 
-### -param param
+### -param arg1
 
 TBD
 

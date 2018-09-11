@@ -4,17 +4,16 @@ title: IDirectDrawVideo::GetFourCCCodes
 author: windows-sdk-content
 description: The GetFourCCCodes method retrieves the multimedia format type.
 old-location: dshow\idirectdrawvideo_getfourcccodes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3ea1c5c4-bf2e-40f6-bf48-a69900128ec8
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetFourCCCodes, GetFourCCCodes method [DirectShow], GetFourCCCodes method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetFourCCCodes method, IDirectDrawVideo.GetFourCCCodes, IDirectDrawVideo::GetFourCCCodes, IDirectDrawVideoGetFourCCCodes, amvideo/IDirectDrawVideo::GetFourCCCodes, dshow.idirectdrawvideo_getfourcccodes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirectDrawVideo.GetFourCCCodes
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawVideo::GetFourCCCodes

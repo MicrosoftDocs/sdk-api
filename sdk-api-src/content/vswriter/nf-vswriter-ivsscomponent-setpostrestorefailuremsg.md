@@ -4,17 +4,16 @@ title: IVssComponent::SetPostRestoreFailureMsg
 author: windows-sdk-content
 description: The SetPostRestoreFailureMsg method is used to create a message describing a failure in processing a PostRestore event.
 old-location: base\ivsscomponent_setpostrestorefailuremsg.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 1059a586-69e2-4a02-8f52-b8da3f04f51c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssComponent interface [VSS],SetPostRestoreFailureMsg method, IVssComponent.SetPostRestoreFailureMsg, IVssComponent::SetPostRestoreFailureMsg, SetPostRestoreFailureMsg, SetPostRestoreFailureMsg method [VSS], SetPostRestoreFailureMsg method [VSS],IVssComponent interface, _win32_ivsscomponent_setpostrestorefailuremsg, base.ivsscomponent_setpostrestorefailuremsg, vswriter/IVssComponent::SetPostRestoreFailureMsg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssComponent.SetPostRestoreFailureMsg
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponent::SetPostRestoreFailureMsg

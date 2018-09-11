@@ -4,17 +4,16 @@ title: IRDPSRAPIVirtualChannel::get_Flags
 author: windows-sdk-content
 description: The channel flags. This property is reserved for future use.
 old-location: rdp\irdpsrapivirtualchannel_flags.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: a6c75a09-f791-4dca-8059-33f03b4e3d1e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIVirtualChannel interface, Flags property [RDP],RDPSRAPIVirtualChannel object, IRDPSRAPIVirtualChannel interface [RDP],Flags property, IRDPSRAPIVirtualChannel.Flags, IRDPSRAPIVirtualChannel.get_Flags, IRDPSRAPIVirtualChannel::Flags, IRDPSRAPIVirtualChannel::get_Flags, RDPSRAPIVirtualChannel object [RDP],Flags property, get_Flags, rdp.irdpsrapivirtualchannel_flags, rdpencomapi/IRDPSRAPIVirtualChannel::Flags, rdpencomapi/IRDPSRAPIVirtualChannel::get_Flags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RDPSRAPIVirtualChannel.Flags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIVirtualChannel::get_Flags

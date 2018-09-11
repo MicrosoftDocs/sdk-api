@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::OMGetDepthStencilState
 author: windows-sdk-content
 description: Gets the depth-stencil state of the output-merger stage.
 old-location: direct3d11\id3d11devicecontext_omgetdepthstencilstate.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: d5ea53a8-62c9-46c9-96ed-8c9977d916b2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 46d0ab14-fdda-10ce-1e1a-4e551e1deeb3, ID3D11DeviceContext interface [Direct3D 11],OMGetDepthStencilState method, ID3D11DeviceContext.OMGetDepthStencilState, ID3D11DeviceContext::OMGetDepthStencilState, OMGetDepthStencilState, OMGetDepthStencilState method [Direct3D 11], OMGetDepthStencilState method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::OMGetDepthStencilState, direct3d11.id3d11devicecontext_omgetdepthstencilstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.OMGetDepthStencilState
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::OMGetDepthStencilState

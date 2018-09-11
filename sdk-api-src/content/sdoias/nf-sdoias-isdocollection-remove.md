@@ -4,17 +4,16 @@ title: ISdoCollection::Remove
 author: windows-sdk-content
 description: The Remove method removes the specified item from the collection.
 old-location: nps\SDO_isdocollection_remove.htm
-old-project: nps
+tech.root: nps
 ms.assetid: f390377d-b78e-4548-9602-c0eb363765c7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],Remove method, ISdoCollection.Remove, ISdoCollection::Remove, Remove, Remove method [Network Policy Server], Remove method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_remove, nps.SDO_isdocollection_remove, sdo.isdocollection_remove, sdoias/ISdoCollection::Remove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VENDORPROPERTIES
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISdoCollection.Remove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Iassdo.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISdoCollection::Remove

@@ -4,17 +4,16 @@ title: DnsRecordCopyEx function
 author: windows-sdk-content
 description: The DnsRecordCopyEx function creates a copy of a specified resource record (RR). The DnsRecordCopyEx function is also capable of converting the character encoding during the copy operation.
 old-location: dns\dnsrecordcopyex.htm
-old-project: dns
+tech.root: dns
 ms.assetid: b5a74799-75fc-4489-9efa-c15b2def2ae7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DnsRecordCopyEx, DnsRecordCopyEx function [DNS], _dns_dnsrecordcopyex, dns.dnsrecordcopyex, windns/DnsRecordCopyEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_FREE_TYPE
+req.lib: Dnsapi.lib
+req.dll: Dnsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DnsRecordCopyEx
 product: Windows
 targetos: Windows
-req.lib: Dnsapi.lib
-req.dll: Dnsapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DnsRecordCopyEx function

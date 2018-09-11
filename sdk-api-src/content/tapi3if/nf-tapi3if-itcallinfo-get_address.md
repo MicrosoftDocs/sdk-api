@@ -4,17 +4,16 @@ title: ITCallInfo::get_Address
 author: windows-sdk-content
 description: The get_Address method gets a pointer to the ITAddress interface of the Address object.
 old-location: tapi3\itcallinfo_get_address.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 40f20f33-166f-4df7-9c9f-b7436958d16a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_Address method, ITCallInfo.get_Address, ITCallInfo::get_Address, _tapi3_itcallinfo_get_address, get_Address, get_Address method [TAPI 2.2], get_Address method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_address, tapi3if/ITCallInfo::get_Address
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallInfo.get_Address
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallInfo::get_Address

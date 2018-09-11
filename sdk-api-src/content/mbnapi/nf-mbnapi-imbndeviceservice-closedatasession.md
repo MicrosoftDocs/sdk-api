@@ -4,17 +4,16 @@ title: IMbnDeviceService::CloseDataSession
 author: windows-sdk-content
 description: Closes the data session to a device service on a Mobile Broadband device.
 old-location: mbn\imbndeviceservice_closedatasession.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: E00322FC-05DF-4342-A182-E1F4F40FBD60
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CloseDataSession, CloseDataSession method [Microsoft Broadband Networks], CloseDataSession method [Microsoft Broadband Networks],IMbnDeviceService interface, IMbnDeviceService interface [Microsoft Broadband Networks],CloseDataSession method, IMbnDeviceService.CloseDataSession, IMbnDeviceService::CloseDataSession, mbn.imbndeviceservice_closedatasession, mbnapi/IMbnDeviceService::CloseDataSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnDeviceService.CloseDataSession
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnDeviceService::CloseDataSession

@@ -4,17 +4,16 @@ title: FindDebugInfoFile function
 author: windows-sdk-content
 description: Locates a debug (.dbg) file.
 old-location: base\finddebuginfofile.htm
-old-project: debug
+tech.root: debug
 ms.assetid: a13d3bf4-f34d-4304-9d47-aa21c3fa23b8
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: FindDebugInfoFile, FindDebugInfoFile function, _win32_finddebuginfofile, base.finddebuginfofile, dbghelp/FindDebugInfoFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - FindDebugInfoFile
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # FindDebugInfoFile function

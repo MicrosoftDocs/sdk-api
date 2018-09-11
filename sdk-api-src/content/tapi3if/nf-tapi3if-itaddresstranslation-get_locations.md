@@ -4,17 +4,16 @@ title: ITAddressTranslation::get_Locations
 author: windows-sdk-content
 description: The get_Locations method creates a collection of currently available address locations. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateLocations method.
 old-location: tapi3\itaddresstranslation_get_locations.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b18f7cb1-fcec-41eb-ac57-bf2d47f958e0
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAddressTranslation interface [TAPI 2.2],get_Locations method, ITAddressTranslation.get_Locations, ITAddressTranslation::get_Locations, _tapi3_itaddresstranslation_get_locations, get_Locations, get_Locations method [TAPI 2.2], get_Locations method [TAPI 2.2],ITAddressTranslation interface, tapi3.itaddresstranslation_get_locations, tapi3if/ITAddressTranslation::get_Locations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddressTranslation.get_Locations
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddressTranslation::get_Locations

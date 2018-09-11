@@ -4,17 +4,16 @@ title: ITuner::get_TuneRequest
 author: windows-sdk-content
 description: The get_TuneRequest method gets the tune request currently in effect for the Network Provider.
 old-location: mstv\ituner_get_tunerequest.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 45967073-2e09-4490-967f-4ed3c9ed1d7e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],get_TuneRequest method, ITuner.get_TuneRequest, ITuner::get_TuneRequest, ITunerget_TuneRequest, get_TuneRequest, get_TuneRequest method [Microsoft TV Technologies], get_TuneRequest method [Microsoft TV Technologies],ITuner interface, mstv.ituner_get_tunerequest, tuner/ITuner::get_TuneRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITuner.get_TuneRequest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITuner::get_TuneRequest
@@ -65,7 +63,7 @@ The <b>get_TuneRequest</b> method gets the tune request currently in effect for 
 
 ### -param TuneRequest
 
-
+TBD
 
 
 

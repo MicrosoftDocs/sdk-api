@@ -4,17 +4,16 @@ title: NetQueryServiceAccount function
 author: windows-sdk-content
 description: Gets information about the specified managed service account.
 old-location: security\netqueryserviceaccount.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: ee253cab-bd53-426e-809a-12a1ccdc010b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetQueryServiceAccount, NetQueryServiceAccount function [Security], lmaccess/NetQueryServiceAccount, security.netqueryserviceaccount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
+req.lib: 
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetQueryServiceAccount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetQueryServiceAccount function

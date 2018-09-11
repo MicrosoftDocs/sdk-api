@@ -4,17 +4,16 @@ title: IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled
 author: windows-sdk-content
 description: Not supported.
 old-location: wua\iautomaticupdatessettings3_featuredupdatesenabled.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 43f17feb-1a3b-4399-a26f-1a2d99442169
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: FeaturedUpdatesEnabled property [Windows Update Agent], FeaturedUpdatesEnabled property [Windows Update Agent],IAutomaticUpdatesSettings3 interface, IAutomaticUpdatesSettings3 interface [Windows Update Agent],FeaturedUpdatesEnabled property, IAutomaticUpdatesSettings3.FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3.put_FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled, put_FeaturedUpdatesEnabled, wua.iautomaticupdatessettings3_featuredupdatesenabled, wuapi/IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled, wuapi/IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled, wuapi/IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IAutomaticUpdatesSettings3.put_FeaturedUpdatesEnabled
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled

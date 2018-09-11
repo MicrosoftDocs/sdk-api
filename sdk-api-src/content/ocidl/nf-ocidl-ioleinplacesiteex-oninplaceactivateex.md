@@ -4,17 +4,16 @@ title: IOleInPlaceSiteEx::OnInPlaceActivateEx
 author: windows-sdk-content
 description: Called by the embedded object to determine whether it needs to redraw itself upon activation.
 old-location: com\ioleinplacesiteex_oninplaceactivateex.htm
-old-project: com
+tech.root: com
 ms.assetid: 11c96c79-9884-4bac-828b-53ac4de65182
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleInPlaceSiteEx interface [COM],OnInPlaceActivateEx method, IOleInPlaceSiteEx.OnInPlaceActivateEx, IOleInPlaceSiteEx::OnInPlaceActivateEx, OnInPlaceActivateEx, OnInPlaceActivateEx method [COM], OnInPlaceActivateEx method [COM],IOleInPlaceSiteEx interface, _ole_ioleinplacesiteex_oninplaceactivateex, com.ioleinplacesiteex_oninplaceactivateex, ocidl/IOleInPlaceSiteEx::OnInPlaceActivateEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceSiteEx.OnInPlaceActivateEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSiteEx::OnInPlaceActivateEx

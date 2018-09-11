@@ -4,7 +4,7 @@ title: TS_TEXTCHANGE
 author: windows-sdk-content
 description: The TS_TEXTCHANGE structure contains text change data.
 old-location: tsf\ts_textchange.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: af7dfc32-ae2d-4f04-a73b-8a9e2ea1a1c0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_TEXTCHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TS_TEXTCHANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TS_TEXTCHANGE
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # TS_TEXTCHANGE structure

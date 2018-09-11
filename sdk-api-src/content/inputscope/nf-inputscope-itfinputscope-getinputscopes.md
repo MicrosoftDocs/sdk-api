@@ -4,17 +4,16 @@ title: ITfInputScope::GetInputScopes
 author: windows-sdk-content
 description: ITfInputScope::GetInputScopes method
 old-location: tsf\itfinputscope_getinputscope.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: c5d54d2a-13b4-42f7-9224-4e80f0148a86
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetInputScopes, GetInputScopes method [Text Services Framework], GetInputScopes method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetInputScopes method, ITfInputScope.GetInputScopes, ITfInputScope::GetInputScopes, _tsf_itfinputscoe_getinputscopes_ref, inputscope/ITfInputScope::GetInputScopes, tsf.itfinputscope_getinputscope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inputscope.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InputScope
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfInputScope.GetInputScopes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ITfInputScope::GetInputScopes

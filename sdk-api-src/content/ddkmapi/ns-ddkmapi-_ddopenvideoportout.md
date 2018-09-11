@@ -4,7 +4,7 @@ title: "_DDOPENVIDEOPORTOUT"
 author: windows-sdk-content
 description: The DDOPENVIDEOPORTOUT structure contains a Microsoft DirectDraw return code and a new surface handle if ddRVal is set to DD_OK. This new handle must be used on all subsequent calls that require a video port extensions (VPE) object handle.
 old-location: display\ddopenvideoportout.htm
-old-project: display
+tech.root: display
 ms.assetid: cb01786f-4e6a-43f6-b906-504c0f17ade7
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDOPENVIDEOPORTOUT, *LPDDOPENVIDEOPORTOUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDOPENVIDEOPORTOUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDOPENVIDEOPORTOUT, *LPDDOPENVIDEOPORTOUT
+req.redist: 
 ---
 
 # _DDOPENVIDEOPORTOUT structure

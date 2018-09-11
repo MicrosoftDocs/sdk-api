@@ -4,7 +4,7 @@ title: "_DEVICE_MEDIA_INFO"
 author: windows-sdk-content
 description: Provides information about the media supported by a device.
 old-location: base\device_media_info_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 90367411-3008-4e37-9884-e586fc5162d9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEVICE_MEDIA_INFO, *PDEVICE_MEDIA_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DEVICE_MEDIA_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DEVICE_MEDIA_INFO, *PDEVICE_MEDIA_INFO
+req.redist: 
 ---
 
 # _DEVICE_MEDIA_INFO structure

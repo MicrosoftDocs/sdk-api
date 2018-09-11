@@ -4,17 +4,16 @@ title: IFhConfigMgr::CreateDefaultConfiguration
 author: windows-sdk-content
 description: Creates File History configuration files with default settings for the current user and loads them into an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_createdefaultconfiguration.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 70F67D8D-E449-4006-BB14-0E5E9B91D517
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateDefaultConfiguration, CreateDefaultConfiguration method [Windows API], CreateDefaultConfiguration method [Windows API],FhConfigMgr class, CreateDefaultConfiguration method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],CreateDefaultConfiguration method, IFhConfigMgr interface [Windows API],CreateDefaultConfiguration method, IFhConfigMgr.CreateDefaultConfiguration, IFhConfigMgr::CreateDefaultConfiguration, fhcfg/IFhConfigMgr::CreateDefaultConfiguration, winprog.ifhconfigmgr_createdefaultconfiguration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FhConfigMgr.CreateDefaultConfiguration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFhConfigMgr::CreateDefaultConfiguration

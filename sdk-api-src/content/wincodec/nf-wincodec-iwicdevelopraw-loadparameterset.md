@@ -4,17 +4,16 @@ title: IWICDevelopRaw::LoadParameterSet
 author: windows-sdk-content
 description: Sets the desired WICRawParameterSet option.
 old-location: wic\_wic_codec_iwicdevelopraw_loadparameterset.htm
-old-project: wic
+tech.root: wic
 ms.assetid: c3882d90-5772-4b10-8fcc-8d16f5004a05
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],LoadParameterSet method, IWICDevelopRaw.LoadParameterSet, IWICDevelopRaw::LoadParameterSet, LoadParameterSet, LoadParameterSet method [Windows Imaging Component], LoadParameterSet method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_loadparameterset, wic._wic_codec_iwicdevelopraw_loadparameterset, wincodec/IWICDevelopRaw::LoadParameterSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICDevelopRaw.LoadParameterSet
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICDevelopRaw::LoadParameterSet

@@ -4,17 +4,16 @@ title: PARBITRATE_ROUTINE
 author: windows-sdk-content
 description: Allows a node to attempt to regain ownership of a quorum resource.
 old-location: mscs\arbitrate.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: dc16b785-bbb1-4917-a826-e49445a86c26
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Arbitrate, Arbitrate callback, Arbitrate callback function [Failover Cluster], PARBITRATE_ROUTINE, PARBITRATE_ROUTINE callback function [Failover Cluster], _wolf_arbitrate, mscs.arbitrate, resapi/Arbitrate, resapi/PARBITRATE_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Arbitrate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PARBITRATE_ROUTINE callback function

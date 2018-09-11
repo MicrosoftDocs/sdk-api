@@ -4,17 +4,16 @@ title: CryptImportPublicKeyInfoEx2 function
 author: windows-sdk-content
 description: Imports a public key into the CNG asymmetric provider that corresponds to the public key object identifier (OID) and returns a CNG handle to the key.
 old-location: security\cryptimportpublickeyinfoex2.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: c73f2499-75e9-4146-ae4c-0e949206ea37
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, CryptImportPublicKeyInfoEx2, CryptImportPublicKeyInfoEx2 function [Security], X509_ASN_ENCODING, security.cryptimportpublickeyinfoex2, wincrypt/CryptImportPublicKeyInfoEx2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptImportPublicKeyInfoEx2
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptImportPublicKeyInfoEx2 function

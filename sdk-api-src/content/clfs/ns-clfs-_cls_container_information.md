@@ -4,7 +4,7 @@ title: "_CLS_CONTAINER_INFORMATION"
 author: windows-sdk-content
 description: Describes general information about a container.
 old-location: fs\clfs_container_information.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 3788fac0-4e99-49e0-bba1-6a6d22299950
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, PPCLS_CONTAINER_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLFS_CONTAINER_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, PPCLS_CONTAINER_INFORMATION
+req.redist: 
 ---
 
 # _CLS_CONTAINER_INFORMATION structure

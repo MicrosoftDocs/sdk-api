@@ -4,17 +4,16 @@ title: IDXGIInfoQueue::GetStorageFilter
 author: windows-sdk-content
 description: Gets the storage filter at the top of the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_getstoragefilter.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: C0709ECD-94CC-4745-A811-4180EC763CFC
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetStorageFilter, GetStorageFilter method [DXGI], GetStorageFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetStorageFilter method, IDXGIInfoQueue.GetStorageFilter, IDXGIInfoQueue::GetStorageFilter, direct3ddxgi.idxgiinfoqueue_getstoragefilter, dxgidebug/IDXGIInfoQueue::GetStorageFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
+req.lib: 
+req.dll: DXGIDebug.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGIInfoQueue.GetStorageFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DXGIDebug.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIInfoQueue::GetStorageFilter

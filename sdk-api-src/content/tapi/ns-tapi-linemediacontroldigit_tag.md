@@ -4,7 +4,7 @@ title: linemediacontroldigit_tag
 author: windows-sdk-content
 description: The LINEMEDIACONTROLDIGIT structure describes a media action to be executed when detecting a digit. It is used as an entry in an array. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.
 old-location: tapi2\linemediacontroldigit_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: d31cd365-d6a6-4595-8202-87113035d807
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEMEDIACONTROLDIGIT, *LPLINEMEDIACONTROLDIGIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEMEDIACONTROLDIGIT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEMEDIACONTROLDIGIT, *LPLINEMEDIACONTROLDIGIT
+req.redist: 
 ---
 
 # linemediacontroldigit_tag structure

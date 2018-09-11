@@ -4,17 +4,16 @@ title: ISdo::Apply
 author: windows-sdk-content
 description: The Apply method writes to persistent storage the changes made by calls to the ISdo::PutProperty method.
 old-location: nps\SDO_isdo_apply.htm
-old-project: nps
+tech.root: nps
 ms.assetid: aceca2f9-7b17-46a5-bcd1-e6fec3c369ed
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Apply, Apply method [Network Policy Server], Apply method [Network Policy Server],ISdo interface, ISdo interface [Network Policy Server],Apply method, ISdo.Apply, ISdo::Apply, _sdo_isdo_apply, nps.SDO_isdo_apply, sdo.isdo_apply, sdoias/ISdo::Apply
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VENDORPROPERTIES
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISdo.Apply
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Iassdo.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISdo::Apply

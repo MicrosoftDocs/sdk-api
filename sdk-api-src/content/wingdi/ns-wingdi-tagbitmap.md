@@ -4,7 +4,7 @@ title: tagBITMAP
 author: windows-sdk-content
 description: The BITMAP structure defines the type, width, height, color format, and bit values of a bitmap.
 old-location: gdi\bitmap.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 6ee382da-dd63-442b-80c3-59472defb41f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP, *PBITMAP, *NPBITMAP, *LPBITMAP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BITMAP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: BITMAP, *PBITMAP, *NPBITMAP, *LPBITMAP
+req.redist: 
 ---
 
 # tagBITMAP structure

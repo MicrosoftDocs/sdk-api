@@ -4,17 +4,16 @@ title: IWTSProtocolConnection::LogonNotify
 author: windows-sdk-content
 description: IWTSProtocolConnection::LogonNotify is no longer available. Instead, use IWRdsProtocolConnection::LogonNotify.
 old-location: termserv\iwtsprotocolconnection_logonnotify.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 6065e827-23a5-4150-bda5-999b7acede65
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],LogonNotify method, IWTSProtocolConnection.LogonNotify, IWTSProtocolConnection::LogonNotify, LogonNotify, LogonNotify method [Remote Desktop Services], LogonNotify method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_logonnotify, wtsprotocol/IWTSProtocolConnection::LogonNotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSProtocolConnection.LogonNotify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSProtocolConnection::LogonNotify

@@ -4,17 +4,16 @@ title: ICreateTypeInfo2::DeleteVarDesc
 author: windows-sdk-content
 description: Deletes the specified VARDESC structure.
 old-location: automat\icreatetypeinfo2_deletevardesc.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 0fcf55d9-2592-4fed-9612-48085eb7791b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DeleteVarDesc, DeleteVarDesc method [Automation], DeleteVarDesc method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteVarDesc method, ICreateTypeInfo2.DeleteVarDesc, ICreateTypeInfo2::DeleteVarDesc, _oa96_ICreateTypeInfo2_DeleteVarDesc, automat.icreatetypeinfo2_deletevardesc, oaidl/ICreateTypeInfo2::DeleteVarDesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeInfo2.DeleteVarDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeInfo2::DeleteVarDesc

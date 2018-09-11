@@ -4,17 +4,16 @@ title: ExitProcess function
 author: windows-sdk-content
 description: Ends the calling process and all its threads.
 old-location: base\exitprocess.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: c26dbf15-62e8-4892-b7c5-2e6c085e4cd5
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: ExitProcess, ExitProcess function, _win32_exitprocess, base.exitprocess, processthreadsapi/ExitProcess, winbase/ExitProcess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - ExitProcess
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ExitProcess function

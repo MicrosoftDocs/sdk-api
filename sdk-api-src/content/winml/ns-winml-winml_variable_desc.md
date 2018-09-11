@@ -4,7 +4,7 @@ title: WINML_VARIABLE_DESC
 author: windows-sdk-content
 description: Contains description properties of the variable.
 old-location: machinelearning\winml_variable_desc.htm
-old-project: MachineLearning
+tech.root: MachineLearning
 ms.assetid: 94FBC8E4-13BD-49A5-A720-0827479A43A6
 ms.author: windowssdkdev
 ms.date: 03/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINML_VARIABLE_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINML_VARIABLE_DESC
+req.redist: 
 ---
 
 # WINML_VARIABLE_DESC structure

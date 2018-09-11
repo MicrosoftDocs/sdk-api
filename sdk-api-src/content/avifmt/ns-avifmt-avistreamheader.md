@@ -4,7 +4,7 @@ title: AVIStreamHeader
 author: windows-sdk-content
 description: The AVISTREAMHEADER structure contains information about one stream in an AVI file.
 old-location: dshow\avistreamheader.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f07c28ac-2dd0-428a-a94a-32aec2bb0854
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: avifmt.h
 req.include-header: Aviriff.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVIStreamHeader
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AVISTREAMHEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AVIStreamHeader
+req.redist: 
 ---
 
 # AVIStreamHeader structure

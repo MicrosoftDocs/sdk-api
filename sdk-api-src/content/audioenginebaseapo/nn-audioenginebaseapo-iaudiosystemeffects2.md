@@ -4,7 +4,7 @@ title: IAudioSystemEffects2
 author: windows-sdk-content
 description: The IAudioSystemEffects2 interface was introduced with Windows 8.1 for retrieving information about the processing objects in a given mode.
 old-location: audio\iaudiosystemeffects2.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 5989BAFB-6B2D-4186-9A8D-96C8974E0D18
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioenginebaseapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APO_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSystemEffects2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: All levels.
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSystemEffects2 interface

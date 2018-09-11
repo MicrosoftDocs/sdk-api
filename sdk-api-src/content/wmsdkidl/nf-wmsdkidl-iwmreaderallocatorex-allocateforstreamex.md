@@ -4,17 +4,16 @@ title: IWMReaderAllocatorEx::AllocateForStreamEx
 author: windows-sdk-content
 description: The AllocateForStreamEx method allocates a user-created buffer for samples delivered to the IWMReaderCallbackAdvanced::OnStreamSample method.
 old-location: wmformat\iwmreaderallocatorex_allocateforstreamex.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: bb12f0e1-dc9c-447e-a28d-30c45eb95d09
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AllocateForStreamEx, AllocateForStreamEx method [windows Media Format], AllocateForStreamEx method [windows Media Format],IWMReaderAllocatorEx interface, IWMReaderAllocatorEx interface [windows Media Format],AllocateForStreamEx method, IWMReaderAllocatorEx.AllocateForStreamEx, IWMReaderAllocatorEx::AllocateForStreamEx, IWMReaderAllocatorExAllocateForStreamEx, wmformat.iwmreaderallocatorex_allocateforstreamex, wmsdkidl/IWMReaderAllocatorEx::AllocateForStreamEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMReaderAllocatorEx.AllocateForStreamEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderAllocatorEx::AllocateForStreamEx

@@ -4,17 +4,16 @@ title: ITAutomatedPhoneControl::get_AutoKeypadTones
 author: windows-sdk-content
 description: The get_AutoKeypadTones method gets the AutoKeypadTones property for this phone. When this feature is enabled, a digit tone is automatically played whenever a keypad button is pressed.
 old-location: tapi3\itautomatedphonecontrol_get_autokeypadtones.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: fd6c2b1c-53c5-40f9-bb5e-51c48d5bc944
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoKeypadTones method, ITAutomatedPhoneControl.get_AutoKeypadTones, ITAutomatedPhoneControl::get_AutoKeypadTones, _tapi3_itautomatedphonecontrol_get_autokeypadtones, get_AutoKeypadTones, get_AutoKeypadTones method [TAPI 2.2], get_AutoKeypadTones method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autokeypadtones, tapi3if/ITAutomatedPhoneControl::get_AutoKeypadTones
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAutomatedPhoneControl.get_AutoKeypadTones
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAutomatedPhoneControl::get_AutoKeypadTones

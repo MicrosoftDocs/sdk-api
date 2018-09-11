@@ -4,7 +4,7 @@ title: "_NTEVENTLOGPROPERTIES"
 author: windows-sdk-content
 description: The values of the NTEVENTLOGPROPERTIES enumeration type enumerate what types of events should be logged in the NT Event Log.
 old-location: nps\SDO_nteventlogproperties.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 5b52eae6-4a72-4935-8a82-6e7747ce942e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.unicode-ansi: 
 req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTEVENTLOGPROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTEVENTLOGPROPERTIES
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: NTEVENTLOGPROPERTIES
+req.redist: 
 ---
 
 # _NTEVENTLOGPROPERTIES enumeration

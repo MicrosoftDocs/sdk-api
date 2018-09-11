@@ -4,17 +4,16 @@ title: IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack
 author: windows-sdk-content
 description: Returns the appropriate device colors in response to the incoming number of colors, channels, black information, Commission Internationale l'Eclairge XYZ (CIEXYZ) colors and the proprietary plug-in algorithms.
 old-location: wcs\IDeviceModelPlugIn_ColorimetricToDeviceColorsWithBlack.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: 74ec9ace-2468-4b26-a419-781f0b4fd073
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: ColorimetricToDeviceColorsWithBlack, ColorimetricToDeviceColorsWithBlack method [Windows Color System], ColorimetricToDeviceColorsWithBlack method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],ColorimetricToDeviceColorsWithBlack method, IDeviceModelPlugIn.ColorimetricToDeviceColorsWithBlack, IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack, _color_IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack, wcs.IDeviceModelPlugIn_ColorimetricToDeviceColorsWithBlack, wcsplugin/IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDeviceModelPlugIn.ColorimetricToDeviceColorsWithBlack
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack

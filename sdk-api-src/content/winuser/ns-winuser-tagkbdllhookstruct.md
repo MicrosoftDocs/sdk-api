@@ -4,17 +4,16 @@ title: tagKBDLLHOOKSTRUCT
 author: windows-sdk-content
 description: Contains information about a low-level keyboard input event.
 old-location: winmsg\kbdllhookstruct.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\kbdllhookstruct.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPKBDLLHOOKSTRUCT, *PKBDLLHOOKSTRUCT, KBDLLHOOKSTRUCT, KBDLLHOOKSTRUCT structure [Windows and Messages], LLKHF_ALTDOWN, LLKHF_EXTENDED, LLKHF_INJECTED, LLKHF_LOWER_IL_INJECTED, LLKHF_UP, LPKBDLLHOOKSTRUCT, LPKBDLLHOOKSTRUCT structure pointer [Windows and Messages], PKBDLLHOOKSTRUCT, PKBDLLHOOKSTRUCT structure pointer [Windows and Messages], _win32_KBDLLHOOKSTRUCT_str, _win32_kbdllhookstruct_str_cpp, tagKBDLLHOOKSTRUCT, winmsg.kbdllhookstruct, winui._win32_kbdllhookstruct_str, winuser/KBDLLHOOKSTRUCT, winuser/LPKBDLLHOOKSTRUCT, winuser/PKBDLLHOOKSTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KBDLLHOOKSTRUCT, *LPKBDLLHOOKSTRUCT, *PKBDLLHOOKSTRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KBDLLHOOKSTRUCT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: KBDLLHOOKSTRUCT, *LPKBDLLHOOKSTRUCT, *PKBDLLHOOKSTRUCT
+req.redist: 
 ---
 
 # tagKBDLLHOOKSTRUCT structure

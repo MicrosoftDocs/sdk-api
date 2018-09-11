@@ -4,17 +4,16 @@ title: ID3D11Device::CreateDepthStencilView
 author: windows-sdk-content
 description: Create a depth-stencil view for accessing resource data.
 old-location: direct3d11\id3d11device_createdepthstencilview.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: b3e899eb-3df6-421f-bdc8-98d7c7acbe62
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateDepthStencilView, CreateDepthStencilView method [Direct3D 11], CreateDepthStencilView method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateDepthStencilView method, ID3D11Device.CreateDepthStencilView, ID3D11Device::CreateDepthStencilView, d3d11/ID3D11Device::CreateDepthStencilView, direct3d11.id3d11device_createdepthstencilview, e1e786e8-1374-b092-ac91-06c2482f6166
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Device.CreateDepthStencilView
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Device::CreateDepthStencilView

@@ -4,7 +4,7 @@ title: AM_ExactRateChange
 author: windows-sdk-content
 description: The AM_ExactRateChange structure is not supported. Use AM_SimpleRateChange.
 old-location: dshow\am_exactratechange.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 07f23ea0-03ef-4650-9c3b-c7efb94e56a7
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Dvbsiparser.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_ExactRateChange
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_ExactRateChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: AM_ExactRateChange
+req.redist: 
 ---
 
 # AM_ExactRateChange structure

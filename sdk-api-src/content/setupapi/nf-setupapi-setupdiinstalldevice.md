@@ -4,17 +4,16 @@ title: SetupDiInstallDevice function
 author: windows-sdk-content
 description: The SetupDiInstallDevice function is the default handler for the DIF_INSTALLDEVICE installation request.
 old-location: devinst\setupdiinstalldevice.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 130a58a8-7964-40cb-87e8-4765178bd1ff
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiInstallDevice, SetupDiInstallDevice function [Device and Driver Installation], devinst.setupdiinstalldevice, di-rtns_5b8edbe1-3653-41c6-8a61-12f11544ff08.xml, setupapi/SetupDiInstallDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetupDiInstallDevice
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiInstallDevice function

@@ -4,7 +4,7 @@ title: WICPngIccpProperties
 author: windows-sdk-content
 description: Specifies the Portable Network Graphics (PNG) iCCP chunk metadata properties.
 old-location: wic\_wic_codec_wicpngiccpproperties.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 2c28a4f1-40c2-4886-be5f-0a2e6feb487a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPngIccpProperties
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICPngIccpProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICPngIccpProperties
+req.redist: 
 ---
 
 # WICPngIccpProperties enumeration

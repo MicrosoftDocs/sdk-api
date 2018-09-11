@@ -4,17 +4,16 @@ title: IServicePartitionConfig::PartitionID
 author: windows-sdk-content
 description: Sets the GUID for the partition that is used for the enclosed work.
 old-location: cos\iservicepartitionconfig_partitionid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 40480925-dfb6-40ea-a8ea-72659e359b47
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IServicePartitionConfig interface [COM+],PartitionID method, IServicePartitionConfig.PartitionID, IServicePartitionConfig::PartitionID, PartitionID, PartitionID method [COM+], PartitionID method [COM+],IServicePartitionConfig interface, _cos_IServicePartitionConfig_PartitionID, comsvcs/IServicePartitionConfig::PartitionID, cos.iservicepartitionconfig_partitionid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServicePartitionConfig.PartitionID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServicePartitionConfig::PartitionID

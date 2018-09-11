@@ -4,17 +4,16 @@ title: PssFreeSnapshot function
 author: windows-sdk-content
 description: Frees a snapshot.
 old-location: proc_snap\pssfreesnapshot.htm
-old-project: proc_snap
+tech.root: proc_snap
 ms.assetid: 5D062AE6-2F7C-4121-AB6E-9BFA06AB36C6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: PssFreeSnapshot, PssFreeSnapshot function, proc_snap.pssfreesnapshot, processsnapshot/PssFreeSnapshot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSS_WALK_INFORMATION_CLASS
+req.lib: 
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PssFreeSnapshot
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PssFreeSnapshot function

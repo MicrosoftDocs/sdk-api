@@ -4,17 +4,16 @@ title: InkApplicationGesture
 author: windows-sdk-content
 description: Defines values that set the interest in a set of application-specific gesture.Application gestures are gestures that you can choose to have your application support.
 old-location: tablet\inkapplicationgesture.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: b429ec96-691f-4761-92bf-ef500cf0e1be
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IAG_AllGestures, IAG_ArrowDown, IAG_ArrowLeft, IAG_ArrowRight, IAG_ArrowUp, IAG_Check, IAG_ChevronDown, IAG_ChevronLeft, IAG_ChevronRight, IAG_ChevronUp, IAG_Circle, IAG_Curlicue, IAG_DoubleCircle, IAG_DoubleCurlicue, IAG_DoubleTap, IAG_Down, IAG_DownLeft, IAG_DownLeftLong, IAG_DownRight, IAG_DownRightLong, IAG_DownUp, IAG_Exclamation, IAG_Left, IAG_LeftDown, IAG_LeftRight, IAG_LeftUp, IAG_NoGesture, IAG_Right, IAG_RightDown, IAG_RightLeft, IAG_RightUp, IAG_Scratchout, IAG_SemiCircleLeft, IAG_SemiCircleRight, IAG_Square, IAG_Star, IAG_Tap, IAG_Triangle, IAG_Up, IAG_UpDown, IAG_UpLeft, IAG_UpLeftLong, IAG_UpRight, IAG_UpRightLong, InkApplicationGesture, InkApplicationGesture enumeration [Tablet PC], b429ec96-691f-4761-92bf-ef500cf0e1be, msinkaut/IAG_AllGestures, msinkaut/IAG_ArrowDown, msinkaut/IAG_ArrowLeft, msinkaut/IAG_ArrowRight, msinkaut/IAG_ArrowUp, msinkaut/IAG_Check, msinkaut/IAG_ChevronDown, msinkaut/IAG_ChevronLeft, msinkaut/IAG_ChevronRight, msinkaut/IAG_ChevronUp, msinkaut/IAG_Circle, msinkaut/IAG_Curlicue, msinkaut/IAG_DoubleCircle, msinkaut/IAG_DoubleCurlicue, msinkaut/IAG_DoubleTap, msinkaut/IAG_Down, msinkaut/IAG_DownLeft, msinkaut/IAG_DownLeftLong, msinkaut/IAG_DownRight, msinkaut/IAG_DownRightLong, msinkaut/IAG_DownUp, msinkaut/IAG_Exclamation, msinkaut/IAG_Left, msinkaut/IAG_LeftDown, msinkaut/IAG_LeftRight, msinkaut/IAG_LeftUp, msinkaut/IAG_NoGesture, msinkaut/IAG_Right, msinkaut/IAG_RightDown, msinkaut/IAG_RightLeft, msinkaut/IAG_RightUp, msinkaut/IAG_Scratchout, msinkaut/IAG_SemiCircleLeft, msinkaut/IAG_SemiCircleRight, msinkaut/IAG_Square, msinkaut/IAG_Star, msinkaut/IAG_Tap, msinkaut/IAG_Triangle, msinkaut/IAG_Up, msinkaut/IAG_UpDown, msinkaut/IAG_UpLeft, msinkaut/IAG_UpLeftLong, msinkaut/IAG_UpRight, msinkaut/IAG_UpRightLong, msinkaut/InkApplicationGesture, tablet.inkapplicationgesture
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkApplicationGesture
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InkApplicationGesture
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkApplicationGesture
+req.redist: 
 ---
 
 # InkApplicationGesture enumeration

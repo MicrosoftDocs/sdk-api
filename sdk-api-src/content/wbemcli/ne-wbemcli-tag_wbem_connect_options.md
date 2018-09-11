@@ -4,17 +4,16 @@ title: tag_WBEM_CONNECT_OPTIONS
 author: windows-sdk-content
 description: Contains flags for the IWbemLocator::ConnectServer method.
 old-location: wmi\wbem_connect_options.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 8D6FA5C1-B10B-48C6-A0E9-8F7D6C07B957
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: WBEM_CONNECT_OPTIONS, WBEM_CONNECT_OPTIONS enumeration [Windows Management Instrumentation], WBEM_FLAG_CONNECT_PROVIDERS, WBEM_FLAG_CONNECT_REPOSITORY_ONLY, WBEM_FLAG_CONNECT_USE_MAX_WAIT, tag_WBEM_CONNECT_OPTIONS, wbemcli/WBEM_CONNECT_OPTIONS, wbemcli/WBEM_FLAG_CONNECT_PROVIDERS, wbemcli/WBEM_FLAG_CONNECT_REPOSITORY_ONLY, wbemcli/WBEM_FLAG_CONNECT_USE_MAX_WAIT, wmi.wbem_connect_options
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WBEM_CONNECT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - WBEM_CONNECT_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WBEM_CONNECT_OPTIONS
+req.redist: 
 ---
 
 # tag_WBEM_CONNECT_OPTIONS enumeration

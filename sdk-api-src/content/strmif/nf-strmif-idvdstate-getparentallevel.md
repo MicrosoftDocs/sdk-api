@@ -4,17 +4,16 @@ title: IDvdState::GetParentalLevel
 author: windows-sdk-content
 description: The GetParentalLevel method retrieves the user's parental level as saved in the DvdState object.
 old-location: dshow\idvdstate_getparentallevel.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f87c128f-d751-4593-ac26-3249b803bbe4
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetParentalLevel, GetParentalLevel method [DirectShow], GetParentalLevel method [DirectShow],IDvdState interface, IDvdState interface [DirectShow],GetParentalLevel method, IDvdState.GetParentalLevel, IDvdState::GetParentalLevel, IDvdStateGetParentalLevel, dshow.idvdstate_getparentallevel, strmif/IDvdState::GetParentalLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdState.GetParentalLevel
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdState::GetParentalLevel

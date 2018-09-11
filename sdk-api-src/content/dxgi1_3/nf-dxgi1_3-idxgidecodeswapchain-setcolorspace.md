@@ -4,17 +4,16 @@ title: IDXGIDecodeSwapChain::SetColorSpace
 author: windows-sdk-content
 description: Sets the color space used by the swap chain.
 old-location: direct3ddxgi\idxgidecodeswapchain_setcolorspace.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: DE0AA2BF-8E98-4CF4-8CC2-760AB4B8776D
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],SetColorSpace method, IDXGIDecodeSwapChain.SetColorSpace, IDXGIDecodeSwapChain::SetColorSpace, SetColorSpace, SetColorSpace method [DXGI], SetColorSpace method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_setcolorspace, dxgi1_3/IDXGIDecodeSwapChain::SetColorSpace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIDecodeSwapChain.SetColorSpace
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIDecodeSwapChain::SetColorSpace

@@ -4,17 +4,16 @@ title: ITFileTerminalEvent::get_Track
 author: windows-sdk-content
 description: The get_Track method returns the track terminal that generated this event.
 old-location: tapi3\itfileterminalevent_get_track.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: f860faf3-6ca5-43d3-8d68-487d1b1d29b0
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITFileTerminalEvent interface [TAPI 2.2],get_Track method, ITFileTerminalEvent.get_Track, ITFileTerminalEvent::get_Track, _tapi3_itfileterminalevent_get_track, get_Track, get_Track method [TAPI 2.2], get_Track method [TAPI 2.2],ITFileTerminalEvent interface, tapi3.itfileterminalevent_get_track, tapi3if/ITFileTerminalEvent::get_Track
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITFileTerminalEvent.get_Track
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITFileTerminalEvent::get_Track

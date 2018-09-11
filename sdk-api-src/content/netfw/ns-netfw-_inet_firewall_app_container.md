@@ -4,7 +4,7 @@ title: "_INET_FIREWALL_APP_CONTAINER"
 author: windows-sdk-content
 description: Contains information about an specific app container.
 old-location: ics\inet_firewall_app_container.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 0567fb66-0511-4c80-9e31-2412507ced97
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netfw.h
 req.include-header: Netfw.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INET_FIREWALL_APP_CONTAINER, *PINET_FIREWALL_APP_CONTAINER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INET_FIREWALL_APP_CONTAINER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: INET_FIREWALL_APP_CONTAINER, *PINET_FIREWALL_APP_CONTAINER
+req.redist: 
 ---
 
 # _INET_FIREWALL_APP_CONTAINER structure

@@ -4,17 +4,16 @@ title: IFsrmPropertyBag::get_RelativePath
 author: windows-sdk-content
 description: The relative path to the file.
 old-location: fsrm\ifsrmpropertybag_relativepath.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 4304228a-5e8e-4e2d-9fc9-48777cb23251
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],RelativePath property, IFsrmPropertyBag.RelativePath, IFsrmPropertyBag.get_RelativePath, IFsrmPropertyBag::RelativePath, IFsrmPropertyBag::get_RelativePath, RelativePath property [File Server Resource Manager], RelativePath property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_relativepath, fsrm.ifsrmpropertybag_relativepath, fsrmpipeline/IFsrmPropertyBag::RelativePath, fsrmpipeline/IFsrmPropertyBag::get_RelativePath, get_RelativePath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmPropertyBag.get_RelativePath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPropertyBag::get_RelativePath

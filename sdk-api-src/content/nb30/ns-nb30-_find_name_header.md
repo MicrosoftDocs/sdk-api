@@ -4,7 +4,7 @@ title: "_FIND_NAME_HEADER"
 author: windows-sdk-content
 description: The FIND_NAME_HEADER structure contains information about a network name. This structure is followed by as many FIND_NAME_BUFFER structures as are required to describe the name.
 old-location: netbios\find_name_header.htm
-old-project: NetBIOS
+tech.root: NetBIOS
 ms.assetid: 66b0cf77-3c25-4b00-9e9b-abc0442e3831
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FIND_NAME_HEADER, *PFIND_NAME_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FIND_NAME_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: FIND_NAME_HEADER, *PFIND_NAME_HEADER
+req.redist: 
 ---
 
 # _FIND_NAME_HEADER structure

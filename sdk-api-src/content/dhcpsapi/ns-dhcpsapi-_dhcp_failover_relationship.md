@@ -4,7 +4,7 @@ title: "_DHCP_FAILOVER_RELATIONSHIP"
 author: windows-sdk-content
 description: The DHCP_FAILOVER_RELATIONSHIP structure defines information about a DHCPv4 server failover relationship.
 old-location: dhcp\dhcp_failover_relationship.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: b409b0ff-2fdc-416c-a7ce-2cba9cf75122
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_FAILOVER_RELATIONSHIP, *LPDHCP_FAILOVER_RELATIONSHIP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_FAILOVER_RELATIONSHIP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_FAILOVER_RELATIONSHIP, *LPDHCP_FAILOVER_RELATIONSHIP
+req.redist: 
 ---
 
 # _DHCP_FAILOVER_RELATIONSHIP structure

@@ -4,17 +4,16 @@ title: "_ACCESS_DENIED_CALLBACK_ACE"
 author: windows-sdk-content
 description: The ACCESS_DENIED_CALLBACK_ACE structure defines an access control entry for the discretionary access control list that controls access to an object.
 old-location: security\access_denied_callback_ace.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6df77b27-7aa3-455f-bffe-eeb90ba1bc15
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PACCESS_DENIED_CALLBACK_ACE, ACCESS_DENIED_CALLBACK_ACE, ACCESS_DENIED_CALLBACK_ACE structure [Security], PACCESS_DENIED_CALLBACK_ACE, PACCESS_DENIED_CALLBACK_ACE structure pointer [Security], _ACCESS_DENIED_CALLBACK_ACE, security.access_denied_callback_ace, winnt/ACCESS_DENIED_CALLBACK_ACE, winnt/PACCESS_DENIED_CALLBACK_ACE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACCESS_DENIED_CALLBACK_ACE, *PACCESS_DENIED_CALLBACK_ACE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACCESS_DENIED_CALLBACK_ACE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ACCESS_DENIED_CALLBACK_ACE, *PACCESS_DENIED_CALLBACK_ACE
+req.redist: 
 ---
 
 # _ACCESS_DENIED_CALLBACK_ACE structure

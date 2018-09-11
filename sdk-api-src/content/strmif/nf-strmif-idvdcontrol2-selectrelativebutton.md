@@ -4,17 +4,16 @@ title: IDvdControl2::SelectRelativeButton
 author: windows-sdk-content
 description: The SelectRelativeButton method sets the specified relative button (upper, lower, right, or left).
 old-location: dshow\idvdcontrol2_selectrelativebutton.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 2eb6243a-6f69-45d2-9b72-2dd28d02e86d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectRelativeButton method, IDvdControl2.SelectRelativeButton, IDvdControl2::SelectRelativeButton, IDvdControl2SelectRelativeButton, SelectRelativeButton, SelectRelativeButton method [DirectShow], SelectRelativeButton method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectrelativebutton, strmif/IDvdControl2::SelectRelativeButton
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdControl2.SelectRelativeButton
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl2::SelectRelativeButton

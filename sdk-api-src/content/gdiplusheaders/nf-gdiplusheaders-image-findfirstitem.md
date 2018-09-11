@@ -4,17 +4,16 @@ title: Image::FindFirstItem
 author: windows-sdk-content
 description: The Image::FindFirstItem method retrieves the description and the data size of the first metadata item in this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_FindFirstItem_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\findfirstitem.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: FindFirstItem, FindFirstItem method [GDI+], FindFirstItem method [GDI+],Image class, Image class [GDI+],FindFirstItem method, Image.FindFirstItem, Image::FindFirstItem, _gdiplus_CLASS_Image_FindFirstItem_, gdiplus._gdiplus_CLASS_Image_FindFirstItem_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Image.FindFirstItem
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.1
 ---
 

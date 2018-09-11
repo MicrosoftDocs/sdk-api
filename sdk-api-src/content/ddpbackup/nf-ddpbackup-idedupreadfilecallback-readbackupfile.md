@@ -4,17 +4,16 @@ title: IDedupReadFileCallback::ReadBackupFile
 author: windows-sdk-content
 description: Reads data from a Data Deduplication store metadata or container file located in the backup store.
 old-location: dedup\idedupreadfilecallback_readbackupfile.htm
-old-project: dedup
+tech.root: dedup
 ms.assetid: 9A85B32B-7430-46AC-A9BF-2896651F40AF
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDedupReadFileCallback interface [Data Deduplication API],ReadBackupFile method, IDedupReadFileCallback.ReadBackupFile, IDedupReadFileCallback::ReadBackupFile, ReadBackupFile, ReadBackupFile method [Data Deduplication API], ReadBackupFile method [Data Deduplication API],IDedupReadFileCallback interface, ddpbackup/IDedupReadFileCallback::ReadBackupFile, dedup.idedupreadfilecallback_readbackupfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddpbackup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_BACKUP_SUPPORT_PARAM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDedupReadFileCallback.ReadBackupFile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDedupReadFileCallback::ReadBackupFile

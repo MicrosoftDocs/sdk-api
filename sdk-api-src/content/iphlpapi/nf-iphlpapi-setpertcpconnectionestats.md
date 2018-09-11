@@ -4,17 +4,16 @@ title: SetPerTcpConnectionEStats function
 author: windows-sdk-content
 description: Sets a value in the read/write information for an IPv4 TCP connection. This function is used to enable or disable extended statistics for an IPv4 TCP connection.
 old-location: iphlp\setpertcpconnectionestats.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 96d838ca-69e3-4a73-b969-3e6e810a0a69
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: SetPerTcpConnectionEStats, SetPerTcpConnectionEStats function [IP Helper], iphlp.setpertcpconnectionestats, iphlpapi/SetPerTcpConnectionEStats
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetPerTcpConnectionEStats
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SetPerTcpConnectionEStats function

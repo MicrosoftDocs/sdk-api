@@ -4,17 +4,16 @@ title: IWSDAsyncResult::HasCompleted
 author: windows-sdk-content
 description: Indicates whether the operation has completed.
 old-location: ncd\iwsdasyncresult_hascompleted_method.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: 67944519-c6cc-4dc8-9035-4e6ee84e1277
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HasCompleted, HasCompleted method, HasCompleted method,IWSDAsyncResult interface, IWSDAsyncResult interface,HasCompleted method, IWSDAsyncResult.HasCompleted, IWSDAsyncResult::HasCompleted, ncd.iwsdasyncresult_hascompleted_method, wsdclient/IWSDAsyncResult::HasCompleted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDAsyncResult.HasCompleted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDAsyncResult::HasCompleted

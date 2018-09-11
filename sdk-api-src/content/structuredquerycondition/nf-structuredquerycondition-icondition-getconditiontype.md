@@ -4,17 +4,16 @@ title: ICondition::GetConditionType
 author: windows-sdk-content
 description: Retrieves the condition type for this search condition node, identifying it as a logical AND, OR, or NOT, or as a leaf node.
 old-location: search\_search_ICondition_GetConditionType.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getconditiontype.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetConditionType, GetConditionType method [search], GetConditionType method [search],ICondition interface, ICondition interface [search],GetConditionType method, ICondition.GetConditionType, ICondition::GetConditionType, _search_ICondition_GetConditionType, search._search_ICondition_GetConditionType, structuredquerycondition/ICondition::GetConditionType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONDITION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICondition.GetConditionType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # ICondition::GetConditionType

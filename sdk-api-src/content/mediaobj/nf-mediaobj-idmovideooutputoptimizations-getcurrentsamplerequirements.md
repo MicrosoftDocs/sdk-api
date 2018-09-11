@@ -4,17 +4,16 @@ title: IDMOVideoOutputOptimizations::GetCurrentSampleRequirements
 author: windows-sdk-content
 description: The GetCurrentSampleRequirements method retrieves the optimization features required to process the next sample, given the features already agreed to by the application.
 old-location: dshow\idmovideooutputoptimizations_getcurrentsamplerequirements.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 95acde54-2bdb-4a80-b078-d98945604c7e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetCurrentSampleRequirements, GetCurrentSampleRequirements method [DirectShow], GetCurrentSampleRequirements method [DirectShow],IDMOVideoOutputOptimizations interface, IDMOVideoOutputOptimizations interface [DirectShow],GetCurrentSampleRequirements method, IDMOVideoOutputOptimizations.GetCurrentSampleRequirements, IDMOVideoOutputOptimizations::GetCurrentSampleRequirements, IDMOVideoOutputOptimizationsGetCurrentSampleRequirements, dshow.idmovideooutputoptimizations_getcurrentsamplerequirements, mediaobj/IDMOVideoOutputOptimizations::GetCurrentSampleRequirements
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDMOVideoOutputOptimizations.GetCurrentSampleRequirements
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDMOVideoOutputOptimizations::GetCurrentSampleRequirements

@@ -4,17 +4,16 @@ title: IComThreadingInfo::SetCurrentLogicalThreadId
 author: windows-sdk-content
 description: Sets the GUID of the thread in which the caller is executing.
 old-location: com\icomthreadinginfo_setcurrentlogicalthreadid.htm
-old-project: com
+tech.root: com
 ms.assetid: 8a2fb319-094e-4384-b520-2cb8b8819d42
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComThreadingInfo interface [COM],SetCurrentLogicalThreadId method, IComThreadingInfo.SetCurrentLogicalThreadId, IComThreadingInfo::SetCurrentLogicalThreadId, SetCurrentLogicalThreadId, SetCurrentLogicalThreadId method [COM], SetCurrentLogicalThreadId method [COM],IComThreadingInfo interface, _com_icomthreadinginfo_setcurrentlogicalthreadid, com.icomthreadinginfo_setcurrentlogicalthreadid, objidlbase/IComThreadingInfo::SetCurrentLogicalThreadId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComThreadingInfo.SetCurrentLogicalThreadId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IComThreadingInfo::SetCurrentLogicalThreadId

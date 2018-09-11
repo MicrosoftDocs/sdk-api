@@ -4,17 +4,16 @@ title: IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers
 author: windows-sdk-content
 description: Loads any registered overlay identifiers, or handlers, that are not currently loaded.
 old-location: shell\IShellIconOverlayManager_LoadNonloadedOverlayIdentifiers.htm
-old-project: shell
+tech.root: shell
 ms.assetid: bd6003b5-551d-41cc-8ca6-13ab245ed6fd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellIconOverlayManager interface [Windows Shell],LoadNonloadedOverlayIdentifiers method, IShellIconOverlayManager.LoadNonloadedOverlayIdentifiers, IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers, LoadNonloadedOverlayIdentifiers, LoadNonloadedOverlayIdentifiers method [Windows Shell], LoadNonloadedOverlayIdentifiers method [Windows Shell],IShellIconOverlayManager interface, _win32_IShellIconOverlayManager_LoadNonloadedOverlayIdentifiers, shell.IShellIconOverlayManager_LoadNonloadedOverlayIdentifiers, shlobj_core/IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellIconOverlayManager.LoadNonloadedOverlayIdentifiers
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers

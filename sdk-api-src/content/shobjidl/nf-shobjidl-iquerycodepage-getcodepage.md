@@ -4,17 +4,16 @@ title: IQueryCodePage::GetCodePage
 author: windows-sdk-content
 description: Retrieves the numeric value (Code Page identifier) of the ANSI code page.
 old-location: shell\IQueryCodePage_GetCodePage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 05644051-c64e-443c-bc98-ed296bc0b8d9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetCodePage, GetCodePage method [Windows Shell], GetCodePage method [Windows Shell],IQueryCodePage interface, IQueryCodePage interface [Windows Shell],GetCodePage method, IQueryCodePage.GetCodePage, IQueryCodePage::GetCodePage, _shell_IQueryCodePage_GetCodePage, shell.IQueryCodePage_GetCodePage, shobjidl/IQueryCodePage::GetCodePage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IQueryCodePage.GetCodePage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IQueryCodePage::GetCodePage

@@ -4,7 +4,7 @@ title: "_MFVideoDRMFlags"
 author: windows-sdk-content
 description: Specifies the type of copy protection required for a video stream.
 old-location: mf\mfvideodrmflags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6d218992-c1c3-4d83-b364-4c7d3b50474f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDRMFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFVideoDRMFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFVideoDRMFlags
+req.redist: 
 ---
 
 # _MFVideoDRMFlags enumeration

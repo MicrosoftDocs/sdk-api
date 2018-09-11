@@ -4,17 +4,16 @@ title: IRDPSRAPITransportStreamEvents::OnWriteCompleted
 author: windows-sdk-content
 description: Notifies the Remote Desktop Protocol (RDP) stack that a write operation has completed.
 old-location: rdp\irdpsrapitransportstreamevents_onwritecompleted.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 19d99eba-e7ee-4bdc-8a9f-2cac97d17dea
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPITransportStreamEvents interface [RDP],OnWriteCompleted method, IRDPSRAPITransportStreamEvents.OnWriteCompleted, IRDPSRAPITransportStreamEvents::OnWriteCompleted, OnWriteCompleted, OnWriteCompleted method [RDP], OnWriteCompleted method [RDP],IRDPSRAPITransportStreamEvents interface, rdp.irdpsrapitransportstreamevents_onwritecompleted, rdpencomapi/IRDPSRAPITransportStreamEvents::OnWriteCompleted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPITransportStreamEvents.OnWriteCompleted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPITransportStreamEvents::OnWriteCompleted

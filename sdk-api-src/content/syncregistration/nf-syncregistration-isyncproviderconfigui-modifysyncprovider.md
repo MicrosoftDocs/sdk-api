@@ -4,17 +4,16 @@ title: ISyncProviderConfigUI::ModifySyncProvider
 author: windows-sdk-content
 description: Updates the ISyncProviderInfo of the synchronization provider that is configured by this ISyncProviderConfigUI.
 old-location: winsync\isyncproviderconfigui_modifysyncprovider.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 16f6d30c-422a-4638-a63b-f9d2a5fdb8b4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISyncProviderConfigUI interface [Windows Sync],ModifySyncProvider method, ISyncProviderConfigUI.ModifySyncProvider, ISyncProviderConfigUI::ModifySyncProvider, ModifySyncProvider, ModifySyncProvider method [Windows Sync], ModifySyncProvider method [Windows Sync],ISyncProviderConfigUI interface, syncregistration/ISyncProviderConfigUI::ModifySyncProvider, winsync.isyncproviderconfigui_modifysyncprovider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncProviderConfigUI.ModifySyncProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncProviderConfigUI::ModifySyncProvider

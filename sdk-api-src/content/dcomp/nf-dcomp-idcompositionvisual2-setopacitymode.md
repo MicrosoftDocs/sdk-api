@@ -4,17 +4,16 @@ title: IDCompositionVisual2::SetOpacityMode
 author: windows-sdk-content
 description: Sets the opacity mode for this visual.
 old-location: directcomp\idcompositionvisual2_setopacitymode.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 8802266E-9D31-409E-ACE8-62A3E9E93EA3
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionVisual2 interface [DirectComposition],SetOpacityMode method, IDCompositionVisual2.SetOpacityMode, IDCompositionVisual2::SetOpacityMode, SetOpacityMode, SetOpacityMode method [DirectComposition], SetOpacityMode method [DirectComposition],IDCompositionVisual2 interface, dcomp/IDCompositionVisual2::SetOpacityMode, directcomp.idcompositionvisual2_setopacitymode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionVisual2.SetOpacityMode
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionVisual2::SetOpacityMode
@@ -61,7 +60,7 @@ Sets the opacity mode for this visual.
 
 ### -param mode
 
-
+TBD
 
 
 

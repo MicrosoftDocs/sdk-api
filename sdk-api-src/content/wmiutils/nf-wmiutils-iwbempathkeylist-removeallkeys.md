@@ -4,17 +4,16 @@ title: IWbemPathKeyList::RemoveAllKeys
 author: windows-sdk-content
 description: The IWbemPathKeyList::RemoveAllKeys method removes all keys.
 old-location: wmi\iwbempathkeylist_removeallkeys.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 57c36ecd-7a24-4055-b373-9193fd945363
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],RemoveAllKeys method, IWbemPathKeyList.RemoveAllKeys, IWbemPathKeyList::RemoveAllKeys, RemoveAllKeys, RemoveAllKeys method [Windows Management Instrumentation], RemoveAllKeys method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_removeallkeys, wmi.iwbempathkeylist_removeallkeys, wmiutils/IWbemPathKeyList::RemoveAllKeys
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMIQ_ASSOCQ_FLAGS
+req.lib: Wbemuuid.lib
+req.dll: Wmiutils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemPathKeyList.RemoveAllKeys
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmiutils.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemPathKeyList::RemoveAllKeys

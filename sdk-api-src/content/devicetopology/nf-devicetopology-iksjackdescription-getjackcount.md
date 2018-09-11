@@ -4,17 +4,16 @@ title: IKsJackDescription::GetJackCount
 author: windows-sdk-content
 description: The GetJackCount method gets the number of jacks required to connect to an audio endpoint device.
 old-location: coreaudio\iksjackdescription_getjackcount.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: d99ad923-2846-4d3e-bc5b-b5b737219f13
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetJackCount, GetJackCount method [Core Audio], GetJackCount method [Core Audio],IKsJackDescription interface, IKsJackDescription interface [Core Audio],GetJackCount method, IKsJackDescription.GetJackCount, IKsJackDescription::GetJackCount, IKsJackDescriptionGetJackCount, coreaudio.iksjackdescription_getjackcount, devicetopology/IKsJackDescription::GetJackCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IKsJackDescription.GetJackCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IKsJackDescription::GetJackCount

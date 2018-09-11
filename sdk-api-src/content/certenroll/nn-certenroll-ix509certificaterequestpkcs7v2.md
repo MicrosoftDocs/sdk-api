@@ -4,17 +4,16 @@ title: IX509CertificateRequestPkcs7V2
 author: windows-sdk-content
 description: The IX509CertificateRequestPkcs7V2 interface represents a PKCS #10 certificate request.
 old-location: security\ix509certificaterequestpkcs7v2.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: e58e1122-2ef0-4902-a9e9-23934cc544ec
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestPkcs7V2, IX509CertificateRequestPkcs7V2 interface [Security], IX509CertificateRequestPkcs7V2 interface [Security],described, certenroll/IX509CertificateRequestPkcs7V2, security.ix509certificaterequestpkcs7v2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: CertEnroll.dll
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509CertificateRequestPkcs7V2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestPkcs7V2 interface

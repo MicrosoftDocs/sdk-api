@@ -4,17 +4,16 @@ title: IEnumBitsPeerCacheRecords::Skip
 author: windows-sdk-content
 description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
 old-location: bits\ienumbitspeercacherecords_skip.htm
-old-project: bits
+tech.root: bits
 ms.assetid: f1204e4b-985e-4d3e-8a1f-d13d46e8f1ce
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IEnumBitsPeerCacheRecords interface [BITS],Skip method, IEnumBitsPeerCacheRecords.Skip, IEnumBitsPeerCacheRecords::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBitsPeerCacheRecords interface, bits.ienumbitspeercacherecords_skip, bits3_0/IEnumBitsPeerCacheRecords::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IEnumBitsPeerCacheRecords.Skip
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumBitsPeerCacheRecords::Skip

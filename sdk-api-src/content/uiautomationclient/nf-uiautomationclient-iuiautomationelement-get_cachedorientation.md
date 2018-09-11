@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CachedOrientation
 author: windows-sdk-content
 description: Retrieves a cached value that indicates the orientation of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedOrientation.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 2ae8be5f-fa10-4350-b80e-89bb32baf56c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedOrientation property [Windows Accessibility], CachedOrientation property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedOrientation property, IUIAutomationElement.CachedOrientation, IUIAutomationElement.get_CachedOrientation, IUIAutomationElement::CachedOrientation, IUIAutomationElement::get_CachedOrientation, get_CachedOrientation, uiauto.uiauto_IUIAutomationElement_CachedOrientation, uiauto_IUIAutomationElement_CachedOrientation, uiautomationclient/IUIAutomationElement::CachedOrientation, uiautomationclient/IUIAutomationElement::get_CachedOrientation, winauto.uiauto_IUIAutomationElement_CachedOrientation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CachedOrientation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CachedOrientation

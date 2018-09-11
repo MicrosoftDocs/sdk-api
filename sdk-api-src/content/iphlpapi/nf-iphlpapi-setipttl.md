@@ -4,17 +4,16 @@ title: SetIpTTL function
 author: windows-sdk-content
 description: The SetIpTTL function sets the default time-to-live (TTL) value for the local computer.
 old-location: iphlp\setipttl.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: dfde8712-f68f-4fa4-b939-ea36e23b5b1e
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: SetIpTTL, SetIpTTL function [IP Helper], _iphlp_setipttl, iphlp.setipttl, iphlpapi/SetIpTTL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetIpTTL
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SetIpTTL function

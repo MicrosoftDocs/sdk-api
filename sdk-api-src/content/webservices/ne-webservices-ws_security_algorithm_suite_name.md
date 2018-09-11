@@ -4,17 +4,16 @@ title: WS_SECURITY_ALGORITHM_SUITE_NAME
 author: windows-sdk-content
 description: A suite of security algorithms used for tasks such as signing and encryting. The values in this enumeration correspond to the suites defined in WS-SecurityPolicy 1.1section 7.1.
 old-location: wsw\ws_security_algorithm_suite_name.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: cd7116d2-86f6-475e-a55d-050c7e02172d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SECURITY_ALGORITHM_SUITE_NAME, WS_SECURITY_ALGORITHM_SUITE_NAME enumeration [Web Services for Windows], WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128, WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128_RSA15, WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128_SHA256, WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128_SHA256_RSA15, WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC192, WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC192_RSA15, WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC192_SHA256, WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC192_SHA256_RSA15, WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256, WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256_RSA15, WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256_SHA256, WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256_SHA256_RSA15, webservices/WS_SECURITY_ALGORITHM_SUITE_NAME, webservices/WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128, webservices/WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128_RSA15, webservices/WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128_SHA256, webservices/WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128_SHA256_RSA15, webservices/WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC192, webservices/WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC192_RSA15, webservices/WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC192_SHA256, webservices/WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC192_SHA256_RSA15, webservices/WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256, webservices/WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256_RSA15, webservices/WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256_SHA256, webservices/WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256_SHA256_RSA15, wsw.ws_security_algorithm_suite_name
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_SUITE_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SECURITY_ALGORITHM_SUITE_NAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SECURITY_ALGORITHM_SUITE_NAME
+req.redist: 
 ---
 
 # WS_SECURITY_ALGORITHM_SUITE_NAME enumeration

@@ -4,17 +4,16 @@ title: IDataCollectorSet::SetCredentials
 author: windows-sdk-content
 description: Specifies the user account under which the data collector set runs.
 old-location: pla\idatacollectorset_setcredentials.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 39275154-fe85-492e-9d64-79d17cb4f88d
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],SetCredentials method, IDataCollectorSet.SetCredentials, IDataCollectorSet::SetCredentials, SetCredentials, SetCredentials method [PLA], SetCredentials method [PLA],IDataCollectorSet interface, base.idatacollectorset_setcredentials, pla.idatacollectorset_setcredentials, pla/IDataCollectorSet::SetCredentials
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataCollectorSet.SetCredentials
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::SetCredentials

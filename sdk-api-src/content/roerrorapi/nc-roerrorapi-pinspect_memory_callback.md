@@ -4,17 +4,16 @@ title: PINSPECT_MEMORY_CALLBACK
 author: windows-sdk-content
 description: Provides a function pointer to the callback used by the RoInspectCapturedStackBackTrace function.
 old-location: winrt\pinspect_memory_callback.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: A5BF207D-BB8D-47C1-8D32-0B6494809E2B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PINSPECT_MEMORY_CALLBACK, PINSPECT_MEMORY_CALLBACK callback, PINSPECT_MEMORY_CALLBACK callback function [Windows Runtime], roerrorapi/PINSPECT_MEMORY_CALLBACK, winrt.pinspect_memory_callback
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: roerrorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_INIT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PINSPECT_MEMORY_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PINSPECT_MEMORY_CALLBACK callback function

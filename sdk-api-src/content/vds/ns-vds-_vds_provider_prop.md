@@ -4,17 +4,16 @@ title: "_VDS_PROVIDER_PROP"
 author: windows-sdk-content
 description: Defines the properties of a provider object.
 old-location: base\vds_provider_prop.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: f41fc908-3720-4dfb-a5d3-bb1459fb7e5d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_PROVIDER_PROP, VDS_PROVIDER_PROP structure [VDS], _VDS_PROVIDER_PROP, base.vds_provider_prop, vds/_VDS_PROVIDER_PROP, vdshwprv/_VDS_PROVIDER_PROP
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PROVIDER_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_PROVIDER_PROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PROVIDER_PROP
+req.redist: 
 ---
 
 # _VDS_PROVIDER_PROP structure

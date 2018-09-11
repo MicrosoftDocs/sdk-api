@@ -4,17 +4,16 @@ title: IInkDivider::get_LineHeight
 author: windows-sdk-content
 description: Gets or sets the expected handwriting height, in HIMETRIC units.
 old-location: tablet\inkdivider_lineheight.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 69e65ad6-bcee-46a7-a139-80b4324b9c72
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 69e65ad6-bcee-46a7-a139-80b4324b9c72, IInkDivider interface [Tablet PC],LineHeight property, IInkDivider.LineHeight, IInkDivider.get_LineHeight, IInkDivider::LineHeight, IInkDivider::get_LineHeight, IInkDivider::put_LineHeight, InkDivider.get_LineHeight, InkDivider.put_LineHeight, LineHeight property [Tablet PC], LineHeight property [Tablet PC],IInkDivider interface, get_LineHeight, msinkaut15/IInkDivider::LineHeight, msinkaut15/IInkDivider::get_LineHeight, msinkaut15/IInkDivider::put_LineHeight, put_LineHeight, tablet.inkdivider_lineheight
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut15.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecoGuide
+req.lib: Inkdiv.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkDivider.put_LineHeight
 product: Windows
 targetos: Windows
-req.lib: Inkdiv.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDivider::get_LineHeight

@@ -4,17 +4,16 @@ title: ICertManageModule::SetProperty
 author: windows-sdk-content
 description: Allows a module to set a property value.
 old-location: security\icertmanagemodule_setproperty.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 582ace4a-da88-41b7-86dd-d6a74fc9e97a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertManageModule object [Security],SetProperty method, Copyright, Description, File Version, ICertManageModule interface [Security],SetProperty method, ICertManageModule.SetProperty, ICertManageModule::SetProperty, Name, Product Version, SetProperty, SetProperty method [Security], SetProperty method [Security],CCertManageModule object, SetProperty method [Security],ICertManageModule interface, _certsrv_icertmanagemodule_setproperty, certmod/ICertManageModule::SetProperty, security.icertmanagemodule_setproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certmod.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: Certidl.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertManageModule.SetProperty
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertManageModule::SetProperty

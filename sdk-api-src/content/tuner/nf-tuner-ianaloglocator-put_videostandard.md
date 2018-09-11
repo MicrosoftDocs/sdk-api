@@ -4,17 +4,16 @@ title: IAnalogLocator::put_VideoStandard
 author: windows-sdk-content
 description: The put_VideoStandard method specifies the format of the analog television signal.
 old-location: mstv\ianaloglocator_put_videostandard.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6af47a98-ceea-45dd-8a34-3f82ed8a66b1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IAnalogLocator interface [Microsoft TV Technologies],put_VideoStandard method, IAnalogLocator.put_VideoStandard, IAnalogLocator::put_VideoStandard, IAnalogLocatorput_VideoStandard, mstv.ianaloglocator_put_videostandard, put_VideoStandard, put_VideoStandard method [Microsoft TV Technologies], put_VideoStandard method [Microsoft TV Technologies],IAnalogLocator interface, tuner/IAnalogLocator::put_VideoStandard
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnalogLocator.put_VideoStandard
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAnalogLocator::put_VideoStandard

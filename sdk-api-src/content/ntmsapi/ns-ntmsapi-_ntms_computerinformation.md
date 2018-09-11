@@ -4,17 +4,16 @@ title: "_NTMS_COMPUTERINFORMATION"
 author: windows-sdk-content
 description: The NTMS_COMPUTERINFORMATION structure defines the properties specific to the RSM server.
 old-location: fs\ntms_computerinformation.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 11dd71eb-7193-40d5-b193-4d529eec3ca7
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: NTMS_COMPUTERINFO, NTMS_COMPUTERINFO structure [Files], NTMS_COMPUTERINFORMATION, NTMS_COMPUTERINFORMATION structure [Files], NTMS_LIBREQFLAGS_NOAUTOPURGE, NTMS_LIBREQFLAGS_NOFAILEDPURGE, NTMS_OPREQFLAGS_NOALERTS, NTMS_OPREQFLAGS_NOAUTOPURGE, NTMS_OPREQFLAGS_NOFAILEDPURGE, NTMS_OPREQFLAGS_NOTRAYICON, NTMS_POOLPOLICY_KEEPOFFLINEIMPORT, NTMS_POOLPOLICY_PURGEOFFLINESCRATCH, _NTMS_COMPUTERINFORMATION, _zaw_ntms_computerinformation, base.ntms_computerinformation, fs.ntms_computerinformation, ntmsapi/NTMS_COMPUTERINFORMATION
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTMS_COMPUTERINFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTMS_COMPUTERINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: NTMS_COMPUTERINFORMATION
+req.redist: 
 ---
 
 # _NTMS_COMPUTERINFORMATION structure

@@ -4,17 +4,16 @@ title: ICertEncodeLongArray
 author: windows-sdk-content
 description: Provides methods for handling Long arrays used in certificate extensions.
 old-location: security\icertencodelongarray.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: e8555282-6c09-4f23-830e-358bc73287ee
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ICertEncodeLongArray, ICertEncodeLongArray interface [Security], ICertEncodeLongArray interface [Security],described, _certsrv_icertencodelongarray, certenc/ICertEncodeLongArray, security.icertencodelongarray
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertEncodeLongArray
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeLongArray interface

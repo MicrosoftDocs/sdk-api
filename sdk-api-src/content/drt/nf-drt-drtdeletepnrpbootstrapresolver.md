@@ -4,17 +4,16 @@ title: DrtDeletePnrpBootstrapResolver function
 author: windows-sdk-content
 description: DrtDeletePnrpBootstrapResolver function deletes a bootstrap resolver based on the Peer Name Resolution Protocol (PNRP).
 old-location: p2p\drtdeletepnrpbootstrapresolver.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 0ff7bcc6-548b-475a-8a83-1ca50dbe333d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrtDeletePnrpBootstrapResolver, DrtDeletePnrpBootstrapResolver function [Peer Networking], drt/DrtDeletePnrpBootstrapResolver, p2p.drtdeletepnrpbootstrapresolver
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+req.lib: Drtprov.lib
+req.dll: Drt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DrtDeletePnrpBootstrapResolver
 product: Windows
 targetos: Windows
-req.lib: Drtprov.lib
-req.dll: Drt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DrtDeletePnrpBootstrapResolver function

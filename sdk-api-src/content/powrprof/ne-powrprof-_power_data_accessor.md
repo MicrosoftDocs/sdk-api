@@ -4,7 +4,7 @@ title: "_POWER_DATA_ACCESSOR"
 author: windows-sdk-content
 description: Enumeration values used by PowerEnumerate and PowerSettingAccessCheck.
 old-location: base\power_data_accessor.htm
-old-project: power
+tech.root: power
 ms.assetid: 4b3f8f89-2ade-4594-b055-b1873e74cda6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POWER_DATA_ACCESSOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.redist: 
 ---
 
 # _POWER_DATA_ACCESSOR enumeration

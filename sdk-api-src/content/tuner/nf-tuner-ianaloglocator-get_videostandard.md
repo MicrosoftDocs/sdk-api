@@ -4,17 +4,16 @@ title: IAnalogLocator::get_VideoStandard
 author: windows-sdk-content
 description: The get_VideoStandard method retrieves the format of the analog television signal.
 old-location: mstv\ianaloglocator_get_videostandard.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 8530f436-8067-43bd-8f64-45e042ccb466
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IAnalogLocator interface [Microsoft TV Technologies],get_VideoStandard method, IAnalogLocator.get_VideoStandard, IAnalogLocator::get_VideoStandard, IAnalogLocatorget_VideoStandard, get_VideoStandard, get_VideoStandard method [Microsoft TV Technologies], get_VideoStandard method [Microsoft TV Technologies],IAnalogLocator interface, mstv.ianaloglocator_get_videostandard, tuner/IAnalogLocator::get_VideoStandard
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnalogLocator.get_VideoStandard
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAnalogLocator::get_VideoStandard

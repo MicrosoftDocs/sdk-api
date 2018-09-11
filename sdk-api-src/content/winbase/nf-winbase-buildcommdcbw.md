@@ -4,17 +4,16 @@ title: BuildCommDCBW function
 author: windows-sdk-content
 description: Fills a specified DCB structure with values specified in a device-control string.
 old-location: base\buildcommdcb.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 6ecd497d-2247-4b6b-8751-c107717de434
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: BuildCommDCB, BuildCommDCB function, BuildCommDCBA, BuildCommDCBW, _win32_buildcommdcb, base.buildcommdcb, winbase/BuildCommDCB, winbase/BuildCommDCBA, winbase/BuildCommDCBW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - BuildCommDCBW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # BuildCommDCBW function

@@ -4,17 +4,16 @@ title: X3DAudioCalculate function
 author: windows-sdk-content
 description: Calculates DSP settings with respect to 3D parameters.
 old-location: xaudio2\x3daudiocalculate.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.x3daudio.X3DAudioCalculate(const X3DAUDIO_HANDLE,const X3DAUDIO_LISTENER,const X3DAUDIO_EMITTER,UINT32,X3DAUDIO_DSP_SETTINGS@)
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: X3DAudioCalculate, X3DAudioCalculate function [XAudio2 Audio Mixing APIs], x3daudio/X3DAudioCalculate, xaudio2.x3daudiocalculate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: x3daudio.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ServerSelection
+req.lib: Xaudio2.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - X3DAudioCalculate
 product: Windows
 targetos: Windows
-req.lib: Xaudio2.lib
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # X3DAudioCalculate function

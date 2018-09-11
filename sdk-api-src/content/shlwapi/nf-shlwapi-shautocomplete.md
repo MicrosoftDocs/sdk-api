@@ -4,17 +4,16 @@ title: SHAutoComplete function
 author: windows-sdk-content
 description: Instructs system edit controls to use AutoComplete to help complete URLs or file system paths.
 old-location: shell\SHAutoComplete.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b47efa8d-2118-4805-bb04-97bd143228dc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHACF_AUTOAPPEND_FORCE_OFF, SHACF_AUTOAPPEND_FORCE_ON, SHACF_AUTOSUGGEST_FORCE_OFF, SHACF_AUTOSUGGEST_FORCE_ON, SHACF_DEFAULT, SHACF_FILESYSTEM, SHACF_FILESYS_DIRS, SHACF_FILESYS_ONLY, SHACF_URLALL, SHACF_URLHISTORY, SHACF_URLMRU, SHACF_USETAB, SHACF_VIRTUAL_NAMESPACE, SHAutoComplete, SHAutoComplete function [Windows Shell], _win32_ShAutoComplete, shell.SHAutoComplete, shlwapi/SHAutoComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHAutoComplete
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHAutoComplete function

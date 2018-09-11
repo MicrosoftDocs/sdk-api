@@ -4,17 +4,16 @@ title: IDXGIOutput1
 author: windows-sdk-content
 description: An IDXGIOutput1 interface represents an adapter output (such as a monitor).
 old-location: direct3ddxgi\idxgioutput1.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 27C7BD34-0746-4D5F-A746-45FFEE5BCD31
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIOutput1, IDXGIOutput1 interface [DXGI], IDXGIOutput1 interface [DXGI],described, direct3ddxgi.idxgioutput1, dxgi1_2/IDXGIOutput1
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIOutput1
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIOutput1 interface

@@ -4,17 +4,16 @@ title: PdhComputeCounterStatistics function
 author: windows-sdk-content
 description: Computes statistics for a counter from an array of raw values.
 old-location: perf\pdhcomputecounterstatistics.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: a986ae6c-88ee-4a03-9077-3d286157b9d1
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhComputeCounterStatistics, PdhComputeCounterStatistics function [Perf], _win32_pdhcomputecounterstatistics, base.pdhcomputecounterstatistics, pdh/PdhComputeCounterStatistics, perf.pdhcomputecounterstatistics
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PdhComputeCounterStatistics
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhComputeCounterStatistics function

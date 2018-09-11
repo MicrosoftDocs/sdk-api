@@ -4,7 +4,7 @@ title: "_ETW_TRACE_PARTITION_INFORMATION"
 author: windows-sdk-content
 description: Contains partition information pulled from an ETW trace.
 old-location: etw\etw_trace_partition_information.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 8D8F8E79-B273-417A-B8C2-6CE4FC454C07
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ETW_TRACE_PARTITION_INFORMATION, *PETW_TRACE_PARTITION_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ETW_TRACE_PARTITION_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ETW_TRACE_PARTITION_INFORMATION, *PETW_TRACE_PARTITION_INFORMATION
+req.redist: 
 ---
 
 # _ETW_TRACE_PARTITION_INFORMATION structure

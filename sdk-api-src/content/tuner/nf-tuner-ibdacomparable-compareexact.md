@@ -4,17 +4,16 @@ title: IBDAComparable::CompareExact
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibdacomparable_compareexact.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 65053d86-4c8c-4c68-90a6-118454cf2eb1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CompareExact, CompareExact method [Microsoft TV Technologies], CompareExact method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],CompareExact method, IBDAComparable.CompareExact, IBDAComparable::CompareExact, IBDAComparableCompareExact, mstv.ibdacomparable_compareexact, tuner/IBDAComparable::CompareExact
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBDAComparable.CompareExact
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IBDAComparable::CompareExact

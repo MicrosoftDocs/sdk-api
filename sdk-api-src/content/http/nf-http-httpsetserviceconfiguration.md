@@ -4,17 +4,16 @@ title: HttpSetServiceConfiguration function
 author: windows-sdk-content
 description: Creates and sets a configuration record for the HTTP Server API configuration store.
 old-location: http\httpsetserviceconfiguration.htm
-old-project: http
+tech.root: http
 ms.assetid: b0a6d442-2ff4-4e00-8301-696fb0864d8c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, HttpSetServiceConfiguration, HttpSetServiceConfiguration function [HTTP], _http_httpsetserviceconfiguration, http.httpsetserviceconfiguration, http/HttpSetServiceConfiguration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERB, *PHTTP_VERB
+req.lib: Httpapi.lib
+req.dll: Httpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HttpSetServiceConfiguration
 product: Windows
 targetos: Windows
-req.lib: Httpapi.lib
-req.dll: Httpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HttpSetServiceConfiguration function

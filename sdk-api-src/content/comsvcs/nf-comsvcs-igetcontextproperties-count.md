@@ -4,17 +4,16 @@ title: IGetContextProperties::Count
 author: windows-sdk-content
 description: Counts the number of context properties.
 old-location: cos\igetcontextproperties_count.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 018b470e-726b-4777-8885-0ec7fa22f57a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Count, Count method [COM+], Count method [COM+],IGetContextProperties interface, IGetContextProperties interface [COM+],Count method, IGetContextProperties.Count, IGetContextProperties::Count, _cos_IGetContextProperties_Count, comsvcs/IGetContextProperties::Count, cos.igetcontextproperties_count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetContextProperties.Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetContextProperties::Count

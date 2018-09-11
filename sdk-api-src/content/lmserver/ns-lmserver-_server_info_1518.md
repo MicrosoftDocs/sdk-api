@@ -4,17 +4,16 @@ title: "_SERVER_INFO_1518"
 author: windows-sdk-content
 description: The SERVER_INFO_1518 structure specifies whether the server is visible to LAN Manager 2.x clients.
 old-location: netmgmt\server_info_1518_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: d8516ab1-5e1b-42b8-96c4-79ea58d8857e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVER_INFO_1518, *PSERVER_INFO_1518, LPSERVER_INFO_1518, LPSERVER_INFO_1518 structure pointer [Network Management], PSERVER_INFO_1518, PSERVER_INFO_1518 structure pointer [Network Management], SERVER_INFO_1518, SERVER_INFO_1518 structure [Network Management], _SERVER_INFO_1518, _win32_server_info_1518_str, lmserver/LPSERVER_INFO_1518, lmserver/PSERVER_INFO_1518, lmserver/SERVER_INFO_1518, netmgmt.server_info_1518_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVER_INFO_1518, *PSERVER_INFO_1518, *LPSERVER_INFO_1518
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVER_INFO_1518
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SERVER_INFO_1518, *PSERVER_INFO_1518, *LPSERVER_INFO_1518
+req.redist: 
 ---
 
 # _SERVER_INFO_1518 structure

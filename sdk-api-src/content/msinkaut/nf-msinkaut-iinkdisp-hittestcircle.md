@@ -4,17 +4,16 @@ title: IInkDisp::HitTestCircle
 author: windows-sdk-content
 description: Retrieves the InkStrokes collection that are either completely inside or intersected by a known circle.
 old-location: tablet\inkdisp_hittest_point__single.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 2025f728-cb08-4285-8584-c9ad537e58f2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 2025f728-cb08-4285-8584-c9ad537e58f2, HitTestCircle, HitTestCircle method [Tablet PC], HitTestCircle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],HitTestCircle method, IInkDisp.HitTestCircle, IInkDisp::HitTestCircle, msinkaut/IInkDisp::HitTestCircle, tablet.inkdisp_hittest_point__single
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkDisp.HitTestCircle
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDisp::HitTestCircle

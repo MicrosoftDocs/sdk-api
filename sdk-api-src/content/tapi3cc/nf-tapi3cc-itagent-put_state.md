@@ -4,17 +4,16 @@ title: ITAgent::put_State
 author: windows-sdk-content
 description: The put_State method sets the state of an agent session.
 old-location: tapi3\itagent_put_state.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 0f75146c-d8ce-4e9d-91bf-15dbb31b5c88
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgent interface [TAPI 2.2],put_State method, ITAgent.put_State, ITAgent::put_State, _tapi3_itagent_put_state, put_State, put_State method [TAPI 2.2], put_State method [TAPI 2.2],ITAgent interface, tapi3.itagent_put_state, tapi3cc/ITAgent::put_State
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_STATE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgent.put_State
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgent::put_State

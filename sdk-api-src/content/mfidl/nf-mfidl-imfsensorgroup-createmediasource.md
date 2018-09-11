@@ -4,17 +4,16 @@ title: IMFSensorGroup::CreateMediaSource
 author: windows-sdk-content
 description: Creates an IMFMediaSource that virtualizes the sensor group.
 old-location: mf\imfsensorgroup_createmediasource.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2C69A81E-7159-43AA-92EA-7B1EB4A7A681
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreateMediaSource, CreateMediaSource method [Media Foundation], CreateMediaSource method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],CreateMediaSource method, IMFSensorGroup.CreateMediaSource, IMFSensorGroup::CreateMediaSource, mf.imfsensorgroup_createmediasource, mfidl/IMFSensorGroup::CreateMediaSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorGroup.CreateMediaSource
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorGroup::CreateMediaSource

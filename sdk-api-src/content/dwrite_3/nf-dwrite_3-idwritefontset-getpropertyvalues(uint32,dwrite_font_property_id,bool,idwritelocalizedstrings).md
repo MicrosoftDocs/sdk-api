@@ -4,17 +4,16 @@ title: IDWriteFontSet::GetPropertyValues(UINT32,DWRITE_FONT_PROPERTY_ID,BOOL,IDW
 author: windows-sdk-content
 description: Returns the property values of a specific font item index.
 old-location: directwrite\idwritefontset_getpropertyvalues_1.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 4523d5a6-9d5f-61ac-a47f-810fef1522a9
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetPropertyValues, GetPropertyValues method [Direct Write], GetPropertyValues method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],GetPropertyValues method, IDWriteFontSet.GetPropertyValues, IDWriteFontSet.GetPropertyValues(UINT32,DWRITE_FONT_PROPERTY_ID,BOOL,IDWriteLocalizedStrings), IDWriteFontSet::GetPropertyValues, IDWriteFontSet::GetPropertyValues(UINT32,DWRITE_FONT_PROPERTY_ID,BOOL,IDWriteLocalizedStrings), directwrite.idwritefontset_getpropertyvalues_1, dwrite_3/IDWriteFontSet::GetPropertyValues
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontSet.GetPropertyValues
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontSet::GetPropertyValues(UINT32,DWRITE_FONT_PROPERTY_ID,BOOL,IDWriteLocalizedStrings)

@@ -4,17 +4,16 @@ title: IX509PrivateKey::Close
 author: windows-sdk-content
 description: Releases the handle of the cryptographic service provider (CSP) or the handle of the Cryptography API:\_Next Generation (CNG) key storage provider (KSP).
 old-location: security\ix509privatekey_close_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: c4ed2375-0d50-4cb5-b0c4-c80962e22c9c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Close, Close method [Security], Close method [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Close method, IX509PrivateKey.Close, IX509PrivateKey::Close, certenroll/IX509PrivateKey::Close, security.ix509privatekey_close_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509PrivateKey.Close
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PrivateKey::Close

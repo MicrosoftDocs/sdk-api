@@ -4,17 +4,16 @@ title: UiaGetReservedNotSupportedValue function
 author: windows-sdk-content
 description: Retrieves a reserved value indicating that a Microsoft UI Automation property or a text attribute is not supported.
 old-location: winauto\uiauto_UiaGetReservedNotSupportedValueAutoMeth.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: ba789ed0-fa34-492c-90b4-acee0adb634c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UiaGetReservedNotSupportedValue, UiaGetReservedNotSupportedValue function [Windows Accessibility], uiauto.uiauto_UiaGetReservedNotSupportedValueAutoMeth, uiauto_UiaGetReservedNotSupportedValueAutoMeth, uiautomationcoreapi/UiaGetReservedNotSupportedValue, winauto.uiauto_UiaGetReservedNotSupportedValueAutoMeth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - UiaGetReservedNotSupportedValue
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaGetReservedNotSupportedValue function

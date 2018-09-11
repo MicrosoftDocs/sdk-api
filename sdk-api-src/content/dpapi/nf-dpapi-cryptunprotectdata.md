@@ -4,17 +4,16 @@ title: CryptUnprotectData function
 author: windows-sdk-content
 description: Decrypts and does an integrity check of the data in a DATA_BLOB structure.
 old-location: security\cryptunprotectdata.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 54eab3b0-d341-47c6-9c32-79328d7a7155
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPTPROTECT_UI_FORBIDDEN, CRYPTPROTECT_VERIFY_PROTECTION, CryptUnprotectData, CryptUnprotectData function [Security], _crypto2_cryptunprotectdata, dpapi/CryptUnprotectData, security.cryptunprotectdata, wincrypt/CryptUnprotectData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ONEX_VARIABLE_BLOB, *PONEX_VARIABLE_BLOB
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CryptUnprotectData
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CryptUnprotectData function

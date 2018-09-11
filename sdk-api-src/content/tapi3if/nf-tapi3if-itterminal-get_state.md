@@ -4,17 +4,16 @@ title: ITTerminal::get_State
 author: windows-sdk-content
 description: The get_State method gets the current state of the terminal.
 old-location: tapi3\itterminal_get_state.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 18eebe2c-2c65-4836-a371-146eb76a379c
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_State method, ITTerminal.get_State, ITTerminal::get_State, _tapi3_itterminal_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_state, tapi3if/ITTerminal::get_State
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTerminal.get_State
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTerminal::get_State

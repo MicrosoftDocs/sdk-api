@@ -4,17 +4,16 @@ title: PFN_CERT_STORE_PROV_DELETE_CERT
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertDeleteCertificateFromStore before deleting a certificate from the store.
 old-location: security\certstoreprovdeletecertcallback.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 0ae64bbc-05f6-4fc2-a05d-895654b4b97d
 ms.author: windowssdkdev
-ms.date: 08/15/2018
-ms.keywords: CertStoreProvDeleteCertCallback, CertStoreProvDeleteCertCallback callback, CertStoreProvDeleteCertCallback callback function [Security], PFN_CERT_STORE_PROV_DELETE_CERT, PFN_CERT_STORE_PROV_DELETE_CERT callback function [Security], _crypto2_certstoreprovdeletecertcallback, security.certstoreprovdeletecertcallback, wincrypt/CertStoreProvDeleteCertCallback, wincrypt/PFN_CERT_STORE_PROV_DELETE_CERT
+ms.date: 08/29/2018
+ms.keywords: CertStoreProvDeleteCertCallback, PFN_CERT_STORE_PROV_DELETE_CERT, PFN_CERT_STORE_PROV_DELETE_CERT callback, PFN_CERT_STORE_PROV_DELETE_CERT callback function [Security], _crypto2_certstoreprovdeletecertcallback, security.certstoreprovdeletecertcallback, wincrypt/PFN_CERT_STORE_PROV_DELETE_CERT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,11 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - CertStoreProvDeleteCertCallback
+ - PFN_CERT_STORE_PROV_DELETE_CERT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PFN_CERT_STORE_PROV_DELETE_CERT callback function

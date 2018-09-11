@@ -4,17 +4,16 @@ title: AllocateAndGetTcpExTableFromStack function
 author: windows-sdk-content
 description: Retrieves the TCP connection table and allocates memory from the local heap to store the table.
 old-location: iphlp\allocateandgettcpextablefromstack.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: c79dd5ba-e80b-494f-80fa-efa10c021773
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: AF_INET, AF_INET6, AllocateAndGetTcpExTableFromStack, AllocateAndGetTcpExTableFromStack function [IP Helper], iphlp.allocateandgettcpextablefromstack, iphlpapi/AllocateAndGetTcpExTableFromStack
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AllocateAndGetTcpExTableFromStack
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # AllocateAndGetTcpExTableFromStack function

@@ -4,17 +4,16 @@ title: IWICMetadataHandlerInfo::GetContainerFormats
 author: windows-sdk-content
 description: Retrieves the container formats supported by the metadata handler.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_getcontainerformats.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 46d5246d-4ef5-457c-b36b-68e0f956952b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetContainerFormats, GetContainerFormats method [Windows Imaging Component], GetContainerFormats method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],GetContainerFormats method, IWICMetadataHandlerInfo.GetContainerFormats, IWICMetadataHandlerInfo::GetContainerFormats, _wic_codec_iwicmetadatahandlerinfo_getcontainerformats, wic._wic_codec_iwicmetadatahandlerinfo_getcontainerformats, wincodecsdk/IWICMetadataHandlerInfo::GetContainerFormats
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICMetadataHandlerInfo.GetContainerFormats
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICMetadataHandlerInfo::GetContainerFormats

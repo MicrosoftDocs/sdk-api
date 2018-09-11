@@ -4,17 +4,16 @@ title: IAzClientContext2
 author: windows-sdk-content
 description: Inherits from the IAzClientContext interface and implements new methods that manipulate the client context.
 old-location: security\iazclientcontext2.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 8e922370-18e3-481c-93f2-9a56d7898ba7
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IAzClientContext2, IAzClientContext2 interface [Security], IAzClientContext2 interface [Security],described, azroles/IAzClientContext2, security.iazclientcontext2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzClientContext2
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzClientContext2 interface

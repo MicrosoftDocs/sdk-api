@@ -4,17 +4,16 @@ title: IShellLibrary::GetDefaultSaveFolder
 author: windows-sdk-content
 description: Retrieves the default target folder that the library uses for save operations.
 old-location: shell\IShellLibrary_GetDefaultSaveFolder.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4bc501b1-2fc4-49ce-a16b-e254a3a40f46
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetDefaultSaveFolder, GetDefaultSaveFolder method [Windows Shell], GetDefaultSaveFolder method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],GetDefaultSaveFolder method, IShellLibrary.GetDefaultSaveFolder, IShellLibrary::GetDefaultSaveFolder, _shell_IShellLibrary_GetDefaultSaveFolder, shell.IShellLibrary_GetDefaultSaveFolder, shobjidl_core/IShellLibrary::GetDefaultSaveFolder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellLibrary.GetDefaultSaveFolder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellLibrary::GetDefaultSaveFolder

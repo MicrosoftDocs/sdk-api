@@ -4,17 +4,16 @@ title: IkeextSaEnum1 function
 author: windows-sdk-content
 description: Returns the next page of results from the IKE/AuthIP security association (SA) enumerator.
 old-location: fwp\ikeextsaenum1.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 245448b0-f7bb-4890-80c0-04ddc90c96f2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IkeextSaEnum1, IkeextSaEnum1 function [Filtering], fwp.ikeextsaenum1, fwpmu/IkeextSaEnum1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IkeextSaEnum1
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IkeextSaEnum1 function

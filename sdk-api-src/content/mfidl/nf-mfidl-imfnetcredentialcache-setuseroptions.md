@@ -4,17 +4,16 @@ title: IMFNetCredentialCache::SetUserOptions
 author: windows-sdk-content
 description: Specifies how user credentials are stored.
 old-location: mf\imfnetcredentialcache_setuseroptions.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 024eea57-e7c8-495d-9959-ab37dd45873d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 024eea57-e7c8-495d-9959-ab37dd45873d, IMFNetCredentialCache interface [Media Foundation],SetUserOptions method, IMFNetCredentialCache.SetUserOptions, IMFNetCredentialCache::SetUserOptions, SetUserOptions, SetUserOptions method [Media Foundation], SetUserOptions method [Media Foundation],IMFNetCredentialCache interface, mf.imfnetcredentialcache_setuseroptions, mfidl/IMFNetCredentialCache::SetUserOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFNetCredentialCache.SetUserOptions
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFNetCredentialCache::SetUserOptions

@@ -4,17 +4,16 @@ title: ISCTE_EAS::GetLocationCount
 author: windows-sdk-content
 description: The GetLocationCount method returns the number of locations in the EAS table.
 old-location: mstv\iscte_eas_getlocationcount.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f498ead0-246d-4741-a995-45a5cf63847e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetLocationCount, GetLocationCount method [Microsoft TV Technologies], GetLocationCount method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetLocationCount method, ISCTE_EAS.GetLocationCount, ISCTE_EAS::GetLocationCount, ISCTE_EASGetLocationCount, atscpsipparser/ISCTE_EAS::GetLocationCount, mstv.iscte_eas_getlocationcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISCTE_EAS.GetLocationCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISCTE_EAS::GetLocationCount

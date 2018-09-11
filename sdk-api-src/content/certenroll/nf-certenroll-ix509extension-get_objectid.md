@@ -4,17 +4,16 @@ title: IX509Extension::get_ObjectId
 author: windows-sdk-content
 description: Retrieves the object identifier (OID) for the extension.
 old-location: security\ix509extension_objectid_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: d3508bfe-e323-4075-9c82-d9b53b8f54aa
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509Extension interface [Security],ObjectId property, IX509Extension.ObjectId, IX509Extension.get_ObjectId, IX509Extension::ObjectId, IX509Extension::get_ObjectId, ObjectId property [Security], ObjectId property [Security],IX509Extension interface, certenroll/IX509Extension::ObjectId, certenroll/IX509Extension::get_ObjectId, get_ObjectId, security.ix509extension_objectid_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509Extension.get_ObjectId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Extension::get_ObjectId

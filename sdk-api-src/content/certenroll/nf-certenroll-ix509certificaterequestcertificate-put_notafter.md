@@ -4,17 +4,16 @@ title: IX509CertificateRequestCertificate::put_NotAfter
 author: windows-sdk-content
 description: Specifies or retrieves the date and time after which the certificate is no longer valid.
 old-location: security\ix509certificaterequestcertificate_notafter_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 7a507e06-382f-40e3-8bbd-fcc6a24718db
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestCertificate interface [Security],NotAfter property, IX509CertificateRequestCertificate.NotAfter, IX509CertificateRequestCertificate.put_NotAfter, IX509CertificateRequestCertificate::NotAfter, IX509CertificateRequestCertificate::get_NotAfter, IX509CertificateRequestCertificate::put_NotAfter, NotAfter property [Security], NotAfter property [Security],IX509CertificateRequestCertificate interface, certenroll/IX509CertificateRequestCertificate::NotAfter, certenroll/IX509CertificateRequestCertificate::get_NotAfter, certenroll/IX509CertificateRequestCertificate::put_NotAfter, put_NotAfter, security.ix509certificaterequestcertificate_notafter_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509CertificateRequestCertificate.put_NotAfter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestCertificate::put_NotAfter

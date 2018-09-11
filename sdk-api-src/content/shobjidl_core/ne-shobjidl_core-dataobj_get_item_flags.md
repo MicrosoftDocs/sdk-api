@@ -4,17 +4,16 @@ title: DATAOBJ_GET_ITEM_FLAGS
 author: windows-sdk-content
 description: Values used by the SHGetItemFromDataObject function to specify options concerning the processing of the source object.
 old-location: shell\DATAOBJ_GET_ITEM_FLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7a5ee490-cf30-452a-ade2-22d875ce0358
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DATAOBJ_GET_ITEM_FLAGS, DATAOBJ_GET_ITEM_FLAGS enumeration [Windows Shell], DOGIF_DEFAULT, DOGIF_NO_HDROP, DOGIF_NO_URL, DOGIF_ONLY_IF_ONE, DOGIF_TRAVERSE_LINK, _shell_DATAOBJ_GET_ITEM_FLAGS, shell.DATAOBJ_GET_ITEM_FLAGS, shobjidl_core/DATAOBJ_GET_ITEM_FLAGS, shobjidl_core/DOGIF_DEFAULT, shobjidl_core/DOGIF_NO_HDROP, shobjidl_core/DOGIF_NO_URL, shobjidl_core/DOGIF_ONLY_IF_ONE, shobjidl_core/DOGIF_TRAVERSE_LINK
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DATAOBJ_GET_ITEM_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DATAOBJ_GET_ITEM_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: DATAOBJ_GET_ITEM_FLAGS
+req.redist: 
 ---
 
 # DATAOBJ_GET_ITEM_FLAGS enumeration

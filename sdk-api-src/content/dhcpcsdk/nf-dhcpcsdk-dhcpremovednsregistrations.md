@@ -4,17 +4,16 @@ title: DhcpRemoveDNSRegistrations function
 author: windows-sdk-content
 description: The DhcpRemoveDNSRegistrations function removes all DHCP-initiated DNS registrations for the client.
 old-location: dhcp\dhcpremovednsregistrations.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: c53a8295-c289-4f08-8059-268582e0d96c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpRemoveDNSRegistrations, DhcpRemoveDNSRegistrations function [DHCP], dhcp.dhcpremovednsregistrations, dhcpcsdk/DhcpRemoveDNSRegistrations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpcsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSJACK_DESCRIPTION, *PKSJACK_DESCRIPTION
+req.lib: Dhcpcsvc.lib
+req.dll: Dhcpcsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpRemoveDNSRegistrations
 product: Windows
 targetos: Windows
-req.lib: Dhcpcsvc.lib
-req.dll: Dhcpcsvc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpRemoveDNSRegistrations function

@@ -4,17 +4,16 @@ title: SaslEnumerateProfilesA function
 author: windows-sdk-content
 description: Lists the packages that provide a SASL interface.
 old-location: security\saslenumerateprofiles.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 0c11e0e3-2538-4703-bc32-31c73d65a498
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SaslEnumerateProfiles, SaslEnumerateProfiles function [Security], SaslEnumerateProfilesA, SaslEnumerateProfilesW, security.saslenumerateprofiles, sspi/SaslEnumerateProfiles, sspi/SaslEnumerateProfilesA, sspi/SaslEnumerateProfilesW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SaslEnumerateProfilesW
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: Secur32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SaslEnumerateProfilesA function

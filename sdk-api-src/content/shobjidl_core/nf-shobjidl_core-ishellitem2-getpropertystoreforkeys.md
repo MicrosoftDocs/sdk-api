@@ -4,17 +4,16 @@ title: IShellItem2::GetPropertyStoreForKeys
 author: windows-sdk-content
 description: Gets property store object for specified property keys.
 old-location: shell\IShellItem2_GetPropertyStoreForKeys.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2d32ece8-4a68-4bf2-a1ee-bd94a2aa6fbd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetPropertyStoreForKeys, GetPropertyStoreForKeys method [Windows Shell], GetPropertyStoreForKeys method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetPropertyStoreForKeys method, IShellItem2.GetPropertyStoreForKeys, IShellItem2::GetPropertyStoreForKeys, _shell_IShellItem2_GetPropertyStoreForKeys, shell.IShellItem2_GetPropertyStoreForKeys, shobjidl_core/IShellItem2::GetPropertyStoreForKeys
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellItem2.GetPropertyStoreForKeys
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellItem2::GetPropertyStoreForKeys

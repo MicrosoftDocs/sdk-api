@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0017"
 author: windows-sdk-content
 description: The ATSC_FILTER_OPTIONS structure specifies additional criteria for matching ATSC section headers.
 old-location: mstv\atsc_filter_options.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 16e33f92-9e25-4a03-a21f-0ea5a99470ee
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: Mpeg2data.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ATSC_FILTER_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ATSC_FILTER_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ATSC_FILTER_OPTIONS
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_mpeg2structs_0000_0000_0017 structure

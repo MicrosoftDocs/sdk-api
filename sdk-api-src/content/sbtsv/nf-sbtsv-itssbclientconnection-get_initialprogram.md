@@ -4,17 +4,16 @@ title: ITsSbClientConnection::get_InitialProgram
 author: windows-sdk-content
 description: Retrieves a value that indicates the program that is launched when the user logs on to the target computer.
 old-location: termserv\itssbclientconnection_initialprogram.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 8734b130-f1fd-4107-b0cc-482b78647ac7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],InitialProgram property, ITsSbClientConnection.InitialProgram, ITsSbClientConnection.get_InitialProgram, ITsSbClientConnection::InitialProgram, ITsSbClientConnection::get_InitialProgram, InitialProgram property [Remote Desktop Services], InitialProgram property [Remote Desktop Services],ITsSbClientConnection interface, get_InitialProgram, sbtsv/ITsSbClientConnection::InitialProgram, sbtsv/ITsSbClientConnection::get_InitialProgram, termserv.itssbclientconnection_initialprogram
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbClientConnection.get_InitialProgram
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbClientConnection::get_InitialProgram

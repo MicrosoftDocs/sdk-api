@@ -4,17 +4,16 @@ title: IFsiFileItem::get_DataSize32BitHigh
 author: windows-sdk-content
 description: Retrieves the most significant 32 bits of the IFsiFileItem::get_DataSize property.
 old-location: imapi\ifsifileitem_get_datasize32bithigh.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 2f4f06e7-10a6-4aa0-b7b1-bf8799fcd41e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFsiFileItem interface [IMAPI],get_DataSize32BitHigh method, IFsiFileItem.get_DataSize32BitHigh, IFsiFileItem::get_DataSize32BitHigh, get_DataSize32BitHigh, get_DataSize32BitHigh method [IMAPI], get_DataSize32BitHigh method [IMAPI],IFsiFileItem interface, imapi.ifsifileitem_get_datasize32bithigh, imapi2fs/IFsiFileItem::get_DataSize32BitHigh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsiFileItem.get_DataSize32BitHigh
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFsiFileItem::get_DataSize32BitHigh

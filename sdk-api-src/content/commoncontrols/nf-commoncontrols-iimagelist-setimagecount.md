@@ -4,17 +4,16 @@ title: IImageList::SetImageCount
 author: windows-sdk-content
 description: Resizes an existing image list.
 old-location: controls\IImageList_SetImageCount.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setimagecount.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IImageList interface [Windows Controls],SetImageCount method, IImageList.SetImageCount, IImageList::SetImageCount, SetImageCount, SetImageCount method [Windows Controls], SetImageCount method [Windows Controls],IImageList interface, comctl_IImageList_SetImageCount, comctl_IImageList_SetImageCount_cpp, commoncontrols/IImageList::SetImageCount, controls.IImageList_SetImageCount, controls.comctl_IImageList_SetImageCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IImageList.SetImageCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comctl32.dll (version 6.0 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IImageList::SetImageCount

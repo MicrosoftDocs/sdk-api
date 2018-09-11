@@ -4,17 +4,16 @@ title: capGrabFrameNoStop macro
 author: windows-sdk-content
 description: The capGrabFrameNoStop macro fills the frame buffer with a single uncompressed frame from the capture device and displays it.
 old-location: multimedia\capgrabframenostop.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 0782d69f-6c4f-44f5-abd4-2b833be2f487
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_capGrabFrameNoStop, capGrabFrameNoStop, capGrabFrameNoStop macro [Windows Multimedia], multimedia.capgrabframenostop, vfw/capGrabFrameNoStop"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capGrabFrameNoStop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # capGrabFrameNoStop macro

@@ -4,17 +4,16 @@ title: "_BCRYPT_OID_LIST"
 author: windows-sdk-content
 description: Used to contain a collection of BCRYPT_OID structures. Use this structure with the BCRYPT_HASH_OID_LIST property to retrieve the list of hashing object identifiers (OIDs) that have been encoded by using Distinguished Encoding Rules (DER) encoding.
 old-location: security\bcrypt_oid_list.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 5e07d4a9-88eb-4644-a9be-e39c52b97ea7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCRYPT_OID_LIST, BCRYPT_OID_LIST structure [Security], _BCRYPT_OID_LIST, bcrypt/BCRYPT_OID_LIST, security.bcrypt_oid_list
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_OID_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_OID_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_OID_LIST
+req.redist: 
 ---
 
 # _BCRYPT_OID_LIST structure

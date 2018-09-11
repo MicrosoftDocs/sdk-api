@@ -4,17 +4,16 @@ title: CfReportSyncStatus function
 author: windows-sdk-content
 description: Allows a sync provider to notify the platform of its status on a specified sync root without having to connect with a call to CfConnectSyncRoot first.
 old-location: cloudapi\cfreportsyncstatus.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: DC77D18A-CBF4-4172-815A-AB49A48D10B3
 ms.author: windowssdkdev
 ms.date: 02/27/2018
 ms.keywords: CfReportSyncStatus, CfReportSyncStatus function, cfapi/CfReportSyncStatus, cloudApi.cfreportsyncstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_UPDATE_FLAGS
+req.lib: CldApi.lib
+req.dll: CldApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CfReportSyncStatus
 product: Windows
 targetos: Windows
-req.lib: CldApi.lib
-req.dll: CldApi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CfReportSyncStatus function

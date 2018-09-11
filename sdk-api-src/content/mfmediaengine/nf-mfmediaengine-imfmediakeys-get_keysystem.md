@@ -4,17 +4,16 @@ title: IMFMediaKeys::get_KeySystem
 author: windows-sdk-content
 description: Gets the key system string the IMFMediaKeys object was created with.
 old-location: mf\imfmediakeys_get_keysystem.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d60ee85b-b5fc-4d06-a3a2-f61ff3635d99
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaKeys interface [Media Foundation],get_KeySystem method, IMFMediaKeys.get_KeySystem, IMFMediaKeys::get_KeySystem, get_KeySystem, get_KeySystem method [Media Foundation], get_KeySystem method [Media Foundation],IMFMediaKeys interface, mf.imfmediakeys_get_keysystem, mfmediaengine/IMFMediaKeys::get_KeySystem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaKeys.get_KeySystem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaKeys::get_KeySystem

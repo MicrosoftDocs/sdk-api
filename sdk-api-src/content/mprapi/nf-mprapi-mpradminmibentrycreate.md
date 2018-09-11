@@ -4,17 +4,16 @@ title: MprAdminMIBEntryCreate function
 author: windows-sdk-content
 description: The MprAdminMIBEntryCreate function creates an entry for one of the variables exported by a routing protocol or router manager.
 old-location: rras\mpradminmibentrycreate.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: b634ed78-ca01-4128-aeeb-fd8585e64f75
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminMIBEntryCreate, MprAdminMIBEntryCreate function [RAS], _mpr_mpradminmibentrycreate, mprapi/MprAdminMIBEntryCreate, rras.mpradminmibentrycreate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminMIBEntryCreate
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminMIBEntryCreate function

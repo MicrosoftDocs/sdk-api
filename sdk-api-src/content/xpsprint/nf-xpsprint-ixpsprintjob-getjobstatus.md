@@ -4,17 +4,16 @@ title: IXpsPrintJob::GetJobStatus
 author: windows-sdk-content
 description: Gets the current status of the print job.
 old-location: gdi\ixpsprintjob_getjobstatus.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: e2a55aec-f8a5-40b4-8c26-1488df49eed0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetJobStatus, GetJobStatus method [Windows GDI], GetJobStatus method [Windows GDI],IXpsPrintJob interface, IXpsPrintJob interface [Windows GDI],GetJobStatus method, IXpsPrintJob.GetJobStatus, IXpsPrintJob::GetJobStatus, gdi.ixpsprintjob_getjobstatus, xpsprint/IXpsPrintJob::GetJobStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsprint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_JOB_COMPLETION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsPrintJob.GetJobStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsPrintJob::GetJobStatus

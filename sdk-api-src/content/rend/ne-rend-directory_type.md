@@ -4,7 +4,7 @@ title: DIRECTORY_TYPE
 author: windows-sdk-content
 description: The DIRECTORY_TYPE enum is used to indicate the type of directory server.
 old-location: tapi3\directory_type.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: dd4292f0-ca76-4464-b0fb-288ce5813a40
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTORY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DIRECTORY_TYPE
 product: Windows
 targetos: Windows
-req.lib: RuntimeObject.lib
-req.dll: ComBase.dll
-req.irql: 
-req.product: ADAM
+req.typenames: DIRECTORY_TYPE
+req.redist: 
 ---
 
 # DIRECTORY_TYPE enumeration

@@ -4,17 +4,16 @@ title: IFileOperation::SetOperationFlags
 author: windows-sdk-content
 description: Sets parameters for the current operation.
 old-location: shell\IFileOperation_SetOperationFlags.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1c2b9be8-d9b7-4ed4-a6da-e8166ddc35b3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: FOFX_ADDUNDORECORD, FOFX_COPYASDOWNLOAD, FOFX_DONTDISPLAYDESTPATH, FOFX_DONTDISPLAYLOCATIONS, FOFX_DONTDISPLAYSOURCEPATH, FOFX_EARLYFAILURE, FOFX_KEEPNEWERFILE, FOFX_MOVEACLSACROSSVOLUMES, FOFX_NOCOPYHOOKS, FOFX_NOMINIMIZEBOX, FOFX_NOSKIPJUNCTIONS, FOFX_PREFERHARDLINK, FOFX_PRESERVEFILEEXTENSIONS, FOFX_RECYCLEONDELETE, FOFX_REQUIREELEVATION, FOFX_SHOWELEVATIONPROMPT, FOF_ALLOWUNDO, FOF_FILESONLY, FOF_NOCONFIRMATION, FOF_NOCONFIRMMKDIR, FOF_NOCOPYSECURITYATTRIBS, FOF_NOERRORUI, FOF_NORECURSION, FOF_NO_CONNECTED_ELEMENTS, FOF_RENAMEONCOLLISION, FOF_SILENT, FOF_WANTNUKEWARNING, IFileOperation interface [Windows Shell],SetOperationFlags method, IFileOperation.SetOperationFlags, IFileOperation::SetOperationFlags, SetOperationFlags, SetOperationFlags method [Windows Shell], SetOperationFlags method [Windows Shell],IFileOperation interface, _shell_IFileOperation_SetOperationFlags, shell.IFileOperation_SetOperationFlags, shobjidl_core/IFileOperation::SetOperationFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperation.SetOperationFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperation::SetOperationFlags

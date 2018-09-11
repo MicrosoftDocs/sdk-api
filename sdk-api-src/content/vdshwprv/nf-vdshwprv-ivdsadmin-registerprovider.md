@@ -4,17 +4,16 @@ title: IVdsAdmin::RegisterProvider
 author: windows-sdk-content
 description: Registers the specified hardware provider with VDS. Hardware providers call this method.
 old-location: base\ivdsadmin_registerprovider.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: bb6e0037-7f44-418d-897c-12bf15224841
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsAdmin interface [VDS],RegisterProvider method, IVdsAdmin.RegisterProvider, IVdsAdmin::RegisterProvider, RegisterProvider, RegisterProvider method [VDS], RegisterProvider method [VDS],IVdsAdmin interface, base.ivdsadmin_registerprovider, vdshwprv/IVdsAdmin::RegisterProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsAdmin.RegisterProvider
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsAdmin::RegisterProvider

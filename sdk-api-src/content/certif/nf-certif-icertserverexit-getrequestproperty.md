@@ -4,17 +4,16 @@ title: ICertServerExit::GetRequestProperty
 author: windows-sdk-content
 description: Returns a named property from a request.
 old-location: security\icertserverexit_getrequestproperty.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: e9b98573-4eb0-4add-988b-dc34d6c15436
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertServerExit object [Security],GetRequestProperty method, CR_IN_KEYGEN, CR_IN_PKCS10, CR_IN_PKCS7, Disposition, DispositionMessage, GetRequestProperty, GetRequestProperty method [Security], GetRequestProperty method [Security],CCertServerExit object, GetRequestProperty method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetRequestProperty method, ICertServerExit.GetRequestProperty, ICertServerExit::GetRequestProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RawCACertificate, RawRequest, RequestAttributes, RequestID, RequestType, RequesterName, ResolvedWhen, StatusCode, SubmittedWhen, _certsrv_icertserverexit_getrequestproperty, certif/ICertServerExit::GetRequestProperty, security.icertserverexit_getrequestproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertServerExit.GetRequestProperty
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertServerExit::GetRequestProperty

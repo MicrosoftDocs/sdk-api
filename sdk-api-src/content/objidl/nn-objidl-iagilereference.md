@@ -4,17 +4,16 @@ title: IAgileReference
 author: windows-sdk-content
 description: Enables retrieving an agile reference to an object.
 old-location: winrt\iagilereference.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 51787A45-BCDE-4028-A338-1C16F2DE79AD
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IAgileReference, IAgileReference interface [Windows Runtime], IAgileReference interface [Windows Runtime],described, objidl/IAgileReference, winrt.iagilereference
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAgileReference
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAgileReference interface

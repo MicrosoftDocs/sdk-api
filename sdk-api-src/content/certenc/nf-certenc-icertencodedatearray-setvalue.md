@@ -4,17 +4,16 @@ title: ICertEncodeDateArray::SetValue
 author: windows-sdk-content
 description: Sets a DATE value at the specified index of the DATE array.
 old-location: security\icertencodedatearray_setvalue.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: e05a7aa1-81ad-4564-a6a5-65b8ac816598
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertEncodeDateArray object [Security],SetValue method, ICertEncodeDateArray interface [Security],SetValue method, ICertEncodeDateArray.SetValue, ICertEncodeDateArray::SetValue, SetValue, SetValue method [Security], SetValue method [Security],CCertEncodeDateArray object, SetValue method [Security],ICertEncodeDateArray interface, _certsrv_icertencodedatearray_setvalue, certenc/ICertEncodeDateArray::SetValue, security.icertencodedatearray_setvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeDateArray.SetValue
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeDateArray::SetValue

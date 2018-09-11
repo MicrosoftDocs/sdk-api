@@ -4,17 +4,16 @@ title: IDCompositionVisual::SetEffect
 author: windows-sdk-content
 description: Sets the Effect property of this visual.
 old-location: directcomp\idcompositionvisual_seteffect.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: CCA785F6-869C-460A-AF54-573BDE798685
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetEffect method, IDCompositionVisual.SetEffect, IDCompositionVisual::SetEffect, SetEffect, SetEffect method [DirectComposition], SetEffect method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetEffect, directcomp.idcompositionvisual_seteffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionVisual.SetEffect
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionVisual::SetEffect

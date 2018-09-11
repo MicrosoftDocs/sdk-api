@@ -4,7 +4,7 @@ title: tagWPCFLAG_IM_FEATURE
 author: windows-sdk-content
 description: Indicates information about the features accessed during an instant messaging interaction.
 old-location: parcon\wpcflag_im_feature.htm
-old-project: parcon
+tech.root: parcon
 ms.assetid: 2e38fb00-21b7-41c7-8fac-09a417408e68
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wpcevent.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WPCFLAG_IM_FEATURE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WPCFLAG_IM_FEATURE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WPCFLAG_IM_FEATURE
+req.redist: 
 ---
 
 # tagWPCFLAG_IM_FEATURE enumeration

@@ -4,17 +4,16 @@ title: ICertPropertyBackedUp::get_BackedUpTime
 author: windows-sdk-content
 description: Retrieves the date and time at which the certificate was backed up.
 old-location: security\icertpropertybackedup_backeduptime_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 5515fbd5-a711-421d-b80d-3e77c83f7549
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: BackedUpTime property [Security], BackedUpTime property [Security],ICertPropertyBackedUp interface, ICertPropertyBackedUp interface [Security],BackedUpTime property, ICertPropertyBackedUp.BackedUpTime, ICertPropertyBackedUp.get_BackedUpTime, ICertPropertyBackedUp::BackedUpTime, ICertPropertyBackedUp::get_BackedUpTime, certenroll/ICertPropertyBackedUp::BackedUpTime, certenroll/ICertPropertyBackedUp::get_BackedUpTime, get_BackedUpTime, security.icertpropertybackedup_backeduptime_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertPropertyBackedUp.get_BackedUpTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyBackedUp::get_BackedUpTime

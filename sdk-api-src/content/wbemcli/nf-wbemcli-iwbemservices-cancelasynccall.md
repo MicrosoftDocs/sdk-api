@@ -4,17 +4,16 @@ title: IWbemServices::CancelAsyncCall
 author: windows-sdk-content
 description: The IWbemServices::CancelAsyncCall method cancels any currently pending asynchronous calls based on the IWbemObjectSink pointer, which was originally passed to the asynchronous method.
 old-location: wmi\iwbemservices_cancelasynccall.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 803a7831-1e3d-4940-8d2b-1a74dd16f51a
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CancelAsyncCall, CancelAsyncCall method [Windows Management Instrumentation], CancelAsyncCall method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CancelAsyncCall method, IWbemServices.CancelAsyncCall, IWbemServices::CancelAsyncCall, _hmm_iwbemservices_cancelasynccall, wbemcli/IWbemServices::CancelAsyncCall, wmi.iwbemservices_cancelasynccall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -54,10 +54,8 @@ api_name:
  - IWbemServices.CancelAsyncCall
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemServices::CancelAsyncCall

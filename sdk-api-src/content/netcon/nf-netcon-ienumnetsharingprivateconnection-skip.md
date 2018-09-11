@@ -4,17 +4,16 @@ title: IEnumNetSharingPrivateConnection::Skip
 author: windows-sdk-content
 description: The Skip method skips the specified number of privately-shared connections for this enumeration.
 old-location: ics\ienumnetsharingprivateconnection_skip.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 2157ab88-02ed-4c04-be07-7bebe3cd85b8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IEnumNetSharingPrivateConnection interface [ICS/ICF],Skip method, IEnumNetSharingPrivateConnection.Skip, IEnumNetSharingPrivateConnection::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingPrivateConnection interface, _ics_ienumnetsharingprivateconnection_skip, ics.ienumnetsharingprivateconnection_skip, netcon/IEnumNetSharingPrivateConnection::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumNetSharingPrivateConnection.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumNetSharingPrivateConnection::Skip

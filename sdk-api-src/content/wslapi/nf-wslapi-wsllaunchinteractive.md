@@ -4,17 +4,16 @@ title: WslLaunchInteractive function
 author: windows-sdk-content
 description: Launches an interactive Windows Subsystem for Linux (WSL) process in the context of a particular distribution.
 old-location: wsl\wsllaunchinteractive.htm
-old-project: wsl
+tech.root: wsl
 ms.assetid: F9DF5B7A-D315-44B7-BB01-6440CCB4C64C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WslLaunchInteractive, WslLaunchInteractive function, wsl.wsllaunchinteractive, wslapi/WslLaunchInteractive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wslapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSL_DISTRIBUTION_FLAGS
+req.lib: Wslapi.lib
+req.dll: Api-ms-win-wsl-api-l1-1-0.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WslLaunchInteractive
 product: Windows
 targetos: Windows
-req.lib: Wslapi.lib
-req.dll: Api-ms-win-wsl-api-l1-1-0.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WslLaunchInteractive function

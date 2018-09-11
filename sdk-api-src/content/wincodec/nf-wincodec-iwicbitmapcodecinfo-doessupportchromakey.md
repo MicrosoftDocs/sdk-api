@@ -4,17 +4,16 @@ title: IWICBitmapCodecInfo::DoesSupportChromakey
 author: windows-sdk-content
 description: Retrieves a value indicating whether the codec supports chromakeys.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_doessupportchromakey.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 662e213e-1ed2-445c-a7be-ff8a137fba2e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DoesSupportChromakey, DoesSupportChromakey method [Windows Imaging Component], DoesSupportChromakey method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],DoesSupportChromakey method, IWICBitmapCodecInfo.DoesSupportChromakey, IWICBitmapCodecInfo::DoesSupportChromakey, _wic_codec_iwicbitmapcodecinfo_doessupportchromakey, wic._wic_codec_iwicbitmapcodecinfo_doessupportchromakey, wincodec/IWICBitmapCodecInfo::DoesSupportChromakey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapCodecInfo.DoesSupportChromakey
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapCodecInfo::DoesSupportChromakey

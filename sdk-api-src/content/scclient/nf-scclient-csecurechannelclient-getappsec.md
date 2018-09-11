@@ -4,17 +4,16 @@ title: CSecureChannelClient::GetAppSec
 author: windows-sdk-content
 description: The GetAppSec method retrieves the application security levels of the local and remote components.
 old-location: wmdm\csecurechannelclient_getappsec.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 69de42ad-293f-4c5a-8c5d-ada686fa68b2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],GetAppSec method, CSecureChannelClient.GetAppSec, CSecureChannelClient::GetAppSec, CSecureChannelClientGetAppSec, GetAppSec, GetAppSec method [windows Media Device Manager], GetAppSec method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::GetAppSec, wmdm.csecurechannelclient_getappsec
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: scclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CSecureChannelClient.GetAppSec
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CSecureChannelClient::GetAppSec

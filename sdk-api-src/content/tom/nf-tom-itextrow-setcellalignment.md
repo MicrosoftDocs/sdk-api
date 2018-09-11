@@ -4,17 +4,16 @@ title: ITextRow::SetCellAlignment
 author: windows-sdk-content
 description: Sets the vertical alignment of the active cell.
 old-location: controls\itextrow_setcellalignment.htm
-old-project: controls
+tech.root: controls
 ms.assetid: dd47cb2f-ddcf-4131-99fd-0981d3c4ec6f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellAlignment method, ITextRow.SetCellAlignment, ITextRow::SetCellAlignment, SetCellAlignment, SetCellAlignment method [Windows Controls], SetCellAlignment method [Windows Controls],ITextRow interface, controls.itextrow_setcellalignment, tom/ITextRow::SetCellAlignment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRow.SetCellAlignment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRow::SetCellAlignment

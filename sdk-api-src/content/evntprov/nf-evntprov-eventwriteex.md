@@ -4,17 +4,16 @@ title: EventWriteEx function
 author: windows-sdk-content
 description: Use this function to write an event.
 old-location: etw\eventwriteex.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 00b907cb-45cd-48c7-bea4-4d8a39b4fa24
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: EventWriteEx, EventWriteEx function [ETW], etw.eventwriteex, evntprov/EventWriteEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - EventWriteEx
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EventWriteEx function

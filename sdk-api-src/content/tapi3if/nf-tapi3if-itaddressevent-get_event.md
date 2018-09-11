@@ -4,17 +4,16 @@ title: ITAddressEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method gets the ADDRESS_EVENT descriptor of an event.
 old-location: tapi3\itaddressevent_get_event.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 46dc4ce8-2453-47bb-a101-d925c9317b90
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAddressEvent interface [TAPI 2.2],get_Event method, ITAddressEvent.get_Event, ITAddressEvent::get_Event, _tapi3_itaddressevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITAddressEvent interface, tapi3.itaddressevent_get_event, tapi3if/ITAddressEvent::get_Event
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddressEvent.get_Event
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddressEvent::get_Event

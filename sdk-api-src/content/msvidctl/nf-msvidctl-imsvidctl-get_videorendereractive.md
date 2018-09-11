@@ -4,17 +4,16 @@ title: IMSVidCtl::get_VideoRendererActive
 author: windows-sdk-content
 description: The get_VideoRendererActive method retrieves the currently active video renderer.
 old-location: mstv\imsvidctl_get_videorendereractive.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0b69abaf-95ab-49b9-9555-a2244224cb5d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_VideoRendererActive method, IMSVidCtl.get_VideoRendererActive, IMSVidCtl::get_VideoRendererActive, IMSVidCtlget_VideoRendererActive, get_VideoRendererActive, get_VideoRendererActive method [Microsoft TV Technologies], get_VideoRendererActive method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_videorendereractive, msvidctl/IMSVidCtl::get_VideoRendererActive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.get_VideoRendererActive
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::get_VideoRendererActive
@@ -62,7 +60,7 @@ The <b>get_VideoRendererActive</b> method retrieves the currently active video r
 
 ### -param pVal
 
-
+TBD
 
 
 

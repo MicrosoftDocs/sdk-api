@@ -4,17 +4,16 @@ title: "_DETACH_VIRTUAL_DISK_FLAG"
 author: windows-sdk-content
 description: Contains virtual disk detach request flags.
 old-location: vhd\detach_virtual_disk_flag.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 43f0687d-edb5-48d9-885c-530261c485fa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DETACH_VIRTUAL_DISK_FLAG, DETACH_VIRTUAL_DISK_FLAG enumeration [VHD], DETACH_VIRTUAL_DISK_FLAG_NONE, _DETACH_VIRTUAL_DISK_FLAG, vdssys/DETACH_VIRTUAL_DISK_FLAG, vdssys/DETACH_VIRTUAL_DISK_FLAG_NONE, vhd.detach_virtual_disk_flag, vhd.unsurface_virtual_disk_flag, virtdisk/DETACH_VIRTUAL_DISK_FLAG, virtdisk/DETACH_VIRTUAL_DISK_FLAG_NONE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DETACH_VIRTUAL_DISK_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - DETACH_VIRTUAL_DISK_FLAG
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: DETACH_VIRTUAL_DISK_FLAG
+req.redist: 
 ---
 
 # _DETACH_VIRTUAL_DISK_FLAG enumeration

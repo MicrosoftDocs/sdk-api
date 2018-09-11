@@ -4,17 +4,16 @@ title: SetupDiGetClassDescriptionExA function
 author: windows-sdk-content
 description: The SetupDiGetClassDescriptionEx function retrieves the description of a setup class installed on a local or remote computer.
 old-location: devinst\setupdigetclassdescriptionex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: db3c6317-4f77-4ca6-96b8-4b26f6b04943
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiGetClassDescriptionEx, SetupDiGetClassDescriptionEx function [Device and Driver Installation], SetupDiGetClassDescriptionExA, SetupDiGetClassDescriptionExW, devinst.setupdigetclassdescriptionex, di-rtns_1e1110ab-59c3-42be-863a-396f329b114e.xml, setupapi/SetupDiGetClassDescriptionEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiGetClassDescriptionEx
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetClassDescriptionExA function

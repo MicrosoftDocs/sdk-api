@@ -4,17 +4,16 @@ title: "_tagAppInfoFlags"
 author: windows-sdk-content
 description: Specifies application information to return from IShellApp::GetAppInfo. These flags are bitmasks used in the dwMask member of the APPINFODATA structure.
 old-location: shell\APPINFODATAFLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 80cbc46f-9918-4cca-b41b-1b6caa9c26df
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: AIM_COMMENTS, AIM_CONTACT, AIM_DISPLAYNAME, AIM_HELPLINK, AIM_IMAGE, AIM_INSTALLDATE, AIM_INSTALLLOCATION, AIM_INSTALLSOURCE, AIM_LANGUAGE, AIM_PRODUCTID, AIM_PUBLISHER, AIM_READMEURL, AIM_REGISTEREDCOMPANY, AIM_REGISTEREDOWNER, AIM_REQUIREDBYPOLICY, AIM_SUPPORTTELEPHONE, AIM_SUPPORTURL, AIM_UPDATEINFOURL, AIM_VERSION, APPINFODATAFLAGS, APPINFODATAFLAGS enumeration [Windows Shell], _tagAppInfoFlags, inet_APPINFODATAFLAGS, shappmgr/AIM_COMMENTS, shappmgr/AIM_CONTACT, shappmgr/AIM_DISPLAYNAME, shappmgr/AIM_HELPLINK, shappmgr/AIM_IMAGE, shappmgr/AIM_INSTALLDATE, shappmgr/AIM_INSTALLLOCATION, shappmgr/AIM_INSTALLSOURCE, shappmgr/AIM_LANGUAGE, shappmgr/AIM_PRODUCTID, shappmgr/AIM_PUBLISHER, shappmgr/AIM_READMEURL, shappmgr/AIM_REGISTEREDCOMPANY, shappmgr/AIM_REGISTEREDOWNER, shappmgr/AIM_REQUIREDBYPOLICY, shappmgr/AIM_SUPPORTTELEPHONE, shappmgr/AIM_SUPPORTURL, shappmgr/AIM_UPDATEINFOURL, shappmgr/AIM_VERSION, shappmgr/APPINFODATAFLAGS, shell.APPINFODATAFLAGS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shappmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPINFODATAFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - APPINFODATAFLAGS
 product: Windows
 targetos: Windows
-req.lib: Sfc.lib
-req.dll: Sfc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: APPINFODATAFLAGS
+req.redist: 
 ---
 
 # _tagAppInfoFlags enumeration

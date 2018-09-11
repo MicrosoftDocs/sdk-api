@@ -4,7 +4,7 @@ title: DS_SPN_NAME_TYPE
 author: windows-sdk-content
 description: The DS_SPN_NAME_TYPE enumeration is used by the DsGetSPN function to identify the format for composing SPNs.
 old-location: ad\ds_spn_name_type.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 7aab22a6-1fe1-4127-97d3-54287d770790
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_SPN_NAME_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DS_SPN_NAME_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: Any level
-req.product: Rights Management Services client 1.0 or later
+req.typenames: DS_SPN_NAME_TYPE
+req.redist: 
 ---
 
 # DS_SPN_NAME_TYPE enumeration

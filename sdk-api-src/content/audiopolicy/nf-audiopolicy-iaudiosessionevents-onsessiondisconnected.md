@@ -4,17 +4,16 @@ title: IAudioSessionEvents::OnSessionDisconnected
 author: windows-sdk-content
 description: The OnSessionDisconnected method notifies the client that the audio session has been disconnected.
 old-location: coreaudio\iaudiosessionevents_onsessiondisconnected.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 9fd653f0-c9d1-4155-9c1e-7e6124b40cca
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnSessionDisconnected method, IAudioSessionEvents.OnSessionDisconnected, IAudioSessionEvents::OnSessionDisconnected, IAudioSessionEventsOnSessionDisconnected, OnSessionDisconnected, OnSessionDisconnected method [Core Audio], OnSessionDisconnected method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnSessionDisconnected, coreaudio.iaudiosessionevents_onsessiondisconnected
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionEvents.OnSessionDisconnected
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionEvents::OnSessionDisconnected

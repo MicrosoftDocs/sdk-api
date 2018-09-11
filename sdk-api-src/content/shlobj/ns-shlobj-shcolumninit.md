@@ -4,17 +4,16 @@ title: SHCOLUMNINIT
 author: windows-sdk-content
 description: Passes initialization information to IColumnProvider::Initialize.
 old-location: shell\SHCOLUMNINIT_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: eebe47c8-b3ee-4316-b578-5404ed8f7920
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPSHCOLUMNINIT, LPSHCOLUMNINFO, LPSHCOLUMNINFO structure pointer [Windows Shell], SHCOLUMNINIT, SHCOLUMNINIT structure [Windows Shell], _win32_SHCOLUMNINIT_str, shell.SHCOLUMNINIT_str, shlobj/LPSHCOLUMNINFO, shlobj/SHCOLUMNINIT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHCOLUMNINIT, *LPSHCOLUMNINIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHCOLUMNINIT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHCOLUMNINIT, *LPSHCOLUMNINIT
+req.redist: 
 ---
 
 # SHCOLUMNINIT structure

@@ -4,7 +4,7 @@ title: "_GAMMARAMP"
 author: windows-sdk-content
 description: The GAMMARAMP structure is used by DrvIcmSetDeviceGammaRamp to set the hardware gamma ramp of a particular display device.
 old-location: display\gammaramp.htm
-old-project: display
+tech.root: display
 ms.assetid: cc082911-5089-4335-93d2-1405ca390741
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GAMMARAMP, *PGAMMARAMP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GAMMARAMP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: GAMMARAMP, *PGAMMARAMP
+req.redist: 
 ---
 
 # _GAMMARAMP structure

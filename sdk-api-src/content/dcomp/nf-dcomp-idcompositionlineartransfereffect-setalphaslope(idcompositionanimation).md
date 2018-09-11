@@ -4,17 +4,16 @@ title: IDCompositionLinearTransferEffect::SetAlphaSlope(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the slope of the linear function for the alpha channel.
 old-location: directcomp\idcompositionlineartransfereffect_setalphaslope.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 2FC6E287-D71B-40DC-A8A8-95B031327771
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetAlphaSlope method, IDCompositionLinearTransferEffect.SetAlphaSlope, IDCompositionLinearTransferEffect.SetAlphaSlope(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetAlphaSlope, IDCompositionLinearTransferEffect::SetAlphaSlope(IDCompositionAnimation), SetAlphaSlope, SetAlphaSlope method [DirectComposition], SetAlphaSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetAlphaSlope, directcomp.idcompositionlineartransfereffect_setalphaslope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionLinearTransferEffect.SetAlphaSlope
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionLinearTransferEffect::SetAlphaSlope(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Sets the slope of the linear function for the alpha channel.
 
 ### -param animation
 
-
+TBD
 
 
 

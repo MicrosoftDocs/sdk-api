@@ -4,17 +4,16 @@ title: "_VSS_SNAPSHOT_CONTEXT"
 author: windows-sdk-content
 description: Specify how a shadow copy is to be created, queried, or deleted and the degree of writer involvement.
 old-location: base\_vss_snapshot_context.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 2efe3066-4b91-4501-bacb-4211b222e0c3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVSS_SNAPSHOT_CONTEXT, PVSS_SNAPSHOT_CONTEXT, PVSS_SNAPSHOT_CONTEXT enumeration pointer [VSS], VSS_CTX_ALL, VSS_CTX_APP_ROLLBACK, VSS_CTX_BACKUP, VSS_CTX_CLIENT_ACCESSIBLE, VSS_CTX_CLIENT_ACCESSIBLE_WRITERS, VSS_CTX_FILE_SHARE_BACKUP, VSS_CTX_NAS_ROLLBACK, VSS_SNAPSHOT_CONTEXT, VSS_SNAPSHOT_CONTEXT enumeration [VSS], _VSS_SNAPSHOT_CONTEXT, _VSS_SNAPSHOT_CONTEXT enumeration [VSS], _win32__vss_snapshot_context, base._vss_snapshot_context, vss/PVSS_SNAPSHOT_CONTEXT, vss/VSS_CTX_ALL, vss/VSS_CTX_APP_ROLLBACK, vss/VSS_CTX_BACKUP, vss/VSS_CTX_CLIENT_ACCESSIBLE, vss/VSS_CTX_CLIENT_ACCESSIBLE_WRITERS, vss/VSS_CTX_FILE_SHARE_BACKUP, vss/VSS_CTX_NAS_ROLLBACK, vss/_VSS_SNAPSHOT_CONTEXT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_SNAPSHOT_CONTEXT, *PVSS_SNAPSHOT_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_SNAPSHOT_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_SNAPSHOT_CONTEXT, *PVSS_SNAPSHOT_CONTEXT
+req.redist: 
 ---
 
 # _VSS_SNAPSHOT_CONTEXT enumeration

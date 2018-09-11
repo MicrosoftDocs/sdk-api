@@ -4,7 +4,7 @@ title: "_DDSKIPNEXTFIELDINFO"
 author: windows-sdk-content
 description: The DDSKIPNEXTFIELDINFO structure contains the skip information for the video port extensions (VPE) object.
 old-location: display\ddskipnextfieldinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: ae9de986-ed63-4c39-b882-e57cdda31863
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDSKIPNEXTFIELDINFO, *PDDSKIPNEXTFIELDINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDSKIPNEXTFIELDINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DDSKIPNEXTFIELDINFO, *PDDSKIPNEXTFIELDINFO
+req.redist: 
 ---
 
 # _DDSKIPNEXTFIELDINFO structure

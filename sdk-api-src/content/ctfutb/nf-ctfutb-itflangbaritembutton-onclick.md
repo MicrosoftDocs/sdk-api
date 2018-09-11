@@ -4,17 +4,16 @@ title: ITfLangBarItemButton::OnClick
 author: windows-sdk-content
 description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BUTTON style.
 old-location: tsf\itflangbaritembutton_onclick.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: c725ee0b-57fe-4860-aa49-af61f2c7fa32
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfLangBarItemButton interface [Text Services Framework],OnClick method, ITfLangBarItemButton.OnClick, ITfLangBarItemButton::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemButton interface, _tsf_itflangbaritembutton_onclick_ref, ctfutb/ITfLangBarItemButton::OnClick, tsf.itflangbaritembutton_onclick
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfLangBarItemButton.OnClick
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfLangBarItemButton::OnClick

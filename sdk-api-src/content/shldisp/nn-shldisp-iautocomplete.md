@@ -4,17 +4,16 @@ title: IAutoComplete
 author: windows-sdk-content
 description: Exposed by the autocomplete object (CLSID_AutoComplete). This interface allows applications to initialize, enable, and disable the object.
 old-location: shell\IAutoComplete.htm
-old-project: shell
+tech.root: shell
 ms.assetid: bed6eb41-3086-4af7-8c75-651da9dba3b2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IAutoComplete, IAutoComplete interface [Windows Shell], IAutoComplete interface [Windows Shell],described, _win32_IAutoComplete, shell.IAutoComplete, shldisp/IAutoComplete
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAutoComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAutoComplete interface

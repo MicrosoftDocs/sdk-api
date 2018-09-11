@@ -4,7 +4,7 @@ title: tagHANDLETABLE
 author: windows-sdk-content
 description: The HANDLETABLE structure is an array of handles, each of which identifies a graphics device interface (GDI) object.
 old-location: gdi\handletable.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: c0c03c7d-baac-4b59-ba2f-8f6330651b49
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLETABLE, *PHANDLETABLE, *LPHANDLETABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HANDLETABLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: HANDLETABLE, *PHANDLETABLE, *LPHANDLETABLE
+req.redist: 
 ---
 
 # tagHANDLETABLE structure

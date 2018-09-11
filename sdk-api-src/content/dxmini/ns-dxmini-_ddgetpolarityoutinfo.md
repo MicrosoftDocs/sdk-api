@@ -4,7 +4,7 @@ title: "_DDGETPOLARITYOUTINFO"
 author: windows-sdk-content
 description: The DDGETPOLARITYOUTINFO structure contains the polarity information of the video port extensions (VPE) object.
 old-location: display\ddgetpolarityoutinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 191d6c79-6f73-44f9-8016-912e4bb70453
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDGETPOLARITYOUTINFO, *PDDGETPOLARITYOUTINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDGETPOLARITYOUTINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DDGETPOLARITYOUTINFO, *PDDGETPOLARITYOUTINFO
+req.redist: 
 ---
 
 # _DDGETPOLARITYOUTINFO structure

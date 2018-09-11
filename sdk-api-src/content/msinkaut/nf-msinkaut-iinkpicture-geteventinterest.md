@@ -4,17 +4,16 @@ title: IInkPicture::GetEventInterest
 author: windows-sdk-content
 description: Retrieves the interest an object has in a particular event for the InkCollector class, InkOverlay class, or InkPicture class.
 old-location: tablet\inkpicture_geteventinterest.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: e025a118-acf1-4b52-ace9-85a3a5a558fa
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 532a798e-b434-4730-8c20-7ec60255f170, GetEventInterest, GetEventInterest method [Tablet PC], GetEventInterest method [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],GetEventInterest method, IInkPicture.GetEventInterest, IInkPicture::GetEventInterest, msinkaut/IInkPicture::GetEventInterest, tablet.inkpicture_geteventinterest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkPicture.GetEventInterest
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkPicture::GetEventInterest

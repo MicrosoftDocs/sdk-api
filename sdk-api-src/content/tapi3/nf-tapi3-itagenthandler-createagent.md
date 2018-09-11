@@ -4,17 +4,16 @@ title: ITAgentHandler::CreateAgent
 author: windows-sdk-content
 description: The CreateAgent method creates an Agent object.
 old-location: tapi3\itagenthandler_createagent.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: f3242013-59a6-40f9-9bb1-0bc30f27311c
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CreateAgent, CreateAgent method [TAPI 2.2], CreateAgent method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],CreateAgent method, ITAgentHandler.CreateAgent, ITAgentHandler::CreateAgent, _tapi3_itagenthandler_createagent, tapi3.itagenthandler_createagent, tapi3cc/ITAgentHandler::CreateAgent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentHandler.CreateAgent
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentHandler::CreateAgent

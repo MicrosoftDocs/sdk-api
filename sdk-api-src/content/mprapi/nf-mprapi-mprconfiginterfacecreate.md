@@ -4,17 +4,16 @@ title: MprConfigInterfaceCreate function
 author: windows-sdk-content
 description: The MprConfigInterfaceCreate function creates a router interface in the specified router configuration.
 old-location: rras\mprconfiginterfacecreate.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: e368aa3c-bb80-49ed-a1da-39777dada960
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprConfigInterfaceCreate, MprConfigInterfaceCreate function [RAS], _mpr_mprconfiginterfacecreate, mprapi/MprConfigInterfaceCreate, rras.mprconfiginterfacecreate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprConfigInterfaceCreate
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprConfigInterfaceCreate function

@@ -4,17 +4,16 @@ title: IWSDServiceProxyEventing
 author: windows-sdk-content
 description: Represents a remote WSD service for client applications and middleware. This interface allows for the implementation of multiple asynchronous operations.
 old-location: ncd\iwsdserviceproxyeventing.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: c9454636-6d6a-4344-a954-1bd35195aff9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDServiceProxyEventing, IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,described, ncd.iwsdserviceproxyeventing, wsdclient/IWSDServiceProxyEventing
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDServiceProxyEventing
 product: Windows
 targetos: Windows
-req.lib: Wsdapi.lib
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDServiceProxyEventing interface

@@ -4,17 +4,16 @@ title: FindFirstFileNameW function
 author: windows-sdk-content
 description: Creates an enumeration of all the hard links to the specified file. The FindFirstFileNameW function returns a handle to the enumeration that can be used on subsequent calls to the FindNextFileNameW function.
 old-location: fs\findfirstfilenamew.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 9f64aa3e-4c73-47a8-8304-6134f1b4d153
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FindFirstFileNameW, FindFirstFileNameW function [Files], fileapi/FindFirstFileNameW, fs.findfirstfilenamew
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FindFirstFileNameW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FindFirstFileNameW function

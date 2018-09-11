@@ -4,17 +4,16 @@ title: IFsrmQuota::RefreshUsageProperties
 author: windows-sdk-content
 description: Refreshes this object's quota usage information from the current information in FSRM.
 old-location: fsrm\ifsrmquota_refreshusageproperties.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 1aa20d1a-4259-4ae0-9717-957f7b8b984e
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmQuota interface [File Server Resource Manager],RefreshUsageProperties method, IFsrmQuota.RefreshUsageProperties, IFsrmQuota::RefreshUsageProperties, RefreshUsageProperties, RefreshUsageProperties method [File Server Resource Manager], RefreshUsageProperties method [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_refreshusageproperties, fsrm.ifsrmquota_refreshusageproperties, fsrmquota/IFsrmQuota::RefreshUsageProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmQuota.RefreshUsageProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmQuota::RefreshUsageProperties

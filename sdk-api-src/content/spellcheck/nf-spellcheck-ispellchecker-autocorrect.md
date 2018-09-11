@@ -4,17 +4,16 @@ title: ISpellChecker::AutoCorrect
 author: windows-sdk-content
 description: Causes occurrences of one word to be replaced by another.
 old-location: intl\ispellchecker_autocorrect.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 7c0d24dc-cec2-4304-bfbc-096fa4d0e8d0
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AutoCorrect, AutoCorrect method [Internationalization for Windows Applications], AutoCorrect method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],AutoCorrect method, ISpellChecker.AutoCorrect, ISpellChecker::AutoCorrect, intl.ispellchecker_autocorrect, spellcheck/ISpellChecker::AutoCorrect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpellChecker.AutoCorrect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpellChecker::AutoCorrect

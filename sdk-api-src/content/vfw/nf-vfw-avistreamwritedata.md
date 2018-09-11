@@ -4,17 +4,16 @@ title: AVIStreamWriteData function
 author: windows-sdk-content
 description: The AVIStreamWriteData function writes optional header information to the stream.
 old-location: multimedia\avistreamwritedata.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 2ca91df6-4721-4282-8b88-81e76d2ab94f
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIStreamWriteData, AVIStreamWriteData function [Windows Multimedia], _win32_AVIStreamWriteData, multimedia.avistreamwritedata, vfw/AVIStreamWriteData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AVIStreamWriteData
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIStreamWriteData function

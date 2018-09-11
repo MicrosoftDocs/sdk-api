@@ -4,7 +4,7 @@ title: "_WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE"
 author: windows-sdk-content
 description: The WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE structure is used by Windows Media Player to request accelerated metadata synchronization information from portable devices that do not support MTP.
 old-location: wmp\wmp_wmdm_metadata_round_trip_pc2device.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 825d4080-45de-452e-b0eb-33e7bd1d2f22
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmpdevices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 10 or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
+req.redist: 
 ---
 
 # _WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE structure

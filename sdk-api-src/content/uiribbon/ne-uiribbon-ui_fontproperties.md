@@ -4,17 +4,16 @@ title: UI_FONTPROPERTIES
 author: windows-sdk-content
 description: Specifies values that identify the font property state of a FontControl, such as Strikethrough.
 old-location: windowsribbon\windowsribbon_ui_fontproperties.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_fontproperties.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_FONTPROPERTIES, UI_FONTPROPERTIES enumeration [Windows Ribbon], UI_FONTPROPERTIES_NOTAVAILABLE, UI_FONTPROPERTIES_NOTSET, UI_FONTPROPERTIES_SET, scenicintent_UI_FONTPROPERTIES, uiribbon/UI_FONTPROPERTIES, uiribbon/UI_FONTPROPERTIES_NOTAVAILABLE, uiribbon/UI_FONTPROPERTIES_NOTSET, uiribbon/UI_FONTPROPERTIES_SET, windowsribbon.windowsribbon_ui_fontproperties
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_FONTPROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_FONTPROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: UI_FONTPROPERTIES
+req.redist: 
 ---
 
 # UI_FONTPROPERTIES enumeration

@@ -4,17 +4,16 @@ title: IVdsSwProvider::QueryPacks
 author: windows-sdk-content
 description: Returns an enumeration object that contains all packs managed by the software provider.
 old-location: base\ivdsswprovider_querypacks.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: f30494d8-ae82-479d-a47a-7087129e7e6a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsSwProvider interface [VDS],QueryPacks method, IVdsSwProvider.QueryPacks, IVdsSwProvider::QueryPacks, QueryPacks, QueryPacks method [VDS], QueryPacks method [VDS],IVdsSwProvider interface, base.ivdsswprovider_querypacks, vds/IVdsSwProvider::QueryPacks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSwProvider.QueryPacks
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsSwProvider::QueryPacks

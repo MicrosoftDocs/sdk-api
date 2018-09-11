@@ -4,17 +4,16 @@ title: DRMGetBoundLicenseAttribute function
 author: windows-sdk-content
 description: Retrieves a bound license attribute from the license XrML.
 old-location: rm\drmgetboundlicenseattribute.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 715fb3e6-6b1e-4136-9c25-efcde2015d6f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DRMGetBoundLicenseAttribute, DRMGetBoundLicenseAttribute function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetBoundLicenseAttribute, rm.drmgetboundlicenseattribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_SELECTIONSTYLE
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMGetBoundLicenseAttribute
 product: Windows
 targetos: Windows
-req.lib: Msdrm.lib
-req.dll: Msdrm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

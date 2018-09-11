@@ -4,17 +4,16 @@ title: IDirectInputEffectDriver::GetForceFeedbackState
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::GetForceFeedbackState method retrieves the force-feedback state for the device.
 old-location: hid\idirectinputeffectdriver_getforcefeedbackstate.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 0cf48162-2b43-4417-820b-5197993ac990
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetForceFeedbackState, GetForceFeedbackState method [Human Input Devices], GetForceFeedbackState method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],GetForceFeedbackState method, IDirectInputEffectDriver.GetForceFeedbackState, IDirectInputEffectDriver::GetForceFeedbackState, di_ref_a4cecccc-23d2-408c-90af-f178846f3938.xml, dinputd/IDirectInputEffectDriver::GetForceFeedbackState, hid.idirectinputeffectdriver_getforcefeedbackstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectInputEffectDriver.GetForceFeedbackState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectInputEffectDriver::GetForceFeedbackState
@@ -59,9 +58,14 @@ The <b>IDirectInputEffectDriver::GetForceFeedbackState </b>method retrieves the 
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

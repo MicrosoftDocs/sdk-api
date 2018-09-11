@@ -4,17 +4,16 @@ title: IWindowsDriverUpdate2::get_CveIDs
 author: windows-sdk-content
 description: Contains a collection of the Common Vulnerabilities and Exposures (CVE) identifiers that are associated with an update.
 old-location: wua\iwindowsdriverupdate2_cveids.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 6399d545-b300-4f78-b6df-c9892bc62fbb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CveIDs property [Windows Update Agent], CveIDs property [Windows Update Agent],IWindowsDriverUpdate2 interface, IWindowsDriverUpdate2 interface [Windows Update Agent],CveIDs property, IWindowsDriverUpdate2.CveIDs, IWindowsDriverUpdate2.get_CveIDs, IWindowsDriverUpdate2::CveIDs, IWindowsDriverUpdate2::get_CveIDs, get_CveIDs, wua.iwindowsdriverupdate2_cveids, wuapi/IWindowsDriverUpdate2::CveIDs, wuapi/IWindowsDriverUpdate2::get_CveIDs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWindowsDriverUpdate2.get_CveIDs
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowsDriverUpdate2::get_CveIDs

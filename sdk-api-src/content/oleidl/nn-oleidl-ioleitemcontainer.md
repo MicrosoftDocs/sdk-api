@@ -4,17 +4,16 @@ title: IOleItemContainer
 author: windows-sdk-content
 description: Used by item monikers when they are bound to the objects they identify.
 old-location: com\ioleitemcontainer.htm
-old-project: com
+tech.root: com
 ms.assetid: fe306a36-da24-4b1e-ab42-359d37962d36
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleItemContainer, IOleItemContainer interface [COM], IOleItemContainer interface [COM],described, _com_ioleitemcontainer, com.ioleitemcontainer, oleidl/IOleItemContainer
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleItemContainer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Adhocreportingexcelclient.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleItemContainer interface

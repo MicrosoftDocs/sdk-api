@@ -4,17 +4,16 @@ title: ISensorEvents
 author: windows-sdk-content
 description: The callback interface you must implement if you want to receive sensor events.
 old-location: winsensors\isensorevents.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: 41acbb4f-b4f8-4573-a993-ed93ec9494f0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISensorEvents, ISensorEvents interface [WinSensors], ISensorEvents interface [WinSensors],described, sensorsapi/ISensorEvents, winsensors.isensorevents
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensorEvents
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensorEvents interface

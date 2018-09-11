@@ -4,17 +4,16 @@ title: IAutoCompleteDropDown::GetDropDownStatus
 author: windows-sdk-content
 description: Gets the current display status of the autocomplete drop-down list.
 old-location: shell\IAutoCompleteDropDown_GetDropDownStatus.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 824c435c-e8ee-4435-a779-bae3ef721613
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ACDD_VISIBLE, GetDropDownStatus, GetDropDownStatus method [Windows Shell], GetDropDownStatus method [Windows Shell],IAutoCompleteDropDown interface, IAutoCompleteDropDown interface [Windows Shell],GetDropDownStatus method, IAutoCompleteDropDown.GetDropDownStatus, IAutoCompleteDropDown::GetDropDownStatus, _shell_IAutoCompleteDropDown_GetDropDownStatus, shell.IAutoCompleteDropDown_GetDropDownStatus, shobjidl/IAutoCompleteDropDown::GetDropDownStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Browseui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAutoCompleteDropDown.GetDropDownStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Browseui.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IAutoCompleteDropDown::GetDropDownStatus

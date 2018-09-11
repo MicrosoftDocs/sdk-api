@@ -4,17 +4,16 @@ title: IsManagementRegistrationAllowed function
 author: windows-sdk-content
 description: Checks whether MDM registration is allowed by local policy.
 old-location: mdmreg\ismanagementregistrationallowed.htm
-old-project: MDMReg
+tech.root: MDMReg
 ms.assetid: 138f567d-4c50-4e13-be10-269eb44f9fe5
 ms.author: windowssdkdev
 ms.date: 02/21/2018
 ms.keywords: IsManagementRegistrationAllowed, IsManagementRegistrationAllowed function [MDM Registration], mdmreg.ismanagementregistrationallowed, mdmregistration/IsManagementRegistrationAllowed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGISTRATION_INFORMATION_CLASS, *PREGISTRATION_INFORMATION_CLASS
+req.lib: MDMRegistration.lib
+req.dll: MDMRegistration.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IsManagementRegistrationAllowed
 product: Windows
 targetos: Windows
-req.lib: MDMRegistration.lib
-req.dll: MDMRegistration.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IsManagementRegistrationAllowed function

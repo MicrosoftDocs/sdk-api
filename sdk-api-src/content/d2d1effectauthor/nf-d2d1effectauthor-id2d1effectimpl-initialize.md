@@ -4,17 +4,16 @@ title: ID2D1EffectImpl::Initialize
 author: windows-sdk-content
 description: The effect can use this method to do one time initialization tasks.
 old-location: direct2d\id2d1effectimpl_initialize.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: BC5A6B97-6BA8-4C97-9F8B-D87EBCD80A98
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1EffectImpl interface [Direct2D],Initialize method, ID2D1EffectImpl.Initialize, ID2D1EffectImpl::Initialize, Initialize, Initialize method [Direct2D], Initialize method [Direct2D],ID2D1EffectImpl interface, d2d1effectauthor/ID2D1EffectImpl::Initialize, direct2d.id2d1effectimpl_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_USAGE
+req.lib: D2D1.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID2D1EffectImpl.Initialize
 product: Windows
 targetos: Windows
-req.lib: D2D1.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1EffectImpl::Initialize

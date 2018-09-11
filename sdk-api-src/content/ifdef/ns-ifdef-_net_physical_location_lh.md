@@ -4,7 +4,7 @@ title: "_NET_PHYSICAL_LOCATION_LH"
 author: windows-sdk-content
 description: The NET_PHYSICAL_LOCATION structure provides NDIS with information about the physical location of a registered network interface.
 old-location: netvista\net_physical_location.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: e5661e05-a83f-4632-af98-2a021eeb7d80
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ifdef.h
 req.include-header: Ntddndis.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_PHYSICAL_LOCATION_LH, *PNET_PHYSICAL_LOCATION_LH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_PHYSICAL_LOCATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_PHYSICAL_LOCATION_LH, *PNET_PHYSICAL_LOCATION_LH
+req.redist: 
 ---
 
 # _NET_PHYSICAL_LOCATION_LH structure

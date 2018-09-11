@@ -4,17 +4,16 @@ title: IMFTopologyNode::ConnectOutput
 author: windows-sdk-content
 description: Connects an output stream from this node to the input stream of another node.
 old-location: mf\imftopologynode_connectoutput.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2340fd87-27ea-4f98-97e3-48b9506251a9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 2340fd87-27ea-4f98-97e3-48b9506251a9, ConnectOutput, ConnectOutput method [Media Foundation], ConnectOutput method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],ConnectOutput method, IMFTopologyNode.ConnectOutput, IMFTopologyNode::ConnectOutput, mf.imftopologynode_connectoutput, mfidl/IMFTopologyNode::ConnectOutput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTopologyNode.ConnectOutput
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTopologyNode::ConnectOutput

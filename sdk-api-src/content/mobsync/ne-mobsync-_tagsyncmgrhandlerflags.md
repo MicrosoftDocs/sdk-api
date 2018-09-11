@@ -4,17 +4,16 @@ title: "_tagSYNCMGRHANDLERFLAGS"
 author: windows-sdk-content
 description: Used in the SYNCMGRHANDLERINFO structure as flags that apply to the current handler.
 old-location: shell\syncmgr_syncmgrhandlerflags.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9e5f7f49-f2f0-4fa3-8822-8e6074cd4f47
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SYNCMGRHANDLERFLAGS, SYNCMGRHANDLERFLAGS enumeration [Windows Shell], SYNCMGRHANDLER_ALWAYSLISTHANDLER, SYNCMGRHANDLER_HASPROPERTIES, SYNCMGRHANDLER_HIDDEN, SYNCMGRHANDLER_MAYESTABLISHCONNECTION, _tagSYNCMGRHANDLERFLAGS, mobsync/SYNCMGRHANDLERFLAGS, mobsync/SYNCMGRHANDLER_ALWAYSLISTHANDLER, mobsync/SYNCMGRHANDLER_HASPROPERTIES, mobsync/SYNCMGRHANDLER_HIDDEN, mobsync/SYNCMGRHANDLER_MAYESTABLISHCONNECTION, shell.syncmgr_syncmgrhandlerflags, syncmgr.syncmgrhandlerflags
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRHANDLERFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGRHANDLERFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SYNCMGRHANDLERFLAGS
+req.redist: 
 ---
 
 # _tagSYNCMGRHANDLERFLAGS enumeration

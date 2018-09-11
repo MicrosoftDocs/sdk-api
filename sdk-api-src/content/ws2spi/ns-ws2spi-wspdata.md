@@ -4,17 +4,16 @@ title: WSPData
 author: windows-sdk-content
 description: The WSPDATA structure contains service provider information.
 old-location: winsock\wspdata_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 0592aa8f-5fac-4bbd-9fb8-e61d374ad0a6
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWSPDATA, LPWSPDATA, LPWSPDATA structure pointer [Winsock], WSPDATA, WSPDATA structure [Winsock], WSPData, _win32_wspdata_2, winsock.wspdata_2, ws2spi/LPWSPDATA, ws2spi/WSPDATA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSPDATA, *LPWSPDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSPDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSPDATA, *LPWSPDATA
+req.redist: 
 ---
 
 # WSPData structure

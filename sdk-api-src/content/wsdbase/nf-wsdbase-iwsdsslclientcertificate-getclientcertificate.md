@@ -4,17 +4,16 @@ title: IWSDSSLClientCertificate::GetClientCertificate
 author: windows-sdk-content
 description: Gets the client certificate.
 old-location: ncd\iwsdsslclientcertificate_getclientcertificate.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: 82f3f4ae-80fe-4382-9a22-00c70e99524f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetClientCertificate, GetClientCertificate method, GetClientCertificate method,IWSDSSLClientCertificate interface, IWSDSSLClientCertificate interface,GetClientCertificate method, IWSDSSLClientCertificate.GetClientCertificate, IWSDSSLClientCertificate::GetClientCertificate, ncd.iwsdsslclientcertificate_getclientcertificate, wsdbase/IWSDSSLClientCertificate::GetClientCertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_CONFIG_PARAM_TYPE
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDSSLClientCertificate.GetClientCertificate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDSSLClientCertificate::GetClientCertificate

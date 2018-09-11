@@ -4,17 +4,16 @@ title: CfConnectSyncRoot function
 author: windows-sdk-content
 description: Initiates bi-directional communication between a sync provider and the sync filter API.
 old-location: cloudapi\cfconnectsyncroot.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: 287DA978-9797-48DF-9C90-BA53BB82475C
 ms.author: windowssdkdev
 ms.date: 02/27/2018
 ms.keywords: CfConnectSyncRoot, CfConnectSyncRoot function, cfapi/CfConnectSyncRoot, cloudApi.cfconnectsyncroot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_UPDATE_FLAGS
+req.lib: CldApi.lib
+req.dll: CldApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CfConnectSyncRoot
 product: Windows
 targetos: Windows
-req.lib: CldApi.lib
-req.dll: CldApi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CfConnectSyncRoot function

@@ -4,7 +4,7 @@ title: TF_LANGUAGEPROFILE
 author: windows-sdk-content
 description: The TF_LANGUAGEPROFILE structure contains information about a language profile.
 old-location: tsf\tf_languageprofile.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: f9dbd701-d893-409b-b033-3e37d12ccaa7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_LANGUAGEPROFILE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TF_LANGUAGEPROFILE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TF_LANGUAGEPROFILE
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # TF_LANGUAGEPROFILE structure

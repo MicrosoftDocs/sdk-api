@@ -4,17 +4,16 @@ title: IATSC_ETT::GetVersionNumber
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_ett_getversionnumber.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: bd9eefda-51ff-472c-b363-2f3c21ae2fec
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IATSC_ETT interface, IATSC_ETT interface [Microsoft TV Technologies],GetVersionNumber method, IATSC_ETT.GetVersionNumber, IATSC_ETT::GetVersionNumber, IATSC_ETTGetVersionNumber, atscpsipparser/IATSC_ETT::GetVersionNumber, mstv.iatsc_ett_getversionnumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IATSC_ETT.GetVersionNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IATSC_ETT::GetVersionNumber

@@ -4,17 +4,16 @@ title: SCARD_READERSTATEA
 author: windows-sdk-content
 description: Used by functions for tracking smart cards within readers.
 old-location: security\scard_readerstate.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 4e9bbed7-f899-4361-a526-029a710d5147
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSCARD_READERSTATEA, *PSCARD_READERSTATEA, LPSCARD_READERSTATE, LPSCARD_READERSTATE structure pointer [Security], PSCARD_READERSTATE, PSCARD_READERSTATE structure pointer [Security], SCARD_READERSTATE, SCARD_READERSTATE structure [Security], SCARD_READERSTATEA, SCARD_READERSTATEW, SCARD_STATE_ATRMATCH, SCARD_STATE_CHANGED, SCARD_STATE_EMPTY, SCARD_STATE_EXCLUSIVE, SCARD_STATE_IGNORE, SCARD_STATE_INUSE, SCARD_STATE_MUTE, SCARD_STATE_PRESENT, SCARD_STATE_UNAVAILABLE, SCARD_STATE_UNAWARE, SCARD_STATE_UNKNOWN, _smart_scard_readerstate, security.scard_readerstate, winscard/LPSCARD_READERSTATE, winscard/PSCARD_READERSTATE, winscard/SCARD_READERSTATE, winscard/SCARD_READERSTATEA, winscard/SCARD_READERSTATEW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winscard.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCARD_READERSTATEA, *PSCARD_READERSTATEA, *LPSCARD_READERSTATEA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SCARD_READERSTATEW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SCARD_READERSTATEA, *PSCARD_READERSTATEA, *LPSCARD_READERSTATEA
+req.redist: 
 ---
 
 # SCARD_READERSTATEA structure

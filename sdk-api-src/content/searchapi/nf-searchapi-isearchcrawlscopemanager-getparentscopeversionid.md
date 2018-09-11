@@ -4,17 +4,16 @@ title: ISearchCrawlScopeManager::GetParentScopeVersionId
 author: windows-sdk-content
 description: Gets the version ID of the parent inclusion URL.
 old-location: search\_search_ISearchCrawlScopeManager_GetParentScopeVersionId.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\getparentscopeversionid.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetParentScopeVersionId, GetParentScopeVersionId method [search], GetParentScopeVersionId method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],GetParentScopeVersionId method, ISearchCrawlScopeManager.GetParentScopeVersionId, ISearchCrawlScopeManager::GetParentScopeVersionId, _search_ISearchCrawlScopeManager_GetParentScopeVersionId, search._search_ISearchCrawlScopeManager_GetParentScopeVersionId, searchapi/ISearchCrawlScopeManager::GetParentScopeVersionId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchCrawlScopeManager.GetParentScopeVersionId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # ISearchCrawlScopeManager::GetParentScopeVersionId
@@ -62,7 +60,7 @@ Gets the version ID of the parent inclusion URL.
 
 ### -param pszURL
 
-
+TBD
 
 
 ### -param plScopeId [out, retval]

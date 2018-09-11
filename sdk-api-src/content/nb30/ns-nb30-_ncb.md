@@ -4,7 +4,7 @@ title: "_NCB"
 author: windows-sdk-content
 description: The NCB structure represents a network control block.
 old-location: netbios\ncb.htm
-old-project: NetBIOS
+tech.root: NetBIOS
 ms.assetid: e3fcca1c-8057-41c4-80a5-d1e67920d88c
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NCB, *PNCB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NCB, *PNCB
+req.redist: 
 ---
 
 # _NCB structure

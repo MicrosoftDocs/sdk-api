@@ -4,17 +4,16 @@ title: IComObjectEvents::OnObjectActivate
 author: windows-sdk-content
 description: Generated when an object gets an instance of a new JIT-activated object.
 old-location: cos\icomobjectevents_onobjectactivate.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 149e3820-0d5b-46ee-9be9-22850115a7c7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComObjectEvents interface [COM+],OnObjectActivate method, IComObjectEvents.OnObjectActivate, IComObjectEvents::OnObjectActivate, OnObjectActivate, OnObjectActivate method [COM+], OnObjectActivate method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnObjectActivate, comsvcs/IComObjectEvents::OnObjectActivate, cos.icomobjectevents_onobjectactivate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComObjectEvents.OnObjectActivate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComObjectEvents::OnObjectActivate

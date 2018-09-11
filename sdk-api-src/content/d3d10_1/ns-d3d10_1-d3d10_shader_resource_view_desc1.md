@@ -4,17 +4,16 @@ title: D3D10_SHADER_RESOURCE_VIEW_DESC1
 author: windows-sdk-content
 description: Describes a shader-resource view.
 old-location: direct3d10\d3d10_shader_resource_view_desc1.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_resource_view_desc1.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 7b42f6ed-d20a-945b-ecb4-4ba1aa8d083c, D3D10_SHADER_RESOURCE_VIEW_DESC1, D3D10_SHADER_RESOURCE_VIEW_DESC1 structure [Direct3D 10], d3d10_1/D3D10_SHADER_RESOURCE_VIEW_DESC1, direct3d10.d3d10_shader_resource_view_desc1
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10_1.h
 req.include-header: D3D10_1Shader.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_SHADER_RESOURCE_VIEW_DESC1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_SHADER_RESOURCE_VIEW_DESC1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D10_SHADER_RESOURCE_VIEW_DESC1
+req.redist: 
 ---
 
 # D3D10_SHADER_RESOURCE_VIEW_DESC1 structure

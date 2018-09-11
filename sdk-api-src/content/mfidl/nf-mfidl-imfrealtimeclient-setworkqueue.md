@@ -4,17 +4,16 @@ title: IMFRealTimeClient::SetWorkQueue
 author: windows-sdk-content
 description: Specifies the work queue for the topology branch that contains this object.
 old-location: mf\imfrealtimeclient_setworkqueue.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2744ddaf-a1ad-415a-b387-1a3d3b4821bf
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 2744ddaf-a1ad-415a-b387-1a3d3b4821bf, IMFRealTimeClient interface [Media Foundation],SetWorkQueue method, IMFRealTimeClient.SetWorkQueue, IMFRealTimeClient::SetWorkQueue, SetWorkQueue, SetWorkQueue method [Media Foundation], SetWorkQueue method [Media Foundation],IMFRealTimeClient interface, mf.imfrealtimeclient_setworkqueue, mfidl/IMFRealTimeClient::SetWorkQueue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFRealTimeClient.SetWorkQueue
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFRealTimeClient::SetWorkQueue

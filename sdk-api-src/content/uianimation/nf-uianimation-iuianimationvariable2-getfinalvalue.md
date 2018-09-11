@@ -4,17 +4,16 @@ title: IUIAnimationVariable2::GetFinalValue
 author: windows-sdk-content
 description: Gets the final value of the animation variable. This is the value after all currently scheduled animations have completed.
 old-location: uianimation\iuianimationvariable2_getfinalvalue.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: FF39BE67-AED7-4B67-ABAF-D5D51619F0D3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetFinalValue, GetFinalValue method [Windows Animation], GetFinalValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetFinalValue method, IUIAnimationVariable2.GetFinalValue, IUIAnimationVariable2::GetFinalValue, uianimation.iuianimationvariable2_getfinalvalue, uianimation/IUIAnimationVariable2::GetFinalValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationVariable2.GetFinalValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationVariable2::GetFinalValue

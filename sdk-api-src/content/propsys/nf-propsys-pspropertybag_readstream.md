@@ -4,17 +4,16 @@ title: PSPropertyBag_ReadStream function
 author: windows-sdk-content
 description: Reads the data stream stored in a given property contained in a specified property bag.
 old-location: properties\PSPropertyBag_ReadStream.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 3D1D8B3E-DD16-4b34-918C-C8478EBF0930
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSPropertyBag_ReadStream, PSPropertyBag_ReadStream function [Windows Properties], properties.PSPropertyBag_ReadStream, propsys/PSPropertyBag_ReadStream, shell.PSPropertyBag_ReadStream, shell_PSPropertyBag_ReadStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSPropertyBag_ReadStream
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PSPropertyBag_ReadStream function

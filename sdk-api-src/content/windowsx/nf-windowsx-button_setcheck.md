@@ -4,17 +4,16 @@ title: Button_SetCheck macro
 author: windows-sdk-content
 description: Sets the check state of a radio button or check box. You can use this macro or send the BM_SETCHECK message explicitly.
 old-location: controls\Button_SetCheck.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setcheck.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BST_CHECKED, BST_INDETERMINATE, BST_UNCHECKED, Button_SetCheck, Button_SetCheck macro [Windows Controls], _win32_Button_SetCheck, _win32_Button_SetCheck_cpp, controls.Button_SetCheck, controls._win32_Button_SetCheck, windowsx/Button_SetCheck
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Button_SetCheck
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # Button_SetCheck macro

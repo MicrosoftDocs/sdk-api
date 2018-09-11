@@ -4,17 +4,16 @@ title: IMpeg2TableFilter::RemovePID
 author: windows-sdk-content
 description: The RemovePID method removes a packet identifier (PID) from the list of PIDs that the filter sends.
 old-location: mstv\impeg2tablefilter_removepid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e9ce49e3-e256-4150-ab73-b57ed34ab30c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMpeg2TableFilter interface [Microsoft TV Technologies],RemovePID method, IMpeg2TableFilter.RemovePID, IMpeg2TableFilter::RemovePID, IMpeg2TableFilterRemovePID, RemovePID, RemovePID method [Microsoft TV Technologies], RemovePID method [Microsoft TV Technologies],IMpeg2TableFilter interface, mpeg2data/IMpeg2TableFilter::RemovePID, mstv.impeg2tablefilter_removepid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2data.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMpeg2TableFilter.RemovePID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMpeg2TableFilter::RemovePID

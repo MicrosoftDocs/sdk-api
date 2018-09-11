@@ -4,7 +4,7 @@ title: VMRSurfaceAllocationFlags
 author: windows-sdk-content
 description: The VMRSurfaceAllocationFlags enumeration is used with the IVMRSurfaceAllocator::AllocateSurface method to specify surface creation parameters.
 old-location: dshow\vmrsurfaceallocationflags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1f75b357-0ce0-4efe-b1a8-39200e6b3d1a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMRSurfaceAllocationFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMRSurfaceAllocationFlags
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: VMRSurfaceAllocationFlags
+req.redist: 
 ---
 
 # VMRSurfaceAllocationFlags enumeration

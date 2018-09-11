@@ -4,17 +4,16 @@ title: DwmGetUnmetTabRequirements function
 author: windows-sdk-content
 description: Note  This function is publically available, but nonfunctional, for Windows 10, version 1803.Checks the requirements needed to get tabs in the application title bar for the specified window.
 old-location: dwm\dwmgetunmettabrequirements.htm
-old-project: dwm
+tech.root: dwm
 ms.assetid: 8E67E1BE-D6FC-4A8A-8E71-45B6F337E3BD
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DwmGetUnmetTabRequirements, DwmGetUnmetTabRequirements function [Desktop Window Manager], dwm.dwmgetunmettabrequirements, dwmapi/DwmGetUnmetTabRequirements
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwmapi.lib
+req.dll: Dwmapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DwmGetUnmetTabRequirements
 product: Windows
 targetos: Windows
-req.lib: Dwmapi.lib
-req.dll: Dwmapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DwmGetUnmetTabRequirements function
@@ -66,7 +64,7 @@ req.product: Windows Media Format 9 Series or later
 The handle of the window to check.
 
 
-### -param param
+### -param arg1
 
 TBD
 

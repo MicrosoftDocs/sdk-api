@@ -4,17 +4,16 @@ title: "_OPEN_VIRTUAL_DISK_FLAG"
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) or CD or DVD image file (ISO) open request flags.
 old-location: vhd\open_virtual_disk_flag.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: edc7d3ad-23a0-4e7a-82d5-8ac4df785f35
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OPEN_VIRTUAL_DISK_FLAG, OPEN_VIRTUAL_DISK_FLAG enumeration [VHD], OPEN_VIRTUAL_DISK_FLAG_BLANK_FILE, OPEN_VIRTUAL_DISK_FLAG_BOOT_DRIVE, OPEN_VIRTUAL_DISK_FLAG_CACHED_IO, OPEN_VIRTUAL_DISK_FLAG_CUSTOM_DIFF_CHAIN, OPEN_VIRTUAL_DISK_FLAG_NONE, OPEN_VIRTUAL_DISK_FLAG_NO_PARENTS, _OPEN_VIRTUAL_DISK_FLAG, vdssys/OPEN_VIRTUAL_DISK_FLAG, vdssys/OPEN_VIRTUAL_DISK_FLAG_BLANK_FILE, vdssys/OPEN_VIRTUAL_DISK_FLAG_BOOT_DRIVE, vdssys/OPEN_VIRTUAL_DISK_FLAG_CACHED_IO, vdssys/OPEN_VIRTUAL_DISK_FLAG_CUSTOM_DIFF_CHAIN, vdssys/OPEN_VIRTUAL_DISK_FLAG_NONE, vdssys/OPEN_VIRTUAL_DISK_FLAG_NO_PARENTS, vhd.open_virtual_disk_flag, virtdisk/OPEN_VIRTUAL_DISK_FLAG, virtdisk/OPEN_VIRTUAL_DISK_FLAG_BLANK_FILE, virtdisk/OPEN_VIRTUAL_DISK_FLAG_BOOT_DRIVE, virtdisk/OPEN_VIRTUAL_DISK_FLAG_CACHED_IO, virtdisk/OPEN_VIRTUAL_DISK_FLAG_CUSTOM_DIFF_CHAIN, virtdisk/OPEN_VIRTUAL_DISK_FLAG_NONE, virtdisk/OPEN_VIRTUAL_DISK_FLAG_NO_PARENTS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPEN_VIRTUAL_DISK_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - OPEN_VIRTUAL_DISK_FLAG
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: OPEN_VIRTUAL_DISK_FLAG
+req.redist: 
 ---
 
 # _OPEN_VIRTUAL_DISK_FLAG enumeration

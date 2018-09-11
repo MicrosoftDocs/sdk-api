@@ -4,17 +4,16 @@ title: CreateFX function
 author: windows-sdk-content
 description: Creates an instance of the requested XAPOFX effect.
 old-location: xaudio2\createfx.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xapofx.CreateFX(CLSID,IUnknown,void,UINT32)
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateFX, CreateFX function [XAudio2 Audio Mixing APIs], xapofx/CreateFX, xaudio2.createfx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: xapofx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAPO_REGISTRATION_PROPERTIES
+req.lib: XAudio.lib
+req.dll: Windows.Media.Audio.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateFX
 product: Windows
 targetos: Windows
-req.lib: XAudio.lib
-req.dll: Windows.Media.Audio.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # CreateFX function

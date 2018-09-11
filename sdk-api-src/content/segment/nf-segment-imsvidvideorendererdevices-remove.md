@@ -4,17 +4,16 @@ title: IMSVidVideoRendererDevices::Remove
 author: windows-sdk-content
 description: The Remove method removes an item from the collection.
 old-location: mstv\imsvidvideorendererdevices_remove.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0a1d8f8b-1e62-470d-8f94-afc238755cad
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],Remove method, IMSVidVideoRendererDevices.Remove, IMSVidVideoRendererDevices::Remove, IMSVidVideoRendererDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_remove, segment/IMSVidVideoRendererDevices::Remove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRendererDevices.Remove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRendererDevices::Remove

@@ -4,17 +4,16 @@ title: ICertSrvSetupKeyInformation::put_ExistingCACertificate
 author: windows-sdk-content
 description: Gets or sets the binary value that has been encoded by using Distinguished Encoding Rules (DER) and that is the binary value of the certification authority (CA) certificate that corresponds to an existing key.
 old-location: security\icertsrvsetupkeyinformation_existingcacertificate.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 54a3ad75-8aa9-4e1b-b9ea-006f3b2cbf29
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ExistingCACertificate property [Security], ExistingCACertificate property [Security],ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation interface [Security],ExistingCACertificate property, ICertSrvSetupKeyInformation.ExistingCACertificate, ICertSrvSetupKeyInformation.put_ExistingCACertificate, ICertSrvSetupKeyInformation::ExistingCACertificate, ICertSrvSetupKeyInformation::get_ExistingCACertificate, ICertSrvSetupKeyInformation::put_ExistingCACertificate, casetup/ICertSrvSetupKeyInformation::ExistingCACertificate, casetup/ICertSrvSetupKeyInformation::get_ExistingCACertificate, casetup/ICertSrvSetupKeyInformation::put_ExistingCACertificate, put_ExistingCACertificate, security.icertsrvsetupkeyinformation_existingcacertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - ICertSrvSetupKeyInformation.put_ExistingCACertificate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertSrvSetupKeyInformation::put_ExistingCACertificate

@@ -4,17 +4,16 @@ title: "_APPCATEGORYINFO"
 author: windows-sdk-content
 description: Provides application category information to Add/Remove Programs in Control Panel. The APPCATEGORYINFOLIST structure is used create a complete list of categories for an application publisher.
 old-location: shell\APPCATEGORYINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7a0e61cb-97f8-4ca2-a85a-889e671099d0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: APPCATEGORYINFO, APPCATEGORYINFO structure [Windows Shell], _APPCATEGORYINFO, appmgmt/APPCATEGORYINFO, inet_APPCATEGORYINFO, shell.APPCATEGORYINFO
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: appmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPCATEGORYINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - APPCATEGORYINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: APPCATEGORYINFO
+req.redist: 
 ---
 
 # _APPCATEGORYINFO structure

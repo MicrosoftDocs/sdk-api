@@ -4,17 +4,16 @@ title: "_WSC_SECURITY_PROVIDER"
 author: windows-sdk-content
 description: Defines all the services that are monitored by Windows Security Center (WSC).
 old-location: winprog\wsc_security_provider.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: b32664f4-9a1d-4fd2-ab2b-e3c5a8ddf187
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWSC_SECURITY_PROVIDER, WSC_SECURITY_PROVIDER, WSC_SECURITY_PROVIDER enumeration [Windows API], WSC_SECURITY_PROVIDER,*PWSC_SECURITY_PROVIDER, WSC_SECURITY_PROVIDER,*PWSC_SECURITY_PROVIDER enumeration [Windows API], WSC_SECURITY_PROVIDER_ALL, WSC_SECURITY_PROVIDER_ANTISPYWARE, WSC_SECURITY_PROVIDER_ANTIVIRUS, WSC_SECURITY_PROVIDER_AUTOUPDATE_SETTINGS, WSC_SECURITY_PROVIDER_FIREWALL, WSC_SECURITY_PROVIDER_INTERNET_SETTINGS, WSC_SECURITY_PROVIDER_NONE, WSC_SECURITY_PROVIDER_SERVICE, WSC_SECURITY_PROVIDER_USER_ACCOUNT_CONTROL, _WSC_SECURITY_PROVIDER, winprog.wsc_security_provider, wscapi/WSC_SECURITY_PROVIDER, wscapi/WSC_SECURITY_PROVIDER_ALL, wscapi/WSC_SECURITY_PROVIDER_ANTISPYWARE, wscapi/WSC_SECURITY_PROVIDER_ANTIVIRUS, wscapi/WSC_SECURITY_PROVIDER_AUTOUPDATE_SETTINGS, wscapi/WSC_SECURITY_PROVIDER_FIREWALL, wscapi/WSC_SECURITY_PROVIDER_INTERNET_SETTINGS, wscapi/WSC_SECURITY_PROVIDER_NONE, wscapi/WSC_SECURITY_PROVIDER_SERVICE, wscapi/WSC_SECURITY_PROVIDER_USER_ACCOUNT_CONTROL"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wscapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_SECURITY_PROVIDER, *PWSC_SECURITY_PROVIDER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSC_SECURITY_PROVIDER, *PWSC_SECURITY_PROVIDER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSC_SECURITY_PROVIDER, *PWSC_SECURITY_PROVIDER
+req.redist: 
 ---
 
 # _WSC_SECURITY_PROVIDER enumeration

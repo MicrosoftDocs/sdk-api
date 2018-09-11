@@ -4,7 +4,7 @@ title: "_DHCP_SERVER_OPTIONS"
 author: windows-sdk-content
 description: The DHCP_SERVER_OPTIONS structure specifies requested DHCP Server options.
 old-location: dhcp\dhcp_server_options.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 0c43c2ad-ac9a-43b4-b750-a3f52c025ae2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpssdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_SERVER_OPTIONS, *LPDHCP_SERVER_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_SERVER_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_SERVER_OPTIONS, *LPDHCP_SERVER_OPTIONS
+req.redist: 
 ---
 
 # _DHCP_SERVER_OPTIONS structure

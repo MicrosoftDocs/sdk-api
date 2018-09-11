@@ -4,17 +4,16 @@ title: IMFTopoLoader::Load
 author: windows-sdk-content
 description: Creates a fully loaded topology from the input partial topology.
 old-location: mf\imftopoloader_load.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 02ce47db-54a1-456a-a763-c62039aea2c9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 02ce47db-54a1-456a-a763-c62039aea2c9, IMFTopoLoader interface [Media Foundation],Load method, IMFTopoLoader.Load, IMFTopoLoader::Load, Load, Load method [Media Foundation], Load method [Media Foundation],IMFTopoLoader interface, mf.imftopoloader_load, mfidl/IMFTopoLoader::Load
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTopoLoader.Load
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTopoLoader::Load

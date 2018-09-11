@@ -4,17 +4,16 @@ title: IFsrmClassificationManager::get_ClassificationReportMailTo
 author: windows-sdk-content
 description: The email address to which to send the classification reports, if any.
 old-location: fsrm\ifsrmclassificationmanager_classificationreportmailto.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: fa998edc-7ef8-43fa-a83a-7e4ba911e970
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: ClassificationReportMailTo property [File Server Resource Manager], ClassificationReportMailTo property [File Server Resource Manager],FsrmClassificationManager class, ClassificationReportMailTo property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationReportMailTo property [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClassificationReportMailTo property, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationReportMailTo property, IFsrmClassificationManager.ClassificationReportMailTo, IFsrmClassificationManager.get_ClassificationReportMailTo, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationReportMailTo property, IFsrmClassificationManager2.ClassificationReportMailTo, IFsrmClassificationManager2::get_ClassificationReportMailTo, IFsrmClassificationManager2::put_ClassificationReportMailTo, IFsrmClassificationManager::ClassificationReportMailTo, IFsrmClassificationManager::get_ClassificationReportMailTo, IFsrmClassificationManager::put_ClassificationReportMailTo, fs.ifsrmclassificationmanager_classificationreportmailto, fsrm.ifsrmclassificationmanager_classificationreportmailto, fsrmpipeline/IFsrmClassificationManager2::ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager2::put_ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager::ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager::get_ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager::put_ClassificationReportMailTo, get_ClassificationReportMailTo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - FsrmClassificationManager.ClassificationReportMailTo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassificationManager::get_ClassificationReportMailTo

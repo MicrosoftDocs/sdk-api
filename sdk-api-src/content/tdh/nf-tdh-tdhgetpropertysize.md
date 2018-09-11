@@ -4,17 +4,16 @@ title: TdhGetPropertySize function
 author: windows-sdk-content
 description: Retrieves the size of one or more property values in the event data.
 old-location: etw\tdhgetpropertysize_func.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 52b034db-b08b-4c79-973f-33800ca866f5
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: TdhGetPropertySize, TdhGetPropertySize function [ETW], etw.tdhgetpropertysize_func, tdh.tdhgetpropertysize_func, tdh/TdhGetPropertySize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEMPLATE_FLAGS
+req.lib: Tdh.lib
+req.dll: Tdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - TdhGetPropertySize
 product: Windows
 targetos: Windows
-req.lib: Tdh.lib
-req.dll: Tdh.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TdhGetPropertySize function

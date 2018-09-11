@@ -4,17 +4,16 @@ title: IUPnPDevice::IconURL
 author: windows-sdk-content
 description: The IconURL method returns a URL from which an icon of the specified format can be loaded.
 old-location: upnp\iupnpdevice_iconurl.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 17b3d4f1-a51a-42f9-8fc0-4156d4975889
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],IconURL method, IUPnPDevice.IconURL, IUPnPDevice::IconURL, IconURL, IconURL method [UPnP APIs], IconURL method [UPnP APIs],IUPnPDevice interface, _upnp_iupnpdevice_iconurl, upnp.iupnpdevice_iconurl, upnp/IUPnPDevice::IconURL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDevice.IconURL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDevice::IconURL

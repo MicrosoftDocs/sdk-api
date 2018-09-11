@@ -4,17 +4,16 @@ title: IUIAnimationStoryboard2::GetTag
 author: windows-sdk-content
 description: Gets the tag for a storyboard.
 old-location: uianimation\iuianimationstoryboard2_gettag.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: A73D5003-FC28-4A79-B157-3D0D2E0DEB3D
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetTag, GetTag method [Windows Animation], GetTag method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],GetTag method, IUIAnimationStoryboard2.GetTag, IUIAnimationStoryboard2::GetTag, uianimation.iuianimationstoryboard2_gettag, uianimation/IUIAnimationStoryboard2::GetTag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationStoryboard2.GetTag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationStoryboard2::GetTag

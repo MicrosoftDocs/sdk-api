@@ -4,7 +4,7 @@ title: "_DFS_INFO_300"
 author: windows-sdk-content
 description: Contains the name and type (domain-based or stand-alone) of a DFS namespace.
 old-location: dfs\dfs_info_300_str.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: b418517a-9313-49e9-a679-69b02f4ee37f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_INFO_300, *PDFS_INFO_300, *LPDFS_INFO_300
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DFS_INFO_300
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DFS_INFO_300, *PDFS_INFO_300, *LPDFS_INFO_300
+req.redist: 
 ---
 
 # _DFS_INFO_300 structure

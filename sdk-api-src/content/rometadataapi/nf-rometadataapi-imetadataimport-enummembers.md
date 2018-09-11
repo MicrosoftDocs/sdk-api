@@ -4,17 +4,16 @@ title: IMetaDataImport::EnumMembers
 author: windows-sdk-content
 description: Enumerates MemberDef tokens representing members of the specified type.
 old-location: winrt\imetadataimport_enummembers.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: cb1e90fe-e5c8-4f6d-b38a-ae7f46cb34e9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumMembers, EnumMembers method [Windows Runtime], EnumMembers method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMembers method, IMetaDataImport.EnumMembers, IMetaDataImport::EnumMembers, rometadataapi/IMetaDataImport::EnumMembers, winrt.imetadataimport_enummembers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.EnumMembers
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::EnumMembers

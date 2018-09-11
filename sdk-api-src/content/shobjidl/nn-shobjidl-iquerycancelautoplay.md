@@ -4,17 +4,16 @@ title: IQueryCancelAutoPlay
 author: windows-sdk-content
 description: Exposes a method that programmatically overrides AutoPlay or AutoRun. This allows you to customize the location and type of content that is launched when media is inserted.
 old-location: shell\IQueryCancelAutoPlay.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7dd470cd-163b-43e1-80d9-cdaa8b615858
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IQueryCancelAutoPlay, IQueryCancelAutoPlay interface [Windows Shell], IQueryCancelAutoPlay interface [Windows Shell],described, _shell_IQueryCancelAutoPlay, shell.IQueryCancelAutoPlay, shobjidl/IQueryCancelAutoPlay
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IQueryCancelAutoPlay
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IQueryCancelAutoPlay interface

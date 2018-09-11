@@ -4,17 +4,16 @@ title: IDWriteFontSet
 author: windows-sdk-content
 description: Represents a font set.
 old-location: directwrite\idwritefontset.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 0178f248-8dc0-c0ee-63c1-8db3f6ef94c3
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteFontSet, IDWriteFontSet interface [Direct Write], IDWriteFontSet interface [Direct Write],described, directwrite.idwritefontset, dwrite_3/IDWriteFontSet
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontSet
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontSet interface

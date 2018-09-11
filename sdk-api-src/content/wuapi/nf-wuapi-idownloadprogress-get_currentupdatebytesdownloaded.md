@@ -4,17 +4,16 @@ title: IDownloadProgress::get_CurrentUpdateBytesDownloaded
 author: windows-sdk-content
 description: Gets a string that specifies how much data has been transferred for the content file or files of the update that is being downloaded, in bytes.
 old-location: wua\idownloadprogress_currentupdatebytesdownloaded.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 48ba3ab9-405d-474b-a85b-fe70db343433
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CurrentUpdateBytesDownloaded property [Windows Update Agent], CurrentUpdateBytesDownloaded property [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],CurrentUpdateBytesDownloaded property, IDownloadProgress.CurrentUpdateBytesDownloaded, IDownloadProgress.get_CurrentUpdateBytesDownloaded, IDownloadProgress::CurrentUpdateBytesDownloaded, IDownloadProgress::get_CurrentUpdateBytesDownloaded, get_CurrentUpdateBytesDownloaded, wua.idownloadprogress_currentupdatebytesdownloaded, wuapi/IDownloadProgress::CurrentUpdateBytesDownloaded, wuapi/IDownloadProgress::get_CurrentUpdateBytesDownloaded
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDownloadProgress.get_CurrentUpdateBytesDownloaded
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IDownloadProgress::get_CurrentUpdateBytesDownloaded

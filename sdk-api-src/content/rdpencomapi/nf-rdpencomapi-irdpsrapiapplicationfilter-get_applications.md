@@ -4,17 +4,16 @@ title: IRDPSRAPIApplicationFilter::get_Applications
 author: windows-sdk-content
 description: The list of sharable applications.
 old-location: rdp\irdpsrapiapplicationfilter_applications.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 08704192-320d-44f2-a811-f8565285bd30
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Applications property [RDP], Applications property [RDP],IRDPSRAPIApplicationFilter interface, Applications property [RDP],RDPSRAPIApplicationFilter object, IRDPSRAPIApplicationFilter interface [RDP],Applications property, IRDPSRAPIApplicationFilter.Applications, IRDPSRAPIApplicationFilter.get_Applications, IRDPSRAPIApplicationFilter::Applications, IRDPSRAPIApplicationFilter::get_Applications, RDPSRAPIApplicationFilter object [RDP],Applications property, get_Applications, rdp.irdpsrapiapplicationfilter_applications, rdpencomapi/IRDPSRAPIApplicationFilter::Applications, rdpencomapi/IRDPSRAPIApplicationFilter::get_Applications
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RDPSRAPIApplicationFilter.Applications
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIApplicationFilter::get_Applications

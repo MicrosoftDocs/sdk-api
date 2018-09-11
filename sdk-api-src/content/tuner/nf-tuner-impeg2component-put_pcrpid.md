@@ -4,17 +4,16 @@ title: IMPEG2Component::put_PCRPID
 author: windows-sdk-content
 description: The put_PCRPID method sets the packet identifier (PID) for the packets that contain the PCR for this substream.
 old-location: mstv\impeg2component_put_pcrpid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: cfe55ec9-cf07-40c5-98da-cb23393490d0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],put_PCRPID method, IMPEG2Component.put_PCRPID, IMPEG2Component::put_PCRPID, IMPEG2Componentput_PCRPID, mstv.impeg2component_put_pcrpid, put_PCRPID, put_PCRPID method [Microsoft TV Technologies], put_PCRPID method [Microsoft TV Technologies],IMPEG2Component interface, tuner/IMPEG2Component::put_PCRPID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMPEG2Component.put_PCRPID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IMPEG2Component::put_PCRPID

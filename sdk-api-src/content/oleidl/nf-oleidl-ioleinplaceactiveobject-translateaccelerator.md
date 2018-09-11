@@ -4,17 +4,16 @@ title: IOleInPlaceActiveObject::TranslateAccelerator
 author: windows-sdk-content
 description: Processes menu accelerator-key messages from the container's message queue. This method should only be used for objects created by a DLL object application.
 old-location: com\ioleinplaceactiveobject_translateaccelerator.htm
-old-project: com
+tech.root: com
 ms.assetid: ce460c52-c7aa-4ee4-955e-76407af7cf1e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],TranslateAccelerator method, IOleInPlaceActiveObject.TranslateAccelerator, IOleInPlaceActiveObject::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_translateaccelerator, com.ioleinplaceactiveobject_translateaccelerator, oleidl/IOleInPlaceActiveObject::TranslateAccelerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceActiveObject.TranslateAccelerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceActiveObject::TranslateAccelerator

@@ -4,7 +4,7 @@ title: tagNapNotifyType
 author: windows-sdk-content
 description: Enumerates the types of service notifications sent by the NapAgent service.
 old-location: nap\napnotifytype.htm
-old-project: nap
+tech.root: nap
 ms.assetid: dc573bff-9f28-4aa1-8787-e2a2dccf9859
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: naptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: LoadMUILibraryW (Unicode) and LoadMUILibraryA (ANSI)
+req.unicode-ansi: 
 req.idl: NapTypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NapNotifyType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NapNotifyType
 product: Windows
 targetos: Windows
-req.lib: Muiload.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NapNotifyType
+req.redist: 
 ---
 
 # tagNapNotifyType enumeration

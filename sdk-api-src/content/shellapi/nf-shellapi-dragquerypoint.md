@@ -4,17 +4,16 @@ title: DragQueryPoint function
 author: windows-sdk-content
 description: Retrieves the position of the mouse pointer at the time a file was dropped during a drag-and-drop operation.
 old-location: shell\DragQueryPoint.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 87794ab0-a075-4a1f-869f-5998bdc57a1d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DragQueryPoint, DragQueryPoint function [Windows Shell], _win32_DragQueryPoint, shell.DragQueryPoint, shellapi/DragQueryPoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DragQueryPoint
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DragQueryPoint function

@@ -4,17 +4,16 @@ title: ICDecompressOpen macro
 author: windows-sdk-content
 description: The ICDecompressOpen macro opens a decompressor that is compatible with the specified formats.
 old-location: multimedia\icdecompressopen.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 83db0e07-7e93-4c77-a017-68a30b1372ef
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICDecompressOpen, ICDecompressOpen macro [Windows Multimedia], _win32_ICDecompressOpen, multimedia.icdecompressopen, vfw/ICDecompressOpen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDecompressOpen
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICDecompressOpen macro

@@ -4,17 +4,16 @@ title: IMcastScope::get_ServerID
 author: windows-sdk-content
 description: The get_ServerID method obtains the server ID associated with this scope.
 old-location: tapi3\imcastscope_get_serverid.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 80c0ecca-647f-4e5e-92d6-fc95368715ad
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IMcastScope interface [TAPI 2.2],get_ServerID method, IMcastScope.get_ServerID, IMcastScope::get_ServerID, _tapi3_imcastscope_get_serverid, get_ServerID, get_ServerID method [TAPI 2.2], get_ServerID method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_ServerID, tapi3.imcastscope_get_serverid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMcastScope.get_ServerID
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Mdhcp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMcastScope::get_ServerID

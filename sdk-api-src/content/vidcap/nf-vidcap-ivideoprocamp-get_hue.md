@@ -4,17 +4,16 @@ title: IVideoProcAmp::get_Hue
 author: windows-sdk-content
 description: The get_Hue method returns the camera's hue setting.
 old-location: dshow\ivideoprocamp_get_hue.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: dfdd44b5-fd39-40da-95b8-9008aef10f9a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Hue method, IVideoProcAmp.get_Hue, IVideoProcAmp::get_Hue, IVideoProcAmpget_Hue, dshow.ivideoprocamp_get_hue, get_Hue, get_Hue method [DirectShow], get_Hue method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Hue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVideoProcAmp.get_Hue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoProcAmp::get_Hue

@@ -4,17 +4,16 @@ title: IDCompositionAffineTransform2DEffect::SetSharpness(IDCompositionAnimation
 author: windows-sdk-content
 description: Sets the sharpness of the effect.
 old-location: directcomp\idcompositionaffinetransform2deffect_setsharpness.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: F55B942C-F55E-4F19-A838-568F4BF4ED47
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionAffineTransform2DEffect interface [DirectComposition],SetSharpness method, IDCompositionAffineTransform2DEffect.SetSharpness, IDCompositionAffineTransform2DEffect.SetSharpness(IDCompositionAnimation), IDCompositionAffineTransform2DEffect::SetSharpness, IDCompositionAffineTransform2DEffect::SetSharpness(IDCompositionAnimation), SetSharpness, SetSharpness method [DirectComposition], SetSharpness method [DirectComposition],IDCompositionAffineTransform2DEffect interface, dcomp/IDCompositionAffineTransform2DEffect::SetSharpness, directcomp.idcompositionaffinetransform2deffect_setsharpness
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionAffineTransform2DEffect.SetSharpness
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionAffineTransform2DEffect::SetSharpness(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Sets the sharpness of the effect.
 
 ### -param animation
 
-
+TBD
 
 
 

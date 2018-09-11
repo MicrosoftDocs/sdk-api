@@ -4,17 +4,16 @@ title: IDiskQuotaControl::CreateEnumUsers
 author: windows-sdk-content
 description: Creates an enumerator object for enumerating quota users on the volume.
 old-location: fs\idiskquotacontrol_createenumusers.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: a29e1955-80e2-442d-9565-c885006be565
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateEnumUsers, CreateEnumUsers method [Files], CreateEnumUsers method [Files],IDiskQuotaControl interface, DISKQUOTA_USERNAME_RESOLVE_ASYNC, DISKQUOTA_USERNAME_RESOLVE_NONE, DISKQUOTA_USERNAME_RESOLVE_SYNC, IDiskQuotaControl interface [Files],CreateEnumUsers method, IDiskQuotaControl.CreateEnumUsers, IDiskQuotaControl::CreateEnumUsers, _win32_idiskquotacontrol_createenumusers, base.idiskquotacontrol_createenumusers, dskquota/IDiskQuotaControl::CreateEnumUsers, fs.idiskquotacontrol_createenumusers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaControl.CreateEnumUsers
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaControl::CreateEnumUsers

@@ -4,17 +4,16 @@ title: "_PS_CONFORMER_STATS"
 author: windows-sdk-content
 description: The PS_CONFORMER_STATS structure provides statistical packet shaper information about a particular flow. Note that the PS_CONFORMER_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.
 old-location: qos\ps_conformer_stats.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 709274fe-de56-4f86-9002-71f0ee333ace
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPS_CONFORMER_STATS, PPS_CONFORMER_STATS, PPS_CONFORMER_STATS structure pointer [QOS], PS_CONFORMER_STATS, PS_CONFORMER_STATS structure [QOS], _PS_CONFORMER_STATS, _gqos_ps_conformer_stats, ntddpsch/PPS_CONFORMER_STATS, ntddpsch/PS_CONFORMER_STATS, qos.ps_conformer_stats"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntddpsch.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PS_CONFORMER_STATS, *PPS_CONFORMER_STATS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PS_CONFORMER_STATS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: PS_CONFORMER_STATS, *PPS_CONFORMER_STATS
+req.redist: 
 ---
 
 # _PS_CONFORMER_STATS structure

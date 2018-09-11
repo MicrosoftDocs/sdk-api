@@ -4,17 +4,16 @@ title: IFsiDirectoryItem::Add
 author: windows-sdk-content
 description: Adds a file or directory described by the IFsiItem object to the file system image.
 old-location: imapi\ifsidirectoryitem_add.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: f4855907-89e5-4127-9307-35970046a236
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Add, Add method [IMAPI], Add method [IMAPI],IFsiDirectoryItem interface, IFsiDirectoryItem interface [IMAPI],Add method, IFsiDirectoryItem.Add, IFsiDirectoryItem::Add, imapi.ifsidirectoryitem_add, imapi2fs/IFsiDirectoryItem::Add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsiDirectoryItem.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFsiDirectoryItem::Add

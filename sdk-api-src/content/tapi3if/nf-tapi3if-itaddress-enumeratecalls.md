@@ -4,17 +4,16 @@ title: ITAddress::EnumerateCalls
 author: windows-sdk-content
 description: The EnumerateCalls method enumerates calls on the current address. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Calls method.
 old-location: tapi3\itaddress_enumeratecalls.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 2ffa90bf-3005-4fd0-b52f-b155c8b2194f
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumerateCalls, EnumerateCalls method [TAPI 2.2], EnumerateCalls method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],EnumerateCalls method, ITAddress.EnumerateCalls, ITAddress::EnumerateCalls, _tapi3_itaddress_enumeratecalls, tapi3.itaddress_enumeratecalls, tapi3if/ITAddress::EnumerateCalls
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddress.EnumerateCalls
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddress::EnumerateCalls

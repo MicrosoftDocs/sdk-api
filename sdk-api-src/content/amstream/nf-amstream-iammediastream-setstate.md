@@ -4,17 +4,16 @@ title: IAMMediaStream::SetState
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SetState method sets the filter state.
 old-location: dshow\iammediastream_setstate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 2134c2cf-4d78-438c-8fb9-a96f87f682d9
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMMediaStream interface [DirectShow],SetState method, IAMMediaStream.SetState, IAMMediaStream::SetState, IAMMediaStreamSetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::SetState, dshow.iammediastream_setstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAMMediaStream.SetState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMediaStream::SetState

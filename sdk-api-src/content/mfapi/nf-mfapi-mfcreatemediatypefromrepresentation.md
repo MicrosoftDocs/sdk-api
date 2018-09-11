@@ -4,17 +4,16 @@ title: MFCreateMediaTypeFromRepresentation function
 author: windows-sdk-content
 description: Creates a Media Foundation media type from another format representation.
 old-location: mf\mfcreatemediatypefromrepresentation.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5d85c47e-2e40-45f2-8f17-52f642652112
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 5d85c47e-2e40-45f2-8f17-52f642652112, MFCreateMediaTypeFromRepresentation, MFCreateMediaTypeFromRepresentation function [Media Foundation], mf.mfcreatemediatypefromrepresentation, mfapi/MFCreateMediaTypeFromRepresentation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateMediaTypeFromRepresentation
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateMediaTypeFromRepresentation function

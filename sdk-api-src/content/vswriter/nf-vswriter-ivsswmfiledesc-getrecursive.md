@@ -4,17 +4,16 @@ title: IVssWMFiledesc::GetRecursive
 author: windows-sdk-content
 description: Indicates whether the list of files described in a IVssWMFiledesc object with a root directory returned by IVssWMFiledesc::GetPath contains only files in that directory.
 old-location: base\ivsswmfiledesc_getrecursive.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: f467bd6f-997b-4d5f-87a4-727d9a84a222
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetRecursive, GetRecursive method [VSS], GetRecursive method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetRecursive method, IVssWMFiledesc.GetRecursive, IVssWMFiledesc::GetRecursive, _win32_ivsswmfiledesc_getrecursive, base.ivsswmfiledesc_getrecursive, vswriter/IVssWMFiledesc::GetRecursive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssWMFiledesc.GetRecursive
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssWMFiledesc::GetRecursive

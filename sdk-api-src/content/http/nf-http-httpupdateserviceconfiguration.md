@@ -4,17 +4,16 @@ title: HttpUpdateServiceConfiguration function
 author: windows-sdk-content
 description: Updates atomically a service configuration parameter that specifies a Transport Layer Security (TLS) certificate in a configuration record within the HTTP Server API configuration store.
 old-location: http\httpupdateserviceconfiguration.htm
-old-project: http
+tech.root: http
 ms.assetid: B2102444-1183-4133-A83F-A58587FB6B89
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpUpdateServiceConfiguration, HttpUpdateServiceConfiguration function [HTTP], http.httpupdateserviceconfiguration, http/HttpUpdateServiceConfiguration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERB, *PHTTP_VERB
+req.lib: Httpapi.lib
+req.dll: Httpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HttpUpdateServiceConfiguration
 product: Windows
 targetos: Windows
-req.lib: Httpapi.lib
-req.dll: Httpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HttpUpdateServiceConfiguration function

@@ -4,17 +4,16 @@ title: IMetaDataTables::GetStringHeapSize
 author: windows-sdk-content
 description: Gets the size, in bytes, of the string heap.
 old-location: winrt\imetadatatables_getstringheapsize.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 7c830b7c-2651-4efb-9d2d-989b5c25b72e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetStringHeapSize, GetStringHeapSize method [Windows Runtime], GetStringHeapSize method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetStringHeapSize method, IMetaDataTables.GetStringHeapSize, IMetaDataTables::GetStringHeapSize, rometadataapi/IMetaDataTables::GetStringHeapSize, winrt.imetadatatables_getstringheapsize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataTables.GetStringHeapSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataTables::GetStringHeapSize

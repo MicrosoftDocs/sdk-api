@@ -4,17 +4,16 @@ title: IDWriteTextAnalyzer1::GetBaseline
 author: windows-sdk-content
 description: Retrieves the given baseline from the font.
 old-location: directwrite\idwritetextanalyzer1_getbaseline.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 5ACD5075-BD96-41FC-AE36-8D5D03F2EB54
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetBaseline, GetBaseline method [Direct Write], GetBaseline method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetBaseline method, IDWriteTextAnalyzer1.GetBaseline, IDWriteTextAnalyzer1::GetBaseline, directwrite.idwritetextanalyzer1_getbaseline, dwrite_1/IDWriteTextAnalyzer1::GetBaseline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextAnalyzer1.GetBaseline
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextAnalyzer1::GetBaseline

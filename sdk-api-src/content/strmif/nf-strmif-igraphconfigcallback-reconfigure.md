@@ -4,17 +4,16 @@ title: IGraphConfigCallback::Reconfigure
 author: windows-sdk-content
 description: The Reconfigure method is a callback method passed to IGraphConfig::Reconfigure.
 old-location: dshow\igraphconfigcallback_reconfigure.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b4f44639-b3b0-412e-8b71-e1f994dee0e6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IGraphConfigCallback interface [DirectShow],Reconfigure method, IGraphConfigCallback.Reconfigure, IGraphConfigCallback::Reconfigure, IGraphConfigCallbackReconfigure, Reconfigure, Reconfigure method [DirectShow], Reconfigure method [DirectShow],IGraphConfigCallback interface, dshow.igraphconfigcallback_reconfigure, strmif/IGraphConfigCallback::Reconfigure
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGraphConfigCallback.Reconfigure
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IGraphConfigCallback::Reconfigure

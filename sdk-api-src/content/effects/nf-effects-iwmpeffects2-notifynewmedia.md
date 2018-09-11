@@ -4,17 +4,16 @@ title: IWMPEffects2::NotifyNewMedia
 author: windows-sdk-content
 description: The NotifyNewMedia method is called by Windows Media Player to inform the visualization that a new media item has been loaded.
 old-location: wmp\iwmpeffects2_notifynewmedia.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: ad1082af-9cba-4427-bacb-e552910f8e16
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPEffects2 interface [Windows Media Player],NotifyNewMedia method, IWMPEffects2.NotifyNewMedia, IWMPEffects2::NotifyNewMedia, IWMPEffectsNotifyNewMedia, NotifyNewMedia, NotifyNewMedia method [Windows Media Player], NotifyNewMedia method [Windows Media Player],IWMPEffects2 interface, effects/IWMPEffects2::NotifyNewMedia, wmp.iwmpeffects2_notifynewmedia
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEffects2.NotifyNewMedia
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEffects2::NotifyNewMedia

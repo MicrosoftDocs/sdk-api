@@ -4,17 +4,16 @@ title: MprAdminGetIpv6AddressForUser function
 author: windows-sdk-content
 description: RAS calls the MprAdminGetIpv6AddressForUser function once for each user that requires an IPv6 address.
 old-location: rras\mpradmingetipv6addressforuser.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: ec4b4130-4864-470f-8647-1fcadd359c58
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminGetIpv6AddressForUser, MprAdminGetIpv6AddressForUser callback, MprAdminGetIpv6AddressForUser callback function [RAS], mprapi/MprAdminGetIpv6AddressForUser, rras.mpradmingetipv6addressforuser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminGetIpv6AddressForUser
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminGetIpv6AddressForUser function

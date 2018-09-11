@@ -4,17 +4,16 @@ title: WlanExtractPsdIEDataList function
 author: windows-sdk-content
 description: Extracts the proximity service discovery (PSD) information element (IE) data list from raw IE data included in a beacon.
 old-location: nwifi\wlanextractpsdiedatalist.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 7fb6707f-c229-4386-9058-e290693a20ce
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WlanExtractPsdIEDataList, WlanExtractPsdIEDataList function [NativeWIFI], nwifi.wlanextractpsdiedatalist, wlanapi/WlanExtractPsdIEDataList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
+req.lib: Wlanapi.lib
+req.dll: Wlanapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WlanExtractPsdIEDataList
 product: Windows
 targetos: Windows
-req.lib: Wlanapi.lib
-req.dll: Wlanapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WlanExtractPsdIEDataList function

@@ -4,17 +4,16 @@ title: ID2D1DrawingStateBlock1::SetDescription
 author: windows-sdk-content
 description: Sets the D2D1_DRAWING_STATE_DESCRIPTION1 associated with this drawing state block.
 old-location: direct2d\id2d1drawingstateblock1_setdescription1.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: B07A36E3-F351-439E-A085-A71E1A58DD45
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1DrawingStateBlock1 interface [Direct2D],SetDescription method, ID2D1DrawingStateBlock1.SetDescription, ID2D1DrawingStateBlock1::SetDescription, SetDescription, SetDescription method [Direct2D], SetDescription method [Direct2D],ID2D1DrawingStateBlock1 interface, d2d1_1/ID2D1DrawingStateBlock1::SetDescription, direct2d.id2d1drawingstateblock1_setdescription1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DrawingStateBlock1.SetDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DrawingStateBlock1::SetDescription
@@ -61,7 +60,7 @@ Sets the <a href="https://msdn.microsoft.com/E1BFF353-8445-435C-8F7A-E93BFE58A79
 
 ### -param stateDescription
 
-
+TBD
 
 
 

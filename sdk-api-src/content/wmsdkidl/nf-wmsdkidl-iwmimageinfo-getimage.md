@@ -4,17 +4,16 @@ title: IWMImageInfo::GetImage
 author: windows-sdk-content
 description: The GetImage method retrieves an image stored in a file as an ID3v2 &#0034;APIC&#0034; metadata frame.
 old-location: wmformat\iwmimageinfo_getimage.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: fe1dcd53-fcdd-4190-9a07-65d0b34112d0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetImage, GetImage method [windows Media Format], GetImage method [windows Media Format],IWMImageInfo interface, IWMImageInfo interface [windows Media Format],GetImage method, IWMImageInfo.GetImage, IWMImageInfo::GetImage, IWMImageInfoGetImage, wmformat.iwmimageinfo_getimage, wmsdkidl/IWMImageInfo::GetImage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMImageInfo.GetImage
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMImageInfo::GetImage

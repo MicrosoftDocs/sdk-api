@@ -4,17 +4,16 @@ title: IDvbMultilingualServiceNameDescriptor::GetCountOfRecords
 author: windows-sdk-content
 description: Gets the number of service records in a Digital Video Broadcast (DVB) multilingual service name descriptor.
 old-location: mstv\idvbmultilingualservicenamedescriptor_getcountofrecords.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c157e520-696f-45d8-8e43-0e6845882404
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbMultilingualServiceNameDescriptor.GetCountOfRecords, IDvbMultilingualServiceNameDescriptor::GetCountOfRecords, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetCountOfRecords, mstv.idvbmultilingualservicenamedescriptor_getcountofrecords
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbMultilingualServiceNameDescriptor.GetCountOfRecords
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbMultilingualServiceNameDescriptor::GetCountOfRecords

@@ -4,17 +4,16 @@ title: StringCchPrintfW function
 author: windows-sdk-content
 description: Writes formatted data to the specified string.
 old-location: menurc\stringcchprintf.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchprintf.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StringCchPrintf, StringCchPrintf function [Menus and Other Resources], StringCchPrintfA, StringCchPrintfW, _shell_StringCchPrintf, _shell_stringcchprintf_cpp, menurc.stringcchprintf, strsafe/StringCchPrintf, strsafe/StringCchPrintfA, strsafe/StringCchPrintfW, winui._shell_stringcchprintf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_DVD_RENDERSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - StringCchPrintfW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # StringCchPrintfW function
@@ -94,7 +92,14 @@ Type: <b>LPCTSTR</b>
 The format string. This string must be null-terminated. For more information, see <a href="https://msdn.microsoft.com/en-us/library/56e442dc.aspx">Format Specification Syntax</a>.
 
 
-### -param param [in]
+### -param arg1
+
+TBD
+
+
+
+
+#### - param [in]
 
 The arguments to be inserted into the <i>pszFormat</i> string.
 

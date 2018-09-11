@@ -4,17 +4,16 @@ title: IDirect3D9::GetAdapterDisplayMode
 author: windows-sdk-content
 description: Retrieves the current display mode of the adapter.
 old-location: direct3d9\idirect3d9__getadapterdisplaymode.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__getadapterdisplaymode.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetAdapterDisplayMode, GetAdapterDisplayMode method [Direct3D 9], GetAdapterDisplayMode method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],GetAdapterDisplayMode method, IDirect3D9.GetAdapterDisplayMode, IDirect3D9::GetAdapterDisplayMode, a03b5255-0046-403d-b90f-e76191710598, d3d9helper/IDirect3D9::GetAdapterDisplayMode, direct3d9.idirect3d9__getadapterdisplaymode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3D9.GetAdapterDisplayMode
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3D9::GetAdapterDisplayMode

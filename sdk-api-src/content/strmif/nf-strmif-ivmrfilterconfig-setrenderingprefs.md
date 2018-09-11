@@ -4,17 +4,16 @@ title: IVMRFilterConfig::SetRenderingPrefs
 author: windows-sdk-content
 description: The SetRenderingPrefs method sets various application preferences related to video rendering.
 old-location: dshow\ivmrfilterconfig_setrenderingprefs.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1374d071-f396-4fcb-8ca2-ac3986960207
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRFilterConfig interface [DirectShow],SetRenderingPrefs method, IVMRFilterConfig.SetRenderingPrefs, IVMRFilterConfig::SetRenderingPrefs, IVMRFilterConfigSetRenderingPrefs, SetRenderingPrefs, SetRenderingPrefs method [DirectShow], SetRenderingPrefs method [DirectShow],IVMRFilterConfig interface, dshow.ivmrfilterconfig_setrenderingprefs, strmif/IVMRFilterConfig::SetRenderingPrefs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRFilterConfig.SetRenderingPrefs
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRFilterConfig::SetRenderingPrefs

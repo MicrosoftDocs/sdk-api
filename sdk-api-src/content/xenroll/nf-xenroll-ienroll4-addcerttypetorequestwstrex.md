@@ -4,17 +4,16 @@ title: IEnroll4::AddCertTypeToRequestWStrEx
 author: windows-sdk-content
 description: Adds a certificate template (also known as certificate type) to a request.
 old-location: security\ienroll4_addcerttypetorequestwstrex.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: aa3bab0d-2ed4-4ef2-9665-a6c70e14308d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: AddCertTypeToRequestWStrEx, AddCertTypeToRequestWStrEx method [Security], AddCertTypeToRequestWStrEx method [Security],IEnroll4 interface, IEnroll4 interface [Security],AddCertTypeToRequestWStrEx method, IEnroll4.AddCertTypeToRequestWStrEx, IEnroll4::AddCertTypeToRequestWStrEx, XECT_EXTENSION_V1, XECT_EXTENSION_V2, security.ienroll4_addcerttypetorequestwstrex, xenroll/IEnroll4::AddCertTypeToRequestWStrEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnroll4.AddCertTypeToRequestWStrEx
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll4::AddCertTypeToRequestWStrEx

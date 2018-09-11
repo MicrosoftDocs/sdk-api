@@ -4,7 +4,7 @@ title: ITsSbTaskPlugin
 author: windows-sdk-content
 description: Exposes methods that update the queue of tasks for Remote Desktop Connection Broker plugins.
 old-location: termserv\itssbtaskplugin.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 56463b47-c2f2-43b7-884f-d6fab9bebbf0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbTaskPlugin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbTaskPlugin interface

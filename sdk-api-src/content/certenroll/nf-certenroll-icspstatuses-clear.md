@@ -4,17 +4,16 @@ title: ICspStatuses::Clear
 author: windows-sdk-content
 description: Removes all ICspStatus objects from the collection.
 old-location: security\icspstatuses_clear_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 6a959d88-3ee6-4233-8fc7-23c60b24c14e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICspStatuses interface, ICspStatuses interface [Security],Clear method, ICspStatuses.Clear, ICspStatuses::Clear, certenroll/ICspStatuses::Clear, security.icspstatuses_clear_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICspStatuses.Clear
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspStatuses::Clear

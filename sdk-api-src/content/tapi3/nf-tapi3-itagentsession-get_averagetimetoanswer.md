@@ -4,17 +4,16 @@ title: ITAgentSession::get_AverageTimeToAnswer
 author: windows-sdk-content
 description: The get_AverageTimeToAnswer method gets the average time (in seconds) that calls waited to be answered.
 old-location: tapi3\itagentsession_get_averagetimetoanswer.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 24d2b9ee-4fd0-41d3-add1-5c136944a250
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_AverageTimeToAnswer method, ITAgentSession.get_AverageTimeToAnswer, ITAgentSession::get_AverageTimeToAnswer, _tapi3_itagentsession_get_averagetimetoanswer, get_AverageTimeToAnswer, get_AverageTimeToAnswer method [TAPI 2.2], get_AverageTimeToAnswer method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_averagetimetoanswer, tapi3cc/ITAgentSession::get_AverageTimeToAnswer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentSession.get_AverageTimeToAnswer
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentSession::get_AverageTimeToAnswer

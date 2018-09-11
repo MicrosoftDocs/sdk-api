@@ -4,17 +4,16 @@ title: AddSecureMemoryCacheCallback function
 author: windows-sdk-content
 description: Registers a callback function to be called when a secured memory range is freed or its protections are changed.
 old-location: base\addsecurememorycachecallback.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 6c89d6f3-182e-4b10-931c-8d55d603c9dc
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: AddSecureMemoryCacheCallback, AddSecureMemoryCacheCallback function, base.addsecurememorycachecallback, winbase/AddSecureMemoryCacheCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AddSecureMemoryCacheCallback
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # AddSecureMemoryCacheCallback function

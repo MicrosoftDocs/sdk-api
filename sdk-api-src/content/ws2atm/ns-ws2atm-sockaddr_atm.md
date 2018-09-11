@@ -4,17 +4,16 @@ title: sockaddr_atm
 author: windows-sdk-content
 description: The Windows Sockets sockaddr_atm structure stores socket address information for ATM sockets.
 old-location: winsock\sockaddr_atm_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 6cbeb19f-0aa8-48a1-a46a-691edc542d5a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSOCKADDR_ATM, *PSOCKADDR_ATM, LPSOCKADDR_ATM, LPSOCKADDR_ATM structure pointer [Winsock], PSOCKADDR_ATM, PSOCKADDR_ATM structure pointer [Winsock], SOCKADDR_ATM, SOCKADDR_ATM structure [Winsock], _win32_sockaddr_atm_2, sockaddr_atm, sockaddr_atm structure [Winsock], winsock.sockaddr_atm_2, ws2atm/LPSOCKADDR_ATM, ws2atm/PSOCKADDR_ATM, ws2atm/SOCKADDR_ATM, ws2atm/sockaddr_atm"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2atm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: sockaddr_atm, SOCKADDR_ATM, *PSOCKADDR_ATM, *LPSOCKADDR_ATM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - sockaddr_atm
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: sockaddr_atm, SOCKADDR_ATM, *PSOCKADDR_ATM, *LPSOCKADDR_ATM
+req.redist: 
 ---
 
 # sockaddr_atm structure

@@ -4,17 +4,16 @@ title: X509SCEPFailInfo
 author: windows-sdk-content
 description: Describes the nature of an SCEP certificate enrollment failure.
 old-location: security\x509scepfailinfo.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: A2C314FB-A348-41CE-9736-2BDE05F7E70E
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: SCEPFailBadAlgorithm, SCEPFailBadCertId, SCEPFailBadMessageCheck, SCEPFailBadRequest, SCEPFailBadTime, X509SCEPFailInfo, X509SCEPFailInfo enumeration [Security], certpol/SCEPFailBadAlgorithm, certpol/SCEPFailBadCertId, certpol/SCEPFailBadMessageCheck, certpol/SCEPFailBadRequest, certpol/SCEPFailBadTime, certpol/X509SCEPFailInfo, security.x509scepfailinfo
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: certpol.h
 req.include-header: CertEnroll.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509SCEPFailInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X509SCEPFailInfo
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: 
-req.irql: 
+req.typenames: X509SCEPFailInfo
+req.redist: 
 ---
 
 # X509SCEPFailInfo enumeration

@@ -4,17 +4,16 @@ title: ID3D10Blob::GetBufferPointer
 author: windows-sdk-content
 description: Gets a pointer to the data.
 old-location: direct3d11\id3d10blob_getbufferpointer.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 21ABCED3-388E-41AD-B557-DA8707128B01
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetBufferPointer, GetBufferPointer method [Direct3D 11], GetBufferPointer method [Direct3D 11],ID3D10Blob interface, ID3D10Blob interface [Direct3D 11],GetBufferPointer method, ID3D10Blob.GetBufferPointer, ID3D10Blob::GetBufferPointer, d3dcommon/ID3D10Blob::GetBufferPointer, direct3d11.id3d10blob_getbufferpointer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3dcommon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_VARIABLE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10Blob.GetBufferPointer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Blob::GetBufferPointer

@@ -4,17 +4,16 @@ title: NetDfsRemoveStdRoot function
 author: windows-sdk-content
 description: Deletes a stand-alone Distributed File System (DFS) namespace.
 old-location: dfs\netdfsremovestdroot.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: 850427cc-56da-45cc-8833-e242acc53589
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: NetDfsRemoveStdRoot, NetDfsRemoveStdRoot function [Distributed File System], _win32_netdfsremovestdroot, dfs.netdfsremovestdroot, fs.netdfsremovestdroot, lmdfs/NetDfsRemoveStdRoot, netmgmt.netdfsremovestdroot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_TARGET_PRIORITY_CLASS
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetDfsRemoveStdRoot
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetDfsRemoveStdRoot function

@@ -4,17 +4,16 @@ title: PSYMBOL_FUNCENTRY_CALLBACK64
 author: windows-sdk-content
 description: An application-defined callback function used with the SymRegisterFunctionEntryCallback64 function. It is called by the stack walking procedure.
 old-location: base\symregisterfunctionentrycallbackproc64.htm
-old-project: debug
+tech.root: debug
 ms.assetid: cd10dfeb-451f-4d6d-ae1c-ecca75f86f3d
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: PSYMBOL_FUNCENTRY_CALLBACK, PSYMBOL_FUNCENTRY_CALLBACK64, SymRegisterFunctionEntryCallbackProc64, SymRegisterFunctionEntryCallbackProc64 callback, SymRegisterFunctionEntryCallbackProc64 callback function, _win32_symregisterfunctionentrycallbackproc64, base.symregisterfunctionentrycallbackproc64, dbghelp/SymRegisterFunctionEntryCallbackProc64
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DAV_CALLBACK_CRED, *PDAV_CALLBACK_CRED
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SymRegisterFunctionEntryCallbackProc64
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # PSYMBOL_FUNCENTRY_CALLBACK64 callback function

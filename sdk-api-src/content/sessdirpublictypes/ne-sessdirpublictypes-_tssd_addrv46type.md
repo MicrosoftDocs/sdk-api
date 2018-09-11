@@ -4,7 +4,7 @@ title: "_TSSD_AddrV46Type"
 author: windows-sdk-content
 description: Indicates the IP address type.
 old-location: termserv\tssd_addrv46type.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 3c79234e-3ded-4911-8a83-2e69d3a6294a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sessdirpublictypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_AddrV46Type
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSSD_AddrV46Type
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: TSSD_AddrV46Type
+req.redist: 
 ---
 
 # _TSSD_AddrV46Type enumeration

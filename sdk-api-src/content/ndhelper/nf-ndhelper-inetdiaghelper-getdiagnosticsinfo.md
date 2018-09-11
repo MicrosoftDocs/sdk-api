@@ -4,17 +4,16 @@ title: INetDiagHelper::GetDiagnosticsInfo
 author: windows-sdk-content
 description: Enables the Helper Class Extension instance to provide an estimate.
 old-location: ndf\inetdiaghelpe_getdiagnosticsinfo.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: bc162b1b-a22e-4ee3-96a6-c2eecc13e479
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDiagnosticsInfo, GetDiagnosticsInfo method [NDF], GetDiagnosticsInfo method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetDiagnosticsInfo method, INetDiagHelper.GetDiagnosticsInfo, INetDiagHelper::GetDiagnosticsInfo, ndf.inetdiaghelpe_getdiagnosticsinfo, ndhelper/INetDiagHelper::GetDiagnosticsInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REPAIR_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetDiagHelper.GetDiagnosticsInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetDiagHelper::GetDiagnosticsInfo

@@ -4,17 +4,16 @@ title: IMFCaptureSource::GetService
 author: windows-sdk-content
 description: Gets a pointer to the underlying Source Reader object.
 old-location: mf\imfcapturesource_getservice.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 67A77196-A499-4C28-8A35-CFB130B85D79
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetService, GetService method [Media Foundation], GetService method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetService method, IMFCaptureSource.GetService, IMFCaptureSource::GetService, mf.imfcapturesource_getservice, mfcaptureengine/IMFCaptureSource::GetService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCaptureSource.GetService
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCaptureSource::GetService

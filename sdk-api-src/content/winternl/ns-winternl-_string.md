@@ -4,17 +4,16 @@ title: "_STRING"
 author: windows-sdk-content
 description: Used with the RtlUnicodeStringToOemString function.
 old-location: winprog\_win32_string.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\string.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSTRING, ANSI_STRING, OEM_STRING, OEM_STRING structure [Windows API], PSTRING, PSTRING structure pointer [Windows API], STRING, STRING structure [Windows API], _STRING, _win32_STRING, winprog._win32_string, winternl/OEM_STRING, winternl/PSTRING, winternl/STRING, winui._win32_string"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winternl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STRING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STRING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: STRING
+req.redist: 
 ---
 
 # _STRING structure

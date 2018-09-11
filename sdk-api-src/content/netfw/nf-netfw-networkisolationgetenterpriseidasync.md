@@ -4,17 +4,16 @@ title: NetworkIsolationGetEnterpriseIdAsync function
 author: windows-sdk-content
 description: Gets the Enterprise ID based on Network Isolation endpoints in the context of the Windows Information Protection (WIP) or the Windows Defender Application Guard (WDAG) scenarios.
 old-location: ics\networkisolationgetenterpriseidasync.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 709211F9-FE7A-4C43-AD35-101C4B64ED26
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: NETISO_GEID_DEFAULT, NETISO_GEID_FORCE_TO_CHECK, NETISO_GEID_FOR_NEUTRAL_AWARE, NETISO_GEID_FOR_WDAG, NetworkIsolationGetEnterpriseIdAsync, NetworkIsolationGetEnterpriseIdAsync function [ICS/ICF], ics.networkisolationgetenterpriseidasync, netfw/NetworkIsolationGetEnterpriseIdAsync
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: Firewallapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetworkIsolationGetEnterpriseIdAsync
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Firewallapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NetworkIsolationGetEnterpriseIdAsync function

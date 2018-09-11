@@ -4,17 +4,16 @@ title: D3DX11CreateFFT3DComplex function
 author: windows-sdk-content
 description: Creates an ID3DX11FFT COM interface object.
 old-location: direct3d11\d3dx11createfft3dcomplex.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: ca83d358-317a-4345-9509-c6c2b376f635
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 49defd9b-8123-3738-9c85-f49df8aa4076, D3DX11CreateFFT3DComplex, D3DX11CreateFFT3DComplex function [Direct3D 11], d3dcsx/D3DX11CreateFFT3DComplex, direct3d11.d3dx11createfft3dcomplex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3dcsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DX11_SCAN_OPCODE
+req.lib: D3dcsx.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - D3DX11CreateFFT3DComplex
 product: Windows
 targetos: Windows
-req.lib: D3dcsx.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D3DX11CreateFFT3DComplex function

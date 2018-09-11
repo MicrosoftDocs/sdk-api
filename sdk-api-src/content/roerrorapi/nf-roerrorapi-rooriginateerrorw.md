@@ -4,17 +4,16 @@ title: RoOriginateErrorW function
 author: windows-sdk-content
 description: Reports an error and an informative string to an attached debugger.
 old-location: winrt\rooriginateerrorw.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: FC75DDA5-59BA-4CCF-93CC-8D0BB2AB415B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RoOriginateErrorW, RoOriginateErrorW function [Windows Runtime], WinRTOriginateErrorW, roerrorapi/RoOriginateErrorW, roerrorapi/WinRTOriginateErrorW, winrt.rooriginateerrorw, winrt.winrtoriginateerrorw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: RuntimeObject.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - WinRTOriginateErrorW
 product: Windows
 targetos: Windows
-req.lib: RuntimeObject.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RoOriginateErrorW function

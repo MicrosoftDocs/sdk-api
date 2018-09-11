@@ -4,7 +4,7 @@ title: D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE
 author: windows-sdk-content
 description: Specifies values for the luminance range of YUV data.
 old-location: mf\d3d11_video_processor_nominal_range.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9A4E7FE2-9A41-477B-977B-A1D00D7A5E3C
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE
+req.redist: 
 ---
 
 # D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE enumeration

@@ -4,7 +4,7 @@ title: WICBitmapAlphaChannelOption
 author: windows-sdk-content
 description: Specifies the desired alpha channel usage.
 old-location: wic\_wic_codec_wicbitmapalphachanneloption.htm
-old-project: wic
+tech.root: wic
 ms.assetid: caa10c35-9af4-4310-b031-3347cf795087
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICBitmapAlphaChannelOption
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICBitmapAlphaChannelOption
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICBitmapAlphaChannelOption
+req.redist: 
 ---
 
 # WICBitmapAlphaChannelOption enumeration

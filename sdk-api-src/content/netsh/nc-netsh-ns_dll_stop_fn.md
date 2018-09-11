@@ -4,7 +4,7 @@ title: NS_DLL_STOP_FN
 author: windows-sdk-content
 description: Is the DLL stop function for helper DLLs.
 old-location: netshell\ns_dll_stop_fn.htm
-old-project: netshell
+tech.root: netshell
 ms.assetid: 3bc6811c-0661-4fd7-aab1-6b0b21ab16f4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: netsh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_USAGE_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NS_DLL_STOP_FN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NS_DLL_STOP_FN callback function

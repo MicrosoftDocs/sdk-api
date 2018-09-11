@@ -4,17 +4,16 @@ title: ISchedule::get_StartTime
 author: windows-sdk-content
 description: Retrieves or sets the time of day when the data collector set runs.
 old-location: pla\ischedule_starttime.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 296c9d7d-5629-456f-9119-f06d8b8c476f
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ISchedule interface [PLA],StartTime property, ISchedule.StartTime, ISchedule.get_StartTime, ISchedule::StartTime, ISchedule::get_StartTime, ISchedule::put_StartTime, StartTime property [PLA], StartTime property [PLA],ISchedule interface, base.ischedule_starttime, get_StartTime, pla.ischedule_starttime, pla/ISchedule::StartTime, pla/ISchedule::get_StartTime, pla/ISchedule::put_StartTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ISchedule.put_StartTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISchedule::get_StartTime

@@ -4,7 +4,7 @@ title: FWPS_ALE_ENDPOINT_PROPERTIES0_
 author: windows-sdk-content
 description: The FWPS_ALE_ENDPOINT_PROPERTIES0 structure specifies the properties of an application layer enforcement (ALE) endpoint.Note  FWPS_ALE_ENDPOINT_PROPERTIES0 is a specific version of FWPS_ALE_ENDPOINT_PROPERTIES.
 old-location: netvista\fwps_ale_endpoint_properties0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 1dd5dbd1-b7a7-45a3-8cab-ea62c7eff35b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 7.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPS_ALE_ENDPOINT_PROPERTIES0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPS_ALE_ENDPOINT_PROPERTIES0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPS_ALE_ENDPOINT_PROPERTIES0
+req.redist: 
 ---
 
 # FWPS_ALE_ENDPOINT_PROPERTIES0_ structure

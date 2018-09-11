@@ -4,17 +4,16 @@ title: RESOURCE_STATUS
 author: windows-sdk-content
 description: Contains information about a resource that is being brought online or taken offline. This structure is used as a parameter to the callback function SetResourceStatus.
 old-location: mscs\resource_status.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: a5acd51f-714f-481b-85e2-ac82b76d21bb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRESOURCE_STATUS, ClusterResourceFailed, ClusterResourceOffline, ClusterResourceOfflinePending, ClusterResourceOnline, ClusterResourceOnlinePending, ClusterResourceStateUnknown, PRESOURCE_STATUS, PRESOURCE_STATUS structure pointer [Failover Cluster], RESOURCE_STATUS, RESOURCE_STATUS structure [Failover Cluster], _wolf_resource_status, mscs.resource_status, resapi/PRESOURCE_STATUS, resapi/RESOURCE_STATUS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_STATUS, *PRESOURCE_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RESOURCE_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RESOURCE_STATUS, *PRESOURCE_STATUS
+req.redist: 
 ---
 
 # RESOURCE_STATUS structure

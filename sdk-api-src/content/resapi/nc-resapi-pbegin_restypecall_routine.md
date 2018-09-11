@@ -4,17 +4,16 @@ title: PBEGIN_RESTYPECALL_ROUTINE
 author: windows-sdk-content
 description: Starts a call to a resource control code. The PBEGIN_RESTYPECALL_ROUTINE type defines a pointer to this callback function.
 old-location: mscs\beginresourcetypecontrol.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 9D5D5ADB-9707-4690-9B91-CC99F68DE2A8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BeginResourceTypeControl, BeginResourceTypeControl callback, BeginResourceTypeControl callback function [Failover Cluster], PBEGIN_RESTYPECALL_ROUTINE, PBEGIN_RESTYPECALL_ROUTINE callback function [Failover Cluster], mscs.beginresourcetypecontrol, resapi/BeginResourceTypeControl, resapi/PBEGIN_RESTYPECALL_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BeginResourceTypeControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PBEGIN_RESTYPECALL_ROUTINE callback function

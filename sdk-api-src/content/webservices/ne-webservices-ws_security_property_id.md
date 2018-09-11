@@ -4,17 +4,16 @@ title: WS_SECURITY_PROPERTY_ID
 author: windows-sdk-content
 description: Identifies the properties representing channel-wide security settings. This enumeration is used within the WS_SECURITY_PROPERTY structure, which is in turn used within a WS_SECURITY_DESCRIPTION structure.
 old-location: wsw\ws_security_property_id.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 98a824c9-11dd-4433-ae8f-2e6b6f6a520f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SECURITY_PROPERTY_ALGORITHM_SUITE, WS_SECURITY_PROPERTY_ALGORITHM_SUITE_NAME, WS_SECURITY_PROPERTY_EXTENDED_PROTECTION_POLICY, WS_SECURITY_PROPERTY_EXTENDED_PROTECTION_SCENARIO, WS_SECURITY_PROPERTY_ID, WS_SECURITY_PROPERTY_ID enumeration [Web Services for Windows], WS_SECURITY_PROPERTY_MAX_ALLOWED_CLOCK_SKEW, WS_SECURITY_PROPERTY_MAX_ALLOWED_LATENCY, WS_SECURITY_PROPERTY_SECURITY_HEADER_LAYOUT, WS_SECURITY_PROPERTY_SECURITY_HEADER_VERSION, WS_SECURITY_PROPERTY_SERVICE_IDENTITIES, WS_SECURITY_PROPERTY_TIMESTAMP_USAGE, WS_SECURITY_PROPERTY_TIMESTAMP_VALIDITY_DURATION, WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL, webservices/WS_SECURITY_PROPERTY_ALGORITHM_SUITE, webservices/WS_SECURITY_PROPERTY_ALGORITHM_SUITE_NAME, webservices/WS_SECURITY_PROPERTY_EXTENDED_PROTECTION_POLICY, webservices/WS_SECURITY_PROPERTY_EXTENDED_PROTECTION_SCENARIO, webservices/WS_SECURITY_PROPERTY_ID, webservices/WS_SECURITY_PROPERTY_MAX_ALLOWED_CLOCK_SKEW, webservices/WS_SECURITY_PROPERTY_MAX_ALLOWED_LATENCY, webservices/WS_SECURITY_PROPERTY_SECURITY_HEADER_LAYOUT, webservices/WS_SECURITY_PROPERTY_SECURITY_HEADER_VERSION, webservices/WS_SECURITY_PROPERTY_SERVICE_IDENTITIES, webservices/WS_SECURITY_PROPERTY_TIMESTAMP_USAGE, webservices/WS_SECURITY_PROPERTY_TIMESTAMP_VALIDITY_DURATION, webservices/WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL, wsw.ws_security_property_id
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SECURITY_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SECURITY_PROPERTY_ID
+req.redist: 
 ---
 
 # WS_SECURITY_PROPERTY_ID enumeration

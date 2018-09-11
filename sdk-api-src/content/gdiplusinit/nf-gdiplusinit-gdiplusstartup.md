@@ -4,17 +4,16 @@ title: GdiplusStartup function
 author: windows-sdk-content
 description: The GdiplusStartup function initializes Windows GDI+. Call GdiplusStartup before making any other GDI+ calls, and call GdiplusShutdown when you have finished using GDI+.
 old-location: gdiplus\_gdiplus_FUNC_GdiplusStartup_token_input_output_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\gdiplusstartup.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GdiplusStartup, GdiplusStartup function [GDI+], _gdiplus_FUNC_GdiplusStartup_token_input_output_, gdiplus._gdiplus_FUNC_GdiplusStartup_token_input_output_, gdiplusinit/GdiplusStartup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: gdiplusinit.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GdiplusStartup
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

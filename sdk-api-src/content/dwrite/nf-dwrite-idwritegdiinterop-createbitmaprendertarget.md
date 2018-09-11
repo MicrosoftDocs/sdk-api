@@ -4,17 +4,16 @@ title: IDWriteGdiInterop::CreateBitmapRenderTarget
 author: windows-sdk-content
 description: Creates an object that encapsulates a bitmap and memory DC (device context) which can be used for rendering glyphs.
 old-location: directwrite\IDWriteGdiInterop_CreateBitmapRenderTarget.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 1a1bd200-6da6-4e4d-83d3-1f6a4a5e7152
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: CreateBitmapRenderTarget, CreateBitmapRenderTarget method [Direct Write], CreateBitmapRenderTarget method [Direct Write],IDWriteGdiInterop interface, IDWriteGdiInterop interface [Direct Write],CreateBitmapRenderTarget method, IDWriteGdiInterop.CreateBitmapRenderTarget, IDWriteGdiInterop::CreateBitmapRenderTarget, directwrite.IDWriteGdiInterop_CreateBitmapRenderTarget, dwrite/IDWriteGdiInterop::CreateBitmapRenderTarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteGdiInterop.CreateBitmapRenderTarget
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteGdiInterop::CreateBitmapRenderTarget

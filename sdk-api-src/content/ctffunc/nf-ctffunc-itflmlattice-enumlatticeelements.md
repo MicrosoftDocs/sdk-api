@@ -4,17 +4,16 @@ title: ITfLMLattice::EnumLatticeElements
 author: windows-sdk-content
 description: ITfLMLattice::EnumLatticeElements method
 old-location: tsf\itflmlattice_enumlatticeelements.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: c42ad69f-d27a-40b7-8d63-3b422cb69db5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EnumLatticeElements, EnumLatticeElements method [Text Services Framework], EnumLatticeElements method [Text Services Framework],ITfLMLattice interface, ITfLMLattice interface [Text Services Framework],EnumLatticeElements method, ITfLMLattice.EnumLatticeElements, ITfLMLattice::EnumLatticeElements, _tsf_itflmlattice_enumlatticeelements_ref, ctffunc/ITfLMLattice::EnumLatticeElements, tsf.itflmlattice_enumlatticeelements
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfLMLattice.EnumLatticeElements
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfLMLattice::EnumLatticeElements

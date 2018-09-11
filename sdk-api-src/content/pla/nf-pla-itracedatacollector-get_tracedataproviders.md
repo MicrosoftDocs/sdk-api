@@ -4,17 +4,16 @@ title: ITraceDataCollector::get_TraceDataProviders
 author: windows-sdk-content
 description: Retrieves the list of providers enabled for this trace session.
 old-location: pla\itracedatacollector_tracedataprovider.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 7a2006e8-3c4c-4441-8c9e-be9ce584dd63
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ITraceDataCollector interface [PLA],TraceDataProviders property, ITraceDataCollector.TraceDataProviders, ITraceDataCollector.get_TraceDataProviders, ITraceDataCollector::TraceDataProviders, ITraceDataCollector::get_TraceDataProviders, TraceDataProviders property [PLA], TraceDataProviders property [PLA],ITraceDataCollector interface, base.itracedatacollector_tracedataprovider, get_TraceDataProviders, pla.itracedatacollector_tracedataprovider, pla/ITraceDataCollector::TraceDataProviders, pla/ITraceDataCollector::get_TraceDataProviders
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITraceDataCollector.get_TraceDataProviders
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataCollector::get_TraceDataProviders

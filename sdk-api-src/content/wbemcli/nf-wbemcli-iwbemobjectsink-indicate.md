@@ -4,17 +4,16 @@ title: IWbemObjectSink::Indicate
 author: windows-sdk-content
 description: Called by a source to provide a notification.
 old-location: wmi\iwbemobjectsink_indicate.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 96756b27-cbcf-47ce-a8c8-88795a81edde
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemObjectSink interface [Windows Management Instrumentation],Indicate method, IWbemObjectSink.Indicate, IWbemObjectSink::Indicate, IWbemObjectSinkEx interface [Windows Management Instrumentation],Indicate method, IWbemObjectSinkEx::Indicate, Indicate, Indicate method [Windows Management Instrumentation], Indicate method [Windows Management Instrumentation],IWbemObjectSink interface, Indicate method [Windows Management Instrumentation],IWbemObjectSinkEx interface, _hmm_iwbemobjectsink_indicate, wbemcli/IWbemObjectSink::Indicate, wbemcli/IWbemObjectSinkEx::Indicate, wmi.iwbemobjectsink_indicate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWbemObjectSinkEx.Indicate
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemObjectSink::Indicate
@@ -77,7 +75,7 @@ Number of objects in the following array of pointers.
 
 ### -param apObjArray
 
-
+TBD
 
 
 

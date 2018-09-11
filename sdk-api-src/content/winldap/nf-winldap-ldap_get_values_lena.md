@@ -4,17 +4,16 @@ title: ldap_get_values_lenA function
 author: windows-sdk-content
 description: The ldap_get_values_len function retrieves the list of values for a given attribute.
 old-location: ldap\ldap_get_values_len.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: e2100892-5dad-4fc7-8129-34c675bcf134
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_get_values_len, ldap.ldap__get__values__len, ldap.ldap_get_values_len, ldap_get_values_len, ldap_get_values_len function [LDAP], ldap_get_values_lenA, ldap_get_values_lenW, winldap/ldap_get_values_len, winldap/ldap_get_values_lenA, winldap/ldap_get_values_lenW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldap_get_values_lenW
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_get_values_lenA function

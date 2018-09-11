@@ -4,17 +4,16 @@ title: StartXpsPrintJob function
 author: windows-sdk-content
 description: Starts printing an XPS document stream to a printer.
 old-location: gdi\startxpsprintjob.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: d982ae2e-c68f-4197-b419-22a63e61db8a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: StartXpsPrintJob, StartXpsPrintJob function [Windows GDI], gdi.startxpsprintjob, xpsprint/StartXpsPrintJob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: xpsprint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_JOB_COMPLETION
+req.lib: XpsPrint.lib
+req.dll: XpsPrint.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - StartXpsPrintJob
 product: Windows
 targetos: Windows
-req.lib: XpsPrint.lib
-req.dll: XpsPrint.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # StartXpsPrintJob function

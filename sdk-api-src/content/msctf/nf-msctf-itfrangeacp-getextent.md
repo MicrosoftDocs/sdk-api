@@ -4,17 +4,16 @@ title: ITfRangeACP::GetExtent
 author: windows-sdk-content
 description: ITfRangeACP::GetExtent method
 old-location: tsf\itfrangeacp_getextent.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 14838cea-1a19-4faa-ac7f-617fde82432d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetExtent, GetExtent method [Text Services Framework], GetExtent method [Text Services Framework],ITfRangeACP interface, ITfRangeACP interface [Text Services Framework],GetExtent method, ITfRangeACP.GetExtent, ITfRangeACP::GetExtent, _tsf_itfrangeacp_getextent_ref, msctf/ITfRangeACP::GetExtent, tsf.itfrangeacp_getextent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfRangeACP.GetExtent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfRangeACP::GetExtent

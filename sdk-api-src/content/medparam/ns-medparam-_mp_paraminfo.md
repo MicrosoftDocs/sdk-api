@@ -4,7 +4,7 @@ title: "_MP_PARAMINFO"
 author: windows-sdk-content
 description: The MP_PARAMINFO structure contains information about a parameter.
 old-location: dshow\mp_paraminfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 91d2d08b-a55e-492f-a509-9c080cc438df
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: medparam.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MP_PARAMINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MP_PARAMINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MP_PARAMINFO
+req.redist: 
 ---
 
 # _MP_PARAMINFO structure

@@ -4,17 +4,16 @@ title: CreateRoundRectRgn function
 author: windows-sdk-content
 description: The CreateRoundRectRgn function creates a rectangular region with rounded corners.
 old-location: gdi\createroundrectrgn.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 16f387e1-b00c-4755-8b21-1ee0f25bc46b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateRoundRectRgn, CreateRoundRectRgn function [Windows GDI], _win32_CreateRoundRectRgn, gdi.createroundrectrgn, wingdi/CreateRoundRectRgn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - CreateRoundRectRgn
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CreateRoundRectRgn function

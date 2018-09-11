@@ -4,7 +4,7 @@ title: PDD_WAITFORVERTICALBLANK
 author: windows-sdk-content
 description: The DdWaitForVerticalBlank callback function returns the vertical blank status of the device.
 old-location: display\ddwaitforverticalblank.htm
-old-project: display
+tech.root: display
 ms.assetid: 0eeeed70-bfda-45c0-8709-29e97ab0c5a9
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdWaitForVerticalBlank
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PDD_WAITFORVERTICALBLANK callback function

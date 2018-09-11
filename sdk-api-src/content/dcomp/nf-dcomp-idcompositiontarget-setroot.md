@@ -4,17 +4,16 @@ title: IDCompositionTarget::SetRoot
 author: windows-sdk-content
 description: Sets a visual object as the new root object of a visual tree.
 old-location: directcomp\idcompositiontarget_setroot.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: febbef70-fc21-4295-93c5-2f9f52434aae
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionTarget interface [DirectComposition],SetRoot method, IDCompositionTarget.SetRoot, IDCompositionTarget::SetRoot, SetRoot, SetRoot method [DirectComposition], SetRoot method [DirectComposition],IDCompositionTarget interface, dcomp/IDCompositionTarget::SetRoot, directcomp.idcompositiontarget_setroot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionTarget.SetRoot
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionTarget::SetRoot

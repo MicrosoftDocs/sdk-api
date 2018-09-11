@@ -4,17 +4,16 @@ title: ITocEntry::GetDescriptionData
 author: windows-sdk-content
 description: The GetDescriptionData method gets a description data block that was previously associated with the entry by a call to SetDescriptionData.
 old-location: mf\itocentry_getdescriptiondata.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4000b67c-e34e-4bce-9a0d-c56c9fc0f41e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetDescriptionData, GetDescriptionData method [Media Foundation], GetDescriptionData method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetDescriptionData method, ITocEntry.GetDescriptionData, ITocEntry::GetDescriptionData, codecapi.itocentry_getdescriptiondata, mf.itocentry_getdescriptiondata, wmcodecdsp/ITocEntry::GetDescriptionData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITocEntry.GetDescriptionData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ITocEntry::GetDescriptionData

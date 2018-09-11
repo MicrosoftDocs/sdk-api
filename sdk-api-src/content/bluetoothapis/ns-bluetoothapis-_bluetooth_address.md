@@ -4,7 +4,7 @@ title: "_BLUETOOTH_ADDRESS"
 author: windows-sdk-content
 description: The BLUETOOTH_ADDRESS structure provides the address of a Bluetooth device.
 old-location: bluetooth\bluetooth_address.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 2262a91b-c8b0-415a-9c23-7504998cc2a4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_ADDRESS_STRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BLUETOOTH_ADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BLUETOOTH_ADDRESS_STRUCT
+req.redist: 
 ---
 
 # _BLUETOOTH_ADDRESS structure

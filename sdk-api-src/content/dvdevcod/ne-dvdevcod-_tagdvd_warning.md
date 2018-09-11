@@ -4,7 +4,7 @@ title: "_tagDVD_WARNING"
 author: windows-sdk-content
 description: Specifies DVD warning conditions.
 old-location: dshow\dvd_warning.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e36904de-a28f-4372-8ed1-6b7f38e7dd5e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dvdevcod.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Dvbsiparser.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_WARNING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_WARNING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DVD_WARNING
+req.redist: 
 ---
 
 # _tagDVD_WARNING enumeration

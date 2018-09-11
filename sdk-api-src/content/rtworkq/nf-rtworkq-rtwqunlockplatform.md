@@ -4,17 +4,16 @@ title: RtwqUnlockPlatform function
 author: windows-sdk-content
 description: Unlocks the platform after it was locked by a call to the RtwqLockPlatform function.
 old-location: base\rtwqunlockplatform.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 8f1e00fb-863a-49e6-a0e3-a3491637b47b
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: RtwqUnlockPlatform, RtwqUnlockPlatform function, base.rtwqunlockplatform, rtworkq/RtwqUnlockPlatform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTWQ_WORKQUEUE_TYPE
+req.lib: Rtworkq.lib
+req.dll: RTWorkQ.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtwqUnlockPlatform
 product: Windows
 targetos: Windows
-req.lib: Rtworkq.lib
-req.dll: RTWorkQ.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtwqUnlockPlatform function

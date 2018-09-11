@@ -4,17 +4,16 @@ title: IMediaEvent::GetEventHandle
 author: windows-sdk-content
 description: The GetEventHandle method retrieves a handle to a manual-reset event that remains signaled while the queue contains event notifications.
 old-location: dshow\imediaevent_geteventhandle.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 83db8d24-d872-4a90-a896-1cc51273b551
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetEventHandle, GetEventHandle method [DirectShow], GetEventHandle method [DirectShow],IMediaEvent interface, IMediaEvent interface [DirectShow],GetEventHandle method, IMediaEvent.GetEventHandle, IMediaEvent::GetEventHandle, IMediaEventGetEventHandle, control/IMediaEvent::GetEventHandle, dshow.imediaevent_geteventhandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IMediaEvent.GetEventHandle
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaEvent::GetEventHandle

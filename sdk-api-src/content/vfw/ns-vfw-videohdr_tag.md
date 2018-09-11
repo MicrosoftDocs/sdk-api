@@ -4,7 +4,7 @@ title: videohdr_tag
 author: windows-sdk-content
 description: The VIDEOHDR structure is used by the capVideoStreamCallback function.
 old-location: multimedia\videohdr.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 81e4dded-7ba1-40cf-bc16-20524b70a28d
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VIDEOHDR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
+req.redist: 
 ---
 
 # videohdr_tag structure

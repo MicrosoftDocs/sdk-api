@@ -4,17 +4,16 @@ title: IVssBackupComponents::SetContext
 author: windows-sdk-content
 description: The SetContext method sets the context for subsequent shadow copy-related operations.
 old-location: base\ivssbackupcomponents_setcontext.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 0e466090-b551-44e8-a86d-75126352aa49
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetContext method, IVssBackupComponents.SetContext, IVssBackupComponents::SetContext, SetContext, SetContext method [VSS], SetContext method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setcontext, base.ivssbackupcomponents_setcontext, vsbackup/IVssBackupComponents::SetContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.SetContext
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::SetContext

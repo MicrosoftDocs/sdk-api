@@ -4,7 +4,7 @@ title: ITfFnSearchCandidateProvider
 author: windows-sdk-content
 description: Enables an integrated search experience in an Input Method Editor (IME).
 old-location: tsf\itffnsearchcandidateprovider.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 5DD99E0A-42A2-4EA5-B24F-5C439F5D7EEF
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfFnSearchCandidateProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITfFnSearchCandidateProvider interface

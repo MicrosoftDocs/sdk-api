@@ -4,7 +4,7 @@ title: tagNMSELCHANGE
 author: windows-sdk-content
 description: Carries information required to process the MCN_SELCHANGE notification code.
 old-location: controls\NMSELCHANGE.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\nmselchange.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NMSELCHANGE, *LPNMSELCHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - NMSELCHANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: NMSELCHANGE, *LPNMSELCHANGE
+req.redist: 
 ---
 
 # tagNMSELCHANGE structure

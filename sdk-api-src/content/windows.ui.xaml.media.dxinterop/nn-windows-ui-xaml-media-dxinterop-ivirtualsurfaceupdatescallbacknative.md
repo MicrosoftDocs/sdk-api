@@ -4,17 +4,16 @@ title: IVirtualSurfaceUpdatesCallbackNative
 author: windows-sdk-content
 description: Provides an interface for the implementation of drawing behaviors when a VirtualSurfaceImageSource requests an update.
 old-location: winrt\ivirtualsurfaceupdatescallbacknative.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 76B5E0B6-7DE4-41A4-B33B-2C6A32D47DB1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVirtualSurfaceUpdatesCallbackNative, IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime], IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime],described, windows/IVirtualSurfaceUpdatesCallbackNative, winrt.ivirtualsurfaceupdatescallbacknative
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVirtualSurfaceUpdatesCallbackNative
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.UI.Xaml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IVirtualSurfaceUpdatesCallbackNative interface

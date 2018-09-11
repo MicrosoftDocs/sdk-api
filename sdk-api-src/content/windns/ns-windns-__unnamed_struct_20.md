@@ -4,7 +4,7 @@ title: DNS_NSEC_DATAW
 author: windows-sdk-content
 description: Represents an NSEC resource record (RR) as specified in section 4 of RFC 4034.
 old-location: dns\dns_nsec_data.htm
-old-project: dns
+tech.root: dns
 ms.assetid: ea446732-bc6a-4597-b164-11bfd77c07f2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_NSEC_DATAW, *PDNS_NSEC_DATAW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_NSEC_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_NSEC_DATAW, *PDNS_NSEC_DATAW
+req.redist: 
 ---
 
 # DNS_NSEC_DATAW structure

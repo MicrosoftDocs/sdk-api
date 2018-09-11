@@ -4,17 +4,16 @@ title: IRecordInfo::RecordCreateCopy
 author: windows-sdk-content
 description: Creates a copy of an instance of a record to the specified location.
 old-location: automat\irecordinfo_recordcreatecopy.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 9cc2a46a-ec92-46a7-8b75-8c36598cc441
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRecordInfo interface [Automation],RecordCreateCopy method, IRecordInfo.RecordCreateCopy, IRecordInfo::RecordCreateCopy, RecordCreateCopy, RecordCreateCopy method [Automation], RecordCreateCopy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordCreateCopy, automat.irecordinfo_recordcreatecopy, oaidl/IRecordInfo::RecordCreateCopy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRecordInfo.RecordCreateCopy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRecordInfo::RecordCreateCopy

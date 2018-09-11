@@ -4,17 +4,16 @@ title: IAppxBundleManifestOptionalBundleInfo::GetFileName
 author: windows-sdk-content
 description: Retrieves the file-name attribute of the &lt;OptionalBundle&gt;.
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfo_getfilename.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 6553DAC3-D938-4653-8DE4-A5CA02640D31
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetFileName, GetFileName method [App packaging and management], GetFileName method [App packaging and management],IAppxBundleManifestOptionalBundleInfo interface, IAppxBundleManifestOptionalBundleInfo interface [App packaging and management],GetFileName method, IAppxBundleManifestOptionalBundleInfo.GetFileName, IAppxBundleManifestOptionalBundleInfo::GetFileName, appxpackaging/IAppxBundleManifestOptionalBundleInfo::GetFileName, appxpkg.iappxbundlemanifestoptionalbundleinfo_getfilename
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxBundleManifestOptionalBundleInfo.GetFileName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxBundleManifestOptionalBundleInfo::GetFileName

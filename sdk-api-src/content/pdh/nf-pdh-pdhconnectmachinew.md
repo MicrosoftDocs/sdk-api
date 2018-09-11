@@ -4,17 +4,16 @@ title: PdhConnectMachineW function
 author: windows-sdk-content
 description: Connects to the specified computer.
 old-location: perf\pdhconnectmachine.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 8f8b4651-b550-4b34-bb2f-d2497c56b572
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PdhConnectMachine, PdhConnectMachine function [Perf], PdhConnectMachineA, PdhConnectMachineW, _win32_pdhconnectmachine, base.pdhconnectmachine, pdh/PdhConnectMachine, pdh/PdhConnectMachineA, pdh/PdhConnectMachineW, perf.pdhconnectmachine
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PdhConnectMachineW
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhConnectMachineW function

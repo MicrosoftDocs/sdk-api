@@ -4,17 +4,16 @@ title: ISnapinProperties::PropertiesChanged
 author: windows-sdk-content
 description: Called when a property is added, changed, or deleted.
 old-location: mmc\isnapinproperties_propertieschanged.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 6e64a620-9c1d-4803-81a0-ec432c30fbc9
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: ISnapinProperties interface [MMC],PropertiesChanged method, ISnapinProperties.PropertiesChanged, ISnapinProperties::PropertiesChanged, PropertiesChanged, PropertiesChanged method [MMC], PropertiesChanged method [MMC],ISnapinProperties interface, _slate_isnapinproperties_propertieschanged, mmc.isnapinproperties_propertieschanged, mmcobj/ISnapinProperties::PropertiesChanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmcobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_PROPERTY_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISnapinProperties.PropertiesChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISnapinProperties::PropertiesChanged

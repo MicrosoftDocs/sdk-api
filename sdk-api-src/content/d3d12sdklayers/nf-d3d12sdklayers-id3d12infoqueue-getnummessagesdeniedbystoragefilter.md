@@ -4,17 +4,16 @@ title: ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter
 author: windows-sdk-content
 description: Get the number of messages that were denied passage through a storage filter.
 old-location: direct3d12\id3d12infoqueue_getnummessagesdeniedbystoragefilter.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: A1702C92-516C-4ECF-AD75-3D2CCFE360D2
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetNumMessagesDeniedByStorageFilter, GetNumMessagesDeniedByStorageFilter method, GetNumMessagesDeniedByStorageFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumMessagesDeniedByStorageFilter method, ID3D12InfoQueue.GetNumMessagesDeniedByStorageFilter, ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter, direct3d12.id3d12infoqueue_getnummessagesdeniedbystoragefilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_RLDO_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12InfoQueue.GetNumMessagesDeniedByStorageFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter

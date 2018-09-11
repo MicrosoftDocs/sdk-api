@@ -4,17 +4,16 @@ title: EapPeerProcessRequestPacket function
 author: windows-sdk-content
 description: Processes a packet received by EAPHost from a supplicant.
 old-location: eaphost\eappeerprocessrequestpacket.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 7054b6e5-68df-4d76-9941-99ee00178926
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapPeerProcessRequestPacket, EapPeerProcessRequestPacket function [EAPHost], eaphost.eappeerprocessrequestpacket, eapmethodpeerapis/EapPeerProcessRequestPacket
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_AUTHENTICATOR_METHOD_ROUTINES, *PEAP_AUTHENTICATOR_METHOD_ROUTINES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapPeerProcessRequestPacket
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapPeerProcessRequestPacket function

@@ -4,17 +4,16 @@ title: IAzApplication::get_Description
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the application.
 old-location: security\iazapplication_description.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 32ccf51c-b820-4819-9e19-135ed3a0581d
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzApplication object [Security],Description property, Description property [Security], Description property [Security],AzApplication object, Description property [Security],IAzApplication interface, IAzApplication interface [Security],Description property, IAzApplication.Description, IAzApplication.get_Description, IAzApplication::Description, IAzApplication::get_Description, IAzApplication::put_Description, azroles/IAzApplication::Description, azroles/IAzApplication::get_Description, azroles/IAzApplication::put_Description, get_Description, security.iazapplication_description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - AzApplication.Description
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::get_Description

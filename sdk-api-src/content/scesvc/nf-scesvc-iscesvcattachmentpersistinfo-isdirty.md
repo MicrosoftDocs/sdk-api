@@ -4,17 +4,16 @@ title: ISceSvcAttachmentPersistInfo::IsDirty
 author: windows-sdk-content
 description: The IsDirty method returns a value indicating whether data in the attachment snap-in has been modified since it was last saved.
 old-location: security\iscesvcattachmentpersistinfo_isdirty.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: b430e598-e16c-47fc-8f19-fbcfc6b71337
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISceSvcAttachmentPersistInfo interface [Security],IsDirty method, ISceSvcAttachmentPersistInfo.IsDirty, ISceSvcAttachmentPersistInfo::IsDirty, IsDirty, IsDirty method [Security], IsDirty method [Security],ISceSvcAttachmentPersistInfo interface, _config_iscesvcattachmentpersistinfo_isdirty, scesvc/ISceSvcAttachmentPersistInfo::IsDirty, security.iscesvcattachmentpersistinfo_isdirty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: scesvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCESVC_INFO_TYPE
+req.lib: 
+req.dll: Wsecedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISceSvcAttachmentPersistInfo.IsDirty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsecedit.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISceSvcAttachmentPersistInfo::IsDirty

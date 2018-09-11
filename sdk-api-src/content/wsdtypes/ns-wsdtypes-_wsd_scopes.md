@@ -4,17 +4,16 @@ title: "_WSD_SCOPES"
 author: windows-sdk-content
 description: A collection of scopes used in WS-Discovery messaging.
 old-location: ncd\wsd_scopes_struct.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: 3415fef0-dbf4-4ece-bad0-6cd6831404db
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSD_SCOPES, WSD_SCOPES structure, _WSD_SCOPES, ncd.wsd_scopes_struct, wsdtypes/WSD_SCOPES
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SCOPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSD_SCOPES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSD_SCOPES
+req.redist: 
 ---
 
 # _WSD_SCOPES structure

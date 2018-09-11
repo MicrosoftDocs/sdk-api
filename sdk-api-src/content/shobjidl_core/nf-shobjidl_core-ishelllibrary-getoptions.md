@@ -4,17 +4,16 @@ title: IShellLibrary::GetOptions
 author: windows-sdk-content
 description: Gets the library's options.
 old-location: shell\IShellLibrary_GetOptions.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1a144505-e977-4db6-8266-c39c1de8a8f9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetOptions, GetOptions method [Windows Shell], GetOptions method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],GetOptions method, IShellLibrary.GetOptions, IShellLibrary::GetOptions, _shell_IShellLibrary_GetOptions, shell.IShellLibrary_GetOptions, shobjidl_core/IShellLibrary::GetOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellLibrary.GetOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellLibrary::GetOptions

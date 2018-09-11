@@ -4,17 +4,16 @@ title: "_CMC_RESPONSE_INFO"
 author: windows-sdk-content
 description: Provides a means of communicating different pieces of tagged information.
 old-location: security\cmc_response_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 82d9314f-2f0f-4a98-a0da-a89cd8905886
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCMC_RESPONSE_INFO, CMC_RESPONSE_INFO, CMC_RESPONSE_INFO structure [Security], PCMC_RESPONSE_INFO, PCMC_RESPONSE_INFO structure pointer [Security], _CMC_RESPONSE_INFO, _crypto2_cmc_response_info, security.cmc_response_info, wincrypt/CMC_RESPONSE_INFO, wincrypt/PCMC_RESPONSE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMC_RESPONSE_INFO, *PCMC_RESPONSE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMC_RESPONSE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMC_RESPONSE_INFO, *PCMC_RESPONSE_INFO
+req.redist: 
 ---
 
 # _CMC_RESPONSE_INFO structure

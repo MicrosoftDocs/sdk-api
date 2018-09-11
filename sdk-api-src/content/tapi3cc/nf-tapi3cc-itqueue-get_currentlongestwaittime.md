@@ -4,17 +4,16 @@ title: ITQueue::get_CurrentLongestWaitTime
 author: windows-sdk-content
 description: The get_CurrentLongestWaitTime method gets the longest time a current call (still in the queue) has been waiting (in seconds) during the current measurement period.
 old-location: tapi3\itqueue_get_currentlongestwaittime.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: f3334932-2029-4e10-a12c-605697a2bb36
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_CurrentLongestWaitTime method, ITQueue.get_CurrentLongestWaitTime, ITQueue::get_CurrentLongestWaitTime, _tapi3_itqueue_get_currentlongestwaittime, get_CurrentLongestWaitTime, get_CurrentLongestWaitTime method [TAPI 2.2], get_CurrentLongestWaitTime method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_currentlongestwaittime, tapi3cc/ITQueue::get_CurrentLongestWaitTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_STATE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITQueue.get_CurrentLongestWaitTime
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITQueue::get_CurrentLongestWaitTime

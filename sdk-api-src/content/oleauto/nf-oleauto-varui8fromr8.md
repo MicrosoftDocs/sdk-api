@@ -4,17 +4,16 @@ title: VarUI8FromR8 function
 author: windows-sdk-content
 description: Converts a double value to an 8-byte unsigned integer value.
 old-location: automat\varui8fromr8.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 7f9ecdbe-090c-41c9-82ea-3157589da00f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarUI8FromR8, VarUI8FromR8 function [Automation], _oa96_VarUI8FromR8, automat.varui8fromr8, oleauto/VarUI8FromR8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarUI8FromR8
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarUI8FromR8 function

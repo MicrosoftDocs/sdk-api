@@ -4,17 +4,16 @@ title: IWMPNetwork::get_maxBandwidth
 author: windows-sdk-content
 description: The get_maxBandwidth method retrieves the maximum allowed bandwidth.
 old-location: wmp\iwmpnetwork_get_maxbandwidth.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: b3b1b845-7aa5-49d7-a9da-52dea06e51c4
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_maxBandwidth method, IWMPNetwork.get_maxBandwidth, IWMPNetwork::get_maxBandwidth, IWMPNetworkget_maxBandwidth, get_maxBandwidth, get_maxBandwidth method [Windows Media Player], get_maxBandwidth method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_maxbandwidth, wmp/IWMPNetwork::get_maxBandwidth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPNetwork.get_maxBandwidth
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPNetwork::get_maxBandwidth
@@ -65,7 +63,7 @@ The <b>get_maxBandwidth</b> method retrieves the maximum allowed bandwidth.
 
 ### -param lMaxBandwidth
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: EcGetSubscriptionProperty function
 author: windows-sdk-content
 description: Retrieves a property value from a subscription object.
 old-location: wec\ecgetsubscriptionproperty.htm
-old-project: WEC
+tech.root: WEC
 ms.assetid: 984d986d-1c59-4d0c-88f3-40c66ffe43dd
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcGetSubscriptionProperty, EcGetSubscriptionProperty function, evcoll/EcGetSubscriptionProperty, wec.ecgetsubscriptionproperty, wes.ecgetsubscriptionproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EC_VARIANT_TYPE
+req.lib: Wecapi.lib
+req.dll: Wecapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EcGetSubscriptionProperty
 product: Windows
 targetos: Windows
-req.lib: Wecapi.lib
-req.dll: Wecapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EcGetSubscriptionProperty function
@@ -94,7 +92,7 @@ The size of the user-supplied buffer that is used by the function on successful 
 
 
 
-This function returns BOOL __stdcall.
+This function returns BOOL.
 
 
 

@@ -4,17 +4,16 @@ title: SetupOpenInfFileA function
 author: windows-sdk-content
 description: The SetupOpenInfFile function opens an INF file and returns a handle to it.
 old-location: setup\setupopeninffile.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: a0f29f2c-2ac8-4f2d-adad-7a948d5a4eb7
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupOpenInfFile, SetupOpenInfFile function [Setup API], SetupOpenInfFileA, SetupOpenInfFileW, _setupapi_setupopeninffile, setup.setupopeninffile, setupapi/SetupOpenInfFile, setupapi/SetupOpenInfFileA, setupapi/SetupOpenInfFileW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SetupOpenInfFileW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupOpenInfFileA function

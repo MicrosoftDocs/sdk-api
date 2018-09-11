@@ -4,7 +4,7 @@ title: DS_NAME_FLAGS
 author: windows-sdk-content
 description: The DS_NAME_FLAGS enumeration is used to define how the name syntax will be cracked. These flags are used by the DsCrackNames function.
 old-location: ad\ds_name_flags.htm
-old-project: ad
+tech.root: ad
 ms.assetid: f0108568-4a6a-4159-b55f-2c651c588b73
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_NAME_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DS_NAME_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: Any level
-req.product: Rights Management Services client 1.0 or later
+req.typenames: DS_NAME_FLAGS
+req.redist: 
 ---
 
 # DS_NAME_FLAGS enumeration

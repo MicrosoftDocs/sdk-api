@@ -4,17 +4,16 @@ title: IConsoleNameSpace::GetParentItem
 author: windows-sdk-content
 description: The IConsoleNameSpace2::GetParentItem method enables the snap-in to retrieve the handle to a parent item in the scope view.
 old-location: mmc\iconsolenamespace2_getparentitem.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: c4534440-9fbe-41f1-bdf3-767c931a241b
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: GetParentItem, GetParentItem method [MMC], GetParentItem method [MMC],IConsoleNameSpace interface, GetParentItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],GetParentItem method, IConsoleNameSpace.GetParentItem, IConsoleNameSpace2 interface [MMC],GetParentItem method, IConsoleNameSpace2::GetParentItem, IConsoleNameSpace::GetParentItem, _slate_iconsolenamespace2_getparentitem, mmc.iconsolenamespace2_getparentitem, mmc/IConsoleNameSpace2::GetParentItem, mmc/IConsoleNameSpace::GetParentItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IConsoleNameSpace2.GetParentItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IConsoleNameSpace::GetParentItem
@@ -73,7 +71,7 @@ A pointer to the handle to the parent item that is returned.
 
 ### -param pCookie
 
-
+TBD
 
 
 

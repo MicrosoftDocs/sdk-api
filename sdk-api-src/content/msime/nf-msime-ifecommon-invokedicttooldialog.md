@@ -4,17 +4,16 @@ title: IFECommon::InvokeDictToolDialog
 author: windows-sdk-content
 description: Invokes the Microsoft IME's Dictionary Tool from the app.
 old-location: intl\ifecommon_invokedicttooldialog.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: E70E3B78-58D7-40E9-8DAB-447B4CBC13F4
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IFECommon interface [Internationalization for Windows Applications],InvokeDictToolDialog method, IFECommon.InvokeDictToolDialog, IFECommon::InvokeDictToolDialog, InvokeDictToolDialog, InvokeDictToolDialog method [Internationalization for Windows Applications], InvokeDictToolDialog method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_invokedicttooldialog, msime/IFECommon::InvokeDictToolDialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFECommon.InvokeDictToolDialog
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IFECommon::InvokeDictToolDialog

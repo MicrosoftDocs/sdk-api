@@ -4,7 +4,7 @@ title: ITfEditTransactionSink
 author: windows-sdk-content
 description: The ITfEditTransactionSink interface is implemented by a text service and used by the TSF manager to support edit transactions.
 old-location: tsf\itfedittransactionsink.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: d5393459-8bd6-4daf-830a-aa08d76c6347
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Imekrcic.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfEditTransactionSink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Imekrcic.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfEditTransactionSink interface

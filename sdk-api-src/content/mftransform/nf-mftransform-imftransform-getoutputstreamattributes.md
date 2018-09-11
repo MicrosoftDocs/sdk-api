@@ -4,17 +4,16 @@ title: IMFTransform::GetOutputStreamAttributes
 author: windows-sdk-content
 description: Gets the attribute store for an output stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getoutputstreamattributes.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d54ce20c-8ef9-4480-9ddd-908751fc0a7e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetOutputStreamAttributes, GetOutputStreamAttributes method [Media Foundation], GetOutputStreamAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputStreamAttributes method, IMFTransform.GetOutputStreamAttributes, IMFTransform::GetOutputStreamAttributes, d54ce20c-8ef9-4480-9ddd-908751fc0a7e, mf.imftransform_getoutputstreamattributes, mftransform/IMFTransform::GetOutputStreamAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTransform.GetOutputStreamAttributes
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTransform::GetOutputStreamAttributes
@@ -70,7 +68,7 @@ Output stream identifier. To get the list of stream identifiers, call <a href="h
 
 ### -param pAttributes
 
-
+TBD
 
 
 

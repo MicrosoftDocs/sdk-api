@@ -4,17 +4,16 @@ title: ID2D1DeviceContext3::CreateSpriteBatch
 author: windows-sdk-content
 description: Creates a new, empty sprite batch. After creating a sprite batch, use ID2D1SpriteBatch::AddSprites to add sprites to it, then use ID2D1DeviceContext3::DrawSpriteBatch to draw it.
 old-location: direct2d\id2d1devicecontext3_createspritebatch.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: C9CCDF6B-BAEC-4C37-B3C1-60D50BACF973
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateSpriteBatch, CreateSpriteBatch method [Direct2D], CreateSpriteBatch method [Direct2D],ID2D1DeviceContext3 interface, ID2D1DeviceContext3 interface [Direct2D],CreateSpriteBatch method, ID2D1DeviceContext3.CreateSpriteBatch, ID2D1DeviceContext3::CreateSpriteBatch, d2d1_3/ID2D1DeviceContext3::CreateSpriteBatch, direct2d.id2d1devicecontext3_createspritebatch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DeviceContext3.CreateSpriteBatch
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext3::CreateSpriteBatch

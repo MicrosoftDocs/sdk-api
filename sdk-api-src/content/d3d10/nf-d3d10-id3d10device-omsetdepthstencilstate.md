@@ -4,17 +4,16 @@ title: ID3D10Device::OMSetDepthStencilState
 author: windows-sdk-content
 description: Sets the depth-stencil state of the output-merger stage.
 old-location: direct3d10\id3d10device_omsetdepthstencilstate.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omsetdepthstencilstate.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 75af58f4-0720-3b37-1633-f4ae71d23ebd, ID3D10Device interface [Direct3D 10],OMSetDepthStencilState method, ID3D10Device.OMSetDepthStencilState, ID3D10Device::OMSetDepthStencilState, OMSetDepthStencilState, OMSetDepthStencilState method [Direct3D 10], OMSetDepthStencilState method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMSetDepthStencilState, direct3d10.id3d10device_omsetdepthstencilstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_USAGE
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D10Device.OMSetDepthStencilState
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Device::OMSetDepthStencilState

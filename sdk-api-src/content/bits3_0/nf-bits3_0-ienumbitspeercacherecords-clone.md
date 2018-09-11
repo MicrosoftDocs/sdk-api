@@ -4,17 +4,16 @@ title: IEnumBitsPeerCacheRecords::Clone
 author: windows-sdk-content
 description: Creates another IEnumBitsPeerCacheRecords enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbitspeercacherecords_clone.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 4eb19401-119d-4ce6-92b1-aa41b6dcb97c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBitsPeerCacheRecords interface, IEnumBitsPeerCacheRecords interface [BITS],Clone method, IEnumBitsPeerCacheRecords.Clone, IEnumBitsPeerCacheRecords::Clone, bits.ienumbitspeercacherecords_clone, bits3_0/IEnumBitsPeerCacheRecords::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IEnumBitsPeerCacheRecords.Clone
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumBitsPeerCacheRecords::Clone
@@ -65,7 +64,7 @@ Using this method, a client can record a particular point in the enumeration seq
 
 ### -param ppenum
 
-
+TBD
 
 
 

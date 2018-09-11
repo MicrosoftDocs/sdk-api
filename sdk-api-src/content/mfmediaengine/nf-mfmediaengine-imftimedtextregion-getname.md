@@ -4,17 +4,16 @@ title: IMFTimedTextRegion::GetName
 author: windows-sdk-content
 description: Gets the name of the region.
 old-location: mf\imftimedtextregion_getname.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1B3C07CF-0E9C-4C7D-8F41-7A0B168967A3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetName method, IMFTimedTextRegion.GetName, IMFTimedTextRegion::GetName, mf.imftimedtextregion_getname, mfmediaengine/IMFTimedTextRegion::GetName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextRegion.GetName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextRegion::GetName
@@ -62,7 +60,7 @@ Gets the name of the region.
 
 ### -param name
 
-
+TBD
 
 
 

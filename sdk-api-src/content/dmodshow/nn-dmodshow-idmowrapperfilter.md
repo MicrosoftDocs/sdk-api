@@ -4,7 +4,7 @@ title: IDMOWrapperFilter
 author: windows-sdk-content
 description: The IDMOWrapperFilter interface enables an application to use a DirectX Media Object (DMO) inside a filter graph.
 old-location: dshow\idmowrapperfilter.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c85b828c-095d-4991-85a8-65b96529f305
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dmodshow.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMEMHEAP
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDMOWrapperFilter
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDMOWrapperFilter interface

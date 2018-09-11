@@ -4,17 +4,16 @@ title: IDXGIDevice::QueryResourceResidency
 author: windows-sdk-content
 description: Gets the residency status of an array of resources.
 old-location: direct3ddxgi\idxgidevice_queryresourceresidency.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevice_queryresourceresidency.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 0f2dfe96-267a-14d2-b7ec-deb2ed3c3450, IDXGIDevice interface [DXGI],QueryResourceResidency method, IDXGIDevice.QueryResourceResidency, IDXGIDevice::QueryResourceResidency, QueryResourceResidency, QueryResourceResidency method [DXGI], QueryResourceResidency method [DXGI],IDXGIDevice interface, direct3ddxgi.idxgidevice_queryresourceresidency, dxgi/IDXGIDevice::QueryResourceResidency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIDevice.QueryResourceResidency
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIDevice::QueryResourceResidency

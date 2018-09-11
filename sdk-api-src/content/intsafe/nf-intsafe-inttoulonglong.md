@@ -4,17 +4,16 @@ title: IntToULongLong function
 author: windows-sdk-content
 description: Converts a value of type INT to a value of type UINT_PTR.
 old-location: shell\IntToUIntPtr.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 479958f6-e38c-404c-b4bd-2991be568a2b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IntToUIntPtr, IntToUIntPtr function [Windows Shell], IntToULongLong, _shell_IntToUIntPtr, intsafe/IntToUIntPtr, shell.IntToUIntPtr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IntToUIntPtr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IntToULongLong function

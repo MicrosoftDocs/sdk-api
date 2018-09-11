@@ -4,17 +4,16 @@ title: ITfUIElementSink::BeginUIElement
 author: windows-sdk-content
 description: The ITfUIElementSink::BeginUIElement method is called when the UIElement started. This sink can let the textservice to draw or not to draw the UI element.
 old-location: tsf\itfuielementsink_beginuielement.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 068c6963-7d69-45b9-8f8b-7af358548a56
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BeginUIElement, BeginUIElement method [Text Services Framework], BeginUIElement method [Text Services Framework],ITfUIElementSink interface, ITfUIElementSink interface [Text Services Framework],BeginUIElement method, ITfUIElementSink.BeginUIElement, ITfUIElementSink::BeginUIElement, msctf/ITfUIElementSink::BeginUIElement, tsf.itfuielementsink_beginuielement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfUIElementSink.BeginUIElement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfUIElementSink::BeginUIElement

@@ -4,17 +4,16 @@ title: tagRAWINPUTHEADER
 author: windows-sdk-content
 description: Contains the header information that is part of the raw input data.
 old-location: inputdev\rawinputheader.htm
-old-project: inputdev
+tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawinputheader.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPRAWINPUTHEADER, *PRAWINPUTHEADER, PRAWINPUTHEADER, PRAWINPUTHEADER structure pointer [Keyboard and Mouse Input], RAWINPUTHEADER, RAWINPUTHEADER structure [Keyboard and Mouse Input], RIM_TYPEHID, RIM_TYPEKEYBOARD, RIM_TYPEMOUSE, _win32_RAWINPUTHEADER_str, _win32_rawinputheader_str_cpp, inputdev.rawinputheader, tagRAWINPUTHEADER, winui._win32_rawinputheader_str, winuser/PRAWINPUTHEADER, winuser/RAWINPUTHEADER"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAWINPUTHEADER, *PRAWINPUTHEADER, *LPRAWINPUTHEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAWINPUTHEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: RAWINPUTHEADER, *PRAWINPUTHEADER, *LPRAWINPUTHEADER
+req.redist: 
 ---
 
 # tagRAWINPUTHEADER structure

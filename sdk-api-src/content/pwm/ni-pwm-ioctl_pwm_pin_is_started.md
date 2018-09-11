@@ -4,7 +4,7 @@ title: IOCTL_PWM_PIN_IS_STARTED
 author: windows-sdk-content
 description: Retrieves the state of signal generation for a pin or channel. Each pin has a state of started or stopped as a PWM_PIN_IS_STARTED_OUTPUT structure.
 old-location: base\ioctl_pwm_pin_is_started.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 3C03AF3B-B40D-4909-89B1-BDF783154C28
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: pwm.h
 req.include-header: Pwm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PWM_POLARITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_PWM_PIN_IS_STARTED
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_PWM_PIN_IS_STARTED IOCTL

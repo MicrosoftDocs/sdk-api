@@ -4,17 +4,16 @@ title: "_SYSTEM_AUDIT_CALLBACK_ACE"
 author: windows-sdk-content
 description: The SYSTEM_AUDIT_CALLBACK_ACE structure defines an access control entry for the system access control list that specifies what types of access cause system-level notifications.
 old-location: security\system_audit_callback_ace.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4d1799b0-3e55-48d7-94ff-c0094945adea
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSYSTEM_AUDIT_CALLBACK_ACE, PACCESS_AUDIT_CALLBACK_ACE, PACCESS_AUDIT_CALLBACK_ACE structure pointer [Security], SYSTEM_AUDIT_CALLBACK_ACE, SYSTEM_AUDIT_CALLBACK_ACE structure [Security], _SYSTEM_AUDIT_CALLBACK_ACE, security.system_audit_callback_ace, winnt/PACCESS_AUDIT_CALLBACK_ACE, winnt/SYSTEM_AUDIT_CALLBACK_ACE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_AUDIT_CALLBACK_ACE, *PSYSTEM_AUDIT_CALLBACK_ACE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYSTEM_AUDIT_CALLBACK_ACE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SYSTEM_AUDIT_CALLBACK_ACE, *PSYSTEM_AUDIT_CALLBACK_ACE
+req.redist: 
 ---
 
 # _SYSTEM_AUDIT_CALLBACK_ACE structure

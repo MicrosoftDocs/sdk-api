@@ -4,17 +4,16 @@ title: GetSystemPowerStatus function
 author: windows-sdk-content
 description: Retrieves the power status of the system. The status indicates whether the system is running on AC or DC power, whether the battery is currently charging, how much battery life remains, and if battery saver is on or off.
 old-location: base\getsystempowerstatus.htm
-old-project: power
+tech.root: power
 ms.assetid: 6d440ef2-2b9d-4f7a-a445-2420f07f3784
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSystemPowerStatus, GetSystemPowerStatus function, _win32_getsystempowerstatus, base.getsystempowerstatus, winbase/GetSystemPowerStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - GetSystemPowerStatus
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetSystemPowerStatus function

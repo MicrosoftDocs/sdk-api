@@ -4,17 +4,16 @@ title: GetSystemDirectoryA function
 author: windows-sdk-content
 description: Retrieves the path of the system directory.
 old-location: base\getsystemdirectory.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: 79f045b2-40d9-498a-b720-e729c92bf50b
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetSystemDirectory, GetSystemDirectory function, GetSystemDirectoryA, GetSystemDirectoryW, _win32_getsystemdirectory, base.getsystemdirectory, sysinfoapi/GetSystemDirectory, sysinfoapi/GetSystemDirectoryA, sysinfoapi/GetSystemDirectoryW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPUTER_NAME_FORMAT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - GetSystemDirectoryW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # GetSystemDirectoryA function

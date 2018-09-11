@@ -4,17 +4,16 @@ title: NPGetPropertyText function
 author: windows-sdk-content
 description: Retrieves the names of buttons to add to a property dialog box for a network resource.
 old-location: security\npgetpropertytext.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 5c4583f5-81e9-4723-8fd0-6909b0107446
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: NPGetPropertyText, NPGetPropertyText function [Security], WNPS_DIR, WNPS_FILE, WNPS_MULT, _mnp_npgetpropertytext, npapi/NPGetPropertyText, security.npgetpropertytext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFICATION_USER_INPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NPGetPropertyText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NPGetPropertyText function

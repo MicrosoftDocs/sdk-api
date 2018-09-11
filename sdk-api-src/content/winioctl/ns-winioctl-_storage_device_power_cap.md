@@ -4,7 +4,7 @@ title: "_STORAGE_DEVICE_POWER_CAP"
 author: windows-sdk-content
 description: This structure is used as an input and output buffer for the IOCTL_STORAGE_DEVICE_POWER_CAP.
 old-location: fs\storage_device_power_cap.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: B81C7D08-980E-4BA2-8CF8-7B6E58709102
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STORAGE_DEVICE_POWER_CAP, *PSTORAGE_DEVICE_POWER_CAP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STORAGE_DEVICE_POWER_CAP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STORAGE_DEVICE_POWER_CAP, *PSTORAGE_DEVICE_POWER_CAP
+req.redist: 
 ---
 
 # _STORAGE_DEVICE_POWER_CAP structure

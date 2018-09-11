@@ -4,17 +4,16 @@ title: GetActivePwrScheme function
 author: windows-sdk-content
 description: Retrieves the index of the active power scheme.
 old-location: base\getactivepwrscheme.htm
-old-project: power
+tech.root: power
 ms.assetid: 2a321372-40ff-4292-8b66-db3f794e5f53
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetActivePwrScheme, GetActivePwrScheme function, _win32_getactivepwrscheme, base.getactivepwrscheme, powrprof/GetActivePwrScheme
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetActivePwrScheme
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetActivePwrScheme function

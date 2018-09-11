@@ -4,7 +4,7 @@ title: "_DS_REPL_KCC_DSA_FAILUREW"
 author: windows-sdk-content
 description: The DS_REPL_KCC_DSA_FAILURE structure contains replication state data about a specific inbound replication partner, as returned by the DsReplicaGetInfo and DsReplicaGetInfo2 function.
 old-location: ad\ds_repl_kcc_dsa_failure.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 7a7131ce-a647-4b3d-a9f3-091b6dcebff7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_KCC_DSA_FAILUREW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DS_REPL_KCC_DSA_FAILUREW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DS_REPL_KCC_DSA_FAILUREW
+req.redist: 
 ---
 
 # _DS_REPL_KCC_DSA_FAILUREW structure

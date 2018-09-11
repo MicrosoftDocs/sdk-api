@@ -4,17 +4,16 @@ title: MappingGetServices function
 author: windows-sdk-content
 description: Retrieves a list of available ELS platform-supported services, along with associated information, according to application-specified criteria.
 old-location: intl\mappinggetservices.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 6d02e085-405e-4388-bf2f-409c92a7b190
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MappingGetServices, MappingGetServices function [Internationalization for Windows Applications], elscore/MappingGetServices, intl.mappinggetservices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: elscore.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, *PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
+req.lib: Elscore.lib
+req.dll: Elscore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MappingGetServices
 product: Windows
 targetos: Windows
-req.lib: Elscore.lib
-req.dll: Elscore.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # MappingGetServices function

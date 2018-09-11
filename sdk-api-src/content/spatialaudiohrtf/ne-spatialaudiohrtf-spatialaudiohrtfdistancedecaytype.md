@@ -4,17 +4,16 @@ title: SpatialAudioHrtfDistanceDecayType
 author: windows-sdk-content
 description: Specifies the type of decay applied over distance from the position of an ISpatialAudioObjectForHrtf to the position of the listener.
 old-location: coreaudio\spatialaudiohrtfdistancedecaytype.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: EF4ACEB1-E802-4337-AA76-467BCB90D7C6
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: SpatialAudioHrtfDistanceDecayType, SpatialAudioHrtfDistanceDecayType enumeration [Core Audio], SpatialAudioHrtfDistanceDecay_CustomDecay, SpatialAudioHrtfDistanceDecay_NaturalDecay, coreaudio.spatialaudiohrtfdistancedecaytype, spatialaudiohrtf/ SpatialAudioHrtfDistanceDecay_NaturalDecay, spatialaudiohrtf/SpatialAudioHrtfDistanceDecayType, spatialaudiohrtf/SpatialAudioHrtfDistanceDecay_CustomDecay
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: spatialaudiohrtf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioHrtfDistanceDecayType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SpatialAudioHrtfDistanceDecayType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SpatialAudioHrtfDistanceDecayType
+req.redist: 
 ---
 
 # SpatialAudioHrtfDistanceDecayType enumeration

@@ -4,17 +4,16 @@ title: "_DETAILSINFO"
 author: windows-sdk-content
 description: Contains detail information for a Shell folder item. Used with the SFVM_GETDETAILSOF notification.
 old-location: shell\DETAILSINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 255de86e-c3d4-4b1d-9b61-7ee679a4973e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*PDETAILSINFO, DETAILSINFO, DETAILSINFO structure [Windows Shell], LVCFMT_CENTER, LVCFMT_COL_HAS_IMAGES, LVCFMT_LEFT, LVCFMT_RIGHT, _DETAILSINFO, _win32_DETAILSINFO, shell.DETAILSINFO, shlobj_core/DETAILSINFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DETAILSINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DETAILSINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: DETAILSINFO
+req.redist: 
 ---
 
 # _DETAILSINFO structure

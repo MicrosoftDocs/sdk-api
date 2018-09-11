@@ -4,17 +4,16 @@ title: TSPI_lineSetCallData function
 author: windows-sdk-content
 description: The TSPI_lineSetCallData function service provider stores the indicated call data with its information related to the call, and subsequently delivers it whenever TSPI_lineGetCallInfo is called.
 old-location: tspi\tspi_linesetcalldata.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 0a4b1dba-df2b-4c9e-9a17-4c5f24d152a7
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineSetCallData, TSPI_lineSetCallData function [TAPI 2.2], _tspi_tspi_linesetcalldata, tspi.tspi_linesetcalldata, tspi/TSPI_lineSetCallData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineSetCallData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineSetCallData function

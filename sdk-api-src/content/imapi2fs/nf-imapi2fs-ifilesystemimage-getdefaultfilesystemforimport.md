@@ -4,17 +4,16 @@ title: IFileSystemImage::GetDefaultFileSystemForImport
 author: windows-sdk-content
 description: Retrieves the file system to import by default.
 old-location: imapi\ifilesystemimage_getdefaultfilesystemforimport.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: bbac5b93-669f-45ea-9a3d-e2dd7f8bdcf6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetDefaultFileSystemForImport, GetDefaultFileSystemForImport method [IMAPI], GetDefaultFileSystemForImport method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],GetDefaultFileSystemForImport method, IFileSystemImage.GetDefaultFileSystemForImport, IFileSystemImage::GetDefaultFileSystemForImport, imapi.ifilesystemimage_getdefaultfilesystemforimport, imapi2fs/IFileSystemImage::GetDefaultFileSystemForImport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImage.GetDefaultFileSystemForImport
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImage::GetDefaultFileSystemForImport

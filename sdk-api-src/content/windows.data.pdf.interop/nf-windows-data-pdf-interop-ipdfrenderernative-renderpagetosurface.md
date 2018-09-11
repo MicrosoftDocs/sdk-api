@@ -4,17 +4,16 @@ title: IPdfRendererNative::pdf
 author: windows-sdk-content
 description: Outputs a single page of a Portable Document Format (PDF) file to a Microsoft DirectX image-data object.
 old-location: winrt\ipdfrenderernative_renderpagetosurface.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: d4688c23-0122-40a7-908e-793c3f03fb37
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPdfRendererNative interface [Windows Runtime],RenderPageToSurface method, IPdfRendererNative.RenderPageToSurface, IPdfRendererNative.pdf, IPdfRendererNative::RenderPageToSurface, IPdfRendererNative::pdf, RenderPageToSurface, RenderPageToSurface method [Windows Runtime], RenderPageToSurface method [Windows Runtime],IPdfRendererNative interface, windows/IPdfRendererNative::RenderPageToSurface, winrt.ipdfrenderernative_renderpagetosurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.data.pdf.interop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [UWP apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [UWP apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
+req.lib: Windows.data.pdf.lib
+req.dll: Windows.Data.Pdf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPdfRendererNative.RenderPageToSurface
 product: Windows
 targetos: Windows
-req.lib: Windows.data.pdf.lib
-req.dll: Windows.Data.Pdf.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPdfRendererNative::pdf

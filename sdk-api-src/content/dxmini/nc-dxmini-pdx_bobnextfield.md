@@ -4,7 +4,7 @@ title: PDX_BOBNEXTFIELD
 author: windows-sdk-content
 description: The DxBobNextField callback function bobs the next field of interleaved data.
 old-location: display\dxbobnextfield.htm
-old-project: display
+tech.root: display
 ms.assetid: 5daafc0c-2a6d-45e2-8403-d54cb383b3b7
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DxBobNextField
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # PDX_BOBNEXTFIELD callback function

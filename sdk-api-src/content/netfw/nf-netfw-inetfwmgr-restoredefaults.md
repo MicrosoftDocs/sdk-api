@@ -4,17 +4,16 @@ title: INetFwMgr::RestoreDefaults
 author: windows-sdk-content
 description: Restores the local configuration to its default, installed state.
 old-location: ics\inetfwmgr_restoredefaults.htm
-old-project: ics
+tech.root: ics
 ms.assetid: ed2fd6b6-e449-4bed-aeb4-eb4345f67b12
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],RestoreDefaults method, INetFwMgr.RestoreDefaults, INetFwMgr::RestoreDefaults, RestoreDefaults, RestoreDefaults method [ICS/ICF], RestoreDefaults method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_restoredefaults, netfw/INetFwMgr::RestoreDefaults
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - INetFwMgr.RestoreDefaults
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwMgr::RestoreDefaults

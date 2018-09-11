@@ -4,17 +4,16 @@ title: CLUSTER_RESOURCE_APPLICATION_STATE
 author: windows-sdk-content
 description: Enumerates resource application states.
 old-location: mscs\cluster_resource_application_state.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: A67B8251-214B-44DD-8166-C0F74335CE1F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_RESOURCE_APPLICATION_STATE, CLUSTER_RESOURCE_APPLICATION_STATE enumeration [Failover Cluster], ClusterResourceApplicationOSHeartBeat, ClusterResourceApplicationReady, ClusterResourceApplicationStateUnknown, mscs.cluster_resource_application_state, resapi/CLUSTER_RESOURCE_APPLICATION_STATE, resapi/ClusterResourceApplicationOSHeartBeat, resapi/ClusterResourceApplicationReady, resapi/ClusterResourceApplicationStateUnknown
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_RESOURCE_APPLICATION_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLUSTER_RESOURCE_APPLICATION_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CLUSTER_RESOURCE_APPLICATION_STATE
+req.redist: 
 ---
 
 # CLUSTER_RESOURCE_APPLICATION_STATE enumeration

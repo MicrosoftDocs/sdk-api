@@ -4,17 +4,16 @@ title: IMFSAMIStyle::GetStyles
 author: windows-sdk-content
 description: Gets a list of the style names defined in the SAMI file.
 old-location: mf\imfsamistyle_getstyles.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e0b183f0-8781-4fc5-97dd-e42b0e7bd5e5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetStyles, GetStyles method [Media Foundation], GetStyles method [Media Foundation],IMFSAMIStyle interface, IMFSAMIStyle interface [Media Foundation],GetStyles method, IMFSAMIStyle.GetStyles, IMFSAMIStyle::GetStyles, e0b183f0-8781-4fc5-97dd-e42b0e7bd5e5, mf.imfsamistyle_getstyles, mfidl/IMFSAMIStyle::GetStyles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSAMIStyle.GetStyles
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSAMIStyle::GetStyles

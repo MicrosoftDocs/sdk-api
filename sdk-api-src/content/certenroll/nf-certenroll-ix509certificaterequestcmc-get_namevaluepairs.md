@@ -4,17 +4,16 @@ title: IX509CertificateRequestCmc::get_NameValuePairs
 author: windows-sdk-content
 description: Retrieves an IX509NameValuePairs collection associated with a certificate request.
 old-location: security\ix509certificaterequestcmc_namevaluepairs_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 3b98629e-a501-4ba0-8825-0cab7187d6f5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],NameValuePairs property, IX509CertificateRequestCmc.NameValuePairs, IX509CertificateRequestCmc.get_NameValuePairs, IX509CertificateRequestCmc::NameValuePairs, IX509CertificateRequestCmc::get_NameValuePairs, NameValuePairs property [Security], NameValuePairs property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::NameValuePairs, certenroll/IX509CertificateRequestCmc::get_NameValuePairs, get_NameValuePairs, security.ix509certificaterequestcmc_namevaluepairs_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509CertificateRequestCmc.get_NameValuePairs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestCmc::get_NameValuePairs

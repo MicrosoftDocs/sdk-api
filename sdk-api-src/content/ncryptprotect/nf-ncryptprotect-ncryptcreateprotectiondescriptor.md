@@ -4,17 +4,16 @@ title: NCryptCreateProtectionDescriptor function
 author: windows-sdk-content
 description: Retrieves a handle to a protection descriptor object.
 old-location: security\ncryptcreateprotectiondescriptor.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: BA6B15AC-2CD8-4D9A-817F-65CF9C09D22C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NCryptCreateProtectionDescriptor, NCryptCreateProtectionDescriptor function [Security], ncryptprotect/NCryptCreateProtectionDescriptor, security.ncryptcreateprotectiondescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NCRYPT_UI_POLICY
+req.lib: NCrypt.lib
+req.dll: NCrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCryptCreateProtectionDescriptor
 product: Windows
 targetos: Windows
-req.lib: NCrypt.lib
-req.dll: NCrypt.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NCryptCreateProtectionDescriptor function

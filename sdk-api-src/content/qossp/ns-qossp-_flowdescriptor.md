@@ -4,17 +4,16 @@ title: "_FLOWDESCRIPTOR"
 author: windows-sdk-content
 description: The FLOWDESCRIPTOR structure specifies one or more filters for a given FLOWSPEC.
 old-location: qos\flowdescriptor.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: c81a9c68-7124-4a66-9c68-d147d41c0c4d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPFLOWDESCRIPTOR, *LPFLOWDESCRIPTOR structure [QOS], FLOWDESCRIPTOR, FLOWDESCRIPTOR structure [QOS], _FLOWDESCRIPTOR, qos.flowdescriptor, qossp/*LPFLOWDESCRIPTOR, qossp/FLOWDESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLOWDESCRIPTOR, *LPFLOWDESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLOWDESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: FLOWDESCRIPTOR, *LPFLOWDESCRIPTOR
+req.redist: 
 ---
 
 # _FLOWDESCRIPTOR structure

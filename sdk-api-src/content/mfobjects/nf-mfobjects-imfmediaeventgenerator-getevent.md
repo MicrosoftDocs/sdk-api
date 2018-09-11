@@ -4,17 +4,16 @@ title: IMFMediaEventGenerator::GetEvent
 author: windows-sdk-content
 description: Retrieves the next event in the queue. This method is synchronous.
 old-location: mf\imfmediaeventgenerator_getevent.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e78464b5-ec6b-4739-a135-352fa297916a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 0, GetEvent, GetEvent method [Media Foundation], GetEvent method [Media Foundation],IMFMediaEventGenerator interface, IMFMediaEventGenerator interface [Media Foundation],GetEvent method, IMFMediaEventGenerator.GetEvent, IMFMediaEventGenerator::GetEvent, MF_EVENT_FLAG_NO_WAIT, e78464b5-ec6b-4739-a135-352fa297916a, mf.imfmediaeventgenerator_getevent, mfobjects/IMFMediaEventGenerator::GetEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaEventGenerator.GetEvent
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEventGenerator::GetEvent

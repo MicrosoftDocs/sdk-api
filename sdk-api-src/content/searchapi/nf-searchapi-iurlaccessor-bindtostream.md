@@ -4,17 +4,16 @@ title: IUrlAccessor::BindToStream
 author: windows-sdk-content
 description: Binds the item being processed to an IStream interface [Structured Storage] data stream and retrieves a pointer to that stream.
 old-location: search\_search_IUrlAccessor_BindToStream.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\bindtostream.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BindToStream, BindToStream method [search], BindToStream method [search],IUrlAccessor interface, IUrlAccessor interface [search],BindToStream method, IUrlAccessor.BindToStream, IUrlAccessor::BindToStream, _search_IUrlAccessor_BindToStream, search._search_IUrlAccessor_BindToStream, searchapi/IUrlAccessor::BindToStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUrlAccessor.BindToStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IUrlAccessor::BindToStream

@@ -4,17 +4,16 @@ title: IMbnConnectionManagerEvents
 author: windows-sdk-content
 description: This notification interface signals an application about the arrival and removal of IMbnConnection interfaces in the system.
 old-location: mbn\imbnconnectionmanagerevents.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 153ab8c5-2b39-44a7-8c12-9f1df0012270
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnConnectionManagerEvents, IMbnConnectionManagerEvents interface [Microsoft Broadband Networks], IMbnConnectionManagerEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectionmanagerevents, mbnapi/IMbnConnectionManagerEvents
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnectionManagerEvents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnectionManagerEvents interface

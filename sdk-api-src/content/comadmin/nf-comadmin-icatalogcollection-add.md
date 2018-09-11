@@ -4,17 +4,16 @@ title: ICatalogCollection::Add
 author: windows-sdk-content
 description: Adds an item to the collection, giving it the high index value.
 old-location: cos\icatalogcollection_add.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 0826a2f0-d4a5-40e2-b951-291d67f0d201
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Add, Add method [COM+], Add method [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],Add method, ICatalogCollection.Add, ICatalogCollection::Add, _cos_ICatalogCollection_Add, comadmin/ICatalogCollection::Add, cos.icatalogcollection_add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICatalogCollection.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatalogCollection::Add

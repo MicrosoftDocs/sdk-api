@@ -4,7 +4,7 @@ title: "_EapCredentialType"
 author: windows-sdk-content
 description: Defines the set of possible EAP credentials that can be passed to the EapPeerGetConfigBlobAndUserBlob function.
 old-location: eaphost\eapcredentialtype.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: E77AA5E1-970A-43A6-916D-623A9C554F53
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: eaptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EapCredentialType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapCredentialType
 product: Windows
 targetos: Windows
-req.lib: Eappprxy.lib
-req.dll: Eappprxy.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EapCredentialType
+req.redist: 
 ---
 
 # _EapCredentialType enumeration

@@ -4,17 +4,16 @@ title: IIsoImageManager::Validate
 author: windows-sdk-content
 description: Determines if the provided .iso image is valid.
 old-location: imapi\iisoimagemanager_validate.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 0fd9f0fc-8a77-4b94-9111-c8ce223329b6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IIsoImageManager interface [IMAPI],Validate method, IIsoImageManager.Validate, IIsoImageManager::Validate, Validate, Validate method [IMAPI], Validate method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_validate, imapi2fs/IIsoImageManager::Validate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsoImageManager.Validate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IIsoImageManager::Validate

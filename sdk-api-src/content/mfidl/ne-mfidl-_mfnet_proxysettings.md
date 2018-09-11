@@ -4,7 +4,7 @@ title: "_MFNET_PROXYSETTINGS"
 author: windows-sdk-content
 description: Specifies how the default proxy locator will specify the connection settings to a proxy server.
 old-location: mf\mfnet_proxysettings.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b9ec76bc-d8d1-4ba1-b6c4-02bcac9b53a0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFNET_PROXYSETTINGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFNET_PROXYSETTINGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFNET_PROXYSETTINGS
+req.redist: 
 ---
 
 # _MFNET_PROXYSETTINGS enumeration

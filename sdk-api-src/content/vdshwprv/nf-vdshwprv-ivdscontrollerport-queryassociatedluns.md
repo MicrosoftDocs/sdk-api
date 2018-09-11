@@ -4,17 +4,16 @@ title: IVdsControllerPort::QueryAssociatedLuns
 author: windows-sdk-content
 description: Returns an enumeration of the LUNs with which the controller port is associated&#8212;the LUNs for which the controller is active. This method replaces IVdsController::QueryAssociatedLuns.
 old-location: base\ivdscontrollerport_queryassociatedluns.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 062b820e-f384-4c2e-a2f7-c90748c74976
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsControllerPort interface [VDS],QueryAssociatedLuns method, IVdsControllerPort.QueryAssociatedLuns, IVdsControllerPort::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_queryassociatedluns, vds/IVdsControllerPort::QueryAssociatedLuns, vdshwprv/IVdsControllerPort::QueryAssociatedLuns
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsControllerPort.QueryAssociatedLuns
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsControllerPort::QueryAssociatedLuns

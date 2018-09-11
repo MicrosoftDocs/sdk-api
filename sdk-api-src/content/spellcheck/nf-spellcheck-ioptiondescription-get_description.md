@@ -4,17 +4,16 @@ title: IOptionDescription::get_Description
 author: windows-sdk-content
 description: Get the description of the spell checker option.
 old-location: intl\ioptiondescription_description.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 2c074068-b710-4d69-9a29-f35ea142881f
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: Description property [Internationalization for Windows Applications], Description property [Internationalization for Windows Applications],IOptionDescription interface, IOptionDescription interface [Internationalization for Windows Applications],Description property, IOptionDescription.Description, IOptionDescription.get_Description, IOptionDescription::Description, IOptionDescription::get_Description, get_Description, intl.ioptiondescription_description, spellcheck/IOptionDescription::Description, spellcheck/IOptionDescription::get_Description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IOptionDescription.get_Description
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOptionDescription::get_Description

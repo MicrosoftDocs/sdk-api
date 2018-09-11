@@ -4,17 +4,16 @@ title: IAzOperation2
 author: windows-sdk-content
 description: Extends the IAzOperation with a method that returns the role assignments associated with the operation.
 old-location: security\iazoperation2.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 83baa90b-bbc3-49b9-949e-45d68a155b5c
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IAzOperation2, IAzOperation2 interface [Security], IAzOperation2 interface [Security],described, azroles/IAzOperation2, security.iazoperation2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzOperation2
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzOperation2 interface

@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxOutgoingQueue.put_AgeLimit
 title: IFaxOutgoingQueue::put_AgeLimit
 author: windows-sdk-content
-description: The AgeLimit property is a value that indicates the number of days that the fax service retains an unsent job in the fax job queue.
-old-location: fax\_mfax_faxoutgoingqueue_agelimit_vb.htm
-old-project: Fax
+description: The IFaxOutgoingQueue::get_AgeLimit property is a value that indicates the number of days that the fax service retains an unsent job in the fax job queue.
+old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_agelimit_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7qyc.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service],FaxOutgoingQueue object, FaxOutgoingQueue object [Fax Service],AgeLimit property, FaxOutgoingQueue.AgeLimit, IFaxOutgoingQueue.put_AgeLimit, IFaxOutgoingQueue::put_AgeLimit, _mfax_faxoutgoingqueue.agelimit, fax._mfax_faxoutgoingqueue_agelimit, fax._mfax_faxoutgoingqueue_agelimit_vb, put_AgeLimit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],AgeLimit property, IFaxOutgoingQueue.AgeLimit, IFaxOutgoingQueue.put_AgeLimit, IFaxOutgoingQueue::AgeLimit, IFaxOutgoingQueue::get_AgeLimit, IFaxOutgoingQueue::put_AgeLimit, _mfax_faxoutgoingqueue.agelimit, fax._mfax_faxoutgoingqueue_agelimit, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_agelimit_cpp, faxcomex/IFaxOutgoingQueue::AgeLimit, faxcomex/IFaxOutgoingQueue::get_AgeLimit, faxcomex/IFaxOutgoingQueue::put_AgeLimit, put_AgeLimit
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxOutgoingQueue.AgeLimit
+ - IFaxOutgoingQueue.AgeLimit
+ - IFaxOutgoingQueue.get_AgeLimit
+ - IFaxOutgoingQueue.put_AgeLimit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxOutgoingQueue::put_AgeLimit
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>AgeLimit</b> property is a value that indicates the number of days that the fax service retains an unsent job in the fax job queue. 
+The <b>IFaxOutgoingQueue::get_AgeLimit</b> property is a value that indicates the number of days that the fax service retains an unsent job in the fax job queue. 
 
 This property is read/write.
 

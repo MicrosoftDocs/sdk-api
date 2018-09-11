@@ -4,17 +4,16 @@ title: ber_printf function
 author: windows-sdk-content
 description: Used to encode a BER element and is similar to sprintf_s.
 old-location: ldap\ber_printf.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 6bae449b-eb75-4598-aacc-65567de67997
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ber_printf, ber_printf, ber_printf function [LDAP], ldap.ber__printf, ldap.ber_printf, winber/ber_printf"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winber.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ber_printf
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ber_printf function
@@ -71,7 +69,14 @@ A pointer to the encoded <a href="https://msdn.microsoft.com/491bdf54-0b45-4324-
 An encoding format string. For more information, see Remarks.
 
 
-### -param param [in]
+### -param arg1
+
+TBD
+
+
+
+
+#### - param [in]
 
 The values to be encoded as specified by the <i>fmt</i> argument.
 

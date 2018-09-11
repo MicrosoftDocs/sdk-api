@@ -4,17 +4,16 @@ title: IConnectedIdentityProvider::ConnectIdentity
 author: windows-sdk-content
 description: Connects an identity to a domain user.
 old-location: security\iconnectedidentityprovider_connectidentity.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 945CBE34-E364-41FF-8CE4-0FB0BEF3BC69
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ConnectIdentity, ConnectIdentity method [Security], ConnectIdentity method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],ConnectIdentity method, IConnectedIdentityProvider.ConnectIdentity, IConnectedIdentityProvider::ConnectIdentity, identityprovider/IConnectedIdentityProvider::ConnectIdentity, security.iconnectedidentityprovider_connectidentity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IDENTITY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConnectedIdentityProvider.ConnectIdentity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IConnectedIdentityProvider::ConnectIdentity

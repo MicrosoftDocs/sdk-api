@@ -4,17 +4,16 @@ title: IAMWMBufferPass::SetNotify
 author: windows-sdk-content
 description: The SetNotify method IAMWMBufferPasssets an application-defined callback on the WM ASF Reader or WM ASF Writer filter.
 old-location: dshow\iamwmbufferpass_setnotify.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 4aa6fc71-39a7-4fa5-bfe3-b5b12dd44a2b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMWMBufferPass interface [DirectShow],SetNotify method, IAMWMBufferPass.SetNotify, IAMWMBufferPass::SetNotify, IAMWMBufferPassSetNotify, SetNotify, SetNotify method [DirectShow], SetNotify method [DirectShow],IAMWMBufferPass interface, dshow.iamwmbufferpass_setnotify, dshowasf/IAMWMBufferPass::SetNotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAMWMBufferPass.SetNotify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows Media Format 9 Series or later
 ---
 

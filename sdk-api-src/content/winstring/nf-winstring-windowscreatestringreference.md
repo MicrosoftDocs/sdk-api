@@ -4,17 +4,16 @@ title: WindowsCreateStringReference function
 author: windows-sdk-content
 description: Creates a new string reference based on the specified string.
 old-location: winrt\windowscreatestringreference.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 0361BB7E-DA49-4289-A93E-DE7AAB8712AC
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WindowsCreateStringReference, WindowsCreateStringReference function [Windows Runtime], winrt.windowscreatestringreference, winstring/WindowsCreateStringReference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winstring.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - WindowsCreateStringReference
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WindowsCreateStringReference function

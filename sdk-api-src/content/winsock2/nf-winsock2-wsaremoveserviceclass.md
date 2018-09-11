@@ -4,17 +4,16 @@ title: WSARemoveServiceClass function
 author: windows-sdk-content
 description: The WSARemoveServiceClass function permanently removes the service class schema from the registry.
 old-location: winsock\wsaremoveserviceclass_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 7d72f727-cca9-4a07-beb4-d64f23c1f0c1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSARemoveServiceClass, WSARemoveServiceClass function [Winsock], _win32_wsaremoveserviceclass_2, winsock.wsaremoveserviceclass_2, winsock2/WSARemoveServiceClass
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSARemoveServiceClass
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSARemoveServiceClass function

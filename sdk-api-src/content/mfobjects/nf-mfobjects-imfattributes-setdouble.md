@@ -4,17 +4,16 @@ title: IMFAttributes::SetDouble
 author: windows-sdk-content
 description: Associates a double value with a key.
 old-location: mf\imfattributes_setdouble.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: bb58f35e-0fca-4b19-9976-de2140e6ebc0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFAttributes interface [Media Foundation],SetDouble method, IMFAttributes.SetDouble, IMFAttributes::SetDouble, SetDouble, SetDouble method [Media Foundation], SetDouble method [Media Foundation],IMFAttributes interface, bb58f35e-0fca-4b19-9976-de2140e6ebc0, mf.imfattributes_setdouble, mfobjects/IMFAttributes::SetDouble
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFAttributes.SetDouble
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFAttributes::SetDouble

@@ -4,17 +4,16 @@ title: IInkEdit::get_DisableNoScroll
 author: windows-sdk-content
 description: Gets or sets a value that determines whether scroll bars in the InkEdit control are disabled.
 old-location: tablet\inkedit_disablenoscroll.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 44a8372c-6323-4d76-9038-d61d210990b0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: DisableNoScroll property [Tablet PC], DisableNoScroll property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],DisableNoScroll property, IInkEdit.DisableNoScroll, IInkEdit.get_DisableNoScroll, IInkEdit::DisableNoScroll, IInkEdit::get_DisableNoScroll, IInkEdit::put_DisableNoScroll, InkEdit.get_DisableNoScroll, InkEdit.put_DisableNoScroll, get_DisableNoScroll, inked/IInkEdit::DisableNoScroll, inked/IInkEdit::get_DisableNoScroll, inked/IInkEdit::put_DisableNoScroll, put_DisableNoScroll, tablet.inkedit_disablenoscroll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.put_DisableNoScroll
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::get_DisableNoScroll

@@ -4,17 +4,16 @@ title: PowerReportThermalEvent function
 author: windows-sdk-content
 description: Notifies the operating system of thermal events.
 old-location: base\powerreportthermalevent.htm
-old-project: power
+tech.root: power
 ms.assetid: DD3DE1B2-17C1-4FF8-9DF8-BEF35933D913
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PowerReportThermalEvent, PowerReportThermalEvent function, base.powerreportthermalevent, powrprof/PowerReportThermalEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PowerReportThermalEvent
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PowerReportThermalEvent function

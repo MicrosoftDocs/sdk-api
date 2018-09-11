@@ -4,17 +4,16 @@ title: SHGetDriveMedia function
 author: windows-sdk-content
 description: Returns the type of media that is in the given drive.
 old-location: shell\SHGetDriveMedia.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9b1208cd-3c13-456a-8a7f-0f149cb86d38
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHGetDriveMedia, SHGetDriveMedia function [Windows Shell], _shell_SHGetDriveMedia, shell.SHGetDriveMedia, shellapi/SHGetDriveMedia
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHGetDriveMedia
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHGetDriveMedia function

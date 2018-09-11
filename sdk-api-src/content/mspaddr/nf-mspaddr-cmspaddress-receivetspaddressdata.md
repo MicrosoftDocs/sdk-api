@@ -4,17 +4,16 @@ title: CMSPAddress::ReceiveTSPAddressData
 author: windows-sdk-content
 description: The ReceiveTSPAddressData method is called when a TSP data message is intended to be processed by the address rather than by a specific call. Your MSP must override this method if it wants to handle any per-address TSP messages.
 old-location: tapi3\cmspaddress_receivetspaddressdata.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 56fc4024-bca0-405c-8a15-29ac8e486f80
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],ReceiveTSPAddressData method, CMSPAddress.ReceiveTSPAddressData, CMSPAddress::ReceiveTSPAddressData, ReceiveTSPAddressData, ReceiveTSPAddressData method [TAPI 2.2], ReceiveTSPAddressData method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_receivetspaddressdata, mspaddr/CMSPAddress::ReceiveTSPAddressData, tapi3.cmspaddress_receivetspaddressdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mspaddr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSPAddress.ReceiveTSPAddressData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CMSPAddress::ReceiveTSPAddressData

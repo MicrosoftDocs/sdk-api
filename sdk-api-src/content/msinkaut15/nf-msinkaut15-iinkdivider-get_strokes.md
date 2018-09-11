@@ -4,17 +4,16 @@ title: IInkDivider::get_Strokes
 author: windows-sdk-content
 description: Gets or sets the InkStrokes collection on which the InkDivider object performs layout analysis.
 old-location: tablet\inkdivider_strokes.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 611ccce9-7acb-4138-9655-938efcaa4c75
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 611ccce9-7acb-4138-9655-938efcaa4c75, IInkDivider interface [Tablet PC],Strokes property, IInkDivider.Strokes, IInkDivider.get_Strokes, IInkDivider::Strokes, IInkDivider::get_Strokes, IInkDivider::putref_Strokes, InkDivider.get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkDivider interface, get_Strokes, msinkaut15/IInkDivider::Strokes, msinkaut15/IInkDivider::get_Strokes, msinkaut15/IInkDivider::putref_Strokes, tablet.inkdivider_strokes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut15.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecoGuide
+req.lib: Inkdiv.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - InkDivider.get_Strokes
 product: Windows
 targetos: Windows
-req.lib: Inkdiv.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDivider::get_Strokes

@@ -4,17 +4,16 @@ title: IDvbExtendedEventDescriptor::GetLastDescriptorNumber
 author: windows-sdk-content
 description: Gets the number of the last descriptor associated with this descriptor from a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor_getlastdescriptornumber.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: fccfec3b-0177-4a3d-8c82-0cba3633a613
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetLastDescriptorNumber, GetLastDescriptorNumber method [Microsoft TV Technologies], GetLastDescriptorNumber method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetLastDescriptorNumber method, IDvbExtendedEventDescriptor.GetLastDescriptorNumber, IDvbExtendedEventDescriptor::GetLastDescriptorNumber, dvbsiparser/IDvbExtendedEventDescriptor::GetLastDescriptorNumber, mstv.idvbextendedeventdescriptor_getlastdescriptornumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbExtendedEventDescriptor.GetLastDescriptorNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbExtendedEventDescriptor::GetLastDescriptorNumber

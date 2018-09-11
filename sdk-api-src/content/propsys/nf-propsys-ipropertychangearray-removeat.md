@@ -4,17 +4,16 @@ title: IPropertyChangeArray::RemoveAt
 author: windows-sdk-content
 description: Removes a specified change.
 old-location: properties\IPropertyChangeArray_RemoveAt.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 59d98675-c934-4f2d-8018-f581017d5441
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IPropertyChangeArray interface [Windows Properties],RemoveAt method, IPropertyChangeArray.RemoveAt, IPropertyChangeArray::RemoveAt, RemoveAt, RemoveAt method [Windows Properties], RemoveAt method [Windows Properties],IPropertyChangeArray interface, _shell_IPropertyChangeArray_RemoveAt, properties.IPropertyChangeArray_RemoveAt, propsys/IPropertyChangeArray::RemoveAt, shell.IPropertyChangeArray_RemoveAt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyChangeArray.RemoveAt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyChangeArray::RemoveAt

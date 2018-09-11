@@ -4,17 +4,16 @@ title: IInvalidProductLicenseException::get_Product
 author: windows-sdk-content
 description: Gets the language-invariant name of the product.
 old-location: wua\iinvalidproductlicenseexception_product.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: acbff9e4-59d7-4af9-8633-75edbf83d3ce
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IInvalidProductLicenseException interface [Windows Update Agent],Product property, IInvalidProductLicenseException.Product, IInvalidProductLicenseException.get_Product, IInvalidProductLicenseException::Product, IInvalidProductLicenseException::get_Product, Product property [Windows Update Agent], Product property [Windows Update Agent],IInvalidProductLicenseException interface, get_Product, wua.iinvalidproductlicenseexception_product, wuapi/IInvalidProductLicenseException::Product, wuapi/IInvalidProductLicenseException::get_Product
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInvalidProductLicenseException.get_Product
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IInvalidProductLicenseException::get_Product

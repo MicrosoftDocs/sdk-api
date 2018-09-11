@@ -4,17 +4,16 @@ title: IAssocHandler::GetName
 author: windows-sdk-content
 description: Retrieves the full path and file name of the executable file associated with the file type.
 old-location: shell\IAssocHandler_GetName.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d20aee32-fa5a-40a9-b0e2-8479a90fcf35
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],GetName method, IAssocHandler.GetName, IAssocHandler::GetName, _shell_IAssocHandler_GetName, shell.IAssocHandler_GetName, shobjidl_core/IAssocHandler::GetName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAssocHandler.GetName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAssocHandler::GetName

@@ -4,17 +4,16 @@ title: IBackgroundCopyFile2::GetFileRanges
 author: windows-sdk-content
 description: Retrieves the ranges that you want to download from the remote file.
 old-location: bits\ibackgroundcopyfile2_getfileranges.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 2e0ea08e-5f97-45c9-9280-ce6c4dce7a17
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetFileRanges, GetFileRanges method [BITS], GetFileRanges method [BITS],IBackgroundCopyFile2 interface, IBackgroundCopyFile2 interface [BITS],GetFileRanges method, IBackgroundCopyFile2.GetFileRanges, IBackgroundCopyFile2::GetFileRanges, bits.ibackgroundcopyfile2_getfileranges, bits2_0/IBackgroundCopyFile2::GetFileRanges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits2_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2,KB842773 on  Windows Server 2003,  and Windows XP
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_AUTH_CREDENTIALS
+req.lib: Bits.lib
+req.dll: BitsPrx3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyFile2.GetFileRanges
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: BitsPrx3.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyFile2::GetFileRanges

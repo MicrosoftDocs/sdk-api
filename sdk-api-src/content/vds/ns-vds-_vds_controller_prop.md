@@ -4,17 +4,16 @@ title: "_VDS_CONTROLLER_PROP"
 author: windows-sdk-content
 description: Defines the properties of a controller object.
 old-location: base\vds_controller_prop.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: b9da3920-9bae-4198-ba0d-a0755aee15e4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVDS_CONTROLLER_PROP, VDS_CONTROLLER_PROP, VDS_CONTROLLER_PROP structure [VDS], VDS_H_DEGRADED, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_REPLACED, VDS_H_UNKNOWN, _VDS_CONTROLLER_PROP, base.vds_controller_prop, vds/_VDS_CONTROLLER_PROP, vdshwprv/_VDS_CONTROLLER_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_CONTROLLER_PROP, *PVDS_CONTROLLER_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_CONTROLLER_PROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_CONTROLLER_PROP, *PVDS_CONTROLLER_PROP
+req.redist: 
 ---
 
 # _VDS_CONTROLLER_PROP structure

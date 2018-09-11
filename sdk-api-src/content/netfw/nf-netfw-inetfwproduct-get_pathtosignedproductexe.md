@@ -4,17 +4,16 @@ title: INetFwProduct::get_PathToSignedProductExe
 author: windows-sdk-content
 description: Indicates the path to the signed executable file of a third-party firewall product registration.
 old-location: ics\inetfwproduct_pathtosignedproductexe.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 01a7046b-9cfa-44fa-b981-87f15af19ff1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwProduct interface [ICS/ICF],PathToSignedProductExe property, INetFwProduct.PathToSignedProductExe, INetFwProduct.get_PathToSignedProductExe, INetFwProduct::PathToSignedProductExe, INetFwProduct::get_PathToSignedProductExe, PathToSignedProductExe property [ICS/ICF], PathToSignedProductExe property [ICS/ICF],INetFwProduct interface, get_PathToSignedProductExe, ics.inetfwproduct_pathtosignedproductexe, netfw/INetFwProduct::PathToSignedProductExe, netfw/INetFwProduct::get_PathToSignedProductExe
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - INetFwProduct.get_PathToSignedProductExe
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwProduct::get_PathToSignedProductExe

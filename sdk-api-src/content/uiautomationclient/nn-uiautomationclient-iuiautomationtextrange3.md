@@ -4,7 +4,7 @@ title: IUIAutomationTextRange3
 author: windows-sdk-content
 description: Extends the IUIAutomationTextRange2 interface to support faster access to the underlying rich text data on a text range.
 old-location: winauto\uiauto_IUIAutomationTextRange3.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 3491996E-89EF-496D-94B6-FF8D121D3828
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTextRange3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAutomationCore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTextRange3 interface

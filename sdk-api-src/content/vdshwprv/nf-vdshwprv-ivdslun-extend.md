@@ -4,17 +4,16 @@ title: IVdsLun::Extend
 author: windows-sdk-content
 description: Extends a LUN by a specified number of bytes.
 old-location: base\ivdslun_extend.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 65520b6a-206a-4b90-b8cc-b7964d0cf102
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Extend, Extend method [VDS], Extend method [VDS],IVdsLun interface, IVdsLun interface [VDS],Extend method, IVdsLun.Extend, IVdsLun::Extend, base.ivdslun_extend, vds/IVdsLun::Extend, vdshwprv/IVdsLun::Extend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLun.Extend
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsLun::Extend

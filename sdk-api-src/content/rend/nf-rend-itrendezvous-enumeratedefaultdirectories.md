@@ -4,17 +4,16 @@ title: ITRendezvous::EnumerateDefaultDirectories
 author: windows-sdk-content
 description: The EnumerateDefaultDirectories method enumerates all configured default directories. This method is similar to get_DefaultDirectories but is designed for C/C++.
 old-location: tapi3\itrendezvous_enumeratedefaultdirectories.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: fe89a370-32ed-4519-bb98-9d9ea7615eb7
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumerateDefaultDirectories, EnumerateDefaultDirectories method [TAPI 2.2], EnumerateDefaultDirectories method [TAPI 2.2],ITRendezvous interface, ITRendezvous interface [TAPI 2.2],EnumerateDefaultDirectories method, ITRendezvous.EnumerateDefaultDirectories, ITRendezvous::EnumerateDefaultDirectories, _tapi3_itrendezvous_enumeratedefaultdirectories, rend/ITRendezvous::EnumerateDefaultDirectories, tapi3.itrendezvous_enumeratedefaultdirectories
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITRendezvous.EnumerateDefaultDirectories
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITRendezvous::EnumerateDefaultDirectories

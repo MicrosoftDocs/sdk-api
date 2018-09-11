@@ -4,17 +4,16 @@ title: ISBE2MediaTypeProfile::DeleteStream
 author: windows-sdk-content
 description: Removes a stream from a media type profile.
 old-location: mstv\isbe2mediatypeprofile_deletestream.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 83e8b802-d28f-4130-addf-772682ac327f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: DeleteStream, DeleteStream method [Microsoft TV Technologies], DeleteStream method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],DeleteStream method, ISBE2MediaTypeProfile.DeleteStream, ISBE2MediaTypeProfile::DeleteStream, mstv.isbe2mediatypeprofile_deletestream, sbe/ISBE2MediaTypeProfile::DeleteStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: Sbe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISBE2MediaTypeProfile.DeleteStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sbe.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISBE2MediaTypeProfile::DeleteStream

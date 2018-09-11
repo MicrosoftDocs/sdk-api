@@ -4,17 +4,16 @@ title: D3D10StateBlockMaskIntersect function
 author: windows-sdk-content
 description: Combine two state-block masks with a bitwise AND.
 old-location: direct3d10\d3d10stateblockmaskintersect.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskintersect.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 7ef37c3a-8924-5736-9b40-6a56cdf480c7, D3D10StateBlockMaskIntersect, D3D10StateBlockMaskIntersect function [Direct3D 10], d3d10effect/D3D10StateBlockMaskIntersect, direct3d10.d3d10stateblockmaskintersect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: D3D10.lib
+req.dll: D3D10.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10StateBlockMaskIntersect
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: D3D10.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D3D10StateBlockMaskIntersect function

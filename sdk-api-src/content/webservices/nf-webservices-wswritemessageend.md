@@ -4,17 +4,16 @@ title: WsWriteMessageEnd function
 author: windows-sdk-content
 description: Write the closing elements of the message to the channel.
 old-location: wsw\wswritemessageend.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 329193a7-932a-46d0-8e46-eef6bbdb8fa2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsWriteMessageEnd, WsWriteMessageEnd function [Web Services for Windows], webservices/WsWriteMessageEnd, wsw.wswritemessageend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsWriteMessageEnd
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsWriteMessageEnd function

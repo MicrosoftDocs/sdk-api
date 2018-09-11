@@ -4,17 +4,16 @@ title: MCIWndDestroy macro
 author: windows-sdk-content
 description: The MCIWndDestroy macro closes an MCI device or file associated with an MCIWnd window and destroys the window. You can use this macro or explicitly send the WM_CLOSE message.
 old-location: multimedia\mciwnddestroy.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 26e11fd1-99fd-4afa-8879-096a40acecce
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndDestroy, MCIWndDestroy macro [Windows Multimedia], _win32_MCIWndDestroy, multimedia.mciwnddestroy, vfw/MCIWndDestroy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndDestroy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndDestroy macro

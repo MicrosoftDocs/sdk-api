@@ -4,7 +4,7 @@ title: "_IP_ADAPTER_DNS_SUFFIX"
 author: windows-sdk-content
 description: The IP_ADAPTER_DNS_SUFFIX structure stores a DNS suffix in a linked list of DNS suffixes for a particular adapter.
 old-location: iphlp\ip_adapter_dns_suffix.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 3730a406-2995-48f7-b70e-1cf8258ee4a6
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ipsectypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_ADAPTER_DNS_SUFFIX, *PIP_ADAPTER_DNS_SUFFIX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IP_ADAPTER_DNS_SUFFIX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IP_ADAPTER_DNS_SUFFIX, *PIP_ADAPTER_DNS_SUFFIX
+req.redist: 
 ---
 
 # _IP_ADAPTER_DNS_SUFFIX structure

@@ -4,17 +4,16 @@ title: ISpatialAudioMetadataItemsBuffer
 author: windows-sdk-content
 description: Provides methods for attaching buffers to SpatialAudioMetadataItems for in-place storage of data.
 old-location: coreaudio\ispatialaudiometadataitemsbuffer.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 5DDD468E-0C46-4C00-BCFF-1FF7353ADB8B
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: ISpatialAudioMetadataItemsBuffer, ISpatialAudioMetadataItemsBuffer interface [Core Audio], ISpatialAudioMetadataItemsBuffer interface [Core Audio],described, coreaudio.ispatialaudiometadataitemsbuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudiometadata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioMetadataWriterOverflowMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioMetadataItemsBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioMetadataItemsBuffer interface

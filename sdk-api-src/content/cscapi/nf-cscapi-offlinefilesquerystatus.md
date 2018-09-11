@@ -4,17 +4,16 @@ title: OfflineFilesQueryStatus function
 author: windows-sdk-content
 description: Determines whether the Offline Files feature is enabled and, if so, whether it is active.
 old-location: of\offlinefilesquerystatus.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 2b3a77cd-e874-42fb-8bfa-6d6b26866153
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: OfflineFilesQueryStatus, OfflineFilesQueryStatus function [Offline Files], cscapi/OfflineFilesQueryStatus, of.offlinefilesquerystatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cscapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_X509DATA_ITEM
+req.lib: CscApi.lib
+req.dll: CscApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OfflineFilesQueryStatus
 product: Windows
 targetos: Windows
-req.lib: CscApi.lib
-req.dll: CscApi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # OfflineFilesQueryStatus function

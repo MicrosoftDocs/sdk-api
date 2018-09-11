@@ -4,17 +4,16 @@ title: ILocation::GetReport
 author: windows-sdk-content
 description: Retrieves a location report.
 old-location: winlocation_com_ref\ilocation_getreport.htm
-old-project: locationapi
+tech.root: locationapi
 ms.assetid: 69d0fed5-7f02-4d74-bdbd-3a0fd85e76ed
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetReport, GetReport method [WinLocation], GetReport method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReport method, ILocation.GetReport, ILocation::GetReport, WinLocation_COM_Ref.ilocation_getreport, locationapi/ILocation::GetReport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only],Windows 7
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCATION_REPORT_STATUS
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILocation.GetReport
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: LocationAPI.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ILocation::GetReport

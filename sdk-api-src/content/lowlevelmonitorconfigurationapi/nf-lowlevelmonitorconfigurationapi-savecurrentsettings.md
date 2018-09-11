@@ -4,17 +4,16 @@ title: SaveCurrentSettings function
 author: windows-sdk-content
 description: Saves the current monitor settings to the display's nonvolatile storage.
 old-location: monitor\savecurrentsettings.htm
-old-project: Monitor
+tech.root: Monitor
 ms.assetid: e5903e52-d04c-4ac3-9566-eb4f2559464b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: SaveCurrentSettings, SaveCurrentSettings function [Monitor Configuration], lowlevelmonitorconfigurationapi/SaveCurrentSettings, monitor.savecurrentsettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_VCP_CODE_TYPE, *LPMC_VCP_CODE_TYPE
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SaveCurrentSettings
 product: Windows
 targetos: Windows
-req.lib: Dxva2.lib
-req.dll: Dxva2.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SaveCurrentSettings function

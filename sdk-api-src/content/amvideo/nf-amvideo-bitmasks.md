@@ -4,17 +4,16 @@ title: BITMASKS macro
 author: windows-sdk-content
 description: The BITMASKS macro retrieves the color masks from a VIDEOINFO structure.
 old-location: dshow\bitmasks.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e90ddeab-a3d6-4d34-8608-4d8831d81fe5
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: BITMASKS, BITMASKS macro [DirectShow], amvideo/BITMASKS, dshow.bitmasks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BITMASKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BITMASKS macro

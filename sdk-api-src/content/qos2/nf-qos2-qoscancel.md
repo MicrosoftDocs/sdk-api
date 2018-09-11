@@ -4,17 +4,16 @@ title: QOSCancel function
 author: windows-sdk-content
 description: Cancels a pending overlapped operation, like QOSSetFlow.
 old-location: qos\qoscancel.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: d1f6f32f-d105-40cb-8113-319aa1f63c77
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: QOSCancel, QOSCancel function [QOS], qos.qoscancel, qos2/QOSCancel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: qos2.h
 req.include-header: Qos2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
+req.lib: Qwave.lib
+req.dll: Qwave.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOSCancel
 product: Windows
 targetos: Windows
-req.lib: Qwave.lib
-req.dll: Qwave.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # QOSCancel function

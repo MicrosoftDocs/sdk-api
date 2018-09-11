@@ -4,7 +4,7 @@ title: "_TARGET_TYPE"
 author: windows-sdk-content
 description: Indicates whether a target belongs to a pool or farm.
 old-location: termserv\target_type.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 4ad44a75-0975-4933-a914-a64a82fcae6c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sessdirpublictypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TARGET_TYPE
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: TARGET_TYPE
+req.redist: 
 ---
 
 # _TARGET_TYPE enumeration

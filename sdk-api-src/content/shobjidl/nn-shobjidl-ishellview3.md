@@ -4,17 +4,16 @@ title: IShellView3
 author: windows-sdk-content
 description: Extends the capabilities of IShellView2 by providing a method to replace IShellView2::CreateViewWindow2.
 old-location: shell\IShellView3.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 96b61e84-0d31-494d-a922-cd3dcd5735b9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellView3, IShellView3 interface [Windows Shell], IShellView3 interface [Windows Shell],described, _shell_IShellView3, shell.IShellView3, shobjidl/IShellView3
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellView3
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Explorerframe.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IShellView3 interface

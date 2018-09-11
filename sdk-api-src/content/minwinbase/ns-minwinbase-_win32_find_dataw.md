@@ -4,7 +4,7 @@ title: "_WIN32_FIND_DATAW"
 author: windows-sdk-content
 description: Contains information about the file that is found by the FindFirstFile, FindFirstFileEx, or FindNextFile function.
 old-location: fs\win32_find_data_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: eb700d84-0ba5-4af8-a619-2d2544560dbc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minwinbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_FIND_DATAW, *PWIN32_FIND_DATAW, *LPWIN32_FIND_DATAW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - WIN32_FIND_DATAW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: WIN32_FIND_DATAW, *PWIN32_FIND_DATAW, *LPWIN32_FIND_DATAW
+req.redist: 
 ---
 
 # _WIN32_FIND_DATAW structure

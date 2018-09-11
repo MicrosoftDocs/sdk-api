@@ -4,17 +4,16 @@ title: IInkRecognizerContext::put_PrefixText
 author: windows-sdk-content
 description: Gets or sets the characters that come before the InkStrokes collection in the InkRecognizerContext object.
 old-location: tablet\inkrecognizercontext_prefixtext.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: fe5c91ce-c53e-4f33-bd67-2f1c10e5cf97
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkRecognizerContext interface [Tablet PC],PrefixText property, IInkRecognizerContext.PrefixText, IInkRecognizerContext.put_PrefixText, IInkRecognizerContext::PrefixText, IInkRecognizerContext::get_PrefixText, IInkRecognizerContext::put_PrefixText, InkRecognizerContext.get_PrefixText, InkRecognizerContext.put_PrefixText, PrefixText property [Tablet PC], PrefixText property [Tablet PC],IInkRecognizerContext interface, fe5c91ce-c53e-4f33-bd67-2f1c10e5cf97, get_PrefixText, msinkaut/IInkRecognizerContext::PrefixText, msinkaut/IInkRecognizerContext::get_PrefixText, msinkaut/IInkRecognizerContext::put_PrefixText, put_PrefixText, tablet.inkrecognizercontext_prefixtext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkRecognizerContext.put_PrefixText
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizerContext::put_PrefixText

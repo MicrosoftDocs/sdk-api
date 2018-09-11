@@ -4,17 +4,16 @@ title: IDTFilter2::GetLastErrorCode
 author: windows-sdk-content
 description: The GetLastErrorCode method returns the most recent error code from the Decrypter/Detagger filter.
 old-location: mstv\idtfilter2_getlasterrorcode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e4de424c-0db6-408e-ab1a-57ae8899f4a7
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetLastErrorCode, GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies],IDTFilter2 interface, IDTFilter2 interface [Microsoft TV Technologies],GetLastErrorCode method, IDTFilter2.GetLastErrorCode, IDTFilter2::GetLastErrorCode, IDTFilter2GetLastErrorCode, encdec/IDTFilter2::GetLastErrorCode, mstv.idtfilter2_getlasterrorcode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDTFilter2.GetLastErrorCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDTFilter2::GetLastErrorCode

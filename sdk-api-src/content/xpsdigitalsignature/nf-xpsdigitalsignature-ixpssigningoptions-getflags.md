@@ -4,17 +4,16 @@ title: IXpsSigningOptions::GetFlags
 author: windows-sdk-content
 description: Gets the XPS_SIGN_FLAGS value that specifies the signing flags to be used for this signature.
 old-location: xps\ixpssigningoptions_getflags.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 02d07300-e8f2-44fa-a562-5cec03af9a8c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFlags, GetFlags method [XPS Documents and Packaging], GetFlags method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetFlags method, IXpsSigningOptions.GetFlags, IXpsSigningOptions::GetFlags, xps.ixpssigningoptions_getflags, xpsdigitalsignature/IXpsSigningOptions::GetFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSigningOptions.GetFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSigningOptions::GetFlags

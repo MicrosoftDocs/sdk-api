@@ -4,7 +4,7 @@ title: "_MFAudioConstriction"
 author: windows-sdk-content
 description: Specifies values for audio constriction.
 old-location: mf\mfaudioconstriction.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: EAFE3AA5-EF63-471A-9A67-A2EB298B0C0F
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFAudioConstriction
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFAudioConstriction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFAudioConstriction
+req.redist: 
 ---
 
 # _MFAudioConstriction enumeration

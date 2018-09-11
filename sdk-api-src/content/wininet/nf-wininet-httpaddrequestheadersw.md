@@ -4,17 +4,16 @@ title: HttpAddRequestHeadersW function
 author: windows-sdk-content
 description: Adds one or more HTTP request headers to the HTTP request handle.
 old-location: wininet\httpaddrequestheaders.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 636c3442-a2e6-4885-8fb4-1f6996ba6860
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: HTTP_ADDREQ_FLAG_ADD, HTTP_ADDREQ_FLAG_ADD_IF_NEW, HTTP_ADDREQ_FLAG_COALESCE, HTTP_ADDREQ_FLAG_COALESCE_WITH_COMMA, HTTP_ADDREQ_FLAG_COALESCE_WITH_SEMICOLON, HTTP_ADDREQ_FLAG_REPLACE, HttpAddRequestHeaders, HttpAddRequestHeaders function [WinINet], HttpAddRequestHeadersA, HttpAddRequestHeadersW, _inet_httpaddrequestheaders_function, wininet.httpaddrequestheaders, wininet/HttpAddRequestHeaders, wininet/HttpAddRequestHeadersA, wininet/HttpAddRequestHeadersW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - HttpAddRequestHeadersW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # HttpAddRequestHeadersW function

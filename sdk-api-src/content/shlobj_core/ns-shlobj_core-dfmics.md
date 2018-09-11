@@ -4,17 +4,16 @@ title: DFMICS
 author: windows-sdk-content
 description: Contains additional arguments used by DFM_INVOKECOMMANDEX.
 old-location: shell\DFMICS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2dbee891-6d5f-4ae1-8411-5d51cbab4457
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*PDFMICS, CMIC_MASK_ASYNCOK, CMIC_MASK_CONTROL_DOWN, CMIC_MASK_FLAG_LOG_USAGE, CMIC_MASK_FLAG_NO_UI, CMIC_MASK_FLAG_SEP_VDM, CMIC_MASK_HOTKEY, CMIC_MASK_ICON, CMIC_MASK_NOASYNC, CMIC_MASK_NOZONECHECKS, CMIC_MASK_NO_CONSOLE, CMIC_MASK_PTINVOKE, CMIC_MASK_SHIFT_DOWN, CMIC_MASK_UNICODE, DFMICS, DFMICS structure [Windows Shell], PDFMICS, PDFMICS structure pointer [Windows Shell], _shell_DFMICS, shell.DFMICS, shlobj_core/DFMICS, shlobj_core/PDFMICS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFMICS, *PDFMICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DFMICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: DFMICS, *PDFMICS
+req.redist: 
 ---
 
 # DFMICS structure

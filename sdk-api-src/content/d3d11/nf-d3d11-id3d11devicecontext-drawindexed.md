@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::DrawIndexed
 author: windows-sdk-content
 description: Draw indexed, non-instanced primitives.
 old-location: direct3d11\id3d11devicecontext_drawindexed.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 461a64ec-f3e6-4f6a-8bc4-a349d19501a8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 45129747-420c-37ba-aae0-05275af46932, DrawIndexed, DrawIndexed method [Direct3D 11], DrawIndexed method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DrawIndexed method, ID3D11DeviceContext.DrawIndexed, ID3D11DeviceContext::DrawIndexed, d3d11/ID3D11DeviceContext::DrawIndexed, direct3d11.id3d11devicecontext_drawindexed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.DrawIndexed
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::DrawIndexed

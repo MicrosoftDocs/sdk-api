@@ -4,17 +4,16 @@ title: "_SERVICE_FAILURE_ACTIONS_FLAG"
 author: windows-sdk-content
 description: Contains the failure actions flag setting of a service. This setting determines when failure actions are to be executed.
 old-location: base\service_failure_actions_flag.htm
-old-project: services
+tech.root: Services
 ms.assetid: 49736b26-9565-4d56-abcd-1585b692ff12
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVICE_FAILURE_ACTIONS_FLAG, LPSERVICE_FAILURE_ACTIONS_FLAG, LPSERVICE_FAILURE_ACTIONS_FLAG structure pointer, SERVICE_FAILURE_ACTIONS_FLAG, SERVICE_FAILURE_ACTIONS_FLAG structure, _SERVICE_FAILURE_ACTIONS_FLAG, base.service_failure_actions_flag, winsvc/LPSERVICE_FAILURE_ACTIONS_FLAG, winsvc/SERVICE_FAILURE_ACTIONS_FLAG"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_FAILURE_ACTIONS_FLAG, *LPSERVICE_FAILURE_ACTIONS_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVICE_FAILURE_ACTIONS_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SERVICE_FAILURE_ACTIONS_FLAG, *LPSERVICE_FAILURE_ACTIONS_FLAG
+req.redist: 
 ---
 
 # _SERVICE_FAILURE_ACTIONS_FLAG structure

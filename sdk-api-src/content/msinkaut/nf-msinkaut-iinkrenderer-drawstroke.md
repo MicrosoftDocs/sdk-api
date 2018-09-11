@@ -4,17 +4,16 @@ title: IInkRenderer::DrawStroke
 author: windows-sdk-content
 description: Draws the IInkStrokeDisp object using the known device context, and optionally draws the IInkStrokeDisp object with the known InkDrawingAttributes object.
 old-location: tablet\inkrenderer_drawstroke.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 3d8b7892-a120-452a-b83c-474df9be5f52
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 3d8b7892-a120-452a-b83c-474df9be5f52, DrawStroke, DrawStroke method [Tablet PC], DrawStroke method [Tablet PC],IInkRenderer interface, IInkRenderer interface [Tablet PC],DrawStroke method, IInkRenderer.DrawStroke, IInkRenderer::DrawStroke, msinkaut/IInkRenderer::DrawStroke, tablet.inkrenderer_drawstroke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkRenderer.DrawStroke
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRenderer::DrawStroke

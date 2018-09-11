@@ -4,17 +4,16 @@ title: IWMColorConvProps::SetFullCroppingParam
 author: windows-sdk-content
 description: Sets the source and destination rectangles.
 old-location: mf\iwmcolorconvpropssetfullcroppingparam.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 73545bbb-6630-463d-ad58-d24937e3b546
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IWMColorConvProps interface [Media Foundation],SetFullCroppingParam method, IWMColorConvProps.SetFullCroppingParam, IWMColorConvProps::SetFullCroppingParam, SetFullCroppingParam, SetFullCroppingParam method [Media Foundation], SetFullCroppingParam method [Media Foundation],IWMColorConvProps interface, codecapi.iwmcolorconvpropssetfullcroppingparam, mf.iwmcolorconvpropssetfullcroppingparam, wmcodecdsp/IWMColorConvProps::SetFullCroppingParam
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMColorConvProps.SetFullCroppingParam
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMColorConvProps::SetFullCroppingParam

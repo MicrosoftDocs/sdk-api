@@ -4,17 +4,16 @@ title: ITfInputProcessorProfileMgr::GetProfile
 author: windows-sdk-content
 description: The ITfInputProcessorProfileMgr::GetProfile method returns the information of the specified text service's profile or keyboard layout in TF_INPUTPROCESSORPROFILE structure.
 old-location: tsf\itfinputprocessorprofilemgr_getprofile.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 581bddf5-3def-48c6-a092-4f751142cc1b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetProfile, GetProfile method [Text Services Framework], GetProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],GetProfile method, ITfInputProcessorProfileMgr.GetProfile, ITfInputProcessorProfileMgr::GetProfile, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileMgr::GetProfile, tsf.itfinputprocessorprofilemgr_getprofile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfInputProcessorProfileMgr.GetProfile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ITfInputProcessorProfileMgr::GetProfile

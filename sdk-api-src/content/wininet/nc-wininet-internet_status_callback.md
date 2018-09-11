@@ -4,17 +4,16 @@ title: INTERNET_STATUS_CALLBACK
 author: windows-sdk-content
 description: Defines a pointer to this callback function.
 old-location: wininet\internetstatuscallback.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: a054fb71-66ab-46fd-be19-2237f05662bc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: INTERNET_STATE_BUSY, INTERNET_STATE_CONNECTED, INTERNET_STATE_DISCONNECTED, INTERNET_STATE_DISCONNECTED_BY_USER, INTERNET_STATE_IDLE, INTERNET_STATUS_CALLBACK, INTERNET_STATUS_CALLBACK callback function [WinINet], INTERNET_STATUS_CLOSING_CONNECTION, INTERNET_STATUS_CONNECTED_TO_SERVER, INTERNET_STATUS_CONNECTING_TO_SERVER, INTERNET_STATUS_CONNECTION_CLOSED, INTERNET_STATUS_COOKIE_HISTORY, INTERNET_STATUS_COOKIE_RECEIVED, INTERNET_STATUS_COOKIE_SENT, INTERNET_STATUS_CTL_RESPONSE_RECEIVED, INTERNET_STATUS_DETECTING_PROXY, INTERNET_STATUS_HANDLE_CLOSING, INTERNET_STATUS_HANDLE_CREATED, INTERNET_STATUS_INTERMEDIATE_RESPONSE, INTERNET_STATUS_NAME_RESOLVED, INTERNET_STATUS_P3P_HEADER, INTERNET_STATUS_P3P_POLICYREF, INTERNET_STATUS_PREFETCH, INTERNET_STATUS_PRIVACY_IMPACTED, INTERNET_STATUS_RECEIVING_RESPONSE, INTERNET_STATUS_REDIRECT, INTERNET_STATUS_REQUEST_COMPLETE, INTERNET_STATUS_REQUEST_SENT, INTERNET_STATUS_RESOLVING_NAME, INTERNET_STATUS_RESPONSE_RECEIVED, INTERNET_STATUS_SENDING_REQUEST, INTERNET_STATUS_STATE_CHANGE, INTERNET_STATUS_USER_INPUT_REQUIRED, InternetStatusCallback, InternetStatusCallback callback, InternetStatusCallback callback function [WinINet], _inet_internet_status_callback_prototype, wininet.internetstatuscallback, wininet/InternetStatusCallback
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_CERTIFICATE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERNET_STATUS_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # INTERNET_STATUS_CALLBACK callback function

@@ -4,17 +4,16 @@ title: CLUSTER_SET_PASSWORD_STATUS
 author: windows-sdk-content
 description: Used by the SetClusterServiceAccountPassword function to return the results of a Cluster service user account password change for each cluster node.
 old-location: mscs\cluster_set_password_status.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: a9e0e99f-b57b-4bf1-93d5-6f09d907aed1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUSTER_SET_PASSWORD_STATUS, CLUSTER_SET_PASSWORD_STATUS, CLUSTER_SET_PASSWORD_STATUS structure [Failover Cluster], PCLUSTER_SET_PASSWORD_STATUS, PCLUSTER_SET_PASSWORD_STATUS structure pointer [Failover Cluster], _wolf_cluster_set_password_status, clusapi/CLUSTER_SET_PASSWORD_STATUS, clusapi/PCLUSTER_SET_PASSWORD_STATUS, mscs.cluster_set_password_status"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_SET_PASSWORD_STATUS, *PCLUSTER_SET_PASSWORD_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSTER_SET_PASSWORD_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_SET_PASSWORD_STATUS, *PCLUSTER_SET_PASSWORD_STATUS
+req.redist: 
 ---
 
 # CLUSTER_SET_PASSWORD_STATUS structure

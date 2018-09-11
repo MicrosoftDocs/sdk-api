@@ -4,17 +4,16 @@ title: ADsPropShowErrorDialog function
 author: windows-sdk-content
 description: The ADsPropShowErrorDialog function displays a dialog box that contains the error messages accumulated through calls to the ADsPropSendErrorMessage function or the WM_ADSPROP_NOTIFY_ERROR.
 old-location: ad\adspropshowerrordialog.htm
-old-project: ad
+tech.root: ad
 ms.assetid: c7ed3d36-474e-4cb1-82aa-1e2c1ebd4b83
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ADsPropShowErrorDialog, ADsPropShowErrorDialog function [Active Directory], ad.adspropshowerrordialog, adsprop/ADsPropShowErrorDialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: adsprop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: Dsprop.lib
+req.dll: Dsprop.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ADsPropShowErrorDialog
 product: Windows
 targetos: Windows
-req.lib: Dsprop.lib
-req.dll: Dsprop.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ADsPropShowErrorDialog function

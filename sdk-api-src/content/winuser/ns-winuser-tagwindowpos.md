@@ -4,17 +4,16 @@ title: tagWINDOWPOS
 author: windows-sdk-content
 description: Contains information about the size and position of a window.
 old-location: winmsg\windowpos.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\windowpos.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWINDOWPOS, *PWINDOWPOS, LPWINDOWPOS, LPWINDOWPOS structure pointer [Windows and Messages], PWINDOWPOS, PWINDOWPOS structure pointer [Windows and Messages], SWP_ NOOWNERZORDER, SWP_DRAWFRAME, SWP_FRAMECHANGED, SWP_HIDEWINDOW, SWP_NOACTIVATE, SWP_NOCOPYBITS, SWP_NOMOVE, SWP_NOREDRAW, SWP_NOREPOSITION, SWP_NOSENDCHANGING, SWP_NOSIZE, SWP_NOZORDER, SWP_SHOWWINDOW, WINDOWPOS, WINDOWPOS structure [Windows and Messages], _win32_WINDOWPOS_str, _win32_windowpos_str_cpp, tagWINDOWPOS, winmsg.windowpos, winui._win32_windowpos_str, winuser/LPWINDOWPOS, winuser/PWINDOWPOS, winuser/WINDOWPOS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINDOWPOS, *LPWINDOWPOS, *PWINDOWPOS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINDOWPOS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WINDOWPOS, *LPWINDOWPOS, *PWINDOWPOS
+req.redist: 
 ---
 
 # tagWINDOWPOS structure

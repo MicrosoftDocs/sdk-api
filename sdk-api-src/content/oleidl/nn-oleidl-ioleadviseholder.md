@@ -4,17 +4,16 @@ title: IOleAdviseHolder
 author: windows-sdk-content
 description: Manages advisory connections and compound document notifications in an object server.
 old-location: com\ioleadviseholder.htm
-old-project: com
+tech.root: com
 ms.assetid: 680afee7-2bee-4d54-ae0b-3e4e0deb622f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleAdviseHolder, IOleAdviseHolder interface [COM], IOleAdviseHolder interface [COM],described, _ole_ioleadviseholder, com.ioleadviseholder, oleidl/IOleAdviseHolder
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleAdviseHolder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Adhocreportingexcelclient.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleAdviseHolder interface

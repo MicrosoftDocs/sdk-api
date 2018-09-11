@@ -4,17 +4,16 @@ title: "_IDPE_ATTR"
 author: windows-sdk-content
 description: The IDPE_ATTR structure contains identity policy element attribute information.
 old-location: qos\idpe_attr.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 9169cb84-be1c-46f6-b6f8-5babfb4310f3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPIDPE_ATTR, *LPIDPE_ATTR structure [QOS], IDPE_ATTR, IDPE_ATTR structure [QOS], PE_ATTRIB_TYPE_POLICY_LOCATOR, POLICY_LOCATOR_SUB_TYPE_ASCII_DN, POLICY_LOCATOR_SUB_TYPE_ASCII_DN_ENC, POLICY_LOCATOR_SUB_TYPE_UNICODE_DN, POLICY_LOCATOR_SUB_TYPE_UNICODE_DN_ENC, _IDPE_ATTR, qos.idpe_attr, qospol/*LPIDPE_ATTR, qospol/IDPE_ATTR"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: qospol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IDPE_ATTR, *LPIDPE_ATTR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDPE_ATTR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: IDPE_ATTR, *LPIDPE_ATTR
+req.redist: 
 ---
 
 # _IDPE_ATTR structure

@@ -4,17 +4,16 @@ title: IValidate::CloseCUB
 author: windows-sdk-content
 description: The CloseCUB method closes an open Internal Consistency Evaluator (ICE) .cub file. Internal Consistency Evaluator (ICE) .cub files can be opened using the OpenCUB method.
 old-location: setup\ivalidate_closecub.htm
-old-project: msi
+tech.root: msi
 ms.assetid: be0d21ee-bb15-4c6d-9d69-741adf047863
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CloseCUB, CloseCUB method, CloseCUB method,IValidate interface, IValidate interface,CloseCUB method, IValidate.CloseCUB, IValidate::CloseCUB, evalcom2/IValidate::CloseCUB, setup.ivalidate_closecub
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evalcom2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Evalcom2.dll version 3.0.3790.371 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
+req.lib: 
+req.dll: Evalcom2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IValidate.CloseCUB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Evalcom2.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IValidate::CloseCUB

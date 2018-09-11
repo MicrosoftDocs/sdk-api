@@ -4,17 +4,16 @@ title: TdhGetEventMapInformation function
 author: windows-sdk-content
 description: Retrieves information about the event map contained in the event.
 old-location: etw\tdhgeteventmapinformation_func.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 2625b65c-7f9e-4a87-85c6-d16857ef4987
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: TdhGetEventMapInformation, TdhGetEventMapInformation function [ETW], etw.tdhgeteventmapinformation_func, tdh.tdhgeteventmapinformation_func, tdh/TdhGetEventMapInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEMPLATE_FLAGS
+req.lib: Tdh.lib
+req.dll: Tdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - TdhGetEventMapInformation
 product: Windows
 targetos: Windows
-req.lib: Tdh.lib
-req.dll: Tdh.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TdhGetEventMapInformation function

@@ -4,17 +4,16 @@ title: ITTerminalControl::StopRenderFilter
 author: windows-sdk-content
 description: The StopRenderFilter method stops the rightmost render filter in the terminal. Needed for dynamic filter graphs.
 old-location: tapi3\itterminalcontrol_stoprenderfilter.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 30a47de7-c54d-4600-9b4b-07013f962c4d
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTerminalControl interface [TAPI 2.2],StopRenderFilter method, ITTerminalControl.StopRenderFilter, ITTerminalControl::StopRenderFilter, StopRenderFilter, StopRenderFilter method [TAPI 2.2], StopRenderFilter method [TAPI 2.2],ITTerminalControl interface, _tapi3_itterminalcontrol_stoprenderfilter, tapi3.itterminalcontrol_stoprenderfilter, termmgr/ITTerminalControl::StopRenderFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTerminalControl.StopRenderFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTerminalControl::StopRenderFilter

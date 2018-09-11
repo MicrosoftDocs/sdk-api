@@ -4,17 +4,16 @@ title: ReplaceTextA function
 author: windows-sdk-content
 description: Creates a system-defined modeless dialog box that lets the user specify a string to search for and a replacement string, as well as options to control the find and replace operations.
 old-location: dlgbox\replacetext.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\replacetext.htm
 ms.author: windowssdkdev
-ms.date: 08/21/2018
+ms.date: 08/24/2018
 ms.keywords: ReplaceText, ReplaceText function [Dialog Boxes], ReplaceTextA, ReplaceTextW, _win32_ReplaceText, _win32_replacetext_cpp, commdlg/ReplaceText, commdlg/ReplaceTextA, commdlg/ReplaceTextW, dlgbox.replacetext, winui._win32_replacetext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commdlg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UDACCEL, *LPUDACCEL
+req.lib: Comdlg32.lib
+req.dll: Comdlg32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - ReplaceTextW
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Comdlg32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ReplaceTextA function

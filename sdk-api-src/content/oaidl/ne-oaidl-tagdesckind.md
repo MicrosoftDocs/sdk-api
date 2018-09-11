@@ -4,7 +4,7 @@ title: tagDESCKIND
 author: windows-sdk-content
 description: Identifies the type description being bound to.
 old-location: automat\desckind.htm
-old-project: automat
+tech.root: automat
 ms.assetid: bab3d80a-7610-455c-9c64-31a60f4bf01e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DESCKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DESCKIND
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DESCKIND
+req.redist: 
 ---
 
 # tagDESCKIND enumeration

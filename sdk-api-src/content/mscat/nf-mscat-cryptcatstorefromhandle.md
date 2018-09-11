@@ -4,17 +4,16 @@ title: CryptCATStoreFromHandle function
 author: windows-sdk-content
 description: Retrieves a CRYPTCATSTORE structure from a catalog handle.
 old-location: security\cryptcatstorefromhandle.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: ce4fe972-0ed5-4b18-8ec5-9883af326335
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptCATStoreFromHandle, CryptCATStoreFromHandle function [Security], mscat/CryptCATStoreFromHandle, security.cryptcatstorefromhandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSP_PINMODE, *PKSP_PINMODE
+req.lib: Wintrust.lib
+req.dll: Wintrust.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptCATStoreFromHandle
 product: Windows
 targetos: Windows
-req.lib: Wintrust.lib
-req.dll: Wintrust.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CryptCATStoreFromHandle function

@@ -4,17 +4,16 @@ title: WMCreateSecureChannel function
 author: windows-sdk-content
 description: Creates an object that implements IWMSecureChannel.
 old-location: wmformat\wmcreatesecurechannel.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 0893162d-f110-472a-91c0-70ba58943a22
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WMCreateSecureChannel, WMCreateSecureChannel function [windows Media Format], wmformat.wmcreatesecurechannel, wmsecure/WMCreateSecureChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wmsecure.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMT_WATERMARK_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMCreateSecureChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WMCreateSecureChannel function

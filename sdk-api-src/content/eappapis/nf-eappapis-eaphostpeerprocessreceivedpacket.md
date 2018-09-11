@@ -4,17 +4,16 @@ title: EapHostPeerProcessReceivedPacket function
 author: windows-sdk-content
 description: Is called by the supplicant every time the supplicant receives a packet that EAPHost needs to process.
 old-location: eaphost\eaphostpeerprocessreceivedpacket.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 7b3bc23d-312d-494d-afd0-ce82d2d5136c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapHostPeerProcessReceivedPacket, EapHostPeerProcessReceivedPacket function [EAPHost], eaphost.eaphostpeerprocessreceivedpacket, eappapis/EapHostPeerProcessReceivedPacket
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EapPacket
+req.lib: Eappprxy.lib
+req.dll: Eappprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapHostPeerProcessReceivedPacket
 product: Windows
 targetos: Windows
-req.lib: Eappprxy.lib
-req.dll: Eappprxy.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapHostPeerProcessReceivedPacket function

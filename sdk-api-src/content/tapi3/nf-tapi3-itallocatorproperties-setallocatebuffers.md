@@ -4,17 +4,16 @@ title: ITAllocatorProperties::SetAllocateBuffers
 author: windows-sdk-content
 description: The SetAllocateBuffers method determines whether the current allocator buffers must be set.
 old-location: tapi3\itallocatorproperties_setallocatebuffers.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 5f4a25f8-1a5f-40ff-9a29-586d1c7c217c
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAllocatorProperties interface [TAPI 2.2],SetAllocateBuffers method, ITAllocatorProperties.SetAllocateBuffers, ITAllocatorProperties::SetAllocateBuffers, SetAllocateBuffers, SetAllocateBuffers method [TAPI 2.2], SetAllocateBuffers method [TAPI 2.2],ITAllocatorProperties interface, _tapi3_itallocatorproperties_setallocatebuffers, tapi3.itallocatorproperties_setallocatebuffers, tapi3ds/ITAllocatorProperties::SetAllocateBuffers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAllocatorProperties.SetAllocateBuffers
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAllocatorProperties::SetAllocateBuffers

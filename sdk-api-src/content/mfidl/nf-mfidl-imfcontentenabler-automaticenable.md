@@ -4,17 +4,16 @@ title: IMFContentEnabler::AutomaticEnable
 author: windows-sdk-content
 description: Performs a content enabling action without any user interaction.
 old-location: mf\imfcontentenabler_automaticenable.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7be4c32f-d116-4a08-857f-1a59b5ccfb12
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 7be4c32f-d116-4a08-857f-1a59b5ccfb12, AutomaticEnable, AutomaticEnable method [Media Foundation], AutomaticEnable method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],AutomaticEnable method, IMFContentEnabler.AutomaticEnable, IMFContentEnabler::AutomaticEnable, mf.imfcontentenabler_automaticenable, mfidl/IMFContentEnabler::AutomaticEnable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFContentEnabler.AutomaticEnable
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFContentEnabler::AutomaticEnable

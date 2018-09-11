@@ -4,7 +4,7 @@ title: "_RADIUS_ATTRIBUTE_TYPE"
 author: windows-sdk-content
 description: The RADIUS_ATTRIBUTE_TYPE type enumerates the possible types for a RADIUS attribute.
 old-location: nps\IAS_radius_attribute_type.htm
-old-project: nps
+tech.root: nps
 ms.assetid: b0b39062-0622-48f8-a06a-232713ec8c3c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: authif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RADIUS_ATTRIBUTE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RADIUS_ATTRIBUTE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: RADIUS_ATTRIBUTE_TYPE
+req.redist: 
 ---
 
 # _RADIUS_ATTRIBUTE_TYPE enumeration

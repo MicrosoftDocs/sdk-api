@@ -4,17 +4,16 @@ title: IWMPContentContainer::GetContentPrice
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentcontainer_getcontentprice.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: ae0a9f37-2337-419e-b912-2102e8eb2a39
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetContentPrice, GetContentPrice method [Windows Media Player], GetContentPrice method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetContentPrice method, IWMPContentContainer.GetContentPrice, IWMPContentContainer::GetContentPrice, IWMPContentContainerGetContentPrice, contentpartner/IWMPContentContainer::GetContentPrice, wmp.iwmpcontentcontainer_getcontentprice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPTransactionType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWMPContentContainer.GetContentPrice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPContentContainer::GetContentPrice

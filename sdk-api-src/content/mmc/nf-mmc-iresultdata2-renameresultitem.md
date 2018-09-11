@@ -4,17 +4,16 @@ title: IResultData2::RenameResultItem
 author: windows-sdk-content
 description: The RenameResultItem method programmatically places the specified result item into rename mode, after which, the user can manually enter the new name.
 old-location: mmc\iresultdata2_renameresultitem.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: a667f638-88bb-4758-8df7-478b0d6c18c4
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IResultData2 interface [MMC],RenameResultItem method, IResultData2.RenameResultItem, IResultData2::RenameResultItem, RenameResultItem, RenameResultItem method [MMC], RenameResultItem method [MMC],IResultData2 interface, _slate_iresultdata2_renameresultitem, mmc.iresultdata2_renameresultitem, mmc/IResultData2::RenameResultItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: Mmc.lib
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IResultData2.RenameResultItem
 product: Windows
 targetos: Windows
-req.lib: Mmc.lib
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IResultData2::RenameResultItem

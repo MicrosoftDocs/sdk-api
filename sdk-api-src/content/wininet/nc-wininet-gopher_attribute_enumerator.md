@@ -4,17 +4,16 @@ title: GOPHER_ATTRIBUTE_ENUMERATOR
 author: windows-sdk-content
 description: Prototype for a callback function that processes attribute information from a Gopher server.
 old-location: wininet\gopherattributeenumerator.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 1a319d79-7866-4121-a80f-22e3bf983a0a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: GOPHER_ATTRIBUTE_ENUMERATOR, GOPHER_ATTRIBUTE_ENUMERATOR callback, GOPHER_ATTRIBUTE_ENUMERATOR callback function [WinINet], GopherAttributeEnumerator, _inet_gopher_attribute_enumerator_prototype, wininet.gopherattributeenumerator, wininet/GOPHER_ATTRIBUTE_ENUMERATOR
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_CERTIFICATE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GOPHER_ATTRIBUTE_ENUMERATOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GOPHER_ATTRIBUTE_ENUMERATOR callback function

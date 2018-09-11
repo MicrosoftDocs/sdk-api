@@ -4,7 +4,7 @@ title: tagSOCK_ADDR
 author: windows-sdk-content
 description: Stores an Internet Protocol (IP) address for a computer that is participating in a Windows Sockets communication.
 old-location: ndf\diag_sockaddr.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: 31da9541-e7d0-4cbc-9d9d-3bcf71acb975
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndattrib.h
 req.include-header: NDHelper.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIAG_SOCKADDR, *PDIAG_SOCK_ADDR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DIAG_SOCKADDR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: DIAG_SOCKADDR, *PDIAG_SOCK_ADDR
+req.redist: 
 ---
 
 # tagSOCK_ADDR structure

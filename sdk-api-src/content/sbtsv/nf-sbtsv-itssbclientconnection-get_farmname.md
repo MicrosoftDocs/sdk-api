@@ -4,17 +4,16 @@ title: ITsSbClientConnection::get_FarmName
 author: windows-sdk-content
 description: Farm name.
 old-location: termserv\itssbclientconnection_farmname.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 7c11f511-b7f4-4367-9fa8-6c0f06396481
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FarmName property [Remote Desktop Services], FarmName property [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],FarmName property, ITsSbClientConnection.FarmName, ITsSbClientConnection.get_FarmName, ITsSbClientConnection::FarmName, ITsSbClientConnection::get_FarmName, get_FarmName, sbtsv/ITsSbClientConnection::FarmName, sbtsv/ITsSbClientConnection::get_FarmName, termserv.itssbclientconnection_farmname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbClientConnection.get_FarmName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbClientConnection::get_FarmName

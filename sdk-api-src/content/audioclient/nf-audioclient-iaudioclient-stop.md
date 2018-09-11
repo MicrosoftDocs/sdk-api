@@ -4,17 +4,16 @@ title: IAudioClient::Stop
 author: windows-sdk-content
 description: The Stop method stops the audio stream.
 old-location: coreaudio\iaudioclient_stop.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: d5824aa9-0b91-4bee-9c0c-26e12a6b96b5
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioClient interface [Core Audio],Stop method, IAudioClient.Stop, IAudioClient::Stop, IAudioClientStop, Stop, Stop method [Core Audio], Stop method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Stop, coreaudio.iaudioclient_stop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioClient.Stop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioClient::Stop

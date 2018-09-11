@@ -4,7 +4,7 @@ title: "_VMRALPHABITMAP"
 author: windows-sdk-content
 description: The VMRALPHABITMAP structure is used in the VMR-7 filter's IVMRMixerBitmap methods when the application is providing a static alpha-blended bitmap to be displayed on the composited video frame.
 old-location: dshow\vmralphabitmap.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 03b3e619-4804-42de-88d5-5422089e875a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMRALPHABITMAP, *PVMRALPHABITMAP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMRALPHABITMAP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP
+req.typenames: VMRALPHABITMAP, *PVMRALPHABITMAP
+req.redist: 
 ---
 
 # _VMRALPHABITMAP structure

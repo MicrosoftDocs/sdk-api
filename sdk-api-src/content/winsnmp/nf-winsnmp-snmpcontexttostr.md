@@ -4,17 +4,16 @@ title: SnmpContextToStr function
 author: windows-sdk-content
 description: The WinSNMP SnmpContextToStr function returns a string that identifies an SNMP context, which is a set of managed object resources. The function returns the string in an smiOCTETS structure.
 old-location: snmp\snmpcontexttostr.htm
-old-project: snmp
+tech.root: SNMP
 ms.assetid: d82c352d-8685-4276-b58c-ce89557f074a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SnmpContextToStr, SnmpContextToStr function [SNMP], _snmp_snmpcontexttostr, snmp.snmpcontexttostr, winsnmp/SnmpContextToStr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK
+req.lib: Wsnmp32.lib
+req.dll: Wsnmp32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SnmpContextToStr
 product: Windows
 targetos: Windows
-req.lib: Wsnmp32.lib
-req.dll: Wsnmp32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SnmpContextToStr function

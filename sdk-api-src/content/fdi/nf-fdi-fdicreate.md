@@ -4,17 +4,16 @@ title: FDICreate function
 author: windows-sdk-content
 description: The FDICreate function creates an FDI context.
 old-location: winprog\fdicreate.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 90634725-b7a8-4369-8a91-684debee9548
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FDICreate, FDICreate function [Windows API], cpu80286, cpu80386, cpuUNKNOWN, fdi/FDICreate, winprog.fdicreate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CCAB
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FDICreate
 product: Windows
 targetos: Windows
-req.lib: Cabinet.lib
-req.dll: Cabinet.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FDICreate function

@@ -4,17 +4,16 @@ title: ITextHost2::TxSetForegroundWindow
 author: windows-sdk-content
 description: Sets the rich edit control's host window as the foreground window.
 old-location: controls\itexthost2_txsetforegroundwindow.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 0C3400BB-FC9A-43C3-92B4-055DE0A17717
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxSetForegroundWindow method, ITextHost2.TxSetForegroundWindow, ITextHost2::TxSetForegroundWindow, TxSetForegroundWindow, TxSetForegroundWindow method [Windows Controls], TxSetForegroundWindow method [Windows Controls],ITextHost2 interface, controls.itexthost2_txsetforegroundwindow, textserv/ITextHost2::TxSetForegroundWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextHost2.TxSetForegroundWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextHost2::TxSetForegroundWindow

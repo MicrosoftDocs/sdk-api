@@ -4,17 +4,16 @@ title: AVISaveOptionsFree function
 author: windows-sdk-content
 description: The AVISaveOptionsFree function frees the resources allocated by the AVISaveOptions function.
 old-location: multimedia\avisaveoptionsfree.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: c88a786f-d008-4eb6-af3d-59a0f62ac09d
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVISaveOptionsFree, AVISaveOptionsFree function [Windows Multimedia], _win32_AVISaveOptionsFree, multimedia.avisaveoptionsfree, vfw/AVISaveOptionsFree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AVISaveOptionsFree
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVISaveOptionsFree function

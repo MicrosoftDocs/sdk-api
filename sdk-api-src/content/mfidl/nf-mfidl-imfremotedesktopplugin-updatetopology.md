@@ -4,17 +4,16 @@ title: IMFRemoteDesktopPlugin::UpdateTopology
 author: windows-sdk-content
 description: Modifies a topology for use in a Terminal Services environment.
 old-location: mf\imfremotedesktopplugin_updatetopology.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 799ba0b4-b015-4899-9496-d8c23d033b24
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 799ba0b4-b015-4899-9496-d8c23d033b24, IMFRemoteDesktopPlugin interface [Media Foundation],UpdateTopology method, IMFRemoteDesktopPlugin.UpdateTopology, IMFRemoteDesktopPlugin::UpdateTopology, UpdateTopology, UpdateTopology method [Media Foundation], UpdateTopology method [Media Foundation],IMFRemoteDesktopPlugin interface, mf.imfremotedesktopplugin_updatetopology, mfidl/IMFRemoteDesktopPlugin::UpdateTopology
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFRemoteDesktopPlugin.UpdateTopology
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFRemoteDesktopPlugin::UpdateTopology

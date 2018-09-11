@@ -4,17 +4,16 @@ title: ITPhone::get_PhoneCapsString
 author: windows-sdk-content
 description: The get_PhoneCapsString method gets a string capability/information about the phone, based on the PHONECAPS_STRING enum passed in. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_get_phonecapsstring.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: e4a0ed77-455e-428c-a3e5-cd467e47b5b2
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_PhoneCapsString method, ITPhone.get_PhoneCapsString, ITPhone::get_PhoneCapsString, _tapi3_itphone_get_phonecapsstring, get_PhoneCapsString, get_PhoneCapsString method [TAPI 2.2], get_PhoneCapsString method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_phonecapsstring, tapi3if/ITPhone::get_PhoneCapsString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPhone.get_PhoneCapsString
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPhone::get_PhoneCapsString

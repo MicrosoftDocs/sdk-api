@@ -4,17 +4,16 @@ title: IXpsSigningOptions::GetCertificateSet
 author: windows-sdk-content
 description: Gets an IOpcCertificateSet interface, which can be used to add additional certificates to the signature.
 old-location: xps\ixpssigningoptions_getcertificateset.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 40e96263-03dd-4fbe-8383-0c0bf1abd8c4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCertificateSet, GetCertificateSet method [XPS Documents and Packaging], GetCertificateSet method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetCertificateSet method, IXpsSigningOptions.GetCertificateSet, IXpsSigningOptions::GetCertificateSet, xps.ixpssigningoptions_getcertificateset, xpsdigitalsignature/IXpsSigningOptions::GetCertificateSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSigningOptions.GetCertificateSet
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSigningOptions::GetCertificateSet

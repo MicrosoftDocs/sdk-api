@@ -4,7 +4,7 @@ title: IPropertySheetCallback
 author: windows-sdk-content
 description: The IPropertySheetCallback interface is a COM-based interface used by a snap-in to add its property pages to a property sheet.
 old-location: mmc\ipropertysheetcallback.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: e2115929-692e-4e59-bcdb-f37b02c53224
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertySheetCallback
 product: Windows
 targetos: Windows
-req.lib: Mmc.lib
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertySheetCallback interface

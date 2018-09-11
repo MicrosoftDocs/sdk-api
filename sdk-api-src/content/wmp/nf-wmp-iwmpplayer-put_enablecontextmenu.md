@@ -4,17 +4,16 @@ title: IWMPPlayer::put_enableContextMenu
 author: windows-sdk-content
 description: The put_enableContextMenu method specifies a value indicating whether to enable the context menu, which appears when the right mouse button is clicked.
 old-location: wmp\iwmpplayer_put_enablecontextmenu.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 1fd79fc3-34c6-4d76-a726-bbf64ee983c9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_enableContextMenu method, IWMPPlayer.put_enableContextMenu, IWMPPlayer::put_enableContextMenu, IWMPPlayerput_enableContextMenu, put_enableContextMenu, put_enableContextMenu method [Windows Media Player], put_enableContextMenu method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_enablecontextmenu, wmp/IWMPPlayer::put_enableContextMenu
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPPlayer.put_enableContextMenu
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPPlayer::put_enableContextMenu

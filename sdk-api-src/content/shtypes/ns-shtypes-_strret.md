@@ -4,17 +4,16 @@ title: "_STRRET"
 author: windows-sdk-content
 description: Contains strings returned from the IShellFolder interface methods.
 old-location: shell\STRRET.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7868ef9b-07db-455b-b0be-ef0db7891447
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPSTRRET, LPSTRRET, LPSTRRET structure pointer [Windows Shell], STRRET, STRRET structure [Windows Shell], STRRET_CSTR, STRRET_OFFSET, STRRET_WSTR, _STRRET, _win32_STRRET, shell.STRRET, shtypes/LPSTRRET, shtypes/STRRET"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Shtypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STRRET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STRRET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: STRRET
+req.redist: 
 ---
 
 # _STRRET structure

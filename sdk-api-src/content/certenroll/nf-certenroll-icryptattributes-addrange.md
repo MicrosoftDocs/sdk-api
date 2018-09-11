@@ -4,17 +4,16 @@ title: ICryptAttributes::AddRange
 author: windows-sdk-content
 description: Adds a range of ICryptAttribute objects to the collection. The attributes are contained in another ICryptAttributes collection.
 old-location: security\icryptattributes_addrange_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 8dc0a2c5-3734-47c7-a716-f53322fee39d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],AddRange method, ICryptAttributes.AddRange, ICryptAttributes::AddRange, certenroll/ICryptAttributes::AddRange, security.icryptattributes_addrange_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICryptAttributes.AddRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICryptAttributes::AddRange

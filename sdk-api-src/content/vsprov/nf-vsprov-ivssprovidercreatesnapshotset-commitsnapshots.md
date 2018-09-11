@@ -4,17 +4,16 @@ title: IVssProviderCreateSnapshotSet::CommitSnapshots
 author: windows-sdk-content
 description: Quickly commits all LUNs in this provider.
 old-location: base\ivssprovidercreatesnapshotset_commitsnapshots.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 60489142-125f-4deb-afa0-9dae63ea1d46
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CommitSnapshots, CommitSnapshots method [VSS], CommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, IVssProviderCreateSnapshotSet interface [VSS],CommitSnapshots method, IVssProviderCreateSnapshotSet.CommitSnapshots, IVssProviderCreateSnapshotSet::CommitSnapshots, base.ivssprovidercreatesnapshotset_commitsnapshots, vsprov/IVssProviderCreateSnapshotSet::CommitSnapshots
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssProviderCreateSnapshotSet.CommitSnapshots
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssProviderCreateSnapshotSet::CommitSnapshots

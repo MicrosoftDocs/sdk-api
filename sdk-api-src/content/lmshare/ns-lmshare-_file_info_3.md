@@ -4,7 +4,7 @@ title: "_FILE_INFO_3"
 author: windows-sdk-content
 description: Contains the identification number and other pertinent information about files, devices, and pipes.
 old-location: fs\file_info_3_str.htm
-old-project: netshare
+tech.root: netshare
 ms.assetid: 67f5fa89-12c7-46fb-a118-de4bfed96923
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmshare.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_INFO_3, *PFILE_INFO_3, *LPFILE_INFO_3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILE_INFO_3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: FILE_INFO_3, *PFILE_INFO_3, *LPFILE_INFO_3
+req.redist: 
 ---
 
 # _FILE_INFO_3 structure

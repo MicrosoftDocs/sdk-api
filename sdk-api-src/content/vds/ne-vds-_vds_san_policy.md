@@ -4,17 +4,16 @@ title: "_VDS_SAN_POLICY"
 author: windows-sdk-content
 description: Defines the set of valid disk SAN policy flags.
 old-location: base\vds_san_policy.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 2da99388-8ee6-4e6b-98dc-52f12290c4dc
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_SAN_POLICY, VDS_SAN_POLICY enumeration, VDS_SP_OFFLINE, VDS_SP_OFFLINE_SHARED, VDS_SP_ONLINE, VDS_SP_UNKNOWN, _VDS_SAN_POLICY, base.vds_san_policy, vds/VDS_SAN_POLICY, vds/VDS_SP_OFFLINE, vds/VDS_SP_OFFLINE_SHARED, vds/VDS_SP_ONLINE, vds/VDS_SP_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_SAN_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_SAN_POLICY
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_SAN_POLICY
+req.redist: 
 ---
 
 # _VDS_SAN_POLICY enumeration

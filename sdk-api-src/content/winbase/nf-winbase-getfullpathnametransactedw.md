@@ -4,17 +4,16 @@ title: GetFullPathNameTransactedW function
 author: windows-sdk-content
 description: Retrieves the full path and file name of the specified file as a transacted operation.
 old-location: fs\getfullpathnametransacted.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 63cbcec6-e9f0-4db3-bf2f-03a987000af1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFullPathNameTransacted, GetFullPathNameTransacted function [Files], GetFullPathNameTransactedA, GetFullPathNameTransactedW, fs.getfullpathnametransacted, winbase/GetFullPathNameTransacted, winbase/GetFullPathNameTransactedA, winbase/GetFullPathNameTransactedW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - GetFullPathNameTransactedW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetFullPathNameTransactedW function

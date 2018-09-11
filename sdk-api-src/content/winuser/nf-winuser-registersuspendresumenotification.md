@@ -4,17 +4,16 @@ title: RegisterSuspendResumeNotification function
 author: windows-sdk-content
 description: Registers to receive notification when the system is suspended or resumed. Similar to PowerRegisterSuspendResumeNotification, but operates in user mode and can take a window handle.
 old-location: base\registersuspendresumenotification.htm
-old-project: power
+tech.root: power
 ms.assetid: 6cd42d32-07e9-4cbd-83f9-6146b1cb54db
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RegisterSuspendResumeNotification, RegisterSuspendResumeNotification function, base.registersuspendresumenotification, winuser/RegisterSuspendResumeNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RegisterSuspendResumeNotification
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegisterSuspendResumeNotification function

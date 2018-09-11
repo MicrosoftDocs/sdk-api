@@ -4,7 +4,7 @@ title: D3D11_COUNTER_INFO
 author: windows-sdk-content
 description: Information about the video card's performance counter capabilities.
 old-location: direct3d11\d3d11_counter_info.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 64730e19-1a9e-4494-a3aa-314fd72281e1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_COUNTER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_COUNTER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_COUNTER_INFO
+req.redist: 
 ---
 
 # D3D11_COUNTER_INFO structure

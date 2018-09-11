@@ -4,17 +4,16 @@ title: IX509Attributes::Clear
 author: windows-sdk-content
 description: Removes all IX509Attribute objects from the collection.
 old-location: security\ix509attributes_clear_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: f7d4e443-4022-4a62-b3a0-88a813a4b778
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509Attributes interface, IX509Attributes interface [Security],Clear method, IX509Attributes.Clear, IX509Attributes::Clear, certenroll/IX509Attributes::Clear, security.ix509attributes_clear_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509Attributes.Clear
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Attributes::Clear

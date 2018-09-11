@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_msrdc_0000_0000_0007"
 author: windows-sdk-content
 description: Contains a single signature and the length of the chunk used to generate it.
 old-location: rdc\rdcsignature.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: eca15d66-1d8c-422b-a2ab-7dbe00cb4087
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: RdcSignature, RdcSignature structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0007, fs.rdcsignature, msrdc/RdcSignature, rdc.rdcsignature
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcSignature
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RdcSignature
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: RdcSignature
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_msrdc_0000_0000_0007 structure

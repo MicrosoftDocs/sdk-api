@@ -4,17 +4,16 @@ title: IX509AttributeOSVersion
 author: windows-sdk-content
 description: Represents an attribute that contains version information about the client operating system on which the certificate request was generated.
 old-location: security\ix509attributeosversion.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 2ae84d47-2bda-4954-9165-902634d09da9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509AttributeOSVersion, IX509AttributeOSVersion interface [Security], IX509AttributeOSVersion interface [Security],described, certenroll/IX509AttributeOSVersion, security.ix509attributeosversion
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509AttributeOSVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509AttributeOSVersion interface

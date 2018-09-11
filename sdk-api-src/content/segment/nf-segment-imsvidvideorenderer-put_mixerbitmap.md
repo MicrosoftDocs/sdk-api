@@ -4,17 +4,16 @@ title: IMSVidVideoRenderer::put_MixerBitmap
 author: windows-sdk-content
 description: The put_MixerBitmap method specifies the static bitmap image, as an IPictureDisp type.
 old-location: mstv\imsvidvideorenderer_put_mixerbitmap.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: fa9d9bea-f711-42f1-a247-322036744c44
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_MixerBitmap method, IMSVidVideoRenderer.put_MixerBitmap, IMSVidVideoRenderer::put_MixerBitmap, IMSVidVideoRendererput_MixerBitmap, mstv.imsvidvideorenderer_put_mixerbitmap, put_MixerBitmap, put_MixerBitmap method [Microsoft TV Technologies], put_MixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_MixerBitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRenderer.put_MixerBitmap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRenderer::put_MixerBitmap
@@ -62,7 +60,7 @@ The <b>put_MixerBitmap</b> method specifies the static bitmap image, as an <b>IP
 
 ### -param MixerPictureDisp
 
-
+TBD
 
 
 

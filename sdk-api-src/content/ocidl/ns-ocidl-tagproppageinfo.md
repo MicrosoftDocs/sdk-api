@@ -4,17 +4,16 @@ title: tagPROPPAGEINFO
 author: windows-sdk-content
 description: Contains parameters used to describe a property page to a property frame. A property page fills a caller-provided structure in the IPropertyPage::GetPageInfo method.
 old-location: com\proppageinfo.htm
-old-project: com
+tech.root: com
 ms.assetid: 363fd45f-fb36-41f0-9d72-dc9c018859ec
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPPROPPAGEINFO, LPPROPPAGEINFO, LPPROPPAGEINFO structure pointer [COM], PROPPAGEINFO, PROPPAGEINFO structure [COM], _ctrl_PROPPAGEINFO, com.proppageinfo, ocidl/LPPROPPAGEINFO, ocidl/PROPPAGEINFO, tagPROPPAGEINFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: OCIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPPAGEINFO, *LPPROPPAGEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROPPAGEINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PROPPAGEINFO, *LPPROPPAGEINFO
+req.redist: 
 ---
 
 # tagPROPPAGEINFO structure

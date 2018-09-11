@@ -4,17 +4,16 @@ title: "_LSA_OBJECT_ATTRIBUTES"
 author: windows-sdk-content
 description: The LSA_OBJECT_ATTRIBUTES structure is used with the LsaOpenPolicy function to specify the attributes of the connection to the Policy object.
 old-location: security\lsa_object_attributes.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: ad05cb52-8e58-46a9-b3e8-0c9c2a24a997
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PLSA_OBJECT_ATTRIBUTES, LSA_OBJECT_ATTRIBUTES, LSA_OBJECT_ATTRIBUTES structure [Security], PLSA_OBJECT_ATTRIBUTES, PLSA_OBJECT_ATTRIBUTES structure pointer [Security], _LSA_OBJECT_ATTRIBUTES, _lsa_lsa_object_attributes, lsalookup/LSA_OBJECT_ATTRIBUTES, lsalookup/PLSA_OBJECT_ATTRIBUTES, security.lsa_object_attributes"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lsalookup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LSA_OBJECT_ATTRIBUTES, *PLSA_OBJECT_ATTRIBUTES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LSA_OBJECT_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: LSA_OBJECT_ATTRIBUTES, *PLSA_OBJECT_ATTRIBUTES
+req.redist: 
 ---
 
 # _LSA_OBJECT_ATTRIBUTES structure

@@ -4,17 +4,16 @@ title: CInstance::Setbool
 author: windows-sdk-content
 description: The Setbool method sets a Boolean property.
 old-location: wmi\cinstance_setbool.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: d4ca045d-a018-48a0-a4ea-94d0c8f094a6
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?Setbool@CInstance@@QAE_NPBG_N@Z, ?Setbool@CInstance@@QEAA_NPEBG_N@Z, CInstance interface [Windows Management Instrumentation],Setbool method, CInstance.Setbool, CInstance::Setbool, Setbool, Setbool method [Windows Management Instrumentation], Setbool method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setbool, instance/CInstance::Setbool, wmi.cinstance_setbool"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ?Setbool@CInstance@@QEAA_NPEBG_N@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::Setbool

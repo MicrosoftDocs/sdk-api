@@ -4,17 +4,16 @@ title: EnumerateLoadedModulesEx function
 author: windows-sdk-content
 description: Enumerates the loaded modules for the specified process.
 old-location: base\enumerateloadedmodulesex.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 4d3d7460-7a84-4d8b-8cea-c6773beac237
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: EnumerateLoadedModulesEx, EnumerateLoadedModulesEx function, EnumerateLoadedModulesExW, base.enumerateloadedmodulesex, dbghelp/EnumerateLoadedModulesEx, dbghelp/EnumerateLoadedModulesExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.8 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - EnumerateLoadedModulesExW
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 6.8 or later
 ---
 
 # EnumerateLoadedModulesEx function

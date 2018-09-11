@@ -4,17 +4,16 @@ title: IIsdbAudioComponentDescriptor::GetLanguageCode
 author: windows-sdk-content
 description: Gets the three-character ISO 639 language code from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. If the stream uses ES multilingual mode, this method returns the first language code.
 old-location: mstv\iisdbaudiocomponentdescriptor_getlanguagecode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7f44f9c6-7eb6-4c4d-b25b-b2a95dcaa658
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetLanguageCode, GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetLanguageCode method, IIsdbAudioComponentDescriptor.GetLanguageCode, IIsdbAudioComponentDescriptor::GetLanguageCode, dvbsiparser/IIsdbAudioComponentDescriptor::GetLanguageCode, mstv.iisdbaudiocomponentdescriptor_getlanguagecode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbAudioComponentDescriptor.GetLanguageCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbAudioComponentDescriptor::GetLanguageCode

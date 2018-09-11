@@ -4,17 +4,16 @@ title: IGPEInformation::GetRegistryKey
 author: windows-sdk-content
 description: The GetRegistryKey method retrieves a handle to the root of the registry key for the specified section of the GPO.
 old-location: policy\igpeinformation_getregistrykey.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 23ccca67-6e49-44d1-b69e-e72b9095bed8
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_USER, GetRegistryKey, GetRegistryKey method [Group Policy], GetRegistryKey method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetRegistryKey method, IGPEInformation.GetRegistryKey, IGPEInformation::GetRegistryKey, _win32_igpeinformation_getregistrykey, gpedit/IGPEInformation::GetRegistryKey, policy.igpeinformation_getregistrykey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGPEInformation.GetRegistryKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpedit.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPEInformation::GetRegistryKey

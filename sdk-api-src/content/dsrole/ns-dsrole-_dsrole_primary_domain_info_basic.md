@@ -4,7 +4,7 @@ title: "_DSROLE_PRIMARY_DOMAIN_INFO_BASIC"
 author: windows-sdk-content
 description: Used with the DsRoleGetPrimaryDomainInformation function to contain domain data.
 old-location: ad\dsrole_primary_domain_info_basic.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 8a7b34e8-46d6-46dc-9fef-ec37b0f65eea
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsrole.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_PRIMARY_DOMAIN_INFO_BASIC, *PDSROLE_PRIMARY_DOMAIN_INFO_BASIC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DSROLE_PRIMARY_DOMAIN_INFO_BASIC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DSROLE_PRIMARY_DOMAIN_INFO_BASIC, *PDSROLE_PRIMARY_DOMAIN_INFO_BASIC
+req.redist: 
 ---
 
 # _DSROLE_PRIMARY_DOMAIN_INFO_BASIC structure

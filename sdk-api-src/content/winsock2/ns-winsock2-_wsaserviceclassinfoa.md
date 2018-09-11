@@ -4,17 +4,16 @@ title: "_WSAServiceClassInfoA"
 author: windows-sdk-content
 description: The WSASERVICECLASSINFO structure contains information about a specified service class. For each service class in Windows Sockets 2, there is a single WSASERVICECLASSINFO structure.
 old-location: winsock\wsaserviceclassinfo_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 02422c24-34a6-4e34-a795-66b0b687ac44
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWSASERVICECLASSINFOA, *PWSASERVICECLASSINFOA, PWSASERVICECLASSINFOW, PWSASERVICECLASSINFOW structure pointer [Winsock], WSASERVICECLASSINFO, WSASERVICECLASSINFO structure [Winsock], WSASERVICECLASSINFOA, WSASERVICECLASSINFOW, _WSAServiceClassInfoA, _win32_wsaserviceclassinfo_2, winsock.wsaserviceclassinfo_2, winsock2/PWSASERVICECLASSINFOW, winsock2/WSASERVICECLASSINFO, winsock2/WSASERVICECLASSINFOA, winsock2/WSASERVICECLASSINFOW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSASERVICECLASSINFOA, *PWSASERVICECLASSINFOA, *LPWSASERVICECLASSINFOA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WSASERVICECLASSINFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSASERVICECLASSINFOA, *PWSASERVICECLASSINFOA, *LPWSASERVICECLASSINFOA
+req.redist: 
 ---
 
 # _WSAServiceClassInfoA structure

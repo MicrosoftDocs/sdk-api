@@ -4,17 +4,16 @@ title: IMFSystemId::Setup
 author: windows-sdk-content
 description: Sets up the IMFSystemId.
 old-location: mf\imfsystemid_setup.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6a779581-326a-4666-8e11-d7cdcb02faa2
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFSystemId interface [Media Foundation],Setup method, IMFSystemId.Setup, IMFSystemId::Setup, Setup, Setup method [Media Foundation], Setup method [Media Foundation],IMFSystemId interface, mf.imfsystemid_setup, mfidl/IMFSystemId::Setup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSystemId.Setup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSystemId::Setup

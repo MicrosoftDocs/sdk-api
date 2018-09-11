@@ -4,17 +4,16 @@ title: DrawStateW function
 author: windows-sdk-content
 description: The DrawState function displays an image and applies a visual effect to indicate a state, such as a disabled or default state.
 old-location: gdi\drawstate.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: b92150be-8264-4ea8-a2ea-d70b7fba6361
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DSS_DISABLED, DSS_HIDEPREFIX, DSS_MONO, DSS_NORMAL, DSS_PREFIXONLY, DSS_RIGHT, DSS_UNION, DST_BITMAP, DST_COMPLEX, DST_ICON, DST_PREFIXTEXT, DST_TEXT, DrawState, DrawState function [Windows GDI], DrawStateA, DrawStateW, _win32_DrawState, gdi.drawstate, winuser/DrawState, winuser/DrawStateA, winuser/DrawStateW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DrawStateW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # DrawStateW function

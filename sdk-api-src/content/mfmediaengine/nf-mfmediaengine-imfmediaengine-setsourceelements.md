@@ -4,17 +4,16 @@ title: IMFMediaEngine::SetSourceElements
 author: windows-sdk-content
 description: Sets a list of media sources.
 old-location: mf\imfmediaengine_setsourceelements.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7B1A1C43-A9BD-4DBF-B6A7-53BF9295CDAC
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetSourceElements method, IMFMediaEngine.SetSourceElements, IMFMediaEngine::SetSourceElements, SetSourceElements, SetSourceElements method [Media Foundation], SetSourceElements method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setsourceelements, mfmediaengine/IMFMediaEngine::SetSourceElements
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngine.SetSourceElements
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngine::SetSourceElements

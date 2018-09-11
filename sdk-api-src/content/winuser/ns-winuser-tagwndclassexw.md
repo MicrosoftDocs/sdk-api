@@ -4,17 +4,16 @@ title: tagWNDCLASSEXW
 author: windows-sdk-content
 description: Contains window class information.
 old-location: winmsg\wndclassex.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassstructures\wndclassex.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWNDCLASSEXW, *NPWNDCLASSEXW, *PWNDCLASSEXW, PWNDCLASSEX, PWNDCLASSEX structure pointer [Windows and Messages], WNDCLASSEX, WNDCLASSEX structure [Windows and Messages], WNDCLASSEXA, WNDCLASSEXW, _win32_WNDCLASSEX_str, _win32_wndclassex_str_cpp, tagWNDCLASSEXW, winmsg.wndclassex, winui._win32_wndclassex_str, winuser/PWNDCLASSEX, winuser/WNDCLASSEX, winuser/WNDCLASSEXA, winuser/WNDCLASSEXW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WNDCLASSEXW, *PWNDCLASSEXW, *NPWNDCLASSEXW, *LPWNDCLASSEXW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WNDCLASSEXW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WNDCLASSEXW, *PWNDCLASSEXW, *NPWNDCLASSEXW, *LPWNDCLASSEXW
+req.redist: 
 ---
 
 # tagWNDCLASSEXW structure

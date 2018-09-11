@@ -4,17 +4,16 @@ title: IStreamConcatenate::Append2
 author: windows-sdk-content
 description: Appends an array of streams to this stream.
 old-location: imapi\istreamconcatenate_append2.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 75e7f4cd-f3c8-494d-b049-7fe32c486659
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Append2, Append2 method [IMAPI], Append2 method [IMAPI],IStreamConcatenate interface, IStreamConcatenate interface [IMAPI],Append2 method, IStreamConcatenate.Append2, IStreamConcatenate::Append2, imapi.istreamconcatenate_append2, imapi2/IStreamConcatenate::Append2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamConcatenate.Append2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamConcatenate::Append2

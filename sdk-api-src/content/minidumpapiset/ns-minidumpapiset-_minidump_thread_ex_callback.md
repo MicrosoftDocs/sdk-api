@@ -4,17 +4,16 @@ title: "_MINIDUMP_THREAD_EX_CALLBACK"
 author: windows-sdk-content
 description: Contains extended thread information for the MiniDumpCallback function when the callback type is ThreadExCallback.
 old-location: base\minidump_thread_ex_callback_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: a81856df-14a3-42bc-89dc-9796c7b252be
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PMINIDUMP_THREAD_EX_CALLBACK, MINIDUMP_THREAD_EX_CALLBACK, MINIDUMP_THREAD_EX_CALLBACK structure, PMINIDUMP_THREAD_EX_CALLBACK, PMINIDUMP_THREAD_EX_CALLBACK structure pointer, _MINIDUMP_THREAD_EX_CALLBACK, _win32_minidump_thread_ex_callback_str, base.minidump_thread_ex_callback_str, minidumpapiset/MINIDUMP_THREAD_EX_CALLBACK, minidumpapiset/PMINIDUMP_THREAD_EX_CALLBACK"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_THREAD_EX_CALLBACK, *PMINIDUMP_THREAD_EX_CALLBACK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_THREAD_EX_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_THREAD_EX_CALLBACK, *PMINIDUMP_THREAD_EX_CALLBACK
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_THREAD_EX_CALLBACK structure

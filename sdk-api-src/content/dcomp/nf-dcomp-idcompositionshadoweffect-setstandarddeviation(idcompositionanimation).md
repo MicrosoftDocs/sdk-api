@@ -4,17 +4,16 @@ title: IDCompositionShadowEffect::SetStandardDeviation(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the amount of blur to be applied to the alpha channel of the image.
 old-location: directcomp\idcompositionshadoweffect_setstandarddeviation.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 5860E4F6-D778-4F10-ACE1-416E6D378528
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetStandardDeviation method, IDCompositionShadowEffect.SetStandardDeviation, IDCompositionShadowEffect.SetStandardDeviation(IDCompositionAnimation), IDCompositionShadowEffect::SetStandardDeviation, IDCompositionShadowEffect::SetStandardDeviation(IDCompositionAnimation), SetStandardDeviation, SetStandardDeviation method [DirectComposition], SetStandardDeviation method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetStandardDeviation, directcomp.idcompositionshadoweffect_setstandarddeviation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionShadowEffect.SetStandardDeviation
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionShadowEffect::SetStandardDeviation(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Sets the amount of blur to be applied to the alpha channel of the image.
 
 ### -param animation
 
-
+TBD
 
 
 

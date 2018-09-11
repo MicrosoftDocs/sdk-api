@@ -4,7 +4,7 @@ title: D3D12_RESOURCE_ALIASING_BARRIER
 author: windows-sdk-content
 description: Describes the transition between usages of two different resources that have mappings into the same heap.
 old-location: direct3d12\d3d12_resource_aliasing_barrier.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 9855D609-E863-4334-B6BA-B6777FDAB82B
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_RESOURCE_ALIASING_BARRIER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_RESOURCE_ALIASING_BARRIER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_RESOURCE_ALIASING_BARRIER
+req.redist: 
 ---
 
 # D3D12_RESOURCE_ALIASING_BARRIER structure

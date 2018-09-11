@@ -4,17 +4,16 @@ title: PSPropertyBag_ReadBSTR function
 author: windows-sdk-content
 description: Reads a BSTR data value from a property in a property bag.
 old-location: properties\PSPropertyBag_ReadBSTR.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 14F21A4D-4867-4c4d-9BD8-C733B1C50266
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSPropertyBag_ReadBSTR, PSPropertyBag_ReadBSTR function [Windows Properties], properties.PSPropertyBag_ReadBSTR, propsys/PSPropertyBag_ReadBSTR, shell.PSPropertyBag_ReadBSTR, shell_PSPropertyBag_ReadBSTR
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSPropertyBag_ReadBSTR
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PSPropertyBag_ReadBSTR function

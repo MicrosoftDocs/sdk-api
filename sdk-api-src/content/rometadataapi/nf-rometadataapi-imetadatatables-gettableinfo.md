@@ -4,17 +4,16 @@ title: IMetaDataTables::GetTableInfo
 author: windows-sdk-content
 description: Gets the name, row size, number of rows, number of columns, and key column index of the specified table.
 old-location: winrt\imetadatatables_gettableinfo.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: a2ba07df-4ccf-4563-b540-821008fc985c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetTableInfo, GetTableInfo method [Windows Runtime], GetTableInfo method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetTableInfo method, IMetaDataTables.GetTableInfo, IMetaDataTables::GetTableInfo, rometadataapi/IMetaDataTables::GetTableInfo, winrt.imetadatatables_gettableinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataTables.GetTableInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataTables::GetTableInfo

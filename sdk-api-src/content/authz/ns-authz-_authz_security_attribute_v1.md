@@ -4,17 +4,16 @@ title: "_AUTHZ_SECURITY_ATTRIBUTE_V1"
 author: windows-sdk-content
 description: Defines a security attribute that can be associated with an authorization context.
 old-location: security\authz_security_attribute_v1.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 0c4778bb-1b5d-4422-b066-d2a6aaa1f351
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PAUTHZ_SECURITY_ATTRIBUTE_V1, AUTHZ_SECURITY_ATTRIBUTE_NON_INHERITABLE, AUTHZ_SECURITY_ATTRIBUTE_TYPE_BOOLEAN, AUTHZ_SECURITY_ATTRIBUTE_TYPE_FQBN, AUTHZ_SECURITY_ATTRIBUTE_TYPE_INT64, AUTHZ_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING, AUTHZ_SECURITY_ATTRIBUTE_TYPE_SID, AUTHZ_SECURITY_ATTRIBUTE_TYPE_STRING, AUTHZ_SECURITY_ATTRIBUTE_TYPE_UINT64, AUTHZ_SECURITY_ATTRIBUTE_V1, AUTHZ_SECURITY_ATTRIBUTE_V1 structure [Security], AUTHZ_SECURITY_ATTRIBUTE_VALUE_CASE_SENSITIVE, PAUTHZ_SECURITY_ATTRIBUTE_V1, PAUTHZ_SECURITY_ATTRIBUTE_V1 structure pointer [Security], _AUTHZ_SECURITY_ATTRIBUTE_V1, authz/AUTHZ_SECURITY_ATTRIBUTE_V1, authz/PAUTHZ_SECURITY_ATTRIBUTE_V1, security.authz_security_attribute_v1"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: authz.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHZ_SECURITY_ATTRIBUTE_V1, *PAUTHZ_SECURITY_ATTRIBUTE_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AUTHZ_SECURITY_ATTRIBUTE_V1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AUTHZ_SECURITY_ATTRIBUTE_V1, *PAUTHZ_SECURITY_ATTRIBUTE_V1
+req.redist: 
 ---
 
 # _AUTHZ_SECURITY_ATTRIBUTE_V1 structure

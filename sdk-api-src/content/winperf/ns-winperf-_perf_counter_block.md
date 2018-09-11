@@ -4,7 +4,7 @@ title: "_PERF_COUNTER_BLOCK"
 author: windows-sdk-content
 description: Describes the block of memory that contains the raw performance counter data for an object's counters.
 old-location: perf\perf_counter_block_str.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 5cff6142-6d71-46a5-a943-3ec91ebac62b
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winperf.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_COUNTER_BLOCK, *PPERF_COUNTER_BLOCK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERF_COUNTER_BLOCK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: PERF_COUNTER_BLOCK, *PPERF_COUNTER_BLOCK
+req.redist: 
 ---
 
 # _PERF_COUNTER_BLOCK structure

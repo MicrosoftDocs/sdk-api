@@ -4,17 +4,16 @@ title: RasEapInvokeInteractiveUI function
 author: windows-sdk-content
 description: The RAS connection manager calls the RasEapInvokeInteractiveUI function to display a dialog to obtain authentication data from the user.
 old-location: eap\raseapinvokeinteractiveui.htm
-old-project: eap
+tech.root: eap
 ms.assetid: 71dd40c9-acbd-4fb6-800d-d3f83a61b7b8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RasEapInvokeInteractiveUI, RasEapInvokeInteractiveUI callback, RasEapInvokeInteractiveUI callback function [EAP], _eap_raseapinvokeinteractiveui, eap.raseapinvokeinteractiveui, raseapif/RasEapInvokeInteractiveUI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: raseapif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_AUTH_ATTRIBUTE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RasEapInvokeInteractiveUI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasEapInvokeInteractiveUI function

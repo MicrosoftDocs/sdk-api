@@ -4,17 +4,16 @@ title: IAMMultiMediaStream::GetFilterGraph
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetFilterGraph method retrieves the Filter Graph Manager that is managed by the multimedia stream object.
 old-location: dshow\iammultimediastream_getfiltergraph.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7e772ced-d14e-45da-9e97-36579e7e3ffd
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetFilterGraph, GetFilterGraph method [DirectShow], GetFilterGraph method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],GetFilterGraph method, IAMMultiMediaStream.GetFilterGraph, IAMMultiMediaStream::GetFilterGraph, IAMMultiMediaStreamGetFilterGraph, amstream/IAMMultiMediaStream::GetFilterGraph, dshow.iammultimediastream_getfiltergraph
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAMMultiMediaStream.GetFilterGraph
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMultiMediaStream::GetFilterGraph

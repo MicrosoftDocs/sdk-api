@@ -4,17 +4,16 @@ title: ITextInputPanelEventSink::InputAreaChanged
 author: windows-sdk-content
 description: Occurs when the input area has changed on the Tablet PC Input Panel.
 old-location: tablet\itextinputpaneleventsink_inputareachanged.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: b30eaa39-a1f7-4c50-992f-11030bb175f9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: ITextInputPanelEventSink interface [Tablet PC],InputAreaChanged method, ITextInputPanelEventSink.InputAreaChanged, ITextInputPanelEventSink::InputAreaChanged, InputAreaChanged, InputAreaChanged method [Tablet PC], InputAreaChanged method [Tablet PC],ITextInputPanelEventSink interface, b30eaa39-a1f7-4c50-992f-11030bb175f9, peninputpanel/ITextInputPanelEventSink::InputAreaChanged, tablet.itextinputpaneleventsink_inputareachanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextInputPanelEventSink.InputAreaChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanelEventSink::InputAreaChanged

@@ -4,7 +4,7 @@ title: tagTVKEYDOWN
 author: windows-sdk-content
 description: Contains information about a keyboard event in a tree-view control. This structure is used with the TVN_KEYDOWN notification code. The structure is identical to the TV_KEYDOWN structure, but it has been renamed to follow current naming conventions.
 old-location: controls\NMTVKEYDOWN.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvkeydown.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NMTVKEYDOWN, *LPNMTVKEYDOWN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - NMTVKEYDOWN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: NMTVKEYDOWN, *LPNMTVKEYDOWN
+req.redist: 
 ---
 
 # tagTVKEYDOWN structure

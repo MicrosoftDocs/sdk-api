@@ -4,7 +4,7 @@ title: "_DEVICE_WRITE_AGGREGATION_DESCRIPTOR"
 author: windows-sdk-content
 description: Reserved for system use.
 old-location: fs\device_write_aggregation_descriptor.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 124f05bc-6c3f-4778-9cc0-5a55891cb141
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEVICE_WRITE_AGGREGATION_DESCRIPTOR, *PDEVICE_WRITE_AGGREGATION_DESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DEVICE_WRITE_AGGREGATION_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DEVICE_WRITE_AGGREGATION_DESCRIPTOR, *PDEVICE_WRITE_AGGREGATION_DESCRIPTOR
+req.redist: 
 ---
 
 # _DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure

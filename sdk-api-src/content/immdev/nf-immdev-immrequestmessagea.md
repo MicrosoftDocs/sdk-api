@@ -4,17 +4,16 @@ title: ImmRequestMessageA function
 author: windows-sdk-content
 description: Generates a WM_IME_REQUEST message.
 old-location: intl\immrequestmessage.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 70c90851-b6a4-41ce-a048-c828adcd4ed8
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ImmRequestMessage, ImmRequestMessage function [Internationalization for Windows Applications], ImmRequestMessageA, ImmRequestMessageW, immdev/ImmRequestMessage, immdev/ImmRequestMessageA, immdev/ImmRequestMessageW, intl.immrequestmessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: immdev.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STYLEBUFW, *PSTYLEBUFW, *NPSTYLEBUFW, *LPSTYLEBUFW
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ImmRequestMessageW
 product: Windows
 targetos: Windows
-req.lib: Imm32.lib
-req.dll: Imm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ImmRequestMessageA function

@@ -4,17 +4,16 @@ title: IMediaSample2::SetProperties
 author: windows-sdk-content
 description: The SetProperties method sets the properties of a media sample.
 old-location: dshow\imediasample2_setproperties.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f024fe3a-802d-4dc1-9f4d-ebeeed0b067a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaSample2 interface [DirectShow],SetProperties method, IMediaSample2.SetProperties, IMediaSample2::SetProperties, IMediaSample2SetProperties, SetProperties, SetProperties method [DirectShow], SetProperties method [DirectShow],IMediaSample2 interface, dshow.imediasample2_setproperties, strmif/IMediaSample2::SetProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaSample2.SetProperties
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaSample2::SetProperties

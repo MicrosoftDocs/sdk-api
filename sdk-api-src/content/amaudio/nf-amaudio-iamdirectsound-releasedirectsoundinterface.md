@@ -4,17 +4,16 @@ title: IAMDirectSound::ReleaseDirectSoundInterface
 author: windows-sdk-content
 description: The ReleaseDirectSoundInterface method is not implemented.
 old-location: dshow\iamdirectsound_releasedirectsoundinterface.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: fa02546b-7306-46ef-82a3-c6c1d89423e5
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMDirectSound interface [DirectShow],ReleaseDirectSoundInterface method, IAMDirectSound.ReleaseDirectSoundInterface, IAMDirectSound::ReleaseDirectSoundInterface, IAMDirectSoundReleaseDirectSoundInterface, ReleaseDirectSoundInterface, ReleaseDirectSoundInterface method [DirectShow], ReleaseDirectSoundInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleaseDirectSoundInterface, dshow.iamdirectsound_releasedirectsoundinterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKADDR_IRDA, *PSOCKADDR_IRDA, *LPSOCKADDR_IRDA
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAMDirectSound.ReleaseDirectSoundInterface
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMDirectSound::ReleaseDirectSoundInterface

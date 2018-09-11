@@ -4,7 +4,7 @@ title: WMT_ATTR_IMAGETYPE
 author: windows-sdk-content
 description: The WMT_ATTR_IMAGETYPE enumeration type lists image types that can be stored in the header of an ASF file.
 old-location: wmformat\wmt_attr_imagetype.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 0e032796-4bbf-4307-982f-560a56506db2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMT_ATTR_IMAGETYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMT_ATTR_IMAGETYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMT_ATTR_IMAGETYPE
+req.redist: 
 ---
 
 # WMT_ATTR_IMAGETYPE enumeration

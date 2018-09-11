@@ -4,17 +4,16 @@ title: EventActivityIdControl function
 author: windows-sdk-content
 description: Creates, queries, and sets the current activity identifier used by the EventWriteTransfer function.
 old-location: etw\eventactivityidcontrol_func.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 1c412909-bdff-4181-9750-f3444fda4c8f
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: EVENT_ACTIVITY_CTRL_CREATE_ID, EVENT_ACTIVITY_CTRL_CREATE_SET_ID, EVENT_ACTIVITY_CTRL_GET_ID, EVENT_ACTIVITY_CTRL_GET_SET_ID, EVENT_ACTIVITY_CTRL_SET_ID, EventActivityIdControl, EventActivityIdControl function [ETW], base.eventactivityidcontrol_func, etw.eventactivityidcontrol_func, evntprov/EventActivityIdControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - EventActivityIdControl
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EventActivityIdControl function

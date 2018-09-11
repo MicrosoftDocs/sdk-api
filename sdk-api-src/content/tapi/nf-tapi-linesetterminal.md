@@ -4,17 +4,16 @@ title: lineSetTerminal function
 author: windows-sdk-content
 description: The lineSetTerminal function enables an application to specify which terminal information related to the specified line, address, or call is to be routed.
 old-location: tapi2\linesetterminal.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 362114d9-c5b6-4b78-bb31-811eb89fe82d
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: "_tapi2_linesetterminal, lineSetTerminal, lineSetTerminal function [TAPI 2.2], tapi/lineSetTerminal, tapi2.linesetterminal"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - lineSetTerminal
 product: Windows
 targetos: Windows
-req.lib: Tapi32.lib
-req.dll: Tapi32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # lineSetTerminal function

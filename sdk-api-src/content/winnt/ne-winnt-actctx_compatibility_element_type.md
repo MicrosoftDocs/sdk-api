@@ -4,17 +4,16 @@ title: ACTCTX_COMPATIBILITY_ELEMENT_TYPE
 author: windows-sdk-content
 description: The ACTCTX_COMPATIBILITY_ELEMENT_TYPE enumeration describes the compatibility element in the application manifest.
 old-location: setup\actctx_compatibility_element_type.htm
-old-project: sbscs
+tech.root: SbsCs
 ms.assetid: 3a3c99e5-9a73-4688-8192-baee0078c17c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ACTCTX_COMPATIBILITY_ELEMENT_TYPE, ACTCTX_COMPATIBILITY_ELEMENT_TYPE enumeration [Side-by-side Assemblies], ACTCX_COMPATIBILITY_ELEMENT_TYPE_OS, ACTCX_COMPATIBILITY_ELEMENT_TYPE_UNKNOWN, setup.actctx_compatibility_element_type, winnt/ACTCTX_COMPATIBILITY_ELEMENT_TYPE, winnt/ACTCX_COMPATIBILITY_ELEMENT_TYPE_OS, winnt/ACTCX_COMPATIBILITY_ELEMENT_TYPE_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACTCTX_COMPATIBILITY_ELEMENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACTCTX_COMPATIBILITY_ELEMENT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: ACTCTX_COMPATIBILITY_ELEMENT_TYPE
+req.redist: 
 ---
 
 # ACTCTX_COMPATIBILITY_ELEMENT_TYPE enumeration

@@ -4,7 +4,7 @@ title: tagLOGBRUSH
 author: windows-sdk-content
 description: The LOGBRUSH structure defines the style, color, and pattern of a physical brush. It is used by the CreateBrushIndirect and ExtCreatePen functions.
 old-location: gdi\logbrush.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: ded2c7a4-2248-4d01-95c6-ab4050719094
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOGBRUSH, *PLOGBRUSH, *NPLOGBRUSH, *LPLOGBRUSH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LOGBRUSH
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: LOGBRUSH, *PLOGBRUSH, *NPLOGBRUSH, *LPLOGBRUSH
+req.redist: 
 ---
 
 # tagLOGBRUSH structure

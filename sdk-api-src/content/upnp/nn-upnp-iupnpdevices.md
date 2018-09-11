@@ -4,17 +4,16 @@ title: IUPnPDevices
 author: windows-sdk-content
 description: The IUPnPDevices interface enumerates a collection of devices.
 old-location: upnp\iupnpdevices.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 237715dc-2b5a-45b4-b006-d31c0b4e89e3
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPDevices, IUPnPDevices interface [UPnP APIs], IUPnPDevices interface [UPnP APIs],described, _upnp_iupnpdevices, upnp.iupnpdevices, upnp/IUPnPDevices
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUPnPDevices.This interface has no methods.
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDevices interface

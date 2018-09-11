@@ -4,17 +4,16 @@ title: SetupDiGetActualSectionToInstallExA function
 author: windows-sdk-content
 description: The SetupDiGetActualSectionToInstallEx function retrieves the name of the INF DDInstall section that installs a device for a specified operating system and processor architecture.
 old-location: devinst\setupdigetactualsectiontoinstallex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 0f05e3ec-09ea-4d9a-99c9-ddbc16753481
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiGetActualSectionToInstallEx, SetupDiGetActualSectionToInstallEx function [Device and Driver Installation], SetupDiGetActualSectionToInstallExA, SetupDiGetActualSectionToInstallExW, devinst.setupdigetactualsectiontoinstallex, di-rtns_d8baadc3-b6eb-49cb-a8ca-e3f877c2e8e7.xml, setupapi/SetupDiGetActualSectionToInstallEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiGetActualSectionToInstallEx
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetActualSectionToInstallExA function

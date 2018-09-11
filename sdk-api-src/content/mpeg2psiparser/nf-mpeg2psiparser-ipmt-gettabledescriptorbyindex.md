@@ -4,17 +4,16 @@ title: IPMT::GetTableDescriptorByIndex
 author: windows-sdk-content
 description: The GetTableDescriptorByIndex method retrieves a table-wide descriptor for the PMT.
 old-location: mstv\ipmt_gettabledescriptorbyindex.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 31442c1f-0921-49b8-ab38-d75ccc2c4f0e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IPMT.GetTableDescriptorByIndex, IPMT::GetTableDescriptorByIndex, IPMTGetTableDescriptorByIndex, mpeg2psiparser/IPMT::GetTableDescriptorByIndex, mstv.ipmt_gettabledescriptorbyindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPMT.GetTableDescriptorByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPMT::GetTableDescriptorByIndex

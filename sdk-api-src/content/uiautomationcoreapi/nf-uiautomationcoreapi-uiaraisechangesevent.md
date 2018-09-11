@@ -4,17 +4,16 @@ title: UiaRaiseChangesEvent function
 author: windows-sdk-content
 description: Called by providers to notify the Microsoft UI Automation core that a change has occurred.
 old-location: winauto\uiauto_UiaRaiseChangesEventFunction.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: AA6F1F6E-3EE9-44A6-B1AE-B08013DC1E37
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UiaRaiseChangesEvent, UiaRaiseChangesEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseChangesEvent, winauto.uiauto_UiaRaiseChangesEventFunction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - UiaRaiseChangesEvent
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaRaiseChangesEvent function

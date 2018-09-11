@@ -4,17 +4,16 @@ title: IVisualTreeService2
 author: windows-sdk-content
 description: Represents additional capabilities of an IVisualTreeService object.
 old-location: xaml_diagnostics\ivisualtreeservice2.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: 022E495B-2609-4CA0-A69D-BFC4A04A6F9B
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVisualTreeService2, IVisualTreeService2 interface, IVisualTreeService2 interface,described, xaml_diagnostics.ivisualtreeservice2, xamlom/IVisualTreeService2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualMutationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualTreeService2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualTreeService2 interface

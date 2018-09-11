@@ -4,17 +4,16 @@ title: LIBRARYFOLDERFILTER
 author: windows-sdk-content
 description: Defines options for filtering folder items.
 old-location: shell\LIBRARYFOLDERFILTER.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8bcb8ee7-14a9-411e-978d-ddeed83d8392
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: LFF_ALLITEMS, LFF_FORCEFILESYSTEM, LFF_STORAGEITEMS, LIBRARYFOLDERFILTER, LIBRARYFOLDERFILTER enumeration [Windows Shell], _shell_LIBRARYFOLDERFILTER, shell.LIBRARYFOLDERFILTER, shobjidl_core/LFF_ALLITEMS, shobjidl_core/LFF_FORCEFILESYSTEM, shobjidl_core/LFF_STORAGEITEMS, shobjidl_core/LIBRARYFOLDERFILTER
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LIBRARYFOLDERFILTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LIBRARYFOLDERFILTER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: LIBRARYFOLDERFILTER
+req.redist: 
 ---
 
 # LIBRARYFOLDERFILTER enumeration

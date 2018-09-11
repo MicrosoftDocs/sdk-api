@@ -4,17 +4,16 @@ title: ID3D12PipelineLibrary::LoadComputePipeline
 author: windows-sdk-content
 description: Retrieves the requested PSO from the library. The input desc is matched against the data in the current library database, and remembered in order to prevent duplication of PSO contents.
 old-location: direct3d12\id3d12pipelinelibrary_loadcomputepipeline.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 8295D6E3-8353-46AD-A741-170244495F8B
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D12PipelineLibrary interface,LoadComputePipeline method, ID3D12PipelineLibrary.LoadComputePipeline, ID3D12PipelineLibrary::LoadComputePipeline, LoadComputePipeline, LoadComputePipeline method, LoadComputePipeline method,ID3D12PipelineLibrary interface, d3d12/ID3D12PipelineLibrary::LoadComputePipeline, direct3d12.id3d12pipelinelibrary_loadcomputepipeline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12PipelineLibrary.LoadComputePipeline
 product: Windows
 targetos: Windows
-req.lib: D3d12.lib
-req.dll: D3d12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12PipelineLibrary::LoadComputePipeline

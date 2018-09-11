@@ -4,17 +4,16 @@ title: IPhotoAcquire::CreatePhotoSource
 author: windows-sdk-content
 description: The CreatePhotoSource method initializes an IPhotoAcquireSource object to pass to IPhotoAcquire::Acquire.
 old-location: picacq\iphotoacquire_createphotosource.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 03dc14d4-03e8-4281-ae70-c9f2c5646694
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CreatePhotoSource, CreatePhotoSource method [Picture Acquisition], CreatePhotoSource method [Picture Acquisition],IPhotoAcquire interface, IPhotoAcquire interface [Picture Acquisition],CreatePhotoSource method, IPhotoAcquire.CreatePhotoSource, IPhotoAcquire::CreatePhotoSource, IPhotoAcquireCreatePhotoSource, photoacquire/IPhotoAcquire::CreatePhotoSource, picacq.iphotoacquire_createphotosource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquire.CreatePhotoSource
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquire::CreatePhotoSource

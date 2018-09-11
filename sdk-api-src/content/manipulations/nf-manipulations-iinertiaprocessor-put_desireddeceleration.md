@@ -4,17 +4,16 @@ title: IInertiaProcessor::put_DesiredDeceleration
 author: windows-sdk-content
 description: The DesiredDeceleration property specifies the desired rate at which translation operations will decelerate.
 old-location: wintouch\iinertiaprocessor_desireddeceleration.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 2ad39e7e-b433-4a40-aea2-53cf23247f25
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DesiredDeceleration property [Windows Touch], DesiredDeceleration property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredDeceleration property, IInertiaProcessor.DesiredDeceleration, IInertiaProcessor.put_DesiredDeceleration, IInertiaProcessor::DesiredDeceleration, IInertiaProcessor::get_DesiredDeceleration, IInertiaProcessor::put_DesiredDeceleration, manipulations/IInertiaProcessor::DesiredDeceleration, manipulations/IInertiaProcessor::get_DesiredDeceleration, manipulations/IInertiaProcessor::put_DesiredDeceleration, put_DesiredDeceleration, wintouch.iinertiaprocessor_desireddeceleration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IInertiaProcessor.put_DesiredDeceleration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInertiaProcessor::put_DesiredDeceleration

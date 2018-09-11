@@ -4,17 +4,16 @@ title: IActionProgressDialog::Initialize
 author: windows-sdk-content
 description: Provides details about the action progress dialog.
 old-location: shell\IActionProgressDialog_Initialize.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e82f4686-75c6-4f06-8468-937352fe33d3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IActionProgressDialog interface [Windows Shell],Initialize method, IActionProgressDialog.Initialize, IActionProgressDialog::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IActionProgressDialog interface, SPINITF_MODAL, SPINITF_NOMINIMIZE, SPINITF_NORMAL, _shell_IActionProgressDialog_Initialize, shell.IActionProgressDialog_Initialize, shobjidl_core/IActionProgressDialog::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Browseui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActionProgressDialog.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Browseui.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IActionProgressDialog::Initialize

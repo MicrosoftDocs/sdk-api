@@ -4,17 +4,16 @@ title: ITransferSource::ApplyPropertiesToItem
 author: windows-sdk-content
 description: Apply a set of property changes to an item.
 old-location: shell\ITransferSource_ApplyPropertiesToItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f3a99637-8ce7-4177-bcf7-716ed7698934
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ApplyPropertiesToItem, ApplyPropertiesToItem method [Windows Shell], ApplyPropertiesToItem method [Windows Shell],ITransferSource interface, ITransferSource interface [Windows Shell],ApplyPropertiesToItem method, ITransferSource.ApplyPropertiesToItem, ITransferSource::ApplyPropertiesToItem, _shell_ITransferSource_ApplyPropertiesToItem, shell.ITransferSource_ApplyPropertiesToItem, shobjidl_core/ITransferSource::ApplyPropertiesToItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITransferSource.ApplyPropertiesToItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITransferSource::ApplyPropertiesToItem

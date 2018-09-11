@@ -4,17 +4,16 @@ title: Pkcs10AllowedSignatureTypes
 author: windows-sdk-content
 description: Specifies the type of signature permitted when signing a certificate request.
 old-location: security\pkcs10allowedsignaturetypes_enum.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: b5c6a28b-d46b-4d93-adc2-625a82d6df7a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AllowedKeySignature, AllowedNullSignature, Pkcs10AllowedSignatureTypes, Pkcs10AllowedSignatureTypes enumeration [Security], certenroll/AllowedKeySignature, certenroll/AllowedNullSignature, certenroll/Pkcs10AllowedSignatureTypes, security.pkcs10allowedsignaturetypes_enum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Pkcs10AllowedSignatureTypes
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Pkcs10AllowedSignatureTypes
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: Pkcs10AllowedSignatureTypes
+req.redist: 
 ---
 
 # Pkcs10AllowedSignatureTypes enumeration

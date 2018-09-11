@@ -4,17 +4,16 @@ title: IMFHttpDownloadRequest::GetURL
 author: windows-sdk-content
 description: Returns the URL that is used for sending the request.
 old-location: mf\imfhttpdownloadrequest_geturl.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 38FAD6B8-8C50-492C-BC53-6F301D49083F
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetURL method, IMFHttpDownloadRequest.GetURL, IMFHttpDownloadRequest::GetURL, mf.imfhttpdownloadrequest_geturl, mfidl/IMFHttpDownloadRequest::GetURL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFHttpDownloadRequest.GetURL
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFHttpDownloadRequest::GetURL

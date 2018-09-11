@@ -4,7 +4,7 @@ title: NET_FW_EDGE_TRAVERSAL_TYPE_
 author: windows-sdk-content
 description: The conditions under which edge traversal traffic is allowed.
 old-location: ics\net_fw_edge_traversal_type.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 69efe4d1-3614-4e6f-9bc1-4bacb9a7a8eb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: icftypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_EDGE_TRAVERSAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_FW_EDGE_TRAVERSAL_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_FW_EDGE_TRAVERSAL_TYPE
+req.redist: 
 ---
 
 # NET_FW_EDGE_TRAVERSAL_TYPE_ enumeration

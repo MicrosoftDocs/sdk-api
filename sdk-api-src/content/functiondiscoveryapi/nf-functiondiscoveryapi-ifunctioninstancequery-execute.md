@@ -4,17 +4,16 @@ title: IFunctionInstanceQuery::Execute
 author: windows-sdk-content
 description: Performs the query defined by IFunctionDiscovery::CreateInstanceQuery.
 old-location: ncd\ifunctioninstancequery_execute_method.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 42618944-6ae6-45f0-85f9-3c958d719ed2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Execute, Execute method, Execute method,IFunctionInstanceQuery interface, IFunctionInstanceQuery interface,Execute method, IFunctionInstanceQuery.Execute, IFunctionInstanceQuery::Execute, functiondiscoveryapi/IFunctionInstanceQuery::Execute, ncd.ifunctioninstancequery_execute_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemVisibilityFlags
+req.lib: 
+req.dll: FunDisc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionInstanceQuery.Execute
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FunDisc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionInstanceQuery::Execute

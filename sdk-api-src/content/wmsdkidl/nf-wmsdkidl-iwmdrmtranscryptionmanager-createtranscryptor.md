@@ -4,17 +4,16 @@ title: IWMDRMTranscryptionManager::CreateTranscryptor
 author: windows-sdk-content
 description: Creates a DRM transcryptor object.
 old-location: wmformat\iwmdrmtranscryptionmanager_createtranscryptor.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: e4dfa908-9fd2-4968-b4a0-c7b69064d46e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateTranscryptor, CreateTranscryptor method [windows Media Format], CreateTranscryptor method [windows Media Format],IWMDRMTranscryptionManager interface, IWMDRMTranscryptionManager interface [windows Media Format],CreateTranscryptor method, IWMDRMTranscryptionManager.CreateTranscryptor, IWMDRMTranscryptionManager::CreateTranscryptor, wmformat.iwmdrmtranscryptionmanager_createtranscryptor, wmsdkidl/IWMDRMTranscryptionManager::CreateTranscryptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMDRMTranscryptionManager.CreateTranscryptor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDRMTranscryptionManager::CreateTranscryptor

@@ -4,17 +4,16 @@ title: IWMPNetwork::get_encodedFrameRate
 author: windows-sdk-content
 description: The get_encodedFrameRate method retrieves the video frame rate specified by the content author.
 old-location: wmp\iwmpnetwork_get_encodedframerate.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: d42133cf-3b81-4d22-b83d-d8a5756d9d9c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_encodedFrameRate method, IWMPNetwork.get_encodedFrameRate, IWMPNetwork::get_encodedFrameRate, IWMPNetworkget_encodedFrameRate, get_encodedFrameRate, get_encodedFrameRate method [Windows Media Player], get_encodedFrameRate method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_encodedframerate, wmp/IWMPNetwork::get_encodedFrameRate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPNetwork.get_encodedFrameRate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPNetwork::get_encodedFrameRate

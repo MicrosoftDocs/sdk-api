@@ -4,17 +4,16 @@ title: VariantToInt64ArrayAlloc function
 author: windows-sdk-content
 description: Extracts data from a vector structure into a newly-allocated Int64 array.
 old-location: properties\VariantToInt64ArrayAlloc.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 15a583bd-fdef-4802-a18b-0a21b9be5448
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VariantToInt64ArrayAlloc, VariantToInt64ArrayAlloc function [Windows Properties], _shell_VariantToInt64ArrayAlloc, properties.VariantToInt64ArrayAlloc, propvarutil/VariantToInt64ArrayAlloc, shell.VariantToInt64ArrayAlloc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VariantToInt64ArrayAlloc
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # VariantToInt64ArrayAlloc function

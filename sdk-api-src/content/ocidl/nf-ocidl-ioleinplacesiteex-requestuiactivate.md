@@ -4,17 +4,16 @@ title: IOleInPlaceSiteEx::RequestUIActivate
 author: windows-sdk-content
 description: Notifies the container that the object is about to enter the UI-active state.
 old-location: com\ioleinplacesiteex_requestuiactivate.htm
-old-project: com
+tech.root: com
 ms.assetid: 60baefc0-eaf6-4d73-975c-987a7720955b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleInPlaceSiteEx interface [COM],RequestUIActivate method, IOleInPlaceSiteEx.RequestUIActivate, IOleInPlaceSiteEx::RequestUIActivate, RequestUIActivate, RequestUIActivate method [COM], RequestUIActivate method [COM],IOleInPlaceSiteEx interface, _ole_ioleinplacesiteex_requestuiactivate, com.ioleinplacesiteex_requestuiactivate, ocidl/IOleInPlaceSiteEx::RequestUIActivate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IOleInPlaceSiteEx.RequestUIActivate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSiteEx::RequestUIActivate

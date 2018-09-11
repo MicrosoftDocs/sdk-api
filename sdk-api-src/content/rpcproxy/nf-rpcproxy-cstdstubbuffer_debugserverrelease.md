@@ -4,17 +4,16 @@ title: CStdStubBuffer_DebugServerRelease function
 author: windows-sdk-content
 description: The CStdStubBuffer_DebugServerRelease function implements the IRpcStubBuffer::DebugServerRelease method.
 old-location: rpc\cstdstubbuffer_debugserverrelease.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 3bdf74bf-2aed-4527-8c60-02537465354b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CStdStubBuffer_DebugServerRelease, CStdStubBuffer_DebugServerRelease function [RPC], rpc.cstdstubbuffer_debugserverrelease, rpcproxy/CStdStubBuffer_DebugServerRelease
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CStdStubBuffer_DebugServerRelease
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CStdStubBuffer_DebugServerRelease function

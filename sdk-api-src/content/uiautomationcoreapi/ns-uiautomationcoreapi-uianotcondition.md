@@ -4,7 +4,7 @@ title: UiaNotCondition
 author: windows-sdk-content
 description: Note  This structure is deprecated.  Contains information about a negative condition.
 old-location: winauto\uiauto_UiaNotConditionStruct.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 56f3f6b2-31b6-4eba-a6be-6a64f72e98df
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UiaNotCondition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaNotCondition structure

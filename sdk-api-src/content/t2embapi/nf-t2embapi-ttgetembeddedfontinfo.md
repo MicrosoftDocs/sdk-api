@@ -4,17 +4,16 @@ title: TTGetEmbeddedFontInfo function
 author: windows-sdk-content
 description: Retrieves information about an embedded font, such as embedding permissions. TTGetEmbeddedFontInfo performs the same task as TTLoadEmbeddedFont but does not allocate internal data structures for the embedded font.
 old-location: gdi\ttgetembeddedfontinfo.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 0ce9ade0-df5b-4a2a-adf6-ca641e27d2bd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, LICENSE_DEFAULT, LICENSE_EDITABLE, LICENSE_INSTALLABLE, LICENSE_NOEMBEDDING, LICENSE_PREVIEWPRINT, TTEMBED_EMBEDEUDC, TTEMBED_RAW, TTEMBED_SUBSET, TTEMBED_TTCOMPRESSED, TTGetEmbeddedFontInfo, TTGetEmbeddedFontInfo function [Windows GDI], TTLOAD_FONT_SUBSETTED, _win32_TTGetEmbeddedFontInfo, gdi.ttgetembeddedfontinfo, t2embapi/TTGetEmbeddedFontInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: t2embapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_INFO, *LPSYSTEM_INFO
+req.lib: T2embed.lib
+req.dll: T2embed.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TTGetEmbeddedFontInfo
 product: Windows
 targetos: Windows
-req.lib: T2embed.lib
-req.dll: T2embed.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TTGetEmbeddedFontInfo function

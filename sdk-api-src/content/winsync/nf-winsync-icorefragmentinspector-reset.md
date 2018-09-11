@@ -4,17 +4,16 @@ title: ICoreFragmentInspector::Reset
 author: windows-sdk-content
 description: Resets the enumerator to the beginning of the knowledge.
 old-location: winsync\icorefragmentinspector_reset.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 57621ce0-c484-4687-9f2f-98d285b041ca
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICoreFragmentInspector interface [Windows Sync],Reset method, ICoreFragmentInspector.Reset, ICoreFragmentInspector::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],ICoreFragmentInspector interface, winsync.icorefragmentinspector_reset, winsync/ICoreFragmentInspector::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICoreFragmentInspector.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ICoreFragmentInspector::Reset

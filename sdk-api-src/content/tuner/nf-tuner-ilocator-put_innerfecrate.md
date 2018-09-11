@@ -4,17 +4,16 @@ title: ILocator::put_InnerFECRate
 author: windows-sdk-content
 description: The put_InnerFECRate method sets the inner FEC rate.
 old-location: mstv\ilocator_put_innerfecrate.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 009d1ddf-73ae-432b-adf2-a5a0067345fa
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDigitalLocatorput_InnerFECRate, ILocator interface [Microsoft TV Technologies],put_InnerFECRate method, ILocator.put_InnerFECRate, ILocator::put_InnerFECRate, mstv.ilocator_put_innerfecrate, put_InnerFECRate, put_InnerFECRate method [Microsoft TV Technologies], put_InnerFECRate method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_InnerFECRate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILocator.put_InnerFECRate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ILocator::put_InnerFECRate

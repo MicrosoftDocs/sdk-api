@@ -4,17 +4,16 @@ title: WdsBpParseInitialize function
 author: windows-sdk-content
 description: Receives a handle to the packet sent by the network boot program.
 old-location: wds\wdsbpparseinitialize.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: dc6007ad-0dd5-477d-a49f-45820aa1b5f6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCP, WDSBP_PK_TYPE_WDSNBP, WdsBpParseInitialize, WdsBpParseInitialize function [Windows Deployment Services], wds.wdsbpparseinitialize, wdsbp/WdsBpParseInitialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdsbp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+req.lib: Wdsbp.lib
+req.dll: Wdsbp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsBpParseInitialize
 product: Windows
 targetos: Windows
-req.lib: Wdsbp.lib
-req.dll: Wdsbp.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsBpParseInitialize function

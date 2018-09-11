@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxDoc.get_FaxNumber
 title: IFaxDoc::get_FaxNumber
 author: windows-sdk-content
 description: Sets or retrieves the FaxNumber property of a FaxDoc object. The FaxNumber property is a null-terminated string that contains the fax number to which the fax server will send the fax transmission.
-old-location: fax\_mfax_ifaxdoc_get_faxnumber_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_faxnumber_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_833m.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxDoc object [Fax Service],FaxNumber property, FaxDoc.FaxNumber, FaxNumber property [Fax Service], FaxNumber property [Fax Service],FaxDoc object, IFaxDoc.get_FaxNumber, IFaxDoc::get_FaxNumber, _mfax_ifaxdoc_get_faxnumber, fax._mfax_ifaxdoc_get_faxnumber, fax._mfax_ifaxdoc_get_faxnumber_vb, get_FaxNumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: FaxNumber property [Fax Service], FaxNumber property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],FaxNumber property, IFaxDoc.FaxNumber, IFaxDoc.get_FaxNumber, IFaxDoc::FaxNumber, IFaxDoc::get_FaxNumber, IFaxDoc::put_FaxNumber, _mfax_ifaxdoc_get_faxnumber, fax._mfax_ifaxdoc_get_faxnumber, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_faxnumber_cpp, faxcom/IFaxDoc::FaxNumber, faxcom/IFaxDoc::get_FaxNumber, faxcom/IFaxDoc::put_FaxNumber, get_FaxNumber
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxDoc.FaxNumber
+ - IFaxDoc.FaxNumber
+ - IFaxDoc.get_FaxNumber
+ - IFaxDoc.put_FaxNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDoc::get_FaxNumber
@@ -66,9 +66,9 @@ This property is read/write.
 
 The recipient's fax number can appear on the cover page. 
 
-The <b>FaxNumber</b> property is required to send a fax transmission using a call to the <a href="https://msdn.microsoft.com/en-us/library/ms692792(v=VS.85).aspx">Send</a> method. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691959(v=VS.85).aspx">Transmitting Faxes</a>.
+The <b>FaxNumber</b> property is required to send a fax transmission using a call to the <a href="https://msdn.microsoft.com/a4c70429-4d1d-4708-acd6-e077bddfbd6c">IFaxDoc::Send</a> method. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691959(v=VS.85).aspx">Transmitting Faxes</a>.
 
-The <b>FaxNumber</b> property is required to send a fax transmission using a call to the <a href="https://msdn.microsoft.com/en-us/library/ms692792(v=VS.85).aspx">Send</a> method. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691959(v=VS.85).aspx">Transmitting Faxes</a>.
+The <b>FaxNumber</b> property is required to send a fax transmission using a call to the <a href="https://msdn.microsoft.com/a4c70429-4d1d-4708-acd6-e077bddfbd6c">Send</a> method. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691959(v=VS.85).aspx">Transmitting Faxes</a>.
 
 The <b>get_FaxNumber</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
@@ -88,15 +88,11 @@ The <b>get_FaxNumber</b> method allocates the memory required for the buffer poi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690707(v=VS.85).aspx">FaxDoc</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/ms692281(v=VS.85).aspx">IFaxDoc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692792(v=VS.85).aspx">Send</a>
+<a href="https://msdn.microsoft.com/a4c70429-4d1d-4708-acd6-e077bddfbd6c">IFaxDoc::Send</a>
 
 
 

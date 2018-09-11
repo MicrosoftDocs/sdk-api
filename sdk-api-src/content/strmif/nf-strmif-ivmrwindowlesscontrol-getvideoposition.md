@@ -4,17 +4,16 @@ title: IVMRWindowlessControl::GetVideoPosition
 author: windows-sdk-content
 description: The GetVideoPosition method retrieves the current source and destination rectangles used to display the video.
 old-location: dshow\ivmrwindowlesscontrol_getvideoposition.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1d7f1a8b-bbc4-43ae-b8e6-410561087204
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetVideoPosition, GetVideoPosition method [DirectShow], GetVideoPosition method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetVideoPosition method, IVMRWindowlessControl.GetVideoPosition, IVMRWindowlessControl::GetVideoPosition, IVMRWindowlessControlGetVideoPosition, dshow.ivmrwindowlesscontrol_getvideoposition, strmif/IVMRWindowlessControl::GetVideoPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRWindowlessControl.GetVideoPosition
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRWindowlessControl::GetVideoPosition

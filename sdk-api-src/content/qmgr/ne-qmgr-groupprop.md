@@ -4,7 +4,7 @@ title: GROUPPROP
 author: windows-sdk-content
 description: The GROUPPROP enumeration defines the constant values for retrieving and setting group property values.
 old-location: bits\groupprop.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 8bd5d1df-237a-4c42-afe1-6540ab1ad8c1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GROUPPROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: GROUPPROP
+req.redist: 
 ---
 
 # GROUPPROP enumeration

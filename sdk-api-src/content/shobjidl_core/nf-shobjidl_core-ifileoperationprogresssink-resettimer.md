@@ -4,17 +4,16 @@ title: IFileOperationProgressSink::ResetTimer
 author: windows-sdk-content
 description: Not supported.
 old-location: shell\IFileOperationProgressSink_ResetTimer.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b753b53d-4a54-4bb2-af94-dd296f86b37a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],ResetTimer method, IFileOperationProgressSink.ResetTimer, IFileOperationProgressSink::ResetTimer, ResetTimer, ResetTimer method [Windows Shell], ResetTimer method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_ResetTimer, shell.IFileOperationProgressSink_ResetTimer, shobjidl_core/IFileOperationProgressSink::ResetTimer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperationProgressSink.ResetTimer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperationProgressSink::ResetTimer

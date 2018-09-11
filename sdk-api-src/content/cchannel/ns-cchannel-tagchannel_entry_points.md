@@ -4,7 +4,7 @@ title: tagCHANNEL_ENTRY_POINTS
 author: windows-sdk-content
 description: Contains pointers to the functions called by a client-side DLL to access virtual channels.
 old-location: termserv\channel_entry_points_str.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: f64471b0-1f2e-48cb-9f9c-1bb536afc248
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cchannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CHANNEL_ENTRY_POINTS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
+req.redist: 
 ---
 
 # tagCHANNEL_ENTRY_POINTS structure

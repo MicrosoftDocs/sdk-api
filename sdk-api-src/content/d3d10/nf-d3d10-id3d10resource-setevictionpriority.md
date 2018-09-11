@@ -4,17 +4,16 @@ title: ID3D10Resource::SetEvictionPriority
 author: windows-sdk-content
 description: Set the eviction priority of a resource.
 old-location: direct3d10\id3d10resource_setevictionpriority.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10resource_setevictionpriority.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 8ad141ef-5f50-f2f6-d2db-3f0b076d0dda, ID3D10Resource interface [Direct3D 10],SetEvictionPriority method, ID3D10Resource.SetEvictionPriority, ID3D10Resource::SetEvictionPriority, SetEvictionPriority, SetEvictionPriority method [Direct3D 10], SetEvictionPriority method [Direct3D 10],ID3D10Resource interface, d3d10/ID3D10Resource::SetEvictionPriority, direct3d10.id3d10resource_setevictionpriority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_USAGE
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D10Resource.SetEvictionPriority
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Resource::SetEvictionPriority

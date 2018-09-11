@@ -4,17 +4,16 @@ title: ITsSbProvisioning::CreateVirtualMachines
 author: windows-sdk-content
 description: Creates a virtual machine asynchronously.
 old-location: termserv\itssbprovisioning_createvirtualmachines.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 752da6d8-d036-4a39-aed5-c1fd7a11474e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateVirtualMachines, CreateVirtualMachines method [Remote Desktop Services], CreateVirtualMachines method [Remote Desktop Services],ITsSbProvisioning interface, ITsSbProvisioning interface [Remote Desktop Services],CreateVirtualMachines method, ITsSbProvisioning.CreateVirtualMachines, ITsSbProvisioning::CreateVirtualMachines, sbtsv/ITsSbProvisioning::CreateVirtualMachines, termserv.itssbprovisioning_createvirtualmachines
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbProvisioning.CreateVirtualMachines
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbProvisioning::CreateVirtualMachines

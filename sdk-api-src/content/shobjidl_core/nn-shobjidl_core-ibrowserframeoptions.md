@@ -4,17 +4,16 @@ title: IBrowserFrameOptions
 author: windows-sdk-content
 description: Allows a browser or host to ask IShellView what kind of view behavior is supported.
 old-location: shell\IBrowserFrameOptions.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ef5773fb-8b89-4034-9059-06b107dbd76d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserFrameOptions, IBrowserFrameOptions interface [Windows Shell], IBrowserFrameOptions interface [Windows Shell],described, _shell_IBrowserFrameOptions, shell.IBrowserFrameOptions, shobjidl_core/IBrowserFrameOptions
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBrowserFrameOptions
 product: Windows
 targetos: Windows
-req.lib: Twinapi.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IBrowserFrameOptions interface

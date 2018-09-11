@@ -4,17 +4,16 @@ title: ITransferDestination::Advise
 author: windows-sdk-content
 description: Sets up an advisory connection for notifications on the status of file operations.
 old-location: shell\ITransferDestination_Advise.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e25040dd-bb51-45cc-99fb-9113e26d0baa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],ITransferDestination interface, ITransferDestination interface [Windows Shell],Advise method, ITransferDestination.Advise, ITransferDestination::Advise, _shell_ITransferDestination_Advise, shell.ITransferDestination_Advise, shobjidl_core/ITransferDestination::Advise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITransferDestination.Advise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITransferDestination::Advise

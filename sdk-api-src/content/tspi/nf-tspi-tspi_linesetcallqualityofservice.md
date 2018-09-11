@@ -4,17 +4,16 @@ title: TSPI_lineSetCallQualityOfService function
 author: windows-sdk-content
 description: The TSPI_lineSetCallQualityOfService function service provider attempts to renegotiate the QOS on the call with the switch If the desired QOS is not available, then the function fails, but the call continues with the previous QOS.
 old-location: tspi\tspi_linesetcallqualityofservice.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: ebef3ee3-94e3-4aef-831d-5ce031882b5c
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineSetCallQualityOfService, TSPI_lineSetCallQualityOfService function [TAPI 2.2], _tspi_tspi_linesetcallqualityofservice, tspi.tspi_linesetcallqualityofservice, tspi/TSPI_lineSetCallQualityOfService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineSetCallQualityOfService
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineSetCallQualityOfService function

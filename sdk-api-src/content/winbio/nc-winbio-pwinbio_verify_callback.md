@@ -4,17 +4,16 @@ title: PWINBIO_VERIFY_CALLBACK
 author: windows-sdk-content
 description: Returns results from the asynchronous WinBioVerifyWithCallback function.
 old-location: secbiomet\pwinbio_verify_callback.htm
-old-project: secbiomet
+tech.root: SecBioMet
 ms.assetid: CD847827-D50F-41C2-81F7-B5ED316E7ABD
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: PWINBIO_VERIFY_CALLBACK, PWINBIO_VERIFY_CALLBACK callback, PWINBIO_VERIFY_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_verify_callback, winbio/PWINBIO_VERIFY_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PWINBIO_VERIFY_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PWINBIO_VERIFY_CALLBACK callback function

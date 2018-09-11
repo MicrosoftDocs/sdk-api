@@ -4,17 +4,16 @@ title: IMDSPStorage::GetSize
 author: windows-sdk-content
 description: The GetSize method retrieves the size of the storage object, in bytes.
 old-location: wmdm\imdspstorage_getsize.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 95b28f9a-744c-4d49-a91c-6652d688b91a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSize, GetSize method [windows Media Device Manager], GetSize method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],GetSize method, IMDSPStorage.GetSize, IMDSPStorage::GetSize, IMDSPStorageGetSize, mswmdm/IMDSPStorage::GetSize, wmdm.imdspstorage_getsize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPStorage.GetSize
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPStorage::GetSize

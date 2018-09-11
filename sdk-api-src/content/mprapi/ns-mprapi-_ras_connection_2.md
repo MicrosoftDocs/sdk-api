@@ -4,17 +4,16 @@ title: "_RAS_CONNECTION_2"
 author: windows-sdk-content
 description: The RAS_CONNECTION_2 structure contains information for a connection, including the Globally Unique Identifier (GUID) that identifies the connection.
 old-location: rras\ras_connection_2.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 5dcc20f0-7447-4256-9dde-18a4a3c95816
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRAS_CONNECTION_2, PRAS_CONNECTION_2, PRAS_CONNECTION_2 structure pointer [RAS], RAS_CONNECTION_2, RAS_CONNECTION_2 structure [RAS], _RAS_CONNECTION_2, _mpr_ras_connection_2, mprapi/PRAS_CONNECTION_2, mprapi/RAS_CONNECTION_2, rras.ras_connection_2"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_CONNECTION_2, *PRAS_CONNECTION_2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAS_CONNECTION_2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RAS_CONNECTION_2, *PRAS_CONNECTION_2
+req.redist: 
 ---
 
 # _RAS_CONNECTION_2 structure

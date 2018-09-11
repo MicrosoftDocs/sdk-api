@@ -4,17 +4,16 @@ title: IFsrmQuotaTemplateManager::ExportTemplates
 author: windows-sdk-content
 description: Exports the quota templates as an XML string.
 old-location: fsrm\ifsrmquotatemplatemanager_exporttemplates.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 36ba071b-4db2-42fb-90a8-838c45dfdd16
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: ExportTemplates, ExportTemplates method [File Server Resource Manager], ExportTemplates method [File Server Resource Manager],FsrmQuotaTemplateManager class, ExportTemplates method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, FsrmQuotaTemplateManager class [File Server Resource Manager],ExportTemplates method, IFsrmQuotaTemplateManager interface [File Server Resource Manager],ExportTemplates method, IFsrmQuotaTemplateManager.ExportTemplates, IFsrmQuotaTemplateManager::ExportTemplates, fs.ifsrmquotatemplatemanager_exporttemplates, fsrm.ifsrmquotatemplatemanager_exporttemplates, fsrmquota/IFsrmQuotaTemplateManager::ExportTemplates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmQuotaTemplateManager.ExportTemplates
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmQuotaTemplateManager::ExportTemplates

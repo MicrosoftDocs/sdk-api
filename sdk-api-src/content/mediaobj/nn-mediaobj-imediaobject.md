@@ -4,7 +4,7 @@ title: IMediaObject
 author: windows-sdk-content
 description: The IMediaObject interface provides methods for manipulating a Microsoft DirectX Media Object (DMO).
 old-location: dshow\imediaobject.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mediaobj.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaObject
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaObject interface

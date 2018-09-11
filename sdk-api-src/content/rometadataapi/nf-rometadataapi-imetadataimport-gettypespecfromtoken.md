@@ -4,17 +4,16 @@ title: IMetaDataImport::GetTypeSpecFromToken
 author: windows-sdk-content
 description: Gets the binary metadata signature of the type specification represented by the specified token.
 old-location: winrt\imetadataimport_gettypespecfromtoken.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: e03b6c5f-c68a-44a9-a203-8ed00293b582
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetTypeSpecFromToken, GetTypeSpecFromToken method [Windows Runtime], GetTypeSpecFromToken method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetTypeSpecFromToken method, IMetaDataImport.GetTypeSpecFromToken, IMetaDataImport::GetTypeSpecFromToken, rometadataapi/IMetaDataImport::GetTypeSpecFromToken, winrt.imetadataimport_gettypespecfromtoken
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.GetTypeSpecFromToken
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::GetTypeSpecFromToken

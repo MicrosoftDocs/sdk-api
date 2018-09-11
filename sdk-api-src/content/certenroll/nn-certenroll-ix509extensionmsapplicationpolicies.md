@@ -4,17 +4,16 @@ title: IX509ExtensionMSApplicationPolicies
 author: windows-sdk-content
 description: Enables you to specify a collection of object identifiers (OIDs) that indicate how a certificate can be used by an application.
 old-location: security\ix509extensionmsapplicationpolicies.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 35b6449e-5a82-4f47-bdda-5356f44bb1fd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509ExtensionMSApplicationPolicies, IX509ExtensionMSApplicationPolicies interface [Security], IX509ExtensionMSApplicationPolicies interface [Security],described, certenroll/IX509ExtensionMSApplicationPolicies, security.ix509extensionmsapplicationpolicies
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509ExtensionMSApplicationPolicies
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509ExtensionMSApplicationPolicies interface

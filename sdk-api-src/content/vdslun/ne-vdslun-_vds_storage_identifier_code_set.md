@@ -4,17 +4,16 @@ title: "_VDS_STORAGE_IDENTIFIER_CODE_SET"
 author: windows-sdk-content
 description: Defines the set of the valid code sets (encodings) of a storage identifier.
 old-location: base\vds_storage_identifier_code_set.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 6b4a3282-dc0c-4974-8c4c-777a28fb9005
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDSStorageIdCodeSetAscii, VDSStorageIdCodeSetBinary, VDSStorageIdCodeSetReserved, VDSStorageIdCodeSetUtf8, VDS_STORAGE_IDENTIFIER_CODE_SET, VDS_STORAGE_IDENTIFIER_CODE_SET enumeration [VDS], _VDS_STORAGE_IDENTIFIER_CODE_SET, base.vds_storage_identifier_code_set, vdslun/VDSStorageIdCodeSetAscii, vdslun/VDSStorageIdCodeSetBinary, vdslun/VDSStorageIdCodeSetReserved, vdslun/VDSStorageIdCodeSetUtf8, vdslun/VDS_STORAGE_IDENTIFIER_CODE_SET
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_STORAGE_IDENTIFIER_CODE_SET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_STORAGE_IDENTIFIER_CODE_SET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_STORAGE_IDENTIFIER_CODE_SET
+req.redist: 
 ---
 
 # _VDS_STORAGE_IDENTIFIER_CODE_SET enumeration

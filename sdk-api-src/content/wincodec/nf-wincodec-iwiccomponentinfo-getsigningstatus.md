@@ -4,17 +4,16 @@ title: IWICComponentInfo::GetSigningStatus
 author: windows-sdk-content
 description: Retrieves the signing status of the component.
 old-location: wic\_wic_codec_iwiccomponentinfo_getsigningstatus.htm
-old-project: wic
+tech.root: wic
 ms.assetid: a6d13240-3750-4450-8069-7e05dd89f2ab
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSigningStatus, GetSigningStatus method [Windows Imaging Component], GetSigningStatus method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetSigningStatus method, IWICComponentInfo.GetSigningStatus, IWICComponentInfo::GetSigningStatus, _wic_codec_iwiccomponentinfo_getsigningstatus, wic._wic_codec_iwiccomponentinfo_getsigningstatus, wincodec/IWICComponentInfo::GetSigningStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWICComponentInfo.GetSigningStatus
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICComponentInfo::GetSigningStatus

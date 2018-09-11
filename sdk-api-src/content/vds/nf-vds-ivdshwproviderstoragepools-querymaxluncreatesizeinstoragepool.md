@@ -4,17 +4,16 @@ title: IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool
 author: windows-sdk-content
 description: Returns the maximum size of the LUN that can be created in the storage pool based on the specified LUN type and hints.
 old-location: base\ivdshwproviderstoragepools_querymaxluncreatesizeinstoragepool.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 37a802e2-4573-4f47-bf54-b2197034722d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsHwProviderStoragePools interface,QueryMaxLunCreateSizeInStoragePool method, IVdsHwProviderStoragePools.QueryMaxLunCreateSizeInStoragePool, IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool, QueryMaxLunCreateSizeInStoragePool, QueryMaxLunCreateSizeInStoragePool method, QueryMaxLunCreateSizeInStoragePool method,IVdsHwProviderStoragePools interface, base.ivdshwproviderstoragepools_querymaxluncreatesizeinstoragepool, vds/IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool, vdshwprv/IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsHwProviderStoragePools.QueryMaxLunCreateSizeInStoragePool
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool

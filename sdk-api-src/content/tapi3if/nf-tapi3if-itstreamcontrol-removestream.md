@@ -4,17 +4,16 @@ title: ITStreamControl::RemoveStream
 author: windows-sdk-content
 description: The RemoveStream method removes a media stream.
 old-location: tapi3\itstreamcontrol_removestream.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: cd432d49-04f6-4f1f-a6a1-937658d615d6
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITStreamControl interface [TAPI 2.2],RemoveStream method, ITStreamControl.RemoveStream, ITStreamControl::RemoveStream, RemoveStream, RemoveStream method [TAPI 2.2], RemoveStream method [TAPI 2.2],ITStreamControl interface, _tapi3_itstreamcontrol_removestream, tapi3.itstreamcontrol_removestream, tapi3if/ITStreamControl::RemoveStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITStreamControl.RemoveStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITStreamControl::RemoveStream

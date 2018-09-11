@@ -4,17 +4,16 @@ title: CredReadDomainCredentialsA function
 author: windows-sdk-content
 description: Reads the domain credentials from the user's credential set.
 old-location: security\credreaddomaincredentials.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: b62cb9c9-2a64-4ef4-97f0-e1ea85976d3e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CredReadDomainCredentials, CredReadDomainCredentials function [Security], CredReadDomainCredentialsA, CredReadDomainCredentialsW, _cred_credreaddomaincredentials, security.credreaddomaincredentials, wincred/CredReadDomainCredentials, wincred/CredReadDomainCredentialsA, wincred/CredReadDomainCredentialsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - CredReadDomainCredentialsW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CredReadDomainCredentialsA function

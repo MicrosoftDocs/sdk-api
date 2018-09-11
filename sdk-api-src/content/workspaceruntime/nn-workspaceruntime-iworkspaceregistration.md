@@ -4,7 +4,7 @@ title: IWorkspaceRegistration
 author: windows-sdk-content
 description: Exposes methods that add and remove references to custom clients in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceregistration.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 29e7da7b-7da2-4000-8f3d-d12aa7e12fed
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: workspaceruntime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wksprt.exe
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWorkspaceRegistration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWorkspaceRegistration interface

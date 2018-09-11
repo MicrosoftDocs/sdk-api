@@ -4,17 +4,16 @@ title: tagAASHELLMENUITEM
 author: windows-sdk-content
 description: Contains information about a menu item.
 old-location: shell\AASHELLMENUITEM_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9d5ccbae-cc56-446f-be67-9623247d5045
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPAASHELLMENUITEM, AASHELLMENUITEM, AASHELLMENUITEM structure [Windows Shell], LPAASHELLMENUITEM, LPAASHELLMENUITEM structure pointer [Windows Shell], _win32_AASHELLMENUITEM_str, shell.AASHELLMENUITEM_str, shlobj/AASHELLMENUITEM, shlobj/LPAASHELLMENUITEM, tagAASHELLMENUITEM"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AASHELLMENUITEM, *LPAASHELLMENUITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AASHELLMENUITEM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: AASHELLMENUITEM, *LPAASHELLMENUITEM
+req.redist: 
 ---
 
 # tagAASHELLMENUITEM structure

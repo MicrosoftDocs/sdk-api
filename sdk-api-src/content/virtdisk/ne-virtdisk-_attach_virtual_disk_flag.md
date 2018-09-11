@@ -4,17 +4,16 @@ title: "_ATTACH_VIRTUAL_DISK_FLAG"
 author: windows-sdk-content
 description: Contains virtual disk attach request flags.
 old-location: vhd\attach_virtual_disk_flag.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 5792c2e2-0598-43ff-8c0f-5fb4a1a37656
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ATTACH_VIRTUAL_DISK_FLAG, ATTACH_VIRTUAL_DISK_FLAG enumeration [VHD], ATTACH_VIRTUAL_DISK_FLAG_NONE, ATTACH_VIRTUAL_DISK_FLAG_NO_DRIVE_LETTER, ATTACH_VIRTUAL_DISK_FLAG_NO_LOCAL_HOST, ATTACH_VIRTUAL_DISK_FLAG_PERMANENT_LIFETIME, ATTACH_VIRTUAL_DISK_FLAG_READ_ONLY, _ATTACH_VIRTUAL_DISK_FLAG, vdssys/ATTACH_VIRTUAL_DISK_FLAG, vdssys/ATTACH_VIRTUAL_DISK_FLAG_NONE, vdssys/ATTACH_VIRTUAL_DISK_FLAG_NO_DRIVE_LETTER, vdssys/ATTACH_VIRTUAL_DISK_FLAG_NO_LOCAL_HOST, vdssys/ATTACH_VIRTUAL_DISK_FLAG_PERMANENT_LIFETIME, vdssys/ATTACH_VIRTUAL_DISK_FLAG_READ_ONLY, vhd.attach_virtual_disk_flag, vhd.surface_virtual_disk_flag, virtdisk/ATTACH_VIRTUAL_DISK_FLAG, virtdisk/ATTACH_VIRTUAL_DISK_FLAG_NONE, virtdisk/ATTACH_VIRTUAL_DISK_FLAG_NO_DRIVE_LETTER, virtdisk/ATTACH_VIRTUAL_DISK_FLAG_NO_LOCAL_HOST, virtdisk/ATTACH_VIRTUAL_DISK_FLAG_PERMANENT_LIFETIME, virtdisk/ATTACH_VIRTUAL_DISK_FLAG_READ_ONLY
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ATTACH_VIRTUAL_DISK_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ATTACH_VIRTUAL_DISK_FLAG
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: ATTACH_VIRTUAL_DISK_FLAG
+req.redist: 
 ---
 
 # _ATTACH_VIRTUAL_DISK_FLAG enumeration

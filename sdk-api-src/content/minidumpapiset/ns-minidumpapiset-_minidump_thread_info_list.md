@@ -4,17 +4,16 @@ title: "_MINIDUMP_THREAD_INFO_LIST"
 author: windows-sdk-content
 description: Contains a list of threads.
 old-location: base\minidump_thread_info_list_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: ee02a8fa-c81d-4b23-b8a2-6ff31cdaf3de
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PMINIDUMP_THREAD_INFO_LIST, MINIDUMP_THREAD_INFO_LIST, MINIDUMP_THREAD_INFO_LIST structure, PMINIDUMP_THREAD_INFO_LIST, PMINIDUMP_THREAD_INFO_LIST structure pointer, _MINIDUMP_THREAD_INFO_LIST, base.minidump_thread_info_list_str, minidumpapiset/MINIDUMP_THREAD_INFO_LIST, minidumpapiset/PMINIDUMP_THREAD_INFO_LIST"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 6.3 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_THREAD_INFO_LIST, *PMINIDUMP_THREAD_INFO_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_THREAD_INFO_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_THREAD_INFO_LIST, *PMINIDUMP_THREAD_INFO_LIST
+req.redist: DbgHelp.dll 6.3 or later
 ---
 
 # _MINIDUMP_THREAD_INFO_LIST structure

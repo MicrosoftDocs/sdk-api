@@ -4,17 +4,16 @@ title: IFrequencyMap::get_FrequencyMapping
 author: windows-sdk-content
 description: The get_FrequencyMapping method returns the Network Provider filter's current frequency table.
 old-location: mstv\ifrequencymap_get_frequencymapping.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 51fe636f-febe-4306-9c9a-7031a85440c6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],get_FrequencyMapping method, IFrequencyMap.get_FrequencyMapping, IFrequencyMap::get_FrequencyMapping, IFrequencyMapget_FrequencyMapping, bdaiface/IFrequencyMap::get_FrequencyMapping, get_FrequencyMapping, get_FrequencyMapping method [Microsoft TV Technologies], get_FrequencyMapping method [Microsoft TV Technologies],IFrequencyMap interface, mstv.ifrequencymap_get_frequencymapping
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IFrequencyMap.get_FrequencyMapping
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IFrequencyMap::get_FrequencyMapping
@@ -64,7 +63,7 @@ The <b>get_FrequencyMapping</b> method returns the Network Provider filter's cur
 
 ### -param ulCount
 
-
+TBD
 
 
 ### -param ppulList [out]

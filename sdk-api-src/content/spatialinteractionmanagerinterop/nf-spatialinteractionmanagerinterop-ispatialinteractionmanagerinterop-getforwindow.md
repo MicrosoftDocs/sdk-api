@@ -4,17 +4,16 @@ title: ISpatialInteractionManagerInterop::GetForWindow
 author: windows-sdk-content
 description: Retrieves a SpatialInteractionManager object bound to the active application.
 old-location: mixedreality\ispatialinteractionmanager_getforwindow.htm
-old-project: MixedReality
+tech.root: MixedReality
 ms.assetid: 5D11BF4D-2EE3-40A3-A1EE-202DD5B904FE
 ms.author: windowssdkdev
 ms.date: 06/12/2018
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,ISpatialInteractionManagerInterop interface, ISpatialInteractionManagerInterop interface,GetForWindow method, ISpatialInteractionManagerInterop.GetForWindow, ISpatialInteractionManagerInterop::GetForWindow, MixedReality.ispatialinteractionmanager_getforwindow, spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop::GetForWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialinteractionmanagerinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioObjectRenderStreamForMetadataActivationParams
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialInteractionManagerInterop.GetForWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialInteractionManagerInterop::GetForWindow
@@ -76,7 +74,7 @@ The GUID of the <a href="https://docs.microsoft.com/uwp/api/Windows.UI.Input.Spa
 
 ### -param spatialInteractionManager
 
-
+TBD
 
 
 

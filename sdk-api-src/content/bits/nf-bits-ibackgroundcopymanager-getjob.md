@@ -4,17 +4,16 @@ title: IBackgroundCopyManager::GetJob
 author: windows-sdk-content
 description: Retrieves a specified job from the transfer queue. Typically, your application persists the job identifier, so you can later retrieve the job from the queue.
 old-location: bits\ibackgroundcopymanager_getjob.htm
-old-project: bits
+tech.root: bits
 ms.assetid: dbb7cae6-7e9c-4ac5-8f02-372acaa4fb4d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetJob, GetJob method [BITS], GetJob method [BITS],IBackgroundCopyManager interface, IBackgroundCopyManager interface [BITS],GetJob method, IBackgroundCopyManager.GetJob, IBackgroundCopyManager::GetJob, _drz_ibackgroundcopymanager_getjob, bits.ibackgroundcopymanager_getjob, bits/IBackgroundCopyManager::GetJob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyManager.GetJob
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyManager::GetJob
@@ -61,7 +60,7 @@ Retrieves a specified job from the transfer queue. Typically, your application p
 
 ### -param jobID
 
-
+TBD
 
 
 ### -param ppJob [out]

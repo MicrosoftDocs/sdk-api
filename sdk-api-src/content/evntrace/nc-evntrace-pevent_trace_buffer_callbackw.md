@@ -4,7 +4,7 @@ title: PEVENT_TRACE_BUFFER_CALLBACKW
 author: windows-sdk-content
 description: Consumers implement this function to receive statistics about each buffer of events that ETW delivers to an event trace consumer.
 old-location: etw\buffercallback.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 0cfe2f62-63dc-45a6-96ce-fb4bf458358f
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_FILTER_LEVEL_KW, *PEVENT_FILTER_LEVEL_KW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BufferCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PEVENT_TRACE_BUFFER_CALLBACKW callback function

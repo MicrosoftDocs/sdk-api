@@ -4,17 +4,16 @@ title: IDWriteTextRenderer1
 author: windows-sdk-content
 description: Represents a set of application-defined callbacks that perform rendering of text, inline objects, and decorations such as underlines.
 old-location: directwrite\idwritetextrenderer1.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: A8C39C54-AF98-4A27-9BCF-9C132F4CD3B1
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteTextRenderer1, IDWriteTextRenderer1 interface [Direct Write], IDWriteTextRenderer1 interface [Direct Write],described, directwrite.idwritetextrenderer1, dwrite_2/IDWriteTextRenderer1
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dwrite_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextRenderer1
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextRenderer1 interface

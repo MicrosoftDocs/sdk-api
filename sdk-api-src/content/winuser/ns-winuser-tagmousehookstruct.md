@@ -4,17 +4,16 @@ title: tagMOUSEHOOKSTRUCT
 author: windows-sdk-content
 description: Contains information about a mouse event passed to a WH_MOUSE hook procedure, MouseProc.
 old-location: winmsg\mousehookstruct.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\mousehookstruct.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPMOUSEHOOKSTRUCT, *PMOUSEHOOKSTRUCT, LPMOUSEHOOKSTRUCT, LPMOUSEHOOKSTRUCT structure pointer [Windows and Messages], MOUSEHOOKSTRUCT, MOUSEHOOKSTRUCT structure [Windows and Messages], PMOUSEHOOKSTRUCT, PMOUSEHOOKSTRUCT structure pointer [Windows and Messages], _win32_MOUSEHOOKSTRUCT_str, _win32_mousehookstruct_str_cpp, tagMOUSEHOOKSTRUCT, winmsg.mousehookstruct, winui._win32_mousehookstruct_str, winuser/LPMOUSEHOOKSTRUCT, winuser/MOUSEHOOKSTRUCT, winuser/PMOUSEHOOKSTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MOUSEHOOKSTRUCT, *LPMOUSEHOOKSTRUCT, *PMOUSEHOOKSTRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MOUSEHOOKSTRUCT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: MOUSEHOOKSTRUCT, *LPMOUSEHOOKSTRUCT, *PMOUSEHOOKSTRUCT
+req.redist: 
 ---
 
 # tagMOUSEHOOKSTRUCT structure

@@ -4,17 +4,16 @@ title: IVssSoftwareSnapshotProvider
 author: windows-sdk-content
 description: Contains the methods used by VSS to manage shadow copy volumes. All software providers must support this interface.
 old-location: base\ivsssoftwaresnapshotprovider.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 5c95f2fb-c132-489c-af48-2ffafad0b41f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssSoftwareSnapshotProvider, IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,described, base.ivsssoftwaresnapshotprovider, vsprov/IVssSoftwareSnapshotProvider
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssSoftwareSnapshotProvider
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssSoftwareSnapshotProvider interface

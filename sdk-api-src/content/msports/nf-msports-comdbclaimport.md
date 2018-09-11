@@ -4,17 +4,16 @@ title: ComDBClaimPort function
 author: windows-sdk-content
 description: ComDBClaimPort logs an unused COM port number as &#0034;in use&#0034; in the COM port database.
 old-location: serports\comdbclaimport.htm
-old-project: serports
+tech.root: serports
 ms.assetid: d0baa783-1039-41a4-8bb1-78c977ed62b6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ComDBClaimPort, ComDBClaimPort function [Serial Ports], comdb_e636ae45-1105-4322-9429-f8bf24333432.xml, msports/ComDBClaimPort, serports.comdbclaimport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msports.h
 req.include-header: Msports.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.lib: Msports.lib
+req.dll: Msports.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ComDBClaimPort
 product: Windows
 targetos: Windows
-req.lib: Msports.lib
-req.dll: Msports.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ComDBClaimPort function

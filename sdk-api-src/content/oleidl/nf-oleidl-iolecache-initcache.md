@@ -4,17 +4,16 @@ title: IOleCache::InitCache
 author: windows-sdk-content
 description: Fills the cache as needed using the data provided by the specified data object.
 old-location: com\iolecache_initcache.htm
-old-project: com
+tech.root: com
 ms.assetid: 4b1f2fb6-636c-47dd-8f89-884f7b4f3977
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleCache interface [COM],InitCache method, IOleCache.InitCache, IOleCache::InitCache, InitCache, InitCache method [COM], InitCache method [COM],IOleCache interface, _ole_iolecache_initcache, com.iolecache_initcache, oleidl/IOleCache::InitCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleCache.InitCache
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleCache::InitCache

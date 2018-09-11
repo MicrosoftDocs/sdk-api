@@ -4,17 +4,16 @@ title: ITypeInfo2::GetParamCustData
 author: windows-sdk-content
 description: Gets the custom data of the specified parameter.
 old-location: automat\itypeinfo2_getparamcustdata.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 9342c364-58bb-47fa-b2c0-aae7df1ccdb5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetParamCustData, GetParamCustData method [Automation], GetParamCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetParamCustData method, ITypeInfo2.GetParamCustData, ITypeInfo2::GetParamCustData, _oa96_ITypeInfo2_GetParamCustData, automat.itypeinfo2_getparamcustdata, oaidl/ITypeInfo2::GetParamCustData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo2.GetParamCustData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo2::GetParamCustData

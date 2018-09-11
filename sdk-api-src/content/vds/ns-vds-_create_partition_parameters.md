@@ -4,17 +4,16 @@ title: "_CREATE_PARTITION_PARAMETERS"
 author: windows-sdk-content
 description: Defines the partition parameters of a partition style.
 old-location: base\create_partition_parameters.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 7c0311df-0995-4100-babb-481fa3f7dd71
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CREATE_PARTITION_PARAMETERS, CREATE_PARTITION_PARAMETERS structure [VDS], GPT_ATTRIBUTE_PLATFORM_REQUIRED, GPT_BASIC_DATA_ATTRIBUTE_HIDDEN, GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER, GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY, GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY, PARTITION_BASIC_DATA_GUID, PARTITION_ENTRY_UNUSED, PARTITION_ENTRY_UNUSED_GUID, PARTITION_EXTENDED, PARTITION_FAT32, PARTITION_FAT32_XINT13, PARTITION_FAT_12, PARTITION_FAT_16, PARTITION_HUGE, PARTITION_IFS, PARTITION_LDM, PARTITION_LDM_DATA_GUID, PARTITION_LDM_METADATA_GUID, PARTITION_MSFT_RECOVERY_GUID, PARTITION_MSFT_RESERVED_GUID, PARTITION_NTFT, PARTITION_OS2BOOTMGR, PARTITION_PREP, PARTITION_SYSTEM_GUID, PARTITION_UNIX, PARTITION_XENIX_1, PARTITION_XENIX_2, PARTITION_XINT13, PARTITION_XINT13_EXTENDED, _CREATE_PARTITION_PARAMETERS, base.create_partition_parameters, vds/CREATE_PARTITION_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREATE_PARTITION_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CREATE_PARTITION_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: CREATE_PARTITION_PARAMETERS
+req.redist: 
 ---
 
 # _CREATE_PARTITION_PARAMETERS structure

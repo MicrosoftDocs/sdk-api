@@ -4,7 +4,7 @@ title: IPhotoProgressDialog
 author: windows-sdk-content
 description: Provides the progress dialog box that may be displayed when enumerating or importing images. The dialog box is modal and runs in its own thread.
 old-location: picacq\iphotoprogressdialog.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: a3928874-5a15-43d9-9d9c-8b66478b0597
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPhotoProgressDialog
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoProgressDialog interface

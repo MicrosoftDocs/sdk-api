@@ -4,17 +4,16 @@ title: MFCreateVideoMediaType function
 author: windows-sdk-content
 description: Creates a video media type from an MFVIDEOFORMAT structure.
 old-location: mf\mfcreatevideomediatype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 143aedec-d1ce-434a-8a1c-62a2c9d55e88
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 143aedec-d1ce-434a-8a1c-62a2c9d55e88, MFCreateVideoMediaType, MFCreateVideoMediaType function [Media Foundation], mf.mfcreatevideomediatype, mfapi/MFCreateVideoMediaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Evr.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateVideoMediaType
 product: Windows
 targetos: Windows
-req.lib: Evr.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateVideoMediaType function

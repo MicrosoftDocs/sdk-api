@@ -4,17 +4,16 @@ title: ICallFrameEvents
 author: windows-sdk-content
 description: Delivers method call notifications.
 old-location: com\icallframeevents.htm
-old-project: com
+tech.root: com
 ms.assetid: 2f1e1b8d-6150-45e9-89e2-524d80df558d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICallFrameEvents, ICallFrameEvents interface [COM], ICallFrameEvents interface [COM],described, _com_icallframeevents_interface, callobj/ICallFrameEvents, com.icallframeevents
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICallFrameEvents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICallFrameEvents interface

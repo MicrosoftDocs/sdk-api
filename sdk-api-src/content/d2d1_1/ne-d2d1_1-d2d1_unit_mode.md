@@ -4,7 +4,7 @@ title: D2D1_UNIT_MODE
 author: windows-sdk-content
 description: Specifies how units in Direct2D will be interpreted.
 old-location: direct2d\__d2d1_unit_mode.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 1ba11761-f3e9-4996-8494-384db5bddc99
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_UNIT_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_UNIT_MODE
+req.redist: 
 ---
 
 # D2D1_UNIT_MODE enumeration

@@ -4,17 +4,16 @@ title: IDWriteTextRenderer1::DrawStrikethrough
 author: windows-sdk-content
 description: IDWriteTextLayout::Draw calls this function to instruct the client to draw a strikethrough.
 old-location: directwrite\idwritetextrenderer1_drawstrikethrough.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 8800a536-9477-89c5-c48d-3f4bdf1ca1a5
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DrawStrikethrough, DrawStrikethrough method [Direct Write], DrawStrikethrough method [Direct Write],IDWriteTextRenderer1 interface, IDWriteTextRenderer1 interface [Direct Write],DrawStrikethrough method, IDWriteTextRenderer1.DrawStrikethrough, IDWriteTextRenderer1::DrawStrikethrough, directwrite.idwritetextrenderer1_drawstrikethrough, dwrite_2/IDWriteTextRenderer1::DrawStrikethrough
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextRenderer1.DrawStrikethrough
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextRenderer1::DrawStrikethrough

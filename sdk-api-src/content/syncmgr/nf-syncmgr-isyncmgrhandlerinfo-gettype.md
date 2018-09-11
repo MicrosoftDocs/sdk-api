@@ -4,17 +4,16 @@ title: ISyncMgrHandlerInfo::GetType
 author: windows-sdk-content
 description: Gets the handler type for Sync Center.
 old-location: shell\ISyncMgrHandlerInfo_GetType.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 466c5bd5-0166-4c0d-801d-a155f20140ce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetType, GetType method [Windows Shell], GetType method [Windows Shell],ISyncMgrHandlerInfo interface, ISyncMgrHandlerInfo interface [Windows Shell],GetType method, ISyncMgrHandlerInfo.GetType, ISyncMgrHandlerInfo::GetType, _shell_ISyncMgrHandlerInfo_GetType, shell.ISyncMgrHandlerInfo_GetType, syncmgr/ISyncMgrHandlerInfo::GetType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrHandlerInfo.GetType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrHandlerInfo::GetType

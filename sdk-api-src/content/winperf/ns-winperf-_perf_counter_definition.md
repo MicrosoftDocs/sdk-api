@@ -4,7 +4,7 @@ title: "_PERF_COUNTER_DEFINITION"
 author: windows-sdk-content
 description: Describes a performance counter.
 old-location: perf\perf_counter_definition_str.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: faef043b-81e0-49b0-913f-d691bafd17e6
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winperf.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_COUNTER_DEFINITION, *PPERF_COUNTER_DEFINITION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERF_COUNTER_DEFINITION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: PERF_COUNTER_DEFINITION, *PPERF_COUNTER_DEFINITION
+req.redist: 
 ---
 
 # _PERF_COUNTER_DEFINITION structure

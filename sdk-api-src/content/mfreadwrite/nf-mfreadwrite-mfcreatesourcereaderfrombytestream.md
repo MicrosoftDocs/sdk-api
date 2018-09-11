@@ -4,17 +4,16 @@ title: MFCreateSourceReaderFromByteStream function
 author: windows-sdk-content
 description: Creates the source reader from a byte stream.
 old-location: mf\mfcreatesourcereaderfrombytestream.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e167159d-902c-4c34-b5f0-eb764fe2de1c
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateSourceReaderFromByteStream, MFCreateSourceReaderFromByteStream function [Media Foundation], mf.mfcreatesourcereaderfrombytestream, mfreadwrite/MFCreateSourceReaderFromByteStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfreadwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update Supplement for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_SOURCE_READER_FLAG
+req.lib: Mfreadwrite.lib
+req.dll: Mfreadwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateSourceReaderFromByteStream
 product: Windows
 targetos: Windows
-req.lib: Mfreadwrite.lib
-req.dll: Mfreadwrite.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateSourceReaderFromByteStream function

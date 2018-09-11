@@ -4,17 +4,16 @@ title: IX509CertificateRequestCertificate2
 author: windows-sdk-content
 description: The IX509CertificateRequestCertificate2 interface represents a request object for a self-generated certificate, enabling you to create a certificate directly without going through a registration or certification authority.
 old-location: security\ix509certificaterequestcertificate2.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 4f4b5c95-3213-4ccb-9bdd-05cb221f54bd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestCertificate2, IX509CertificateRequestCertificate2 interface [Security], IX509CertificateRequestCertificate2 interface [Security],described, certenroll/IX509CertificateRequestCertificate2, security.ix509certificaterequestcertificate2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: CertEnroll.dll
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509CertificateRequestCertificate2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestCertificate2 interface

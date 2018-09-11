@@ -4,17 +4,16 @@ title: INameSpaceTreeControlCustomDraw::ItemPrePaint
 author: windows-sdk-content
 description: Called before an item in the namespace tree control is drawn.
 old-location: shell\INameSpaceTreeControlCustomDraw_ItemPrePaint.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0245ecfd-2617-481a-9d34-8fc4eb0ea012
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControlCustomDraw interface [Windows Shell],ItemPrePaint method, INameSpaceTreeControlCustomDraw.ItemPrePaint, INameSpaceTreeControlCustomDraw::ItemPrePaint, ItemPrePaint, ItemPrePaint method [Windows Shell], ItemPrePaint method [Windows Shell],INameSpaceTreeControlCustomDraw interface, _shell_INameSpaceTreeControlCustomDraw_ItemPrePaint, shell.INameSpaceTreeControlCustomDraw_ItemPrePaint, shobjidl/INameSpaceTreeControlCustomDraw::ItemPrePaint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControlCustomDraw.ItemPrePaint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControlCustomDraw::ItemPrePaint

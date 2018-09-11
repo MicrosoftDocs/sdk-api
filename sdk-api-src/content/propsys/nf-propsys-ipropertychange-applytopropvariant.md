@@ -4,17 +4,16 @@ title: IPropertyChange::ApplyToPropVariant
 author: windows-sdk-content
 description: Applies a change to a property value.
 old-location: properties\IPropertyChange_ApplyToPropVariant.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 7d7b6de5-0ed9-44fc-b2b3-c0f4cd8bf9c5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ApplyToPropVariant, ApplyToPropVariant method [Windows Properties], ApplyToPropVariant method [Windows Properties],IPropertyChange interface, IPropertyChange interface [Windows Properties],ApplyToPropVariant method, IPropertyChange.ApplyToPropVariant, IPropertyChange::ApplyToPropVariant, _shell_IPropertyChange_ApplyToPropVariant, properties.IPropertyChange_ApplyToPropVariant, propsys/IPropertyChange::ApplyToPropVariant, shell.IPropertyChange_ApplyToPropVariant
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyChange.ApplyToPropVariant
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyChange::ApplyToPropVariant

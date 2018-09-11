@@ -4,7 +4,7 @@ title: CF_POPULATION_POLICY_MODIFIER
 author: windows-sdk-content
 description: Defines the population policy modifiers. This is a modifier that can be used with the primary policy:\_CF_POPULATION_POLICY_PRIMARY.
 old-location: cloudapi\cf_population_policy_modifier.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: E8F8066C-BAAE-4576-BA8F-49074F7C3C8F
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_POPULATION_POLICY_MODIFIER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_POPULATION_POLICY_MODIFIER
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: CF_POPULATION_POLICY_MODIFIER
+req.redist: 
 ---
 
 # CF_POPULATION_POLICY_MODIFIER enumeration

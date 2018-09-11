@@ -4,7 +4,7 @@ title: "_MMC_RESTORE_VIEW"
 author: windows-sdk-content
 description: The MMC_RESTORE_VIEW structure is introduced in MMC 1.1.
 old-location: mmc\mmc_restore_view.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 349357e5-5d60-491f-b267-b18a52b4c927
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_RESTORE_VIEW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMC_RESTORE_VIEW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MMC_RESTORE_VIEW
+req.redist: 
 ---
 
 # _MMC_RESTORE_VIEW structure

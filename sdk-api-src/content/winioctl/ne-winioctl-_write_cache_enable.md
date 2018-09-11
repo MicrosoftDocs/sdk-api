@@ -4,7 +4,7 @@ title: "_WRITE_CACHE_ENABLE"
 author: windows-sdk-content
 description: Indicates whether the write cache is enabled or disabled.
 old-location: fs\write_cache_enable.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 3ed8bc79-d8f9-4a57-a37c-46202d639a63
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winioctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRITE_CACHE_ENABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WRITE_CACHE_ENABLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WRITE_CACHE_ENABLE
+req.redist: 
 ---
 
 # _WRITE_CACHE_ENABLE enumeration

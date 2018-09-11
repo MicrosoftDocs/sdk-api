@@ -4,17 +4,16 @@ title: "_MSV1_0_SUPPLEMENTAL_CREDENTIAL"
 author: windows-sdk-content
 description: The MSV1_0_SUPPLEMENTAL_CREDENTIAL structure is used to pass credentials into MSV1_0 from Kerberos or custom authentication package.
 old-location: security\msv1_0_supplemental_credential.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 63848b26-b611-4ae6-8bc3-fc124a825d3d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMSV1_0_SUPPLEMENTAL_CREDENTIAL, MSV1_0_CRED_LM_PRESENT, MSV1_0_CRED_NT_PRESENT, MSV1_0_CRED_VERSION, MSV1_0_SUPPLEMENTAL_CREDENTIAL, MSV1_0_SUPPLEMENTAL_CREDENTIAL structure [Security], PMSV1_0_SUPPLEMENTAL_CREDENTIAL, PMSV1_0_SUPPLEMENTAL_CREDENTIAL structure pointer [Security], _MSV1_0_SUPPLEMENTAL_CREDENTIAL, _lsa_msv1_0_supplemental_credential, ntsecapi/MSV1_0_SUPPLEMENTAL_CREDENTIAL, ntsecapi/PMSV1_0_SUPPLEMENTAL_CREDENTIAL, security.msv1_0_supplemental_credential"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSV1_0_SUPPLEMENTAL_CREDENTIAL, *PMSV1_0_SUPPLEMENTAL_CREDENTIAL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MSV1_0_SUPPLEMENTAL_CREDENTIAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: MSV1_0_SUPPLEMENTAL_CREDENTIAL, *PMSV1_0_SUPPLEMENTAL_CREDENTIAL
+req.redist: 
 ---
 
 # _MSV1_0_SUPPLEMENTAL_CREDENTIAL structure

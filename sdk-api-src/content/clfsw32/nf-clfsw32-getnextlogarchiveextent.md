@@ -4,17 +4,16 @@ title: GetNextLogArchiveExtent function
 author: windows-sdk-content
 description: Retrieves the next set of archive extents in a log archive context.
 old-location: fs\getnextlogarchiveextent.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 4aaf10bd-e9df-435b-a756-5ae5c1eb2903
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: GetNextLogArchiveExtent, GetNextLogArchiveExtent function [Files], clfsw32/GetNextLogArchiveExtent, fs.getnextlogarchiveextent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GetNextLogArchiveExtent
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetNextLogArchiveExtent function

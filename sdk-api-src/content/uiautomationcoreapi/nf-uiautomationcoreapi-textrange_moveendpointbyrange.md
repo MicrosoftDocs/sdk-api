@@ -4,17 +4,16 @@ title: TextRange_MoveEndpointByRange function
 author: windows-sdk-content
 description: Moves an endpoint of one range to the endpoint of another range.
 old-location: winauto\uiauto_TextRange_MoveEndpointByRangeConPat.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: ec26280d-76f2-447b-9547-0484c5140e89
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TextRange_MoveEndpointByRange, TextRange_MoveEndpointByRange function [Windows Accessibility], uiauto.uiauto_TextRange_MoveEndpointByRangeConPat, uiauto_TextRange_MoveEndpointByRangeConPat, uiautomationcoreapi/TextRange_MoveEndpointByRange, winauto.uiauto_TextRange_MoveEndpointByRangeConPat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TextRange_MoveEndpointByRange
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TextRange_MoveEndpointByRange function

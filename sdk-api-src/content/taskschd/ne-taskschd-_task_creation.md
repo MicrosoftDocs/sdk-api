@@ -4,17 +4,16 @@ title: "_TASK_CREATION"
 author: windows-sdk-content
 description: Defines how the Task Scheduler service creates, updates, or disables the task.
 old-location: taskschd\taskcreation.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: e8da4d76-25c8-4209-a75b-c77217c366d4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TASK_CREATE, TASK_CREATE_OR_UPDATE, TASK_CREATION, TASK_CREATION enumeration [Task Scheduler], TASK_DISABLE, TASK_DONT_ADD_PRINCIPAL_ACE, TASK_IGNORE_REGISTRATION_TRIGGERS, TASK_UPDATE, TASK_VALIDATE_ONLY, _TASK_CREATION, taskschd.taskcreation, taskschd/TASK_CREATE, taskschd/TASK_CREATE_OR_UPDATE, taskschd/TASK_CREATION, taskschd/TASK_DISABLE, taskschd/TASK_DONT_ADD_PRINCIPAL_ACE, taskschd/TASK_IGNORE_REGISTRATION_TRIGGERS, taskschd/TASK_UPDATE, taskschd/TASK_VALIDATE_ONLY
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_CREATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TASK_CREATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TASK_CREATION
+req.redist: 
 ---
 
 # _TASK_CREATION enumeration

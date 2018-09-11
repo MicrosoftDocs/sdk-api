@@ -4,17 +4,16 @@ title: "_CRYPT_XML_KEY_VALUE"
 author: windows-sdk-content
 description: Contains a single public key that may be useful in validating the signature.
 old-location: security\crypt_xml_key_value.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 7aadd268-41bc-4ba3-babb-2ca7b13f378b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_XML_KEY_VALUE, CRYPT_XML_KEY_VALUE structure [Security], CRYPT_XML_KEY_VALUE_TYPE_CUSTOM, CRYPT_XML_KEY_VALUE_TYPE_DSA, CRYPT_XML_KEY_VALUE_TYPE_ECDSA, CRYPT_XML_KEY_VALUE_TYPE_RSA, _CRYPT_XML_KEY_VALUE, cryptxml/CRYPT_XML_KEY_VALUE, security.crypt_xml_key_value
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_KEY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_KEY_VALUE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_KEY_VALUE
+req.redist: 
 ---
 
 # _CRYPT_XML_KEY_VALUE structure

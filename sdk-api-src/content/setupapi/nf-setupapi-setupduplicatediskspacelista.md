@@ -4,17 +4,16 @@ title: SetupDuplicateDiskSpaceListA function
 author: windows-sdk-content
 description: The SetupDuplicateDiskSpaceList function duplicates a disk-space list as a new independent disk-space list.
 old-location: setup\setupduplicatediskspacelist.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 92d18c15-e8e2-4e89-8d2f-7c87c948603f
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupDuplicateDiskSpaceList, SetupDuplicateDiskSpaceList function [Setup API], SetupDuplicateDiskSpaceListA, SetupDuplicateDiskSpaceListW, setup.setupduplicatediskspacelist, setupapi/SetupDuplicateDiskSpaceList, setupapi/SetupDuplicateDiskSpaceListA, setupapi/SetupDuplicateDiskSpaceListW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupDuplicateDiskSpaceListW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDuplicateDiskSpaceListA function

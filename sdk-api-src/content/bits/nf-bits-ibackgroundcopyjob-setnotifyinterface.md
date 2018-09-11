@@ -4,17 +4,16 @@ title: IBackgroundCopyJob::SetNotifyInterface
 author: windows-sdk-content
 description: Identifies your implementation of the IBackgroundCopyCallback interface to BITS. Use the IBackgroundCopyCallback interface to receive notification of job-related events.
 old-location: bits\ibackgroundcopyjob_setnotifyinterface.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 34d51546-ec27-471f-9da5-3bec7ed4e1ea
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetNotifyInterface method, IBackgroundCopyJob.SetNotifyInterface, IBackgroundCopyJob::SetNotifyInterface, SetNotifyInterface, SetNotifyInterface method [BITS], SetNotifyInterface method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setnotifyinterface, bits.ibackgroundcopyjob_setnotifyinterface, bits/IBackgroundCopyJob::SetNotifyInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob.SetNotifyInterface
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob::SetNotifyInterface
@@ -63,7 +62,7 @@ Identifies your implementation of the
 
 ### -param Val
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IBackgroundCopyGroup::ResumeGroup
 author: windows-sdk-content
 description: Use the ResumeGroup method to start a group that has been suspended in the download queue.
 old-location: bits\ibackgroundcopygroup_resumegroup.htm
-old-project: bits
+tech.root: bits
 ms.assetid: a9b0b7df-9149-4d09-a37c-c0a4f5dc6e45
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],ResumeGroup method, IBackgroundCopyGroup.ResumeGroup, IBackgroundCopyGroup::ResumeGroup, ResumeGroup, ResumeGroup method [BITS], ResumeGroup method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_resumegroup, qmgr/IBackgroundCopyGroup::ResumeGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyGroup.ResumeGroup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyGroup::ResumeGroup

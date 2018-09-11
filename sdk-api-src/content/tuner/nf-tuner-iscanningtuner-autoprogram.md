@@ -4,17 +4,16 @@ title: IScanningTuner::AutoProgram
 author: windows-sdk-content
 description: The AutoProgram method scans for all channels with valid programming.
 old-location: mstv\iscanningtuner_autoprogram.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 98d1b484-13e7-4eeb-9e0c-a1215712bdc8
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: AutoProgram, AutoProgram method [Microsoft TV Technologies], AutoProgram method [Microsoft TV Technologies],IScanningTuner interface, IScanningTuner interface [Microsoft TV Technologies],AutoProgram method, IScanningTuner.AutoProgram, IScanningTuner::AutoProgram, IScanningTunerAutoProgram, mstv.iscanningtuner_autoprogram, tuner/IScanningTuner::AutoProgram
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IScanningTuner.AutoProgram
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IScanningTuner::AutoProgram

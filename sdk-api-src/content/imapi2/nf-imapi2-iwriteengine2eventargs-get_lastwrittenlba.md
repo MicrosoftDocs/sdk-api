@@ -4,17 +4,16 @@ title: IWriteEngine2EventArgs::get_LastWrittenLba
 author: windows-sdk-content
 description: Retrieves the address of the sector most recently written to the device.
 old-location: imapi\iwriteengine2eventargs_get_lastwrittenlba.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: ccb964b5-dd6f-4250-b6d2-41154258872f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_LastWrittenLba method, IWriteEngine2EventArgs.get_LastWrittenLba, IWriteEngine2EventArgs::get_LastWrittenLba, get_LastWrittenLba, get_LastWrittenLba method [IMAPI], get_LastWrittenLba method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_lastwrittenlba, imapi2/IWriteEngine2EventArgs::get_LastWrittenLba
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWriteEngine2EventArgs.get_LastWrittenLba
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IWriteEngine2EventArgs::get_LastWrittenLba

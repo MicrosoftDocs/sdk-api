@@ -4,17 +4,16 @@ title: ITfFunctionProvider::GetType
 author: windows-sdk-content
 description: ITfFunctionProvider::GetType method
 old-location: tsf\itffunctionprovider_gettype.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: fff9ad62-f777-423c-a59d-ebd7d99da6a9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetType, GetType method [Text Services Framework], GetType method [Text Services Framework],ITfFunctionProvider interface, ITfFunctionProvider interface [Text Services Framework],GetType method, ITfFunctionProvider.GetType, ITfFunctionProvider::GetType, _tsf_itffunctionprovider_gettype_ref, msctf/ITfFunctionProvider::GetType, tsf.itffunctionprovider_gettype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfFunctionProvider.GetType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfFunctionProvider::GetType

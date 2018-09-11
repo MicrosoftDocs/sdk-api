@@ -4,17 +4,16 @@ title: VariantToUInt32 function
 author: windows-sdk-content
 description: Extracts unsigned Int32 property value of a variant structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\VariantToUInt32.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 24421477-8930-4c8f-8fee-5d8367123c7e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VariantToUInt32, VariantToUInt32 function [Windows Properties], _shell_VariantToUInt32, properties.VariantToUInt32, propvarutil/VariantToUInt32, shell.VariantToUInt32
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VariantToUInt32
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # VariantToUInt32 function

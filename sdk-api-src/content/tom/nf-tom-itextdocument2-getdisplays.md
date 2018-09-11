@@ -4,17 +4,16 @@ title: ITextDocument2::GetDisplays
 author: windows-sdk-content
 description: Gets the displays collection for this Text Object Model (TOM) engine instance.
 old-location: controls\itextdocument2_getdisplays.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 8f610b45-9c17-4b20-82e0-fa78169360cc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDisplays, GetDisplays method [Windows Controls], GetDisplays method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetDisplays method, ITextDocument2.GetDisplays, ITextDocument2::GetDisplays, controls.itextdocument2_getdisplays, tom/ITextDocument2::GetDisplays
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextDocument2.GetDisplays
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextDocument2::GetDisplays

@@ -4,17 +4,16 @@ title: IMbnInterface::GetHomeProvider
 author: windows-sdk-content
 description: Gets the home provider.
 old-location: mbn\imbninterface_gethomeprovider.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: b9d29a2a-f41b-4e20-b9ff-559dd39e1015
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetHomeProvider, GetHomeProvider method [Microsoft Broadband Networks], GetHomeProvider method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetHomeProvider method, IMbnInterface.GetHomeProvider, IMbnInterface::GetHomeProvider, mbn.imbninterface_gethomeprovider, mbnapi/IMbnInterface::GetHomeProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnInterface.GetHomeProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnInterface::GetHomeProvider

@@ -4,7 +4,7 @@ title: tagEDefaultDevmodeType
 author: windows-sdk-content
 description: Enables users to specify which DEVMODE to use as the source of default values when a print ticket does not specify all possible settings.
 old-location: gdi\edefaultdevmodetype.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: f3144ff6-1228-4e17-b118-fe70136edeea
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: prntvpt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EDefaultDevmodeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EDefaultDevmodeType
 product: Windows
 targetos: Windows
-req.lib: WinSpool.lib
-req.dll: Spoolss.dll
-req.irql: 
-req.product: ADAM
+req.typenames: EDefaultDevmodeType
+req.redist: 
 ---
 
 # tagEDefaultDevmodeType enumeration

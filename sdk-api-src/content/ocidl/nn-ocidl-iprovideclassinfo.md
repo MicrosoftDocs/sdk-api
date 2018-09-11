@@ -4,17 +4,16 @@ title: IProvideClassInfo
 author: windows-sdk-content
 description: Provides access to the type information for an object's coclass entry in its type library.
 old-location: com\iprovideclassinfo.htm
-old-project: com
+tech.root: com
 ms.assetid: 867bfd3e-b2d8-4bbe-b1bf-2356fb992a7c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IProvideClassInfo, IProvideClassInfo interface [COM], IProvideClassInfo interface [COM],described, _com_iprovideclassinfo, com.iprovideclassinfo, ocidl/IProvideClassInfo
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProvideClassInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IProvideClassInfo interface
@@ -87,7 +85,7 @@ Retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms2
 
 
 
-<a href="https://msdn.microsoft.com/">coclass</a>
+<a href="https://msdn.microsoft.com/2c636327-ad18-4087-b495-d1aa84a07f48">coclass</a>
  
 
  

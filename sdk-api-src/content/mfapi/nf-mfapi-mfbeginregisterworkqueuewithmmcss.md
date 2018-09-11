@@ -4,17 +4,16 @@ title: MFBeginRegisterWorkQueueWithMMCSS function
 author: windows-sdk-content
 description: Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: mf\mfbeginregisterworkqueuewithmmcss.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9bcc6ab3-b7da-4b32-a868-c16f83ce20ca
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 9bcc6ab3-b7da-4b32-a868-c16f83ce20ca, MFBeginRegisterWorkQueueWithMMCSS, MFBeginRegisterWorkQueueWithMMCSS function [Media Foundation], mf.mfbeginregisterworkqueuewithmmcss, mfapi/MFBeginRegisterWorkQueueWithMMCSS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFBeginRegisterWorkQueueWithMMCSS
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFBeginRegisterWorkQueueWithMMCSS function

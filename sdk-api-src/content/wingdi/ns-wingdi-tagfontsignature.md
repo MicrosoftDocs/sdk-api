@@ -4,7 +4,7 @@ title: tagFONTSIGNATURE
 author: windows-sdk-content
 description: Contains information identifying the code pages and Unicode subranges for which a given font provides glyphs.
 old-location: intl\fontsignature.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 5331da53-7e3d-46e9-a922-da04fedc8382
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FONTSIGNATURE, *PFONTSIGNATURE, *LPFONTSIGNATURE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FONTSIGNATURE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FONTSIGNATURE, *PFONTSIGNATURE, *LPFONTSIGNATURE
+req.redist: 
 ---
 
 # tagFONTSIGNATURE structure

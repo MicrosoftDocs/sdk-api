@@ -4,17 +4,16 @@ title: tagWNDCLASSA
 author: windows-sdk-content
 description: Contains the window class attributes that are registered by the RegisterClass function.
 old-location: winmsg\wndclass.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassstructures\wndclass.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWNDCLASSA, *NPWNDCLASSA, *PWNDCLASSA, PWNDCLASS, PWNDCLASS structure pointer [Windows and Messages], WNDCLASS, WNDCLASS structure [Windows and Messages], WNDCLASSA, WNDCLASSW, _win32_WNDCLASS_str, _win32_wndclass_str_cpp, tagWNDCLASSA, winmsg.wndclass, winui._win32_wndclass_str, winuser/PWNDCLASS, winuser/WNDCLASS, winuser/WNDCLASSA, winuser/WNDCLASSW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WNDCLASSA, *PWNDCLASSA, *NPWNDCLASSA, *LPWNDCLASSA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WNDCLASSW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WNDCLASSA, *PWNDCLASSA, *NPWNDCLASSA, *LPWNDCLASSA
+req.redist: 
 ---
 
 # tagWNDCLASSA structure

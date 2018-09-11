@@ -4,17 +4,16 @@ title: tagPERCEIVED
 author: windows-sdk-content
 description: Specifies a file's perceived type. This set of constants is used in the AssocGetPerceivedType function.
 old-location: shell\PERCEIVED.htm
-old-project: shell
+tech.root: shell
 ms.assetid: dbaf5894-1ed6-446f-ac15-12ba4c7326e7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: PERCEIVED, PERCEIVED enumeration [Windows Shell], PERCEIVED_TYPE_APPLICATION, PERCEIVED_TYPE_AUDIO, PERCEIVED_TYPE_COMPRESSED, PERCEIVED_TYPE_CONTACTS, PERCEIVED_TYPE_CUSTOM, PERCEIVED_TYPE_DOCUMENT, PERCEIVED_TYPE_FOLDER, PERCEIVED_TYPE_GAMEMEDIA, PERCEIVED_TYPE_IMAGE, PERCEIVED_TYPE_SYSTEM, PERCEIVED_TYPE_TEXT, PERCEIVED_TYPE_UNKNOWN, PERCEIVED_TYPE_UNSPECIFIED, PERCEIVED_TYPE_VIDEO, _shell_PERCEIVED, shell.PERCEIVED, shtypes/PERCEIVED, shtypes/PERCEIVED_TYPE_APPLICATION, shtypes/PERCEIVED_TYPE_AUDIO, shtypes/PERCEIVED_TYPE_COMPRESSED, shtypes/PERCEIVED_TYPE_CONTACTS, shtypes/PERCEIVED_TYPE_CUSTOM, shtypes/PERCEIVED_TYPE_DOCUMENT, shtypes/PERCEIVED_TYPE_FOLDER, shtypes/PERCEIVED_TYPE_GAMEMEDIA, shtypes/PERCEIVED_TYPE_IMAGE, shtypes/PERCEIVED_TYPE_SYSTEM, shtypes/PERCEIVED_TYPE_TEXT, shtypes/PERCEIVED_TYPE_UNKNOWN, shtypes/PERCEIVED_TYPE_UNSPECIFIED, shtypes/PERCEIVED_TYPE_VIDEO, tagPERCEIVED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERCEIVED
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERCEIVED
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: PERCEIVED
+req.redist: 
 ---
 
 # tagPERCEIVED enumeration

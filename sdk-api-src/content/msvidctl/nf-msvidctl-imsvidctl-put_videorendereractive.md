@@ -4,17 +4,16 @@ title: IMSVidCtl::put_VideoRendererActive
 author: windows-sdk-content
 description: The put_VideoRendererActive method specifies the active video renderer.
 old-location: mstv\imsvidctl_put_videorendereractive.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: fb6e1db7-b980-4706-a1f1-cd6d8423bfb2
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_VideoRendererActive method, IMSVidCtl.put_VideoRendererActive, IMSVidCtl::put_VideoRendererActive, IMSVidCtlput_VideoRendererActive, mstv.imsvidctl_put_videorendereractive, msvidctl/IMSVidCtl::put_VideoRendererActive, put_VideoRendererActive, put_VideoRendererActive method [Microsoft TV Technologies], put_VideoRendererActive method [Microsoft TV Technologies],IMSVidCtl interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.put_VideoRendererActive
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::put_VideoRendererActive

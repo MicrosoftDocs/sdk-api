@@ -4,17 +4,16 @@ title: GetAppContainerFolderPath function
 author: windows-sdk-content
 description: Gets the path of the local app data folder for the specified app container.
 old-location: shell\getappcontainerfolderpath.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7D3AB78D-C094-4F89-8032-13F3C137E910
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetAppContainerFolderPath, GetAppContainerFolderPath function [Windows Shell], shell.getappcontainerfolderpath, userenv/GetAppContainerFolderPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetAppContainerFolderPath
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # GetAppContainerFolderPath function

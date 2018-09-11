@@ -4,17 +4,16 @@ title: INATExternalIPAddressCallback::NewExternalIPAddress
 author: windows-sdk-content
 description: The system calls the NewExternalIPAddress method if the external IP address of the NAT computer changes.
 old-location: ics\inatexternalipaddresscallback_newexternalipaddress.htm
-old-project: ics
+tech.root: ics
 ms.assetid: b231ed4d-a115-4f4c-bda5-f6f3131ac45b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INATExternalIPAddressCallback interface [ICS/ICF],NewExternalIPAddress method, INATExternalIPAddressCallback.NewExternalIPAddress, INATExternalIPAddressCallback::NewExternalIPAddress, NewExternalIPAddress, NewExternalIPAddress method [ICS/ICF], NewExternalIPAddress method [ICS/ICF],INATExternalIPAddressCallback interface, _ics_inatexternalipaddresscallback_newexternalipaddress, ics.inatexternalipaddresscallback_newexternalipaddress, natupnp/INATExternalIPAddressCallback::NewExternalIPAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemHealthAgentState
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INATExternalIPAddressCallback.NewExternalIPAddress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INATExternalIPAddressCallback::NewExternalIPAddress

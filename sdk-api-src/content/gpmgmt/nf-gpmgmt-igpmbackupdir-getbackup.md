@@ -4,17 +4,16 @@ title: IGPMBackupDir::GetBackup
 author: windows-sdk-content
 description: Retrieves the GPMBackup object that has the specified backup ID (GUID). The backup ID is the ID of the backed-up GPO, not the ID of the GPO.
 old-location: gpmc\igpmbackupdir_getbackup.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 45f286dc-fa60-4cfd-bdf0-bfeaf2a5a396
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMBackupDir object [GPMC],GetBackup method, GetBackup, GetBackup method [GPMC], GetBackup method [GPMC],GPMBackupDir object, GetBackup method [GPMC],IGPMBackupDir interface, IGPMBackupDir interface [GPMC],GetBackup method, IGPMBackupDir.GetBackup, IGPMBackupDir::GetBackup, _win32_igpmbackupdir_getbackup, gpmc.igpmbackupdir_getbackup, gpmgmt/IGPMBackupDir::GetBackup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMBackupDir.GetBackup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMBackupDir::GetBackup

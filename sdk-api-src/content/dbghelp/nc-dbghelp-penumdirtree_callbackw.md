@@ -4,17 +4,16 @@ title: PENUMDIRTREE_CALLBACKW
 author: windows-sdk-content
 description: An application-defined callback function used with the EnumDirTree function. It is called every time a match is found.
 old-location: base\enumdirtreeproc.htm
-old-project: debug
+tech.root: debug
 ms.assetid: eae41b83-bba5-4656-9a5c-b6ef56845954
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: EnumDirTreeProc, EnumDirTreeProc callback, EnumDirTreeProc callback function, PENUMDIRTREE_CALLBACK, PENUMDIRTREE_CALLBACKW, _win32_enumdirtreeproc, base.enumdirtreeproc, dbghelp/EnumDirTreeProc
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.0 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DAV_CALLBACK_CRED, *PDAV_CALLBACK_CRED
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - EnumDirTreeProc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 6.0 or later
 ---
 
 # PENUMDIRTREE_CALLBACKW callback function

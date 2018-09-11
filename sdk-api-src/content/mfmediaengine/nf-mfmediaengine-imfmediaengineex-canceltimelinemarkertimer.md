@@ -4,17 +4,16 @@ title: IMFMediaEngineEx::CancelTimelineMarkerTimer
 author: windows-sdk-content
 description: Cancels the next pending timeline marker.
 old-location: mf\imfmediaengineex_canceltimelinemarkertimer.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: AC295919-747B-445D-8C74-E648A612C0BF
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CancelTimelineMarkerTimer, CancelTimelineMarkerTimer method [Media Foundation], CancelTimelineMarkerTimer method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],CancelTimelineMarkerTimer method, IMFMediaEngineEx.CancelTimelineMarkerTimer, IMFMediaEngineEx::CancelTimelineMarkerTimer, mf.imfmediaengineex_canceltimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::CancelTimelineMarkerTimer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineEx.CancelTimelineMarkerTimer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineEx::CancelTimelineMarkerTimer

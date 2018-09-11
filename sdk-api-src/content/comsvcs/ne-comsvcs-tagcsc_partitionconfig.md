@@ -4,17 +4,16 @@ title: tagCSC_PartitionConfig
 author: windows-sdk-content
 description: Indicates the COM+ partition on which the enclosed context runs.
 old-location: cos\csc_partitionconfig.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 584c4744-193d-43d4-a305-8f4ea9802d58
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CSC_InheritPartition, CSC_NewPartition, CSC_NoPartition, CSC_PartitionConfig, CSC_PartitionConfig enumeration [COM+], _cos_CSC_PartitionConfig, comsvcs/CSC_InheritPartition, comsvcs/CSC_NewPartition, comsvcs/CSC_NoPartition, comsvcs/CSC_PartitionConfig, cos.csc_partitionconfig, tagCSC_PartitionConfig
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CSC_PartitionConfig
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CSC_PartitionConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CSC_PartitionConfig
+req.redist: 
 ---
 
 # tagCSC_PartitionConfig enumeration

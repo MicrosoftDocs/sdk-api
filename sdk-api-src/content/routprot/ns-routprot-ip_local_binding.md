@@ -4,17 +4,16 @@ title: IP_LOCAL_BINDING
 author: windows-sdk-content
 description: The IP_LOCAL_BINDING structure contains IP address information for an adapter.
 old-location: rras\ip_local_binding.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 121cc415-35eb-4c9b-a02d-c23be468d6bc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PIP_LOCAL_BINDING, IP_LOCAL_BINDING, IP_LOCAL_BINDING structure [RAS], PIP_LOCAL_BINDING, PIP_LOCAL_BINDING structure pointer [RAS], _mpr_ip_local_binding, routprot/IP_LOCAL_BINDING, routprot/PIP_LOCAL_BINDING, rras.ip_local_binding"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: routprot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_LOCAL_BINDING, *PIP_LOCAL_BINDING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IP_LOCAL_BINDING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: IP_LOCAL_BINDING, *PIP_LOCAL_BINDING
+req.redist: 
 ---
 
 # IP_LOCAL_BINDING structure

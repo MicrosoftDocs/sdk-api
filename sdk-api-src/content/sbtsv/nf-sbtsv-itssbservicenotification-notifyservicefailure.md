@@ -4,17 +4,16 @@ title: ITsSbServiceNotification::NotifyServiceFailure
 author: windows-sdk-content
 description: Notifies registered plug-ins that the Remote Desktop Connection Broker (RD Connection Broker) service has stopped.
 old-location: termserv\itssbservicenotification_notifyservicefailure.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 76e8819f-93d0-4f1b-a573-5b9aeaaae08a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbServiceNotification interface [Remote Desktop Services],NotifyServiceFailure method, ITsSbServiceNotification.NotifyServiceFailure, ITsSbServiceNotification::NotifyServiceFailure, NotifyServiceFailure, NotifyServiceFailure method [Remote Desktop Services], NotifyServiceFailure method [Remote Desktop Services],ITsSbServiceNotification interface, sbtsv/ITsSbServiceNotification::NotifyServiceFailure, termserv.itssbservicenotification_notifyservicefailure
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbServiceNotification.NotifyServiceFailure
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbServiceNotification::NotifyServiceFailure

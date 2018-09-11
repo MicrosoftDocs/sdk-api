@@ -4,7 +4,7 @@ title: "_PROCESSOR_POWER_POLICY"
 author: windows-sdk-content
 description: Contains information about processor performance control and C-states.
 old-location: base\processor_power_policy_str.htm
-old-project: power
+tech.root: power
 ms.assetid: ea1eae62-26b4-4f5d-a9ca-0a7bb463b90a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESSOR_POWER_POLICY, *PPROCESSOR_POWER_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROCESSOR_POWER_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: PROCESSOR_POWER_POLICY, *PPROCESSOR_POWER_POLICY
+req.redist: 
 ---
 
 # _PROCESSOR_POWER_POLICY structure

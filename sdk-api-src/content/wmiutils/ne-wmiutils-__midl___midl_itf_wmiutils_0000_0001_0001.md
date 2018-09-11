@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_wmiutils_0000_0001_0001"
 author: windows-sdk-content
 description: Contains constants used to specify the type of analysis to perform by using the GetAnalysis method.
 old-location: wmi\wmiq_analysis_type.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 427f5ca7-4172-4bd0-9469-5b2ad1cb4c53
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: WMIQ_ANALYSIS_ASSOC_QUERY, WMIQ_ANALYSIS_PROP_ANALYSIS_MATRIX, WMIQ_ANALYSIS_QUERY_TEXT, WMIQ_ANALYSIS_RESERVED, WMIQ_ANALYSIS_RPN_SEQUENCE, WMIQ_ANALYSIS_TYPE, WMIQ_ANALYSIS_TYPE enumeration [Windows Management Instrumentation], __MIDL___MIDL_itf_wmiutils_0000_0001_0001, wmi.wmiq_analysis_type, wmiutils/WMIQ_ANALYSIS_ASSOC_QUERY, wmiutils/WMIQ_ANALYSIS_PROP_ANALYSIS_MATRIX, wmiutils/WMIQ_ANALYSIS_QUERY_TEXT, wmiutils/WMIQ_ANALYSIS_RESERVED, wmiutils/WMIQ_ANALYSIS_RPN_SEQUENCE, wmiutils/WMIQ_ANALYSIS_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmiutils.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMIQ_ANALYSIS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMIQ_ANALYSIS_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMIQ_ANALYSIS_TYPE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_wmiutils_0000_0001_0001 enumeration

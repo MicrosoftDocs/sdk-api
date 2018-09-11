@@ -4,7 +4,7 @@ title: MFASF_MULTIPLEXERFLAGS
 author: windows-sdk-content
 description: Defines the ASF multiplexer options.
 old-location: mf\mfasf_multiplexerflags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6989ac24-f25f-4bc8-a4b9-3e41434a0d44
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFASF_MULTIPLEXERFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFASF_MULTIPLEXERFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: MFASF_MULTIPLEXERFLAGS
+req.redist: 
 ---
 
 # MFASF_MULTIPLEXERFLAGS enumeration

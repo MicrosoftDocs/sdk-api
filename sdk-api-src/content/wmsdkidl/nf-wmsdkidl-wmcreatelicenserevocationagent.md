@@ -4,17 +4,16 @@ title: WMCreateLicenseRevocationAgent function
 author: windows-sdk-content
 description: The WMCreateLicenseRevocationAgent function creates a license revocation object.
 old-location: wmformat\wmcreatelicenserevocationagent.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 46898846-780f-4a86-93c7-826f55c358ba
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WMCreateLicenseRevocationAgent, WMCreateLicenseRevocationAgent function [windows Media Format], wmformat.wmcreatelicenserevocationagent, wmsdkidl/WMCreateLicenseRevocationAgent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib
+req.dll: Wmvcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMCreateLicenseRevocationAgent
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib
-req.dll: Wmvcore.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WMCreateLicenseRevocationAgent function

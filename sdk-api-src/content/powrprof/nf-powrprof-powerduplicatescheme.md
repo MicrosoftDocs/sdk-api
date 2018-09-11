@@ -4,17 +4,16 @@ title: PowerDuplicateScheme function
 author: windows-sdk-content
 description: Duplicates an existing power scheme.
 old-location: base\powerduplicatescheme.htm
-old-project: power
+tech.root: power
 ms.assetid: e58dee69-309c-4b52-bf28-f54b300801b9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PowerDuplicateScheme, PowerDuplicateScheme function, base.powerduplicatescheme, powrprof/PowerDuplicateScheme
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PowerDuplicateScheme
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PowerDuplicateScheme function

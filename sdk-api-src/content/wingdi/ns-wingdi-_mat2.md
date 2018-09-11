@@ -4,7 +4,7 @@ title: "_MAT2"
 author: windows-sdk-content
 description: The MAT2 structure contains the values for a transformation matrix used by the GetGlyphOutline function.
 old-location: gdi\mat2.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 841883d6-bc4d-46ef-abf4-f179771d255b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MAT2, *LPMAT2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MAT2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: MAT2, *LPMAT2
+req.redist: 
 ---
 
 # _MAT2 structure

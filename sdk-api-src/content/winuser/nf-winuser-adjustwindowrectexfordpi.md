@@ -4,17 +4,16 @@ title: AdjustWindowRectExForDpi function
 author: windows-sdk-content
 description: Calculates the required size of the window rectangle, based on the desired size of the client rectangle and the provided DPI.
 old-location: hidpi\adjustwindowrectexfordpi.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: C7126165-1D64-4C04-9B8D-4F90AC2F2C67
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AdjustWindowRectExForDpi, AdjustWindowRectExForDpi function [High DPI], hidpi.adjustwindowrectexfordpi, winuser/AdjustWindowRectExForDpi
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - AdjustWindowRectExForDpi
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # AdjustWindowRectExForDpi function

@@ -4,17 +4,16 @@ title: INetFwPolicy::GetProfileByType
 author: windows-sdk-content
 description: Retrieves the profile of the requested type.
 old-location: ics\inetfwpolicy_getprofilebytype.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 4c3876cf-40a4-4315-a87a-8fcdf509d48e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetProfileByType, GetProfileByType method [ICS/ICF], GetProfileByType method [ICS/ICF],INetFwPolicy interface, INetFwPolicy interface [ICS/ICF],GetProfileByType method, INetFwPolicy.GetProfileByType, INetFwPolicy::GetProfileByType, ics.inetfwpolicy_getprofilebytype, netfw/INetFwPolicy::GetProfileByType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - INetFwPolicy.GetProfileByType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwPolicy::GetProfileByType

@@ -4,17 +4,16 @@ title: IPhotoAcquireSource::GetDeviceId
 author: windows-sdk-content
 description: The GetDeviceId method retrieves the identifier (ID) of the device.
 old-location: picacq\iphotoacquiresource_getdeviceid.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 4c997e76-9109-403f-821f-d73e8577b1ac
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDeviceId, GetDeviceId method [Picture Acquisition], GetDeviceId method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetDeviceId method, IPhotoAcquireSource.GetDeviceId, IPhotoAcquireSource::GetDeviceId, IPhotoAcquireSourceGetDeviceId, photoacquire/IPhotoAcquireSource::GetDeviceId, picacq.iphotoacquiresource_getdeviceid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireSource.GetDeviceId
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireSource::GetDeviceId

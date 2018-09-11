@@ -4,17 +4,16 @@ title: IVssComponentEx2::SetFailure
 author: windows-sdk-content
 description: VSS writers call this method to report errors at the component level.
 old-location: base\ivsscomponentex2_setfailure.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: f9fd728a-b205-4cfa-8e9e-e0a0d385f5a1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssComponentEx2 interface,SetFailure method, IVssComponentEx2.SetFailure, IVssComponentEx2::SetFailure, S_OK, SetFailure, SetFailure method, SetFailure method,IVssComponentEx2 interface, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, base.ivsscomponentex2_setfailure, vswriter/IVssComponentEx2::SetFailure
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssComponentEx2.SetFailure
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponentEx2::SetFailure

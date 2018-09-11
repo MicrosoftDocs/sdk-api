@@ -4,17 +4,16 @@ title: IS_POINTER_FOURTHBUTTON_WPARAM macro
 author: windows-sdk-content
 description: Checks whether the specified pointer took fourth action.
 old-location: inputmsg\is_pointer_fourthbutton_wparam.htm
-old-project: InputMsg
+tech.root: InputMsg
 ms.assetid: 71DEF64E-A372-47BF-B5CD-96A1524FD459
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IS_POINTER_FOURTHBUTTON_WPARAM, IS_POINTER_FOURTHBUTTON_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_fourthbutton_wparam, winuser/IS_POINTER_FOURTHBUTTON_WPARAM
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IS_POINTER_SECONDBUTTON_WPARAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IS_POINTER_FOURTHBUTTON_WPARAM macro

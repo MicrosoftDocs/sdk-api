@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxStatus.get_RecipientName
 title: IFaxStatus::get_RecipientName
 author: windows-sdk-content
 description: Retrieves the RecipientName property for a FaxStatus object. The RecipientName property is a null-terminated string that contains the name of the recipient of an inbound fax transmission.
-old-location: fax\_mfax_ifaxstatus_get_recipientname_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_recipientname_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6qlh.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxStatus object [Fax Service],RecipientName property, FaxStatus.RecipientName, IFaxStatus.get_RecipientName, IFaxStatus::get_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_recipientname, fax._mfax_ifaxstatus_get_recipientname, fax._mfax_ifaxstatus_get_recipientname_vb, get_RecipientName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxStatus interface [Fax Service],RecipientName property, IFaxStatus.RecipientName, IFaxStatus.get_RecipientName, IFaxStatus::RecipientName, IFaxStatus::get_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_recipientname, fax._mfax_ifaxstatus_get_recipientname, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_recipientname_cpp, faxcom/IFaxStatus::RecipientName, faxcom/IFaxStatus::get_RecipientName, get_RecipientName
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxStatus.RecipientName
+ - IFaxStatus.RecipientName
+ - IFaxStatus.get_RecipientName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxStatus::get_RecipientName
@@ -84,10 +83,6 @@ The <b>IFaxStatus::get_RecipientName</b> method allocates the memory required fo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690310(v=VS.85).aspx">FaxStatus</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/ms691281(v=VS.85).aspx">IFaxPort</a>
 
 
@@ -100,7 +95,7 @@ The <b>IFaxStatus::get_RecipientName</b> method allocates the memory required fo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691932(v=VS.85).aspx">Receive</a>
+<a href="https://msdn.microsoft.com/e7a63893-d8df-4253-80b0-3faab13934fd">IFaxStatus::get_Receive</a>
 
 
 

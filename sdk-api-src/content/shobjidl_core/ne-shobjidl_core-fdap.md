@@ -4,17 +4,16 @@ title: FDAP
 author: windows-sdk-content
 description: Specifies list placement.
 old-location: shell\FDAP.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 96865947-abd1-4045-9bb2-5839e9592ad2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: FDAP, FDAP enumeration [Windows Shell], FDAP_BOTTOM, FDAP_TOP, _shell_FDAP, shell.FDAP, shobjidl_core/FDAP, shobjidl_core/FDAP_BOTTOM, shobjidl_core/FDAP_TOP
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FDAP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FDAP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: FDAP
+req.redist: 
 ---
 
 # FDAP enumeration

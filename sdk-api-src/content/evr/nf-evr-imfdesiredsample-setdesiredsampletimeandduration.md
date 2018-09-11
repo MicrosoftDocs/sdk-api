@@ -4,17 +4,16 @@ title: IMFDesiredSample::SetDesiredSampleTimeAndDuration
 author: windows-sdk-content
 description: Called by the presenter to set the time and duration of the sample that it requests from the mixer.
 old-location: mf\imfdesiredsample_setdesiredsampletimeandduration.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 12877b24-83ec-4156-b411-f07202fdfd62
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 12877b24-83ec-4156-b411-f07202fdfd62, IMFDesiredSample interface [Media Foundation],SetDesiredSampleTimeAndDuration method, IMFDesiredSample.SetDesiredSampleTimeAndDuration, IMFDesiredSample::SetDesiredSampleTimeAndDuration, SetDesiredSampleTimeAndDuration, SetDesiredSampleTimeAndDuration method [Media Foundation], SetDesiredSampleTimeAndDuration method [Media Foundation],IMFDesiredSample interface, evr/IMFDesiredSample::SetDesiredSampleTimeAndDuration, mf.imfdesiredsample_setdesiredsampletimeandduration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFDesiredSample.SetDesiredSampleTimeAndDuration
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDesiredSample::SetDesiredSampleTimeAndDuration

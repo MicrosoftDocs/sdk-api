@@ -4,17 +4,16 @@ title: INetFwPolicy2::put_DefaultInboundAction
 author: windows-sdk-content
 description: Specifies the default action for inbound traffic. These settings are Block by default.
 old-location: ics\inetfwpolicy2_defaultinboundaction.htm
-old-project: ics
+tech.root: ics
 ms.assetid: d9251979-0479-4245-8a29-a161acbf591f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: DefaultInboundAction property [ICS/ICF], DefaultInboundAction property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],DefaultInboundAction property, INetFwPolicy2.DefaultInboundAction, INetFwPolicy2.put_DefaultInboundAction, INetFwPolicy2::DefaultInboundAction, INetFwPolicy2::get_DefaultInboundAction, INetFwPolicy2::put_DefaultInboundAction, ics.inetfwpolicy2_defaultinboundaction, netfw/INetFwPolicy2::DefaultInboundAction, netfw/INetFwPolicy2::get_DefaultInboundAction, netfw/INetFwPolicy2::put_DefaultInboundAction, put_DefaultInboundAction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwPolicy2.put_DefaultInboundAction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwPolicy2::put_DefaultInboundAction

@@ -4,17 +4,16 @@ title: "_EVT_CHANNEL_CONFIG_PROPERTY_ID"
 author: windows-sdk-content
 description: Defines the identifiers that identify the configuration properties of a channel.
 old-location: wes\evt_channel_config_property_id.htm
-old-project: wes
+tech.root: WES
 ms.assetid: ea17cbf8-ab60-4bf9-b0a2-998814a50bd0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EVT_CHANNEL_CONFIG_PROPERTY_ID, EVT_CHANNEL_CONFIG_PROPERTY_ID enumeration [EventLog], EvtChannelConfigAccess, EvtChannelConfigClassicEventlog, EvtChannelConfigEnabled, EvtChannelConfigIsolation, EvtChannelConfigOwningPublisher, EvtChannelConfigPropertyIdEND, EvtChannelConfigType, EvtChannelLoggingConfigAutoBackup, EvtChannelLoggingConfigLogFilePath, EvtChannelLoggingConfigMaxSize, EvtChannelLoggingConfigRetention, EvtChannelPublisherList, EvtChannelPublishingConfigBufferSize, EvtChannelPublishingConfigClockType, EvtChannelPublishingConfigControlGuid, EvtChannelPublishingConfigFileMax, EvtChannelPublishingConfigKeywords, EvtChannelPublishingConfigLatency, EvtChannelPublishingConfigLevel, EvtChannelPublishingConfigMaxBuffers, EvtChannelPublishingConfigMinBuffers, EvtChannelPublishingConfigSidType, _EVT_CHANNEL_CONFIG_PROPERTY_ID, wes.evt_channel_config_property_id, winevt/EVT_CHANNEL_CONFIG_PROPERTY_ID, winevt/EvtChannelConfigAccess, winevt/EvtChannelConfigClassicEventlog, winevt/EvtChannelConfigEnabled, winevt/EvtChannelConfigIsolation, winevt/EvtChannelConfigOwningPublisher, winevt/EvtChannelConfigPropertyIdEND, winevt/EvtChannelConfigType, winevt/EvtChannelLoggingConfigAutoBackup, winevt/EvtChannelLoggingConfigLogFilePath, winevt/EvtChannelLoggingConfigMaxSize, winevt/EvtChannelLoggingConfigRetention, winevt/EvtChannelPublisherList, winevt/EvtChannelPublishingConfigBufferSize, winevt/EvtChannelPublishingConfigClockType, winevt/EvtChannelPublishingConfigControlGuid, winevt/EvtChannelPublishingConfigFileMax, winevt/EvtChannelPublishingConfigKeywords, winevt/EvtChannelPublishingConfigLatency, winevt/EvtChannelPublishingConfigLevel, winevt/EvtChannelPublishingConfigMaxBuffers, winevt/EvtChannelPublishingConfigMinBuffers, winevt/EvtChannelPublishingConfigSidType
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_CHANNEL_CONFIG_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_CHANNEL_CONFIG_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_CHANNEL_CONFIG_PROPERTY_ID
+req.redist: 
 ---
 
 # _EVT_CHANNEL_CONFIG_PROPERTY_ID enumeration

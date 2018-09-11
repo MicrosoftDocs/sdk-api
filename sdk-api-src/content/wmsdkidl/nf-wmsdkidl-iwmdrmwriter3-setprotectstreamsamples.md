@@ -4,17 +4,16 @@ title: IWMDRMWriter3::SetProtectStreamSamples
 author: windows-sdk-content
 description: The SetProtectStreamSamples method configures the writer to accept encrypted stream samples. This method is used as part of the process of importing protected content from a third party content protection scheme (CPS) into Windows Media DRM.
 old-location: wmformat\iwmdrmwriter3_setprotectstreamsamples.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 42208d02-8384-494d-b7ae-53072b795723
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMDRMWriter3 interface [windows Media Format],SetProtectStreamSamples method, IWMDRMWriter3.SetProtectStreamSamples, IWMDRMWriter3::SetProtectStreamSamples, IWMDRMWriter3SetProtectedStreamSamples, SetProtectStreamSamples, SetProtectStreamSamples method [windows Media Format], SetProtectStreamSamples method [windows Media Format],IWMDRMWriter3 interface, wmformat.iwmdrmwriter3_setprotectedstreamsamples, wmformat.iwmdrmwriter3_setprotectstreamsamples, wmsdkidl/IWMDRMWriter3::SetProtectStreamSamples
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 11 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: WMStubDRM.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDRMWriter3.SetProtectStreamSamples
 product: Windows
 targetos: Windows
-req.lib: WMStubDRM.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDRMWriter3::SetProtectStreamSamples

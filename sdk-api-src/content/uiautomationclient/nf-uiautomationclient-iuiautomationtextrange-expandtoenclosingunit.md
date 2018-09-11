@@ -4,17 +4,16 @@ title: IUIAutomationTextRange::ExpandToEnclosingUnit
 author: windows-sdk-content
 description: Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit.
 old-location: winauto\uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 09ec62c1-f738-43af-bd6c-b45fdfb32236
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ExpandToEnclosingUnit, ExpandToEnclosingUnit method [Windows Accessibility], ExpandToEnclosingUnit method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],ExpandToEnclosingUnit method, IUIAutomationTextRange.ExpandToEnclosingUnit, IUIAutomationTextRange::ExpandToEnclosingUnit, uiauto.uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit, uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit, uiautomationclient/IUIAutomationTextRange::ExpandToEnclosingUnit, winauto.uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTextRange.ExpandToEnclosingUnit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTextRange::ExpandToEnclosingUnit

@@ -4,17 +4,16 @@ title: WINTRUST_CATALOG_INFO_
 author: windows-sdk-content
 description: The WINTRUST_CATALOG_INFO structure is used when calling WinVerifyTrust to verify a member of a Microsoft catalog.
 old-location: security\wintrust_catalog_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 5d095e0f-c8c9-4717-b23a-985737b78431
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWINTRUST_CATALOG_INFO, PWINTRUST_CATALOG_INFO, PWINTRUST_CATALOG_INFO structure pointer [Security], WINTRUST_CATALOG_INFO, WINTRUST_CATALOG_INFO structure [Security], WINTRUST_CATALOG_INFO_, _win32_wintrust_catalog_info, security.wintrust_catalog_info, wintrust/PWINTRUST_CATALOG_INFO, wintrust/WINTRUST_CATALOG_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINTRUST_CATALOG_INFO, *PWINTRUST_CATALOG_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINTRUST_CATALOG_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WINTRUST_CATALOG_INFO, *PWINTRUST_CATALOG_INFO
+req.redist: 
 ---
 
 # WINTRUST_CATALOG_INFO_ structure

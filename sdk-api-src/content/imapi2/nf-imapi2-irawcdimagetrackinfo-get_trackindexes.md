@@ -4,17 +4,16 @@ title: IRawCDImageTrackInfo::get_TrackIndexes
 author: windows-sdk-content
 description: Retrieves the one-based index of the tracks on the disc.
 old-location: imapi\irawcdimagetrackinfo_get_trackindexes.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: a83766f7-8d02-47df-9691-26d6f2cd0d5b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_TrackIndexes method, IRawCDImageTrackInfo.get_TrackIndexes, IRawCDImageTrackInfo::get_TrackIndexes, get_TrackIndexes, get_TrackIndexes method [IMAPI], get_TrackIndexes method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_trackindexes, imapi2/IRawCDImageTrackInfo::get_TrackIndexes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawCDImageTrackInfo.get_TrackIndexes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRawCDImageTrackInfo::get_TrackIndexes

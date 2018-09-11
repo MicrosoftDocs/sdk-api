@@ -4,17 +4,16 @@ title: IGridItemProvider::get_RowSpan
 author: windows-sdk-content
 description: Specifies the number of rows spanned by this cell or item.
 old-location: winauto\uiauto_IGridItemProvider_RowSpan.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 87636dd8-b62e-4ebf-8921-e5a91c8547e6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IGridItemProvider interface [Windows Accessibility],RowSpan property, IGridItemProvider.RowSpan, IGridItemProvider.get_RowSpan, IGridItemProvider::RowSpan, IGridItemProvider::get_RowSpan, RowSpan property [Windows Accessibility], RowSpan property [Windows Accessibility],IGridItemProvider interface, get_RowSpan, uiauto.uiauto_IGridItemProvider_RowSpan, uiauto_IGridItemProvider_RowSpan, uiautomationcore/IGridItemProvider::RowSpan, uiautomationcore/IGridItemProvider::get_RowSpan, winauto.uiauto_IGridItemProvider_RowSpan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGridItemProvider.get_RowSpan
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IGridItemProvider::get_RowSpan

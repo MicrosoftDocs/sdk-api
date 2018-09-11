@@ -4,7 +4,7 @@ title: "_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS"
 author: windows-sdk-content
 description: Contains initialization parameters for an Output Protection Manager (OPM) session.
 old-location: mf\opm_encrypted_initialization_parameters.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: abcf0b84-7370-48da-b4dd-4faded6be343
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ksopmapi.h
 req.include-header: Opmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
+req.redist: 
 ---
 
 # _OPM_ENCRYPTED_INITIALIZATION_PARAMETERS structure

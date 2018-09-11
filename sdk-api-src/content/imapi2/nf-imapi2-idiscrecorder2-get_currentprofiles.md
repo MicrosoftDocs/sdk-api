@@ -4,17 +4,16 @@ title: IDiscRecorder2::get_CurrentProfiles
 author: windows-sdk-content
 description: Retrieves all MMC profiles of the device that are marked as current.
 old-location: imapi\idiscrecorder2_get_currentprofiles.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: dd8dd2fd-531b-4ed5-9a28-d6b24469e5e7
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_CurrentProfiles method, IDiscRecorder2.get_CurrentProfiles, IDiscRecorder2::get_CurrentProfiles, get_CurrentProfiles, get_CurrentProfiles method [IMAPI], get_CurrentProfiles method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_currentprofiles, imapi2/IDiscRecorder2::get_CurrentProfiles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder2.get_CurrentProfiles
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder2::get_CurrentProfiles

@@ -4,17 +4,16 @@ title: AssocCreateForClasses function
 author: windows-sdk-content
 description: Retrieves an object that implements an IQueryAssociations interface.
 old-location: shell\AssocCreateForClasses.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 43257507-dd5e-4622-8445-c132187fd1e5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: AssocCreateForClasses, AssocCreateForClasses function [Windows Shell], _shell_AssocCreateForClasses, shell.AssocCreateForClasses, shellapi/AssocCreateForClasses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - AssocCreateForClasses
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # AssocCreateForClasses function

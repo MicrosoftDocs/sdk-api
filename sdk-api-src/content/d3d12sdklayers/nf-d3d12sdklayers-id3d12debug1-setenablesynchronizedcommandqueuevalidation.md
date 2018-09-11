@@ -4,17 +4,16 @@ title: ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation
 author: windows-sdk-content
 description: Enables or disables dependent command queue synchronization when using a D3D12 device with the debug layer enabled.
 old-location: direct3d12\id3d12debugdevice1_setenablesynchronizedcommandqueuevalidation.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: B2038241-201B-402B-9B5A-BA2D2239A62A
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D12Debug1 interface,SetEnableSynchronizedCommandQueueValidation method, ID3D12Debug1.SetEnableSynchronizedCommandQueueValidation, ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation, SetEnableSynchronizedCommandQueueValidation, SetEnableSynchronizedCommandQueueValidation method, SetEnableSynchronizedCommandQueueValidation method,ID3D12Debug1 interface, d3d12sdklayers/ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation, direct3d12.id3d12debugdevice1_setenablesynchronizedcommandqueuevalidation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_RLDO_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12Debug1.SetEnableSynchronizedCommandQueueValidation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation

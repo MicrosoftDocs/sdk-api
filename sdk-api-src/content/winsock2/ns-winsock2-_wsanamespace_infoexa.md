@@ -4,17 +4,16 @@ title: "_WSANAMESPACE_INFOEXA"
 author: windows-sdk-content
 description: Contains all registration information for a namespace provider.
 old-location: winsock\wsanamespace_infoex.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 3f4a8916-9db9-4b65-982f-4cb4ec2205ed
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWSANAMESPACE_INFOEXA, *PWSANAMESPACE_INFOEXA, LPWSANAMESPACE_INFOEX, LPWSANAMESPACE_INFOEX structure pointer [Winsock], NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_NTDS, NS_PNRPCLOUD, NS_PNRPNAME, PWSANAMESPACE_INFOEX, PWSANAMESPACE_INFOEX structure pointer [Winsock], WSANAMESPACE_INFOEX, WSANAMESPACE_INFOEX structure [Winsock], WSANAMESPACE_INFOEXA, WSANAMESPACE_INFOEXW, _WSANAMESPACE_INFOEXA, winsock.wsanamespace_infoex, winsock2/LPWSANAMESPACE_INFOEX, winsock2/PWSANAMESPACE_INFOEX, winsock2/WSANAMESPACE_INFOEX, winsock2/WSANAMESPACE_INFOEXA, winsock2/WSANAMESPACE_INFOEXW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSANAMESPACE_INFOEXA, *PWSANAMESPACE_INFOEXA, *LPWSANAMESPACE_INFOEXA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WSANAMESPACE_INFOEXW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSANAMESPACE_INFOEXA, *PWSANAMESPACE_INFOEXA, *LPWSANAMESPACE_INFOEXA
+req.redist: 
 ---
 
 # _WSANAMESPACE_INFOEXA structure

@@ -4,7 +4,7 @@ title: "_STORAGE_COMPONENT_HEALTH_STATUS"
 author: windows-sdk-content
 description: Specifies the health status of a storage component.
 old-location: fs\storage_component_health_status.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: ECC5A745-EA8B-4FBE-840D-0D959C9ED5BA
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STORAGE_COMPONENT_HEALTH_STATUS, *PSTORAGE_COMPONENT_HEALTH_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STORAGE_COMPONENT_HEALTH_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STORAGE_COMPONENT_HEALTH_STATUS, *PSTORAGE_COMPONENT_HEALTH_STATUS
+req.redist: 
 ---
 
 # _STORAGE_COMPONENT_HEALTH_STATUS enumeration

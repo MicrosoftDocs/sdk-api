@@ -4,17 +4,16 @@ title: SHRegGetValueFromHKCUHKLM function
 author: windows-sdk-content
 description: Obtains specified information from the registry.
 old-location: shell\SHRegGetValueFromHKCUHKLM.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5c4b13f4-0dd8-476e-9e89-ace23d541389
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHRegGetValueFromHKCUHKLM, SHRegGetValueFromHKCUHKLM function [Windows Shell], _shell_SHRegGetValueFromHKCUHKLM, shell.SHRegGetValueFromHKCUHKLM, shlwapi/SHRegGetValueFromHKCUHKLM
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: 
+req.dll: Shlwapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - SHRegGetValueFromHKCUHKLM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shlwapi.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHRegGetValueFromHKCUHKLM function

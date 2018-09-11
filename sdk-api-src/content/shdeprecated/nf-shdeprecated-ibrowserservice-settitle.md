@@ -4,17 +4,16 @@ title: IBrowserService::SetTitle
 author: windows-sdk-content
 description: Deprecated. Sets the title of a browser window.
 old-location: shell\IBrowserService_SetTitle.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 236f05a3-d31b-46fe-9e10-1f5df6823fa3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserService interface [Windows Shell],SetTitle method, IBrowserService.SetTitle, IBrowserService::SetTitle, SetTitle, SetTitle method [Windows Shell], SetTitle method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetTitle, shell.IBrowserService_SetTitle, zone_IBrowserService_SetTitle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService.SetTitle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

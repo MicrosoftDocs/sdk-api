@@ -4,7 +4,7 @@ title: "_MF_TOPONODE_FLUSH_MODE"
 author: windows-sdk-content
 description: Defines when a transform in a topology is flushed.
 old-location: mf\mf_toponode_flush_mode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e7eec3c1-f4be-4d7f-9d4c-e98a6a05e85a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_TOPONODE_FLUSH_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_TOPONODE_FLUSH_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_TOPONODE_FLUSH_MODE
+req.redist: 
 ---
 
 # _MF_TOPONODE_FLUSH_MODE enumeration

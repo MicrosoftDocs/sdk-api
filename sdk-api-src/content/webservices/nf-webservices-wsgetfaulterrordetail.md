@@ -4,17 +4,16 @@ title: WsGetFaultErrorDetail function
 author: windows-sdk-content
 description: Read the fault detail stored in a WS_ERROR object.
 old-location: wsw\wsgetfaulterrordetail.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 426c292f-64a5-411f-a63e-6be05fe93438
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsGetFaultErrorDetail, WsGetFaultErrorDetail function [Web Services for Windows], webservices/WsGetFaultErrorDetail, wsw.wsgetfaulterrordetail
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsGetFaultErrorDetail
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsGetFaultErrorDetail function

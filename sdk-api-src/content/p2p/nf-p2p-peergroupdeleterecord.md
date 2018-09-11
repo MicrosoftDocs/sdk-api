@@ -4,17 +4,16 @@ title: PeerGroupDeleteRecord function
 author: windows-sdk-content
 description: The PeerGroupDeleteRecord function deletes a record from a peer group. The creator, as well as any other member in an administrative role may delete a specific record.
 old-location: p2p\peergroupdeleterecord.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: e80fbf7f-2193-4a45-8a7f-46707ae4acfe
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerGroupDeleteRecord, PeerGroupDeleteRecord function [Peer Networking], p2p.peergroupdeleterecord, p2p/PeerGroupDeleteRecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerGroupDeleteRecord
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerGroupDeleteRecord function

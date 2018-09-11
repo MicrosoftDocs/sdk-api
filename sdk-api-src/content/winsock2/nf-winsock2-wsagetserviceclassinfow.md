@@ -4,17 +4,16 @@ title: WSAGetServiceClassInfoW function
 author: windows-sdk-content
 description: The WSAGetServiceClassInfo function retrieves the class information (schema) pertaining to a specified service class from a specified namespace provider.
 old-location: winsock\wsagetserviceclassinfo_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: e177bb7d-c7d3-43a4-a809-ab8212feea2e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSAGetServiceClassInfo, WSAGetServiceClassInfo function [Winsock], WSAGetServiceClassInfoA, WSAGetServiceClassInfoW, _win32_wsagetserviceclassinfo_2, winsock.wsagetserviceclassinfo_2, winsock2/WSAGetServiceClassInfo, winsock2/WSAGetServiceClassInfoA, winsock2/WSAGetServiceClassInfoW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WSAGetServiceClassInfoW
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSAGetServiceClassInfoW function

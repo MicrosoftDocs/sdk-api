@@ -4,17 +4,16 @@ title: IDot11AdHocNetwork::Connect
 author: windows-sdk-content
 description: Connects to a previously created wireless ad hoc network.
 old-location: nwifi\idot11adhocnetwork_connect.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 3272e0fe-0844-4e02-bd5f-a1e1c656074d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Connect, Connect method [NativeWIFI], Connect method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],Connect method, IDot11AdHocNetwork.Connect, IDot11AdHocNetwork::Connect, adhoc/IDot11AdHocNetwork::Connect, nwifi.idot11adhocnetwork_connect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocNetwork.Connect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocNetwork::Connect

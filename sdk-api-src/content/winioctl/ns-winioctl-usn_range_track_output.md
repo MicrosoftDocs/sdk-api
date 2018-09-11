@@ -4,7 +4,7 @@ title: USN_RANGE_TRACK_OUTPUT
 author: windows-sdk-content
 description: Contains returned update sequence number (USN) from FSCTL_USN_TRACK_MODIFIED_RANGES control code.
 old-location: fs\usn_range_track_output.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: E10ECB50-A506-4836-81D2-3073FBB844CA
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USN_RANGE_TRACK_OUTPUT, *PUSN_RANGE_TRACK_OUTPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USN_RANGE_TRACK_OUTPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: USN_RANGE_TRACK_OUTPUT, *PUSN_RANGE_TRACK_OUTPUT
+req.redist: 
 ---
 
 # USN_RANGE_TRACK_OUTPUT structure

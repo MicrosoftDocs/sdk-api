@@ -4,17 +4,16 @@ title: IPMT::GetCountOfRecords
 author: windows-sdk-content
 description: The GetCountOfRecords method returns the number of records in the PMT. Each record corresponds to a stream in the program.
 old-location: mstv\ipmt_getcountofrecords.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f4e5009b-4c0d-4d0c-b480-4030cedbdb97
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetCountOfRecords method, IPMT.GetCountOfRecords, IPMT::GetCountOfRecords, IPMTGetCountOfRecords, mpeg2psiparser/IPMT::GetCountOfRecords, mstv.ipmt_getcountofrecords
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPMT.GetCountOfRecords
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPMT::GetCountOfRecords

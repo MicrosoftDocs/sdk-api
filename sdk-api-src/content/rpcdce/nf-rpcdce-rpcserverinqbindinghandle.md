@@ -4,17 +4,16 @@ title: RpcServerInqBindingHandle function
 author: windows-sdk-content
 description: Obtains the binding handle for RPC calls serviced by the thread in which RpcServerInqBindingHandle is called.
 old-location: rpc\rpcserverinqbindinghandle.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 1b5fa031-ce25-4963-9085-df8786eb88d5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcServerInqBindingHandle, RpcServerInqBindingHandle function [RPC], rpc.rpcserverinqbindinghandle, rpcdce/RpcServerInqBindingHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcServerInqBindingHandle
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcServerInqBindingHandle function

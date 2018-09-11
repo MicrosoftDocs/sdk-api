@@ -4,17 +4,16 @@ title: INetFwPolicy2::RestoreLocalFirewallDefaults
 author: windows-sdk-content
 description: Restores the local firewall configuration to its default state.
 old-location: ics\inetfwpolicy2_restorelocalfirewalldefaults.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 420b07ff-e851-41cf-96c4-064430f292a1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],RestoreLocalFirewallDefaults method, INetFwPolicy2.RestoreLocalFirewallDefaults, INetFwPolicy2::RestoreLocalFirewallDefaults, RestoreLocalFirewallDefaults, RestoreLocalFirewallDefaults method [ICS/ICF], RestoreLocalFirewallDefaults method [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_restorelocalfirewalldefaults, netfw/INetFwPolicy2::RestoreLocalFirewallDefaults
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetFwPolicy2.RestoreLocalFirewallDefaults
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwPolicy2::RestoreLocalFirewallDefaults

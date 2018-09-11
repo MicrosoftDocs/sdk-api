@@ -4,17 +4,16 @@ title: ICOpenFunction function
 author: windows-sdk-content
 description: The ICOpenFunction function opens a compressor or decompressor defined as a function.
 old-location: multimedia\icopenfunction.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 1dc04649-9fe4-4131-8a7c-598b3fba883c
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICOpenFunction, ICOpenFunction function [Windows Multimedia], _win32_ICOpenFunction, multimedia.icopenfunction, vfw/ICOpenFunction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Msvfw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICOpenFunction
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Msvfw32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICOpenFunction function

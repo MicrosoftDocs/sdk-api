@@ -4,17 +4,16 @@ title: SCardUIDlgSelectCardA function
 author: windows-sdk-content
 description: Displays the smart card Select Card dialog box.
 old-location: security\scarduidlgselectcard.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 68014e9e-0ea3-4032-8db5-c1887a1cc9ad
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SCardUIDlgSelectCard, SCardUIDlgSelectCard function [Security], SCardUIDlgSelectCardA, SCardUIDlgSelectCardW, _smart_scarduidlgselectcard, security.scarduidlgselectcard, winscard/SCardUIDlgSelectCard, winscard/SCardUIDlgSelectCardA, winscard/SCardUIDlgSelectCardW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: Scarddlg.lib
+req.dll: Scarddlg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SCardUIDlgSelectCardW
 product: Windows
 targetos: Windows
-req.lib: Scarddlg.lib
-req.dll: Scarddlg.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SCardUIDlgSelectCardA function

@@ -4,17 +4,16 @@ title: ClusterGroupEnumEx function
 author: windows-sdk-content
 description: Retrieves an item in the enumeration.
 old-location: mscs\clustergroupenumex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 139FE5AB-9465-46F8-B360-F27F19D82A88
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusterGroupEnumEx, ClusterGroupEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_ENUM_EX function [Failover Cluster], clusapi/ClusterGroupEnumEx, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM_EX, mscs.clustergroupenumex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - ClusterGroupEnumEx
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterGroupEnumEx function
@@ -88,7 +87,7 @@ On output, either the required size in bytes of the buffer if the buffer is too 
 
 
 
-This function returns DWORD __stdcall.
+This function returns DWORD.
 
 
 

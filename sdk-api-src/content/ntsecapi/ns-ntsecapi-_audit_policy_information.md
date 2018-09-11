@@ -4,17 +4,16 @@ title: "_AUDIT_POLICY_INFORMATION"
 author: windows-sdk-content
 description: Specifies a security event type and when to audit that type.
 old-location: security\audit_policy_information.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3fafeec9-a028-4a65-933e-fb973eb257b0
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PAUDIT_POLICY_INFORMATION, AUDIT_POLICY_INFORMATION, AUDIT_POLICY_INFORMATION structure [Security], PAUDIT_POLICY_INFORMATION, PAUDIT_POLICY_INFORMATION structure pointer [Security], PER_USER_AUDIT_FAILURE_EXCLUDE, PER_USER_AUDIT_FAILURE_INCLUDE, PER_USER_AUDIT_NONE, PER_USER_AUDIT_SUCCESS_EXCLUDE, PER_USER_AUDIT_SUCCESS_INCLUDE, PER_USER_POLICY_UNCHANGED, POLICY_AUDIT_EVENT_FAILURE, POLICY_AUDIT_EVENT_NONE, POLICY_AUDIT_EVENT_SUCCESS, POLICY_AUDIT_EVENT_UNCHANGED, _AUDIT_POLICY_INFORMATION, ntsecapi/AUDIT_POLICY_INFORMATION, ntsecapi/PAUDIT_POLICY_INFORMATION, security.audit_policy_information"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIT_POLICY_INFORMATION, *PAUDIT_POLICY_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AUDIT_POLICY_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: AUDIT_POLICY_INFORMATION, *PAUDIT_POLICY_INFORMATION
+req.redist: 
 ---
 
 # _AUDIT_POLICY_INFORMATION structure

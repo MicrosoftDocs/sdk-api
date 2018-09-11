@@ -4,7 +4,7 @@ title: ldapvlvinfo
 author: windows-sdk-content
 description: Used to set up the search parameters for a virtual list view (VLV) request control (LDAP_CONTROL_VLVREQUEST).
 old-location: ldap\ldapvlvinfo.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 2018ecb1-9b32-4afa-ad20-5cdae396376d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LDAPVLVInfo, *PLDAPVLVInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LDAPVLVInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: LDAPVLVInfo, *PLDAPVLVInfo
+req.redist: 
 ---
 
 # ldapvlvinfo structure

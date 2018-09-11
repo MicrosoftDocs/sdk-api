@@ -4,17 +4,16 @@ title: CoInitializeSecurity function
 author: windows-sdk-content
 description: Registers security and sets the default security values for the process.
 old-location: com\coinitializesecurity.htm
-old-project: com
+tech.root: com
 ms.assetid: e0933741-6b75-4ce1-aa63-6240e4a7130f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoInitializeSecurity, CoInitializeSecurity function [COM], _com_CoInitializeSecurity, com.coinitializesecurity, combaseapi/CoInitializeSecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CoInitializeSecurity
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoInitializeSecurity function

@@ -4,17 +4,16 @@ title: IMFImageSharingEngine::GetDevice
 author: windows-sdk-content
 description: Gets information about the image sharing device.
 old-location: mf\imfimagesharingengine_getdevice.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 27CAE784-2107-4380-97E4-AE0A7D69C64F
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetDevice, GetDevice method [Media Foundation], GetDevice method [Media Foundation],IMFImageSharingEngine interface, IMFImageSharingEngine interface [Media Foundation],GetDevice method, IMFImageSharingEngine.GetDevice, IMFImageSharingEngine::GetDevice, mf.imfimagesharingengine_getdevice, mfsharingengine/IMFImageSharingEngine::GetDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfsharingengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PLAYTO_SOURCE_CREATEFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFImageSharingEngine.GetDevice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFImageSharingEngine::GetDevice

@@ -4,17 +4,16 @@ title: OpenFileMappingA function
 author: windows-sdk-content
 description: Opens a named file mapping object.
 old-location: base\openfilemapping.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 4896144c-78fc-4d21-a302-d9ba66fb2f8a
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: OpenFileMapping, OpenFileMapping function, OpenFileMappingA, OpenFileMappingW, _win32_openfilemapping, base.openfilemapping, fs.openfilemapping, winbase/OpenFileMapping, winbase/OpenFileMappingA, winbase/OpenFileMappingW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -55,10 +55,8 @@ api_name:
  - OpenFileMappingW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # OpenFileMappingA function

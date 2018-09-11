@@ -4,17 +4,16 @@ title: ITfSystemLangBarItemText::GetItemText
 author: windows-sdk-content
 description: The ITfSystemLangBarItemText::GetItemText method obtains the text displayed for the system language bar menu.
 old-location: tsf\itfsystemlangbaritemtext_getitemtext.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: eec4486e-c4fd-484f-bbd7-9f2ee974459b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetItemText, GetItemText method [Text Services Framework], GetItemText method [Text Services Framework],ITfSystemLangBarItemText interface, ITfSystemLangBarItemText interface [Text Services Framework],GetItemText method, ITfSystemLangBarItemText.GetItemText, ITfSystemLangBarItemText::GetItemText, ctfutb/ITfSystemLangBarItemText::GetItemText, tsf.itfsystemlangbaritemtext_getitemtext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: Msctf.h
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfSystemLangBarItemText.GetItemText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfSystemLangBarItemText::GetItemText

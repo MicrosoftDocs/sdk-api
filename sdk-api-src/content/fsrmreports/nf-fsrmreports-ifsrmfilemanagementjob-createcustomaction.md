@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::CreateCustomAction
 author: windows-sdk-content
 description: Creates a custom action object.
 old-location: fsrm\ifsrmfilemanagementjob_createcustomaction.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 886992bd-ca0b-4f21-8036-39703c7c99ba
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: CreateCustomAction, CreateCustomAction method [File Server Resource Manager], CreateCustomAction method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],CreateCustomAction method, IFsrmFileManagementJob.CreateCustomAction, IFsrmFileManagementJob::CreateCustomAction, fs.ifsrmfilemanagementjob_createcustomaction, fsrm.ifsrmfilemanagementjob_createcustomaction, fsrmreports/IFsrmFileManagementJob::CreateCustomAction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmFileManagementJob.CreateCustomAction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::CreateCustomAction

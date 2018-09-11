@@ -4,17 +4,16 @@ title: IWSDTransportAddress::SetTransportAddress
 author: windows-sdk-content
 description: Sets the string representation of the transport address.
 old-location: ncd\iwsdtransportaddress_settransportaddress.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: ea87b7d8-71c0-4cb6-b28b-7ac8f2417886
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDTransportAddress interface,SetTransportAddress method, IWSDTransportAddress.SetTransportAddress, IWSDTransportAddress::SetTransportAddress, SetTransportAddress, SetTransportAddress method, SetTransportAddress method,IWSDTransportAddress interface, ncd.iwsdtransportaddress_settransportaddress, wsdbase/IWSDTransportAddress::SetTransportAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_CONFIG_PARAM_TYPE
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDTransportAddress.SetTransportAddress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDTransportAddress::SetTransportAddress

@@ -4,17 +4,16 @@ title: GetStartupInfoW function
 author: windows-sdk-content
 description: Retrieves the contents of the STARTUPINFO structure that was specified when the calling process was created.
 old-location: base\getstartupinfo.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 191ea201-dc86-4cde-a0cd-be8d2360b22e
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetStartupInfo, GetStartupInfo function, GetStartupInfoA, GetStartupInfoW, _win32_getstartupinfo, base.getstartupinfo, processthreadsapi/GetStartupInfo, processthreadsapi/GetStartupInfoA, processthreadsapi/GetStartupInfoW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -57,10 +57,8 @@ api_name:
  - GetStartupInfoW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetStartupInfoW function

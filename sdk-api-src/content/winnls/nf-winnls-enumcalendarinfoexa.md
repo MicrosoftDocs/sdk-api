@@ -4,17 +4,16 @@ title: EnumCalendarInfoExA function
 author: windows-sdk-content
 description: Enumerates calendar information for a locale specified by identifier.Note  Any application that runs only on Windows Vista and later should use EnumCalendarInfoExEx in preference to this function.
 old-location: intl\enumcalendarinfoex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 5a313af5-e595-49b1-9651-a5afc158c7a7
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: EnumCalendarInfoEx, EnumCalendarInfoEx function [Internationalization for Windows Applications], EnumCalendarInfoExA, EnumCalendarInfoExW, _win32_EnumCalendarInfoEx, intl.enumcalendarinfoex, winnls/EnumCalendarInfoEx, winnls/EnumCalendarInfoExA, winnls/EnumCalendarInfoExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - EnumCalendarInfoExW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EnumCalendarInfoExA function

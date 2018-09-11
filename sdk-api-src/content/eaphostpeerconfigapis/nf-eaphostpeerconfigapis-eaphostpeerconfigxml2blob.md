@@ -4,17 +4,16 @@ title: EapHostPeerConfigXml2Blob function
 author: windows-sdk-content
 description: Converts XML into the configuration BLOB.
 old-location: eaphost\eaphostpeerconfigxml2blob.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 728fab9e-6aa4-49c0-ab1f-89686543524c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapHostPeerConfigXml2Blob, EapHostPeerConfigXml2Blob function [EAPHost], eaphost.eaphostpeerconfigxml2blob, eaphostpeerconfigapis/EapHostPeerConfigXml2Blob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_AUTHENTICATOR_SEND_TIMEOUT
+req.lib: Eappcfg.lib
+req.dll: Eappcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapHostPeerConfigXml2Blob
 product: Windows
 targetos: Windows
-req.lib: Eappcfg.lib
-req.dll: Eappcfg.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapHostPeerConfigXml2Blob function

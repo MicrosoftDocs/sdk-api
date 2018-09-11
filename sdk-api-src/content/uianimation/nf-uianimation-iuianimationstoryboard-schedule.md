@@ -4,17 +4,16 @@ title: IUIAnimationStoryboard::Schedule
 author: windows-sdk-content
 description: Directs the storyboard to schedule itself for play.
 old-location: uianimation\iuianimationstoryboard_schedule.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: b47d4ffd-ae51-40e7-8f91-9d7b7b2901c8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationStoryboard interface [Windows Animation],Schedule method, IUIAnimationStoryboard.Schedule, IUIAnimationStoryboard::Schedule, Schedule, Schedule method [Windows Animation], Schedule method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_schedule, uianimation/IUIAnimationStoryboard::Schedule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationStoryboard.Schedule
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationStoryboard::Schedule

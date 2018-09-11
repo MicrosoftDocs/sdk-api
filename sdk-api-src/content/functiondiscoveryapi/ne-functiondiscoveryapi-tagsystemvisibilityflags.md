@@ -4,7 +4,7 @@ title: tagSystemVisibilityFlags
 author: windows-sdk-content
 description: Determines the visibility of the function instance's data.
 old-location: ncd\systemvisibilityflags_enum.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: a3388293-150c-417a-a4a6-0d5020e0ae82
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: functiondiscoveryapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemVisibilityFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SystemVisibilityFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: SystemVisibilityFlags
+req.redist: 
 ---
 
 # tagSystemVisibilityFlags enumeration

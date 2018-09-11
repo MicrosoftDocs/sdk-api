@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_wcmconfig_0000_0000_0006"
 author: windows-sdk-content
 description: Describes the status of the user.
 old-location: smi\wcmuserstatus.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: 1a21d53f-cc0d-48ac-8d38-c53d5ac09878
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UnknownStatus, UserLoaded, UserRegistered, UserUnloaded, UserUnregistered, WcmUserStatus, WcmUserStatus enumeration [SMI], __MIDL___MIDL_itf_wcmconfig_0000_0000_0006, smi.wcmuserstatus, wcmconfig/UnknownStatus, wcmconfig/UserLoaded, wcmconfig/UserRegistered, wcmconfig/UserUnloaded, wcmconfig/UserUnregistered, wcmconfig/WcmUserStatus
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmUserStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WcmUserStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WcmUserStatus
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_wcmconfig_0000_0000_0006 enumeration

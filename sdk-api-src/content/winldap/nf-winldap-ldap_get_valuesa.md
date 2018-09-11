@@ -4,17 +4,16 @@ title: ldap_get_valuesA function
 author: windows-sdk-content
 description: The ldap_get_values function retrieves the list of values of a given attribute.
 old-location: ldap\ldap_get_values.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: a633afa1-4a37-4894-ae94-5225d99077fd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_get_values, ldap.ldap__get__values, ldap.ldap_get_values, ldap_get_values, ldap_get_values function [LDAP], ldap_get_valuesA, ldap_get_valuesW, winldap/ldap_get_values, winldap/ldap_get_valuesA, winldap/ldap_get_valuesW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldap_get_valuesW
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_get_valuesA function

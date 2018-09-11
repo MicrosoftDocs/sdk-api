@@ -4,17 +4,16 @@ title: RemoveDirectoryA function
 author: windows-sdk-content
 description: Deletes an existing empty directory.
 old-location: fs\removedirectory.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: d699cdd2-e270-4f17-bdec-6eea25b01578
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RemoveDirectory, RemoveDirectory function [Files], RemoveDirectoryA, RemoveDirectoryW, _win32_removedirectory, base.removedirectory, fileapi/RemoveDirectory, fileapi/RemoveDirectoryA, fileapi/RemoveDirectoryW, fs.removedirectory, winbase/RemoveDirectory, winbase/RemoveDirectoryA, winbase/RemoveDirectoryW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - RemoveDirectoryW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # RemoveDirectoryA function

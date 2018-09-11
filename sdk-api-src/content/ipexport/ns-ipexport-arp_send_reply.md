@@ -4,7 +4,7 @@ title: arp_send_reply
 author: windows-sdk-content
 description: The ARP_SEND_REPLY structure stores information about an Address Resolution Protocol (ARP) reply messages.
 old-location: iphlp\arp_send_reply.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 6495d289-b9b8-42cb-b00b-cde53d3dc91c
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ARP_SEND_REPLY, *PARP_SEND_REPLY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ARP_SEND_REPLY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ARP_SEND_REPLY, *PARP_SEND_REPLY
+req.redist: 
 ---
 
 # arp_send_reply structure

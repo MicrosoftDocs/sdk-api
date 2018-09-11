@@ -4,17 +4,16 @@ title: IDot11AdHocInterface::GetStatus
 author: windows-sdk-content
 description: Gets the connection status of the active network associated with this NIC.
 old-location: nwifi\idot11adhocinterface_getstatus.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 54e271dc-b710-4229-9682-2919af6cd998
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetStatus, GetStatus method [NativeWIFI], GetStatus method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetStatus method, IDot11AdHocInterface.GetStatus, IDot11AdHocInterface::GetStatus, adhoc/IDot11AdHocInterface::GetStatus, nwifi.idot11adhocinterface_getstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocInterface.GetStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocInterface::GetStatus

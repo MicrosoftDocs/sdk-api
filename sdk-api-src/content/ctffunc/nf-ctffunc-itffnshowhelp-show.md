@@ -4,17 +4,16 @@ title: ITfFnShowHelp::Show
 author: windows-sdk-content
 description: ITfFnShowHelp::Show method
 old-location: tsf\itffnshowhelp_show.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: e150dffe-4a02-4d16-9017-f86111970aea
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfFnShowHelp interface [Text Services Framework],Show method, ITfFnShowHelp.Show, ITfFnShowHelp::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfFnShowHelp interface, _tsf_itffnshowhelp_show_ref, ctffunc/ITfFnShowHelp::Show, tsf.itffnshowhelp_show
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfFnShowHelp.Show
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfFnShowHelp::Show

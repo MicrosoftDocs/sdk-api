@@ -4,17 +4,16 @@ title: IWSManEx::CreateResourceLocator
 author: windows-sdk-content
 description: Creates a ResourceLocator object that can be used instead of a resource URI in Session object operations such as IWSManSession.Get, IWSManSession.Put, or Session.Enumerate.
 old-location: winrm\iwsmanex_createresourcelocator.htm
-old-project: winrm
+tech.root: WinRM
 ms.assetid: b670865d-96d6-4b06-a9a5-ed74574a0108
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateResourceLocator, CreateResourceLocator method [Windows Remote Management], CreateResourceLocator method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],CreateResourceLocator method, IWSManEx.CreateResourceLocator, IWSManEx::CreateResourceLocator, winrm.iwsmanex_createresourcelocator, wsmandisp/IWSManEx::CreateResourceLocator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManProxyAuthenticationFlags
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSManEx.CreateResourceLocator
 product: Windows
 targetos: Windows
-req.lib: WSManDisp.tlb
-req.dll: WSMAuto.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSManEx::CreateResourceLocator
@@ -62,7 +60,7 @@ Creates a <a href="https://msdn.microsoft.com/0904b7eb-d4ce-46a7-bf58-452e7c0d41
 
 ### -param strResourceLocator
 
-
+TBD
 
 
 ### -param newResourceLocator [out]

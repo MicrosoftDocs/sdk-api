@@ -4,17 +4,16 @@ title: ID2D1VertexBuffer::Map
 author: windows-sdk-content
 description: Maps the provided data into user memory.
 old-location: direct2d\id2d1vertexbuffer_map.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 3EFC0584-2F03-4B35-8C6C-E46CDD9D9057
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1VertexBuffer interface [Direct2D],Map method, ID2D1VertexBuffer.Map, ID2D1VertexBuffer::Map, Map, Map method [Direct2D], Map method [Direct2D],ID2D1VertexBuffer interface, d2d1effectauthor/ID2D1VertexBuffer::Map, direct2d.id2d1vertexbuffer_map
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_USAGE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1VertexBuffer.Map
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1VertexBuffer::Map

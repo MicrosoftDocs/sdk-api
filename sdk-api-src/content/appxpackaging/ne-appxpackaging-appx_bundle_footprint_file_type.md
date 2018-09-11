@@ -4,7 +4,7 @@ title: APPX_BUNDLE_FOOTPRINT_FILE_TYPE
 author: windows-sdk-content
 description: Specifies the type of footprint file in a bundle.
 old-location: appxpkg\appx_bundle_footprint_file_type.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 1BC2B15B-9DF3-48D8-B7BE-BEC1E5D7E6E3
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_BUNDLE_FOOTPRINT_FILE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - APPX_BUNDLE_FOOTPRINT_FILE_TYPE
 product: Windows
 targetos: Windows
-req.lib: Appnotify.lib
-req.dll: Twinapi.core.dll
-req.irql: 
+req.typenames: APPX_BUNDLE_FOOTPRINT_FILE_TYPE
+req.redist: 
 ---
 
 # APPX_BUNDLE_FOOTPRINT_FILE_TYPE enumeration

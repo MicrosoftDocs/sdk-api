@@ -4,17 +4,16 @@ title: "_VSS_BACKUP_SCHEMA"
 author: windows-sdk-content
 description: Used by a writer to indicate the types of backup operations it can participate in.
 old-location: base\vss_backup_schema.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 3541c8bd-2712-458b-9153-1fffe6bf5688
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVSS_BACKUP_SCHEMA, PVSS_BACKUP_SCHEMA, PVSS_BACKUP_SCHEMA enumeration pointer [VSS], VSS_BACKUP_SCHEMA, VSS_BACKUP_SCHEMA enumeration [VSS], VSS_BS_AUTHORITATIVE_RESTORE, VSS_BS_COPY, VSS_BS_DIFFERENTIAL, VSS_BS_EXCLUSIVE_INCREMENTAL_DIFFERENTIAL, VSS_BS_INCREMENTAL, VSS_BS_INDEPENDENT_SYSTEM_STATE, VSS_BS_LAST_MODIFY, VSS_BS_LOG, VSS_BS_LSN, VSS_BS_RESTORE_RENAME, VSS_BS_ROLLFORWARD_RESTORE, VSS_BS_TIMESTAMPED, VSS_BS_UNDEFINED, VSS_BS_WRITER_SUPPORTS_NEW_TARGET, VSS_BS_WRITER_SUPPORTS_PARALLEL_RESTORES, VSS_BS_WRITER_SUPPORTS_RESTORE_WITH_MOVE, _VSS_BACKUP_SCHEMA, _win32_vss_backup_schema, base.vss_backup_schema, vss/PVSS_BACKUP_SCHEMA, vss/VSS_BACKUP_SCHEMA, vss/VSS_BS_AUTHORITATIVE_RESTORE, vss/VSS_BS_COPY, vss/VSS_BS_DIFFERENTIAL, vss/VSS_BS_EXCLUSIVE_INCREMENTAL_DIFFERENTIAL, vss/VSS_BS_INCREMENTAL, vss/VSS_BS_INDEPENDENT_SYSTEM_STATE, vss/VSS_BS_LAST_MODIFY, vss/VSS_BS_LOG, vss/VSS_BS_LSN, vss/VSS_BS_RESTORE_RENAME, vss/VSS_BS_ROLLFORWARD_RESTORE, vss/VSS_BS_TIMESTAMPED, vss/VSS_BS_UNDEFINED, vss/VSS_BS_WRITER_SUPPORTS_NEW_TARGET, vss/VSS_BS_WRITER_SUPPORTS_PARALLEL_RESTORES, vss/VSS_BS_WRITER_SUPPORTS_RESTORE_WITH_MOVE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_BACKUP_SCHEMA, *PVSS_BACKUP_SCHEMA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_BACKUP_SCHEMA
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_BACKUP_SCHEMA, *PVSS_BACKUP_SCHEMA
+req.redist: 
 ---
 
 # _VSS_BACKUP_SCHEMA enumeration

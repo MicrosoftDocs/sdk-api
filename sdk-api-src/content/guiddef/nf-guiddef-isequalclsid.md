@@ -4,17 +4,16 @@ title: IsEqualCLSID macro
 author: windows-sdk-content
 description: Determines whether two CLSIDs are equal.
 old-location: com\isequalclsid.htm
-old-project: com
+tech.root: com
 ms.assetid: f55ae128-8667-45df-a93e-37812a3409b5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IsEqualCLSID, IsEqualCLSID function [COM], _com_IsEqualCLSID, com.isequalclsid, guiddef/IsEqualCLSID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: guiddef.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IsEqualCLSID
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IsEqualCLSID macro

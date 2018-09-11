@@ -4,17 +4,16 @@ title: IPlayToSourceClassFactory::CreateInstance
 author: windows-sdk-content
 description: Creates an instance of the PlayToController object.
 old-location: mf\iplaytosourceclassfactory_createinstance.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3F7F8441-B0A2-407E-B127-C7DC66CA34DE
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IPlayToSourceClassFactory interface, IPlayToSourceClassFactory interface [Media Foundation],CreateInstance method, IPlayToSourceClassFactory.CreateInstance, IPlayToSourceClassFactory::CreateInstance, mf.iplaytocontrollerclassfactory_createinstance, mf.iplaytosourceclassfactory_createinstance, mfsharingengine/IPlayToSourceClassFactory::CreateInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfsharingengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PLAYTO_SOURCE_CREATEFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPlayToSourceClassFactory.CreateInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPlayToSourceClassFactory::CreateInstance
@@ -72,7 +70,7 @@ A pointer to the <a href="https://msdn.microsoft.com/53355EEA-559B-4803-89F6-D45
 
 ### -param ppSource
 
-
+TBD
 
 
 

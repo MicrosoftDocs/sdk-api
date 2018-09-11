@@ -4,17 +4,16 @@ title: XAUDIO2_EFFECT_DESCRIPTOR
 author: windows-sdk-content
 description: Contains information about an XAPO for use in an effect chain.
 old-location: xaudio2\xaudio2_effect_descriptor.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_EFFECT_DESCRIPTOR
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: XAUDIO2_EFFECT_DESCRIPTOR, XAUDIO2_EFFECT_DESCRIPTOR structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_effect_descriptor, xaudio2/XAUDIO2_EFFECT_DESCRIPTOR
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: xaudio2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2_EFFECT_DESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XAUDIO2_EFFECT_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: XAUDIO2_EFFECT_DESCRIPTOR
+req.redist: 
 ---
 
 # XAUDIO2_EFFECT_DESCRIPTOR structure

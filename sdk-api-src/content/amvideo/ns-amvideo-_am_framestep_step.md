@@ -4,7 +4,7 @@ title: "_AM_FRAMESTEP_STEP"
 author: windows-sdk-content
 description: Specifies the number of frames to step.
 old-location: dshow\am_property_framestep.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 342029c8-0b2b-45d2-852d-062a8d297d28
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: amvideo.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_FRAMESTEP_STEP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AM_FRAMESTEP_STEP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AM_FRAMESTEP_STEP
+req.redist: 
 ---
 
 # _AM_FRAMESTEP_STEP structure

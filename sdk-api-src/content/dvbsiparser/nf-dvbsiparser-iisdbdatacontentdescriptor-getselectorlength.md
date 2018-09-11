@@ -4,17 +4,16 @@ title: IIsdbDataContentDescriptor::GetSelectorLength
 author: windows-sdk-content
 description: Gets the length of the selector part of an Integrated Services Digital Broadcasting (ISDB) data content descriptor, in bytes.
 old-location: mstv\iisdbdatacontentdescriptor_getselectorlength.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 485ac963-e85a-41cc-adcd-93590b327061
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSelectorLength, GetSelectorLength method [Microsoft TV Technologies], GetSelectorLength method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetSelectorLength method, IIsdbDataContentDescriptor.GetSelectorLength, IIsdbDataContentDescriptor::GetSelectorLength, dvbsiparser/IIsdbDataContentDescriptor::GetSelectorLength, mstv.iisdbdatacontentdescriptor_getselectorlength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbDataContentDescriptor.GetSelectorLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbDataContentDescriptor::GetSelectorLength

@@ -4,17 +4,16 @@ title: DsListServersInSiteW function
 author: windows-sdk-content
 description: Lists all the servers in a site.
 old-location: ad\dslistserversinsite.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 46773631-d464-4d9e-83e7-aa502599df71
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsListServersInSite, DsListServersInSite function [Active Directory], DsListServersInSiteA, DsListServersInSiteW, _glines_dslistserversinsite, ad.dslistserversinsite, ntdsapi/DsListServersInSite, ntdsapi/DsListServersInSiteA, ntdsapi/DsListServersInSiteW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsListServersInSiteW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsListServersInSiteW function

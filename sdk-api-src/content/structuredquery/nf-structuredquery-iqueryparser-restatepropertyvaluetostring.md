@@ -4,17 +4,16 @@ title: IQueryParser::RestatePropertyValueToString
 author: windows-sdk-content
 description: Restates a specified property for a condition as a query string.
 old-location: search\_search_IQueryParser_RestatePropertyValueToString.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\restatepropertyvaluetostring.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IQueryParser interface [search],RestatePropertyValueToString method, IQueryParser.RestatePropertyValueToString, IQueryParser::RestatePropertyValueToString, RestatePropertyValueToString, RestatePropertyValueToString method [search], RestatePropertyValueToString method [search],IQueryParser interface, _search_IQueryParser_RestatePropertyValueToString, search._search_IQueryParser_RestatePropertyValueToString, structuredquery/IQueryParser::RestatePropertyValueToString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IQueryParser.RestatePropertyValueToString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IQueryParser::RestatePropertyValueToString

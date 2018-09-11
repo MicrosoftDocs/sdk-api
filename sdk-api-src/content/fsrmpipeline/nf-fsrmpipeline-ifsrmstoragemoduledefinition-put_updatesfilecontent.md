@@ -4,17 +4,16 @@ title: IFsrmStorageModuleDefinition::put_UpdatesFileContent
 author: windows-sdk-content
 description: Determines whether the module updates the contents of the file.
 old-location: fsrm\ifsrmstoragemoduledefinition_updatesfilecontent.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 461befff-0bb4-44a2-9c37-e9a8fb1b080f
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmStorageModuleDefinition interface [File Server Resource Manager],UpdatesFileContent property, IFsrmStorageModuleDefinition.UpdatesFileContent, IFsrmStorageModuleDefinition.put_UpdatesFileContent, IFsrmStorageModuleDefinition::UpdatesFileContent, IFsrmStorageModuleDefinition::get_UpdatesFileContent, IFsrmStorageModuleDefinition::put_UpdatesFileContent, UpdatesFileContent property [File Server Resource Manager], UpdatesFileContent property [File Server Resource Manager],IFsrmStorageModuleDefinition interface, fs.ifsrmstoragemoduledefinition_updatesfilecontent, fsrm.ifsrmstoragemoduledefinition_updatesfilecontent, fsrmpipeline/IFsrmStorageModuleDefinition::UpdatesFileContent, fsrmpipeline/IFsrmStorageModuleDefinition::get_UpdatesFileContent, fsrmpipeline/IFsrmStorageModuleDefinition::put_UpdatesFileContent, put_UpdatesFileContent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmStorageModuleDefinition.put_UpdatesFileContent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmStorageModuleDefinition::put_UpdatesFileContent

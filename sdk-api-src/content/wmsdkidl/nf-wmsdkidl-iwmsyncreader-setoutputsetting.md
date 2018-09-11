@@ -4,17 +4,16 @@ title: IWMSyncReader::SetOutputSetting
 author: windows-sdk-content
 description: The SetOutputSetting method specifies a named setting for a particular output.
 old-location: wmformat\iwmsyncreader_setoutputsetting.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 8deb322f-8b52-46cf-9b5c-76fa34b6bde2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetOutputSetting method, IWMSyncReader.SetOutputSetting, IWMSyncReader::SetOutputSetting, IWMSyncReaderSetOutputSetting, SetOutputSetting, SetOutputSetting method [windows Media Format], SetOutputSetting method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setoutputsetting, wmsdkidl/IWMSyncReader::SetOutputSetting
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMSyncReader.SetOutputSetting
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMSyncReader::SetOutputSetting

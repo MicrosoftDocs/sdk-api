@@ -4,17 +4,16 @@ title: SetDialogDpiChangeBehavior function
 author: windows-sdk-content
 description: Dialogs in Per-Monitor v2 contexts are automatically DPI scaled. This method lets you customize their DPI change behavior.
 old-location: hidpi\setdialogdpichangebehavior.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: 48A13F57-9D82-4F79-962B-FBD02FFF9B39
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetDialogDpiChangeBehavior, SetDialogDpiChangeBehavior function [High DPI], hidpi.setdialogdpichangebehavior, winuser/SetDialogDpiChangeBehavior
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetDialogDpiChangeBehavior
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SetDialogDpiChangeBehavior function

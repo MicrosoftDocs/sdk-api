@@ -4,17 +4,16 @@ title: DsListServersForDomainInSiteW function
 author: windows-sdk-content
 description: Lists all the servers in a domain in a site.
 old-location: ad\dslistserversfordomaininsite.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 1e346532-bbbe-4b3b-a1cb-6a72319cb3e2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsListServersForDomainInSite, DsListServersForDomainInSite function [Active Directory], DsListServersForDomainInSiteA, DsListServersForDomainInSiteW, _glines_dslistserversfordomaininsite, ad.dslistserversfordomaininsite, ntdsapi/DsListServersForDomainInSite, ntdsapi/DsListServersForDomainInSiteA, ntdsapi/DsListServersForDomainInSiteW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsListServersForDomainInSiteW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsListServersForDomainInSiteW function

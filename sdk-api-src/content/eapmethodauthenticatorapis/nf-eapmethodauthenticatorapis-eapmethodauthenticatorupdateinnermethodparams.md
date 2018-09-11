@@ -4,17 +4,16 @@ title: EapMethodAuthenticatorUpdateInnerMethodParams function
 author: windows-sdk-content
 description: Updates the EAP authentication session settings previous established by a call to EapMethodAuthenticatorBeginSession from the server EAPHost.
 old-location: eaphost\eapmethodauthenticatorupdateinnermethodparams.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 13ca6504-63c6-4dd6-a3bf-0f3929bc527f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapMethodAuthenticatorUpdateInnerMethodParams, EapMethodAuthenticatorUpdateInnerMethodParams function [EAPHost], eaphost.eapmethodauthenticatorupdateinnermethodparams, eapmethodauthenticatorapis/EapMethodAuthenticatorUpdateInnerMethodParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAPHOST_AUTH_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapMethodAuthenticatorUpdateInnerMethodParams
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapMethodAuthenticatorUpdateInnerMethodParams function

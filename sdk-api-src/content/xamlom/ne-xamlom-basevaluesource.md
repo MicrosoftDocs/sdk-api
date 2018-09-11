@@ -4,17 +4,16 @@ title: BaseValueSource
 author: windows-sdk-content
 description: Defines constants that specify where the effective value of a property was set.
 old-location: xaml_diagnostics\basevaluesource.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: 1B5C4153-A266-43B1-B659-FE0FD0FD6A37
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Animation, BaseValueSource, BaseValueSource enumeration, BaseValueSourceBuiltInStyle, BaseValueSourceDefault, BaseValueSourceLocal, BaseValueSourceStyle, BaseValueSourceUnknown, BaseValueSourceVisualState, Coercion, DefaultStyleTrigger, ImplicitStyleReference, Inherited, ParentTemplate, ParentTemplateTrigger, StyleTrigger, TemplateTrigger, xaml_diagnostics.basevaluesource, xamlom/Animation, xamlom/BaseValueSource, xamlom/BaseValueSourceBuiltInStyle, xamlom/BaseValueSourceDefault, xamlom/BaseValueSourceLocal, xamlom/BaseValueSourceStyle, xamlom/BaseValueSourceUnknown, xamlom/BaseValueSourceVisualState, xamlom/Coercion, xamlom/DefaultStyleTrigger, xamlom/ImplicitStyleReference, xamlom/Inherited, xamlom/ParentTemplate, xamlom/ParentTemplateTrigger, xamlom/StyleTrigger, xamlom/TemplateTrigger
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BaseValueSource
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BaseValueSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: BaseValueSource
+req.redist: 
 ---
 
 # BaseValueSource enumeration

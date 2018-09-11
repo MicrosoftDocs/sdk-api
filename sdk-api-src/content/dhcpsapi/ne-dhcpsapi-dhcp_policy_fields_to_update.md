@@ -4,7 +4,7 @@ title: DHCP_POLICY_FIELDS_TO_UPDATE
 author: windows-sdk-content
 description: The DHCP_POLICY_FIELDS_TO_UPDATE enumeration defines which properties of a DHCP server policy must be updated.
 old-location: dhcp\dhcp_policy_fields_to_update.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 5ce80514-ad63-44dd-9b9b-36679a97488b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_POLICY_FIELDS_TO_UPDATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_POLICY_FIELDS_TO_UPDATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_POLICY_FIELDS_TO_UPDATE
+req.redist: 
 ---
 
 # DHCP_POLICY_FIELDS_TO_UPDATE enumeration

@@ -4,7 +4,7 @@ title: D2D1_MAPPED_RECT
 author: windows-sdk-content
 description: Describes mapped memory from the ID2D1Bitmap1::Map API.
 old-location: direct2d\d2d1_mapped_rect.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 1cd81f1a-c39b-4975-a801-aa9444dde172
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: D2D1.lib
-tech.root: 
-req.typenames: D2D1_MAPPED_RECT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_MAPPED_RECT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_MAPPED_RECT
+req.redist: 
 ---
 
 # D2D1_MAPPED_RECT structure

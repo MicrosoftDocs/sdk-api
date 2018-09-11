@@ -4,17 +4,16 @@ title: CfGetPlaceholderStateFromAttributeTag function
 author: windows-sdk-content
 description: Gets a set of placeholder states based on the FileAttributes and ReparseTag values of the file.
 old-location: cloudapi\cfgetplaceholderstatefromattributetag.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: D7B4FB60-3388-489F-9F55-153B53BBDA9F
 ms.author: windowssdkdev
 ms.date: 02/27/2018
 ms.keywords: CfGetPlaceholderStateFromAttributeTag, CfGetPlaceholderStateFromAttributeTag function, cfapi/CfGetPlaceholderStateFromAttributeTag, cloudApi.cfgetplaceholderstatefromattributetag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_UPDATE_FLAGS
+req.lib: CldApi.lib
+req.dll: CldApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CfGetPlaceholderStateFromAttributeTag
 product: Windows
 targetos: Windows
-req.lib: CldApi.lib
-req.dll: CldApi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CfGetPlaceholderStateFromAttributeTag function

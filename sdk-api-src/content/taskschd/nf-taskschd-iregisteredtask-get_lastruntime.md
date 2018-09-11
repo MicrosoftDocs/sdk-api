@@ -4,17 +4,16 @@ title: IRegisteredTask::get_LastRunTime
 author: windows-sdk-content
 description: Gets the time the registered task was last run.
 old-location: taskschd\iregisteredtask_lastruntime.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: c7ac7fea-35c7-4336-9142-6c97caa1dea0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],LastRunTime property, IRegisteredTask.LastRunTime, IRegisteredTask.get_LastRunTime, IRegisteredTask::LastRunTime, IRegisteredTask::get_LastRunTime, LastRunTime property [Task Scheduler], LastRunTime property [Task Scheduler],IRegisteredTask interface, get_LastRunTime, taskschd.iregisteredtask_lastruntime, taskschd/IRegisteredTask::LastRunTime, taskschd/IRegisteredTask::get_LastRunTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IRegisteredTask.get_LastRunTime
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRegisteredTask::get_LastRunTime

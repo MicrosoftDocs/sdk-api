@@ -4,17 +4,16 @@ title: IModalWindow::Show
 author: windows-sdk-content
 description: Launches the modal window.
 old-location: shell\IModalWindow_Show.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0284b694-64d1-48db-bef3-92f808b29b23
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IModalWindow interface [Windows Shell],Show method, IModalWindow.Show, IModalWindow::Show, Show, Show method [Windows Shell], Show method [Windows Shell],IModalWindow interface, _win32_IModalWindow_Show, shell.IModalWindow_Show, shobjidl_core/IModalWindow::Show
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IModalWindow.Show
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IModalWindow::Show

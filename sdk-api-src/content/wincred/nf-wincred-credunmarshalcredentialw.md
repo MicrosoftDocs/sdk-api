@@ -4,17 +4,16 @@ title: CredUnmarshalCredentialW function
 author: windows-sdk-content
 description: The CredUnmarshalCredential function transforms a marshaled credential back into its original form.
 old-location: security\credunmarshalcredential.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 65757235-d92c-479f-8e2b-1f8d8564792b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CredUnmarshalCredential, CredUnmarshalCredential function [Security], CredUnmarshalCredentialA, CredUnmarshalCredentialW, _cred_credunmarshalcredential, security.credunmarshalcredential, wincred/CredUnmarshalCredential, wincred/CredUnmarshalCredentialA, wincred/CredUnmarshalCredentialW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - CredUnmarshalCredentialW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CredUnmarshalCredentialW function

@@ -4,7 +4,7 @@ title: WAVEFORMATEXTENSIBLE
 author: windows-sdk-content
 description: The WAVEFORMATEXTENSIBLE structure defines the format of waveform-audio data for formats having more than two channels or higher sample resolutions than allowed by WAVEFORMATEX.
 old-location: multimedia\waveformatextensible.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 179d6c0c-ea80-4e9f-9e1b-43785f20cbd3
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WAVEFORMATEXTENSIBLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE
+req.redist: 
 ---
 
 # WAVEFORMATEXTENSIBLE structure

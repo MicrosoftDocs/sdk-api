@@ -4,17 +4,16 @@ title: InitPropVariantFromUInt16Vector function
 author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a vector of 16-bit unsigned integer values.
 old-location: properties\InitPropVariantFromUInt16Vector.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 2e0eebd9-c246-42a7-90a8-d27fff6a2eab
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: InitPropVariantFromUInt16Vector, InitPropVariantFromUInt16Vector function [Windows Properties], properties.InitPropVariantFromUInt16Vector, propvarutil/InitPropVariantFromUInt16Vector, shell.InitPropVariantFromUInt16Vector, shell_InitPropVariantFromUInt16Vector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InitPropVariantFromUInt16Vector
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # InitPropVariantFromUInt16Vector function

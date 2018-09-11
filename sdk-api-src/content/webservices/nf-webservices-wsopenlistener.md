@@ -4,17 +4,16 @@ title: WsOpenListener function
 author: windows-sdk-content
 description: Initiates &#0034;listening&#0034; on a specified address. Once a listener is opened channels can be accepted from it. If the open is successful the Listener must be closed using the WsCloseListener function before Listener resources can be released.
 old-location: wsw\wsopenlistener.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 36226881-3fe7-4510-b147-7ee30146482c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsOpenListener, WsOpenListener function [Web Services for Windows], webservices/WsOpenListener, wsw.wsopenlistener
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsOpenListener
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsOpenListener function

@@ -4,7 +4,7 @@ title: "_TCP_BOOLEAN_OPTIONAL"
 author: windows-sdk-content
 description: Defines the states that a caller can specify when updating a member in the read/write information for a TCP connection.
 old-location: iphlp\tcp_boolean_optional.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 68f8f797-06fb-4286-88bc-220c54977575
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tcpestats.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TCP_BOOLEAN_OPTIONAL, *PTCP_BOOLEAN_OPTIONAL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TCP_BOOLEAN_OPTIONAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TCP_BOOLEAN_OPTIONAL, *PTCP_BOOLEAN_OPTIONAL
+req.redist: 
 ---
 
 # _TCP_BOOLEAN_OPTIONAL enumeration

@@ -4,17 +4,16 @@ title: DhcpRemoveOption function
 author: windows-sdk-content
 description: Removes the definition of a specific option for the default user class and vendor class at the default option level on the DHCP server.
 old-location: dhcp\dhcpremoveoption.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: a165d88c-113c-41ed-920e-f8f434578158
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpRemoveOption, DhcpRemoveOption function [DHCP], dhcp.dhcpremoveoption, dhcpsapi/DhcpRemoveOption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpRemoveOption
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpRemoveOption function

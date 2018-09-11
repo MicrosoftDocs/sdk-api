@@ -4,17 +4,16 @@ title: IPhotoAcquirePlugin::TransferComplete
 author: windows-sdk-content
 description: Provides extended functionality when a transfer session is completed. The application provides the implementation of the TransferComplete method.
 old-location: picacq\iphotoacquireplugin_transfercomplete.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 915e676a-4aaa-4b10-b913-51b856c61dba
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],TransferComplete method, IPhotoAcquirePlugin.TransferComplete, IPhotoAcquirePlugin::TransferComplete, IPhotoAcquirePluginTransferComplete, TransferComplete, TransferComplete method [Picture Acquisition], TransferComplete method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::TransferComplete, picacq.iphotoacquireplugin_transfercomplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquirePlugin.TransferComplete
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquirePlugin::TransferComplete
@@ -66,7 +64,7 @@ Provides extended functionality when a transfer session is completed. The applic
 
 ### -param hr
 
-
+TBD
 
 
 

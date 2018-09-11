@@ -4,17 +4,16 @@ title: IAzTask::AddOperation
 author: windows-sdk-content
 description: Adds the IAzOperation object with the specified name to the task.
 old-location: security\iaztask_addoperation.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 73da7094-440c-4e68-8d43-9f4ba26dd14b
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AddOperation, AddOperation method [Security], AddOperation method [Security],AzTask object, AddOperation method [Security],IAzTask interface, AzTask object [Security],AddOperation method, IAzTask interface [Security],AddOperation method, IAzTask.AddOperation, IAzTask::AddOperation, azroles/IAzTask::AddOperation, security.iaztask_addoperation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzTask.AddOperation
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzTask::AddOperation

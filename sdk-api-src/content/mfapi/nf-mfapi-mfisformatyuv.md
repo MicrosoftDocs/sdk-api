@@ -4,17 +4,16 @@ title: MFIsFormatYUV function
 author: windows-sdk-content
 description: Queries whether a FOURCC code or D3DFORMAT value is a YUV format.
 old-location: mf\mfisformatyuv.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: dbf6acd3-79c6-4ec2-a867-f2b2d8b41f53
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFIsFormatYUV, MFIsFormatYUV function [Media Foundation], dbf6acd3-79c6-4ec2-a867-f2b2d8b41f53, mf.mfisformatyuv, mfapi/MFIsFormatYUV
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Evr.lib
+req.dll: Evr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFIsFormatYUV
 product: Windows
 targetos: Windows
-req.lib: Evr.lib
-req.dll: Evr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFIsFormatYUV function

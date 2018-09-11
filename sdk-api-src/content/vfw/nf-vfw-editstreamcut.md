@@ -4,17 +4,16 @@ title: EditStreamCut function
 author: windows-sdk-content
 description: The EditStreamCut function deletes all or part of an editable stream and creates a temporary editable stream from the deleted portion of the stream.
 old-location: multimedia\editstreamcut.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 201f977c-926b-470c-b1ae-62946e6f691e
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: EditStreamCut, EditStreamCut function [Windows Multimedia], _win32_EditStreamCut, multimedia.editstreamcut, vfw/EditStreamCut
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EditStreamCut
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # EditStreamCut function

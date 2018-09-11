@@ -4,17 +4,16 @@ title: IBDA_DigitalDemodulator2::put_RollOff
 author: windows-sdk-content
 description: Sets the demodulator's roll-off factor.
 old-location: mstv\ibda_digitaldemodulator2_put_rolloff.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ade8c334-b7b3-464e-a3ab-f8816a44a9dd
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_RollOff method, IBDA_DigitalDemodulator2.put_RollOff, IBDA_DigitalDemodulator2::put_RollOff, bdaiface/IBDA_DigitalDemodulator2::put_RollOff, mstv.ibda_digitaldemodulator2_put_rolloff, put_RollOff, put_RollOff method [Microsoft TV Technologies], put_RollOff method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_DigitalDemodulator2.put_RollOff
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_DigitalDemodulator2::put_RollOff

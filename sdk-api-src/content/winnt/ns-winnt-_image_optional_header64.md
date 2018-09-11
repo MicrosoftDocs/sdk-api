@@ -4,17 +4,16 @@ title: "_IMAGE_OPTIONAL_HEADER64"
 author: windows-sdk-content
 description: Represents the optional header format.
 old-location: base\image_optional_header_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: b6a50ffc-49f8-4824-9b51-7e381eaf8852
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PIMAGE_OPTIONAL_HEADER64, IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE, IMAGE_DLLCHARACTERISTICS_FORCE_INTEGRITY, IMAGE_DLLCHARACTERISTICS_NO_BIND, IMAGE_DLLCHARACTERISTICS_NO_ISOLATION, IMAGE_DLLCHARACTERISTICS_NO_SEH, IMAGE_DLLCHARACTERISTICS_NX_COMPAT, IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE, IMAGE_DLLCHARACTERISTICS_WDM_DRIVER, IMAGE_NT_OPTIONAL_HDR32_MAGIC, IMAGE_NT_OPTIONAL_HDR64_MAGIC, IMAGE_NT_OPTIONAL_HDR_MAGIC, IMAGE_OPTIONAL_HEADER, IMAGE_OPTIONAL_HEADER structure, IMAGE_OPTIONAL_HEADER32, IMAGE_OPTIONAL_HEADER64, IMAGE_ROM_OPTIONAL_HDR_MAGIC, IMAGE_SUBSYSTEM_EFI_APPLICATION, IMAGE_SUBSYSTEM_EFI_BOOT_SERVICE_DRIVER, IMAGE_SUBSYSTEM_EFI_ROM, IMAGE_SUBSYSTEM_EFI_RUNTIME_DRIVER, IMAGE_SUBSYSTEM_NATIVE, IMAGE_SUBSYSTEM_OS2_CUI, IMAGE_SUBSYSTEM_POSIX_CUI, IMAGE_SUBSYSTEM_UNKNOWN, IMAGE_SUBSYSTEM_WINDOWS_BOOT_APPLICATION, IMAGE_SUBSYSTEM_WINDOWS_CE_GUI, IMAGE_SUBSYSTEM_WINDOWS_CUI, IMAGE_SUBSYSTEM_WINDOWS_GUI, IMAGE_SUBSYSTEM_XBOX, PIMAGE_OPTIONAL_HEADER, PIMAGE_OPTIONAL_HEADER structure pointer, PIMAGE_OPTIONAL_HEADER32, PIMAGE_OPTIONAL_HEADER64, _IMAGE_OPTIONAL_HEADER, _IMAGE_OPTIONAL_HEADER64, _win32_image_optional_header_str, base.image_optional_header_str, winnt/IMAGE_OPTIONAL_HEADER, winnt/PIMAGE_OPTIONAL_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGE_OPTIONAL_HEADER64, *PIMAGE_OPTIONAL_HEADER64
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - PIMAGE_OPTIONAL_HEADER64
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: IMAGE_OPTIONAL_HEADER64, *PIMAGE_OPTIONAL_HEADER64
+req.redist: 
 ---
 
 # _IMAGE_OPTIONAL_HEADER64 structure

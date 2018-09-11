@@ -4,17 +4,16 @@ title: IMILBitmapEffectGroupImpl
 author: windows-sdk-content
 description: Exposes methods that define an effect group.
 old-location: wibe\_wibe_imilbitmapeffectgroupimpl.htm
-old-project: wibe
+tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\imilbitmapeffectgroupimpl.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IMILBitmapEffectGroupImpl, IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects], IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectgroupimpl, mileffects/IMILBitmapEffectGroupImpl, wibe._wibe_imilbitmapeffectgroupimpl
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mileffects.h
 req.include-header: 
-req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMILBitmapEffectGroupImpl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mileffects.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Microsoft .Net 3.0
 ---
 
 # IMILBitmapEffectGroupImpl interface

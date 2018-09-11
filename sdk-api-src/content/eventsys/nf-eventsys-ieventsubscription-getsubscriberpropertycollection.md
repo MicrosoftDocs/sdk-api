@@ -4,17 +4,16 @@ title: IEventSubscription::GetSubscriberPropertyCollection
 author: windows-sdk-content
 description: Retrieves a collection of properties and values stored in the subscriber property bag.
 old-location: cos\ieventsubscription_getsubscriberpropertycollection.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 33d00424-a285-4953-aa96-be30d3e7da17
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetSubscriberPropertyCollection, GetSubscriberPropertyCollection method [COM+], GetSubscriberPropertyCollection method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetSubscriberPropertyCollection method, IEventSubscription.GetSubscriberPropertyCollection, IEventSubscription::GetSubscriberPropertyCollection, _cos_IEventSubscription_GetSubscriberPropertyCollection, cos.ieventsubscription_getsubscriberpropertycollection, eventsys/IEventSubscription::GetSubscriberPropertyCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEventSubscription.GetSubscriberPropertyCollection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventSubscription::GetSubscriberPropertyCollection

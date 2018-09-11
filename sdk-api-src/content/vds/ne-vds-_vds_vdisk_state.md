@@ -4,17 +4,16 @@ title: "_VDS_VDISK_STATE"
 author: windows-sdk-content
 description: Defines the set of status values for a virtual disk object.
 old-location: base\vds_vdisk_state.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 62906f28-f6ae-488c-bf1f-655de5c7b95e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_VDISK_STATE, VDS_VDISK_STATE enumeration, VDS_VST_ADDED, VDS_VST_ATTACHED, VDS_VST_ATTACHED_NOT_OPEN, VDS_VST_ATTACH_PENDING, VDS_VST_COMPACTING, VDS_VST_DELETED, VDS_VST_DETACH_PENDING, VDS_VST_EXPANDING, VDS_VST_MAX, VDS_VST_MERGING, VDS_VST_OPEN, VDS_VST_UNKNOWN, _VDS_VDISK_STATE, base.vds_vdisk_state, vds/VDS_VDISK_STATE, vds/VDS_VST_ADDED, vds/VDS_VST_ATTACHED, vds/VDS_VST_ATTACHED_NOT_OPEN, vds/VDS_VST_ATTACH_PENDING, vds/VDS_VST_COMPACTING, vds/VDS_VST_DELETED, vds/VDS_VST_DETACH_PENDING, vds/VDS_VST_EXPANDING, vds/VDS_VST_MAX, vds/VDS_VST_MERGING, vds/VDS_VST_OPEN, vds/VDS_VST_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VDISK_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_VDISK_STATE
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_VDISK_STATE
+req.redist: 
 ---
 
 # _VDS_VDISK_STATE enumeration

@@ -4,7 +4,7 @@ title: IPSEC_DOSP_STATE0_
 author: windows-sdk-content
 description: Used to store state information for IPsec DoS Protection.
 old-location: fwp\ipsec_dosp_state0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: e3653c19-0e0b-4026-a32d-509c4bb71008
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_DOSP_STATE0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_DOSP_STATE0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_DOSP_STATE0
+req.redist: 
 ---
 
 # IPSEC_DOSP_STATE0_ structure

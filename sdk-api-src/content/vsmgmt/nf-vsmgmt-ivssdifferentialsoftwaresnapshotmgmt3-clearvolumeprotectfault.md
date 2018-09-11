@@ -4,17 +4,16 @@ title: IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
 author: windows-sdk-content
 description: Clears the protection fault state for the specified volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 07257d34-23b1-47bf-b613-f65f5d2a977e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClearVolumeProtectFault, ClearVolumeProtectFault method, ClearVolumeProtectFault method,IVssDifferentialSoftwareSnapshotMgmt3 interface, IVssDifferentialSoftwareSnapshotMgmt3 interface,ClearVolumeProtectFault method, IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault, IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault, base.ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault

@@ -4,7 +4,7 @@ title: peer_member_flags_tag
 author: windows-sdk-content
 description: The PEER_MEMBER_FLAGS flag allows an application to specify whether all members or only present ones should be enumerated when the PeerGroupEnumMembers function is called, or to indicate whether or not a member is present within the peer group.
 old-location: p2p\peer_member_flags.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 96a8e4ae-dce6-4f07-ab22-71da347ef347
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_MEMBER_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_MEMBER_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_MEMBER_FLAGS
+req.redist: 
 ---
 
 # peer_member_flags_tag enumeration

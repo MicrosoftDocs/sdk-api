@@ -4,17 +4,16 @@ title: "_POLICY_NOTIFICATION_INFORMATION_CLASS"
 author: windows-sdk-content
 description: The POLICY_NOTIFICATION_INFORMATION_CLASS enumeration defines the types of policy information and policy domain information for which your application can request notification of changes.
 old-location: security\policy_notification_information_class.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: cf8eea7a-d3b0-4c3a-b05b-3027024ab025
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPOLICY_NOTIFICATION_INFORMATION_CLASS, POLICY_NOTIFICATION_INFORMATION_CLASS, POLICY_NOTIFICATION_INFORMATION_CLASS enumeration [Security], PPOLICY_NOTIFICATION_INFORMATION_CLASS, PPOLICY_NOTIFICATION_INFORMATION_CLASS enumeration pointer [Security], PolicyNotifyAccountDomainInformation, PolicyNotifyAuditEventsInformation, PolicyNotifyDnsDomainInformation, PolicyNotifyDomainEfsInformation, PolicyNotifyDomainKerberosTicketInformation, PolicyNotifyMachineAccountPasswordInformation, PolicyNotifyServerRoleInformation, _POLICY_NOTIFICATION_INFORMATION_CLASS, _lsa_policy_notification_information_class, ntsecapi/POLICY_NOTIFICATION_INFORMATION_CLASS, ntsecapi/PPOLICY_NOTIFICATION_INFORMATION_CLASS, ntsecapi/PolicyNotifyAccountDomainInformation, ntsecapi/PolicyNotifyAuditEventsInformation, ntsecapi/PolicyNotifyDnsDomainInformation, ntsecapi/PolicyNotifyDomainEfsInformation, ntsecapi/PolicyNotifyDomainKerberosTicketInformation, ntsecapi/PolicyNotifyMachineAccountPasswordInformation, ntsecapi/PolicyNotifyServerRoleInformation, security.policy_notification_information_class"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_NOTIFICATION_INFORMATION_CLASS, *PPOLICY_NOTIFICATION_INFORMATION_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POLICY_NOTIFICATION_INFORMATION_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: POLICY_NOTIFICATION_INFORMATION_CLASS, *PPOLICY_NOTIFICATION_INFORMATION_CLASS
+req.redist: 
 ---
 
 # _POLICY_NOTIFICATION_INFORMATION_CLASS enumeration

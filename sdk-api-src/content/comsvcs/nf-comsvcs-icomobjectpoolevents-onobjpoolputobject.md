@@ -4,17 +4,16 @@ title: IComObjectPoolEvents::OnObjPoolPutObject
 author: windows-sdk-content
 description: Generated when a new object is added to the pool.
 old-location: cos\icomobjectpoolevents_onobjpoolputobject.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 00b0b3b1-943d-4fba-bd5d-52d6de80fcf6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolPutObject method, IComObjectPoolEvents.OnObjPoolPutObject, IComObjectPoolEvents::OnObjPoolPutObject, OnObjPoolPutObject, OnObjPoolPutObject method [COM+], OnObjPoolPutObject method [COM+],IComObjectPoolEvents interface, _dtc_IComObjectPoolEvents_OnObjPoolPutObject, comsvcs/IComObjectPoolEvents::OnObjPoolPutObject, cos.icomobjectpoolevents_onobjpoolputobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComObjectPoolEvents.OnObjPoolPutObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComObjectPoolEvents::OnObjPoolPutObject

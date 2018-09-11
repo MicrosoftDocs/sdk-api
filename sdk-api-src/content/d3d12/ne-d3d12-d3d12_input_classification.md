@@ -4,7 +4,7 @@ title: D3D12_INPUT_CLASSIFICATION
 author: windows-sdk-content
 description: Identifies the type of data contained in an input slot.
 old-location: direct3d12\d3d12_input_classification.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 09A14704-2E0B-4994-BED4-94F933A47317
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_INPUT_CLASSIFICATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_INPUT_CLASSIFICATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_INPUT_CLASSIFICATION
+req.redist: 
 ---
 
 # D3D12_INPUT_CLASSIFICATION enumeration

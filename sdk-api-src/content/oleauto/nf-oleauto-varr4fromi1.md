@@ -4,17 +4,16 @@ title: VarR4FromI1 function
 author: windows-sdk-content
 description: Onverts a char value to a float value.
 old-location: automat\varr4fromi1.htm
-old-project: automat
+tech.root: automat
 ms.assetid: a8996080-98a7-439d-a300-3fd3930872fb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarR4FromI1, VarR4FromI1 function [Automation], _oa96_VarR4FromI1, automat.varr4fromi1, oleauto/VarR4FromI1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarR4FromI1
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarR4FromI1 function

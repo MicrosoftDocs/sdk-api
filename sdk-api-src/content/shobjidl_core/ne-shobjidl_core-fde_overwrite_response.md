@@ -4,17 +4,16 @@ title: FDE_OVERWRITE_RESPONSE
 author: windows-sdk-content
 description: Specifies the values used by the IFileDialogEvents::OnOverwrite method to indicate an application's response to an overwrite request during a save operation using the common file dialog.
 old-location: shell\FDE_OVERWRITE_RESPONSE.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2f278004-7f86-4b08-a724-bb95606c5d51
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: FDEOR_ACCEPT, FDEOR_DEFAULT, FDEOR_REFUSE, FDE_OVERWRITE_RESPONSE, FDE_OVERWRITE_RESPONSE enumeration [Windows Shell], shell.FDE_OVERWRITE_RESPONSE, shell_FDE_OVERWRITE_RESPONSE, shobjidl_core/FDEOR_ACCEPT, shobjidl_core/FDEOR_DEFAULT, shobjidl_core/FDEOR_REFUSE, shobjidl_core/FDE_OVERWRITE_RESPONSE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FDE_OVERWRITE_RESPONSE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FDE_OVERWRITE_RESPONSE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: FDE_OVERWRITE_RESPONSE
+req.redist: 
 ---
 
 # FDE_OVERWRITE_RESPONSE enumeration

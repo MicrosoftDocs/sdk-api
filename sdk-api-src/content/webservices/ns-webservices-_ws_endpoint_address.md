@@ -4,17 +4,16 @@ title: "_WS_ENDPOINT_ADDRESS"
 author: windows-sdk-content
 description: Represents the network address of an endpoint.
 old-location: wsw\ws_endpoint_address.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 4e9b5f3e-849f-46aa-a94a-3cd6ae16275f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_ENDPOINT_ADDRESS, WS_ENDPOINT_ADDRESS structure [Web Services for Windows], _WS_ENDPOINT_ADDRESS, webservices/WS_ENDPOINT_ADDRESS, wsw.ws_endpoint_address
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_ENDPOINT_ADDRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_ENDPOINT_ADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_ENDPOINT_ADDRESS
+req.redist: 
 ---
 
 # _WS_ENDPOINT_ADDRESS structure

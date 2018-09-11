@@ -4,17 +4,16 @@ title: IMFTimedTextRegion::GetPosition
 author: windows-sdk-content
 description: Gets the position of the region.
 old-location: mf\imftimedtextregion_getposition.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1DEE0689-A428-4121-9ED5-5E4D1376461E
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetPosition, GetPosition method [Media Foundation], GetPosition method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetPosition method, IMFTimedTextRegion.GetPosition, IMFTimedTextRegion::GetPosition, mf.imftimedtextregion_getposition, mfmediaengine/IMFTimedTextRegion::GetPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextRegion.GetPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextRegion::GetPosition
@@ -76,7 +74,7 @@ A pointer to a variable that receives the Y-coordinate of the position.
 
 ### -param unitType
 
-
+TBD
 
 
 

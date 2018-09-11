@@ -4,17 +4,16 @@ title: IRadialControllerConfigurationInterop::GetForWindow
 author: windows-sdk-content
 description: Retrieves a RadialControllerConfiguration object bound to the active application.
 old-location: input_radial\iradialcontrollerconfigurationinterop_getforwindow.htm
-old-project: Input_Radial
+tech.root: Input_Radial
 ms.assetid: f2182f3a-82a8-40be-b331-673a181f4070
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,IRadialControllerConfigurationInterop interface, IRadialControllerConfigurationInterop interface,GetForWindow method, IRadialControllerConfigurationInterop.GetForWindow, IRadialControllerConfigurationInterop::GetForWindow, Input_Radial.iradialcontrollerconfigurationinterop_getforwindow, radialcontrollerinterop/IRadialControllerConfigurationInterop::GetForWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: radialcontrollerinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_STATUS_INFO, *LPRSVP_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRadialControllerConfigurationInterop.GetForWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRadialControllerConfigurationInterop::GetForWindow

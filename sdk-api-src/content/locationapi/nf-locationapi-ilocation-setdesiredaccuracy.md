@@ -4,17 +4,16 @@ title: ILocation::SetDesiredAccuracy
 author: windows-sdk-content
 description: Specifies the accuracy to be used.
 old-location: winlocation\ilocation_setdesiredaccuracy.htm
-old-project: locationapi
+tech.root: locationapi
 ms.assetid: 85623570-3b48-42ea-babd-fe4282629d92
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ILocation interface [WinLocation],SetDesiredAccuracy method, ILocation.SetDesiredAccuracy, ILocation::SetDesiredAccuracy, SetDesiredAccuracy, SetDesiredAccuracy method [WinLocation], SetDesiredAccuracy method [WinLocation],ILocation interface, locationapi/ILocation::SetDesiredAccuracy, winlocation.ilocation_setdesiredaccuracy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCATION_REPORT_STATUS
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILocation.SetDesiredAccuracy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: LocationAPI.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ILocation::SetDesiredAccuracy
@@ -68,9 +66,9 @@ Specifies the accuracy to be used.
 <b>REFIID</b> that specifies the report type for which to set the accuracy to be used.
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 

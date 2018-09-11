@@ -4,17 +4,16 @@ title: IShellImageStore::GetEntry
 author: windows-sdk-content
 description: Gets a handle to an image in the cache.
 old-location: shell\IShellImageStore_GetEntry.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 580e2901-ae08-4c9f-99ee-7ba2f7fe6e52
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetEntry, GetEntry method [Windows Shell], GetEntry method [Windows Shell],IShellImageStore interface, IShellImageStore interface [Windows Shell],GetEntry method, IShellImageStore.GetEntry, IShellImageStore::GetEntry, _win32_IShellImageStore_GetEntry, shell.IShellImageStore_GetEntry, shlobj/IShellImageStore::GetEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageStore.GetEntry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageStore::GetEntry

@@ -4,17 +4,16 @@ title: IVdsStoragePool::GetProvider
 author: windows-sdk-content
 description: Returns the hardware provider that manages the storage pool.
 old-location: base\ivdsstoragepool_getprovider.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 46265fca-eabd-4d42-b1fd-6a09c566cde9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetProvider, GetProvider method, GetProvider method,IVdsStoragePool interface, IVdsStoragePool interface,GetProvider method, IVdsStoragePool.GetProvider, IVdsStoragePool::GetProvider, base.ivdsstoragepool_getprovider, vds/IVdsStoragePool::GetProvider, vdshwprv/IVdsStoragePool::GetProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsStoragePool.GetProvider
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsStoragePool::GetProvider

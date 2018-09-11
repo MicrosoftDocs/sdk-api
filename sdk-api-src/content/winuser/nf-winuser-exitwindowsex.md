@@ -4,17 +4,16 @@ title: ExitWindowsEx function
 author: windows-sdk-content
 description: Logs off the interactive user, shuts down the system, or shuts down and restarts the system.
 old-location: base\exitwindowsex.htm
-old-project: shutdown
+tech.root: Shutdown
 ms.assetid: f44ccb66-10bd-4ee6-93e1-16948cf10e50
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EWX_FORCE, EWX_FORCEIFHUNG, EWX_HYBRID_SHUTDOWN, EWX_LOGOFF, EWX_POWEROFF, EWX_REBOOT, EWX_RESTARTAPPS, EWX_SHUTDOWN, ExitWindowsEx, ExitWindowsEx function, _win32_exitwindowsex, base.exitwindowsex, winuser/ExitWindowsEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - ExitWindowsEx
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ExitWindowsEx function

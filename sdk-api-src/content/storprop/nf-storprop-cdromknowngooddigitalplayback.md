@@ -4,17 +4,16 @@ title: CdromKnownGoodDigitalPlayback function
 author: windows-sdk-content
 description: Determines whether the specified CD-ROM or DVD drive has digital playback that is known to be good.
 old-location: base\cdromknowngooddigitalplayback.htm
-old-project: devio
+tech.root: devio
 ms.assetid: df242729-2082-4608-bd73-4c8d215a09ea
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CdromKnownGoodDigitalPlayback, CdromKnownGoodDigitalPlayback function, base.cdromknowngooddigitalplayback, storprop/CdromKnownGoodDigitalPlayback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: storprop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR50_SERVICE_CHARACTERISTICS
+req.lib: 
+req.dll: Storprop.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CdromKnownGoodDigitalPlayback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Storprop.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # CdromKnownGoodDigitalPlayback function

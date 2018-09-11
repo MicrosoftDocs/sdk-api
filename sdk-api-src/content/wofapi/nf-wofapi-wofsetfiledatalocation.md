@@ -4,17 +4,16 @@ title: WofSetFileDataLocation function
 author: windows-sdk-content
 description: Used to change a file from being backed by a physical file to one backed by a system data provider.
 old-location: fs\wofsetfiledatalocation.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: E5BDD684-46AC-40C0-89FC-DFABBB6AB72C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WofSetFileDataLocation, WofSetFileDataLocation function [Files], fs.wofsetfiledatalocation, wofapi/WofSetFileDataLocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
+req.lib: Wofutil.lib
+req.dll: Wofutil.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WofSetFileDataLocation
 product: Windows
 targetos: Windows
-req.lib: Wofutil.lib
-req.dll: Wofutil.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WofSetFileDataLocation function

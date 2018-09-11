@@ -4,17 +4,16 @@ title: ICertificateEnrollmentPolicyServerSetup
 author: windows-sdk-content
 description: The ICertificateEnrollmentPolicyServerSetup interface represents the Certificate Enrollment Policy (CEP) Web Service within Active Directory Certificate Services (ADCS).
 old-location: security\icertificateenrollmentpolicyserversetup.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 8C9F33BA-5FCB-4B99-869C-FADDC37A326A
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup, ICertificateEnrollmentPolicyServerSetup interface [Security], ICertificateEnrollmentPolicyServerSetup interface [Security],described, casetup/ICertificateEnrollmentPolicyServerSetup, security.icertificateenrollmentpolicyserversetup
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertificateEnrollmentPolicyServerSetup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificateEnrollmentPolicyServerSetup interface

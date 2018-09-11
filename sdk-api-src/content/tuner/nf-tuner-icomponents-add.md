@@ -4,17 +4,16 @@ title: IComponents::Add
 author: windows-sdk-content
 description: The Add method adds a Component object to the collection.
 old-location: mstv\icomponents_add.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ec5d9d6c-4957-46f2-9798-6e30c934459e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IComponents interface, IComponents interface [Microsoft TV Technologies],Add method, IComponents.Add, IComponents::Add, IComponentsAdd, mstv.icomponents_add, tuner/IComponents::Add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponents.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponents::Add
@@ -65,12 +63,12 @@ The <b>Add</b> method adds a <b>Component</b> object to the collection.
 
 ### -param Component
 
-
+TBD
 
 
 ### -param NewIndex
 
-
+TBD
 
 
 

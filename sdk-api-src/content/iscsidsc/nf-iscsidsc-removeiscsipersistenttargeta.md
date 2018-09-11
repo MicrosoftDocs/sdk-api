@@ -4,17 +4,16 @@ title: RemoveIScsiPersistentTargetA function
 author: windows-sdk-content
 description: RemoveIscsiPersistentTarget function removes a persistent login for the specified hardware initiator Host Bus Adapter (HBA), initiator port, and target portal.
 old-location: iscsidisc\removeiscsipersistenttarget.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 2522f906-2a91-4d5b-8d6b-86e22c707046
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RemoveIScsiPersistentTargetA, RemoveIscsiPersistentTarget, RemoveIscsiPersistentTarget function [iSCSI Discovery Library API], RemoveIscsiPersistentTargetA, RemoveIscsiPersistentTargetW, iscsidisc.removeiscsipersistenttarget, iscsidsc/RemoveIscsiPersistentTarget, iscsidsc/RemoveIscsiPersistentTargetA, iscsidsc/RemoveIscsiPersistentTargetW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RemoveIscsiPersistentTargetW
 product: Windows
 targetos: Windows
-req.lib: Iscsidsc.lib
-req.dll: Iscsidsc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # RemoveIScsiPersistentTargetA function

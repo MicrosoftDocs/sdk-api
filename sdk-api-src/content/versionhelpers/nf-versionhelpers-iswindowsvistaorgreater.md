@@ -4,17 +4,16 @@ title: IsWindowsVistaOrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows Vista version.
 old-location: base\iswindowsvistaorgreater.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: 556C70DC-6A44-4D85-BDBF-C1110D63DC69
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IsWindowsVistaOrGreater, IsWindowsVistaOrGreater function, base.iswindowsvistaorgreater, versionhelpers/IsWindowsVistaOrGreater
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: versionhelpers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Kernel32.lib; Ntdll.lib
+req.dll: Kernel32.dll; Ntdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IsWindowsVistaOrGreater
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib; Ntdll.lib
-req.dll: Kernel32.dll; Ntdll.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IsWindowsVistaOrGreater function

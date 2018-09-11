@@ -4,17 +4,16 @@ title: IDXGIOutput2::SupportsOverlays
 author: windows-sdk-content
 description: Queries an adapter output for multiplane overlay support.
 old-location: direct3ddxgi\idxgioutput2_supportsoverlays.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: BC9CD287-CD89-4D0C-ADE3-EAA60D5FEAAD
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIOutput2 interface [DXGI],SupportsOverlays method, IDXGIOutput2.SupportsOverlays, IDXGIOutput2::SupportsOverlays, SupportsOverlays, SupportsOverlays method [DXGI], SupportsOverlays method [DXGI],IDXGIOutput2 interface, direct3ddxgi.idxgioutput2_supportsoverlays, dxgi1_3/IDXGIOutput2::SupportsOverlays
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIOutput2.SupportsOverlays
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIOutput2::SupportsOverlays

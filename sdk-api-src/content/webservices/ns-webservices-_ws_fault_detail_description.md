@@ -4,17 +4,16 @@ title: "_WS_FAULT_DETAIL_DESCRIPTION"
 author: windows-sdk-content
 description: A description of the detail element of a fault message.
 old-location: wsw\ws_fault_detail_description.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 5a89ca26-63c7-414a-a27d-019c5b020f63
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_FAULT_DETAIL_DESCRIPTION, WS_FAULT_DETAIL_DESCRIPTION structure [Web Services for Windows], _WS_FAULT_DETAIL_DESCRIPTION, webservices/WS_FAULT_DETAIL_DESCRIPTION, wsw.ws_fault_detail_description
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_FAULT_DETAIL_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_FAULT_DETAIL_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_FAULT_DETAIL_DESCRIPTION
+req.redist: 
 ---
 
 # _WS_FAULT_DETAIL_DESCRIPTION structure

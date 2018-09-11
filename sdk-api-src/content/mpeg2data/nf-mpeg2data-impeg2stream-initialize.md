@@ -4,17 +4,16 @@ title: IMpeg2Stream::Initialize
 author: windows-sdk-content
 description: The Initialize method initializes the MPEG2Stream object. This method should be called once, immediately after creating the object. The IMpeg2Data::GetStreamOfSections method calls this method internally, so typically an application will not call it.
 old-location: mstv\impeg2stream_initialize.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: a2ef2ebc-55dc-49d4-a5de-18203de113ce
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMpeg2Stream interface [Microsoft TV Technologies],Initialize method, IMpeg2Stream.Initialize, IMpeg2Stream::Initialize, IMpeg2StreamInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IMpeg2Stream interface, mpeg2data/IMpeg2Stream::Initialize, mstv.impeg2stream_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2data.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMpeg2Stream.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMpeg2Stream::Initialize

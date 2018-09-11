@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxIncomingJob.get_AvailableOperations
 title: IFaxIncomingJob::get_AvailableOperations
 author: windows-sdk-content
-description: The AvailableOperations property indicates the combination of valid operations that you can perform on the fax job, given its current status.
-old-location: fax\_mfax_faxincomingjob_availableoperations.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinta_n_0z1v.htm
+description: Retrieves the AvailableOperations property of a FaxIncomingJob object. The AvailableOperations property indicates the combination of valid operations that you can perform on the fax job given its current status.
+old-location: fax\_mfax_faxincomingjob_availableoperations_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinta_n_0z1v_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service],FaxIncomingJob object, FaxIncomingJob object [Fax Service],AvailableOperations property, FaxIncomingJob.AvailableOperations, IFaxIncomingJob.get_AvailableOperations, IFaxIncomingJob::get_AvailableOperations, _mfax_faxincomingjob.availableoperations, fax._mfax_faxincomingjob_availableoperations, get_AvailableOperations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxIncomingJob interface [Fax Service],get_AvailableOperations method, IFaxIncomingJob.get_AvailableOperations, IFaxIncomingJob::get_AvailableOperations, _mfax_faxincomingjob.availableoperations_cpp, fax._mfax_faxincomingjob_availableoperations_cpp, faxcomex/IFaxIncomingJob::get_AvailableOperations, get_AvailableOperations, get_AvailableOperations method [Fax Service], get_AvailableOperations method [Fax Service],IFaxIncomingJob interface
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxIncomingJob.AvailableOperations
  - IFaxIncomingJob.get_AvailableOperations
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxIncomingJob::get_AvailableOperations
@@ -53,12 +50,37 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>AvailableOperations</b> property indicates the combination of valid operations that you can perform on the fax job, given its current status.
-
-This property is read-only.
+Retrieves the <b>AvailableOperations</b> property of a <a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object. The <b>AvailableOperations</b> property indicates the combination of valid operations that you can perform on the fax job given its current status.
 
 
 ## -parameters
+
+
+
+
+### -param pAvailableOperations
+
+TBD
+
+
+
+
+#### - plAvailableOperations [out, retval]
+
+Type: <b><a href="https://msdn.microsoft.com/557655b9-d59b-4255-b071-4c1fbec3a889">FAX_JOB_OPERATIONS_ENUM</a>*</b>
+
+Pointer to a <b>long</b> value from the <a href="https://msdn.microsoft.com/557655b9-d59b-4255-b071-4c1fbec3a889">FAX_JOB_OPERATIONS_ENUM</a> enumeration that specifies a bitwise combination of the operations that you can currently perform on the fax job. Some operations are mutually exclusive. For example, you cannot pause a job that has already been paused. 
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
 
 
 ## -see-also
@@ -66,15 +88,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/04149d5c-e26f-4cef-9ae0-eba2a199ec51">AvailableOperations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/557655b9-d59b-4255-b071-4c1fbec3a889">FAX_JOB_OPERATIONS_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684594(v=VS.85).aspx">get_AvailableOperations</a>
+<a href="https://msdn.microsoft.com/e3707441-6cdf-4a1c-b408-023a1a597492">IFaxIncomingJob</a>
  
 
  

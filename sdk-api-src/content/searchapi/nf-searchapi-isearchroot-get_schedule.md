@@ -4,17 +4,16 @@ title: ISearchRoot::get_Schedule
 author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchRoot_get_Schedule.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_schedule.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ISearchRoot interface [search],get_Schedule method, ISearchRoot.get_Schedule, ISearchRoot::get_Schedule, _search_ISearchRoot_get_Schedule, get_Schedule, get_Schedule method [search], get_Schedule method [search],ISearchRoot interface, search._search_ISearchRoot_get_Schedule, searchapi/ISearchRoot::get_Schedule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: Searchapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchRoot.get_Schedule
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchRoot::get_Schedule

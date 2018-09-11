@@ -4,17 +4,16 @@ title: IXMLElementCollection::get_length
 author: windows-sdk-content
 description: Retrieves the number of elements in the collection.
 old-location: winprog\ixmlelementcollection_length.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: eb9236ad-378e-499e-8ab5-ed5bd327ef95
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IXMLElementCollection interface [Windows API],get_length method, IXMLElementCollection.get_length, IXMLElementCollection::get_length, get_length, get_length method [Windows API], get_length method [Windows API],IXMLElementCollection interface, msxml/IXMLElementCollection::get_length, winprog.ixmlelementcollection_length
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Msxml.tlb
-tech.root: 
-req.typenames: RIO_BUF, *PRIO_BUF
+req.lib: 
+req.dll: Msxml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXMLElementCollection.get_length
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msxml.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IXMLElementCollection::get_length

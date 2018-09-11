@@ -4,17 +4,16 @@ title: BCryptDuplicateHash function
 author: windows-sdk-content
 description: Duplicates an existing hash or Message Authentication Code (MAC) object.
 old-location: security\bcryptduplicatehash_func.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 451ff5dc-b66a-4e8e-a327-28b4ee618b74
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCryptDuplicateHash, BCryptDuplicateHash function [Security], bcrypt/BCryptDuplicateHash, security.bcryptduplicatehash_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BCryptDuplicateHash
 product: Windows
 targetos: Windows
-req.lib: Bcrypt.lib
-req.dll: Bcrypt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BCryptDuplicateHash function

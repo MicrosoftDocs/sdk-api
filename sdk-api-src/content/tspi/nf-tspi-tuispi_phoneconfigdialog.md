@@ -4,17 +4,16 @@ title: TUISPI_phoneConfigDialog function
 author: windows-sdk-content
 description: The TUISPI_phoneConfigDialog function causes the provider of the specified phone device to display a modal dialog box as a child window of hwndOwner to allow the user to configure parameters related to the phone device.
 old-location: tspi\tuispi_phoneconfigdialog.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6bdd4206-0028-43f0-8da8-2fc11779f7d2
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TUISPI_phoneConfigDialog, TUISPI_phoneConfigDialog function [TAPI 2.2], _tspi_tuispi_phoneconfigdialog, tspi.tuispi_phoneconfigdialog, tspi/TUISPI_phoneConfigDialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TUISPI_phoneConfigDialog
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TUISPI_phoneConfigDialog function

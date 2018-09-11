@@ -4,7 +4,7 @@ title: "_DHCPV6_BIND_ELEMENT"
 author: windows-sdk-content
 description: Defines an IPv6 interface binding for the DHCP server over which it receives DHCPv6 packets.
 old-location: dhcp\dhcpv6_bind_element.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 7c5b1d5d-7c91-46a8-aaa0-1d957430461d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCPV6_BIND_ELEMENT, *LPDHCPV6_BIND_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCPV6_BIND_ELEMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCPV6_BIND_ELEMENT, *LPDHCPV6_BIND_ELEMENT
+req.redist: 
 ---
 
 # _DHCPV6_BIND_ELEMENT structure

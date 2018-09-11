@@ -4,17 +4,16 @@ title: IUIManagerEventSink::OnWindowUpdated
 author: windows-sdk-content
 description: Called by the TSF after resizing and/or relocating the opened IME UI.
 old-location: tsf\iuimanagereventsink_onwindowupdated.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: A50F3F1B-B00A-4ABD-B94A-F1D3904C6938
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowUpdated method, IUIManagerEventSink.OnWindowUpdated, IUIManagerEventSink::OnWindowUpdated, OnWindowUpdated, OnWindowUpdated method [Text Services Framework], OnWindowUpdated method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowUpdated, tsf.iuimanagereventsink_onwindowupdated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IUIManagerEventSink.OnWindowUpdated
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IUIManagerEventSink::OnWindowUpdated

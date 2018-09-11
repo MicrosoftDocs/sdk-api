@@ -4,17 +4,16 @@ title: ITSGAuthenticationEngine::AuthenticateUser
 author: windows-sdk-content
 description: Authenticates a user.
 old-location: termserv\itsgauthenticationengine_authenticateuser.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: a378c28f-ecd1-43db-b998-487176f656f5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AuthenticateUser, AuthenticateUser method [Remote Desktop Services], AuthenticateUser method [Remote Desktop Services],ITSGAuthenticationEngine interface, ITSGAuthenticationEngine interface [Remote Desktop Services],AuthenticateUser method, ITSGAuthenticationEngine.AuthenticateUser, ITSGAuthenticationEngine::AuthenticateUser, termserv.itsgauthenticationengine_authenticateuser, tsgauthenticationengine/ITSGAuthenticationEngine::AuthenticateUser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsgauthenticationengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSPORT_SETTING_ID, *PTRANSPORT_SETTING_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITSGAuthenticationEngine.AuthenticateUser
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITSGAuthenticationEngine::AuthenticateUser

@@ -4,17 +4,16 @@ title: MCIWndUseFrames macro
 author: windows-sdk-content
 description: The MCIWndUseFrames macro sets the time format of an MCI device to frames. You can use this macro or explicitly send the MCIWNDM_SETTIMEFORMAT message.
 old-location: multimedia\mciwnduseframes.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 14c2ac12-6034-43f0-ac3e-ea3c6a01e39a
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndUseFrames, MCIWndUseFrames macro [Windows Multimedia], _win32_MCIWndUseFrames, multimedia.mciwnduseframes, vfw/MCIWndUseFrames
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndUseFrames
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndUseFrames macro

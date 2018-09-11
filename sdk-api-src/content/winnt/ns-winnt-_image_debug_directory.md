@@ -4,17 +4,16 @@ title: "_IMAGE_DEBUG_DIRECTORY"
 author: windows-sdk-content
 description: Represents the debug directory format.
 old-location: base\image_debug_directory_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: f89a3c9b-4d73-4ff5-8f45-2e58500d5084
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PIMAGE_DEBUG_DIRECTORY, IMAGE_DEBUG_DIRECTORY, IMAGE_DEBUG_DIRECTORY structure, IMAGE_DEBUG_TYPE_BORLAND, IMAGE_DEBUG_TYPE_CODEVIEW, IMAGE_DEBUG_TYPE_COFF, IMAGE_DEBUG_TYPE_EXCEPTION, IMAGE_DEBUG_TYPE_FIXUP, IMAGE_DEBUG_TYPE_FPO, IMAGE_DEBUG_TYPE_MISC, IMAGE_DEBUG_TYPE_UNKNOWN, PIMAGE_DEBUG_DIRECTORY, PIMAGE_DEBUG_DIRECTORY structure pointer, _IMAGE_DEBUG_DIRECTORY, _win32_image_debug_directory_str, base.image_debug_directory_str, winnt/IMAGE_DEBUG_DIRECTORY, winnt/PIMAGE_DEBUG_DIRECTORY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGE_DEBUG_DIRECTORY, *PIMAGE_DEBUG_DIRECTORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMAGE_DEBUG_DIRECTORY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: IMAGE_DEBUG_DIRECTORY, *PIMAGE_DEBUG_DIRECTORY
+req.redist: 
 ---
 
 # _IMAGE_DEBUG_DIRECTORY structure

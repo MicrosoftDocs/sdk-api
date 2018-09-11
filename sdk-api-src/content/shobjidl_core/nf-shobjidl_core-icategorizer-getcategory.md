@@ -4,17 +4,16 @@ title: ICategorizer::GetCategory
 author: windows-sdk-content
 description: Gets a list of categories associated with a list of identifiers.
 old-location: shell\ICategorizer_GetCategory.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e3756e9e-7d68-4e30-92d4-1fddccf66ba5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetCategory, GetCategory method [Windows Shell], GetCategory method [Windows Shell],ICategorizer interface, ICategorizer interface [Windows Shell],GetCategory method, ICategorizer.GetCategory, ICategorizer::GetCategory, inet_ICategorizer_GetCategory, shell.ICategorizer_GetCategory, shobjidl_core/ICategorizer::GetCategory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICategorizer.GetCategory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICategorizer::GetCategory

@@ -4,17 +4,16 @@ title: ID2D1SvgPathData::UpdateSegmentData
 author: windows-sdk-content
 description: Updates the segment data array. Existing segment data not updated by this method are preserved. The array is resized larger if necessary to accomodate the new segment data.
 old-location: direct2d\id2d1svgpathdata_updatesegmentdata.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 3B87B002-7F1C-4531-B584-C0CFC8E46256
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1SvgPathData interface [Direct2D],UpdateSegmentData method, ID2D1SvgPathData.UpdateSegmentData, ID2D1SvgPathData::UpdateSegmentData, UpdateSegmentData, UpdateSegmentData method [Direct2D], UpdateSegmentData method [Direct2D],ID2D1SvgPathData interface, d2d1svg/ID2D1SvgPathData::UpdateSegmentData, direct2d.id2d1svgpathdata_updatesegmentdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgPathData.UpdateSegmentData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgPathData::UpdateSegmentData

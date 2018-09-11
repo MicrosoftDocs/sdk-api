@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_devicetopology_0000_0000_0013"
 author: windows-sdk-content
 description: The ConnectorType enumeration indicates the type of connection that a connector is part of.
 old-location: coreaudio\connectortype.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 7171a880-2a3e-45aa-803d-26bf5e9e0365
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: ConnectorType, ConnectorType , ConnectorType enumeration [Core Audio], Network, Physical_External, Physical_Internal, Software_Fixed, Software_IO, Unknown_Connector, __MIDL___MIDL_itf_devicetopology_0000_0000_0013, coreaudio.connectortype, devicetopology/ConnectorType, devicetopology/Network, devicetopology/Physical_External, devicetopology/Physical_Internal, devicetopology/Software_Fixed, devicetopology/Software_IO, devicetopology/Unknown_Connector
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Deviceaccess.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ConnectorType
 product: Windows
 targetos: Windows
-req.lib: Deviceaccess.lib
-req.dll: 
-req.irql: 
+req.typenames: ConnectorType
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_devicetopology_0000_0000_0013 enumeration

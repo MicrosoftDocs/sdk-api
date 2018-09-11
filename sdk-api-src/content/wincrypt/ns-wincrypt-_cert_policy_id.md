@@ -4,17 +4,16 @@ title: "_CERT_POLICY_ID"
 author: windows-sdk-content
 description: The CERT_POLICY_ID structure contains a list of certificate policies that the certificate expressly supports, together with optional qualifier information pertaining to these policies.
 old-location: security\cert_policy_id.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: d0a8989c-3a32-4093-9db3-0811049b6601
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_POLICY_ID, CERT_POLICY_ID, CERT_POLICY_ID structure [Security], PCERT_POLICY_ID, PCERT_POLICY_ID structure pointer [Security], _CERT_POLICY_ID, _crypto2_cert_policy_id, security.cert_policy_id, wincrypt/CERT_POLICY_ID, wincrypt/PCERT_POLICY_ID"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_POLICY_ID, *PCERT_POLICY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_POLICY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_POLICY_ID, *PCERT_POLICY_ID
+req.redist: 
 ---
 
 # _CERT_POLICY_ID structure

@@ -4,17 +4,16 @@ title: IWMPFolderMonitorServices::get_count
 author: windows-sdk-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_count method retrieves the count of monitored folders.
 old-location: wmp\iwmpfoldermonitorservices_get_count.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: cf80820a-d126-4af6-ba5e-c1188c5c00a4
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_count method, IWMPFolderMonitorServices.get_count, IWMPFolderMonitorServices::get_count, IWMPFolderMonitorServicesget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_get_count, wmp/IWMPFolderMonitorServices::get_count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPFolderMonitorServices.get_count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPFolderMonitorServices::get_count

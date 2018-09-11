@@ -4,17 +4,16 @@ title: IShellImageData::CloneFrame
 author: windows-sdk-content
 description: Retrieves a clone of the current image or frame.
 old-location: shell\IShellImageData_CloneFrame.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 220d307a-7969-443c-963b-80132509ad8b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CloneFrame, CloneFrame method [Windows Shell], CloneFrame method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],CloneFrame method, IShellImageData.CloneFrame, IShellImageData::CloneFrame, _shell_IShellImageData_CloneFrame, shell.IShellImageData_CloneFrame, shimgdata/IShellImageData::CloneFrame
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageData.CloneFrame
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageData::CloneFrame

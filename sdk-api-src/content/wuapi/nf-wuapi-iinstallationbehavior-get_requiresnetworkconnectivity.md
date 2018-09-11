@@ -4,17 +4,16 @@ title: IInstallationBehavior::get_RequiresNetworkConnectivity
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the installation or uninstallation of an update requires network connectivity.
 old-location: wua\iinstallationbehavior_requiresnetworkconnectivity.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: d74dd93a-17ba-4293-a146-19c86a8dfdf8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IInstallationBehavior interface [Windows Update Agent],RequiresNetworkConnectivity property, IInstallationBehavior.RequiresNetworkConnectivity, IInstallationBehavior.get_RequiresNetworkConnectivity, IInstallationBehavior::RequiresNetworkConnectivity, IInstallationBehavior::get_RequiresNetworkConnectivity, RequiresNetworkConnectivity property [Windows Update Agent], RequiresNetworkConnectivity property [Windows Update Agent],IInstallationBehavior interface, get_RequiresNetworkConnectivity, wua.iinstallationbehavior_requiresnetworkconnectivity, wuapi/IInstallationBehavior::RequiresNetworkConnectivity, wuapi/IInstallationBehavior::get_RequiresNetworkConnectivity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInstallationBehavior.get_RequiresNetworkConnectivity
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IInstallationBehavior::get_RequiresNetworkConnectivity

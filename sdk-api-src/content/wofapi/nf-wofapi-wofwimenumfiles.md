@@ -4,17 +4,16 @@ title: WofWimEnumFiles function
 author: windows-sdk-content
 description: Enumerates all of the files which are being backed by a specified WIM data source on a specified volume.
 old-location: fs\wofwimenumfiles.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: D95F344F-762F-4F3C-ADAE-0A20BAE448F2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WofWimEnumFiles, WofWimEnumFiles function [Files], fs.wofwimenumfiles, wofapi/WofWimEnumFiles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
+req.lib: Wofutil.lib
+req.dll: Wofutil.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WofWimEnumFiles
 product: Windows
 targetos: Windows
-req.lib: Wofutil.lib
-req.dll: Wofutil.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WofWimEnumFiles function

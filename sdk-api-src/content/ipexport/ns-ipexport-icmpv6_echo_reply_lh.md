@@ -4,7 +4,7 @@ title: icmpv6_echo_reply_lh
 author: windows-sdk-content
 description: Describes the data returned in response to an IPv6 echo request.
 old-location: iphlp\icmpv6_echo_reply.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 8ea4ce42-6164-4b8e-9e79-524f456c8d09
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICMPV6_ECHO_REPLY_LH, *PICMPV6_ECHO_REPLY_LH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICMPV6_ECHO_REPLY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ICMPV6_ECHO_REPLY_LH, *PICMPV6_ECHO_REPLY_LH
+req.redist: 
 ---
 
 # icmpv6_echo_reply_lh structure

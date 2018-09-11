@@ -4,17 +4,16 @@ title: DdQueryDirectDrawObject function
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdQueryDirectDrawObject function and queries a previously created kernel-mode representation for capabilities. GdiEntry2 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddquerydirectdrawobject.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddquerydirectdrawobject.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DdQueryDirectDrawObject, DdQueryDirectDrawObject function [Windows API], GdiEntry2, _dxgkernel_ddquerydirectdrawobject, ddrawgdi/DdQueryDirectDrawObject, ddrawgdi/GdiEntry2, winprog._dxgkernel_ddquerydirectdrawobject, winui._dxgkernel_ddquerydirectdrawobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ddrawgdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDPIXELFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - GdiEntry2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DdQueryDirectDrawObject function

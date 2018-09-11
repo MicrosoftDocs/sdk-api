@@ -4,17 +4,16 @@ title: ID2D1DeviceContext::CreateGradientStopCollection
 author: windows-sdk-content
 description: Creates a gradient stop collection, enabling the gradient to contain color channels with values outside of [0,1] and also enabling rendering to a high-color render target with interpolation in sRGB space.
 old-location: direct2d\id2d1devicecontext_creategradientstopcollection.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 6374fc62-1f54-4112-8ba3-9c1167bf8685
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateGradientStopCollection, CreateGradientStopCollection method [Direct2D], CreateGradientStopCollection method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateGradientStopCollection method, ID2D1DeviceContext.CreateGradientStopCollection, ID2D1DeviceContext::CreateGradientStopCollection, d2d1_1/ID2D1DeviceContext::CreateGradientStopCollection, direct2d.id2d1devicecontext_creategradientstopcollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DeviceContext.CreateGradientStopCollection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext::CreateGradientStopCollection
@@ -61,12 +60,12 @@ Creates a gradient stop collection, enabling the gradient to contain color chann
 
 ### -param straightAlphaGradientStops
 
-
+TBD
 
 
 ### -param straightAlphaGradientStopsCount
 
-
+TBD
 
 
 ### -param preInterpolationSpace
@@ -109,7 +108,7 @@ Defines how colors are interpolated.  D2D1_COLOR_INTERPOLATION_MODE_PREMULTIPLIE
 
 ### -param gradientStopCollection1
 
-
+TBD
 
 
 

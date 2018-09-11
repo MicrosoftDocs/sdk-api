@@ -4,17 +4,16 @@ title: TraceLoggingFunction macro
 author: windows-sdk-content
 description: Creates a TraceLoggingThreadActivity named after the current function and writes a Start event for the activity. A Stop activity will be written at the end of the current scope.
 old-location: tracelogging\traceloggingfunction.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: 70382367-E0A0-4E5B-A14F-863BEC0615C5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TraceLoggingFunction, TraceLoggingFunction macro, tracelogging.traceloggingfunction, traceloggingactivity/TraceLoggingFunction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingactivity.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceLoggingFunction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceLoggingFunction macro

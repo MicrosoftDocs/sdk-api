@@ -4,17 +4,16 @@ title: IUserInputString::GetSubmitButtonText
 author: windows-sdk-content
 description: The GetSubmitButtonText method retrieves the text for the submit button.
 old-location: picacq\iuserinputstring_getsubmitbuttontext.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 00cb081a-9077-4ecc-9a1f-002072e6ddda
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSubmitButtonText, GetSubmitButtonText method [Picture Acquisition], GetSubmitButtonText method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetSubmitButtonText method, IUserInputString.GetSubmitButtonText, IUserInputString::GetSubmitButtonText, IUserInputStringGetSubmitButtonText, photoacquire/IUserInputString::GetSubmitButtonText, picacq.iuserinputstring_getsubmitbuttontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUserInputString.GetSubmitButtonText
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IUserInputString::GetSubmitButtonText

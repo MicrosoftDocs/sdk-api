@@ -4,17 +4,16 @@ title: IVssBackupComponentsEx::SetSelectedForRestoreEx
 author: windows-sdk-content
 description: The SetSelectedForRestoreEx method indicates whether the specified selectable component is selected for restoration to a specified writer instance.
 old-location: base\ivssbackupcomponentsex_setselectedforrestoreex.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 469e6d61-85c6-4385-92be-df6addefe37f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssBackupComponentsEx interface [VSS],SetSelectedForRestoreEx method, IVssBackupComponentsEx.SetSelectedForRestoreEx, IVssBackupComponentsEx::SetSelectedForRestoreEx, SetSelectedForRestoreEx, SetSelectedForRestoreEx method [VSS], SetSelectedForRestoreEx method [VSS],IVssBackupComponentsEx interface, base.ivssbackupcomponentsex_setselectedforrestoreex, vsbackup/IVssBackupComponentsEx::SetSelectedForRestoreEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponentsEx.SetSelectedForRestoreEx
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponentsEx::SetSelectedForRestoreEx

@@ -4,17 +4,16 @@ title: IVPBaseConfig::GetVPDataInfo
 author: windows-sdk-content
 description: The GetVPDataInfo method retrieves the current video port data information.
 old-location: dshow\ivpbaseconfig_getvpdatainfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 385ab5e4-b904-4268-a97e-1c3e7789b0a2
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetVPDataInfo, GetVPDataInfo method [DirectShow], GetVPDataInfo method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetVPDataInfo method, IVPBaseConfig.GetVPDataInfo, IVPBaseConfig::GetVPDataInfo, IVPBaseConfigGetVPDataInfo, dshow.ivpbaseconfig_getvpdatainfo, vpconfig/IVPBaseConfig::GetVPDataInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vpconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9VideoStreamInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVPBaseConfig.GetVPDataInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVPBaseConfig::GetVPDataInfo

@@ -4,17 +4,16 @@ title: PRESOURCE_CONTROL_ROUTINE
 author: windows-sdk-content
 description: Performs an operation that applies to a resource.
 old-location: mscs\resourcecontrol.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: a9c64471-41fa-4101-9a02-ad57add8124c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PRESOURCE_CONTROL_ROUTINE, PRESOURCE_CONTROL_ROUTINE callback function [Failover Cluster], ResourceControl, ResourceControl callback, ResourceControl callback function [Failover Cluster], _wolf_resourcecontrol, mscs.resourcecontrol, resapi/PRESOURCE_CONTROL_ROUTINE, resapi/ResourceControl
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResourceControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PRESOURCE_CONTROL_ROUTINE callback function

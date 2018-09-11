@@ -4,17 +4,16 @@ title: ICrmLogControl::WriteLogRecordVariants
 author: windows-sdk-content
 description: The CRM Worker and CRM Compensator use this method to write structured log records to the log.
 old-location: cos\icrmlogcontrol_writelogrecordvariants.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: ebd3943d-0c77-49fe-a53e-bc0c45e13a54
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICrmLogControl interface [COM+],WriteLogRecordVariants method, ICrmLogControl.WriteLogRecordVariants, ICrmLogControl::WriteLogRecordVariants, WriteLogRecordVariants, WriteLogRecordVariants method [COM+], WriteLogRecordVariants method [COM+],ICrmLogControl interface, _dtc_ICrmLogControl_WriteLogRecordVariants, comsvcs/ICrmLogControl::WriteLogRecordVariants, cos.icrmlogcontrol_writelogrecordvariants
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmLogControl.WriteLogRecordVariants
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmLogControl::WriteLogRecordVariants

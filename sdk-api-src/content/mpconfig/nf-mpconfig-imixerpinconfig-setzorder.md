@@ -4,17 +4,16 @@ title: IMixerPinConfig::SetZOrder
 author: windows-sdk-content
 description: The SetZOrder method sets the z-order of a particular video stream.
 old-location: dshow\imixerpinconfig_setzorder.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: fe8e71b8-9aaf-438e-b370-5ba9f131bf7a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetZOrder method, IMixerPinConfig.SetZOrder, IMixerPinConfig::SetZOrder, IMixerPinConfigSetZOrder, SetZOrder, SetZOrder method [DirectShow], SetZOrder method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setzorder, mpconfig/IMixerPinConfig::SetZOrder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_ASPECT_RATIO_MODE
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMixerPinConfig.SetZOrder
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMixerPinConfig::SetZOrder

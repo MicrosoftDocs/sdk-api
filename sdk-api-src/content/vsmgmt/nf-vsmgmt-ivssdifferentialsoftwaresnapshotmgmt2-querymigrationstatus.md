@@ -4,17 +4,16 @@ title: IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_querymigrationstatus.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: c2410f49-7f92-4e32-947d-d85ffdf854f6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2 interface,QueryMigrationStatus method, IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus, IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus, QueryMigrationStatus, QueryMigrationStatus method, QueryMigrationStatus method,IVssDifferentialSoftwareSnapshotMgmt2 interface, base.ivssdifferentialsoftwaresnapshotmgmt2_querymigrationstatus, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus

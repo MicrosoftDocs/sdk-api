@@ -4,17 +4,16 @@ title: EnumServicesStatusExA function
 author: windows-sdk-content
 description: Enumerates services in the specified service control manager database. The name and status of each service are provided, along with additional data based on the specified information level.
 old-location: base\enumservicesstatusex.htm
-old-project: services
+tech.root: Services
 ms.assetid: 7d7940c3-b562-455f-9a21-6d5fb5953030
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: EnumServicesStatusEx, EnumServicesStatusEx function, EnumServicesStatusExA, EnumServicesStatusExW, SERVICE_ACTIVE, SERVICE_DRIVER, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INACTIVE, SERVICE_KERNEL_DRIVER, SERVICE_STATE_ALL, SERVICE_WIN32, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_enumservicesstatusex, base.enumservicesstatusex, winsvc/EnumServicesStatusEx, winsvc/EnumServicesStatusExA, winsvc/EnumServicesStatusExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - EnumServicesStatusExW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # EnumServicesStatusExA function

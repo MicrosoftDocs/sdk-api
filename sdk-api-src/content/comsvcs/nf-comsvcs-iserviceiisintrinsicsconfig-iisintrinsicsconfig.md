@@ -4,17 +4,16 @@ title: IServiceIISIntrinsicsConfig::IISIntrinsicsConfig
 author: windows-sdk-content
 description: Configures the IIS intrinsics for the enclosed work.
 old-location: cos\iserviceiisintrinsicsconfig_iisintrinsicsconfig.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 458bd0d6-ed4f-45c2-8a96-1a4a08aad509
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IISIntrinsicsConfig, IISIntrinsicsConfig method [COM+], IISIntrinsicsConfig method [COM+],IServiceIISIntrinsicsConfig interface, IServiceIISIntrinsicsConfig interface [COM+],IISIntrinsicsConfig method, IServiceIISIntrinsicsConfig.IISIntrinsicsConfig, IServiceIISIntrinsicsConfig::IISIntrinsicsConfig, _cos_IServiceIISIntrinsicsConfig_IISIntrinsicsConfig, comsvcs/IServiceIISIntrinsicsConfig::IISIntrinsicsConfig, cos.iserviceiisintrinsicsconfig_iisintrinsicsconfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceIISIntrinsicsConfig.IISIntrinsicsConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceIISIntrinsicsConfig::IISIntrinsicsConfig

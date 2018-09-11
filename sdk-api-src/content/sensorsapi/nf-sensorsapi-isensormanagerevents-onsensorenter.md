@@ -4,17 +4,16 @@ title: ISensorManagerEvents::OnSensorEnter
 author: windows-sdk-content
 description: Provides notification when a sensor device is connected.
 old-location: winsensors_com_ref\isensormanagerevents_onsensorenter.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: 1316e3b0-9677-4575-a3b8-53fa57295987
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISensorManagerEvents interface,OnSensorEnter method, ISensorManagerEvents.OnSensorEnter, ISensorManagerEvents::OnSensorEnter, OnSensorEnter, OnSensorEnter method, OnSensorEnter method,ISensorManagerEvents interface, sensorsapi/ISensorManagerEvents::OnSensorEnter, winsensors_com_ref.isensormanagerevents_onsensorenter, winsensors_com_ref.isensormanagerevents_sensorenter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensorManagerEvents.OnSensorEnter
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensorManagerEvents::OnSensorEnter

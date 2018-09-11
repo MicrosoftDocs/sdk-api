@@ -4,17 +4,16 @@ title: QueryUmsThreadInformation function
 author: windows-sdk-content
 description: Retrieves information about the specified user-mode scheduling (UMS) worker thread.
 old-location: base\queryumsthreadinformation.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 5f694edf-ba5e-45a2-a938-5013edddcae2
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: QueryUmsThreadInformation, QueryUmsThreadInformation function, base.queryumsthreadinformation, winbase/QueryUmsThreadInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 (64-bit only) [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - QueryUmsThreadInformation
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # QueryUmsThreadInformation function

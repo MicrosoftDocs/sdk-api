@@ -4,17 +4,16 @@ title: ICertConfig2
 author: windows-sdk-content
 description: Provide functionality for retrieving the public configuration data (specified during client setup) for a Certificate Services server.
 old-location: security\icertconfig2.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 6bac5961-f9cc-4859-affa-aa7ed152ebfa
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ICertConfig2, ICertConfig2 interface [Security], ICertConfig2 interface [Security],described, _certsrv_icertconfig2, certcli/ICertConfig2, security.icertconfig2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertConfig2
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertConfig2 interface

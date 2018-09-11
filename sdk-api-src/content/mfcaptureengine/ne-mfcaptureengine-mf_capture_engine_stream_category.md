@@ -4,7 +4,7 @@ title: MF_CAPTURE_ENGINE_STREAM_CATEGORY
 author: windows-sdk-content
 description: Defines the values for the source stream category.
 old-location: mf\mf_capture_engine_stream_category.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: F82CFF90-CFA5-4000-A0E6-547042EDE02F
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_CAPTURE_ENGINE_STREAM_CATEGORY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.redist: 
 ---
 
 # MF_CAPTURE_ENGINE_STREAM_CATEGORY enumeration

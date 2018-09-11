@@ -4,7 +4,7 @@ title: DDVIDEOPORTDATA
 author: windows-sdk-content
 description: The DDVIDEOPORTDATA structure is used by DirectDraw to represent a video port extensions (VPE) object to the kernel-mode video miniport driver.
 old-location: display\ddvideoportdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDVIDEOPORTDATA, *LPDDVIDEOPORTDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDVIDEOPORTDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DDVIDEOPORTDATA, *LPDDVIDEOPORTDATA
+req.redist: 
 ---
 
 # DDVIDEOPORTDATA structure

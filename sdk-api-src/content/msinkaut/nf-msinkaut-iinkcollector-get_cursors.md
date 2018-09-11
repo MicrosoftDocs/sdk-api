@@ -4,17 +4,16 @@ title: IInkCollector::get_Cursors
 author: windows-sdk-content
 description: Gets the collection of cursors that are available for use in the inking region. Each cursor corresponds to the tip of a pen or other ink input device.
 old-location: tablet\inkcollector_cursors.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 6a939fd0-1e0c-4df6-bcd0-b58fb7bac5e4
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 6a939fd0-1e0c-4df6-bcd0-b58fb7bac5e4, Cursors property [Tablet PC], Cursors property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],Cursors property, IInkCollector.Cursors, IInkCollector.get_Cursors, IInkCollector::Cursors, IInkCollector::get_Cursors, InkCollector.get_Cursors, get_Cursors, msinkaut/IInkCollector::Cursors, msinkaut/IInkCollector::get_Cursors, put_Cursors, tablet.inkcollector_cursors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - InkCollector.get_Cursors
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkCollector::get_Cursors

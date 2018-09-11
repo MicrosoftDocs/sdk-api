@@ -4,17 +4,16 @@ title: SetUmsThreadInformation function
 author: windows-sdk-content
 description: Sets application-specific context information for the specified user-mode scheduling (UMS) worker thread.
 old-location: base\setumsthreadinformation.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 19f190fd-1f78-4bb6-93eb-73a5c522b44d
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: SetUmsThreadInformation, SetUmsThreadInformation function, base.setumsthreadinformation, winbase/SetUmsThreadInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 (64-bit only) [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetUmsThreadInformation
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetUmsThreadInformation function

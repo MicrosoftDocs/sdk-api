@@ -4,17 +4,16 @@ title: IWMPContentPartner::GetListContents
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetListContents method initiates the retrieval of a dynamic list.
 old-location: wmp\iwmpcontentpartner_getlistcontents.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: a48935ea-8275-4b68-a1ab-006a23c455ad
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetListContents, GetListContents method [Windows Media Player], GetListContents method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetListContents method, IWMPContentPartner.GetListContents, IWMPContentPartner::GetListContents, IWMPContentPartnerGetListContents, contentpartner/IWMPContentPartner::GetListContents, wmp.iwmpcontentpartner_getlistcontents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPTransactionType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWMPContentPartner.GetListContents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPContentPartner::GetListContents

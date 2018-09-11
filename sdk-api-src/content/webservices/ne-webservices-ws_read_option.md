@@ -4,17 +4,16 @@ title: WS_READ_OPTION
 author: windows-sdk-content
 description: Specifies whether a value is required, and how the value should be allocated.
 old-location: wsw\ws_read_option.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 634b057f-3121-43cc-919f-8636e67ce0d7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_READ_NILLABLE_POINTER, WS_READ_NILLABLE_VALUE, WS_READ_OPTION, WS_READ_OPTION enumeration [Web Services for Windows], WS_READ_OPTIONAL_POINTER, WS_READ_REQUIRED_POINTER, WS_READ_REQUIRED_VALUE, webservices/WS_READ_NILLABLE_POINTER, webservices/WS_READ_NILLABLE_VALUE, webservices/WS_READ_OPTION, webservices/WS_READ_OPTIONAL_POINTER, webservices/WS_READ_REQUIRED_POINTER, webservices/WS_READ_REQUIRED_VALUE, wsw.ws_read_option
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_READ_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_READ_OPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_READ_OPTION
+req.redist: 
 ---
 
 # WS_READ_OPTION enumeration

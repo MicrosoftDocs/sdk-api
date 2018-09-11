@@ -4,17 +4,16 @@ title: IMFCaptureSource::GetDeviceStreamCount
 author: windows-sdk-content
 description: Gets the number of device streams.
 old-location: mf\imfcapturesource_getdevicestreamcount.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0CD466EF-4753-42F6-A9B9-71CBB0668342
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetDeviceStreamCount, GetDeviceStreamCount method [Media Foundation], GetDeviceStreamCount method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetDeviceStreamCount method, IMFCaptureSource.GetDeviceStreamCount, IMFCaptureSource::GetDeviceStreamCount, mf.imfcapturesource_getdevicestreamcount, mfcaptureengine/IMFCaptureSource::GetDeviceStreamCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCaptureSource.GetDeviceStreamCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCaptureSource::GetDeviceStreamCount

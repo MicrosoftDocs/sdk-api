@@ -4,17 +4,16 @@ title: IMPEG2PIDMap::EnumPIDMap
 author: windows-sdk-content
 description: The EnumPIDMap method returns a collection of all the currently mapped PIDs on this pin.
 old-location: dshow\impeg2pidmap_enumpidmap.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9e5dbc92-e072-4e59-b7b2-07ae39cb9d59
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: EnumPIDMap, EnumPIDMap method [DirectShow], EnumPIDMap method [DirectShow],IMPEG2PIDMap interface, IMPEG2PIDMap interface [DirectShow],EnumPIDMap method, IMPEG2PIDMap.EnumPIDMap, IMPEG2PIDMap::EnumPIDMap, IMPEG2PIDMapEnumPIDMap, bdaiface/IMPEG2PIDMap::EnumPIDMap, dshow.impeg2pidmap_enumpidmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IMPEG2PIDMap.EnumPIDMap
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMPEG2PIDMap::EnumPIDMap
@@ -65,7 +64,7 @@ The <code>EnumPIDMap</code> method returns a collection of all the currently map
 
 ### -param pIEnumPIDMap
 
-
+TBD
 
 
 

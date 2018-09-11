@@ -4,17 +4,16 @@ title: IWbemEventSink::SetSinkSecurity
 author: windows-sdk-content
 description: Used to set a security descriptor (SD) on a sink for all the events passing through.
 old-location: wmi\iwbemeventsink_setsinksecurity.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 887b3c21-2ff6-4ae9-80bf-19f601da5e8b
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemEventSink interface [Windows Management Instrumentation],SetSinkSecurity method, IWbemEventSink.SetSinkSecurity, IWbemEventSink::SetSinkSecurity, SetSinkSecurity, SetSinkSecurity method [Windows Management Instrumentation], SetSinkSecurity method [Windows Management Instrumentation],IWbemEventSink interface, _hmm_iwbemeventsink_setsinksecurity, wbemprov/IWbemEventSink::SetSinkSecurity, wmi.iwbemeventsink_setsinksecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemEventSink.SetSinkSecurity
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wbemsvc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemEventSink::SetSinkSecurity
@@ -63,7 +61,7 @@ The
 
 ### -param lSDLength
 
-
+TBD
 
 
 ### -param pSD [in]

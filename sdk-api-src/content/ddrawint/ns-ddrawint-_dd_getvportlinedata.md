@@ -4,7 +4,7 @@ title: "_DD_GETVPORTLINEDATA"
 author: windows-sdk-content
 description: The DD_GETVPORTLINEDATA structure contains the current line number of the hardware video port.
 old-location: display\dd_getvportlinedata.htm
-old-project: display
+tech.root: display
 ms.assetid: d8b2803c-38be-40ea-b46b-4bab1ce55534
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_GETVPORTLINEDATA, DD_GETVPORTLINEDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_GETVPORTLINEDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_GETVPORTLINEDATA, DD_GETVPORTLINEDATA"
+req.redist: 
 ---
 
 # _DD_GETVPORTLINEDATA structure

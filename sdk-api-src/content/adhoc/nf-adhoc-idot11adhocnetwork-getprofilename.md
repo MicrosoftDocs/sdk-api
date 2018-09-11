@@ -4,17 +4,16 @@ title: IDot11AdHocNetwork::GetProfileName
 author: windows-sdk-content
 description: Gets the profile name associated with the network.
 old-location: nwifi\idot11adhocnetwork_getprofilename.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: abd25741-25ad-4109-a07e-4146824695b5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetProfileName, GetProfileName method [NativeWIFI], GetProfileName method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetProfileName method, IDot11AdHocNetwork.GetProfileName, IDot11AdHocNetwork::GetProfileName, adhoc/IDot11AdHocNetwork::GetProfileName, nwifi.idot11adhocnetwork_getprofilename
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocNetwork.GetProfileName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocNetwork::GetProfileName

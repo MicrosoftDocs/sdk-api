@@ -4,17 +4,16 @@ title: IDirectDraw7::EvaluateMode
 author: windows-sdk-content
 description: Used after a call to IDirectDraw7::StartModeTest to pass or fail each mode that the test presents and to step through the modes until the test is complete.
 old-location: directdraw\idirectdraw7_evaluatemode.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: c8027183-07b5-4b7f-8c36-7bd711dac7dd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DDEM_MODEFAILED, DDEM_MODEPASSED, EvaluateMode, EvaluateMode method [DirectDraw], EvaluateMode method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],EvaluateMode method, IDirectDraw7.EvaluateMode, IDirectDraw7::EvaluateMode, ddraw/IDirectDraw7::EvaluateMode, directdraw.idirectdraw7_evaluatemode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDraw7.EvaluateMode
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDraw7::EvaluateMode
@@ -60,9 +59,14 @@ Used after a call to <a href="https://msdn.microsoft.com/b669e3c7-b34b-4919-9a3e
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

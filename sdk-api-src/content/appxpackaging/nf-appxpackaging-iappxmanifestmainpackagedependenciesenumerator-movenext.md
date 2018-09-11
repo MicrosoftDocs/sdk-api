@@ -4,17 +4,16 @@ title: IAppxManifestMainPackageDependenciesEnumerator::MoveNext
 author: windows-sdk-content
 description: Advances the position of the enumerator to the next &lt;MainPackageDependency&gt; element.
 old-location: appxpkg\iappxmanifestmainpackagedependenciesenumerator_movenext.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: C9E34671-5B56-4A6D-B728-C074F9BDB6D6
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management],MoveNext method, IAppxManifestMainPackageDependenciesEnumerator.MoveNext, IAppxManifestMainPackageDependenciesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxManifestMainPackageDependenciesEnumerator interface, appxpackaging/IAppxManifestMainPackageDependenciesEnumerator::MoveNext, appxpkg.iappxmanifestmainpackagedependenciesenumerator_movenext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxManifestMainPackageDependenciesEnumerator.MoveNext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxManifestMainPackageDependenciesEnumerator::MoveNext

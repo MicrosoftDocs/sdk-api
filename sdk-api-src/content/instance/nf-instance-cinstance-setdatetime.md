@@ -4,17 +4,16 @@ title: CInstance::SetDateTime
 author: windows-sdk-content
 description: The SetDateTime method sets a datetime property.
 old-location: wmi\cinstance_setdatetime.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 728ad7d3-f56d-472e-976d-59d8598f3bad
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?SetDateTime@CInstance@@QAE_NPBGABVWBEMTime@@@Z, ?SetDateTime@CInstance@@QEAA_NPEBGAEBVWBEMTime@@@Z, CInstance interface [Windows Management Instrumentation],SetDateTime method, CInstance.SetDateTime, CInstance::SetDateTime, SetDateTime, SetDateTime method [Windows Management Instrumentation], SetDateTime method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setdatetime, instance/CInstance::SetDateTime, wmi.cinstance_setdatetime"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ?SetDateTime@CInstance@@QEAA_NPEBGAEBVWBEMTime@@@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::SetDateTime

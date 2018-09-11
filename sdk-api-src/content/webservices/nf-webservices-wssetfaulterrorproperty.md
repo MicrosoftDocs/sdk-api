@@ -4,17 +4,16 @@ title: WsSetFaultErrorProperty function
 author: windows-sdk-content
 description: Set a Fault property of a WS_ERROR object.
 old-location: wsw\wssetfaulterrorproperty.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 193664ab-4688-49c9-97e7-ccf2b3e2d7e8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsSetFaultErrorProperty, WsSetFaultErrorProperty function [Web Services for Windows], webservices/WsSetFaultErrorProperty, wsw.wssetfaulterrorproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsSetFaultErrorProperty
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsSetFaultErrorProperty function

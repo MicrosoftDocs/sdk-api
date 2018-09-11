@@ -4,17 +4,16 @@ title: IDirectManipulationContent::SetTag
 author: windows-sdk-content
 description: Specifies the tag object for the content.
 old-location: directmanipulation\idirectmanipulationcontent_settag.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: d0dce3dd-3fbf-41ea-ba70-8574701d101e
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDirectManipulationContent interface [Direct Manipulation],SetTag method, IDirectManipulationContent.SetTag, IDirectManipulationContent::SetTag, SetTag, SetTag method [Direct Manipulation], SetTag method [Direct Manipulation],IDirectManipulationContent interface, directmanipulation.idirectmanipulationcontent_settag, directmanipulation/IDirectManipulationContent::SetTag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationContent.SetTag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationContent::SetTag

@@ -4,17 +4,16 @@ title: IDXGIAdapter::GetDesc
 author: windows-sdk-content
 description: Gets a DXGI 1.0 description of an adapter (or video card).
 old-location: direct3ddxgi\idxgiadapter_getdesc.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGIAdapter interface, IDXGIAdapter interface [DXGI],GetDesc method, IDXGIAdapter.GetDesc, IDXGIAdapter::GetDesc, d6097f67-3411-f7d2-50dc-507efce034b7, direct3ddxgi.idxgiadapter_getdesc, dxgi/IDXGIAdapter::GetDesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIAdapter.GetDesc
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIAdapter::GetDesc

@@ -4,17 +4,16 @@ title: IDCompositionAnimation::SetAbsoluteBeginTime
 author: windows-sdk-content
 description: Sets the absolute time at which the animation function starts.
 old-location: directcomp\idcompositionanimation_setabsolutebegintime.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 661049EC-DAA2-46A5-B600-C3F0EF8B3EDF
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionAnimation interface [DirectComposition],SetAbsoluteBeginTime method, IDCompositionAnimation.SetAbsoluteBeginTime, IDCompositionAnimation::SetAbsoluteBeginTime, SetAbsoluteBeginTime, SetAbsoluteBeginTime method [DirectComposition], SetAbsoluteBeginTime method [DirectComposition],IDCompositionAnimation interface, dcompanimation/IDCompositionAnimation::SetAbsoluteBeginTime, directcomp.idcompositionanimation_setabsolutebegintime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcompanimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionAnimation.SetAbsoluteBeginTime
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionAnimation::SetAbsoluteBeginTime

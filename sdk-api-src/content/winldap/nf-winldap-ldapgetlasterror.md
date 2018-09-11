@@ -4,17 +4,16 @@ title: LdapGetLastError function
 author: windows-sdk-content
 description: The LdapGetLastError function retrieves the last error code returned by an LDAP call.
 old-location: ldap\ldapgetlasterror.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 04bcdd90-344a-4f2d-a700-e725584e49d9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LdapGetLastError, LdapGetLastError function [LDAP], _ldap_ldapgetlasterror, ldap.ldapgetlasterror, winldap/LdapGetLastError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LdapGetLastError
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # LdapGetLastError function

@@ -4,17 +4,16 @@ title: "_tagSL_LICENSING_STATUS"
 author: windows-sdk-content
 description: Represents the licensing status.
 old-location: security\sl_licensing_status.htm
-old-project: secslapi
+tech.root: SecSLApi
 ms.assetid: e7c857d9-6f63-4b1c-a562-abb158914a7d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SL_LICENSING_STATUS, SL_LICENSING_STATUS structure [Security], _tagSL_LICENSING_STATUS, security.sl_licensing_status, slpublic/SL_LICENSING_STATUS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: slpublic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_LICENSING_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SL_LICENSING_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SL_LICENSING_STATUS
+req.redist: 
 ---
 
 # _tagSL_LICENSING_STATUS structure

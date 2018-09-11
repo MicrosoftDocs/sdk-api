@@ -4,7 +4,7 @@ title: D3D11_RENDER_TARGET_BLEND_DESC1
 author: windows-sdk-content
 description: Describes the blend state for a render target.
 old-location: direct3d11\d3d11_render_target_blend_desc1.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: A8323E69-F385-4E91-8B1F-A7CD3D508A09
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_RENDER_TARGET_BLEND_DESC1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_RENDER_TARGET_BLEND_DESC1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_RENDER_TARGET_BLEND_DESC1
+req.redist: 
 ---
 
 # D3D11_RENDER_TARGET_BLEND_DESC1 structure

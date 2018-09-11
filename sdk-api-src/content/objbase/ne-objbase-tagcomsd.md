@@ -4,17 +4,16 @@ title: tagCOMSD
 author: windows-sdk-content
 description: Determines the type of COM security descriptor to get when calling CoGetSystemSecurityPermissions.
 old-location: com\comsd.htm
-old-project: com
+tech.root: com
 ms.assetid: FF783F27-D5EF-4927-9B7D-489271FBA9B3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: COMSD, COMSD enumeration [COM], SD_ACCESSPERMISSIONS, SD_ACCESSRESTRICTIONS, SD_LAUNCHPERMISSIONS, SD_LAUNCHRESTRICTIONS, com.comsd, objbase/COMSD, objbase/SD_ACCESSPERMISSIONS, objbase/SD_ACCESSRESTRICTIONS, objbase/SD_LAUNCHPERMISSIONS, objbase/SD_LAUNCHRESTRICTIONS, tagCOMSD
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: OaIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COMSD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: COMSD
+req.redist: 
 ---
 
 # tagCOMSD enumeration

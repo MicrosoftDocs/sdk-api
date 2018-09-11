@@ -4,17 +4,16 @@ title: ITextRangeProvider::MoveEndpointByUnit
 author: windows-sdk-content
 description: Moves one endpoint of the text range the specified number of TextUnit units within the document range.
 old-location: winauto\uiauto_ITextRangeProvider_MoveEndpointByUnit.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 3c0b9357-0f51-4044-8a5a-1f68af7a9762
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],MoveEndpointByUnit method, ITextRangeProvider.MoveEndpointByUnit, ITextRangeProvider::MoveEndpointByUnit, MoveEndpointByUnit, MoveEndpointByUnit method [Windows Accessibility], MoveEndpointByUnit method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_MoveEndpointByUnit, uiauto_ITextRangeProvider_MoveEndpointByUnit, uiautomationcore/ITextRangeProvider::MoveEndpointByUnit, winauto.uiauto_ITextRangeProvider_MoveEndpointByUnit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRangeProvider.MoveEndpointByUnit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRangeProvider::MoveEndpointByUnit
@@ -61,9 +59,14 @@ Moves one endpoint of the text range the specified number of <a href="https://ms
 
 
 
-### -param param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 ### -param count [in]

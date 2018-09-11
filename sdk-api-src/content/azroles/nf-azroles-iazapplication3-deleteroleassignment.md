@@ -4,17 +4,16 @@ title: IAzApplication3::DeleteRoleAssignment
 author: windows-sdk-content
 description: Removes the specified IAzRoleAssignment object from the IAzApplication3 object.
 old-location: security\iazapplication3_deleteroleassignment.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1844e7c5-91ad-4f6d-8f5b-1a174e9653dd
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: DeleteRoleAssignment, DeleteRoleAssignment method [Security], DeleteRoleAssignment method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],DeleteRoleAssignment method, IAzApplication3.DeleteRoleAssignment, IAzApplication3::DeleteRoleAssignment, azroles/IAzApplication3::DeleteRoleAssignment, security.iazapplication3_deleteroleassignment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzApplication3.DeleteRoleAssignment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzApplication3::DeleteRoleAssignment

@@ -4,17 +4,16 @@ title: ISCTE_EAS::GetCountOfTableDescriptors
 author: windows-sdk-content
 description: The GetCountOfTableDescriptors method returns the number of descriptors in the EAS table.
 old-location: mstv\iscte_eas_getcountoftabledescriptors.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1d6cae55-233f-49e0-8ced-9dd21b0aa32b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, ISCTE_EAS.GetCountOfTableDescriptors, ISCTE_EAS::GetCountOfTableDescriptors, ISCTE_EASGetCountOfTableDescriptors, atscpsipparser/ISCTE_EAS::GetCountOfTableDescriptors, mstv.iscte_eas_getcountoftabledescriptors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISCTE_EAS.GetCountOfTableDescriptors
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISCTE_EAS::GetCountOfTableDescriptors

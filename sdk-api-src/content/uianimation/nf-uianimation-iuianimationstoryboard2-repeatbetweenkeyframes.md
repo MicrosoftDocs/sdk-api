@@ -4,17 +4,16 @@ title: IUIAnimationStoryboard2::RepeatBetweenKeyframes
 author: windows-sdk-content
 description: Creates a loop between two keyframes.
 old-location: uianimation\iuianimationstoryboard2_repeatbetweenkeyframes.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 31BC2628-14B3-4405-BA9B-4FB275D9AC0D
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],RepeatBetweenKeyframes method, IUIAnimationStoryboard2.RepeatBetweenKeyframes, IUIAnimationStoryboard2::RepeatBetweenKeyframes, RepeatBetweenKeyframes, RepeatBetweenKeyframes method [Windows Animation], RepeatBetweenKeyframes method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_repeatbetweenkeyframes, uianimation/IUIAnimationStoryboard2::RepeatBetweenKeyframes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationStoryboard2.RepeatBetweenKeyframes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationStoryboard2::RepeatBetweenKeyframes

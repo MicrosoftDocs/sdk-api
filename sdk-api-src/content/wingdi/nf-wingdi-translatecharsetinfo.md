@@ -4,17 +4,16 @@ title: TranslateCharsetInfo function
 author: windows-sdk-content
 description: Translates character set information and sets all members of a destination structure to appropriate values.
 old-location: intl\translatecharsetinfo.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 0e6e81f1-ec7b-42ba-8706-a352349fa6ab
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: TCI_SRCCHARSET, TCI_SRCCODEPAGE, TCI_SRCFONTSIG, TCI_SRCLOCALE, TranslateCharsetInfo, TranslateCharsetInfo function [Internationalization for Windows Applications], _win32_TranslateCharsetInfo, intl.translatecharsetinfo, wingdi/TranslateCharsetInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - TranslateCharsetInfo
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # TranslateCharsetInfo function

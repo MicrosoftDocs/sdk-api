@@ -4,17 +4,16 @@ title: IOleObject::GetExtent
 author: windows-sdk-content
 description: Retrieves a running object's current display size.
 old-location: com\ioleobject_getextent.htm
-old-project: com
+tech.root: com
 ms.assetid: babaf55e-6c43-48d8-ad13-1333e29a3e1d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetExtent, GetExtent method [COM], GetExtent method [COM],IOleObject interface, IOleObject interface [COM],GetExtent method, IOleObject.GetExtent, IOleObject::GetExtent, _ole_ioleobject_getextent, com.ioleobject_getextent, oleidl/IOleObject::GetExtent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleObject.GetExtent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleObject::GetExtent

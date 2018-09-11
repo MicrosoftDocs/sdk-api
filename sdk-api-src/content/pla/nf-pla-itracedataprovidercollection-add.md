@@ -4,17 +4,16 @@ title: ITraceDataProviderCollection::Add
 author: windows-sdk-content
 description: Adds a trace provider to the collection.
 old-location: pla\itracedataprovidercollection_add.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 3214f25d-1991-439a-b237-61249a531a2b
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],Add method, ITraceDataProviderCollection.Add, ITraceDataProviderCollection::Add, base.itracedataprovidercollection_add, pla.itracedataprovidercollection_add, pla/ITraceDataProviderCollection::Add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITraceDataProviderCollection.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataProviderCollection::Add

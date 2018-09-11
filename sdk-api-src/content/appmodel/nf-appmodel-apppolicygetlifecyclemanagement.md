@@ -4,17 +4,16 @@ title: AppPolicyGetLifecycleManagement function
 author: windows-sdk-content
 description: Retrieves a value indicating whether a process can be suspended/resumed by the Process Lifecycle Manager (PLM).
 old-location: appxpkg\apppolicygetlifecyclemanagement_function.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: FED6C183-7AA9-428F-8815-F6BC9844B360
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: AppPolicyGetLifecycleManagement, AppPolicyGetLifecycleManagement function [App packaging and management], appmodel/AppPolicyGetLifecycleManagement, appxpkg.apppolicygetlifecyclemanagement_function
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PackageOrigin
+req.lib: OneCoreUap.lib
+req.dll: Api-ms-win-appmodel-runtime-l1-1-2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AppPolicyGetLifecycleManagement
 product: Windows
 targetos: Windows
-req.lib: OneCoreUap.lib
-req.dll: Api-ms-win-appmodel-runtime-l1-1-2.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AppPolicyGetLifecycleManagement function

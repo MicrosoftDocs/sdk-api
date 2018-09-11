@@ -4,17 +4,16 @@ title: IOfflineFilesErrorInfo::GetRawData
 author: windows-sdk-content
 description: Retrieves a block of bytes containing internal data associated with the error.
 old-location: of\iofflinefileserrorinfo_getrawdata.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 70e5e444-7c46-4df9-8f77-da8dc331fcf0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetRawData, GetRawData method [Offline Files], GetRawData method [Offline Files],IOfflineFilesErrorInfo interface, IOfflineFilesErrorInfo interface [Offline Files],GetRawData method, IOfflineFilesErrorInfo.GetRawData, IOfflineFilesErrorInfo::GetRawData, cscobj/IOfflineFilesErrorInfo::GetRawData, of.iofflinefileserrorinfo_getrawdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesErrorInfo.GetRawData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesErrorInfo::GetRawData

@@ -4,17 +4,16 @@ title: IWMDMStorageGlobals
 author: windows-sdk-content
 description: The IWMDMStorageGlobals interface provides methods for retrieving global information about a storage medium (such as a flash ROM card) on a device.
 old-location: wmdm\iwmdmstorageglobals.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: fe164271-58f0-4b28-a200-6b15f8b42d36
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDMStorageGlobals, IWMDMStorageGlobals interface [windows Media Device Manager], IWMDMStorageGlobals interface [windows Media Device Manager],described, IWMDMStorageGlobalsInterface, mswmdm/IWMDMStorageGlobals, wmdm.iwmdmstorageglobals
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMDMStorageGlobals
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMStorageGlobals interface

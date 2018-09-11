@@ -4,17 +4,16 @@ title: "_SECPKG_SERIALIZED_OID"
 author: windows-sdk-content
 description: Contains the security package's object identifier (OID).
 old-location: security\secpkg_serialized_oid.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 54CF931B-AD1F-4370-A2AF-5DF4BC9EA007
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSECPKG_SERIALIZED_OID, PSECPKG_SERIALIZED_OID, PSECPKG_SERIALIZED_OID structure pointer [Security], SECPKG_SERIALIZED_OID, SECPKG_SERIALIZED_OID structure [Security], _SECPKG_SERIALIZED_OID, ntsecpkg/PSECPKG_SERIALIZED_OID, ntsecpkg/SECPKG_SERIALIZED_OID, security.secpkg_serialized_oid"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_SERIALIZED_OID, *PSECPKG_SERIALIZED_OID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_SERIALIZED_OID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_SERIALIZED_OID, *PSECPKG_SERIALIZED_OID
+req.redist: 
 ---
 
 # _SECPKG_SERIALIZED_OID structure

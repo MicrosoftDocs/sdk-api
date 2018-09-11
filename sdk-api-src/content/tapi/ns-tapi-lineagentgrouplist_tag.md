@@ -4,7 +4,7 @@ title: lineagentgrouplist_tag
 author: windows-sdk-content
 description: The LINEAGENTGROUPLIST structure describes a list of ACD agent groups. This structure can contain an array of LINEAGENTGROUPENTRY structures.
 old-location: tapi2\lineagentgrouplist_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6189eb8e-20a4-4c87-bc7f-0a6af9605be7
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEAGENTGROUPLIST, *LPLINEAGENTGROUPLIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEAGENTGROUPLIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEAGENTGROUPLIST, *LPLINEAGENTGROUPLIST
+req.redist: 
 ---
 
 # lineagentgrouplist_tag structure

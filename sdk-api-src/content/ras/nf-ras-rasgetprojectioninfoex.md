@@ -4,17 +4,16 @@ title: RasGetProjectionInfoEx function
 author: windows-sdk-content
 description: Obtains information about Point-to-Point Protocol (PPP) or Internet Key Exchange version 2 (IKEv2) remote access projection operations for all RAS connections on the local client.
 old-location: rras\rasgetprojectioninfoex.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: e34216ed-fa78-4cb3-8db9-274c8ba196dd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RasGetProjectionInfoEx, RasGetProjectionInfoEx function [RAS], ras/RasGetProjectionInfoEx, rras.rasgetprojectioninfoex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASPROJECTION_INFO_TYPE
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RasGetProjectionInfoEx
 product: Windows
 targetos: Windows
-req.lib: Rasapi32.lib
-req.dll: Rasapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasGetProjectionInfoEx function

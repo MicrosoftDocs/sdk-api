@@ -4,17 +4,16 @@ title: CryptGetHashParam function
 author: windows-sdk-content
 description: Retrieves data that governs the operations of a hash object.
 old-location: security\cryptgethashparam.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: ed008c07-1a40-4075-bdaa-eb7f7e12d9c3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptGetHashParam, CryptGetHashParam function [Security], HP_ALGID, HP_HASHSIZE, HP_HASHVAL, _crypto2_cryptgethashparam, security.cryptgethashparam, wincrypt/CryptGetHashParam
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CryptGetHashParam
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptGetHashParam function

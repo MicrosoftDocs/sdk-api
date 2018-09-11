@@ -4,17 +4,16 @@ title: IBandHost
 author: windows-sdk-content
 description: Exposes methods that create and destroy bands and specifiy their availability.
 old-location: shell\IBandHost.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8d9fe92a-812e-4fa0-954b-37aa48b52008
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBandHost, IBandHost interface [Windows Shell], IBandHost interface [Windows Shell],described, _shell_IBandHost, shell.IBandHost, shobjidl/IBandHost
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBandHost
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Browseui.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IBandHost interface

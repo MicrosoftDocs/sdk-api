@@ -4,17 +4,16 @@ title: IVideoWindow::get_Owner
 author: windows-sdk-content
 description: The get_Owner method retrieves the video window's parent window, if any.
 old-location: dshow\ivideowindow_get_owner.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9bb21c2a-25c6-43fa-a1b0-9f09944f1326
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Owner method, IVideoWindow.get_Owner, IVideoWindow::get_Owner, IVideoWindowget_Owner, control/IVideoWindow::get_Owner, dshow.ivideowindow_get_owner, get_Owner, get_Owner method [DirectShow], get_Owner method [DirectShow],IVideoWindow interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IVideoWindow.get_Owner
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoWindow::get_Owner
@@ -65,7 +64,7 @@ The <code>get_Owner</code> method retrieves the video window's parent window, if
 
 ### -param Owner
 
-
+TBD
 
 
 

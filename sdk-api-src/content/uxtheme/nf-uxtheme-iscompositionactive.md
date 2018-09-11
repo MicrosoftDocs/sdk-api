@@ -4,17 +4,16 @@ title: IsCompositionActive function
 author: windows-sdk-content
 description: Determines whether Desktop Window Manager (DWM) composition effects are available to the theme.
 old-location: controls\IsCompositionActive.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\iscompositionactive.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IsCompositionActive, IsCompositionActive function [Windows Controls], _shell_IsCompositionActive, _shell_IsCompositionActive_cpp, controls.IsCompositionActive, controls._shell_IsCompositionActive, uxtheme/IsCompositionActive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: 
+req.dll: UxTheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IsCompositionActive
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UxTheme.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IsCompositionActive function

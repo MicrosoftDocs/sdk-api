@@ -4,17 +4,16 @@ title: FindFirstUrlCacheEntryExA function
 author: windows-sdk-content
 description: Starts a filtered enumeration of the Internet cache.
 old-location: wininet\findfirsturlcacheentryex.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: af17c809-2a9e-443a-b64a-93c028e3b71b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: FindFirstUrlCacheEntryEx, FindFirstUrlCacheEntryEx function [WinINet], FindFirstUrlCacheEntryExA, FindFirstUrlCacheEntryExW, _inet_findfirsturlcacheentryex_function, wininet.findfirsturlcacheentryex, wininet/FindFirstUrlCacheEntryEx, wininet/FindFirstUrlCacheEntryExA, wininet/FindFirstUrlCacheEntryExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FindFirstUrlCacheEntryExW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FindFirstUrlCacheEntryExA function

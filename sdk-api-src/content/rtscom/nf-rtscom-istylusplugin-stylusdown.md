@@ -4,17 +4,16 @@ title: IStylusPlugin::StylusDown
 author: windows-sdk-content
 description: Notifies the implementing plug-in that the tablet pen has touched the digitizer surface.
 old-location: tablet\istylusplugin_stylusdown.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 13fb831c-e3e8-4e04-81ce-d4658be105a0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 13fb831c-e3e8-4e04-81ce-d4658be105a0, IStylusPlugin interface [Tablet PC],StylusDown method, IStylusPlugin.StylusDown, IStylusPlugin::StylusDown, StylusDown, StylusDown method [Tablet PC], StylusDown method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::StylusDown, tablet.istylusplugin_stylusdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStylusPlugin.StylusDown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStylusPlugin::StylusDown

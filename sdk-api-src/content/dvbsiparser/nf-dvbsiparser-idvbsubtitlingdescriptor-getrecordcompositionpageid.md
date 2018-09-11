@@ -4,17 +4,16 @@ title: IDvbSubtitlingDescriptor::GetRecordCompositionPageID
 author: windows-sdk-content
 description: Gets the composition page identifier for a Digital Video Broadcast (DVB) subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor_getrecordcompositionpageid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 108f431a-e3c3-42d5-ad27-b7a54029051f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordCompositionPageID, GetRecordCompositionPageID method [Microsoft TV Technologies], GetRecordCompositionPageID method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetRecordCompositionPageID method, IDvbSubtitlingDescriptor.GetRecordCompositionPageID, IDvbSubtitlingDescriptor::GetRecordCompositionPageID, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordCompositionPageID, mstv.idvbsubtitlingdescriptor_getrecordcompositionpageid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbSubtitlingDescriptor.GetRecordCompositionPageID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbSubtitlingDescriptor::GetRecordCompositionPageID

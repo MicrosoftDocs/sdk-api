@@ -4,17 +4,16 @@ title: ITextPara::GetFirstLineIndent
 author: windows-sdk-content
 description: Retrieves the amount used to indent the first line of a paragraph relative to the left indent. The left indent is the indent for all lines of the paragraph except the first line.
 old-location: controls\ITextPara_GetFirstLineIndent.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getfirstlineindent.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFirstLineIndent, GetFirstLineIndent method [Windows Controls], GetFirstLineIndent method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetFirstLineIndent method, ITextPara.GetFirstLineIndent, ITextPara::GetFirstLineIndent, _win32_ITextPara_GetFirstLineIndent, _win32_ITextPara_GetFirstLineIndent_cpp, controls.ITextPara_GetFirstLineIndent, controls._win32_ITextPara_GetFirstLineIndent, tom/ITextPara::GetFirstLineIndent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextPara.GetFirstLineIndent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextPara::GetFirstLineIndent

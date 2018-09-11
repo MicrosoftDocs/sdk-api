@@ -4,17 +4,16 @@ title: DhcpV4AddPolicyRange function
 author: windows-sdk-content
 description: Adds an IP address range to a policy.
 old-location: dhcp\dhcpv4addpolicyrange.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 43ec0634-6a4b-4d70-98d1-410b33a7cb17
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpV4AddPolicyRange, DhcpV4AddPolicyRange function [DHCP], dhcp.dhcpv4addpolicyrange, dhcpsapi/DhcpV4AddPolicyRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpV4AddPolicyRange
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpV4AddPolicyRange function

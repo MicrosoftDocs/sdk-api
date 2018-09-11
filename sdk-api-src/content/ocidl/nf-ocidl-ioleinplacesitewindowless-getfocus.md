@@ -4,17 +4,16 @@ title: IOleInPlaceSiteWindowless::GetFocus
 author: windows-sdk-content
 description: Called by an in-place active, windowless object to determine whether it still has the keyboard focus.
 old-location: com\ioleinplacesitewindowless_getfocus.htm
-old-project: com
+tech.root: com
 ms.assetid: 282f350c-d196-40c2-880f-55f28dc48f2b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetFocus, GetFocus method [COM], GetFocus method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetFocus method, IOleInPlaceSiteWindowless.GetFocus, IOleInPlaceSiteWindowless::GetFocus, _ole_ioleinplacesitewindowless_getfocus, com.ioleinplacesitewindowless_getfocus, ocidl/IOleInPlaceSiteWindowless::GetFocus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceSiteWindowless.GetFocus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSiteWindowless::GetFocus

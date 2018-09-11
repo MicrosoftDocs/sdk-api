@@ -4,17 +4,16 @@ title: ICallFrame::Copy
 author: windows-sdk-content
 description: Creates a copy of this call frame and all of its associated data.
 old-location: com\icallframe_copy.htm
-old-project: com
+tech.root: com
 ms.assetid: bf2d2e55-d9d1-48d6-817c-382c739d1acd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Copy, Copy method [COM], Copy method [COM],ICallFrame interface, ICallFrame interface [COM],Copy method, ICallFrame.Copy, ICallFrame::Copy, _com_icallframe_copy, callobj/ICallFrame::Copy, com.icallframe_copy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICallFrame.Copy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICallFrame::Copy

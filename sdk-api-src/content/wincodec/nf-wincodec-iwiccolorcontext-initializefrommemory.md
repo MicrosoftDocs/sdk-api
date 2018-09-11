@@ -4,17 +4,16 @@ title: IWICColorContext::InitializeFromMemory
 author: windows-sdk-content
 description: Initializes the color context from a memory block.
 old-location: wic\_wic_codec_iwiccolorcontext_initializefrommemory.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 0cadc79b-85d0-495e-8309-8d5e3b246242
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICColorContext interface [Windows Imaging Component],InitializeFromMemory method, IWICColorContext.InitializeFromMemory, IWICColorContext::InitializeFromMemory, InitializeFromMemory, InitializeFromMemory method [Windows Imaging Component], InitializeFromMemory method [Windows Imaging Component],IWICColorContext interface, _wic_codec_iwiccolorcontext_initializefrommemory, wic._wic_codec_iwiccolorcontext_initializefrommemory, wincodec/IWICColorContext::InitializeFromMemory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICColorContext.InitializeFromMemory
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICColorContext::InitializeFromMemory

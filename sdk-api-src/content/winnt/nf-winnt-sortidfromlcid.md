@@ -4,17 +4,16 @@ title: SORTIDFROMLCID macro
 author: windows-sdk-content
 description: Retrieves a sort order identifier from a locale identifier.
 old-location: intl\sortidfromlcid.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 78da443e-ad92-4e2f-aebe-c0aed880b8b6
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: SORTIDFROMLCID, SORTIDFROMLCID macro [Internationalization for Windows Applications], _win32_SORTIDFROMLCID, intl.sortidfromlcid, winnt/SORTIDFROMLCID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SORTIDFROMLCID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SORTIDFROMLCID macro

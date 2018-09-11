@@ -4,17 +4,16 @@ title: IValueMapItem::get_ValueMapType
 author: windows-sdk-content
 description: Retrieves or sets the type of the item.
 old-location: pla\ivaluemapitem_valuemaptype.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 006d134d-d14b-4964-b46c-7dd2353d2493
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IValueMapItem interface [PLA],ValueMapType property, IValueMapItem.ValueMapType, IValueMapItem.get_ValueMapType, IValueMapItem::ValueMapType, IValueMapItem::get_ValueMapType, IValueMapItem::put_ValueMapType, ValueMapType property [PLA], ValueMapType property [PLA],IValueMapItem interface, base.ivaluemapitem_valuemaptype, get_ValueMapType, pla.ivaluemapitem_valuemaptype, pla/IValueMapItem::ValueMapType, pla/IValueMapItem::get_ValueMapType, pla/IValueMapItem::put_ValueMapType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IValueMapItem.put_ValueMapType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IValueMapItem::get_ValueMapType

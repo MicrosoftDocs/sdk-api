@@ -4,17 +4,16 @@ title: IVdsVolumeMF::AddAccessPath
 author: windows-sdk-content
 description: Adds an access path.
 old-location: base\ivdsvolumemf_addaccesspath.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: cf29639e-33fd-42f6-b616-7145521da347
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AddAccessPath, AddAccessPath method [VDS], AddAccessPath method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],AddAccessPath method, IVdsVolumeMF.AddAccessPath, IVdsVolumeMF::AddAccessPath, base.ivdsvolumemf_addaccesspath, vds/IVdsVolumeMF::AddAccessPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolumeMF.AddAccessPath
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolumeMF::AddAccessPath

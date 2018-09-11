@@ -4,17 +4,16 @@ title: IGPMBackup::GenerateReport
 author: windows-sdk-content
 description: Gets the report for the backup Group Policy object (GPO).
 old-location: gpmc\igpmbackup_generatereport.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: d5daa512-547f-4b2d-85b3-0f6e9244acb2
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMBackup object [GPMC],GenerateReport method, GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],GPMBackup object, GenerateReport method [GPMC],IGPMBackup interface, IGPMBackup interface [GPMC],GenerateReport method, IGPMBackup.GenerateReport, IGPMBackup::GenerateReport, gpmc.igpmbackup_generatereport, gpmgmt/IGPMBackup::GenerateReport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMBackup.GenerateReport
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMBackup::GenerateReport

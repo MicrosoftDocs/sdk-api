@@ -2,19 +2,18 @@
 UID: NF:mergemod.IMsmError.get_ModuleTable
 title: IMsmError::get_ModuleTable
 author: windows-sdk-content
-description: The read-only ModuleTable Property returns the name of the table in the module that caused the error.
-old-location: setup\error_moduletable.htm
-old-project: msi
-ms.assetid: 390f5889-d638-4c1c-b95c-76d38c934e7c
+description: The get_ModuleTable method retrieves the ModuleTable property of the Error object. This method returns the name of the table in the module that caused the error.
+old-location: setup\imsmerror_get_moduletable.htm
+tech.root: msi
+ms.assetid: c24145dc-0907-4916-bbec-f9e0ec7584db
 ms.author: windowssdkdev
-ms.date: 08/06/2018
-ms.keywords: Error object,ModuleTable property, Error.ModuleTable, IMsmError.get_ModuleTable, IMsmError::get_ModuleTable, ModuleTable property, ModuleTable property,Error object, _msi_moduletable_property, get_ModuleTable, setup.error_moduletable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.date: 08/29/2018
+ms.keywords: IMsmError interface,get_ModuleTable method, IMsmError.get_ModuleTable, IMsmError::get_ModuleTable, _msi_get_moduletable_function, get_ModuleTable, get_ModuleTable method, get_ModuleTable method,IMsmError interface, mergemod/IMsmError::get_ModuleTable, setup.imsmerror_get_moduletable
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Mergemod.dll 1.0 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_MEMORY_REGION_INFORMATION
+req.lib: 
+req.dll: Mergemod.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,11 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - Error.ModuleTable
  - IMsmError.get_ModuleTable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mergemod.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMsmError::get_ModuleTable
@@ -53,26 +50,97 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The read-only 
-<b>ModuleTable</b> Property returns the name of the table in the module that caused the error.
-
-This property is read-only.
+The 
+<b>get_ModuleTable</b> method retrieves the 
+<a href="https://msdn.microsoft.com/390f5889-d638-4c1c-b95c-76d38c934e7c">ModuleTable</a> property of the 
+<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object. This method returns the name of the table in the module that caused the error.
 
 
 ## -parameters
+
+
+
+
+### -param ErrorTable
+
+TBD
+
+
+
+
+#### - Table [out]
+
+A pointer to a location in memory that is filled in with a <b>BSTR</b> value.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Table is null.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The system was unable to allocate memory for the string.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
 
 
 ## -remarks
 
 
 
-The collection is empty if the values do not apply to the type of the error. You can determine the type of error by calling the 
-<a href="https://msdn.microsoft.com/5567ba71-c815-4434-962c-aa46cd171712">Type</a> property of the 
-<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object.
+The client is responsible for freeing the resulting string using <b>SysFreeString</b>.
 
-<h3><a id="C__"></a><a id="c__"></a>C++</h3>
-See 
-<a href="https://msdn.microsoft.com/c24145dc-0907-4916-bbec-f9e0ec7584db">get_ModuleTable</a> function.
+The collection is empty if the values do not apply to the type of the error. You can determine the type of error by calling <a href="https://msdn.microsoft.com/733a5390-419d-414a-b50e-8400d179bfb6">IMsmError::get_Type</a>.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+ 
+
+ 
 

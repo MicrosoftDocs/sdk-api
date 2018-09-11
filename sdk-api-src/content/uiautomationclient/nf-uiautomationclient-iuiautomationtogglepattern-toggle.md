@@ -4,17 +4,16 @@ title: IUIAutomationTogglePattern::Toggle
 author: windows-sdk-content
 description: Cycles through the toggle states of the control.
 old-location: winauto\uiauto_IUIAutomationTogglePattern_Toggle.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 5d1e6474-e8fb-47a2-9130-539d1b9f230e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationTogglePattern interface [Windows Accessibility],Toggle method, IUIAutomationTogglePattern.Toggle, IUIAutomationTogglePattern::Toggle, Toggle, Toggle method [Windows Accessibility], Toggle method [Windows Accessibility],IUIAutomationTogglePattern interface, uiauto.uiauto_IUIAutomationTogglePattern_Toggle, uiauto_IUIAutomationTogglePattern_Toggle, uiautomationclient/IUIAutomationTogglePattern::Toggle, winauto.uiauto_IUIAutomationTogglePattern_Toggle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTogglePattern.Toggle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTogglePattern::Toggle

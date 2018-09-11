@@ -4,17 +4,16 @@ title: IUIAutomationTransformPattern::get_CurrentCanResize
 author: windows-sdk-content
 description: Indicates whether the element can be resized.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_CurrentCanResize.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 2ad057b2-d382-45e0-be98-3897e5f31668
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentCanResize property [Windows Accessibility], CurrentCanResize property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CurrentCanResize property, IUIAutomationTransformPattern.CurrentCanResize, IUIAutomationTransformPattern.get_CurrentCanResize, IUIAutomationTransformPattern::CurrentCanResize, IUIAutomationTransformPattern::get_CurrentCanResize, get_CurrentCanResize, uiauto.uiauto_IUIAutomationTransformPattern_CurrentCanResize, uiauto_IUIAutomationTransformPattern_CurrentCanResize, uiautomationclient/IUIAutomationTransformPattern::CurrentCanResize, uiautomationclient/IUIAutomationTransformPattern::get_CurrentCanResize, winauto.uiauto_IUIAutomationTransformPattern_CurrentCanResize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationTransformPattern.get_CurrentCanResize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTransformPattern::get_CurrentCanResize

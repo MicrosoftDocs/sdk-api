@@ -4,7 +4,7 @@ title: "_WLAN_INTERFACE_STATE"
 author: windows-sdk-content
 description: Indicates the state of an interface.
 old-location: nwifi\wlan_interface_state.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 209540c0-81b7-4dc5-97ef-5ecc7f19a82b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wlanapi.h
 req.include-header: 
-req.redist: Wireless LAN API for Windows XP with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLAN_INTERFACE_STATE, *PWLAN_INTERFACE_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLAN_INTERFACE_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLAN_INTERFACE_STATE, *PWLAN_INTERFACE_STATE
+req.redist: Wireless LAN API for Windows XP with SP2
 ---
 
 # _WLAN_INTERFACE_STATE enumeration

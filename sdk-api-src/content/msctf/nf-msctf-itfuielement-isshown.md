@@ -4,17 +4,16 @@ title: ITfUIElement::IsShown
 author: windows-sdk-content
 description: The ITfUIElement::IsShown method returns true if the UI is currently shown by a text service; otherwise false.
 old-location: tsf\itfuielement_isshown.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 84253cbe-a30e-4def-b268-0f5f1b7d54dc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfUIElement interface [Text Services Framework],IsShown method, ITfUIElement.IsShown, ITfUIElement::IsShown, IsShown, IsShown method [Text Services Framework], IsShown method [Text Services Framework],ITfUIElement interface, msctf/ITfUIElement::IsShown, tsf.itfuielement_isshown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfUIElement.IsShown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfUIElement::IsShown

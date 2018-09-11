@@ -4,17 +4,16 @@ title: IUIAnimationManager2::Update
 author: windows-sdk-content
 description: Updates the values of all animation variables.
 old-location: uianimation\iuianimationmanager2_update.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 5735ABDB-E1AE-41C0-9F37-92084CEF6FAD
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],Update method, IUIAnimationManager2.Update, IUIAnimationManager2::Update, Update, Update method [Windows Animation], Update method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_update, uianimation/IUIAnimationManager2::Update
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationManager2.Update
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationManager2::Update

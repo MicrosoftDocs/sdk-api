@@ -4,17 +4,16 @@ title: ITQueue::get_LongestEverWaitTime
 author: windows-sdk-content
 description: The get_LongestEverWaitTime method gets the longest time any call waited in the queue (in seconds) during the current measurement period.
 old-location: tapi3\itqueue_get_longesteverwaittime.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 686ea264-a826-4205-a422-7d1dc3d430f8
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_LongestEverWaitTime method, ITQueue.get_LongestEverWaitTime, ITQueue::get_LongestEverWaitTime, _tapi3_itqueue_get_longesteverwaittime, get_LongestEverWaitTime, get_LongestEverWaitTime method [TAPI 2.2], get_LongestEverWaitTime method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_longesteverwaittime, tapi3cc/ITQueue::get_LongestEverWaitTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITQueue.get_LongestEverWaitTime
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITQueue::get_LongestEverWaitTime

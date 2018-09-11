@@ -4,17 +4,16 @@ title: IDsDisplaySpecifier::SetLanguageID
 author: windows-sdk-content
 description: Changes the locale used by the IDsDisplaySpecifier object to a specified language.
 old-location: ad\idsdisplayspecifier_setlanguageid.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 306538a4-dccc-4f4f-89fa-491d08718d14
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDsDisplaySpecifier interface [Active Directory],SetLanguageID method, IDsDisplaySpecifier.SetLanguageID, IDsDisplaySpecifier::SetLanguageID, SetLanguageID, SetLanguageID method [Active Directory], SetLanguageID method [Active Directory],IDsDisplaySpecifier interface, _glines_idsdisplayspecifier_setlanguageid, ad.idsdisplayspecifier__setlanguageid, ad.idsdisplayspecifier_setlanguageid, dsclient/IDsDisplaySpecifier::SetLanguageID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+req.lib: 
+req.dll: Dsadmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsDisplaySpecifier.SetLanguageID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dsadmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsDisplaySpecifier::SetLanguageID

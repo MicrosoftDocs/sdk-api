@@ -4,17 +4,16 @@ title: IDiskQuotaControl::FindUserSid
 author: windows-sdk-content
 description: Locates a specific user entry in the volume quota information.
 old-location: fs\idiskquotacontrol_findusersid.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: a6ce8eb3-cfa3-43b4-80ee-6dbef41f99ac
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DISKQUOTA_USERNAME_RESOLVE_ASYNC, DISKQUOTA_USERNAME_RESOLVE_NONE, DISKQUOTA_USERNAME_RESOLVE_SYNC, FindUserSid, FindUserSid method [Files], FindUserSid method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],FindUserSid method, IDiskQuotaControl.FindUserSid, IDiskQuotaControl::FindUserSid, _win32_idiskquotacontrol_findusersid, base.idiskquotacontrol_findusersid, dskquota/IDiskQuotaControl::FindUserSid, fs.idiskquotacontrol_findusersid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaControl.FindUserSid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaControl::FindUserSid

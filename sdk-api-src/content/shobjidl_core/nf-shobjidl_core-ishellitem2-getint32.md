@@ -4,17 +4,16 @@ title: IShellItem2::GetInt32
 author: windows-sdk-content
 description: Gets the Int32 value of specified property key.
 old-location: shell\IShellItem2_GetInt32.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7b56036e-316b-4300-979c-151422f74bd2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetInt32, GetInt32 method [Windows Shell], GetInt32 method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetInt32 method, IShellItem2.GetInt32, IShellItem2::GetInt32, _shell_IShellItem2_GetInt32, shell.IShellItem2_GetInt32, shobjidl_core/IShellItem2::GetInt32
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellItem2.GetInt32
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellItem2::GetInt32

@@ -4,17 +4,16 @@ title: IWMWriter::Flush
 author: windows-sdk-content
 description: The functionality of the Flush method has been removed, because IWMWriter::EndWriting performs the needed checks internally. For compatibility with older applications, calls to flush will always return S_OK even though the call does nothing.
 old-location: wmformat\iwmwriter_flush.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 1fa0c482-f1f5-4d3c-8268-731914caefa3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Flush, Flush method [windows Media Format], Flush method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],Flush method, IWMWriter.Flush, IWMWriter::Flush, IWMWriterFlush, wmformat.iwmwriter_flush, wmsdkidl/IWMWriter::Flush
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMWriter.Flush
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMWriter::Flush

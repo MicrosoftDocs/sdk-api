@@ -4,17 +4,16 @@ title: PLOG_EVENT_ROUTINE
 author: windows-sdk-content
 description: Records an event in the cluster log.
 old-location: mscs\logevent.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 91389083-e007-4d64-885f-e5188e74b9d8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: LOG_ERROR, LOG_INFORMATION, LOG_SEVERE, LOG_WARNING, LogEvent, LogEvent callback, LogEvent callback function [Failover Cluster], PLOG_EVENT_ROUTINE, PLOG_EVENT_ROUTINE callback function [Failover Cluster], _wolf_logevent, mscs.logevent, resapi/LogEvent, resapi/PLOG_EVENT_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LogEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PLOG_EVENT_ROUTINE callback function

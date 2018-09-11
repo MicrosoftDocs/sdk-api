@@ -4,17 +4,16 @@ title: UnionRect function
 author: windows-sdk-content
 description: The UnionRect function creates the union of two rectangles. The union is the smallest rectangle that contains both source rectangles.
 old-location: gdi\unionrect.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: f2da2df4-3f09-4c54-afd1-c728805f0f64
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UnionRect, UnionRect function [Windows GDI], _win32_UnionRect, gdi.unionrect, winuser/UnionRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - UnionRect
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # UnionRect function

@@ -4,17 +4,16 @@ title: NcIsValidConnectionName function
 author: windows-sdk-content
 description: The NcIsValidConnectionName function verifies if the passed in connection name is valid.
 old-location: ics\ncisvalidconnectionname.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 08fe9ba2-3314-45ff-8aea-742dd5b15560
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: NcIsValidConnectionName, NcIsValidConnectionName function [ICS/ICF], ics.ncisvalidconnectionname, netcon/NcIsValidConnectionName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Netshell.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NcIsValidConnectionName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Netshell.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NcIsValidConnectionName function

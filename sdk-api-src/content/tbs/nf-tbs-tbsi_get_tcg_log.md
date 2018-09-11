@@ -4,17 +4,16 @@ title: Tbsi_Get_TCG_Log function
 author: windows-sdk-content
 description: Retrieves the most recent Windows Boot Configuration Log (WBCL), also referred to as a TCG log.
 old-location: tbs\tbsi_get_tcg_log.htm
-old-project: tbs
+tech.root: TBS
 ms.assetid: f52c71fd-383b-4c32-9b49-8904ffb692c1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Tbsi_Get_TCG_Log, Tbsi_Get_TCG_Log function [TBS], tbs.tbsi_get_tcg_log, tbs/Tbsi_Get_TCG_Log
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tbs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Tbs.lib
+req.dll: Tbs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Tbsi_Get_TCG_Log
 product: Windows
 targetos: Windows
-req.lib: Tbs.lib
-req.dll: Tbs.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Tbsi_Get_TCG_Log function

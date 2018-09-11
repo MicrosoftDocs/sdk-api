@@ -4,17 +4,16 @@ title: UiaGetErrorDescription function
 author: windows-sdk-content
 description: Gets an error string so that it can be passed to the client. This method is not used directly by clients.
 old-location: winauto\uiauto_UiaGetErrorDescriptionAutoMeth.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: bb00f7cd-8557-4ef7-a53c-c020d0acdb78
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UiaGetErrorDescription, UiaGetErrorDescription function [Windows Accessibility], uiauto.uiauto_UiaGetErrorDescriptionAutoMeth, uiauto_UiaGetErrorDescriptionAutoMeth, uiautomationcoreapi/UiaGetErrorDescription, winauto.uiauto_UiaGetErrorDescriptionAutoMeth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UiaGetErrorDescription
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaGetErrorDescription function

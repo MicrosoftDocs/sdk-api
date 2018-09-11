@@ -4,17 +4,16 @@ title: IVdsVolumePlex::GetVolume
 author: windows-sdk-content
 description: Returns the volume to which the current plex is a member.
 old-location: base\ivdsvolumeplex_getvolume.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: ddf6102b-81d4-4604-942e-ffb1c2c4730f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetVolume, GetVolume method [VDS], GetVolume method [VDS],IVdsVolumePlex interface, IVdsVolumePlex interface [VDS],GetVolume method, IVdsVolumePlex.GetVolume, IVdsVolumePlex::GetVolume, base.ivdsvolumeplex_getvolume, vds/IVdsVolumePlex::GetVolume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolumePlex.GetVolume
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolumePlex::GetVolume

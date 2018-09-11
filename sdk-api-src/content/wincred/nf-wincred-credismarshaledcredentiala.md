@@ -4,17 +4,16 @@ title: CredIsMarshaledCredentialA function
 author: windows-sdk-content
 description: Determines whether a specified user name string is a marshaled credential previously marshaled by CredMarshalCredential.
 old-location: security\credismarshaledcredential.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: fc902c0c-41e0-4178-8ca0-227a1d218388
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CredIsMarshaledCredential, CredIsMarshaledCredential function [Security], CredIsMarshaledCredentialA, CredIsMarshaledCredentialW, _cred_credismarshaledcredential, security.credismarshaledcredential, wincred/CredIsMarshaledCredential, wincred/CredIsMarshaledCredentialA, wincred/CredIsMarshaledCredentialW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - CredIsMarshaledCredentialW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CredIsMarshaledCredentialA function

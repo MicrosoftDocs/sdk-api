@@ -4,7 +4,7 @@ title: D2D_VECTOR_4F
 author: windows-sdk-content
 description: A vector of 4 FLOAT values (x, y, z, w).
 old-location: direct2d\d2d1_vector_4f.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 6D931285-0F2B-44BE-8A1A-2348AC49A8DF
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dcommon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - D2D_VECTOR_4F
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D_VECTOR_4F
+req.redist: 
 ---
 
 # D2D_VECTOR_4F structure

@@ -4,17 +4,16 @@ title: Provider::Provider
 author: windows-sdk-content
 description: The Provider method creates an instance of a provider. This method is part of the WMI Provider Framework.
 old-location: wmi\provider_provider.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 1859c921-a0dc-4fd4-9c0b-680a24eab936
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "??0Provider@@QAE@PBG0@Z, ??0Provider@@QEAA@PEBG0@Z, Provider, Provider interface [Windows Management Instrumentation],Provider method, Provider method [Windows Management Instrumentation], Provider method [Windows Management Instrumentation],Provider interface, Provider.Provider, Provider::Provider, provider/Provider::Provider, wmi.provider_provider"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ??0Provider@@QEAA@PEBG0@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # Provider::Provider
@@ -76,7 +74,7 @@ Name of the provider to be instantiated.
 
 ### -param a_pszNameSpace
 
-
+TBD
 
 
 

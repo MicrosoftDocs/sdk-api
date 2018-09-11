@@ -4,17 +4,16 @@ title: IWMSInternalAdminNetSource::ShutdownProxyContext
 author: windows-sdk-content
 description: The ShutdownProxyContext method releases the internal resources used by IWMSInternalAdminNetSource::FindProxyForURL. To avoid memory leaks, you must call this method after you are finished making calls to FindProxyForURL.
 old-location: wmformat\iwmsinternaladminnetsource_shutdownproxycontext.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 95c6f641-e0b1-4391-b4bd-b43c03a330b4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMSInternalAdminNetSource interface [windows Media Format],ShutdownProxyContext method, IWMSInternalAdminNetSource.ShutdownProxyContext, IWMSInternalAdminNetSource::ShutdownProxyContext, IWMSInternalAdminNetSourceShutdownProxyContext, ShutdownProxyContext, ShutdownProxyContext method [windows Media Format], ShutdownProxyContext method [windows Media Format],IWMSInternalAdminNetSource interface, wmformat.iwmsinternaladminnetsource_shutdownproxycontext, wmsinternaladminnetsource/IWMSInternalAdminNetSource::ShutdownProxyContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETSOURCE_URLCREDPOLICY_SETTINGS
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMSInternalAdminNetSource.ShutdownProxyContext
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMSInternalAdminNetSource::ShutdownProxyContext

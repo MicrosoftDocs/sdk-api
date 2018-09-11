@@ -4,17 +4,16 @@ title: ITTerminalControl::RunRenderFilter
 author: windows-sdk-content
 description: The RunRenderFilter method starts the rightmost render filter in the terminal. Needed for dynamic filter graphs.
 old-location: tapi3\itterminalcontrol_runrenderfilter.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: ed02ed04-3665-47be-a77b-7804a2197767
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTerminalControl interface [TAPI 2.2],RunRenderFilter method, ITTerminalControl.RunRenderFilter, ITTerminalControl::RunRenderFilter, RunRenderFilter, RunRenderFilter method [TAPI 2.2], RunRenderFilter method [TAPI 2.2],ITTerminalControl interface, _tapi3_itterminalcontrol_runrenderfilter, tapi3.itterminalcontrol_runrenderfilter, termmgr/ITTerminalControl::RunRenderFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTerminalControl.RunRenderFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTerminalControl::RunRenderFilter

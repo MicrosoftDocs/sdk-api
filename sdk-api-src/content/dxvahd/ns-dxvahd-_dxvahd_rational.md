@@ -4,7 +4,7 @@ title: "_DXVAHD_RATIONAL"
 author: windows-sdk-content
 description: Contains a rational number (ratio).
 old-location: mf\dxvahd_rational.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8064820e-533e-4b40-8eeb-e3ad6a6b1ff7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_RATIONAL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVAHD_RATIONAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVAHD_RATIONAL
+req.redist: 
 ---
 
 # _DXVAHD_RATIONAL structure

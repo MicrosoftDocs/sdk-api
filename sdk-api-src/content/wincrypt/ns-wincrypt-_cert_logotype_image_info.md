@@ -4,17 +4,16 @@ title: "_CERT_LOGOTYPE_IMAGE_INFO"
 author: windows-sdk-content
 description: Contains more detailed information about an image logotype.
 old-location: security\cert_logotype_image_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: d7116e54-dbf2-457e-8d33-1c0fd5641fe7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_LOGOTYPE_IMAGE_INFO, CERT_LOGOTYPE_BITS_IMAGE_RESOLUTION_CHOICE, CERT_LOGOTYPE_COLOR_IMAGE_INFO_CHOICE, CERT_LOGOTYPE_GRAY_SCALE_IMAGE_INFO_CHOICE, CERT_LOGOTYPE_IMAGE_INFO, CERT_LOGOTYPE_IMAGE_INFO structure [Security], CERT_LOGOTYPE_NO_IMAGE_RESOLUTION_CHOICE, CERT_LOGOTYPE_TABLE_SIZE_IMAGE_RESOLUTION_CHOICE, PCERT_LOGOTYPE_IMAGE_INFO, PCERT_LOGOTYPE_IMAGE_INFO structure pointer [Security], _CERT_LOGOTYPE_IMAGE_INFO, security.cert_logotype_image_info, wincrypt/CERT_LOGOTYPE_IMAGE_INFO, wincrypt/PCERT_LOGOTYPE_IMAGE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_LOGOTYPE_IMAGE_INFO, *PCERT_LOGOTYPE_IMAGE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_LOGOTYPE_IMAGE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_LOGOTYPE_IMAGE_INFO, *PCERT_LOGOTYPE_IMAGE_INFO
+req.redist: 
 ---
 
 # _CERT_LOGOTYPE_IMAGE_INFO structure

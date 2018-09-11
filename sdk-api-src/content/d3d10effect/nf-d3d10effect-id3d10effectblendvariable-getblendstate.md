@@ -4,17 +4,16 @@ title: ID3D10EffectBlendVariable::GetBlendState
 author: windows-sdk-content
 description: Get a pointer to a blend-state interface.
 old-location: direct3d10\id3d10effectblendvariable_getblendstate.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectblendvariable_getblendstate.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 23f9d59f-d37d-7bdf-874c-f23d35773bb5, GetBlendState, GetBlendState method [Direct3D 10], GetBlendState method [Direct3D 10],ID3D10EffectBlendVariable interface, ID3D10EffectBlendVariable interface [Direct3D 10],GetBlendState method, ID3D10EffectBlendVariable.GetBlendState, ID3D10EffectBlendVariable::GetBlendState, d3d10effect/ID3D10EffectBlendVariable::GetBlendState, direct3d10.id3d10effectblendvariable_getblendstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10EffectBlendVariable.GetBlendState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10EffectBlendVariable::GetBlendState

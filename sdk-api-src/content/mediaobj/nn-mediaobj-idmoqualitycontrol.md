@@ -4,7 +4,7 @@ title: IDMOQualityControl
 author: windows-sdk-content
 description: The IDMOQualityControl interface supports quality control on a Microsoft DirectX Media Object (DMO).
 old-location: dshow\idmoqualitycontrol.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c23211f2-d4ba-45ff-b443-3425c3a3e72f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mediaobj.h
 req.include-header: Dmoguids.lib
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDMOQualityControl
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDMOQualityControl interface

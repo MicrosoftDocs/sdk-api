@@ -4,17 +4,16 @@ title: ICertificationAuthorities::Add
 author: windows-sdk-content
 description: Adds an ICertificationAuthority object to the collection.
 old-location: security\icertificationauthorities_add.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 8a618b8b-9089-4f35-afd4-b11255a26ac9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Add method, ICertificationAuthorities.Add, ICertificationAuthorities::Add, certenroll/ICertificationAuthorities::Add, security.icertificationauthorities_add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertificationAuthorities.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificationAuthorities::Add

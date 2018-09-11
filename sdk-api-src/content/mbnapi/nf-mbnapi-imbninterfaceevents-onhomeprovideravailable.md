@@ -4,17 +4,16 @@ title: IMbnInterfaceEvents::OnHomeProviderAvailable
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate that home provider information for the device is available.
 old-location: mbn\imbninterfaceevents_onhomeprovideravailable.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 4da50033-d55c-4878-b05c-cbc43c156da0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnHomeProviderAvailable method, IMbnInterfaceEvents.OnHomeProviderAvailable, IMbnInterfaceEvents::OnHomeProviderAvailable, OnHomeProviderAvailable, OnHomeProviderAvailable method [Microsoft Broadband Networks], OnHomeProviderAvailable method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onhomeprovideravailable, mbnapi/IMbnInterfaceEvents::OnHomeProviderAvailable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnInterfaceEvents.OnHomeProviderAvailable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnInterfaceEvents::OnHomeProviderAvailable

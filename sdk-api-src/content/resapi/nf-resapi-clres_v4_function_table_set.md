@@ -4,17 +4,16 @@ title: CLRES_V4_FUNCTION_TABLE_SET macro
 author: windows-sdk-content
 description: Initializes a function table for version 4.0 of the Resource API.
 old-location: mscs\clres_v4_function_table_set.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 85A3B088-0F69-4879-A844-E8834F832ED6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLRES_V4_FUNCTION_TABLE_SET, CLRES_V4_FUNCTION_TABLE_SET macro [Failover Cluster], mscs.clres_v4_function_table_set, resapi/CLRES_V4_FUNCTION_TABLE_SET
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLRES_V4_FUNCTION_TABLE_SET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CLRES_V4_FUNCTION_TABLE_SET macro

@@ -4,7 +4,7 @@ title: tagBINDPTR
 author: windows-sdk-content
 description: Describes a pointer.
 old-location: automat\bindptr.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 7035df31-3b13-4297-8464-b86f64d38f20
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: OaIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BINDPTR, *LPBINDPTR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BINDPTR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: BINDPTR, *LPBINDPTR
+req.redist: 
 ---
 
 # tagBINDPTR structure

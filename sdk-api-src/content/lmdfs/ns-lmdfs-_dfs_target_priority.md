@@ -4,7 +4,7 @@ title: "_DFS_TARGET_PRIORITY"
 author: windows-sdk-content
 description: Contains the priority class and rank of a specific DFS target.
 old-location: dfs\dfs_target_priority.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: b8f645ab-e3b4-4e0f-809a-57e27ab1e641
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008, Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_TARGET_PRIORITY, *PDFS_TARGET_PRIORITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DFS_TARGET_PRIORITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DFS_TARGET_PRIORITY, *PDFS_TARGET_PRIORITY
+req.redist: 
 ---
 
 # _DFS_TARGET_PRIORITY structure

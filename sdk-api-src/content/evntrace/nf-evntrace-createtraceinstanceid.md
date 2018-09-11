@@ -4,17 +4,16 @@ title: CreateTraceInstanceId function
 author: windows-sdk-content
 description: The CreateTraceInstanceId function creates a unique transaction identifier and maps it to a class GUID registration handle. You then use the transaction identifier when calling the TraceEventInstance function.
 old-location: etw\createtraceinstanceid.htm
-old-project: etw
+tech.root: etw
 ms.assetid: ab890392-f1e4-4b4e-a46c-8c7c2bfd3897
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: CreateTraceInstanceId, CreateTraceInstanceId function [ETW], _evt_createtraceinstanceid, base.createtraceinstanceid, etw.createtraceinstanceid, evntrace/CreateTraceInstanceId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CreateTraceInstanceId
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CreateTraceInstanceId function

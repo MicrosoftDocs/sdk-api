@@ -4,17 +4,16 @@ title: FtpRenameFileW function
 author: windows-sdk-content
 description: Renames a file stored on the FTP server.
 old-location: wininet\ftprenamefile.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 2c46d8bb-aceb-4dd2-be4f-2c418357d4ae
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: FtpRenameFile, FtpRenameFile function [WinINet], FtpRenameFileA, FtpRenameFileW, _inet_ftprenamefile_function, wininet.ftprenamefile, wininet/FtpRenameFile, wininet/FtpRenameFileA, wininet/FtpRenameFileW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FtpRenameFileW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FtpRenameFileW function

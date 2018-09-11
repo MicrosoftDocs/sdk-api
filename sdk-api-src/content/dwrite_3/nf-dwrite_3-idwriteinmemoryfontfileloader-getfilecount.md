@@ -4,17 +4,16 @@ title: IDWriteInMemoryFontFileLoader::GetFileCount
 author: windows-sdk-content
 description: Returns the number of font file references that have been created using this loader instance.
 old-location: directwrite\idwriteinmemoryfontfileloader_getfilecount.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 02385843-FDE6-408A-BD48-BBDC7DE4CA67
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetFileCount, GetFileCount method [Direct Write], GetFileCount method [Direct Write],IDWriteInMemoryFontFileLoader interface, IDWriteInMemoryFontFileLoader interface [Direct Write],GetFileCount method, IDWriteInMemoryFontFileLoader.GetFileCount, IDWriteInMemoryFontFileLoader::GetFileCount, directwrite.idwriteinmemoryfontfileloader_getfilecount, dwrite_3/IDWriteInMemoryFontFileLoader::GetFileCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDWriteInMemoryFontFileLoader.GetFileCount
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteInMemoryFontFileLoader::GetFileCount

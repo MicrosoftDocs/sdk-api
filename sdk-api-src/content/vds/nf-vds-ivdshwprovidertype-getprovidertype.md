@@ -4,17 +4,16 @@ title: IVdsHwProviderType::GetProviderType
 author: windows-sdk-content
 description: Retrieves the type of the hardware provider.
 old-location: base\ivdshwprovidertype_getprovidertype.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: e88fd2df-531d-46d8-a91b-9b9f8578e57b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetProviderType, GetProviderType method [VDS], GetProviderType method [VDS],IVdsHwProviderType interface, IVdsHwProviderType interface [VDS],GetProviderType method, IVdsHwProviderType.GetProviderType, IVdsHwProviderType::GetProviderType, base.ivdshwprovidertype_getprovidertype, vds/IVdsHwProviderType::GetProviderType, vdshwprv/IVdsHwProviderType::GetProviderType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsHwProviderType.GetProviderType
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsHwProviderType::GetProviderType

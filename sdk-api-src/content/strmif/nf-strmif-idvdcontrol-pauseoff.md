@@ -4,17 +4,16 @@ title: IDvdControl::PauseOff
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Resumes playback of the current media file after a pause.
 old-location: dshow\idvdcontrol_pauseoff.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6ec442dd-74ca-4b0b-901f-8efb7e77c5bf
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDvdControl interface [DirectShow],PauseOff method, IDvdControl.PauseOff, IDvdControl::PauseOff, IDvdControlPauseOff, PauseOff, PauseOff method [DirectShow], PauseOff method [DirectShow],IDvdControl interface, dshow.idvdcontrol_pauseoff, strmif/IDvdControl::PauseOff
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdControl.PauseOff
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl::PauseOff

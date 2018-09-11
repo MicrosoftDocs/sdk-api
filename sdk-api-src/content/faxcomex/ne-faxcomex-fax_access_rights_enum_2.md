@@ -4,7 +4,7 @@ title: FAX_ACCESS_RIGHTS_ENUM_2
 author: windows-sdk-content
 description: Defines access rights on the fax server.
 old-location: fax\_mfax_fax_access_rights_enum_2.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\e\faxinto_z_fax_access_rights_enum_2.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_ACCESS_RIGHTS_ENUM_2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FAX_ACCESS_RIGHTS_ENUM_2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FAX_ACCESS_RIGHTS_ENUM_2
+req.redist: 
 ---
 
 # FAX_ACCESS_RIGHTS_ENUM_2 enumeration

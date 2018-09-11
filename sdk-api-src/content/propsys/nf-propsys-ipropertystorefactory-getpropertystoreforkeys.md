@@ -4,17 +4,16 @@ title: IPropertyStoreFactory::GetPropertyStoreForKeys
 author: windows-sdk-content
 description: Gets an IPropertyStore object, given a set of property keys. This provides an alternative, possibly faster, method of getting an IPropertyStore object compared to calling IPropertyStoreFactory::GetPropertyStore.
 old-location: properties\IPropertyStoreFactory_GetPropertyStoreForKeys.htm
-old-project: properties
+tech.root: properties
 ms.assetid: ce17a245-46ff-412a-a807-6bc67b826c2f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPropertyStoreForKeys, GetPropertyStoreForKeys method [Windows Properties], GetPropertyStoreForKeys method [Windows Properties],IPropertyStoreFactory interface, IPropertyStoreFactory interface [Windows Properties],GetPropertyStoreForKeys method, IPropertyStoreFactory.GetPropertyStoreForKeys, IPropertyStoreFactory::GetPropertyStoreForKeys, _shell_IPropertyStoreFactory_GetPropertyStoreForKeys, properties.IPropertyStoreFactory_GetPropertyStoreForKeys, propsys/IPropertyStoreFactory::GetPropertyStoreForKeys, shell.IPropertyStoreFactory_GetPropertyStoreForKeys
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyStoreFactory.GetPropertyStoreForKeys
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyStoreFactory::GetPropertyStoreForKeys

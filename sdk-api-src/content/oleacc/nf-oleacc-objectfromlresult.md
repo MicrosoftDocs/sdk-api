@@ -4,17 +4,16 @@ title: ObjectFromLresult function
 author: windows-sdk-content
 description: Retrieves a requested interface pointer for an accessible object based on a previously generated object reference.
 old-location: winauto\objectfromlresult.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 97e766fd-e142-40d1-aba7-408b45d33426
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ObjectFromLresult, ObjectFromLresult function [Windows Accessibility], _msaa_ObjectFromLresult, msaa.objectfromlresult, oleacc/ObjectFromLresult, winauto.objectfromlresult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 
-req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ObjectFromLresult
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 ---
 
 # ObjectFromLresult function

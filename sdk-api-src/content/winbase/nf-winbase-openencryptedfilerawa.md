@@ -4,17 +4,16 @@ title: OpenEncryptedFileRawA function
 author: windows-sdk-content
 description: Opens an encrypted file in order to backup (export) or restore (import) the file.
 old-location: fs\openencryptedfileraw.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: f792f38d-783e-4f39-a9d8-0c378d508d97
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CREATE_FOR_DIR, CREATE_FOR_IMPORT, OVERWRITE_HIDDEN, OpenEncryptedFileRaw, OpenEncryptedFileRaw function [Files], OpenEncryptedFileRawA, OpenEncryptedFileRawW, base.openencryptedfileraw, fs.openencryptedfileraw, winbase/OpenEncryptedFileRaw, winbase/OpenEncryptedFileRawA, winbase/OpenEncryptedFileRawW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - OpenEncryptedFileRawW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # OpenEncryptedFileRawA function

@@ -4,17 +4,16 @@ title: IAudioSessionControl::RegisterAudioSessionNotification
 author: windows-sdk-content
 description: The RegisterAudioSessionNotification method registers the client to receive notifications of session events, including changes in the stream state.
 old-location: coreaudio\iaudiosessioncontrol_registeraudiosessionnotification.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: f0004eb6-1b3c-4f78-9ab4-17b30dec0d94
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],RegisterAudioSessionNotification method, IAudioSessionControl.RegisterAudioSessionNotification, IAudioSessionControl::RegisterAudioSessionNotification, IAudioSessionControlRegisterAudioSessionNotification, RegisterAudioSessionNotification, RegisterAudioSessionNotification method [Core Audio], RegisterAudioSessionNotification method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::RegisterAudioSessionNotification, coreaudio.iaudiosessioncontrol_registeraudiosessionnotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionControl.RegisterAudioSessionNotification
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionControl::RegisterAudioSessionNotification

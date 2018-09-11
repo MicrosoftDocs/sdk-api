@@ -4,17 +4,16 @@ title: IPortableDeviceConnector
 author: windows-sdk-content
 description: Defines methods used for connection-management and property-retrieval for a paired MTP/Bluetooth device.
 old-location: wpdsdk\iportabledeviceconnector.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: c6eb1103-2395-431d-9130-1e1f2cc9ae96
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPortableDeviceConnector, IPortableDeviceConnector interface [Windows Portable Devices SDK], IPortableDeviceConnector interface [Windows Portable Devices SDK],described, portabledeviceconnectapi/IPortableDeviceConnector, wpdsdk.iportabledeviceconnector
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceconnectapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPortableDeviceConnector
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGuids.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceConnector interface

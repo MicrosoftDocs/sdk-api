@@ -4,17 +4,16 @@ title: IVdsControllerPort::Reset
 author: windows-sdk-content
 description: Reinitializes the controller port.
 old-location: base\ivdscontrollerport_reset.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: e298ef9d-8abb-450b-97d3-e97d64f0e734
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsControllerPort interface [VDS],Reset method, IVdsControllerPort.Reset, IVdsControllerPort::Reset, Reset, Reset method [VDS], Reset method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_reset, vds/IVdsControllerPort::Reset, vdshwprv/IVdsControllerPort::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsControllerPort.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsControllerPort::Reset

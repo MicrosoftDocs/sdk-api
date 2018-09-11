@@ -4,17 +4,16 @@ title: "_TOKEN_MANDATORY_LABEL"
 author: windows-sdk-content
 description: Specifies the mandatory integrity level for a token.
 old-location: security\token_mandatory_label.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: cf37eb34-ee90-43c6-97a9-c5edfcba2bc5
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PTOKEN_MANDATORY_LABEL, PTOKEN_MANDATORY_LABEL, PTOKEN_MANDATORY_LABEL structure pointer [Security], TOKEN_MANDATORY_LABEL, TOKEN_MANDATORY_LABEL structure [Security], _TOKEN_MANDATORY_LABEL, security.token_mandatory_label, winnt/PTOKEN_MANDATORY_LABEL, winnt/TOKEN_MANDATORY_LABEL"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKEN_MANDATORY_LABEL, *PTOKEN_MANDATORY_LABEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKEN_MANDATORY_LABEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TOKEN_MANDATORY_LABEL, *PTOKEN_MANDATORY_LABEL
+req.redist: 
 ---
 
 # _TOKEN_MANDATORY_LABEL structure

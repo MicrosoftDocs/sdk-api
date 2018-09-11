@@ -4,17 +4,16 @@ title: IShellPropSheetExt
 author: windows-sdk-content
 description: Exposes methods that allow a property sheet handler to add or replace pages in the property sheet displayed for a file object.
 old-location: shell\IShellPropSheetExt.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1671ad3e-c131-4de0-a213-b22c9966bae2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellPropSheetExt, IShellPropSheetExt interface [Windows Shell], IShellPropSheetExt interface [Windows Shell],described, _win32_IShellPropSheetExt, _win32_ishellpropsheetext_cpp, shell.IShellPropSheetExt, shobjidl_core/IShellPropSheetExt
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellPropSheetExt
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellPropSheetExt interface

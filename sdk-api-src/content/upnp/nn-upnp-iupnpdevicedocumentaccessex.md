@@ -4,17 +4,16 @@ title: IUPnPDeviceDocumentAccessEx
 author: windows-sdk-content
 description: Provides a method to obtain the entire XML device description document for a specific device.
 old-location: upnp\iupnpdevicedocumentaccessex.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 9ea79bbb-3841-4704-9606-56fcd2f8bf89
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPDeviceDocumentAccessEx, IUPnPDeviceDocumentAccessEx interface [UPnP APIs], IUPnPDeviceDocumentAccessEx interface [UPnP APIs],described, upnp.iupnpdevicedocumentaccessex, upnp/IUPnPDeviceDocumentAccessEx
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDeviceDocumentAccessEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDeviceDocumentAccessEx interface

@@ -4,17 +4,16 @@ title: ID2D1CommandSink::DrawRectangle
 author: windows-sdk-content
 description: Draws a rectangle.
 old-location: direct2d\id2d1commandsink_drawrectangle.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 93c617fb-3c9d-4735-a077-7a3a58033369
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrawRectangle, DrawRectangle method [Direct2D], DrawRectangle method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawRectangle method, ID2D1CommandSink.DrawRectangle, ID2D1CommandSink::DrawRectangle, d2d1_1/ID2D1CommandSink::DrawRectangle, direct2d.id2d1commandsink_drawrectangle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1CommandSink.DrawRectangle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1CommandSink::DrawRectangle
@@ -61,12 +60,12 @@ Draws a rectangle.
 
 ### -param rect
 
-
+TBD
 
 
 ### -param brush
 
-
+TBD
 
 
 ### -param strokeWidth

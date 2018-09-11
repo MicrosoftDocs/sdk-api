@@ -4,17 +4,16 @@ title: IInkDivisionResult::ResultByType
 author: windows-sdk-content
 description: Gets the requested structural units of the analysis results for an IInkDivisionUnits collection.
 old-location: tablet\iinkdivisionresult_resultbytype.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: d0bad0e8-e48c-443b-b52e-e95de3158710
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkDivisionResult interface [Tablet PC],ResultByType method, IInkDivisionResult.ResultByType, IInkDivisionResult::ResultByType, ResultByType, ResultByType method [Tablet PC], ResultByType method [Tablet PC],IInkDivisionResult interface, d0bad0e8-e48c-443b-b52e-e95de3158710, msinkaut15/IInkDivisionResult::ResultByType, tablet.iinkdivisionresult_resultbytype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut15.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecoGuide
+req.lib: Inkdiv.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkDivisionResult.ResultByType
 product: Windows
 targetos: Windows
-req.lib: Inkdiv.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDivisionResult::ResultByType

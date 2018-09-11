@@ -4,17 +4,16 @@ title: IQuickActivate::SetContentExtent
 author: windows-sdk-content
 description: Sets the content extent of a control.
 old-location: com\iquickactivate_setcontentextent.htm
-old-project: com
+tech.root: com
 ms.assetid: 0f763bd3-08b9-4804-8e52-2c8014428a45
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IQuickActivate interface [COM],SetContentExtent method, IQuickActivate.SetContentExtent, IQuickActivate::SetContentExtent, SetContentExtent, SetContentExtent method [COM], SetContentExtent method [COM],IQuickActivate interface, _ctrl_iquickactivate_setcontentextent, com.iquickactivate_setcontentextent, ocidl/IQuickActivate::SetContentExtent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IQuickActivate.SetContentExtent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IQuickActivate::SetContentExtent

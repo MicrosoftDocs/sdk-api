@@ -4,17 +4,16 @@ title: WlxGetStatusMessage function
 author: windows-sdk-content
 description: Winlogon calls this function to get the status message being displayed by the GINA DLL.
 old-location: security\wlxgetstatusmessage.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 16208bbe-e697-4e75-8a28-a6d311ecb46c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WlxGetStatusMessage, WlxGetStatusMessage function [Security], _gina_wlxgetstatusmessage, security.wlxgetstatusmessage, winwlx/WlxGetStatusMessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICONINFOEXW, *PICONINFOEXW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WlxGetStatusMessage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WlxGetStatusMessage function

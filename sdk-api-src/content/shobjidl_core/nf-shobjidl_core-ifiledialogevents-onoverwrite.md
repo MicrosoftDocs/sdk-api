@@ -4,17 +4,16 @@ title: IFileDialogEvents::OnOverwrite
 author: windows-sdk-content
 description: Called from the save dialog when the user chooses to overwrite a file.
 old-location: shell\IFileDialogEvents_OnOverwrite.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 825dcbed-3248-4d2e-bf5f-5d51f8f0529b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnOverwrite method, IFileDialogEvents.OnOverwrite, IFileDialogEvents::OnOverwrite, OnOverwrite, OnOverwrite method [Windows Shell], OnOverwrite method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnOverwrite, shell_IFileDialogEvents_OnOverwrite, shobjidl_core/IFileDialogEvents::OnOverwrite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialogEvents.OnOverwrite
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialogEvents::OnOverwrite

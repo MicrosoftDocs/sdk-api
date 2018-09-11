@@ -4,17 +4,16 @@ title: IMFMediaEngineEME::SetMediaKeys
 author: windows-sdk-content
 description: Sets the media keys object to use with the media engine.
 old-location: mf\imfmediaengineeme_setmediakeys.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 659b566e-d488-489d-9a12-bfe9695c5f94
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaEngineEME interface [Media Foundation],SetMediaKeys method, IMFMediaEngineEME.SetMediaKeys, IMFMediaEngineEME::SetMediaKeys, SetMediaKeys, SetMediaKeys method [Media Foundation], SetMediaKeys method [Media Foundation],IMFMediaEngineEME interface, mf.imfmediaengineeme_setmediakeys, mfmediaengine/IMFMediaEngineEME::SetMediaKeys
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineEME.SetMediaKeys
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineEME::SetMediaKeys

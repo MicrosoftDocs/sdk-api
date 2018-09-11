@@ -4,17 +4,16 @@ title: DhcpDeleteServer function
 author: windows-sdk-content
 description: The DhcpDeleteServer function attempts to delete a DHCP server and any related objects (such as subnet information and IP reservations) from the directory service.
 old-location: dhcp\dhcpdeleteserver.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 88b6c29b-7b01-40c7-b4f5-4920845f1eb9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpDeleteServer, DhcpDeleteServer function [DHCP], dhcp.dhcpdeleteserver, dhcpsapi/DhcpDeleteServer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpDeleteServer
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpDeleteServer function

@@ -4,17 +4,16 @@ title: SendNotifyMessageW function
 author: windows-sdk-content
 description: Sends the specified message to a window or windows.
 old-location: winmsg\sendnotifymessage.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendnotifymessage.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: SendNotifyMessage, SendNotifyMessage function [Windows and Messages], SendNotifyMessageA, SendNotifyMessageW, _win32_SendNotifyMessage, _win32_sendnotifymessage_cpp, winmsg.sendnotifymessage, winui._win32_sendnotifymessage, winuser/SendNotifyMessage, winuser/SendNotifyMessageA, winuser/SendNotifyMessageW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - SendNotifyMessageW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SendNotifyMessageW function

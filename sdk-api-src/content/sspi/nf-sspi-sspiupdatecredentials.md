@@ -4,17 +4,16 @@ title: SspiUpdateCredentials function
 author: windows-sdk-content
 description: Updates the credentials associated with the specified context.
 old-location: security\sspiupdatecredentials.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: d00dc076-f0fc-44e9-8083-75ad715cf0c7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SspiUpdateCredentials, SspiUpdateCredentials function [Security], security.sspiupdatecredentials, sspi/SspiUpdateCredentials
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+req.lib: Credui.lib
+req.dll: Credui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SspiUpdateCredentials
 product: Windows
 targetos: Windows
-req.lib: Credui.lib
-req.dll: Credui.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SspiUpdateCredentials function

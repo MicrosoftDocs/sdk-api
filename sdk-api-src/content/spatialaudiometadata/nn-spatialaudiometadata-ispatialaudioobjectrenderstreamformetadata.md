@@ -4,17 +4,16 @@ title: ISpatialAudioObjectRenderStreamForMetadata
 author: windows-sdk-content
 description: Provides methods for controlling a spatial audio object render stream for metadata, including starting, stopping, and resetting the stream.
 old-location: coreaudio\ispatialaudioobjectrenderstreamformetadata.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 1623B280-FC12-4C19-9D4A-D8463D1A1046
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: ISpatialAudioObjectRenderStreamForMetadata, ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio], ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstreamformetadata, spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudiometadata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioMetadataWriterOverflowMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObjectRenderStreamForMetadata
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObjectRenderStreamForMetadata interface

@@ -4,17 +4,16 @@ title: ID2D1CommandSink::FillMesh
 author: windows-sdk-content
 description: Indicates a mesh to be filled by the command sink.
 old-location: direct2d\id2d1commandsink_fillmesh.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: b81ac1d2-06bb-4d39-b03d-c0abf7267c3a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FillMesh, FillMesh method [Direct2D], FillMesh method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],FillMesh method, ID2D1CommandSink.FillMesh, ID2D1CommandSink::FillMesh, d2d1_1/ID2D1CommandSink::FillMesh, direct2d.id2d1commandsink_fillmesh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1CommandSink.FillMesh
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1CommandSink::FillMesh

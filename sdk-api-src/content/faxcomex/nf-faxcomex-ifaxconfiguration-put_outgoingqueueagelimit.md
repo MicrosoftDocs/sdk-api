@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxConfiguration.put_OutgoingQueueAgeLimit
 title: IFaxConfiguration::put_OutgoingQueueAgeLimit
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates the length of time that an undeliverable fax message is kept on the fax server before it is deleted.
-old-location: fax\_mfax_FaxConfiguration_OutgoingQueueAgeLimit_vb.htm
-old-project: Fax
+old-location: fax\_mfax_IFaxConfiguration_OutgoingQueueAgeLimit.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\outgoingqueueagelimit.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxConfiguration object [Fax Service],OutgoingQueueAgeLimit property, FaxConfiguration.OutgoingQueueAgeLimit, IFaxConfiguration.put_OutgoingQueueAgeLimit, IFaxConfiguration::put_OutgoingQueueAgeLimit, OutgoingQueueAgeLimit property [Fax Service], OutgoingQueueAgeLimit property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_OutgoingQueueAgeLimit, fax._mfax_FaxConfiguration_OutgoingQueueAgeLimit_vb, put_OutgoingQueueAgeLimit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxConfiguration interface [Fax Service],OutgoingQueueAgeLimit property, IFaxConfiguration.OutgoingQueueAgeLimit, IFaxConfiguration.put_OutgoingQueueAgeLimit, IFaxConfiguration::OutgoingQueueAgeLimit, IFaxConfiguration::get_OutgoingQueueAgeLimit, IFaxConfiguration::put_OutgoingQueueAgeLimit, OutgoingQueueAgeLimit property [Fax Service], OutgoingQueueAgeLimit property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_OutgoingQueueAgeLimit, fax._mfax_IFaxConfiguration_OutgoingQueueAgeLimit, faxcomex/IFaxConfiguration::OutgoingQueueAgeLimit, faxcomex/IFaxConfiguration::get_OutgoingQueueAgeLimit, faxcomex/IFaxConfiguration::put_OutgoingQueueAgeLimit, put_OutgoingQueueAgeLimit
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Faxcomex.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxConfiguration.OutgoingQueueAgeLimit
+ - IFaxConfiguration.OutgoingQueueAgeLimit
+ - IFaxConfiguration.get_OutgoingQueueAgeLimit
+ - IFaxConfiguration.put_OutgoingQueueAgeLimit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxConfiguration::put_OutgoingQueueAgeLimit
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358913(v=VS.85).aspx">FaxConfiguration</a>
+<a href="https://msdn.microsoft.com/20a771ed-98c3-4d26-89dc-799008954767">IFaxConfiguration</a>
  
 
  

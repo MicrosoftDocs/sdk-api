@@ -4,17 +4,16 @@ title: SetupDiGetDevicePropertyW function
 author: windows-sdk-content
 description: The SetupDiGetDeviceProperty function retrieves a device instance property.
 old-location: devinst\setupdigetdeviceproperty.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: eac31612-e80b-44ad-b4d4-a4aa014e833f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiGetDeviceProperty, SetupDiGetDeviceProperty function [Device and Driver Installation], SetupDiGetDevicePropertyW, devinst.setupdigetdeviceproperty, di-rtns_e079700c-c7b8-43ef-992b-68156a693b41.xml, setupapi/SetupDiGetDeviceProperty, setupapi/SetupDiGetDevicePropertyW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: SetupAPI.h
-req.redist: 
 req.target-type: DesktopFor universal, call CM_Get_DevNode_Property
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: SetupAPI.lib
+req.dll: SetupAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SetupDiGetDevicePropertyW
 product: Windows
 targetos: Windows
-req.lib: SetupAPI.lib
-req.dll: SetupAPI.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetDevicePropertyW function

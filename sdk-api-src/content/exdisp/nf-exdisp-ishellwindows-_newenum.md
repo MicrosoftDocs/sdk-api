@@ -4,17 +4,16 @@ title: IShellWindows::_NewEnum
 author: windows-sdk-content
 description: Retrieves an enumerator for the collection of Shell windows.
 old-location: shell\IShellWindows_NewEnum.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e91b2be7-2be9-4460-9a2a-57090dcfc961
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellWindows interface [Windows Shell],_NewEnum method, IShellWindows._NewEnum, IShellWindows::_NewEnum, _NewEnum, _NewEnum method [Windows Shell], _NewEnum method [Windows Shell],IShellWindows interface, _win32_IShellWindows_NewEnum, exdisp/IShellWindows::_NewEnum, shell.IShellWindows_NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IShellWindows._NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5
 ---
 

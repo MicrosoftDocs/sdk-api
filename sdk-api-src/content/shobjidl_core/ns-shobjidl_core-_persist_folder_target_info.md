@@ -4,17 +4,16 @@ title: "_PERSIST_FOLDER_TARGET_INFO"
 author: windows-sdk-content
 description: Specifies a folder shortcut's target folder and its attributes. This structure is used by IPersistFolder3::GetFolderTargetInfo and IPersistFolder3::InitializeEx.
 old-location: shell\PERSIST_FOLDER_TARGET_INFO_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 74441551-c315-4203-a4f5-cd4e6c57b58b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CSIDL_FLAG_CREATE, CSIDL_FLAG_PFTI_TRACKTARGET, PERSIST_FOLDER_TARGET_INFO, PERSIST_FOLDER_TARGET_INFO structure [Windows Shell], _PERSIST_FOLDER_TARGET_INFO, _win32_PERSIST_FOLDER_TARGET_INFO_str, shell.PERSIST_FOLDER_TARGET_INFO_str, shobjidl_core/PERSIST_FOLDER_TARGET_INFO
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERSIST_FOLDER_TARGET_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERSIST_FOLDER_TARGET_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: PERSIST_FOLDER_TARGET_INFO
+req.redist: 
 ---
 
 # _PERSIST_FOLDER_TARGET_INFO structure

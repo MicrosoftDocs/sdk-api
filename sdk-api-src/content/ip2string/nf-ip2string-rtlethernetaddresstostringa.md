@@ -4,17 +4,16 @@ title: RtlEthernetAddressToStringA function
 author: windows-sdk-content
 description: Converts a binary Ethernet address to a string representation of the Ethernet MAC address.
 old-location: iphlp\rtlethernetaddresstostring.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 5DE1A1EF-86B3-4414-A21F-90635B48242A
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: RtlEthernetAddressToString, RtlEthernetAddressToString function [IP Helper], RtlEthernetAddressToStringA, RtlEthernetAddressToStringW, ip2string/RtlEthernetAddressToString, ip2string/RtlEthernetAddressToStringA, ip2string/RtlEthernetAddressToStringW, iphlp.rtlethernetaddresstostring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ip2string.h
 req.include-header: Mstcpip.h, Ip2string.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URLASSOCIATIONDIALOG_IN_FLAGS
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RtlEthernetAddressToStringW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Ntdll.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # RtlEthernetAddressToStringA function

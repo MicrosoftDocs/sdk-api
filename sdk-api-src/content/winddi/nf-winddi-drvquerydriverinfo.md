@@ -4,17 +4,16 @@ title: DrvQueryDriverInfo function
 author: windows-sdk-content
 description: The DrvQueryDriverInfo function returns requested driver-specific information.
 old-location: display\drvquerydriverinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 94691c91-f6e9-4f48-8da2-bde5354ed94c
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvQueryDriverInfo, DrvQueryDriverInfo function [Display Devices], ddifncs_be744729-bfb4-4c25-9f6b-e8896e6ecac5.xml, display.drvquerydriverinfo, winddi/DrvQueryDriverInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvQueryDriverInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvQueryDriverInfo function

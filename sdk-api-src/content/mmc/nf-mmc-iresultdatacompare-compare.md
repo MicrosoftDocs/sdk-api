@@ -4,17 +4,16 @@ title: IResultDataCompare::Compare
 author: windows-sdk-content
 description: Provides a way for a primary snap-in to compare cookies for the purpose of sorting the result items that it inserts in the result pane.
 old-location: mmc\iresultdatacompare_compare.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 00d18ba5-589f-4a70-b331-ba9c7d5164c5
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: Compare, Compare method [MMC], Compare method [MMC],IResultDataCompare interface, IResultDataCompare interface [MMC],Compare method, IResultDataCompare.Compare, IResultDataCompare::Compare, _slate_iresultdatacompare_compare, mmc.iresultdatacompare_compare, mmc/IResultDataCompare::Compare
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IResultDataCompare.Compare
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IResultDataCompare::Compare

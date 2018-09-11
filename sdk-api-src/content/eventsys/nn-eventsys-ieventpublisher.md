@@ -4,17 +4,16 @@ title: IEventPublisher
 author: windows-sdk-content
 description: Registers, modifies, removes, and provides information about an event publisher.
 old-location: com\ieventpublisher.htm
-old-project: com
+tech.root: com
 ms.assetid: 132b79c8-d7f4-49c1-87c7-9bdf311ae697
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEventPublisher, IEventPublisher interface [COM], IEventPublisher interface [COM],described, _com_ieventpublisher, com.ieventpublisher, eventsys/IEventPublisher
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEventPublisher
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventPublisher interface

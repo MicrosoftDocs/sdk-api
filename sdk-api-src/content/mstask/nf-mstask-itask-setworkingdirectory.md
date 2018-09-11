@@ -4,17 +4,16 @@ title: ITask::SetWorkingDirectory
 author: windows-sdk-content
 description: This method sets the working directory for the task.
 old-location: taskschd\itask_setworkingdirectory.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: df12d899-c254-4bbf-a49f-d89a2fcb0e28
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITask interface [Task Scheduler],SetWorkingDirectory method, ITask.SetWorkingDirectory, ITask::SetWorkingDirectory, SetWorkingDirectory, SetWorkingDirectory method [Task Scheduler], SetWorkingDirectory method [Task Scheduler],ITask interface, _msb_itask_setworkingdirectory, mstask/ITask::SetWorkingDirectory, taskschd.itask_setworkingdirectory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 
-req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITask.SetWorkingDirectory
 product: Windows
 targetos: Windows
-req.lib: Mstask.lib
-req.dll: Mstask.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ---
 
 # ITask::SetWorkingDirectory

@@ -4,17 +4,16 @@ title: IMDSPStorage3::GetMetadata
 author: windows-sdk-content
 description: The GetMetadata method retrieves metadata from the service provider.
 old-location: wmdm\imdspstorage3_getmetadata.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: a341289b-79e6-4ac7-b0d3-72ad5953c1df
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetMetadata, GetMetadata method [windows Media Device Manager], GetMetadata method [windows Media Device Manager],IMDSPStorage3 interface, IMDSPStorage3 interface [windows Media Device Manager],GetMetadata method, IMDSPStorage3.GetMetadata, IMDSPStorage3::GetMetadata, IMDSPStorage3GetMetadata, mswmdm/IMDSPStorage3::GetMetadata, wmdm.imdspstorage3_getmetadata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPStorage3.GetMetadata
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPStorage3::GetMetadata

@@ -4,17 +4,16 @@ title: "_IMAGEHLP_CBA_READ_MEMORY"
 author: windows-sdk-content
 description: Contains information about a memory read operation.
 old-location: base\imagehlp_cba_read_memory_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: c5115fdc-aca6-4293-9c2b-82fd64ec7cb6
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PIMAGEHLP_CBA_READ_MEMORY, IMAGEHLP_CBA_READ_MEMORY, IMAGEHLP_CBA_READ_MEMORY structure, PIMAGEHLP_CBA_READ_MEMORY, PIMAGEHLP_CBA_READ_MEMORY structure pointer, _IMAGEHLP_CBA_READ_MEMORY, _win32_imagehlp_cba_read_memory_str, base.imagehlp_cba_read_memory_str, dbghelp/IMAGEHLP_CBA_READ_MEMORY, dbghelp/PIMAGEHLP_CBA_READ_MEMORY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_CBA_READ_MEMORY, *PIMAGEHLP_CBA_READ_MEMORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMAGEHLP_CBA_READ_MEMORY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: IMAGEHLP_CBA_READ_MEMORY, *PIMAGEHLP_CBA_READ_MEMORY
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _IMAGEHLP_CBA_READ_MEMORY structure

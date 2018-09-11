@@ -2,19 +2,18 @@
 UID: NF:mergemod.IMsmError.get_DatabaseTable
 title: IMsmError::get_DatabaseTable
 author: windows-sdk-content
-description: The read-only DatabaseTable property of the Error object returns the name of the table in the database that caused the error.
-old-location: setup\error_databasetable.htm
-old-project: msi
-ms.assetid: 38ff45ca-4bd6-43f3-88ad-db4077daeb77
+description: The get_DatabaseTable method retrieves the DatabaseTable property of the Error object. The method returns the name of the table in the database that caused the error.
+old-location: setup\imsmerror_get_databasetable.htm
+tech.root: msi
+ms.assetid: fee774b3-66ee-4ffd-b000-8032118e9a9d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
-ms.keywords: DatabaseTable property, DatabaseTable property,Error object, Error object,DatabaseTable property, Error.DatabaseTable, IMsmError.get_DatabaseTable, IMsmError::get_DatabaseTable, _msi_databasetable_property, get_DatabaseTable, setup.error_databasetable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.date: 08/29/2018
+ms.keywords: IMsmError interface,get_DatabaseTable method, IMsmError.get_DatabaseTable, IMsmError::get_DatabaseTable, _msi_get_databasetable_function, get_DatabaseTable, get_DatabaseTable method, get_DatabaseTable method,IMsmError interface, mergemod/IMsmError::get_DatabaseTable, setup.imsmerror_get_databasetable
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Mergemod.dll 1.0 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_MEMORY_REGION_INFORMATION
+req.lib: 
+req.dll: Mergemod.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,11 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - Error.DatabaseTable
  - IMsmError.get_DatabaseTable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mergemod.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMsmError::get_DatabaseTable
@@ -53,27 +50,97 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The read-only 
-<b>DatabaseTable</b> property of the 
-<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object returns the name of the table in the database that caused the error.
-
-This property is read-only.
+The 
+<b>get_DatabaseTable</b> method retrieves the 
+<a href="https://msdn.microsoft.com/38ff45ca-4bd6-43f3-88ad-db4077daeb77">DatabaseTable</a> property of the 
+<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object. The method returns the name of the table in the database that caused the error.
 
 
 ## -parameters
+
+
+
+
+### -param ErrorTable
+
+TBD
+
+
+
+
+#### - Table [out]
+
+A pointer to a location in memory that is filled in with a <b>BSTR</b> value.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Table is null.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The system was unable to allocate memory for the string.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
 
 
 ## -remarks
 
 
 
-The collection is empty if the values do not apply to the type of the error. You can determine the type of error by calling 
-<a href="https://msdn.microsoft.com/5567ba71-c815-4434-962c-aa46cd171712">Type</a> property of the 
-<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object.
+The client is responsible for freeing the resulting string using <b>SysFreeString</b>.
 
-<h3><a id="C__"></a><a id="c__"></a>C++</h3>
-See 
-<a href="https://msdn.microsoft.com/fee774b3-66ee-4ffd-b000-8032118e9a9d">get_DatabaseTable</a> function.
+The collection is empty if the values do not apply to the type of the error. You can determine the type of error by calling <a href="https://msdn.microsoft.com/733a5390-419d-414a-b50e-8400d179bfb6">IMsmError::get_Type</a>.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+ 
+
+ 
 

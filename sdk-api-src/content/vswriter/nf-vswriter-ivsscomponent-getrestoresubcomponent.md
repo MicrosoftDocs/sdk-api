@@ -4,17 +4,16 @@ title: IVssComponent::GetRestoreSubcomponent
 author: windows-sdk-content
 description: The GetRestoreSubcomponent method returns the specified subcomponent associated with a given component.
 old-location: base\ivsscomponent_getrestoresubcomponent.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 23c37342-fcbd-4401-83d5-a52d4a69b908
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetRestoreSubcomponent, GetRestoreSubcomponent method [VSS], GetRestoreSubcomponent method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreSubcomponent method, IVssComponent.GetRestoreSubcomponent, IVssComponent::GetRestoreSubcomponent, _win32_ivsscomponent_getrestoresubcomponent, base.ivsscomponent_getrestoresubcomponent, vswriter/IVssComponent::GetRestoreSubcomponent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssComponent.GetRestoreSubcomponent
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponent::GetRestoreSubcomponent

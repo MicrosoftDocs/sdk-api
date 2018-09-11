@@ -4,7 +4,7 @@ title: DNS_TKEY_DATAW
 author: windows-sdk-content
 description: The DNS_TKEY_DATA structure represents a DNS TKEY resource record, used to establish and delete an algorithm's shared-secret keys between a DNS resolver and server as specified in RFC 2930.
 old-location: dns\dns_tkey_data.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 4dad3449-3e41-47d9-89c2-10fa6e51573b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_TKEY_DATAW, *PDNS_TKEY_DATAW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_TKEY_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_TKEY_DATAW, *PDNS_TKEY_DATAW
+req.redist: 
 ---
 
 # DNS_TKEY_DATAW structure

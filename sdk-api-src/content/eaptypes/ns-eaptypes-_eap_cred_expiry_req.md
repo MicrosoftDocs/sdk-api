@@ -4,7 +4,7 @@ title: "_EAP_CRED_EXPIRY_REQ"
 author: windows-sdk-content
 description: Contains both the old and new EAP credentials for credential expiry operations.
 old-location: eaphost\eap_cred_expiry_req.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: baa2a580-0bfc-450a-9a96-f32d00127fa4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_CRED_EXPIRY_REQ, EAP_CRED_EXPIRY_RESP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_CRED_EXPIRY_REQ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_CRED_EXPIRY_REQ, EAP_CRED_EXPIRY_RESP
+req.redist: 
 ---
 
 # _EAP_CRED_EXPIRY_REQ structure

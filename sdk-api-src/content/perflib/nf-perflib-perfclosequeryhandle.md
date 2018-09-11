@@ -4,17 +4,16 @@ title: PerfCloseQueryHandle function
 author: windows-sdk-content
 description: Closes a query handle that you opened by calling PerfOpenQueryHandle.
 old-location: perf\perfclosequeryhandle.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 94D08CF1-D47C-4A1B-A0CE-8C318CDF9FE0
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PerfCloseQueryHandle, PerfCloseQueryHandle function [Perf], perf.perfclosequeryhandle, perflib/PerfCloseQueryHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PerfRegInfoType
+req.lib: AdvAPI32.lib
+req.dll: AdvAPI32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PerfCloseQueryHandle
 product: Windows
 targetos: Windows
-req.lib: AdvAPI32.lib
-req.dll: AdvAPI32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PerfCloseQueryHandle function

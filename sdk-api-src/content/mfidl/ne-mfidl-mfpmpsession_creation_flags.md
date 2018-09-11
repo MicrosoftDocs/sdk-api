@@ -4,7 +4,7 @@ title: MFPMPSESSION_CREATION_FLAGS
 author: windows-sdk-content
 description: Contains flags that define the behavior of the MFCreatePMPMediaSession function.
 old-location: mf\mfpmpsession_creation_flags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6341aaff-aa80-4172-8577-0b757a01ea53
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFPMPSESSION_CREATION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFPMPSESSION_CREATION_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFPMPSESSION_CREATION_FLAGS
+req.redist: 
 ---
 
 # MFPMPSESSION_CREATION_FLAGS enumeration

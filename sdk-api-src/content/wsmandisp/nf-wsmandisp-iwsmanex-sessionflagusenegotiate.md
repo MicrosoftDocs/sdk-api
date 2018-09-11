@@ -4,17 +4,16 @@ title: IWSManEx::SessionFlagUseNegotiate
 author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagUseNegotiate for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusenegotiate.htm
-old-project: winrm
+tech.root: WinRM
 ms.assetid: 7f9670a5-2bf3-4971-8f7e-8cc677acfb65
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseNegotiate method, IWSManEx.SessionFlagUseNegotiate, IWSManEx::SessionFlagUseNegotiate, SessionFlagUseNegotiate, SessionFlagUseNegotiate method [Windows Remote Management], SessionFlagUseNegotiate method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusenegotiate, wsmandisp/IWSManEx::SessionFlagUseNegotiate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManProxyAuthenticationFlags
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSManEx.SessionFlagUseNegotiate
 product: Windows
 targetos: Windows
-req.lib: WSManDisp.tlb
-req.dll: WSMAuto.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSManEx::SessionFlagUseNegotiate

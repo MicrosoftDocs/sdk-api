@@ -4,17 +4,16 @@ title: DsGetFriendlyClassName function
 author: windows-sdk-content
 description: Retrieves the localized name for an object class.
 old-location: ad\dsgetfriendlyclassname.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 944b7227-2f22-418e-a9da-6fddec66876b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsGetFriendlyClassName, DsGetFriendlyClassName function [Active Directory], ad.dsgetfriendlyclassname, dsclient/DsGetFriendlyClassName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+req.lib: Dsuiext.lib
+req.dll: Dsuiext.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DsGetFriendlyClassName
 product: Windows
 targetos: Windows
-req.lib: Dsuiext.lib
-req.dll: Dsuiext.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DsGetFriendlyClassName function

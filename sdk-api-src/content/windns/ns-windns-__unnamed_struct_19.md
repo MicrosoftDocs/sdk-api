@@ -4,7 +4,7 @@ title: DNS_DHCID_DATA
 author: windows-sdk-content
 description: Represents a DNS Dynamic Host Configuration Protocol Information (DHCID) resource record (RR) as specified in section 3 of RFC 4701.
 old-location: dns\dns_dhcid_data.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 868846bc-9f63-4bb3-ac8d-cea34232bb41
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_DHCID_DATA, *PDNS_DHCID_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_DHCID_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_DHCID_DATA, *PDNS_DHCID_DATA
+req.redist: 
 ---
 
 # DNS_DHCID_DATA structure

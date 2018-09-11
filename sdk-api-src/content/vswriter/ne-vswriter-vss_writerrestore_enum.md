@@ -4,17 +4,16 @@ title: VSS_WRITERRESTORE_ENUM
 author: windows-sdk-content
 description: Indicate to a requester the conditions under which it will handle events generated during a restore operation.
 old-location: base\vss_writerrestore_enum.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: a3e45d52-4d9a-4bdf-a8e5-622939be6f2c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: VSS_WRE_ALWAYS, VSS_WRE_IF_REPLACE_FAILS, VSS_WRE_NEVER, VSS_WRE_UNDEFINED, VSS_WRITERRESTORE_ENUM, VSS_WRITERRESTORE_ENUM enumeration [VSS], _win32_vss_writerrestore_enum, base.vss_writerrestore_enum, enumeration [VSS], vswriter/VSS_WRE_ALWAYS, vswriter/VSS_WRE_IF_REPLACE_FAILS, vswriter/VSS_WRE_NEVER, vswriter/VSS_WRE_UNDEFINED, vswriter/VSS_WRITERRESTORE_ENUM
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vswriter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_WRITERRESTORE_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_WRITERRESTORE_ENUM
+req.redist: 
 ---
 
 # VSS_WRITERRESTORE_ENUM enumeration

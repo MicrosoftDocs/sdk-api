@@ -4,17 +4,16 @@ title: IDvdInfo::GetPlayerParentalLevel
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current parental level and country/region code settings for the DVD player.
 old-location: dshow\idvdinfo_getplayerparentallevel.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 2b4111db-fbb1-4da7-85e1-ddd3f5718225
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetPlayerParentalLevel, GetPlayerParentalLevel method [DirectShow], GetPlayerParentalLevel method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetPlayerParentalLevel method, IDvdInfo.GetPlayerParentalLevel, IDvdInfo::GetPlayerParentalLevel, IDvdInfoGetPlayerParentalLevel, dshow.idvdinfo_getplayerparentallevel, strmif/IDvdInfo::GetPlayerParentalLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdInfo.GetPlayerParentalLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo::GetPlayerParentalLevel
@@ -67,12 +65,12 @@ Retrieves the current parental level and country/region code settings for the DV
 
 ### -param pulParentalLevel
 
-
+TBD
 
 
 ### -param pulCountryCode
 
-
+TBD
 
 
 

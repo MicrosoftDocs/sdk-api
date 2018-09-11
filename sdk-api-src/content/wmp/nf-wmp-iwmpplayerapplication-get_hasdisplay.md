@@ -4,17 +4,16 @@ title: IWMPPlayerApplication::get_hasDisplay
 author: windows-sdk-content
 description: The get_hasDisplay method retrieves a value indicating whether video can display through the remoted Windows Media Player control.
 old-location: wmp\iwmpplayerapplication_get_hasdisplay.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: a356929a-51de-49b6-bf7a-b3bd7fa35ea2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPPlayerApplication interface [Windows Media Player],get_hasDisplay method, IWMPPlayerApplication.get_hasDisplay, IWMPPlayerApplication::get_hasDisplay, IWMPPlayerApplicationget_hasDisplay, get_hasDisplay, get_hasDisplay method [Windows Media Player], get_hasDisplay method [Windows Media Player],IWMPPlayerApplication interface, wmp.iwmpplayerapplication_get_hasdisplay, wmp/IWMPPlayerApplication::get_hasDisplay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPPlayerApplication.get_hasDisplay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPPlayerApplication::get_hasDisplay

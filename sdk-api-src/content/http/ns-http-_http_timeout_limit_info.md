@@ -4,7 +4,7 @@ title: "_HTTP_TIMEOUT_LIMIT_INFO"
 author: windows-sdk-content
 description: Defines the application-specific connection timeout limits.
 old-location: http\http_timeout_limit_info.htm
-old-project: http
+tech.root: http
 ms.assetid: 900f4b4d-c34d-4994-b8eb-b3f15e54f29a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_TIMEOUT_LIMIT_INFO, *PHTTP_TIMEOUT_LIMIT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_TIMEOUT_LIMIT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_TIMEOUT_LIMIT_INFO, *PHTTP_TIMEOUT_LIMIT_INFO
+req.redist: 
 ---
 
 # _HTTP_TIMEOUT_LIMIT_INFO structure

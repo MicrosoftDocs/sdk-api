@@ -4,7 +4,7 @@ title: "_MMC_VIEW_TYPE"
 author: windows-sdk-content
 description: The MMC_VIEW_TYPE enumeration specifies a result view type and is used in the RESULT_VIEW_TYPE_INFO structure.
 old-location: mmc\mmc_view_type.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: fffb7376-bf1d-44ce-ad52-d4c45d013af7
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMC_VIEW_TYPE
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MMC_VIEW_TYPE
+req.redist: 
 ---
 
 # _MMC_VIEW_TYPE enumeration

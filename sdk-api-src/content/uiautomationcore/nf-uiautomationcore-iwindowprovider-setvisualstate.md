@@ -4,17 +4,16 @@ title: IWindowProvider::SetVisualState
 author: windows-sdk-content
 description: Changes the visual state of the window. For example, minimizes or maximizes it.
 old-location: winauto\uiauto_IWindowProvider_SetVisualState.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 89239900-5ee4-4f3a-a398-6ceb4846caf9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],SetVisualState method, IWindowProvider.SetVisualState, IWindowProvider::SetVisualState, SetVisualState, SetVisualState method [Windows Accessibility], SetVisualState method [Windows Accessibility],IWindowProvider interface, uiauto.uiauto_IWindowProvider_SetVisualState, uiauto_IWindowProvider_SetVisualState, uiautomationcore/IWindowProvider::SetVisualState, winauto.uiauto_IWindowProvider_SetVisualState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWindowProvider.SetVisualState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowProvider::SetVisualState

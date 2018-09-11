@@ -4,17 +4,16 @@ title: DrvBitBlt function
 author: windows-sdk-content
 description: The DrvBitBlt function provides general bit-block transfer capabilities between device-managed surfaces, between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
 old-location: display\drvbitblt.htm
-old-project: display
+tech.root: display
 ms.assetid: d7b4e25c-b9a1-4200-b449-b7c7ed059db4
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvBitBlt, DrvBitBlt function [Display Devices], ddifncs_1314a0f2-0f0d-4b76-b060-207e332dafde.xml, display.drvbitblt, winddi/DrvBitBlt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvBitBlt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvBitBlt function

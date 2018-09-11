@@ -4,17 +4,16 @@ title: INameSpaceTreeControlEvents::OnBeforeExpand
 author: windows-sdk-content
 description: Called before an IShellItem is expanded.
 old-location: shell\INameSpaceTreeControlEvents_OnBeforeExpand.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b3cf5edf-061a-434a-b273-dc33fcdd8448
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnBeforeExpand method, INameSpaceTreeControlEvents.OnBeforeExpand, INameSpaceTreeControlEvents::OnBeforeExpand, OnBeforeExpand, OnBeforeExpand method [Windows Shell], OnBeforeExpand method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnBeforeExpand, shell.INameSpaceTreeControlEvents_OnBeforeExpand, shobjidl/INameSpaceTreeControlEvents::OnBeforeExpand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControlEvents.OnBeforeExpand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControlEvents::OnBeforeExpand

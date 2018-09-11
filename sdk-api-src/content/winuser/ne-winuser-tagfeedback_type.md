@@ -4,7 +4,7 @@ title: tagFEEDBACK_TYPE
 author: windows-sdk-content
 description: Specifies the visual feedback associated with an event.
 old-location: input_feedback\feedback_type.htm
-old-project: Input_Feedback
+tech.root: Input_Feedback
 ms.assetid: EEA3024E-D38C-4F4D-A63C-58ECB2B87F20
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FEEDBACK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FEEDBACK_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: FEEDBACK_TYPE
+req.redist: 
 ---
 
 # tagFEEDBACK_TYPE enumeration

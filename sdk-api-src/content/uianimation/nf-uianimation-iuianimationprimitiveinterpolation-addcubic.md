@@ -4,17 +4,16 @@ title: IUIAnimationPrimitiveInterpolation::AddCubic
 author: windows-sdk-content
 description: Adds a cubic polynomial segment that describes the shape of a transition curve to the animation function.
 old-location: uianimation\iuianimationprimitiveinterpolation_addcubic.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 98738F6A-364E-491F-BCA3-F8B74B036D89
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AddCubic, AddCubic method [Windows Animation], AddCubic method [Windows Animation],IUIAnimationPrimitiveInterpolation interface, IUIAnimationPrimitiveInterpolation interface [Windows Animation],AddCubic method, IUIAnimationPrimitiveInterpolation.AddCubic, IUIAnimationPrimitiveInterpolation::AddCubic, uianimation.iuianimationprimitiveinterpolation_addcubic, uianimation/IUIAnimationPrimitiveInterpolation::AddCubic
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationPrimitiveInterpolation.AddCubic
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationPrimitiveInterpolation::AddCubic
@@ -62,7 +60,7 @@ Adds a cubic polynomial segment that describes the shape of a transition curve t
 
 ### -param dimension
 
-
+TBD
 
 
 ### -param beginOffset [in]

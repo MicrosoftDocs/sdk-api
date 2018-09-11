@@ -4,17 +4,16 @@ title: LPSAFEARRAY_UserSize64 function
 author: windows-sdk-content
 description: Calculates the wire size of the SAFEARRAY object, and gets its handle and data.
 old-location: automat\lpsafearray_usersize64.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 5F41D197-027E-4640-833A-4F6239F0DFB0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LPSAFEARRAY_UserSize64, LPSAFEARRAY_UserSize64 function [Automation], automat.lpsafearray_usersize64, wia_xp/LPSAFEARRAY_UserSize64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIAVIDEO_STATE
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LPSAFEARRAY_UserSize64
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # LPSAFEARRAY_UserSize64 function
@@ -60,7 +58,17 @@ Calculates the wire size of the <a href="https://msdn.microsoft.com/9ec8025b-476
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
 
 TBD
 

@@ -4,17 +4,16 @@ title: GROUP_FAILURE_INFO_BUFFER
 author: windows-sdk-content
 description: Represents a buffer for a GROUP_FAILURE_INFO structure.
 old-location: mscs\group_failure_info_buffer.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 69824D88-B9CE-451B-B65A-84822755CEAC
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PGROUP_FAILURE_INFO_BUFFER, GROUP_FAILURE_INFO_BUFFER, GROUP_FAILURE_INFO_BUFFER structure [Failover Cluster], PGROUP_FAILURE_INFO_BUFFER, PGROUP_FAILURE_INFO_BUFFER structure pointer [Failover Cluster], clusapi/GROUP_FAILURE_INFO_BUFFER, clusapi/PGROUP_FAILURE_INFO_BUFFER, msclus/GROUP_FAILURE_INFO_BUFFER, msclus/PGROUP_FAILURE_INFO_BUFFER, mscs.group_failure_info_buffer"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: MsClus.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: MsClus.tlb
-tech.root: 
-req.typenames: GROUP_FAILURE_INFO_BUFFER, *PGROUP_FAILURE_INFO_BUFFER
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GROUP_FAILURE_INFO_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: GROUP_FAILURE_INFO_BUFFER, *PGROUP_FAILURE_INFO_BUFFER
+req.redist: 
 ---
 
 # GROUP_FAILURE_INFO_BUFFER structure

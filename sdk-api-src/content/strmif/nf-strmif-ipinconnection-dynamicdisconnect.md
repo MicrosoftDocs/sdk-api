@@ -4,17 +4,16 @@ title: IPinConnection::DynamicDisconnect
 author: windows-sdk-content
 description: The DynamicDisconnect method disconnects the pin when the filter is active (paused or running). Call this method instead of IPin::Disconnect to disconnect a pin when the graph is running or paused.
 old-location: dshow\ipinconnection_dynamicdisconnect.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 44a5a219-fd42-4fe1-a767-f74d01d86012
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: DynamicDisconnect, DynamicDisconnect method [DirectShow], DynamicDisconnect method [DirectShow],IPinConnection interface, IPinConnection interface [DirectShow],DynamicDisconnect method, IPinConnection.DynamicDisconnect, IPinConnection::DynamicDisconnect, IPinConnectionDynamicDisconnect, dshow.ipinconnection_dynamicdisconnect, strmif/IPinConnection::DynamicDisconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPinConnection.DynamicDisconnect
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IPinConnection::DynamicDisconnect

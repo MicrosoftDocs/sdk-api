@@ -4,17 +4,16 @@ title: IExpDispSupport::OnTranslateAccelerator
 author: windows-sdk-content
 description: Deprecated. Instructs the control site to process the keystroke described in pMsg and modified by the flags in grfModifiers.
 old-location: shell\IExpDispSupport_OnTranslateAccelerator.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 55f3b4dd-134d-49fe-a7f7-c6315971e902
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IExpDispSupport interface [Windows Shell],OnTranslateAccelerator method, IExpDispSupport.OnTranslateAccelerator, IExpDispSupport::OnTranslateAccelerator, OnTranslateAccelerator, OnTranslateAccelerator method [Windows Shell], OnTranslateAccelerator method [Windows Shell],IExpDispSupport interface, shdeprecated/IExpDispSupport::OnTranslateAccelerator, shell.IExpDispSupport_OnTranslateAccelerator, zone_IExpDispSupport_OnTranslateAccelerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IExpDispSupport.OnTranslateAccelerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

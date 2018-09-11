@@ -4,17 +4,16 @@ title: IVdsService::GetObject
 author: windows-sdk-content
 description: Returns an object pointer for the identified object.
 old-location: base\ivdsservice_getobject.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 622a95a4-0e8c-4f65-a935-61cb48379065
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetObject, GetObject method [VDS], GetObject method [VDS],IVdsService interface, IVdsService interface [VDS],GetObject method, IVdsService.GetObject, IVdsService::GetObject, base.ivdsservice_getobject, vds/IVdsService::GetObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsService.GetObject
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsService::GetObject

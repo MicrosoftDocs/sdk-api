@@ -4,17 +4,16 @@ title: ITpmVirtualSmartCardManagerStatusCallback::ReportProgress
 author: windows-sdk-content
 description: Reports the progress of the current operation.
 old-location: security\itpmvirtualsmartcardmanagerstatuscallback_reportprogress.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: E20CF68F-0DFB-48E4-9B68-83A8E8763424
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ITpmVirtualSmartCardManagerStatusCallback interface [Security],ReportProgress method, ITpmVirtualSmartCardManagerStatusCallback.ReportProgress, ITpmVirtualSmartCardManagerStatusCallback::ReportProgress, ReportProgress, ReportProgress method [Security], ReportProgress method [Security],ITpmVirtualSmartCardManagerStatusCallback interface, security.itpmvirtualsmartcardmanagerstatuscallback_reportprogress, tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportProgress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tpmvscmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: Vscmgr.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITpmVirtualSmartCardManagerStatusCallback.ReportProgress
 product: Windows
 targetos: Windows
-req.lib: Vscmgr.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITpmVirtualSmartCardManagerStatusCallback::ReportProgress

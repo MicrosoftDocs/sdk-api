@@ -4,17 +4,16 @@ title: IDirectManipulationDeferContactService::CancelContact
 author: windows-sdk-content
 description: Cancel all scheduled calls to SetContact for this pointerId.
 old-location: directmanipulation\idirectmanipulationdefercontactservice_cancelcontact.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 5C5029E5-CA4B-4853-B9D3-B99E869A44C3
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CancelContact, CancelContact method [Direct Manipulation], CancelContact method [Direct Manipulation],IDirectManipulationDeferContactService interface, IDirectManipulationDeferContactService interface [Direct Manipulation],CancelContact method, IDirectManipulationDeferContactService.CancelContact, IDirectManipulationDeferContactService::CancelContact, directmanipulation.idirectmanipulationdefercontactservice_cancelcontact, directmanipulation/IDirectManipulationDeferContactService::CancelContact
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationDeferContactService.CancelContact
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationDeferContactService::CancelContact

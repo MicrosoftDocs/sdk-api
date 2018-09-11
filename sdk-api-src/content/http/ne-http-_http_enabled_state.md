@@ -4,7 +4,7 @@ title: "_HTTP_ENABLED_STATE"
 author: windows-sdk-content
 description: Defines the state of a request queue, server session, or URL Group.
 old-location: http\http_enabled_state.htm
-old-project: http
+tech.root: http
 ms.assetid: 15e27788-2d1a-4818-b31f-2faf649e15b2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_ENABLED_STATE, *PHTTP_ENABLED_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_ENABLED_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_ENABLED_STATE, *PHTTP_ENABLED_STATE
+req.redist: 
 ---
 
 # _HTTP_ENABLED_STATE enumeration

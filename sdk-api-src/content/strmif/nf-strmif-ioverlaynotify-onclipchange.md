@@ -4,17 +4,16 @@ title: IOverlayNotify::OnClipChange
 author: windows-sdk-content
 description: The OnClipChange method provides notification that the window's visible region has changed. It is essential that any overlay hardware be updated to reflect the change to the visible region before returning from this method.
 old-location: dshow\ioverlaynotify_onclipchange.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d5bed27f-2918-4c1f-9340-a0d5714d911b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IOverlayNotify interface [DirectShow],OnClipChange method, IOverlayNotify.OnClipChange, IOverlayNotify::OnClipChange, IOverlayNotifyOnClipChange, OnClipChange, OnClipChange method [DirectShow], OnClipChange method [DirectShow],IOverlayNotify interface, dshow.ioverlaynotify_onclipchange, strmif/IOverlayNotify::OnClipChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IOverlayNotify.OnClipChange
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IOverlayNotify::OnClipChange

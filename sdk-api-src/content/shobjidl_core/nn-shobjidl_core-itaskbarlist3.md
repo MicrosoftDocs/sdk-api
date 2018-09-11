@@ -4,17 +4,16 @@ title: ITaskbarList3
 author: windows-sdk-content
 description: Extends ITaskbarList2 by exposing methods that support the unified launching and switching taskbar button functionality added in Windows 7.
 old-location: shell\ITaskbarList3.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a5eb4e5a-df17-4aca-96fb-d8475e266b92
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ITaskbarList3, ITaskbarList3 interface [Windows Shell], ITaskbarList3 interface [Windows Shell],described, _shell_ITaskbarList3, shell.ITaskbarList3, shobjidl_core/ITaskbarList3
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Explorerframe.lib
+req.dll: Explorerframe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskbarList3
 product: Windows
 targetos: Windows
-req.lib: Explorerframe.lib
-req.dll: Explorerframe.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskbarList3 interface

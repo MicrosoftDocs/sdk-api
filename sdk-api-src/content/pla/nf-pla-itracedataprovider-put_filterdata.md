@@ -4,17 +4,16 @@ title: ITraceDataProvider::put_FilterData
 author: windows-sdk-content
 description: Retrieves or sets arbitrary data that is sent to the trace data provider for filtering purposes.
 old-location: pla\itracedataprovider_filterdata.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: a5b1c141-d820-4435-be1e-93f2ae69d1e1
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: FilterData property [PLA], FilterData property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],FilterData property, ITraceDataProvider.FilterData, ITraceDataProvider.put_FilterData, ITraceDataProvider::FilterData, ITraceDataProvider::get_FilterData, ITraceDataProvider::put_FilterData, base.itracedataprovider_filterdata, pla.itracedataprovider_filterdata, pla/ITraceDataProvider::FilterData, pla/ITraceDataProvider::get_FilterData, pla/ITraceDataProvider::put_FilterData, put_FilterData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITraceDataProvider.put_FilterData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataProvider::put_FilterData

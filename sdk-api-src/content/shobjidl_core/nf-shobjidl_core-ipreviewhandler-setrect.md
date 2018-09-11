@@ -4,17 +4,16 @@ title: IPreviewHandler::SetRect
 author: windows-sdk-content
 description: Directs the preview handler to change the area within the parent hwnd that it draws into.
 old-location: shell\IPreviewHandler_SetRect.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 03353962-6905-4b13-bf7a-f1767767a7df
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],SetRect method, IPreviewHandler.SetRect, IPreviewHandler::SetRect, SetRect, SetRect method [Windows Shell], SetRect method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_SetRect, shell.IPreviewHandler_SetRect, shobjidl_core/IPreviewHandler::SetRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: Windows Search 4 or later
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPreviewHandler.SetRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: Windows Search 4 or later
 ---
 
 # IPreviewHandler::SetRect

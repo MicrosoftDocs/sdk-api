@@ -4,7 +4,7 @@ title: "_STORAGE_DESCRIPTOR_HEADER"
 author: windows-sdk-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY control code to retrieve the properties of a storage device or adapter.
 old-location: fs\storage_descriptor_header.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: f98e53d5-45cb-4c3f-b04d-8eecd98655d2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STORAGE_DESCRIPTOR_HEADER, *PSTORAGE_DESCRIPTOR_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STORAGE_DESCRIPTOR_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STORAGE_DESCRIPTOR_HEADER, *PSTORAGE_DESCRIPTOR_HEADER
+req.redist: 
 ---
 
 # _STORAGE_DESCRIPTOR_HEADER structure

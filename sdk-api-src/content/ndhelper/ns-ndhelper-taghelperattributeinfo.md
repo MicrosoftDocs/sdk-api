@@ -4,7 +4,7 @@ title: tagHelperAttributeInfo
 author: windows-sdk-content
 description: The HelperAttributeInfo structure contains the name of the helper attribute and its type.
 old-location: ndf\helperattributeinfo.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: a4de3031-7199-4537-a97e-f33059383d6b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndhelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ndhelper.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HelperAttributeInfo, *PHelperAttributeInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HelperAttributeInfo, *PHelperAttributeInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: HelperAttributeInfo, *PHelperAttributeInfo
+req.redist: 
 ---
 
 # tagHelperAttributeInfo structure

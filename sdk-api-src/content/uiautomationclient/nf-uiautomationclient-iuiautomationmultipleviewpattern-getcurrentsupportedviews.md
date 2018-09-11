@@ -4,17 +4,16 @@ title: IUIAutomationMultipleViewPattern::GetCurrentSupportedViews
 author: windows-sdk-content
 description: Retrieves a collection of control-specific view identifiers.
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 9380797a-b546-4e36-9403-d34cea672ace
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCurrentSupportedViews, GetCurrentSupportedViews method [Windows Accessibility], GetCurrentSupportedViews method [Windows Accessibility],IUIAutomationMultipleViewPattern interface, IUIAutomationMultipleViewPattern interface [Windows Accessibility],GetCurrentSupportedViews method, IUIAutomationMultipleViewPattern.GetCurrentSupportedViews, IUIAutomationMultipleViewPattern::GetCurrentSupportedViews, uiauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews, uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews, uiautomationclient/IUIAutomationMultipleViewPattern::GetCurrentSupportedViews, winauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationMultipleViewPattern.GetCurrentSupportedViews
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationMultipleViewPattern::GetCurrentSupportedViews

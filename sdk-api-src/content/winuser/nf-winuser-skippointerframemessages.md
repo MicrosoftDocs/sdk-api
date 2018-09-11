@@ -4,17 +4,16 @@ title: SkipPointerFrameMessages function
 author: windows-sdk-content
 description: Determines which pointer input frame generated the most recently retrieved message for the specified pointer and discards any queued (unretrieved) pointer input messages generated from the same pointer input frame.
 old-location: inputmsg\skippointerframemessages.htm
-old-project: InputMsg
+tech.root: InputMsg
 ms.assetid: d67f8d44-3e19-4523-a0f3-38f09f5df91f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: SkipPointerFrameMessages, SkipPointerFrameMessages function [Input Messages and Notifications], inputmsg.skippointerframemessages, winuser/SkipPointerFrameMessages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - SkipPointerFrameMessages
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SkipPointerFrameMessages function

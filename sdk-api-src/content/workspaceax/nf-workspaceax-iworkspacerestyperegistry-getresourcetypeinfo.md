@@ -4,17 +4,16 @@ title: IWorkspaceResTypeRegistry::GetResourceTypeInfo
 author: windows-sdk-content
 description: Retrieves information about a third-party file name extension that is registered with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_getresourcetypeinfo.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 60fa6676-c098-41b6-bebd-0a600ca37954
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetResourceTypeInfo, GetResourceTypeInfo method [Remote Desktop Services], GetResourceTypeInfo method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, GetResourceTypeInfo method [Remote Desktop Services],Workspace object, IWorkspaceResTypeRegistry interface [Remote Desktop Services],GetResourceTypeInfo method, IWorkspaceResTypeRegistry.GetResourceTypeInfo, IWorkspaceResTypeRegistry::GetResourceTypeInfo, Workspace object [Remote Desktop Services],GetResourceTypeInfo method, termserv.iworkspacerestyperegistry_getresourcetypeinfo, workspaceax/IWorkspaceResTypeRegistry::GetResourceTypeInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceax.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: TSWorkspace.dll
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: TSWorkspace.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - Workspace.GetResourceTypeInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: TSWorkspace.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWorkspaceResTypeRegistry::GetResourceTypeInfo

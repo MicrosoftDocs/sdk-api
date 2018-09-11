@@ -4,17 +4,16 @@ title: IMPEG2StreamIdMap::MapStreamId
 author: windows-sdk-content
 description: The MapStreamId method maps the Stream ID of an elementary stream within an MPEG-2 program stream to a media content type and substream filtering information.
 old-location: dshow\impeg2streamidmap_mapstreamid.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e74a1e62-1bc4-43e1-9017-85012b2ece01
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMPEG2StreamIdMap interface [DirectShow],MapStreamId method, IMPEG2StreamIdMap.MapStreamId, IMPEG2StreamIdMap::MapStreamId, IMPEG2StreamIdMapMapStreamId, MapStreamId, MapStreamId method [DirectShow], MapStreamId method [DirectShow],IMPEG2StreamIdMap interface, dshow.impeg2streamidmap_mapstreamid, strmif/IMPEG2StreamIdMap::MapStreamId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMPEG2StreamIdMap.MapStreamId
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMPEG2StreamIdMap::MapStreamId

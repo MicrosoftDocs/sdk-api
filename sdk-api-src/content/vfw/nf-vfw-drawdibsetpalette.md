@@ -4,17 +4,16 @@ title: DrawDibSetPalette function
 author: windows-sdk-content
 description: The DrawDibSetPalette function sets the palette used for drawing DIBs.
 old-location: multimedia\drawdibsetpalette.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 196c4409-024a-41e4-b553-e3337c936f19
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: DrawDibSetPalette, DrawDibSetPalette function [Windows Multimedia], _win32_DrawDibSetPalette, multimedia.drawdibsetpalette, vfw/DrawDibSetPalette
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Msvfw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrawDibSetPalette
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Msvfw32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # DrawDibSetPalette function

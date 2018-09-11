@@ -4,17 +4,16 @@ title: MprAdminServerSetCredentials function
 author: windows-sdk-content
 description: The MprAdminServerSetCredentials functions sets the pre-shared key for the specified server.
 old-location: rras\mpradminserversetcredentials.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: cc77007f-306f-467a-a52f-bf920da15e74
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminServerSetCredentials, MprAdminServerSetCredentials function [RAS], _mpr_mpradminserversetcredentials, mprapi/MprAdminServerSetCredentials, rras.mpradminserversetcredentials
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminServerSetCredentials
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminServerSetCredentials function

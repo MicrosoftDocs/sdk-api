@@ -4,17 +4,16 @@ title: "_VDS_LUN_PLEX_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a LUN plex.
 old-location: base\vds_lun_plex_status.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 04eed033-45b3-42bc-a304-25525cddd085
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_LPS_FAILED, VDS_LPS_NOT_READY, VDS_LPS_OFFLINE, VDS_LPS_ONLINE, VDS_LPS_UNKNOWN, VDS_LUN_PLEX_STATUS, VDS_LUN_PLEX_STATUS enumeration [VDS], _VDS_LUN_PLEX_STATUS, base.vds_lun_plex_status, vds/VDS_LPS_FAILED, vds/VDS_LPS_NOT_READY, vds/VDS_LPS_OFFLINE, vds/VDS_LPS_ONLINE, vds/VDS_LPS_UNKNOWN, vds/VDS_LUN_PLEX_STATUS, vdshwprv/VDS_LPS_FAILED, vdshwprv/VDS_LPS_NOT_READY, vdshwprv/VDS_LPS_OFFLINE, vdshwprv/VDS_LPS_ONLINE, vdshwprv/VDS_LPS_UNKNOWN, vdshwprv/VDS_LUN_PLEX_STATUS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_LUN_PLEX_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_LUN_PLEX_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_LUN_PLEX_STATUS
+req.redist: 
 ---
 
 # _VDS_LUN_PLEX_STATUS enumeration

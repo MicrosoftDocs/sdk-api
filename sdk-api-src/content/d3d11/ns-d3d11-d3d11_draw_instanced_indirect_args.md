@@ -4,7 +4,7 @@ title: D3D11_DRAW_INSTANCED_INDIRECT_ARGS
 author: windows-sdk-content
 description: Arguments for draw instanced indirect.
 old-location: direct3d11\d3d11_draw_instanced_indirect_args.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: B83B9D3C-3C64-4F42-A08A-4276F09DA9EC
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_DRAW_INSTANCED_INDIRECT_ARGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_DRAW_INSTANCED_INDIRECT_ARGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_DRAW_INSTANCED_INDIRECT_ARGS
+req.redist: 
 ---
 
 # D3D11_DRAW_INSTANCED_INDIRECT_ARGS structure

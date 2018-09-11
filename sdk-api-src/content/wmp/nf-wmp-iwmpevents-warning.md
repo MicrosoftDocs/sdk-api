@@ -4,17 +4,16 @@ title: IWMPEvents::Warning
 author: windows-sdk-content
 description: The Warning event is reserved for future use.
 old-location: wmp\iwmpevents_iwmpevents__warning.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: d68a2e17-c9db-4ad7-b7e8-ea7740de2980
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],Warning method, IWMPEvents.Warning, IWMPEvents::Warning, IWMPEventsWarning, Warning, Warning method [Windows Media Player], Warning method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__warning, wmp/IWMPEvents::Warning
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEvents.Warning
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEvents::Warning

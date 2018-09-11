@@ -4,17 +4,16 @@ title: IMFNetCredential::GetUser
 author: windows-sdk-content
 description: Retrieves the user name.
 old-location: mf\imfnetcredential_getuser.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 11e10b9f-fd98-44f2-a829-d9ed3a5be189
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 11e10b9f-fd98-44f2-a829-d9ed3a5be189, GetUser, GetUser method [Media Foundation], GetUser method [Media Foundation],IMFNetCredential interface, IMFNetCredential interface [Media Foundation],GetUser method, IMFNetCredential.GetUser, IMFNetCredential::GetUser, mf.imfnetcredential_getuser, mfidl/IMFNetCredential::GetUser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFNetCredential.GetUser
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFNetCredential::GetUser

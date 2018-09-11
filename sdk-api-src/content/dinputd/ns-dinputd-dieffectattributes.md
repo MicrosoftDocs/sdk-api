@@ -4,7 +4,7 @@ title: DIEFFECTATTRIBUTES
 author: windows-sdk-content
 description: The DIEFFECTATTRIBUTES structure describes the information contained in the &#0034;Attributes&#0034; value of the registry key for each effect that is supported by a force-feedback device.
 old-location: hid\dieffectattributes.htm
-old-project: hid
+tech.root: hid
 ms.assetid: accec45c-de3c-43db-adc9-f878c40c47b0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIEFFECTATTRIBUTES, *LPDIEFFECTATTRIBUTES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIEFFECTATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIEFFECTATTRIBUTES, *LPDIEFFECTATTRIBUTES
+req.redist: 
 ---
 
 # DIEFFECTATTRIBUTES structure

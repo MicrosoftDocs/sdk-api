@@ -4,17 +4,16 @@ title: INetFwRule::get_RemotePorts
 author: windows-sdk-content
 description: Specifies the list of remote ports for this rule.
 old-location: ics\inetfwrule_remoteports.htm
-old-project: ics
+tech.root: ics
 ms.assetid: e6791258-4669-42d9-9551-5c861bfb2b52
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwRule interface [ICS/ICF],RemotePorts property, INetFwRule.RemotePorts, INetFwRule.get_RemotePorts, INetFwRule::RemotePorts, INetFwRule::get_RemotePorts, INetFwRule::put_RemotePorts, RemotePorts property [ICS/ICF], RemotePorts property [ICS/ICF],INetFwRule interface, get_RemotePorts, ics.inetfwrule_remoteports, netfw/INetFwRule::RemotePorts, netfw/INetFwRule::get_RemotePorts, netfw/INetFwRule::put_RemotePorts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwRule.put_RemotePorts
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwRule::get_RemotePorts

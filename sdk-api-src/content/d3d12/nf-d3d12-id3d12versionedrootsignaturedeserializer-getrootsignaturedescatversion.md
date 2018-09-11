@@ -4,17 +4,16 @@ title: ID3D12VersionedRootSignatureDeserializer::GetRootSignatureDescAtVersion
 author: windows-sdk-content
 description: Converts root signature description structures to a requested version.
 old-location: direct3d12\id3d12versionedrootsignaturedeserializer_getrootsignaturedescatversion.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 50EB9AC8-D13D-41D3-9E16-AC9871095A72
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetRootSignatureDescAtVersion, GetRootSignatureDescAtVersion method, GetRootSignatureDescAtVersion method,ID3D12VersionedRootSignatureDeserializer interface, ID3D12VersionedRootSignatureDeserializer interface,GetRootSignatureDescAtVersion method, ID3D12VersionedRootSignatureDeserializer.GetRootSignatureDescAtVersion, ID3D12VersionedRootSignatureDeserializer::GetRootSignatureDescAtVersion, d3d12/ID3D12VersionedRootSignatureDeserializer::GetRootSignatureDescAtVersion, direct3d12.id3d12versionedrootsignaturedeserializer_getrootsignaturedescatversion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12VersionedRootSignatureDeserializer.GetRootSignatureDescAtVersion
 product: Windows
 targetos: Windows
-req.lib: D3d12.lib
-req.dll: D3d12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12VersionedRootSignatureDeserializer::GetRootSignatureDescAtVersion

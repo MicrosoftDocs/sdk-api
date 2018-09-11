@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CachedIsRequiredForForm
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the element is required to be filled out on a form.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsRequiredForForm.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: d1edcdfb-0020-4d38-a1e7-4b2d9555bd21
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedIsRequiredForForm property [Windows Accessibility], CachedIsRequiredForForm property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsRequiredForForm property, IUIAutomationElement.CachedIsRequiredForForm, IUIAutomationElement.get_CachedIsRequiredForForm, IUIAutomationElement::CachedIsRequiredForForm, IUIAutomationElement::get_CachedIsRequiredForForm, get_CachedIsRequiredForForm, uiauto.uiauto_IUIAutomationElement_CachedIsRequiredForForm, uiauto_IUIAutomationElement_CachedIsRequiredForForm, uiautomationclient/IUIAutomationElement::CachedIsRequiredForForm, uiautomationclient/IUIAutomationElement::get_CachedIsRequiredForForm, winauto.uiauto_IUIAutomationElement_CachedIsRequiredForForm
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CachedIsRequiredForForm
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CachedIsRequiredForForm

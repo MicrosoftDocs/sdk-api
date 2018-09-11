@@ -4,17 +4,16 @@ title: IBrowserFrameOptions::GetFrameOptions
 author: windows-sdk-content
 description: Retrieves the available browser frame view options.
 old-location: shell\IBrowserFrameOptions_GetFrameOptions.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4f0e9f69-92e5-4fec-bdfa-b37d594ff5fe
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetFrameOptions, GetFrameOptions method [Windows Shell], GetFrameOptions method [Windows Shell],IBrowserFrameOptions interface, IBrowserFrameOptions interface [Windows Shell],GetFrameOptions method, IBrowserFrameOptions.GetFrameOptions, IBrowserFrameOptions::GetFrameOptions, _shell_IBrowserFrameOptions_GetFrameOptions, shell.IBrowserFrameOptions_GetFrameOptions, shobjidl_core/IBrowserFrameOptions::GetFrameOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBrowserFrameOptions.GetFrameOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IBrowserFrameOptions::GetFrameOptions

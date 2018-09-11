@@ -4,17 +4,16 @@ title: IFont::put_Italic
 author: windows-sdk-content
 description: Sets the font's Italic property.
 old-location: com\ifont_put_italic.htm
-old-project: com
+tech.root: com
 ms.assetid: a59169e1-d3c4-4dc0-b228-afad0e4d4307
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IFont interface [COM],put_Italic method, IFont.put_Italic, IFont::put_Italic, _ctrl_ifont_put_italic, com.ifont_put_italic, ocidl/IFont::put_Italic, put_Italic, put_Italic method [COM], put_Italic method [COM],IFont interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFont.put_Italic
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFont::put_Italic

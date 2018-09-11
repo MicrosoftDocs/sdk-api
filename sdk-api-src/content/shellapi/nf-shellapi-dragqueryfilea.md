@@ -4,17 +4,16 @@ title: DragQueryFileA function
 author: windows-sdk-content
 description: Retrieves the names of dropped files that result from a successful drag-and-drop operation.
 old-location: shell\DragQueryFile.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 93fab381-9035-46c4-ba9d-efb2d0801d84
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DragQueryFile, DragQueryFile function [Windows Shell], DragQueryFileA, DragQueryFileW, _win32_DragQueryFile, shell.DragQueryFile, shellapi/DragQueryFile, shellapi/DragQueryFileA, shellapi/DragQueryFileW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - DragQueryFileW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DragQueryFileA function

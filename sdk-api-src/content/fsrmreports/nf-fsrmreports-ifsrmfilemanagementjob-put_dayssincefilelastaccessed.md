@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::put_DaysSinceFileLastAccessed
 author: windows-sdk-content
 description: The number of days that have elapsed since the file was last accessed.
 old-location: fsrm\ifsrmfilemanagementjob_dayssincefilelastaccessed.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 0892f31d-e2e4-4aeb-9496-f0ff10c2c0af
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: DaysSinceFileLastAccessed property [File Server Resource Manager], DaysSinceFileLastAccessed property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],DaysSinceFileLastAccessed property, IFsrmFileManagementJob.DaysSinceFileLastAccessed, IFsrmFileManagementJob.put_DaysSinceFileLastAccessed, IFsrmFileManagementJob::DaysSinceFileLastAccessed, IFsrmFileManagementJob::get_DaysSinceFileLastAccessed, IFsrmFileManagementJob::put_DaysSinceFileLastAccessed, fs.ifsrmfilemanagementjob_dayssincefilelastaccessed, fsrm.ifsrmfilemanagementjob_dayssincefilelastaccessed, fsrmreports/IFsrmFileManagementJob::DaysSinceFileLastAccessed, fsrmreports/IFsrmFileManagementJob::get_DaysSinceFileLastAccessed, fsrmreports/IFsrmFileManagementJob::put_DaysSinceFileLastAccessed, put_DaysSinceFileLastAccessed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmFileManagementJob.put_DaysSinceFileLastAccessed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::put_DaysSinceFileLastAccessed

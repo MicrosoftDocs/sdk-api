@@ -4,17 +4,16 @@ title: IAzBizRuleContext::put_BusinessRuleResult
 author: windows-sdk-content
 description: Sets a value that indicates whether the Business Rule (BizRule) allows the user to perform the requested task.
 old-location: security\azbizrulecontext_businessruleresult.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9f8b72bb-b2c3-4ba0-aa56-ff0ad0df1502
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzBizRuleContext object [Security],BusinessRuleResult property, BusinessRuleResult property [Security], BusinessRuleResult property [Security],AzBizRuleContext object, BusinessRuleResult property [Security],IAzBizRuleContext interface, IAzBizRuleContext interface [Security],BusinessRuleResult property, IAzBizRuleContext.BusinessRuleResult, IAzBizRuleContext.put_BusinessRuleResult, IAzBizRuleContext::BusinessRuleResult, IAzBizRuleContext::put_BusinessRuleResult, azroles/IAzBizRuleContext::BusinessRuleResult, azroles/IAzBizRuleContext::put_BusinessRuleResult, put_BusinessRuleResult, security.azbizrulecontext_businessruleresult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzBizRuleContext.BusinessRuleResult
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzBizRuleContext::put_BusinessRuleResult

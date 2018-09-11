@@ -4,17 +4,16 @@ title: HRESULT_SEVERITY macro
 author: windows-sdk-content
 description: Extracts the severity field of the specified HRESULT.
 old-location: com\hresult_severity_macro.htm
-old-project: com
+tech.root: com
 ms.assetid: e574ddc2-e950-4618-bc16-1b99989a4a68
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HRESULT_SEVERITY, HRESULT_SEVERITY macro [COM], _com_HRESULT_SEVERITY, com.hresult_severity, com.hresult_severity_macro, winerror/HRESULT_SEVERITY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winerror.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENCRYPTION_CERTIFICATE_LIST, *PENCRYPTION_CERTIFICATE_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HRESULT_SEVERITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # HRESULT_SEVERITY macro

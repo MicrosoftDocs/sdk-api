@@ -4,17 +4,16 @@ title: "_RTM_REGN_PROFILE"
 author: windows-sdk-content
 description: The RTM_REGN_PROFILE structure contains information returned during the registration process. The information is used for later function calls (such as the maximum number of routes that can be returned by a call to RtmGetEnumRoutes).
 old-location: rras\rtm_regn_profile.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 26644a09-8d49-4c9f-a7cd-5edbf93e83d0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRTM_REGN_PROFILE, PRTM_REGN_PROFILE, PRTM_REGN_PROFILE structure pointer [RAS], RTM_REGN_PROFILE, RTM_REGN_PROFILE structure [RAS], _RTM_REGN_PROFILE, _rtmv2ref_rtm_regn_profile, rras.rtm_regn_profile, rtmv2/PRTM_REGN_PROFILE, rtmv2/RTM_REGN_PROFILE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_REGN_PROFILE, *PRTM_REGN_PROFILE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RTM_REGN_PROFILE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RTM_REGN_PROFILE, *PRTM_REGN_PROFILE
+req.redist: 
 ---
 
 # _RTM_REGN_PROFILE structure

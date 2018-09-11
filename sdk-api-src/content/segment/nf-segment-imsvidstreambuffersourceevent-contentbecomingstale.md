@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSourceEvent::ContentBecomingStale
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_contentbecomingstale.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ff28174c-a5a7-4cd3-b967-3e52d53864f3
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ContentBecomingStale, ContentBecomingStale method [Microsoft TV Technologies], ContentBecomingStale method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],ContentBecomingStale method, IMSVidStreamBufferSourceEvent.ContentBecomingStale, IMSVidStreamBufferSourceEvent::ContentBecomingStale, IMSVidStreamBufferSourceEventContentBecomingStale, mstv.imsvidstreambuffersourceevent_contentbecomingstale, segment/IMSVidStreamBufferSourceEvent::ContentBecomingStale
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSourceEvent.ContentBecomingStale
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSourceEvent::ContentBecomingStale

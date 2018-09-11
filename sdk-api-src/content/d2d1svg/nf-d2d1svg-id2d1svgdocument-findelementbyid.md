@@ -4,17 +4,16 @@ title: ID2D1SvgDocument::FindElementById
 author: windows-sdk-content
 description: Gets the SVG element with the specified ID.
 old-location: direct2d\id2d1svgdocument_findelementbyid.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: B4E4EE0E-0A2B-479A-B101-AC9DF8546A4F
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FindElementById, FindElementById method [Direct2D], FindElementById method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],FindElementById method, ID2D1SvgDocument.FindElementById, ID2D1SvgDocument::FindElementById, d2d1svg/ID2D1SvgDocument::FindElementById, direct2d.id2d1svgdocument_findelementbyid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgDocument.FindElementById
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgDocument::FindElementById

@@ -4,17 +4,16 @@ title: VarI1FromStr function
 author: windows-sdk-content
 description: Converts an OLECHAR string to a char value.
 old-location: automat\vari1fromstr.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 587eb198-de49-4b7a-a733-eb8dd23a8e97
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarI1FromStr, VarI1FromStr function [Automation], _oa96_VarI1FromStr, automat.vari1fromstr, oleauto/VarI1FromStr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarI1FromStr
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarI1FromStr function

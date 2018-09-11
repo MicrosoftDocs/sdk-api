@@ -4,17 +4,16 @@ title: IInkExtendedProperty::get_Data
 author: windows-sdk-content
 description: Gets or sets the data of the extended property.
 old-location: tablet\iinkextendedproperty_data.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: cde7772a-9996-4011-ae9d-d43caddfef83
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: Data property [Tablet PC], Data property [Tablet PC],IInkExtendedProperty interface, IInkExtendedProperty interface [Tablet PC],Data property, IInkExtendedProperty.Data, IInkExtendedProperty.get_Data, IInkExtendedProperty.put_Data, IInkExtendedProperty::Data, IInkExtendedProperty::get_Data, IInkExtendedProperty::put_Data, cde7772a-9996-4011-ae9d-d43caddfef83, get_Data, msinkaut/IInkExtendedProperty::Data, msinkaut/IInkExtendedProperty::get_Data, msinkaut/IInkExtendedProperty::put_Data, tablet.iinkextendedproperty_data
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - IInkExtendedProperty.put_Data
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkExtendedProperty::get_Data

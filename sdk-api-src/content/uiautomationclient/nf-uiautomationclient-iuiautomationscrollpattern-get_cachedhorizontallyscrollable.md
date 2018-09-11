@@ -4,17 +4,16 @@ title: IUIAutomationScrollPattern::get_CachedHorizontallyScrollable
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the element can scroll horizontally.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 9089e237-2115-47b6-a1eb-eaea5a93586e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedHorizontallyScrollable property [Windows Accessibility], CachedHorizontallyScrollable property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedHorizontallyScrollable property, IUIAutomationScrollPattern.CachedHorizontallyScrollable, IUIAutomationScrollPattern.get_CachedHorizontallyScrollable, IUIAutomationScrollPattern::CachedHorizontallyScrollable, IUIAutomationScrollPattern::get_CachedHorizontallyScrollable, get_CachedHorizontallyScrollable, uiauto.uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable, uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable, uiautomationclient/IUIAutomationScrollPattern::CachedHorizontallyScrollable, uiautomationclient/IUIAutomationScrollPattern::get_CachedHorizontallyScrollable, winauto.uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationScrollPattern.get_CachedHorizontallyScrollable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationScrollPattern::get_CachedHorizontallyScrollable

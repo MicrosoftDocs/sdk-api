@@ -4,17 +4,16 @@ title: "_NTMS_ALLOCATION_INFORMATION"
 author: windows-sdk-content
 description: The NTMS_ALLOCATION_INFORMATION structure contains information about the source media pool from which a medium was taken.
 old-location: fs\ntms_allocation_information.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 6861dcea-7f50-4175-85f1-b59478d6c119
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPNTMS_ALLOCATION_INFORMATION, LPNTMS_ALLOCATION_INFORMATION, LPNTMS_ALLOCATION_INFORMATION structure pointer [Files], NTMS_ALLOCATION_INFORMATION, NTMS_ALLOCATION_INFORMATION structure [Files], _NTMS_ALLOCATION_INFORMATION, _zaw_ntms_allocation_information, base.ntms_allocation_information, fs.ntms_allocation_information, ntmsapi/LPNTMS_ALLOCATION_INFORMATION, ntmsapi/NTMS_ALLOCATION_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTMS_ALLOCATION_INFORMATION, *LPNTMS_ALLOCATION_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTMS_ALLOCATION_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: NTMS_ALLOCATION_INFORMATION, *LPNTMS_ALLOCATION_INFORMATION
+req.redist: 
 ---
 
 # _NTMS_ALLOCATION_INFORMATION structure

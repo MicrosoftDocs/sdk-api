@@ -4,17 +4,16 @@ title: ILog::ReadRecordPrefix
 author: windows-sdk-content
 description: Reads an initial part of a record from the log.
 old-location: com\ilog_readrecordprefix.htm
-old-project: com
+tech.root: com
 ms.assetid: 4a2b8529-b342-4491-a7ce-db4150223682
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ILog interface [COM],ReadRecordPrefix method, ILog.ReadRecordPrefix, ILog::ReadRecordPrefix, ReadRecordPrefix, ReadRecordPrefix method [COM], ReadRecordPrefix method [COM],ILog interface, _com_ilog_readrecordprefix, com.ilog_readrecordprefix, txlogpub/ILog::ReadRecordPrefix
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: txlogpub.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECORD_READING_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILog.ReadRecordPrefix
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ILog::ReadRecordPrefix

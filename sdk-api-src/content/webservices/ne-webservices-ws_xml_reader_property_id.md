@@ -4,17 +4,16 @@ title: WS_XML_READER_PROPERTY_ID
 author: windows-sdk-content
 description: Identifies each XML reader property is and its associated value.
 old-location: wsw\ws_xml_reader_property_id.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: b8d36716-e25a-4215-8bc7-30091b68c0f6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_READER_PROPERTY_ALLOW_FRAGMENT, WS_XML_READER_PROPERTY_ALLOW_INVALID_CHARACTER_REFERENCES, WS_XML_READER_PROPERTY_CHARSET, WS_XML_READER_PROPERTY_COLUMN, WS_XML_READER_PROPERTY_ID, WS_XML_READER_PROPERTY_ID enumeration [Web Services for Windows], WS_XML_READER_PROPERTY_IN_ATTRIBUTE, WS_XML_READER_PROPERTY_MAX_ATTRIBUTES, WS_XML_READER_PROPERTY_MAX_DEPTH, WS_XML_READER_PROPERTY_MAX_MIME_PARTS, WS_XML_READER_PROPERTY_MAX_NAMESPACES, WS_XML_READER_PROPERTY_READ_DECLARATION, WS_XML_READER_PROPERTY_ROW, WS_XML_READER_PROPERTY_STREAM_BUFFER_SIZE, WS_XML_READER_PROPERTY_STREAM_MAX_MIME_HEADERS_SIZE, WS_XML_READER_PROPERTY_STREAM_MAX_ROOT_MIME_PART_SIZE, WS_XML_READER_PROPERTY_UTF8_TRIM_SIZE, webservices/WS_XML_READER_PROPERTY_ALLOW_FRAGMENT, webservices/WS_XML_READER_PROPERTY_ALLOW_INVALID_CHARACTER_REFERENCES, webservices/WS_XML_READER_PROPERTY_CHARSET, webservices/WS_XML_READER_PROPERTY_COLUMN, webservices/WS_XML_READER_PROPERTY_ID, webservices/WS_XML_READER_PROPERTY_IN_ATTRIBUTE, webservices/WS_XML_READER_PROPERTY_MAX_ATTRIBUTES, webservices/WS_XML_READER_PROPERTY_MAX_DEPTH, webservices/WS_XML_READER_PROPERTY_MAX_MIME_PARTS, webservices/WS_XML_READER_PROPERTY_MAX_NAMESPACES, webservices/WS_XML_READER_PROPERTY_READ_DECLARATION, webservices/WS_XML_READER_PROPERTY_ROW, webservices/WS_XML_READER_PROPERTY_STREAM_BUFFER_SIZE, webservices/WS_XML_READER_PROPERTY_STREAM_MAX_MIME_HEADERS_SIZE, webservices/WS_XML_READER_PROPERTY_STREAM_MAX_ROOT_MIME_PART_SIZE, webservices/WS_XML_READER_PROPERTY_UTF8_TRIM_SIZE, wsw.ws_xml_reader_property_id
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_READER_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_READER_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_READER_PROPERTY_ID
+req.redist: 
 ---
 
 # WS_XML_READER_PROPERTY_ID enumeration

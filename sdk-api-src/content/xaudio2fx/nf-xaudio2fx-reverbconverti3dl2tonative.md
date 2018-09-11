@@ -4,17 +4,16 @@ title: ReverbConvertI3DL2ToNative function
 author: windows-sdk-content
 description: Inline function that converts I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) parameters to native XAudio2 parameters.
 old-location: xaudio2\reverbconverti3dl2tonative.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.ReverbConvertI3DL2ToNative(const XAUDIO2FX_REVERB_I3DL2_PARAMETERS,XAUDIO2FX_REVERB_PARAMETERS@)
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ReverbConvertI3DL2ToNative, ReverbConvertI3DL2ToNative function [XAudio2 Audio Mixing APIs], xaudio2.reverbconverti3dl2tonative, xaudio2fx/ReverbConvertI3DL2ToNative
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: xaudio2fx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2_VOICE_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ReverbConvertI3DL2ToNative
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # ReverbConvertI3DL2ToNative function

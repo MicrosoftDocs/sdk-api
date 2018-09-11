@@ -4,17 +4,16 @@ title: D3D10_INFO_QUEUE_FILTER_DESC
 author: windows-sdk-content
 description: Allow or deny certain types of messages to pass through a filter.
 old-location: direct3d10\d3d10_info_queue_filter_desc.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_info_queue_filter_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: D3D10_INFO_QUEUE_FILTER_DESC, D3D10_INFO_QUEUE_FILTER_DESC structure [Direct3D 10], c1c85d13-4bf9-82eb-a98e-d91a114dee29, d3d10sdklayers/D3D10_INFO_QUEUE_FILTER_DESC, direct3d10.d3d10_info_queue_filter_desc
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10sdklayers.h
 req.include-header: D3D10.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_INFO_QUEUE_FILTER_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_INFO_QUEUE_FILTER_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D10_INFO_QUEUE_FILTER_DESC
+req.redist: 
 ---
 
 # D3D10_INFO_QUEUE_FILTER_DESC structure

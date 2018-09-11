@@ -4,7 +4,7 @@ title: JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2
 author: windows-sdk-content
 description: Contains extended information about notification limits for a job object. This structure is used by the SetInformationJobObject and QueryInformationJobObject functions with the JobObjectNotificationLimitInformation2 information class.
 old-location: base\jobobject_notification_limit_information_2.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: AFF8986F-6BC7-4683-99AC-EC82FFA27339
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2
+req.redist: 
 ---
 
 # JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2 structure

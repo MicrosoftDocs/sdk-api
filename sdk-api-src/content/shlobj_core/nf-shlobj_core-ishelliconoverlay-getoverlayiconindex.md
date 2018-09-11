@@ -4,17 +4,16 @@ title: IShellIconOverlay::GetOverlayIconIndex
 author: windows-sdk-content
 description: Gets the index of the icon overlay in the system image list.
 old-location: shell\IShellIconOverlay_GetOverlayIconIndex.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ae7c55a1-8540-44d3-9793-2d6ac849ef60
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetOverlayIconIndex, GetOverlayIconIndex method [Windows Shell], GetOverlayIconIndex method [Windows Shell],IShellIconOverlay interface, IShellIconOverlay interface [Windows Shell],GetOverlayIconIndex method, IShellIconOverlay.GetOverlayIconIndex, IShellIconOverlay::GetOverlayIconIndex, _win32_IShellIconOverlay_GetOverlayIconIndex, shell.IShellIconOverlay_GetOverlayIconIndex, shlobj_core/IShellIconOverlay::GetOverlayIconIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellIconOverlay.GetOverlayIconIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellIconOverlay::GetOverlayIconIndex

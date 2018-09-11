@@ -4,17 +4,16 @@ title: ICertEncodeCRLDistInfo
 author: windows-sdk-content
 description: Provides methods for handling certificate revocation list (CRL) distribution information arrays used in certificate extensions.
 old-location: security\icertencodecrldistinfo.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: e9c0053f-263f-4d7b-9356-bc33af989dbe
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], ICertEncodeCRLDistInfo interface [Security],described, _certsrv_icertencodecrldistinfo, certenc/ICertEncodeCRLDistInfo, security.icertencodecrldistinfo
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertEncodeCRLDistInfo
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeCRLDistInfo interface

@@ -4,17 +4,16 @@ title: IIsdbCAContractInformationDescriptor::GetTag
 author: windows-sdk-content
 description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) conditional access (CA)contract information descriptor.
 old-location: mstv\iisdbcacontractinformationdescriptor_gettag.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f64110eb-1f96-421c-8f32-3d82a5ed4378
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbCAContractInformationDescriptor.GetTag, IIsdbCAContractInformationDescriptor::GetTag, dvbsiparser/IIsdbCAContractInformationDescriptor::GetTag, mstv.iisdbcacontractinformationdescriptor_gettag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbCAContractInformationDescriptor.GetTag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbCAContractInformationDescriptor::GetTag

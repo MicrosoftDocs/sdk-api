@@ -4,7 +4,7 @@ title: "_DDFLIPOVERLAY"
 author: windows-sdk-content
 description: The DDFLIPOVERLAY structure contains the surface information required for the flip.
 old-location: display\ddflipoverlay.htm
-old-project: display
+tech.root: display
 ms.assetid: 455005d8-5713-4188-9bcb-333c7c4f849d
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDFLIPOVERLAY, *LPDDFLIPOVERLAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDFLIPOVERLAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDFLIPOVERLAY, *LPDDFLIPOVERLAY
+req.redist: 
 ---
 
 # _DDFLIPOVERLAY structure

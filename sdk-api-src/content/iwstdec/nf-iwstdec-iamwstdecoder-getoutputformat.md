@@ -4,17 +4,16 @@ title: IAMWstDecoder::GetOutputFormat
 author: windows-sdk-content
 description: Downstream filters use the GetOutputFormat method to retrieve the size, bit depth, and other parameters of the output video.
 old-location: dshow\iamwstdecoder_getoutputformat.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 63ef7dbe-138b-442a-bf54-1f409c969418
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetOutputFormat, GetOutputFormat method [DirectShow], GetOutputFormat method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetOutputFormat method, IAMWstDecoder.GetOutputFormat, IAMWstDecoder::GetOutputFormat, IAMWstDecoderGetOutputFormat, dshow.iamwstdecoder_getoutputformat, iwstdec/IAMWstDecoder::GetOutputFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_WST_STYLE, *PAM_WST_STYLE
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMWstDecoder.GetOutputFormat
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMWstDecoder::GetOutputFormat

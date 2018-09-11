@@ -4,17 +4,16 @@ title: IVPBaseNotify::RenegotiateVPParameters
 author: windows-sdk-content
 description: The RenegotiateVPParameters method initializes the connection to the decoder.
 old-location: dshow\ivpbasenotify_renegotiatevpparameters.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b35a0e8f-3d4f-443d-b76c-83b44745a86d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVPBaseNotify interface [DirectShow],RenegotiateVPParameters method, IVPBaseNotify.RenegotiateVPParameters, IVPBaseNotify::RenegotiateVPParameters, IVPBaseNotifyRenegotiateVPParameters, RenegotiateVPParameters, RenegotiateVPParameters method [DirectShow], RenegotiateVPParameters method [DirectShow],IVPBaseNotify interface, dshow.ivpbasenotify_renegotiatevpparameters, vpnotify/IVPBaseNotify::RenegotiateVPParameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vpnotify.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9VideoStreamInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVPBaseNotify.RenegotiateVPParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVPBaseNotify::RenegotiateVPParameters

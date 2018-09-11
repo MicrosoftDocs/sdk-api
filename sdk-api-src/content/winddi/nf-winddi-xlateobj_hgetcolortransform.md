@@ -4,17 +4,16 @@ title: XLATEOBJ_hGetColorTransform function
 author: windows-sdk-content
 description: The XLATEOBJ_hGetColorTransform function returns the color transform for the specified translation object.
 old-location: display\xlateobj_hgetcolortransform.htm
-old-project: display
+tech.root: display
 ms.assetid: dd109ae8-c368-4e8a-bf25-405ed96484e3
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: XLATEOBJ_hGetColorTransform, XLATEOBJ_hGetColorTransform function [Display Devices], display.xlateobj_hgetcolortransform, gdifncs_6df99fb8-f6ad-4fe8-a140-c004700b9d33.xml, winddi/XLATEOBJ_hGetColorTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XLATEOBJ_hGetColorTransform
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # XLATEOBJ_hGetColorTransform function

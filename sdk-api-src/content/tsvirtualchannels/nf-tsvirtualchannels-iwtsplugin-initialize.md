@@ -4,17 +4,16 @@ title: IWTSPlugin::Initialize
 author: windows-sdk-content
 description: Used for the first call that is made from the client to the plug-in.
 old-location: termserv\iwtsplugin_initialize.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 9216a069-4fd0-4e88-9cfa-050460b49906
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSPlugin interface [Remote Desktop Services],Initialize method, IWTSPlugin.Initialize, IWTSPlugin::Initialize, Initialize, Initialize method [Remote Desktop Services], Initialize method [Remote Desktop Services],IWTSPlugin interface, termserv.iwtsplugin_initialize, tsvirtualchannels/IWTSPlugin::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsvirtualchannels.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSPlugin.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSPlugin::Initialize

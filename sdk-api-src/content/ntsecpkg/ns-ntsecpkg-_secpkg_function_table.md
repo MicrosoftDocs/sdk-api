@@ -4,17 +4,16 @@ title: "_SECPKG_FUNCTION_TABLE"
 author: windows-sdk-content
 description: The SECPKG_FUNCTION_TABLE structure contains pointers to the LSA functions that a security package must implement. The Local Security Authority (LSA) obtains this structure from an SSP/AP DLL when it calls the SpLsaModeInitialize function.
 old-location: security\secpkg_function_table.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 43ca0f9b-1393-48aa-9d9c-4dd19963a66d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSECPKG_FUNCTION_TABLE, PSECPKG_FUNCTION_TABLE, PSECPKG_FUNCTION_TABLE structure pointer [Security], SECPKG_FUNCTION_TABLE, SECPKG_FUNCTION_TABLE structure [Security], _SECPKG_FUNCTION_TABLE, _ssp_secpkg_function_table, ntsecpkg/PSECPKG_FUNCTION_TABLE, ntsecpkg/SECPKG_FUNCTION_TABLE, security.secpkg_function_table"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_FUNCTION_TABLE, *PSECPKG_FUNCTION_TABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_FUNCTION_TABLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_FUNCTION_TABLE, *PSECPKG_FUNCTION_TABLE
+req.redist: 
 ---
 
 # _SECPKG_FUNCTION_TABLE structure

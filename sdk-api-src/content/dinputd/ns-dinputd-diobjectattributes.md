@@ -4,7 +4,7 @@ title: DIOBJECTATTRIBUTES
 author: windows-sdk-content
 description: The DIOBJECTATTRIBUTES structure describes the information contained in the &#0034;Attributes&#0034; value of the registry key for each &#0034;object&#0034; on a device. If the &#0034;Attributes&#0034; value is absent, then default attributes are used.
 old-location: hid\diobjectattributes.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 773bf345-5bdd-4b05-b291-1e844bdb9cf0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIOBJECTATTRIBUTES, *LPDIOBJECTATTRIBUTES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIOBJECTATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIOBJECTATTRIBUTES, *LPDIOBJECTATTRIBUTES
+req.redist: 
 ---
 
 # DIOBJECTATTRIBUTES structure

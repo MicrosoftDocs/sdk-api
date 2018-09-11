@@ -4,17 +4,16 @@ title: RasSetEntryDialParamsA function
 author: windows-sdk-content
 description: The RasSetEntryDialParams function changes the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry.
 old-location: rras\rassetentrydialparams.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: e1acd68e-796e-49a2-8c7d-c0fd1a9764ef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RasSetEntryDialParams, RasSetEntryDialParams function [RAS], RasSetEntryDialParamsA, RasSetEntryDialParamsW, _ras_rassetentrydialparams, dwCallbackId, dwSize, dwSubEntry, ras/RasSetEntryDialParams, ras/RasSetEntryDialParamsA, ras/RasSetEntryDialParamsW, rras.rassetentrydialparams, szCallbackNumber, szDomain, szEntryName, szPassword, szPhoneNumber, szUserName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASPROJECTION_INFO_TYPE
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - RasSetEntryDialParamsW
 product: Windows
 targetos: Windows
-req.lib: Rasapi32.lib
-req.dll: Rasapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasSetEntryDialParamsA function
@@ -67,7 +65,17 @@ The
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
 
 TBD
 

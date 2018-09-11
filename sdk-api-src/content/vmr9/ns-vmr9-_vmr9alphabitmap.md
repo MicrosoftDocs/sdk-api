@@ -4,7 +4,7 @@ title: "_VMR9AlphaBitmap"
 author: windows-sdk-content
 description: The VMR9AlphaBitmap structure is used with the IVMRMixerBitmap9 interface when an application provides a static bitmap for alpha blending with the video frame.
 old-location: dshow\vmr9alphabitmap.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 62214c24-0a4b-43c3-91dc-3eb6e5df3d94
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9AlphaBitmap
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMR9AlphaBitmap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VMR9AlphaBitmap
+req.redist: 
 ---
 
 # _VMR9AlphaBitmap structure

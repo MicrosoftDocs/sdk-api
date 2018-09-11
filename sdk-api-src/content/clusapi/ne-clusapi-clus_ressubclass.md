@@ -4,17 +4,16 @@ title: CLUS_RESSUBCLASS
 author: windows-sdk-content
 description: Identifies a resource subclass that manages a shared resource.
 old-location: mscs\clus_ressubclass.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 2e10a529-a12d-4259-a18a-be96471ab3a5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUS_RESSUBCLASS, CLUS_RESSUBCLASS enumeration [Failover Cluster], CLUS_RESSUBCLASS_SHARED, _CLUS_RESSUBCLASS, _CLUS_RESSUBCLASS enumeration [Failover Cluster], clusapi/CLUS_RESSUBCLASS, clusapi/CLUS_RESSUBCLASS_SHARED, clusapi/_CLUS_RESSUBCLASS, msclus/CLUS_RESSUBCLASS, msclus/CLUS_RESSUBCLASS_SHARED, msclus/_CLUS_RESSUBCLASS, mscs.clus_ressubclass
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: CluAdmEx.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_RESSUBCLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUS_RESSUBCLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_RESSUBCLASS
+req.redist: 
 ---
 
 # CLUS_RESSUBCLASS enumeration

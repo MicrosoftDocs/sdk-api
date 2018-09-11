@@ -4,17 +4,16 @@ title: IFilterMapper::UnregisterFilter
 author: windows-sdk-content
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Removes the registration of this filter from the registry.
 old-location: dshow\ifiltermapper_unregisterfilter.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9b5941d4-d0e7-4f4a-b273-e0fa4a1e1c2e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IFilterMapper interface [DirectShow],UnregisterFilter method, IFilterMapper.UnregisterFilter, IFilterMapper::UnregisterFilter, IFilterMapperUnregisterFilter, UnregisterFilter, UnregisterFilter method [DirectShow], UnregisterFilter method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_unregisterfilter, strmif/IFilterMapper::UnregisterFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFilterMapper.UnregisterFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IFilterMapper::UnregisterFilter

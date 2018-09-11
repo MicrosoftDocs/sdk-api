@@ -4,17 +4,16 @@ title: RevokeDragDrop function
 author: windows-sdk-content
 description: Revokes the registration of the specified application window as a potential target for OLE drag-and-drop operations.
 old-location: com\revokedragdrop.htm
-old-project: com
+tech.root: com
 ms.assetid: c0fa963c-ed06-426c-8ffc-31b02f083a23
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RevokeDragDrop, RevokeDragDrop function [COM], _ole_RevokeDragDrop, com.revokedragdrop, ole2/RevokeDragDrop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - RevokeDragDrop
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RevokeDragDrop function

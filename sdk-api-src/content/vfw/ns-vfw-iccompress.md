@@ -4,7 +4,7 @@ title: ICCOMPRESS
 author: windows-sdk-content
 description: The ICCOMPRESS structure contains compression parameters used with the ICM_COMPRESS message.
 old-location: multimedia\iccompress_struct.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: ba6aec9c-b622-484b-88ce-ff5c659bd6d7
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICCOMPRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICCOMPRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: ICCOMPRESS
+req.redist: 
 ---
 
 # ICCOMPRESS structure

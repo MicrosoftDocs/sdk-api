@@ -4,7 +4,7 @@ title: "_FsrmReportFilter"
 author: windows-sdk-content
 description: Defines the filters that you can use to limit the files that are included in a report.
 old-location: fsrm\fsrmreportfilter.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 6f38ec9a-8876-44ce-9d44-f3982f1880ca
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: FsrmEnums.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmReportFilter
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FsrmReportFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FsrmReportFilter
+req.redist: 
 ---
 
 # _FsrmReportFilter enumeration

@@ -4,17 +4,16 @@ title: IUIAutomationStylesPattern::get_CachedStyleName
 author: windows-sdk-content
 description: Retrieves the cached name of the visual style associated with an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedStyleName.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: FFFD7437-842E-42FC-99A0-27E2EFA9F645
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedStyleName property [Windows Accessibility], CachedStyleName property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CachedStyleName property, IUIAutomationStylesPattern.CachedStyleName, IUIAutomationStylesPattern.get_CachedStyleName, IUIAutomationStylesPattern::CachedStyleName, IUIAutomationStylesPattern::get_CachedStyleName, get_CachedStyleName, uiautomationclient/IUIAutomationStylesPattern::CachedStyleName, uiautomationclient/IUIAutomationStylesPattern::get_CachedStyleName, winauto.uiauto_IUIAutomationStylesPattern_CachedStyleName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationStylesPattern.get_CachedStyleName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationStylesPattern::get_CachedStyleName

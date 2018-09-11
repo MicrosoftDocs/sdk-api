@@ -4,7 +4,7 @@ title: "_TRACE_ENABLE_INFO"
 author: windows-sdk-content
 description: Defines the session and the information that the session used to enable the provider.
 old-location: etw\trace_enable_info.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 999dd102-5937-4b1e-b841-623dddaa0df9
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_ENABLE_INFO, *PTRACE_ENABLE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TRACE_ENABLE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: TRACE_ENABLE_INFO, *PTRACE_ENABLE_INFO
+req.redist: 
 ---
 
 # _TRACE_ENABLE_INFO structure

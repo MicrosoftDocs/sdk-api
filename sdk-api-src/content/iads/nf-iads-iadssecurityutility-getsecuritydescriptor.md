@@ -4,17 +4,16 @@ title: IADsSecurityUtility::GetSecurityDescriptor
 author: windows-sdk-content
 description: Retrieves a security descriptor for the specified file, fileshare, or registry key.
 old-location: adsi\iadssecurityutility_getsecuritydescriptor.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 95f4fbd9-03f8-4f2f-9314-e628186e51a4
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ADS_SD_FORMAT_HEXSTRING, ADS_SD_FORMAT_IID, ADS_SD_FORMAT_RAW, File, File share, GetSecurityDescriptor, GetSecurityDescriptor method [ADSI], GetSecurityDescriptor method [ADSI],IADsSecurityUtility interface, IADsSecurityUtility interface [ADSI],GetSecurityDescriptor method, IADsSecurityUtility.GetSecurityDescriptor, IADsSecurityUtility::GetSecurityDescriptor, Registry key, _ds_iadssecurityutility_getsecuritydescriptor, adsi.iadssecurityutility__getsecuritydescriptor, adsi.iadssecurityutility_getsecuritydescriptor, iads/IADsSecurityUtility::GetSecurityDescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsSecurityUtility.GetSecurityDescriptor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsSecurityUtility::GetSecurityDescriptor

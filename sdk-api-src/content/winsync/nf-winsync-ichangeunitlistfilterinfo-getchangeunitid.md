@@ -4,17 +4,16 @@ title: IChangeUnitListFilterInfo::GetChangeUnitId
 author: windows-sdk-content
 description: Gets the change unit ID that is stored at the specified index in the array of change unit IDs that define the filter.
 old-location: winsync\ichangeunitlistfilterinfo_getchangeunitid.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 67420b58-b3c9-4500-8395-4d176133c142
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetChangeUnitId, GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync],IChangeUnitListFilterInfo interface, IChangeUnitListFilterInfo interface [Windows Sync],GetChangeUnitId method, IChangeUnitListFilterInfo.GetChangeUnitId, IChangeUnitListFilterInfo::GetChangeUnitId, winsync.ichangeunitlistfilterinfo_getchangeunitid, winsync/IChangeUnitListFilterInfo::GetChangeUnitId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IChangeUnitListFilterInfo.GetChangeUnitId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IChangeUnitListFilterInfo::GetChangeUnitId

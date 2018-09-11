@@ -4,17 +4,16 @@ title: ILNext function
 author: windows-sdk-content
 description: Retrieves the next SHITEMID structure in an ITEMIDLIST structure.
 old-location: shell\ILNext_PCUIDLIST_RELATIVE.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9f9650b3-1f0c-413c-bc32-29dd81556ce0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ILNext, ILNext function [Windows Shell], ILNext(PCUIDLIST_RELATIVE), _shell_ILNext_PCUIDLIST_RELATIVE, shell.ILNext_PCUIDLIST_RELATIVE, shlobj_core/ILNext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILNext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ILNext function

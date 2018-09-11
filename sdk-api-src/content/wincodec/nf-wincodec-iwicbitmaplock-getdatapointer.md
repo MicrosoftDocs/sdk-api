@@ -4,17 +4,16 @@ title: IWICBitmapLock::GetDataPointer
 author: windows-sdk-content
 description: Gets the pointer to the top left pixel in the locked rectangle.
 old-location: wic\_wic_codec_iwicbitmaplock_getdatapointer.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 1fae52ae-b410-48f3-be46-624792f96874
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDataPointer, GetDataPointer method [Windows Imaging Component], GetDataPointer method [Windows Imaging Component],IWICBitmapLock interface, IWICBitmapLock interface [Windows Imaging Component],GetDataPointer method, IWICBitmapLock.GetDataPointer, IWICBitmapLock::GetDataPointer, _wic_codec_iwicbitmaplock_getdatapointer, wic._wic_codec_iwicbitmaplock_getdatapointer, wincodec/IWICBitmapLock::GetDataPointer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapLock.GetDataPointer
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapLock::GetDataPointer

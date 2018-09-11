@@ -4,7 +4,7 @@ title: PAC_CHANGES_CALLBACK_FN
 author: windows-sdk-content
 description: Used to add custom behavior to the app container change notification process.
 old-location: ics\pac_changes_callback_fn.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 7a2afc36-c250-4eb1-9853-d79def85bb67
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: networkisolation.h
 req.include-header: Netfw.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TAG_TYPE, *PTAG_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PAC_CHANGES_CALLBACK_FN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # PAC_CHANGES_CALLBACK_FN callback function

@@ -4,17 +4,16 @@ title: ITfReverseConversionList::GetString
 author: windows-sdk-content
 description: Retrieves the keystroke sequence at the specified index.
 old-location: tsf\itfreverseconversionlist_getstring.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 5a8cc79f-d348-4fe8-b005-aeabd6db43c5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfReverseConversionList interface, ITfReverseConversionList interface [Text Services Framework],GetString method, ITfReverseConversionList.GetString, ITfReverseConversionList::GetString, msctf/ITfReverseConversionList::GetString, tsf.itfreverseconversionlist_getstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfReverseConversionList.GetString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ITfReverseConversionList::GetString

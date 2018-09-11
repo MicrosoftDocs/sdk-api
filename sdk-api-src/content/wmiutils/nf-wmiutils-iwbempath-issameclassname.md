@@ -4,17 +4,16 @@ title: IWbemPath::IsSameClassName
 author: windows-sdk-content
 description: The IWbemPath::IsSameClassName method tests whether the class name passed in matches the one in the path. The method can return TRUE only if the path actually has a class name.
 old-location: wmi\iwbempath_issameclassname.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 7e0a907e-49d1-4775-885f-f059bb398804
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],IsSameClassName method, IWbemPath.IsSameClassName, IWbemPath::IsSameClassName, IsSameClassName, IsSameClassName method [Windows Management Instrumentation], IsSameClassName method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_issameclassname, wmi.iwbempath_issameclassname, wmiutils/IWbemPath::IsSameClassName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMIQ_ASSOCQ_FLAGS
+req.lib: Wbemuuid.lib
+req.dll: Wmiutils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemPath.IsSameClassName
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmiutils.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemPath::IsSameClassName

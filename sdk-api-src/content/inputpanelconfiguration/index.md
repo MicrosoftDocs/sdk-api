@@ -2,7 +2,7 @@
 UID: NA:inputpanelconfiguration
 ms.assetid: a32bbe8b-a5c3-3c60-9671-b7aebaac7486
 ms.author: windowssdkdev
-ms.date: 08/23/2018
+ms.date: 09/10/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,7 +4,7 @@ title: "_MFP_MEDIAITEM_CHARACTERISTICS"
 author: windows-sdk-content
 description: Contains flags that describe a media item.
 old-location: mf\_mfp_mediaitem_characteristics.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7bbb45e6-717d-413c-95fd-db730ab960ff
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mfplay.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _MFP_MEDIAITEM_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.redist: 
 ---
 
 # _MFP_MEDIAITEM_CHARACTERISTICS enumeration

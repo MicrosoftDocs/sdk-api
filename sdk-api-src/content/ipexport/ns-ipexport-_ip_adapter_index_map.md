@@ -4,7 +4,7 @@ title: "_IP_ADAPTER_INDEX_MAP"
 author: windows-sdk-content
 description: The IP_ADAPTER_INDEX_MAP structure stores the interface index associated with a network adapter with IPv4 enabled together with the name of the network adapter.
 old-location: iphlp\ip_adapter_index_map.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 83d95ef3-13a4-4124-84cd-3016e9fb4446
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_ADAPTER_INDEX_MAP, *PIP_ADAPTER_INDEX_MAP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IP_ADAPTER_INDEX_MAP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IP_ADAPTER_INDEX_MAP, *PIP_ADAPTER_INDEX_MAP
+req.redist: 
 ---
 
 # _IP_ADAPTER_INDEX_MAP structure

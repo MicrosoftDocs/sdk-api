@@ -4,17 +4,16 @@ title: WSMAN_PLUGIN_COMMAND
 author: windows-sdk-content
 description: Defines the command callback for a plug-in.
 old-location: winrm\wsman_plugin_command.htm
-old-project: winrm
+tech.root: WinRM
 ms.assetid: df4b4e7b-cf30-4eb0-b646-49b17c883a16
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSMAN_PLUGIN_COMMAND, WSMAN_PLUGIN_COMMAND callback, WSMAN_PLUGIN_COMMAND callback function [Windows Remote Management], WSManPluginCommand, winrm.wsman_plugin_command, wsman/WSMAN_PLUGIN_COMMAND
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: wsman.h
 req.include-header: 
-req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSL_DISTRIBUTION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSMAN_PLUGIN_COMMAND
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 ---
 
 # WSMAN_PLUGIN_COMMAND callback function

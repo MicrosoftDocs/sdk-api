@@ -4,17 +4,16 @@ title: "_CRYPT_PROVIDER_SIGSTATE"
 author: windows-sdk-content
 description: Is used to communicate between policy providers and Wintrust.
 old-location: security\crypt_provider_sigstate.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: B362A161-6B92-41B0-AE81-337EB42502D8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_PROVIDER_SIGSTATE, CRYPT_PROVIDER_SIGSTATE, CRYPT_PROVIDER_SIGSTATE structure [Security], PCRYPT_PROVIDER_SIGSTATE, PCRYPT_PROVIDER_SIGSTATE structure pointer [Security], _CRYPT_PROVIDER_SIGSTATE, security.crypt_provider_sigstate, wintrust/CRYPT_PROVIDER_SIGSTATE, wintrust/PCRYPT_PROVIDER_SIGSTATE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_PROVIDER_SIGSTATE, *PCRYPT_PROVIDER_SIGSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_PROVIDER_SIGSTATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: CRYPT_PROVIDER_SIGSTATE, *PCRYPT_PROVIDER_SIGSTATE
+req.redist: 
 ---
 
 # _CRYPT_PROVIDER_SIGSTATE structure

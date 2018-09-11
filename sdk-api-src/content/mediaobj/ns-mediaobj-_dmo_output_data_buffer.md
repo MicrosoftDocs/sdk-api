@@ -4,7 +4,7 @@ title: "_DMO_OUTPUT_DATA_BUFFER"
 author: windows-sdk-content
 description: The DMO_OUTPUT_DATA_BUFFER structure describes an output buffer used by a Microsoft DirectX Media Object (DMO).
 old-location: dshow\dmo_output_data_buffer.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 87fa2000-8dab-4f30-940a-14fb6699f616
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mediaobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_OUTPUT_DATA_BUFFER, *PDMO_OUTPUT_DATA_BUFFER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DMO_OUTPUT_DATA_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DMO_OUTPUT_DATA_BUFFER, *PDMO_OUTPUT_DATA_BUFFER
+req.redist: 
 ---
 
 # _DMO_OUTPUT_DATA_BUFFER structure

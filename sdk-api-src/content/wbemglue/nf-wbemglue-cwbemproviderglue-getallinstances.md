@@ -4,17 +4,16 @@ title: CWbemProviderGlue::GetAllInstances
 author: windows-sdk-content
 description: The GetAllInstances method retrieves a list of instances returned by a specific class.
 old-location: wmi\cwbemproviderglue_getallinstances.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 510d0711-ee82-4270-a7e3-f6bb214716a0
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?GetAllInstances@CWbemProviderGlue@@SGJPBGPAV?$TRefPointerCollection@VCInstance@@@@0PAVMethodContext@@@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetAllInstances method, CWbemProviderGlue.GetAllInstances, CWbemProviderGlue::GetAllInstances, GetAllInstances, GetAllInstances method [Windows Management Instrumentation], GetAllInstances method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getallinstances, wbemglue/CWbemProviderGlue::GetAllInstances, wmi.cwbemproviderglue_getallinstances"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ?GetAllInstances@CWbemProviderGlue@@SGJPBGPAV?$TRefPointerCollection@VCInstance@@@@0PAVMethodContext@@@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CWbemProviderGlue::GetAllInstances

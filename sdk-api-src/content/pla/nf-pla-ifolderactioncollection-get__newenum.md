@@ -4,17 +4,16 @@ title: IFolderActionCollection::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\ifolderactioncollection__newenum.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 92b13b4f-31bd-42c7-9aed-02cef9ca38f3
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IFolderActionCollection interface [PLA],_NewEnum property, IFolderActionCollection._NewEnum, IFolderActionCollection.get__NewEnum, IFolderActionCollection::_NewEnum, IFolderActionCollection::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA],IFolderActionCollection interface, base.ifolderactioncollection__newenum, get__NewEnum, pla.ifolderactioncollection__newenum, pla/IFolderActionCollection::_NewEnum, pla/IFolderActionCollection::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFolderActionCollection.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderActionCollection::get__NewEnum

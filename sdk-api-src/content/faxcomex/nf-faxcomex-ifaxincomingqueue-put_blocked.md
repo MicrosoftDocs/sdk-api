@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxIncomingQueue.put_Blocked
 title: IFaxIncomingQueue::put_Blocked
 author: windows-sdk-content
 description: The Blocked property is a Boolean value that indicates whether the job queue for incoming faxes is blocked.
-old-location: fax\_mfax_faxincomingqueue_blocked_vb.htm
-old-project: Fax
+old-location: fax\_mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_blocked_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2rac.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Blocked property [Fax Service], Blocked property [Fax Service],FaxIncomingQueue object, FaxIncomingQueue object [Fax Service],Blocked property, FaxIncomingQueue.Blocked, IFaxIncomingQueue.put_Blocked, IFaxIncomingQueue::put_Blocked, _mfax_faxincomingqueue.blocked, fax._mfax_faxincomingqueue_blocked, fax._mfax_faxincomingqueue_blocked_vb, put_Blocked
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Blocked property [Fax Service], Blocked property [Fax Service],IFaxIncomingQueue interface, IFaxIncomingQueue interface [Fax Service],Blocked property, IFaxIncomingQueue.Blocked, IFaxIncomingQueue.put_Blocked, IFaxIncomingQueue::Blocked, IFaxIncomingQueue::get_Blocked, IFaxIncomingQueue::put_Blocked, _mfax_faxincomingqueue.blocked, fax._mfax_faxincomingqueue_blocked, fax._mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_blocked_cpp, faxcomex/IFaxIncomingQueue::Blocked, faxcomex/IFaxIncomingQueue::get_Blocked, faxcomex/IFaxIncomingQueue::put_Blocked, put_Blocked
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxIncomingQueue.Blocked
+ - IFaxIncomingQueue.Blocked
+ - IFaxIncomingQueue.get_Blocked
+ - IFaxIncomingQueue.put_Blocked
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxIncomingQueue::put_Blocked
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-If this property is equal to <b>True</b>, the inbound job queue is blocked and the fax service is not answering incoming fax calls. If this property is equal to <b>False</b>, the queue is not blocked.
+If this property is equal to <b>TRUE</b>, the inbound job queue is blocked and the fax service is not answering incoming fax calls. If this property is equal to <b>FALSE</b>, the queue is not blocked.
 
 
 

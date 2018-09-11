@@ -4,17 +4,16 @@ title: IRdcLibrary::CreateSignatureReader
 author: windows-sdk-content
 description: Creates a signature reader to allow an application to decode the contents of a signature file.
 old-location: rdc\irdclibrary_createsignaturereader.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 08627c9d-7470-47ab-9209-32734082c393
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: CreateSignatureReader, CreateSignatureReader method [Remote Differential Compression], CreateSignatureReader method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateSignatureReader method, IRdcLibrary.CreateSignatureReader, IRdcLibrary::CreateSignatureReader, fs.irdclibrary_createsignaturereader, msrdc/IRdcLibrary::CreateSignatureReader, rdc.irdclibrary_createsignaturereader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsRdc.dll
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcLibrary.CreateSignatureReader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcLibrary::CreateSignatureReader

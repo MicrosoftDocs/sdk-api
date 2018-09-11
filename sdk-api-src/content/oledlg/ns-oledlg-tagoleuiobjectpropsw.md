@@ -4,17 +4,16 @@ title: tagOLEUIOBJECTPROPSW
 author: windows-sdk-content
 description: Contains information that is used to initialize the standard Object Properties dialog box.
 old-location: com\oleuiobjectprops_struct.htm
-old-project: com
+tech.root: com
 ms.assetid: 7a6216d6-061f-48c3-8e3f-5f3e5a63ffb3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPOLEUIOBJECTPROPSW, *POLEUIOBJECTPROPSW, LPOLEUIOBJECTPROPS, LPOLEUIOBJECTPROPS structure pointer [COM], OLEUIOBJECTPROPS, OLEUIOBJECTPROPS structure [COM], OLEUIOBJECTPROPSA, OLEUIOBJECTPROPSW, OPF_DISABLECONVERT, OPF_NOFILLDEFAULT, OPF_OBJECTISLINK, OPF_SHOWHELP, POLEUIOBJECTPROPS, POLEUIOBJECTPROPS structure pointer [COM], _ole_OLEUIOBJECTPROPS, com.oleuiobjectprops_struct, oledlg/LPOLEUIOBJECTPROPS, oledlg/OLEUIOBJECTPROPS, oledlg/OLEUIOBJECTPROPSA, oledlg/OLEUIOBJECTPROPSW, oledlg/POLEUIOBJECTPROPS, tagOLEUIOBJECTPROPSW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIOBJECTPROPSW, *POLEUIOBJECTPROPSW, *LPOLEUIOBJECTPROPSW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OLEUIOBJECTPROPSW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OLEUIOBJECTPROPSW, *POLEUIOBJECTPROPSW, *LPOLEUIOBJECTPROPSW
+req.redist: 
 ---
 
 # tagOLEUIOBJECTPROPSW structure

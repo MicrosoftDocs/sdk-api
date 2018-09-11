@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSource::get_Start
 author: windows-sdk-content
 description: The get_Start method retrieves the start time.
 old-location: mstv\imsvidstreambuffersource_get_start.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 4c6ad8b7-93d9-46de-b84a-a4575f3e6183
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],get_Start method, IMSVidStreamBufferSource.get_Start, IMSVidStreamBufferSource::get_Start, IMSVidStreamBufferSourceget_Start, get_Start, get_Start method [Microsoft TV Technologies], get_Start method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_get_start, segment/IMSVidStreamBufferSource::get_Start
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSource.get_Start
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSource::get_Start

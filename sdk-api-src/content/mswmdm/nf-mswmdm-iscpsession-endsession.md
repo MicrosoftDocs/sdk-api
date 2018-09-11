@@ -4,17 +4,16 @@ title: ISCPSession::EndSession
 author: windows-sdk-content
 description: The EndSession method indicates the ending of a transfer session.
 old-location: wmdm\iscpsession_endsession.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 322794ae-f8cd-4e2d-a329-728d281755cd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: EndSession, EndSession method [windows Media Device Manager], EndSession method [windows Media Device Manager],ISCPSession interface, ISCPSession interface [windows Media Device Manager],EndSession method, ISCPSession.EndSession, ISCPSession::EndSession, ISCPSessionEndSession, mswmdm/ISCPSession::EndSession, wmdm.iscpsession_endsession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISCPSession.EndSession
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISCPSession::EndSession

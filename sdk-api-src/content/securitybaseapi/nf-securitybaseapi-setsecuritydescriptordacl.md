@@ -4,17 +4,16 @@ title: SetSecurityDescriptorDacl function
 author: windows-sdk-content
 description: Sets information in a discretionary access control list (DACL). If a DACL is already present in the security descriptor, the DACL is replaced.
 old-location: security\setsecuritydescriptordacl.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: a873b803-391e-47e1-af7e-6dad7195968c
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: SetSecurityDescriptorDacl, SetSecurityDescriptorDacl function [Security], _win32_setsecuritydescriptordacl, security.setsecuritydescriptordacl, securitybaseapi/SetSecurityDescriptorDacl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - SetSecurityDescriptorDacl
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetSecurityDescriptorDacl function

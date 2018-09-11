@@ -4,7 +4,7 @@ title: STARTING_VCN_INPUT_BUFFER
 author: windows-sdk-content
 description: Contains the starting VCN to the FSCTL_GET_RETRIEVAL_POINTERS control code.
 old-location: fs\starting_vcn_input_buffer_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: b07668f9-b984-41cc-9545-8f4f9bff3682
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STARTING_VCN_INPUT_BUFFER, *PSTARTING_VCN_INPUT_BUFFER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STARTING_VCN_INPUT_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STARTING_VCN_INPUT_BUFFER, *PSTARTING_VCN_INPUT_BUFFER
+req.redist: 
 ---
 
 # STARTING_VCN_INPUT_BUFFER structure

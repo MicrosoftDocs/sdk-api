@@ -4,17 +4,16 @@ title: "_BCRYPT_PROVIDER_NAME"
 author: windows-sdk-content
 description: Contains the name of a CNG provider.
 old-location: security\bcrypt_provider_name_struct.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 0c57aa3f-1d9a-4bb2-b142-bce9c054e658
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCRYPT_PROVIDER_NAME, BCRYPT_PROVIDER_NAME structure [Security], _BCRYPT_PROVIDER_NAME, bcrypt/BCRYPT_PROVIDER_NAME, security.bcrypt_provider_name_struct
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_PROVIDER_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_PROVIDER_NAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_PROVIDER_NAME
+req.redist: 
 ---
 
 # _BCRYPT_PROVIDER_NAME structure

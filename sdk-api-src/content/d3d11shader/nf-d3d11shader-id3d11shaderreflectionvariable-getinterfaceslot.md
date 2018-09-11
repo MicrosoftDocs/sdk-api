@@ -4,17 +4,16 @@ title: ID3D11ShaderReflectionVariable::GetInterfaceSlot
 author: windows-sdk-content
 description: Gets the corresponding interface slot for a variable that represents an interface pointer.
 old-location: direct3d11\id3d11shaderreflectionvariable_getinterfaceslot.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: f3b62396-0747-4396-ba86-9d50bfa8b529
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetInterfaceSlot, GetInterfaceSlot method [Direct3D 11], GetInterfaceSlot method [Direct3D 11],ID3D11ShaderReflectionVariable interface, ID3D11ShaderReflectionVariable interface [Direct3D 11],GetInterfaceSlot method, ID3D11ShaderReflectionVariable.GetInterfaceSlot, ID3D11ShaderReflectionVariable::GetInterfaceSlot, b13015c6-721f-9155-57ca-42f52d0e5885, d3d11shader/ID3D11ShaderReflectionVariable::GetInterfaceSlot, direct3d11.id3d11shaderreflectionvariable_getinterfaceslot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_VERSION_TYPE
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11ShaderReflectionVariable.GetInterfaceSlot
 product: Windows
 targetos: Windows
-req.lib: D3DCompiler.lib
-req.dll: D3DCompiler_47.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11ShaderReflectionVariable::GetInterfaceSlot

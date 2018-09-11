@@ -4,7 +4,7 @@ title: "_FsrmPropertyDefinitionFlags"
 author: windows-sdk-content
 description: Flags the describe the type of classification property.
 old-location: fsrm\fsrmpropertydefinitionflags.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: a31f2401-affa-438b-a484-7b70ea6e9181
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmPropertyDefinitionFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FsrmPropertyDefinitionFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FsrmPropertyDefinitionFlags
+req.redist: 
 ---
 
 # _FsrmPropertyDefinitionFlags enumeration

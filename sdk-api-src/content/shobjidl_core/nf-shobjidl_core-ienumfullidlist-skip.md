@@ -4,17 +4,16 @@ title: IEnumFullIDList::Skip
 author: windows-sdk-content
 description: Skips a specified number of IDLIST_ABSOLUTE items.
 old-location: shell\IEnumFullIDList_Skip.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f47bdab1-57be-4f40-a142-ad5edcf6fbfd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IEnumFullIDList interface [Windows Shell],Skip method, IEnumFullIDList.Skip, IEnumFullIDList::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumFullIDList interface, _shell_IEnumFullIDList_Skip, shell.IEnumFullIDList_Skip, shobjidl_core/IEnumFullIDList::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumFullIDList.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumFullIDList::Skip

@@ -4,17 +4,16 @@ title: IGPMMigrationTable::AddEntry
 author: windows-sdk-content
 description: Creates an entry in the migration table. The method updates an existing entry.
 old-location: gpmc\igpmmigrationtable_addentry.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 2e6f6b81-b01c-4d46-9b7b-3265580f112a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: AddEntry, AddEntry method [GPMC], AddEntry method [GPMC],GPMMigrationTable class, AddEntry method [GPMC],IGPMMigrationTable interface, GPMMigrationTable class [GPMC],AddEntry method, IGPMMigrationTable interface [GPMC],AddEntry method, IGPMMigrationTable.AddEntry, IGPMMigrationTable::AddEntry, gpmc.igpmmigrationtable_addentry, gpmgmt/IGPMMigrationTable::AddEntry, typeComputer, typeGlobalGroup, typeLocalGroup, typeUNCPath, typeUniversalGroup, typeUnknown, typeUser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMMigrationTable.AddEntry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMMigrationTable::AddEntry

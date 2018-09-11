@@ -4,17 +4,16 @@ title: IMSVidStreamBufferRecordingControl::put_StopTime
 author: windows-sdk-content
 description: The put_StopTime method sets the stop time for the recording.
 old-location: mstv\imsvidstreambufferrecordingcontrol_put_stoptime.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 5ff338e8-4b91-4947-9ec6-fe35a3fcad3f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],put_StopTime method, IMSVidStreamBufferRecordingControl.put_StopTime, IMSVidStreamBufferRecordingControl::put_StopTime, IMSVidStreamBufferRecordingControlput_StopTime, mstv.imsvidstreambufferrecordingcontrol_put_stoptime, put_StopTime, put_StopTime method [Microsoft TV Technologies], put_StopTime method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, segment/IMSVidStreamBufferRecordingControl::put_StopTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferRecordingControl.put_StopTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferRecordingControl::put_StopTime
@@ -62,7 +60,7 @@ The <b>put_StopTime</b> method sets the stop time for the recording.
 
 ### -param rtStop
 
-
+TBD
 
 
 

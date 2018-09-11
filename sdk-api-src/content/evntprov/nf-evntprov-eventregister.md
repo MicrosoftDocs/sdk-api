@@ -4,17 +4,16 @@ title: EventRegister function
 author: windows-sdk-content
 description: Registers the provider.
 old-location: etw\eventregister_func.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 6025c3a6-7d88-49dc-bbc3-655c172dde3c
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: EventRegister, EventRegister function [ETW], base.eventregister_func, etw.eventregister_func, evntprov/EventRegister
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - EventRegister
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EventRegister function

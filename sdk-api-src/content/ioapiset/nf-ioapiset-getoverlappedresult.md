@@ -4,17 +4,16 @@ title: GetOverlappedResult function
 author: windows-sdk-content
 description: Retrieves the results of an overlapped operation on the specified file, named pipe, or communications device.
 old-location: base\getoverlappedresult.htm
-old-project: sync
+tech.root: Sync
 ms.assetid: 7f999959-9b22-4491-ae2b-a2674d821110
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: GetOverlappedResult, GetOverlappedResult function, _win32_getoverlappedresult, base.getoverlappedresult, ioapiset/GetOverlappedResult, winbase/GetOverlappedResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ioapiset.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URLASSOCIATIONDIALOG_IN_FLAGS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - GetOverlappedResult
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetOverlappedResult function

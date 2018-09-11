@@ -4,17 +4,16 @@ title: IMFVideoMixerControl::GetStreamOutputRect
 author: windows-sdk-content
 description: Retrieves the position of a video stream within the composition rectangle.
 old-location: mf\imfvideomixercontrol_getstreamoutputrect.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6de631cd-f85e-4f53-b14c-8ca3cd65b719
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 6de631cd-f85e-4f53-b14c-8ca3cd65b719, GetStreamOutputRect, GetStreamOutputRect method [Media Foundation], GetStreamOutputRect method [Media Foundation],IMFVideoMixerControl interface, IMFVideoMixerControl interface [Media Foundation],GetStreamOutputRect method, IMFVideoMixerControl.GetStreamOutputRect, IMFVideoMixerControl::GetStreamOutputRect, evr/IMFVideoMixerControl::GetStreamOutputRect, mf.imfvideomixercontrol_getstreamoutputrect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoMixerControl.GetStreamOutputRect
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoMixerControl::GetStreamOutputRect

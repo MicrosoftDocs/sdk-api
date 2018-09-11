@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSourceEvent::RatingsBlocked
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_ratingsblocked.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1d5e510e-9629-4249-a704-b7a995d27edf
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],RatingsBlocked method, IMSVidStreamBufferSourceEvent.RatingsBlocked, IMSVidStreamBufferSourceEvent::RatingsBlocked, IMSVidStreamBufferSourceEventRatingsBlocked, RatingsBlocked, RatingsBlocked method [Microsoft TV Technologies], RatingsBlocked method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_ratingsblocked, segment/IMSVidStreamBufferSourceEvent::RatingsBlocked
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSourceEvent.RatingsBlocked
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSourceEvent::RatingsBlocked

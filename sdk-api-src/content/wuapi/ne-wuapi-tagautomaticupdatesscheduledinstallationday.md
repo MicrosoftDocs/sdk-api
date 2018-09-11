@@ -4,7 +4,7 @@ title: tagAutomaticUpdatesScheduledInstallationDay
 author: windows-sdk-content
 description: Defines the days of the week when Automatic Updates installs or uninstalls updates.
 old-location: wua\automaticupdatesscheduledinstallationday.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 8c7525bf-e15f-4c30-8e16-4b945d73f3cb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AutomaticUpdatesScheduledInstallationDay
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AutomaticUpdatesScheduledInstallationDay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: AutomaticUpdatesScheduledInstallationDay
+req.redist: 
 ---
 
 # tagAutomaticUpdatesScheduledInstallationDay enumeration

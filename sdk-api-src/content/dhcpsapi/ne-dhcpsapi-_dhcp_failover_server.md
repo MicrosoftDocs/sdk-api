@@ -4,7 +4,7 @@ title: "_DHCP_FAILOVER_SERVER"
 author: windows-sdk-content
 description: The DHCP_FAILOVER_SERVER enumeration defines whether the DHCP server is the primary or secondary server in a DHCPv4 failover relationship.
 old-location: dhcp\dhcp_failover_server.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: a75a1132-3c49-44f1-a1f6-c98991ebb8c4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_FAILOVER_SERVER, *LPDHCP_FAILOVER_SERVER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_FAILOVER_SERVER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_FAILOVER_SERVER, *LPDHCP_FAILOVER_SERVER
+req.redist: 
 ---
 
 # _DHCP_FAILOVER_SERVER enumeration

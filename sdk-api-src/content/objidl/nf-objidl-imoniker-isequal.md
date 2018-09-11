@@ -4,17 +4,16 @@ title: IMoniker::IsEqual
 author: windows-sdk-content
 description: Determines whether this moniker is identical to the specified moniker.
 old-location: com\imoniker_isequal.htm
-old-project: com
+tech.root: com
 ms.assetid: 0092e93e-d87d-4b3e-b8e1-40eeaf04c43b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMoniker interface [COM],IsEqual method, IMoniker.IsEqual, IMoniker::IsEqual, IsEqual, IsEqual method [COM], IsEqual method [COM],IMoniker interface, _com_imoniker_isequal, com.imoniker_isequal, objidl/IMoniker::IsEqual
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMoniker.IsEqual
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMoniker::IsEqual

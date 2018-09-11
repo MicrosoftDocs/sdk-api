@@ -4,17 +4,16 @@ title: DrawDibDraw function
 author: windows-sdk-content
 description: The DrawDibDraw function draws a DIB to the screen.
 old-location: multimedia\drawdibdraw.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: b503fcd8-e928-4b3c-9ff5-96b88c5fb2f4
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: DrawDibDraw, DrawDibDraw function [Windows Multimedia], _win32_DrawDibDraw, multimedia.drawdibdraw, vfw/DrawDibDraw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Msvfw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrawDibDraw
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Msvfw32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # DrawDibDraw function

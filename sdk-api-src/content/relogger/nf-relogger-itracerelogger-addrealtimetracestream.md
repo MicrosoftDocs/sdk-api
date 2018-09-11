@@ -4,17 +4,16 @@ title: ITraceRelogger::AddRealtimeTraceStream
 author: windows-sdk-content
 description: Adds a new real-time ETW trace stream to the relogger.
 old-location: etw\itracerelogger_addrealtimetracestream.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 68bb5715-49b8-45bc-ae98-0b4a519c8e62
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: AddRealtimeTraceStream, AddRealtimeTraceStream method [ETW], AddRealtimeTraceStream method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],AddRealtimeTraceStream method, ITraceRelogger.AddRealtimeTraceStream, ITraceRelogger::AddRealtimeTraceStream, etw.itracerelogger_addrealtimetracestream, relogger/ITraceRelogger::AddRealtimeTraceStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITraceRelogger.AddRealtimeTraceStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceRelogger::AddRealtimeTraceStream

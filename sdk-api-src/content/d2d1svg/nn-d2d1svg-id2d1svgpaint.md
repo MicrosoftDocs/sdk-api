@@ -4,7 +4,7 @@ title: ID2D1SvgPaint
 author: windows-sdk-content
 description: Interface describing an SVG fill or stroke value.
 old-location: direct2d\id2d1svgpaint.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 80FE02F1-D83B-4AA1-94F1-B754106CB19D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgPaint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgPaint interface

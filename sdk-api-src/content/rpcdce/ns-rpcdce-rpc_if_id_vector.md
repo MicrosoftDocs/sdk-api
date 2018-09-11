@@ -4,17 +4,16 @@ title: RPC_IF_ID_VECTOR
 author: windows-sdk-content
 description: The RPC_IF_ID_VECTOR structure contains a list of interfaces offered by a server.
 old-location: rpc\rpc_if_id_vector.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 0bbef807-9eba-496b-be1c-4e48be7cc713
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RPC_IF_ID_VECTOR, RPC_IF_ID_VECTOR structure [RPC], _rpc_rpc_if_id_vector, rpc.rpc_if_id_vector, rpcdce/RPC_IF_ID_VECTOR
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_IF_ID_VECTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_IF_ID_VECTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_IF_ID_VECTOR
+req.redist: 
 ---
 
 # RPC_IF_ID_VECTOR structure

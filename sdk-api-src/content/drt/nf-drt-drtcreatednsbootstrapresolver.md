@@ -4,17 +4,16 @@ title: DrtCreateDnsBootstrapResolver function
 author: windows-sdk-content
 description: The DrtCreateDnsBootstrapResolver function creates a bootstrap resolver that will use the GetAddrInfo system function to resolve the hostname of a will known node already present in the DRT mesh.
 old-location: p2p\drtcreatednsbootstrapresolver.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: d4a92dd3-d66a-4c27-9180-f9c148735a4a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrtCreateDnsBootstrapResolver, DrtCreateDnsBootstrapResolver function [Distributed Routing Tables], drt/DrtCreateDnsBootstrapResolver, p2p.drtcreatednsbootstrapresolver
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+req.lib: Drtprov.lib
+req.dll: Drt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DrtCreateDnsBootstrapResolver
 product: Windows
 targetos: Windows
-req.lib: Drtprov.lib
-req.dll: Drt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DrtCreateDnsBootstrapResolver function

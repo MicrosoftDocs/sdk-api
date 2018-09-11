@@ -4,17 +4,16 @@ title: IPerChannelDbLevel::SetLevelUniform
 author: windows-sdk-content
 description: The SetLevelUniform method sets all channels in the audio stream to the same uniform volume level, in decibels.
 old-location: coreaudio\iperchanneldblevel_setleveluniform.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: b78bebcb-d32b-4eda-a805-35d4459b6b4f
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IPerChannelDbLevel interface [Core Audio],SetLevelUniform method, IPerChannelDbLevel.SetLevelUniform, IPerChannelDbLevel::SetLevelUniform, IPerChannelDbLevelSetLevelUniform, SetLevelUniform, SetLevelUniform method [Core Audio], SetLevelUniform method [Core Audio],IPerChannelDbLevel interface, coreaudio.iperchanneldblevel_setleveluniform, devicetopology/IPerChannelDbLevel::SetLevelUniform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPerChannelDbLevel.SetLevelUniform
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPerChannelDbLevel::SetLevelUniform

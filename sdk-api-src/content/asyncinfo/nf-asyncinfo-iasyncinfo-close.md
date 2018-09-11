@@ -4,17 +4,16 @@ title: IAsyncInfo::Close
 author: windows-sdk-content
 description: Closes the asynchronous work object.
 old-location: winrt\iasyncinfo_close.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 1c357343-79cf-4808-8e41-f898dfdb99f6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Close, Close method [Windows Runtime], Close method [Windows Runtime],IAsyncInfo interface, IAsyncInfo interface [Windows Runtime],Close method, IAsyncInfo.Close, IAsyncInfo::Close, asyncinfo/IAsyncInfo::Close, winrt.iasyncinfo_close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: asyncinfo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAsyncInfo.Close
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAsyncInfo::Close

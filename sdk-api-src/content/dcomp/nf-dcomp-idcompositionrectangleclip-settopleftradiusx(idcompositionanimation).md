@@ -4,17 +4,16 @@ title: IDCompositionRectangleClip::SetTopLeftRadiusX(IDCompositionAnimation)
 author: windows-sdk-content
 description: Changes or animates the value of the TopLeftRadiusX property of this clip. The TopLeftRadiusX property specifies the x radius of the ellipse that rounds the top-left corner of the clip.
 old-location: directcomp\idcompositionrectangleclip_settopleftradiusx.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 75168197-FA76-4B57-AF24-C92DF2602985
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionRectangleClip.SetTopLeftRadiusX, IDCompositionRectangleClip.SetTopLeftRadiusX(IDCompositionAnimation), IDCompositionRectangleClip::SetTopLeftRadiusX, IDCompositionRectangleClip::SetTopLeftRadiusX(IDCompositionAnimation), SetTopLeftRadiusX, SetTopLeftRadiusX methods [DirectComposition], dcomp/SetTopLeftRadiusX, directcomp.idcompositionrectangleclip_settopleftradiusx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionRectangleClip::SetTopLeftRadiusX
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionRectangleClip::SetTopLeftRadiusX(IDCompositionAnimation)

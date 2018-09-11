@@ -4,7 +4,7 @@ title: D3D11_TEX2D_VPOV
 author: windows-sdk-content
 description: Identifies a texture resource for a video processor output view.
 old-location: mf\d3d11_tex2d_vpov.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: DFABFB34-2622-4AB7-A87E-7E15F4D20E69
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_TEX2D_VPOV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_TEX2D_VPOV
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_TEX2D_VPOV
+req.redist: 
 ---
 
 # D3D11_TEX2D_VPOV structure

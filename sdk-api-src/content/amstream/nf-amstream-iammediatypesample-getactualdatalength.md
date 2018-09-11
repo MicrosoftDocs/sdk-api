@@ -4,17 +4,16 @@ title: IAMMediaTypeSample::GetActualDataLength
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetActualDataLength method retrieves the data length of the sample, in bytes.
 old-location: dshow\iammediatypesample_getactualdatalength.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e73672c7-7400-40dd-be65-f6c30c476c91
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetActualDataLength, GetActualDataLength method [DirectShow], GetActualDataLength method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetActualDataLength method, IAMMediaTypeSample.GetActualDataLength, IAMMediaTypeSample::GetActualDataLength, IAMMediaTypeSampleGetActualDataLength, amstream/IAMMediaTypeSample::GetActualDataLength, dshow.iammediatypesample_getactualdatalength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAMMediaTypeSample.GetActualDataLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMediaTypeSample::GetActualDataLength

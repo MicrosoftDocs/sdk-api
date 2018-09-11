@@ -4,7 +4,7 @@ title: NTFS_FILE_RECORD_OUTPUT_BUFFER
 author: windows-sdk-content
 description: Receives output data from the FSCTL_GET_NTFS_FILE_RECORD control code.
 old-location: fs\ntfs_file_record_output_buffer_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: e2597939-5159-4c35-9a1f-f3be43081d72
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTFS_FILE_RECORD_OUTPUT_BUFFER, *PNTFS_FILE_RECORD_OUTPUT_BUFFER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTFS_FILE_RECORD_OUTPUT_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: NTFS_FILE_RECORD_OUTPUT_BUFFER, *PNTFS_FILE_RECORD_OUTPUT_BUFFER
+req.redist: 
 ---
 
 # NTFS_FILE_RECORD_OUTPUT_BUFFER structure

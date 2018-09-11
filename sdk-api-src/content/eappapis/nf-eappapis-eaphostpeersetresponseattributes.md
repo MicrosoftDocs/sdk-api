@@ -4,17 +4,16 @@ title: EapHostPeerSetResponseAttributes function
 author: windows-sdk-content
 description: Provides updated EAP authentication attributes to EAPHost.
 old-location: eaphost\eaphostpeersetresponseattributes.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: b8ce5510-f5ba-403c-8709-940ae58cd10d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapHostPeerSetResponseAttributes, EapHostPeerSetResponseAttributes function [EAPHost], eaphost.eaphostpeersetresponseattributes, eappapis/EapHostPeerSetResponseAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EapPacket
+req.lib: Eappprxy.lib
+req.dll: Eappprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapHostPeerSetResponseAttributes
 product: Windows
 targetos: Windows
-req.lib: Eappprxy.lib
-req.dll: Eappprxy.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapHostPeerSetResponseAttributes function

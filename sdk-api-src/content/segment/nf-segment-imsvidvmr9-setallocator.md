@@ -4,17 +4,16 @@ title: IMSVidVMR9::SetAllocator
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidvmr9_setallocator.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f654adac-12b6-47c7-99d4-0612b1532df4
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],SetAllocator method, IMSVidVMR9.SetAllocator, IMSVidVMR9::SetAllocator, IMSVidVMR9SetAllocator, SetAllocator, SetAllocator method [Microsoft TV Technologies], SetAllocator method [Microsoft TV Technologies],IMSVidVMR9 interface, mstv.imsvidvmr9_setallocator, segment/IMSVidVMR9::SetAllocator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVMR9.SetAllocator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVMR9::SetAllocator

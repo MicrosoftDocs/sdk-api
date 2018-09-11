@@ -4,17 +4,16 @@ title: RasCustomDeleteEntryNotifyFn
 author: windows-sdk-content
 description: The RasCustomDeleteEntryNotify function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom dialogs for managing phone-book entries.
 old-location: rras\rascustomdeleteentrynotify.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: bbdaff05-ec86-461a-b466-8f69cb9cba5a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RCD_AllUsers, RCD_Eap, RCD_Logon, RCD_SingleUser, RasCustomDeleteEntryNotify, RasCustomDeleteEntryNotify callback function [RAS], RasCustomDeleteEntryNotifyFn, RasCustomDeleteEntryNotifyFn callback, _ras_rascustomdeleteentrynotify, ras/RasCustomDeleteEntryNotify, rras.rascustomdeleteentrynotify
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_STATUS_INFO, *LPRSVP_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RasCustomDeleteEntryNotify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasCustomDeleteEntryNotifyFn callback function

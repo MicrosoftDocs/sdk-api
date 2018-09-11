@@ -4,17 +4,16 @@ title: ITextStory::GetProperty
 author: windows-sdk-content
 description: Gets the value of the specified property.
 old-location: controls\itextstory_getproperty.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 1c24e9d8-c737-42f8-87d9-585b0054b6df
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetProperty method, ITextStory.GetProperty, ITextStory::GetProperty, controls.itextstory_getproperty, tom/ITextStory::GetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStory.GetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextStory::GetProperty

@@ -4,17 +4,16 @@ title: SetProcessAffinityUpdateMode function
 author: windows-sdk-content
 description: Sets the affinity update mode of the specified process.
 old-location: base\setprocessaffinityupdatemode.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 46e8f7d2-89b9-42cb-9171-d5ae2ec870da
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: PROCESS_AFFINITY_ENABLE_AUTO_UPDATE, SetProcessAffinityUpdateMode, SetProcessAffinityUpdateMode function, base.setprocessaffinityupdatemode, processthreadsapi/SetProcessAffinityUpdateMode, winbase/SetProcessAffinityUpdateMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - SetProcessAffinityUpdateMode
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetProcessAffinityUpdateMode function

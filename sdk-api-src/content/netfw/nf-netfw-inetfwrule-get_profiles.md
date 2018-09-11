@@ -4,17 +4,16 @@ title: INetFwRule::get_Profiles
 author: windows-sdk-content
 description: Specifies the profiles to which the rule belongs.
 old-location: ics\inetfwrule_profiles.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 98e40140-1df2-439a-9c83-a50f82f65e24
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwRule interface [ICS/ICF],Profiles property, INetFwRule.Profiles, INetFwRule.get_Profiles, INetFwRule::Profiles, INetFwRule::get_Profiles, INetFwRule::put_Profiles, Profiles property [ICS/ICF], Profiles property [ICS/ICF],INetFwRule interface, get_Profiles, ics.inetfwrule_profiles, netfw/INetFwRule::Profiles, netfw/INetFwRule::get_Profiles, netfw/INetFwRule::put_Profiles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwRule.put_Profiles
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwRule::get_Profiles

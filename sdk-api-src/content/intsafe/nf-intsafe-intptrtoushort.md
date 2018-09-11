@@ -4,17 +4,16 @@ title: IntPtrToUShort function
 author: windows-sdk-content
 description: Converts a value of type INT_PTR to a value of type USHORT.
 old-location: shell\IntPtrToUShort.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c1ab8cbc-0c45-410c-a34d-2bded36a03e8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IntPtrToUShort, IntPtrToUShort function [Windows Shell], intsafe/IntPtrToUShort, shell.IntPtrToUShort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IntPtrToUShort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IntPtrToUShort function

@@ -4,17 +4,16 @@ title: "_STD_ALERT"
 author: windows-sdk-content
 description: The STD_ALERT structure contains the time and date when a significant event occurred.
 old-location: netmgmt\std_alert_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: daa4594f-e59e-4f05-8183-677bee4ea446
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSTD_ALERT, *PSTD_ALERT, ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, LPSTD_ALERT, LPSTD_ALERT structure pointer [Network Management], PSTD_ALERT, PSTD_ALERT structure pointer [Network Management], STD_ALERT, STD_ALERT structure [Network Management], _STD_ALERT, _win32_std_alert_str, lmalert/LPSTD_ALERT, lmalert/PSTD_ALERT, lmalert/STD_ALERT, netmgmt.std_alert_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmalert.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STD_ALERT, *PSTD_ALERT, *LPSTD_ALERT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STD_ALERT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: STD_ALERT, *PSTD_ALERT, *LPSTD_ALERT
+req.redist: 
 ---
 
 # _STD_ALERT structure

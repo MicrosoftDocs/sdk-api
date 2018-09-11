@@ -4,17 +4,16 @@ title: IVdsVolumeMF2::QueryFileSystemFormatSupport
 author: windows-sdk-content
 description: Retrieves the properties of the file systems that are supported for formatting a volume.
 old-location: base\ivdsvolumemf2_queryfilesystemformatsupport.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 770a92fb-9e70-4db0-a782-b9064daef4ef
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsVolumeMF2 interface,QueryFileSystemFormatSupport method, IVdsVolumeMF2.QueryFileSystemFormatSupport, IVdsVolumeMF2::QueryFileSystemFormatSupport, QueryFileSystemFormatSupport, QueryFileSystemFormatSupport method, QueryFileSystemFormatSupport method,IVdsVolumeMF2 interface, base.ivdsvolumemf2_queryfilesystemformatsupport, vds/IVdsVolumeMF2::QueryFileSystemFormatSupport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolumeMF2.QueryFileSystemFormatSupport
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolumeMF2::QueryFileSystemFormatSupport

@@ -4,17 +4,16 @@ title: LinearGradientBrush::GetWrapMode
 author: windows-sdk-content
 description: The LinearGradientBrush::GetWrapMode method gets the wrap mode for this brush. The wrap mode determines how an area is tiled when it is painted with a brush.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetWrapMode_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\getwrapmode.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetWrapMode, GetWrapMode method [GDI+], GetWrapMode method [GDI+],LinearGradientBrush class, LinearGradientBrush class [GDI+],GetWrapMode method, LinearGradientBrush.GetWrapMode, LinearGradientBrush::GetWrapMode, _gdiplus_CLASS_LinearGradientBrush_GetWrapMode_, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetWrapMode_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KnownGamingPrivileges
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - LinearGradientBrush.GetWrapMode
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

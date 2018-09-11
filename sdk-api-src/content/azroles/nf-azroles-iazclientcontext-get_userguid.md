@@ -4,17 +4,16 @@ title: IAzClientContext::get_UserGuid
 author: windows-sdk-content
 description: Retrieves the name of the current client in GUID format.
 old-location: security\iazclientcontext_userguid.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: fd60d1d0-67b9-457f-a01e-6ea470d9db6a
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzClientContext object [Security],UserGuid property, IAzClientContext interface [Security],UserGuid property, IAzClientContext.UserGuid, IAzClientContext.get_UserGuid, IAzClientContext::UserGuid, IAzClientContext::get_UserGuid, UserGuid property [Security], UserGuid property [Security],AzClientContext object, UserGuid property [Security],IAzClientContext interface, azroles/IAzClientContext::UserGuid, azroles/IAzClientContext::get_UserGuid, get_UserGuid, security.iazclientcontext_userguid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzClientContext.UserGuid
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzClientContext::get_UserGuid

@@ -4,17 +4,16 @@ title: IEnumWorkItems
 author: windows-sdk-content
 description: Provides the methods for enumerating the tasks in the Scheduled Tasks folder.
 old-location: taskschd\ienumworkitems.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 1af162e5-8ba1-4d2e-9451-39c80ac0eecf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumWorkItems, IEnumWorkItems interface [Task Scheduler], IEnumWorkItems interface [Task Scheduler],described, _msb_ienumworkitems, mstask/IEnumWorkItems, taskschd.ienumworkitems
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mstask.h
 req.include-header: 
-req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumWorkItems
 product: Windows
 targetos: Windows
-req.lib: Mstask.lib
-req.dll: Mstask.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ---
 
 # IEnumWorkItems interface

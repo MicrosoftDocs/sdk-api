@@ -4,17 +4,16 @@ title: GetAltTabInfoW function
 author: windows-sdk-content
 description: Retrieves status information for the specified window if it is the application-switching (ALT+TAB) window.
 old-location: winmsg\getalttabinfo.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getalttabinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: GetAltTabInfo, GetAltTabInfo function [Windows and Messages], GetAltTabInfoA, GetAltTabInfoW, _win32_GetAltTabInfo, _win32_getalttabinfo_cpp, winmsg.getalttabinfo, winui._win32_getalttabinfo, winuser/GetAltTabInfo, winuser/GetAltTabInfoA, winuser/GetAltTabInfoW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetAltTabInfoW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetAltTabInfoW function

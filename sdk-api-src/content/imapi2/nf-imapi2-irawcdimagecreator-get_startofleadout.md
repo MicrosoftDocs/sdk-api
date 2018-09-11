@@ -4,17 +4,16 @@ title: IRawCDImageCreator::get_StartOfLeadout
 author: windows-sdk-content
 description: Retrieves the value that defines the LBA for the start of the Leadout. This method can be utilized to determine if the image can be written to a piece of media by comparing it against the LastPossibleStartOfLeadout for the media.
 old-location: imapi\irawcdimagecreator_get_startofleadout.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 5bf40179-31f5-453f-a989-4bcd116a45aa
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_StartOfLeadout method, IRawCDImageCreator.get_StartOfLeadout, IRawCDImageCreator::get_StartOfLeadout, get_StartOfLeadout, get_StartOfLeadout method [IMAPI], get_StartOfLeadout method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_startofleadout, imapi2/IRawCDImageCreator::get_StartOfLeadout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawCDImageCreator.get_StartOfLeadout
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRawCDImageCreator::get_StartOfLeadout

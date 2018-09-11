@@ -4,17 +4,16 @@ title: IPrint::Print
 author: windows-sdk-content
 description: Prints an object on the specified printer, using the specified job requirements.
 old-location: com\iprint_print.htm
-old-project: com
+tech.root: com
 ms.assetid: 30554d89-ad80-4d73-b44a-97ae5079feb8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPrint interface [COM],Print method, IPrint.Print, IPrint::Print, PRINTFLAG_DONTACTUALLYPRINT, PRINTFLAG_FORCEPROPERTIES, PRINTFLAG_MAYBOTHERUSER, PRINTFLAG_PRINTTOFILE, PRINTFLAG_PROMPTUSER, PRINTFLAG_RECOMPOSETODEVICE, PRINTFLAG_USERMAYCHANGEPRINTER, Print, Print method [COM], Print method [COM],IPrint interface, _ctrl_iprint_print, com.iprint_print, docobj/IPrint::Print
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOCMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPrint.Print
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPrint::Print

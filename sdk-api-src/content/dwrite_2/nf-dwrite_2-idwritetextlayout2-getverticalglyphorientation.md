@@ -4,17 +4,16 @@ title: IDWriteTextLayout2::GetVerticalGlyphOrientation
 author: windows-sdk-content
 description: Get the preferred orientation of glyphs when using a vertical reading direction.
 old-location: directwrite\idwritetextlayout2_getverticalglyphorientation.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: A98AFAC5-77D7-4917-AE1D-85B2B450C043
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetVerticalGlyphOrientation, GetVerticalGlyphOrientation method [Direct Write], GetVerticalGlyphOrientation method [Direct Write],IDWriteTextLayout2 interface, IDWriteTextLayout2 interface [Direct Write],GetVerticalGlyphOrientation method, IDWriteTextLayout2.GetVerticalGlyphOrientation, IDWriteTextLayout2::GetVerticalGlyphOrientation, directwrite.idwritetextlayout2_getverticalglyphorientation, dwrite_2/IDWriteTextLayout2::GetVerticalGlyphOrientation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextLayout2.GetVerticalGlyphOrientation
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextLayout2::GetVerticalGlyphOrientation

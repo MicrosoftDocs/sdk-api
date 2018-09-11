@@ -4,17 +4,16 @@ title: SetupUninstallOEMInfA function
 author: windows-sdk-content
 description: The SetupUninstallOEMInf function uninstalls a specified .inf file and any associated .pnf file.
 old-location: setup\setupuninstalloeminf.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 70cec8c7-7954-44d7-93f5-711368f72bf7
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SUOI_FORCEDELETE, SetupUninstallOEMInf, SetupUninstallOEMInf function [Setup API], SetupUninstallOEMInfA, SetupUninstallOEMInfW, _setupapi_setupuninstalloeminf, setup.setupuninstalloeminf, setupapi/SetupUninstallOEMInf, setupapi/SetupUninstallOEMInfA, setupapi/SetupUninstallOEMInfW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - SetupUninstallOEMInfW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupUninstallOEMInfA function
@@ -112,7 +110,7 @@ Set to <b>null</b>.
 
 
 
-This function returns WINSETUPAPI BOOL __stdcall.
+This function returns WINSETUPAPI BOOL.
 
 
 

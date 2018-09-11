@@ -4,17 +4,16 @@ title: IAdviseSink::OnDataChange
 author: windows-sdk-content
 description: Called by the server to notify a data object's currently registered advise sinks that data in the object has changed.
 old-location: com\iadvisesink_ondatachange.htm
-old-project: com
+tech.root: com
 ms.assetid: 834a5328-3a1f-4edb-aad0-be8ab87acb04
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IAdviseSink interface [COM],OnDataChange method, IAdviseSink.OnDataChange, IAdviseSink::OnDataChange, OnDataChange, OnDataChange method [COM], OnDataChange method [COM],IAdviseSink interface, _ole_iadvisesink_ondatachange, com.iadvisesink_ondatachange, objidl/IAdviseSink::OnDataChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAdviseSink.OnDataChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAdviseSink::OnDataChange

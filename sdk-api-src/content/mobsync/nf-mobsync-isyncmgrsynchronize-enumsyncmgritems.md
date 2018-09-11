@@ -4,17 +4,16 @@ title: ISyncMgrSynchronize::EnumSyncMgrItems
 author: windows-sdk-content
 description: Obtains the ISyncMgrEnumItems interface for the items that are handled by a registered application.
 old-location: shell\syncmgr_isyncmgrsynchronize_enumsyncmgritems.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 75f6ce68-237f-4228-adcf-f5ec929f49a7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: EnumSyncMgrItems, EnumSyncMgrItems method [Windows Shell], EnumSyncMgrItems method [Windows Shell],ISyncMgrSynchronize interface, ISyncMgrSynchronize interface [Windows Shell],EnumSyncMgrItems method, ISyncMgrSynchronize.EnumSyncMgrItems, ISyncMgrSynchronize::EnumSyncMgrItems, mobsync/ISyncMgrSynchronize::EnumSyncMgrItems, shell.syncmgr_isyncmgrsynchronize_enumsyncmgritems, syncmgr.isyncmgrsynchronize_enumsyncmgritems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRSTATUS
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSynchronize.EnumSyncMgrItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mobsync.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSynchronize::EnumSyncMgrItems

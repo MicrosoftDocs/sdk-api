@@ -4,17 +4,16 @@ title: DsCrackUnquotedMangledRdnA function
 author: windows-sdk-content
 description: The DsCrackUnquotedMangledRdn function unmangles (unencodes) a given relative distinguished name and returns both the decoded GUID and the mangling type used.
 old-location: ad\dscrackunquotedmangledrdn.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 30711d2d-f541-46b4-a301-a0f9fc7d6676
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsCrackUnquotedMangledRdn, DsCrackUnquotedMangledRdn function [Active Directory], DsCrackUnquotedMangledRdnA, DsCrackUnquotedMangledRdnW, _glines_dscrackunquotedmangledrdn, ad.dscrackunquotedmangledrdn, dsparse/DsCrackUnquotedMangledRdn, dsparse/DsCrackUnquotedMangledRdnA, dsparse/DsCrackUnquotedMangledRdnW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_MANGLE_FOR
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsCrackUnquotedMangledRdnW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DsCrackUnquotedMangledRdnA function

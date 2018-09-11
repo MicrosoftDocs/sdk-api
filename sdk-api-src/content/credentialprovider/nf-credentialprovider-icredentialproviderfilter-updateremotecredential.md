@@ -4,17 +4,16 @@ title: ICredentialProviderFilter::UpdateRemoteCredential
 author: windows-sdk-content
 description: Updates a credential from a remote session.
 old-location: shell\ICredentialProviderFilter_UpdateRemoteCredential.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d0730f67-e4f1-42b2-823a-75b08a5c952e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ICredentialProviderFilter interface [Windows Shell],UpdateRemoteCredential method, ICredentialProviderFilter.UpdateRemoteCredential, ICredentialProviderFilter::UpdateRemoteCredential, UpdateRemoteCredential, UpdateRemoteCredential method [Windows Shell], UpdateRemoteCredential method [Windows Shell],ICredentialProviderFilter interface, _shell_ICredentialProviderFilter_UpdateRemoteCredential, credentialprovider/ICredentialProviderFilter::UpdateRemoteCredential, shell.ICredentialProviderFilter_UpdateRemoteCredential
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProviderFilter.UpdateRemoteCredential
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProviderFilter::UpdateRemoteCredential

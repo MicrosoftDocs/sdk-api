@@ -4,17 +4,16 @@ title: IDataObjectAsyncCapability::EndOperation
 author: windows-sdk-content
 description: Notifies the data object that the asynchronous data extraction has ended.
 old-location: shell\IDataObjectAsyncCapability_EndOperation.htm
-old-project: shell
+tech.root: shell
 ms.assetid: CF9D2A95-12AF-4538-882D-B391F2E087ED
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: EndOperation, EndOperation method [Windows Shell], EndOperation method [Windows Shell],IDataObjectAsyncCapability interface, IDataObjectAsyncCapability interface [Windows Shell],EndOperation method, IDataObjectAsyncCapability.EndOperation, IDataObjectAsyncCapability::EndOperation, shell.IDataObjectAsyncCapability_EndOperation, shldisp/IDataObjectAsyncCapability::EndOperation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataObjectAsyncCapability.EndOperation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 6.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDataObjectAsyncCapability::EndOperation

@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_EXCHANGE_MEDIUM
 author: windows-sdk-content
 description: Moves a piece of media from a source element to one destination, and the piece of media originally in the first destination to a second destination.
 old-location: base\ioctl_changer_exchange_medium.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 40550df0-9da4-4b02-bd57-23eae78c68df
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRITE_THROUGH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_CHANGER_EXCHANGE_MEDIUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_CHANGER_EXCHANGE_MEDIUM IOCTL

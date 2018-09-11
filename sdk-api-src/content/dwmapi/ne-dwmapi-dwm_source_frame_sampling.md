@@ -4,7 +4,7 @@ title: DWM_SOURCE_FRAME_SAMPLING
 author: windows-sdk-content
 description: Flags used by the DwmSetPresentParameters function to specify the frame sampling type.
 old-location: dwm\dwm_source_frame_sampling.htm
-old-project: dwm
+tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\enums\dwm_source_frame_sampling.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Dvbsiparser.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DWM_SOURCE_FRAME_SAMPLING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWM_SOURCE_FRAME_SAMPLING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DWM_SOURCE_FRAME_SAMPLING
+req.redist: 
 ---
 
 # DWM_SOURCE_FRAME_SAMPLING enumeration

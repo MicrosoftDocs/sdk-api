@@ -4,17 +4,16 @@ title: IUIAutomationElement3::get_CachedIsPeripheral
 author: windows-sdk-content
 description: Retrieves the cached peripheral UI indicator for the element.
 old-location: winauto\uiauto_IUIAutomationElement3_CachedIsPeripheral.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 3F6D2EE1-CE3B-2E48-7539-555A44D1DBFD
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedIsPeripheral property [Windows Accessibility], CachedIsPeripheral property [Windows Accessibility],IUIAutomationElement3 interface, IUIAutomationElement3 interface [Windows Accessibility],CachedIsPeripheral property, IUIAutomationElement3.CachedIsPeripheral, IUIAutomationElement3.get_CachedIsPeripheral, IUIAutomationElement3::CachedIsPeripheral, IUIAutomationElement3::get_CachedIsPeripheral, get_CachedIsPeripheral, uiautomationclient/IUIAutomationElement3::CachedIsPeripheral, uiautomationclient/IUIAutomationElement3::get_CachedIsPeripheral, winauto.uiauto_IUIAutomationElement3_CachedIsPeripheral
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement3.get_CachedIsPeripheral
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement3::get_CachedIsPeripheral

@@ -4,7 +4,7 @@ title: WICBitmapEncoderCacheOption
 author: windows-sdk-content
 description: Specifies the cache options available for an encoder.
 old-location: wic\_wic_codec_wicbitmapencodercacheoption.htm
-old-project: wic
+tech.root: wic
 ms.assetid: cc23cd53-f29b-4e4e-a3d9-038c6f0c5629
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICBitmapEncoderCacheOption
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICBitmapEncoderCacheOption
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICBitmapEncoderCacheOption
+req.redist: 
 ---
 
 # WICBitmapEncoderCacheOption enumeration

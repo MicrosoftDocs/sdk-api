@@ -4,17 +4,16 @@ title: IMultisession::put_InUse
 author: windows-sdk-content
 description: Determines if this multi-session interface is the one you should use on the current media.
 old-location: imapi\imultisession_put_inuse.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: d4eef9de-8b7e-4326-b66f-dddbe2b8a05d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IMultisession interface [IMAPI],put_InUse method, IMultisession.put_InUse, IMultisession::put_InUse, imapi.imultisession_put_inuse, imapi2/IMultisession::put_InUse, put_InUse, put_InUse method [IMAPI], put_InUse method [IMAPI],IMultisession interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMultisession.put_InUse
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMultisession::put_InUse

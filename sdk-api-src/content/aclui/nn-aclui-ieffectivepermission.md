@@ -4,17 +4,16 @@ title: IEffectivePermission
 author: windows-sdk-content
 description: Provides a means to determine effective permission for a security principal on an object.
 old-location: security\ieffectivepermission.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: c2897dad-647c-4dc1-b962-bd7fbae2da3a
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IEffectivePermission, IEffectivePermission interface [Security], IEffectivePermission interface [Security],described, aclui/IEffectivePermission, security.ieffectivepermission
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_PAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEffectivePermission
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEffectivePermission interface

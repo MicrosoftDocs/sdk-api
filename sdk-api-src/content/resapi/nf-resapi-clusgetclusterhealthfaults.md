@@ -4,17 +4,16 @@ title: ClusGetClusterHealthFaults function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\clusgetclusterhealthfaults.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 971d4cb6-be46-4259-9c40-72388b70aff7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusGetClusterHealthFaults, ClusGetClusterHealthFaults function [Failover Cluster], mscs.clusgetclusterhealthfaults, resapi/ClusGetClusterHealthFaults
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - ClusGetClusterHealthFaults
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ClusGetClusterHealthFaults function

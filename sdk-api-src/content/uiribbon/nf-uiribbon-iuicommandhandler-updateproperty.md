@@ -4,17 +4,16 @@ title: IUICommandHandler::UpdateProperty
 author: windows-sdk-content
 description: Responds to property update requests from the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuicommandhandler_updateproperty.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicommandhandler\updateproperty.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUICommandHandler interface [Windows Ribbon],UpdateProperty method, IUICommandHandler.UpdateProperty, IUICommandHandler::UpdateProperty, UpdateProperty, UpdateProperty method [Windows Ribbon], UpdateProperty method [Windows Ribbon],IUICommandHandler interface, scenicintent_IUICommandHandler_UpdateProperty, uiribbon/IUICommandHandler::UpdateProperty, windowsribbon.windowsribbon_iuicommandhandler_updateproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_VIEWVERB
+req.lib: 
+req.dll: Mshtml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IUICommandHandler.UpdateProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mshtml.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows UI
 ---
 

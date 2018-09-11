@@ -4,17 +4,16 @@ title: ISyncMgrEvent::GetLevel
 author: windows-sdk-content
 description: Gets the log level of the event.
 old-location: shell\ISyncMgrEvent_GetLevel.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2937dc05-9576-43b4-9fbe-6c151dffcace
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetLevel, GetLevel method [Windows Shell], GetLevel method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetLevel method, ISyncMgrEvent.GetLevel, ISyncMgrEvent::GetLevel, _shell_ISyncMgrEvent_GetLevel, shell.ISyncMgrEvent_GetLevel, syncmgr/ISyncMgrEvent::GetLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrEvent.GetLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrEvent::GetLevel

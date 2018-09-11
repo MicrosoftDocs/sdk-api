@@ -4,17 +4,16 @@ title: "_ACTIVATION_CONTEXT_DETAILED_INFORMATION"
 author: windows-sdk-content
 description: The ACTIVATION_CONTEXT_DETAILED_INFORMATION structure is used by the QueryActCtxW function.
 old-location: setup\activation_context_detailed_information.htm
-old-project: sbscs
+tech.root: SbsCs
 ms.assetid: 58e4acfe-d5c8-45ae-bf32-469229ffc836
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PACTIVATION_CONTEXT_DETAILED_INFORMATION, ACTIVATION_CONTEXT_DETAILED_INFORMATION, ACTIVATION_CONTEXT_DETAILED_INFORMATION structure [Side-by-side Assemblies], PACTIVATION_CONTEXT_DETAILED_INFORMATION, PACTIVATION_CONTEXT_DETAILED_INFORMATION structure pointer [Side-by-side Assemblies], _ACTIVATION_CONTEXT_DETAILED_INFORMATION, _win32_activation_context_detailed_information, setup.activation_context_detailed_information, winnt/ACTIVATION_CONTEXT_DETAILED_INFORMATION, winnt/PACTIVATION_CONTEXT_DETAILED_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACTIVATION_CONTEXT_DETAILED_INFORMATION, *PACTIVATION_CONTEXT_DETAILED_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACTIVATION_CONTEXT_DETAILED_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ACTIVATION_CONTEXT_DETAILED_INFORMATION, *PACTIVATION_CONTEXT_DETAILED_INFORMATION
+req.redist: 
 ---
 
 # _ACTIVATION_CONTEXT_DETAILED_INFORMATION structure

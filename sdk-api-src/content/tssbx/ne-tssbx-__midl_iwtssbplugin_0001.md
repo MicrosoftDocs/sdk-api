@@ -4,7 +4,7 @@ title: "__MIDL_IWTSSBPlugin_0001"
 author: windows-sdk-content
 description: Contains values that indicate the drain state of a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtssbx_machine_drain.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 251d1534-0571-427a-a9a1-2327eba55c2d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tssbx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_MACHINE_DRAIN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTSSBX_MACHINE_DRAIN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: WTSSBX_MACHINE_DRAIN
+req.redist: 
 ---
 
 # __MIDL_IWTSSBPlugin_0001 enumeration

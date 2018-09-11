@@ -4,17 +4,16 @@ title: SymLoadModuleExW function
 author: windows-sdk-content
 description: Loads the symbol table for the specified module.
 old-location: base\symloadmoduleex.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 4a880090-f063-4d03-8fd5-a57ccba262c8
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SLMFLAG_NO_SYMBOLS, SLMFLAG_VIRTUAL, SymLoadModuleEx, SymLoadModuleEx function, SymLoadModuleExW, _win32_symloadmoduleex, base.symloadmoduleex, dbghelp/SymLoadModuleEx, dbghelp/SymLoadModuleExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.0 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - SymLoadModuleExW
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 6.0 or later
 ---
 
 # SymLoadModuleExW function

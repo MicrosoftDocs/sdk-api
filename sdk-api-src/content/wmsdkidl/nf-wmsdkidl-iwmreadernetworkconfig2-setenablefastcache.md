@@ -4,17 +4,16 @@ title: IWMReaderNetworkConfig2::SetEnableFastCache
 author: windows-sdk-content
 description: The SetEnableFastCache method enables or disables Fast Cache streaming. Fast Cache streaming enables network content to be streamed faster than the playback rate, if bandwidth allows.
 old-location: wmformat\iwmreadernetworkconfig2_setenablefastcache.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 28a01985-a133-4203-8385-d4497c29bf9c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetEnableFastCache method, IWMReaderNetworkConfig2.SetEnableFastCache, IWMReaderNetworkConfig2::SetEnableFastCache, IWMReaderNetworkConfig2SetEnableFastCache, SetEnableFastCache, SetEnableFastCache method [windows Media Format], SetEnableFastCache method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setenablefastcache, wmsdkidl/IWMReaderNetworkConfig2::SetEnableFastCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMReaderNetworkConfig2.SetEnableFastCache
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderNetworkConfig2::SetEnableFastCache

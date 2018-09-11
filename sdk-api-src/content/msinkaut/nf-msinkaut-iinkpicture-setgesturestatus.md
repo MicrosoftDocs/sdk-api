@@ -4,17 +4,16 @@ title: IInkPicture::SetGestureStatus
 author: windows-sdk-content
 description: Modifies the interest of the object or control in a known gesture.
 old-location: tablet\inkpicture_setgesturestatus.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 36f3611a-c7d9-49a2-9ead-db98647f6da7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 7bab227f-d095-48e8-856f-6446e62826dd, IInkPicture, IInkPicture interface [Tablet PC],SetGestureStatus method, IInkPicture.SetGestureStatus, IInkPicture::SetGestureStatus, SetGestureStatus, SetGestureStatus method [Tablet PC], SetGestureStatus method [Tablet PC],IInkPicture interface, msinkaut/IInkPicture::SetGestureStatus, tablet.inkpicture_setgesturestatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkPicture.SetGestureStatus
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkPicture::SetGestureStatus
@@ -71,7 +69,7 @@ The gesture that you want to set the status of.
 
 ### -param Listen
 
-
+TBD
 
 
 

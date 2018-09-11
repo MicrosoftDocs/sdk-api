@@ -4,17 +4,16 @@ title: IDirect3DDevice9Video::GetContentProtectionCaps
 author: windows-sdk-content
 description: Queries the display driver for its content protection capabilities.
 old-location: mf\idirect3ddevice9video_getcontentprotectioncaps.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4093e64c-340d-4f66-97ed-45bae3b259eb
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: D3DCRYPTOTYPE_AES128_CTR, D3DCRYPTOTYPE_PROPRIETARY, GetContentProtectionCaps, GetContentProtectionCaps method [Media Foundation], GetContentProtectionCaps method [Media Foundation],IDirect3DDevice9Video interface, IDirect3DDevice9Video interface [Media Foundation],GetContentProtectionCaps method, IDirect3DDevice9Video.GetContentProtectionCaps, IDirect3DDevice9Video::GetContentProtectionCaps, d3d9/IDirect3DDevice9Video::GetContentProtectionCaps, mf.idirect3ddevice9video_getcontentprotectioncaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirect3DDevice9Video.GetContentProtectionCaps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9Video::GetContentProtectionCaps

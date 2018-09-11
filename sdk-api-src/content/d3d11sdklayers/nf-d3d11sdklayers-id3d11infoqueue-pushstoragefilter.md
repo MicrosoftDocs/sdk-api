@@ -4,17 +4,16 @@ title: ID3D11InfoQueue::PushStorageFilter
 author: windows-sdk-content
 description: Push a storage filter onto the storage-filter stack.
 old-location: direct3d11\id3d11infoqueue_pushstoragefilter.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: de3f22b0-0642-4aa8-8bb0-008c1e44d3cb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 8aa4344e-4688-6e7c-8033-8b589f37ce3d, ID3D11InfoQueue interface [Direct3D 11],PushStorageFilter method, ID3D11InfoQueue.PushStorageFilter, ID3D11InfoQueue::PushStorageFilter, PushStorageFilter, PushStorageFilter method [Direct3D 11], PushStorageFilter method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::PushStorageFilter, direct3d11.id3d11infoqueue_pushstoragefilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11InfoQueue.PushStorageFilter
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11InfoQueue::PushStorageFilter

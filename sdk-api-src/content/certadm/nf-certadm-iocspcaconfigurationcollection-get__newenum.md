@@ -4,17 +4,16 @@ title: IOCSPCAConfigurationCollection::get__NewEnum
 author: windows-sdk-content
 description: Gets an enumerator for the configuration set.
 old-location: security\iocspcaconfigurationcollection__newenum_method.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 71f14b78-2b3e-44eb-8bca-6fff6b9a2293
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IOCSPCAConfigurationCollection interface [Security],_NewEnum property, IOCSPCAConfigurationCollection._NewEnum, IOCSPCAConfigurationCollection.get__NewEnum, IOCSPCAConfigurationCollection::_NewEnum, IOCSPCAConfigurationCollection::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IOCSPCAConfigurationCollection interface, certadm/IOCSPCAConfigurationCollection::_NewEnum, certadm/IOCSPCAConfigurationCollection::get__NewEnum, get__NewEnum, security.iocspcaconfigurationcollection__newenum_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOCSPCAConfigurationCollection.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPCAConfigurationCollection::get__NewEnum

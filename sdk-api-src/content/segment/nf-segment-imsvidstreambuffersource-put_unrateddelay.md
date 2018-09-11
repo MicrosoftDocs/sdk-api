@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSource::put_UnratedDelay
 author: windows-sdk-content
 description: The put_UnratedDelay method specifies how long the Video Control will play unrated content before blocking it. The value is ignored until the put_BlockUnrated method is called with the value VARIANT_TRUE.
 old-location: mstv\imsvidstreambuffersource_put_unrateddelay.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7b4e1ac4-dfb8-45c0-9079-16f8babcb494
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],put_UnratedDelay method, IMSVidStreamBufferSource.put_UnratedDelay, IMSVidStreamBufferSource::put_UnratedDelay, IMSVidStreamBufferSourceput_UnratedDelay, mstv.imsvidstreambuffersource_put_unrateddelay, put_UnratedDelay, put_UnratedDelay method [Microsoft TV Technologies], put_UnratedDelay method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, segment/IMSVidStreamBufferSource::put_UnratedDelay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSource.put_UnratedDelay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSource::put_UnratedDelay

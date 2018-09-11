@@ -4,17 +4,16 @@ title: RtmCreateDestEnum function
 author: windows-sdk-content
 description: The RtmCreateDestEnum function starts an enumeration of the destinations in the routing table. A client can enumerate destinations for one or more views, or for all views.
 old-location: rras\rtmcreatedestenum.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 6efea7b4-dd44-4b08-999d-62e7f660ed64
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RTM_ENUM_ALL_DESTS, RTM_ENUM_NEXT, RTM_ENUM_OWN_DESTS, RTM_ENUM_RANGE, RTM_ENUM_START, RTM_VIEW_MASK_ANY, RTM_VIEW_MASK_MCAST, RTM_VIEW_MASK_UCAST, RtmCreateDestEnum, RtmCreateDestEnum function [RAS], _rtmv2ref_rtmcreatedestenum, rras.rtmcreatedestenum, rtmv2/RtmCreateDestEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmCreateDestEnum
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmCreateDestEnum function

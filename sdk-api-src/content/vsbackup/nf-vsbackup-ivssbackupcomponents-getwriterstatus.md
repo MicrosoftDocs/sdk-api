@@ -4,17 +4,16 @@ title: IVssBackupComponents::GetWriterStatus
 author: windows-sdk-content
 description: The GetWriterStatus method returns the status of the specified writer.
 old-location: base\ivssbackupcomponents_getwriterstatus.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 652e9630-291d-41cd-96d9-6a63988932a5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetWriterStatus, GetWriterStatus method [VSS], GetWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterStatus method, IVssBackupComponents.GetWriterStatus, IVssBackupComponents::GetWriterStatus, S_OK, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, VSS_E_WRITER_NOT_RESPONDING, VSS_E_WRITER_STATUS_NOT_AVAILABLE, _win32_ivssbackupcomponents_getwriterstatus, base.ivssbackupcomponents_getwriterstatus, vsbackup/IVssBackupComponents::GetWriterStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.GetWriterStatus
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::GetWriterStatus
@@ -87,12 +85,12 @@ The address of a caller-allocated variable that receives a string containing the
 
 ### -param pnStatus
 
-
+TBD
 
 
 ### -param phResultFailure
 
-
+TBD
 
 
 

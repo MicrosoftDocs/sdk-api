@@ -4,17 +4,16 @@ title: IsPropVariantVector function
 author: windows-sdk-content
 description: Specifies whether a PROPVARIANT structure has a vector type.
 old-location: properties\IsPropVariantVector.htm
-old-project: properties
+tech.root: properties
 ms.assetid: c094c636-e51d-4a61-8d92-90abe2f0446e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IsPropVariantVector, IsPropVariantVector function [Windows Properties], properties.IsPropVariantVector, propvarutil/IsPropVariantVector, shell.IsPropVariantVector, shell_IsPropVariantVector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IsPropVariantVector
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IsPropVariantVector function

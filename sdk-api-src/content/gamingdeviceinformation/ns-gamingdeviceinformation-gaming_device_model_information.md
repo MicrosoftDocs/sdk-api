@@ -4,7 +4,7 @@ title: GAMING_DEVICE_MODEL_INFORMATION
 author: windows-sdk-content
 description: Contains information about the device that the game is running on.
 old-location: gamingdvcinfo\gaming_device_model_information.htm
-old-project: gamingdvcinfo
+tech.root: gamingdvcinfo
 ms.assetid: 0D5A6358-0F82-4414-BD17-BDE22EDBBB15
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: gamingdeviceinformation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GAMING_DEVICE_MODEL_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GAMING_DEVICE_MODEL_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: GAMING_DEVICE_MODEL_INFORMATION
+req.redist: 
 ---
 
 # GAMING_DEVICE_MODEL_INFORMATION structure

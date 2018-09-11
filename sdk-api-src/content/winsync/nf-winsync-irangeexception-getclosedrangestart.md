@@ -4,17 +4,16 @@ title: IRangeException::GetClosedRangeStart
 author: windows-sdk-content
 description: Gets the lower bound of the range of item IDs to exclude.
 old-location: winsync\irangeexception_getclosedrangestart.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 5c3c4e92-8c0d-4a3d-97be-029d2c386af4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetClosedRangeStart, GetClosedRangeStart method [Windows Sync], GetClosedRangeStart method [Windows Sync],IRangeException interface, IRangeException interface [Windows Sync],GetClosedRangeStart method, IRangeException.GetClosedRangeStart, IRangeException::GetClosedRangeStart, winsync.irangeexception_getclosedrangestart, winsync/IRangeException::GetClosedRangeStart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRangeException.GetClosedRangeStart
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IRangeException::GetClosedRangeStart

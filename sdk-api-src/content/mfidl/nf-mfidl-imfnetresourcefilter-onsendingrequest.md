@@ -4,17 +4,16 @@ title: IMFNetResourceFilter::OnSendingRequest
 author: windows-sdk-content
 description: Called when the byte stream requests a URL.
 old-location: mf\imfnetresourcefilter_onsendingrequest.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4FE6BBE8-A8EC-4304-BC4B-4D49F8EADC25
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFNetResourceFilter interface [Media Foundation],OnSendingRequest method, IMFNetResourceFilter.OnSendingRequest, IMFNetResourceFilter::OnSendingRequest, OnSendingRequest, OnSendingRequest method [Media Foundation], OnSendingRequest method [Media Foundation],IMFNetResourceFilter interface, mf.imfnetresourcefilter_onsendingrequest, mfidl/IMFNetResourceFilter::OnSendingRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFNetResourceFilter.OnSendingRequest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFNetResourceFilter::OnSendingRequest

@@ -4,17 +4,16 @@ title: IFolderActionCollection::AddRange
 author: windows-sdk-content
 description: Adds one or more folder actions to the collection.
 old-location: pla\ifolderactioncollection_addrange.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: f3ecc5e6-a6d7-4c68-b8c2-8ff94c810545
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],AddRange method, IFolderActionCollection.AddRange, IFolderActionCollection::AddRange, base.ifolderactioncollection_addrange, pla.ifolderactioncollection_addrange, pla/IFolderActionCollection::AddRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderActionCollection.AddRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderActionCollection::AddRange

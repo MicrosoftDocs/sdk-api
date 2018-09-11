@@ -4,17 +4,16 @@ title: TcEnumerateInterfaces function
 author: windows-sdk-content
 description: The TcEnumerateInterfaces function enumerates all traffic control&#8211;enabled network interfaces. Clients are notified of interface changes through the ClNotifyHandler function.
 old-location: qos\tcenumerateinterfaces.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: e6fbaa17-6b4b-45a2-baf7-898864a797b7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TcEnumerateInterfaces, TcEnumerateInterfaces function [QOS], _gqos_tcenumerateinterfaces, qos.tcenumerateinterfaces, traffic/TcEnumerateInterfaces
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: Traffic.lib
+req.dll: Traffic.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TcEnumerateInterfaces
 product: Windows
 targetos: Windows
-req.lib: Traffic.lib
-req.dll: Traffic.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TcEnumerateInterfaces function

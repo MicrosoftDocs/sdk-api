@@ -4,17 +4,16 @@ title: GetPointerInputTransform function
 author: windows-sdk-content
 description: Gets one or more transforms for the pointer information coordinates associated with the current message.
 old-location: inputmsg\getpointerinputtransform.htm
-old-project: InputMsg
+tech.root: InputMsg
 ms.assetid: 9F10ED61-90E3-441B-8F4D-E33DA54D473C
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetPointerInputTransform, GetPointerInputTransform function [Input Messages and Notifications], inputmsg.getpointerinputtransform, winuser/GetPointerInputTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - GetPointerInputTransform
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetPointerInputTransform function

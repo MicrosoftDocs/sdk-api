@@ -4,17 +4,16 @@ title: "_TASKPAGE"
 author: windows-sdk-content
 description: Defines the type of task page to be retrieved.
 old-location: taskschd\taskpage.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 6c822d4c-9d42-48a2-b378-06670acc39cf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TASKPAGE, TASKPAGE enumeration [Task Scheduler], TASKPAGE_SCHEDULE, TASKPAGE_SETTINGS, TASKPAGE_TASK, _TASKPAGE, _msb_taskpage, mstask/TASKPAGE, mstask/TASKPAGE_SCHEDULE, mstask/TASKPAGE_SETTINGS, mstask/TASKPAGE_TASK, task page [Task Scheduler],enumerations,TASKPAGE, taskschd.taskpage
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: mstask.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASKPAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TASKPAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: TASKPAGE
+req.redist: 
 ---
 
 # _TASKPAGE enumeration

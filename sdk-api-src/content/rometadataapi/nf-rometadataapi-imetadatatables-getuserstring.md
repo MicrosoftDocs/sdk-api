@@ -4,17 +4,16 @@ title: IMetaDataTables::GetUserString
 author: windows-sdk-content
 description: Gets the hard-coded string at the specified index in the string column in the current scope.
 old-location: winrt\imetadatatables_getuserstring.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 868f6be3-1baf-4f7c-be10-12b79a45e9c7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetUserString, GetUserString method [Windows Runtime], GetUserString method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetUserString method, IMetaDataTables.GetUserString, IMetaDataTables::GetUserString, rometadataapi/IMetaDataTables::GetUserString, winrt.imetadatatables_getuserstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataTables.GetUserString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataTables::GetUserString

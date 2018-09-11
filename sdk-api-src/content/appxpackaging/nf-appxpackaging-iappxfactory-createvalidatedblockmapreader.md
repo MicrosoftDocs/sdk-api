@@ -4,17 +4,16 @@ title: IAppxFactory::CreateValidatedBlockMapReader
 author: windows-sdk-content
 description: Creates a read-only block map object model from contents provided by an IStream and a digital signature.
 old-location: appxpkg\iappxfactory_createvalidatedblockmapreader.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: BCC39D9C-4AF9-4CFD-AC66-4B79F9F25BDC
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: CreateValidatedBlockMapReader, CreateValidatedBlockMapReader method [App packaging and management], CreateValidatedBlockMapReader method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreateValidatedBlockMapReader method, IAppxFactory.CreateValidatedBlockMapReader, IAppxFactory::CreateValidatedBlockMapReader, appxpackaging/IAppxFactory::CreateValidatedBlockMapReader, appxpkg.iappxfactory_createvalidatedblockmapreader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxFactory.CreateValidatedBlockMapReader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxFactory::CreateValidatedBlockMapReader
@@ -68,7 +67,7 @@ The stream that delivers block map XML for reading. The stream must support <a h
 
 ### -param signatureFileName
 
-
+TBD
 
 
 ### -param blockMapReader [out, retval]

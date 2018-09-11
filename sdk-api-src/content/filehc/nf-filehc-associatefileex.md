@@ -4,17 +4,16 @@ title: AssociateFileEx function
 author: windows-sdk-content
 description: Associates a file with an asnychronous context.
 old-location: winprog\_associatefileex.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: b7efaa05-e6ac-4fb8-889f-ff6fa0755476
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AssociateFileEx, AssociateFileEx function [Windows API], filehc/AssociateFileEx, winprog._associatefileex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: filehc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
+req.lib: Fcachdll.lib
+req.dll: Fcachdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AssociateFileEx
 product: Windows
 targetos: Windows
-req.lib: Fcachdll.lib
-req.dll: Fcachdll.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # AssociateFileEx function

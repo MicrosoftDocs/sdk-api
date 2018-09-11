@@ -4,17 +4,16 @@ title: SendScsiInquiry function
 author: windows-sdk-content
 description: SendScsiInquiry function sends a SCSI INQUIRY command to the specified target.
 old-location: iscsidisc\sendscsiinquiry.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: a1339ff0-aa1e-4609-8983-d5f09481bd13
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SendScsiInquiry, SendScsiInquiry function [iSCSI Discovery Library API], iscsidisc.sendscsiinquiry, iscsidsc/SendScsiInquiry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SendScsiInquiry
 product: Windows
 targetos: Windows
-req.lib: Iscsidsc.lib
-req.dll: Iscsidsc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SendScsiInquiry function

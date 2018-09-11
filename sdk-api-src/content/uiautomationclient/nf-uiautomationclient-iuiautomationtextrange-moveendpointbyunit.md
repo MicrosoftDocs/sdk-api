@@ -4,17 +4,16 @@ title: IUIAutomationTextRange::MoveEndpointByUnit
 author: windows-sdk-content
 description: Moves one endpoint of the text range the specified number of text units within the document range.
 old-location: winauto\uiauto_IUIAutomationTextRange_MoveEndpointByUnit.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 8724db1f-b8ed-4e00-9661-c22dd412653c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],MoveEndpointByUnit method, IUIAutomationTextRange.MoveEndpointByUnit, IUIAutomationTextRange::MoveEndpointByUnit, MoveEndpointByUnit, MoveEndpointByUnit method [Windows Accessibility], MoveEndpointByUnit method [Windows Accessibility],IUIAutomationTextRange interface, uiauto.uiauto_IUIAutomationTextRange_MoveEndpointByUnit, uiauto_IUIAutomationTextRange_MoveEndpointByUnit, uiautomationclient/IUIAutomationTextRange::MoveEndpointByUnit, winauto.uiauto_IUIAutomationTextRange_MoveEndpointByUnit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTextRange.MoveEndpointByUnit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTextRange::MoveEndpointByUnit
@@ -60,9 +58,14 @@ Moves one endpoint of the text range the specified number of text units within t
 
 
 
-### -param param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 ### -param count [in]

@@ -4,17 +4,16 @@ title: CoGetCallerTID function
 author: windows-sdk-content
 description: Returns a pointer to a DWORD that contains the apartment ID of the caller's thread.
 old-location: com\cogetcallertid.htm
-old-project: com
+tech.root: com
 ms.assetid: 3a34001b-6286-4103-ae9f-700ea101dc17
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoGetCallerTID, CoGetCallerTID function [COM], _com_CoGetCallerTID, com.cogetcallertid, combaseapi/CoGetCallerTID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - CoGetCallerTID
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoGetCallerTID function

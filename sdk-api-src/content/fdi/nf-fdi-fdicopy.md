@@ -4,17 +4,16 @@ title: FDICopy function
 author: windows-sdk-content
 description: The FDICopy function extracts files from cabinets.
 old-location: winprog\fdicopy.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 6ec2b10b-f70a-4a22-beff-df6b6a4c4cfd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FDICopy, FDICopy function [Windows API], fdi/FDICopy, winprog.fdicopy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CCAB
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FDICopy
 product: Windows
 targetos: Windows
-req.lib: Cabinet.lib
-req.dll: Cabinet.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FDICopy function

@@ -4,17 +4,16 @@ title: IRichEditOle::SetDvaspect
 author: windows-sdk-content
 description: Sets the aspect that a rich edit control uses to draw an object. This call does not change the drawing information cached in the object; this must be done by the caller. The call does cause the object to be redrawn.
 old-location: controls\IRichEditOle_SetDvaspect.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolesetdvaspect.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRichEditOle interface [Windows Controls],SetDvaspect method, IRichEditOle.SetDvaspect, IRichEditOle::SetDvaspect, SetDvaspect, SetDvaspect method [Windows Controls], SetDvaspect method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_SetDvaspect, _win32_IRichEditOle_SetDvaspect_cpp, controls.IRichEditOle_SetDvaspect, controls._win32_IRichEditOle_SetDvaspect, richole/IRichEditOle::SetDvaspect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEXTRANGEW
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRichEditOle.SetDvaspect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRichEditOle::SetDvaspect

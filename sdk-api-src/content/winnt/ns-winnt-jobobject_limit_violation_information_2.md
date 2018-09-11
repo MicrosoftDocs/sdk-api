@@ -4,7 +4,7 @@ title: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 author: windows-sdk-content
 description: Contains extended information about resource notification limits that have been exceeded for a job object. This structure is used with the QueryInformationJobObject function with the JobObjectLimitViolationInformation2 information class.
 old-location: base\jobobject_limit_violation_information_2.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: B474F74E-B64B-4681-A235-C2DE317BFE0E
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
+req.redist: 
 ---
 
 # JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 structure

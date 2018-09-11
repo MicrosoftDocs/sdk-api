@@ -4,17 +4,16 @@ title: CM_Reenumerate_DevNode_Ex function
 author: windows-sdk-content
 description: The CM_Reenumerate_DevNode_Ex function enumerates the devices identified by a specified device node and all of its children.
 old-location: devinst\cm_reenumerate_devnode_ex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 1d927aec-db3c-403f-9952-1bcc931984bf
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Reenumerate_DevNode_Ex, CM_Reenumerate_DevNode_Ex function [Device and Driver Installation], cfgmgr32/CM_Reenumerate_DevNode_Ex, cfgmgrfn_164140ec-3f5b-4047-8e18-7c7154975588.xml, devinst.cm_reenumerate_devnode_ex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CM_Reenumerate_DevNode_Ex
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: Cfgmgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Reenumerate_DevNode_Ex function

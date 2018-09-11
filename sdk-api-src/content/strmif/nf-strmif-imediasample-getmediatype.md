@@ -4,17 +4,16 @@ title: IMediaSample::GetMediaType
 author: windows-sdk-content
 description: The GetMediaType method retrieves the media type, if the media type differs from the previous sample.
 old-location: dshow\imediasample_getmediatype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: abccec09-c5a0-4192-9bdf-9240d1b73357
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetMediaType, GetMediaType method [DirectShow], GetMediaType method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetMediaType method, IMediaSample.GetMediaType, IMediaSample::GetMediaType, IMediaSampleGetMediaType, dshow.imediasample_getmediatype, strmif/IMediaSample::GetMediaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaSample.GetMediaType
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaSample::GetMediaType

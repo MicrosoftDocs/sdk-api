@@ -4,17 +4,16 @@ title: RasSecurityDialogGetInfo function
 author: windows-sdk-content
 description: The RasSecurityDialogGetInfo function is called by a RAS security DLL to get information about a port from the RAS server.
 old-location: rras\rassecuritydialoggetinfo.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: b7fbcfb6-686c-4464-ba78-e689019e74be
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RasSecurityDialogGetInfo, RasSecurityDialogGetInfo function [RAS], _ras_rassecuritydialoggetinfo, rasshost/RasSecurityDialogGetInfo, rras.rassecuritydialoggetinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rasshost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_AUTH_ATTRIBUTE, *PRAS_AUTH_ATTRIBUTE
+req.lib: 
+req.dll: Rasman.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RasSecurityDialogGetInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rasman.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasSecurityDialogGetInfo function

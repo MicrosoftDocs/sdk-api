@@ -4,17 +4,16 @@ title: IDataAdviseHolder::EnumAdvise
 author: windows-sdk-content
 description: Returns an object that can be used to enumerate the current advisory connections.
 old-location: com\idataadviseholder_enumadvise.htm
-old-project: com
+tech.root: com
 ms.assetid: 0863d013-6f55-40ce-92d2-68bb0455a911
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IDataAdviseHolder interface, IDataAdviseHolder interface [COM],EnumAdvise method, IDataAdviseHolder.EnumAdvise, IDataAdviseHolder::EnumAdvise, _ole_idataadviseholder_enumadvise, com.idataadviseholder_enumadvise, objidl/IDataAdviseHolder::EnumAdvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataAdviseHolder.EnumAdvise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataAdviseHolder::EnumAdvise

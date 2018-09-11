@@ -4,7 +4,7 @@ title: MFP_EVENT_TYPE
 author: windows-sdk-content
 description: Defines event types for the IMFPMediaPlayerCallback interface.
 old-location: mf\mfp_event_type.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 95beb13d-db84-4713-9c27-27b37eac7f2f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFP_EVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFP_EVENT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFP_EVENT_TYPE
+req.redist: 
 ---
 
 # MFP_EVENT_TYPE enumeration

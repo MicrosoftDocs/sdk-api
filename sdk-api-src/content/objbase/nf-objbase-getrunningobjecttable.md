@@ -4,17 +4,16 @@ title: GetRunningObjectTable function
 author: windows-sdk-content
 description: Returns a pointer to the IRunningObjectTable interface on the local running object table (ROT).
 old-location: com\getrunningobjecttable.htm
-old-project: com
+tech.root: com
 ms.assetid: 65d9cf7d-cc8a-4199-9a4a-7fd67ef8872d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetRunningObjectTable, GetRunningObjectTable function [COM], _com_GetRunningObjectTable, com.getrunningobjecttable, objbase/GetRunningObjectTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - GetRunningObjectTable
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetRunningObjectTable function

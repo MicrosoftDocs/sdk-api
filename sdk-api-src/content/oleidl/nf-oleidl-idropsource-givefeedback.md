@@ -4,17 +4,16 @@ title: IDropSource::GiveFeedback
 author: windows-sdk-content
 description: Enables a source application to give visual feedback to the end user during a drag-and-drop operation by providing the DoDragDrop function with an enumeration value specifying the visual effect.
 old-location: com\idropsource_givefeedback.htm
-old-project: com
+tech.root: com
 ms.assetid: dde37299-ad7c-4f59-af99-e75b72ad9188
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GiveFeedback, GiveFeedback method [COM], GiveFeedback method [COM],IDropSource interface, IDropSource interface [COM],GiveFeedback method, IDropSource.GiveFeedback, IDropSource::GiveFeedback, _ole_idropsource_givefeedback, com.idropsource_givefeedback, oleidl/IDropSource::GiveFeedback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDropSource.GiveFeedback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDropSource::GiveFeedback

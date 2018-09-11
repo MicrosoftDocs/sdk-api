@@ -4,17 +4,16 @@ title: IESEvents::OnESEventReceived
 author: windows-sdk-content
 description: Defines a handler for an event that is derived from the IESEvent interface.
 old-location: mstv\iesevents_oneseventreceived.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d715f598-0dd5-4c8c-9f5b-3aaa65768600
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IESEvents interface [Microsoft TV Technologies],OnESEventReceived method, IESEvents.OnESEventReceived, IESEvents::OnESEventReceived, OnESEventReceived, OnESEventReceived method [Microsoft TV Technologies], OnESEventReceived method [Microsoft TV Technologies],IESEvents interface, mstv.iesevents_oneseventreceived, tuner/IESEvents::OnESEventReceived
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IESEvents.OnESEventReceived
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IESEvents::OnESEventReceived

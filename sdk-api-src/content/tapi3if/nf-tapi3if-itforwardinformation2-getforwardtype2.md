@@ -4,17 +4,16 @@ title: ITForwardInformation2::GetForwardType2
 author: windows-sdk-content
 description: The GetForwardType2 method gets the current forwarding mode, specified by caller address.
 old-location: tapi3\itforwardinformation2_getforwardtype2.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c3142217-d3fa-4e0b-ad3b-65a0557ce951
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: GetForwardType2, GetForwardType2 method [TAPI 2.2], GetForwardType2 method [TAPI 2.2],ITForwardInformation2 interface, ITForwardInformation2 interface [TAPI 2.2],GetForwardType2 method, ITForwardInformation2.GetForwardType2, ITForwardInformation2::GetForwardType2, _tapi3_itforwardinformation2_getforwardtype2, tapi3.itforwardinformation2_getforwardtype2, tapi3if/ITForwardInformation2::GetForwardType2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITForwardInformation2.GetForwardType2
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITForwardInformation2::GetForwardType2

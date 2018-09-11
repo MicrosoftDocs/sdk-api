@@ -4,17 +4,16 @@ title: ITfTransitoryExtensionUIElement::GetDocumentMgr
 author: windows-sdk-content
 description: The ITfTransitoryExtensionUIElement::GetDocumentMgr method returns the pointer of the transitory document manager.
 old-location: tsf\itftransitoryextensionuielement_getdocumentmgr.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 199598fc-09e8-4d3b-b460-c76a1e4ee623
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDocumentMgr, GetDocumentMgr method [Text Services Framework], GetDocumentMgr method [Text Services Framework],ITfTransitoryExtensionUIElement interface, ITfTransitoryExtensionUIElement interface [Text Services Framework],GetDocumentMgr method, ITfTransitoryExtensionUIElement.GetDocumentMgr, ITfTransitoryExtensionUIElement::GetDocumentMgr, msctf/ITfTransitoryExtensionUIElement::GetDocumentMgr, tsf.itftransitoryextensionuielement_getdocumentmgr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfTransitoryExtensionUIElement.GetDocumentMgr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfTransitoryExtensionUIElement::GetDocumentMgr

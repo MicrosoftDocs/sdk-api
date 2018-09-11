@@ -4,17 +4,16 @@ title: IBasicVideo::get_SourceLeft
 author: windows-sdk-content
 description: The get_SourceLeft method retrieves the x-coordinate of the source rectangle.
 old-location: dshow\ibasicvideo_get_sourceleft.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1ea64dae-d643-44c1-9026-f9b0dcd25ef1
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_SourceLeft method, IBasicVideo.get_SourceLeft, IBasicVideo::get_SourceLeft, IBasicVideoget_SourceLeft, control/IBasicVideo::get_SourceLeft, dshow.ibasicvideo_get_sourceleft, get_SourceLeft, get_SourceLeft method [DirectShow], get_SourceLeft method [DirectShow],IBasicVideo interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBasicVideo.get_SourceLeft
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBasicVideo::get_SourceLeft

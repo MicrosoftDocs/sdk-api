@@ -4,17 +4,16 @@ title: IAMMediaContent::get_MoreInfoBannerURL
 author: windows-sdk-content
 description: The get_MoreInfoBannerURL method retrieves a URL for a related-information banner.
 old-location: dshow\iammediacontent_get_moreinfobannerurl.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: cc820849-cab2-4770-bdb2-6c4b32f3cc56
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoBannerURL method, IAMMediaContent.get_MoreInfoBannerURL, IAMMediaContent::get_MoreInfoBannerURL, IAMMediaContentget_MoreInfoBannerURL, dshow.iammediacontent_get_moreinfobannerurl, get_MoreInfoBannerURL, get_MoreInfoBannerURL method [DirectShow], get_MoreInfoBannerURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoBannerURL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMMediaContent.get_MoreInfoBannerURL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMediaContent::get_MoreInfoBannerURL

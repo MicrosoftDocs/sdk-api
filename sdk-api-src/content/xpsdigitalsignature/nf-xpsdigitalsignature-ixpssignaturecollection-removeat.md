@@ -4,17 +4,16 @@ title: IXpsSignatureCollection::RemoveAt
 author: windows-sdk-content
 description: Removes and releases an IXpsSignature interface pointer from a specified location in the collection.
 old-location: xps\ixpssignaturecollection_removeat.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 513fcb60-1c07-4748-847c-6ccc7be25fbd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsSignatureCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsSignatureCollection.RemoveAt, IXpsSignatureCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsSignatureCollection interface, xps.ixpssignaturecollection_removeat, xpsdigitalsignature/IXpsSignatureCollection::RemoveAt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSignatureCollection.RemoveAt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSignatureCollection::RemoveAt

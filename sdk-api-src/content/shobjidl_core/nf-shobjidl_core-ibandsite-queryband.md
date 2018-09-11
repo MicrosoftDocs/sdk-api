@@ -4,17 +4,16 @@ title: IBandSite::QueryBand
 author: windows-sdk-content
 description: Gets information about a band in a band site.
 old-location: shell\IBandSite_QueryBand.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0618ad7d-4e8f-4fbf-ab64-2b1c0d42158c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBandSite interface [Windows Shell],QueryBand method, IBandSite.QueryBand, IBandSite::QueryBand, QueryBand, QueryBand method [Windows Shell], QueryBand method [Windows Shell],IBandSite interface, _win32_IBandSite_QueryBand, shell.IBandSite_QueryBand, shobjidl_core/IBandSite::QueryBand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBandSite.QueryBand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IBandSite::QueryBand

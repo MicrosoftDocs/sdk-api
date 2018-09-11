@@ -4,7 +4,7 @@ title: FWPS_FILTER_CONDITION0_
 author: windows-sdk-content
 description: The FWPS_FILTER_CONDITION0 structure defines a run-time filtering condition for a filter.Note  FWPS_FILTER_CONDITION0 is a specific version of FWPS_FILTER_CONDITION.
 old-location: netvista\fwps_filter_condition0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d4a20939-4866-4402-9b29-d94c2170807c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPS_FILTER_CONDITION0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPS_FILTER_CONDITION0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPS_FILTER_CONDITION0
+req.redist: 
 ---
 
 # FWPS_FILTER_CONDITION0_ structure

@@ -4,17 +4,16 @@ title: IVdsVolumePlex::GetProperties
 author: windows-sdk-content
 description: Returns the property details of the current volume plex.
 old-location: base\ivdsvolumeplex_getproperties.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: b5b6c141-3e9d-4e1a-9d3c-3c5063b3ab73
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsVolumePlex interface, IVdsVolumePlex interface [VDS],GetProperties method, IVdsVolumePlex.GetProperties, IVdsVolumePlex::GetProperties, base.ivdsvolumeplex_getproperties, vds/IVdsVolumePlex::GetProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolumePlex.GetProperties
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolumePlex::GetProperties

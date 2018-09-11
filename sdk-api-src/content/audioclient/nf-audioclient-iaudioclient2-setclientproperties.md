@@ -4,17 +4,16 @@ title: IAudioClient2::SetClientProperties
 author: windows-sdk-content
 description: Sets the properties of the audio stream by populating an AudioClientProperties structure.
 old-location: coreaudio\iaudioclient2_setclientproperties.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: B9B98EF9-C0E1-430A-9C79-1B414F4D67B5
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioClient2 interface [Core Audio],SetClientProperties method, IAudioClient2.SetClientProperties, IAudioClient2::SetClientProperties, SetClientProperties, SetClientProperties method [Core Audio], SetClientProperties method [Core Audio],IAudioClient2 interface, audioclient/IAudioClient2::SetClientProperties, coreaudio.iaudioclient2_setclientproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioClient2.SetClientProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioClient2::SetClientProperties

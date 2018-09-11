@@ -4,17 +4,16 @@ title: "_SERVICE_SID_INFO"
 author: windows-sdk-content
 description: Represents a service security identifier (SID).
 old-location: base\service_sid_info.htm
-old-project: services
+tech.root: Services
 ms.assetid: cb1a32bd-aafb-4e41-8d6f-673c3d747f14
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVICE_SID_INFO, LPSERVICE_SID_INFO, LPSERVICE_SID_INFO structure pointer, SERVICE_SID_INFO, SERVICE_SID_INFO structure, SERVICE_SID_TYPE_NONE, SERVICE_SID_TYPE_RESTRICTED, SERVICE_SID_TYPE_UNRESTRICTED, _SERVICE_SID_INFO, base.service_sid_info, winsvc/LPSERVICE_SID_INFO, winsvc/SERVICE_SID_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_SID_INFO, *LPSERVICE_SID_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVICE_SID_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SERVICE_SID_INFO, *LPSERVICE_SID_INFO
+req.redist: 
 ---
 
 # _SERVICE_SID_INFO structure

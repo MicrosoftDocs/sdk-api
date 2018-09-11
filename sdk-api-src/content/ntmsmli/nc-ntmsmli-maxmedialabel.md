@@ -4,17 +4,16 @@ title: MAXMEDIALABEL
 author: windows-sdk-content
 description: The MaxMediaLabel callback function determines the maximum size of the media label for the applications supported by the media label library.
 old-location: fs\maxmedialabel.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: b770cc63-e1dd-4d1a-8009-8e1bdc9ce69c
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: MaxMediaLabel, MaxMediaLabel callback, MaxMediaLabel callback function [Files], _zaw_maxmedialabel, base.maxmedialabel, fs.maxmedialabel, ntmsmli/MaxMediaLabel
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntmsmli.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTMS_STORAGESLOTINFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MaxMediaLabel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # MAXMEDIALABEL callback function

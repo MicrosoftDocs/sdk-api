@@ -4,17 +4,16 @@ title: "_GET_VIRTUAL_DISK_INFO"
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) information.
 old-location: vhd\get_virtual_disk_info.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 666c1d6e-cf23-4452-98ea-e7d4c31c3d3b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PGET_VIRTUAL_DISK_INFO, GET_VIRTUAL_DISK_INFO, GET_VIRTUAL_DISK_INFO structure [VHD], PGET_VIRTUAL_DISK_INFO, PGET_VIRTUAL_DISK_INFO structure pointer [VHD], _GET_VIRTUAL_DISK_INFO, vdssys/GET_VIRTUAL_DISK_INFO, vdssys/PGET_VIRTUAL_DISK_INFO, vhd.get_virtual_disk_info, virtdisk/GET_VIRTUAL_DISK_INFO, virtdisk/PGET_VIRTUAL_DISK_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GET_VIRTUAL_DISK_INFO, *PGET_VIRTUAL_DISK_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GET_VIRTUAL_DISK_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: GET_VIRTUAL_DISK_INFO, *PGET_VIRTUAL_DISK_INFO
+req.redist: 
 ---
 
 # _GET_VIRTUAL_DISK_INFO structure

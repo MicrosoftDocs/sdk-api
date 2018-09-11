@@ -4,17 +4,16 @@ title: IWMPError::webHelp
 author: windows-sdk-content
 description: The webHelp method launches the Windows Media Player Web Help page to display further information about the first error in the error queue (index zero).
 old-location: wmp\iwmperror_webhelp.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 98ece2f3-36c4-4bb2-9a06-c3ce57cbcbe7
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPError interface [Windows Media Player],webHelp method, IWMPError.webHelp, IWMPError::webHelp, IWMPErrorwebHelp, webHelp, webHelp method [Windows Media Player], webHelp method [Windows Media Player],IWMPError interface, wmp.iwmperror_webhelp, wmp/IWMPError::webHelp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPError.webHelp
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPError::webHelp

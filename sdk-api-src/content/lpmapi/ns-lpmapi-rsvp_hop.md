@@ -4,17 +4,16 @@ title: RSVP_HOP
 author: windows-sdk-content
 description: The RSVP_HOP structure contains information about an RSVP-enabled hop.
 old-location: qos\rsvp_hop.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 4b23bc0e-ccea-4161-93fa-b136099e88bd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RSVP_HOP, RSVP_HOP structure [QOS], lpmapi/RSVP_HOP, qos.rsvp_hop
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_HOP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RSVP_HOP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RSVP_HOP
+req.redist: 
 ---
 
 # RSVP_HOP structure

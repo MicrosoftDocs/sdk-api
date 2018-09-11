@@ -4,17 +4,16 @@ title: IWMPPlaylist::appendItem
 author: windows-sdk-content
 description: The appendItem method adds a media item to the end of the playlist.
 old-location: wmp\iwmpplaylist_appenditem.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: e6db41d8-a4d5-4cab-9612-0562f3e92c25
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],appendItem method, IWMPPlaylist.appendItem, IWMPPlaylist::appendItem, IWMPPlaylistappendItem, appendItem, appendItem method [Windows Media Player], appendItem method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_appenditem, wmp/IWMPPlaylist::appendItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPPlaylist.appendItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPPlaylist::appendItem

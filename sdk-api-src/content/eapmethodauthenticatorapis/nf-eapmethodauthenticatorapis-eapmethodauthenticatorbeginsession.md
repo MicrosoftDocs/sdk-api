@@ -4,17 +4,16 @@ title: EapMethodAuthenticatorBeginSession function
 author: windows-sdk-content
 description: Creates a new EAP authentication session on the server EAPHost.
 old-location: eaphost\eapmethodauthenticatorbeginsession.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 02364783-71e4-4af0-95a2-a4ade7e17521
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapMethodAuthenticatorBeginSession, EapMethodAuthenticatorBeginSession function [EAPHost], eaphost.eapmethodauthenticatorbeginsession, eapmethodauthenticatorapis/EapMethodAuthenticatorBeginSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAPHOST_AUTH_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapMethodAuthenticatorBeginSession
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapMethodAuthenticatorBeginSession function

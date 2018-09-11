@@ -4,7 +4,7 @@ title: lineagentcaps_tag
 author: windows-sdk-content
 description: The LINEAGENTCAPS structure describes the capabilities of an ACD agent. The lineGetAgentCaps function returns the LINEAGENTCAPS structure.
 old-location: tapi2\lineagentcaps_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: e4c5ece8-7b29-4154-9b38-f2b17049446f
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEAGENTCAPS, *LPLINEAGENTCAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEAGENTCAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEAGENTCAPS, *LPLINEAGENTCAPS
+req.redist: 
 ---
 
 # lineagentcaps_tag structure

@@ -4,17 +4,16 @@ title: OpenTransaction function
 author: windows-sdk-content
 description: Opens an existing transaction.
 old-location: fs\opentransaction.htm
-old-project: ktm
+tech.root: ktm
 ms.assetid: d95f15e4-d0fd-4665-849d-eecac8fc542b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: OpenTransaction, OpenTransaction function [Files], fs.opentransaction, ktmw32/OpenTransaction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+req.lib: Ktmw32.lib
+req.dll: Ktmw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OpenTransaction
 product: Windows
 targetos: Windows
-req.lib: Ktmw32.lib
-req.dll: Ktmw32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # OpenTransaction function

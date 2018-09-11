@@ -4,17 +4,16 @@ title: ITfDocumentMgr::Push
 author: windows-sdk-content
 description: ITfDocumentMgr::Push method
 old-location: tsf\itfdocumentmgr_push.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: afd5452b-4121-428d-801f-1638c2767c67
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfDocumentMgr interface [Text Services Framework],Push method, ITfDocumentMgr.Push, ITfDocumentMgr::Push, Push, Push method [Text Services Framework], Push method [Text Services Framework],ITfDocumentMgr interface, _tsf_itfdocumentmgr_push_ref, msctf/ITfDocumentMgr::Push, tsf.itfdocumentmgr_push
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfDocumentMgr.Push
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfDocumentMgr::Push

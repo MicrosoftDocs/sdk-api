@@ -4,17 +4,16 @@ title: DWRITE_READING_DIRECTION
 author: windows-sdk-content
 description: Specifies the direction in which reading progresses.
 old-location: directwrite\dwrite_reading_direction.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 37288d34-d533-474c-b3c0-8c6361074a9b
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_READING_DIRECTION, DWRITE_READING_DIRECTION enumeration [Direct Write], DWRITE_READING_DIRECTION_BOTTOM_TO_TOP, DWRITE_READING_DIRECTION_LEFT_TO_RIGHT, DWRITE_READING_DIRECTION_RIGHT_TO_LEFT, DWRITE_READING_DIRECTION_TOP_TO_BOTTOM, directwrite.dwrite_reading_direction, dwrite/DWRITE_READING_DIRECTION, dwrite/DWRITE_READING_DIRECTION_BOTTOM_TO_TOP, dwrite/DWRITE_READING_DIRECTION_LEFT_TO_RIGHT, dwrite/DWRITE_READING_DIRECTION_RIGHT_TO_LEFT, dwrite/DWRITE_READING_DIRECTION_TOP_TO_BOTTOM
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_READING_DIRECTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_READING_DIRECTION enumeration

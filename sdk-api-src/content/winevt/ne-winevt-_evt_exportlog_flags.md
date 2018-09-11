@@ -4,17 +4,16 @@ title: "_EVT_EXPORTLOG_FLAGS"
 author: windows-sdk-content
 description: Defines values that indicate whether the events come from a channel or log file.
 old-location: wes\evt_exportlog_flags.htm
-old-project: wes
+tech.root: WES
 ms.assetid: 02a63a3c-5c9b-485f-bd52-a97c40cb83d1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EVT_EXPORTLOG_FLAGS, EVT_EXPORTLOG_FLAGS enumeration [EventLog], EvtExportLogChannelPath, EvtExportLogFilePath, EvtExportLogTolerateQueryErrors, _EVT_EXPORTLOG_FLAGS, wes.evt_exportlog_flags, winevt/EVT_EXPORTLOG_FLAGS, winevt/EvtExportLogChannelPath, winevt/EvtExportLogFilePath, winevt/EvtExportLogTolerateQueryErrors
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_EXPORTLOG_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_EXPORTLOG_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_EXPORTLOG_FLAGS
+req.redist: 
 ---
 
 # _EVT_EXPORTLOG_FLAGS enumeration

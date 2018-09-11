@@ -4,17 +4,16 @@ title: IWSManSession::Put
 author: windows-sdk-content
 description: Updates a resource.
 old-location: winrm\iwsmansession_put.htm
-old-project: winrm
+tech.root: WinRM
 ms.assetid: 1224dab8-82d1-4416-8c21-e84fdda15deb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSManSession interface [Windows Remote Management],Put method, IWSManSession.Put, IWSManSession::Put, Put, Put method [Windows Remote Management], Put method [Windows Remote Management],IWSManSession interface, winrm.iwsmansession_put, wsmandisp/IWSManSession::Put
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManProxyAuthenticationFlags
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSManSession.Put
 product: Windows
 targetos: Windows
-req.lib: WSManDisp.tlb
-req.dll: WSMAuto.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSManSession::Put
@@ -85,7 +83,7 @@ Reserved for future use. Must be set to 0.
 
 ### -param resultResource
 
-
+TBD
 
 
 

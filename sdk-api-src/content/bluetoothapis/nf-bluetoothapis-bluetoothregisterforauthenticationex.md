@@ -4,17 +4,16 @@ title: BluetoothRegisterForAuthenticationEx function
 author: windows-sdk-content
 description: The BluetoothRegisterForAuthenticationEx function registers an application for a pin request, numeric comparison and callback function.
 old-location: bluetooth\bluetoothregisterforauthenticationex.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: c9838f27-3450-4d51-be58-ce515d06d5cb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BluetoothRegisterForAuthenticationEx, BluetoothRegisterForAuthenticationEx function [Bluetooth], bluetooth.bluetoothregisterforauthenticationex, bluetoothapis/BluetoothRegisterForAuthenticationEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_IO_CAPABILITY
+req.lib: Bthprops.lib
+req.dll: Bthprops.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - BluetoothRegisterForAuthenticationEx
 product: Windows
 targetos: Windows
-req.lib: Bthprops.lib
-req.dll: Bthprops.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothRegisterForAuthenticationEx function

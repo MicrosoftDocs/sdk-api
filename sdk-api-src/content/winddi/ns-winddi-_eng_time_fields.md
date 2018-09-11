@@ -4,7 +4,7 @@ title: "_ENG_TIME_FIELDS"
 author: windows-sdk-content
 description: The ENG_TIME_FIELDS structure is used by the EngQueryLocalTime function to return the local time.
 old-location: display\eng_time_fields.htm
-old-project: display
+tech.root: display
 ms.assetid: 482e1d15-d499-4ed2-87e7-760f03a454b5
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENG_TIME_FIELDS, *PENG_TIME_FIELDS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ENG_TIME_FIELDS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: ENG_TIME_FIELDS, *PENG_TIME_FIELDS
+req.redist: 
 ---
 
 # _ENG_TIME_FIELDS structure

@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSinkEvent2::EncryptionOn
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersinkevent2_encryptionon.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 753f33bc-2430-4c76-bf9b-ccd5aeaf6676
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: EncryptionOn, EncryptionOn method [Microsoft TV Technologies], EncryptionOn method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent2 interface, IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies],EncryptionOn method, IMSVidStreamBufferSinkEvent2.EncryptionOn, IMSVidStreamBufferSinkEvent2::EncryptionOn, IMSVidStreamBufferSinkEvent2EncryptionOn, mstv.imsvidstreambuffersinkevent2_encryptionon, segment/IMSVidStreamBufferSinkEvent2::EncryptionOn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSinkEvent2.EncryptionOn
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSinkEvent2::EncryptionOn

@@ -4,17 +4,16 @@ title: tagPENDINGMSG
 author: windows-sdk-content
 description: Specifies the return values for the IMessageFilter::MessagePending method.
 old-location: com\pendingmsg.htm
-old-project: com
+tech.root: com
 ms.assetid: 105bbcd4-b1b2-444d-bd55-7f6e564fec42
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PENDINGMSG, PENDINGMSG enumeration [COM], PENDINGMSG_CANCELCALL, PENDINGMSG_WAITDEFPROCESS, PENDINGMSG_WAITNOPROCESS, _com_PENDINGMSG, com.pendingmsg, objidl/PENDINGMSG, objidl/PENDINGMSG_CANCELCALL, objidl/PENDINGMSG_WAITDEFPROCESS, objidl/PENDINGMSG_WAITNOPROCESS, tagPENDINGMSG
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Objidlbase.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PENDINGMSG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PENDINGMSG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: PENDINGMSG
+req.redist: 
 ---
 
 # tagPENDINGMSG enumeration

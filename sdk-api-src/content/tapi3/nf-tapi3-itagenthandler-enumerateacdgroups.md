@@ -4,17 +4,16 @@ title: ITAgentHandler::EnumerateACDGroups
 author: windows-sdk-content
 description: The EnumerateACDGroups method enumerates ACD groups currently associated with the agent handler.
 old-location: tapi3\itagenthandler_enumerateacdgroups.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: a9078166-ff6a-4520-8209-e785bd6e7100
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumerateACDGroups, EnumerateACDGroups method [TAPI 2.2], EnumerateACDGroups method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],EnumerateACDGroups method, ITAgentHandler.EnumerateACDGroups, ITAgentHandler::EnumerateACDGroups, _tapi3_itagenthandler_enumerateacdgroups, tapi3.itagenthandler_enumerateacdgroups, tapi3cc/ITAgentHandler::EnumerateACDGroups
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentHandler.EnumerateACDGroups
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentHandler::EnumerateACDGroups

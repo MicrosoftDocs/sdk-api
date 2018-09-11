@@ -4,17 +4,16 @@ title: IWdsTransportServicePolicy::get_StartPort
 author: windows-sdk-content
 description: Enables a WDS client computer to configure the start of a UDP port range that is used by WDS transport services.
 old-location: wds\iwdstransportservicepolicy_startport.htm
-old-project: wds
+tech.root: Wds
 ms.assetid: 0ef74479-f732-4b7b-8d40-29c359901837
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],StartPort property, IWdsTransportServicePolicy.StartPort, IWdsTransportServicePolicy.get_StartPort, IWdsTransportServicePolicy::StartPort, IWdsTransportServicePolicy::get_StartPort, IWdsTransportServicePolicy::put_StartPort, StartPort property [Windows Deployment Services], StartPort property [Windows Deployment Services],IWdsTransportServicePolicy interface, get_StartPort, wds.iwdstransportservicepolicy_startport, wdstptmgmt/IWdsTransportServicePolicy::StartPort, wdstptmgmt/IWdsTransportServicePolicy::get_StartPort, wdstptmgmt/IWdsTransportServicePolicy::put_StartPort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IWdsTransportServicePolicy.put_StartPort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportServicePolicy::get_StartPort

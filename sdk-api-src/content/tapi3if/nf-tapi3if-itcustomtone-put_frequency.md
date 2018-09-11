@@ -4,17 +4,16 @@ title: ITCustomTone::put_Frequency
 author: windows-sdk-content
 description: The put_Frequency method sets the frequency of the tone component to generate.
 old-location: tapi3\itcustomtone_put_frequency.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 1faae20a-40a7-48d7-9621-5f1761c28773
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],put_Frequency method, ITCustomTone.put_Frequency, ITCustomTone::put_Frequency, _tapi3_itcustomtone_put_frequency, put_Frequency, put_Frequency method [TAPI 2.2], put_Frequency method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_put_frequency, tapi3if/ITCustomTone::put_Frequency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCustomTone.put_Frequency
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCustomTone::put_Frequency

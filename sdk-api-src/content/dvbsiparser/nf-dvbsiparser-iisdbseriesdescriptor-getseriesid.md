@@ -4,17 +4,16 @@ title: IIsdbSeriesDescriptor::GetSeriesId
 author: windows-sdk-content
 description: Gets a unique series identifier from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getseriesid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 90de5108-1d40-475b-83fe-20b68fa3f748
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSeriesId, GetSeriesId method [Microsoft TV Technologies], GetSeriesId method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetSeriesId method, IIsdbSeriesDescriptor.GetSeriesId, IIsdbSeriesDescriptor::GetSeriesId, dvbsiparser/IIsdbSeriesDescriptor::GetSeriesId, mstv.iisdbseriesdescriptor_getseriesid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbSeriesDescriptor.GetSeriesId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbSeriesDescriptor::GetSeriesId

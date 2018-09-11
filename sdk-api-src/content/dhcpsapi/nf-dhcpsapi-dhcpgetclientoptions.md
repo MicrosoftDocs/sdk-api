@@ -4,17 +4,16 @@ title: DhcpGetClientOptions function
 author: windows-sdk-content
 description: Returns only ERROR_NOT_IMPLEMENTED, as it is not used or supported.
 old-location: dhcp\dhcpgetclientoptions.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 60f4db5f-0359-4738-980e-2a56adbf551e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpGetClientOptions, DhcpGetClientOptions function [DHCP], dhcp.dhcpgetclientoptions, dhcpsapi/DhcpGetClientOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpGetClientOptions
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpGetClientOptions function

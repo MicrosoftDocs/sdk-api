@@ -4,17 +4,16 @@ title: IMFPresentationClock::Stop
 author: windows-sdk-content
 description: Stops the presentation clock. While the clock is stopped, the clock time does not advance, and the clock's IMFPresentationClock::GetTime method returns zero.
 old-location: mf\imfpresentationclock_stop.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 54377d65-2af7-410d-b8cf-45f467527a45
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 54377d65-2af7-410d-b8cf-45f467527a45, IMFPresentationClock interface [Media Foundation],Stop method, IMFPresentationClock.Stop, IMFPresentationClock::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFPresentationClock interface, mf.imfpresentationclock_stop, mfidl/IMFPresentationClock::Stop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFPresentationClock.Stop
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPresentationClock::Stop

@@ -4,17 +4,16 @@ title: IDWriteBitmapRenderTarget::DrawGlyphRun
 author: windows-sdk-content
 description: Draws a run of glyphs to a bitmap target at the specified position.
 old-location: directwrite\IDWriteBitmapRenderTarget_DrawGlyphRun.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: d766d2d1-6be7-468a-a10e-c7cab421b9a7
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DrawGlyphRun, DrawGlyphRun method [Direct Write], DrawGlyphRun method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],DrawGlyphRun method, IDWriteBitmapRenderTarget.DrawGlyphRun, IDWriteBitmapRenderTarget::DrawGlyphRun, directwrite.IDWriteBitmapRenderTarget_DrawGlyphRun, dwrite/IDWriteBitmapRenderTarget::DrawGlyphRun
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteBitmapRenderTarget.DrawGlyphRun
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteBitmapRenderTarget::DrawGlyphRun

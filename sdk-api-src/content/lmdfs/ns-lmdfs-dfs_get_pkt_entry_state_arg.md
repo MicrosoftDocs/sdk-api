@@ -4,7 +4,7 @@ title: DFS_GET_PKT_ENTRY_STATE_ARG
 author: windows-sdk-content
 description: Input buffer used with the FSCTL_DFS_GET_PKT_ENTRY_STATE control code.
 old-location: dfs\dfs_get_pkt_entry_state_arg.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: eb69d346-d88c-48e8-abd7-5cbb5976f41f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_GET_PKT_ENTRY_STATE_ARG, *PDFS_GET_PKT_ENTRY_STATE_ARG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DFS_GET_PKT_ENTRY_STATE_ARG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DFS_GET_PKT_ENTRY_STATE_ARG, *PDFS_GET_PKT_ENTRY_STATE_ARG
+req.redist: 
 ---
 
 # DFS_GET_PKT_ENTRY_STATE_ARG structure

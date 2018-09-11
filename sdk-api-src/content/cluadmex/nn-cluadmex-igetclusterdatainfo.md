@@ -4,17 +4,16 @@ title: IGetClusterDataInfo
 author: windows-sdk-content
 description: The IGetClusterDataInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a cluster.
 old-location: mscs\igetclusterdatainfo.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: a2800ac8-a865-4e66-8147-90e95b54cb0c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IGetClusterDataInfo, IGetClusterDataInfo interface [Failover Cluster], IGetClusterDataInfo interface [Failover Cluster],described, _wolf_igetclusterdatainfo, cluadmex/IGetClusterDataInfo, mscs.igetclusterdatainfo
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetClusterDataInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetClusterDataInfo interface

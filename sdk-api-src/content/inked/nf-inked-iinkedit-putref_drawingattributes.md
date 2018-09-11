@@ -4,17 +4,16 @@ title: IInkEdit::putref_DrawingAttributes
 author: windows-sdk-content
 description: Gets or sets the drawing attributes for ink that is yet to be drawn on the InkEdit control.
 old-location: tablet\inkedit_drawingattributes.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 8f5f00a2-abe1-487e-a067-2b6d929824c7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 8f5f00a2-abe1-487e-a067-2b6d929824c7, DrawingAttributes property [Tablet PC], DrawingAttributes property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],DrawingAttributes property, IInkEdit.DrawingAttributes, IInkEdit.putref_DrawingAttributes, IInkEdit::DrawingAttributes, IInkEdit::get_DrawingAttributes, IInkEdit::putref_DrawingAttributes, InkEdit.get_DrawingAttributes, get_DrawingAttributes, inked/IInkEdit::DrawingAttributes, inked/IInkEdit::get_DrawingAttributes, inked/IInkEdit::putref_DrawingAttributes, put_DrawingAttributes, putref_DrawingAttributes, tablet.inkedit_drawingattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - InkEdit.get_DrawingAttributes
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::putref_DrawingAttributes

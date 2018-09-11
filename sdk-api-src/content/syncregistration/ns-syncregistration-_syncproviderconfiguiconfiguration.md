@@ -4,17 +4,16 @@ title: "_SyncProviderConfigUIConfiguration"
 author: windows-sdk-content
 description: Represents the information for a synchronization provider configuration UI.
 old-location: winsync\syncproviderconfiguiconfiguration.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 4f07719b-c1e5-4985-a952-0ff07601bf1a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: SyncProviderConfigUI, SyncProviderConfigUI structure [Windows Sync], SyncProviderConfigUIConfiguration, SyncProviderConfigUIConfiguration structure [Windows Sync], _SyncProviderConfigUIConfiguration, syncregistration/SyncProviderConfigUI, winsync.syncproviderconfiguiconfiguration
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SyncProviderConfigUIConfiguration
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SyncProviderConfigUI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SyncProviderConfigUIConfiguration
+req.redist: 
 ---
 
 # _SyncProviderConfigUIConfiguration structure

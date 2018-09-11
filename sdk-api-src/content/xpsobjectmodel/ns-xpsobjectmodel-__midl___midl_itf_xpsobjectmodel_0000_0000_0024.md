@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0024"
 author: windows-sdk-content
 description: The contents of the XPS_COLOR structure when the colorType is XPS_COLOR_TYPE_CONTEXT.
 old-location: xps\xps_color_type_context.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 76dcabb0-2407-4877-9f52-100883746695
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_COLOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XPS_COLOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: XPS_COLOR
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0024 structure

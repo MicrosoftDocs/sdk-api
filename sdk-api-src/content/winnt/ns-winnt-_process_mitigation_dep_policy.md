@@ -4,7 +4,7 @@ title: "_PROCESS_MITIGATION_DEP_POLICY"
 author: windows-sdk-content
 description: Contains process mitigation policy settings for data execution prevention (DEP).
 old-location: base\process_mitigation_dep_policy.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 49f257fe-82e2-41b3-b692-9c88d5896273
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MITIGATION_DEP_POLICY, *PPROCESS_MITIGATION_DEP_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROCESS_MITIGATION_DEP_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: PROCESS_MITIGATION_DEP_POLICY, *PPROCESS_MITIGATION_DEP_POLICY
+req.redist: 
 ---
 
 # _PROCESS_MITIGATION_DEP_POLICY structure

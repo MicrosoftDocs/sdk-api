@@ -4,7 +4,7 @@ title: "_DD_WAITFORVERTICALBLANKDATA"
 author: windows-sdk-content
 description: The DD_WAITFORVERTICALBLANKDATA structure contains information necessary to obtain the monitor's vertical blank information.
 old-location: display\dd_waitforverticalblankdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 27224fb2-3843-4843-b66f-0a3dd8325e1f
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_WAITFORVERTICALBLANKDATA, DD_WAITFORVERTICALBLANKDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDHAL_WAITFORVERTICALBLANKDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_WAITFORVERTICALBLANKDATA, DD_WAITFORVERTICALBLANKDATA"
+req.redist: 
 ---
 
 # _DD_WAITFORVERTICALBLANKDATA structure

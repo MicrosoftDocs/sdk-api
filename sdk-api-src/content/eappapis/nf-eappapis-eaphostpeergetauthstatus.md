@@ -4,17 +4,16 @@ title: EapHostPeerGetAuthStatus function
 author: windows-sdk-content
 description: Obtains the supplicant's current EAP authentication status from EAPHost.
 old-location: eaphost\eaphostpeergetauthstatus.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: cb5ceffb-941f-48ad-9271-111f41adc65b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapHostNapInfo, EapHostPeerAuthStatus, EapHostPeerGetAuthStatus, EapHostPeerGetAuthStatus function [EAPHost], EapHostPeerIdentity, EapHostPeerIdentityExtendedInfo, eaphost.eaphostpeergetauthstatus, eappapis/EapHostPeerGetAuthStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EapPacket
+req.lib: Eappprxy.lib
+req.dll: Eappprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapHostPeerGetAuthStatus
 product: Windows
 targetos: Windows
-req.lib: Eappprxy.lib
-req.dll: Eappprxy.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapHostPeerGetAuthStatus function

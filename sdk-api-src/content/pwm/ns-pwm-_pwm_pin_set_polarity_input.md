@@ -4,7 +4,7 @@ title: "_PWM_PIN_SET_POLARITY_INPUT"
 author: windows-sdk-content
 description: Contains a desired value for polarity of a pin or channel.
 old-location: base\pwm_pin_set_polarity_input.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 346F981E-DAE1-4CEE-86A6-4416E3C293DE
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pwm.h
 req.include-header: Pwm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PWM_PIN_SET_POLARITY_INPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PWM_PIN_SET_POLARITY_INPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PWM_PIN_SET_POLARITY_INPUT
+req.redist: 
 ---
 
 # _PWM_PIN_SET_POLARITY_INPUT structure

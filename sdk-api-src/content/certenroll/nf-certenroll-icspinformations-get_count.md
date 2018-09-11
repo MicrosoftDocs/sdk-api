@@ -4,17 +4,16 @@ title: ICspInformations::get_Count
 author: windows-sdk-content
 description: Retrieves the number of ICspInformation objects in the collection.
 old-location: security\icspinformations_count_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 7221e564-07c4-47ab-bb32-c1e94406eab9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Count property [Security], Count property [Security],ICspInformations interface, ICspInformations interface [Security],Count property, ICspInformations.Count, ICspInformations.get_Count, ICspInformations::Count, ICspInformations::get_Count, certenroll/ICspInformations::Count, certenroll/ICspInformations::get_Count, get_Count, security.icspinformations_count_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspInformations.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspInformations::get_Count

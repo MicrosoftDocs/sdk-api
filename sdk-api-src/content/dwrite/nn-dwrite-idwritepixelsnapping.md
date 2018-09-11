@@ -4,17 +4,16 @@ title: IDWritePixelSnapping
 author: windows-sdk-content
 description: Defines the pixel snapping properties such as pixels per DIP(device-independent pixel) and the current transform matrix of a text renderer.
 old-location: directwrite\IDWritePixelSnapping.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: b1b1eeb7-934f-42f4-ac01-50973a94996e
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWritePixelSnapping, IDWritePixelSnapping interface [Direct Write], IDWritePixelSnapping interface [Direct Write],described, directwrite.IDWritePixelSnapping, dwrite/IDWritePixelSnapping
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWritePixelSnapping
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWritePixelSnapping interface

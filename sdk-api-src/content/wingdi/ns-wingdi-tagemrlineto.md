@@ -4,7 +4,7 @@ title: tagEMRLINETO
 author: windows-sdk-content
 description: The EMRLINETO and EMRMOVETOEX structures contains members for the LineTo and MoveToEx enhanced metafile records.
 old-location: gdi\emrlineto__emrmovetoex.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 876db90d-3775-48e8-8911-e6612a3484ae
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMRLINETO, *PEMRLINETO, EMRMOVETOEX, *PEMRMOVETOEX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EMRLINETO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EMRLINETO, *PEMRLINETO, EMRMOVETOEX, *PEMRMOVETOEX
+req.redist: 
 ---
 
 # tagEMRLINETO structure

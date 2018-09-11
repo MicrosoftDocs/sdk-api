@@ -4,17 +4,16 @@ title: WTSQueryUserToken function
 author: windows-sdk-content
 description: Obtains the primary access token of the logged-on user specified by the session ID.
 old-location: termserv\wtsqueryusertoken.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 5b33b67a-ab19-4c09-94a2-1ab8008551a8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WTSQueryUserToken, WTSQueryUserToken function [Remote Desktop Services], _win32_wtsqueryusertoken, termserv.wtsqueryusertoken, wtsapi32/WTSQueryUserToken
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_VIRTUAL_CLASS
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WTSQueryUserToken
 product: Windows
 targetos: Windows
-req.lib: Wtsapi32.lib
-req.dll: Wtsapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WTSQueryUserToken function

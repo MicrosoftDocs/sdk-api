@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::GetPixelFormat
 author: windows-sdk-content
 description: Retrieves the color and pixel format of this surface.
 old-location: directdraw\idirectdrawsurface7_getpixelformat.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 2c33c46b-6cd7-4ee7-976c-a81f9d92b379
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [DirectDraw], GetPixelFormat method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetPixelFormat method, IDirectDrawSurface7.GetPixelFormat, IDirectDrawSurface7::GetPixelFormat, ddraw/IDirectDrawSurface7::GetPixelFormat, directdraw.idirectdrawsurface7_getpixelformat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.GetPixelFormat
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::GetPixelFormat

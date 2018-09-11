@@ -4,17 +4,16 @@ title: "_CRYPT_TIMESTAMP_PARA"
 author: windows-sdk-content
 description: Defines additional parameters for the time stamp request.
 old-location: security\crypt_timestamp_para.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 26a6e9d3-b35e-47ae-9cea-a37ca6297c28
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_TIMESTAMP_PARA, CRYPT_TIMESTAMP_PARA, CRYPT_TIMESTAMP_PARA structure [Security], PCRYPT_TIMESTAMP_PARA, PCRYPT_TIMESTAMP_PARA structure pointer [Security], _CRYPT_TIMESTAMP_PARA, security.crypt_timestamp_para, wincrypt/CRYPT_TIMESTAMP_PARA, wincrypt/PCRYPT_TIMESTAMP_PARA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_TIMESTAMP_PARA, *PCRYPT_TIMESTAMP_PARA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_TIMESTAMP_PARA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_TIMESTAMP_PARA, *PCRYPT_TIMESTAMP_PARA
+req.redist: 
 ---
 
 # _CRYPT_TIMESTAMP_PARA structure

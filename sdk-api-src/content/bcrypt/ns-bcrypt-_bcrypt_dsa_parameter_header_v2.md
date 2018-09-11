@@ -4,17 +4,16 @@ title: "_BCRYPT_DSA_PARAMETER_HEADER_V2"
 author: windows-sdk-content
 description: Contains parameter header information for a Digital Signature Algorithm (DSA) key.
 old-location: security\bcrypt_dsa_parameter_header_v2.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 25FF89D8-1E3E-433B-AC5C-1CADC09A49D0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCRYPT_DSA_PARAMETERS_MAGIC_V2, BCRYPT_DSA_PARAMETER_HEADER_V2, BCRYPT_DSA_PARAMETER_HEADER_V2 structure [Security], PBCRYPT_DSA_PARAMETER_HEADER_V2, PBCRYPT_DSA_PARAMETER_HEADER_V2 structure pointer [Security], _BCRYPT_DSA_PARAMETER_HEADER_V2, bcrypt/BCRYPT_DSA_PARAMETER_HEADER_V2, bcrypt/PBCRYPT_DSA_PARAMETER_HEADER_V2, security.bcrypt_dsa_parameter_header_v2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_DSA_PARAMETER_HEADER_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_DSA_PARAMETER_HEADER_V2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_DSA_PARAMETER_HEADER_V2
+req.redist: 
 ---
 
 # _BCRYPT_DSA_PARAMETER_HEADER_V2 structure

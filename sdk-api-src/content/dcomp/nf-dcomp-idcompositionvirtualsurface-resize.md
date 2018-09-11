@@ -4,17 +4,16 @@ title: IDCompositionVirtualSurface::Resize
 author: windows-sdk-content
 description: Changes the logical size of this virtual surface object.
 old-location: directcomp\idcompositionvirtualsurface_resize.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: BB86CDA8-1DF0-436D-9FA3-95293E2B8C0E
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionVirtualSurface interface [DirectComposition],Resize method, IDCompositionVirtualSurface.Resize, IDCompositionVirtualSurface::Resize, Resize, Resize method [DirectComposition], Resize method [DirectComposition],IDCompositionVirtualSurface interface, dcomp/IDCompositionVirtualSurface::Resize, directcomp.idcompositionvirtualsurface_resize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionVirtualSurface.Resize
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionVirtualSurface::Resize

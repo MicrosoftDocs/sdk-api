@@ -4,17 +4,16 @@ title: IVdsLunPlex::GetLun
 author: windows-sdk-content
 description: Returns the LUN to which the plex belongs.
 old-location: base\ivdslunplex_getlun.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 74f9fed5-f33d-4e88-b3d2-7eb8ef33711e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetLun, GetLun method [VDS], GetLun method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],GetLun method, IVdsLunPlex.GetLun, IVdsLunPlex::GetLun, base.ivdslunplex_getlun, vds/IVdsLunPlex::GetLun, vdshwprv/IVdsLunPlex::GetLun
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLunPlex.GetLun
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsLunPlex::GetLun

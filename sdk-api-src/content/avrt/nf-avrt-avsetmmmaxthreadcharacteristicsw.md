@@ -4,17 +4,16 @@ title: AvSetMmMaxThreadCharacteristicsW function
 author: windows-sdk-content
 description: Associates the calling thread with the specified tasks.
 old-location: base\avsetmmmaxthreadcharacteristics.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: d8137b53-b1fd-4c25-909a-d0ed671848df
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: AvSetMmMaxThreadCharacteristics, AvSetMmMaxThreadCharacteristics function, AvSetMmMaxThreadCharacteristicsA, AvSetMmMaxThreadCharacteristicsW, avrt/AvSetMmMaxThreadCharacteristics, avrt/AvSetMmMaxThreadCharacteristicsA, avrt/AvSetMmMaxThreadCharacteristicsW, base.avsetmmmaxthreadcharacteristics
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: avrt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVRF_HEAP_ALLOCATION, *PAVRF_HEAP_ALLOCATION
+req.lib: Avrt.lib
+req.dll: Avrt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AvSetMmMaxThreadCharacteristicsW
 product: Windows
 targetos: Windows
-req.lib: Avrt.lib
-req.dll: Avrt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AvSetMmMaxThreadCharacteristicsW function

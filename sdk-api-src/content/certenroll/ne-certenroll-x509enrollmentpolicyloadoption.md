@@ -4,17 +4,16 @@ title: X509EnrollmentPolicyLoadOption
 author: windows-sdk-content
 description: Is used by the LoadPolicy method on the IX509EnrollmentPolicyServer interface to specify how to retrieve policy from the policy server.
 old-location: security\x509enrollmentpolicyloadoption.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 94adcffd-b4fe-4bd9-912c-9e8d5e5fdb5b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: LoadOptionCacheOnly, LoadOptionDefault, LoadOptionRegisterForADChanges, LoadOptionReload, X509EnrollmentPolicyLoadOption, X509EnrollmentPolicyLoadOption enumeration [Security], certenroll/LoadOptionCacheOnly, certenroll/LoadOptionDefault, certenroll/LoadOptionRegisterForADChanges, certenroll/LoadOptionReload, certenroll/X509EnrollmentPolicyLoadOption, security.x509enrollmentpolicyloadoption
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentPolicyLoadOption
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X509EnrollmentPolicyLoadOption
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: X509EnrollmentPolicyLoadOption
+req.redist: 
 ---
 
 # X509EnrollmentPolicyLoadOption enumeration

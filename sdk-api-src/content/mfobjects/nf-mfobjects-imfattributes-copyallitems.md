@@ -4,17 +4,16 @@ title: IMFAttributes::CopyAllItems
 author: windows-sdk-content
 description: Copies all of the attributes from this object into another attribute store.
 old-location: mf\imfattributes_copyallitems.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 111b55bc-fb8e-45b5-a709-703acd23c4be
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 111b55bc-fb8e-45b5-a709-703acd23c4be, CopyAllItems, CopyAllItems method [Media Foundation], CopyAllItems method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],CopyAllItems method, IMFAttributes.CopyAllItems, IMFAttributes::CopyAllItems, mf.imfattributes_copyallitems, mfobjects/IMFAttributes::CopyAllItems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFAttributes.CopyAllItems
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFAttributes::CopyAllItems

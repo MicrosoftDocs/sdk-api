@@ -4,17 +4,16 @@ title: IBDA_PinControl::RegistrationContext
 author: windows-sdk-content
 description: The RegistrationContext method retrieves the registration context of a particular pin.
 old-location: mstv\ibda_pincontrol_registrationcontext.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6e54bb4e-9c65-4f57-ba4a-c5b35ccaae1f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_PinControl interface [Microsoft TV Technologies],RegistrationContext method, IBDA_PinControl.RegistrationContext, IBDA_PinControl::RegistrationContext, IBDA_PinControlRegistrationContext, RegistrationContext, RegistrationContext method [Microsoft TV Technologies], RegistrationContext method [Microsoft TV Technologies],IBDA_PinControl interface, bdaiface/IBDA_PinControl::RegistrationContext, mstv.ibda_pincontrol_registrationcontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_PinControl.RegistrationContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_PinControl::RegistrationContext

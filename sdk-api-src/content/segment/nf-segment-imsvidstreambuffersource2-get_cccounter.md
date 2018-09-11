@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSource2::get_CCCounter
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersource2_get_cccounter.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 58aa567a-6ef3-4e8b-9155-f262ac1a7557
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],get_CCCounter method, IMSVidStreamBufferSource2.get_CCCounter, IMSVidStreamBufferSource2::get_CCCounter, IMSVidStreamBufferSource2get_CCCounter, get_CCCounter, get_CCCounter method [Microsoft TV Technologies], get_CCCounter method [Microsoft TV Technologies],IMSVidStreamBufferSource2 interface, mstv.imsvidstreambuffersource2_get_cccounter, segment/IMSVidStreamBufferSource2::get_CCCounter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSource2.get_CCCounter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSource2::get_CCCounter

@@ -4,17 +4,16 @@ title: IViewObjectEx::QueryHitRect
 author: windows-sdk-content
 description: Indicates whether any point in a rectangle is within a given drawing aspect of an object.
 old-location: com\iviewobjectex_queryhitrect.htm
-old-project: com
+tech.root: com
 ms.assetid: eb155424-e74c-497f-a9c0-33ed3b2b5513
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IViewObjectEx interface [COM],QueryHitRect method, IViewObjectEx.QueryHitRect, IViewObjectEx::QueryHitRect, QueryHitRect, QueryHitRect method [COM], QueryHitRect method [COM],IViewObjectEx interface, _ole_iviewobjectex_queryhitrect, com.iviewobjectex_queryhitrect, ocidl/IViewObjectEx::QueryHitRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IViewObjectEx.QueryHitRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IViewObjectEx::QueryHitRect

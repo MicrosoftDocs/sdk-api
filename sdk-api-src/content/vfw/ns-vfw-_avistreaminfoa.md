@@ -4,7 +4,7 @@ title: "_AVISTREAMINFOA"
 author: windows-sdk-content
 description: The AVISTREAMINFO structure contains information for a single stream.
 old-location: multimedia\avistreaminfo_struct.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: dca6d9ca-a825-4bd0-a19d-0655d775fdfb
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOA, *LPAVISTREAMINFOA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AVISTREAMINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: AVISTREAMINFOA, *LPAVISTREAMINFOA
+req.redist: 
 ---
 
 # _AVISTREAMINFOA structure

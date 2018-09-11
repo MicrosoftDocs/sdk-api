@@ -4,17 +4,16 @@ title: ITBasicAudioTerminal::put_Balance
 author: windows-sdk-content
 description: The put_Balance method sets the balance. This method is not implemented for terminals shipped with TAPI 3.0 and higher.
 old-location: tapi3\itbasicaudioterminal_put_balance.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 8337376e-5de6-4d6d-9f95-49b83d438168
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITBasicAudioTerminal interface [TAPI 2.2],put_Balance method, ITBasicAudioTerminal.put_Balance, ITBasicAudioTerminal::put_Balance, _tapi3_itbasicaudioterminal_put_balance, put_Balance, put_Balance method [TAPI 2.2], put_Balance method [TAPI 2.2],ITBasicAudioTerminal interface, tapi3.itbasicaudioterminal_put_balance, tapi3if/ITBasicAudioTerminal::put_Balance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITBasicAudioTerminal.put_Balance
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITBasicAudioTerminal::put_Balance

@@ -4,17 +4,16 @@ title: ISimpleAudioVolume::GetMasterVolume
 author: windows-sdk-content
 description: The GetMasterVolume method retrieves the client volume level for the audio session.
 old-location: coreaudio\isimpleaudiovolume_getmastervolume.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 362d8e12-a92c-4e0f-b88f-a3937c75d01a
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetMasterVolume, GetMasterVolume method [Core Audio], GetMasterVolume method [Core Audio],ISimpleAudioVolume interface, ISimpleAudioVolume interface [Core Audio],GetMasterVolume method, ISimpleAudioVolume.GetMasterVolume, ISimpleAudioVolume::GetMasterVolume, ISimpleAudioVolumeGetMasterVolume, audioclient/ISimpleAudioVolume::GetMasterVolume, coreaudio.isimpleaudiovolume_getmastervolume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISimpleAudioVolume.GetMasterVolume
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISimpleAudioVolume::GetMasterVolume

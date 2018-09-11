@@ -4,17 +4,16 @@ title: IRDPSRAPIViewer::Disconnect
 author: windows-sdk-content
 description: Initiates a disconnect of the viewer from the sharer.
 old-location: rdp\irdpsrapiviewer_disconnect.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 526b91aa-a5b9-4ee9-873f-ca23c4633d21
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Disconnect, Disconnect method [RDP], Disconnect method [RDP],IRDPSRAPIViewer interface, IRDPSRAPIViewer interface [RDP],Disconnect method, IRDPSRAPIViewer.Disconnect, IRDPSRAPIViewer::Disconnect, rdp.irdpsrapiviewer_disconnect, rdpencomapi/IRDPSRAPIViewer::Disconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPIViewer.Disconnect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIViewer::Disconnect

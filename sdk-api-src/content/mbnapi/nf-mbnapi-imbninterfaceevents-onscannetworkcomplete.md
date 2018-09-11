@@ -4,17 +4,16 @@ title: IMbnInterfaceEvents::OnScanNetworkComplete
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a network scan.
 old-location: mbn\imbninterfaceevents_onscannetworkcomplete.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 6320c76b-b8a6-44dc-88bb-e20a85d5cfca
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: E_MBN_ALREADY_ACTIVE, E_MBN_DEVICE_BUSY, E_MBN_RADIO_POWER_OFF, IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnScanNetworkComplete method, IMbnInterfaceEvents.OnScanNetworkComplete, IMbnInterfaceEvents::OnScanNetworkComplete, OnScanNetworkComplete, OnScanNetworkComplete method [Microsoft Broadband Networks], OnScanNetworkComplete method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, S_OK, mbn.imbninterfaceevents_onscannetworkcomplete, mbnapi/IMbnInterfaceEvents::OnScanNetworkComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnInterfaceEvents.OnScanNetworkComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnInterfaceEvents::OnScanNetworkComplete

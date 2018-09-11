@@ -4,17 +4,16 @@ title: OleCreateFromFile function
 author: windows-sdk-content
 description: Creates an embedded object from the contents of a named file.
 old-location: com\olecreatefromfile.htm
-old-project: com
+tech.root: com
 ms.assetid: 98c63646-6617-46b6-8c3e-82d1c4d0adb6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleCreateFromFile, OleCreateFromFile function [COM], _ole_OleCreateFromFile, com.olecreatefromfile, ole/OleCreateFromFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ole.h
 req.include-header: Ole2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OleCreateFromFile
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleCreateFromFile function
@@ -62,7 +60,47 @@ Creates an embedded object from the contents of a named file.
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
+
+TBD
+
+
+### -param arg5
+
+TBD
+
+
+### -param arg6
+
+TBD
+
+
+### -param arg7
+
+TBD
+
+
+### -param arg8
+
+TBD
+
+
+### -param arg9
 
 TBD
 

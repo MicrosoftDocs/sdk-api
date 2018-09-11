@@ -4,17 +4,16 @@ title: IFsrmClassifierModuleImplementation::OnEndFile
 author: windows-sdk-content
 description: Instructs the classifier to perform any cleanup after processing a file.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_onendfile.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 52de3e11-89b3-4cf2-92f3-cc6dff686e0b
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmClassifierModuleImplementation interface [File Server Resource Manager],OnEndFile method, IFsrmClassifierModuleImplementation.OnEndFile, IFsrmClassifierModuleImplementation::OnEndFile, OnEndFile, OnEndFile method [File Server Resource Manager], OnEndFile method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, fs.ifsrmclassifiermoduleimplementation_onendfile, fsrm.ifsrmclassifiermoduleimplementation_onendfile, fsrmpipeline/IFsrmClassifierModuleImplementation::OnEndFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmClassifierModuleImplementation.OnEndFile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassifierModuleImplementation::OnEndFile

@@ -4,17 +4,16 @@ title: IShellFolderView::GetDragPoint
 author: windows-sdk-content
 description: Gets the point at which the current drag-and-drop operation was initiated.
 old-location: shell\IShellFolderView_GetDragPoint.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6ea29e97-41cb-4de7-8320-1d6389cfb6f6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetDragPoint, GetDragPoint method [Windows Shell], GetDragPoint method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetDragPoint method, IShellFolderView.GetDragPoint, IShellFolderView::GetDragPoint, _shell_IShellFolderView_GetDragPoint, shell.IShellFolderView_GetDragPoint, shlobj_core/IShellFolderView::GetDragPoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderView.GetDragPoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderView::GetDragPoint

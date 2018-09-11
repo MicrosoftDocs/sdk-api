@@ -4,7 +4,7 @@ title: "_FILEMUIINFO"
 author: windows-sdk-content
 description: Contains information about a file, related to its use with MUI.
 old-location: intl\filemuiinfo.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 4c757d19-ac66-4ba4-a691-f575f61961be
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILEMUIINFO, *PFILEMUIINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILEMUIINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FILEMUIINFO, *PFILEMUIINFO
+req.redist: 
 ---
 
 # _FILEMUIINFO structure

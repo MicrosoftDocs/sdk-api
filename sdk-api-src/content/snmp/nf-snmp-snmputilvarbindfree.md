@@ -4,17 +4,16 @@ title: SnmpUtilVarBindFree function
 author: windows-sdk-content
 description: The SnmpUtilVarBindFree function frees the memory allocated for an SnmpVarBind structure. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilvarbindfree.htm
-old-project: snmp
+tech.root: SNMP
 ms.assetid: 6e3d0a04-34f8-4342-837d-c0d357a1d1a3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SnmpUtilVarBindFree, SnmpUtilVarBindFree function [SNMP], _snmp_snmputilvarbindfree, snmp.snmputilvarbindfree, snmp/SnmpUtilVarBindFree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_NONGENUINE_UI_OPTIONS
+req.lib: Snmpapi.lib
+req.dll: Snmpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SnmpUtilVarBindFree
 product: Windows
 targetos: Windows
-req.lib: Snmpapi.lib
-req.dll: Snmpapi.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SnmpUtilVarBindFree function

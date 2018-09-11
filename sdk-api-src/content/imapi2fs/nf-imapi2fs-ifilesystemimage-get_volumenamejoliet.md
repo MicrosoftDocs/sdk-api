@@ -4,17 +4,16 @@ title: IFileSystemImage::get_VolumeNameJoliet
 author: windows-sdk-content
 description: Retrieves the volume name for the Joliet system image.
 old-location: imapi\ifilesystemimage_get_volumenamejoliet.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 5300763d-9f2f-4562-bb5e-61fcf485b086
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_VolumeNameJoliet method, IFileSystemImage.get_VolumeNameJoliet, IFileSystemImage::get_VolumeNameJoliet, get_VolumeNameJoliet, get_VolumeNameJoliet method [IMAPI], get_VolumeNameJoliet method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_volumenamejoliet, imapi2fs/IFileSystemImage::get_VolumeNameJoliet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImage.get_VolumeNameJoliet
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImage::get_VolumeNameJoliet

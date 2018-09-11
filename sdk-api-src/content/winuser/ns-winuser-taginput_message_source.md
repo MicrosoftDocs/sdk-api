@@ -4,7 +4,7 @@ title: tagINPUT_MESSAGE_SOURCE
 author: windows-sdk-content
 description: Contains information about the source of the input message.
 old-location: input_sourceid\input_message_source.htm
-old-project: Input_SourceId
+tech.root: Input_SourceId
 ms.assetid: 75437c0a-925a-44d9-9254-43095b281c21
 ms.author: windowssdkdev
 ms.date: 03/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INPUT_MESSAGE_SOURCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INPUT_MESSAGE_SOURCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: INPUT_MESSAGE_SOURCE
+req.redist: 
 ---
 
 # tagINPUT_MESSAGE_SOURCE structure

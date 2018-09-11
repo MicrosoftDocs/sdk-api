@@ -4,17 +4,16 @@ title: CLUSCTL_USER_CODE macro
 author: windows-sdk-content
 description: Generates a correctly formatted user-defined control code. For more information on the bit layout of control codes, see Control Code Architecture.
 old-location: mscs\clusctl_user_code.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: b21a565a-df43-486c-a474-2dc6d2f45197
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 0, 1, 2, CLUSCTL_USER_CODE, CLUSCTL_USER_CODE macro [Failover Cluster], _wolf_clusctl_user_code, clusapi/CLUSCTL_USER_CODE, mscs.clusctl_user_code
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSCTL_USER_CODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CLUSCTL_USER_CODE macro

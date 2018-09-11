@@ -4,17 +4,16 @@ title: IOleInPlaceSiteWindowless::SetFocus
 author: windows-sdk-content
 description: Sets the keyboard focus for a UI-active, windowless object.
 old-location: com\ioleinplacesitewindowless_setfocus.htm
-old-project: com
+tech.root: com
 ms.assetid: 1ea9bade-5e41-49a0-a770-3a5cfc56d0f6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],SetFocus method, IOleInPlaceSiteWindowless.SetFocus, IOleInPlaceSiteWindowless::SetFocus, SetFocus, SetFocus method [COM], SetFocus method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_setfocus, com.ioleinplacesitewindowless_setfocus, ocidl/IOleInPlaceSiteWindowless::SetFocus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceSiteWindowless.SetFocus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSiteWindowless::SetFocus

@@ -4,17 +4,16 @@ title: IInkExtendedProperty::get_Guid
 author: windows-sdk-content
 description: Gets the globally unique identifier (GUID) of the IInkExtendedProperty object.
 old-location: tablet\iinkextendedproperty_guid.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: cd029ffc-11c4-41f7-86bc-c11fac38ec72
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: Guid property [Tablet PC], Guid property [Tablet PC],IInkExtendedProperty interface, IInkExtendedProperty interface [Tablet PC],Guid property, IInkExtendedProperty.Guid, IInkExtendedProperty.get_Guid, IInkExtendedProperty::Guid, IInkExtendedProperty::get_Guid, cd029ffc-11c4-41f7-86bc-c11fac38ec72, get_Guid, msinkaut/IInkExtendedProperty::Guid, msinkaut/IInkExtendedProperty::get_Guid, tablet.iinkextendedproperty_guid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkExtendedProperty.get_Guid
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkExtendedProperty::get_Guid

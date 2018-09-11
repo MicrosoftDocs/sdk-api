@@ -4,17 +4,16 @@ title: ISdoCollection::IsNameUnique
 author: windows-sdk-content
 description: The IsNameUnique method tests whether the specified name is unique in the collection.
 old-location: nps\SDO_isdocollection_isnameunique.htm
-old-project: nps
+tech.root: nps
 ms.assetid: cf9263c3-5d98-4b52-bbd7-6a37fb4c8481
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],IsNameUnique method, ISdoCollection.IsNameUnique, ISdoCollection::IsNameUnique, IsNameUnique, IsNameUnique method [Network Policy Server], IsNameUnique method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_isnameunique, nps.SDO_isdocollection_isnameunique, sdo.isdocollection_isnameunique, sdoias/ISdoCollection::IsNameUnique
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VENDORPROPERTIES
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISdoCollection.IsNameUnique
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Iassdo.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISdoCollection::IsNameUnique

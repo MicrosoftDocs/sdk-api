@@ -4,17 +4,16 @@ title: PdhValidatePathExW function
 author: windows-sdk-content
 description: Validates that the specified counter is present on the computer or in the log file.
 old-location: perf\pdhvalidatepathex.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: e6b52af7-7276-4565-aa61-73899796a13c
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PdhValidatePathEx, PdhValidatePathEx function [Perf], PdhValidatePathExA, PdhValidatePathExW, pdh/PdhValidatePathEx, pdh/PdhValidatePathExA, pdh/PdhValidatePathExW, perf.pdhvalidatepathex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PdhValidatePathExW
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhValidatePathExW function

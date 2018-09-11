@@ -4,17 +4,16 @@ title: ICertificateAttestationChallenge::Initialize
 author: windows-sdk-content
 description: Initialize using the full Certificate Management over CMS (CMC) response returned from the CA.
 old-location: security\icertificateattestationchallenge_initialize.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: d4dbda92-4523-4adb-9b88-b2bc763570fd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertificateAttestationChallenge interface [Security],Initialize method, ICertificateAttestationChallenge.Initialize, ICertificateAttestationChallenge::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertificateAttestationChallenge interface, certenroll/ICertificateAttestationChallenge::Initialize, security.icertificateattestationchallenge_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertificateAttestationChallenge.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificateAttestationChallenge::Initialize

@@ -4,17 +4,16 @@ title: WINHTTP_CERTIFICATE_INFO
 author: windows-sdk-content
 description: The WINHTTP_CERTIFICATE_INFO structure contains certificate information returned from the server. This structure is used by the WinHttpQueryOption function.
 old-location: http\internet_certificate_info.htm
-old-project: winhttp
+tech.root: WinHttp
 ms.assetid: 72b0094b-ac9d-499f-8a75-6728be2826ea
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WINHTTP_CERTIFICATE_INFO, WINHTTP_CERTIFICATE_INFO structure [HTTP], http.internet_certificate_info, winhttp/WINHTTP_CERTIFICATE_INFO, winhttp_internet_certificate_info_structure
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 
-req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_CERTIFICATE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINHTTP_CERTIFICATE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINHTTP_CERTIFICATE_INFO
+req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ---
 
 # WINHTTP_CERTIFICATE_INFO structure

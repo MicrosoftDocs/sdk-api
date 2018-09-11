@@ -4,7 +4,7 @@ title: PrintAsyncNotifyError
 author: windows-sdk-content
 description: Specifies the error code portion of the HRESULT returned after an asynchronous notification failure.
 old-location: gdi\printasyncnotifyerror.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 2fb6698c-5d59-4ba0-a8ff-1313fade438c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: prnasnot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Printmanagerinterop.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PrintAsyncNotifyError
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PrintAsyncNotifyError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PrintAsyncNotifyError
+req.redist: 
 ---
 
 # PrintAsyncNotifyError enumeration

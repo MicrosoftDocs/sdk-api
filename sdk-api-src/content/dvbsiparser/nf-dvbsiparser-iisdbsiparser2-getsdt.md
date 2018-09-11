@@ -4,17 +4,16 @@ title: IIsdbSiParser2::GetSDT
 author: windows-sdk-content
 description: Gets a service description table (SDT) from an Integrated Services Digital Broadcast (ISDB) transport stream. An SDT lists the names and other parameters of the services in an MPEG-2 transport stream.
 old-location: mstv\iisdbsiparser2_getsdt.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d15d1b6a-5b53-4962-89a3-9bd06e00d366
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSDT, GetSDT method [Microsoft TV Technologies], GetSDT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetSDT method, IIsdbSiParser2.GetSDT, IIsdbSiParser2::GetSDT, dvbsiparser/IIsdbSiParser2::GetSDT, mstv.iisdbsiparser2_getsdt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbSiParser2.GetSDT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbSiParser2::GetSDT

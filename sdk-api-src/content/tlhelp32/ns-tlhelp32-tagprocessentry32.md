@@ -4,17 +4,16 @@ title: tagPROCESSENTRY32
 author: windows-sdk-content
 description: Describes an entry from a list of the processes residing in the system address space when a snapshot was taken.
 old-location: toolhelp\processentry32_str.htm
-old-project: ToolHelp
+tech.root: ToolHelp
 ms.assetid: 9e2f7345-52bf-4bfc-9761-90b0b374c727
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPPROCESSENTRY32, *PPROCESSENTRY32, PPROCESSENTRY32, PPROCESSENTRY32 structure pointer [ToolHelp], PROCESSENTRY32, PROCESSENTRY32 structure [ToolHelp], PROCESSENTRY32W, _win32_processentry32_str, base.processentry32_str, tagPROCESSENTRY32, tlhelp32/PPROCESSENTRY32, tlhelp32/PROCESSENTRY32, tlhelp32/PROCESSENTRY32W, toolhelp.processentry32_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: tlhelp32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESSENTRY32
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PROCESSENTRY32W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PROCESSENTRY32
+req.redist: 
 ---
 
 # tagPROCESSENTRY32 structure

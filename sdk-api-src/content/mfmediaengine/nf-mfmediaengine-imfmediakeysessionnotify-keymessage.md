@@ -4,17 +4,16 @@ title: IMFMediaKeySessionNotify::KeyMessage
 author: windows-sdk-content
 description: Passes information to the application so it can initiate a key acquisition.
 old-location: mf\imfmediakeysessionnotify_keymessage.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 50b0eb38-a212-4c89-80e8-83472b3d45ee
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaKeySessionNotify interface [Media Foundation],KeyMessage method, IMFMediaKeySessionNotify.KeyMessage, IMFMediaKeySessionNotify::KeyMessage, KeyMessage, KeyMessage method [Media Foundation], KeyMessage method [Media Foundation],IMFMediaKeySessionNotify interface, mf.imfmediakeysessionnotify_keymessage, mfmediaengine/IMFMediaKeySessionNotify::KeyMessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaKeySessionNotify.KeyMessage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaKeySessionNotify::KeyMessage

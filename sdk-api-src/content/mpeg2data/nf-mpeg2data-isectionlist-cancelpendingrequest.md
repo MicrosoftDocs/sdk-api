@@ -4,17 +4,16 @@ title: ISectionList::CancelPendingRequest
 author: windows-sdk-content
 description: The CancelPendingRequest method cancels any pending asynchronous request.
 old-location: mstv\isectionlist_cancelpendingrequest.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 58e0898d-a84e-49cf-bc18-1fda8351dfc0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CancelPendingRequest, CancelPendingRequest method [Microsoft TV Technologies], CancelPendingRequest method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],CancelPendingRequest method, ISectionList.CancelPendingRequest, ISectionList::CancelPendingRequest, ISectionListCancelPendingRequest, mpeg2data/ISectionList::CancelPendingRequest, mstv.isectionlist_cancelpendingrequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2data.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISectionList.CancelPendingRequest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISectionList::CancelPendingRequest

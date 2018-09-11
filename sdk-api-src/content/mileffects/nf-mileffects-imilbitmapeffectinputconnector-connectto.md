@@ -4,17 +4,16 @@ title: IMILBitmapEffectInputConnector::ConnectTo
 author: windows-sdk-content
 description: Connects the input connector to the given output connector.
 old-location: wibe\_wibe_imilbitmapeffectinputconnector_connectto.htm
-old-project: wibe
+tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinputconnector\connectto.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: ConnectTo, ConnectTo method [WPF Bitmap Effects], ConnectTo method [WPF Bitmap Effects],IMILBitmapEffectInputConnector interface, IMILBitmapEffectInputConnector interface [WPF Bitmap Effects],ConnectTo method, IMILBitmapEffectInputConnector.ConnectTo, IMILBitmapEffectInputConnector::ConnectTo, _wibe_imilbitmapeffectinputconnector_connectto, mileffects/IMILBitmapEffectInputConnector::ConnectTo, wibe._wibe_imilbitmapeffectinputconnector_connectto
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 
-req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: 
+req.dll: Mileffects.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMILBitmapEffectInputConnector.ConnectTo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mileffects.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Microsoft .Net 3.0
 ---
 
 # IMILBitmapEffectInputConnector::ConnectTo

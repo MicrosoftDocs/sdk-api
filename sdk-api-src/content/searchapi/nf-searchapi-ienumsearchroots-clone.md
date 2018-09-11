@@ -4,17 +4,16 @@ title: IEnumSearchRoots::Clone
 author: windows-sdk-content
 description: Creates a copy of the IEnumSearchRoots object with the same contents and state as the current one.
 old-location: search\_search_IEnumSearchRoots_Clone.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\clone.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Clone, Clone method [search], Clone method [search],IEnumSearchRoots interface, IEnumSearchRoots interface [search],Clone method, IEnumSearchRoots.Clone, IEnumSearchRoots::Clone, _search_IEnumSearchRoots_Clone, search._search_IEnumSearchRoots_Clone, searchapi/IEnumSearchRoots::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumSearchRoots.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IEnumSearchRoots::Clone

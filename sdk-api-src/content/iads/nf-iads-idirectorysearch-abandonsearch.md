@@ -4,17 +4,16 @@ title: IDirectorySearch::AbandonSearch
 author: windows-sdk-content
 description: The IDirectorySearch::AbandonSearch method abandons a search initiated by an earlier call to the ExecuteSearch method.
 old-location: adsi\idirectorysearch_abandonsearch.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: cf220625-0aac-42ce-a15f-c44766693cf8
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: AbandonSearch, AbandonSearch method [ADSI], AbandonSearch method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],AbandonSearch method, IDirectorySearch.AbandonSearch, IDirectorySearch::AbandonSearch, _ds_idirectorysearch_abandonsearch, adsi.idirectorysearch__abandonsearch, adsi.idirectorysearch_abandonsearch, iads/IDirectorySearch::AbandonSearch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDirectorySearch.AbandonSearch
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectorySearch::AbandonSearch
@@ -64,7 +62,7 @@ The <b>IDirectorySearch::AbandonSearch</b> method abandons a search initiated by
 
 ### -param phSearchResult
 
-
+TBD
 
 
 

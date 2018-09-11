@@ -4,17 +4,16 @@ title: IMFByteStreamCacheControl2::GetByteRanges
 author: windows-sdk-content
 description: Gets the ranges of bytes that are currently stored in the cache.
 old-location: mf\imfbytestreamcachecontrol2_getbyteranges.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: FC91FCB5-CD22-494F-85B7-38571C38A44E
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetByteRanges, GetByteRanges method [Media Foundation], GetByteRanges method [Media Foundation],IMFByteStreamCacheControl2 interface, IMFByteStreamCacheControl2 interface [Media Foundation],GetByteRanges method, IMFByteStreamCacheControl2.GetByteRanges, IMFByteStreamCacheControl2::GetByteRanges, mf.imfbytestreamcachecontrol2_getbyteranges, mfidl/IMFByteStreamCacheControl2::GetByteRanges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFByteStreamCacheControl2.GetByteRanges
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFByteStreamCacheControl2::GetByteRanges

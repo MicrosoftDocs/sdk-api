@@ -4,7 +4,7 @@ title: LPPROGRESS_ROUTINE
 author: windows-sdk-content
 description: An application-defined callback function used with the CopyFileEx, MoveFileTransacted, and MoveFileWithProgress functions.
 old-location: fs\copyprogressroutine.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 2c02b212-d4ac-4b01-8955-2561d8c42b1b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIA_PROPID_TO_NAME, *PWIA_PROPID_TO_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - LPPROGRESS_ROUTINE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # LPPROGRESS_ROUTINE callback function

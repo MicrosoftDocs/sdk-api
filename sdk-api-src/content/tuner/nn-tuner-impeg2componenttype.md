@@ -4,7 +4,7 @@ title: IMPEG2ComponentType
 author: windows-sdk-content
 description: The IMPEG2ComponentType interface is implemented on MPEG2ComponentType objects. It enables applications to set and retrieve information about MPEG2 stream types.
 old-location: mstv\impeg2componenttype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 10bf35e0-d5bf-41ed-b514-7c1bfaf774a0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMPEG2ComponentType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IMPEG2ComponentType interface

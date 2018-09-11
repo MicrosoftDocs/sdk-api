@@ -4,17 +4,16 @@ title: IMDSPObject
 author: windows-sdk-content
 description: The IMDSPObject interface manages the transfer of data to and from storage media.The Open, Read, Write, and Close methods are valid only if the storage object is a file.
 old-location: wmdm\imdspobject.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 271d7185-1a9d-4bec-9289-4ae5461ed741
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPObject, IMDSPObject interface [windows Media Device Manager], IMDSPObject interface [windows Media Device Manager],described, IMDSPObjectInterface, mswmdm/IMDSPObject, wmdm.imdspobject
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMDSPObject
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPObject interface

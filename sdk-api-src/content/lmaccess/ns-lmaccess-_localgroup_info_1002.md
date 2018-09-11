@@ -4,17 +4,16 @@ title: "_LOCALGROUP_INFO_1002"
 author: windows-sdk-content
 description: The LOCALGROUP_INFO_1002 structure contains a comment describing a local group.
 old-location: netmgmt\localgroup_info_1002_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 027db4a3-6722-46e8-a204-922ed97cb3f5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPLOCALGROUP_INFO_1002, *PLOCALGROUP_INFO_1002, LOCALGROUP_INFO_1002, LOCALGROUP_INFO_1002 structure [Network Management], LPLOCALGROUP_INFO_1002, LPLOCALGROUP_INFO_1002 structure pointer [Network Management], PLOCALGROUP_INFO_1002, PLOCALGROUP_INFO_1002 structure pointer [Network Management], _LOCALGROUP_INFO_1002, _win32_localgroup_info_1002_str, lmaccess/LOCALGROUP_INFO_1002, lmaccess/LPLOCALGROUP_INFO_1002, lmaccess/PLOCALGROUP_INFO_1002, netmgmt.localgroup_info_1002_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCALGROUP_INFO_1002, *PLOCALGROUP_INFO_1002, *LPLOCALGROUP_INFO_1002
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LOCALGROUP_INFO_1002
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: LOCALGROUP_INFO_1002, *PLOCALGROUP_INFO_1002, *LPLOCALGROUP_INFO_1002
+req.redist: 
 ---
 
 # _LOCALGROUP_INFO_1002 structure

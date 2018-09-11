@@ -4,17 +4,16 @@ title: IMFSample::RemoveAllBuffers
 author: windows-sdk-content
 description: Removes all of the buffers from the sample.
 old-location: mf\imfsample_removeallbuffers.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c7ce734f-64da-4d45-905e-54a8898aa710
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFSample interface [Media Foundation],RemoveAllBuffers method, IMFSample.RemoveAllBuffers, IMFSample::RemoveAllBuffers, RemoveAllBuffers, RemoveAllBuffers method [Media Foundation], RemoveAllBuffers method [Media Foundation],IMFSample interface, c7ce734f-64da-4d45-905e-54a8898aa710, mf.imfsample_removeallbuffers, mfobjects/IMFSample::RemoveAllBuffers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSample.RemoveAllBuffers
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSample::RemoveAllBuffers

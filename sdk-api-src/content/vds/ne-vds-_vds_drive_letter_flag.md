@@ -4,17 +4,16 @@ title: "_VDS_DRIVE_LETTER_FLAG"
 author: windows-sdk-content
 description: Defines the set of valid flags for a drive letter.
 old-location: base\vds_drive_letter_flag.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: f6eebe08-ebc9-45d3-a752-9cdc13f9bcf1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_DLF_NON_PERSISTENT, VDS_DRIVE_LETTER_FLAG, VDS_DRIVE_LETTER_FLAG enumeration [VDS], _VDS_DRIVE_LETTER_FLAG, base.vds_drive_letter_flag, vds/VDS_DLF_NON_PERSISTENT, vds/VDS_DRIVE_LETTER_FLAG
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_DRIVE_LETTER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_DRIVE_LETTER_FLAG
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_DRIVE_LETTER_FLAG
+req.redist: 
 ---
 
 # _VDS_DRIVE_LETTER_FLAG enumeration

@@ -4,17 +4,16 @@ title: IADsComputerOperations::Shutdown
 author: windows-sdk-content
 description: The IADsComputerOperations::Shutdown method causes a computer under ADSI control to execute the shutdown operation with an optional reboot.
 old-location: adsi\iadscomputeroperations_shutdown.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: b13502d6-11eb-406b-bed0-e9d14e61e424
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsComputerOperations interface [ADSI],Shutdown method, IADsComputerOperations.Shutdown, IADsComputerOperations::Shutdown, Shutdown, Shutdown method [ADSI], Shutdown method [ADSI],IADsComputerOperations interface, _ds_iadscomputeroperations_shutdown, adsi.iadscomputeroperations__shutdown, adsi.iadscomputeroperations_shutdown, iads/IADsComputerOperations::Shutdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsComputerOperations.Shutdown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsComputerOperations::Shutdown

@@ -4,17 +4,16 @@ title: EnableNtmsObject function
 author: windows-sdk-content
 description: The EnableNtmsObject function enables the specified object.
 old-location: fs\enablentmsobject.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 6a752f8e-7be0-4f2c-9bd3-3678d7328b20
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: EnableNtmsObject, EnableNtmsObject function [Files], NTMS_DRIVE, NTMS_LIBRARY, NTMS_PHYSICAL_MEDIA, _zaw_enablentmsobject, base.enablentmsobject, fs.enablentmsobject, ntmsapi/EnableNtmsObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EnableNtmsObject
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # EnableNtmsObject function

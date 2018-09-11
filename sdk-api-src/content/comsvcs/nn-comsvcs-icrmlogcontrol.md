@@ -4,17 +4,16 @@ title: ICrmLogControl
 author: windows-sdk-content
 description: Is the means by which the CRM Worker and CRM Compensator write records to the log and make them durable.
 old-location: cos\icrmlogcontrol.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 3309ed58-8161-46f3-93bc-afc0c9bc8d50
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICrmLogControl, ICrmLogControl interface [COM+], ICrmLogControl interface [COM+],described, _dtc_ICrmLogControl_Interface, comsvcs/ICrmLogControl, cos.icrmlogcontrol
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmLogControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmLogControl interface

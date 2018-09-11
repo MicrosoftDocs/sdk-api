@@ -4,17 +4,16 @@ title: RasSetEntryPropertiesW function
 author: windows-sdk-content
 description: The RasSetEntryProperties function changes the connection information for an entry in the phone book or creates a new phone-book entry.
 old-location: rras\rassetentryproperties.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 6532b48b-0d80-4993-800e-c808bb7540d6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RasSetEntryProperties, RasSetEntryProperties function [RAS], RasSetEntryPropertiesA, RasSetEntryPropertiesW, _ras_rassetentryproperties, ras/RasSetEntryProperties, ras/RasSetEntryPropertiesA, ras/RasSetEntryPropertiesW, rras.rassetentryproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASPROJECTION_INFO_TYPE
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RasSetEntryPropertiesW
 product: Windows
 targetos: Windows
-req.lib: Rasapi32.lib
-req.dll: Rasapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasSetEntryPropertiesW function
@@ -63,7 +61,32 @@ The <b>RasSetEntryProperties</b> function changes the
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
+
+TBD
+
+
+### -param arg5
+
+TBD
+
+
+### -param arg6
 
 TBD
 

@@ -4,17 +4,16 @@ title: IDiskQuotaUserBatch::RemoveAll
 author: windows-sdk-content
 description: Removes all IDiskQuotaUser pointers from the batch list.
 old-location: fs\idiskquotauserbatch_removeall.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: f3c791a9-4976-4e04-903f-a1afffd01f7c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDiskQuotaUserBatch interface [Files],RemoveAll method, IDiskQuotaUserBatch.RemoveAll, IDiskQuotaUserBatch::RemoveAll, RemoveAll, RemoveAll method [Files], RemoveAll method [Files],IDiskQuotaUserBatch interface, _win32_idiskquotauserbatch_removeall, base.idiskquotauserbatch_removeall, dskquota/IDiskQuotaUserBatch::RemoveAll, fs.idiskquotauserbatch_removeall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaUserBatch.RemoveAll
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaUserBatch::RemoveAll

@@ -4,17 +4,16 @@ title: IRDPSRAPIInvitation::get_Password
 author: windows-sdk-content
 description: The password string.
 old-location: rdp\irdpsrapiinvitation_password.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 53d55a81-73c3-4196-b23e-b4719a1ceced
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIInvitation interface [RDP],Password property, IRDPSRAPIInvitation.Password, IRDPSRAPIInvitation.get_Password, IRDPSRAPIInvitation::Password, IRDPSRAPIInvitation::get_Password, Password property [RDP], Password property [RDP],IRDPSRAPIInvitation interface, Password property [RDP],RDPSRAPIInvitation object, RDPSRAPIInvitation object [RDP],Password property, get_Password, rdp.irdpsrapiinvitation_password, rdpencomapi/IRDPSRAPIInvitation::Password, rdpencomapi/IRDPSRAPIInvitation::get_Password
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RDPSRAPIInvitation.Password
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIInvitation::get_Password

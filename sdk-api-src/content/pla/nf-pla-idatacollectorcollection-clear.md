@@ -4,17 +4,16 @@ title: IDataCollectorCollection::Clear
 author: windows-sdk-content
 description: Removes all data collectors from the collection.
 old-location: pla\idatacollectorcollection_clear.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: be0840dc-e19a-454e-bbea-6968c7284cc8
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],Clear method, IDataCollectorCollection.Clear, IDataCollectorCollection::Clear, base.idatacollectorcollection_clear, pla.idatacollectorcollection_clear, pla/IDataCollectorCollection::Clear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataCollectorCollection.Clear
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorCollection::Clear

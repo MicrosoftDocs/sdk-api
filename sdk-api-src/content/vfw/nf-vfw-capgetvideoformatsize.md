@@ -4,17 +4,16 @@ title: capGetVideoFormatSize macro
 author: windows-sdk-content
 description: The capGetVideoFormatSize macro retrieves the size required for the video format. You can use this macro or explicitly call the WM_CAP_GET_VIDEOFORMAT message.
 old-location: multimedia\capgetvideoformatsize.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 4ee78b19-4171-4da8-ad26-199067bb6db8
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_capGetVideoFormatSize, capGetVideoFormatSize, capGetVideoFormatSize macro [Windows Multimedia], multimedia.capgetvideoformatsize, vfw/capGetVideoFormatSize"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capGetVideoFormatSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # capGetVideoFormatSize macro

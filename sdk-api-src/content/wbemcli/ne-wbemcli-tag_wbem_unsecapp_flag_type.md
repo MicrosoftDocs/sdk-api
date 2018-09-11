@@ -4,17 +4,16 @@ title: tag_WBEM_UNSECAPP_FLAG_TYPE
 author: windows-sdk-content
 description: Used to control access checks on callbacks when using the IWbemUnsecuredApartment::CreateSinkStub method.
 old-location: wmi\wbem_unsecapp_flag_type.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: DE009790-86D0-4030-AC28-F04DD6601261
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: WBEM_FLAG_UNSECAPP_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DEFAULT_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DONT_CHECK_ACCESS, WBEM_UNSECAPP_FLAG_TYPE, WBEM_UNSECAPP_FLAG_TYPE enumeration [Windows Management Instrumentation], tag_WBEM_UNSECAPP_FLAG_TYPE, wbemcli/WBEM_FLAG_UNSECAPP_CHECK_ACCESS, wbemcli/WBEM_FLAG_UNSECAPP_DEFAULT_CHECK_ACCESS, wbemcli/WBEM_FLAG_UNSECAPP_DONT_CHECK_ACCESS, wbemcli/WBEM_UNSECAPP_FLAG_TYPE, wmi.wbem_unsecapp_flag_type
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WBEM_UNSECAPP_FLAG_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WBEM_UNSECAPP_FLAG_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WBEM_UNSECAPP_FLAG_TYPE
+req.redist: 
 ---
 
 # tag_WBEM_UNSECAPP_FLAG_TYPE enumeration

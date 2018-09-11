@@ -4,17 +4,16 @@ title: IFsrmClassificationRule::get_PropertyAffected
 author: windows-sdk-content
 description: The name of the property that this rule affects.
 old-location: fsrm\ifsrmclassificationrule_propertyaffected.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 0e41ac2b-c48a-4bb8-a363-8a64c856b8f9
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmClassificationRule interface [File Server Resource Manager],PropertyAffected property, IFsrmClassificationRule.PropertyAffected, IFsrmClassificationRule.get_PropertyAffected, IFsrmClassificationRule::PropertyAffected, IFsrmClassificationRule::get_PropertyAffected, IFsrmClassificationRule::put_PropertyAffected, PropertyAffected property [File Server Resource Manager], PropertyAffected property [File Server Resource Manager],IFsrmClassificationRule interface, fs.ifsrmclassificationrule_propertyaffected, fsrm.ifsrmclassificationrule_propertyaffected, fsrmpipeline/IFsrmClassificationRule::PropertyAffected, fsrmpipeline/IFsrmClassificationRule::get_PropertyAffected, fsrmpipeline/IFsrmClassificationRule::put_PropertyAffected, get_PropertyAffected
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmClassificationRule.put_PropertyAffected
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassificationRule::get_PropertyAffected

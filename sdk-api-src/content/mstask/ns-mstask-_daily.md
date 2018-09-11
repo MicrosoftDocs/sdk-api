@@ -4,17 +4,16 @@ title: "_DAILY"
 author: windows-sdk-content
 description: Defines the interval, in days, at which a task is run.
 old-location: taskschd\daily.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: 4dbab308-fd1c-4be4-84f6-c12f751ab29e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DAILY, DAILY structure [Task Scheduler], _DAILY, _msb_daily, mstask/DAILY, taskschd.daily, triggers [Task Scheduler],structures,DAILY
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstask.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DAILY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DAILY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: DAILY
+req.redist: 
 ---
 
 # _DAILY structure

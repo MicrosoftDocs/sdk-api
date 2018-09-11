@@ -4,17 +4,16 @@ title: "_LSA_TRUST_INFORMATION"
 author: windows-sdk-content
 description: Identifies a domain.
 old-location: security\lsa_trust_information.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: 2b5e6f79-b97a-4018-a45a-37c300c3dc0d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PLSA_TRUST_INFORMATION, LSA_TRUST_INFORMATION, LSA_TRUST_INFORMATION structure [Security], PLSA_TRUST_INFORMATION, PLSA_TRUST_INFORMATION structure pointer [Security], _LSA_TRUST_INFORMATION, _lsa_lsa_trust_information, lsalookup/LSA_TRUST_INFORMATION, lsalookup/PLSA_TRUST_INFORMATION, security.lsa_trust_information"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lsalookup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LSA_TRUST_INFORMATION, *PLSA_TRUST_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LSA_TRUST_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: LSA_TRUST_INFORMATION, *PLSA_TRUST_INFORMATION
+req.redist: 
 ---
 
 # _LSA_TRUST_INFORMATION structure

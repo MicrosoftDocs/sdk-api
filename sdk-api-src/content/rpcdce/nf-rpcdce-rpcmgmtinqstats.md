@@ -4,17 +4,16 @@ title: RpcMgmtInqStats function
 author: windows-sdk-content
 description: The RpcMgmtInqStats function returns RPC run-time statistics.
 old-location: rpc\rpcmgmtinqstats.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 478b9f33-db01-4a1d-9b5b-dc2662ee8d7b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcMgmtInqStats, RpcMgmtInqStats function [RPC], _rpc_rpcmgmtinqstats, rpc.rpcmgmtinqstats, rpcdce/RpcMgmtInqStats
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcMgmtInqStats
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcMgmtInqStats function

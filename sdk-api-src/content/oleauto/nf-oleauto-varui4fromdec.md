@@ -4,17 +4,16 @@ title: VarUI4FromDec function
 author: windows-sdk-content
 description: Converts a decimal value to an unsigned long value.
 old-location: automat\varui4fromdec.htm
-old-project: automat
+tech.root: automat
 ms.assetid: dd36f6f5-7f33-43a7-99b1-16497e26bebb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarUI4FromDec, VarUI4FromDec function [Automation], _oa96_VarUI4FromDec, automat.varui4fromdec, oleauto/VarUI4FromDec
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarUI4FromDec
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarUI4FromDec function

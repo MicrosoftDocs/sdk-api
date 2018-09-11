@@ -4,17 +4,16 @@ title: SetThreadIdealProcessorEx function
 author: windows-sdk-content
 description: Sets the ideal processor for the specified thread and optionally retrieves the previous ideal processor.
 old-location: base\setthreadidealprocessorex.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 6b599a99-41c5-45c7-8aeb-87d8f34e9e82
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: SetThreadIdealProcessorEx, SetThreadIdealProcessorEx function, base.setthreadidealprocessorex, processthreadsapi/SetThreadIdealProcessorEx, winbase/SetThreadIdealProcessorEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
+req.dll: Kernel32.dll; KernelBase.dll on Windows Phone 8.1
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - SetThreadIdealProcessorEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
-req.dll: Kernel32.dll; KernelBase.dll on Windows Phone 8.1
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetThreadIdealProcessorEx function

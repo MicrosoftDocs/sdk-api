@@ -4,17 +4,16 @@ title: InkPersistenceFormat
 author: windows-sdk-content
 description: Specifies how ink is persisted.
 old-location: tablet\inkpersistenceformat.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: ecbf48ce-0394-4da1-9f5c-d2626545982c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IPF_Base64Gif, IPF_Base64InkSerializedFormat, IPF_Gif, IPF_InkSerializedFormat, InkPersistenceFormat, InkPersistenceFormat enumeration [Tablet PC], ecbf48ce-0394-4da1-9f5c-d2626545982c, msinkaut/IPF_Base64Gif, msinkaut/IPF_Base64InkSerializedFormat, msinkaut/IPF_Gif, msinkaut/IPF_InkSerializedFormat, msinkaut/InkPersistenceFormat, tablet.inkpersistenceformat
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkPersistenceFormat
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InkPersistenceFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkPersistenceFormat
+req.redist: 
 ---
 
 # InkPersistenceFormat enumeration

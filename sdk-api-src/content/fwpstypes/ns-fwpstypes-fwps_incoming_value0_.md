@@ -4,7 +4,7 @@ title: FWPS_INCOMING_VALUE0_
 author: windows-sdk-content
 description: The FWPS_INCOMING_VALUE0 structure defines an individual data value.Note  FWPS_INCOMING_VALUE0 is a specific version of FWPS_INCOMING_VALUE.
 old-location: netvista\fwps_incoming_value0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 94a81a93-7c92-4c0a-9ac7-c2085175c1a7
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPS_INCOMING_VALUE0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPS_INCOMING_VALUE0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPS_INCOMING_VALUE0
+req.redist: 
 ---
 
 # FWPS_INCOMING_VALUE0_ structure

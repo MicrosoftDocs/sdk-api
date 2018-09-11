@@ -4,7 +4,7 @@ title: D2D1_DIRECTIONALBLUR_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Directional blur effect.
 old-location: direct2d\d2d1_directionalblur_prop.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: BEC82079-543E-4675-84DD-0DE7D852866E
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_DIRECTIONALBLUR_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_DIRECTIONALBLUR_PROP
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_DIRECTIONALBLUR_PROP
+req.redist: 
 ---
 
 # D2D1_DIRECTIONALBLUR_PROP enumeration

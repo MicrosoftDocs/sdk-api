@@ -4,17 +4,16 @@ title: IShellView::EnableModeless
 author: windows-sdk-content
 description: Enables or disables modeless dialog boxes. This method is not currently implemented.
 old-location: shell\IShellView_EnableModeless.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5467f524-fa61-4919-bf64-268f9387b2f2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: EnableModeless, EnableModeless method [Windows Shell], EnableModeless method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],EnableModeless method, IShellView.EnableModeless, IShellView::EnableModeless, _win32_IShellView_EnableModeless, shell.IShellView_EnableModeless, shobjidl_core/IShellView::EnableModeless
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellView.EnableModeless
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellView::EnableModeless

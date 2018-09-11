@@ -4,17 +4,16 @@ title: IShellFolderBand::InitializeSFB
 author: windows-sdk-content
 description: Initializes an IShellFolderBand object.
 old-location: shell\IShellFolderBand_InitializeSFB.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2f0582d2-b079-4b97-8da0-211b6ef1b8f3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellFolderBand interface [Windows Shell],InitializeSFB method, IShellFolderBand.InitializeSFB, IShellFolderBand::InitializeSFB, InitializeSFB, InitializeSFB method [Windows Shell], InitializeSFB method [Windows Shell],IShellFolderBand interface, _win32_IShellFolderBand_InitializeSFB, shell.IShellFolderBand_InitializeSFB, shlobj/IShellFolderBand::InitializeSFB
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.00 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderBand.InitializeSFB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.00 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderBand::InitializeSFB

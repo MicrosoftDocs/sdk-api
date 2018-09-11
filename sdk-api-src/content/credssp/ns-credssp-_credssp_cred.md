@@ -4,17 +4,16 @@ title: "_CREDSSP_CRED"
 author: windows-sdk-content
 description: Specifies authentication data for both Schannel and Negotiate security packages.
 old-location: security\credssp_cred.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: b22bd22c-e6e1-4817-b5cf-ab49f574e75f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCREDSSP_CRED, CREDSSP_CRED, CREDSSP_CRED structure [Security], PCREDSSP_CRED, PCREDSSP_CRED structure pointer [Security], _CREDSSP_CRED, credssp/CREDSSP_CRED, credssp/PCREDSSP_CRED, security.credssp_cred"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: credssp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Credentialprovider.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDSSP_CRED, *PCREDSSP_CRED
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CREDSSP_CRED
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CREDSSP_CRED, *PCREDSSP_CRED
+req.redist: 
 ---
 
 # _CREDSSP_CRED structure

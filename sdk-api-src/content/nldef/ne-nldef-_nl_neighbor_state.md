@@ -4,7 +4,7 @@ title: "_NL_NEIGHBOR_STATE"
 author: windows-sdk-content
 description: The NL_NEIGHBOR_STATE enumeration type defines the state of a network layer neighbor IP address, as described in RFC 2461, section 7.3.2.
 old-location: netvista\nl_neighbor_state.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7751011b-c473-4697-b311-62e3a6d9b1ae
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: nldef.h
 req.include-header: Netioapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NL_NEIGHBOR_STATE, *PNL_NEIGHBOR_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NL_NEIGHBOR_STATE
 product: Windows
 targetos: Windows
-req.lib: Newdev.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NL_NEIGHBOR_STATE, *PNL_NEIGHBOR_STATE
+req.redist: 
 ---
 
 # _NL_NEIGHBOR_STATE enumeration

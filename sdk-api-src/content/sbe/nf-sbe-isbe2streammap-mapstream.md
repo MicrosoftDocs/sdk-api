@@ -4,17 +4,16 @@ title: ISBE2StreamMap::MapStream
 author: windows-sdk-content
 description: Maps a stream to an output pin for a Stream Buffer Source filter.
 old-location: mstv\isbe2streammap_mapstream.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: efe3b21d-9664-4367-9bfe-4c02589370c4
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ISBE2StreamMap interface [Microsoft TV Technologies],MapStream method, ISBE2StreamMap.MapStream, ISBE2StreamMap::MapStream, MapStream, MapStream method [Microsoft TV Technologies], MapStream method [Microsoft TV Technologies],ISBE2StreamMap interface, mstv.isbe2streammap_mapstream, sbe/ISBE2StreamMap::MapStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISBE2StreamMap.MapStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISBE2StreamMap::MapStream

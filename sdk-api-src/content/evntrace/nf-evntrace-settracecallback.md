@@ -4,17 +4,16 @@ title: SetTraceCallback function
 author: windows-sdk-content
 description: The SetTraceCallback function specifies an EventClassCallback function to process events for the specified event trace class.
 old-location: etw\settracecallback.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 8663f64f-a203-43e5-94e8-337f2d81c3a0
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: SetTraceCallback, SetTraceCallback function [ETW], _evt_settracecallback, base.settracecallback, etw.settracecallback, evntrace/SetTraceCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
+req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
+req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - SetTraceCallback
 product: Windows
 targetos: Windows
-req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
-req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # SetTraceCallback function

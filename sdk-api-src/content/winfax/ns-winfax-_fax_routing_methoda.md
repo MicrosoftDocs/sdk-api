@@ -4,7 +4,7 @@ title: "_FAX_ROUTING_METHODA"
 author: windows-sdk-content
 description: The FAX_ROUTING_METHOD structure contains information about one fax routing method, as it pertains to one fax device.
 old-location: fax\_mfax_fax_routing_method_str.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7w1e.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_ROUTING_METHODA, *PFAX_ROUTING_METHODA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FAX_ROUTING_METHODW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FAX_ROUTING_METHODA, *PFAX_ROUTING_METHODA
+req.redist: 
 ---
 
 # _FAX_ROUTING_METHODA structure

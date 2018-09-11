@@ -4,17 +4,16 @@ title: IRemoteDesktopClient::attachEvent
 author: windows-sdk-content
 description: Attaches an event handler to an event.
 old-location: termserv\iremotedesktopclient_attachevent.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: a904827b-644b-459b-b1bd-399bad21f94f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],attachEvent method, IRemoteDesktopClient.attachEvent, IRemoteDesktopClient::attachEvent, attachEvent, attachEvent method [Remote Desktop Services], attachEvent method [Remote Desktop Services],IRemoteDesktopClient interface, rdpappcontainerclient/IRemoteDesktopClient::attachEvent, termserv.iremotedesktopclient_attachevent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsTscAx.dll
-tech.root: 
-req.typenames: SnapshotFormatType
+req.lib: 
+req.dll: MsTscAx.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRemoteDesktopClient.attachEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsTscAx.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRemoteDesktopClient::attachEvent

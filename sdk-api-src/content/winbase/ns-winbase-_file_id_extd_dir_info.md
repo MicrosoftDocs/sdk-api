@@ -4,7 +4,7 @@ title: "_FILE_ID_EXTD_DIR_INFO"
 author: windows-sdk-content
 description: Contains identification information for a file.
 old-location: fs\file_id_extd_dir_info.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 68f222c4-beb6-4be1-a31a-c5fbebbf76f7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_ID_EXTD_DIR_INFO, *PFILE_ID_EXTD_DIR_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILE_ID_EXTD_DIR_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FILE_ID_EXTD_DIR_INFO, *PFILE_ID_EXTD_DIR_INFO
+req.redist: 
 ---
 
 # _FILE_ID_EXTD_DIR_INFO structure

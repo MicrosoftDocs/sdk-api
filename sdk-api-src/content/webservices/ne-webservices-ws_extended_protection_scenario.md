@@ -4,17 +4,16 @@ title: WS_EXTENDED_PROTECTION_SCENARIO
 author: windows-sdk-content
 description: Defines how Extended Protection is validated.
 old-location: wsw\ws_extended_protection_scenario.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: bd4a41aa-10bc-445c-9664-49f284881bf8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_EXTENDED_PROTECTION_SCENARIO, WS_EXTENDED_PROTECTION_SCENARIO enumeration [Web Services for Windows], WS_EXTENDED_PROTECTION_SCENARIO_BOUND_SERVER, WS_EXTENDED_PROTECTION_SCENARIO_TERMINATED_SSL, webservices/WS_EXTENDED_PROTECTION_SCENARIO, webservices/WS_EXTENDED_PROTECTION_SCENARIO_BOUND_SERVER, webservices/WS_EXTENDED_PROTECTION_SCENARIO_TERMINATED_SSL, wsw.ws_extended_protection_scenario
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: v.1.0
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_EXTENDED_PROTECTION_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_EXTENDED_PROTECTION_SCENARIO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_EXTENDED_PROTECTION_SCENARIO
+req.redist: 
 ---
 
 # WS_EXTENDED_PROTECTION_SCENARIO enumeration

@@ -4,17 +4,16 @@ title: lineMonitorDigits function
 author: windows-sdk-content
 description: The lineMonitorDigits function enables and disables the unbuffered detection of digits received on the call. Each time a digit of the specified digit mode is detected, a message is sent to the application indicating which digit has been detected.
 old-location: tapi2\linemonitordigits.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 7987761f-429c-4a6f-876b-eafe4274907a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: "_tapi2_linemonitordigits, lineMonitorDigits, lineMonitorDigits function [TAPI 2.2], tapi/lineMonitorDigits, tapi2.linemonitordigits"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - lineMonitorDigits
 product: Windows
 targetos: Windows
-req.lib: Tapi32.lib
-req.dll: Tapi32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # lineMonitorDigits function

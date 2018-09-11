@@ -4,17 +4,16 @@ title: IProxyProviderWinEventSink::AddStructureChangedEvent
 author: windows-sdk-content
 description: Raises an event to notify clients that the structure of the UI Automation tree has changed.
 old-location: winauto\uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 03be09a6-da4d-4071-bd7c-df79688c20d3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddStructureChangedEvent, AddStructureChangedEvent method [Windows Accessibility], AddStructureChangedEvent method [Windows Accessibility],IProxyProviderWinEventSink interface, IProxyProviderWinEventSink interface [Windows Accessibility],AddStructureChangedEvent method, IProxyProviderWinEventSink.AddStructureChangedEvent, IProxyProviderWinEventSink::AddStructureChangedEvent, uiauto.uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent, uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent, uiautomationcore/IProxyProviderWinEventSink::AddStructureChangedEvent, winauto.uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProxyProviderWinEventSink.AddStructureChangedEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IProxyProviderWinEventSink::AddStructureChangedEvent
@@ -67,9 +65,9 @@ Type: <b><a href="https://msdn.microsoft.com/f0ec6185-acd0-4df7-88f4-fd00747f98b
 A pointer to the provider of the element that is raising the event.
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param runtimeId [in]

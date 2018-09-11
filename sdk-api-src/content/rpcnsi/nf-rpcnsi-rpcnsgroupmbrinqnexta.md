@@ -4,17 +4,16 @@ title: RpcNsGroupMbrInqNextA function
 author: windows-sdk-content
 description: The RpcNsGroupMbrInqNext function returns one entry name from a group at a time.
 old-location: rpc\rpcnsgroupmbrinqnext.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 58f32594-85de-4d20-86b2-210367ccb7ce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcNsGroupMbrInqNext, RpcNsGroupMbrInqNext function [RPC], RpcNsGroupMbrInqNextA, RpcNsGroupMbrInqNextW, _rpc_rpcnsgroupmbrinqnext, rpc.rpcnsgroupmbrinqnext, rpcnsi/RpcNsGroupMbrInqNext, rpcnsi/RpcNsGroupMbrInqNextA, rpcnsi/RpcNsGroupMbrInqNextW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Rpcns4.lib
+req.dll: Rpcns4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcNsGroupMbrInqNextW
 product: Windows
 targetos: Windows
-req.lib: Rpcns4.lib
-req.dll: Rpcns4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcNsGroupMbrInqNextA function

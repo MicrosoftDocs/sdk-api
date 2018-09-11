@@ -4,17 +4,16 @@ title: ITaskSettings2::put_DisallowStartOnRemoteAppSession
 author: windows-sdk-content
 description: Gets or sets a Boolean value that specifies that the task will not be started if triggered to run in a Remote Applications Integrated Locally (RAIL) session.
 old-location: taskschd\itasksettings2_disallowstartonremoteappsession.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: a951d824-89a9-4483-a912-5c4cbf1755e1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DisallowStartOnRemoteAppSession property [Task Scheduler], DisallowStartOnRemoteAppSession property [Task Scheduler],ITaskSettings2 interface, ITaskSettings2 interface [Task Scheduler],DisallowStartOnRemoteAppSession property, ITaskSettings2.DisallowStartOnRemoteAppSession, ITaskSettings2.put_DisallowStartOnRemoteAppSession, ITaskSettings2::DisallowStartOnRemoteAppSession, ITaskSettings2::get_DisallowStartOnRemoteAppSession, ITaskSettings2::put_DisallowStartOnRemoteAppSession, put_DisallowStartOnRemoteAppSession, taskschd.itasksettings2_disallowstartonremoteappsession, taskschd/ITaskSettings2::DisallowStartOnRemoteAppSession, taskschd/ITaskSettings2::get_DisallowStartOnRemoteAppSession, taskschd/ITaskSettings2::put_DisallowStartOnRemoteAppSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITaskSettings2.put_DisallowStartOnRemoteAppSession
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskSettings2::put_DisallowStartOnRemoteAppSession

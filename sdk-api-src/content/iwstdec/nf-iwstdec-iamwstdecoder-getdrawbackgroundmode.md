@@ -4,17 +4,16 @@ title: IAMWstDecoder::GetDrawBackgroundMode
 author: windows-sdk-content
 description: Downstream filters use the GetDrawBackgroundMode method to determine whether the caption text background is opaque or transparent.
 old-location: dshow\iamwstdecoder_getdrawbackgroundmode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c5bf3a83-5f74-4ef1-81b6-6c99e3832725
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDrawBackgroundMode, GetDrawBackgroundMode method [DirectShow], GetDrawBackgroundMode method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetDrawBackgroundMode method, IAMWstDecoder.GetDrawBackgroundMode, IAMWstDecoder::GetDrawBackgroundMode, IAMWstDecoderGetDrawBackgroundMode, dshow.iamwstdecoder_getdrawbackgroundmode, iwstdec/IAMWstDecoder::GetDrawBackgroundMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_WST_STYLE, *PAM_WST_STYLE
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMWstDecoder.GetDrawBackgroundMode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMWstDecoder::GetDrawBackgroundMode

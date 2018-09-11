@@ -4,7 +4,7 @@ title: peer_group_event_registration_tag
 author: windows-sdk-content
 description: The PEER_GROUP_EVENT_REGISTRATION structure defines the particular peer group event a member can register for.
 old-location: p2p\peer_group_event_registration.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 9c9c82c3-b02a-49c2-9a8f-eb355ded8480
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_GROUP_EVENT_REGISTRATION, *PPEER_GROUP_EVENT_REGISTRATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_GROUP_EVENT_REGISTRATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_GROUP_EVENT_REGISTRATION, *PPEER_GROUP_EVENT_REGISTRATION
+req.redist: 
 ---
 
 # peer_group_event_registration_tag structure

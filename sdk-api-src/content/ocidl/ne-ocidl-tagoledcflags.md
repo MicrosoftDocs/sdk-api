@@ -4,17 +4,16 @@ title: tagOLEDCFLAGS
 author: windows-sdk-content
 description: Specifies additional information to the container about the device context that the object has requested.
 old-location: com\oledcflags.htm
-old-project: com
+tech.root: com
 ms.assetid: f8953376-2cbb-4f03-8216-2727d6a9f128
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OLEDCFLAGS, OLEDCFLAGS enumeration [COM], OLEDC_NODRAW, OLEDC_OFFSCREEN, OLEDC_PAINTBKGND, _ole_OLEDCFLAGS, com.oledcflags, ocidl/OLEDCFLAGS, ocidl/OLEDC_NODRAW, ocidl/OLEDC_OFFSCREEN, ocidl/OLEDC_PAINTBKGND, tagOLEDCFLAGS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEDCFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OLEDCFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OLEDCFLAGS
+req.redist: 
 ---
 
 # tagOLEDCFLAGS enumeration

@@ -4,17 +4,16 @@ title: IAudioClient3::InitializeSharedAudioStream
 author: windows-sdk-content
 description: Initializes a shared stream with the specified periodicity.
 old-location: coreaudio\iaudioclient3_initializesharedaudiostream.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 2DB9ECEC-8199-4157-8854-26A21B88E58A
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioClient3 interface [Core Audio],InitializeSharedAudioStream method, IAudioClient3.InitializeSharedAudioStream, IAudioClient3::InitializeSharedAudioStream, InitializeSharedAudioStream, InitializeSharedAudioStream method [Core Audio], InitializeSharedAudioStream method [Core Audio],IAudioClient3 interface, audioclient/IAudioClient3::InitializeSharedAudioStream, coreaudio.iaudioclient3_initializesharedaudiostream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioClient3.InitializeSharedAudioStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioClient3::InitializeSharedAudioStream

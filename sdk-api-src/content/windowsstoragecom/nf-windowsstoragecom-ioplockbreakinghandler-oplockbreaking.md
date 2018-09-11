@@ -4,17 +4,16 @@ title: IOplockBreakingHandler::OplockBreaking
 author: windows-sdk-content
 description: This method is not currently implemented.
 old-location: winrt\ioplockbreakinghandler_oplockbreaking.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 39E402AC-D159-4604-886E-454F36375CC5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOplockBreakingHandler interface [Windows Runtime],OplockBreaking method, IOplockBreakingHandler.OplockBreaking, IOplockBreakingHandler::OplockBreaking, OplockBreaking, OplockBreaking method [Windows Runtime], OplockBreaking method [Windows Runtime],IOplockBreakingHandler interface, windowsstoragecom/IOplockBreakingHandler::OplockBreaking, winrt.ioplockbreakinghandler_oplockbreaking
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windowsstoragecom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: Windows.storage.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOplockBreakingHandler.OplockBreaking
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.storage.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOplockBreakingHandler::OplockBreaking

@@ -4,17 +4,16 @@ title: IAsyncInfo::get_Status
 author: windows-sdk-content
 description: Gets a value that indicates the status of the asynchronous operation.
 old-location: winrt\iasyncinfo_status.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: b34d9318-8a0f-4986-a678-76ba6c5bb051
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IAsyncInfo interface [Windows Runtime],Status property, IAsyncInfo.Status, IAsyncInfo.get_Status, IAsyncInfo::Status, IAsyncInfo::get_Status, Status property [Windows Runtime], Status property [Windows Runtime],IAsyncInfo interface, asyncinfo/IAsyncInfo::Status, asyncinfo/IAsyncInfo::get_Status, get_Status, winrt.iasyncinfo_status
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: asyncinfo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAsyncInfo.get_Status
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAsyncInfo::get_Status

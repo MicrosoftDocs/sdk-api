@@ -4,17 +4,16 @@ title: ID3D10Device::GetCreationFlags
 author: windows-sdk-content
 description: Get the flags used during the call to create the device with D3D10CreateDevice.
 old-location: direct3d10\id3d10device_getcreationflags.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_getcreationflags.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 4822c55e-f89a-b10d-ccba-aa989735a00f, GetCreationFlags, GetCreationFlags method [Direct3D 10], GetCreationFlags method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GetCreationFlags method, ID3D10Device.GetCreationFlags, ID3D10Device::GetCreationFlags, d3d10/ID3D10Device::GetCreationFlags, direct3d10.id3d10device_getcreationflags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_USAGE
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D10Device.GetCreationFlags
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Device::GetCreationFlags

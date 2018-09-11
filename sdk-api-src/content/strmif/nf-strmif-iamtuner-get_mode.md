@@ -4,17 +4,16 @@ title: IAMTuner::get_Mode
 author: windows-sdk-content
 description: The get_Mode method retrieves the current mode on a multifunction tuner.
 old-location: dshow\iamtuner_get_mode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9a5f4cd8-8fde-4777-b9b6-caa7860b005c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMTuner interface [DirectShow],get_Mode method, IAMTuner.get_Mode, IAMTuner::get_Mode, IAMTunerget_Mode, dshow.iamtuner_get_mode, get_Mode, get_Mode method [DirectShow], get_Mode method [DirectShow],IAMTuner interface, strmif/IAMTuner::get_Mode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMTuner.get_Mode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMTuner::get_Mode

@@ -4,7 +4,7 @@ title: "_HTTP_SERVER_PROPERTY"
 author: windows-sdk-content
 description: Defines the properties that are configured by the HTTP Server API on a URL group, server session, or request queue.
 old-location: http\http_server_property.htm
-old-project: http
+tech.root: http
 ms.assetid: 14865796-135c-43c2-955a-fdeae05a8278
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_SERVER_PROPERTY, *PHTTP_SERVER_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_SERVER_PROPERTY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_SERVER_PROPERTY, *PHTTP_SERVER_PROPERTY
+req.redist: 
 ---
 
 # _HTTP_SERVER_PROPERTY enumeration

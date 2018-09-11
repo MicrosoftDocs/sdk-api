@@ -4,17 +4,16 @@ title: "_SERVER_INFO_1552"
 author: windows-sdk-content
 description: The SERVER_INFO_1552 structure specifies the maximum time allowed for a link delay.
 old-location: netmgmt\server_info_1552_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: eb725f37-4bcd-4402-968f-ea6d58d7d79a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVER_INFO_1552, *PSERVER_INFO_1552, LPSERVER_INFO_1552, LPSERVER_INFO_1552 structure pointer [Network Management], PSERVER_INFO_1552, PSERVER_INFO_1552 structure pointer [Network Management], SERVER_INFO_1552, SERVER_INFO_1552 structure [Network Management], _SERVER_INFO_1552, _win32_server_info_1552_str, lmserver/LPSERVER_INFO_1552, lmserver/PSERVER_INFO_1552, lmserver/SERVER_INFO_1552, netmgmt.server_info_1552_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVER_INFO_1552, *PSERVER_INFO_1552, *LPSERVER_INFO_1552
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVER_INFO_1552
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SERVER_INFO_1552, *PSERVER_INFO_1552, *LPSERVER_INFO_1552
+req.redist: 
 ---
 
 # _SERVER_INFO_1552 structure

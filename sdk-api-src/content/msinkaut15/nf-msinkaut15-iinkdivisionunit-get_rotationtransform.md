@@ -4,17 +4,16 @@ title: IInkDivisionUnit::get_RotationTransform
 author: windows-sdk-content
 description: Gets the transformation matrix that the IInkDivisionUnit object uses to rotate the strokes to horizontal.
 old-location: tablet\iinkdivisionunit_rotationtransform.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 2c1c0b5e-2f39-4901-a8c7-96dd65ced5c8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 2c1c0b5e-2f39-4901-a8c7-96dd65ced5c8, IInkDivisionUnit interface [Tablet PC],RotationTransform property, IInkDivisionUnit.RotationTransform, IInkDivisionUnit.get_RotationTransform, IInkDivisionUnit::RotationTransform, IInkDivisionUnit::get_RotationTransform, RotationTransform property [Tablet PC], RotationTransform property [Tablet PC],IInkDivisionUnit interface, get_RotationTransform, msinkaut15/IInkDivisionUnit::RotationTransform, msinkaut15/IInkDivisionUnit::get_RotationTransform, tablet.iinkdivisionunit_rotationtransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut15.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecoGuide
+req.lib: Inkdiv.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkDivisionUnit.get_RotationTransform
 product: Windows
 targetos: Windows
-req.lib: Inkdiv.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDivisionUnit::get_RotationTransform

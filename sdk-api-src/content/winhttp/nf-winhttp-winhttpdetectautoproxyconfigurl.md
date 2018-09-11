@@ -4,17 +4,16 @@ title: WinHttpDetectAutoProxyConfigUrl function
 author: windows-sdk-content
 description: Finds the URL for the Proxy Auto-Configuration (PAC) file.
 old-location: http\winhttpdetectautoproxyconfigurl.htm
-old-project: winhttp
+tech.root: WinHttp
 ms.assetid: a433ed3c-3f31-4c37-9c09-3f8344e9550d
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WINHTTP_AUTO_DETECT_TYPE_DHCP, WINHTTP_AUTO_DETECT_TYPE_DNS_A, WinHttpDetectAutoProxyConfigUrl, WinHttpDetectAutoProxyConfigUrl function [WinHTTP], http.winhttpdetectautoproxyconfigurl, winhttp/WinHttpDetectAutoProxyConfigUrl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_WEB_SOCKET_OPERATION
+req.lib: Winhttp.lib
+req.dll: Winhttp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinHttpDetectAutoProxyConfigUrl
 product: Windows
 targetos: Windows
-req.lib: Winhttp.lib
-req.dll: Winhttp.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WinHttpDetectAutoProxyConfigUrl function

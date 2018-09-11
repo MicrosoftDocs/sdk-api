@@ -4,17 +4,16 @@ title: IsDestinationReachableW function
 author: windows-sdk-content
 description: The IsDestinationReachable function determines whether or not a specified destination can be reached, and provides Quality of Connection (QOC) information for a destination.
 old-location: sens\isdestinationreachable.htm
-old-project: sens
+tech.root: Sens
 ms.assetid: 377af331-8494-4a3d-b822-78c2b568239c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IsDestinationReachable, IsDestinationReachable function [SENS], IsDestinationReachableA, IsDestinationReachableW, _zaw_isdestinationreachable, sens.isdestinationreachable, sensapi/IsDestinationReachable, sensapi/IsDestinationReachableA, sensapi/IsDestinationReachableW, syncmgr.isdestinationreachable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sensapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: Sensapi.lib
+req.dll: Sensapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IsDestinationReachableW
 product: Windows
 targetos: Windows
-req.lib: Sensapi.lib
-req.dll: Sensapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IsDestinationReachableW function

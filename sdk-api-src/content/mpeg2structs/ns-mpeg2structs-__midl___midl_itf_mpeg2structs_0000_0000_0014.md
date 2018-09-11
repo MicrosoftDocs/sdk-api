@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0014"
 author: windows-sdk-content
 description: The MPEG_RQST_PACKET structure defines a buffer to receive MPEG-2 section data.
 old-location: mstv\mpeg_rqst_packet.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b7777633-66c3-44c2-9cdb-14c540555a43
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_RQST_PACKET, *PMPEG_RQST_PACKET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPEG_RQST_PACKET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPEG_RQST_PACKET, *PMPEG_RQST_PACKET
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_mpeg2structs_0000_0000_0014 structure

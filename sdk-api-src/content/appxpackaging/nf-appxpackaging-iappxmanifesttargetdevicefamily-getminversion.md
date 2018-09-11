@@ -4,17 +4,16 @@ title: IAppxManifestTargetDeviceFamily::GetMinVersion
 author: windows-sdk-content
 description: Gets the minimum version of the target device family from the AppxManifest.xml.
 old-location: appxpkg\iappxmanifesttargetdevicefamily_getminversion.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 8CE408D3-0DD7-4482-8F7E-FE731ACE58C6
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetMinVersion, GetMinVersion method [App packaging and management], GetMinVersion method [App packaging and management],IAppxManifestTargetDeviceFamily interface, IAppxManifestTargetDeviceFamily interface [App packaging and management],GetMinVersion method, IAppxManifestTargetDeviceFamily.GetMinVersion, IAppxManifestTargetDeviceFamily::GetMinVersion, appxpackaging/IAppxManifestTargetDeviceFamily::GetMinVersion, appxpkg.iappxmanifesttargetdevicefamily_getminversion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxManifestTargetDeviceFamily.GetMinVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxManifestTargetDeviceFamily::GetMinVersion

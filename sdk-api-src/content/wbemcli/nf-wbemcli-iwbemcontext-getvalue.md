@@ -4,17 +4,16 @@ title: IWbemContext::GetValue
 author: windows-sdk-content
 description: The IWbemContext::GetValue method is used to retrieve a specific named context value by name.
 old-location: wmi\iwbemcontext_getvalue.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: e11fff37-aeb7-41c5-8639-ca0a7a144263
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: GetValue, GetValue method [Windows Management Instrumentation], GetValue method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],GetValue method, IWbemContext.GetValue, IWbemContext::GetValue, _hmm_iwbemcontext_getvalue, wbemcli/IWbemContext::GetValue, wmi.iwbemcontext_getvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - IWbemContext.GetValue
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemContext::GetValue
@@ -70,7 +68,7 @@ The
 
 ### -param wszName
 
-
+TBD
 
 
 ### -param lFlags [in]

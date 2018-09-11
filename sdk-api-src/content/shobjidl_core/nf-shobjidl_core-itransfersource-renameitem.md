@@ -4,17 +4,16 @@ title: ITransferSource::RenameItem
 author: windows-sdk-content
 description: Changes the name of an item, returning the IShellItem with the new name.
 old-location: shell\ITransferSource_RenameItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 793eba59-6d21-4c7b-8fdb-bb7658fc410e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ITransferSource interface [Windows Shell],RenameItem method, ITransferSource.RenameItem, ITransferSource::RenameItem, RenameItem, RenameItem method [Windows Shell], RenameItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_RenameItem, shell.ITransferSource_RenameItem, shobjidl_core/ITransferSource::RenameItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITransferSource.RenameItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITransferSource::RenameItem
@@ -76,7 +74,7 @@ A pointer to a null-terminated, Unicode string containing the new name.
 
 ### -param flags
 
-
+TBD
 
 
 ### -param ppsiNewDest [out]

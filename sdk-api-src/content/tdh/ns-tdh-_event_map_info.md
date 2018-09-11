@@ -4,7 +4,7 @@ title: "_EVENT_MAP_INFO"
 author: windows-sdk-content
 description: Defines the metadata about the event map.
 old-location: etw\event_map_info_struct.htm
-old-project: etw
+tech.root: etw
 ms.assetid: dc7f14e7-16d7-4dfc-8c1a-5db6fa999d98
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_MAP_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENT_MAP_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: EVENT_MAP_INFO
+req.redist: 
 ---
 
 # _EVENT_MAP_INFO structure

@@ -4,17 +4,16 @@ title: IPenInputPanel::get_HorizontalOffset
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the offset between the left edge of the pen input panel and the left edge of the control to which it is attached.
 old-location: tablet\peninputpanel_horizontaloffset.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 835b9d08-871a-4a28-8b10-c9a0e8829674
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 835b9d08-871a-4a28-8b10-c9a0e8829674, HorizontalOffset property [Tablet PC], HorizontalOffset property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],HorizontalOffset property, IPenInputPanel.HorizontalOffset, IPenInputPanel.get_HorizontalOffset, IPenInputPanel::HorizontalOffset, IPenInputPanel::get_HorizontalOffset, IPenInputPanel::put_HorizontalOffset, PenInputPanel.get_HorizontalOffset, PenInputPanel.put_HorizontalOffset, get_HorizontalOffset, peninputpanel/IPenInputPanel::HorizontalOffset, peninputpanel/IPenInputPanel::get_HorizontalOffset, peninputpanel/IPenInputPanel::put_HorizontalOffset, put_HorizontalOffset, tablet.peninputpanel_horizontaloffset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - PenInputPanel.put_HorizontalOffset
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPenInputPanel::get_HorizontalOffset

@@ -4,17 +4,16 @@ title: IMediaStreamFilter::ReferenceTimeToStreamTime
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The ReferenceTimeToStreamTime method converts a reference time to stream time.
 old-location: dshow\imediastreamfilter_referencetimetostreamtime.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 71ddbf0b-17aa-4481-81a7-6d4a12275c31
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaStreamFilter interface [DirectShow],ReferenceTimeToStreamTime method, IMediaStreamFilter.ReferenceTimeToStreamTime, IMediaStreamFilter::ReferenceTimeToStreamTime, IMediaStreamFilterReferenceTimeToStreamTime, ReferenceTimeToStreamTime, ReferenceTimeToStreamTime method [DirectShow], ReferenceTimeToStreamTime method [DirectShow],IMediaStreamFilter interface, amstream/IMediaStreamFilter::ReferenceTimeToStreamTime, dshow.imediastreamfilter_referencetimetostreamtime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMediaStreamFilter.ReferenceTimeToStreamTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaStreamFilter::ReferenceTimeToStreamTime

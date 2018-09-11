@@ -4,7 +4,7 @@ title: "_MEMORYSTATUSEX"
 author: windows-sdk-content
 description: Contains information about the current state of both physical and virtual memory, including extended memory.
 old-location: base\memorystatusex_str.htm
-old-project: memory
+tech.root: memory
 ms.assetid: ce3c7993-8b91-4bca-8be8-9d81c26b9bef
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sysinfoapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MEMORYSTATUSEX, *LPMEMORYSTATUSEX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MEMORYSTATUSEX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: MEMORYSTATUSEX, *LPMEMORYSTATUSEX
+req.redist: 
 ---
 
 # _MEMORYSTATUSEX structure

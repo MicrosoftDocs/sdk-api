@@ -4,17 +4,16 @@ title: "_CERT_REVOCATION_CHAIN_PARA"
 author: windows-sdk-content
 description: Contains parameters used for building a chain for an independent online certificate status protocol (OCSP) response signer certificate.
 old-location: security\cert_revocation_chain_para.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 9cdcc81a-aef1-4a1e-94f8-7aa461225dae
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_REVOCATION_CHAIN_PARA, CERT_CHAIN_REVOCATION_CHECK_OCSP_CERT, CERT_REVOCATION_CHAIN_PARA, CERT_REVOCATION_CHAIN_PARA structure [Security], PCERT_REVOCATION_CHAIN_PARA, PCERT_REVOCATION_CHAIN_PARA structure pointer [Security], _CERT_REVOCATION_CHAIN_PARA, security.cert_revocation_chain_para, wincrypt/CERT_REVOCATION_CHAIN_PARA, wincrypt/PCERT_REVOCATION_CHAIN_PARA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_REVOCATION_CHAIN_PARA, *PCERT_REVOCATION_CHAIN_PARA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_REVOCATION_CHAIN_PARA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_REVOCATION_CHAIN_PARA, *PCERT_REVOCATION_CHAIN_PARA
+req.redist: 
 ---
 
 # _CERT_REVOCATION_CHAIN_PARA structure

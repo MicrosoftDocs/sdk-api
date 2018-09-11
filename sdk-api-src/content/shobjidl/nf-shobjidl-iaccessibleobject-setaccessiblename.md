@@ -4,17 +4,16 @@ title: IAccessibleObject::SetAccessibleName
 author: windows-sdk-content
 description: Sets text that is retrieved by IAccessible::get_accName which accessibility tools use to obtain the Name Property of an object.
 old-location: shell\IAccessibleObject_SetAccessibleName.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 455d9434-1ea3-4a4e-ae4d-0952c895178c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IAccessibleObject interface [Windows Shell],SetAccessibleName method, IAccessibleObject.SetAccessibleName, IAccessibleObject::SetAccessibleName, SetAccessibleName, SetAccessibleName method [Windows Shell], SetAccessibleName method [Windows Shell],IAccessibleObject interface, _shell_IAccessibleObject_SetAccessibleName, shell.IAccessibleObject_SetAccessibleName, shobjidl/IAccessibleObject::SetAccessibleName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessibleObject.SetAccessibleName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IAccessibleObject::SetAccessibleName

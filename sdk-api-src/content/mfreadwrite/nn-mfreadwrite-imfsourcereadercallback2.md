@@ -4,7 +4,7 @@ title: IMFSourceReaderCallback2
 author: windows-sdk-content
 description: Extends the IMFSourceReaderCallback interface.
 old-location: mf\imfsourcereadercallback2.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: D0EC7FE9-74C3-4A7C-A5F3-798A3D6EF2CC
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfreadwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_SOURCE_READER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSourceReaderCallback2
 product: Windows
 targetos: Windows
-req.lib: Mfreadwrite.lib
-req.dll: Mfreadwrite.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSourceReaderCallback2 interface

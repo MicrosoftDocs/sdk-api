@@ -4,17 +4,16 @@ title: IADsPathname::RemoveLeafElement
 author: windows-sdk-content
 description: Removes the last element from the directory path that has been set on the Pathname object.
 old-location: adsi\iadspathname_removeleafelement.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 90085c75-0a38-43e8-932e-2b89d167cfa5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsPathname interface [ADSI],RemoveLeafElement method, IADsPathname.RemoveLeafElement, IADsPathname::RemoveLeafElement, RemoveLeafElement, RemoveLeafElement method [ADSI], RemoveLeafElement method [ADSI],IADsPathname interface, _ds_iadspathname_removeleafelement, adsi.iadspathname__removeleafelement, adsi.iadspathname_removeleafelement, iads/IADsPathname::RemoveLeafElement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsPathname.RemoveLeafElement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsPathname::RemoveLeafElement

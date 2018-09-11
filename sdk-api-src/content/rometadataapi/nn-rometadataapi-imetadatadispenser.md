@@ -4,17 +4,16 @@ title: IMetaDataDispenser
 author: windows-sdk-content
 description: Provides methods to create a new metadata scope, or open an existing one.
 old-location: winrt\imetadatadispenser.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 3454193d-9068-4032-ae9e-b3087509b0b8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMetaDataDispenser, IMetaDataDispenser interface [Windows Runtime], IMetaDataDispenser interface [Windows Runtime],described, rometadataapi/IMetaDataDispenser, winrt.imetadatadispenser
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataDispenser
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataDispenser interface

@@ -4,17 +4,16 @@ title: PSRefreshPropertySchema function
 author: windows-sdk-content
 description: Not supported.It is valid to call this function, but it is not implemented to perform any function so there is no reason to do so.
 old-location: properties\PSRefreshPropertySchema.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 07efbf66-3594-4b9d-b959-278dc9000572
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSRefreshPropertySchema, PSRefreshPropertySchema function [Windows Properties], properties.PSRefreshPropertySchema, propsys/PSRefreshPropertySchema, shell.PSRefreshPropertySchema, shell_PSRefreshPropertySchema
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: Propsys.h
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSRefreshPropertySchema
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 5.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # PSRefreshPropertySchema function

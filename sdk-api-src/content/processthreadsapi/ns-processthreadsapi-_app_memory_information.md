@@ -4,7 +4,7 @@ title: "_APP_MEMORY_INFORMATION"
 author: windows-sdk-content
 description: Represents app memory usage at a single point in time. This structure is used by the PROCESS_INFORMATION_CLASS class.
 old-location: base\app_memory_information.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: A2D0CDED-0E8B-41D6-8435-BDB4E5445DE4
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: processthreadsapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1511 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APP_MEMORY_INFORMATION, *PAPP_MEMORY_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - APP_MEMORY_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: APP_MEMORY_INFORMATION, *PAPP_MEMORY_INFORMATION
+req.redist: 
 ---
 
 # _APP_MEMORY_INFORMATION structure

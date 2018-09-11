@@ -4,17 +4,16 @@ title: DWRITE_FONT_METRICS
 author: windows-sdk-content
 description: The DWRITE_FONT_METRICS structure specifies the metrics that are applicable to all glyphs within the font face.
 old-location: directwrite\dwrite_font_metrics.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: ffbf987c-145e-4b93-a48f-8948944c6e33
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_FONT_METRICS, DWRITE_FONT_METRICS structure [Direct Write], directwrite.dwrite_font_metrics, dwrite/DWRITE_FONT_METRICS
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_FONT_METRICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_FONT_METRICS structure

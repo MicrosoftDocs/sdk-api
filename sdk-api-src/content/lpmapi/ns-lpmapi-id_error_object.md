@@ -4,17 +4,16 @@ title: ID_ERROR_OBJECT
 author: windows-sdk-content
 description: The ID_ERROR_OBJECT structure contains error message information for Identity Policy Elements for RSVP.
 old-location: qos\id_error_object.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: de6e8eaa-4436-4b82-8c47-76da53116ff2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ID_ERROR_OBJECT, ID_ERROR_OBJECT structure [QOS], lpmapi/ID_ERROR_OBJECT, qos.id_error_object
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ID_ERROR_OBJECT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ID_ERROR_OBJECT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ID_ERROR_OBJECT
+req.redist: 
 ---
 
 # ID_ERROR_OBJECT structure

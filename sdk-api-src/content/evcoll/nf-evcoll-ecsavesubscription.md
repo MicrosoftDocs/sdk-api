@@ -4,17 +4,16 @@ title: EcSaveSubscription function
 author: windows-sdk-content
 description: Saves subscription configuration information.
 old-location: wec\ecsavesubscription.htm
-old-project: WEC
+tech.root: WEC
 ms.assetid: 41702fb8-5b39-4daa-8904-aa36de18665c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcSaveSubscription, EcSaveSubscription function, evcoll/EcSaveSubscription, wec.ecsavesubscription, wes.ecsavesubscription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EC_VARIANT_TYPE
+req.lib: Wecapi.lib
+req.dll: Wecapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EcSaveSubscription
 product: Windows
 targetos: Windows
-req.lib: Wecapi.lib
-req.dll: Wecapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EcSaveSubscription function
@@ -74,7 +72,7 @@ Reserved. Must be <b>NULL</b>.
 
 
 
-This function returns BOOL __stdcall.
+This function returns BOOL.
 
 
 

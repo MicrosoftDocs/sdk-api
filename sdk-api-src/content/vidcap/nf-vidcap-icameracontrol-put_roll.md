@@ -4,17 +4,16 @@ title: ICameraControl::put_Roll
 author: windows-sdk-content
 description: The put_Roll method sets the camera's roll angle.
 old-location: dshow\icameracontrol_put_roll.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f74c7acc-e141-4238-bcbe-7890646e706c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Roll method, ICameraControl.put_Roll, ICameraControl::put_Roll, ICameraControlput_Roll, dshow.icameracontrol_put_roll, put_Roll, put_Roll method [DirectShow], put_Roll method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Roll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICameraControl.put_Roll
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICameraControl::put_Roll

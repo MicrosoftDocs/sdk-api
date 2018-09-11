@@ -4,17 +4,16 @@ title: GetEnabledXStateFeatures function
 author: windows-sdk-content
 description: Gets a mask of enabled XState features on x86 or x64 processors.
 old-location: base\getenabledxstatefeatures.htm
-old-project: debug
+tech.root: debug
 ms.assetid: E7DE090F-F83E-440D-B2A3-BCF160889F2E
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: GetEnabledXStateFeatures, GetEnabledXStateFeatures function, base.getenabledxstatefeatures, winbase/GetEnabledXStateFeatures
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 with SP1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 with SP1 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetEnabledXStateFeatures
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetEnabledXStateFeatures function

@@ -4,17 +4,16 @@ title: IMpegAudioDecoder::put_Stereo
 author: windows-sdk-content
 description: Specifies whether the decoder will decode the encoded stream into stereo or mono PCM.
 old-location: dshow\impegaudiodecoder_put_stereo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 238e33ba-f35c-423c-be5f-73d1ca14cebd
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_Stereo method, IMpegAudioDecoder.put_Stereo, IMpegAudioDecoder::put_Stereo, IMpegAudioDecoderputStereo, dshow.impegaudiodecoder_put_stereo, mpegtype/IMpegAudioDecoder::put_Stereo, put_Stereo, put_Stereo method [DirectShow], put_Stereo method [DirectShow],IMpegAudioDecoder interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpegtype.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_CONTEXT, *PMPEG_CONTEXT
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMpegAudioDecoder.put_Stereo
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMpegAudioDecoder::put_Stereo

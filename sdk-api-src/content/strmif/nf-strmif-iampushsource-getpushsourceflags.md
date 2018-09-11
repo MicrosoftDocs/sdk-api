@@ -4,17 +4,16 @@ title: IAMPushSource::GetPushSourceFlags
 author: windows-sdk-content
 description: The GetPushSourceFlags method retrieves a combination of flags describing the behavior of the filter.
 old-location: dshow\iampushsource_getpushsourceflags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3e72367f-a066-43ad-9f96-648cad13b43d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetPushSourceFlags, GetPushSourceFlags method [DirectShow], GetPushSourceFlags method [DirectShow],IAMPushSource interface, IAMPushSource interface [DirectShow],GetPushSourceFlags method, IAMPushSource.GetPushSourceFlags, IAMPushSource::GetPushSourceFlags, IAMPushSourceGetPushSourceFlags, dshow.iampushsource_getpushsourceflags, strmif/IAMPushSource::GetPushSourceFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMPushSource.GetPushSourceFlags
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMPushSource::GetPushSourceFlags

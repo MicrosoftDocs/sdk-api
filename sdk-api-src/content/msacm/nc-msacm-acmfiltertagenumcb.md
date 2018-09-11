@@ -4,7 +4,7 @@ title: ACMFILTERTAGENUMCB
 author: windows-sdk-content
 description: The acmFilterTagEnumCallback function specifies a callback function used with the acmFilterTagEnum function. The acmFilterTagEnumCallback function name is a placeholder for an application-defined function name.
 old-location: multimedia\acmfiltertagenumcallback.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 63469be1-d657-4e95-9978-d31140ccd46f
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: msacm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ACMFILTERTAGENUMCBW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ACMFILTERTAGENUMCB callback function

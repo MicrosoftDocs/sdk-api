@@ -4,17 +4,16 @@ title: IGuideDataEvent::ServiceChanged
 author: windows-sdk-content
 description: The ServiceChanged method is called when a service has been changed.
 old-location: mstv\iguidedataevent_servicechanged.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 75387dd8-e0e2-4fae-8c4a-a0b7b06f61b1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ServiceChanged method, IGuideDataEvent.ServiceChanged, IGuideDataEvent::ServiceChanged, IGuideDataEventServiceChanged, ServiceChanged, ServiceChanged method [Microsoft TV Technologies], ServiceChanged method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ServiceChanged, mstv.iguidedataevent_servicechanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGuideDataEvent.ServiceChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGuideDataEvent::ServiceChanged

@@ -4,17 +4,16 @@ title: IMDSPStorage3
 author: windows-sdk-content
 description: The IMDSPStorage3 interface extends IMDSPStorage2 by supporting metadata.
 old-location: wmdm\imdspstorage3.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 5ff674a1-a0b9-43b6-b8b7-9a5c67b3f919
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPStorage3, IMDSPStorage3 interface [windows Media Device Manager], IMDSPStorage3 interface [windows Media Device Manager],described, IMDSPStorage3Interface, mswmdm/IMDSPStorage3, wmdm.imdspstorage3
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMDSPStorage3
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPStorage3 interface

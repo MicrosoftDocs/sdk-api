@@ -4,17 +4,16 @@ title: IContact::GetContactID
 author: windows-sdk-content
 description: Retrieves the local computer unique contact ID.
 old-location: wincontacts\_wincontacts_IContact_GetContactID.htm
-old-project: wincontacts
+tech.root: wincontacts
 ms.assetid: 25daa44f-2042-4116-b0dd-4f16857cbb0b
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetContactID, GetContactID method [Windows Contacts], GetContactID method [Windows Contacts],IContact interface, IContact interface [Windows Contacts],GetContactID method, IContact.GetContactID, IContact::GetContactID, _wincontacts_IContact_GetContactID, icontact/IContact::GetContactID, wincontacts._wincontacts_IContact_GetContactID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContact.GetContactID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wab32.dll (Version 6.0 or later)
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContact::GetContactID

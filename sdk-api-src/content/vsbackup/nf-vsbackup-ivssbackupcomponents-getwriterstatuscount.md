@@ -4,17 +4,16 @@ title: IVssBackupComponents::GetWriterStatusCount
 author: windows-sdk-content
 description: The GetWriterStatusCount method returns the number of writers with status.
 old-location: base\ivssbackupcomponents_getwriterstatuscount.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: e358cb2b-9b0f-47fb-a0ca-7bbbc6e49aff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetWriterStatusCount, GetWriterStatusCount method [VSS], GetWriterStatusCount method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterStatusCount method, IVssBackupComponents.GetWriterStatusCount, IVssBackupComponents::GetWriterStatusCount, _win32_ivssbackupcomponents_getwriterstatuscount, base.ivssbackupcomponents_getwriterstatuscount, vsbackup/IVssBackupComponents::GetWriterStatusCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.GetWriterStatusCount
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::GetWriterStatusCount

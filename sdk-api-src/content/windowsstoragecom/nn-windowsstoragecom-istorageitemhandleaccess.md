@@ -4,17 +4,16 @@ title: IStorageItemHandleAccess
 author: windows-sdk-content
 description: Provides access to the operating system handle of a storage file.
 old-location: winrt\istoragehandleaccess.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 802E6D88-7AFC-4C15-8906-3C08CB44707B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IStorageHandleAccess, IStorageItemHandleAccess, IStorageItemHandleAccess interface [Windows Runtime], IStorageItemHandleAccess interface [Windows Runtime],described, windowsstoragecom/IStorageHandleAccess, winrt.istoragehandleaccess
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: windowsstoragecom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: Windows.storage.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStorageItemHandleAccess
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.storage.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IStorageItemHandleAccess interface

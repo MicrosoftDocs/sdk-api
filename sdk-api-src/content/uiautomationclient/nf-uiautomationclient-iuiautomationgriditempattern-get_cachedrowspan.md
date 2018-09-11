@@ -4,17 +4,16 @@ title: IUIAutomationGridItemPattern::get_CachedRowSpan
 author: windows-sdk-content
 description: Retrieves the cached number of rows spanned by a grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedRowSpan.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 6c93cfc7-76f3-4341-ae77-7782d5936ac6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedRowSpan property [Windows Accessibility], CachedRowSpan property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CachedRowSpan property, IUIAutomationGridItemPattern.CachedRowSpan, IUIAutomationGridItemPattern.get_CachedRowSpan, IUIAutomationGridItemPattern::CachedRowSpan, IUIAutomationGridItemPattern::get_CachedRowSpan, get_CachedRowSpan, uiauto.uiauto_IUIAutomationGridItemPattern_CachedRowSpan, uiauto_IUIAutomationGridItemPattern_CachedRowSpan, uiautomationclient/IUIAutomationGridItemPattern::CachedRowSpan, uiautomationclient/IUIAutomationGridItemPattern::get_CachedRowSpan, winauto.uiauto_IUIAutomationGridItemPattern_CachedRowSpan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationGridItemPattern.get_CachedRowSpan
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationGridItemPattern::get_CachedRowSpan

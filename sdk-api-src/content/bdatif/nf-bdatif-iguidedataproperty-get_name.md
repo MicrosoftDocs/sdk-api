@@ -4,17 +4,16 @@ title: IGuideDataProperty::get_Name
 author: windows-sdk-content
 description: The get_Name method retrieves the name of the property.
 old-location: mstv\iguidedataproperty_get_name.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 63606e76-fd4a-4954-93bd-1085d32dd2da
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Name method, IGuideDataProperty.get_Name, IGuideDataProperty::get_Name, IGuideDataPropertyget_Name, bdatif/IGuideDataProperty::get_Name, get_Name, get_Name method [Microsoft TV Technologies], get_Name method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGuideDataProperty.get_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGuideDataProperty::get_Name

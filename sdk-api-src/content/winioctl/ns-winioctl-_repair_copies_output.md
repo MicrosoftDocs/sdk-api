@@ -4,7 +4,7 @@ title: "_REPAIR_COPIES_OUTPUT"
 author: windows-sdk-content
 description: Contains output of a repair copies operation returned from the FSCTL_REPAIR_COPIES control code.
 old-location: fs\repair_copies_output.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: a3da7779-92e7-40bf-a889-dd2013e942ab
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REPAIR_COPIES_OUTPUT, *PREPAIR_COPIES_OUTPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - REPAIR_COPIES_OUTPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: REPAIR_COPIES_OUTPUT, *PREPAIR_COPIES_OUTPUT
+req.redist: 
 ---
 
 # _REPAIR_COPIES_OUTPUT structure

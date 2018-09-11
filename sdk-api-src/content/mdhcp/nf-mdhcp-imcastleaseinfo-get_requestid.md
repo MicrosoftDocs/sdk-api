@@ -4,17 +4,16 @@ title: IMcastLeaseInfo::get_RequestID
 author: windows-sdk-content
 description: The get_RequestID method obtains the request ID for a lease.
 old-location: tapi3\imcastleaseinfo_get_requestid.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 832bf532-4779-4066-a630-9892ad746a6c
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_RequestID method, IMcastLeaseInfo.get_RequestID, IMcastLeaseInfo::get_RequestID, _tapi3_imcastleaseinfo_get_requestid, get_RequestID, get_RequestID method [TAPI 2.2], get_RequestID method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_RequestID, tapi3.imcastleaseinfo_get_requestid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMcastLeaseInfo.get_RequestID
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Mdhcp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMcastLeaseInfo::get_RequestID

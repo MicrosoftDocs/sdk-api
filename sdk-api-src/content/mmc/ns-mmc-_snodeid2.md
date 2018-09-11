@@ -4,7 +4,7 @@ title: "_SNodeID2"
 author: windows-sdk-content
 description: The SNodeID2 structure is introduced in MMC 1.2, and replaces the SNodeID structure.
 old-location: mmc\snodeid2.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: d7a0a5db-a84f-48f3-b1fb-5bccb104b62a
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SNodeID2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SNodeID2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SNodeID2
+req.redist: 
 ---
 
 # _SNodeID2 structure

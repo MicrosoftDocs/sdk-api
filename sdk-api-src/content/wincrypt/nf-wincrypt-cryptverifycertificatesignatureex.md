@@ -4,17 +4,16 @@ title: CryptVerifyCertificateSignatureEx function
 author: windows-sdk-content
 description: Verifies the signature of a subject certificate, certificate revocation list, certificate request, or keygen request by using the issuer's public key.
 old-location: security\cryptverifycertificatesignatureex.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 8a84af66-b174-4a3e-b1d7-6f218a52d877
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_VERIFY_CERT_SIGN_DISABLE_MD2_MD4_FLAG, CRYPT_VERIFY_CERT_SIGN_ISSUER_CERT, CRYPT_VERIFY_CERT_SIGN_ISSUER_CHAIN, CRYPT_VERIFY_CERT_SIGN_ISSUER_NULL, CRYPT_VERIFY_CERT_SIGN_ISSUER_PUBKEY, CRYPT_VERIFY_CERT_SIGN_RETURN_STRONG_PROPERTIES_FLAG, CRYPT_VERIFY_CERT_SIGN_SET_STRONG_PROPERTIES_FLAG, CRYPT_VERIFY_CERT_SIGN_SUBJECT_BLOB, CRYPT_VERIFY_CERT_SIGN_SUBJECT_CERT, CRYPT_VERIFY_CERT_SIGN_SUBJECT_CRL, CRYPT_VERIFY_CERT_SIGN_SUBJECT_OCSP_BASIC_SIGNED_RESPONSE, CryptVerifyCertificateSignatureEx, CryptVerifyCertificateSignatureEx function [Security], X509_ASN_ENCODING, _crypto2_cryptverifycertificatesignatureex, security.cryptverifycertificatesignatureex, wincrypt/CryptVerifyCertificateSignatureEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptVerifyCertificateSignatureEx
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptVerifyCertificateSignatureEx function

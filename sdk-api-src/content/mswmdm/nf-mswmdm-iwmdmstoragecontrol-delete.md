@@ -4,17 +4,16 @@ title: IWMDMStorageControl::Delete
 author: windows-sdk-content
 description: The Delete method permanently deletes this storage.
 old-location: wmdm\iwmdmstoragecontrol_delete.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: f2b044d2-6386-4c2e-a437-5ebddf827fb4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Delete, Delete method [windows Media Device Manager], Delete method [windows Media Device Manager],IWMDMStorageControl interface, IWMDMStorageControl interface [windows Media Device Manager],Delete method, IWMDMStorageControl.Delete, IWMDMStorageControl::Delete, IWMDMStorageControlDelete, mswmdm/IWMDMStorageControl::Delete, wmdm.iwmdmstoragecontrol_delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMStorageControl.Delete
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMStorageControl::Delete

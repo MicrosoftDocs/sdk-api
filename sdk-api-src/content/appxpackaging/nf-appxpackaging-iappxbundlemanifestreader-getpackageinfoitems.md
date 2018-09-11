@@ -4,17 +4,16 @@ title: IAppxBundleManifestReader::GetPackageInfoItems
 author: windows-sdk-content
 description: Retrieves an enumerator over all the &lt;Package&gt; elements under the &lt;Packages&gt; element.
 old-location: appxpkg\iappxbundlemanifestreader_getpackageinfoitems.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: D216C27E-5B73-49B5-90A8-11187C129264
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetPackageInfoItems, GetPackageInfoItems method [App packaging and management], GetPackageInfoItems method [App packaging and management],IAppxBundleManifestReader interface, IAppxBundleManifestReader interface [App packaging and management],GetPackageInfoItems method, IAppxBundleManifestReader.GetPackageInfoItems, IAppxBundleManifestReader::GetPackageInfoItems, appxpackaging/IAppxBundleManifestReader::GetPackageInfoItems, appxpkg.iappxbundlemanifestreader_getpackageinfoitems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxBundleManifestReader.GetPackageInfoItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxBundleManifestReader::GetPackageInfoItems

@@ -4,17 +4,16 @@ title: DIBINDEX macro
 author: windows-sdk-content
 description: The DIBINDEX macro takes an index to an entry in a DIB color table and returns a COLORREF value that specifies the color associated with the given index.
 old-location: gdi\dibindex.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: a1c2274e-ddcb-4e11-af70-9f79210d2d5f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DIBINDEX, DIBINDEX macro [Windows GDI], _win32_DIBINDEX, gdi.dibindex, mmsystem/DIBINDEX
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: mmsystem.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DIBINDEX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # DIBINDEX macro

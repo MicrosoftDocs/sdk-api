@@ -4,17 +4,16 @@ title: IShellItem::GetParent
 author: windows-sdk-content
 description: Gets the parent of an IShellItem object.
 old-location: shell\IShellItem_GetParent.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d62123af-2ae2-40f2-8581-c95b18491f20
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetParent, GetParent method [Windows Shell], GetParent method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],GetParent method, IShellItem.GetParent, IShellItem::GetParent, _win32_IShellItem_GetParent, shell.IShellItem_GetParent, shobjidl_core/IShellItem::GetParent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.00 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellItem.GetParent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.00 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellItem::GetParent

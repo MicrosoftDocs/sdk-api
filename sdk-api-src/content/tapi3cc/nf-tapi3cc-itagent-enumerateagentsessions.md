@@ -4,17 +4,16 @@ title: ITAgent::EnumerateAgentSessions
 author: windows-sdk-content
 description: The EnumerateAgentSessions method enumerates the current agent sessions. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_AgentSessions method.
 old-location: tapi3\itagent_enumerateagentsessions.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6b639a41-c866-49ad-bc33-1215da7c8a19
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumerateAgentSessions, EnumerateAgentSessions method [TAPI 2.2], EnumerateAgentSessions method [TAPI 2.2],ITAgent interface, ITAgent interface [TAPI 2.2],EnumerateAgentSessions method, ITAgent.EnumerateAgentSessions, ITAgent::EnumerateAgentSessions, _tapi3_itagent_enumerateagentsessions, tapi3.itagent_enumerateagentsessions, tapi3cc/ITAgent::EnumerateAgentSessions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_STATE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgent.EnumerateAgentSessions
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgent::EnumerateAgentSessions

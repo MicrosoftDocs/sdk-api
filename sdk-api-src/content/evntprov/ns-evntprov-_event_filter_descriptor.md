@@ -4,7 +4,7 @@ title: "_EVENT_FILTER_DESCRIPTOR"
 author: windows-sdk-content
 description: The EVENT_FILTER_DESCRIPTOR structure supplements the event provider, level, and keyword data that determines which events are reported and traced.
 old-location: devtest\event_filter_descriptor.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 3870a471-a3cf-424f-bba3-bc06de1ebecc
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntprov.h
 req.include-header: Wdm.h, Ntddk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_FILTER_DESCRIPTOR, *PEVENT_FILTER_DESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENT_FILTER_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EVENT_FILTER_DESCRIPTOR, *PEVENT_FILTER_DESCRIPTOR
+req.redist: 
 ---
 
 # _EVENT_FILTER_DESCRIPTOR structure

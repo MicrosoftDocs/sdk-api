@@ -4,17 +4,16 @@ title: IDCompositionSurface::BeginDraw
 author: windows-sdk-content
 description: Initiates drawing on this Microsoft DirectComposition surface object.
 old-location: directcomp\idcompositionsurface_begindraw.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 0D7E90A1-90E4-44BE-A4DA-8DA300C81A35
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: BeginDraw, BeginDraw method [DirectComposition], BeginDraw method [DirectComposition],IDCompositionSurface interface, IDCompositionSurface interface [DirectComposition],BeginDraw method, IDCompositionSurface.BeginDraw, IDCompositionSurface::BeginDraw, dcomp/IDCompositionSurface::BeginDraw, directcomp.idcompositionsurface_begindraw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionSurface.BeginDraw
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionSurface::BeginDraw
@@ -77,7 +76,7 @@ The identifier of the interface to retrieve.
 
 ### -param updateObject
 
-
+TBD
 
 
 ### -param updateOffset [out]

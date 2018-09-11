@@ -4,17 +4,16 @@ title: ITextHost::TxGetViewInset
 author: windows-sdk-content
 description: Requests the dimensions of the white space inset around the text in the text host window.
 old-location: controls\ITextHost_TxGetViewInset.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetviewinset.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetViewInset method, ITextHost.TxGetViewInset, ITextHost::TxGetViewInset, TxGetViewInset, TxGetViewInset method [Windows Controls], TxGetViewInset method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetViewInset, _win32_ITextHost_TxGetViewInset_cpp, controls.ITextHost_TxGetViewInset, controls._win32_ITextHost_TxGetViewInset, textserv/ITextHost::TxGetViewInset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextHost.TxGetViewInset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextHost::TxGetViewInset

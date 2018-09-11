@@ -4,17 +4,16 @@ title: PENUMERATE_GET_NEXT_SERVICE
 author: windows-sdk-content
 description: The EnumerateGetNextService function returns the next service entry in an enumeration started by CreateServiceEnumerationHandle.
 old-location: rras\enumerategetnextservice.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 45d0ccaa-97d5-4a14-9983-dc0ca268ed4b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumerateGetNextService, EnumerateGetNextService callback function [RAS], PENUMERATE_GET_NEXT_SERVICE, PENUMERATE_GET_NEXT_SERVICE callback, _mpr_enumerategetnextservice, rras.enumerategetnextservice, stm/EnumerateGetNextService
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: stm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_WINNT_CREDUI_CONTEXT_VECTOR, *PSEC_WINNT_CREDUI_CONTEXT_VECTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EnumerateGetNextService
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # PENUMERATE_GET_NEXT_SERVICE callback function

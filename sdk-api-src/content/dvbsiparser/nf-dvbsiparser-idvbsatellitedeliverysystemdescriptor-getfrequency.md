@@ -4,17 +4,16 @@ title: IDvbSatelliteDeliverySystemDescriptor::GetFrequency
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_getfrequency.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: dc298f61-f7f1-42dc-a585-bfe9f58b1629
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetFrequency, GetFrequency method [Microsoft TV Technologies], GetFrequency method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetFrequency method, IDvbSatelliteDeliverySystemDescriptor.GetFrequency, IDvbSatelliteDeliverySystemDescriptor::GetFrequency, IDvbSatelliteDeliverySystemDescriptorGetFrequency, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetFrequency, mstv.idvbsatellitedeliverysystemdescriptor_getfrequency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbSatelliteDeliverySystemDescriptor.GetFrequency
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbSatelliteDeliverySystemDescriptor::GetFrequency

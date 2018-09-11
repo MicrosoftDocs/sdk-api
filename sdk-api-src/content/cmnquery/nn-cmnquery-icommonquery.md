@@ -4,7 +4,7 @@ title: ICommonQuery
 author: windows-sdk-content
 description: Used to programmatically display the system-supplied directory service query dialog box.
 old-location: ad\icommonquery.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 56d05afb-6e5e-41be-bc10-61192c1c1312
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: cmnquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uuid.lib
+req.dll: Dsquery.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICommonQuery
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Dsquery.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICommonQuery interface

@@ -4,17 +4,16 @@ title: IAMDecoderCaps::GetDecoderCaps
 author: windows-sdk-content
 description: The GetDecoderCaps method queries the decoder for its capabilities.
 old-location: dshow\iamdecodercaps_getdecodercaps.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 727db98f-96a1-4fe1-8315-0280541817c2
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDecoderCaps, GetDecoderCaps method [DirectShow], GetDecoderCaps method [DirectShow],IAMDecoderCaps interface, IAMDecoderCaps interface [DirectShow],GetDecoderCaps method, IAMDecoderCaps.GetDecoderCaps, IAMDecoderCaps::GetDecoderCaps, IAMDecoderCapsGetDecoderCaps, dshow.iamdecodercaps_getdecodercaps, strmif/IAMDecoderCaps::GetDecoderCaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMDecoderCaps.GetDecoderCaps
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMDecoderCaps::GetDecoderCaps

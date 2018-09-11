@@ -4,17 +4,16 @@ title: RollbackComplete function
 author: windows-sdk-content
 description: Indicates that the resource manager (RM) has successfully completed rolling back a transaction.
 old-location: fs\rollbackcomplete.htm
-old-project: ktm
+tech.root: ktm
 ms.assetid: c9d53777-eef9-4c60-921d-50b0fbf8d005
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RollbackComplete, RollbackComplete function [Files], fs.rollbackcomplete, ktmw32/RollbackComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+req.lib: Ktmw32.lib
+req.dll: Ktmw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RollbackComplete
 product: Windows
 targetos: Windows
-req.lib: Ktmw32.lib
-req.dll: Ktmw32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # RollbackComplete function

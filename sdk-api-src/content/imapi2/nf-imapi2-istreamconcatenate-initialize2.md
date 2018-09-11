@@ -4,17 +4,16 @@ title: IStreamConcatenate::Initialize2
 author: windows-sdk-content
 description: Initializes this stream from an array of input streams.
 old-location: imapi\istreamconcatenate_initialize2.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 826b3157-4cab-4f18-87f2-6635911c03f0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IStreamConcatenate interface [IMAPI],Initialize2 method, IStreamConcatenate.Initialize2, IStreamConcatenate::Initialize2, Initialize2, Initialize2 method [IMAPI], Initialize2 method [IMAPI],IStreamConcatenate interface, imapi.istreamconcatenate_initialize2, imapi2/IStreamConcatenate::Initialize2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamConcatenate.Initialize2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamConcatenate::Initialize2

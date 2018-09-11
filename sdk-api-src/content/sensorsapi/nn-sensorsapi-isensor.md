@@ -4,17 +4,16 @@ title: ISensor
 author: windows-sdk-content
 description: Represents a sensor.
 old-location: winsensors\isensor.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: 3216afbb-d524-486d-99ad-0ee0cfb884e0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISensor, ISensor interface [WinSensors], ISensor interface [WinSensors],described, sensorsapi/ISensor, winsensors.isensor
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensor
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensor interface

@@ -4,17 +4,16 @@ title: WS_GET_CERT_CALLBACK
 author: windows-sdk-content
 description: Provides a certificate to the security runtime.
 old-location: wsw\ws_get_cert_callback.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 36e787ff-f6bc-4814-be3f-a64f3edc2326
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_GET_CERT_CALLBACK, WS_GET_CERT_CALLBACK callback, WS_GET_CERT_CALLBACK callback function [Web Services for Windows], webservices/WS_GET_CERT_CALLBACK, wsw.ws_get_cert_callback
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_GET_CERT_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WS_GET_CERT_CALLBACK callback function

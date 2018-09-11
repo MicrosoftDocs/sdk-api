@@ -4,7 +4,7 @@ title: NETSOURCE_URLCREDPOLICY_SETTINGS
 author: windows-sdk-content
 description: The NETSOURCE_URLCREDPOLICY_SETTINGS enumeration type is used for an output parameter of IWMSInternalAdminNetSource2::GetCredentialsEx.
 old-location: wmformat\netsource_urlcredpolicy_settings.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: d4ffdbc8-123e-4cb4-bcc9-8d52c3362529
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmsinternaladminnetsource.h
 req.include-header: Wminternaladminnetsource.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETSOURCE_URLCREDPOLICY_SETTINGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NETSOURCE_URLCREDPOLICY_SETTINGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: NETSOURCE_URLCREDPOLICY_SETTINGS
+req.redist: 
 ---
 
 # NETSOURCE_URLCREDPOLICY_SETTINGS enumeration

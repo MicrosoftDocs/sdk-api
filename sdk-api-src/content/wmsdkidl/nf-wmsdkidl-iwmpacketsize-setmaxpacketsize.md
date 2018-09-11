@@ -4,17 +4,16 @@ title: IWMPacketSize::SetMaxPacketSize
 author: windows-sdk-content
 description: The SetMaxPacketSize method specifies the maximum size of a packet in an ASF file.
 old-location: wmformat\iwmpacketsize_setmaxpacketsize.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: a8230c08-e60f-454d-93a5-037685d6151c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMPacketSize interface [windows Media Format],SetMaxPacketSize method, IWMPacketSize.SetMaxPacketSize, IWMPacketSize2 interface [windows Media Format],SetMaxPacketSize method, IWMPacketSize2::SetMaxPacketSize, IWMPacketSize::SetMaxPacketSize, IWMPacketSizeSetMaxPacketSize, SetMaxPacketSize, SetMaxPacketSize method [windows Media Format], SetMaxPacketSize method [windows Media Format],IWMPacketSize interface, SetMaxPacketSize method [windows Media Format],IWMPacketSize2 interface, wmformat.iwmpacketsize_setmaxpacketsize, wmsdkidl/IWMPacketSize2::SetMaxPacketSize, wmsdkidl/IWMPacketSize::SetMaxPacketSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - IWMPacketSize2.SetMaxPacketSize
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPacketSize::SetMaxPacketSize

@@ -4,17 +4,16 @@ title: IHolographicSpaceInterop::CreateForWindow
 author: windows-sdk-content
 description: Instantiates a HolographicSpace object and binds it to the current application.
 old-location: mixedreality\iholographicspaceinterop_createforwindow.htm
-old-project: MixedReality
+tech.root: MixedReality
 ms.assetid: 8B7A226E-FB47-4BA2-B13E-B37250C75920
 ms.author: windowssdkdev
 ms.date: 06/12/2018
 ms.keywords: CreateForWindow, CreateForWindow method, CreateForWindow method,IHolographicSpaceInterop interface, IHolographicSpaceInterop interface,CreateForWindow method, IHolographicSpaceInterop.CreateForWindow, IHolographicSpaceInterop::CreateForWindow, MixedReality.iholographicspaceinterop_createforwindow, holographicspaceinterop/IHolographicSpaceInterop::CreateForWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: holographicspaceinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_SIZE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IHolographicSpaceInterop.CreateForWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IHolographicSpaceInterop::CreateForWindow
@@ -78,7 +76,7 @@ The REFIID, or GUID, of the interface to the resource can be obtained by using t
 
 ### -param holographicSpace
 
-
+TBD
 
 
 

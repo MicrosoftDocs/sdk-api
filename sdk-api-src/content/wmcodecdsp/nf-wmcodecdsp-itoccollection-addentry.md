@@ -4,17 +4,16 @@ title: ITocCollection::AddEntry
 author: windows-sdk-content
 description: The AddEntry method adds an individual table of contents to the collection and assigns an index to the added table of contents.
 old-location: mf\itoccollection_addentry.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b4d4e40b-151b-4217-81c8-1eaa8336407d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: AddEntry, AddEntry method [Media Foundation], AddEntry method [Media Foundation],ITocCollection interface, ITocCollection interface [Media Foundation],AddEntry method, ITocCollection.AddEntry, ITocCollection::AddEntry, codecapi.itoccollection_addentry, mf.itoccollection_addentry, wmcodecdsp/ITocCollection::AddEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITocCollection.AddEntry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ITocCollection::AddEntry

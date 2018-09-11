@@ -4,7 +4,7 @@ title: "_DSOP_INIT_INFO"
 author: windows-sdk-content
 description: The DSOP_INIT_INFO structure contains data required to initialize an object picker dialog box. This structure is used with the IDsObjectPicker::Initialize method.
 old-location: ad\dsop_init_info.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 6d070185-e0b6-4c24-9941-95bca2f33192
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: objsel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSOP_INIT_INFO, *PDSOP_INIT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DSOP_INIT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DSOP_INIT_INFO, *PDSOP_INIT_INFO
+req.redist: 
 ---
 
 # _DSOP_INIT_INFO structure

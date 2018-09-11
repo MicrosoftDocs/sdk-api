@@ -4,17 +4,16 @@ title: NetMessageBufferSend function
 author: windows-sdk-content
 description: The NetMessageBufferSend function sends a buffer of information to a registered message alias.
 old-location: netmgmt\netmessagebuffersend.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: d1b9bebd-52e9-4b5f-97fb-e2a98aaff6b7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetMessageBufferSend, NetMessageBufferSend function [Network Management], _win32_netmessagebuffersend, lmmsg/NetMessageBufferSend, netmgmt.netmessagebuffersend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmmsg.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETSETUP_PROVISIONING_PARAMS, *PNETSETUP_PROVISIONING_PARAMS
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetMessageBufferSend
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetMessageBufferSend function

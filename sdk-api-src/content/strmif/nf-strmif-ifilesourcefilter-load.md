@@ -4,17 +4,16 @@ title: IFileSourceFilter::Load
 author: windows-sdk-content
 description: The Load method causes a source filter to load a media file.
 old-location: dshow\ifilesourcefilter_load.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a44b8153-19d5-43ad-936c-214c694eeeb6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IFileSourceFilter interface [DirectShow],Load method, IFileSourceFilter.Load, IFileSourceFilter::Load, IFileSourceFilterLoad, Load, Load method [DirectShow], Load method [DirectShow],IFileSourceFilter interface, dshow.ifilesourcefilter_load, strmif/IFileSourceFilter::Load
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFileSourceFilter.Load
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSourceFilter::Load

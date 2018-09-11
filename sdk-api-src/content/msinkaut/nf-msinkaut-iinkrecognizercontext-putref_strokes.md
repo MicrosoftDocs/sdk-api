@@ -4,17 +4,16 @@ title: IInkRecognizerContext::putref_Strokes
 author: windows-sdk-content
 description: Gets or sets the InkStrokes collection associated with the InkRecognizerContext object.
 old-location: tablet\inkrecognizercontext_strokes.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: af31559b-741e-4af2-8c35-9e34ad1af85f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkRecognizerContext interface [Tablet PC],Strokes property, IInkRecognizerContext.Strokes, IInkRecognizerContext.putref_Strokes, IInkRecognizerContext::Strokes, IInkRecognizerContext::get_Strokes, IInkRecognizerContext::putref_Strokes, InkRecognizerContext.get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkRecognizerContext interface, af31559b-741e-4af2-8c35-9e34ad1af85f, get_Strokes, msinkaut/IInkRecognizerContext::Strokes, msinkaut/IInkRecognizerContext::get_Strokes, msinkaut/IInkRecognizerContext::putref_Strokes, putref_Strokes, tablet.inkrecognizercontext_strokes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - InkRecognizerContext.get_Strokes
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizerContext::putref_Strokes

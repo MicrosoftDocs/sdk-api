@@ -4,17 +4,16 @@ title: CStdAsyncStubBuffer2_Connect function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Connect method and connects the server object to the stub.
 old-location: rpc\cstdasyncstubbuffer2_connect.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: DCEC6C69-EB48-4C4F-9BD7-3CF02D74C456
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CStdAsyncStubBuffer2_Connect, CStdAsyncStubBuffer2_Connect function [RPC], rpc.cstdasyncstubbuffer2_connect, rpcproxy/CStdAsyncStubBuffer2_Connect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CStdAsyncStubBuffer2_Connect
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CStdAsyncStubBuffer2_Connect function

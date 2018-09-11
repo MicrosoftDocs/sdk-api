@@ -4,17 +4,16 @@ title: IInkStrokeDisp::ScaleToRectangle
 author: windows-sdk-content
 description: Scales the IInkStrokeDisp object or InkStrokes collection to fit in the specified InkRectangle object.
 old-location: tablet\iinkstrokedisp_scaletorectangle.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 8bc22004-3781-4018-9a92-88958039248c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 8bc22004-3781-4018-9a92-88958039248c, IInkStrokeDisp interface [Tablet PC],ScaleToRectangle method, IInkStrokeDisp.ScaleToRectangle, IInkStrokeDisp::ScaleToRectangle, ScaleToRectangle, ScaleToRectangle method [Tablet PC], ScaleToRectangle method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::ScaleToRectangle, tablet.iinkstrokedisp_scaletorectangle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkStrokeDisp.ScaleToRectangle
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkStrokeDisp::ScaleToRectangle

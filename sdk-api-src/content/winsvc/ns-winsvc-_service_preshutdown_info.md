@@ -4,17 +4,16 @@ title: "_SERVICE_PRESHUTDOWN_INFO"
 author: windows-sdk-content
 description: Contains preshutdown settings.
 old-location: base\service_preshutdown_info.htm
-old-project: services
+tech.root: Services
 ms.assetid: b9d2362c-e4d7-4072-88c2-5294b3838095
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVICE_PRESHUTDOWN_INFO, LPSERVICE_PRESHUTDOWN_INFO, LPSERVICE_PRESHUTDOWN_INFO structure pointer, SERVICE_PRESHUTDOWN_INFO, SERVICE_PRESHUTDOWN_INFO structure, _SERVICE_PRESHUTDOWN_INFO, base.service_preshutdown_info, winsvc/LPSERVICE_PRESHUTDOWN_INFO, winsvc/SERVICE_PRESHUTDOWN_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_PRESHUTDOWN_INFO, *LPSERVICE_PRESHUTDOWN_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVICE_PRESHUTDOWN_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SERVICE_PRESHUTDOWN_INFO, *LPSERVICE_PRESHUTDOWN_INFO
+req.redist: 
 ---
 
 # _SERVICE_PRESHUTDOWN_INFO structure

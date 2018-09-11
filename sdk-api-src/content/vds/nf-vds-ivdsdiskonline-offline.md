@@ -4,17 +4,16 @@ title: IVdsDiskOnline::Offline
 author: windows-sdk-content
 description: Takes the disk offline.Windows Vista:  This method is not supported until Windows Vista with Service Pack 1 (SP1). Use IVdsDisk2::SetSANMode instead.
 old-location: base\ivdsdiskonline_offline.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 3f27dd46-2fa1-4522-9d35-db78255c6d11
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsDiskOnline interface,Offline method, IVdsDiskOnline.Offline, IVdsDiskOnline::Offline, Offline, Offline method, Offline method,IVdsDiskOnline interface, base.ivdsdiskonline_offline, vds/IVdsDiskOnline::Offline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsDiskOnline.Offline
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsDiskOnline::Offline

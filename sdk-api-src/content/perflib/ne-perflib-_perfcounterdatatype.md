@@ -4,7 +4,7 @@ title: "_PerfCounterDataType"
 author: windows-sdk-content
 description: Indicates the content type of a PERF_COUNTER_HEADER block that the PerfQueryCounterData function includes as part of the PERF_DATA_HEADER block that the function produces as output.
 old-location: perf\perfcounterdatatype.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: E64C73F0-034E-408B-8537-CE6855C01347
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PerfCounterDataType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PerfCounterDataType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PerfCounterDataType
+req.redist: 
 ---
 
 # _PerfCounterDataType enumeration

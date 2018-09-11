@@ -4,7 +4,7 @@ title: "_WIN32_FIND_STREAM_DATA"
 author: windows-sdk-content
 description: Contains information about the stream found by the FindFirstStreamW or FindNextStreamW function.
 old-location: fs\win32_find_stream_data_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: f21f5161-10a8-474c-85d8-dde075b9daff
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WIN32_FIND_STREAM_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
+req.redist: 
 ---
 
 # _WIN32_FIND_STREAM_DATA structure

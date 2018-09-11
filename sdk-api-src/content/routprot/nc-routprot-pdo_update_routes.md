@@ -4,17 +4,16 @@ title: PDO_UPDATE_ROUTES
 author: windows-sdk-content
 description: The DoUpdateRoutes function requests the routing protocol to perform a routing information update over the specified interface to obtain static route information.
 old-location: rras\doupdateroutes.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 5942c856-f504-4e2d-86c8-f3207c787ed5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DoUpdateRoutes, DoUpdateRoutes callback function [RAS], PDO_UPDATE_ROUTES, PDO_UPDATE_ROUTES callback, _mpr_doupdateroutes, routprot/DoUpdateRoutes, rras.doupdateroutes
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DoUpdateRoutes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PDO_UPDATE_ROUTES callback function

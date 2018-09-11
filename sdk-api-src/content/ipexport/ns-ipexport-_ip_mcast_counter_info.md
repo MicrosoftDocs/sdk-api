@@ -4,7 +4,7 @@ title: "_IP_MCAST_COUNTER_INFO"
 author: windows-sdk-content
 description: The IP_MCAST_COUNTER_INFO structure stores statistical information about Multicast traffic.
 old-location: iphlp\ip_mcast_counter_info.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: aa70f260-ccbb-4020-a3c0-2d400ddc2e9d
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_MCAST_COUNTER_INFO, *PIP_MCAST_COUNTER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IP_MCAST_COUNTER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IP_MCAST_COUNTER_INFO, *PIP_MCAST_COUNTER_INFO
+req.redist: 
 ---
 
 # _IP_MCAST_COUNTER_INFO structure

@@ -4,17 +4,16 @@ title: "_D3DVSHADERCAPS2_0"
 author: windows-sdk-content
 description: Vertex shader caps.
 old-location: direct3d9\d3dvshadercaps2_0.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\d3dvshadercaps2_0.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 85a71d10-ae0f-bdc3-e929-6d1ff3c0b356, D3DVSHADERCAPS2_0, D3DVSHADERCAPS2_0 structure [Direct3D 9], LPD3DVSHADERCAPS2_0, LPD3DVSHADERCAPS2_0 structure pointer [Direct3D 9], _D3DVSHADERCAPS2_0, d3d9caps/D3DVSHADERCAPS2_0, d3d9caps/LPD3DVSHADERCAPS2_0, direct3d9.d3dvshadercaps2_0
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d9caps.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3DVSHADERCAPS2_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3DVSHADERCAPS2_0
+req.redist: 
 ---
 
 # _D3DVSHADERCAPS2_0 structure

@@ -4,17 +4,16 @@ title: IADsTSUserEx::put_TerminalServicesInitialProgram
 author: windows-sdk-content
 description: The path and file name of the application that the user wants to start automatically when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iadstsuserex_terminalservicesinitialprogram.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 43059f13-a1f1-44b2-96ac-2532656a0846
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesInitialProgram property, IADsTSUserEx.TerminalServicesInitialProgram, IADsTSUserEx.put_TerminalServicesInitialProgram, IADsTSUserEx::TerminalServicesInitialProgram, IADsTSUserEx::get_TerminalServicesInitialProgram, IADsTSUserEx::put_TerminalServicesInitialProgram, TerminalServicesInitialProgram property [Remote Desktop Services], TerminalServicesInitialProgram property [Remote Desktop Services],IADsTSUserEx interface, put_TerminalServicesInitialProgram, termserv.iadstsuserex_terminalservicesinitialprogram, tsuserex/IADsTSUserEx::TerminalServicesInitialProgram, tsuserex/IADsTSUserEx::get_TerminalServicesInitialProgram, tsuserex/IADsTSUserEx::put_TerminalServicesInitialProgram
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Tsuserex.tlb
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: Tsuserex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IADsTSUserEx.put_TerminalServicesInitialProgram
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tsuserex.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IADsTSUserEx::put_TerminalServicesInitialProgram

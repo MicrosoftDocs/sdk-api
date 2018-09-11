@@ -4,17 +4,16 @@ title: Edit_TakeFocus macro
 author: windows-sdk-content
 description: Forces a single-line edit control to receive keyboard focus. You can use this macro or send the EM_TAKEFOCUS message explicitly.
 old-location: controls\Edit_TakeFocus.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_takefocus.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Edit_TakeFocus, Edit_TakeFocus macro [Windows Controls], _win32_Edit_TakeFocus, _win32_Edit_TakeFocus_cpp, commctrl/Edit_TakeFocus, controls.Edit_TakeFocus, controls._win32_Edit_TakeFocus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Edit_TakeFocus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Edit_TakeFocus macro

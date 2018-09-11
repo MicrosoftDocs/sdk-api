@@ -4,7 +4,7 @@ title: "_EVENT_DESCRIPTOR"
 author: windows-sdk-content
 description: The EVENT_DESCRIPTOR structure identifies the description information that is available for each event.
 old-location: devtest\event_descriptor.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: cfe84b3d-fed2-4624-9899-8451e5b39de0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntprov.h
 req.include-header: Wdm.h, Ntddk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_DESCRIPTOR, *PEVENT_DESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENT_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EVENT_DESCRIPTOR, *PEVENT_DESCRIPTOR
+req.redist: 
 ---
 
 # _EVENT_DESCRIPTOR structure

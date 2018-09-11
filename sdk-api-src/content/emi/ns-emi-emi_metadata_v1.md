@@ -4,7 +4,7 @@ title: EMI_METADATA_V1
 author: windows-sdk-content
 description: The EMI_METADATA structure provides metadata about a device that supports the Energy Metering Interface (EMI) interface, such as the hardware model and hardware revision.
 old-location: powermeter\emi_metadata.htm
-old-project: powermeter
+tech.root: powermeter
 ms.assetid: 8992AA5D-7D71-4D00-9B18-FE070D29C26E
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: emi.h
 req.include-header: Emi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 10.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMI_METADATA_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EMI_METADATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EMI_METADATA_V1
+req.redist: 
 ---
 
 # EMI_METADATA_V1 structure

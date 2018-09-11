@@ -4,17 +4,16 @@ title: IWICBitmap::SetResolution
 author: windows-sdk-content
 description: Changes the physical resolution of the image.
 old-location: wic\_wic_codec_iwicbitmap_setresolution.htm
-old-project: wic
+tech.root: wic
 ms.assetid: d8b6c600-0ef0-4fa7-a70f-0299e640c196
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICBitmap interface [Windows Imaging Component],SetResolution method, IWICBitmap.SetResolution, IWICBitmap::SetResolution, SetResolution, SetResolution method [Windows Imaging Component], SetResolution method [Windows Imaging Component],IWICBitmap interface, _wic_codec_iwicbitmap_setresolution, wic._wic_codec_iwicbitmap_setresolution, wincodec/IWICBitmap::SetResolution
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmap.SetResolution
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmap::SetResolution

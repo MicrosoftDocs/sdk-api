@@ -4,17 +4,16 @@ title: IXamlDiagnostics::RegisterInstance
 author: windows-sdk-content
 description: Adds an IInspectable to the XAML Diagnostics cache and returns the newly created InstanceHandle for the object.
 old-location: xaml_diagnostics\ixamldiagnostics_registerinstance.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: B1BD13CE-6B20-45D0-83E2-AB7E15BDA6FC
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IXamlDiagnostics interface,RegisterInstance method, IXamlDiagnostics.RegisterInstance, IXamlDiagnostics::RegisterInstance, RegisterInstance, RegisterInstance method, RegisterInstance method,IXamlDiagnostics interface, xaml_diagnostics.ixamldiagnostics_registerinstance, xamlom/IXamlDiagnostics::RegisterInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualMutationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXamlDiagnostics.RegisterInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXamlDiagnostics::RegisterInstance
@@ -68,7 +66,7 @@ An instance of the object.
 
 ### -param pInstanceHandle
 
-
+TBD
 
 
 

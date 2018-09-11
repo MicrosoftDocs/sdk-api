@@ -4,7 +4,7 @@ title: "_UNSIGNED_RATIO"
 author: windows-sdk-content
 description: Defines a data type used by the Desktop Window Manager (DWM) APIs. It represents a generic ratio and is used for different purposes and units even within a single API.
 old-location: dwm\unsigned_ratio.htm
-old-project: dwm
+tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\unsigned_ratio.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNSIGNED_RATIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UNSIGNED_RATIO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: UNSIGNED_RATIO
+req.redist: 
 ---
 
 # _UNSIGNED_RATIO structure

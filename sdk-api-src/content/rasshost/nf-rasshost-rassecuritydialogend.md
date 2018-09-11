@@ -4,17 +4,16 @@ title: RasSecurityDialogEnd function
 author: windows-sdk-content
 description: The RasSecurityDialogEnd function is a third-party RAS security DLL entry point that the RAS server calls to terminate an authentication transaction.
 old-location: rras\rassecuritydialogend.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 52274d37-baed-4ab9-8019-123ae7c5b0fc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RasSecurityDialogEnd, RasSecurityDialogEnd callback, RasSecurityDialogEnd callback function [RAS], _ras_rassecuritydialogend, rasshost/RasSecurityDialogEnd, rras.rassecuritydialogend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rasshost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_AUTH_ATTRIBUTE, *PRAS_AUTH_ATTRIBUTE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RasSecurityDialogEnd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasSecurityDialogEnd function

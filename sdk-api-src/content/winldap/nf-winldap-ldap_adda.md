@@ -4,17 +4,16 @@ title: ldap_addA function
 author: windows-sdk-content
 description: Initiates an asynchronous add operation to a directory tree.
 old-location: ldap\ldap_add.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: d978f668-7726-44e4-a0b1-31390e8498c4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_add, ldap.ldap__add, ldap.ldap_add, ldap_add, ldap_add function [LDAP], ldap_addA, ldap_addW, winldap/ldap_add, winldap/ldap_addA, winldap/ldap_addW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldap_addW
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_addA function

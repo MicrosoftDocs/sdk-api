@@ -4,17 +4,16 @@ title: DWRITE_PANOSE_SYMBOL_ASPECT_RATIO
 author: windows-sdk-content
 description: The DWRITE_PANOSE_SYMBOL_ASPECT_RATIO enumeration contains values that specify the aspect ratio of symbolic characters.
 old-location: directwrite\dwrite_panose_symbol_aspect_ratio.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: C98F339D-0E45-4140-A44E-BFB0FA980251
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_PANOSE_SYMBOL_ASPECT_RATIO, DWRITE_PANOSE_SYMBOL_ASPECT_RATIO enumeration [Direct Write], DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_ANY, DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_EXCEPTIONALLY_WIDE, DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_NARROW, DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_NORMAL, DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_NO_FIT, DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_NO_WIDTH, DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_SUPER_WIDE, DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_VERY_NARROW, DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_VERY_WIDE, DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_WIDE, directwrite.dwrite_panose_symbol_aspect_ratio, dwrite_1/DWRITE_PANOSE_SYMBOL_ASPECT_RATIO, dwrite_1/DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_ANY, dwrite_1/DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_EXCEPTIONALLY_WIDE, dwrite_1/DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_NARROW, dwrite_1/DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_NORMAL, dwrite_1/DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_NO_FIT, dwrite_1/DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_NO_WIDTH, dwrite_1/DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_SUPER_WIDE, dwrite_1/DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_VERY_NARROW, dwrite_1/DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_VERY_WIDE, dwrite_1/DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_WIDE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_PANOSE_SYMBOL_ASPECT_RATIO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_PANOSE_SYMBOL_ASPECT_RATIO enumeration

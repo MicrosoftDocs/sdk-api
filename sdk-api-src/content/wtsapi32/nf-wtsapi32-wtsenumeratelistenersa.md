@@ -4,17 +4,16 @@ title: WTSEnumerateListenersA function
 author: windows-sdk-content
 description: Enumerates all the Remote Desktop Services listeners on a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsenumeratelisteners.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: dcdf4b4e-de01-4c23-97f6-0d45ba8608f5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WTSEnumerateListeners, WTSEnumerateListeners function [Remote Desktop Services], WTSEnumerateListenersA, WTSEnumerateListenersW, termserv.wtsenumeratelisteners, wtsapi32/WTSEnumerateListeners, wtsapi32/WTSEnumerateListenersA, wtsapi32/WTSEnumerateListenersW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_VIRTUAL_CLASS
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WTSEnumerateListenersW
 product: Windows
 targetos: Windows
-req.lib: Wtsapi32.lib
-req.dll: Wtsapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WTSEnumerateListenersA function

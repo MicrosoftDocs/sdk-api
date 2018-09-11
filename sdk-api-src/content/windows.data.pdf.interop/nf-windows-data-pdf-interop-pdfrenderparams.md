@@ -4,17 +4,16 @@ title: PdfRenderParams function
 author: windows-sdk-content
 description: Populates a PDF_RENDER_PARAMS stucture. A PDF_RENDER_PARAMS structure represents a set of properties for outputting a single page of a Portable Document Format (PDF) file.
 old-location: winrt\pdfrenderparams.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 5C229DEF-DAF7-414B-B733-4807E4122C16
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PdfRenderParams, PdfRenderParams function [Windows Runtime], windows/PdfRenderParams, winrt.pdfrenderparams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: windows.data.pdf.interop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
+req.lib: Windows.data.pdf.lib
+req.dll: Windows.Data.Pdf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PdfRenderParams
 product: Windows
 targetos: Windows
-req.lib: Windows.data.pdf.lib
-req.dll: Windows.Data.Pdf.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PdfRenderParams function

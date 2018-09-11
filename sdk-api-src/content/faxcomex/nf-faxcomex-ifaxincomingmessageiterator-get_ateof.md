@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxIncomingMessageIterator.get_AtEOF
 title: IFaxIncomingMessageIterator::get_AtEOF
 author: windows-sdk-content
 description: The AtEOF property is the end of file marker for the archive of inbound fax messages.
-old-location: fax\_mfax_faxincomingmessageiterator_ateof_vb.htm
-old-project: Fax
+old-location: fax\_mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageiterator_ateof_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7orq.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: AtEOF property [Fax Service], AtEOF property [Fax Service],FaxIncomingMessageIterator object, FaxIncomingMessageIterator object [Fax Service],AtEOF property, FaxIncomingMessageIterator.AtEOF, IFaxIncomingMessageIterator.get_AtEOF, IFaxIncomingMessageIterator::get_AtEOF, _mfax_faxincomingmessageiterator.ateof, fax._mfax_faxincomingmessageiterator_ateof, fax._mfax_faxincomingmessageiterator_ateof_vb, get_AtEOF
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: AtEOF property [Fax Service], AtEOF property [Fax Service],IFaxIncomingMessageIterator interface, IFaxIncomingMessageIterator interface [Fax Service],AtEOF property, IFaxIncomingMessageIterator.AtEOF, IFaxIncomingMessageIterator.get_AtEOF, IFaxIncomingMessageIterator::AtEOF, IFaxIncomingMessageIterator::get_AtEOF, _mfax_faxincomingmessageiterator.ateof, fax._mfax_faxincomingmessageiterator_ateof, fax._mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageiterator_ateof_cpp, faxcomex/IFaxIncomingMessageIterator::AtEOF, faxcomex/IFaxIncomingMessageIterator::get_AtEOF, get_AtEOF
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxIncomingMessageIterator.AtEOF
+ - IFaxIncomingMessageIterator.AtEOF
+ - IFaxIncomingMessageIterator.get_AtEOF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxIncomingMessageIterator::get_AtEOF
@@ -52,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>AtEOF</b> property is the end of file marker for the archive of inbound fax messages. If this property is equal to <b>True</b>, the archive cursor has moved beyond the last fax message in the inbound fax archive. If this property is equal to <b>False</b>, the archive cursor has not yet reached the end of the archive.
+The <b>AtEOF</b> property is the end of file marker for the archive of inbound fax messages. If this property is equal to <b>TRUE</b>, the archive cursor has moved beyond the last fax message in the inbound fax archive. If this property is equal to <b>FALSE</b>, the archive cursor has not yet reached the end of the archive.
 
 This property is read-only.
 

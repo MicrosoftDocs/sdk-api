@@ -4,17 +4,16 @@ title: DeletePersistentUdpPortReservation function
 author: windows-sdk-content
 description: Deletes a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
 old-location: iphlp\deletepersistentudpportreservation.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: E6539B3F-48DA-41AA-8AD4-2EBBAF98069F
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: DeletePersistentUdpPortReservation, DeletePersistentUdpPortReservation function [IP Helper], iphlp.deletepersistentudpportreservation, iphlpapi/DeletePersistentUdpPortReservation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DeletePersistentUdpPortReservation
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # DeletePersistentUdpPortReservation function

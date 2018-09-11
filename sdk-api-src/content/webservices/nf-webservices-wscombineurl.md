@@ -4,17 +4,16 @@ title: WsCombineUrl function
 author: windows-sdk-content
 description: Produces an absolute URL from a specified URL reference (absolute or relative URL) and a specified absolute base URL.
 old-location: wsw\wscombineurl.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 6cff906a-adb7-4453-8d44-6a5bf44a681b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsCombineUrl, WsCombineUrl function [Web Services for Windows], webservices/WsCombineUrl, wsw.wscombineurl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsCombineUrl
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsCombineUrl function

@@ -4,17 +4,16 @@ title: IKsTopologyInfo::get_Category
 author: windows-sdk-content
 description: The get_Category method returns one of the filter categories for this stream class driver.
 old-location: dshow\ikstopologyinfo_get_category.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1026ec92-1ccd-4658-b217-3dbc2ee9ca3a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_Category method, IKsTopologyInfo.get_Category, IKsTopologyInfo::get_Category, IKsTopologyInfoget_Category, dshow.ikstopologyinfo_get_category, get_Category, get_Category method [DirectShow], get_Category method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_Category
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKsTopologyInfo.get_Category
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IKsTopologyInfo::get_Category

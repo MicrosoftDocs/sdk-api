@@ -4,17 +4,16 @@ title: GlobalFree function
 author: windows-sdk-content
 description: Frees the specified global memory object and invalidates its handle.
 old-location: base\globalfree.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GlobalFree, GlobalFree function, _win32_globalfree, base.globalfree, winbase/GlobalFree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GlobalFree
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GlobalFree function

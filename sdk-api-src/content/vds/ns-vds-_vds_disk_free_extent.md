@@ -4,17 +4,16 @@ title: "_VDS_DISK_FREE_EXTENT"
 author: windows-sdk-content
 description: Describes a free extent on a disk.
 old-location: base\vds_disk_free_extent.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 94beebd5-bfd6-410f-94b9-51c8e3609bf6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVDS_DISK_FREE_EXTENT, PVDS_DISK_FREE_EXTENT, PVDS_DISK_FREE_EXTENT structure pointer, VDS_DISK_FREE_EXTENT, VDS_DISK_FREE_EXTENT structure, _VDS_DISK_FREE_EXTENT, base.vds_disk_free_extent, vds/PVDS_DISK_FREE_EXTENT, vds/VDS_DISK_FREE_EXTENT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_DISK_FREE_EXTENT, *PVDS_DISK_FREE_EXTENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_DISK_FREE_EXTENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_DISK_FREE_EXTENT, *PVDS_DISK_FREE_EXTENT
+req.redist: 
 ---
 
 # _VDS_DISK_FREE_EXTENT structure

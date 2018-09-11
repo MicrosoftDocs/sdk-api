@@ -4,17 +4,16 @@ title: IVssEnumMgmtObject::Clone
 author: windows-sdk-content
 description: Creates a copy of the specified list of enumerated elements by creating a copy of the IVssEnumMgmtObject enumerator object.
 old-location: base\ivssenummgmtobject_clone.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: f957052a-5511-4f00-b864-1f03ead2ba58
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [VSS], Clone method [VSS],IVssEnumMgmtObject interface, IVssEnumMgmtObject interface [VSS],Clone method, IVssEnumMgmtObject.Clone, IVssEnumMgmtObject::Clone, base.ivssenummgmtobject_clone, vsmgmt/IVssEnumMgmtObject::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssEnumMgmtObject.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssEnumMgmtObject::Clone

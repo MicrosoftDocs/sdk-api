@@ -4,7 +4,7 @@ title: DELETE_USN_JOURNAL_DATA
 author: windows-sdk-content
 description: Contains information on the deletion of an update sequence number (USN) change journal using the FSCTL_DELETE_USN_JOURNAL control code.
 old-location: fs\delete_usn_journal_data_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 06db4b46-fc91-40e0-ab0b-1e014622ae22
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DELETE_USN_JOURNAL_DATA, *PDELETE_USN_JOURNAL_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DELETE_USN_JOURNAL_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DELETE_USN_JOURNAL_DATA, *PDELETE_USN_JOURNAL_DATA
+req.redist: 
 ---
 
 # DELETE_USN_JOURNAL_DATA structure

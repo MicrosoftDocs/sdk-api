@@ -4,17 +4,16 @@ title: IETFilterConfig::GetSecureChannelObject
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\ietfilterconfig_getsecurechannelobject.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 385f4525-97b0-4973-8b74-a05816e43556
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSecureChannelObject, GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies],IETFilterConfig interface, IETFilterConfig interface [Microsoft TV Technologies],GetSecureChannelObject method, IETFilterConfig.GetSecureChannelObject, IETFilterConfig::GetSecureChannelObject, IETFilterConfigGetSecureChannelObject, encdec/IETFilterConfig::GetSecureChannelObject, mstv.ietfilterconfig_getsecurechannelobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IETFilterConfig.GetSecureChannelObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IETFilterConfig::GetSecureChannelObject

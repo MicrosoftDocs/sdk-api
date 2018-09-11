@@ -4,17 +4,16 @@ title: IEnumTfRanges::Clone
 author: windows-sdk-content
 description: IEnumTfRanges::Clone method
 old-location: tsf\ienumtfranges_clone.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 5e51a747-0b77-4ba3-b03c-217a3f81a0aa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfRanges interface, IEnumTfRanges interface [Text Services Framework],Clone method, IEnumTfRanges.Clone, IEnumTfRanges::Clone, _tsf_ienumtfranges_clone_ref, msctf/IEnumTfRanges::Clone, tsf.ienumtfranges_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumTfRanges.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IEnumTfRanges::Clone

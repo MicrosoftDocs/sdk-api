@@ -4,17 +4,16 @@ title: SHREGENUM_FLAGS
 author: windows-sdk-content
 description: Provides a set of values that indicate the base key that will be used for an enumeration.
 old-location: shell\SHREGENUM_FLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4216a983-9d53-44b1-8273-e5a90ac4b3ef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHREGENUM_BOTH, SHREGENUM_DEFAULT, SHREGENUM_FLAGS, SHREGENUM_FLAGS enumeration [Windows Shell], SHREGENUM_HKCU, SHREGENUM_HKLM, _win32_SHREGENUM_FLAGS, shell.SHREGENUM_FLAGS, shlwapi/SHREGENUM_BOTH, shlwapi/SHREGENUM_DEFAULT, shlwapi/SHREGENUM_FLAGS, shlwapi/SHREGENUM_HKCU, shlwapi/SHREGENUM_HKLM
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHREGENUM_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHREGENUM_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHREGENUM_FLAGS
+req.redist: 
 ---
 
 # SHREGENUM_FLAGS enumeration

@@ -4,17 +4,16 @@ title: IAppVisibility::Unadvise
 author: windows-sdk-content
 description: Cancels a connection that was previously established by using Advise.
 old-location: shell\IAppVisibility_Unadvise.htm
-old-project: shell
+tech.root: shell
 ms.assetid: D670F1E7-5E0B-498E-8F27-DF2A3A387862
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IAppVisibility interface [Windows Shell],Unadvise method, IAppVisibility.Unadvise, IAppVisibility::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IAppVisibility interface, shell.IAppVisibility_Unadvise, shobjidl_core/IAppVisibility::Unadvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAppVisibility.Unadvise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAppVisibility::Unadvise

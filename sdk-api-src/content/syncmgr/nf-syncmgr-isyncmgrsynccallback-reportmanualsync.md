@@ -4,17 +4,16 @@ title: ISyncMgrSyncCallback::ReportManualSync
 author: windows-sdk-content
 description: Reports that a synchronization operation is being performed that was requested manually from outside the Sync Center UI.
 old-location: shell\ISyncMgrSyncCallback_ReportManualSync.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1e503f8f-ebfa-4ac9-a6de-e9127919c758
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ReportManualSync method, ISyncMgrSyncCallback.ReportManualSync, ISyncMgrSyncCallback::ReportManualSync, ReportManualSync, ReportManualSync method [Windows Shell], ReportManualSync method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_ReportManualSync, shell.ISyncMgrSyncCallback_ReportManualSync, syncmgr/ISyncMgrSyncCallback::ReportManualSync
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSyncCallback.ReportManualSync
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSyncCallback::ReportManualSync

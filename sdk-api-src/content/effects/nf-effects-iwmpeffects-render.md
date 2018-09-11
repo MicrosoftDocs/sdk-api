@@ -4,17 +4,16 @@ title: IWMPEffects::Render
 author: windows-sdk-content
 description: The Render method renders the visualization.
 old-location: wmp\iwmpeffects_render.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 9040c309-5e45-41d2-9a02-b17c6d764f59
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EffectsRender, IWMPEffects interface [Windows Media Player],Render method, IWMPEffects.Render, IWMPEffects::Render, Render, Render method [Windows Media Player], Render method [Windows Media Player],IWMPEffects interface, effects/IWMPEffects::Render, wmp.iwmpeffects_render
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player version 7.0 or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEffects.Render
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEffects::Render

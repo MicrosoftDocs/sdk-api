@@ -4,17 +4,16 @@ title: IRtwqAsyncCallback::Invoke
 author: windows-sdk-content
 description: Called when an asynchronous operation is completed.
 old-location: base\irtwqasynccallback_invoke.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 1798C338-4C82-42A7-AE15-ADFD356604BD
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: IRtwqAsyncCallback interface,Invoke method, IRtwqAsyncCallback.Invoke, IRtwqAsyncCallback::Invoke, Invoke, Invoke method, Invoke method,IRtwqAsyncCallback interface, base.irtwqasynccallback_invoke, rtworkq/IRtwqAsyncCallback::Invoke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtworkq.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTWQ_WORKQUEUE_TYPE
+req.lib: Rtworkq.lib
+req.dll: RTWorkQ.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRtwqAsyncCallback.Invoke
 product: Windows
 targetos: Windows
-req.lib: Rtworkq.lib
-req.dll: RTWorkQ.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRtwqAsyncCallback::Invoke

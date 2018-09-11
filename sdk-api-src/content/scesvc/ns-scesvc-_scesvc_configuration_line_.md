@@ -4,17 +4,16 @@ title: "_SCESVC_CONFIGURATION_LINE_"
 author: windows-sdk-content
 description: The SCESVC_CONFIGURATION_LINE structure contains information about a line of configuration data. It is used by the SCESVC_CONFIGURATION_INFO structure.
 old-location: security\scesvc_configuration_line.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: 25801b20-9a7a-423e-8fa3-86896a8fbae4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSCESVC_CONFIGURATION_LINE, PSCESVC_CONFIGURATION_LINE, PSCESVC_CONFIGURATION_LINE structure pointer [Security], SCESVC_CONFIGURATION_LINE, SCESVC_CONFIGURATION_LINE structure [Security], _SCESVC_CONFIGURATION_LINE_, _config_scesvc_configuration_line, scesvc/PSCESVC_CONFIGURATION_LINE, scesvc/SCESVC_CONFIGURATION_LINE, security.scesvc_configuration_line"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: scesvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCESVC_CONFIGURATION_LINE, *PSCESVC_CONFIGURATION_LINE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCESVC_CONFIGURATION_LINE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SCESVC_CONFIGURATION_LINE, *PSCESVC_CONFIGURATION_LINE
+req.redist: 
 ---
 
 # _SCESVC_CONFIGURATION_LINE_ structure

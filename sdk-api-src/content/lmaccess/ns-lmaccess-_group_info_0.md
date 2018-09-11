@@ -4,17 +4,16 @@ title: "_GROUP_INFO_0"
 author: windows-sdk-content
 description: The GROUP_INFO_0 structure contains the name of a global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\group_info_0_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 019796d1-b987-45d2-90df-1d3b484217a9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPGROUP_INFO_0, *PGROUP_INFO_0, GROUP_INFO_0, GROUP_INFO_0 structure [Network Management], LPGROUP_INFO_0, LPGROUP_INFO_0 structure pointer [Network Management], PGROUP_INFO_0, PGROUP_INFO_0 structure pointer [Network Management], _GROUP_INFO_0, _win32_group_info_0_str, lmaccess/GROUP_INFO_0, lmaccess/LPGROUP_INFO_0, lmaccess/PGROUP_INFO_0, netmgmt.group_info_0_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUP_INFO_0, *PGROUP_INFO_0, *LPGROUP_INFO_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GROUP_INFO_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: GROUP_INFO_0, *PGROUP_INFO_0, *LPGROUP_INFO_0
+req.redist: 
 ---
 
 # _GROUP_INFO_0 structure

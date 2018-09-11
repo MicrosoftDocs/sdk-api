@@ -4,17 +4,16 @@ title: IBDA_Topology::SetMedium
 author: windows-sdk-content
 description: The SetMedium method configures the medium on which a particular pin sends data.
 old-location: mstv\ibda_topology_setmedium.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e2997929-d0a9-4732-8a8f-8f94c413fae5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_Topology interface [Microsoft TV Technologies],SetMedium method, IBDA_Topology.SetMedium, IBDA_Topology::SetMedium, IBDA_TopologySetMedium, SetMedium, SetMedium method [Microsoft TV Technologies], SetMedium method [Microsoft TV Technologies],IBDA_Topology interface, bdaiface/IBDA_Topology::SetMedium, mstv.ibda_topology_setmedium
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_Topology.SetMedium
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_Topology::SetMedium

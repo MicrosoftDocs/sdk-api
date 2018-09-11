@@ -4,17 +4,16 @@ title: IMFContentDecryptorContext::InitializeHardwareKey
 author: windows-sdk-content
 description: Allows the display driver to return IHV-specific information used when initializing a new hardware key.
 old-location: mf\imfcontentdecryptorcontext_initializehardwarekey.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: E1F12329-9BA5-4765-8C4A-1678C5F9E5F8
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFContentDecryptorContext interface [Media Foundation],InitializeHardwareKey method, IMFContentDecryptorContext.InitializeHardwareKey, IMFContentDecryptorContext::InitializeHardwareKey, InitializeHardwareKey, InitializeHardwareKey method [Media Foundation], InitializeHardwareKey method [Media Foundation],IMFContentDecryptorContext interface, mf.imfcontentdecryptorcontext_initializehardwarekey, mfidl/IMFContentDecryptorContext::InitializeHardwareKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFContentDecryptorContext.InitializeHardwareKey
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFContentDecryptorContext::InitializeHardwareKey

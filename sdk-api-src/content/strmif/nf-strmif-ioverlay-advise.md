@@ -4,17 +4,16 @@ title: IOverlay::Advise
 author: windows-sdk-content
 description: The Advise method sets up an advise link for the overlay events specified by the dwInterests parameter.
 old-location: dshow\ioverlay_advise.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 02db2233-b185-47a9-9655-409991a74d4e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: Advise, Advise method [DirectShow], Advise method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],Advise method, IOverlay.Advise, IOverlay::Advise, IOverlayAdvise, dshow.ioverlay_advise, strmif/IOverlay::Advise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IOverlay.Advise
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IOverlay::Advise

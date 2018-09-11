@@ -4,17 +4,16 @@ title: FLOATOBJ_GreaterThanLong function
 author: windows-sdk-content
 description: The FLOATOBJ_GreaterThanLong function determines whether the FLOATOBJ is greater than the value of type LONG.
 old-location: display\floatobj_greaterthanlong.htm
-old-project: display
+tech.root: display
 ms.assetid: 2d464472-c89b-47ad-811e-a2f5445e12a9
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: FLOATOBJ_GreaterThanLong, FLOATOBJ_GreaterThanLong function [Display Devices], display.floatobj_greaterthanlong, gdifncs_75edc272-ffac-4ff0-9b3b-c542d3d0ae89.xml, winddi/FLOATOBJ_GreaterThanLong
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLOATOBJ_GreaterThanLong
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FLOATOBJ_GreaterThanLong function
@@ -60,7 +58,12 @@ The <b>FLOATOBJ_GreaterThanLong</b> function determines whether the <a href="htt
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

@@ -4,17 +4,16 @@ title: AVIStreamGetFrame function
 author: windows-sdk-content
 description: The AVIStreamGetFrame function returns the address of a decompressed video frame.
 old-location: multimedia\avistreamgetframe.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 9677efee-4c40-4acd-8911-eedcbee67d6b
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIStreamGetFrame, AVIStreamGetFrame function [Windows Multimedia], _win32_AVIStreamGetFrame, multimedia.avistreamgetframe, vfw/AVIStreamGetFrame
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - AVIStreamGetFrame
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIStreamGetFrame function

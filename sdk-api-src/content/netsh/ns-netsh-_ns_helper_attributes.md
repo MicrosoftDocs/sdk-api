@@ -4,7 +4,7 @@ title: "_NS_HELPER_ATTRIBUTES"
 author: windows-sdk-content
 description: Provides attributes of a helper.
 old-location: netshell\ns_helper_attributes.htm
-old-project: netshell
+tech.root: netshell
 ms.assetid: b2a3ae40-4aaa-41b2-965c-1467a07ab2de
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netsh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NS_HELPER_ATTRIBUTES, *PNS_HELPER_ATTRIBUTES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NS_HELPER_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NS_HELPER_ATTRIBUTES, *PNS_HELPER_ATTRIBUTES
+req.redist: 
 ---
 
 # _NS_HELPER_ATTRIBUTES structure

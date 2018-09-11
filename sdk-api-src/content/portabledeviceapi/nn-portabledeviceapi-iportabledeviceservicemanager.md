@@ -4,17 +4,16 @@ title: IPortableDeviceServiceManager
 author: windows-sdk-content
 description: Retrieves the device associated with a service and the list of services found on a device.
 old-location: wpdsdk\iportabledeviceservicemanager.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 8df23343-26f0-4fb0-90b9-e8b75bcadffa
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPortableDeviceServiceManager, IPortableDeviceServiceManager interface [Windows Portable Devices SDK], IPortableDeviceServiceManager interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceServiceManager, wpdsdk.iportabledeviceservicemanager
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPortableDeviceServiceManager
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceServiceManager interface

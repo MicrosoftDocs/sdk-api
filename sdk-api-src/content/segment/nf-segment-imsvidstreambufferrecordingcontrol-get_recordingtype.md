@@ -4,17 +4,16 @@ title: IMSVidStreamBufferRecordingControl::get_RecordingType
 author: windows-sdk-content
 description: The get_RecordingType method retrieves the type of recording, either content recording or reference recording.
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_recordingtype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 23f63c44-4970-42b2-a19a-0a28e7fb5dea
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],get_RecordingType method, IMSVidStreamBufferRecordingControl.get_RecordingType, IMSVidStreamBufferRecordingControl::get_RecordingType, IMSVidStreamBufferRecordingControlget_RecordingType, get_RecordingType, get_RecordingType method [Microsoft TV Technologies], get_RecordingType method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, mstv.imsvidstreambufferrecordingcontrol_get_recordingtype, segment/IMSVidStreamBufferRecordingControl::get_RecordingType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferRecordingControl.get_RecordingType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferRecordingControl::get_RecordingType

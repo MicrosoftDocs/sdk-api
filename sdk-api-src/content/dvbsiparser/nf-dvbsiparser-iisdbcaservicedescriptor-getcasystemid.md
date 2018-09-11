@@ -4,17 +4,16 @@ title: IIsdbCAServiceDescriptor::GetCASystemId
 author: windows-sdk-content
 description: Gets the conditional access (CA) system identifier from a CA service descriptor.
 old-location: mstv\iisdbcaservicedescriptor_getcasystemid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 48148c5c-30e1-4028-8baf-692141d79fad
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCASystemId, GetCASystemId method [Microsoft TV Technologies], GetCASystemId method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetCASystemId method, IIsdbCAServiceDescriptor.GetCASystemId, IIsdbCAServiceDescriptor::GetCASystemId, dvbsiparser/IIsdbCAServiceDescriptor::GetCASystemId, mstv.iisdbcaservicedescriptor_getcasystemid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbCAServiceDescriptor.GetCASystemId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbCAServiceDescriptor::GetCASystemId

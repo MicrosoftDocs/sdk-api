@@ -4,7 +4,7 @@ title: SdpQueryUuidUnion
 author: windows-sdk-content
 description: The SdpQueryUuidUnion union contains the UUID on which to perform an SDP query. Used in conjunction with the SdpQueryUuid structure.
 old-location: bluetooth\sdpqueryuuidunion.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 446b0337-ea83-4d8a-bee7-3cccf03e61a5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthsdpdef.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SdpQueryUuidUnion
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SdpQueryUuidUnion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SdpQueryUuidUnion
+req.redist: 
 ---
 
 # SdpQueryUuidUnion structure

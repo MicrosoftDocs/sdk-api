@@ -4,17 +4,16 @@ title: TCI_MOD_FLOW_COMPLETE_HANDLER
 author: windows-sdk-content
 description: The ClModifyFlowComplete function is used by traffic control to notify the client of the completion of its previous call to the TcModifyFlow function.
 old-location: qos\clmodifyflowcomplete.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 61afc465-d942-4db7-96ee-56f3f1c3cafa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClModifyFlowComplete, ClModifyFlowComplete callback, ClModifyFlowComplete callback function [QOS], TCI_MOD_FLOW_COMPLETE_HANDLER, TCI_MOD_FLOW_COMPLETE_HANDLER callback function [QOS], _gqos_clmodifyflowcomplete, qos.clmodifyflowcomplete, traffic/ClModifyFlowComplete
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TCI_MOD_FLOW_COMPLETE_HANDLER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TCI_MOD_FLOW_COMPLETE_HANDLER callback function

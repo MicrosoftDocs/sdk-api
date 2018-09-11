@@ -4,17 +4,16 @@ title: TraceLoggingThreadActivityIdSetter
 author: windows-sdk-content
 description: Tags a thread with an activity id so ETW marks all events in that thread with the activity id.
 old-location: tracelogging\traceloggingthreadactivityidsetter.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: 16E6E61C-0A3D-4B15-901B-E1302EBF1D1C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter class, TraceLoggingThreadActivityIdSetter class,described, tracelogging.traceloggingthreadactivityidsetter, traceloggingactivity/TraceLoggingThreadActivityIdSetter
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: class
 req.header: traceloggingactivity.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceLoggingThreadActivityIdSetter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceLoggingThreadActivityIdSetter class

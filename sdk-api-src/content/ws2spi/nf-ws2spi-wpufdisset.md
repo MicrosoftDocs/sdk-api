@@ -4,17 +4,16 @@ title: WPUFDIsSet function
 author: windows-sdk-content
 description: The WPUFDIsSet function checks the membership of the specified socket handle.
 old-location: winsock\wpufdisset_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 87726b13-ede4-4c73-be98-4ad4180ea3e7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WPUFDIsSet, WPUFDIsSet function [Winsock], _win32_wpufdisset_2, winsock.wpufdisset_2, ws2spi/WPUFDIsSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_PROVIDER_INFO_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WPUFDIsSet
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WPUFDIsSet function

@@ -4,17 +4,16 @@ title: ICreateTypeLib::CreateTypeInfo
 author: windows-sdk-content
 description: Creates a new type description instance within the type library.
 old-location: automat\icreatetypelib_createtypeinfo.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 5e9678af-661b-4033-bd3f-607c064f4245
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateTypeInfo, CreateTypeInfo method [Automation], CreateTypeInfo method [Automation],ICreateTypeLib interface, ICreateTypeLib interface [Automation],CreateTypeInfo method, ICreateTypeLib.CreateTypeInfo, ICreateTypeLib::CreateTypeInfo, _oa96_ICreateTypeLib_CreateTypeInfo, automat.icreatetypelib_createtypeinfo, oaidl/ICreateTypeLib::CreateTypeInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeLib.CreateTypeInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeLib::CreateTypeInfo

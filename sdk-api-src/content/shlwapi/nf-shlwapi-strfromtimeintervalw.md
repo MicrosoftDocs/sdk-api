@@ -4,17 +4,16 @@ title: StrFromTimeIntervalW function
 author: windows-sdk-content
 description: Converts a time interval, specified in milliseconds, to a string.
 old-location: shell\StrFromTimeInterval.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e2a9492f-acfa-4cbd-8426-895e361f0174
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StrFromTimeInterval, StrFromTimeInterval function [Windows Shell], StrFromTimeIntervalA, StrFromTimeIntervalW, _win32_StrFromTimeInterval, shell.StrFromTimeInterval, shlwapi/StrFromTimeInterval, shlwapi/StrFromTimeIntervalA, shlwapi/StrFromTimeIntervalW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - StrFromTimeIntervalW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # StrFromTimeIntervalW function

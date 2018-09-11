@@ -4,7 +4,7 @@ title: FWPM_NET_EVENT_CALLBACK2
 author: windows-sdk-content
 description: Is used to add custom behavior to the net event subscription process.
 old-location: fwp\fwpm_net_event_callback2.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 0A5E0ADB-0879-4646-9F69-D8AB9BD067AD
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPM_NET_EVENT_CALLBACK2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FWPM_NET_EVENT_CALLBACK2 callback function

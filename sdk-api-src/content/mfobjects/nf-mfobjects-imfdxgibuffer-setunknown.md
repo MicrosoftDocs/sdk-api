@@ -4,17 +4,16 @@ title: IMFDXGIBuffer::SetUnknown
 author: windows-sdk-content
 description: Stores an arbitrary IUnknown pointer in the media buffer object.
 old-location: mf\imfdxgibuffer_setunknown.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 94BA5E48-FF89-48FA-BE0D-C158A5B4D4CF
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFDXGIBuffer interface [Media Foundation],SetUnknown method, IMFDXGIBuffer.SetUnknown, IMFDXGIBuffer::SetUnknown, SetUnknown, SetUnknown method [Media Foundation], SetUnknown method [Media Foundation],IMFDXGIBuffer interface, mf.imfdxgibuffer_setunknown, mfobjects/IMFDXGIBuffer::SetUnknown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDXGIBuffer.SetUnknown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDXGIBuffer::SetUnknown

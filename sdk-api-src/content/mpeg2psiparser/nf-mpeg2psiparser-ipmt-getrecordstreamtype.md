@@ -4,17 +4,16 @@ title: IPMT::GetRecordStreamType
 author: windows-sdk-content
 description: The GetRecordStreamType method returns the stream type for a given elementary stream in the program.
 old-location: mstv\ipmt_getrecordstreamtype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c3e17c0c-88ea-4143-aa9b-da2c5bf2069f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordStreamType, GetRecordStreamType method [Microsoft TV Technologies], GetRecordStreamType method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordStreamType method, IPMT.GetRecordStreamType, IPMT::GetRecordStreamType, IPMTGetRecordStreamType, mpeg2psiparser/IPMT::GetRecordStreamType, mstv.ipmt_getrecordstreamtype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPMT.GetRecordStreamType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPMT::GetRecordStreamType

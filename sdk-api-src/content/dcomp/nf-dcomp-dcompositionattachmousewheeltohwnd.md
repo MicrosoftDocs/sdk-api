@@ -4,17 +4,16 @@ title: DCompositionAttachMouseWheelToHwnd function
 author: windows-sdk-content
 description: Creates an Interaction/InputSink to route mouse wheel messages to the given HWND.
 old-location: directcomp\dcompositionattachmousewheeltohwnd.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 0a047702-e707-8df7-7660-0759a94b21af
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: DCompositionAttachMouseWheelToHwnd, DCompositionAttachMouseWheelToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseWheelToHwnd, directcomp.dcompositionattachmousewheeltohwnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DCompositionAttachMouseWheelToHwnd
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DCompositionAttachMouseWheelToHwnd function

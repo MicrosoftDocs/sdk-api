@@ -4,17 +4,16 @@ title: "_CERT_QC_STATEMENTS_EXT_INFO"
 author: windows-sdk-content
 description: Contains a sequence of one or more statements that make up the Qualified Certificate (QC) statements extension for a QC.
 old-location: security\cert_qc_statements_ext_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 788b3848-8d38-4e8f-9fdb-452767fbac61
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_QC_STATEMENTS_EXT_INFO, CERT_QC_STATEMENTS_EXT_INFO, CERT_QC_STATEMENTS_EXT_INFO structure [Security], PCERT_QC_STATEMENTS_EXT_INFO, PCERT_QC_STATEMENTS_EXT_INFO structure pointer [Security], _CERT_QC_STATEMENTS_EXT_INFO, security.cert_qc_statements_ext_info, wincrypt/CERT_QC_STATEMENTS_EXT_INFO, wincrypt/PCERT_QC_STATEMENTS_EXT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_QC_STATEMENTS_EXT_INFO, *PCERT_QC_STATEMENTS_EXT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_QC_STATEMENTS_EXT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_QC_STATEMENTS_EXT_INFO, *PCERT_QC_STATEMENTS_EXT_INFO
+req.redist: 
 ---
 
 # _CERT_QC_STATEMENTS_EXT_INFO structure

@@ -4,17 +4,16 @@ title: CredUnPackAuthenticationBufferA function
 author: windows-sdk-content
 description: Converts an authentication buffer returned by a call to the CredUIPromptForWindowsCredentials function into a string user name and password.
 old-location: security\credunpackauthenticationbuffer.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: c87f0b11-59c2-4450-ad63-398cdb15016f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CredUnPackAuthenticationBuffer, CredUnPackAuthenticationBuffer function [Security], CredUnPackAuthenticationBufferA, CredUnPackAuthenticationBufferW, security.credunpackauthenticationbuffer, wincred/CredUnPackAuthenticationBuffer, wincred/CredUnPackAuthenticationBufferA, wincred/CredUnPackAuthenticationBufferW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+req.lib: Credui.lib
+req.dll: Credui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - CredUnPackAuthenticationBufferW
 product: Windows
 targetos: Windows
-req.lib: Credui.lib
-req.dll: Credui.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CredUnPackAuthenticationBufferA function
@@ -101,19 +99,17 @@ A pointer to a null-terminated string that receives the user name.
 This string can be a marshaled credential. See Remarks.
 
 
-### -param pcchlMaxUserName [in, out]
-
-A pointer to a <b>DWORD</b> value that specifies the size, in characters, of the <i>pszUserName</i> buffer. On output, if the buffer is not of sufficient size, specifies the required size, in characters, of the  <i>pszUserName</i> buffer. The size includes terminating null character.
-
-
-### -param pszDomainName
+### -param pcchlMaxUserName
 
 TBD
 
 
-### -param pcchMaxDomainName [in, out]
+### -param pszDomainName [out]
 
 A pointer to a null-terminated string that receives the name of the user's domain.
+
+
+### -param pcchMaxDomainName [in, out]
 
 A pointer to a <b>DWORD</b> value that specifies the size, in characters, of the <i>pszDomainName</i> buffer. On output, if the buffer is not of sufficient size, specifies the required size, in characters, of the  <i>pszDomainName</i> buffer. The size includes the terminating null character. The required size can be zero if there is no domain name. 
 
@@ -128,6 +124,11 @@ A pointer to a null-terminated string that receives the password.
 A pointer to a <b>DWORD</b> value that specifies the size, in characters, of the <i>pszPassword</i> buffer. On output, if the buffer is not of sufficient size, specifies the required size, in characters, of the  <i>pszPassword</i> buffer. The size includes the terminating null character.  
 
 This string can be a marshaled credential. See Remarks.
+
+
+#### - pcchMaxUserName [in, out]
+
+A pointer to a <b>DWORD</b> value that specifies the size, in characters, of the <i>pszUserName</i> buffer. On output, if the buffer is not of sufficient size, specifies the required size, in characters, of the  <i>pszUserName</i> buffer. The size includes terminating null character.
 
 
 ## -returns

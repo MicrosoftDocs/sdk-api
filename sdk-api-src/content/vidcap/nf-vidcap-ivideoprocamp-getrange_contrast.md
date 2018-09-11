@@ -4,17 +4,16 @@ title: IVideoProcAmp::getRange_Contrast
 author: windows-sdk-content
 description: The getRange_Contrast method returns the range of contrast settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_contrast.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3eb160f4-c3e6-4c74-a091-72c55416a81e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Contrast method, IVideoProcAmp.getRange_Contrast, IVideoProcAmp::getRange_Contrast, IVideoProcAmpgetRange_Contrast, dshow.ivideoprocamp_getrange_contrast, getRange_Contrast, getRange_Contrast method [DirectShow], getRange_Contrast method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Contrast
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVideoProcAmp.getRange_Contrast
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoProcAmp::getRange_Contrast

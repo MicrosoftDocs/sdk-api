@@ -4,7 +4,7 @@ title: IDCompositionDesktopDevice
 author: windows-sdk-content
 description: An application must use the IDCompositionDesktopDevice interface in order to use DirectComposition in a Win32 desktop application.
 old-location: directcomp\idcompositiondesktopdevice.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 0FCDCDC2-541A-4EB5-A7FF-492AB5C25F7B
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDesktopDevice
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDesktopDevice interface

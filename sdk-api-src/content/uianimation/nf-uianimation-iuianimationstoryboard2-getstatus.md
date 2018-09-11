@@ -4,17 +4,16 @@ title: IUIAnimationStoryboard2::GetStatus
 author: windows-sdk-content
 description: Gets the status of the storyboard.
 old-location: uianimation\iuianimationstoryboard2_getstatus.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 1694B720-891A-4214-A009-6AA722E5B83D
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetStatus, GetStatus method [Windows Animation], GetStatus method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],GetStatus method, IUIAnimationStoryboard2.GetStatus, IUIAnimationStoryboard2::GetStatus, uianimation.iuianimationstoryboard2_getstatus, uianimation/IUIAnimationStoryboard2::GetStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationStoryboard2.GetStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationStoryboard2::GetStatus

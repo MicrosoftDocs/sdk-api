@@ -4,17 +4,16 @@ title: ITfContext::CreateRangeBackup
 author: windows-sdk-content
 description: ITfContext::CreateRangeBackup method
 old-location: tsf\itfcontext_createrangebackup.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: c3b52170-af1b-407b-9160-1265ae3c9afc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateRangeBackup, CreateRangeBackup method [Text Services Framework], CreateRangeBackup method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],CreateRangeBackup method, ITfContext.CreateRangeBackup, ITfContext::CreateRangeBackup, _tsf_itfcontext_createrangebackup_ref, msctf/ITfContext::CreateRangeBackup, tsf.itfcontext_createrangebackup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfContext.CreateRangeBackup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfContext::CreateRangeBackup

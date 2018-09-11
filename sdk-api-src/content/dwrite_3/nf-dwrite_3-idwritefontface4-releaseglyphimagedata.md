@@ -4,17 +4,16 @@ title: IDWriteFontFace4::ReleaseGlyphImageData
 author: windows-sdk-content
 description: Releases the table data obtained from ReadGlyphData.
 old-location: directwrite\idwritefontface4_releaseglyphimagedata.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 2A3211C1-90EB-42AE-BCE7-BDDA1D1E6312
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteFontFace4 interface [Direct Write],ReleaseGlyphImageData method, IDWriteFontFace4.ReleaseGlyphImageData, IDWriteFontFace4::ReleaseGlyphImageData, ReleaseGlyphImageData, ReleaseGlyphImageData method [Direct Write], ReleaseGlyphImageData method [Direct Write],IDWriteFontFace4 interface, directwrite.idwritefontface4_releaseglyphimagedata, dwrite_3/IDWriteFontFace4::ReleaseGlyphImageData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDWriteFontFace4.ReleaseGlyphImageData
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace4::ReleaseGlyphImageData

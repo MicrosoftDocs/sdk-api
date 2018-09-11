@@ -4,17 +4,16 @@ title: IComThreadEvents::OnThreadUnassignApartment
 author: windows-sdk-content
 description: Generated when an activity is unassigned from an apartment thread.
 old-location: cos\icomthreadevents_onthreadunassignapartment.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: c57b2427-9c39-4068-b531-9f18264746a1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadUnassignApartment method, IComThreadEvents.OnThreadUnassignApartment, IComThreadEvents::OnThreadUnassignApartment, OnThreadUnassignApartment, OnThreadUnassignApartment method [COM+], OnThreadUnassignApartment method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadUnassignApartment, comsvcs/IComThreadEvents::OnThreadUnassignApartment, cos.icomthreadevents_onthreadunassignapartment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComThreadEvents.OnThreadUnassignApartment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComThreadEvents::OnThreadUnassignApartment

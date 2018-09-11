@@ -4,17 +4,16 @@ title: ITuningSpace::get_FriendlyName
 author: windows-sdk-content
 description: The get_FriendlyName method retrieves the localized, user-friendly name of the tuning space.
 old-location: mstv\ituningspace_get_friendlyname.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d1427aae-49e9-45ce-abd9-902a895e6e44
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_FriendlyName method, ITuningSpace.get_FriendlyName, ITuningSpace::get_FriendlyName, ITuningSpaceget_FriendlyName, get_FriendlyName, get_FriendlyName method [Microsoft TV Technologies], get_FriendlyName method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_friendlyname, tuner/ITuningSpace::get_FriendlyName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITuningSpace.get_FriendlyName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITuningSpace::get_FriendlyName
@@ -65,7 +63,7 @@ The <b>get_FriendlyName</b> method retrieves the localized, user-friendly name o
 
 ### -param Name
 
-
+TBD
 
 
 

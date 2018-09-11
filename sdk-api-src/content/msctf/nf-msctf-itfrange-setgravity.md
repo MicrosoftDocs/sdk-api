@@ -4,17 +4,16 @@ title: ITfRange::SetGravity
 author: windows-sdk-content
 description: ITfRange::SetGravity method
 old-location: tsf\itfrange_setgravity.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: f8be0458-cd14-471d-a138-0730f87374e0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfRange interface [Text Services Framework],SetGravity method, ITfRange.SetGravity, ITfRange::SetGravity, SetGravity, SetGravity method [Text Services Framework], SetGravity method [Text Services Framework],ITfRange interface, _tsf_itfrange_setgravity_ref, msctf/ITfRange::SetGravity, tsf.itfrange_setgravity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfRange.SetGravity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfRange::SetGravity

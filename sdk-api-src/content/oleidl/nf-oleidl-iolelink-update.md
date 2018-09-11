@@ -4,17 +4,16 @@ title: IOleLink::Update
 author: windows-sdk-content
 description: Updates the compound document's cached data for a linked object. This involves binding to the link source, if it is not already bound.
 old-location: com\iolelink_update.htm
-old-project: com
+tech.root: com
 ms.assetid: c1da8b95-88e7-42b0-884c-5aa394cc49f4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleLink interface [COM],Update method, IOleLink.Update, IOleLink::Update, Update, Update method [COM], Update method [COM],IOleLink interface, _ole_iolelink_update, com.iolelink_update, oleidl/IOleLink::Update
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleLink.Update
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleLink::Update

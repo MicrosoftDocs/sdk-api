@@ -4,7 +4,7 @@ title: "_DD_BLTDATA"
 author: windows-sdk-content
 description: The DD_BLTDATA structure contains the information relevant to the driver for doing bit block transfers.
 old-location: display\dd_bltdata.htm
-old-project: display
+tech.root: display
 ms.assetid: e39bdfc4-89d0-4440-93d3-1b455cc9a8e5
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_BLTDATA, DD_BLTDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_BLTDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_BLTDATA, DD_BLTDATA"
+req.redist: 
 ---
 
 # _DD_BLTDATA structure

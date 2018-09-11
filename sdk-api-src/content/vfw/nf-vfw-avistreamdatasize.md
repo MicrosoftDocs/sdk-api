@@ -4,17 +4,16 @@ title: AVIStreamDataSize macro
 author: windows-sdk-content
 description: The AVIStreamDataSize macro determines the buffer size, in bytes, needed to retrieve optional header data for a specified stream.
 old-location: multimedia\avistreamdatasize.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: e91258ee-b90a-43b9-9d5e-0adee215714c
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIStreamDataSize, AVIStreamDataSize macro [Windows Multimedia], _win32_AVIStreamDataSize, multimedia.avistreamdatasize, vfw/AVIStreamDataSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AVIStreamDataSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIStreamDataSize macro

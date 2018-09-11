@@ -4,17 +4,16 @@ title: TreeView_Select macro
 author: windows-sdk-content
 description: Selects the specified tree-view item, scrolls the item into view, or redraws the item in the style used to indicate the target of a drag-and-drop operation.
 old-location: controls\TreeView_Select.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_select.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TVGN_CARET, TVGN_DROPHILITE, TVGN_FIRSTVISIBLE, TreeView_Select, TreeView_Select macro [Windows Controls], _win32_TreeView_Select, _win32_TreeView_Select_cpp, commctrl/TreeView_Select, controls.TreeView_Select, controls._win32_TreeView_Select
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TreeView_Select
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # TreeView_Select macro

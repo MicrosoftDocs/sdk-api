@@ -4,17 +4,16 @@ title: IMFDLNASinkInit::Initialize
 author: windows-sdk-content
 description: Initializes the Digital Living Network Alliance (DLNA) media sink.
 old-location: mf\imfdlnasinkinit_initialize.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 48c3842c-7d88-4232-b882-363d9310ffe8
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFDLNASinkInit interface [Media Foundation],Initialize method, IMFDLNASinkInit.Initialize, IMFDLNASinkInit::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFDLNASinkInit interface, mf.imfdlnasinkinit_initialize, mfmp2dlna/IMFDLNASinkInit::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmp2dlna.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDLNASinkInit.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDLNASinkInit::Initialize

@@ -4,17 +4,16 @@ title: CInstance::IsNull
 author: windows-sdk-content
 description: The IsNull method determines if the value of a particular property is NULL.
 old-location: wmi\cinstance_isnull.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 54d0135f-f387-43f5-ab5a-aa134141d3b0
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?IsNull@CInstance@@QBE_NPBG@Z, ?IsNull@CInstance@@QEBA_NPEBG@Z, CInstance interface [Windows Management Instrumentation],IsNull method, CInstance.IsNull, CInstance::IsNull, IsNull, IsNull method [Windows Management Instrumentation], IsNull method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_isnull, instance/CInstance::IsNull, wmi.cinstance_isnull"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ?IsNull@CInstance@@QEBA_NPEBG@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::IsNull

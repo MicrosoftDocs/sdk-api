@@ -4,17 +4,16 @@ title: IOpcRelationshipSelectorEnumerator::Clone
 author: windows-sdk-content
 description: Creates a copy of the current IOpcRelationshipSelectorEnumeratorinterface pointer and all its descendants.
 old-location: opc\iopcrelationshipselectorenumerator_clone.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 3eaf4b51-201d-43de-a9b7-408306992629
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcRelationshipSelectorEnumerator interface, IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],Clone method, IOpcRelationshipSelectorEnumerator.Clone, IOpcRelationshipSelectorEnumerator::Clone, msopc/IOpcRelationshipSelectorEnumerator::Clone, opc.iopcrelationshipselectorenumerator_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcRelationshipSelectorEnumerator.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcRelationshipSelectorEnumerator::Clone

@@ -4,17 +4,16 @@ title: IColumnManager::GetColumns
 author: windows-sdk-content
 description: Gets an array of PROPERTYKEY structures that represent the columns that the view supports. Includes either all columns or only those currently visible.
 old-location: shell\IColumnManager_GetColumns.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 297a8e75-78a0-4bfb-83c0-0b58111dcf1c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetColumns, GetColumns method [Windows Shell], GetColumns method [Windows Shell],IColumnManager interface, IColumnManager interface [Windows Shell],GetColumns method, IColumnManager.GetColumns, IColumnManager::GetColumns, shell.IColumnManager_GetColumns, shell_IColumnManager_GetColumns, shobjidl_core/IColumnManager::GetColumns
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IColumnManager.GetColumns
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IColumnManager::GetColumns

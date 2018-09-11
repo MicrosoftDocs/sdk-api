@@ -4,17 +4,16 @@ title: IRemoteDesktopClientTouchPointer::get_EventsEnabled
 author: windows-sdk-content
 description: Whether touch pointer event notifications are enabled for the RDP app container client control.
 old-location: termserv\iremotedesktopclienttouchpointer_eventsenabled.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 972e0f05-74fb-4997-a1c2-90ecfa4870a3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EventsEnabled property [Remote Desktop Services], EventsEnabled property [Remote Desktop Services],IRemoteDesktopClientTouchPointer interface, IRemoteDesktopClientTouchPointer interface [Remote Desktop Services],EventsEnabled property, IRemoteDesktopClientTouchPointer.EventsEnabled, IRemoteDesktopClientTouchPointer.get_EventsEnabled, IRemoteDesktopClientTouchPointer::EventsEnabled, IRemoteDesktopClientTouchPointer::get_EventsEnabled, IRemoteDesktopClientTouchPointer::put_EventsEnabled, get_EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::get_EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::put_EventsEnabled, termserv.iremotedesktopclienttouchpointer_eventsenabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: Rdpappcontainerclient.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsTscAx.dll
-tech.root: 
-req.typenames: SnapshotFormatType
+req.lib: 
+req.dll: MsTscAx.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IRemoteDesktopClientTouchPointer.put_EventsEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsTscAx.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRemoteDesktopClientTouchPointer::get_EventsEnabled

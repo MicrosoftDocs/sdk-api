@@ -4,17 +4,16 @@ title: MCIWndGetFileName macro
 author: windows-sdk-content
 description: The MCIWndGetFileName macro retrieves the filename used by an MCI device. You can use this macro or explicitly send the MCIWNDM_GETFILENAME message.
 old-location: multimedia\mciwndgetfilename.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 4118b9fe-4252-4591-862d-a1cc48fa3cff
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndGetFileName, MCIWndGetFileName macro [Windows Multimedia], _win32_MCIWndGetFileName, multimedia.mciwndgetfilename, vfw/MCIWndGetFileName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndGetFileName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndGetFileName macro

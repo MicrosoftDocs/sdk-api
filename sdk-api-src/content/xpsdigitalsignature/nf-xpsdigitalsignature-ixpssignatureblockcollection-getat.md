@@ -4,17 +4,16 @@ title: IXpsSignatureBlockCollection::GetAt
 author: windows-sdk-content
 description: Gets an IXpsSignatureBlock interface pointer from a specified location in the collection.
 old-location: xps\ixpssignatureblockcollection_getat.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 4d3f89be-f9f3-46db-802f-ffb4867786c2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsSignatureBlockCollection interface, IXpsSignatureBlockCollection interface [XPS Documents and Packaging],GetAt method, IXpsSignatureBlockCollection.GetAt, IXpsSignatureBlockCollection::GetAt, xps.ixpssignatureblockcollection_getat, xpsdigitalsignature/IXpsSignatureBlockCollection::GetAt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSignatureBlockCollection.GetAt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSignatureBlockCollection::GetAt

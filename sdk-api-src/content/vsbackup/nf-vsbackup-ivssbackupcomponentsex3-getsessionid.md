@@ -4,17 +4,16 @@ title: IVssBackupComponentsEx3::GetSessionId
 author: windows-sdk-content
 description: Returns the requester's session identifier.
 old-location: base\ivssbackupcomponentsex3_getsessionid.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: ad7e548a-9f7a-4e35-9811-edb68458a1df
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetSessionId, GetSessionId method, GetSessionId method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,GetSessionId method, IVssBackupComponentsEx3.GetSessionId, IVssBackupComponentsEx3::GetSessionId, base.ivssbackupcomponentsex3_getsessionid, vsbackup/IVssBackupComponentsEx3::GetSessionId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssBackupComponentsEx3.GetSessionId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponentsEx3::GetSessionId

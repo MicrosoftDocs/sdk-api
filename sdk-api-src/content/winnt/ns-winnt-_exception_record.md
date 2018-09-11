@@ -4,17 +4,16 @@ title: "_EXCEPTION_RECORD"
 author: windows-sdk-content
 description: Describes an exception.
 old-location: base\exception_record_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 85a64178-bdcb-4293-9363-289c654730a2
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PEXCEPTION_RECORD, EXCEPTION_ACCESS_VIOLATION, EXCEPTION_ARRAY_BOUNDS_EXCEEDED, EXCEPTION_BREAKPOINT, EXCEPTION_DATATYPE_MISALIGNMENT, EXCEPTION_FLT_DENORMAL_OPERAND, EXCEPTION_FLT_DIVIDE_BY_ZERO, EXCEPTION_FLT_INEXACT_RESULT, EXCEPTION_FLT_INVALID_OPERATION, EXCEPTION_FLT_OVERFLOW, EXCEPTION_FLT_STACK_CHECK, EXCEPTION_FLT_UNDERFLOW, EXCEPTION_ILLEGAL_INSTRUCTION, EXCEPTION_INT_DIVIDE_BY_ZERO, EXCEPTION_INT_OVERFLOW, EXCEPTION_INVALID_DISPOSITION, EXCEPTION_IN_PAGE_ERROR, EXCEPTION_NONCONTINUABLE_EXCEPTION, EXCEPTION_PRIV_INSTRUCTION, EXCEPTION_RECORD, EXCEPTION_RECORD structure, EXCEPTION_RECORD64, EXCEPTION_SINGLE_STEP, EXCEPTION_STACK_OVERFLOW, PEXCEPTION_RECORD, PEXCEPTION_RECORD structure pointer, _EXCEPTION_RECORD, _win32_exception_record_str, base.exception_record_str, winnt/EXCEPTION_RECORD, winnt/PEXCEPTION_RECORD"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXCEPTION_RECORD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EXCEPTION_RECORD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: EXCEPTION_RECORD
+req.redist: 
 ---
 
 # _EXCEPTION_RECORD structure

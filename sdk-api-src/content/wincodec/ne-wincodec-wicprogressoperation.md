@@ -4,7 +4,7 @@ title: WICProgressOperation
 author: windows-sdk-content
 description: Specifies the progress operations to receive notifications for.
 old-location: wic\_wic_codec_wicprogressoperation.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 407b982d-7232-42ce-9ff5-7029b7d922a4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICProgressOperation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICProgressOperation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICProgressOperation
+req.redist: 
 ---
 
 # WICProgressOperation enumeration

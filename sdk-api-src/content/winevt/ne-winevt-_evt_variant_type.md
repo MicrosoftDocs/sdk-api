@@ -4,17 +4,16 @@ title: "_EVT_VARIANT_TYPE"
 author: windows-sdk-content
 description: Defines the possible data types of a variant data item.
 old-location: wes\evt_variant_type.htm
-old-project: wes
+tech.root: WES
 ms.assetid: 13cf5e71-07bb-45ac-89f9-b76a26539dcd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EVT_VARIANT_TYPE, EvtVarTypeAnsiString, EvtVarTypeBinary, EvtVarTypeBoolean, EvtVarTypeByte, EvtVarTypeDouble, EvtVarTypeEvtHandle, EvtVarTypeEvtXml, EvtVarTypeFileTime, EvtVarTypeGuid, EvtVarTypeHexInt32, EvtVarTypeHexInt64, EvtVarTypeInt16, EvtVarTypeInt32, EvtVarTypeInt64, EvtVarTypeNull, EvtVarTypeSByte, EvtVarTypeSid, EvtVarTypeSingle, EvtVarTypeSizeT, EvtVarTypeString, EvtVarTypeSysTime, EvtVarTypeUInt16, EvtVarTypeUInt32, EvtVarTypeUInt64, _EVT_VARIANT_TYPE, _EVT_VARIANT_TYPE enumeration [EventLog], wes.evt_variant_type, winevt/EvtVarTypeAnsiString, winevt/EvtVarTypeBinary, winevt/EvtVarTypeBoolean, winevt/EvtVarTypeByte, winevt/EvtVarTypeDouble, winevt/EvtVarTypeEvtHandle, winevt/EvtVarTypeEvtXml, winevt/EvtVarTypeFileTime, winevt/EvtVarTypeGuid, winevt/EvtVarTypeHexInt32, winevt/EvtVarTypeHexInt64, winevt/EvtVarTypeInt16, winevt/EvtVarTypeInt32, winevt/EvtVarTypeInt64, winevt/EvtVarTypeNull, winevt/EvtVarTypeSByte, winevt/EvtVarTypeSid, winevt/EvtVarTypeSingle, winevt/EvtVarTypeSizeT, winevt/EvtVarTypeString, winevt/EvtVarTypeSysTime, winevt/EvtVarTypeUInt16, winevt/EvtVarTypeUInt32, winevt/EvtVarTypeUInt64, winevt/_EVT_VARIANT_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_VARIANT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_VARIANT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_VARIANT_TYPE
+req.redist: 
 ---
 
 # _EVT_VARIANT_TYPE enumeration

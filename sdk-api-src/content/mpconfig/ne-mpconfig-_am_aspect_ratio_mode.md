@@ -4,7 +4,7 @@ title: "_AM_ASPECT_RATIO_MODE"
 author: windows-sdk-content
 description: Specifies the aspect ratio of a video image in a display window.
 old-location: dshow\am_aspect_ratio_mode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 4f7c6220-6231-4bb1-aea6-7f1581b04d3a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mpconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_ASPECT_RATIO_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_ASPECT_RATIO_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: AM_ASPECT_RATIO_MODE
+req.redist: 
 ---
 
 # _AM_ASPECT_RATIO_MODE enumeration

@@ -4,7 +4,7 @@ title: "_MIBICMPSTATS"
 author: windows-sdk-content
 description: Contains statistics for either incoming or outgoing Internet Control Message Protocol (ICMP) messages on a particular computer.
 old-location: mib\mibicmpstats.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 080cdd28-3e2d-4cd0-8e5a-9ec9dcb9df48
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIBICMPSTATS, *PMIBICMPSTATS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIBICMPSTATS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIBICMPSTATS, *PMIBICMPSTATS
+req.redist: 
 ---
 
 # _MIBICMPSTATS structure

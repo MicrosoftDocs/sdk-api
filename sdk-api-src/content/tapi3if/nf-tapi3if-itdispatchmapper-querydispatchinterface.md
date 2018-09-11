@@ -4,17 +4,16 @@ title: ITDispatchMapper::QueryDispatchInterface
 author: windows-sdk-content
 description: The QueryDispatchInterface method returns a dispatch pointer to a different interface on an object given its GUID and the dispatch pointer of another interface on the object.
 old-location: tapi3\itdispatchmapper_querydispatchinterface.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 7ee7c6f4-5710-4300-a2b8-de9aecf0528b
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDispatchMapper interface [TAPI 2.2],QueryDispatchInterface method, ITDispatchMapper.QueryDispatchInterface, ITDispatchMapper::QueryDispatchInterface, QueryDispatchInterface, QueryDispatchInterface method [TAPI 2.2], QueryDispatchInterface method [TAPI 2.2],ITDispatchMapper interface, _tapi3_itdispatchmapper_querydispatchinterface, tapi3.itdispatchmapper_querydispatchinterface, tapi3if/ITDispatchMapper::QueryDispatchInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDispatchMapper.QueryDispatchInterface
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITDispatchMapper::QueryDispatchInterface

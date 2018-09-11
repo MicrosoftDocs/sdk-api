@@ -4,17 +4,16 @@ title: ISpellCheckProvider::InitializeWordlist
 author: windows-sdk-content
 description: Initialize the specified word list to contain only the specified words.
 old-location: intl\ispellcheckprovider_initializewordlist.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: B1E3D0F9-8A6B-431F-A8AF-46D783E23FEF
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],InitializeWordlist method, ISpellCheckProvider.InitializeWordlist, ISpellCheckProvider::InitializeWordlist, InitializeWordlist, InitializeWordlist method [Internationalization for Windows Applications], InitializeWordlist method [Internationalization for Windows Applications],ISpellCheckProvider interface, intl.ispellcheckprovider_initializewordlist, spellcheckprovider/ISpellCheckProvider::InitializeWordlist
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheckprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpellCheckProvider.InitializeWordlist
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpellCheckProvider::InitializeWordlist

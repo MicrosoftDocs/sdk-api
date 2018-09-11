@@ -4,17 +4,16 @@ title: WsMarkHeaderAsUnderstood function
 author: windows-sdk-content
 description: This function marks a header as &#0034;understood&#0034; by the application.
 old-location: wsw\wsmarkheaderasunderstood.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: f119f85a-f6a7-4472-8177-a2e23b6d12f9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsMarkHeaderAsUnderstood, WsMarkHeaderAsUnderstood function [Web Services for Windows], webservices/WsMarkHeaderAsUnderstood, wsw.wsmarkheaderasunderstood
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsMarkHeaderAsUnderstood
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsMarkHeaderAsUnderstood function

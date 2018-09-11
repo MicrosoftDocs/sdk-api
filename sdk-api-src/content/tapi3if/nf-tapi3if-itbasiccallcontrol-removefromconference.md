@@ -4,17 +4,16 @@ title: ITBasicCallControl::RemoveFromConference
 author: windows-sdk-content
 description: The RemoveFromConference method removes the call from a conference if it is involved in one.
 old-location: tapi3\itbasiccallcontrol_removefromconference.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c3a357a1-9bfa-4d23-b7d7-e1d9b636e861
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],RemoveFromConference method, ITBasicCallControl.RemoveFromConference, ITBasicCallControl::RemoveFromConference, RemoveFromConference, RemoveFromConference method [TAPI 2.2], RemoveFromConference method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_removefromconference, tapi3.itbasiccallcontrol_removefromconference, tapi3if/ITBasicCallControl::RemoveFromConference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITBasicCallControl.RemoveFromConference
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITBasicCallControl::RemoveFromConference

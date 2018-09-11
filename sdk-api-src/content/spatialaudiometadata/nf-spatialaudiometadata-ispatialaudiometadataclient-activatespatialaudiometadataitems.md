@@ -4,17 +4,16 @@ title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems
 author: windows-sdk-content
 description: Creates an ISpatialAudioMetadataItems object for storing spatial audio metadata items.
 old-location: coreaudio\ispatialaudiometadataclient_activatespatialaudiometadataitems.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 0788C3BE-1616-4C7B-8F47-B0C4E4034061
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: ActivateSpatialAudioMetadataItems, ActivateSpatialAudioMetadataItems method [Core Audio], ActivateSpatialAudioMetadataItems method [Core Audio],ISpatialAudioMetadataClient interface, ISpatialAudioMetadataClient interface [Core Audio],ActivateSpatialAudioMetadataItems method, ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadataitems, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioMetadataWriterOverflowMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems

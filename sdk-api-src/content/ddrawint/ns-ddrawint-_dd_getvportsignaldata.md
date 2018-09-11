@@ -4,7 +4,7 @@ title: "_DD_GETVPORTSIGNALDATA"
 author: windows-sdk-content
 description: The DD_GETVPORTSIGNALDATA structure contains the signal status of the hardware video port.
 old-location: display\dd_getvportsignaldata.htm
-old-project: display
+tech.root: display
 ms.assetid: 33db5ce5-534b-4e66-853b-5e60892f544b
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_GETVPORTSIGNALDATA, DD_GETVPORTSIGNALDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_GETVPORTSIGNALDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_GETVPORTSIGNALDATA, DD_GETVPORTSIGNALDATA"
+req.redist: 
 ---
 
 # _DD_GETVPORTSIGNALDATA structure

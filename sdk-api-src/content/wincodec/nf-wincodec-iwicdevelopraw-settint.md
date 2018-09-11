@@ -4,17 +4,16 @@ title: IWICDevelopRaw::SetTint
 author: windows-sdk-content
 description: Sets the tint value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_settint.htm
-old-project: wic
+tech.root: wic
 ms.assetid: a5c6a15b-19d3-4b6f-a00e-842ec8614ce5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetTint method, IWICDevelopRaw.SetTint, IWICDevelopRaw::SetTint, SetTint, SetTint method [Windows Imaging Component], SetTint method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_settint, wic._wic_codec_iwicdevelopraw_settint, wincodec/IWICDevelopRaw::SetTint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICDevelopRaw.SetTint
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICDevelopRaw::SetTint

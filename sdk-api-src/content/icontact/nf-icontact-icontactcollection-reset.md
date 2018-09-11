@@ -4,17 +4,16 @@ title: IContactCollection::Reset
 author: windows-sdk-content
 description: Resets the enumerator to before the logical first element.
 old-location: wincontacts\_wincontacts_IContactCollection_Reset.htm
-old-project: wincontacts
+tech.root: wincontacts
 ms.assetid: 31922d03-079e-4a6f-8516-d4cf540d812e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IContactCollection interface [Windows Contacts],Reset method, IContactCollection.Reset, IContactCollection::Reset, Reset, Reset method [Windows Contacts], Reset method [Windows Contacts],IContactCollection interface, _wincontacts_IContactCollection_Reset, icontact/IContactCollection::Reset, wincontacts._wincontacts_IContactCollection_Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContactCollection.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wab32.dll (Version 6.0 or later)
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContactCollection::Reset

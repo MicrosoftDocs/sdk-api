@@ -4,7 +4,7 @@ title: SYNC_TRANSFER_STATUS
 author: windows-sdk-content
 description: Specifies possible status values used in the System.SyncTransferStatus property.
 old-location: properties\SYNC_TRANSFER_STATUS.htm
-old-project: properties
+tech.root: properties
 ms.assetid: B772BF05-0E82-48E6-9A0B-A3C53FBC5F60
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_TRANSFER_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNC_TRANSFER_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: SYNC_TRANSFER_STATUS
+req.redist: 
 ---
 
 # SYNC_TRANSFER_STATUS enumeration

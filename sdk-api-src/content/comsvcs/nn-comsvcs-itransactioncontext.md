@@ -4,17 +4,16 @@ title: ITransactionContext
 author: windows-sdk-content
 description: Enables you to compose the work of multiple COM+ objects in a single transaction and explicitly commit or abort the transaction.
 old-location: cos\itransactioncontext.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 818fe18b-04ed-4f54-aeb7-b19aafc8a51a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITransactionContext, ITransactionContext interface [COM+], ITransactionContext interface [COM+],described, _cos_ITransactionContext_Interface, comsvcs/ITransactionContext, cos.itransactioncontext
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITransactionContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITransactionContext interface

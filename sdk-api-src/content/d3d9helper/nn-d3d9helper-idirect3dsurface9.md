@@ -4,17 +4,16 @@ title: IDirect3DSurface9
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DSurface9 interface to query and prepare surfaces.
 old-location: direct3d9\idirect3dsurface9.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 7eb0f571-de02-55a6-f6eb-fc92e63fbb48, IDirect3DSurface9, IDirect3DSurface9 interface [Direct3D 9], IDirect3DSurface9 interface [Direct3D 9],described, d3d9helper/IDirect3DSurface9, direct3d9.idirect3dsurface9
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3d9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DSurface9
 product: Windows
 targetos: Windows
-req.lib: D3d9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DSurface9 interface

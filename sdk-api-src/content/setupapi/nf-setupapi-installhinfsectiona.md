@@ -4,17 +4,16 @@ title: InstallHinfSectionA function
 author: windows-sdk-content
 description: InstallHinfSection is an entry-point function exported by Setupapi.dll that you can use to execute a section of an .inf file. InstallHinfSection can be invoked by calling the Rundll32.exe utility as described in the Remarks section.
 old-location: setup\installhinfsection.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 151aa91b-9b3d-45e8-94a3-2bc395cd466d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: InstallHinfSection, InstallHinfSection function [Setup API], InstallHinfSectionA, InstallHinfSectionW, _setupapi_installhinfsection, setup.installhinfsection, setupapi/InstallHinfSection, setupapi/InstallHinfSectionA, setupapi/InstallHinfSectionW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - InstallHinfSectionW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # InstallHinfSectionA function

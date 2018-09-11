@@ -4,17 +4,16 @@ title: NCryptSecretAgreement function
 author: windows-sdk-content
 description: Creates a secret agreement value from a private and a public key.
 old-location: security\ncryptsecretagreement.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: b5bf3eac-1fae-43e2-84b6-e8e5e255d7c5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptSecretAgreement, NCryptSecretAgreement function [Security], ncrypt/NCryptSecretAgreement, security.ncryptsecretagreement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SESSION_HEADER, *PSESSION_HEADER
+req.lib: Ncrypt.lib
+req.dll: Ncrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCryptSecretAgreement
 product: Windows
 targetos: Windows
-req.lib: Ncrypt.lib
-req.dll: Ncrypt.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NCryptSecretAgreement function

@@ -4,7 +4,7 @@ title: "_DHCP_FAILOVER_MODE"
 author: windows-sdk-content
 description: The DHCP_FAILOVER_MODE enumeration defines the DHCPv4 server mode operation in a failover relationship.
 old-location: dhcp\dhcp_failover_mode.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 333f70a5-63bd-47f0-bb56-c5f6060e2a72
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_FAILOVER_MODE, *LPDHCP_FAILOVER_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_FAILOVER_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_FAILOVER_MODE, *LPDHCP_FAILOVER_MODE
+req.redist: 
 ---
 
 # _DHCP_FAILOVER_MODE enumeration

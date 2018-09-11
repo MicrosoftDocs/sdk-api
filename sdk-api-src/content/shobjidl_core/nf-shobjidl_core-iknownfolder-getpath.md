@@ -4,17 +4,16 @@ title: IKnownFolder::GetPath
 author: windows-sdk-content
 description: Retrieves the path of a known folder as a string.
 old-location: shell\IKnownFolder_GetPath.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c1786db0-9bcc-4fc8-ae18-8519da6edda9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetPath, GetPath method [Windows Shell], GetPath method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetPath method, IKnownFolder.GetPath, IKnownFolder::GetPath, _shell_IKnownFolder_GetPath, shell.IKnownFolder_GetPath, shobjidl_core/IKnownFolder::GetPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKnownFolder.GetPath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IKnownFolder::GetPath

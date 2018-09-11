@@ -4,17 +4,16 @@ title: IMFPMediaPlayer::GetVideoSourceRect
 author: windows-sdk-content
 description: Gets the video source rectangle.
 old-location: mf\imfpmediaplayer_getvideosourcerect.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3b72ece3-f573-42e1-948c-443c793e5ba4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetVideoSourceRect, GetVideoSourceRect method [Media Foundation], GetVideoSourceRect method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVideoSourceRect method, IMFPMediaPlayer.GetVideoSourceRect, IMFPMediaPlayer::GetVideoSourceRect, mf.imfpmediaplayer_getvideosourcerect, mfplay/IMFPMediaPlayer::GetVideoSourceRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaPlayer.GetVideoSourceRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaPlayer::GetVideoSourceRect

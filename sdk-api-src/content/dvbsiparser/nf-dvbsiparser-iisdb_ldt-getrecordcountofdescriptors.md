@@ -4,17 +4,16 @@ title: IISDB_LDT::GetRecordCountOfDescriptors
 author: windows-sdk-content
 description: Returns the number of descriptors for a record in an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_getrecordcountofdescriptors.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1352eec0-fed2-4d14-81f2-c73b8d34a264
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IISDB_LDT.GetRecordCountOfDescriptors, IISDB_LDT::GetRecordCountOfDescriptors, dvbsiparser/IISDB_LDT::GetRecordCountOfDescriptors, mstv.iisdb_ldt_getrecordcountofdescriptors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IISDB_LDT.GetRecordCountOfDescriptors
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IISDB_LDT::GetRecordCountOfDescriptors

@@ -4,7 +4,7 @@ title: "_PALOBJ"
 author: windows-sdk-content
 description: The PALOBJ structure is a user object that represents an indexed color palette.
 old-location: display\palobj.htm
-old-project: display
+tech.root: display
 ms.assetid: 7c126067-eff8-4387-9fa7-2cde60796471
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PALOBJ
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PALOBJ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PALOBJ
+req.redist: 
 ---
 
 # _PALOBJ structure

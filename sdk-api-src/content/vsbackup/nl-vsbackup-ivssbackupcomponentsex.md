@@ -4,17 +4,16 @@ title: IVssBackupComponentsEx
 author: windows-sdk-content
 description: Provides methods for requesters to run backup and restore operations using multiple writer instances.
 old-location: base\ivssbackupcomponentsex.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: d3a265ab-39cc-4861-9191-9ecf094d8826
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssBackupComponentsEx, IVssBackupComponentsEx interface [VSS], IVssBackupComponentsEx interface [VSS],described, base.ivssbackupcomponentsex, vsbackup/IVssBackupComponentsEx
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: class
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponentsEx
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: VssApi.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponentsEx class

@@ -4,17 +4,16 @@ title: tagOLEUIVIEWPROPSW
 author: windows-sdk-content
 description: Contains information that is used to initialize the View tab of the Object properties dialog box.
 old-location: com\oleuiviewprops_struct.htm
-old-project: com
+tech.root: com
 ms.assetid: e45565c5-185e-4143-a5c2-d0b273b5086e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPOLEUIVIEWPROPSW, *POLEUIVIEWPROPSW, LPOLEUIVIEWPROPS, LPOLEUIVIEWPROPS structure pointer [COM], OLEUIVIEWPROPS, OLEUIVIEWPROPS structure [COM], OLEUIVIEWPROPSA, OLEUIVIEWPROPSW, POLEUIVIEWPROPS, POLEUIVIEWPROPS structure pointer [COM], VPF_DISABLERELATIVE, VPF_DISABLESCALE, VPF_SELECTRELATIVE, _ole_OLEUIVIEWPROPS, com.oleuiviewprops_struct, oledlg/LPOLEUIVIEWPROPS, oledlg/OLEUIVIEWPROPS, oledlg/OLEUIVIEWPROPSA, oledlg/OLEUIVIEWPROPSW, oledlg/POLEUIVIEWPROPS, tagOLEUIVIEWPROPSW"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIVIEWPROPSW, *POLEUIVIEWPROPSW, *LPOLEUIVIEWPROPSW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OLEUIVIEWPROPSW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OLEUIVIEWPROPSW, *POLEUIVIEWPROPSW, *LPOLEUIVIEWPROPSW
+req.redist: 
 ---
 
 # tagOLEUIVIEWPROPSW structure

@@ -4,17 +4,16 @@ title: IWICBitmapFrameEncode::SetPixelFormat
 author: windows-sdk-content
 description: Requests that the encoder use the specified pixel format.
 old-location: wic\_wic_codec_iwicbitmapframeencode_setpixelformat.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 9327b5dd-18a3-40c6-8bb4-245fcc7fb582
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetPixelFormat method, IWICBitmapFrameEncode.SetPixelFormat, IWICBitmapFrameEncode::SetPixelFormat, SetPixelFormat, SetPixelFormat method [Windows Imaging Component], SetPixelFormat method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setpixelformat, wic._wic_codec_iwicbitmapframeencode_setpixelformat, wincodec/IWICBitmapFrameEncode::SetPixelFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapFrameEncode.SetPixelFormat
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapFrameEncode::SetPixelFormat

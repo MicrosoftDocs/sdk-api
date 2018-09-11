@@ -4,17 +4,16 @@ title: IDWriteFontFace2
 author: windows-sdk-content
 description: Represents an absolute reference to a font face.
 old-location: directwrite\idwritefontface2.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: D74F6472-CEEC-4DF5-83C8-0D65923C8028
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteFontFace1, IDWriteFontFace1 interface [Direct Write], IDWriteFontFace1 interface [Direct Write],described, IDWriteFontFace2, directwrite.idwritefontface2, dwrite_2/IDWriteFontFace2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dwrite_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace1
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace2 interface

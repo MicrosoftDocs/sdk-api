@@ -4,17 +4,16 @@ title: PrintMessage function
 author: windows-sdk-content
 description: Displays output to the NetShell console.
 old-location: netshell\printmessage.htm
-old-project: netshell
+tech.root: netshell
 ms.assetid: 6646a4f7-24b7-460c-8027-80485ac50785
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PrintMessage, PrintMessage function [NetShell], _netsh_printmessage, netsh/PrintMessage, netshell.printmessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netsh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NS_REQS
+req.lib: Netsh.lib
+req.dll: Netsh.exe
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PrintMessage
 product: Windows
 targetos: Windows
-req.lib: Netsh.lib
-req.dll: Netsh.exe
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # PrintMessage function
@@ -66,7 +64,14 @@ The
 A string to be output to the NetShell console.
 
 
-### -param param
+### -param arg1
+
+TBD
+
+
+
+
+#### - param
 
 The arguments used to fill into the message.
 

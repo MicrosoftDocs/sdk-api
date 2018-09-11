@@ -4,17 +4,16 @@ title: "_CERT_KEY_ATTRIBUTES_INFO"
 author: windows-sdk-content
 description: The CERT_KEY_ATTRIBUTES_INFO structure contains optional additional information about the public key being certified.
 old-location: security\cert_key_attributes_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: cedf0321-4f5a-48a9-abfd-d8642bb89576
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_KEY_ATTRIBUTES_INFO, CERT_KEY_ATTRIBUTES_INFO, CERT_KEY_ATTRIBUTES_INFO structure [Security], PCERT_KEY_ATTRIBUTES_INFO, PCERT_KEY_ATTRIBUTES_INFO structure pointer [Security], _CERT_KEY_ATTRIBUTES_INFO, _crypto2_cert_key_attributes_info, security.cert_key_attributes_info, wincrypt/CERT_KEY_ATTRIBUTES_INFO, wincrypt/PCERT_KEY_ATTRIBUTES_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_KEY_ATTRIBUTES_INFO, *PCERT_KEY_ATTRIBUTES_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_KEY_ATTRIBUTES_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_KEY_ATTRIBUTES_INFO, *PCERT_KEY_ATTRIBUTES_INFO
+req.redist: 
 ---
 
 # _CERT_KEY_ATTRIBUTES_INFO structure

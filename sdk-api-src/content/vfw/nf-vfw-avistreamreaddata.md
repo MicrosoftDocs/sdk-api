@@ -4,17 +4,16 @@ title: AVIStreamReadData function
 author: windows-sdk-content
 description: The AVIStreamReadData function reads optional header data from a stream.
 old-location: multimedia\avistreamreaddata.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 87a787e8-547a-4c35-ba65-a592bd037063
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIStreamReadData, AVIStreamReadData function [Windows Multimedia], _win32_AVIStreamReadData, multimedia.avistreamreaddata, vfw/AVIStreamReadData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AVIStreamReadData
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIStreamReadData function

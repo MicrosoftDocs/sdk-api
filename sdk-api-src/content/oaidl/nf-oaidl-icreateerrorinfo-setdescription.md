@@ -4,17 +4,16 @@ title: ICreateErrorInfo::SetDescription
 author: windows-sdk-content
 description: Sets the textual description of the error.
 old-location: automat\icreateerrorinfo_setdescription.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 32d10343-4be4-4ebc-b2fd-43a292c006b2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetDescription method, ICreateErrorInfo.SetDescription, ICreateErrorInfo::SetDescription, SetDescription, SetDescription method [Automation], SetDescription method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetDescription, automat.icreateerrorinfo_setdescription, oaidl/ICreateErrorInfo::SetDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateErrorInfo.SetDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateErrorInfo::SetDescription

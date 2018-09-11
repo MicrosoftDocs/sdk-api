@@ -4,17 +4,16 @@ title: IAVIStream::ReadData
 author: windows-sdk-content
 description: The ReadData method reads data headers of a stream. Called when an application uses the AVIStreamReadData function.
 old-location: multimedia\iavistream_readdata.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 688a19fb-5774-4e05-b0e8-4a98922def89
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],ReadData method, IAVIStream.ReadData, IAVIStream::ReadData, ReadData, ReadData method [Windows Multimedia], ReadData method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_ReadData, multimedia.iavistream_readdata, vfw/IAVIStream::ReadData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAVIStream.ReadData
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IAVIStream::ReadData
@@ -71,12 +69,12 @@ Four-character code of the stream header to read.
 
 ### -param lp
 
-
+TBD
 
 
 ### -param lpcb
 
-
+TBD
 
 
 

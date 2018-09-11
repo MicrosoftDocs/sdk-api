@@ -4,17 +4,16 @@ title: EditStreamCopy function
 author: windows-sdk-content
 description: The EditStreamCopy function copies an editable stream (or a portion of it) into a temporary stream.
 old-location: multimedia\editstreamcopy.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: c1548359-42ed-4d13-b72d-e7269a7c3482
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: EditStreamCopy, EditStreamCopy function [Windows Multimedia], _win32_EditStreamCopy, multimedia.editstreamcopy, vfw/EditStreamCopy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EditStreamCopy
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # EditStreamCopy function

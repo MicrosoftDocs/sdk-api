@@ -4,17 +4,16 @@ title: RealTimeStylusLockType
 author: windows-sdk-content
 description: Specifies the locks within the RealTimeStylus Class object that protect the RealTimeStylus Class object's members and properties from modification.
 old-location: tablet\realtimestyluslocktype.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: d472b588-b208-4665-9364-f2c92fe09bcd
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: RTSLT_AsyncEventLock, RTSLT_AsyncObjLock, RTSLT_ExcludeCallback, RTSLT_ObjLock, RTSLT_SyncEventLock, RTSLT_SyncObjLock, RealTimeStylusLockType, RealTimeStylusLockType enumeration [Tablet PC], d472b588-b208-4665-9364-f2c92fe09bcd, rtscom/RTSLT_AsyncEventLock, rtscom/RTSLT_AsyncObjLock, rtscom/RTSLT_ExcludeCallback, rtscom/RTSLT_ObjLock, rtscom/RTSLT_SyncEventLock, rtscom/RTSLT_SyncObjLock, rtscom/RealTimeStylusLockType, tablet.realtimestyluslocktype
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RealTimeStylusLockType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RealTimeStylusLockType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RealTimeStylusLockType
+req.redist: 
 ---
 
 # RealTimeStylusLockType enumeration

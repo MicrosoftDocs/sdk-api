@@ -4,17 +4,16 @@ title: GetMonitorCapabilities function
 author: windows-sdk-content
 description: Retrieves the configuration capabilities of a monitor. Call this function to find out which high-level monitor configuration functions are supported by the monitor.
 old-location: monitor\getmonitorcapabilities.htm
-old-project: Monitor
+tech.root: Monitor
 ms.assetid: 57cf0004-58cf-46d9-b5be-22edda2ce5a9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetMonitorCapabilities, GetMonitorCapabilities function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorCapabilities, monitor.getmonitorcapabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_SIZE_TYPE
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetMonitorCapabilities
 product: Windows
 targetos: Windows
-req.lib: Dxva2.lib
-req.dll: Dxva2.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetMonitorCapabilities function

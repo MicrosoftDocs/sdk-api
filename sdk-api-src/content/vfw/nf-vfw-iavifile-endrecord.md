@@ -4,17 +4,16 @@ title: IAVIFile::EndRecord
 author: windows-sdk-content
 description: The EndRecord method writes the &#0034;REC&#0034; chunk in a tightly interleaved AVI file (having a one-to-one interleave factor of audio to video). Called when an application uses the AVIFileEndRecord function.
 old-location: multimedia\iavifile_endrecord.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 43c4edbf-d736-4d85-9726-123f92145134
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: EndRecord, EndRecord method [Windows Multimedia], EndRecord method [Windows Multimedia],IAVIFile interface, IAVIFile interface [Windows Multimedia],EndRecord method, IAVIFile.EndRecord, IAVIFile::EndRecord, _win32_IAVIFile_EndRecord, multimedia.iavifile_endrecord, vfw/IAVIFile::EndRecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAVIFile.EndRecord
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IAVIFile::EndRecord

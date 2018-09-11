@@ -4,17 +4,16 @@ title: IBrowserService::GetOleObject
 author: windows-sdk-content
 description: Deprecated. Retrieves an IOleObject for the browser.
 old-location: shell\IBrowserService_GetOleObject.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6ac2346f-3bfb-498f-97c7-77dc431567c7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetOleObject, GetOleObject method [Windows Shell], GetOleObject method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetOleObject method, IBrowserService.GetOleObject, IBrowserService::GetOleObject, shdeprecated/IBrowserService::GetOleObject, shell.IBrowserService_GetOleObject, zone_IBrowserService_GetOleObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService.GetOleObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

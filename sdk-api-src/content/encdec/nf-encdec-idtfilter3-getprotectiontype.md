@@ -4,17 +4,16 @@ title: IDTFilter3::GetProtectionType
 author: windows-sdk-content
 description: The GetProtectionType method retrieves the type of content protection that is currently in effect.
 old-location: mstv\idtfilter3_getprotectiontype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6b1e4186-de85-4de8-b309-82644c8b1269
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetProtectionType, GetProtectionType method [Microsoft TV Technologies], GetProtectionType method [Microsoft TV Technologies],IDTFilter3 interface, IDTFilter3 interface [Microsoft TV Technologies],GetProtectionType method, IDTFilter3.GetProtectionType, IDTFilter3::GetProtectionType, IDTFilter3GetProtectionType, encdec/IDTFilter3::GetProtectionType, mstv.idtfilter3_getprotectiontype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDTFilter3.GetProtectionType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDTFilter3::GetProtectionType

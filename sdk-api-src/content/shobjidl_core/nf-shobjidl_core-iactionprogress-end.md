@@ -4,17 +4,16 @@ title: IActionProgress::End
 author: windows-sdk-content
 description: Indicates that the action associated with this progress implementation has ended.
 old-location: shell\IActionProgress_End.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 91fa11c3-c781-4e96-9a42-4625b8b24333
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: End, End method [Windows Shell], End method [Windows Shell],IActionProgress interface, IActionProgress interface [Windows Shell],End method, IActionProgress.End, IActionProgress::End, shell.IActionProgress_End, shell_IActionProgress_End, shobjidl_core/IActionProgress::End
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shobjidl.idl
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActionProgress.End
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shobjidl.idl
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IActionProgress::End

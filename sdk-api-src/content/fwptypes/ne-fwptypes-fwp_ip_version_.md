@@ -4,7 +4,7 @@ title: FWP_IP_VERSION_
 author: windows-sdk-content
 description: Specifies the IP version.
 old-location: fwp\fwp_ip_version_enum.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 1712b83c-f32d-4981-9950-ab870a376182
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWP_IP_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWP_IP_VERSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWP_IP_VERSION
+req.redist: 
 ---
 
 # FWP_IP_VERSION_ enumeration

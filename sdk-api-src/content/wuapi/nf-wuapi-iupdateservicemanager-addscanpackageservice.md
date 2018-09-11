@@ -4,17 +4,16 @@ title: IUpdateServiceManager::AddScanPackageService
 author: windows-sdk-content
 description: Registers a scan package as a service with Windows Update Agent (WUA) and then returns an IUpdateService interface.
 old-location: wua\iupdateservicemanager_addscanpackageservice.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 5b0677bb-9f19-4bb4-9942-8ca3da18b29a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AddScanPackageService, AddScanPackageService method [Windows Update Agent], AddScanPackageService method [Windows Update Agent],IUpdateServiceManager interface, IUpdateServiceManager interface [Windows Update Agent],AddScanPackageService method, IUpdateServiceManager.AddScanPackageService, IUpdateServiceManager::AddScanPackageService, wua.iupdateservicemanager_addscanpackageservice, wuapi/IUpdateServiceManager::AddScanPackageService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IUpdateServiceManager.AddScanPackageService
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
@@ -62,12 +61,12 @@ Registers a scan package as a service with Windows Update Agent (WUA) and then r
 
 ### -param serviceName
 
-
+TBD
 
 
 ### -param scanFileLocation
 
-
+TBD
 
 
 ### -param flags [in]

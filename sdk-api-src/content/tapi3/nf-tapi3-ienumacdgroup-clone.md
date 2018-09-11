@@ -4,17 +4,16 @@ title: IEnumACDGroup::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumacdgroup_clone.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 202f8534-9990-4e69-b3b8-8a8884b651f1
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumACDGroup interface, IEnumACDGroup interface [TAPI 2.2],Clone method, IEnumACDGroup.Clone, IEnumACDGroup::Clone, _tapi3_ienumacdgroup_clone, tapi3.ienumacdgroup_clone, tapi3cc/IEnumACDGroup::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumACDGroup.Clone
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumACDGroup::Clone

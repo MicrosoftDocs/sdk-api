@@ -4,17 +4,16 @@ title: GetAcceptExSockaddrs function
 author: windows-sdk-content
 description: Parses the data obtained from a call to the AcceptEx function and passes the local and remote addresses to a sockaddr structure.Note  This function is a Microsoft-specific extension to the Windows Sockets specification. .
 old-location: winsock\getacceptexsockaddrs_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 381ba8ab-3c99-45c8-8895-4c87949f5238
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: GetAcceptExSockaddrs, GetAcceptExSockaddrs function [Winsock], _win32_getacceptexsockaddrs_2, winsock.getacceptexsockaddrs_2, winsock/GetAcceptExSockaddrs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mswsock.h
 req.include-header: Mswsock.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RIO_NOTIFICATION_COMPLETION_TYPE, *PRIO_NOTIFICATION_COMPLETION_TYPE
+req.lib: Mswsock.lib
+req.dll: Mswsock.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetAcceptExSockaddrs
 product: Windows
 targetos: Windows
-req.lib: Mswsock.lib
-req.dll: Mswsock.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # GetAcceptExSockaddrs function

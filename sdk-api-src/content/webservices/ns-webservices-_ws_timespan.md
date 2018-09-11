@@ -4,17 +4,16 @@ title: "_WS_TIMESPAN"
 author: windows-sdk-content
 description: Represents a signed 64-bit time interval in 100 nanosecond units.
 old-location: wsw\ws_timespan.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: f8a42739-e395-4b20-bf3a-3d7c5e3a5495
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_TIMESPAN, WS_TIMESPAN structure [Web Services for Windows], _WS_TIMESPAN, webservices/WS_TIMESPAN, wsw.ws_timespan
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_TIMESPAN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_TIMESPAN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_TIMESPAN
+req.redist: 
 ---
 
 # _WS_TIMESPAN structure

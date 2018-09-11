@@ -4,17 +4,16 @@ title: XMStoreByteN2 function
 author: windows-sdk-content
 description: Stores an XMVECTOR in an XMBYTEN2.
 old-location: dxmath\xmstorebyten2.htm
-old-project: dxmath
+tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreByteN2(XMBYTEN2@,XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: DirectX::PackedVector.XMStoreByteN2, XMStoreByteN2, XMStoreByteN2 method [DirectX Math Support APIs], dxmath.xmstorebyten2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: DirectX::PackedVector
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - XMStoreByteN2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # XMStoreByteN2 function

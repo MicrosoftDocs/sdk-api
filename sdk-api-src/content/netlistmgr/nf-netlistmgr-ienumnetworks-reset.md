@@ -4,17 +4,16 @@ title: IEnumNetworks::Reset
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: nla\ienumnetworks_reset.htm
-old-project: nla
+tech.root: nla
 ms.assetid: f866f7e1-385c-476e-baf6-b028592fcd0b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumNetworks interface [Network Awareness],Reset method, IEnumNetworks.Reset, IEnumNetworks::Reset, Reset, Reset method [Network Awareness], Reset method [Network Awareness],IEnumNetworks interface, netlistmgr/IEnumNetworks::Reset, nla.ienumnetworks_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumNetworks.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumNetworks::Reset

@@ -4,17 +4,16 @@ title: ISyncMgrRegister::GetHandlerRegistrationInfo
 author: windows-sdk-content
 description: Called by the registered application's handler to get current registration information.
 old-location: shell\syncmgr_isyncmgrregister_gethandlerregistrationinfo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 35241829-58b8-448a-ae69-1d43b4d0ba10
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetHandlerRegistrationInfo, GetHandlerRegistrationInfo method [Windows Shell], GetHandlerRegistrationInfo method [Windows Shell],ISyncMgrRegister interface, ISyncMgrRegister interface [Windows Shell],GetHandlerRegistrationInfo method, ISyncMgrRegister.GetHandlerRegistrationInfo, ISyncMgrRegister::GetHandlerRegistrationInfo, mobsync/ISyncMgrRegister::GetHandlerRegistrationInfo, shell.syncmgr_isyncmgrregister_gethandlerregistrationinfo, syncmgr.isyncmgrregister_gethandlerregistrationinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRSTATUS
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrRegister.GetHandlerRegistrationInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mobsync.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrRegister::GetHandlerRegistrationInfo

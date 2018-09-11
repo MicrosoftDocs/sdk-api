@@ -4,17 +4,16 @@ title: IPropertyUI::GetHelpInfo
 author: windows-sdk-content
 description: Developers should use IPropertyDescription instead.
 old-location: properties\IPropertyUI_GetHelpInfo.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 165ABA55-7CDB-48cf-AE14-DA314197BA42
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetHelpInfo, GetHelpInfo method [Windows Properties], GetHelpInfo method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetHelpInfo method, IPropertyUI.GetHelpInfo, IPropertyUI::GetHelpInfo, _shell_IPropertyUI_GetHelpInfo, properties.IPropertyUI_GetHelpInfo, shell.IPropertyUI_GetHelpInfo, shobjidl_core/IPropertyUI::GetHelpInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyUI.GetHelpInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyUI::GetHelpInfo

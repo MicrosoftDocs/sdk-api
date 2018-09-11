@@ -4,7 +4,7 @@ title: IETFilterConfig
 author: windows-sdk-content
 description: The IETFilterConfig interface configures the Encrypter/Tagger filter. Most applications will not have to use this interface.
 old-location: mstv\ietfilterconfig.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6fa3da1b-863b-4ed7-b5ef-4ed1c05d2456
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IETFilterConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IETFilterConfig interface

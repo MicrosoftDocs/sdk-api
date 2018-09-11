@@ -4,17 +4,16 @@ title: CryptAcquireContextA function
 author: windows-sdk-content
 description: Used to acquire a handle to a particular key container within a particular cryptographic service provider (CSP). This returned handle is used in calls to CryptoAPI functions that use the selected CSP.
 old-location: security\cryptacquirecontext.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 57e13662-3189-4f8d-b90a-d1fbdc09b63c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_DEFAULT_CONTAINER_OPTIONAL, CRYPT_DELETEKEYSET, CRYPT_MACHINE_KEYSET, CRYPT_NEWKEYSET, CRYPT_SILENT, CRYPT_VERIFYCONTEXT, CryptAcquireContext, CryptAcquireContext function [Security], CryptAcquireContextA, CryptAcquireContextW, _crypto2_cryptacquirecontext, security.cryptacquirecontext, wincrypt/CryptAcquireContext, wincrypt/CryptAcquireContextA, wincrypt/CryptAcquireContextW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - CryptAcquireContextW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptAcquireContextA function

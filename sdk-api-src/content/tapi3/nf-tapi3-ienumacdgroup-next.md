@@ -4,17 +4,16 @@ title: IEnumACDGroup::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumacdgroup_next.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 20cad3aa-2c8c-4ef8-bb3a-b7662b125475
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IEnumACDGroup interface [TAPI 2.2],Next method, IEnumACDGroup.Next, IEnumACDGroup::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumACDGroup interface, _tapi3_ienumacdgroup_next, tapi3.ienumacdgroup_next, tapi3cc/IEnumACDGroup::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumACDGroup.Next
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumACDGroup::Next

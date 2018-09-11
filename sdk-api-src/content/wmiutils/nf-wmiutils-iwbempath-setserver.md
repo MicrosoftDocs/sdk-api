@@ -4,17 +4,16 @@ title: IWbemPath::SetServer
 author: windows-sdk-content
 description: The IWbemPath::SetServer method sets the server portion of the path.
 old-location: wmi\iwbempath_setserver.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 4da66edf-bf38-4246-82fc-27fd14e7d183
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],SetServer method, IWbemPath.SetServer, IWbemPath::SetServer, SetServer, SetServer method [Windows Management Instrumentation], SetServer method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_setserver, wmi.iwbempath_setserver, wmiutils/IWbemPath::SetServer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMIQ_ASSOCQ_FLAGS
+req.lib: Wbemuuid.lib
+req.dll: Wmiutils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemPath.SetServer
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmiutils.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemPath::SetServer

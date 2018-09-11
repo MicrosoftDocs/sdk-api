@@ -4,17 +4,16 @@ title: ITPluggableTerminalSuperclassInfo::get_Name
 author: windows-sdk-content
 description: The get_Name method gets the terminal's friendly name.
 old-location: tapi3\itpluggableterminalsuperclassinfo_get_name.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 36f1f8a9-5bde-43ea-a68a-15ea7d9415aa
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPluggableTerminalSuperclassInfo interface [TAPI 2.2],get_Name method, ITPluggableTerminalSuperclassInfo.get_Name, ITPluggableTerminalSuperclassInfo::get_Name, _tapi3_itpluggableterminalsuperclassinfo_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITPluggableTerminalSuperclassInfo interface, tapi3.itpluggableterminalsuperclassinfo_get_name, tapi3if/ITPluggableTerminalSuperclassInfo::get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPluggableTerminalSuperclassInfo.get_Name
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPluggableTerminalSuperclassInfo::get_Name

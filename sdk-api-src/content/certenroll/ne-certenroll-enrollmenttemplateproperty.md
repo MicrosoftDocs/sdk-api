@@ -4,17 +4,16 @@ title: EnrollmentTemplateProperty
 author: windows-sdk-content
 description: Contains property values for a given template.
 old-location: security\enrollmenttemplateproperty.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 408473d7-cfaa-4303-88f2-2a9d7dc6dc21
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: EnrollmentTemplateProperty, EnrollmentTemplateProperty enumeration [Security], TemplatePropAsymmetricAlgorithm, TemplatePropCertificatePolicies, TemplatePropCommonName, TemplatePropCryptoProviders, TemplatePropDescription, TemplatePropEKUs, TemplatePropEnrollmentFlags, TemplatePropExtensions, TemplatePropFriendlyName, TemplatePropGeneralFlags, TemplatePropHashAlgorithm, TemplatePropKeySecurityDescriptor, TemplatePropKeySpec, TemplatePropMajorRevision, TemplatePropMinimumKeySize, TemplatePropMinorRevision, TemplatePropOID, TemplatePropPrivateKeyFlags, TemplatePropRACertificatePolicies, TemplatePropRAEKUs, TemplatePropRASignatureCount, TemplatePropRenewalPeriod, TemplatePropSchemaVersion, TemplatePropSecurityDescriptor, TemplatePropSubjectNameFlags, TemplatePropSupersede, TemplatePropSymmetricAlgorithm, TemplatePropSymmetricKeyLength, TemplatePropV1ApplicationPolicy, TemplatePropValidityPeriod, certenroll/EnrollmentTemplateProperty, certenroll/TemplatePropAsymmetricAlgorithm, certenroll/TemplatePropCertificatePolicies, certenroll/TemplatePropCommonName, certenroll/TemplatePropCryptoProviders, certenroll/TemplatePropDescription, certenroll/TemplatePropEKUs, certenroll/TemplatePropEnrollmentFlags, certenroll/TemplatePropExtensions, certenroll/TemplatePropFriendlyName, certenroll/TemplatePropGeneralFlags, certenroll/TemplatePropHashAlgorithm, certenroll/TemplatePropKeySecurityDescriptor, certenroll/TemplatePropKeySpec, certenroll/TemplatePropMajorRevision, certenroll/TemplatePropMinimumKeySize, certenroll/TemplatePropMinorRevision, certenroll/TemplatePropOID, certenroll/TemplatePropPrivateKeyFlags, certenroll/TemplatePropRACertificatePolicies, certenroll/TemplatePropRAEKUs, certenroll/TemplatePropRASignatureCount, certenroll/TemplatePropRenewalPeriod, certenroll/TemplatePropSchemaVersion, certenroll/TemplatePropSecurityDescriptor, certenroll/TemplatePropSubjectNameFlags, certenroll/TemplatePropSupersede, certenroll/TemplatePropSymmetricAlgorithm, certenroll/TemplatePropSymmetricKeyLength, certenroll/TemplatePropV1ApplicationPolicy, certenroll/TemplatePropValidityPeriod, security.enrollmenttemplateproperty
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EnrollmentTemplateProperty
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - EnrollmentTemplateProperty
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: EnrollmentTemplateProperty
+req.redist: 
 ---
 
 # EnrollmentTemplateProperty enumeration

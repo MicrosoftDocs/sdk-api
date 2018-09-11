@@ -4,17 +4,16 @@ title: IFunctionInstanceCollection::Get
 author: windows-sdk-content
 description: Gets the specified function instance and its index from the collection.
 old-location: ncd\ifunctioninstancecollection_get.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 3f3db880-a765-4a18-91ac-d091728cbb39
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Get, Get method, Get method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,Get method, IFunctionInstanceCollection.Get, IFunctionInstanceCollection::Get, functiondiscoveryapi/IFunctionInstanceCollection::Get, ncd.ifunctioninstancecollection_get
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemVisibilityFlags
+req.lib: 
+req.dll: FunDisc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionInstanceCollection.Get
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FunDisc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionInstanceCollection::Get

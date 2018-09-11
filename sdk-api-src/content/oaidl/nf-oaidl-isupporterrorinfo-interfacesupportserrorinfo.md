@@ -4,17 +4,16 @@ title: ISupportErrorInfo::InterfaceSupportsErrorInfo
 author: windows-sdk-content
 description: Indicates whether an interface supports the IErrorInfo interface.
 old-location: automat\isupporterrorinfo_interfacesupportserrorinfo.htm
-old-project: automat
+tech.root: automat
 ms.assetid: a54ef18d-ee3f-4483-ac4a-99d758f0960a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ISupportErrorInfo interface [Automation],InterfaceSupportsErrorInfo method, ISupportErrorInfo.InterfaceSupportsErrorInfo, ISupportErrorInfo::InterfaceSupportsErrorInfo, InterfaceSupportsErrorInfo, InterfaceSupportsErrorInfo method [Automation], InterfaceSupportsErrorInfo method [Automation],ISupportErrorInfo interface, _oa96_ISupportErrorInfo_InterfaceSupportsErrorInfo, automat.isupporterrorinfo_interfacesupportserrorinfo, oaidl/ISupportErrorInfo::InterfaceSupportsErrorInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISupportErrorInfo.InterfaceSupportsErrorInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISupportErrorInfo::InterfaceSupportsErrorInfo

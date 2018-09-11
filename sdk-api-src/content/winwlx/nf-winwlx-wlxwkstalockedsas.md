@@ -4,17 +4,16 @@ title: WlxWkstaLockedSAS function
 author: windows-sdk-content
 description: Winlogon calls this function when it receives a secure attention sequence (SAS) and the workstation is locked.
 old-location: security\wlxwkstalockedsas.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 7a9f8b00-857a-432e-bb49-2251504c46a0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxWkstaLockedSAS, WlxWkstaLockedSAS function [Security], _gina_wlxwkstalockedsas, security.wlxwkstalockedsas, winwlx/WlxWkstaLockedSAS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICONINFOEXW, *PICONINFOEXW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WlxWkstaLockedSAS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WlxWkstaLockedSAS function

@@ -4,17 +4,16 @@ title: RefreshPolicy function
 author: windows-sdk-content
 description: The RefreshPolicy function causes policy to be applied immediately on the client computer.
 old-location: policy\refreshpolicy.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: e08cb006-d174-4506-87f0-580660bd4023
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: RefreshPolicy, RefreshPolicy function [Group Policy], _win32_refreshpolicy, policy.refreshpolicy, userenv/RefreshPolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RefreshPolicy
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # RefreshPolicy function

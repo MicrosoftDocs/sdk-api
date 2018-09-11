@@ -4,17 +4,16 @@ title: IWiaVideo::CreateVideoByDevNum
 author: windows-sdk-content
 description: The IWiaVideo::CreateVideoByDevNum method creates a connection to a streaming video device with the device number obtained from a Directshow enumeration.
 old-location: wia\_wia_IWiaVideo_CreateVideoByDevNum.htm
-old-project: wia
+tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\createvideobydevnum.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateVideoByDevNum, CreateVideoByDevNum method [WIA], CreateVideoByDevNum method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],CreateVideoByDevNum method, IWiaVideo.CreateVideoByDevNum, IWiaVideo::CreateVideoByDevNum, _wia_IWiaVideo_CreateVideoByDevNum, wia._wia_IWiaVideo_CreateVideoByDevNum, wiavideo/IWiaVideo::CreateVideoByDevNum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wiavideo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIAVIDEO_STATE
+req.lib: 
+req.dll: Wiavideo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWiaVideo.CreateVideoByDevNum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wiavideo.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWiaVideo::CreateVideoByDevNum

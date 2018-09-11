@@ -4,17 +4,16 @@ title: IAzBizRuleInterfaces::AddInterfaces
 author: windows-sdk-content
 description: Adds the specified interfaces to the list of IDispatch interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces_addinterfaces_method.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 91822c84-4daa-4d3c-bbe2-9ceb7fc642b2
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AddInterfaces, AddInterfaces method [Security], AddInterfaces method [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],AddInterfaces method, IAzBizRuleInterfaces.AddInterfaces, IAzBizRuleInterfaces::AddInterfaces, azroles/IAzBizRuleInterfaces::AddInterfaces, security.iazbizruleinterfaces_addinterfaces_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzBizRuleInterfaces.AddInterfaces
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzBizRuleInterfaces::AddInterfaces

@@ -4,17 +4,16 @@ title: "_SEC_WINNT_AUTH_DATA_PASSWORD"
 author: windows-sdk-content
 description: Specifies a serialized password.
 old-location: security\sec_winnt_auth_data_password.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: f7f3c0e8-be28-4be2-a472-21a39ace04cb
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: PSEC_WINNT_AUTH_DATA_PASSWORD, PSEC_WINNT_AUTH_DATA_PASSWORD structure [Security], SEC_WINNT_AUTH_DATA_PASSWORD, SEC_WINNT_AUTH_DATA_PASSWORD structure [Security], _SEC_WINNT_AUTH_DATA_PASSWORD, security.sec_winnt_auth_data_password, sspi/PSEC_WINNT_AUTH_DATA_PASSWORD, sspi/SEC_WINNT_AUTH_DATA_PASSWORD
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_WINNT_AUTH_DATA_PASSWORD, PSEC_WINNT_AUTH_DATA_PASSWORD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SEC_WINNT_AUTH_DATA_PASSWORD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SEC_WINNT_AUTH_DATA_PASSWORD, PSEC_WINNT_AUTH_DATA_PASSWORD
+req.redist: 
 ---
 
 # _SEC_WINNT_AUTH_DATA_PASSWORD structure

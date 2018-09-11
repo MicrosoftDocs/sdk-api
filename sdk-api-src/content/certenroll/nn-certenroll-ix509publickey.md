@@ -4,17 +4,16 @@ title: IX509PublicKey
 author: windows-sdk-content
 description: Represents a public key in a public/private key pair.
 old-location: security\ix509publickey.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: cd6f28a3-9998-40d7-a3e8-dab0cf3991a8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509PublicKey, IX509PublicKey interface [Security], IX509PublicKey interface [Security],described, certenroll/IX509PublicKey, security.ix509publickey
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509PublicKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PublicKey interface

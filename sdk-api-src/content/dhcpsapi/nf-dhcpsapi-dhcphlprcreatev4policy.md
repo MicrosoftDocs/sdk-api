@@ -4,17 +4,16 @@ title: DhcpHlprCreateV4Policy function
 author: windows-sdk-content
 description: Allocates and initializes a DHCP server policy structure.
 old-location: dhcp\dhcphlprcreatev4policy.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 91f04578-9f15-44b4-8cf6-99be13d0395e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpHlprCreateV4Policy, DhcpHlprCreateV4Policy function [DHCP], dhcp.dhcphlprcreatev4policy, dhcpsapi/DhcpHlprCreateV4Policy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpHlprCreateV4Policy
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpHlprCreateV4Policy function

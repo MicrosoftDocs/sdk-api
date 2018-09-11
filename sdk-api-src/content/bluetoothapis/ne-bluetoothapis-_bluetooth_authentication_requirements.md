@@ -4,7 +4,7 @@ title: "_BLUETOOTH_AUTHENTICATION_REQUIREMENTS"
 author: windows-sdk-content
 description: BLUETOOTH_AUTHENTICATION_REQUIREMENTS enumeration specifies the 'Man in the Middle' protection required for authentication.
 old-location: bluetooth\bluetooth_authentication_requirements.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 644372af-d613-4fd6-adcd-7faf0afb0033
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_AUTHENTICATION_REQUIREMENTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AUTHENTICATION_REQUIREMENTS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BLUETOOTH_AUTHENTICATION_REQUIREMENTS
+req.redist: 
 ---
 
 # _BLUETOOTH_AUTHENTICATION_REQUIREMENTS enumeration

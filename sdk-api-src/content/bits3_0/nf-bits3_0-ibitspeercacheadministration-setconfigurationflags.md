@@ -4,17 +4,16 @@ title: IBitsPeerCacheAdministration::SetConfigurationFlags
 author: windows-sdk-content
 description: Sets the configuration flags that determine if the computer can serve content to peers and can download content from peers.
 old-location: bits\ibitspeercacheadministration_setconfigurationflags.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 1ede7c58-bc6d-4930-bca6-e4f26f97c648
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BG_ENABLE_PEERCACHING_CLIENT, BG_ENABLE_PEERCACHING_SERVER, IBitsPeerCacheAdministration interface [BITS],SetConfigurationFlags method, IBitsPeerCacheAdministration.SetConfigurationFlags, IBitsPeerCacheAdministration::SetConfigurationFlags, SetConfigurationFlags, SetConfigurationFlags method [BITS], SetConfigurationFlags method [BITS],IBitsPeerCacheAdministration interface, bits.ibitspeercacheadministration_setconfigurationflags, bits3_0/IBitsPeerCacheAdministration::SetConfigurationFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBitsPeerCacheAdministration.SetConfigurationFlags
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBitsPeerCacheAdministration::SetConfigurationFlags

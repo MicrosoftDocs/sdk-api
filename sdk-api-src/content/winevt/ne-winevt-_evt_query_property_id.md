@@ -4,17 +4,16 @@ title: "_EVT_QUERY_PROPERTY_ID"
 author: windows-sdk-content
 description: Defines the identifiers that identify the query information that you can retrieve.
 old-location: wes\evt_query_property_id.htm
-old-project: wes
+tech.root: WES
 ms.assetid: 69a17378-088e-42e7-b7da-0ccc642f44d1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EVT_QUERY_PROPERTY_ID, EVT_QUERY_PROPERTY_ID enumeration [EventLog], EvtQueryNames, EvtQueryPropertyIdEND, EvtQueryStatuses, _EVT_QUERY_PROPERTY_ID, wes.evt_query_property_id, winevt/EVT_QUERY_PROPERTY_ID, winevt/EvtQueryNames, winevt/EvtQueryPropertyIdEND, winevt/EvtQueryStatuses
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_QUERY_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_QUERY_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_QUERY_PROPERTY_ID
+req.redist: 
 ---
 
 # _EVT_QUERY_PROPERTY_ID enumeration

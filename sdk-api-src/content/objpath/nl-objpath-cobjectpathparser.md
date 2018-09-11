@@ -4,17 +4,16 @@ title: CObjectPathParser
 author: windows-sdk-content
 description: Parses a WMI path which can include a remote computer name, namespaces, and classes. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
 old-location: wmi\cobjectpathparser.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 0138c48f-f61b-4127-adc2-bdf4da06f938
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "??1CObjectPathParser@@QAE@XZ, ??1CObjectPathParser@@QEAA@XZ, CObjectPathParser, CObjectPathParser class [Windows Management Instrumentation], CObjectPathParser class [Windows Management Instrumentation],described, objpath/CObjectPathParser, wmi.cobjectpathparser"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: class
 req.header: objpath.h
 req.include-header: ObjPath.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ObjectParserFlags
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ??1CObjectPathParser@@QEAA@XZ
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CObjectPathParser class

@@ -4,17 +4,16 @@ title: "_CRYPT_CREDENTIALS"
 author: windows-sdk-content
 description: Contains information about credentials that can be passed as optional input to a remote object retrieval function such as CryptRetrieveObjectByUrl or CryptGetTimeValidObject.
 old-location: security\crypt_credentials.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: d28b2f52-3258-44ad-a3ab-0743d3afcd62
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_CREDENTIALS, CREDENTIAL_OID_PASSWORD_CREDENTIALS, CRYPT_CREDENTIALS, CRYPT_CREDENTIALS structure [Security], PCRYPT_CREDENTIALS, PCRYPT_CREDENTIALS structure pointer [Security], _CRYPT_CREDENTIALS, security.crypt_credentials, wincrypt/CRYPT_CREDENTIALS, wincrypt/PCRYPT_CREDENTIALS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_CREDENTIALS, *PCRYPT_CREDENTIALS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_CREDENTIALS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_CREDENTIALS, *PCRYPT_CREDENTIALS
+req.redist: 
 ---
 
 # _CRYPT_CREDENTIALS structure

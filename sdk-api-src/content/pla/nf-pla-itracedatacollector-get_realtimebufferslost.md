@@ -4,17 +4,16 @@ title: ITraceDataCollector::get_RealTimeBuffersLost
 author: windows-sdk-content
 description: Retrieves the number of buffers that were not delivered in real time to the consumer.
 old-location: pla\itracedatacollector_realtimebufferslost.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: d18169fd-4196-4844-b110-3747244b148c
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ITraceDataCollector interface [PLA],RealTimeBuffersLost property, ITraceDataCollector.RealTimeBuffersLost, ITraceDataCollector.get_RealTimeBuffersLost, ITraceDataCollector::RealTimeBuffersLost, ITraceDataCollector::get_RealTimeBuffersLost, RealTimeBuffersLost property [PLA], RealTimeBuffersLost property [PLA],ITraceDataCollector interface, base.itracedatacollector_realtimebufferslost, get_RealTimeBuffersLost, pla.itracedatacollector_realtimebufferslost, pla/ITraceDataCollector::RealTimeBuffersLost, pla/ITraceDataCollector::get_RealTimeBuffersLost
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITraceDataCollector.get_RealTimeBuffersLost
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataCollector::get_RealTimeBuffersLost

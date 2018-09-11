@@ -4,7 +4,7 @@ title: "_STARTUPINFOA"
 author: windows-sdk-content
 description: Specifies the window station, desktop, standard handles, and appearance of the main window for a process at creation time.
 old-location: base\startupinfo_str.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: cf4b795c-52c1-4573-8328-99ee13f68bb3
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STARTUPINFOA, *LPSTARTUPINFOA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - STARTUPINFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: STARTUPINFOA, *LPSTARTUPINFOA
+req.redist: 
 ---
 
 # _STARTUPINFOA structure

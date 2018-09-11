@@ -4,17 +4,16 @@ title: IDirect3DIndexBuffer9::Lock
 author: windows-sdk-content
 description: Locks a range of index data and obtains a pointer to the index buffer memory.
 old-location: direct3d9\idirect3dindexbuffer9__lock.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dindexbuffer9__lock.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDirect3DIndexBuffer9 interface [Direct3D 9],Lock method, IDirect3DIndexBuffer9.Lock, IDirect3DIndexBuffer9::Lock, Lock, Lock method [Direct3D 9], Lock method [Direct3D 9],IDirect3DIndexBuffer9 interface, a727fd78-b27c-1dcd-d6ca-d3bf644edaa8, d3d9helper/IDirect3DIndexBuffer9::Lock, direct3d9.idirect3dindexbuffer9__lock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DIndexBuffer9.Lock
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DIndexBuffer9::Lock

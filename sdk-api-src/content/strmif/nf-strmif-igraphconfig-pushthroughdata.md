@@ -4,17 +4,16 @@ title: IGraphConfig::PushThroughData
 author: windows-sdk-content
 description: The PushThroughData method pushes data through the filter graph to the specified pin.
 old-location: dshow\igraphconfig_pushthroughdata.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f3d72a32-f43a-4a61-b25e-6d472aa629de
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IGraphConfig interface [DirectShow],PushThroughData method, IGraphConfig.PushThroughData, IGraphConfig::PushThroughData, IGraphConfigPushThroughData, PushThroughData, PushThroughData method [DirectShow], PushThroughData method [DirectShow],IGraphConfig interface, dshow.igraphconfig_pushthroughdata, strmif/IGraphConfig::PushThroughData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGraphConfig.PushThroughData
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IGraphConfig::PushThroughData

@@ -4,17 +4,16 @@ title: IRegisteredTask::RunEx
 author: windows-sdk-content
 description: Runs the registered task immediately using specified flags and a session identifier.
 old-location: taskschd\iregisteredtask_runex.htm
-old-project: taskschd
+tech.root: TaskSchd
 ms.assetid: d6d09ab1-026d-4ee9-b520-c7702e37504e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],RunEx method, IRegisteredTask.RunEx, IRegisteredTask::RunEx, RunEx, RunEx method [Task Scheduler], RunEx method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_runex, taskschd/IRegisteredTask::RunEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRegisteredTask.RunEx
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRegisteredTask::RunEx

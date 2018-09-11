@@ -4,17 +4,16 @@ title: IVisualTreeService::CreateInstance
 author: windows-sdk-content
 description: Creates an instance of any XAML runtime, enum, or primitive type.
 old-location: xaml_diagnostics\ivisualtreeservice_createinstance.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: 214BE795-5883-4761-9040-2C7A679F5258
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IVisualTreeService interface, IVisualTreeService interface,CreateInstance method, IVisualTreeService.CreateInstance, IVisualTreeService::CreateInstance, xaml_diagnostics.ivisualtreeservice_createinstance, xamlom/IVisualTreeService::CreateInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualMutationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualTreeService.CreateInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualTreeService::CreateInstance

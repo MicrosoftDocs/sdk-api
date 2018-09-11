@@ -4,17 +4,16 @@ title: GetTcpTable2 function
 author: windows-sdk-content
 description: Retrieves the IPv4 TCP connection table.
 old-location: iphlp\gettcptable2.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 942e8cb6-545f-45ab-919a-246e3b2d4c6a
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: GetTcpTable2, GetTcpTable2 function [IP Helper], iphlp.gettcptable2, iphlpapi/GetTcpTable2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetTcpTable2
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetTcpTable2 function

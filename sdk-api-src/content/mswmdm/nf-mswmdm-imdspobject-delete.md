@@ -4,17 +4,16 @@ title: IMDSPObject::Delete
 author: windows-sdk-content
 description: The Delete method removes an object or objects from a storage medium on a media device.
 old-location: wmdm\imdspobject_delete.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: debaaa15-dbc5-44dd-8ad9-f7f900146231
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Delete, Delete method [windows Media Device Manager], Delete method [windows Media Device Manager],IMDSPObject interface, IMDSPObject interface [windows Media Device Manager],Delete method, IMDSPObject.Delete, IMDSPObject::Delete, IMDSPObjectDelete, mswmdm/IMDSPObject::Delete, wmdm.imdspobject_delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPObject.Delete
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPObject::Delete

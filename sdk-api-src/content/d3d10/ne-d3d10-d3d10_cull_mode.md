@@ -4,17 +4,16 @@ title: D3D10_CULL_MODE
 author: windows-sdk-content
 description: Indicates triangles facing a particular direction are not drawn.
 old-location: direct3d10\d3d10_cull_mode.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_cull_mode.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 2117693b-8d7e-4cd9-dfee-29b015d206b8, D3D10_CULL_BACK, D3D10_CULL_FRONT, D3D10_CULL_MODE, D3D10_CULL_MODE enumeration [Direct3D 10], D3D10_CULL_NONE, d3d10/D3D10_CULL_BACK, d3d10/D3D10_CULL_FRONT, d3d10/D3D10_CULL_MODE, d3d10/D3D10_CULL_NONE, direct3d10.d3d10_cull_mode
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_CULL_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_CULL_MODE
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D3D10_CULL_MODE
+req.redist: 
 ---
 
 # D3D10_CULL_MODE enumeration

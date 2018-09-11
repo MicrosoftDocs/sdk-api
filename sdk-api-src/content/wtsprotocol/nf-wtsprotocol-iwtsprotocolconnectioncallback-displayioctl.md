@@ -4,17 +4,16 @@ title: IWTSProtocolConnectionCallback::DisplayIOCtl
 author: windows-sdk-content
 description: IWTSProtocolConnectionCallback::DisplayIOCtl is no longer available.
 old-location: termserv\iwtsprotocolconnectioncallback_displayioctl.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: bd2c4dfe-580d-406b-b03b-628583aeef61
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DisplayIOCtl, DisplayIOCtl method [Remote Desktop Services], DisplayIOCtl method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, IWTSProtocolConnectionCallback interface [Remote Desktop Services],DisplayIOCtl method, IWTSProtocolConnectionCallback.DisplayIOCtl, IWTSProtocolConnectionCallback::DisplayIOCtl, termserv.iwtsprotocolconnectioncallback_displayioctl, wtsprotocol/IWTSProtocolConnectionCallback::DisplayIOCtl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSProtocolConnectionCallback.DisplayIOCtl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSProtocolConnectionCallback::DisplayIOCtl

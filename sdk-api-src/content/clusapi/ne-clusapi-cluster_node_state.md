@@ -4,17 +4,16 @@ title: CLUSTER_NODE_STATE
 author: windows-sdk-content
 description: Describes the state of a cluster node.
 old-location: mscs\cluster_node_state.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 25bc275e-8d9c-43b3-8f95-dd3fd2cbe3ce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_NODE_STATE, CLUSTER_NODE_STATE enumeration [Failover Cluster], ClusterNodeDown, ClusterNodeJoining, ClusterNodePaused, ClusterNodeStateUnknown, ClusterNodeUp, _CLUSTER_NODE_STATE, _CLUSTER_NODE_STATE enumeration [Failover Cluster], clusapi/CLUSTER_NODE_STATE, clusapi/ClusterNodeDown, clusapi/ClusterNodeJoining, clusapi/ClusterNodePaused, clusapi/ClusterNodeStateUnknown, clusapi/ClusterNodeUp, clusapi/_CLUSTER_NODE_STATE, msclus/CLUSTER_NODE_STATE, msclus/ClusterNodeDown, msclus/ClusterNodeJoining, msclus/ClusterNodePaused, msclus/ClusterNodeStateUnknown, msclus/ClusterNodeUp, msclus/_CLUSTER_NODE_STATE, mscs.cluster_node_state
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: CluAdmEx.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_NODE_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSTER_NODE_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_NODE_STATE
+req.redist: 
 ---
 
 # CLUSTER_NODE_STATE enumeration

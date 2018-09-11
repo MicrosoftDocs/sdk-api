@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_structuredquery_0000_0012_0001"
 author: windows-sdk-content
 description: Defines the level of certainty for a named entity.
 old-location: search\_search_NAMED_ENTITY_CERTAINTY.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\named_entity_certainty.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: structuredquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: StringCchVPrintf_lW (Unicode) and StringCchVPrintf_lA (ANSI)
+req.unicode-ansi: 
 req.idl: Structuredquery.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NAMED_ENTITY_CERTAINTY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: NAMED_ENTITY_CERTAINTY
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_structuredquery_0000_0012_0001 enumeration

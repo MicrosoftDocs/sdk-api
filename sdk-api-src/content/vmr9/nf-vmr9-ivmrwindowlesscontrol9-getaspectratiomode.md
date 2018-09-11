@@ -4,17 +4,16 @@ title: IVMRWindowlessControl9::GetAspectRatioMode
 author: windows-sdk-content
 description: The GetAspectRatioMode method retrieves the current aspect ratio display mode.
 old-location: dshow\ivmrwindowlesscontrol9_getaspectratiomode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c18ab567-5e0d-400a-8dc1-e9ad83650b7c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetAspectRatioMode method, IVMRWindowlessControl9.GetAspectRatioMode, IVMRWindowlessControl9::GetAspectRatioMode, IVMRWindowlessControl9GetAspectRatioMode, dshow.ivmrwindowlesscontrol9_getaspectratiomode, vmr9/IVMRWindowlessControl9::GetAspectRatioMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRWindowlessControl9.GetAspectRatioMode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRWindowlessControl9::GetAspectRatioMode

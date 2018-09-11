@@ -4,7 +4,7 @@ title: "_DD_GETMOCOMPCOMPBUFFDATA"
 author: windows-sdk-content
 description: The DD_GETMOCOMPCOMPBUFFDATA structure contains the compressed buffer information.
 old-location: display\dd_getmocompcompbuffdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 5510d430-834c-42ea-a113-c17b1b87ea52
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_GETMOCOMPCOMPBUFFDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA"
+req.redist: 
 ---
 
 # _DD_GETMOCOMPCOMPBUFFDATA structure

@@ -4,17 +4,16 @@ title: DhcpAddSubnetElementV4 function
 author: windows-sdk-content
 description: Adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database. This function extends DhcpAddSubnetElement by incorporating subnet elements that consider client type.
 old-location: dhcp\dhcpaddsubnetelementv4.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 97ffcafd-a74e-49ed-9e68-043b62a9017a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpAddSubnetElementV4, DhcpAddSubnetElementV4 function [DHCP], dhcp.dhcpaddsubnetelementv4, dhcpsapi/DhcpAddSubnetElementV4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpAddSubnetElementV4
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpAddSubnetElementV4 function

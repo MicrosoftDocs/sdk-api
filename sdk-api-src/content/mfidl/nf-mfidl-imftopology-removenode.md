@@ -4,17 +4,16 @@ title: IMFTopology::RemoveNode
 author: windows-sdk-content
 description: Removes a node from the topology.
 old-location: mf\imftopology_removenode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0dbafd3f-315b-4135-aecd-ad46f2c19886
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 0dbafd3f-315b-4135-aecd-ad46f2c19886, IMFTopology interface [Media Foundation],RemoveNode method, IMFTopology.RemoveNode, IMFTopology::RemoveNode, RemoveNode, RemoveNode method [Media Foundation], RemoveNode method [Media Foundation],IMFTopology interface, mf.imftopology_removenode, mfidl/IMFTopology::RemoveNode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTopology.RemoveNode
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTopology::RemoveNode

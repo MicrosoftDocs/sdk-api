@@ -4,17 +4,16 @@ title: PeerFreeData function
 author: windows-sdk-content
 description: The PeerFreeData function deallocates a block of data and returns it to the memory pool. Use the PeerFreeData function to free data that the Peer Identity Manager, Peer Grouping, and Peer Collaboration APIs return.
 old-location: p2p\peerfreedata.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 54288829-c991-42d6-a7c4-874ed28dd106
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerFreeData, PeerFreeData function [Peer Networking], p2p.peerfreedata, p2p/PeerFreeData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerFreeData
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerFreeData function

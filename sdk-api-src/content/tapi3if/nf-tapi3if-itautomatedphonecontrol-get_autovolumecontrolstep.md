@@ -4,17 +4,16 @@ title: ITAutomatedPhoneControl::get_AutoVolumeControlStep
 author: windows-sdk-content
 description: The get_AutoVolumeControlStep method retrieves the current value of the AutoVolumeControlStep property. The property determines the amount that the phone volume is adjusted when the volume button is pressed.
 old-location: tapi3\itautomatedphonecontrol_get_autovolumecontrolstep.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6cf6beba-36ca-417b-91b4-9c008a14efef
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoVolumeControlStep method, ITAutomatedPhoneControl.get_AutoVolumeControlStep, ITAutomatedPhoneControl::get_AutoVolumeControlStep, _tapi3_itautomatedphonecontrol_get_autovolumecontrolstep, get_AutoVolumeControlStep, get_AutoVolumeControlStep method [TAPI 2.2], get_AutoVolumeControlStep method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autovolumecontrolstep, tapi3if/ITAutomatedPhoneControl::get_AutoVolumeControlStep
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAutomatedPhoneControl.get_AutoVolumeControlStep
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAutomatedPhoneControl::get_AutoVolumeControlStep

@@ -4,7 +4,7 @@ title: "_DDFLIPVIDEOPORTINFO"
 author: windows-sdk-content
 description: The DDFLIPVIDEOPORTINFO structure contains the video port extensions (VPE) object and surface information.
 old-location: display\ddflipvideoportinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 9cf87d19-2db6-48f8-96a6-2b6ac969c774
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDFLIPVIDEOPORTINFO, *PDDFLIPVIDEOPORTINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDFLIPVIDEOPORTINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DDFLIPVIDEOPORTINFO, *PDDFLIPVIDEOPORTINFO
+req.redist: 
 ---
 
 # _DDFLIPVIDEOPORTINFO structure

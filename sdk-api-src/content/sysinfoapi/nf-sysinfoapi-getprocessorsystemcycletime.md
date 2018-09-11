@@ -4,17 +4,16 @@ title: GetProcessorSystemCycleTime function
 author: windows-sdk-content
 description: Retrieves the cycle time each processor in the specified processor group spent executing deferred procedure calls (DPCs) and interrupt service routines (ISRs) since the processor became active.
 old-location: base\getprocessorsystemcycletime.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 231c2a26-4a2e-4c66-a652-eb9c886369b2
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetProcessorSystemCycleTime, GetProcessorSystemCycleTime function, base.getprocessorsystemcycletime, sysinfoapi/GetProcessorSystemCycleTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPUTER_NAME_FORMAT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - GetProcessorSystemCycleTime
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # GetProcessorSystemCycleTime function

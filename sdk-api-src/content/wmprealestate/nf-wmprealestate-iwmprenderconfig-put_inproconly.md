@@ -4,17 +4,16 @@ title: IWMPRenderConfig::put_inProcOnly
 author: windows-sdk-content
 description: The put_inProcOnly method specifies a value indicating whether playback is restricted to the current process.
 old-location: wmp\iwmprenderconfig_put_inproconly.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: fd7c7cbc-f428-46e1-b239-74b78cbf5835
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPRenderConfig interface [Windows Media Player],put_inProcOnly method, IWMPRenderConfig.put_inProcOnly, IWMPRenderConfig::put_inProcOnly, IWMPRenderConfigputInProcOnly, put_inProcOnly, put_inProcOnly method [Windows Media Player], put_inProcOnly method [Windows Media Player],IWMPRenderConfig interface, wmp.iwmprenderconfig_put_inproconly, wmprealestate/IWMPRenderConfig::put_inProcOnly
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmprealestate.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPRenderConfig.put_inProcOnly
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPRenderConfig::put_inProcOnly

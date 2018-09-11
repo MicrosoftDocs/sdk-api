@@ -4,7 +4,7 @@ title: AMSI_ATTRIBUTE
 author: windows-sdk-content
 description: Specifies the types of attributes that can be requested by IAmsiStream::GetAttribute.
 old-location: amsi\amsi_attribute.htm
-old-project: AMSI
+tech.root: AMSI
 ms.assetid: 19DD293C-71FF-4E40-A2B7-12B4A2D00DBD
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: amsi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_ATTRIBUTE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AMSI_ATTRIBUTE
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: AMSI_ATTRIBUTE
+req.redist: 
 ---
 
 # AMSI_ATTRIBUTE enumeration

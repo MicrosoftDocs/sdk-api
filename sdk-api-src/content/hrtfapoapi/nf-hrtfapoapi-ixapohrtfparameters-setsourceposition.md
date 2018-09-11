@@ -4,17 +4,16 @@ title: IXAPOHrtfParameters::SetSourcePosition
 author: windows-sdk-content
 description: Sets the position of the sound relative to the listener.
 old-location: xaudio2\ixapohrtfparameters_setsourceposition.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: BEB21131-7B70-4C50-8BDD-EDF0543B3910
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs],SetSourcePosition method, IXAPOHrtfParameters.SetSourcePosition, IXAPOHrtfParameters::SetSourcePosition, SetSourcePosition, SetSourcePosition method [XAudio2 Audio Mixing APIs], SetSourcePosition method [XAudio2 Audio Mixing APIs],IXAPOHrtfParameters interface, hrtfapoapi/IXAPOHrtfParameters::SetSourcePosition, xaudio2.ixapohrtfparameters_setsourceposition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: hrtfapoapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HrtfEnvironment
+req.lib: 
+req.dll: HrtfApo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXAPOHrtfParameters.SetSourcePosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: HrtfApo.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IXAPOHrtfParameters::SetSourcePosition
@@ -62,7 +60,7 @@ Sets the position of the sound relative to the listener.
 
 ### -param position
 
-
+TBD
 
 
 

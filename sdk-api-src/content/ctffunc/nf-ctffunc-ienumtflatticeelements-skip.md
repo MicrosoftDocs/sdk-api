@@ -4,17 +4,16 @@ title: IEnumTfLatticeElements::Skip
 author: windows-sdk-content
 description: IEnumTfLatticeElements::Skip method
 old-location: tsf\ienumtflatticeelements_skip.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 53dbe7f0-cc1f-4ba4-9ed5-7b328c707902
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumTfLatticeElements interface [Text Services Framework],Skip method, IEnumTfLatticeElements.Skip, IEnumTfLatticeElements::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfLatticeElements interface, _tsf_ienumtflatticeelements_skip_ref, ctffunc/IEnumTfLatticeElements::Skip, tsf.ienumtflatticeelements_skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: Sptip.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumTfLatticeElements.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sptip.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IEnumTfLatticeElements::Skip

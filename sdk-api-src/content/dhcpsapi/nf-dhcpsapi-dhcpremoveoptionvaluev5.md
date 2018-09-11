@@ -4,17 +4,16 @@ title: DhcpRemoveOptionValueV5 function
 author: windows-sdk-content
 description: The DhcpRemoveOptionValueV5 function removes an option value from a scope defined on the DHCP server.
 old-location: dhcp\dhcpremoveoptionvaluev5.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 3fe45007-0de2-4905-96d7-fe351c81ae30
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpRemoveOptionValueV5, DhcpRemoveOptionValueV5 function [DHCP], dhcp.dhcpremoveoptionvaluev5, dhcpsapi/DhcpRemoveOptionValueV5
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpRemoveOptionValueV5
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpRemoveOptionValueV5 function

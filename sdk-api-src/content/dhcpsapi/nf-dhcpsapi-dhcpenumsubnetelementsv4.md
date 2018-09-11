@@ -4,17 +4,16 @@ title: DhcpEnumSubnetElementsV4 function
 author: windows-sdk-content
 description: Returns an enumerated list of elements for a specific DHCP subnet. This function extends DhcpEnumSubnetElements by returning a list of DHCP_SUBNET_ELEMENT_DATA_V4 structures, which can contain IP reservations based on client type.
 old-location: dhcp\dhcpenumsubnetelementsv4.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 561a7aac-eed9-4a80-a4a4-f3a7727ae92a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpEnumSubnetElementsV4, DhcpEnumSubnetElementsV4 function [DHCP], dhcp.dhcpenumsubnetelementsv4, dhcpsapi/DhcpEnumSubnetElementsV4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpEnumSubnetElementsV4
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpEnumSubnetElementsV4 function

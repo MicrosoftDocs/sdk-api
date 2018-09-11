@@ -4,17 +4,16 @@ title: "_TOKEN_STATISTICS"
 author: windows-sdk-content
 description: Contains information about an access token.
 old-location: security\token_statistics.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7fcc4a46-1bac-49c1-a239-b466d3bf31d9
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PTOKEN_STATISTICS, PTOKEN_STATISTICS, PTOKEN_STATISTICS structure pointer [Security], TOKEN_STATISTICS, TOKEN_STATISTICS structure [Security], _TOKEN_STATISTICS, _win32_token_statistics_str, security.token_statistics, winnt/PTOKEN_STATISTICS, winnt/TOKEN_STATISTICS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKEN_STATISTICS, *PTOKEN_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKEN_STATISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TOKEN_STATISTICS, *PTOKEN_STATISTICS
+req.redist: 
 ---
 
 # _TOKEN_STATISTICS structure

@@ -4,17 +4,16 @@ title: IFolderView2::GetViewProperty
 author: windows-sdk-content
 description: Gets a property value for a given property key from the view's cache.
 old-location: shell\IFolderView2_GetViewProperty.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 26749aa8-9c5d-4b6b-b5af-bf52d4e8c8ce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetViewProperty, GetViewProperty method [Windows Shell], GetViewProperty method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetViewProperty method, IFolderView2.GetViewProperty, IFolderView2::GetViewProperty, _shell_IFolderView2_GetViewProperty, shell.IFolderView2_GetViewProperty, shobjidl_core/IFolderView2::GetViewProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderView2.GetViewProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderView2::GetViewProperty

@@ -4,7 +4,7 @@ title: "_tableCellParms"
 author: windows-sdk-content
 description: Defines the attributes of cells in a table row.
 old-location: controls\tablecellparms.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 75bf07bd-103b-4f35-b421-5a7559c7b90e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TABLECELLPARMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TABLECELLPARMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: TABLECELLPARMS
+req.redist: 
 ---
 
 # _tableCellParms structure

@@ -4,17 +4,16 @@ title: ISCPSecureQuery3::GetRightsOnClearChannel
 author: windows-sdk-content
 description: The GetRightsOnClearChannel method retrieves rights information for the current piece of content on a clear channel.
 old-location: wmdm\iscpsecurequery3_getrightsonclearchannel.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: ab64b790-848a-4c7f-9bf9-4a9b40bcc9cb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetRightsOnClearChannel, GetRightsOnClearChannel method [windows Media Device Manager], GetRightsOnClearChannel method [windows Media Device Manager],ISCPSecureQuery3 interface, ISCPSecureQuery3 interface [windows Media Device Manager],GetRightsOnClearChannel method, ISCPSecureQuery3.GetRightsOnClearChannel, ISCPSecureQuery3::GetRightsOnClearChannel, ISCPSecureQuery3GetRightsOnClearChannel, mswmdm/ISCPSecureQuery3::GetRightsOnClearChannel, wmdm.iscpsecurequery3_getrightsonclearchannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISCPSecureQuery3.GetRightsOnClearChannel
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISCPSecureQuery3::GetRightsOnClearChannel

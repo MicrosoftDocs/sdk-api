@@ -4,17 +4,16 @@ title: IWbemObjectSinkEx
 author: windows-sdk-content
 description: Creates a sink interface that can receive all types of notifications within the WMI programming model.
 old-location: wmi\iwbemobjectsinkex.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: f22b21f8-5191-480d-8471-3d5fc82ba060
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemObjectSinkEx, IWbemObjectSinkEx interface [Windows Management Instrumentation], IWbemObjectSinkEx interface [Windows Management Instrumentation],described, wbemcli/IWbemObjectSinkEx, wmi.iwbemobjectsinkex
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - IWbemObjectSinkEx
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemObjectSinkEx interface

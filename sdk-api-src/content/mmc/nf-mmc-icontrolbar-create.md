@@ -4,17 +4,16 @@ title: IControlbar::Create
 author: windows-sdk-content
 description: The IControlbar::Create method creates and returns the control requested by the snap-in.
 old-location: mmc\icontrolbar_create.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 2ce92539-f5dc-44c3-94e5-253fc9995932
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: Create, Create method [MMC], Create method [MMC],IControlbar interface, IControlbar interface [MMC],Create method, IControlbar.Create, IControlbar::Create, _slate_icontrolbar_create, mmc.icontrolbar_create, mmc/IControlbar::Create
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IControlbar.Create
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IControlbar::Create

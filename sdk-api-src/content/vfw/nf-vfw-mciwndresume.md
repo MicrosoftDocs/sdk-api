@@ -4,17 +4,16 @@ title: MCIWndResume macro
 author: windows-sdk-content
 description: The MCIWndResume macro resumes playback or recording content from the paused mode. This macro restarts playback or recording from the current position in the content. You can use this macro or explicitly send the MCI_RESUME command.
 old-location: multimedia\mciwndresume.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 08b0dc42-edf2-485b-8b00-164157117a32
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndResume, MCIWndResume macro [Windows Multimedia], _win32_MCIWndResume, multimedia.mciwndresume, vfw/MCIWndResume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndResume
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndResume macro

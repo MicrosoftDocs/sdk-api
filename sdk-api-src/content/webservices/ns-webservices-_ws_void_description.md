@@ -4,17 +4,16 @@ title: "_WS_VOID_DESCRIPTION"
 author: windows-sdk-content
 description: Specifies information about a field which is neither serialized nor deserialized.
 old-location: wsw\ws_void_description.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 92373e0d-3fe1-4486-8e79-deb0fc24cb63
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_VOID_DESCRIPTION, WS_VOID_DESCRIPTION structure [Web Services for Windows], _WS_VOID_DESCRIPTION, webservices/WS_VOID_DESCRIPTION, wsw.ws_void_description
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_VOID_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_VOID_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_VOID_DESCRIPTION
+req.redist: 
 ---
 
 # _WS_VOID_DESCRIPTION structure

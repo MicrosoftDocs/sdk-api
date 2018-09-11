@@ -4,17 +4,16 @@ title: IMFHttpDownloadRequest::HasNullSourceOrigin
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to detect the case when a HTTP or HTTPS request has been redirected to a different server of different &#0034;origin&#0034;.
 old-location: mf\imfhttpdownloadrequest_hasnullsourceorigin.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: D83F079F-605A-4F62-B037-3C5D0487D778
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: HasNullSourceOrigin, HasNullSourceOrigin method [Media Foundation], HasNullSourceOrigin method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],HasNullSourceOrigin method, IMFHttpDownloadRequest.HasNullSourceOrigin, IMFHttpDownloadRequest::HasNullSourceOrigin, mf.imfhttpdownloadrequest_hasnullsourceorigin, mfidl/IMFHttpDownloadRequest::HasNullSourceOrigin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFHttpDownloadRequest.HasNullSourceOrigin
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFHttpDownloadRequest::HasNullSourceOrigin
@@ -65,7 +63,7 @@ Invoked by Microsoft Media Foundation to detect the case when a HTTP or HTTPS re
 
 ### -param pfNullSourceOrigin
 
-
+TBD
 
 
 

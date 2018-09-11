@@ -4,17 +4,16 @@ title: IDCompositionDevice::CreateTargetForHwnd
 author: windows-sdk-content
 description: Creates a composition target object that is bound to the window that is represented by the specified window handle (HWND).
 old-location: directcomp\idcompositiondevice_createhwndtarget.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: eba2388a-9c94-43f0-bf7f-e814895a2792
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateTargetForHwnd, CreateTargetForHwnd method [DirectComposition], CreateTargetForHwnd method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateTargetForHwnd method, IDCompositionDevice.CreateTargetForHwnd, IDCompositionDevice::CreateTargetForHwnd, dcomp/IDCompositionDevice::CreateTargetForHwnd, directcomp.idcompositiondevice_createhwndtarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice.CreateTargetForHwnd
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice::CreateTargetForHwnd

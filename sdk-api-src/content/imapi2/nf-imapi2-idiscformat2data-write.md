@@ -4,17 +4,16 @@ title: IDiscFormat2Data::Write
 author: windows-sdk-content
 description: Writes the data stream to the device.
 old-location: imapi\idiscformat2data_write.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 9daf31f3-84c2-48b2-ab21-a3809b6ed9af
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],Write method, IDiscFormat2Data.Write, IDiscFormat2Data::Write, Write, Write method [IMAPI], Write method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_write, imapi2/IDiscFormat2Data::Write
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2Data.Write
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2Data::Write

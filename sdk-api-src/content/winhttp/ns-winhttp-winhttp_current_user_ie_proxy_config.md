@@ -4,17 +4,16 @@ title: WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
 author: windows-sdk-content
 description: The WINHTTP_CURRENT_USER_IE_PROXY_CONFIG structure contains the Internet Explorer proxy configuration information.
 old-location: http\winhttp_current_user_ie_proxy_config.htm
-old-project: winhttp
+tech.root: WinHttp
 ms.assetid: b5aebbfe-18c8-4aeb-a01b-488e37d227a1
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WINHTTP_CURRENT_USER_IE_PROXY_CONFIG, WINHTTP_CURRENT_USER_IE_PROXY_CONFIG structure [HTTP], http.winhttp_current_user_ie_proxy_config, winhttp/WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
+req.redist: 
 ---
 
 # WINHTTP_CURRENT_USER_IE_PROXY_CONFIG structure

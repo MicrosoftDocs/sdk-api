@@ -4,17 +4,16 @@ title: SetProtectedPolicy function
 author: windows-sdk-content
 description: Sets a protected policy.
 old-location: base\setprotectedpolicy.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 36975287-20F0-477B-870F-EA0AC40B39E3
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: SetProtectedPolicy, SetProtectedPolicy function, base.setprotectedpolicy, processthreadsapi/SetProtectedPolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SetProtectedPolicy
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetProtectedPolicy function

@@ -4,17 +4,16 @@ title: ISynchronizeContainer::AddSynchronize
 author: windows-sdk-content
 description: Adds a synchronization object to the container.
 old-location: com\isynchronizecontainer_addsynchronize.htm
-old-project: com
+tech.root: com
 ms.assetid: b2d48de3-848c-4cc9-bd96-fffbb2ca2ba3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddSynchronize, AddSynchronize method [COM], AddSynchronize method [COM],ISynchronizeContainer interface, ISynchronizeContainer interface [COM],AddSynchronize method, ISynchronizeContainer.AddSynchronize, ISynchronizeContainer::AddSynchronize, _com_isynchronizecontainer_addsynchronize, com.isynchronizecontainer_addsynchronize, objidlbase/ISynchronizeContainer::AddSynchronize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISynchronizeContainer.AddSynchronize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISynchronizeContainer::AddSynchronize

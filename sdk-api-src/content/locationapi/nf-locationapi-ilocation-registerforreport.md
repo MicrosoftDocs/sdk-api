@@ -4,17 +4,16 @@ title: ILocation::RegisterForReport
 author: windows-sdk-content
 description: Requests location report events.
 old-location: winlocation_com_ref\ilocation_registerforreport.htm
-old-project: locationapi
+tech.root: locationapi
 ms.assetid: 1aca3e5b-20cb-4fa9-b28d-7d992601df96
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ILocation interface [WinLocation],RegisterForReport method, ILocation.RegisterForReport, ILocation::RegisterForReport, RegisterForReport, RegisterForReport method [WinLocation], RegisterForReport method [WinLocation],ILocation interface, WinLocation_COM_Ref.ilocation_registerforreport, locationapi/ILocation::RegisterForReport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only],Windows 7
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCATION_REPORT_STATUS
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILocation.RegisterForReport
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: LocationAPI.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ILocation::RegisterForReport

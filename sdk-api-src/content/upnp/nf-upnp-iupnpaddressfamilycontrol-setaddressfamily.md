@@ -4,17 +4,16 @@ title: IUPnPAddressFamilyControl::SetAddressFamily
 author: windows-sdk-content
 description: The SetAddressFamily method sets the address family flag of the Device Finder object, which uses this flag to filter the devices found.
 old-location: upnp\iupnpaddressfamilycontrol_setaddressfamily.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 2b3e5dae-68c0-431b-bef0-fa2bb5f53bdc
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPAddressFamilyControl interface [UPnP APIs],SetAddressFamily method, IUPnPAddressFamilyControl.SetAddressFamily, IUPnPAddressFamilyControl::SetAddressFamily, SetAddressFamily, SetAddressFamily method [UPnP APIs], SetAddressFamily method [UPnP APIs],IUPnPAddressFamilyControl interface, UPNP_ADDRESSFAMILY_BOTH, UPNP_ADDRESSFAMILY_IPv4, UPNP_ADDRESSFAMILY_IPv6, upnp.iupnpaddressfamilycontrol_setaddressfamily, upnp/IUPnPAddressFamilyControl::SetAddressFamily
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPAddressFamilyControl.SetAddressFamily
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPAddressFamilyControl::SetAddressFamily

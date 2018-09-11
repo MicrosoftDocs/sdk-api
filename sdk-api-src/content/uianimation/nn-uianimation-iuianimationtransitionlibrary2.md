@@ -4,17 +4,16 @@ title: IUIAnimationTransitionLibrary2
 author: windows-sdk-content
 description: Defines a library of standard transitions for a specified dimension.
 old-location: uianimation\iuianimationtransitionlibrary2.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 92C10ED5-DCE6-4B1D-8608-E2C3C6AD97BA
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationTransitionLibrary2, IUIAnimationTransitionLibrary2 interface [Windows Animation], IUIAnimationTransitionLibrary2 interface [Windows Animation],described, uianimation.iuianimationtransitionlibrary2, uianimation/IUIAnimationTransitionLibrary2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationTransitionLibrary2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationTransitionLibrary2 interface

@@ -4,17 +4,16 @@ title: SetupDiGetClassDevsW function
 author: windows-sdk-content
 description: The SetupDiGetClassDevs function returns a handle to a device information set that contains requested device information elements for a local computer.
 old-location: devinst\setupdigetclassdevs.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiGetClassDevs, SetupDiGetClassDevs function [Device and Driver Installation], SetupDiGetClassDevsW, devinst.setupdigetclassdevs, di-rtns_8f48a4a7-e4b9-4843-aacc-88f678b4145c.xml, setupapi/SetupDiGetClassDevs, setupapi/SetupDiGetClassDevsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: SetupAPI.h
-req.redist: 
 req.target-type: DesktopFor universal, call CM_Get_Device_ID_ListFor universal, call CM_Get_Device_Interface_List
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: SetupAPI.lib
+req.dll: SetupAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SetupDiGetClassDevsW
 product: Windows
 targetos: Windows
-req.lib: SetupAPI.lib
-req.dll: SetupAPI.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetClassDevsW function

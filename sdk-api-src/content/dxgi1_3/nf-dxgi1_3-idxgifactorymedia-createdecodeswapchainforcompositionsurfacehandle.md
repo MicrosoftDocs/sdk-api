@@ -4,17 +4,16 @@ title: IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle
 author: windows-sdk-content
 description: Creates a YUV swap chain for an existing DirectComposition surface handle.
 old-location: direct3ddxgi\idxgifactorymedia_createdecodeswapchainforcompositionsurfacehandle.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: A4030D6E-EE5A-47E7-A5A2-A008F6869230
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CreateDecodeSwapChainForCompositionSurfaceHandle, CreateDecodeSwapChainForCompositionSurfaceHandle method [DXGI], CreateDecodeSwapChainForCompositionSurfaceHandle method [DXGI],IDXGIFactoryMedia interface, IDXGIFactoryMedia interface [DXGI],CreateDecodeSwapChainForCompositionSurfaceHandle method, IDXGIFactoryMedia.CreateDecodeSwapChainForCompositionSurfaceHandle, IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle, direct3ddxgi.idxgifactorymedia_createdecodeswapchainforcompositionsurfacehandle, dxgi1_3/IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIFactoryMedia.CreateDecodeSwapChainForCompositionSurfaceHandle
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle

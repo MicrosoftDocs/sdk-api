@@ -4,17 +4,16 @@ title: IReplicaKeyMap::LookupReplicaKey
 author: windows-sdk-content
 description: Gets the replica key that corresponds to the specified replica ID.
 old-location: winsync\ireplicakeymap_lookupreplicakey.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 92bae64f-67a5-4029-9d24-eee92a3fc55f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IReplicaKeyMap interface [Windows Sync],LookupReplicaKey method, IReplicaKeyMap.LookupReplicaKey, IReplicaKeyMap::LookupReplicaKey, LookupReplicaKey, LookupReplicaKey method [Windows Sync], LookupReplicaKey method [Windows Sync],IReplicaKeyMap interface, winsync.ireplicakeymap_lookupreplicakey, winsync/IReplicaKeyMap::LookupReplicaKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IReplicaKeyMap.LookupReplicaKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IReplicaKeyMap::LookupReplicaKey

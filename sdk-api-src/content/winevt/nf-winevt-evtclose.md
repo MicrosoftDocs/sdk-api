@@ -4,17 +4,16 @@ title: EvtClose function
 author: windows-sdk-content
 description: Closes an open handle.
 old-location: wes\evtclose.htm
-old-project: wes
+tech.root: WES
 ms.assetid: c4b82d7b-508d-45bf-b990-04e90e846525
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EvtClose, EvtClose function [EventLog], wes.evtclose, winevt/EvtClose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_VARIANT_TYPE
+req.lib: Wevtapi.lib
+req.dll: Wevtapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - EvtClose
 product: Windows
 targetos: Windows
-req.lib: Wevtapi.lib
-req.dll: Wevtapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EvtClose function

@@ -4,17 +4,16 @@ title: IPhotoAcquireProgressCB::EndItemDelete
 author: windows-sdk-content
 description: The EndItemDelete method provides extended functionality each time a file is deleted from the image source. The application provides the implementation of the EndItemDelete method.
 old-location: picacq\iphotoacquireprogresscb_enditemdelete.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 2962b170-941f-4cf1-9969-4066ee0c57d9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: EndItemDelete, EndItemDelete method [Picture Acquisition], EndItemDelete method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndItemDelete method, IPhotoAcquireProgressCB.EndItemDelete, IPhotoAcquireProgressCB::EndItemDelete, IPhotoAcquireProgressCBEndItemDelete, photoacquire/IPhotoAcquireProgressCB::EndItemDelete, picacq.iphotoacquireprogresscb_enditemdelete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireProgressCB.EndItemDelete
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireProgressCB::EndItemDelete

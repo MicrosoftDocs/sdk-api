@@ -4,17 +4,16 @@ title: PTConvertPrintTicketToDevMode function
 author: windows-sdk-content
 description: Converts a print ticket into a DEVMODE structure.
 old-location: gdi\ptconvertprinttickettodevmode.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 5eec91b9-d554-4440-bc9e-6a26af34994b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PTConvertPrintTicketToDevMode, PTConvertPrintTicketToDevMode function [Windows GDI], _win32_PTConvertPrintTicketToDevMode, gdi.ptconvertprinttickettodevmode, prntvpt/PTConvertPrintTicketToDevMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: prntvpt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EDefaultDevmodeType
+req.lib: Prntvpt.lib
+req.dll: Prntvpt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PTConvertPrintTicketToDevMode
 product: Windows
 targetos: Windows
-req.lib: Prntvpt.lib
-req.dll: Prntvpt.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PTConvertPrintTicketToDevMode function

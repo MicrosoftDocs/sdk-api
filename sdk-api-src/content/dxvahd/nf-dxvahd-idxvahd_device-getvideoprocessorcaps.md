@@ -4,17 +4,16 @@ title: IDXVAHD_Device::GetVideoProcessorCaps
 author: windows-sdk-content
 description: Gets the capabilities of one or more Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processors.
 old-location: mf\idxvahd_device_getvideoprocessorcaps.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d9423b3f-4a4b-49f0-8018-c19a7b663300
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetVideoProcessorCaps, GetVideoProcessorCaps method [Media Foundation], GetVideoProcessorCaps method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorCaps method, IDXVAHD_Device.GetVideoProcessorCaps, IDXVAHD_Device::GetVideoProcessorCaps, dxvahd/IDXVAHD_Device::GetVideoProcessorCaps, mf.idxvahd_device_getvideoprocessorcaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_SURFACE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXVAHD_Device.GetVideoProcessorCaps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXVAHD_Device::GetVideoProcessorCaps

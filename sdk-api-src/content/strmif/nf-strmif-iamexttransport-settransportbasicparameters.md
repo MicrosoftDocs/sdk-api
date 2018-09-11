@@ -4,17 +4,16 @@ title: IAMExtTransport::SetTransportBasicParameters
 author: windows-sdk-content
 description: The SetTransportBasicParameters method sets general properties of the transport.
 old-location: dshow\iamexttransport_settransportbasicparameters.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 798fa8d0-3834-4168-86a6-069cae3c3e8e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetTransportBasicParameters method, IAMExtTransport.SetTransportBasicParameters, IAMExtTransport::SetTransportBasicParameters, IAMExtTransportSetTransportBasicParameters, SetTransportBasicParameters, SetTransportBasicParameters method [DirectShow], SetTransportBasicParameters method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_settransportbasicparameters, strmif/IAMExtTransport::SetTransportBasicParameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMExtTransport.SetTransportBasicParameters
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtTransport::SetTransportBasicParameters

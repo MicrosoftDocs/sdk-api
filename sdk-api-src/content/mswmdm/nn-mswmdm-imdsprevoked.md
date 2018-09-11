@@ -4,17 +4,16 @@ title: IMDSPRevoked
 author: windows-sdk-content
 description: The IMDSPRevoked interface retrieves the URL from which updated components can be downloaded. Implementing this interface is optional. For more information, see Mandatory and Optional Interfaces.
 old-location: wmdm\imdsprevoked.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 8df545b9-52f5-422e-a0c1-2316c628d89f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPRevoked, IMDSPRevoked interface [windows Media Device Manager], IMDSPRevoked interface [windows Media Device Manager],described, IMDSPRevokedInterface, mswmdm/IMDSPRevoked, wmdm.imdsprevoked
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMDSPRevoked
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPRevoked interface

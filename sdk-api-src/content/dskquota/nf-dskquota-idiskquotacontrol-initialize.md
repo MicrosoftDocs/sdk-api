@@ -4,17 +4,16 @@ title: IDiskQuotaControl::Initialize
 author: windows-sdk-content
 description: Initializes a new DiskQuotaControl object by opening the NTFS file system volume with the requested access rights.
 old-location: fs\idiskquotacontrol_initialize.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 352485fd-4ce7-435b-b8c2-81458786eb44
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDiskQuotaControl interface [Files],Initialize method, IDiskQuotaControl.Initialize, IDiskQuotaControl::Initialize, Initialize, Initialize method [Files], Initialize method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_initialize, base.idiskquotacontrol_initialize, dskquota/IDiskQuotaControl::Initialize, fs.idiskquotacontrol_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaControl.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaControl::Initialize

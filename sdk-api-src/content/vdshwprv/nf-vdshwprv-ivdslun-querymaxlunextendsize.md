@@ -4,17 +4,16 @@ title: IVdsLun::QueryMaxLunExtendSize
 author: windows-sdk-content
 description: Returns the maximum size by which a LUN can be extended.
 old-location: base\ivdslun_querymaxlunextendsize.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: ac30de71-7a2e-4a65-a37b-34a0d01ca645
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsLun interface,QueryMaxLunExtendSize method, IVdsLun.QueryMaxLunExtendSize, IVdsLun::QueryMaxLunExtendSize, QueryMaxLunExtendSize, QueryMaxLunExtendSize method, QueryMaxLunExtendSize method,IVdsLun interface, base.ivdslun_querymaxlunextendsize, vds/IVdsLun::QueryMaxLunExtendSize, vdshwprv/IVdsLun::QueryMaxLunExtendSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLun.QueryMaxLunExtendSize
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsLun::QueryMaxLunExtendSize

@@ -4,17 +4,16 @@ title: ITsSbResourcePluginStore::SetSessionState
 author: windows-sdk-content
 description: Sets the session state.
 old-location: termserv\itssbresourcepluginstore_setsessionstate.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: e6cb83d4-9d85-43d0-812d-ad6e2bdcb067
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetSessionState method, ITsSbResourcePluginStore.SetSessionState, ITsSbResourcePluginStore::SetSessionState, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SetSessionState method, ITsSbResourcePluginStoreEx::SetSessionState, SetSessionState, SetSessionState method [Remote Desktop Services], SetSessionState method [Remote Desktop Services],ITsSbResourcePluginStore interface, SetSessionState method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SetSessionState, sbtsv/ITsSbResourcePluginStoreEx::SetSessionState, termserv.itssbresourcepluginstore_setsessionstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbResourcePluginStoreEx.SetSessionState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourcePluginStore::SetSessionState

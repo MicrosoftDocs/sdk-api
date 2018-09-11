@@ -4,17 +4,16 @@ title: NtQuerySystemInformation function
 author: windows-sdk-content
 description: Retrieves the specified system information.
 old-location: base\ntquerysysteminformation.htm
-old-project: sysinfo
+tech.root: SysInfo
 ms.assetid: 553ec7b9-c5eb-4955-8dc0-f1c06f59fe31
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: NtQuerySystemInformation, NtQuerySystemInformation function, SYSTEM_BASIC_INFORMATION, SYSTEM_CODEINTEGRITY_INFORMATION, SYSTEM_EXCEPTION_INFORMATION, SYSTEM_INFORMATION_CLASS, SYSTEM_INTERRUPT_INFORMATION, SYSTEM_KERNEL_VA_SHADOW_INFORMATION, SYSTEM_LEAP_SECOND_INFORMATION, SYSTEM_LOOKASIDE_INFORMATION, SYSTEM_PERFORMANCE_INFORMATION, SYSTEM_POLICY_INFORMATION, SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION, SYSTEM_PROCESS_INFORMATION, SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION, SYSTEM_REGISTRY_QUOTA_INFORMATION, SYSTEM_SPECULATION_CONTROL_INFORMATION, SYSTEM_THREAD_INFORMATION, SYSTEM_TIMEOFDAY_INFORMATION, SYSTEM_VHD_BOOT_INFORMATION, SystemBasicInformation, SystemCodeIntegrityInformation, SystemExceptionInformation, SystemInterruptInformation, SystemKernelVaShadowInformation, SystemLeapSecondInformation, SystemLookasideInformation, SystemPerformanceInformation, SystemPolicyInformation, SystemProcessInformation, SystemProcessorPerformanceInformation, SystemQueryPerformanceCounterInformation, SystemRegistryQuotaInformation, SystemSpeculationControlInformation, SystemTimeOfDayInformation, base.ntquerysysteminformation, winternl/NtQuerySystemInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_VERSION
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NtQuerySystemInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Ntdll.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # NtQuerySystemInformation function

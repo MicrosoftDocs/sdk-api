@@ -4,17 +4,16 @@ title: ICivicAddressReport::GetCity
 author: windows-sdk-content
 description: Retrieves the city name.
 old-location: winlocation_com_ref\icivicaddressreport_getcity.htm
-old-project: locationapi
+tech.root: locationapi
 ms.assetid: c87debb3-63ab-4d5b-85ff-0ee0653d6ffe
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetCity, GetCity method [WinLocation], GetCity method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetCity method, ICivicAddressReport.GetCity, ICivicAddressReport::GetCity, WinLocation_COM_Ref.icivicaddressreport_getcity, locationapi/ICivicAddressReport::GetCity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only],Windows 7
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCATION_REPORT_STATUS
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICivicAddressReport.GetCity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: LocationAPI.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ICivicAddressReport::GetCity

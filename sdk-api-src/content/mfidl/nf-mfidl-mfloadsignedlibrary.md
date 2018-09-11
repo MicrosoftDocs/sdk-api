@@ -4,17 +4,16 @@ title: MFLoadSignedLibrary function
 author: windows-sdk-content
 description: Loads a dynamic link library that is signed for the protected environment.
 old-location: mf\mfloadsignedlibrary.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 979A5FE5-0DED-4C5A-A27D-CDD10A4A8D5C
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFLoadSignedLibrary, MFLoadSignedLibrary function [Media Foundation], mf.mfloadsignedlibrary, mfidl/MFLoadSignedLibrary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mf.lib
+req.dll: Mf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFLoadSignedLibrary
 product: Windows
 targetos: Windows
-req.lib: Mf.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFLoadSignedLibrary function

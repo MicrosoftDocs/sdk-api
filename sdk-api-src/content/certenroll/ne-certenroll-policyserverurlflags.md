@@ -4,17 +4,16 @@ title: PolicyServerUrlFlags
 author: windows-sdk-content
 description: Contains certificate enrollment policy (CEP) server flags.
 old-location: security\policyserverurlflags.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: e73bccb8-ca4d-4007-bdf3-1194ede5fdd1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: PolicyServerUrlFlags, PolicyServerUrlFlags enumeration [Security], PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, certenroll/PolicyServerUrlFlags, certenroll/PsfAllowUnTrustedCA, certenroll/PsfAutoEnrollmentEnabled, certenroll/PsfLocationGroupPolicy, certenroll/PsfLocationRegistry, certenroll/PsfNone, certenroll/PsfUseClientId, security.policyserverurlflags
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PolicyServerUrlFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PolicyServerUrlFlags
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: PolicyServerUrlFlags
+req.redist: 
 ---
 
 # PolicyServerUrlFlags enumeration

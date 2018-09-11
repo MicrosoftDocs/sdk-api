@@ -4,17 +4,16 @@ title: IStorage::Stat
 author: windows-sdk-content
 description: The Stat method retrieves the STATSTG structure for this open storage object.
 old-location: stg\istorage_stat.htm
-old-project: stg
+tech.root: Stg
 ms.assetid: 87478fa8-1b5f-44ed-bffc-e139c7f44a12
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IStorage interface [Structured Storage],Stat method, IStorage.Stat, IStorage::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],IStorage interface, _stg_istorage_stat, objidl/IStorage::Stat, stg.istorage_stat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStorage.Stat
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStorage::Stat

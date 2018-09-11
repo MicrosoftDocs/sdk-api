@@ -4,17 +4,16 @@ title: Header_GetFocusedItem macro
 author: windows-sdk-content
 description: Gets the item in a header control that has the focus. Use this macro or send the HDM_GETFOCUSEDITEM message explicitly.
 old-location: controls\Header_GetFocusedItem.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getfocuseditem.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Header_GetFocusedItem, Header_GetFocusedItem macro [Windows Controls], _shell_Header_GetFocusedItem, _shell_Header_GetFocusedItem_cpp, commctrl/Header_GetFocusedItem, controls.Header_GetFocusedItem, controls._shell_Header_GetFocusedItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Header_GetFocusedItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Header_GetFocusedItem macro

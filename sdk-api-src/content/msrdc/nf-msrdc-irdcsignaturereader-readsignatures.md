@@ -4,17 +4,16 @@ title: IRdcSignatureReader::ReadSignatures
 author: windows-sdk-content
 description: Reads a block of signatures from the current position.
 old-location: rdc\irdcsignaturereader_readsignatures.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 566a5442-b186-4aac-94fa-5784736a30c3
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IRdcSignatureReader interface [Remote Differential Compression],ReadSignatures method, IRdcSignatureReader.ReadSignatures, IRdcSignatureReader::ReadSignatures, ReadSignatures, ReadSignatures method [Remote Differential Compression], ReadSignatures method [Remote Differential Compression],IRdcSignatureReader interface, fs.irdcsignaturereader_readsignatures, msrdc/IRdcSignatureReader::ReadSignatures, rdc.irdcsignaturereader_readsignatures
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsRdc.dll
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcSignatureReader.ReadSignatures
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcSignatureReader::ReadSignatures

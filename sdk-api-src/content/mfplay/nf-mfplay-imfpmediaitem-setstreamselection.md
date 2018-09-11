@@ -4,17 +4,16 @@ title: IMFPMediaItem::SetStreamSelection
 author: windows-sdk-content
 description: Selects or deselects a stream.
 old-location: mf\imfpmediaitem_setstreamselection.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 739190a5-60a7-4b50-9919-f68d2cd6da8d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: FALSE, IMFPMediaItem interface [Media Foundation],SetStreamSelection method, IMFPMediaItem.SetStreamSelection, IMFPMediaItem::SetStreamSelection, SetStreamSelection, SetStreamSelection method [Media Foundation], SetStreamSelection method [Media Foundation],IMFPMediaItem interface, TRUE, mf.imfpmediaitem_setstreamselection, mfplay/IMFPMediaItem::SetStreamSelection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaItem.SetStreamSelection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaItem::SetStreamSelection

@@ -4,7 +4,7 @@ title: "_DDSURFACEDATA"
 author: windows-sdk-content
 description: The DDSURFACEDATA structure is used by DirectDraw to represent a surface to the kernel-mode miniport driver.
 old-location: display\ddsurfacedata.htm
-old-project: display
+tech.root: display
 ms.assetid: 4057cfcf-675e-439f-8b51-23adede1d35a
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDSURFACEDATA, *LPDDSURFACEDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDSURFACEDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DDSURFACEDATA, *LPDDSURFACEDATA
+req.redist: 
 ---
 
 # _DDSURFACEDATA structure

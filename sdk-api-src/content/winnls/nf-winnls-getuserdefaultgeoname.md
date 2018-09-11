@@ -4,17 +4,16 @@ title: GetUserDefaultGeoName function
 author: windows-sdk-content
 description: Retrieves the two-letter International Organization for Standardization (ISO) 3166-1 code or numeric United Nations (UN) Series M, Number 49 (M.49) code for the default geographical location of the user.
 old-location: intl\getuserdefaultgeoname.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 7938A5A1-E18E-4643-A07C-3354B4E94B5D
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetUserDefaultGeoName, GetUserDefaultGeoName function [Internationalization for Windows Applications], intl.getuserdefaultgeoname, winnls/GetUserDefaultGeoName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetUserDefaultGeoName
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetUserDefaultGeoName function

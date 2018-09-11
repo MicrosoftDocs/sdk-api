@@ -4,17 +4,16 @@ title: IPortableDeviceResources
 author: windows-sdk-content
 description: The IPortableDeviceResources interface provides access to an object's raw data. Use this interface to read or write resources in an object. To get this interface, call IPortableDeviceContent::Transfer.
 old-location: wpdsdk\iportabledeviceresources.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: fce2d6db-13f0-4c1d-ba55-16139c6acbb7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPortableDeviceResources, IPortableDeviceResources interface [Windows Portable Devices SDK], IPortableDeviceResources interface [Windows Portable Devices SDK],described, IPortableDeviceResourcesInterface, portabledeviceapi/IPortableDeviceResources, wpdsdk.iportabledeviceresources
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceResources
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceResources interface

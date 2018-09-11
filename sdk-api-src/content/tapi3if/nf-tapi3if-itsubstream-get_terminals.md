@@ -4,17 +4,16 @@ title: ITSubStream::get_Terminals
 author: windows-sdk-content
 description: The get_Terminals method creates a collection of terminals associated with the current substream. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateTerminals method.
 old-location: tapi3\itsubstream_get_terminals.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 100854aa-78de-4395-9081-3b1f845c254c
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],get_Terminals method, ITSubStream.get_Terminals, ITSubStream::get_Terminals, _tapi3_itsubstream_get_terminals, get_Terminals, get_Terminals method [TAPI 2.2], get_Terminals method [TAPI 2.2],ITSubStream interface, tapi3.itsubstream_get_terminals, tapi3if/ITSubStream::get_Terminals
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITSubStream.get_Terminals
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITSubStream::get_Terminals

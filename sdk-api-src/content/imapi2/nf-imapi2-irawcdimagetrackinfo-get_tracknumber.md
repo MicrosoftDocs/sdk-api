@@ -4,17 +4,16 @@ title: IRawCDImageTrackInfo::get_TrackNumber
 author: windows-sdk-content
 description: Retrieves the track number for this track.
 old-location: imapi\irawcdimagetrackinfo_get_tracknumber.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: ccc84237-3819-45b4-980a-a73669f605fb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_TrackNumber method, IRawCDImageTrackInfo.get_TrackNumber, IRawCDImageTrackInfo::get_TrackNumber, get_TrackNumber, get_TrackNumber method [IMAPI], get_TrackNumber method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_tracknumber, imapi2/IRawCDImageTrackInfo::get_TrackNumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawCDImageTrackInfo.get_TrackNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRawCDImageTrackInfo::get_TrackNumber

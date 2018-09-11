@@ -4,17 +4,16 @@ title: CreateFontW function
 author: windows-sdk-content
 description: The CreateFont function creates a logical font with the specified characteristics. The logical font can subsequently be selected as the font for any device.
 old-location: gdi\createfont.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 373bac6e-5d4d-4909-8096-2f0e909d2f1d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ANTIALIASED_QUALITY, CLEARTYPE_QUALITY, CLIP_CHARACTER_PRECIS, CLIP_DEFAULT_PRECIS, CLIP_DFA_DISABLE, CLIP_DFA_OVERRIDE, CLIP_EMBEDDED, CLIP_LH_ANGLES, CLIP_MASK, CLIP_STROKE_PRECIS, CLIP_TT_ALWAYS, CreateFont, CreateFont function [Windows GDI], CreateFontA, CreateFontW, DEFAULT_QUALITY, DRAFT_QUALITY, FF_DECORATIVE, FF_DONTCARE, FF_MODERN, FF_ROMAN, FF_SCRIPT, FF_SWISS, FW_BLACK, FW_BOLD, FW_DEMIBOLD, FW_DONTCARE, FW_EXTRABOLD, FW_EXTRALIGHT, FW_HEAVY, FW_LIGHT, FW_MEDIUM, FW_NORMAL, FW_REGULAR, FW_SEMIBOLD, FW_THIN, FW_ULTRABOLD, FW_ULTRALIGHT, NONANTIALIASED_QUALITY, OUT_CHARACTER_PRECIS, OUT_DEFAULT_PRECIS, OUT_DEVICE_PRECIS, OUT_OUTLINE_PRECIS, OUT_PS_ONLY_PRECIS, OUT_RASTER_PRECIS, OUT_STRING_PRECIS, OUT_STROKE_PRECIS, OUT_TT_ONLY_PRECIS, OUT_TT_PRECIS, PROOF_QUALITY, _win32_CreateFont, gdi.createfont, wingdi/CreateFont, wingdi/CreateFontA, wingdi/CreateFontW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - CreateFontW
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CreateFontW function

@@ -4,17 +4,16 @@ title: tagStorageLayout
 author: windows-sdk-content
 description: Describes a single block of data, including its name, location, and length.
 old-location: stg\storagelayout.htm
-old-project: stg
+tech.root: Stg
 ms.assetid: 1e4fb36d-077b-44bd-ab6e-8c122ec95a46
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: StorageLayout, StorageLayout structure [Structured Storage], _stg_storagelayout, objidl/StorageLayout, stg.storagelayout, tagStorageLayout
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: ObjIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StorageLayout
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - StorageLayout
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: StorageLayout
+req.redist: 
 ---
 
 # tagStorageLayout structure

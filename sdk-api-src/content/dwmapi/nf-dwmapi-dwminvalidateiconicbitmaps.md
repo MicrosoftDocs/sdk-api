@@ -4,17 +4,16 @@ title: DwmInvalidateIconicBitmaps function
 author: windows-sdk-content
 description: Called by an application to indicate that all previously provided iconic bitmaps from a window, both thumbnails and peek representations, should be refreshed.
 old-location: dwm\dwminvalidateiconicbitmaps.htm
-old-project: dwm
+tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwminvalidateiconicbitmaps.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DwmInvalidateIconicBitmaps, DwmInvalidateIconicBitmaps function [Desktop Window Manager], _udwm_dwminvalidateiconicbitmaps, _udwm_dwminvalidateiconicbitmaps_cpp, dwm.dwminvalidateiconicbitmaps, dwmapi/DwmInvalidateIconicBitmaps, winui._udwm_dwminvalidateiconicbitmaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwmapi.lib
+req.dll: Dwmapi.dll; Uxtheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DwmInvalidateIconicBitmaps
 product: Windows
 targetos: Windows
-req.lib: Dwmapi.lib
-req.dll: Dwmapi.dll; Uxtheme.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DwmInvalidateIconicBitmaps function

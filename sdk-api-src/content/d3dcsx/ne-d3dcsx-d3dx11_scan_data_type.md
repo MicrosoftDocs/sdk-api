@@ -4,7 +4,7 @@ title: D3DX11_SCAN_DATA_TYPE
 author: windows-sdk-content
 description: Type for scan data.
 old-location: direct3d11\d3dx11_scan_data_type.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 28bef01c-2d04-48f8-994b-86194f530610
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DX11_SCAN_DATA_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3DX11_SCAN_DATA_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3DX11_SCAN_DATA_TYPE
+req.redist: 
 ---
 
 # D3DX11_SCAN_DATA_TYPE enumeration

@@ -4,17 +4,16 @@ title: "_LSA_TRANSLATED_NAME"
 author: windows-sdk-content
 description: Used with the LsaLookupSids function to return information about the account identified by a SID.
 old-location: security\lsa_translated_name.htm
-old-project: secmgmt
+tech.root: SecMgmt
 ms.assetid: edea8317-5cdf-4d1e-9e6d-fcf17b91adb7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PLSA_TRANSLATED_NAME, LSA_TRANSLATED_NAME, LSA_TRANSLATED_NAME structure [Security], PLSA_TRANSLATED_NAME, PLSA_TRANSLATED_NAME structure pointer [Security], SidTypeDomain, SidTypeInvalid, SidTypeUnknown, SidTypeWellKnownGroup, _LSA_TRANSLATED_NAME, _lsa_lsa_translated_name, lsalookup/LSA_TRANSLATED_NAME, lsalookup/PLSA_TRANSLATED_NAME, security.lsa_translated_name"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lsalookup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LSA_TRANSLATED_NAME, *PLSA_TRANSLATED_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LSA_TRANSLATED_NAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: LSA_TRANSLATED_NAME, *PLSA_TRANSLATED_NAME
+req.redist: 
 ---
 
 # _LSA_TRANSLATED_NAME structure

@@ -4,7 +4,7 @@ title: REGFILTER2
 author: windows-sdk-content
 description: The REGFILTER2 structure contains information for registering a filter.
 old-location: dshow\regfilter2.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 651b94e6-b343-4957-9781-768b04c098dd
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGFILTER2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - REGFILTER2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: REGFILTER2
+req.redist: 
 ---
 
 # REGFILTER2 structure

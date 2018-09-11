@@ -4,17 +4,16 @@ title: IPortableDeviceContent::Delete
 author: windows-sdk-content
 description: The Delete method deletes one or more objects from the device.
 old-location: wpdsdk\iportabledevicecontent_delete.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 7315c869-d2b6-4ccf-9315-ec1fc1d827ac
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Delete, Delete method [Windows Portable Devices SDK], Delete method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],Delete method, IPortableDeviceContent.Delete, IPortableDeviceContent::Delete, IPortableDeviceContentDelete, portabledeviceapi/IPortableDeviceContent::Delete, wpdsdk.iportabledevicecontent_delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceContent.Delete
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceContent::Delete

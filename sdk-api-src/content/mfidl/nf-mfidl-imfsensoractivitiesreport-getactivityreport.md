@@ -4,17 +4,16 @@ title: IMFSensorActivitiesReport::GetActivityReport
 author: windows-sdk-content
 description: Retrieves an IMFSensorActivityReport based on the specified index.
 old-location: mf\imfsensoractivityreport_getactivityreport.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6E8D7039-9CBF-45A0-8CAE-48F79091D40B
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetActivityReport, GetActivityReport method [Media Foundation], GetActivityReport method [Media Foundation],IMFSensorActivitiesReport interface, IMFSensorActivitiesReport interface [Media Foundation],GetActivityReport method, IMFSensorActivitiesReport.GetActivityReport, IMFSensorActivitiesReport::GetActivityReport, mf.imfsensoractivityreport_getactivityreport, mfidl/IMFSensorActivitiesReport::GetActivityReport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorActivitiesReport.GetActivityReport
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorActivitiesReport::GetActivityReport

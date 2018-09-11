@@ -4,17 +4,16 @@ title: IsCanonicalPixelFormat function
 author: windows-sdk-content
 description: The IsCanonicalPixelFormat method determines whether a specified pixel format is one of the canonical formats:\_PixelFormat32bppARGB or PixelFormat64bppARGB.
 old-location: gdiplus\_gdiplus_FUNC_IsCanonicalPixelFormat_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\iscanonicalpixelformat.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IsCanonicalPixelFormat, IsCanonicalPixelFormat function [GDI+], _gdiplus_FUNC_IsCanonicalPixelFormat_, gdiplus._gdiplus_FUNC_IsCanonicalPixelFormat_, gdipluspixelformats/IsCanonicalPixelFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IsCanonicalPixelFormat
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.1
 ---
 

@@ -4,17 +4,16 @@ title: IInkCollector::get_MouseIcon
 author: windows-sdk-content
 description: Gets or sets the custom mouse icon.
 old-location: tablet\inkcollector_mouseicon.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 9c7f879a-1b6c-4bd0-8dc1-82f23ace57c4
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 9c7f879a-1b6c-4bd0-8dc1-82f23ace57c4, IInkCollector interface [Tablet PC],MouseIcon property, IInkCollector.MouseIcon, IInkCollector.get_MouseIcon, IInkCollector::MouseIcon, IInkCollector::get_MouseIcon, IInkCollector::putref_MouseIcon, InkCollector.get_MouseIcon, MouseIcon property [Tablet PC], MouseIcon property [Tablet PC],IInkCollector interface, get_MouseIcon, msinkaut/IInkCollector::MouseIcon, msinkaut/IInkCollector::get_MouseIcon, msinkaut/IInkCollector::putref_MouseIcon, put_MouseIcon, tablet.inkcollector_mouseicon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - InkCollector.get_MouseIcon
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkCollector::get_MouseIcon

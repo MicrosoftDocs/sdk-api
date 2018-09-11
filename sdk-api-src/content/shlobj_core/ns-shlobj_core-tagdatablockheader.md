@@ -4,17 +4,16 @@ title: tagDATABLOCKHEADER
 author: windows-sdk-content
 description: Serves as the header for some of the extra data structures used by IShellLinkDataList.
 old-location: shell\DATABLOCK_HEADER_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 06de45c2-8cb5-45e3-9639-d4625c24d27b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPDATABLOCK_HEADER, *LPDBLIST, DATABLOCK_HEADER, DATABLOCK_HEADER structure [Windows Shell], LPDATABLOCK_HEADER, LPDATABLOCK_HEADER structure pointer [Windows Shell], LPDBLIST, LPDBLIST structure pointer [Windows Shell], _win32_DATABLOCK_HEADER_str, shell.DATABLOCK_HEADER_str, shlobj_core/DATABLOCK_HEADER, shlobj_core/LPDATABLOCK_HEADER, shlobj_core/LPDBLIST, tagDATABLOCKHEADER"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DATABLOCK_HEADER, *LPDATABLOCK_HEADER, *LPDBLIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DATABLOCK_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: DATABLOCK_HEADER, *LPDATABLOCK_HEADER, *LPDBLIST
+req.redist: 
 ---
 
 # tagDATABLOCKHEADER structure

@@ -4,17 +4,16 @@ title: RasEapGetInfo function
 author: windows-sdk-content
 description: The RAS connection manager calls RasEapGetInfo to obtain a set of function pointers for a specified authentication protocol.
 old-location: eap\raseapgetinfo.htm
-old-project: eap
+tech.root: eap
 ms.assetid: e75964b9-f5d6-494e-8620-07f0e97bcd09
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RasEapGetInfo, RasEapGetInfo callback, RasEapGetInfo callback function [EAP], _eap_raseapgetinfo, eap.raseapgetinfo, raseapif/RasEapGetInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: raseapif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_AUTH_ATTRIBUTE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RasEapGetInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasEapGetInfo function

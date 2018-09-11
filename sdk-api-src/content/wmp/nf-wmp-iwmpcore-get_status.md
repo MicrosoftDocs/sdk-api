@@ -4,17 +4,16 @@ title: IWMPCore::get_status
 author: windows-sdk-content
 description: The get_status method retrieves the status of Windows Media Player.
 old-location: wmp\iwmpcore_get_status.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: ee11cb36-4dd2-4fe4-84fd-b3fc11b13ae0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_status method, IWMPCore.get_status, IWMPCore::get_status, IWMPCoreget_status, get_status, get_status method [Windows Media Player], get_status method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_status, wmp/IWMPCore::get_status
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCore.get_status
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCore::get_status

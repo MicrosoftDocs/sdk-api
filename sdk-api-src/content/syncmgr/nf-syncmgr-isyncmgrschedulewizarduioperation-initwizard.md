@@ -4,17 +4,16 @@ title: ISyncMgrScheduleWizardUIOperation::InitWizard
 author: windows-sdk-content
 description: Initializes the sync schedule wizard.
 old-location: shell\ISyncMgrScheduleWizardUIOperation_InitWizard.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f88a9a13-6e07-400a-bb05-75b1267343a9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrScheduleWizardUIOperation interface [Windows Shell],InitWizard method, ISyncMgrScheduleWizardUIOperation.InitWizard, ISyncMgrScheduleWizardUIOperation::InitWizard, InitWizard, InitWizard method [Windows Shell], InitWizard method [Windows Shell],ISyncMgrScheduleWizardUIOperation interface, _shell_ISyncMgrScheduleWizardUIOperation_InitWizard, shell.ISyncMgrScheduleWizardUIOperation_InitWizard, syncmgr/ISyncMgrScheduleWizardUIOperation::InitWizard
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrScheduleWizardUIOperation.InitWizard
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrScheduleWizardUIOperation::InitWizard

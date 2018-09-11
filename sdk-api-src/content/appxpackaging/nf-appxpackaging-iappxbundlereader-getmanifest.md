@@ -4,17 +4,16 @@ title: IAppxBundleReader::GetManifest
 author: windows-sdk-content
 description: Retrieves a read-only manifest object from the bundle.
 old-location: appxpkg\iappxbundlereader_getmanifest.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: C9D80910-8609-45D9-A3EC-05A033A36A4F
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetManifest, GetManifest method [App packaging and management], GetManifest method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetManifest method, IAppxBundleReader.GetManifest, IAppxBundleReader::GetManifest, appxpackaging/IAppxBundleReader::GetManifest, appxpkg.iappxbundlereader_getmanifest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxBundleReader.GetManifest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxBundleReader::GetManifest

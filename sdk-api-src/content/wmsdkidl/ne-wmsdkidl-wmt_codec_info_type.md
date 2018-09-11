@@ -4,7 +4,7 @@ title: WMT_CODEC_INFO_TYPE
 author: windows-sdk-content
 description: The WMT_CODEC_INFO_TYPE enumeration type defines the broad categories of codecs supported by this SDK.
 old-location: wmformat\wmt_codec_info_type.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 31fcaa84-1b7e-407c-95dc-bf13263b788a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMT_CODEC_INFO_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMT_CODEC_INFO_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMT_CODEC_INFO_TYPE
+req.redist: 
 ---
 
 # WMT_CODEC_INFO_TYPE enumeration

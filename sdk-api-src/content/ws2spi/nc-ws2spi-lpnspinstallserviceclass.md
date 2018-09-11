@@ -4,17 +4,16 @@ title: LPNSPINSTALLSERVICECLASS
 author: windows-sdk-content
 description: The NSPInstallServiceClass function registers service class schema within the namespace providers.
 old-location: winsock\nspinstallserviceclass_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 437a3580-e296-4f20-8921-84e522cccc1a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: LPNSPINSTALLSERVICECLASS, NSPInstallServiceClass, NSPInstallServiceClass function [Winsock], _win32_nspinstallserviceclass_2, winsock.nspinstallserviceclass_2, ws2spi/NSPInstallServiceClass
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKADDR_INET, *PSOCKADDR_INET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NSPInstallServiceClass
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # LPNSPINSTALLSERVICECLASS callback function

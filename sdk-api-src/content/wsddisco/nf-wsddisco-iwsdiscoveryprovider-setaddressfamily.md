@@ -4,17 +4,16 @@ title: IWSDiscoveryProvider::SetAddressFamily
 author: windows-sdk-content
 description: Specifies the IP address family (IPv4, IPv6, or both) to search when discovering WSD devices.
 old-location: ncd\iwsdiscoveryprovider_setaddressfamily.htm
-old-project: wsdapi
+tech.root: WsdApi
 ms.assetid: 33b13cd5-ea60-4928-a220-db563c00a43c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDiscoveryProvider interface,SetAddressFamily method, IWSDiscoveryProvider.SetAddressFamily, IWSDiscoveryProvider::SetAddressFamily, SetAddressFamily, SetAddressFamily method, SetAddressFamily method,IWSDiscoveryProvider interface, WSDAPI_ADDRESSFAMILY_IPV4, WSDAPI_ADDRESSFAMILY_IPV4 | WSDAPI_ADDRESSFAMILY_IPV6, WSDAPI_ADDRESSFAMILY_IPV6, ncd.iwsdiscoveryprovider_setaddressfamily, wsddisco/IWSDiscoveryProvider::SetAddressFamily
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDiscoveryProvider.SetAddressFamily
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDiscoveryProvider::SetAddressFamily

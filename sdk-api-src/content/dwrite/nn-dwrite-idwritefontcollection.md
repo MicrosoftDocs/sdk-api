@@ -4,17 +4,16 @@ title: IDWriteFontCollection
 author: windows-sdk-content
 description: An object that encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory.
 old-location: directwrite\IDWriteFontCollection.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 2ca7e2d3-d66a-4c57-8fbe-15a5232c3506
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteFontCollection, IDWriteFontCollection interface [Direct Write], IDWriteFontCollection interface [Direct Write],described, directwrite.IDWriteFontCollection, dwrite/IDWriteFontCollection
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontCollection
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontCollection interface

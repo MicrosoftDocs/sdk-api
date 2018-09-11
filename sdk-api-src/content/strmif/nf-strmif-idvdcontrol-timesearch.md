@@ -4,17 +4,16 @@ title: IDvdControl::TimeSearch
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current chapter and starts playback from the specified time in the same media file.
 old-location: dshow\idvdcontrol_timesearch.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c2e6848e-569e-44f0-b676-e22e4df07d8d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDvdControl interface [DirectShow],TimeSearch method, IDvdControl.TimeSearch, IDvdControl::TimeSearch, IDvdControlTimeSearch, TimeSearch, TimeSearch method [DirectShow], TimeSearch method [DirectShow],IDvdControl interface, dshow.idvdcontrol_timesearch, strmif/IDvdControl::TimeSearch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdControl.TimeSearch
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl::TimeSearch

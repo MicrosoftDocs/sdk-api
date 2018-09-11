@@ -4,17 +4,16 @@ title: OperationEnd function
 author: windows-sdk-content
 description: Notifies the system that the application is about to end an operation.
 old-location: oprec\operationend.htm
-old-project: oprec
+tech.root: oprec
 ms.assetid: 73C6FBDD-BB4A-46A5-8E39-7862A1938F47
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: OperationEnd, OperationEnd function [Operation Recorder], oprec.operationend, winbase/OperationEnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OperationEnd
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # OperationEnd function

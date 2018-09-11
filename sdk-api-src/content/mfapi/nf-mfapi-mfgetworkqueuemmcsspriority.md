@@ -4,17 +4,16 @@ title: MFGetWorkQueueMMCSSPriority function
 author: windows-sdk-content
 description: Gets the relative thread priority of a work queue.
 old-location: mf\mfgetworkqueuemmcsspriority.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8ADF4751-3BC5-4353-9927-C7E0079D0B83
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFGetWorkQueueMMCSSPriority, MFGetWorkQueueMMCSSPriority function [Media Foundation], mf.mfgetworkqueuemmcsspriority, mfapi/MFGetWorkQueueMMCSSPriority, mfplat/MFGetWorkQueueMMCSSPriority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: 
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFGetWorkQueueMMCSSPriority
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFGetWorkQueueMMCSSPriority function

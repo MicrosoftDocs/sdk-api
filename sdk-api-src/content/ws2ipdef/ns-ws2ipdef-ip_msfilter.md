@@ -4,17 +4,16 @@ title: ip_msfilter
 author: windows-sdk-content
 description: The ip_msfilter structure provides multicast filtering parameters for IPv4 addresses.
 old-location: winsock\ip_msfilter.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: 8d9d515e-9369-4d71-9614-6cbeb5557a5d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PIP_MSFILTER, IP_MSFILTER, IP_MSFILTER [Winsock], IP_MSFILTER structure [Winsock], PIP_MSFILTER, PIP_MSFILTER structure pointer [Winsock], ip_msfilter, ip_msfilter structure [Winsock], winsock.ip_msfilter, ws2ipdef/PIP_MSFILTER, ws2ipdef/ip_msfilter, ws2tcpip/PIP_MSFILTER, ws2tcpip/ip_msfilter"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_MSFILTER, *PIP_MSFILTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IP_MSFILTER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: IP_MSFILTER, *PIP_MSFILTER
+req.redist: 
 ---
 
 # ip_msfilter structure

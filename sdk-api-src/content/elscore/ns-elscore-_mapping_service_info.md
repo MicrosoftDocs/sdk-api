@@ -4,7 +4,7 @@ title: "_MAPPING_SERVICE_INFO"
 author: windows-sdk-content
 description: Contains information about an ELS service.
 old-location: intl\mappingserviceinfo.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 444102a7-0da9-44be-989e-7a5139320034
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: elscore.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MAPPING_SERVICE_INFO, *PMAPPING_SERVICE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MAPPING_SERVICE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: MAPPING_SERVICE_INFO, *PMAPPING_SERVICE_INFO
+req.redist: 
 ---
 
 # _MAPPING_SERVICE_INFO structure

@@ -4,7 +4,7 @@ title: ID3D12Fence1
 author: windows-sdk-content
 description: Represents a fence. This interface extends ID3D12Fence, and supports the retrieval of the flags used to create the original fence.
 old-location: direct3d12\id3d12fence1.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 292FA25B-7C72-4092-8822-DB15951A8309
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12Fence1
 product: Windows
 targetos: Windows
-req.lib: D3D12.lib
-req.dll: D3D12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12Fence1 interface

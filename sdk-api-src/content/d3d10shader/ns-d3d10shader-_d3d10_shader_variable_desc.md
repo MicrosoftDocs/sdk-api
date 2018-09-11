@@ -4,17 +4,16 @@ title: "_D3D10_SHADER_VARIABLE_DESC"
 author: windows-sdk-content
 description: Describes a shader variable.
 old-location: direct3d10\d3d10_shader_variable_desc.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_variable_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 93d99a1e-6d9e-3991-2e0b-086cd3eee8c0, D3D10_SHADER_VARIABLE_DESC, D3D10_SHADER_VARIABLE_DESC structure [Direct3D 10], _D3D10_SHADER_VARIABLE_DESC, d3d10shader/D3D10_SHADER_VARIABLE_DESC, direct3d10.d3d10_shader_variable_desc
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_SHADER_VARIABLE_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_SHADER_VARIABLE_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D10_SHADER_VARIABLE_DESC
+req.redist: 
 ---
 
 # _D3D10_SHADER_VARIABLE_DESC structure

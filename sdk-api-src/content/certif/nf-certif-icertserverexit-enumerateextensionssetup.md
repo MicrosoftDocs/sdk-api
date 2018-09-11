@@ -4,17 +4,16 @@ title: ICertServerExit::EnumerateExtensionsSetup
 author: windows-sdk-content
 description: Initializes the internal enumeration pointer to the first certificate extension associated with the current context.
 old-location: security\icertserverexit_enumerateextensionssetup.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 2a0c4919-b3a0-4027-85bd-970f6bc0cdeb
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertServerExit object [Security],EnumerateExtensionsSetup method, EnumerateExtensionsSetup, EnumerateExtensionsSetup method [Security], EnumerateExtensionsSetup method [Security],CCertServerExit object, EnumerateExtensionsSetup method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateExtensionsSetup method, ICertServerExit.EnumerateExtensionsSetup, ICertServerExit::EnumerateExtensionsSetup, _certsrv_icertserverexit_enumerateextensionssetup, certif/ICertServerExit::EnumerateExtensionsSetup, security.icertserverexit_enumerateextensionssetup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertServerExit.EnumerateExtensionsSetup
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertServerExit::EnumerateExtensionsSetup

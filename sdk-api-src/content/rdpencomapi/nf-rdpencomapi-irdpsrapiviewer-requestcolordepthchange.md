@@ -4,17 +4,16 @@ title: IRDPSRAPIViewer::RequestColorDepthChange
 author: windows-sdk-content
 description: Requests a color depth change on the sharer Winlogon user session.
 old-location: rdp\irdpsrapiviewer_requestcolordepthchange.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 3dd57235-89bb-4199-a95a-d8f522cda6a2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],RequestColorDepthChange method, IRDPSRAPIViewer.RequestColorDepthChange, IRDPSRAPIViewer::RequestColorDepthChange, RequestColorDepthChange, RequestColorDepthChange method [RDP], RequestColorDepthChange method [RDP],IRDPSRAPIViewer interface, rdp.irdpsrapiviewer_requestcolordepthchange, rdpencomapi/IRDPSRAPIViewer::RequestColorDepthChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPIViewer.RequestColorDepthChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIViewer::RequestColorDepthChange

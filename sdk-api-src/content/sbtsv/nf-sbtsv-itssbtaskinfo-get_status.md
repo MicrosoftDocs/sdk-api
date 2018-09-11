@@ -4,17 +4,16 @@ title: ITsSbTaskInfo::get_Status
 author: windows-sdk-content
 description: Retrieves an RDV_TASK_STATUS enumeration value that represents the state of the task.
 old-location: termserv\itssbtaskinfo_status.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 779af127-133c-47ff-8fca-bfd2c96c9768
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],Status property, ITsSbTaskInfo.Status, ITsSbTaskInfo.get_Status, ITsSbTaskInfo::Status, ITsSbTaskInfo::get_Status, Status property [Remote Desktop Services], Status property [Remote Desktop Services],ITsSbTaskInfo interface, get_Status, sbtsv/ITsSbTaskInfo::Status, sbtsv/ITsSbTaskInfo::get_Status, termserv.itssbtaskinfo_status
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbTaskInfo.get_Status
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbTaskInfo::get_Status

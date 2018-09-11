@@ -4,17 +4,16 @@ title: ISdoMachine::IsDirectoryAvailable
 author: windows-sdk-content
 description: The IsDirectoryAvailable method tests whether an Active Directory service is available on the SDO computer.
 old-location: nps\SDO_isdomachine_isdirectoryavailable.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 733d2911-7e1d-4f73-ae24-1bb748213c1c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ISdoMachine interface [Network Policy Server],IsDirectoryAvailable method, ISdoMachine.IsDirectoryAvailable, ISdoMachine::IsDirectoryAvailable, IsDirectoryAvailable, IsDirectoryAvailable method [Network Policy Server], IsDirectoryAvailable method [Network Policy Server],ISdoMachine interface, IsDirectoryAvailable method [Network Policy Server],SdoMachine object, SdoMachine object [Network Policy Server],IsDirectoryAvailable method, _sdo_isdomachine_isdirectoryavailable, nps.SDO_isdomachine_isdirectoryavailable, sdo.isdomachine_isdirectoryavailable, sdoias/ISdoMachine::IsDirectoryAvailable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VENDORPROPERTIES
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SdoMachine.IsDirectoryAvailable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Iassdo.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISdoMachine::IsDirectoryAvailable

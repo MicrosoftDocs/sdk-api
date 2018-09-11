@@ -4,17 +4,16 @@ title: VerLanguageNameA function
 author: windows-sdk-content
 description: Retrieves a description string for the language associated with a specified binary Microsoft language identifier.
 old-location: menurc\verlanguagename.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verlanguagename.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: VerLanguageName, VerLanguageName function [Menus and Other Resources], VerLanguageNameA, VerLanguageNameW, _win32_VerLanguageName, _win32_verlanguagename_cpp, menurc.verlanguagename, winui._win32_verlanguagename, winver/VerLanguageName, winver/VerLanguageNameA, winver/VerLanguageNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winver.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICONINFOEXW, *PICONINFOEXW
+req.lib: Mincore.lib
+req.dll: Api-ms-win-core-localization-l1-2-1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - VerLanguageNameW
 product: Windows
 targetos: Windows
-req.lib: Mincore.lib
-req.dll: Api-ms-win-core-localization-l1-2-1.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # VerLanguageNameA function

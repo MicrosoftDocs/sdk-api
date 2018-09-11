@@ -4,17 +4,16 @@ title: ISCTE_EAS::GetDetailsOOBSourceID
 author: windows-sdk-content
 description: The GetDetailsOOBSourceID method returns the source identifier of the virtual details channel for the emergency alert.
 old-location: mstv\iscte_eas_getdetailsoobsourceid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 50bf2acd-87e1-4b64-bf98-997603d56a0a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDetailsOOBSourceID, GetDetailsOOBSourceID method [Microsoft TV Technologies], GetDetailsOOBSourceID method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsOOBSourceID method, ISCTE_EAS.GetDetailsOOBSourceID, ISCTE_EAS::GetDetailsOOBSourceID, ISCTE_EASGetDetailsOOBSourceID, atscpsipparser/ISCTE_EAS::GetDetailsOOBSourceID, mstv.iscte_eas_getdetailsoobsourceid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISCTE_EAS.GetDetailsOOBSourceID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISCTE_EAS::GetDetailsOOBSourceID

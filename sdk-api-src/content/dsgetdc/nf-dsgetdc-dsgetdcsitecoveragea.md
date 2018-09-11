@@ -4,17 +4,16 @@ title: DsGetDcSiteCoverageA function
 author: windows-sdk-content
 description: The DsGetDcSiteCoverage function returns the site names of all sites covered by a domain controller.
 old-location: ad\dsgetdcsitecoverage.htm
-old-project: ad
+tech.root: ad
 ms.assetid: e0f757d9-36b6-40f8-a1db-fb5b9862b46a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsGetDcSiteCoverage, DsGetDcSiteCoverage function [Active Directory], DsGetDcSiteCoverageA, DsGetDcSiteCoverageW, _glines_dsgetdcsitecoverage, ad.dsgetdcsitecoverage, dsgetdc/DsGetDcSiteCoverage, dsgetdc/DsGetDcSiteCoverageA, dsgetdc/DsGetDcSiteCoverageW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - DsGetDcSiteCoverageW
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DsGetDcSiteCoverageA function
@@ -80,7 +79,7 @@ Pointer to an array of pointers to null-terminated strings that receives the sit
 
 
 
-This function returns DSGETDCAPI DWORD __stdcall.
+This function returns DSGETDCAPI DWORD.
 
 
 

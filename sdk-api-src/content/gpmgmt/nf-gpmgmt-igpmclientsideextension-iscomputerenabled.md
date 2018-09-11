@@ -4,17 +4,16 @@ title: IGPMClientSideExtension::IsComputerEnabled
 author: windows-sdk-content
 description: Checks whether the client-side extension can be called during the processing of computer policy.
 old-location: gpmc\igpmclientsideextension_iscomputerenabled.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: c15ca1b0-f744-426e-a54f-402eef461227
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMClientSideExtension object [GPMC],IsComputerEnabled method, IGPMClientSideExtension interface [GPMC],IsComputerEnabled method, IGPMClientSideExtension.IsComputerEnabled, IGPMClientSideExtension::IsComputerEnabled, IsComputerEnabled, IsComputerEnabled method [GPMC], IsComputerEnabled method [GPMC],GPMClientSideExtension object, IsComputerEnabled method [GPMC],IGPMClientSideExtension interface, _win32_igpmclientsideextension_iscomputerenabled, gpmc.igpmclientsideextension_iscomputerenabled, gpmgmt/IGPMClientSideExtension::IsComputerEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMClientSideExtension.IsComputerEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMClientSideExtension::IsComputerEnabled

@@ -4,17 +4,16 @@ title: IServiceSysTxnConfig
 author: windows-sdk-content
 description: Enables you to run a set of code in the scope of an existing transaction that you specify with a transaction proxy.
 old-location: cos\iservicesystxnconfig.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 8e721496-fc2b-46b8-ae28-432da6c429e6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IServiceSysTxnConfig, IServiceSysTxnConfig interface [COM+], IServiceSysTxnConfig interface [COM+],described, comsvcs/IServiceSysTxnConfig, cos.iservicesystxnconfig
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceSysTxnConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceSysTxnConfig interface

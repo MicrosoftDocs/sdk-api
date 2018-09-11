@@ -4,17 +4,16 @@ title: MI_Application_NewOperationOptions function
 author: windows-sdk-content
 description: Creates an MI_OperationOptions object that can be used with the operation functions on the MI_Session object.
 old-location: wmi_v2\mi_application_newoperationoptions.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: 0b9f569b-bb32-4393-9fd2-9d5d601c2214
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: MI_Application_NewOperationOptions, MI_Application_NewOperationOptions function [Windows Management Infrastructure (MI)], mi/MI_Application_NewOperationOptions, wmi_v2.mi_application_newoperationoptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 
-req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_Type
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_Application_NewOperationOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ---
 
 # MI_Application_NewOperationOptions function

@@ -4,17 +4,16 @@ title: IObjectConstruct
 author: windows-sdk-content
 description: Controls the object construction process by passing in parameters from other methods or objects.
 old-location: cos\iobjectconstruct.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 3fc84c37-f38d-4ff1-bdb1-f5d298802b64
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IObjectConstruct, IObjectConstruct interface [COM+], IObjectConstruct interface [COM+],described, _cos_IObjectConstruct, comsvcs/IObjectConstruct, cos.iobjectconstruct
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectConstruct
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectConstruct interface

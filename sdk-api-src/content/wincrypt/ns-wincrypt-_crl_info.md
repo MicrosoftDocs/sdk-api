@@ -4,17 +4,16 @@ title: "_CRL_INFO"
 author: windows-sdk-content
 description: Contains the information of a certificate revocation list (CRL).
 old-location: security\crl_info.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 06a28de3-dd7c-4efe-9baa-20aac69d63f3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRL_INFO, CRL_INFO, CRL_INFO structure [Security], CRL_V1, CRL_V2, PCRL_INFO, PCRL_INFO structure pointer [Security], _CRL_INFO, _crypto2_crl_info, security.crl_info, wincrypt/CRL_INFO, wincrypt/PCRL_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRL_INFO, *PCRL_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRL_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRL_INFO, *PCRL_INFO
+req.redist: 
 ---
 
 # _CRL_INFO structure

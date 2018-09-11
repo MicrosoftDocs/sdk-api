@@ -4,17 +4,16 @@ title: IVPBaseConfig::GetOverlaySurface
 author: windows-sdk-content
 description: The GetOverlaySurface method queries whether the caller should use the driver's overlay surface. If so, the method returns a pointer to the surface.
 old-location: dshow\ivpbaseconfig_getoverlaysurface.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a4d4b63f-b84c-4831-b16e-c0042b54a215
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetOverlaySurface, GetOverlaySurface method [DirectShow], GetOverlaySurface method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetOverlaySurface method, IVPBaseConfig.GetOverlaySurface, IVPBaseConfig::GetOverlaySurface, IVPBaseConfigGetOverlaySurface, dshow.ivpbaseconfig_getoverlaysurface, vpconfig/IVPBaseConfig::GetOverlaySurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vpconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9VideoStreamInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVPBaseConfig.GetOverlaySurface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVPBaseConfig::GetOverlaySurface

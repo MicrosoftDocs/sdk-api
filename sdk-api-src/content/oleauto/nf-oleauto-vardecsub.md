@@ -4,17 +4,16 @@ title: VarDecSub function
 author: windows-sdk-content
 description: Subtracts two variants of type decimal.
 old-location: automat\vardecsub.htm
-old-project: automat
+tech.root: automat
 ms.assetid: d4d25d47-6b8b-4d06-8698-bd9b4d1d8e8c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarDecSub, VarDecSub function [Automation], _oa96_VarDecSub, automat.vardecsub, oleauto/VarDecSub
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarDecSub
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarDecSub function

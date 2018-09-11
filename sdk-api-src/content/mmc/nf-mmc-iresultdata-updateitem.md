@@ -4,17 +4,16 @@ title: IResultData::UpdateItem
 author: windows-sdk-content
 description: Causes a specified item in the result pane to be redrawn.
 old-location: mmc\iresultdata_updateitem.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 6d335375-42b2-4f0a-a828-7ee636452db0
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IResultData interface [MMC],UpdateItem method, IResultData.UpdateItem, IResultData2 interface [MMC],UpdateItem method, IResultData2::UpdateItem, IResultData::UpdateItem, UpdateItem, UpdateItem method [MMC], UpdateItem method [MMC],IResultData interface, UpdateItem method [MMC],IResultData2 interface, _slate_iresultdata_updateitem, mmc.iresultdata_updateitem, mmc/IResultData2::UpdateItem, mmc/IResultData::UpdateItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IResultData2.UpdateItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IResultData::UpdateItem

@@ -4,17 +4,16 @@ title: ILockBytes::Flush
 author: windows-sdk-content
 description: The Flush method ensures that any internal buffers maintained by the ILockBytes implementation are written out to the underlying physical storage.
 old-location: stg\ilockbytes_flush.htm
-old-project: stg
+tech.root: Stg
 ms.assetid: 9396c44f-ad76-49f4-9796-d29570466a27
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Flush, Flush method [Structured Storage], Flush method [Structured Storage],ILockBytes interface, ILockBytes interface [Structured Storage],Flush method, ILockBytes.Flush, ILockBytes::Flush, _stg_ilockbytes_flush, objidl/ILockBytes::Flush, stg.ilockbytes_flush
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILockBytes.Flush
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ILockBytes::Flush

@@ -4,17 +4,16 @@ title: ITuner::get_TuningSpace
 author: windows-sdk-content
 description: The get_TuningSpace method gets the tuning space currently in effect for the Network Provider.
 old-location: mstv\ituner_get_tuningspace.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 01b6a280-d489-4b4f-ae87-17c9b9bb2838
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],get_TuningSpace method, ITuner.get_TuningSpace, ITuner::get_TuningSpace, ITunerget_TuningSpace, get_TuningSpace, get_TuningSpace method [Microsoft TV Technologies], get_TuningSpace method [Microsoft TV Technologies],ITuner interface, mstv.ituner_get_tuningspace, tuner/ITuner::get_TuningSpace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITuner.get_TuningSpace
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITuner::get_TuningSpace
@@ -65,7 +63,7 @@ The <b>get_TuningSpace</b> method gets the tuning space currently in effect for 
 
 ### -param TuningSpace
 
-
+TBD
 
 
 

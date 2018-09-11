@@ -4,17 +4,16 @@ title: IEnumSpellingError::Next
 author: windows-sdk-content
 description: Gets the next spelling error.
 old-location: intl\ienumspellingerror_next.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: c0fba585-2511-4162-8232-4e0510dc9261
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IEnumSpellingError interface [Internationalization for Windows Applications],Next method, IEnumSpellingError.Next, IEnumSpellingError::Next, Next, Next method [Internationalization for Windows Applications], Next method [Internationalization for Windows Applications],IEnumSpellingError interface, intl.ienumspellingerror_next, spellcheck/IEnumSpellingError::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumSpellingError.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumSpellingError::Next

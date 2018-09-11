@@ -4,17 +4,16 @@ title: "_DXGI_RECLAIM_RESOURCE_RESULTS"
 author: windows-sdk-content
 description: Specifies result flags for the ReclaimResources1 method.
 old-location: direct3ddxgi\dxgi_reclaim_resource_results.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: AF7082A5-6280-4602-9944-EC2DFF91BBB9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: DXGI_RECLAIM_RESOURCE_RESULTS, DXGI_RECLAIM_RESOURCE_RESULTS enumeration [DXGI], DXGI_RECLAIM_RESOURCE_RESULT_DISCARDED, DXGI_RECLAIM_RESOURCE_RESULT_NOT_COMMITTED, DXGI_RECLAIM_RESOURCE_RESULT_OK, _DXGI_RECLAIM_RESOURCE_RESULTS, direct3ddxgi.dxgi_reclaim_resource_results, dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULTS, dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULT_DISCARDED, dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULT_NOT_COMMITTED, dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULT_OK
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_5.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_RECLAIM_RESOURCE_RESULTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_RECLAIM_RESOURCE_RESULTS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_RECLAIM_RESOURCE_RESULTS
+req.redist: 
 ---
 
 # _DXGI_RECLAIM_RESOURCE_RESULTS enumeration

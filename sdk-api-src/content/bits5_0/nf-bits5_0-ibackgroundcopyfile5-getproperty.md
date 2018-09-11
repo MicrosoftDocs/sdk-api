@@ -4,17 +4,16 @@ title: IBackgroundCopyFile5::GetProperty
 author: windows-sdk-content
 description: Gets a generic property of a BITS file transfer.
 old-location: bits\ibackgroundcopyfile5_getproperty.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 7afe4d11-f611-40ea-be94-7825f95576de
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetProperty, GetProperty method [BITS], GetProperty method [BITS],IBackgroundCopyFile5 interface, IBackgroundCopyFile5 interface [BITS],GetProperty method, IBackgroundCopyFile5.GetProperty, IBackgroundCopyFile5::GetProperty, bits.ibackgroundcopyfile5_getproperty, bits5_0/IBackgroundCopyFile5::GetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits5_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITS_FILE_PROPERTY_ID
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBackgroundCopyFile5.GetProperty
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyFile5::GetProperty

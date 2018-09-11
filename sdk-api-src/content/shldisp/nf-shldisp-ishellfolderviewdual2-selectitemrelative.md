@@ -4,17 +4,16 @@ title: IShellFolderViewDual2::SelectItemRelative
 author: windows-sdk-content
 description: Selects an item relative to the current item.
 old-location: shell\IShellFolderViewDual2_SelectItemRelative.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 421a039e-49d6-4a93-958a-48c7e847fa6b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellFolderViewDual2 interface [Windows Shell],SelectItemRelative method, IShellFolderViewDual2.SelectItemRelative, IShellFolderViewDual2::SelectItemRelative, SelectItemRelative, SelectItemRelative method [Windows Shell], SelectItemRelative method [Windows Shell],IShellFolderViewDual2 interface, _shell_IShellFolderViewDual2_SelectItemRelative, shell.IShellFolderViewDual2_SelectItemRelative, shldisp/IShellFolderViewDual2::SelectItemRelative
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderViewDual2.SelectItemRelative
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderViewDual2::SelectItemRelative

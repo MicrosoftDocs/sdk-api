@@ -4,17 +4,16 @@ title: DhcpCApiCleanup function
 author: windows-sdk-content
 description: The DhcpCApiCleanup function enables DHCP to properly clean up resources allocated throughout the use of DHCP function calls. The DhcpCApiCleanup function must only be called if a previous call to DhcpCApiInitialize executed successfully.
 old-location: dhcp\dhcpcapicleanup.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: c1da731c-2e06-40ae-b104-25f144d50c36
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpCApiCleanup, DhcpCApiCleanup function [DHCP], _dhcp_dhcpcapicleanup, dhcp.dhcpcapicleanup, dhcpcsdk/DhcpCApiCleanup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpcsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSJACK_DESCRIPTION, *PKSJACK_DESCRIPTION
+req.lib: Dhcpcsvc.lib
+req.dll: Dhcpcsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpCApiCleanup
 product: Windows
 targetos: Windows
-req.lib: Dhcpcsvc.lib
-req.dll: Dhcpcsvc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpCApiCleanup function

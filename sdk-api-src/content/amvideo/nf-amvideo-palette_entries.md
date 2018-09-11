@@ -4,17 +4,16 @@ title: PALETTE_ENTRIES macro
 author: windows-sdk-content
 description: The PALETTE_ENTRIES macro retrieves the maximum number of colors in the palette of a specified bitmap.
 old-location: dshow\palette_entries.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7923b767-2b38-4aa8-bbc2-21d0254bdbd9
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: PALETTE_ENTRIES, PALETTE_ENTRIES macro [DirectShow], amvideo/PALETTE_ENTRIES, dshow.palette_entries
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PALETTE_ENTRIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PALETTE_ENTRIES macro

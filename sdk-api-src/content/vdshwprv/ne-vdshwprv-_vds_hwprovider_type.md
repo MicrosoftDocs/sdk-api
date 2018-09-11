@@ -4,17 +4,16 @@ title: "_VDS_HWPROVIDER_TYPE"
 author: windows-sdk-content
 description: Defines the set of valid types for a hardware provider.
 old-location: base\vds_hwprovider_type.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: b16cc14b-4aef-43ec-9232-a95de06f1194
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_HWPROVIDER_TYPE, VDS_HWPROVIDER_TYPE enumeration [VDS], VDS_HWT_FIBRE_CHANNEL, VDS_HWT_HYBRID, VDS_HWT_ISCSI, VDS_HWT_PCI_RAID, VDS_HWT_SAS, VDS_HWT_UNKNOWN, _VDS_HWPROVIDER_TYPE, base.vds_hwprovider_type, vds/VDS_HWPROVIDER_TYPE, vds/VDS_HWT_FIBRE_CHANNEL, vds/VDS_HWT_HYBRID, vds/VDS_HWT_ISCSI, vds/VDS_HWT_PCI_RAID, vds/VDS_HWT_SAS, vds/VDS_HWT_UNKNOWN, vdshwprv/VDS_HWPROVIDER_TYPE, vdshwprv/VDS_HWT_FIBRE_CHANNEL, vdshwprv/VDS_HWT_HYBRID, vdshwprv/VDS_HWT_ISCSI, vdshwprv/VDS_HWT_PCI_RAID, vdshwprv/VDS_HWT_SAS, vdshwprv/VDS_HWT_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_HWPROVIDER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_HWPROVIDER_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_HWPROVIDER_TYPE
+req.redist: VDS 1.1
 ---
 
 # _VDS_HWPROVIDER_TYPE enumeration

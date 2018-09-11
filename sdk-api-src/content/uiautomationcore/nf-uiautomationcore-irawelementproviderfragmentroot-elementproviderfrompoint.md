@@ -4,17 +4,16 @@ title: IRawElementProviderFragmentRoot::ElementProviderFromPoint
 author: windows-sdk-content
 description: Retrieves the provider of the element that is at the specified point in this fragment.
 old-location: winauto\uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 469149c7-8c2c-468c-b7cc-6d849de427f1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ElementProviderFromPoint, ElementProviderFromPoint method [Windows Accessibility], ElementProviderFromPoint method [Windows Accessibility],IRawElementProviderFragmentRoot interface, IRawElementProviderFragmentRoot interface [Windows Accessibility],ElementProviderFromPoint method, IRawElementProviderFragmentRoot.ElementProviderFromPoint, IRawElementProviderFragmentRoot::ElementProviderFromPoint, uiauto.uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint, uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint, uiautomationcore/IRawElementProviderFragmentRoot::ElementProviderFromPoint, winauto.uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawElementProviderFragmentRoot.ElementProviderFromPoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRawElementProviderFragmentRoot::ElementProviderFromPoint

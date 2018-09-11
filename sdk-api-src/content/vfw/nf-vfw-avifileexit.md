@@ -4,17 +4,16 @@ title: AVIFileExit function
 author: windows-sdk-content
 description: The AVIFileExit function exits the AVIFile library and decrements the reference count for the library.
 old-location: multimedia\avifileexit.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 2daa509a-9e95-4f49-8195-97d3e7cd17b4
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIFileExit, AVIFileExit function [Windows Multimedia], _win32_AVIFileExit, multimedia.avifileexit, vfw/AVIFileExit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - AVIFileExit
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIFileExit function

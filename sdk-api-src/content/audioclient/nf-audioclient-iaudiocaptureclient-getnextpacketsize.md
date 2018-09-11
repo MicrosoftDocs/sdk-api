@@ -4,17 +4,16 @@ title: IAudioCaptureClient::GetNextPacketSize
 author: windows-sdk-content
 description: The GetNextPacketSize method retrieves the number of frames in the next data packet in the capture endpoint buffer.
 old-location: coreaudio\iaudiocaptureclient_getnextpacketsize.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 352dcd7d-a7e1-493f-b9ce-c125f9d45fa8
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetNextPacketSize, GetNextPacketSize method [Core Audio], GetNextPacketSize method [Core Audio],IAudioCaptureClient interface, IAudioCaptureClient interface [Core Audio],GetNextPacketSize method, IAudioCaptureClient.GetNextPacketSize, IAudioCaptureClient::GetNextPacketSize, IAudioCaptureClientGetNextPacketSize, audioclient/IAudioCaptureClient::GetNextPacketSize, coreaudio.iaudiocaptureclient_getnextpacketsize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioCaptureClient.GetNextPacketSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioCaptureClient::GetNextPacketSize

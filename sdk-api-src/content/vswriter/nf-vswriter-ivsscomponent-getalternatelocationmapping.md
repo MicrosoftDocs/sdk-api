@@ -4,17 +4,16 @@ title: IVssComponent::GetAlternateLocationMapping
 author: windows-sdk-content
 description: The GetAlternateLocationMapping is used to return a file set's alternate location for file restoration. This method can be called by either a writer or a requester.
 old-location: base\ivsscomponent_getalternatelocationmapping.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 8c6537eb-67ba-4d6a-ac86-44da176ef5c5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetAlternateLocationMapping, GetAlternateLocationMapping method [VSS], GetAlternateLocationMapping method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetAlternateLocationMapping method, IVssComponent.GetAlternateLocationMapping, IVssComponent::GetAlternateLocationMapping, _win32_ivsscomponent_getalternatelocationmapping, base.ivsscomponent_getalternatelocationmapping, vswriter/IVssComponent::GetAlternateLocationMapping
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssComponent.GetAlternateLocationMapping
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponent::GetAlternateLocationMapping
@@ -71,7 +69,7 @@ Index of a particular mapping. The value of this parameter is an integer from 0
 
 ### -param ppFiledesc
 
-
+TBD
 
 
 

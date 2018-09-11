@@ -4,17 +4,16 @@ title: IFolderView::SetCurrentViewMode
 author: windows-sdk-content
 description: Sets the selected folder's view mode.
 old-location: shell\IFolderView_SetCurrentViewMode.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7ca42567-7bb9-41e1-8f2a-5f6d0309c636
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: FVM_DETAILS, FVM_ICON, FVM_LIST, FVM_SMALLICON, FVM_THUMBNAIL, FVM_THUMBSTRIP, FVM_TILE, IFolderView interface [Windows Shell],SetCurrentViewMode method, IFolderView.SetCurrentViewMode, IFolderView::SetCurrentViewMode, SetCurrentViewMode, SetCurrentViewMode method [Windows Shell], SetCurrentViewMode method [Windows Shell],IFolderView interface, _shell_IFolderView_SetCurrentViewMode, shell.IFolderView_SetCurrentViewMode, shobjidl_core/IFolderView::SetCurrentViewMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderView.SetCurrentViewMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderView::SetCurrentViewMode

@@ -4,7 +4,7 @@ title: tagINTERFACEDATA
 author: windows-sdk-content
 description: Describes the object's properties and methods.
 old-location: automat\interfacedata.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 3eafe5ba-45d9-4b0d-b3f8-68f5e99df5bb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERFACEDATA, *LPINTERFACEDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERFACEDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: INTERFACEDATA, *LPINTERFACEDATA
+req.redist: 
 ---
 
 # tagINTERFACEDATA structure

@@ -4,17 +4,16 @@ title: IFsrmClassifierModuleImplementation::get_LastModified
 author: windows-sdk-content
 description: The last time the classifier's internal rules were modified as a 64-bit FILETIME value.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_lastmodified.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: edda630a-947d-4c81-b4d5-c02b3ba02f10
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmAlwaysModified, FsrmNeverModified, IFsrmClassifierModuleImplementation interface [File Server Resource Manager],LastModified property, IFsrmClassifierModuleImplementation.LastModified, IFsrmClassifierModuleImplementation.get_LastModified, IFsrmClassifierModuleImplementation::LastModified, IFsrmClassifierModuleImplementation::get_LastModified, LastModified property [File Server Resource Manager], LastModified property [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, fs.ifsrmclassifiermoduleimplementation_lastmodified, fsrm.ifsrmclassifiermoduleimplementation_lastmodified, fsrmpipeline/IFsrmClassifierModuleImplementation::LastModified, fsrmpipeline/IFsrmClassifierModuleImplementation::get_LastModified, get_LastModified
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmClassifierModuleImplementation.get_LastModified
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassifierModuleImplementation::get_LastModified

@@ -4,17 +4,16 @@ title: IMediaObjectInPlace::Clone
 author: windows-sdk-content
 description: The Clone method creates a copy of the DMO in its current state.
 old-location: dshow\imediaobjectinplace_clone.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6660afa8-3502-4e88-925b-192e06346243
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IMediaObjectInPlace interface, IMediaObjectInPlace interface [DirectShow],Clone method, IMediaObjectInPlace.Clone, IMediaObjectInPlace::Clone, IMediaObjectInPlaceClone, dshow.imediaobjectinplace_clone, mediaobj/IMediaObjectInPlace::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaObjectInPlace.Clone
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaObjectInPlace::Clone

@@ -4,17 +4,16 @@ title: FhServiceBlockBackup function
 author: windows-sdk-content
 description: This function temporarily blocks backups for the current user.
 old-location: winprog\fhserviceblockbackup.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 32B5E241-5A5F-4440-9B47-07D5849FA393
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FhServiceBlockBackup, FhServiceBlockBackup function [Windows API], fhsvcctl/FhServiceBlockBackup, winprog.fhserviceblockbackup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fhsvcctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.lib: FhSvcCtl.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FhServiceBlockBackup
 product: Windows
 targetos: Windows
-req.lib: FhSvcCtl.lib
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FhServiceBlockBackup function

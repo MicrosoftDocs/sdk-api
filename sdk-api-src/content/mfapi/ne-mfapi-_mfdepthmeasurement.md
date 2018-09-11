@@ -4,7 +4,7 @@ title: "_MFDepthMeasurement"
 author: windows-sdk-content
 description: Specifies the measurement system for a depth value in a video frame.
 old-location: mf\_mfdepthmeasurement.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: CCE34279-A52C-4F6E-9E8E-679F76187B3B
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFDepthMeasurement
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _MFDepthMeasurement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFDepthMeasurement
+req.redist: 
 ---
 
 # _MFDepthMeasurement enumeration

@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0005"
 author: windows-sdk-content
 description: Defines values for the type of access granted to the attendee for the channel.
 old-location: rdp\channel_access_enum.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 7d07954f-6514-4512-a934-6140de826ece
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CHANNEL_ACCESS_ENUM, CHANNEL_ACCESS_ENUM enumeration [RDP], CHANNEL_ACCESS_ENUM_NONE, CHANNEL_ACCESS_ENUM_SENDRECEIVE, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0005, rdp.channel_access_enum, rdpencomapi/CHANNEL_ACCESS_ENUM, rdpencomapi/CHANNEL_ACCESS_ENUM_NONE, rdpencomapi/CHANNEL_ACCESS_ENUM_SENDRECEIVE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -26,9 +25,10 @@ req.idl: Rdpencomapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: MsTscAx.dll
-tech.root: 
-req.typenames: CHANNEL_ACCESS_ENUM
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CHANNEL_ACCESS_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsTscAx.dll
-req.irql: 
-req.product: ADAM
+req.typenames: CHANNEL_ACCESS_ENUM
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_rdpencomapi_0000_0000_0005 enumeration

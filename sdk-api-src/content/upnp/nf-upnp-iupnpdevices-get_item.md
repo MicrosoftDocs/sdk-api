@@ -4,17 +4,16 @@ title: IUPnPDevices::get_Item
 author: windows-sdk-content
 description: The Item property specifies the IUPnPDevice interface for a device, identified by the UDN, in the collection.
 old-location: upnp\iupnpdevices_item.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 38648c9c-6d5a-4215-9270-fd1f893fa360
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPDevices interface [UPnP APIs],get_Item method, IUPnPDevices.get_Item, IUPnPDevices::get_Item, _upnp_iupnpdevices_item, get_Item, get_Item method [UPnP APIs], get_Item method [UPnP APIs],IUPnPDevices interface, upnp.iupnpdevices_item, upnp/IUPnPDevices::get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDevices.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDevices::get_Item

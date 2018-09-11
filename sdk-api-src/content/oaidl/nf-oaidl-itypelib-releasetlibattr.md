@@ -4,17 +4,16 @@ title: ITypeLib::ReleaseTLibAttr
 author: windows-sdk-content
 description: Releases the TLIBATTR originally obtained from GetLibAttr.
 old-location: automat\itypelib_releasetlibattr.htm
-old-project: automat
+tech.root: automat
 ms.assetid: a5b9ee66-ab66-4ad9-a6bf-93bd98e3905c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITypeLib interface [Automation],ReleaseTLibAttr method, ITypeLib.ReleaseTLibAttr, ITypeLib::ReleaseTLibAttr, ReleaseTLibAttr, ReleaseTLibAttr method [Automation], ReleaseTLibAttr method [Automation],ITypeLib interface, _oa96_ITypeLib_ReleaseTLibAttr, automat.itypelib_releasetlibattr, oaidl/ITypeLib::ReleaseTLibAttr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeLib.ReleaseTLibAttr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeLib::ReleaseTLibAttr

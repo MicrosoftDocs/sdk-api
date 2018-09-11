@@ -4,17 +4,16 @@ title: ScanLogContainers function
 author: windows-sdk-content
 description: Enumerates log containers. Call this function repeatedly to iterate over all log containers.
 old-location: fs\scanlogcontainers.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: a3a374ab-e5e9-47c0-9a62-d880823035b5
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: CLFS_SCAN_BACKWARD, CLFS_SCAN_CLOSE, CLFS_SCAN_FORWARD, CLFS_SCAN_INIT, ScanLogContainers, ScanLogContainers function [Files], clfsw32/ScanLogContainers, fs.scanlogcontainers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ScanLogContainers
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ScanLogContainers function

@@ -4,17 +4,16 @@ title: IOleInPlaceUIWindow::GetBorder
 author: windows-sdk-content
 description: Retrieves the outer rectange for toolbars and controls while the object is active in place.
 old-location: com\ioleinplaceuiwindow_getborder.htm
-old-project: com
+tech.root: com
 ms.assetid: 9ee9970a-b937-4538-b3b8-460647086db1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetBorder, GetBorder method [COM], GetBorder method [COM],IOleInPlaceUIWindow interface, IOleInPlaceUIWindow interface [COM],GetBorder method, IOleInPlaceUIWindow.GetBorder, IOleInPlaceUIWindow::GetBorder, _ole_ioleinplaceuiwindow_getborder, com.ioleinplaceuiwindow_getborder, oleidl/IOleInPlaceUIWindow::GetBorder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceUIWindow.GetBorder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceUIWindow::GetBorder

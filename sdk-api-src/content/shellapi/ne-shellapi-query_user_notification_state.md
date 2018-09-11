@@ -4,17 +4,16 @@ title: QUERY_USER_NOTIFICATION_STATE
 author: windows-sdk-content
 description: Specifies the state of the machine for the current user in relation to the propriety of sending a notification. Used by SHQueryUserNotificationState.
 old-location: shell\QUERY_USER_NOTIFICATION_STATE.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b26439dd-6695-45d8-8c7f-5bbd5eaf5b54
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: QUERY_USER_NOTIFICATION_STATE, QUERY_USER_NOTIFICATION_STATE enumeration [Windows Shell], QUNS_ACCEPTS_NOTIFICATIONS, QUNS_APP, QUNS_BUSY, QUNS_NOT_PRESENT, QUNS_PRESENTATION_MODE, QUNS_QUIET_TIME, QUNS_RUNNING_D3D_FULL_SCREEN, _shell_QUERY_USER_NOTIFICATION_STATE, shell.QUERY_USER_NOTIFICATION_STATE, shellapi/QUERY_USER_NOTIFICATION_STATE, shellapi/QUNS_ACCEPTS_NOTIFICATIONS, shellapi/QUNS_APP, shellapi/QUNS_BUSY, shellapi/QUNS_NOT_PRESENT, shellapi/QUNS_PRESENTATION_MODE, shellapi/QUNS_QUIET_TIME, shellapi/QUNS_RUNNING_D3D_FULL_SCREEN
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Shdeprecated.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QUERY_USER_NOTIFICATION_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QUERY_USER_NOTIFICATION_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: QUERY_USER_NOTIFICATION_STATE
+req.redist: 
 ---
 
 # QUERY_USER_NOTIFICATION_STATE enumeration

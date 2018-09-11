@@ -4,17 +4,16 @@ title: DhcpRequestParams function
 author: windows-sdk-content
 description: The DhcpRequestParams function enables callers to synchronously, or synchronously and persistently obtain DHCP data from a DHCP server.
 old-location: dhcp\dhcprequestparams.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 5fcbd1d9-8170-4c2b-ac98-6c04107c46e7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DHCPCAPI_REQUEST_PERSISTENT, DHCPCAPI_REQUEST_SYNCHRONOUS, DhcpRequestParams, DhcpRequestParams function [DHCP], _dhcp_dhcprequestparams, dhcp.dhcprequestparams, dhcpcsdk/DhcpRequestParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpcsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSJACK_DESCRIPTION, *PKSJACK_DESCRIPTION
+req.lib: Dhcpcsvc.lib
+req.dll: Dhcpcsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpRequestParams
 product: Windows
 targetos: Windows
-req.lib: Dhcpcsvc.lib
-req.dll: Dhcpcsvc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpRequestParams function

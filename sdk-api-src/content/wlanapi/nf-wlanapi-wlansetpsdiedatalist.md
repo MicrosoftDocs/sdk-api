@@ -4,17 +4,16 @@ title: WlanSetPsdIEDataList function
 author: windows-sdk-content
 description: Sets the proximity service discovery (PSD) information element (IE) data list.
 old-location: nwifi\wlansetpsdiedatalist.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: eea402d3-9a5f-4446-bf6c-9ab8430f9c60
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WlanSetPsdIEDataList, WlanSetPsdIEDataList function [NativeWIFI], nwifi.wlansetpsdiedatalist, wlanapi/WlanSetPsdIEDataList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
+req.lib: Wlanapi.lib
+req.dll: Wlanapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WlanSetPsdIEDataList
 product: Windows
 targetos: Windows
-req.lib: Wlanapi.lib
-req.dll: Wlanapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WlanSetPsdIEDataList function

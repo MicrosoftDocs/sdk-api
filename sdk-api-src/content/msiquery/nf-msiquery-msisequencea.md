@@ -4,17 +4,16 @@ title: MsiSequenceA function
 author: windows-sdk-content
 description: The MsiSequence function executes another action sequence, as described in the specified table.
 old-location: setup\msisequence.htm
-old-project: msi
+tech.root: msi
 ms.assetid: affb33ab-1b58-4d18-a908-8eaedb9ce1ca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MsiSequence, MsiSequence function, MsiSequenceA, MsiSequenceW, _msi_msisequence, msiquery/MsiSequence, msiquery/MsiSequenceA, msiquery/MsiSequenceW, setup.msisequence
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecoGuide
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MsiSequenceW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiSequenceA function
@@ -82,7 +80,7 @@ This parameter is currently unimplemented. It is reserved for future use and mus
 
 
 
-This function returns UINT __stdcall.
+This function returns UINT.
 
 
 

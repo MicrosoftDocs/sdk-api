@@ -4,17 +4,16 @@ title: IBDA_SignalStatistics::get_SignalQuality
 author: windows-sdk-content
 description: The get_SignalQuality method retrieves a value from 1 to 100 indicating the quality of the signal.
 old-location: mstv\ibda_signalstatistics_get_signalquality.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 2472a539-e8ee-4501-b7ab-e7e1fce7cea0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SignalQuality method, IBDA_SignalStatistics.get_SignalQuality, IBDA_SignalStatistics::get_SignalQuality, IBDA_SignalStatisticsget_SignalQuality, bdaiface/IBDA_SignalStatistics::get_SignalQuality, get_SignalQuality, get_SignalQuality method [Microsoft TV Technologies], get_SignalQuality method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_signalquality
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_SignalStatistics.get_SignalQuality
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_SignalStatistics::get_SignalQuality

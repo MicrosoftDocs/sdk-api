@@ -4,17 +4,16 @@ title: SetVirtualDiskMetadata function
 author: windows-sdk-content
 description: Sets a metadata item for a virtual disk.
 old-location: vstor\setvirtualdiskmetadata.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 27ee1529-ccd9-43ea-aed9-4fd32d793354
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SetVirtualDiskMetadata, SetVirtualDiskMetadata function [Virtual Storage], virtdisk/SetVirtualDiskMetadata, vstor.setvirtualdiskmetadata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIRTUAL_DISK_ACCESS_MASK
+req.lib: VirtDisk.lib
+req.dll: VirtDisk.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetVirtualDiskMetadata
 product: Windows
 targetos: Windows
-req.lib: VirtDisk.lib
-req.dll: VirtDisk.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # SetVirtualDiskMetadata function

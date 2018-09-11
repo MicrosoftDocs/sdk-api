@@ -4,17 +4,16 @@ title: IMemInputPin::GetAllocatorRequirements
 author: windows-sdk-content
 description: The GetAllocatorRequirements method retrieves the allocator properties requested by the input pin.
 old-location: dshow\imeminputpin_getallocatorrequirements.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 61e6ea4f-70cd-43d8-bbb7-76e041ee0eeb
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetAllocatorRequirements, GetAllocatorRequirements method [DirectShow], GetAllocatorRequirements method [DirectShow],IMemInputPin interface, IMemInputPin interface [DirectShow],GetAllocatorRequirements method, IMemInputPin.GetAllocatorRequirements, IMemInputPin::GetAllocatorRequirements, IMemInputPinGetAllocatorRequirements, dshow.imeminputpin_getallocatorrequirements, strmif/IMemInputPin::GetAllocatorRequirements
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMemInputPin.GetAllocatorRequirements
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMemInputPin::GetAllocatorRequirements

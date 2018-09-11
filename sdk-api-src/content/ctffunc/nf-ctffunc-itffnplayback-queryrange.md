@@ -4,17 +4,16 @@ title: ITfFnPlayBack::QueryRange
 author: windows-sdk-content
 description: ITfFnPlayBack::QueryRange method
 old-location: tsf\itffnplayback_queryrange.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: d6113703-5515-4f1a-8e2e-1373077dafc2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfFnPlayBack interface [Text Services Framework],QueryRange method, ITfFnPlayBack.QueryRange, ITfFnPlayBack::QueryRange, QueryRange, QueryRange method [Text Services Framework], QueryRange method [Text Services Framework],ITfFnPlayBack interface, _tsf_itffnplayback_queryrange_ref, ctffunc/ITfFnPlayBack::QueryRange, tsf.itffnplayback_queryrange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfFnPlayBack.QueryRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfFnPlayBack::QueryRange

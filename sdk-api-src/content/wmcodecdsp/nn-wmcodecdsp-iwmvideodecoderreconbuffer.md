@@ -4,7 +4,7 @@ title: IWMVideoDecoderReconBuffer
 author: windows-sdk-content
 description: Note  This interface is obsolete and should not be used. Manages reconstructed video frames.
 old-location: mf\iwmvideodecoderreconbufferinterface.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e2a4600e-3d55-42f1-804c-8dc5bdf5daec
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMVideoDecoderReconBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMVideoDecoderReconBuffer interface

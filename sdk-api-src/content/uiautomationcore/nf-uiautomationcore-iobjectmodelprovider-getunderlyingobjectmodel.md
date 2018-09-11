@@ -4,17 +4,16 @@ title: IObjectModelProvider::GetUnderlyingObjectModel
 author: windows-sdk-content
 description: Retrieves an interface used to access the underlying object model of the provider.
 old-location: winauto\uiauto_IObjectModelProvider_GetUnderlyingObjectModel.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 305758A1-D584-45A3-B118-B46B3731820D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetUnderlyingObjectModel, GetUnderlyingObjectModel method [Windows Accessibility], GetUnderlyingObjectModel method [Windows Accessibility],IObjectModelProvider interface, IObjectModelProvider interface [Windows Accessibility],GetUnderlyingObjectModel method, IObjectModelProvider.GetUnderlyingObjectModel, IObjectModelProvider::GetUnderlyingObjectModel, uiautomationcore/IObjectModelProvider::GetUnderlyingObjectModel, winauto.uiauto_IObjectModelProvider_GetUnderlyingObjectModel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjectModelProvider.GetUnderlyingObjectModel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectModelProvider::GetUnderlyingObjectModel

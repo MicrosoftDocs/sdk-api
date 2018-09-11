@@ -4,17 +4,16 @@ title: IInkD2DRenderer::Draw
 author: windows-sdk-content
 description: Renders the ink stroke to the designated Direct2D device context of the app.
 old-location: input_ink\iinkd2drenderer_draw.htm
-old-project: input_ink
+tech.root: input_ink
 ms.assetid: 013f3b95-d5da-44e3-b2da-64a49cc8908e
 ms.author: windowssdkdev
 ms.date: 07/16/2018
 ms.keywords: Draw, Draw method, Draw method,IInkD2DRenderer interface, IInkD2DRenderer interface,Draw method, IInkD2DRenderer.Draw, IInkD2DRenderer::Draw, inkrenderer/IInkD2DRenderer::Draw, input_ink.iinkd2drenderer_draw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inkrenderer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInkD2DRenderer.Draw
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkD2DRenderer::Draw

@@ -4,17 +4,16 @@ title: IMFCapturePhotoSink::SetOutputFileName
 author: windows-sdk-content
 description: Specifies the name of the output file for the still image.
 old-location: mf\imfcapturephotosink_setoutputfilename.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: CAA9F7CF-A92F-4039-BEA5-07A730E82EE4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFCapturePhotoSink interface [Media Foundation],SetOutputFileName method, IMFCapturePhotoSink.SetOutputFileName, IMFCapturePhotoSink::SetOutputFileName, SetOutputFileName, SetOutputFileName method [Media Foundation], SetOutputFileName method [Media Foundation],IMFCapturePhotoSink interface, mf.imfcapturephotosink_setoutputfilename, mfcaptureengine/IMFCapturePhotoSink::SetOutputFileName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCapturePhotoSink.SetOutputFileName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCapturePhotoSink::SetOutputFileName

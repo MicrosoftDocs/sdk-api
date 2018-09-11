@@ -4,17 +4,16 @@ title: ITaskbarList3::ThumbBarAddButtons
 author: windows-sdk-content
 description: Adds a thumbnail toolbar with a specified set of buttons to the thumbnail image of a window in a taskbar button flyout.
 old-location: shell\ITaskbarList3_ThumbBarAddButtons.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5d573879-aa90-41d9-a9b7-b813dafa78ae
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],ThumbBarAddButtons method, ITaskbarList3.ThumbBarAddButtons, ITaskbarList3::ThumbBarAddButtons, ThumbBarAddButtons, ThumbBarAddButtons method [Windows Shell], ThumbBarAddButtons method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_ThumbBarAddButtons, shell.ITaskbarList3_ThumbBarAddButtons, shobjidl_core/ITaskbarList3::ThumbBarAddButtons
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Explorerframe.lib
+req.dll: Explorerframe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskbarList3.ThumbBarAddButtons
 product: Windows
 targetos: Windows
-req.lib: Explorerframe.lib
-req.dll: Explorerframe.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskbarList3::ThumbBarAddButtons

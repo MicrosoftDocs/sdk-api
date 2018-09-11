@@ -4,17 +4,16 @@ title: IInkPicture::put_MarginX
 author: windows-sdk-content
 description: Gets or sets the x-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window.
 old-location: tablet\inkpicture_marginx.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: c463debc-341b-4491-8543-70623bf717d0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkPicture interface [Tablet PC],MarginX property, IInkPicture.MarginX, IInkPicture.put_MarginX, IInkPicture::MarginX, IInkPicture::get_MarginX, IInkPicture::put_MarginX, InkPicture.get_MarginX, InkPicture.put_MarginX, MarginX property [Tablet PC], MarginX property [Tablet PC],IInkPicture interface, get_MarginX, msinkaut/IInkPicture::MarginX, msinkaut/IInkPicture::get_MarginX, msinkaut/IInkPicture::put_MarginX, put_MarginX, tablet.inkpicture_marginx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkPicture.put_MarginX
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkPicture::put_MarginX

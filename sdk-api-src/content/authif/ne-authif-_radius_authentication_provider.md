@@ -4,7 +4,7 @@ title: "_RADIUS_AUTHENTICATION_PROVIDER"
 author: windows-sdk-content
 description: The RADIUS_AUTHENTICATION_PROVIDER type enumerates the possible authentication providers that NPS can use.
 old-location: nps\IAS_radius_authentication_provider.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 017c31f1-1654-4312-a1f0-747ea82391e1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: authif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RADIUS_AUTHENTICATION_PROVIDER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RADIUS_AUTHENTICATION_PROVIDER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: RADIUS_AUTHENTICATION_PROVIDER
+req.redist: 
 ---
 
 # _RADIUS_AUTHENTICATION_PROVIDER enumeration

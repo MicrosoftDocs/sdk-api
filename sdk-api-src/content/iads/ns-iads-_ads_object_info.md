@@ -4,7 +4,7 @@ title: "_ads_object_info"
 author: windows-sdk-content
 description: The ADS_OBJECT_INFO structure specifies the data, including the identity and location, of a directory service object.
 old-location: adsi\ads_object_info.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: f072b2f8-8c03-4f90-8edf-cf5fed97a222
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_OBJECT_INFO, *PADS_OBJECT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADS_OBJECT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ADS_OBJECT_INFO, *PADS_OBJECT_INFO
+req.redist: 
 ---
 
 # _ads_object_info structure

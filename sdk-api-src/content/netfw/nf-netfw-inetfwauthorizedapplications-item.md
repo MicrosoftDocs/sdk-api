@@ -4,17 +4,16 @@ title: INetFwAuthorizedApplications::Item
 author: windows-sdk-content
 description: The Item method returns the specified application if it is in the collection.
 old-location: ics\inetfwauthorizedapplications_item.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 3c9eac16-9ba5-43f6-b52e-4340598745d8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],Item method, INetFwAuthorizedApplications.Item, INetFwAuthorizedApplications::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwAuthorizedApplications interface, ics.inetfwauthorizedapplications_item, netfw/INetFwAuthorizedApplications::Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - INetFwAuthorizedApplications.Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwAuthorizedApplications::Item
@@ -70,7 +68,7 @@ Application to retrieve.
 
 ### -param app
 
-
+TBD
 
 
 

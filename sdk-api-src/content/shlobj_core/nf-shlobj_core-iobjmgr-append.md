@@ -4,17 +4,16 @@ title: IObjMgr::Append
 author: windows-sdk-content
 description: Appends an object to the collection of managed objects.
 old-location: shell\IObjMgr_Append.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a616f6d1-c1dc-4c1f-acf7-915cb0f722d6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Append, Append method [Windows Shell], Append method [Windows Shell],IObjMgr interface, IObjMgr interface [Windows Shell],Append method, IObjMgr.Append, IObjMgr::Append, _win32_IObjMgr_Append, shell.IObjMgr_Append, shlobj_core/IObjMgr::Append
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjMgr.Append
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IObjMgr::Append

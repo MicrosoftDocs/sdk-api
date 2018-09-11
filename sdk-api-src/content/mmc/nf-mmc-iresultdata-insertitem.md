@@ -4,17 +4,16 @@ title: IResultData::InsertItem
 author: windows-sdk-content
 description: The IResultData::InsertItem method enables the snap-in to add a single new item to the result pane view.
 old-location: mmc\iresultdata_insertitem.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: c354e718-ea9a-4d50-8a77-776500b86d25
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IResultData interface [MMC],InsertItem method, IResultData.InsertItem, IResultData2 interface [MMC],InsertItem method, IResultData2::InsertItem, IResultData::InsertItem, InsertItem, InsertItem method [MMC], InsertItem method [MMC],IResultData interface, InsertItem method [MMC],IResultData2 interface, _slate_iresultdata_insertitem, mmc.iresultdata_insertitem, mmc/IResultData2::InsertItem, mmc/IResultData::InsertItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IResultData2.InsertItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IResultData::InsertItem

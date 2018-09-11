@@ -4,17 +4,16 @@ title: IMbnMultiCarrier::ScanNetwork
 author: windows-sdk-content
 description: Scans the network to get a list of visible providers for a multi-carrier device.
 old-location: mbn\imbnmulticarrier_scannetwork.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: D249B5D4-B2C3-436A-B38A-041289422F12
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnMultiCarrier interface [Microsoft Broadband Networks],ScanNetwork method, IMbnMultiCarrier.ScanNetwork, IMbnMultiCarrier::ScanNetwork, ScanNetwork, ScanNetwork method [Microsoft Broadband Networks], ScanNetwork method [Microsoft Broadband Networks],IMbnMultiCarrier interface, mbn.imbnmulticarrier_scannetwork, mbnapi/IMbnMultiCarrier::ScanNetwork
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnMultiCarrier.ScanNetwork
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnMultiCarrier::ScanNetwork

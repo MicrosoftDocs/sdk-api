@@ -4,17 +4,16 @@ title: ReportRadiusServerListA function
 author: windows-sdk-content
 description: ReportRadiusServerList function retrieves the list of Remote Authentication Dail-In Service (RADIUS) servers the iSCSI initiator service uses during authentication.
 old-location: iscsidisc\reportradiusserverlist.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 83f9fdca-805a-44ed-bd6b-0a731c63cfe6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ReportRadiusServerList, ReportRadiusServerList function [iSCSI Discovery Library API], ReportRadiusServerListA, ReportRadiusServerListW, iscsidisc.reportradiusserverlist, iscsidsc/ReportRadiusServerList, iscsidsc/ReportRadiusServerListA, iscsidsc/ReportRadiusServerListW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ReportRadiusServerListW
 product: Windows
 targetos: Windows
-req.lib: Iscsidsc.lib
-req.dll: Iscsidsc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ReportRadiusServerListA function

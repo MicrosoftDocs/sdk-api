@@ -4,17 +4,16 @@ title: "_CRYPT_ATTRIBUTES"
 author: windows-sdk-content
 description: Contains an array of attributes.
 old-location: security\crypt_attributes.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 782f3022-d852-4ad7-8e0f-afbccc25928a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCMSG_ATTR, *PCRYPT_ATTRIBUTES, CMSG_ATTR, CMSG_ATTR structure [Security], CRYPT_ATTRIBUTES, CRYPT_ATTRIBUTES structure [Security], PCRYPT_ATTRIBUTES, PCRYPT_ATTRIBUTES structure pointer [Security], _CRYPT_ATTRIBUTES, _crypto2_crypt_attributes, security.crypt_attributes, wincrypt/CMSG_ATTR, wincrypt/CRYPT_ATTRIBUTES, wincrypt/PCRYPT_ATTRIBUTES"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_ATTRIBUTES, *PCRYPT_ATTRIBUTES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_ATTRIBUTES, *PCRYPT_ATTRIBUTES
+req.redist: 
 ---
 
 # _CRYPT_ATTRIBUTES structure

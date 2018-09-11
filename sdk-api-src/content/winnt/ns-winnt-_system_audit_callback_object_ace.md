@@ -4,17 +4,16 @@ title: "_SYSTEM_AUDIT_CALLBACK_OBJECT_ACE"
 author: windows-sdk-content
 description: The SYSTEM_AUDIT_CALLBACK_OBJECT_ACE structure defines an access control entry for a system access control list.
 old-location: security\system_audit_callback_object_ace.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: f547c928-4850-4072-be05-76a6c83b79bb
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSYSTEM_AUDIT_CALLBACK_OBJECT_ACE, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP and/or ADS_RIGHT_DS_WRITE_PROP, ADS_RIGHT_DS_SELF, PSYSTEM_AUDIT_CALLBACK_OBJECT_ACE, PSYSTEM_AUDIT_CALLBACK_OBJECT_ACE structure pointer [Security], SYSTEM_AUDIT_CALLBACK_OBJECT_ACE, SYSTEM_AUDIT_CALLBACK_OBJECT_ACE structure [Security], _SYSTEM_AUDIT_CALLBACK_OBJECT_ACE, security.system_audit_callback_object_ace, winnt/PSYSTEM_AUDIT_CALLBACK_OBJECT_ACE, winnt/SYSTEM_AUDIT_CALLBACK_OBJECT_ACE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_AUDIT_CALLBACK_OBJECT_ACE, *PSYSTEM_AUDIT_CALLBACK_OBJECT_ACE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYSTEM_AUDIT_CALLBACK_OBJECT_ACE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SYSTEM_AUDIT_CALLBACK_OBJECT_ACE, *PSYSTEM_AUDIT_CALLBACK_OBJECT_ACE
+req.redist: 
 ---
 
 # _SYSTEM_AUDIT_CALLBACK_OBJECT_ACE structure

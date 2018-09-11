@@ -4,17 +4,16 @@ title: IUIAutomationLegacyIAccessiblePattern::Select
 author: windows-sdk-content
 description: Performs a Microsoft Active Accessibility selection.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_Select.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: d311a10d-4762-47c9-a0bd-299da43827f7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],Select method, IUIAutomationLegacyIAccessiblePattern.Select, IUIAutomationLegacyIAccessiblePattern::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_Select, uiauto_IUIAutomationLegacyIAccessiblePattern_Select, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::Select, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_Select
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationLegacyIAccessiblePattern.Select
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::Select

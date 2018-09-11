@@ -4,17 +4,16 @@ title: IOfflineFilesItem::GetParentItem
 author: windows-sdk-content
 description: Retrieves the IOfflineFilesItem interface for the parent of the item.
 old-location: of\iofflinefilesitem_getparentitem.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 4fa89807-cd0c-4868-bd65-a8a0a42dff7d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetParentItem, GetParentItem method [Offline Files], GetParentItem method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetParentItem method, IOfflineFilesItem.GetParentItem, IOfflineFilesItem::GetParentItem, cscobj/IOfflineFilesItem::GetParentItem, of.iofflinefilesitem_getparentitem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesItem.GetParentItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesItem::GetParentItem

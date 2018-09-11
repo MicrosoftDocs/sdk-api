@@ -4,17 +4,16 @@ title: CoCreateGuid function
 author: windows-sdk-content
 description: Creates a GUID, a unique 128-bit integer used for CLSIDs and interface identifiers.
 old-location: com\cocreateguid.htm
-old-project: com
+tech.root: com
 ms.assetid: 8d5cedea-8c2b-4918-99db-1a000989f178
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoCreateGuid, CoCreateGuid function [COM], _com_CoCreateGuid, com.cocreateguid, combaseapi/CoCreateGuid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CoCreateGuid
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoCreateGuid function

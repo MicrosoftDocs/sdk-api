@@ -4,7 +4,7 @@ title: IDedupBackupSupport
 author: windows-sdk-content
 description: Provides a method for restoring a file from a backup store containing copies of Data Deduplication reparse points, metadata, and container files.
 old-location: dedup\idedupbackupsupport.htm
-old-project: dedup
+tech.root: dedup
 ms.assetid: 45AACC37-3C83-4DBA-8C18-26D76ED831BB
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ddpbackup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: DdpBackup.dll
-tech.root: 
-req.typenames: DEDUP_BACKUP_SUPPORT_PARAM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDedupBackupSupport
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDedupBackupSupport interface

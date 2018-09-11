@@ -4,7 +4,7 @@ title: "_CHANGER_INITIALIZE_ELEMENT_STATUS"
 author: windows-sdk-content
 description: Represents the status of all media changer elements or the specified elements of a particular type.
 old-location: base\changer_initialize_element_status_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 593df7e3-dd2b-4ba9-b7a0-ed6ea06586ba
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANGER_INITIALIZE_ELEMENT_STATUS, *PCHANGER_INITIALIZE_ELEMENT_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CHANGER_INITIALIZE_ELEMENT_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CHANGER_INITIALIZE_ELEMENT_STATUS, *PCHANGER_INITIALIZE_ELEMENT_STATUS
+req.redist: 
 ---
 
 # _CHANGER_INITIALIZE_ELEMENT_STATUS structure

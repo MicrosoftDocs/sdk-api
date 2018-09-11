@@ -4,17 +4,16 @@ title: WS_PUSH_BYTES_CALLBACK
 author: windows-sdk-content
 description: Used by the WsPushBytes function to request that data be written.
 old-location: wsw\ws_push_bytes_callback.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: e2f88488-94b7-41c8-95ae-9c409b132466
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_PUSH_BYTES_CALLBACK, WS_PUSH_BYTES_CALLBACK callback, WS_PUSH_BYTES_CALLBACK callback function [Web Services for Windows], webservices/WS_PUSH_BYTES_CALLBACK, wsw.ws_push_bytes_callback
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_PUSH_BYTES_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WS_PUSH_BYTES_CALLBACK callback function

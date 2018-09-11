@@ -4,17 +4,16 @@ title: StrNCatA function
 author: windows-sdk-content
 description: Appends a specified number of characters from the beginning of one string to the end of another.
 old-location: shell\StrNCat.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 28099350-5759-4595-8353-3452c5cf6ca8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StrNCat, StrNCat function [Windows Shell], StrNCatA, StrNCatW, _win32_StrNCat, shell.StrNCat, shlwapi/StrNCat, shlwapi/StrNCatA, shlwapi/StrNCatW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - StrNCatW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # StrNCatA function

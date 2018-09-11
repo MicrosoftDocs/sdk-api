@@ -4,17 +4,16 @@ title: DhcpSetFilterV4 function
 author: windows-sdk-content
 description: Enables or disables the allow and deny lists on a DHCP server.
 old-location: dhcp\dhcpsetfilterv4.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 4a67ad11-1f24-4ab6-b5f7-e51c97562037
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpSetFilterV4, DhcpSetFilterV4 function [DHCP], dhcp.dhcpsetfilterv4, dhcpsapi/DhcpSetFilterV4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpSetFilterV4
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpSetFilterV4 function

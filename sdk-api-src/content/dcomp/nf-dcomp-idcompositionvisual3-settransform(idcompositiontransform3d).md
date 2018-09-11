@@ -4,17 +4,16 @@ title: IDCompositionVisual3::SetTransform(IDCompositionTransform3D)
 author: windows-sdk-content
 description: Sets the Transform property of this visual to the specified 4-by-4 transform matrix.
 old-location: directcomp\idcompositionvisual3_settransform_1.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 1deb9c84-1a5b-5dac-af0f-ae6b49a9c473
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetTransform method, IDCompositionVisual3.SetTransform, IDCompositionVisual3.SetTransform(IDCompositionTransform3D), IDCompositionVisual3::SetTransform, IDCompositionVisual3::SetTransform(IDCompositionTransform3D), IDCompositionVisual3::SetTransform(const D2D_MATRIX_4X4_F&), SetTransform, SetTransform method [DirectComposition], SetTransform method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetTransform, directcomp.idcompositionvisual3_settransform_1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionVisual3.SetTransform
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionVisual3::SetTransform(IDCompositionTransform3D)
@@ -61,7 +60,7 @@ Sets the Transform property of this visual to the specified 4-by-4 transform mat
 
 ### -param transform
 
-
+TBD
 
 
 

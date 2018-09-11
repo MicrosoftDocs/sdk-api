@@ -4,17 +4,16 @@ title: SetupDiCreateDevRegKeyW function
 author: windows-sdk-content
 description: The SetupDiCreateDevRegKey function creates a registry key for device-specific configuration information and returns a handle to the key.
 old-location: devinst\setupdicreatedevregkey.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 8c07db95-eb59-4e01-851d-f6a8da169625
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiCreateDevRegKey, SetupDiCreateDevRegKey function [Device and Driver Installation], SetupDiCreateDevRegKeyA, SetupDiCreateDevRegKeyW, devinst.setupdicreatedevregkey, di-rtns_284367d1-6053-4fd1-990b-7028a116ece2.xml, setupapi/SetupDiCreateDevRegKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiCreateDevRegKey
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiCreateDevRegKeyW function

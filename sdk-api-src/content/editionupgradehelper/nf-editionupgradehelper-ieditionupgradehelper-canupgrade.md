@@ -4,17 +4,16 @@ title: IEditionUpgradeHelper::CanUpgrade
 author: windows-sdk-content
 description: Checks if the user has sufficient permissions to upgrade the operating system, and prompts the user to run as an administrator if needed.
 old-location: winprog\ieditionupgradehelper_canupgrade.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 8B2776DC-09DE-4E40-96CC-656C4B09A109
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CanUpgrade, CanUpgrade method [Windows API], CanUpgrade method [Windows API],IEditionUpgradeHelper interface, IEditionUpgradeHelper interface [Windows API],CanUpgrade method, IEditionUpgradeHelper.CanUpgrade, IEditionUpgradeHelper::CanUpgrade, editionupgradehelper/IEditionUpgradeHelper::CanUpgrade, winprog.ieditionupgradehelper_canupgrade
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: editionupgradehelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEditionUpgradeHelper.CanUpgrade
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEditionUpgradeHelper::CanUpgrade

@@ -4,17 +4,16 @@ title: UrlEscapeA function
 author: windows-sdk-content
 description: Converts characters or surrogate pairs in a URL that might be altered during transport across the Internet (&#0034;unsafe&#0034; characters) into their corresponding escape sequences.
 old-location: shell\UrlEscape.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 52ee1501-2cd4-4193-8363-0af91673ec88
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: URL_BROWSER_MODE, URL_DONT_ESCAPE_EXTRA_INFO, URL_ESCAPE_ASCII_URI_COMPONENT, URL_ESCAPE_AS_UTF8, URL_ESCAPE_PERCENT, URL_ESCAPE_SEGMENT_ONLY, URL_ESCAPE_SPACES_ONLY, UrlEscape, UrlEscape function [Windows Shell], UrlEscapeA, UrlEscapeW, _win32_UrlEscape, shell.UrlEscape, shlwapi/UrlEscape, shlwapi/UrlEscapeA, shlwapi/UrlEscapeW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - UrlEscapeW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # UrlEscapeA function

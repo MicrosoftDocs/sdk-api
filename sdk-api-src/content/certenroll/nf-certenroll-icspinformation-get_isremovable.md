@@ -4,17 +4,16 @@ title: ICspInformation::get_IsRemovable
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the token that contains the key can be removed.
 old-location: security\icspinformation_isremovable_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: ee67670b-80a9-4637-a5ed-84d3430853ea
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICspInformation interface [Security],IsRemovable property, ICspInformation.IsRemovable, ICspInformation.get_IsRemovable, ICspInformation::IsRemovable, ICspInformation::get_IsRemovable, IsRemovable property [Security], IsRemovable property [Security],ICspInformation interface, certenroll/ICspInformation::IsRemovable, certenroll/ICspInformation::get_IsRemovable, get_IsRemovable, security.icspinformation_isremovable_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspInformation.get_IsRemovable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspInformation::get_IsRemovable

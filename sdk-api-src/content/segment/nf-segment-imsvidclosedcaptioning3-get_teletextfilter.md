@@ -4,17 +4,16 @@ title: IMSVidClosedCaptioning3::get_TeleTextFilter
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidclosedcaptioning3_get_teletextfilter.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 95376533-e684-4a8e-ac60-6c52bf0f82ae
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidClosedCaptioning3 interface [Microsoft TV Technologies],get_TeleTextFilter method, IMSVidClosedCaptioning3.get_TeleTextFilter, IMSVidClosedCaptioning3::get_TeleTextFilter, IMSVidClosedCaptioning3getTeleTextFilter, get_TeleTextFilter, get_TeleTextFilter method [Microsoft TV Technologies], get_TeleTextFilter method [Microsoft TV Technologies],IMSVidClosedCaptioning3 interface, mstv.imsvidclosedcaptioning3_get_teletextfilter, segment/IMSVidClosedCaptioning3::get_TeleTextFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidClosedCaptioning3.get_TeleTextFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidClosedCaptioning3::get_TeleTextFilter

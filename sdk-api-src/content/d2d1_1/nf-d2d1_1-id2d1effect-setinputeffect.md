@@ -4,17 +4,16 @@ title: ID2D1Effect::SetInputEffect
 author: windows-sdk-content
 description: Sets the given input effect by index.
 old-location: direct2d\id2d1effect_setinputeffect.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 361B0644-7437-47DA-A34C-0234EE4E92C3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1Effect interface [Direct2D],SetInputEffect method, ID2D1Effect.SetInputEffect, ID2D1Effect::SetInputEffect, SetInputEffect, SetInputEffect method [Direct2D], SetInputEffect method [Direct2D],ID2D1Effect interface, d2d1_1/ID2D1Effect::SetInputEffect, direct2d.id2d1effect_setinputeffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Effect.SetInputEffect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Effect::SetInputEffect
@@ -68,7 +67,7 @@ The index of the input to set.
 
 ### -param inputEffect
 
-
+TBD
 
 
 ### -param invalidate

@@ -4,17 +4,16 @@ title: ID2D1SvgDocument::SetViewportSize
 author: windows-sdk-content
 description: Sets the size of the initial viewport.
 old-location: direct2d\id2d1svgdocument_setviewportsize.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 2915630B-A76B-40E7-8586-B0B0EFD30780
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1SvgDocument interface [Direct2D],SetViewportSize method, ID2D1SvgDocument.SetViewportSize, ID2D1SvgDocument::SetViewportSize, SetViewportSize, SetViewportSize method [Direct2D], SetViewportSize method [Direct2D],ID2D1SvgDocument interface, d2d1svg/ID2D1SvgDocument::SetViewportSize, direct2d.id2d1svgdocument_setviewportsize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgDocument.SetViewportSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgDocument::SetViewportSize

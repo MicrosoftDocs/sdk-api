@@ -4,17 +4,16 @@ title: IMFSampleOutputStream::EndWriteSample
 author: windows-sdk-content
 description: Completes an asynchronous request to write a media sample to the stream.
 old-location: mf\imfsampleoutputstream_endwritesample.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: AE65CE63-B7FF-403B-ABB8-5E6C53CAD314
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: EndWriteSample, EndWriteSample method [Media Foundation], EndWriteSample method [Media Foundation],IMFSampleOutputStream interface, IMFSampleOutputStream interface [Media Foundation],EndWriteSample method, IMFSampleOutputStream.EndWriteSample, IMFSampleOutputStream::EndWriteSample, mf.imfsampleoutputstream_endwritesample, mfobjects/IMFSampleOutputStream::EndWriteSample
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSampleOutputStream.EndWriteSample
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSampleOutputStream::EndWriteSample

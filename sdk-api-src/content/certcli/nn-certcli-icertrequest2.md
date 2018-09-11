@@ -4,17 +4,16 @@ title: ICertRequest2
 author: windows-sdk-content
 description: Provide communications between a client or intermediary application and Certificate Services.
 old-location: security\icertrequest2.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 8587a682-27a5-4f26-b4bb-7088e4e5d8d3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ICertRequest2, ICertRequest2 interface [Security], ICertRequest2 interface [Security],described, _certsrv_icertrequest2, certcli/ICertRequest2, security.icertrequest2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: certcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertRequest2
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertRequest2 interface

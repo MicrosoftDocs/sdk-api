@@ -4,17 +4,16 @@ title: ISyncSessionState2
 author: windows-sdk-content
 description: Represents additional information about the current synchronization session.
 old-location: winsync\isyncsessionstate2.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: c98e675f-48f4-4ffa-bc81-18a58edd8c34
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISyncSessionState2, ISyncSessionState2 interface [Windows Sync], ISyncSessionState2 interface [Windows Sync],described, winsync.isyncsessionstate2, winsync/ISyncSessionState2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncSessionState2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncSessionState2 interface

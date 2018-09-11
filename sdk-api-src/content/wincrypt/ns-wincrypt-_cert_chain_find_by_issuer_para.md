@@ -4,17 +4,16 @@ title: "_CERT_CHAIN_FIND_BY_ISSUER_PARA"
 author: windows-sdk-content
 description: Contains information used in the CertFindChainInStore function to build certificate chains.
 old-location: security\cert_chain_find_by_issuer_para.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 7dee640e-6bad-4d3c-910f-da928a8682c9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_CHAIN_FIND_BY_ISSUER_PARA, *PCERT_CHAIN_FIND_ISSUER_PARA, AT_KEYEXCHANGE, AT_SIGNATURE, CERT_CHAIN_FIND_BY_ISSUER_PARA, CERT_CHAIN_FIND_BY_ISSUER_PARA structure [Security], CERT_CHAIN_FIND_ISSUER_PARA, _CERT_CHAIN_FIND_BY_ISSUER_PARA, _CERT_CHAIN_FIND_BY_ISSUER_PARA structure [Security], _crypto2_cert_chain_find_by_issuer_para, security.cert_chain_find_by_issuer_para, wincrypt/CERT_CHAIN_FIND_BY_ISSUER_PARA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_CHAIN_FIND_ISSUER_PARA, *PCERT_CHAIN_FIND_ISSUER_PARA, CERT_CHAIN_FIND_BY_ISSUER_PARA, *PCERT_CHAIN_FIND_BY_ISSUER_PARA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _CERT_CHAIN_FIND_BY_ISSUER_PARA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_CHAIN_FIND_ISSUER_PARA, *PCERT_CHAIN_FIND_ISSUER_PARA, CERT_CHAIN_FIND_BY_ISSUER_PARA, *PCERT_CHAIN_FIND_BY_ISSUER_PARA
+req.redist: 
 ---
 
 # _CERT_CHAIN_FIND_BY_ISSUER_PARA structure

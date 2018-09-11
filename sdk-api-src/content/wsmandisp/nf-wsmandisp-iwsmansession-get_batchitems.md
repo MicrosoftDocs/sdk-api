@@ -4,17 +4,16 @@ title: IWSManSession::get_BatchItems
 author: windows-sdk-content
 description: Sets and gets the number of items in each enumeration batch.
 old-location: winrm\iwsmansession_batchitems.htm
-old-project: winrm
+tech.root: WinRM
 ms.assetid: 883fc265-b84e-4757-a9b1-8c52174cb701
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BatchItems property [Windows Remote Management], BatchItems property [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],BatchItems property, IWSManSession.BatchItems, IWSManSession.get_BatchItems, IWSManSession::BatchItems, IWSManSession::get_BatchItems, IWSManSession::put_BatchItems, get_BatchItems, winrm.iwsmansession_batchitems, wsmandisp/IWSManSession::BatchItems, wsmandisp/IWSManSession::get_BatchItems, wsmandisp/IWSManSession::put_BatchItems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManProxyAuthenticationFlags
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IWSManSession.put_BatchItems
 product: Windows
 targetos: Windows
-req.lib: WSManDisp.tlb
-req.dll: WSMAuto.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSManSession::get_BatchItems

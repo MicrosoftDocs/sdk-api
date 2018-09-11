@@ -4,7 +4,7 @@ title: D2D1_PROPERTY
 author: windows-sdk-content
 description: Specifies the indices of the system properties present on the ID2D1Properties interface for an ID2D1Effect.
 old-location: direct2d\__d2d1_property.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 7261ea3c-bd52-4809-93c8-9e7a0a7424d0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_PROPERTY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_PROPERTY
+req.redist: 
 ---
 
 # D2D1_PROPERTY enumeration

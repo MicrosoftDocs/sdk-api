@@ -4,17 +4,16 @@ title: IWbemServices::DeleteInstance
 author: windows-sdk-content
 description: The IWbemServices::DeleteInstance method deletes an instance of an existing class in the current namespace.
 old-location: wmi\iwbemservices_deleteinstance.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: f6dfeb1d-1730-4df4-adf7-f27dd9edc54d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: DeleteInstance, DeleteInstance method [Windows Management Instrumentation], DeleteInstance method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],DeleteInstance method, IWbemServices.DeleteInstance, IWbemServices::DeleteInstance, WBEM_FLAG_RETURN_IMMEDIATELY, _hmm_iwbemservices_deleteinstance, wbemcli/IWbemServices::DeleteInstance, wmi.iwbemservices_deleteinstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -54,10 +54,8 @@ api_name:
  - IWbemServices.DeleteInstance
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemServices::DeleteInstance

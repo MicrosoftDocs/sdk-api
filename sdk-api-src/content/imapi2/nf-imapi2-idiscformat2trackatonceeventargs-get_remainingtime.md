@@ -4,17 +4,16 @@ title: IDiscFormat2TrackAtOnceEventArgs::get_RemainingTime
 author: windows-sdk-content
 description: Retrieves the estimated remaining time of the write operation.
 old-location: imapi\idiscformat2trackatonceeventargs_get_remainingtime.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: cc427810-fcac-45a1-bd47-e392e1c0110e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2TrackAtOnceEventArgs interface [IMAPI],get_RemainingTime method, IDiscFormat2TrackAtOnceEventArgs.get_RemainingTime, IDiscFormat2TrackAtOnceEventArgs::get_RemainingTime, get_RemainingTime, get_RemainingTime method [IMAPI], get_RemainingTime method [IMAPI],IDiscFormat2TrackAtOnceEventArgs interface, imapi.idiscformat2trackatonceeventargs_get_remainingtime, imapi2/IDiscFormat2TrackAtOnceEventArgs::get_RemainingTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2TrackAtOnceEventArgs.get_RemainingTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2TrackAtOnceEventArgs::get_RemainingTime

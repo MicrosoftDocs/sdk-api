@@ -4,17 +4,16 @@ title: ITAddressDeviceSpecificEvent::get_lParam1
 author: windows-sdk-content
 description: The get_lParam1 method retrieves the first of three buffers specific to a given address device. The precise content and meaning of these buffers is defined by the provider.
 old-location: tapi3\itaddressdevicespecificevent_get_lparam1.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: e0cae67a-0c39-407a-b563-bef14c36f014
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAddressDeviceSpecificEvent interface [TAPI 2.2],get_lParam1 method, ITAddressDeviceSpecificEvent.get_lParam1, ITAddressDeviceSpecificEvent::get_lParam1, _tapi3_itaddressdevicespecificevent_get_lparam1, get_lParam1, get_lParam1 method [TAPI 2.2], get_lParam1 method [TAPI 2.2],ITAddressDeviceSpecificEvent interface, tapi3.itaddressdevicespecificevent_get_lparam1, tapi3if/ITAddressDeviceSpecificEvent::get_lParam1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddressDeviceSpecificEvent.get_lParam1
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddressDeviceSpecificEvent::get_lParam1

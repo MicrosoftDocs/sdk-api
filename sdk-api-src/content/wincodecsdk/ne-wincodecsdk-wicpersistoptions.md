@@ -4,7 +4,7 @@ title: WICPersistOptions
 author: windows-sdk-content
 description: Specifies Windows Imaging Component (WIC) options that are used when initializing a component with a stream.
 old-location: wic\_wic_codec_wicpersistoptions.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 8c17cfcc-4f09-4cb5-a3fa-4eb865123ad6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICPersistOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICPersistOptions
+req.redist: 
 ---
 
 # WICPersistOptions enumeration

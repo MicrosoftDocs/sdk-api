@@ -4,17 +4,16 @@ title: IX509EnrollmentStatus::get_Error
 author: windows-sdk-content
 description: Specifies and retrieves a value that identifies the error status of the certificate enrollment process.
 old-location: security\ix509enrollmentstatus_error_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: 397ed934-5ec8-4653-ada4-e966f68cbbf2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Error property [Security], Error property [Security],IX509EnrollmentStatus interface, IX509EnrollmentStatus interface [Security],Error property, IX509EnrollmentStatus.Error, IX509EnrollmentStatus.get_Error, IX509EnrollmentStatus::Error, IX509EnrollmentStatus::get_Error, IX509EnrollmentStatus::put_Error, certenroll/IX509EnrollmentStatus::Error, certenroll/IX509EnrollmentStatus::get_Error, certenroll/IX509EnrollmentStatus::put_Error, get_Error, security.ix509enrollmentstatus_error_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509EnrollmentStatus.put_Error
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509EnrollmentStatus::get_Error

@@ -4,17 +4,16 @@ title: IDispenserDriver::ResetResource
 author: windows-sdk-content
 description: Prepares the resource to be put back into general or enlisted inventory.
 old-location: cos\idispenserdriver_resetresource.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 59df0703-90ea-480c-8608-7d43039b48ba
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IDispenserDriver interface [COM+],ResetResource method, IDispenserDriver.ResetResource, IDispenserDriver::ResetResource, ResetResource, ResetResource method [COM+], ResetResource method [COM+],IDispenserDriver interface, _dtc_IDispenserDriver_ResetResource, comsvcs/IDispenserDriver::ResetResource, cos.idispenserdriver_resetresource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDispenserDriver.ResetResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDispenserDriver::ResetResource

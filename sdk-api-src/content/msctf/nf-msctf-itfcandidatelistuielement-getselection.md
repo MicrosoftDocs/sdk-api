@@ -4,17 +4,16 @@ title: ITfCandidateListUIElement::GetSelection
 author: windows-sdk-content
 description: The ITfCandidateListUIElement::GetSelection method returns the current selection of the candidate list.
 old-location: tsf\itfcandidatelistuielement_getselection.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: ac7530cd-eac8-4b2b-89e1-e05c14a81c7d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetSelection method, ITfCandidateListUIElement.GetSelection, ITfCandidateListUIElement::GetSelection, msctf/ITfCandidateListUIElement::GetSelection, tsf.itfcandidatelistuielement_getselection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfCandidateListUIElement.GetSelection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfCandidateListUIElement::GetSelection

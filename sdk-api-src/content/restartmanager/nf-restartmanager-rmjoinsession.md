@@ -4,17 +4,16 @@ title: RmJoinSession function
 author: windows-sdk-content
 description: Joins a secondary installer to an existing Restart Manager session.
 old-location: rstmgr\rmjoinsession.htm
-old-project: rstmgr
+tech.root: RstMgr
 ms.assetid: f9cb2d81-a2bc-4bb7-920a-1630354ea942
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RmJoinSession, RmJoinSession function [Restart Mgr], restartmanager/RmJoinSession, rstmgr.rmjoinsession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: restartmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_SHUTDOWN_TYPE
+req.lib: Rstrtmgr.lib
+req.dll: Rstrtmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RmJoinSession
 product: Windows
 targetos: Windows
-req.lib: Rstrtmgr.lib
-req.dll: Rstrtmgr.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RmJoinSession function

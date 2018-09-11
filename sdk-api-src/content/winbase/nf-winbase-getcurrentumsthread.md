@@ -4,17 +4,16 @@ title: GetCurrentUmsThread function
 author: windows-sdk-content
 description: Returns the user-mode scheduling (UMS) thread context of the calling UMS thread.
 old-location: base\getcurrentumsthread.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: f2e20816-919a-443d-96d3-94e98afc28f2
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetCurrentUmsThread, GetCurrentUmsThread function, base.getcurrentumsthread, winbase/GetCurrentUmsThread
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 (64-bit only) [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GetCurrentUmsThread
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetCurrentUmsThread function

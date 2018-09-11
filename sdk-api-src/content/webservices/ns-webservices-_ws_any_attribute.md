@@ -4,17 +4,16 @@ title: "_WS_ANY_ATTRIBUTE"
 author: windows-sdk-content
 description: This type is used to store an attribute that has not been directly mapped to a field.
 old-location: wsw\ws_any_attribute.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 31900554-24d9-44f5-a774-7d3245f5e646
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_ANY_ATTRIBUTE, WS_ANY_ATTRIBUTE structure [Web Services for Windows], _WS_ANY_ATTRIBUTE, webservices/WS_ANY_ATTRIBUTE, wsw.ws_any_attribute
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_ANY_ATTRIBUTE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_ANY_ATTRIBUTE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_ANY_ATTRIBUTE
+req.redist: 
 ---
 
 # _WS_ANY_ATTRIBUTE structure

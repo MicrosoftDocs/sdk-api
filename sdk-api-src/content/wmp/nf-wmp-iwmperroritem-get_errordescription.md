@@ -4,17 +4,16 @@ title: IWMPErrorItem::get_errorDescription
 author: windows-sdk-content
 description: The get_errorDescription method retrieves a description of the error.
 old-location: wmp\iwmperroritem_get_errordescription.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: eb322580-2cc6-4094-9da3-9b8d78a5cb48
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_errorDescription method, IWMPErrorItem.get_errorDescription, IWMPErrorItem::get_errorDescription, IWMPErrorItemget_errorDescription, get_errorDescription, get_errorDescription method [Windows Media Player], get_errorDescription method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_errordescription, wmp/IWMPErrorItem::get_errorDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPErrorItem.get_errorDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPErrorItem::get_errorDescription

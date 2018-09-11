@@ -4,17 +4,16 @@ title: ICOMAdminCatalog::GetEventClassesForIID
 author: windows-sdk-content
 description: Retrieves a list of the event classes registered on the computer that implement a specified interface.
 old-location: cos\icomadmincatalog_geteventclassesforiid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 9f1a77ef-3dfd-4402-a05a-9cb4fd50dbd8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetEventClassesForIID, GetEventClassesForIID method [COM+], GetEventClassesForIID method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetEventClassesForIID method, ICOMAdminCatalog.GetEventClassesForIID, ICOMAdminCatalog::GetEventClassesForIID, _cos_ICOMAdminCatalog_GetEventClassesForIID, comadmin/ICOMAdminCatalog::GetEventClassesForIID, cos.icomadmincatalog_geteventclassesforiid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog.GetEventClassesForIID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog::GetEventClassesForIID

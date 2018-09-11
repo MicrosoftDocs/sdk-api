@@ -4,17 +4,16 @@ title: IAnchor::IsEqual
 author: windows-sdk-content
 description: The IAnchor::IsEqual method evaluates two anchors within a text stream and returns a Boolean value that specifies the equality or inequality of the anchor positions.
 old-location: tsf\ianchor_isequal.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: a2dedce7-f64d-406a-bebc-9a4b51a1ae38
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAnchor interface [Text Services Framework],IsEqual method, IAnchor.IsEqual, IAnchor::IsEqual, IsEqual, IsEqual method [Text Services Framework], IsEqual method [Text Services Framework],IAnchor interface, textstor/IAnchor::IsEqual, tsf.ianchor_isequal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnchor.IsEqual
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IAnchor::IsEqual

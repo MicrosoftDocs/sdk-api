@@ -4,17 +4,16 @@ title: ITextInputPanel::put_InPlaceVisibleOnFocus
 author: windows-sdk-content
 description: Gets or sets a value that indicates whether the Tablet PC Input Panel is displayed automatically when the window to which it is attached gets focus.
 old-location: tablet\itextinputpanel_inplacevisibleonfocus.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 487ffcee-9df6-48db-8c84-e7e073b8a643
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 487ffcee-9df6-48db-8c84-e7e073b8a643, ITextInputPanel interface [Tablet PC],InPlaceVisibleOnFocus property, ITextInputPanel.InPlaceVisibleOnFocus, ITextInputPanel.get_InPlaceVisibleOnFocus, ITextInputPanel.put_InPlaceVisibleOnFocus, ITextInputPanel::InPlaceVisibleOnFocus, ITextInputPanel::get_InPlaceVisibleOnFocus, ITextInputPanel::put_InPlaceVisibleOnFocus, InPlaceVisibleOnFocus property [Tablet PC], InPlaceVisibleOnFocus property [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::InPlaceVisibleOnFocus, peninputpanel/ITextInputPanel::get_InPlaceVisibleOnFocus, peninputpanel/ITextInputPanel::put_InPlaceVisibleOnFocus, put_InPlaceVisibleOnFocus, tablet.itextinputpanel_inplacevisibleonfocus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - ITextInputPanel.put_InPlaceVisibleOnFocus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanel::put_InPlaceVisibleOnFocus

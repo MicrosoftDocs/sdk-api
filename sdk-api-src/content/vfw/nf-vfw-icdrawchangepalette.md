@@ -4,17 +4,16 @@ title: ICDrawChangePalette macro
 author: windows-sdk-content
 description: The ICDrawChangePalette macro notifies a rendering driver that the movie palette is changing. You can use this macro or explicitly call the ICM_DRAW_CHANGEPALETTE message.
 old-location: multimedia\icdrawchangepalette.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 4b280b51-a45f-47e5-b54c-47dc4a6ca81c
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICDrawChangePalette, ICDrawChangePalette macro [Windows Multimedia], _win32_ICDrawChangePalette, multimedia.icdrawchangepalette, vfw/ICDrawChangePalette
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDrawChangePalette
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICDrawChangePalette macro

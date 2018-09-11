@@ -4,7 +4,7 @@ title: "_ONEX_VARIABLE_BLOB"
 author: windows-sdk-content
 description: Is used as a member of other 802.1X authentication stuctures to contain variable-sized members.
 old-location: nwifi\onex_variable_blob.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 3a410bde-bcff-4a86-aadc-650862dbf38b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dot1x.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ONEX_VARIABLE_BLOB, *PONEX_VARIABLE_BLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ONEX_VARIABLE_BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ONEX_VARIABLE_BLOB, *PONEX_VARIABLE_BLOB
+req.redist: 
 ---
 
 # _ONEX_VARIABLE_BLOB structure

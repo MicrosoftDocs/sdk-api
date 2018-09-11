@@ -4,17 +4,16 @@ title: AccessCheckByTypeResultListAndAuditAlarmByHandleA function
 author: windows-sdk-content
 description: Determines whether a security descriptor grants a specified set of access rights to the client that the calling thread is impersonating.
 old-location: security\accesscheckbytyperesultlistandauditalarmbyhandle.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7d3ddce4-40a2-483d-8cff-48d89313b383
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AccessCheckByTypeResultListAndAuditAlarmByHandle, AccessCheckByTypeResultListAndAuditAlarmByHandle function [Security], AccessCheckByTypeResultListAndAuditAlarmByHandleA, AccessCheckByTypeResultListAndAuditAlarmByHandleW, _win32_accesscheckbytyperesultlistandauditalarmbyhandle, security.accesscheckbytyperesultlistandauditalarmbyhandle, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandle, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleA, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - AccessCheckByTypeResultListAndAuditAlarmByHandleW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # AccessCheckByTypeResultListAndAuditAlarmByHandleA function

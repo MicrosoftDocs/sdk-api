@@ -4,17 +4,16 @@ title: "_SERVER_INFO_1513"
 author: windows-sdk-content
 description: The SERVER_INFO_1513 structure contains the maximum size of pageable memory that the specified server can allocate at a particular time.
 old-location: netmgmt\server_info_1513_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: ccfb37b2-6c00-48f2-849b-0443d1dc8371
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVER_INFO_1513, *PSERVER_INFO_1513, LPSERVER_INFO_1513, LPSERVER_INFO_1513 structure pointer [Network Management], PSERVER_INFO_1513, PSERVER_INFO_1513 structure pointer [Network Management], SERVER_INFO_1513, SERVER_INFO_1513 structure [Network Management], _SERVER_INFO_1513, _win32_server_info_1513_str, lmserver/LPSERVER_INFO_1513, lmserver/PSERVER_INFO_1513, lmserver/SERVER_INFO_1513, netmgmt.server_info_1513_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVER_INFO_1513, *PSERVER_INFO_1513, *LPSERVER_INFO_1513
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVER_INFO_1513
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SERVER_INFO_1513, *PSERVER_INFO_1513, *LPSERVER_INFO_1513
+req.redist: 
 ---
 
 # _SERVER_INFO_1513 structure

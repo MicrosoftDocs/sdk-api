@@ -4,17 +4,16 @@ title: IVdsAdvancedDisk
 author: windows-sdk-content
 description: Creates and deletes partitions, and modifies partition attributes.
 old-location: base\ivdsadvanceddisk.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: 6b5e1bff-e7e8-4403-99ff-6dc97d113f37
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsAdvancedDisk, IVdsAdvancedDisk interface [VDS], IVdsAdvancedDisk interface [VDS],described, base.ivdsadvanceddisk, vds/IVdsAdvancedDisk
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsAdvancedDisk
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsAdvancedDisk interface

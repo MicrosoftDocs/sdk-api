@@ -4,17 +4,16 @@ title: IGPMClientSideExtension::IsUserEnabled
 author: windows-sdk-content
 description: Checks whether the client-side extension can be called during the processing of user policy.
 old-location: gpmc\igpmclientsideextension_isuserenabled.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 01fba0fa-9639-4033-bbdf-704549524147
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMClientSideExtension object [GPMC],IsUserEnabled method, IGPMClientSideExtension interface [GPMC],IsUserEnabled method, IGPMClientSideExtension.IsUserEnabled, IGPMClientSideExtension::IsUserEnabled, IsUserEnabled, IsUserEnabled method [GPMC], IsUserEnabled method [GPMC],GPMClientSideExtension object, IsUserEnabled method [GPMC],IGPMClientSideExtension interface, _win32_igpmclientsideextension_isuserenabled, gpmc.igpmclientsideextension_isuserenabled, gpmgmt/IGPMClientSideExtension::IsUserEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMClientSideExtension.IsUserEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMClientSideExtension::IsUserEnabled

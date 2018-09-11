@@ -4,17 +4,16 @@ title: StringCbVPrintf_lExA function
 author: windows-sdk-content
 description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 old-location: menurc\stringcbvprintf_lex.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: 34db0546-cede-4329-8364-137bca118755
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbVPrintf_lEx, StringCbVPrintf_lEx function [Menus and Other Resources], StringCbVPrintf_lExA, StringCbVPrintf_lExW, menurc.stringcbvprintf_lex, strsafe/StringCbVPrintf_lEx, strsafe/StringCbVPrintf_lExA, strsafe/StringCbVPrintf_lExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_DVD_RENDERSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - StringCbVPrintf_lExW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # StringCbVPrintf_lExA function

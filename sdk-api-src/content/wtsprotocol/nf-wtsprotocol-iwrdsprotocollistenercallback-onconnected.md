@@ -4,17 +4,16 @@ title: IWRdsProtocolListenerCallback::OnConnected
 author: windows-sdk-content
 description: Notifies the Remote Desktop Services service that a client connection request has been received.
 old-location: termserv\iwrdsprotocollistenercallback_onconnected.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 9d2d5393-f0a6-40ec-9bf2-2e8c945693db
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWRdsProtocolListenerCallback interface [Remote Desktop Services],OnConnected method, IWRdsProtocolListenerCallback.OnConnected, IWRdsProtocolListenerCallback::OnConnected, OnConnected, OnConnected method [Remote Desktop Services], OnConnected method [Remote Desktop Services],IWRdsProtocolListenerCallback interface, termserv.iwrdsprotocollistenercallback_onconnected, wtsprotocol/IWRdsProtocolListenerCallback::OnConnected
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWRdsProtocolListenerCallback.OnConnected
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWRdsProtocolListenerCallback::OnConnected

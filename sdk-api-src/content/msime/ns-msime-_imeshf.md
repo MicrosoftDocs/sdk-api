@@ -4,7 +4,7 @@ title: "_IMESHF"
 author: windows-sdk-content
 description: The header of an opened user dictionary file. Used to get the user dictionary's properties, such as version, title, description, and copyright.
 old-location: intl\imeshf.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: CFFEFEDC-F614-4DD4-B1A1-4D236339E817
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMESHF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMESHF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: IMESHF
+req.redist: 
 ---
 
 # _IMESHF structure

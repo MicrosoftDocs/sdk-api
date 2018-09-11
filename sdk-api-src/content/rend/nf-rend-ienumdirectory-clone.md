@@ -4,17 +4,16 @@ title: IEnumDirectory::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumdirectory_clone.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 64aaf773-842b-42cd-83b8-587ec1042382
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumDirectory interface, IEnumDirectory interface [TAPI 2.2],Clone method, IEnumDirectory.Clone, IEnumDirectory::Clone, _tapi3_ienumdirectory_clone, rend/IEnumDirectory::Clone, tapi3.ienumdirectory_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumDirectory.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumDirectory::Clone

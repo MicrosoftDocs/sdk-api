@@ -4,17 +4,16 @@ title: "_UNICODE_STRING"
 author: windows-sdk-content
 description: Used by various Local Security Authority (LSA) functions to specify a Unicode string.
 old-location: security\unicode_string.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 4687d63a-4e58-4181-a48f-2724e5015e77
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PUNICODE_STRING, LSA_UNICODE_STRING, LSA_UNICODE_STRING structure [Security], PLSA_UNICODE_STRING, PLSA_UNICODE_STRING structure pointer [Security], PUNICODE_STRING, PUNICODE_STRING structure pointer [Security], UNICODE_STRING, UNICODE_STRING structure [Security], _UNICODE_STRING, _lsa_unicode_string, ntsecapi/PLSA_UNICODE_STRING, ntsecapi/PUNICODE_STRING, ntsecapi/UNICODE_STRING, security.unicode_string, subauth/PLSA_UNICODE_STRING, subauth/PUNICODE_STRING, subauth/UNICODE_STRING"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: subauth.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNICODE_STRING, *PUNICODE_STRING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - LSA_UNICODE_STRING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: UNICODE_STRING, *PUNICODE_STRING
+req.redist: 
 ---
 
 # _UNICODE_STRING structure

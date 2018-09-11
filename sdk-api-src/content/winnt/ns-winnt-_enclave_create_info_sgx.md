@@ -4,7 +4,7 @@ title: "_ENCLAVE_CREATE_INFO_SGX"
 author: windows-sdk-content
 description: Contains architecture-specific information to use to create an enclave when the enclave type is ENCLAVE_TYPE_SGX, which specifies an enclave for the Intel Software Guard Extensions (SGX) architecture extension.
 old-location: base\enclave_create_info_sgx.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 51ED6E75-DA18-4CCE-8718-46328DD62B07
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENCLAVE_CREATE_INFO_SGX, *PENCLAVE_CREATE_INFO_SGX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ENCLAVE_CREATE_INFO_SGX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ENCLAVE_CREATE_INFO_SGX, *PENCLAVE_CREATE_INFO_SGX
+req.redist: 
 ---
 
 # _ENCLAVE_CREATE_INFO_SGX structure

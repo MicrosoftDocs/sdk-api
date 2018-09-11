@@ -4,7 +4,7 @@ title: D3D11_FEATURE_DATA_D3D11_OPTIONS3
 author: windows-sdk-content
 description: Describes Direct3D 11.3 feature options in the current graphics driver.
 old-location: direct3d11\d3d11_feature_data_d3d11_options3.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: A8F9AAF5-F1C6-476D-AF14-5BCDEEDAF810
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_FEATURE_DATA_D3D11_OPTIONS3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_FEATURE_DATA_D3D11_OPTIONS3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_FEATURE_DATA_D3D11_OPTIONS3
+req.redist: 
 ---
 
 # D3D11_FEATURE_DATA_D3D11_OPTIONS3 structure

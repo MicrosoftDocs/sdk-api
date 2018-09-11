@@ -4,17 +4,16 @@ title: ITextHost::TxSetScrollPos
 author: windows-sdk-content
 description: Sets the position of the scroll box (thumb) in the specified scroll bar and, if requested, redraws the scroll bar to reflect the new position of the scroll box.
 old-location: controls\ITextHost_TxSetScrollPos.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsetscrollpos.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetScrollPos method, ITextHost.TxSetScrollPos, ITextHost::TxSetScrollPos, TxSetScrollPos, TxSetScrollPos method [Windows Controls], TxSetScrollPos method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetScrollPos, _win32_ITextHost_TxSetScrollPos_cpp, controls.ITextHost_TxSetScrollPos, controls._win32_ITextHost_TxSetScrollPos, textserv/ITextHost::TxSetScrollPos
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextHost.TxSetScrollPos
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextHost::TxSetScrollPos

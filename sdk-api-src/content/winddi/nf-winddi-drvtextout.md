@@ -4,17 +4,16 @@ title: DrvTextOut function
 author: windows-sdk-content
 description: The DrvTextOut function is the entry point from GDI that calls for the driver to render a set of glyphs at specified positions.
 old-location: display\drvtextout.htm
-old-project: display
+tech.root: display
 ms.assetid: f2f61687-d833-4d09-8cd5-99e81436c1c1
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvTextOut, DrvTextOut function [Display Devices], ddifncs_e78c3647-65af-427c-8153-0046e031e345.xml, display.drvtextout, winddi/DrvTextOut
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvTextOut
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvTextOut function

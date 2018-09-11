@@ -4,7 +4,7 @@ title: "_DS_REPL_PENDING_OPSW"
 author: windows-sdk-content
 description: Contains an array of DS_REPL_OP structures, which in turn describe the replication tasks currently executing and queued to execute, as returned by the DsReplicaGetInfo and DsReplicaGetInfo2 functions.
 old-location: ad\ds_repl_pending_ops.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 2e4b96cb-fbd6-496b-aff3-cb7d82f1fa39
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_PENDING_OPSW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DS_REPL_PENDING_OPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DS_REPL_PENDING_OPSW
+req.redist: 
 ---
 
 # _DS_REPL_PENDING_OPSW structure

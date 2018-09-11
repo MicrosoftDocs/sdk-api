@@ -4,17 +4,16 @@ title: IPin::QueryId
 author: windows-sdk-content
 description: The QueryId method retrieves an identifier for the pin.
 old-location: dshow\ipin_queryid.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d4fb2713-549d-4c0d-9768-386bcffd696f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IPin interface [DirectShow],QueryId method, IPin.QueryId, IPin::QueryId, IPinQueryId, QueryId, QueryId method [DirectShow], QueryId method [DirectShow],IPin interface, dshow.ipin_queryid, strmif/IPin::QueryId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPin.QueryId
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IPin::QueryId

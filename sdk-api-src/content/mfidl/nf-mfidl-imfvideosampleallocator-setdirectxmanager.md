@@ -4,17 +4,16 @@ title: IMFVideoSampleAllocator::SetDirectXManager
 author: windows-sdk-content
 description: Specifies the Direct3D device manager for the video media sink to use.
 old-location: mf\imfvideosampleallocator_setdirectxmanager.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: bad810c9-f5b1-42dc-9c7a-3306f3de2846
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFVideoSampleAllocator interface [Media Foundation],SetDirectXManager method, IMFVideoSampleAllocator.SetDirectXManager, IMFVideoSampleAllocator::SetDirectXManager, SetDirectXManager, SetDirectXManager method [Media Foundation], SetDirectXManager method [Media Foundation],IMFVideoSampleAllocator interface, bad810c9-f5b1-42dc-9c7a-3306f3de2846, mf.imfvideosampleallocator_setdirectxmanager, mfidl/IMFVideoSampleAllocator::SetDirectXManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoSampleAllocator.SetDirectXManager
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoSampleAllocator::SetDirectXManager

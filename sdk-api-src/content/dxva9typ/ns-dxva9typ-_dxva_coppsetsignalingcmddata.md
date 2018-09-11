@@ -4,7 +4,7 @@ title: "_DXVA_COPPSetSignalingCmdData"
 author: windows-sdk-content
 description: Contains information for the Set Signal command in Certified Output Protection Protocol (COPP).
 old-location: dshow\dxva_coppsetsignalingcmddata.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f104b0c6-2b2f-4e6a-97e6-d73008cb80ef
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva9typ.h
 req.include-header: Dxva.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA_COPPSetSignalingCmdData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVA_COPPSetSignalingCmdData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVA_COPPSetSignalingCmdData
+req.redist: 
 ---
 
 # _DXVA_COPPSetSignalingCmdData structure

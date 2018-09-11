@@ -4,17 +4,16 @@ title: DSA_GetItemPtr function
 author: windows-sdk-content
 description: Gets a pointer to an element from a dynamic structure array (DSA).
 old-location: controls\DSA_GetItemPtr.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_getitemptr.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DSA_GetItemPtr, DSA_GetItemPtr function [Windows Controls], _win32_DSA_GetItemPtr, _win32_DSA_GetItemPtr_cpp, controls.DSA_GetItemPtr, controls._win32_DSA_GetItemPtr, dpa_dsa/DSA_GetItemPtr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+req.lib: Comctl32.lib
+req.dll: ComCtl32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DSA_GetItemPtr
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: ComCtl32.dll (version 4.0 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DSA_GetItemPtr function

@@ -4,17 +4,16 @@ title: IEnumFeedClockVector::Skip
 author: windows-sdk-content
 description: Skips the specified number of clock vector elements.
 old-location: winsync\ienumfeedclockvector_skip.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: eabe3389-2c1f-4b0e-a062-24bbe3fa87f9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumFeedClockVector interface [Windows Sync],Skip method, IEnumFeedClockVector.Skip, IEnumFeedClockVector::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumFeedClockVector interface, winsync.ienumfeedclockvector_skip, winsync/IEnumFeedClockVector::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumFeedClockVector.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumFeedClockVector::Skip

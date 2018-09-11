@@ -4,7 +4,7 @@ title: linecalltreatmententry_tag
 author: windows-sdk-content
 description: The LINECALLTREATMENTENTRY structure provides information on the type of call treatment, such as music, recorded announcement, or silence, on the current call. The LINEADDRESSCAPS structure can contain an array of LINECALLTREATMENTENTRY structures.
 old-location: tapi2\linecalltreatmententry_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c4a9fbb1-5201-45bd-b88c-b0c81b216f72
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINECALLTREATMENTENTRY, *LPLINECALLTREATMENTENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINECALLTREATMENTENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINECALLTREATMENTENTRY, *LPLINECALLTREATMENTENTRY
+req.redist: 
 ---
 
 # linecalltreatmententry_tag structure

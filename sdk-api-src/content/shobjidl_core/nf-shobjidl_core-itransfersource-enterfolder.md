@@ -4,17 +4,16 @@ title: ITransferSource::EnterFolder
 author: windows-sdk-content
 description: Notifies that a folder is the destination of a file operation.
 old-location: shell\ITransferSource_EnterFolder.htm
-old-project: shell
+tech.root: shell
 ms.assetid: de6b1b03-450f-4d48-b0f4-67e268feb36a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: EnterFolder, EnterFolder method [Windows Shell], EnterFolder method [Windows Shell],ITransferSource interface, ITransferSource interface [Windows Shell],EnterFolder method, ITransferSource.EnterFolder, ITransferSource::EnterFolder, _shell_ITransferSource_EnterFolder, shell.ITransferSource_EnterFolder, shobjidl_core/ITransferSource::EnterFolder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITransferSource.EnterFolder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITransferSource::EnterFolder

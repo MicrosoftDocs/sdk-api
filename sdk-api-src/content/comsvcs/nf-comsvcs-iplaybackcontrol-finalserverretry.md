@@ -4,17 +4,16 @@ title: IPlaybackControl::FinalServerRetry
 author: windows-sdk-content
 description: Informs the server-side Exception_CLSID implementation that all attempts to play back the deferred activation have failed. The message is about to be moved to the final resting queue.
 old-location: cos\iplaybackcontrol_finalserverretry.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 03f0bd46-004d-4ed6-b00b-de765d339ba0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FinalServerRetry, FinalServerRetry method [COM+], FinalServerRetry method [COM+],IPlaybackControl interface, IPlaybackControl interface [COM+],FinalServerRetry method, IPlaybackControl.FinalServerRetry, IPlaybackControl::FinalServerRetry, _cos_IPlaybackControl_FinalServerRetry, comsvcs/IPlaybackControl::FinalServerRetry, cos.iplaybackcontrol_finalserverretry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPlaybackControl.FinalServerRetry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPlaybackControl::FinalServerRetry

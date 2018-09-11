@@ -4,17 +4,16 @@ title: ITextRow::GetNestLevel
 author: windows-sdk-content
 description: Gets the nest level of a table.
 old-location: controls\itextrow_getnestlevel.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 6b689344-6748-49d7-aa98-a87435b7cb0b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetNestLevel, GetNestLevel method [Windows Controls], GetNestLevel method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetNestLevel method, ITextRow.GetNestLevel, ITextRow::GetNestLevel, controls.itextrow_getnestlevel, tom/ITextRow::GetNestLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRow.GetNestLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRow::GetNestLevel

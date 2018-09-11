@@ -4,17 +4,16 @@ title: IUpdateHistoryEntry::get_Date
 author: windows-sdk-content
 description: Gets the date and the time an update was applied.
 old-location: wua\iupdatehistoryentry_date.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 9ae4d1ae-5d6f-42a9-88ef-c1a0cdef5e5d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Date property [Windows Update Agent], Date property [Windows Update Agent],IUpdateHistoryEntry interface, IUpdateHistoryEntry interface [Windows Update Agent],Date property, IUpdateHistoryEntry.Date, IUpdateHistoryEntry.get_Date, IUpdateHistoryEntry::Date, IUpdateHistoryEntry::get_Date, get_Date, wua.iupdatehistoryentry_date, wuapi/IUpdateHistoryEntry::Date, wuapi/IUpdateHistoryEntry::get_Date
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUpdateHistoryEntry.get_Date
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateHistoryEntry::get_Date

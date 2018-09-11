@@ -4,7 +4,7 @@ title: IDCompositionColorMatrixEffect
 author: windows-sdk-content
 description: The color matrix effect alters the RGBA values of a bitmap.
 old-location: directcomp\idcompositioncolormatrixeffect.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 75528E11-D041-4192-833A-31679316DF76
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionColorMatrixEffect
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionColorMatrixEffect interface

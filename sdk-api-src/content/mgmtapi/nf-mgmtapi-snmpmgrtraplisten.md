@@ -4,17 +4,16 @@ title: SnmpMgrTrapListen function
 author: windows-sdk-content
 description: The SnmpMgrTrapListen function registers the ability of an SNMP manager application to receive SNMP traps from the SNMP Trap Service. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgrtraplisten.htm
-old-project: snmp
+tech.root: SNMP
 ms.assetid: 9ba799a7-0088-4939-9665-ce96074c6448
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SnmpMgrTrapListen, SnmpMgrTrapListen function [SNMP], _snmp_snmpmgrtraplisten, mgmtapi/SnmpMgrTrapListen, snmp.snmpmgrtraplisten
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mgmtapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOURCE_GROUP_ENTRY, *PSOURCE_GROUP_ENTRY
+req.lib: Mgmtapi.lib
+req.dll: Mgmtapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SnmpMgrTrapListen
 product: Windows
 targetos: Windows
-req.lib: Mgmtapi.lib
-req.dll: Mgmtapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SnmpMgrTrapListen function

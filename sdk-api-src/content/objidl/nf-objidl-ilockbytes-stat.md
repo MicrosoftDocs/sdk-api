@@ -4,17 +4,16 @@ title: ILockBytes::Stat
 author: windows-sdk-content
 description: The Stat method retrieves a STATSTG structure containing information for this byte array object.
 old-location: stg\ilockbytes_stat.htm
-old-project: stg
+tech.root: Stg
 ms.assetid: e7953f21-ac34-44e3-9b6f-b93ac89e2e32
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ILockBytes interface [Structured Storage],Stat method, ILockBytes.Stat, ILockBytes::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],ILockBytes interface, _stg_ilockbytes_stat, objidl/ILockBytes::Stat, stg.ilockbytes_stat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILockBytes.Stat
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ILockBytes::Stat

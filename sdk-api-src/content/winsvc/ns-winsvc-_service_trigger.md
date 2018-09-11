@@ -4,17 +4,16 @@ title: "_SERVICE_TRIGGER"
 author: windows-sdk-content
 description: Represents a service trigger event. This structure is used by the SERVICE_TRIGGER_INFO structure.
 old-location: base\service_trigger.htm
-old-project: services
+tech.root: Services
 ms.assetid: a57aa702-40a2-4880-80db-6c4f43c3e7ea
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSERVICE_TRIGGER, DOMAIN_JOIN_GUID, DOMAIN_LEAVE_GUID, FIREWALL_PORT_CLOSE_GUID, FIREWALL_PORT_OPEN_GUID, MACHINE_POLICY_PRESENT_GUID, NAMED_PIPE_EVENT_GUID, NETWORK_MANAGER_FIRST_IP_ADDRESS_ARRIVAL_GUID, NETWORK_MANAGER_LAST_IP_ADDRESS_REMOVAL_GUID, PSERVICE_TRIGGER, PSERVICE_TRIGGER structure pointer, RPC_INTERFACE_EVENT_GUID, SERVICE_TRIGGER, SERVICE_TRIGGER structure, SERVICE_TRIGGER_ACTION_SERVICE_START, SERVICE_TRIGGER_ACTION_SERVICE_STOP, SERVICE_TRIGGER_TYPE_CUSTOM, SERVICE_TRIGGER_TYPE_DEVICE_INTERFACE_ARRIVAL, SERVICE_TRIGGER_TYPE_DOMAIN_JOIN, SERVICE_TRIGGER_TYPE_FIREWALL_PORT_EVENT, SERVICE_TRIGGER_TYPE_GROUP_POLICY, SERVICE_TRIGGER_TYPE_IP_ADDRESS_AVAILABILITY, SERVICE_TRIGGER_TYPE_NETWORK_ENDPOINT, USER_POLICY_PRESENT_GUID, _SERVICE_TRIGGER, base.service_trigger, winsvc/PSERVICE_TRIGGER, winsvc/SERVICE_TRIGGER"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_TRIGGER, *PSERVICE_TRIGGER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVICE_TRIGGER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SERVICE_TRIGGER, *PSERVICE_TRIGGER
+req.redist: 
 ---
 
 # _SERVICE_TRIGGER structure

@@ -4,17 +4,16 @@ title: Edit_ReplaceSel macro
 author: windows-sdk-content
 description: Replaces the selected text in an edit control or a rich edit control with the specified text. You can use this macro or send the EM_REPLACESEL message explicitly.
 old-location: controls\Edit_ReplaceSel.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_replacesel.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Edit_ReplaceSel, Edit_ReplaceSel macro [Windows Controls], _win32_Edit_ReplaceSel, _win32_Edit_ReplaceSel_cpp, controls.Edit_ReplaceSel, controls._win32_Edit_ReplaceSel, windowsx/Edit_ReplaceSel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Edit_ReplaceSel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # Edit_ReplaceSel macro

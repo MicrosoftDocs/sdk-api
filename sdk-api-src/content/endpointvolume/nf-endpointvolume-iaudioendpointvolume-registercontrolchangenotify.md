@@ -4,17 +4,16 @@ title: IAudioEndpointVolume::RegisterControlChangeNotify
 author: windows-sdk-content
 description: The RegisterControlChangeNotify method registers a client's notification callback interface.
 old-location: coreaudio\iaudioendpointvolume_registercontrolchangenotify.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 0a5711fa-700a-44ae-beed-aec421365b4c
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],RegisterControlChangeNotify method, IAudioEndpointVolume.RegisterControlChangeNotify, IAudioEndpointVolume::RegisterControlChangeNotify, IAudioEndpointVolumeRegisterControlChangeNotify, RegisterControlChangeNotify, RegisterControlChangeNotify method [Core Audio], RegisterControlChangeNotify method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_registercontrolchangenotify, endpointvolume/IAudioEndpointVolume::RegisterControlChangeNotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAudioEndpointVolume.RegisterControlChangeNotify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioEndpointVolume::RegisterControlChangeNotify

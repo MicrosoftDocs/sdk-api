@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_gpmgmt_0000_0030_0001"
 author: windows-sdk-content
 description: The type of backup created.
 old-location: gpmc\gpmbackuptype.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 048871f3-39ea-4bf6-bc04-b4a34cd1a9d0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMBackupType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GPMBackupType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: GPMBackupType
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_gpmgmt_0000_0030_0001 enumeration

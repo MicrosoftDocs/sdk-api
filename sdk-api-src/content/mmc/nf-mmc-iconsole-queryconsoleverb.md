@@ -4,17 +4,16 @@ title: IConsole::QueryConsoleVerb
 author: windows-sdk-content
 description: Queries for the IConsoleVerb interface.
 old-location: mmc\iconsole_queryconsoleverb.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 6C40014C-EBCC-455C-A575-4637B253439C
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IConsole interface [MMC],QueryConsoleVerb method, IConsole.QueryConsoleVerb, IConsole::QueryConsoleVerb, QueryConsoleVerb, QueryConsoleVerb method [MMC], QueryConsoleVerb method [MMC],IConsole interface, mmc.iconsole_queryconsoleverb, mmc/IConsole::QueryConsoleVerb
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConsole.QueryConsoleVerb
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IConsole::QueryConsoleVerb

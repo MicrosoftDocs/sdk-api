@@ -4,17 +4,16 @@ title: IServiceSxsConfig::SxsName
 author: windows-sdk-content
 description: Sets the file name of the side-by-side assembly for the enclosed work.
 old-location: cos\iservicesxsconfig_sxsname.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 622632ba-1287-4303-a9dd-4fb870e43786
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IServiceSxsConfig interface [COM+],SxsName method, IServiceSxsConfig.SxsName, IServiceSxsConfig::SxsName, SxsName, SxsName method [COM+], SxsName method [COM+],IServiceSxsConfig interface, _cos_IServiceSxsConfig_SxsName, comsvcs/IServiceSxsConfig::SxsName, cos.iservicesxsconfig_sxsname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceSxsConfig.SxsName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceSxsConfig::SxsName

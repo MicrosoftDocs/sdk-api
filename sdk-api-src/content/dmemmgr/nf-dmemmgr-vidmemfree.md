@@ -4,17 +4,16 @@ title: VidMemFree function
 author: windows-sdk-content
 description: The VidMemFree function frees off-screen memory allocated for a display driver by HeapVidMemAllocAligned.
 old-location: display\vidmemfree.htm
-old-project: display
+tech.root: display
 ms.assetid: f1d3b5a0-f1e3-4977-8081-839b4e36971f
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: VidMemFree, VidMemFree function [Display Devices], display.vidmemfree, dmemmgr/VidMemFree, gdifncs_a3a43790-1189-4c79-965c-aa20f04c7405.xml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dmemmgr.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - VidMemFree
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # VidMemFree function

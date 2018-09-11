@@ -4,17 +4,16 @@ title: MgmRegisterMProtocol function
 author: windows-sdk-content
 description: The MgmRegisterMProtocol function is used by clients to register with the multicast group manager.
 old-location: rras\mgmregistermprotocol.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: a9b5f5f3-6e54-4a97-b3e7-e9e026947116
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MgmRegisterMProtocol, MgmRegisterMProtocol function [RAS], _mpr_mgmregistermprotocol, mgm/MgmRegisterMProtocol, rras.mgmregistermprotocol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mgm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MGM_ENUM_TYPES
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MgmRegisterMProtocol
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MgmRegisterMProtocol function

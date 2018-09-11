@@ -4,17 +4,16 @@ title: IKnownFolderManager::RegisterFolder
 author: windows-sdk-content
 description: Adds a new known folder to the registry. Used particularly by independent software vendors (ISVs) that are adding one of their own folders to the known folder system.
 old-location: shell\IKnownFolderManager_RegisterFolder.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1b3d492f-26a3-4f04-ba01-768ebad39e1b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IKnownFolderManager interface [Windows Shell],RegisterFolder method, IKnownFolderManager.RegisterFolder, IKnownFolderManager::RegisterFolder, RegisterFolder, RegisterFolder method [Windows Shell], RegisterFolder method [Windows Shell],IKnownFolderManager interface, _shell_IKnownFolderManager_RegisterFolder, shell.IKnownFolderManager_RegisterFolder, shobjidl_core/IKnownFolderManager::RegisterFolder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKnownFolderManager.RegisterFolder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IKnownFolderManager::RegisterFolder

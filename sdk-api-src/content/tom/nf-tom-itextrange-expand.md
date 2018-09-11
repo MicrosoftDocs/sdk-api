@@ -4,17 +4,16 @@ title: ITextRange::Expand
 author: windows-sdk-content
 description: Expands this range so that any partial units it contains are completely contained.
 old-location: controls\ITextRange_Expand.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\expand.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Expand, Expand method [Windows Controls], Expand method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Expand method, ITextRange.Expand, ITextRange::Expand, _win32_ITextRange_Expand, _win32_ITextRange_Expand_cpp, controls.ITextRange_Expand, controls._win32_ITextRange_Expand, tom/ITextRange::Expand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange.Expand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange::Expand

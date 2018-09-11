@@ -4,17 +4,16 @@ title: IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1
 author: windows-sdk-content
 description: Loads the remote resource dictionary markup into an unrooted IXpsOMRemoteDictionaryResource interface. The dictionary referenced by the dictionaryMarkupStream parameter can contain markup from either the OpenXPS or the MSXPS namespace.
 old-location: xps\ixpsomobjectfactory1_createremotedictionaryresourcefromstream1.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: e69a139c-511c-43f3-86a3-22aab36f91fc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateRemoteDictionaryResourceFromStream1, CreateRemoteDictionaryResourceFromStream1 method [XPS Documents and Packaging], CreateRemoteDictionaryResourceFromStream1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreateRemoteDictionaryResourceFromStream1 method, IXpsOMObjectFactory1.CreateRemoteDictionaryResourceFromStream1, IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1, xps.ixpsomobjectfactory1_createremotedictionaryresourcefromstream1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_DOCUMENT_TYPE
+req.lib: None
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IXpsOMObjectFactory1.CreateRemoteDictionaryResourceFromStream1
 product: Windows
 targetos: Windows
-req.lib: None
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1

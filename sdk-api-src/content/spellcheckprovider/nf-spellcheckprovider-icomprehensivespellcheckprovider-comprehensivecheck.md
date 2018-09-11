@@ -4,17 +4,16 @@ title: IComprehensiveSpellCheckProvider::ComprehensiveCheck
 author: windows-sdk-content
 description: Spell-check the provider text in a more thorough manner than ISpellCheckProvider::Check.
 old-location: intl\icomprehensivespellcheckprovider_comprehensivecheck.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: BD334EB8-4E14-478D-AB2A-E7F863C4BE0F
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ComprehensiveCheck, ComprehensiveCheck method [Internationalization for Windows Applications], ComprehensiveCheck method [Internationalization for Windows Applications],IComprehensiveSpellCheckProvider interface, IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications],ComprehensiveCheck method, IComprehensiveSpellCheckProvider.ComprehensiveCheck, IComprehensiveSpellCheckProvider::ComprehensiveCheck, intl.icomprehensivespellcheckprovider_comprehensivecheck, spellcheckprovider/IComprehensiveSpellCheckProvider::ComprehensiveCheck
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheckprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComprehensiveSpellCheckProvider.ComprehensiveCheck
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IComprehensiveSpellCheckProvider::ComprehensiveCheck
@@ -67,7 +65,7 @@ The text to check.
 
 ### -param value
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: "_SP_DRVINSTALL_PARAMS"
 author: windows-sdk-content
 description: An SP_DRVINSTALL_PARAMS structure contains driver installation parameters associated with a particular driver information element.
 old-location: devinst\sp_drvinstall_params.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 300e636c-3f77-4d0b-9868-caaf92d87bfd
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS structure pointer [Device and Driver Installation], SP_DRVINSTALL_PARAMS, SP_DRVINSTALL_PARAMS structure [Device and Driver Installation], _SP_DRVINSTALL_PARAMS, devinst.sp_drvinstall_params, di-struct_32ef55e7-dc77-4350-b220-6cd566cf7c38.xml, setupapi/PSP_DRVINSTALL_PARAMS, setupapi/SP_DRVINSTALL_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_DRVINSTALL_PARAMS, *PSP_DRVINSTALL_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_DRVINSTALL_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_DRVINSTALL_PARAMS, *PSP_DRVINSTALL_PARAMS
+req.redist: 
 ---
 
 # _SP_DRVINSTALL_PARAMS structure

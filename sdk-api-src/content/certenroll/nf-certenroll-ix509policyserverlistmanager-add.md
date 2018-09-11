@@ -4,17 +4,16 @@ title: IX509PolicyServerListManager::Add
 author: windows-sdk-content
 description: Adds an IX509PolicyServerUrl object to the collection.
 old-location: security\ix509policyserverlistmanager_add.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: f1f22d27-96bf-47f7-8572-5f3842797c18
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509PolicyServerListManager interface, IX509PolicyServerListManager interface [Security],Add method, IX509PolicyServerListManager.Add, IX509PolicyServerListManager::Add, certenroll/IX509PolicyServerListManager::Add, security.ix509policyserverlistmanager_add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509PolicyServerListManager.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PolicyServerListManager::Add

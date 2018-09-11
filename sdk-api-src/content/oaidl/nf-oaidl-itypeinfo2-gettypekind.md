@@ -4,17 +4,16 @@ title: ITypeInfo2::GetTypeKind
 author: windows-sdk-content
 description: Returns the TYPEKIND enumeration quickly, without doing any allocations.
 old-location: automat\itypeinfo2_gettypekind.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 2ad42274-1952-44b4-ac11-93eacc10a9a9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetTypeKind, GetTypeKind method [Automation], GetTypeKind method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetTypeKind method, ITypeInfo2.GetTypeKind, ITypeInfo2::GetTypeKind, _oa96_ITypeInfo2_GetTypeKind, automat.itypeinfo2_gettypekind, oaidl/ITypeInfo2::GetTypeKind
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo2.GetTypeKind
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo2::GetTypeKind

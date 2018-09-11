@@ -4,17 +4,16 @@ title: ISettingsItem::CreateListElement
 author: windows-sdk-content
 description: Creates a new list element.
 old-location: smi\isettingsitem_createlistelement.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: c18fd849-aaa5-49d0-9e72-b3134a6f2be8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateListElement, CreateListElement method [SMI], CreateListElement method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],CreateListElement method, ISettingsItem.CreateListElement, ISettingsItem::CreateListElement, smi.isettingsitem_createlistelement, wcmconfig/ISettingsItem::CreateListElement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsItem.CreateListElement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsItem::CreateListElement

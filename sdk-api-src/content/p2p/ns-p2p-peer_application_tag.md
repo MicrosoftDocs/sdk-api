@@ -4,7 +4,7 @@ title: peer_application_tag
 author: windows-sdk-content
 description: The PEER_APPLICATION structure contains data describing a locally installed software application or component that can be registered and shared with trusted contacts within a peer collaboration network.
 old-location: p2p\peer_application.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: a219231b-75d0-47d3-8294-f1cc25b43d27
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_APPLICATION, *PPEER_APPLICATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_APPLICATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_APPLICATION, *PPEER_APPLICATION
+req.redist: 
 ---
 
 # peer_application_tag structure

@@ -4,7 +4,7 @@ title: "_AM_PUSHSOURCE_FLAGS"
 author: windows-sdk-content
 description: Indicates the behavior of a live source filter.
 old-location: dshow\am_pushsource_flags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 878dc41b-8df3-4294-9e1f-7a3da1834ad1
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _AM_PUSHSOURCE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # _AM_PUSHSOURCE_FLAGS enumeration

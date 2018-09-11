@@ -4,17 +4,16 @@ title: "_WNV_IP_ADDRESS"
 author: windows-sdk-content
 description: Defines an IP address object.
 old-location: wnv\wnv_ip_address.htm
-old-project: wnv
+tech.root: wnv
 ms.assetid: 1FD137B6-74F4-4E75-A77E-65F093938662
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWNV_IP_ADDRESS, PWNV_IP_ADDRESS, PWNV_IP_ADDRESS structure pointer [Windows Network Virtualization], WNV_IP_ADDRESS, WNV_IP_ADDRESS structure [Windows Network Virtualization], _WNV_IP_ADDRESS, wnv.wnv_ip_address, wnvapi/PWNV_IP_ADDRESS, wnvapi/WNV_IP_ADDRESS"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wnvapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WNV_IP_ADDRESS, *PWNV_IP_ADDRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WNV_IP_ADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WNV_IP_ADDRESS, *PWNV_IP_ADDRESS
+req.redist: 
 ---
 
 # _WNV_IP_ADDRESS structure

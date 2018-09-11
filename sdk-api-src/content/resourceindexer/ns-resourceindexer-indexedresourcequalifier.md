@@ -4,17 +4,16 @@ title: IndexedResourceQualifier
 author: windows-sdk-content
 description: Represents the context under which a resource is appropriate.
 old-location: menurc\indexedresourcequalifier.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: A6F253AD-0756-4996-AC6C-5B09C55DE22E
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IndexedResourceQualifier, IndexedResourceQualifier structure [Menus and Other Resources], menurc.indexedresourcequalifier, resourceindexer/IndexedResourceQualifier
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: resourceindexer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IndexedResourceQualifier
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IndexedResourceQualifier
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: IndexedResourceQualifier
+req.redist: 
 ---
 
 # IndexedResourceQualifier structure

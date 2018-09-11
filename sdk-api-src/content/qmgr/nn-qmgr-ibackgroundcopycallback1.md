@@ -4,7 +4,7 @@ title: IBackgroundCopyCallback1
 author: windows-sdk-content
 description: Implement the IBackgroundCopyCallback1 interface to receive notification when events occur.
 old-location: bits\ibackgroundcopycallback1.htm
-old-project: bits
+tech.root: bits
 ms.assetid: d5d22cf6-d9b5-4001-a0ac-f67d59dde779
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IBackgroundCopyCallback1.OnProgressEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyCallback1 interface

@@ -4,17 +4,16 @@ title: ITTerminalSupport::get_StaticTerminals
 author: windows-sdk-content
 description: The get_StaticTerminals method creates a collection of currently available static terminals.
 old-location: tapi3\itterminalsupport_get_staticterminals.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: f4cdd3f5-ca8c-4660-b37c-c38779a516dd
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTerminalSupport interface [TAPI 2.2],get_StaticTerminals method, ITTerminalSupport.get_StaticTerminals, ITTerminalSupport::get_StaticTerminals, _tapi3_itterminalsupport_get_staticterminals, get_StaticTerminals, get_StaticTerminals method [TAPI 2.2], get_StaticTerminals method [TAPI 2.2],ITTerminalSupport interface, tapi3.itterminalsupport_get_staticterminals, tapi3if/ITTerminalSupport::get_StaticTerminals
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTerminalSupport.get_StaticTerminals
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTerminalSupport::get_StaticTerminals

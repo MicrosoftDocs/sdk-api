@@ -4,7 +4,7 @@ title: "_DHCP_CLIENT_SEARCH_TYPE"
 author: windows-sdk-content
 description: Defines the set of possible attributes used to search DHCP client information records.
 old-location: dhcp\dhcp_search_info_type.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: b635ea03-689c-4471-bff2-72fceec78440
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_SEARCH_INFO_TYPE, *LPDHCP_SEARCH_INFO_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_SEARCH_INFO_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_SEARCH_INFO_TYPE, *LPDHCP_SEARCH_INFO_TYPE
+req.redist: 
 ---
 
 # _DHCP_CLIENT_SEARCH_TYPE enumeration

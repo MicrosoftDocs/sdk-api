@@ -4,17 +4,16 @@ title: IDiscMasterProgressEvents::NotifyPnPActivity
 author: windows-sdk-content
 description: Notifies the application that there is a change to the list of valid disc recorders. (For example, a USB CD-R driver is removed from the system.).
 old-location: imapi\idiscmasterprogressevents_notifypnpactivity.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: d2b41e86-2f1b-46f1-955d-7fc42f8189a4
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyPnPActivity method, IDiscMasterProgressEvents.NotifyPnPActivity, IDiscMasterProgressEvents::NotifyPnPActivity, NotifyPnPActivity, NotifyPnPActivity method [IMAPI], NotifyPnPActivity method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifypnpactivity, base.idiscmasterprogressevents_notifypnpactivity, imapi.idiscmasterprogressevents_notifypnpactivity, imapi/IDiscMasterProgressEvents::NotifyPnPActivity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscMasterProgressEvents.NotifyPnPActivity
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscMasterProgressEvents::NotifyPnPActivity

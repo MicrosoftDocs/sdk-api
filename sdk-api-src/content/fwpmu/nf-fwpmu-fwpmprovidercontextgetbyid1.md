@@ -4,17 +4,16 @@ title: FwpmProviderContextGetById1 function
 author: windows-sdk-content
 description: Retrieves a provider context.
 old-location: fwp\fwpmprovidercontextgetbyid1_func.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 76353efa-844e-4c7f-9f9a-0bf2e247c58b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FwpmProviderContextGetById1, FwpmProviderContextGetById1 function [Filtering], fwp.fwpmprovidercontextgetbyid1_func, fwpmu/FwpmProviderContextGetById1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FwpmProviderContextGetById1
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FwpmProviderContextGetById1 function

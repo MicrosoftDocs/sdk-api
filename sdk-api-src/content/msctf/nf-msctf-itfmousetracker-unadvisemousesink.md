@@ -4,17 +4,16 @@ title: ITfMouseTracker::UnadviseMouseSink
 author: windows-sdk-content
 description: ITfMouseTracker::UnadviseMouseSink method
 old-location: tsf\itfmousetracker_unadvisemousesink.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 7707b7ce-662b-43e5-ada4-ba42eec56ede
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfMouseTracker interface [Text Services Framework],UnadviseMouseSink method, ITfMouseTracker.UnadviseMouseSink, ITfMouseTracker::UnadviseMouseSink, UnadviseMouseSink, UnadviseMouseSink method [Text Services Framework], UnadviseMouseSink method [Text Services Framework],ITfMouseTracker interface, _tsf_itfmousetracker_unadvisemousesink_ref, msctf/ITfMouseTracker::UnadviseMouseSink, tsf.itfmousetracker_unadvisemousesink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfMouseTracker.UnadviseMouseSink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfMouseTracker::UnadviseMouseSink

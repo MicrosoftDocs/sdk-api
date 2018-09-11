@@ -4,17 +4,16 @@ title: LPM_AdmitRsvpMsg function
 author: windows-sdk-content
 description: The LPM_AdmitRsvpMsg function is called by the PCM to pass RSVP messages to the LPM for policy based&#8211;admission control decisions.
 old-location: qos\lpm_admitrsvpmsg.htm
-old-project: qos
+tech.root: QOS
 ms.assetid: 0bf84c25-312c-4b4a-8bb1-e8f00711dbe3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ErrorSpec, FlowDescList, FlowDescListCount, LPM_AdmitRsvpMsg, LPM_AdmitRsvpMsg callback, LPM_AdmitRsvpMsg callback function [QOS], LpmPriorityValue, PolicyDataCount, PolicyDataObjects, PolicyErrorCode, PolicyErrorValue, RsvpFromHop, RsvpMsgType, RsvpScope, RsvpSession, RsvpStyle, _gqos_lpm_admitrsvpmsg, lpmapi/LPM_AdmitRsvpMsg, qos.lpm_admitrsvpmsg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LPM_AdmitRsvpMsg
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # LPM_AdmitRsvpMsg function

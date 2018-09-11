@@ -4,17 +4,16 @@ title: IPhotoProgressDialog::SetPercentComplete
 author: windows-sdk-content
 description: The SetPercentComplete method sets a value indicating the completed portion of the current operation.
 old-location: picacq\iphotoprogressdialog_setpercentcomplete.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: b2fb225d-6d2b-49f7-bbc9-715107e90df2
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetPercentComplete method, IPhotoProgressDialog.SetPercentComplete, IPhotoProgressDialog::SetPercentComplete, IPhotoProgressDialogSetPercentComplete, SetPercentComplete, SetPercentComplete method [Picture Acquisition], SetPercentComplete method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetPercentComplete, picacq.iphotoprogressdialog_setpercentcomplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoProgressDialog.SetPercentComplete
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoProgressDialog::SetPercentComplete

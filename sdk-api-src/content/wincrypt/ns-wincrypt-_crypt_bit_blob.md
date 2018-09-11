@@ -4,17 +4,16 @@ title: "_CRYPT_BIT_BLOB"
 author: windows-sdk-content
 description: Contains a set of bits represented by an array of bytes.
 old-location: security\crypt_bit_blob.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 6f102ff3-bfff-4415-a5d8-ca2c226074b3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_BIT_BLOB, CRYPT_BIT_BLOB, CRYPT_BIT_BLOB structure [Security], PCRYPT_BIT_BLOB, PCRYPT_BIT_BLOB structure pointer [Security], _CRYPT_BIT_BLOB, _crypto2_crypt_bit_blob, security.crypt_bit_blob, wincrypt/CRYPT_BIT_BLOB, wincrypt/PCRYPT_BIT_BLOB"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_BIT_BLOB, *PCRYPT_BIT_BLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_BIT_BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_BIT_BLOB, *PCRYPT_BIT_BLOB
+req.redist: 
 ---
 
 # _CRYPT_BIT_BLOB structure

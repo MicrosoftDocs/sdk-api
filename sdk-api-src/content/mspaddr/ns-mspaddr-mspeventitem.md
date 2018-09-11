@@ -4,7 +4,7 @@ title: MSPEVENTITEM
 author: windows-sdk-content
 description: The MSPEVENTITEM structure contains link pointers and event types for MSP events.
 old-location: tapi3\mspeventitem.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: fc99fd05-4d87-4b6e-b2f3-e00ac61ddafc
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mspaddr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MSPEVENTITEM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.redist: 
 ---
 
 # MSPEVENTITEM structure

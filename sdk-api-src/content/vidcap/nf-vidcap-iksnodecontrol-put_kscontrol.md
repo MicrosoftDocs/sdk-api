@@ -4,17 +4,16 @@ title: IKsNodeControl::put_KsControl
 author: windows-sdk-content
 description: Provides an instance of the IKsControl interface to the extension unit.
 old-location: dshow\iksnodecontrol_put_kscontrol.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 145967fc-3124-4e3b-b1ce-a381ea97cb89
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IKsNodeControl interface [DirectShow],put_KsControl method, IKsNodeControl.put_KsControl, IKsNodeControl::put_KsControl, IKsNodeControlput_KsControl, dshow.iksnodecontrol_put_kscontrol, put_KsControl, put_KsControl method [DirectShow], put_KsControl method [DirectShow],IKsNodeControl interface, vidcap/IKsNodeControl::put_KsControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKsNodeControl.put_KsControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IKsNodeControl::put_KsControl

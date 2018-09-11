@@ -4,17 +4,16 @@ title: ITransactionResourcePool::PutResource
 author: windows-sdk-content
 description: Adds an object to the list of pooled objects.
 old-location: cos\itransactionresourcepool_putresource.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6e05f075-0fa8-4605-9f68-3ef7fc9f0132
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITransactionResourcePool interface [COM+],PutResource method, ITransactionResourcePool.PutResource, ITransactionResourcePool::PutResource, PutResource, PutResource method [COM+], PutResource method [COM+],ITransactionResourcePool interface, _cos_ITransactionResourcePool_PutResource, comsvcs/ITransactionResourcePool::PutResource, cos.itransactionresourcepool_putresource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITransactionResourcePool.PutResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITransactionResourcePool::PutResource

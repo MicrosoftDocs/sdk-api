@@ -4,7 +4,7 @@ title: "_SEARCH_COLUMN_PROPERTIES"
 author: windows-sdk-content
 description: This structure is not implemented.
 old-location: search\_search_SEARCH_COLUMN_PROPERTIES.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_column_properties.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: Searchapi.h
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEARCH_COLUMN_PROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SEARCH_COLUMN_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SEARCH_COLUMN_PROPERTIES
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # _SEARCH_COLUMN_PROPERTIES structure

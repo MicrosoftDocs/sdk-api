@@ -4,17 +4,16 @@ title: CInstance::GetWORD
 author: windows-sdk-content
 description: The GetWORD method retrieves a WORD property.
 old-location: wmi\cinstance_getword.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 511e4ce9-33e3-4c64-8016-05dd5630970f
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetWORD method, CInstance.GetWORD, CInstance::GetWORD, GetWORD, GetWORD method [Windows Management Instrumentation], GetWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getword, instance/CInstance::GetWORD, wmi.cinstance_getword
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CInstance.GetWORD
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::GetWORD
@@ -74,7 +72,7 @@ Name of the <b>WORD</b> property retrieved.
 
 ### -param w
 
-
+TBD
 
 
 

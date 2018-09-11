@@ -4,17 +4,16 @@ title: IObjectWithPropertyKey
 author: windows-sdk-content
 description: Exposes methods for getting and setting the property key.
 old-location: shell\IObjectWithPropertyKey.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 238c3e39-62ba-4e97-9a15-19ad2e2d12e7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IObjectWithPropertyKey, IObjectWithPropertyKey interface [Windows Shell], IObjectWithPropertyKey interface [Windows Shell],described, _shell_IObjectWithPropertyKey, propsys/IObjectWithPropertyKey, shell.IObjectWithPropertyKey
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjectWithPropertyKey
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectWithPropertyKey interface

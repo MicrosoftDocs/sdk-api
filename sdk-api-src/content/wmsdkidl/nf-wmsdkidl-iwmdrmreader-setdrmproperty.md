@@ -4,17 +4,16 @@ title: IWMDRMReader::SetDRMProperty
 author: windows-sdk-content
 description: The SetDRMProperty method on the reader object is used to set a DRM property, such as the DRM_Rights property.
 old-location: wmformat\iwmdrmreader_setdrmproperty.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 52f606c2-a746-488f-bbf7-0d0e54b89bf9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMDRMReader interface [windows Media Format],SetDRMProperty method, IWMDRMReader.SetDRMProperty, IWMDRMReader::SetDRMProperty, IWMDRMReaderSetDRMProperty, SetDRMProperty, SetDRMProperty method [windows Media Format], SetDRMProperty method [windows Media Format],IWMDRMReader interface, wmformat.iwmdrmreader_setdrmproperty, wmsdkidl/IWMDRMReader::SetDRMProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: WMStubDRM.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDRMReader.SetDRMProperty
 product: Windows
 targetos: Windows
-req.lib: WMStubDRM.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDRMReader::SetDRMProperty

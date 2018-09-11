@@ -4,17 +4,16 @@ title: VarBstrFromBool function
 author: windows-sdk-content
 description: Converts a Boolean value to a BSTR value.
 old-location: automat\varbstrfrombool.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 6dc363bc-366c-4d9f-8aed-b1aed752c04f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_LOCALBOOL, VarBstrFromBool, VarBstrFromBool function [Automation], _oa96_VarBstrFromBool, automat.varbstrfrombool, oleauto/VarBstrFromBool
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarBstrFromBool
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarBstrFromBool function

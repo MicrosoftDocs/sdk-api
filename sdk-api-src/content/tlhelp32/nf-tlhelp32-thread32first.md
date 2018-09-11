@@ -4,17 +4,16 @@ title: Thread32First function
 author: windows-sdk-content
 description: Retrieves information about the first thread of any process encountered in a system snapshot.
 old-location: toolhelp\thread32first.htm
-old-project: ToolHelp
+tech.root: ToolHelp
 ms.assetid: d4cb7a19-850e-43b5-bda5-91be48382d2a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: Thread32First, Thread32First function [ToolHelp], _win32_thread32first, base.thread32first, tlhelp32/Thread32First, toolhelp.thread32first
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TpcGetSamplesArgs
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - Thread32First
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Thread32First function

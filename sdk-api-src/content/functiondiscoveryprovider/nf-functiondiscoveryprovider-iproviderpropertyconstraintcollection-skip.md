@@ -4,17 +4,16 @@ title: IProviderPropertyConstraintCollection::Skip
 author: windows-sdk-content
 description: Skips the next item in the collection.
 old-location: ncd\iproviderpropertyconstraintcollection_skip.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 8e14bddc-d2ae-41a6-b927-15bdfd3bc598
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IProviderPropertyConstraintCollection interface,Skip method, IProviderPropertyConstraintCollection.Skip, IProviderPropertyConstraintCollection::Skip, Skip, Skip method, Skip method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Skip, ncd.iproviderpropertyconstraintcollection_skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PropertyConstraint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProviderPropertyConstraintCollection.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IProviderPropertyConstraintCollection::Skip

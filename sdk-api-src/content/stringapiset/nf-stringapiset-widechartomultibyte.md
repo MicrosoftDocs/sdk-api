@@ -4,17 +4,16 @@ title: WideCharToMultiByte function
 author: windows-sdk-content
 description: Maps a UTF-16 (wide character) string to a new character string.
 old-location: intl\widechartomultibyte.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: b8c13444-86ab-479c-ac04-9b184d9eebf6
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_UTF8, WC_COMPOSITECHECK, WC_ERR_INVALID_CHARS, WC_NO_BEST_FIT_CHARS, WideCharToMultiByte, WideCharToMultiByte function [Internationalization for Windows Applications], _win32_WideCharToMultiByte, intl.widechartomultibyte, stringapiset/WideCharToMultiByte
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: stringapiset.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR50_SERVICE_CHARACTERISTICS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - WideCharToMultiByte
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # WideCharToMultiByte function

@@ -4,17 +4,16 @@ title: IESEventServiceConfiguration::SetOwner
 author: windows-sdk-content
 description: Adds an owner to an event service, where event service refers to a generic Windows event service that implements the IESEventService interface.
 old-location: mstv\ieseventserviceconfiguration_setowner.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7d8e1be1-b363-41ac-b60b-98415f0f44b6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],SetOwner method, IESEventServiceConfiguration.SetOwner, IESEventServiceConfiguration::SetOwner, SetOwner, SetOwner method [Microsoft TV Technologies], SetOwner method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_setowner, tuner/IESEventServiceConfiguration::SetOwner
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IESEventServiceConfiguration.SetOwner
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IESEventServiceConfiguration::SetOwner
@@ -62,7 +60,7 @@ Adds an owner to an event service, where <i>event service</i> refers to a generi
 
 ### -param pESEvents
 
-
+TBD
 
 
 

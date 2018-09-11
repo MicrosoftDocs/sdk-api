@@ -4,7 +4,7 @@ title: MF_ATTRIBUTE_SERIALIZE_OPTIONS
 author: windows-sdk-content
 description: Defines flags for serializing and deserializing attribute stores.
 old-location: mf\mf_attribute_serialize_options.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e4b218d1-185c-483f-b697-19ce8b3a4058
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_ATTRIBUTE_SERIALIZE_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MF_ATTRIBUTE_SERIALIZE_OPTIONS enumeration

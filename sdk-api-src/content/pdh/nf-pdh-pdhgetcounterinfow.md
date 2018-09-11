@@ -4,17 +4,16 @@ title: PdhGetCounterInfoW function
 author: windows-sdk-content
 description: Retrieves information about a counter, such as data size, counter type, path, and user-supplied data values.
 old-location: perf\pdhgetcounterinfo.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 12e1a194-5418-4c2a-9853-ef2d2c666893
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PdhGetCounterInfo, PdhGetCounterInfo function [Perf], PdhGetCounterInfoA, PdhGetCounterInfoW, _win32_pdhgetcounterinfo, base.pdhgetcounterinfo, pdh/PdhGetCounterInfo, pdh/PdhGetCounterInfoA, pdh/PdhGetCounterInfoW, perf.pdhgetcounterinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PdhGetCounterInfoW
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhGetCounterInfoW function

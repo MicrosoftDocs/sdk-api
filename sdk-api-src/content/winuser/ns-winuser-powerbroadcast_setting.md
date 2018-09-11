@@ -4,7 +4,7 @@ title: POWERBROADCAST_SETTING
 author: windows-sdk-content
 description: Sent with a power setting event and contains data about the specific change.
 old-location: base\powerbroadcast_setting.htm
-old-project: power
+tech.root: power
 ms.assetid: 13fa8220-bad2-4bb6-b652-38fc11a31215
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWERBROADCAST_SETTING, *PPOWERBROADCAST_SETTING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POWERBROADCAST_SETTING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: POWERBROADCAST_SETTING, *PPOWERBROADCAST_SETTING
+req.redist: 
 ---
 
 # POWERBROADCAST_SETTING structure

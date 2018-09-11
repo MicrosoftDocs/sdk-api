@@ -4,17 +4,16 @@ title: IEnumNetworkConnections::Clone
 author: windows-sdk-content
 description: The Clone method creates an enumerator that contains the same enumeration state as the enumerator currently in use.
 old-location: nla\ienumnetworkconnections_clone.htm
-old-project: nla
+tech.root: nla
 ms.assetid: eb59b8ae-b53c-4035-96c4-72cf87edb2eb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [Network Awareness], Clone method [Network Awareness],IEnumNetworkConnections interface, IEnumNetworkConnections interface [Network Awareness],Clone method, IEnumNetworkConnections.Clone, IEnumNetworkConnections::Clone, netlistmgr/IEnumNetworkConnections::Clone, nla.ienumnetworkconnections_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumNetworkConnections.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumNetworkConnections::Clone

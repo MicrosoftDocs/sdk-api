@@ -4,17 +4,16 @@ title: IWiaDevMgr::SelectDeviceDlg
 author: windows-sdk-content
 description: The IWiaDevMgr::SelectDeviceDlg displays a dialog box that enables the user to select a hardware device for image acquisition.
 old-location: wia\_wia_IWiaDevMgr_SelectDeviceDlg.htm
-old-project: wia
+tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\selectdevicedlg.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWiaDevMgr interface [WIA],SelectDeviceDlg method, IWiaDevMgr.SelectDeviceDlg, IWiaDevMgr::SelectDeviceDlg, SelectDeviceDlg, SelectDeviceDlg method [WIA], SelectDeviceDlg method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_SelectDeviceDlg, wia._wia_IWiaDevMgr_SelectDeviceDlg, wia_xp/IWiaDevMgr::SelectDeviceDlg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIAVIDEO_STATE
+req.lib: Wiaguid.lib
+req.dll: Wiaservc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWiaDevMgr.SelectDeviceDlg
 product: Windows
 targetos: Windows
-req.lib: Wiaguid.lib
-req.dll: Wiaservc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWiaDevMgr::SelectDeviceDlg

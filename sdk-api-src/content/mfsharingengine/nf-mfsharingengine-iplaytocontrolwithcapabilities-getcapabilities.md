@@ -4,17 +4,16 @@ title: IPlayToControlWithCapabilities::GetCapabilities
 author: windows-sdk-content
 description: Gets the capabilities information for the content.
 old-location: mf\iplaytocontrolwithcapabilities_getcapabilities.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 04d35ac6-af8c-4e95-865b-54bbc7e36059
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Media Foundation], GetCapabilities method [Media Foundation],IPlayToControlWithCapabilities interface, IPlayToControlWithCapabilities interface [Media Foundation],GetCapabilities method, IPlayToControlWithCapabilities.GetCapabilities, IPlayToControlWithCapabilities::GetCapabilities, mf.iplaytocontrolwithcapabilities_getcapabilities, mfsharingengine/IPlayToControlWithCapabilities::GetCapabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfsharingengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PLAYTO_SOURCE_CREATEFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPlayToControlWithCapabilities.GetCapabilities
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPlayToControlWithCapabilities::GetCapabilities

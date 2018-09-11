@@ -4,17 +4,16 @@ title: FCIAddFile function
 author: windows-sdk-content
 description: The FCIAddFile adds a file to the cabinet under construction.
 old-location: winprog\fciaddfile.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: f99e8718-853b-4d35-98ae-61a8333dbaba
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FCIAddFile, FCIAddFile function [Windows API], fci/FCIAddFile, tcompTYPE_MSZIP, tcompTYPE_NONE, winprog.fciaddfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fci.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_ROUTE_CALLBACKROUTINES, *PFAX_ROUTE_CALLBACKROUTINES
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FCIAddFile
 product: Windows
 targetos: Windows
-req.lib: Cabinet.lib
-req.dll: Cabinet.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FCIAddFile function

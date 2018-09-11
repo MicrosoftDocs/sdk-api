@@ -4,17 +4,16 @@ title: WlanSetSecuritySettings function
 author: windows-sdk-content
 description: Sets the security settings for a configurable object.
 old-location: nwifi\wlansetsecuritysettings.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 6038e4bc-7f07-4148-ac34-e290c8c40e99
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WlanSetSecuritySettings, WlanSetSecuritySettings function [NativeWIFI], nwifi.wlansetsecuritysettings, wlanapi/WlanSetSecuritySettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
+req.lib: Wlanapi.lib
+req.dll: Wlanapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WlanSetSecuritySettings
 product: Windows
 targetos: Windows
-req.lib: Wlanapi.lib
-req.dll: Wlanapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WlanSetSecuritySettings function

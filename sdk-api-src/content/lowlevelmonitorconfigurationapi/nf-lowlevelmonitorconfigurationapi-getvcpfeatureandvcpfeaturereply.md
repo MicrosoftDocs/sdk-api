@@ -4,17 +4,16 @@ title: GetVCPFeatureAndVCPFeatureReply function
 author: windows-sdk-content
 description: Retrieves the current value, maximum value, and code type of a Virtual Control Panel (VCP) code for a monitor.
 old-location: monitor\getvcpfeatureandvcpfeaturereply.htm
-old-project: Monitor
+tech.root: Monitor
 ms.assetid: b0b06137-8f67-46fc-ba6b-3022f3331fa5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetVCPFeatureAndVCPFeatureReply, GetVCPFeatureAndVCPFeatureReply function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetVCPFeatureAndVCPFeatureReply, monitor.getvcpfeatureandvcpfeaturereply
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_VCP_CODE_TYPE, *LPMC_VCP_CODE_TYPE
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetVCPFeatureAndVCPFeatureReply
 product: Windows
 targetos: Windows
-req.lib: Dxva2.lib
-req.dll: Dxva2.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetVCPFeatureAndVCPFeatureReply function

@@ -4,17 +4,16 @@ title: IX509PublicKey::ComputeKeyIdentifier
 author: windows-sdk-content
 description: Creates an identifier from a 160-bit SHA-1 hash of the public key.
 old-location: security\ix509publickey_computekeyidentifier_method.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: b2e471c7-1087-46a2-8938-5d3cea44f7f7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ComputeKeyIdentifier, ComputeKeyIdentifier method [Security], ComputeKeyIdentifier method [Security],IX509PublicKey interface, IX509PublicKey interface [Security],ComputeKeyIdentifier method, IX509PublicKey.ComputeKeyIdentifier, IX509PublicKey::ComputeKeyIdentifier, certenroll/IX509PublicKey::ComputeKeyIdentifier, security.ix509publickey_computekeyidentifier_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509PublicKey.ComputeKeyIdentifier
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PublicKey::ComputeKeyIdentifier

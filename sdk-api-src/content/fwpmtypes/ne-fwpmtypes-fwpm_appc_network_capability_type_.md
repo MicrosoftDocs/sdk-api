@@ -4,7 +4,7 @@ title: FWPM_APPC_NETWORK_CAPABILITY_TYPE_
 author: windows-sdk-content
 description: Specifies the type of app container network capability that is associated with the object or traffic in question.
 old-location: fwp\fwpm_appc_network_capability_type.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: e69ac412-0868-49da-9a87-58a03098839d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwpmtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_APPC_NETWORK_CAPABILITY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPM_APPC_NETWORK_CAPABILITY_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPM_APPC_NETWORK_CAPABILITY_TYPE
+req.redist: 
 ---
 
 # FWPM_APPC_NETWORK_CAPABILITY_TYPE_ enumeration

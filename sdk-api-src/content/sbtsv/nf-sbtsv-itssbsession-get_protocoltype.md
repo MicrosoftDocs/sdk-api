@@ -4,17 +4,16 @@ title: ITsSbSession::get_ProtocolType
 author: windows-sdk-content
 description: Retrieves or specifies the protocol type for the session.
 old-location: termserv\itssbsession_protocoltype.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: ee4016c7-1cd4-456c-abec-e43d57866bc1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],ProtocolType property, ITsSbSession.ProtocolType, ITsSbSession.get_ProtocolType, ITsSbSession::ProtocolType, ITsSbSession::get_ProtocolType, ITsSbSession::put_ProtocolType, ProtocolType property [Remote Desktop Services], ProtocolType property [Remote Desktop Services],ITsSbSession interface, get_ProtocolType, sbtsv/ITsSbSession::ProtocolType, sbtsv/ITsSbSession::get_ProtocolType, sbtsv/ITsSbSession::put_ProtocolType, termserv.itssbsession_protocoltype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITsSbSession.put_ProtocolType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbSession::get_ProtocolType

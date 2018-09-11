@@ -4,17 +4,16 @@ title: IADsPropertyList::ResetPropertyItem
 author: windows-sdk-content
 description: Removes the specified item from the list; that is, from the cache.
 old-location: adsi\iadspropertylist_resetpropertyitem.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 25ee4444-476d-4146-ac22-3b0cfed3f2c0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsPropertyList interface [ADSI],ResetPropertyItem method, IADsPropertyList.ResetPropertyItem, IADsPropertyList::ResetPropertyItem, ResetPropertyItem, ResetPropertyItem method [ADSI], ResetPropertyItem method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_resetpropertyitem, adsi.iadspropertylist__resetpropertyitem, adsi.iadspropertylist_resetpropertyitem, iads/IADsPropertyList::ResetPropertyItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsPropertyList.ResetPropertyItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsPropertyList::ResetPropertyItem
@@ -62,7 +60,7 @@ The <b>IADsPropertyList::ResetPropertyItem</b> method removes the specified item
 
 ### -param varEntry
 
-
+TBD
 
 
 

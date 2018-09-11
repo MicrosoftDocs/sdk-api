@@ -4,7 +4,7 @@ title: NLM_DATAPLAN_STATUS
 author: windows-sdk-content
 description: NLM_DATAPLAN_STATUS structure stores the current data plan status information supplied by the carrier.
 old-location: nla\nlm_dataplan_status.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 49774150-FD7E-4541-95DF-C848247A6A9C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_DATAPLAN_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NLM_DATAPLAN_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NLM_DATAPLAN_STATUS
+req.redist: 
 ---
 
 # NLM_DATAPLAN_STATUS structure

@@ -4,17 +4,16 @@ title: IUIAutomationTransformPattern2::get_CurrentZoomMinimum
 author: windows-sdk-content
 description: Retrieves the minimum zoom level of the control's viewport.
 old-location: winauto\iuiautomationtransformpattern2_currentzoomminimum.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 9393D635-016D-4A31-BCB2-DC4100D7D1CB
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentZoomMinimum property [Windows Accessibility], CurrentZoomMinimum property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CurrentZoomMinimum property, IUIAutomationTransformPattern2.CurrentZoomMinimum, IUIAutomationTransformPattern2.get_CurrentZoomMinimum, IUIAutomationTransformPattern2::CurrentZoomMinimum, IUIAutomationTransformPattern2::get_CurrentZoomMinimum, get_CurrentZoomMinimum, uiautomationclient/IUIAutomationTransformPattern2::CurrentZoomMinimum, uiautomationclient/IUIAutomationTransformPattern2::get_CurrentZoomMinimum, winauto.iuiautomationtransformpattern2_currentzoomminimum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationTransformPattern2.get_CurrentZoomMinimum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTransformPattern2::get_CurrentZoomMinimum

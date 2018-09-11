@@ -4,17 +4,16 @@ title: IsMediaBehaviorEnabled function
 author: windows-sdk-content
 description: Gets a value indicating whether the media behavior associated with the specified GUID is enabled.
 old-location: winprog\ismediabehaviorenabled.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 6D1F52E3-3AC0-4270-8931-53D8687A10C7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IsMediaBehaviorEnabled, IsMediaBehaviorEnabled function [Windows API], comppkgsup/IsMediaBehaviorEnabled, winprog.ismediabehaviorenabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: comppkgsup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGELISTDRAWPARAMS
+req.lib: Comppkgsup.lib
+req.dll: CompPkgSup.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IsMediaBehaviorEnabled
 product: Windows
 targetos: Windows
-req.lib: Comppkgsup.lib
-req.dll: CompPkgSup.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IsMediaBehaviorEnabled function

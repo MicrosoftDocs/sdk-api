@@ -4,17 +4,16 @@ title: IProofOfPossessionCookieInfoManager::GetCookieInfoForUri
 author: windows-sdk-content
 description: Gets cookie information for the supplied URI to be used for proof of possession cookies.
 old-location: wininet\iproofofpossessioncookieinfomanager_getcookieinfoforuri.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: e7e22e0e-f84c-47e5-878f-b70459c921b8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: GetCookieInfoForUri, GetCookieInfoForUri method [WinINet], GetCookieInfoForUri method [WinINet],IProofOfPossessionCookieInfoManager interface, IProofOfPossessionCookieInfoManager interface [WinINet],GetCookieInfoForUri method, IProofOfPossessionCookieInfoManager.GetCookieInfoForUri, IProofOfPossessionCookieInfoManager::GetCookieInfoForUri, proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager::GetCookieInfoForUri, wininet.iproofofpossessioncookieinfomanager_getcookieinfoforuri
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: proofofpossessioncookieinfo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROFILEINFOW, *LPPROFILEINFOW
+req.lib: 
+req.dll: MicrosoftAccountTokenProvider.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProofOfPossessionCookieInfoManager.GetCookieInfoForUri
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MicrosoftAccountTokenProvider.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IProofOfPossessionCookieInfoManager::GetCookieInfoForUri

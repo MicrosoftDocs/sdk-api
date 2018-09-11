@@ -4,17 +4,16 @@ title: FlushProcessWriteBuffers function
 author: windows-sdk-content
 description: Flushes the write queue of each processor that is running a thread of the current process.
 old-location: base\flushprocesswritebuffers.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 6dcf6851-59ee-4f6e-b2cb-e36ac5328b92
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: FlushProcessWriteBuffers, FlushProcessWriteBuffers function, base.flushprocesswritebuffers, processthreadsapi/FlushProcessWriteBuffers, winbase/FlushProcessWriteBuffers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - FlushProcessWriteBuffers
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # FlushProcessWriteBuffers function

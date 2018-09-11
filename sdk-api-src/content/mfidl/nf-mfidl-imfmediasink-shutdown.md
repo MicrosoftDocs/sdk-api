@@ -4,17 +4,16 @@ title: IMFMediaSink::Shutdown
 author: windows-sdk-content
 description: Shuts down the media sink and releases the resources it is using.
 old-location: mf\imfmediasink_shutdown.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: acda4e37-2dd0-4322-90fc-8f48d6842054
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaSink interface [Media Foundation],Shutdown method, IMFMediaSink.Shutdown, IMFMediaSink::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaSink interface, acda4e37-2dd0-4322-90fc-8f48d6842054, mf.imfmediasink_shutdown, mfidl/IMFMediaSink::Shutdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaSink.Shutdown
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSink::Shutdown

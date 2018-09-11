@@ -4,17 +4,16 @@ title: FilterInstanceFindClose function
 author: windows-sdk-content
 description: The FilterInstanceFindClose function closes the specified minifilter instance search handle. The FilterInstanceFindFirst and FilterInstanceFindNext functions use this search handle to locate instances of a minifilter.
 old-location: ifsk\filterinstancefindclose.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f4b066ca-4154-425d-85f6-682dc7460117
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: FilterInstanceFindClose, FilterInstanceFindClose function [Installable File System Drivers], FltWin32ApiRef_e9ea0ce5-7e02-40df-8e12-5b7fb8b0a189.xml, fltuser/FilterInstanceFindClose, ifsk.filterinstancefindclose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterInstanceFindClose
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterInstanceFindClose function

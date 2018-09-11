@@ -4,17 +4,16 @@ title: UNDOCK_REASON
 author: windows-sdk-content
 description: Values that indicate the reason that a docked accessibility app window has been undocked. Used by IAccessibilityDockingServiceCallback::Undocked.
 old-location: shell\UNDOCK_REASON.htm
-old-project: shell
+tech.root: shell
 ms.assetid: C900E0DA-C6C6-41cd-8333-38BE4D451A66
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: UNDOCK_REASON, UNDOCK_REASON enumeration [Windows Shell], UR_MONITOR_DISCONNECT, UR_RESOLUTION_CHANGE, shell.UNDOCK_REASON, shobjidl/UNDOCK_REASON, shobjidl/UR_MONITOR_DISCONNECT, shobjidl/UR_RESOLUTION_CHANGE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNDOCK_REASON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UNDOCK_REASON
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: UNDOCK_REASON
+req.redist: 
 ---
 
 # UNDOCK_REASON enumeration

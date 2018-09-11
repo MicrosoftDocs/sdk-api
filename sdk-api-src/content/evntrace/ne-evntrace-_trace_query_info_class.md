@@ -4,7 +4,7 @@ title: "_TRACE_QUERY_INFO_CLASS"
 author: windows-sdk-content
 description: Determines the type of information to include with the trace.
 old-location: etw\trace_info_class.htm
-old-project: etw
+tech.root: etw
 ms.assetid: b163e120-454a-48ba-93a9-71351fc3f2c2
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TRACE_INFO_CLASS, TRACE_QUERY_INFO_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
+req.redist: 
 ---
 
 # _TRACE_QUERY_INFO_CLASS enumeration

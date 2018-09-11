@@ -4,17 +4,16 @@ title: FwpmSubLayerGetByKey0 function
 author: windows-sdk-content
 description: Retrieves a sublayer by its key.
 old-location: fwp\fwpmsublayergetbykey0_func.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 3435b4fb-abea-43cc-b1a9-a8bea673d72e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FwpmSubLayerGetByKey0, FwpmSubLayerGetByKey0 function [Filtering], fwp.fwpmsublayergetbykey0_func, fwpmu/FwpmSubLayerGetByKey0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FwpmSubLayerGetByKey0
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FwpmSubLayerGetByKey0 function

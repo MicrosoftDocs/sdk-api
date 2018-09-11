@@ -4,17 +4,16 @@ title: IApplicationAssociationRegistration
 author: windows-sdk-content
 description: Exposes methods that query and set default applications for specific file Association Type, and protocols at a specific Association Level.
 old-location: shell\IApplicationAssociationRegistration.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 015a3be4-2e74-4a2b-8c02-54dcbf0ecacd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IApplicationAssociationRegistration, IApplicationAssociationRegistration interface [Windows Shell], IApplicationAssociationRegistration interface [Windows Shell],described, _shell_IApplicationAssociationRegistration, shell.IApplicationAssociationRegistration, shobjidl_core/IApplicationAssociationRegistration
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IApplicationAssociationRegistration
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Browseui.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IApplicationAssociationRegistration interface

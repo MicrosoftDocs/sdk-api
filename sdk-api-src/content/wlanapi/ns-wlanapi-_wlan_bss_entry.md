@@ -4,7 +4,7 @@ title: "_WLAN_BSS_ENTRY"
 author: windows-sdk-content
 description: Contains information about a basic service set (BSS).
 old-location: nwifi\wlan_bss_entry.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 25a76128-13d9-47dd-9c73-1fbf06a908be
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLAN_BSS_ENTRY, *PWLAN_BSS_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLAN_BSS_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLAN_BSS_ENTRY, *PWLAN_BSS_ENTRY
+req.redist: 
 ---
 
 # _WLAN_BSS_ENTRY structure

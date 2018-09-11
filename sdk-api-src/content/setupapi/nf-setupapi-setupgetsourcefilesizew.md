@@ -4,17 +4,16 @@ title: SetupGetSourceFileSizeW function
 author: windows-sdk-content
 description: The SetupGetSourceFileSize function reads the uncompressed size of a source file listed in an INF file.
 old-location: setup\setupgetsourcefilesize.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: f1db8ad5-b133-410e-9843-38b09e2ef5e7
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupGetSourceFileSize, SetupGetSourceFileSize function [Setup API], SetupGetSourceFileSizeA, SetupGetSourceFileSizeW, _setupapi_setupgetsourcefilesize, setup.setupgetsourcefilesize, setupapi/SetupGetSourceFileSize, setupapi/SetupGetSourceFileSizeA, setupapi/SetupGetSourceFileSizeW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupGetSourceFileSizeW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupGetSourceFileSizeW function

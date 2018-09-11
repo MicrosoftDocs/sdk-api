@@ -4,17 +4,16 @@ title: IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate
 author: windows-sdk-content
 description: Indicates a change in the AVDecCommonMeanBitRate codec property.
 old-location: mstv\imsvidaudiorendererevent2_avdeccommonmeanbitrate.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ec5749d5-1ee0-4b3e-9e5d-cf07a62991ae
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: AVDecCommonMeanBitRate, AVDecCommonMeanBitRate method [Microsoft TV Technologies], AVDecCommonMeanBitRate method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDecCommonMeanBitRate method, IMSVidAudioRendererEvent2.AVDecCommonMeanBitRate, IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate, mstv.imsvidaudiorendererevent2_avdeccommonmeanbitrate, segment/IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidAudioRendererEvent2.AVDecCommonMeanBitRate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate

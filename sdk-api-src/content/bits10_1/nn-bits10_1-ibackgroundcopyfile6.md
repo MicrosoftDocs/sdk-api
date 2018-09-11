@@ -4,7 +4,7 @@ title: IBackgroundCopyFile6
 author: windows-sdk-content
 description: Use this interface to request file ranges for On Demand download jobs.
 old-location: bits\ibackgroundcopyfile6.htm
-old-project: bits
+tech.root: bits
 ms.assetid: FE3B1BAB-2634-4BE0-91B7-F97041CB3655
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits10_1.h
 req.include-header: Bits10_0.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_TIMES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyFile6
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyFile6 interface

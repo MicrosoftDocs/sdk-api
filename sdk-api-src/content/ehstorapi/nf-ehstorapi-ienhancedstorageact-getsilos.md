@@ -4,17 +4,16 @@ title: IEnhancedStorageACT::GetSilos
 author: windows-sdk-content
 description: Returns an enumeration of all silos associated with the Addressable Command Target (ACT).
 old-location: enstor\ienhancedstorageact_getsilos.htm
-old-project: enstor
+tech.root: enstor
 ms.assetid: 823da812-b3f5-4c61-bb33-cd970695879f
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: GetSilos, GetSilos method [Enhanced Storage], GetSilos method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetSilos method, IEnhancedStorageACT.GetSilos, IEnhancedStorageACT::GetSilos, ehstorapi/IEnhancedStorageACT::GetSilos, enstor.ienhancedstorageact_getsilos
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TimedLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnhancedStorageACT.GetSilos
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnhancedStorageACT::GetSilos
@@ -62,7 +60,7 @@ Returns an enumeration of all  silos associated with the Addressable Command Tar
 
 ### -param pppIEnhancedStorageSilos
 
-
+TBD
 
 
 ### -param pcEnhancedStorageSilos [out]

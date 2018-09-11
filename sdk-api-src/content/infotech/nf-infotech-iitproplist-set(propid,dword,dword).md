@@ -4,17 +4,16 @@ title: IITPropList::Set(PROPID,DWORD,DWORD)
 author: windows-sdk-content
 description: Sets a property to a given value or deletes a property from the list.
 old-location: htmlhelp\iitproplist_set1.htm
-old-project: htmlhelp
+tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistset.htm
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],Set method, IITPropList.Set, IITPropList.Set(PROPID,DWORD,DWORD), IITPropList::Set, IITPropList::Set(PROPID,DWORD,DWORD), PROP_ADD, PROP_DELETE, PROP_UPDATE, Set, Set method [HTML Help Workshop], Set method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_set1, infotech/IITPropList::Set, refIITPropListSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IITPropList.Set
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IITPropList::Set(PROPID,DWORD,DWORD)

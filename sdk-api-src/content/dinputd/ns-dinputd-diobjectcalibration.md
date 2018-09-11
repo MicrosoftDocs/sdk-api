@@ -4,7 +4,7 @@ title: DIOBJECTCALIBRATION
 author: windows-sdk-content
 description: The DIOBJECTCALIBRATION structure describes the information contained in the &#0034;Calibration&#0034; value of the registry key for each axis on a device.
 old-location: hid\diobjectcalibration.htm
-old-project: hid
+tech.root: hid
 ms.assetid: d1e6a9ee-c7eb-42d1-9f91-185dcccc3109
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIOBJECTCALIBRATION, *LPDIOBJECTCALIBRATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIOBJECTCALIBRATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIOBJECTCALIBRATION, *LPDIOBJECTCALIBRATION
+req.redist: 
 ---
 
 # DIOBJECTCALIBRATION structure

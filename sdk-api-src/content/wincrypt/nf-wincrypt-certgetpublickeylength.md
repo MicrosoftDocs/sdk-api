@@ -4,17 +4,16 @@ title: CertGetPublicKeyLength function
 author: windows-sdk-content
 description: The CertGetPublicKeyLength function acquires the bit length of public/private keys from a public key BLOB.
 old-location: security\certgetpublickeylength.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: e67923f4-cd1f-4952-88f1-92ee26423f87
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CertGetPublicKeyLength, CertGetPublicKeyLength function [Security], _crypto2_certgetpublickeylength, security.certgetpublickeylength, wincrypt/CertGetPublicKeyLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertGetPublicKeyLength
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertGetPublicKeyLength function

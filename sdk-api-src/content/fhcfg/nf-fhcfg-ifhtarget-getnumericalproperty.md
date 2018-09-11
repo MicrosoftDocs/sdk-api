@@ -4,17 +4,16 @@ title: IFhTarget::GetNumericalProperty
 author: windows-sdk-content
 description: Retrieves a numeric property of the File History backup target that is represented by an IFhTarget interface.
 old-location: winprog\ifhtarget_getnumericalproperty.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 3FA2F3AB-A406-4F19-AA5A-0D5596F1BF2C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetNumericalProperty, GetNumericalProperty method [Windows API], GetNumericalProperty method [Windows API],IFhTarget interface, IFhTarget interface [Windows API],GetNumericalProperty method, IFhTarget.GetNumericalProperty, IFhTarget::GetNumericalProperty, fhcfg/IFhTarget::GetNumericalProperty, winprog.ifhtarget_getnumericalproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFhTarget.GetNumericalProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFhTarget::GetNumericalProperty

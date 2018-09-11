@@ -4,17 +4,16 @@ title: IPMT::GetTableDescriptorByTag
 author: windows-sdk-content
 description: The GetTableDescriptorByTag method searches the PMT for a table-wide descriptor with the specified descriptor tag.
 old-location: mstv\ipmt_gettabledescriptorbytag.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e70bcffb-41ea-4f25-bb93-dc43339ae6ba
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IPMT.GetTableDescriptorByTag, IPMT::GetTableDescriptorByTag, IPMTGetTableDescriptorByTag, mpeg2psiparser/IPMT::GetTableDescriptorByTag, mstv.ipmt_gettabledescriptorbytag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPMT.GetTableDescriptorByTag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPMT::GetTableDescriptorByTag

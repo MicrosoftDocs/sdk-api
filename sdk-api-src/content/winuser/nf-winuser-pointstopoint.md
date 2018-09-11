@@ -4,17 +4,16 @@ title: POINTSTOPOINT macro
 author: windows-sdk-content
 description: The POINTSTOPOINT macro copies the contents of a POINTS structure into a POINT structure.
 old-location: gdi\pointstopoint.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 921da8a5-cd8a-4851-b470-9b7bd10afaad
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: POINTSTOPOINT, POINTSTOPOINT macro [Windows GDI], _win32_POINTSTOPOINT, gdi.pointstopoint, winuser/POINTSTOPOINT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POINTSTOPOINT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # POINTSTOPOINT macro

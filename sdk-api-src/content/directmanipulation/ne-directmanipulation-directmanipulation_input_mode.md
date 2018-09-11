@@ -4,7 +4,7 @@ title: DIRECTMANIPULATION_INPUT_MODE
 author: windows-sdk-content
 description: Defines the threading behavior for SetInputMode or SetUpdateMode. The exact meaning of each constant depends on the method called.
 old-location: directmanipulation\directmanipulation_input_mode.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 92839109-91d5-45fc-85d0-dc5a14e4ebf0
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_INPUT_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIRECTMANIPULATION_INPUT_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIRECTMANIPULATION_INPUT_MODE
+req.redist: 
 ---
 
 # DIRECTMANIPULATION_INPUT_MODE enumeration

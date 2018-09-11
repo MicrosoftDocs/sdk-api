@@ -4,17 +4,16 @@ title: IWbemProviderInitSink
 author: windows-sdk-content
 description: The IWbemProviderInitSink interface is implemented by WMI and called by providers to report initialization status.
 old-location: wmi\iwbemproviderinitsink.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: abcee170-6a28-44d2-97d6-cb62c393b534
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemProviderInitSink, IWbemProviderInitSink interface [Windows Management Instrumentation], IWbemProviderInitSink interface [Windows Management Instrumentation],described, _hmm_iwbemproviderinitsink, wbemprov/IWbemProviderInitSink, wmi.iwbemproviderinitsink
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemProviderInitSink
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wbemsvc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemProviderInitSink interface

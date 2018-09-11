@@ -4,7 +4,7 @@ title: tagSoHAttribute
 author: windows-sdk-content
 description: Defines the SoH protocol between the SHA/SHV and the NAP system.
 old-location: nap\sohattribute_struct.htm
-old-project: nap
+tech.root: nap
 ms.assetid: cd954277-27e0-47f4-b4c3-f5335925b8fd
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SoHAttribute
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SoHAttribute
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SoHAttribute
+req.redist: 
 ---
 
 # tagSoHAttribute structure

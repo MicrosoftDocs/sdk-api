@@ -4,17 +4,16 @@ title: IBrowserService2::_MaySaveChanges
 author: windows-sdk-content
 description: Deprecated. Enables the base class to check whether the browser view needs to save changes before closing.
 old-location: shell\IBrowserService2__MaySaveChanges.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3f75f4d7-5bb3-4fc4-aefa-32e52d1ab85e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_MaySaveChanges method, IBrowserService2._MaySaveChanges, IBrowserService2::_MaySaveChanges, _MaySaveChanges, _MaySaveChanges method [Windows Shell], _MaySaveChanges method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_MaySaveChanges, shell.IBrowserService2__MaySaveChanges, zone_IBrowserService2__MaySaveChanges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2._MaySaveChanges
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

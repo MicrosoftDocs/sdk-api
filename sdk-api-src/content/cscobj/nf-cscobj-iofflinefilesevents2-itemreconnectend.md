@@ -4,17 +4,16 @@ title: IOfflineFilesEvents2::ItemReconnectEnd
 author: windows-sdk-content
 description: Reports that the Offline Files service has completed its attempt to reconnect all offline scopes.
 old-location: of\iofflinefilesevents2_itemreconnectend.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 929d6556-69cb-4863-a665-236603fcd88b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],ItemReconnectEnd method, IOfflineFilesEvents2.ItemReconnectEnd, IOfflineFilesEvents2::ItemReconnectEnd, ItemReconnectEnd, ItemReconnectEnd method [Offline Files], ItemReconnectEnd method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::ItemReconnectEnd, of.iofflinefilesevents2_itemreconnectend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesEvents2.ItemReconnectEnd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesEvents2::ItemReconnectEnd

@@ -4,17 +4,16 @@ title: IThumbnailCache::GetThumbnail
 author: windows-sdk-content
 description: Gets a cached thumbnail for a given Shell item.
 old-location: shell\IThumbnailCache_GetThumbnail.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0fcfe68b-5d36-4be1-a468-b5c2d7af0651
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetThumbnail, GetThumbnail method [Windows Shell], GetThumbnail method [Windows Shell],IThumbnailCache interface, IThumbnailCache interface [Windows Shell],GetThumbnail method, IThumbnailCache.GetThumbnail, IThumbnailCache::GetThumbnail, WTS_CACHED, WTS_DEFAULT, WTS_LOWQUALITY, _shell__GetThumbnail, shell.IThumbnailCache_GetThumbnail, thumbcache/IThumbnailCache::GetThumbnail
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: thumbcache.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IThumbnailCache.GetThumbnail
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IThumbnailCache::GetThumbnail

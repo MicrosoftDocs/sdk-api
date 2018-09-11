@@ -4,7 +4,7 @@ title: "_AMCOPPSignature"
 author: windows-sdk-content
 description: The AMCOPPSignature structure contains the signature needed for the IAMCertifiedOutputProtection::SessionSequenceStart method.
 old-location: dshow\amcoppsignature.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: eaf220cf-111f-42fa-80db-1c69cd863258
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMCOPPSignature
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AMCOPPSignature
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP
+req.typenames: AMCOPPSignature
+req.redist: 
 ---
 
 # _AMCOPPSignature structure

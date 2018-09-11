@@ -4,17 +4,16 @@ title: IPicture::get_Height
 author: windows-sdk-content
 description: Retrieves the current height of the picture in the picture object.
 old-location: com\ipicture_get_height.htm
-old-project: com
+tech.root: com
 ms.assetid: a582cc9d-4356-49ec-9f14-38c75e690fbe
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPicture interface [COM],get_Height method, IPicture.get_Height, IPicture::get_Height, _ctrl_ipicture_get_height, com.ipicture_get_height, get_Height, get_Height method [COM], get_Height method [COM],IPicture interface, ocidl/IPicture::get_Height
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPicture.get_Height
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPicture::get_Height

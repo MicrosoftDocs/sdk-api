@@ -4,7 +4,7 @@ title: IAdvancedMediaCaptureInitializationSettings
 author: windows-sdk-content
 description: Provides initialization settings for advanced media capture.
 old-location: mf\iadvancedmediacaptureInitializationsettings.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8a7978c1-1919-4b49-9848-6d972e3e94f5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediacapture.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_BYTE_STREAM_CACHE_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAdvancedMediaCaptureInitializationSettings
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IAdvancedMediaCaptureInitializationSettings interface

@@ -4,17 +4,16 @@ title: GetCommMask function
 author: windows-sdk-content
 description: Retrieves the value of the event mask for a specified communications device.
 old-location: base\getcommmask.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 502aa563-c783-4a98-8596-74514a5b261e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: EV_BREAK, EV_CTS, EV_DSR, EV_ERR, EV_EVENT1, EV_EVENT2, EV_PERR, EV_RING, EV_RLSD, EV_RX80FULL, EV_RXCHAR, EV_RXFLAG, EV_TXEMPTY, GetCommMask, GetCommMask function, _win32_getcommmask, base.getcommmask, winbase/GetCommMask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - GetCommMask
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetCommMask function

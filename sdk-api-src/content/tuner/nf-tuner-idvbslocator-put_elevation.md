@@ -4,17 +4,16 @@ title: IDVBSLocator::put_Elevation
 author: windows-sdk-content
 description: The put_Elevation method sets the elevation of the satellite in tenths of a degree.
 old-location: mstv\idvbslocator_put_elevation.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 12db3e20-9102-483c-a4ef-8a90a376b7af
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_Elevation method, IDVBSLocator.put_Elevation, IDVBSLocator::put_Elevation, IDVBSLocatorput_Elevation, mstv.idvbslocator_put_elevation, put_Elevation, put_Elevation method [Microsoft TV Technologies], put_Elevation method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_Elevation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVBSLocator.put_Elevation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVBSLocator::put_Elevation

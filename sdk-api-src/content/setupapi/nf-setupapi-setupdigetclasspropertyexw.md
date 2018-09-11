@@ -4,17 +4,16 @@ title: SetupDiGetClassPropertyExW function
 author: windows-sdk-content
 description: The SetupDiGetClassPropertyEx function retrieves a class property for a device setup class or a device interface class on a local or remote computer.
 old-location: devinst\setupdigetclasspropertyex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 74b6cd23-5741-4f0c-b5e1-6cdea2074c28
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiGetClassPropertyEx, SetupDiGetClassPropertyEx function [Device and Driver Installation], SetupDiGetClassPropertyExW, devinst.setupdigetclasspropertyex, di-rtns_b2221d4f-34d3-4206-b1f2-fbaa8d7886cc.xml, setupapi/SetupDiGetClassPropertyEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: DesktopFor universal, call CM_Get_Class_Property_ExW
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiGetClassPropertyEx
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetClassPropertyExW function

@@ -4,17 +4,16 @@ title: Heap32ListNext function
 author: windows-sdk-content
 description: Retrieves information about the next heap that has been allocated by a process.
 old-location: toolhelp\heap32listnext.htm
-old-project: ToolHelp
+tech.root: ToolHelp
 ms.assetid: bb4d573c-a82f-48ac-be22-440d6a1d0c9c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: Heap32ListNext, Heap32ListNext function [ToolHelp], _win32_heap32listnext, base.heap32listnext, tlhelp32/Heap32ListNext, toolhelp.heap32listnext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TpcGetSamplesArgs
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - Heap32ListNext
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Heap32ListNext function

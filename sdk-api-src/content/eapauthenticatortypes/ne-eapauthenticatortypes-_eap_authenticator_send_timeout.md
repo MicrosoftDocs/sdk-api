@@ -4,7 +4,7 @@ title: "_EAP_AUTHENTICATOR_SEND_TIMEOUT"
 author: windows-sdk-content
 description: Indicates to the authenticator method the amount of time to wait for user input after the packet is sent. The timeout value can be set to none.
 old-location: eaphost\eap_authenticator_send_timeout.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 56c3da89-eaa8-4ea9-a912-3e15d713ba45
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: eapauthenticatortypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_AUTHENTICATOR_SEND_TIMEOUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_AUTHENTICATOR_SEND_TIMEOUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_AUTHENTICATOR_SEND_TIMEOUT
+req.redist: 
 ---
 
 # _EAP_AUTHENTICATOR_SEND_TIMEOUT enumeration

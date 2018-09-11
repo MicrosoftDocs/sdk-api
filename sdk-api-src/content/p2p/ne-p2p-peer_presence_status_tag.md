@@ -4,7 +4,7 @@ title: peer_presence_status_tag
 author: windows-sdk-content
 description: The PEER_PRESENCE_STATUS enumeration defines the set of possible presence status settings available to a peer that participates in a peer collaboration network.
 old-location: p2p\peer_presence_status.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 0f7f6fa8-5da4-4f59-b9ea-0117ff8a3e28
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_PRESENCE_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_PRESENCE_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_PRESENCE_STATUS
+req.redist: 
 ---
 
 # peer_presence_status_tag enumeration

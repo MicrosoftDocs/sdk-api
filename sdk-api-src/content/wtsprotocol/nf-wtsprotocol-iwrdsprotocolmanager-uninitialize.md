@@ -4,17 +4,16 @@ title: IWRdsProtocolManager::Uninitialize
 author: windows-sdk-content
 description: Uninitializes the protocol manager.
 old-location: termserv\iwrdsprotocolmanager_uninitialize.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 1d7bc6e3-798e-4dc8-8892-7be6992b67ab
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],Uninitialize method, IWRdsProtocolManager.Uninitialize, IWRdsProtocolManager::Uninitialize, Uninitialize, Uninitialize method [Remote Desktop Services], Uninitialize method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_uninitialize, wtsprotocol/IWRdsProtocolManager::Uninitialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWRdsProtocolManager.Uninitialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWRdsProtocolManager::Uninitialize

@@ -4,17 +4,16 @@ title: IMFQualityAdvise::SetQualityLevel
 author: windows-sdk-content
 description: Sets the quality level. The quality level determines how the component consumes or produces samples.
 old-location: mf\imfqualityadvise_setqualitylevel.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: f788fd7d-65fc-4917-8d5d-cfaf35a013e7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFQualityAdvise interface [Media Foundation],SetQualityLevel method, IMFQualityAdvise.SetQualityLevel, IMFQualityAdvise::SetQualityLevel, SetQualityLevel, SetQualityLevel method [Media Foundation], SetQualityLevel method [Media Foundation],IMFQualityAdvise interface, f788fd7d-65fc-4917-8d5d-cfaf35a013e7, mf.imfqualityadvise_setqualitylevel, mfidl/IMFQualityAdvise::SetQualityLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFQualityAdvise.SetQualityLevel
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFQualityAdvise::SetQualityLevel

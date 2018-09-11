@@ -4,17 +4,16 @@ title: GetCalendarInfoA function
 author: windows-sdk-content
 description: Retrieves information about a calendar for a locale specified by identifier.
 old-location: intl\getcalendarinfo.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: f32ca0d0-8fa2-41e5-9835-76cf51426c3b
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetCalendarInfo, GetCalendarInfo function [Internationalization for Windows Applications], GetCalendarInfoA, GetCalendarInfoW, _win32_GetCalendarInfo, intl.getcalendarinfo, winnls/GetCalendarInfo, winnls/GetCalendarInfoA, winnls/GetCalendarInfoW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -51,10 +51,8 @@ api_name:
  - GetCalendarInfoW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetCalendarInfoA function

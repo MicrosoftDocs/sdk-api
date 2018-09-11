@@ -4,17 +4,16 @@ title: IMoniker::Hash
 author: windows-sdk-content
 description: Creates a hash value using the internal state of the moniker.
 old-location: com\imoniker_hash.htm
-old-project: com
+tech.root: com
 ms.assetid: 5073c909-d3bc-480e-97fb-d096e60787e5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Hash, Hash method [COM], Hash method [COM],IMoniker interface, IMoniker interface [COM],Hash method, IMoniker.Hash, IMoniker::Hash, _com_imoniker_hash, com.imoniker_hash, objidl/IMoniker::Hash
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMoniker.Hash
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMoniker::Hash

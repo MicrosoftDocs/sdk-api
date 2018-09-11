@@ -4,17 +4,16 @@ title: MFCreateSensorGroup function
 author: windows-sdk-content
 description: Creates an instance of the IMFSensorGroup interface based on the provided symbolic link name.
 old-location: mf\mfcreatesensorgroup.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: A1DDA62D-D668-4292-9DFF-09B17A78A54E
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateSensorGroup, MFCreateSensorGroup function [Media Foundation], mf.mfcreatesensorgroup, mfidl/MFCreateSensorGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateSensorGroup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateSensorGroup function

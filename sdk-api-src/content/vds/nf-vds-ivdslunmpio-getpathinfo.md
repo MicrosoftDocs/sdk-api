@@ -4,17 +4,16 @@ title: IVdsLunMpio::GetPathInfo
 author: windows-sdk-content
 description: Returns an array of VDS_PATH_INFO structures, one for each path to the LUN.
 old-location: base\ivdslunmpio_getpathinfo.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: c7cc1abf-c7f2-4260-b9d2-f70128276e1e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetPathInfo, GetPathInfo method [VDS], GetPathInfo method [VDS],IVdsLunMpio interface, IVdsLunMpio interface [VDS],GetPathInfo method, IVdsLunMpio.GetPathInfo, IVdsLunMpio::GetPathInfo, base.ivdslunmpio_getpathinfo, vds/IVdsLunMpio::GetPathInfo, vdshwprv/IVdsLunMpio::GetPathInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLunMpio.GetPathInfo
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsLunMpio::GetPathInfo

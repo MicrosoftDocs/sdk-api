@@ -4,17 +4,16 @@ title: INameSpaceTreeControlDropHandler::OnDrop
 author: windows-sdk-content
 description: Called on drop to set drop effect, as specified.
 old-location: shell\INameSpaceTreeControlDropHandler_OnDrop.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 05c677fb-a2e2-4aa5-bb27-4dc437ca408c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDrop method, INameSpaceTreeControlDropHandler.OnDrop, INameSpaceTreeControlDropHandler::OnDrop, OnDrop, OnDrop method [Windows Shell], OnDrop method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDrop, shell.INameSpaceTreeControlDropHandler_OnDrop, shobjidl/INameSpaceTreeControlDropHandler::OnDrop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControlDropHandler.OnDrop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControlDropHandler::OnDrop

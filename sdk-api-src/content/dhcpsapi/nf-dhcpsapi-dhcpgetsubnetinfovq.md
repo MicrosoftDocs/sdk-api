@@ -4,17 +4,16 @@ title: DhcpGetSubnetInfoVQ function
 author: windows-sdk-content
 description: Retrieves the information about a specific IPv4 subnet defined on the DHCP server.
 old-location: dhcp\dhcpgetsubnetinfovq.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 7ee3ba38-a90c-4409-a40f-80e1cd1fc3c3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpGetSubnetInfoVQ, DhcpGetSubnetInfoVQ function [DHCP], dhcp.dhcpgetsubnetinfovq, dhcpsapi/DhcpGetSubnetInfoVQ
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpGetSubnetInfoVQ
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpGetSubnetInfoVQ function

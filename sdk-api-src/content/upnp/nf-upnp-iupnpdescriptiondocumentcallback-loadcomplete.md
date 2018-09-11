@@ -4,17 +4,16 @@ title: IUPnPDescriptionDocumentCallback::LoadComplete
 author: windows-sdk-content
 description: The LoadComplete method is invoked when the UPnP framework has finished loading a device description.
 old-location: upnp\iupnpdescriptiondocumentcallback_loadcomplete.htm
-old-project: upnp
+tech.root: UPnP
 ms.assetid: 899b1aa4-597c-4434-80cc-2ea22759fbc8
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPDescriptionDocumentCallback interface [UPnP APIs],LoadComplete method, IUPnPDescriptionDocumentCallback.LoadComplete, IUPnPDescriptionDocumentCallback::LoadComplete, LoadComplete, LoadComplete method [UPnP APIs], LoadComplete method [UPnP APIs],IUPnPDescriptionDocumentCallback interface, UPNP_E_DEVICE_ELEMENT_EXPECTED, UPNP_E_DEVICE_NODE_INCOMPLETE, UPNP_E_ICON_ELEMENT_EXPECTED, UPNP_E_ICON_NODE_INCOMPLETE, UPNP_E_ROOT_ELEMENT_EXPECTED, UPNP_E_SERVICE_ELEMENT_EXPECTED, UPNP_E_SERVICE_NODE_INCOMPLETE, _upnp_iupnpdescriptiondocumentcallback_loadcomplete, upnp.iupnpdescriptiondocumentcallback_loadcomplete, upnp/IUPnPDescriptionDocumentCallback::LoadComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDescriptionDocumentCallback.LoadComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDescriptionDocumentCallback::LoadComplete

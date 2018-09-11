@@ -4,17 +4,16 @@ title: ITDirectory::Bind
 author: windows-sdk-content
 description: The Bind method binds to the server.
 old-location: tapi3\itdirectory_bind.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 4bcf994c-3091-445e-ad79-91958e48960a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: Bind, Bind method [TAPI 2.2], Bind method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],Bind method, ITDirectory.Bind, ITDirectory::Bind, _tapi3_itdirectory_bind, rend/ITDirectory::Bind, tapi3.itdirectory_bind
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDirectory.Bind
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITDirectory::Bind

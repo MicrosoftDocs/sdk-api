@@ -4,7 +4,7 @@ title: UiaAsyncContentLoadedEventArgs
 author: windows-sdk-content
 description: Note  This structure is deprecated.  Contains information about an event raised when content is being asynchronously loaded by a UI element.
 old-location: winauto\uiauto_UiaAsyncContentLoadedEventArgsStruct.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 070b79f2-8ed7-4bb3-85ce-a946b7cf0e6e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UiaAsyncContentLoadedEventArgs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaAsyncContentLoadedEventArgs structure

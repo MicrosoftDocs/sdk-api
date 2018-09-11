@@ -4,17 +4,16 @@ title: ISyncMgrHandler::Activate
 author: windows-sdk-content
 description: Requests that the handler is activated or deactivated. An active handler can be synchronized; an inactive handler cannot.
 old-location: shell\ISyncMgrHandler_Activate.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0061387d-516d-44c5-b511-3236593382a9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Activate, Activate method [Windows Shell], Activate method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],Activate method, ISyncMgrHandler.Activate, ISyncMgrHandler::Activate, _shell_ISyncMgrHandler_Activate, shell.ISyncMgrHandler_Activate, syncmgr/ISyncMgrHandler::Activate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrHandler.Activate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrHandler::Activate

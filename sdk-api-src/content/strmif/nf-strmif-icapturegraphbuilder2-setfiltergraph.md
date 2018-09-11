@@ -4,17 +4,16 @@ title: ICaptureGraphBuilder2::SetFiltergraph
 author: windows-sdk-content
 description: The SetFiltergraph method specifies a filter graph for the capture graph builder to use.
 old-location: dshow\icapturegraphbuilder2_setfiltergraph.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6193ece8-cdf1-44f5-9619-16380352193f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],SetFiltergraph method, ICaptureGraphBuilder2.SetFiltergraph, ICaptureGraphBuilder2::SetFiltergraph, ICaptureGraphBuilder2SetFiltergraph, SetFiltergraph, SetFiltergraph method [DirectShow], SetFiltergraph method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_setfiltergraph, strmif/ICaptureGraphBuilder2::SetFiltergraph
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICaptureGraphBuilder2.SetFiltergraph
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # ICaptureGraphBuilder2::SetFiltergraph

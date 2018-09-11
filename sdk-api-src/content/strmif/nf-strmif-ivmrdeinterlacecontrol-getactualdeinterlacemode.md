@@ -4,17 +4,16 @@ title: IVMRDeinterlaceControl::GetActualDeinterlaceMode
 author: windows-sdk-content
 description: The GetActualDeinterlaceMode method returns the deinterlacing mode that the VMR is using for a specified stream.
 old-location: dshow\ivmrdeinterlacecontrol_getactualdeinterlacemode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b8b5c619-68fe-40a5-8621-ef6e9ad612d8
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetActualDeinterlaceMode, GetActualDeinterlaceMode method [DirectShow], GetActualDeinterlaceMode method [DirectShow],IVMRDeinterlaceControl interface, IVMRDeinterlaceControl interface [DirectShow],GetActualDeinterlaceMode method, IVMRDeinterlaceControl.GetActualDeinterlaceMode, IVMRDeinterlaceControl::GetActualDeinterlaceMode, IVMRDeinterlaceControlGetActualDeinterlaceMode, dshow.ivmrdeinterlacecontrol_getactualdeinterlacemode, strmif/IVMRDeinterlaceControl::GetActualDeinterlaceMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRDeinterlaceControl.GetActualDeinterlaceMode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRDeinterlaceControl::GetActualDeinterlaceMode

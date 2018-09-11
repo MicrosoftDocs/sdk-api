@@ -4,17 +4,16 @@ title: ICertPropertyAutoEnroll::get_TemplateName
 author: windows-sdk-content
 description: Retrieves a string that contains the name of the template that the certificate can use for autoenrollment.
 old-location: security\icertpropertyautoenroll_templatename_property.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: bec4be81-ff39-4517-be17-e5ca6f0b08e9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertPropertyAutoEnroll interface [Security],TemplateName property, ICertPropertyAutoEnroll.TemplateName, ICertPropertyAutoEnroll.get_TemplateName, ICertPropertyAutoEnroll::TemplateName, ICertPropertyAutoEnroll::get_TemplateName, TemplateName property [Security], TemplateName property [Security],ICertPropertyAutoEnroll interface, certenroll/ICertPropertyAutoEnroll::TemplateName, certenroll/ICertPropertyAutoEnroll::get_TemplateName, get_TemplateName, security.icertpropertyautoenroll_templatename_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertPropertyAutoEnroll.get_TemplateName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyAutoEnroll::get_TemplateName

@@ -4,17 +4,16 @@ title: IEnumTfLatticeElements::Reset
 author: windows-sdk-content
 description: IEnumTfLatticeElements::Reset method
 old-location: tsf\ienumtflatticeelements_reset.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 9b4b7479-33e9-4bff-8e18-f4e03060dc73
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumTfLatticeElements interface [Text Services Framework],Reset method, IEnumTfLatticeElements.Reset, IEnumTfLatticeElements::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfLatticeElements interface, _tsf_ienumtflatticeelements_reset_ref, ctffunc/IEnumTfLatticeElements::Reset, tsf.ienumtflatticeelements_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: Sptip.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumTfLatticeElements.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sptip.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IEnumTfLatticeElements::Reset

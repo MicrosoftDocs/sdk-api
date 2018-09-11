@@ -4,17 +4,16 @@ title: SHFileOperationA function
 author: windows-sdk-content
 description: Copies, moves, renames, or deletes a file system object. This function has been replaced in Windows Vista by IFileOperation.
 old-location: shell\SHFileOperation.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7807015f-52c5-46f5-9e90-4e3e60ddf705
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHFileOperation, SHFileOperation function [Windows Shell], SHFileOperationA, SHFileOperationW, _win32_SHFileOperation, shell.SHFileOperation, shellapi/SHFileOperation, shellapi/SHFileOperationA, shellapi/SHFileOperationW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SHFileOperationW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHFileOperationA function

@@ -4,17 +4,16 @@ title: ITAgentSessionEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method gets an AGENT_SESSION_EVENT descriptor of the event that occurred.
 old-location: tapi3\itagentsessionevent_get_event.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 34779590-c2f6-4bd7-932b-5ac6365bcb20
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgentSessionEvent interface [TAPI 2.2],get_Event method, ITAgentSessionEvent.get_Event, ITAgentSessionEvent::get_Event, _tapi3_itagentsessionevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITAgentSessionEvent interface, tapi3.itagentsessionevent_get_event, tapi3cc/ITAgentSessionEvent::get_Event
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentSessionEvent.get_Event
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentSessionEvent::get_Event

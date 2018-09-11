@@ -4,7 +4,7 @@ title: SmartCardAssociationType
 author: windows-sdk-content
 description: The SmartCardAssociationType enumeration type specifies a smart card association.
 old-location: mstv\smartcardassociationtype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 42fe27ed-d461-43bf-87c5-bd0704339ec7
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardAssociationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SmartCardAssociationType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SmartCardAssociationType
+req.redist: 
 ---
 
 # SmartCardAssociationType enumeration

@@ -4,17 +4,16 @@ title: RegisterPointerInputTargetEx function
 author: windows-sdk-content
 description: RegisterPointerInputTargetEx may be altered or unavailable. Instead, use RegisterPointerInputTarget.
 old-location: winauto\registerpointerinputtargetex.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: E2B3D097-36E5-4444-B9DF-B3D38F1FEF48
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RegisterPointerInputTargetEx, RegisterPointerInputTargetEx function [Windows Accessibility], winauto.registerpointerinputtargetex, winuser/RegisterPointerInputTargetEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - RegisterPointerInputTargetEx
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegisterPointerInputTargetEx function

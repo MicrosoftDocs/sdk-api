@@ -4,17 +4,16 @@ title: IAzAuthorizationStore::OpenApplicationGroup
 author: windows-sdk-content
 description: Opens an IAzApplicationGroup object by specifying its name.
 old-location: security\azauthorizationstore_openapplicationgroup.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: 30860261-c792-4610-b217-7c4d58554778
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzAuthorizationStore object [Security],OpenApplicationGroup method, IAzAuthorizationStore interface [Security],OpenApplicationGroup method, IAzAuthorizationStore.OpenApplicationGroup, IAzAuthorizationStore::OpenApplicationGroup, OpenApplicationGroup, OpenApplicationGroup method [Security], OpenApplicationGroup method [Security],AzAuthorizationStore object, OpenApplicationGroup method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::OpenApplicationGroup, security.azauthorizationstore_openapplicationgroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAzAuthorizationStore.OpenApplicationGroup
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzAuthorizationStore::OpenApplicationGroup

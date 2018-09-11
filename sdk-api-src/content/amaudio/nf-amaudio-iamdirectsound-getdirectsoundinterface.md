@@ -4,17 +4,16 @@ title: IAMDirectSound::GetDirectSoundInterface
 author: windows-sdk-content
 description: The GetDirectSoundInterface method is not implemented.
 old-location: dshow\iamdirectsound_getdirectsoundinterface.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0980d931-296f-47c1-a6f5-63a94032c1bf
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDirectSoundInterface, GetDirectSoundInterface method [DirectShow], GetDirectSoundInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetDirectSoundInterface method, IAMDirectSound.GetDirectSoundInterface, IAMDirectSound::GetDirectSoundInterface, IAMDirectSoundGetDirectSoundInterface, amaudio/IAMDirectSound::GetDirectSoundInterface, dshow.iamdirectsound_getdirectsoundinterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKADDR_IRDA, *PSOCKADDR_IRDA, *LPSOCKADDR_IRDA
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAMDirectSound.GetDirectSoundInterface
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMDirectSound::GetDirectSoundInterface

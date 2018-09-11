@@ -4,17 +4,16 @@ title: IDirectManipulationViewportEventHandler::OnViewportStatusChanged
 author: windows-sdk-content
 description: Called when the status of a viewport changes.
 old-location: directmanipulation\idirectmanipulationviewporteventhandler_onviewportstatuschanged.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 7fe7106d-1b13-4a3e-8841-550e0ef55f95
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDirectManipulationViewportEventHandler interface [Direct Manipulation],OnViewportStatusChanged method, IDirectManipulationViewportEventHandler.OnViewportStatusChanged, IDirectManipulationViewportEventHandler::OnViewportStatusChanged, OnViewportStatusChanged, OnViewportStatusChanged method [Direct Manipulation], OnViewportStatusChanged method [Direct Manipulation],IDirectManipulationViewportEventHandler interface, directmanipulation.idirectmanipulationviewporteventhandler_onviewportstatuschanged, directmanipulation/IDirectManipulationViewportEventHandler::OnViewportStatusChanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationViewportEventHandler.OnViewportStatusChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationViewportEventHandler::OnViewportStatusChanged

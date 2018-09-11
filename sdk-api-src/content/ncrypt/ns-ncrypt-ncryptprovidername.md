@@ -4,17 +4,16 @@ title: NCryptProviderName
 author: windows-sdk-content
 description: Used to contain the name of a CNG key storage provider.
 old-location: security\ncryptprovidername_struct.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 21d8bf28-ee3f-4036-b3b0-d9c68cb14fa9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NCryptProviderName, NCryptProviderName structure [Security], ncrypt/NCryptProviderName, security.ncryptprovidername_struct
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ncrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NCryptProviderName
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCryptProviderName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NCryptProviderName
+req.redist: 
 ---
 
 # NCryptProviderName structure

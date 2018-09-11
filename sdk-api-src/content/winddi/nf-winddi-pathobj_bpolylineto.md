@@ -4,17 +4,16 @@ title: PATHOBJ_bPolyLineTo function
 author: windows-sdk-content
 description: The PATHOBJ_bPolyLineTo function draws lines from the current position in a path through the specified points.
 old-location: display\pathobj_bpolylineto.htm
-old-project: display
+tech.root: display
 ms.assetid: 468d20e3-a78b-47b3-9c56-ef355181eb63
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: PATHOBJ_bPolyLineTo, PATHOBJ_bPolyLineTo function [Display Devices], display.pathobj_bpolylineto, gdifncs_eaa54bcf-8b39-4661-a2cf-79198ffa1df6.xml, winddi/PATHOBJ_bPolyLineTo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PATHOBJ_bPolyLineTo
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PATHOBJ_bPolyLineTo function

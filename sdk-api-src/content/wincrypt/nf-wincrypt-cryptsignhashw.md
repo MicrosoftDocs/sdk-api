@@ -4,17 +4,16 @@ title: CryptSignHashW function
 author: windows-sdk-content
 description: Signs data.
 old-location: security\cryptsignhash.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 9cf0de04-fdad-457d-8137-16d98f915cd5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptSignHash, CryptSignHash function [Security], CryptSignHashA, CryptSignHashW, _crypto2_cryptsignhash, security.cryptsignhash, wincrypt/CryptSignHash, wincrypt/CryptSignHashA, wincrypt/CryptSignHashW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - CryptSignHashW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptSignHashW function

@@ -4,17 +4,16 @@ title: OleCreateFontIndirect function
 author: windows-sdk-content
 description: Creates and initializes a standard font object using an initial description of the font's properties in a FONTDESC structure.
 old-location: com\olecreatefontindirect.htm
-old-project: com
+tech.root: com
 ms.assetid: 9ab384d6-fc21-4152-a0cf-744948f2f72c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleCreateFontIndirect, OleCreateFontIndirect function [COM], _ole_OleCreateFontIndirect, com.olecreatefontindirect, olectl/OleCreateFontIndirect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: olectl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PARAMDATA, *LPPARAMDATA
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OleCreateFontIndirect
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleCreateFontIndirect function

@@ -4,17 +4,16 @@ title: AuditComputeEffectivePolicyByToken function
 author: windows-sdk-content
 description: Computes the effective audit policy for one or more subcategories for the security principal associated with the specified token. The function computes effective audit policy by combining system audit policy with per-user policy.
 old-location: security\auditcomputeeffectivepolicybytoken_func.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: e5fc9b8d-a61e-48c2-9093-f27167232cc8
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AuditComputeEffectivePolicyByToken, AuditComputeEffectivePolicyByToken function [Security], ntsecapi/AuditComputeEffectivePolicyByToken, security.auditcomputeeffectivepolicybytoken_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AuditComputeEffectivePolicyByToken
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AuditComputeEffectivePolicyByToken function

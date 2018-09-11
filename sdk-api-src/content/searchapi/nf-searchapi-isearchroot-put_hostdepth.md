@@ -4,17 +4,16 @@ title: ISearchRoot::put_HostDepth
 author: windows-sdk-content
 description: Sets a value that indicates how far into a host tree to crawl when indexing.
 old-location: search\_search_ISearchRoot_put_HostDepth.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_hostdepth.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ISearchRoot interface [search],put_HostDepth method, ISearchRoot.put_HostDepth, ISearchRoot::put_HostDepth, _search_ISearchRoot_put_HostDepth, put_HostDepth, put_HostDepth method [search], put_HostDepth method [search],ISearchRoot interface, search._search_ISearchRoot_put_HostDepth, searchapi/ISearchRoot::put_HostDepth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchRoot.put_HostDepth
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchRoot::put_HostDepth

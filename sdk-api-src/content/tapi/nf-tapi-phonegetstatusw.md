@@ -4,17 +4,16 @@ title: phoneGetStatusW function
 author: windows-sdk-content
 description: The phoneGetStatus function enables an application to query the specified open phone device for its overall status.
 old-location: tapi2\phonegetstatus.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: d2e9e209-54f5-4895-b57a-a5f4c24e063e
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: "_tapi2_phonegetstatus, phoneGetStatus, phoneGetStatus function [TAPI 2.2], phoneGetStatusA, phoneGetStatusW, tapi/phoneGetStatus, tapi/phoneGetStatusA, tapi/phoneGetStatusW, tapi2.phonegetstatus"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - phoneGetStatusW
 product: Windows
 targetos: Windows
-req.lib: Tapi32.lib
-req.dll: Tapi32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # phoneGetStatusW function

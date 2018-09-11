@@ -4,17 +4,16 @@ title: IObjectContextActivity
 author: windows-sdk-content
 description: Retrieves the activity identifier associated with the current object context.
 old-location: cos\iobjectcontextactivity.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: b3cdd835-60fd-414c-9b60-b15c07b11f34
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IObjectContextActivity, IObjectContextActivity interface [COM+], IObjectContextActivity interface [COM+],described, _cos_IObjectContextActivity, comsvcs/IObjectContextActivity, cos.iobjectcontextactivity
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectContextActivity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectContextActivity interface

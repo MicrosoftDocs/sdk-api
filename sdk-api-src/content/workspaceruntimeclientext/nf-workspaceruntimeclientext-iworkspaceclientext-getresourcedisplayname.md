@@ -4,17 +4,16 @@ title: IWorkspaceClientExt::GetResourceDisplayName
 author: windows-sdk-content
 description: Returns the display name of the custom client in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceclientext_getresourcedisplayname.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: f67fa6f3-621a-4015-8fcf-85b1302a3c8a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetResourceDisplayName, GetResourceDisplayName method [Remote Desktop Services], GetResourceDisplayName method [Remote Desktop Services],IWorkspaceClientExt interface, IWorkspaceClientExt interface [Remote Desktop Services],GetResourceDisplayName method, IWorkspaceClientExt.GetResourceDisplayName, IWorkspaceClientExt::GetResourceDisplayName, termserv.iworkspaceclientext_getresourcedisplayname, workspaceruntimeclientext/IWorkspaceClientExt::GetResourceDisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceruntimeclientext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWorkspaceClientExt.GetResourceDisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWorkspaceClientExt::GetResourceDisplayName

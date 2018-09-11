@@ -4,17 +4,16 @@ title: FLOATOBJ_DivLong function
 author: windows-sdk-content
 description: The FLOATOBJ_DivLong function divides the FLOATOBJ by the value of type LONG, and returns with the result in the first parameter.
 old-location: display\floatobj_divlong.htm
-old-project: display
+tech.root: display
 ms.assetid: 23452749-1a10-4d19-b24a-24ec42931efd
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: FLOATOBJ_DivLong, FLOATOBJ_DivLong function [Display Devices], display.floatobj_divlong, gdifncs_2c12858b-3c1a-4f4e-883f-aa4527695961.xml, winddi/FLOATOBJ_DivLong
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLOATOBJ_DivLong
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FLOATOBJ_DivLong function
@@ -60,7 +58,12 @@ The <b>FLOATOBJ_DivLong</b> function divides the <a href="https://msdn.microsoft
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

@@ -4,17 +4,16 @@ title: IWMDMProgress3::End3
 author: windows-sdk-content
 description: The End3 method is called by Windows Media Device Manager to indicate that an operation has finished.
 old-location: wmdm\iwmdmprogress3_end3.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: fb09cfa8-1a96-412f-a97a-6cc1638b0c77
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: End3, End3 method [windows Media Device Manager], End3 method [windows Media Device Manager],IWMDMProgress3 interface, IWMDMProgress3 interface [windows Media Device Manager],End3 method, IWMDMProgress3.End3, IWMDMProgress3::End3, IWMDMProgress3End3, mswmdm/IWMDMProgress3::End3, wmdm.iwmdmprogress3_end3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMProgress3.End3
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMProgress3::End3

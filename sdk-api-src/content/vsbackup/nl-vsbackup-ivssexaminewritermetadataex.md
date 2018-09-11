@@ -4,17 +4,16 @@ title: IVssExamineWriterMetadataEx
 author: windows-sdk-content
 description: Provides a method to retrieve the writer instance name and other basic information for a specific writer instance.
 old-location: base\ivssexaminewritermetadataex.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 363c987c-7d6c-4efe-988a-1b288f9b4d3c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssExamineWriterMetadataEx, IVssExamineWriterMetadataEx interface [VSS], IVssExamineWriterMetadataEx interface [VSS],described, base.ivssexaminewritermetadataex, vsbackup/IVssExamineWriterMetadataEx
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: class
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssExamineWriterMetadataEx
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: VssApi.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssExamineWriterMetadataEx class

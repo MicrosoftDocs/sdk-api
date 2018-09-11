@@ -4,17 +4,16 @@ title: IFolderActionCollection::Remove
 author: windows-sdk-content
 description: Removes a folder action from the collection based on the specified index.
 old-location: pla\ifolderactioncollection_remove.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: b0894d3f-13d1-4f71-9171-592640d70969
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IFolderActionCollection interface [PLA],Remove method, IFolderActionCollection.Remove, IFolderActionCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],IFolderActionCollection interface, base.ifolderactioncollection_remove, pla.ifolderactioncollection_remove, pla/IFolderActionCollection::Remove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderActionCollection.Remove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderActionCollection::Remove

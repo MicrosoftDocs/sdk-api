@@ -4,17 +4,16 @@ title: IAMAudioInputMixer::put_Mono
 author: windows-sdk-content
 description: The put_Mono method combines all channels into a mono signal.
 old-location: dshow\iamaudioinputmixer_put_mono.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: fb45a1ad-b6d8-4129-97f3-a9c99053c0f0
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Mono method, IAMAudioInputMixer.put_Mono, IAMAudioInputMixer::put_Mono, IAMAudioInputMixerput_Mono, dshow.iamaudioinputmixer_put_mono, put_Mono, put_Mono method [DirectShow], put_Mono method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Mono
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMAudioInputMixer.put_Mono
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMAudioInputMixer::put_Mono

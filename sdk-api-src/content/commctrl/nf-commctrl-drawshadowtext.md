@@ -4,17 +4,16 @@ title: DrawShadowText function
 author: windows-sdk-content
 description: Draws text that has a shadow.
 old-location: controls\DrawShadowText.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\drawshadowtext.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrawShadowText, DrawShadowText function [Windows Controls], commctrl/DrawShadowText, controls.DrawShadowText, controls.inet_DrawShadowText, inet_DrawShadowText, inet_DrawShadowText_cpp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: Comctl32.lib
+req.dll: ComCtl32.dll (version 6 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DrawShadowText
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: ComCtl32.dll (version 6 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DrawShadowText function

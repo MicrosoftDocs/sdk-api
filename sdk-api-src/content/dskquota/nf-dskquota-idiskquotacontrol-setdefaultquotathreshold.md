@@ -4,17 +4,16 @@ title: IDiskQuotaControl::SetDefaultQuotaThreshold
 author: windows-sdk-content
 description: Modifies the default warning threshold.
 old-location: fs\idiskquotacontrol_setdefaultquotathreshold.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: a935798b-91dc-4a36-aa31-7bde68b45778
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDiskQuotaControl interface [Files],SetDefaultQuotaThreshold method, IDiskQuotaControl.SetDefaultQuotaThreshold, IDiskQuotaControl::SetDefaultQuotaThreshold, SetDefaultQuotaThreshold, SetDefaultQuotaThreshold method [Files], SetDefaultQuotaThreshold method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_setdefaultquotathreshold, base.idiskquotacontrol_setdefaultquotathreshold, dskquota/IDiskQuotaControl::SetDefaultQuotaThreshold, fs.idiskquotacontrol_setdefaultquotathreshold
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaControl.SetDefaultQuotaThreshold
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaControl::SetDefaultQuotaThreshold

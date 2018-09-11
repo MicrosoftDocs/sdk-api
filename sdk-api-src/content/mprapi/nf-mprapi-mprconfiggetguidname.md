@@ -4,17 +4,16 @@ title: MprConfigGetGuidName function
 author: windows-sdk-content
 description: The MprConfigGetGuidName function returns the GUID name for an interface that corresponds to the specified friendly name.
 old-location: rras\mprconfiggetguidname.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 017662f7-7974-4598-a729-19181ccdfbe0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprConfigGetGuidName, MprConfigGetGuidName function [RAS], _mpr_mprconfiggetguidname, mprapi/MprConfigGetGuidName, rras.mprconfiggetguidname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprConfigGetGuidName
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprConfigGetGuidName function

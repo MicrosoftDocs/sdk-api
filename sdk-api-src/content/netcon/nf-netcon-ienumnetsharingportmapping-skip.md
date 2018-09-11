@@ -4,17 +4,16 @@ title: IEnumNetSharingPortMapping::Skip
 author: windows-sdk-content
 description: The Skip method skips the specified number of port mappings for this enumeration.
 old-location: ics\ienumnetsharingportmapping_skip.htm
-old-project: ics
+tech.root: ics
 ms.assetid: b041a1fd-fe33-4519-8ac2-106903c5892f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IEnumNetSharingPortMapping interface [ICS/ICF],Skip method, IEnumNetSharingPortMapping.Skip, IEnumNetSharingPortMapping::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingPortMapping interface, _ics_ienumnetsharingportmapping_skip, ics.ienumnetsharingportmapping_skip, netcon/IEnumNetSharingPortMapping::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumNetSharingPortMapping.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumNetSharingPortMapping::Skip

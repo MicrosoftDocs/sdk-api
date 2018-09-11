@@ -4,17 +4,16 @@ title: tagCOINIT
 author: windows-sdk-content
 description: Determines the concurrency model used for incoming calls to objects created by this thread. This concurrency model can be either apartment-threaded or multithreaded.
 old-location: com\coinit.htm
-old-project: com
+tech.root: com
 ms.assetid: 0ac4a809-05f8-46d7-8e79-9d4e88b487f4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: COINIT, COINIT enumeration [COM], COINIT_APARTMENTTHREADED, COINIT_DISABLE_OLE1DDE, COINIT_MULTITHREADED, COINIT_SPEED_OVER_MEMORY, _com_COINIT, com.coinit, objbase/COINIT, objbase/COINIT_APARTMENTTHREADED, objbase/COINIT_DISABLE_OLE1DDE, objbase/COINIT_MULTITHREADED, objbase/COINIT_SPEED_OVER_MEMORY, tagCOINIT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: OaIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COINIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COINIT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: COINIT
+req.redist: 
 ---
 
 # tagCOINIT enumeration

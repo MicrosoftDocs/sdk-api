@@ -4,7 +4,7 @@ title: "_WRDS_CONNECTION_SETTINGS"
 author: windows-sdk-content
 description: Contains connection setting information for a remote session.
 old-location: termserv\wrds_connection_settings.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 9219AE45-5F11-484E-BD78-F8E1AB41D648
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRDS_CONNECTION_SETTINGS, *PWRDS_CONNECTION_SETTINGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WRDS_CONNECTION_SETTINGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WRDS_CONNECTION_SETTINGS, *PWRDS_CONNECTION_SETTINGS
+req.redist: 
 ---
 
 # _WRDS_CONNECTION_SETTINGS structure

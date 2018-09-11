@@ -4,17 +4,16 @@ title: D3D10_BOX
 author: windows-sdk-content
 description: Defines a 3D box.
 old-location: direct3d10\d3d10_box.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_box.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: D3D10_BOX, D3D10_BOX structure [Direct3D 10], a02d025c-3b75-5cb1-2b68-a6c9d6261bf1, d3d10/D3D10_BOX, direct3d10.d3d10_box
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_BOX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_BOX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D10_BOX
+req.redist: 
 ---
 
 # D3D10_BOX structure

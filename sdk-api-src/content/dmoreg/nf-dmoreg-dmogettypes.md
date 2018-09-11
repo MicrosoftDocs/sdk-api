@@ -4,17 +4,16 @@ title: DMOGetTypes function
 author: windows-sdk-content
 description: The DMOGetTypes function retrieves the name of a DMO from the registry.
 old-location: dshow\dmogettypes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d50e067e-6bf2-4d19-86ef-38a414099666
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: DMOGetTypes, DMOGetTypes function [DirectShow], dmoreg/DMOGetTypes, dshow.dmogettypes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dmoreg.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Msdmo.lib
+req.dll: Msdmo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DMOGetTypes
 product: Windows
 targetos: Windows
-req.lib: Msdmo.lib
-req.dll: Msdmo.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DMOGetTypes function

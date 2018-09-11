@@ -4,17 +4,16 @@ title: IApiTracingDataCollector::get_LogApisRecursively
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether API tracing logs calls that are imported directly by the application.
 old-location: pla\iapitracingdatacollector_logapisrecursively.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 245f4f27-9a57-459c-b6e9-fe11fe58d77a
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IApiTracingDataCollector interface [PLA],LogApisRecursively property, IApiTracingDataCollector.LogApisRecursively, IApiTracingDataCollector.get_LogApisRecursively, IApiTracingDataCollector::LogApisRecursively, IApiTracingDataCollector::get_LogApisRecursively, IApiTracingDataCollector::put_LogApisRecursively, LogApisRecursively property [PLA], LogApisRecursively property [PLA],IApiTracingDataCollector interface, get_LogApisRecursively, pla.iapitracingdatacollector_logapisrecursively, pla/IApiTracingDataCollector::LogApisRecursively, pla/IApiTracingDataCollector::get_LogApisRecursively, pla/IApiTracingDataCollector::put_LogApisRecursively
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IApiTracingDataCollector.put_LogApisRecursively
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IApiTracingDataCollector::get_LogApisRecursively

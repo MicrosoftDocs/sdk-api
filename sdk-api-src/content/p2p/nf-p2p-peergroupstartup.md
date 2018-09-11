@@ -4,17 +4,16 @@ title: PeerGroupStartup function
 author: windows-sdk-content
 description: The PeerGroupStartup function initiates a peer group by using a requested version of the Peer infrastructure.
 old-location: p2p\peergroupstartup.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: c07e200d-9578-4367-a0f8-699ae300fc1f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerGroupStartup, PeerGroupStartup function [Peer Networking], p2p.peergroupstartup, p2p/PeerGroupStartup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerGroupStartup
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerGroupStartup function

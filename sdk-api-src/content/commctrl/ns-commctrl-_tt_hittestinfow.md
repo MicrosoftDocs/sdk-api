@@ -4,7 +4,7 @@ title: "_TT_HITTESTINFOW"
 author: windows-sdk-content
 description: Contains information that a tooltip control uses to determine whether a point is in the bounding rectangle of the specified tool. If the point is in the rectangle, the structure receives information about the tool.
 old-location: controls\TTHITTESTINFO.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\tthittestinfo.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TTHITTESTINFOW, *LPTTHITTESTINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - TTHITTESTINFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: TTHITTESTINFOW, *LPTTHITTESTINFOW
+req.redist: 
 ---
 
 # _TT_HITTESTINFOW structure

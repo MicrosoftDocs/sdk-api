@@ -4,17 +4,16 @@ title: "_WS_FIELD_DESCRIPTION"
 author: windows-sdk-content
 description: Represents serialization information about a field within a structure.
 old-location: wsw\ws_field_description.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 8b562fab-f3c5-4732-b993-f7f61ca14ab6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_FIELD_DESCRIPTION, WS_FIELD_DESCRIPTION structure [Web Services for Windows], _WS_FIELD_DESCRIPTION, webservices/WS_FIELD_DESCRIPTION, wsw.ws_field_description
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_FIELD_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_FIELD_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_FIELD_DESCRIPTION
+req.redist: 
 ---
 
 # _WS_FIELD_DESCRIPTION structure

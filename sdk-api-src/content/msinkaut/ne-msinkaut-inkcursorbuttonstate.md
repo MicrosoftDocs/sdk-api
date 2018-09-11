@@ -4,17 +4,16 @@ title: InkCursorButtonState
 author: windows-sdk-content
 description: Defines values that specify the state of a cursor button.
 old-location: tablet\inkcursorbuttonstate.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 0e750bd6-0b57-499e-9691-966fb027cdb5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 0e750bd6-0b57-499e-9691-966fb027cdb5, ICBS_CursorUnavailable, ICBS_Down, ICBS_Up, InkCursorButtonState, InkCursorButtonState enumeration [Tablet PC], msinkaut/ICBS_CursorUnavailable, msinkaut/ICBS_Down, msinkaut/ICBS_Up, msinkaut/InkCursorButtonState, tablet.inkcursorbuttonstate
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkCursorButtonState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InkCursorButtonState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkCursorButtonState
+req.redist: 
 ---
 
 # InkCursorButtonState enumeration

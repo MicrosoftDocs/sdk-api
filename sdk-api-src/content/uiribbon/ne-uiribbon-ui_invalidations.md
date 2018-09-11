@@ -4,17 +4,16 @@ title: UI_INVALIDATIONS
 author: windows-sdk-content
 description: Specifies values that identify the aspect of a Command to invalidate.
 old-location: windowsribbon\windowsribbon_ui_invalidations.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_invalidations.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_INVALIDATIONS, UI_INVALIDATIONS enumeration [Windows Ribbon], UI_INVALIDATIONS_ALLPROPERTIES, UI_INVALIDATIONS_PROPERTY, UI_INVALIDATIONS_STATE, UI_INVALIDATIONS_VALUE, scenicintent_UI_INVALIDATIONS, uiribbon/UI_INVALIDATIONS, uiribbon/UI_INVALIDATIONS_ALLPROPERTIES, uiribbon/UI_INVALIDATIONS_PROPERTY, uiribbon/UI_INVALIDATIONS_STATE, uiribbon/UI_INVALIDATIONS_VALUE, windowsribbon.windowsribbon_ui_invalidations
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_INVALIDATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_INVALIDATIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: UI_INVALIDATIONS
+req.redist: 
 ---
 
 # UI_INVALIDATIONS enumeration

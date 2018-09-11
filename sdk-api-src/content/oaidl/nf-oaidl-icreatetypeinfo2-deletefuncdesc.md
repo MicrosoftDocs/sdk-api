@@ -4,17 +4,16 @@ title: ICreateTypeInfo2::DeleteFuncDesc
 author: windows-sdk-content
 description: Deletes a function description specified by the index number.
 old-location: automat\icreatetypeinfo2_deletefuncdesc.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 5e157287-e4f3-49c4-9c18-a7b3ba1a965d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DeleteFuncDesc, DeleteFuncDesc method [Automation], DeleteFuncDesc method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteFuncDesc method, ICreateTypeInfo2.DeleteFuncDesc, ICreateTypeInfo2::DeleteFuncDesc, _oa96_ICreateTypeInfo2_DeleteFuncDesc, automat.icreatetypeinfo2_deletefuncdesc, oaidl/ICreateTypeInfo2::DeleteFuncDesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeInfo2.DeleteFuncDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeInfo2::DeleteFuncDesc

@@ -4,17 +4,16 @@ title: IMetaDataAssemblyImport::GetManifestResourceProps
 author: windows-sdk-content
 description: Gets the set of properties of the manifest resource with the specified metadata signature.
 old-location: winrt\imetadataassemblyimport_getmanifestresourceprops.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: caa859c8-de40-4de6-bf90-41104cef91b2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetManifestResourceProps, GetManifestResourceProps method [Windows Runtime], GetManifestResourceProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetManifestResourceProps method, IMetaDataAssemblyImport.GetManifestResourceProps, IMetaDataAssemblyImport::GetManifestResourceProps, rometadataapi/IMetaDataAssemblyImport::GetManifestResourceProps, winrt.imetadataassemblyimport_getmanifestresourceprops
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataAssemblyImport.GetManifestResourceProps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataAssemblyImport::GetManifestResourceProps

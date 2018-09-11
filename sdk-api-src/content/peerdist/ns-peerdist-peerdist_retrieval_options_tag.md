@@ -4,7 +4,7 @@ title: peerdist_retrieval_options_tag
 author: windows-sdk-content
 description: The PEER_RETRIEVAL_OPTIONS structure contains version of the content information to retrieve.
 old-location: p2p\peerdist_retrieval_options.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: cc5953bd-39cc-472e-a84b-89be7a6e6d09
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: peerdist.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEERDIST_RETRIEVAL_OPTIONS, *PPEERDIST_RETRIEVAL_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEERDIST_RETRIEVAL_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEERDIST_RETRIEVAL_OPTIONS, *PPEERDIST_RETRIEVAL_OPTIONS
+req.redist: 
 ---
 
 # peerdist_retrieval_options_tag structure

@@ -4,17 +4,16 @@ title: FindStringOrdinal function
 author: windows-sdk-content
 description: Locates a Unicode string (wide characters) in another Unicode string for a non-linguistic comparison.
 old-location: intl\findstringordinal.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 6aca64f5-640a-4be6-9606-260314e9c7dc
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: FIND_ENDSWITH, FIND_FROMEND, FIND_FROMSTART, FIND_STARTSWITH, FindStringOrdinal, FindStringOrdinal function [Internationalization for Windows Applications], intl.findstringordinal, libloaderapi/FindStringOrdinal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: libloaderapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: L2_NOTIFICATION_DATA, *PL2_NOTIFICATION_DATA
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - FindStringOrdinal
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # FindStringOrdinal function

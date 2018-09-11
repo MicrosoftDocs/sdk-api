@@ -4,17 +4,16 @@ title: RasGetNapStatus function
 author: windows-sdk-content
 description: Retrieves the Network Access Protection (NAP) connection state variables for a given remote access connection.
 old-location: rras\rasgetnapstatus.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 7f36f93f-7e07-4ad8-923f-59146bda4687
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RasGetNapStatus, ras/rasgetnapstatus, rasgetnapstatus, rasgetnapstatus function [RAS], rras.rasgetnapstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASPROJECTION_INFO_TYPE
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - rasgetnapstatus
 product: Windows
 targetos: Windows
-req.lib: Rasapi32.lib
-req.dll: Rasapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasGetNapStatus function

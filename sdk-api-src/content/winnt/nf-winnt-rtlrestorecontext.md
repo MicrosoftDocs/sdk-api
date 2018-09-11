@@ -4,17 +4,16 @@ title: RtlRestoreContext function
 author: windows-sdk-content
 description: Restores the context of the caller to the specified context record.
 old-location: base\rtlrestorecontext.htm
-old-project: debug
+tech.root: debug
 ms.assetid: f5304d17-bc67-4e0f-a535-efca4e65c74c
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: RtlRestoreContext, RtlRestoreContext function, base.rtlrestorecontext, winnt/RtlRestoreContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - RtlRestoreContext
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows XP Professional x64 Edition or 64-bit editions of Windows Server 2003
 ---
 

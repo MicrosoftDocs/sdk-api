@@ -4,17 +4,16 @@ title: DRMAddLicense function
 author: windows-sdk-content
 description: Adds an end-user license to the temporary or permanent license store.
 old-location: rm\drmaddlicense.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: d91a017c-7dc2-42d7-a8d3-9e0c83d05ea2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DRMAddLicense, DRMAddLicense function [Active Directory Rights Management Services SDK 1.0], DRM_ADD_LICENSE_NOPERSIST, DRM_ADD_LICENSE_PERSIST, msdrm/DRMAddLicense, rm.drmaddlicense
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_SELECTIONSTYLE
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMAddLicense
 product: Windows
 targetos: Windows
-req.lib: Msdrm.lib
-req.dll: Msdrm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

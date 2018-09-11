@@ -4,17 +4,16 @@ title: SetupAddSectionToDiskSpaceListA function
 author: windows-sdk-content
 description: The SetupAddSectionToDiskSpaceList function adds to a disk-space list all the file delete or copy operations listed in a Copy Files or Delete Files section of an INF file.
 old-location: setup\setupaddsectiontodiskspacelist.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 8225d0b4-b750-4580-83f5-dcffdf2ee67b
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: FILEOP_COPY, FILEOP_DELETE, SetupAddSectionToDiskSpaceList, SetupAddSectionToDiskSpaceList function [Setup API], SetupAddSectionToDiskSpaceListA, SetupAddSectionToDiskSpaceListW, _setupapi_setupaddsectiontodiskspacelist, setup.setupaddsectiontodiskspacelist, setupapi/SetupAddSectionToDiskSpaceList, setupapi/SetupAddSectionToDiskSpaceListA, setupapi/SetupAddSectionToDiskSpaceListW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupAddSectionToDiskSpaceListW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupAddSectionToDiskSpaceListA function

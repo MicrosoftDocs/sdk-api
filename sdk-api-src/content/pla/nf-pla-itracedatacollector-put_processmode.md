@@ -4,17 +4,16 @@ title: ITraceDataCollector::put_ProcessMode
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the session is a private, in-process session.
 old-location: pla\itracedatacollector_processmode.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 63962145-7627-46bc-9be1-3a0738bdb1ce
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ITraceDataCollector interface [PLA],ProcessMode property, ITraceDataCollector.ProcessMode, ITraceDataCollector.put_ProcessMode, ITraceDataCollector::ProcessMode, ITraceDataCollector::get_ProcessMode, ITraceDataCollector::put_ProcessMode, ProcessMode property [PLA], ProcessMode property [PLA],ITraceDataCollector interface, base.itracedatacollector_processmode, pla.itracedatacollector_processmode, pla/ITraceDataCollector::ProcessMode, pla/ITraceDataCollector::get_ProcessMode, pla/ITraceDataCollector::put_ProcessMode, put_ProcessMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITraceDataCollector.put_ProcessMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataCollector::put_ProcessMode

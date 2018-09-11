@@ -2,19 +2,18 @@
 UID: NF:faxcom.IFaxJob.get_RecipientName
 title: IFaxJob::get_RecipientName
 author: windows-sdk-content
-description: The RecipientName property is a null-terminated string that contains the name of the recipient of the fax job.
-old-location: fax\_mfax_ifaxjob_get_recipientname_vb.htm
-old-project: Fax
+description: The IFaxJob::get_RecipientName property is a null-terminated string that contains the name of the recipient of the fax job.
+old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_recipientname_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5vvp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxJob object [Fax Service],RecipientName property, FaxJob.RecipientName, IFaxJob.get_RecipientName, IFaxJob::get_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service],FaxJob object, _mfax_ifaxjob_get_recipientname, fax._mfax_ifaxjob_get_recipientname, fax._mfax_ifaxjob_get_recipientname_vb, get_RecipientName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxJob interface [Fax Service],RecipientName property, IFaxJob.RecipientName, IFaxJob.get_RecipientName, IFaxJob::RecipientName, IFaxJob::get_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_recipientname, fax._mfax_ifaxjob_get_recipientname, fax._mfax_ifaxjob_mfax_ifaxjob_get_recipientname_cpp, faxcom/IFaxJob::RecipientName, faxcom/IFaxJob::get_RecipientName, get_RecipientName
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxJob.RecipientName
+ - IFaxJob.RecipientName
+ - IFaxJob.get_RecipientName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxJob::get_RecipientName
@@ -52,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>RecipientName</b> property is a null-terminated string that contains the name of the recipient of the fax job.
+The <b>IFaxJob::get_RecipientName</b> property is a null-terminated string that contains the name of the recipient of the fax job.
 
 This property is read-only.
 
@@ -64,9 +63,9 @@ This property is read-only.
 
 
 
-If the recipient's name is not available, the <b>RecipientName</b> property contains an empty string.
+If the recipient's name is not available, the <b>IFaxJob::get_RecipientName</b> property contains an empty string.
 
-<b>RecipientName</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
+<b>IFaxJob::get_RecipientName</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
 
 
@@ -83,10 +82,6 @@ If the recipient's name is not available, the <b>RecipientName</b> property cont
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/ms690298(v=VS.85).aspx">FaxJob</a>
 
 
 

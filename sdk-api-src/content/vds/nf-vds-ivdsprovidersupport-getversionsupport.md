@@ -4,17 +4,16 @@ title: IVdsProviderSupport::GetVersionSupport
 author: windows-sdk-content
 description: Returns a bitmask of values enumerated by VDS_VERSION_SUPPORT_FLAG indicating the versions of the VDS interfaces supported by this provider.
 old-location: base\ivdsprovidersupport_getversionsupport.htm
-old-project: vds
+tech.root: VDS
 ms.assetid: c7527d29-7ab4-4f98-991b-411059e14237
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetVersionSupport, GetVersionSupport method, GetVersionSupport method,IVdsProviderSupport interface, IVdsProviderSupport interface,GetVersionSupport method, IVdsProviderSupport.GetVersionSupport, IVdsProviderSupport::GetVersionSupport, base.ivdsprovidersupport_getversionsupport, vds/IVdsProviderSupport::GetVersionSupport, vdshwprv/IVdsProviderSupport::GetVersionSupport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsProviderSupport.GetVersionSupport
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsProviderSupport::GetVersionSupport

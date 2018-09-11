@@ -4,7 +4,7 @@ title: "_DD_UPDATEVPORTDATA"
 author: windows-sdk-content
 description: The DD_UPDATEVPORTDATA structure contains the information required to start, stop, and change the video port extensions (VPE) object.
 old-location: display\dd_updatevportdata.htm
-old-project: display
+tech.root: display
 ms.assetid: e1ba7851-570e-4ddc-8981-766294011409
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_UPDATEVPORTDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA"
+req.redist: 
 ---
 
 # _DD_UPDATEVPORTDATA structure

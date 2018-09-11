@@ -4,17 +4,16 @@ title: ISyncChangeBatchBase::GetRemainingWorkEstimateForSession
 author: windows-sdk-content
 description: Gets the estimate of the remaining work for the session.
 old-location: winsync\isyncchangebatchbase_getremainingworkestimateforsession.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 8c1d3cf3-4d84-43c0-91cc-fbc418b8cb20
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetRemainingWorkEstimateForSession, GetRemainingWorkEstimateForSession method [Windows Sync], GetRemainingWorkEstimateForSession method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetRemainingWorkEstimateForSession method, ISyncChangeBatchBase.GetRemainingWorkEstimateForSession, ISyncChangeBatchBase::GetRemainingWorkEstimateForSession, winsync.isyncchangebatchbase_getremainingworkestimateforsession, winsync/ISyncChangeBatchBase::GetRemainingWorkEstimateForSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncChangeBatchBase.GetRemainingWorkEstimateForSession
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncChangeBatchBase::GetRemainingWorkEstimateForSession

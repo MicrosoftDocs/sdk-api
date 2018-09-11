@@ -4,17 +4,16 @@ title: WSAAddressToStringA function
 author: windows-sdk-content
 description: Converts all components of a sockaddr structure into a human-readable string representation of the address.
 old-location: winsock\wsaaddresstostring_2.htm
-old-project: winsock
+tech.root: WinSock
 ms.assetid: d72e55e6-79a9-4386-9e1a-24a322f13426
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSAAddressToString, WSAAddressToString function [Winsock], WSAAddressToStringA, WSAAddressToStringW, _win32_wsaaddresstostring_2, winsock.wsaaddresstostring_2, winsock2/WSAAddressToString, winsock2/WSAAddressToStringA, winsock2/WSAAddressToStringW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WSAAddressToStringW
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSAAddressToStringA function

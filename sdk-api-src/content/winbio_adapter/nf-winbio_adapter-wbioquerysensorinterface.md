@@ -4,17 +4,16 @@ title: WbioQuerySensorInterface function
 author: windows-sdk-content
 description: Retrieves a pointer to the WINBIO_SENSOR_INTERFACE structure for the sensor adapter.
 old-location: secbiomet\wbioquerysensorinterface.htm
-old-project: secbiomet
+tech.root: SecBioMet
 ms.assetid: 83ca38e1-3258-4676-bcdd-4876ec8f3ae1
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WbioQuerySensorInterface, WbioQuerySensorInterface function [Windows Biometric Framework API], secbiomet.wbioquerysensorinterface, winbio_adapter/WbioQuerySensorInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WbioQuerySensorInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WbioQuerySensorInterface function

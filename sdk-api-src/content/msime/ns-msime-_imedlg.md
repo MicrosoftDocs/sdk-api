@@ -4,7 +4,7 @@ title: "_IMEDLG"
 author: windows-sdk-content
 description: Used when invoking the Microsoft IME's Dictionary Tool or Word Register Dialog Window from the app.
 old-location: intl\imedlg.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 14F39582-F51D-456F-BC19-AFE6E50D4155
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEDLG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMEDLG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: IMEDLG
+req.redist: 
 ---
 
 # _IMEDLG structure

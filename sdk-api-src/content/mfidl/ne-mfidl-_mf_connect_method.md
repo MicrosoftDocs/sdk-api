@@ -4,7 +4,7 @@ title: "_MF_CONNECT_METHOD"
 author: windows-sdk-content
 description: Specifies how the topology loader connects a topology node.
 old-location: mf\mf_connect_method.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 881045bf-ea3b-46e2-aae0-b26e35882da1
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CONNECT_METHOD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_CONNECT_METHOD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_CONNECT_METHOD
+req.redist: 
 ---
 
 # _MF_CONNECT_METHOD enumeration

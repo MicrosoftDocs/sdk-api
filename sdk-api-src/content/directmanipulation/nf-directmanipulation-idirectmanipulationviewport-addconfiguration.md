@@ -4,17 +4,16 @@ title: IDirectManipulationViewport::AddConfiguration
 author: windows-sdk-content
 description: Adds an interaction configuration for the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_addconfiguration.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 908f67ef-3606-4636-88aa-4e95d80a9c7a
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: AddConfiguration, AddConfiguration method [Direct Manipulation], AddConfiguration method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],AddConfiguration method, IDirectManipulationViewport.AddConfiguration, IDirectManipulationViewport::AddConfiguration, directmanipulation.idirectmanipulationviewport_addconfiguration, directmanipulation/IDirectManipulationViewport::AddConfiguration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationViewport.AddConfiguration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationViewport::AddConfiguration

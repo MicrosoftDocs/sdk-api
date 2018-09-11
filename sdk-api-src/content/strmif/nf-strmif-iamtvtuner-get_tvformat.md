@@ -4,17 +4,16 @@ title: IAMTVTuner::get_TVFormat
 author: windows-sdk-content
 description: The get_TVFormat method retrieves the current analog video TV standard in use.
 old-location: dshow\iamtvtuner_get_tvformat.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 26e20511-04f6-4713-967f-5828e6f2a46d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_TVFormat method, IAMTVTuner.get_TVFormat, IAMTVTuner::get_TVFormat, IAMTVTunerget_TVFormat, dshow.iamtvtuner_get_tvformat, get_TVFormat, get_TVFormat method [DirectShow], get_TVFormat method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_TVFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMTVTuner.get_TVFormat
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMTVTuner::get_TVFormat

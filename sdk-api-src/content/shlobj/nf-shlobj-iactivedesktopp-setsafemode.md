@@ -4,17 +4,16 @@ title: IActiveDesktopP::SetSafeMode
 author: windows-sdk-content
 description: Sets or updates the Microsoft Active Desktop to safe mode.
 old-location: lwef\iactivedesktopp_setsafemode.htm
-old-project: lwef
+tech.root: lwef
 ms.assetid: 1f88cd96-670f-4c54-9a66-2b3748b5e573
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IActiveDesktopP interface [Legacy Windows Environment Features],SetSafeMode method, IActiveDesktopP.SetSafeMode, IActiveDesktopP::SetSafeMode, SSM_SET, SSM_UPDATE, SetSafeMode, SetSafeMode method [Legacy Windows Environment Features], SetSafeMode method [Legacy Windows Environment Features],IActiveDesktopP interface, _win32_IActiveDesktopP_SetSafeMode, lwef.iactivedesktopp_setsafemode, shell.iactivedesktopp_setsafemode, shlobj/IActiveDesktopP::SetSafeMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.00 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActiveDesktopP.SetSafeMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.00 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IActiveDesktopP::SetSafeMode

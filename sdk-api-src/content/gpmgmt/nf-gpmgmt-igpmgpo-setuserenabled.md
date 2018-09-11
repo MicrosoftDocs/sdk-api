@@ -4,17 +4,16 @@ title: IGPMGPO::SetUserEnabled
 author: windows-sdk-content
 description: Enables or disables the user settings in the GPO.
 old-location: gpmc\igpmgpo_setuserenabled.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 25a86f15-a5b0-4412-931b-444f4a684dc6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMGPO class [GPMC],SetUserEnabled method, IGPMGPO interface [GPMC],SetUserEnabled method, IGPMGPO.SetUserEnabled, IGPMGPO::SetUserEnabled, SetUserEnabled, SetUserEnabled method [GPMC], SetUserEnabled method [GPMC],GPMGPO class, SetUserEnabled method [GPMC],IGPMGPO interface, _win32_igpmgpo_setuserenabled, gpmc.igpmgpo_setuserenabled, gpmgmt/IGPMGPO::SetUserEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMGPO.SetUserEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMGPO::SetUserEnabled
@@ -63,7 +61,7 @@ Enables or disables the user settings in the GPO.
 
 ### -param vbEnabled
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IWinMLRuntime::CreateEvaluationContext
 author: windows-sdk-content
 description: Creates a WinML evaluation context object.
 old-location: machinelearning\iwinmlruntime_createevaluationcontext.htm
-old-project: MachineLearning
+tech.root: MachineLearning
 ms.assetid: 629D49AF-0AD9-4741-9A59-4B83F521723A
 ms.author: windowssdkdev
 ms.date: 03/08/2018
 ms.keywords: CreateEvaluationContext, CreateEvaluationContext method, CreateEvaluationContext method,IWinMLRuntime interface, IWinMLRuntime interface,CreateEvaluationContext method, IWinMLRuntime.CreateEvaluationContext, IWinMLRuntime::CreateEvaluationContext, MachineLearning.iwinmlruntime_createevaluationcontext, winml/IWinMLRuntime::CreateEvaluationContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_TENSOR_DATA_TYPE
+req.lib: Winml.lib
+req.dll: Winml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWinMLRuntime.CreateEvaluationContext
 product: Windows
 targetos: Windows
-req.lib: Winml.lib
-req.dll: Winml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWinMLRuntime::CreateEvaluationContext

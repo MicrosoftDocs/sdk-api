@@ -4,17 +4,16 @@ title: tagCBTACTIVATESTRUCT
 author: windows-sdk-content
 description: Contains information passed to a WH_CBT hook procedure, CBTProc, before a window is activated.
 old-location: winmsg\cbtactivatestruct.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\cbtactivatestruct.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPCBTACTIVATESTRUCT, CBTACTIVATESTRUCT, CBTACTIVATESTRUCT structure [Windows and Messages], LPCBTACTIVATESTRUCT, LPCBTACTIVATESTRUCT structure pointer [Windows and Messages], _win32_CBTACTIVATESTRUCT_str, _win32_cbtactivatestruct_str_cpp, tagCBTACTIVATESTRUCT, winmsg.cbtactivatestruct, winui._win32_cbtactivatestruct_str, winuser/CBTACTIVATESTRUCT, winuser/LPCBTACTIVATESTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CBTACTIVATESTRUCT, *LPCBTACTIVATESTRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CBTACTIVATESTRUCT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: CBTACTIVATESTRUCT, *LPCBTACTIVATESTRUCT
+req.redist: 
 ---
 
 # tagCBTACTIVATESTRUCT structure

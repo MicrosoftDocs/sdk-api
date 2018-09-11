@@ -4,17 +4,16 @@ title: IVssProviderNotifications::OnUnload
 author: windows-sdk-content
 description: Notifies the provider to prepare to be unloaded.
 old-location: base\ivssprovidernotifications_onunload.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 5b9e0940-70b4-4913-9281-0347e60baa0d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssProviderNotifications interface [VSS],OnUnload method, IVssProviderNotifications.OnUnload, IVssProviderNotifications::OnUnload, OnUnload, OnUnload method [VSS], OnUnload method [VSS],IVssProviderNotifications interface, base.ivssprovidernotifications_onunload, vsprov/IVssProviderNotifications::OnUnload
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssProviderNotifications.OnUnload
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssProviderNotifications::OnUnload

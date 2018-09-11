@@ -4,17 +4,16 @@ title: IUIAutomationSelectionPattern::GetCurrentSelection
 author: windows-sdk-content
 description: Retrieves the selected elements in the container.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_GetCurrentSelection.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 58540e08-4415-47d1-8957-1d1c8b6d7100
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCurrentSelection, GetCurrentSelection method [Windows Accessibility], GetCurrentSelection method [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],GetCurrentSelection method, IUIAutomationSelectionPattern.GetCurrentSelection, IUIAutomationSelectionPattern::GetCurrentSelection, uiauto.uiauto_IUIAutomationSelectionPattern_GetCurrentSelection, uiauto_IUIAutomationSelectionPattern_GetCurrentSelection, uiautomationclient/IUIAutomationSelectionPattern::GetCurrentSelection, winauto.uiauto_IUIAutomationSelectionPattern_GetCurrentSelection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationSelectionPattern.GetCurrentSelection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationSelectionPattern::GetCurrentSelection

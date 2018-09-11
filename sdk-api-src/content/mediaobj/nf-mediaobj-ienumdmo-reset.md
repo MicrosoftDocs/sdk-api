@@ -4,17 +4,16 @@ title: IEnumDMO::Reset
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: dshow\ienumdmo_reset.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1a910c70-7f41-43d5-a677-c299b5181638
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IEnumDMO interface [DirectShow],Reset method, IEnumDMO.Reset, IEnumDMO::Reset, IEnumDMOReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumDMO interface, dshow.ienumdmo_reset, mediaobj/IEnumDMO::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEnumDMO.Reset
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumDMO::Reset

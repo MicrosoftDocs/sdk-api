@@ -4,17 +4,16 @@ title: ITypeInfo2::GetVarCustData
 author: windows-sdk-content
 description: Gets the custom data of the specified variable.
 old-location: automat\itypeinfo2_getvarcustdata.htm
-old-project: automat
+tech.root: automat
 ms.assetid: fe033b80-427d-48d1-99c8-4aba8909897e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetVarCustData, GetVarCustData method [Automation], GetVarCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetVarCustData method, ITypeInfo2.GetVarCustData, ITypeInfo2::GetVarCustData, _oa96_ITypeInfo2_GetVarCustData, automat.itypeinfo2_getvarcustdata, oaidl/ITypeInfo2::GetVarCustData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo2.GetVarCustData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo2::GetVarCustData

@@ -4,7 +4,7 @@ title: "_DFS_TARGET_PRIORITY_CLASS"
 author: windows-sdk-content
 description: Defines the set of possible DFS target priority class settings.
 old-location: dfs\dfs_target_priority_class.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: 4aac4575-630f-4cb6-8312-edd1fad8f128
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008, Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_TARGET_PRIORITY_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DFS_TARGET_PRIORITY_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DFS_TARGET_PRIORITY_CLASS
+req.redist: 
 ---
 
 # _DFS_TARGET_PRIORITY_CLASS enumeration

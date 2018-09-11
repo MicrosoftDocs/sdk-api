@@ -4,17 +4,16 @@ title: IObjectWithAppUserModelID
 author: windows-sdk-content
 description: Exposes methods that allow implementers of a custom IAssocHandler object to provide access to its explicit Application User Model ID (AppUserModelID).
 old-location: shell\IObjectWithAppUserModelID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f5b4e6bf-a5bf-49c5-b343-e9c1ec6c263d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IObjectWithAppUserModelID, IObjectWithAppUserModelID interface [Windows Shell], IObjectWithAppUserModelID interface [Windows Shell],described, _shell_IObjectWithAppUserModelID, shell.IObjectWithAppUserModelID, shobjidl_core/IObjectWithAppUserModelID
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.1 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjectWithAppUserModelID
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.1 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectWithAppUserModelID interface

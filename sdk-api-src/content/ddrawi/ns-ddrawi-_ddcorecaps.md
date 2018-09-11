@@ -4,7 +4,7 @@ title: "_DDCORECAPS"
 author: windows-sdk-content
 description: The DDCORECAPS structure specifies the core capabilities of the Microsoft DirectDraw driver and its device, which are exposed to an application through the DirectDraw object.
 old-location: display\ddcorecaps.htm
-old-project: display
+tech.root: display
 ms.assetid: 529d60b5-658d-4d55-a599-fa35386c01a7
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawi.h
 req.include-header: Ddrawi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDCORECAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDCORECAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDCORECAPS
+req.redist: 
 ---
 
 # _DDCORECAPS structure

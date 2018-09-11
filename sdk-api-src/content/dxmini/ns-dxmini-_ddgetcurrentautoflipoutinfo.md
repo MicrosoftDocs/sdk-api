@@ -4,7 +4,7 @@ title: "_DDGETCURRENTAUTOFLIPOUTINFO"
 author: windows-sdk-content
 description: The DDGETCURRENTAUTOFLIPOUTINFO structure provides the surface information.
 old-location: display\ddgetcurrentautoflipoutinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 2dea32ab-9f4a-4184-9979-1103f1b26730
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDGETCURRENTAUTOFLIPOUTINFO, *PDDGETCURRENTAUTOFLIPOUTINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DDGETCURRENTAUTOFLIPOUTINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DDGETCURRENTAUTOFLIPOUTINFO, *PDDGETCURRENTAUTOFLIPOUTINFO
+req.redist: 
 ---
 
 # _DDGETCURRENTAUTOFLIPOUTINFO structure

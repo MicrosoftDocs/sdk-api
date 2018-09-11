@@ -4,17 +4,16 @@ title: PINSPECT_HSTRING_CALLBACK
 author: windows-sdk-content
 description: Provides a function pointer to the callback used by the WindowsInspectString function.
 old-location: winrt\pinspect_hstring_callback.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: B3DAB59B-15A5-42A0-8545-94F585D8FF09
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PINSPECT_HSTRING_CALLBACK, PINSPECT_HSTRING_CALLBACK function, PINSPECT_HSTRING_CALLBACK function pointer [Windows Runtime], winrt.pinspect_hstring_callback, winstring/PINSPECT_HSTRING_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
 req.header: winstring.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PINSPECT_HSTRING_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # PINSPECT_HSTRING_CALLBACK callback function

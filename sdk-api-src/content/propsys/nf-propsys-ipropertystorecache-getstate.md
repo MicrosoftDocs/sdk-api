@@ -4,17 +4,16 @@ title: IPropertyStoreCache::GetState
 author: windows-sdk-content
 description: Gets the state of a specified property key.
 old-location: properties\IPropertyStoreCache_GetState.htm
-old-project: properties
+tech.root: properties
 ms.assetid: bee9275d-9529-4285-8dee-8e4683def46d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetState, GetState method [Windows Properties], GetState method [Windows Properties],IPropertyStoreCache interface, IPropertyStoreCache interface [Windows Properties],GetState method, IPropertyStoreCache.GetState, IPropertyStoreCache::GetState, _shell_IPropertyStoreCache_GetState, properties.IPropertyStoreCache_GetState, propsys/IPropertyStoreCache::GetState, shell.IPropertyStoreCache_GetState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyStoreCache.GetState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyStoreCache::GetState

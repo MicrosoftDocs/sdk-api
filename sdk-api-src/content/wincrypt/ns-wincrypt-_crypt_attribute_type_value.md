@@ -4,17 +4,16 @@ title: "_CRYPT_ATTRIBUTE_TYPE_VALUE"
 author: windows-sdk-content
 description: Contains a single attribute value. The Value member's CRYPT_OBJID_BLOB is encoded.
 old-location: security\crypt_attribute_type_value.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 84057581-d0a9-464a-9399-ba806e37516f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_ATTRIBUTE_TYPE_VALUE, CRYPT_ATTRIBUTE_TYPE_VALUE, CRYPT_ATTRIBUTE_TYPE_VALUE structure [Security], PCRYPT_ATTRIBUTE_TYPE_VALUE, PCRYPT_ATTRIBUTE_TYPE_VALUE structure pointer [Security], _CRYPT_ATTRIBUTE_TYPE_VALUE, _crypto2_crypt_attribute_type_value, security.crypt_attribute_type_value, wincrypt/CRYPT_ATTRIBUTE_TYPE_VALUE, wincrypt/PCRYPT_ATTRIBUTE_TYPE_VALUE"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_ATTRIBUTE_TYPE_VALUE, *PCRYPT_ATTRIBUTE_TYPE_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_ATTRIBUTE_TYPE_VALUE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_ATTRIBUTE_TYPE_VALUE, *PCRYPT_ATTRIBUTE_TYPE_VALUE
+req.redist: 
 ---
 
 # _CRYPT_ATTRIBUTE_TYPE_VALUE structure

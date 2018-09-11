@@ -4,17 +4,16 @@ title: ITTerminalSupport::EnumerateDynamicTerminalClasses
 author: windows-sdk-content
 description: The EnumerateDynamicTerminalClasses method enumerates the currently available dynamic terminal classes that are supported.
 old-location: tapi3\itterminalsupport_enumeratedynamicterminalclasses.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 1dcb9163-306b-42fc-afb4-41b33d7e2d40
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumerateDynamicTerminalClasses, EnumerateDynamicTerminalClasses method [TAPI 2.2], EnumerateDynamicTerminalClasses method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],EnumerateDynamicTerminalClasses method, ITTerminalSupport.EnumerateDynamicTerminalClasses, ITTerminalSupport::EnumerateDynamicTerminalClasses, _tapi3_itterminalsupport_enumeratedynamicterminalclasses, tapi3.itterminalsupport_enumeratedynamicterminalclasses, tapi3if/ITTerminalSupport::EnumerateDynamicTerminalClasses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTerminalSupport.EnumerateDynamicTerminalClasses
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTerminalSupport::EnumerateDynamicTerminalClasses

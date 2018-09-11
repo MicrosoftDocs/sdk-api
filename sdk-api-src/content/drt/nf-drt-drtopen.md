@@ -4,17 +4,16 @@ title: DrtOpen function
 author: windows-sdk-content
 description: DrtOpen function creates a local Distributed Routing Table instance against criteria specified by the DRT_SETTINGS structure.
 old-location: p2p\drtopen.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 67320767-f622-478a-a886-bbea1650ac1a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrtOpen, DrtOpen function [Peer Networking], drt/DrtOpen, p2p.drtopen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+req.lib: Drt.lib
+req.dll: Drt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DrtOpen
 product: Windows
 targetos: Windows
-req.lib: Drt.lib
-req.dll: Drt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DrtOpen function

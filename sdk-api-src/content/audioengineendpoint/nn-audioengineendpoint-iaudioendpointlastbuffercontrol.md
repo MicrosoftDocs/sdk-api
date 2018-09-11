@@ -4,17 +4,16 @@ title: IAudioEndpointLastBufferControl
 author: windows-sdk-content
 description: Provides functionality to allow an offload stream client to notify the endpoint that the last buffer has been sent only partially filled.
 old-location: coreaudio\iaudioendpointlastbuffercontrol.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 79f4b370-fd04-41a9-ad74-54f7edd084c2
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioEndpointLastBufferControl, IAudioEndpointLastBufferControl interface [Core Audio], IAudioEndpointLastBufferControl interface [Core Audio],described, audioengineendpoint/IAudioEndpointLastBufferControl, coreaudio.iaudioendpointlastbuffercontrol
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioEndpointLastBufferControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioEndpointLastBufferControl interface

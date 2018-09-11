@@ -4,17 +4,16 @@ title: IOleCache::SetData
 author: windows-sdk-content
 description: Initializes the cache with data in a specified format and on a specified medium.
 old-location: com\iolecache_setdata.htm
-old-project: com
+tech.root: com
 ms.assetid: b826411d-6e00-44ba-8603-85db40c4a55f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleCache interface [COM],SetData method, IOleCache.SetData, IOleCache::SetData, SetData, SetData method [COM], SetData method [COM],IOleCache interface, _ole_iolecache_setdata, com.iolecache_setdata, oleidl/IOleCache::SetData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleCache.SetData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleCache::SetData

@@ -4,7 +4,7 @@ title: "_TRACE_GUID_REGISTRATION"
 author: windows-sdk-content
 description: The TRACE_GUID_REGISTRATION structure is used to register event trace classes.
 old-location: etw\trace_guid_registration.htm
-old-project: etw
+tech.root: etw
 ms.assetid: fc7b61fb-ef1c-48ec-8523-5f3114b5407a
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_GUID_REGISTRATION, *PTRACE_GUID_REGISTRATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TRACE_GUID_REGISTRATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: TRACE_GUID_REGISTRATION, *PTRACE_GUID_REGISTRATION
+req.redist: 
 ---
 
 # _TRACE_GUID_REGISTRATION structure

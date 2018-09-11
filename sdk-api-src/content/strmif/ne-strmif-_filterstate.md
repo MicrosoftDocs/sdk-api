@@ -4,7 +4,7 @@ title: "_FilterState"
 author: windows-sdk-content
 description: Specifies a filter's state or the state of the filter graph.
 old-location: dshow\filter_state.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 41f88abc-57d1-4f80-a099-d17e624ab8a6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTER_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILTER_STATE
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: FILTER_STATE
+req.redist: 
 ---
 
 # _FilterState enumeration

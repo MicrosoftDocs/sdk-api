@@ -4,17 +4,16 @@ title: IEnumEnhancedStorageACT::GetMatchingACT
 author: windows-sdk-content
 description: Returns the Addressable Command Target (ACT) associated with the volume specified via the string supplied by the client.
 old-location: enstor\ienumenhancedstorageact_getmatchingact.htm
-old-project: enstor
+tech.root: enstor
 ms.assetid: 13c0475e-a73a-4e26-b6ec-6b9cb19e23f3
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: GetMatchingACT, GetMatchingACT method [Enhanced Storage], GetMatchingACT method [Enhanced Storage],IEnumEnhancedStorageACT interface, IEnumEnhancedStorageACT interface [Enhanced Storage],GetMatchingACT method, IEnumEnhancedStorageACT.GetMatchingACT, IEnumEnhancedStorageACT::GetMatchingACT, ehstorapi/IEnumEnhancedStorageACT::GetMatchingACT, enstor.ienumenhancedstorageact_getmatchingact
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TimedLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumEnhancedStorageACT.GetMatchingACT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumEnhancedStorageACT::GetMatchingACT

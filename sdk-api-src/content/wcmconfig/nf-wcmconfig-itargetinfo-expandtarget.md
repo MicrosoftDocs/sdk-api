@@ -4,17 +4,16 @@ title: ITargetInfo::ExpandTarget
 author: windows-sdk-content
 description: Expands a location string to indicate the offline installation location.
 old-location: smi\itargetinfo_expandtarget.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: c9c757f4-ad71-42d7-864a-26f3d1e8000b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ExpandTarget, ExpandTarget method [SMI], ExpandTarget method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],ExpandTarget method, ITargetInfo.ExpandTarget, ITargetInfo::ExpandTarget, smi.itargetinfo_expandtarget, wcmconfig/ITargetInfo::ExpandTarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITargetInfo.ExpandTarget
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITargetInfo::ExpandTarget

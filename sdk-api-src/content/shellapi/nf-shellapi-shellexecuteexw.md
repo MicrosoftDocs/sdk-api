@@ -4,17 +4,16 @@ title: ShellExecuteExW function
 author: windows-sdk-content
 description: Performs an operation on a specified file.
 old-location: shell\ShellExecuteEx.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7850d19c-dadb-44a1-85d9-d5b897edb39f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ShellExecuteEx, ShellExecuteEx function [Windows Shell], ShellExecuteExA, ShellExecuteExW, _win32_ShellExecuteEx, _win32_ShellExecuteEx_cpp, shell.ShellExecuteEx, shellapi/ShellExecuteEx, shellapi/ShellExecuteExA, shellapi/ShellExecuteExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 3.51 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - ShellExecuteExW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 3.51 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ShellExecuteExW function

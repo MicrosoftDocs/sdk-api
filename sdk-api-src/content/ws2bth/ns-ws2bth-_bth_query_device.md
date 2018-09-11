@@ -4,7 +4,7 @@ title: "_BTH_QUERY_DEVICE"
 author: windows-sdk-content
 description: The BTH_QUERY_DEVICE structure is used when querying for the presence of a Bluetooth device.
 old-location: bluetooth\bth_query_device.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: c132c79e-5938-4436-a1fb-d0d6db5dc9d3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2bth.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BTH_QUERY_DEVICE, *PBTH_QUERY_DEVICE, BTHNS_INQUIRYBLOB, *PBTHNS_INQUIRYBLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BTH_QUERY_DEVICE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: BTH_QUERY_DEVICE, *PBTH_QUERY_DEVICE, BTHNS_INQUIRYBLOB, *PBTHNS_INQUIRYBLOB
+req.redist: 
 ---
 
 # _BTH_QUERY_DEVICE structure

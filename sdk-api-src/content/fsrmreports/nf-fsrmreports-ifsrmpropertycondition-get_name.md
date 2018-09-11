@@ -4,17 +4,16 @@ title: IFsrmPropertyCondition::get_Name
 author: windows-sdk-content
 description: The name of the classification property whose value you want to compare to the property condition's value.
 old-location: fsrm\ifsrmpropertycondition_name.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 45efc964-9632-434a-a4ae-93a65fcb2951
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmPropertyCondition interface [File Server Resource Manager],Name property, IFsrmPropertyCondition.Name, IFsrmPropertyCondition.get_Name, IFsrmPropertyCondition::Name, IFsrmPropertyCondition::get_Name, IFsrmPropertyCondition::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmPropertyCondition interface, fs.ifsrmpropertycondition_name, fsrm.ifsrmpropertycondition_name, fsrmreports/IFsrmPropertyCondition::Name, fsrmreports/IFsrmPropertyCondition::get_Name, fsrmreports/IFsrmPropertyCondition::put_Name, get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmPropertyCondition.put_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPropertyCondition::get_Name

@@ -4,17 +4,16 @@ title: BluetoothGATTSetDescriptorValue function
 author: windows-sdk-content
 description: Writes the specified descriptor value to the Bluetooth device.
 old-location: bltooth\bluetoothgattsetdescriptorvalue.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: B4EDDC32-732D-422B-85A0-FD935DBFE4EB
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BluetoothGATTSetDescriptorValue, BluetoothGATTSetDescriptorValue function [Bluetooth Devices], bltooth.bluetoothgattsetdescriptorvalue, bluetoothleapis/BluetoothGATTSetDescriptorValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA
+req.lib: BluetoothApis.lib
+req.dll: BluetoothAPIs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BluetoothGATTSetDescriptorValue
 product: Windows
 targetos: Windows
-req.lib: BluetoothApis.lib
-req.dll: BluetoothAPIs.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothGATTSetDescriptorValue function

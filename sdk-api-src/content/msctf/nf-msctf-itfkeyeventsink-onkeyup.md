@@ -4,17 +4,16 @@ title: ITfKeyEventSink::OnKeyUp
 author: windows-sdk-content
 description: ITfKeyEventSink::OnKeyUp method
 old-location: tsf\itfkeyeventsink_onkeyup.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 5718a15b-985e-4286-a963-cee513e7550c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnKeyUp method, ITfKeyEventSink.OnKeyUp, ITfKeyEventSink::OnKeyUp, OnKeyUp, OnKeyUp method [Text Services Framework], OnKeyUp method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_onkeyup_ref, msctf/ITfKeyEventSink::OnKeyUp, tsf.itfkeyeventsink_onkeyup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfKeyEventSink.OnKeyUp
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfKeyEventSink::OnKeyUp

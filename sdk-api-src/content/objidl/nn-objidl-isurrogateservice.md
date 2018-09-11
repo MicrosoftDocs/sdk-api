@@ -4,17 +4,16 @@ title: ISurrogateService
 author: windows-sdk-content
 description: Used to initialize, launch, and release a COM+ application. You can also refresh the catalog and shut down the process.
 old-location: com\isurrogateservice.htm
-old-project: com
+tech.root: com
 ms.assetid: 01773aa6-3eb5-43dd-8a10-d1351a07fe1f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISurrogateService, ISurrogateService interface [COM], ISurrogateService interface [COM],described, _com_isurrogateservice, com.isurrogateservice, objidl/ISurrogateService
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISurrogateService
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISurrogateService interface

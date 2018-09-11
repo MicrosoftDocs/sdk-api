@@ -4,17 +4,16 @@ title: IVideoProcAmp::put_Contrast
 author: windows-sdk-content
 description: The put_Contrast method sets the camera's contrast setting.
 old-location: dshow\ivideoprocamp_put_contrast.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a03ab735-2258-49c6-a66a-fabe38f88532
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Contrast method, IVideoProcAmp.put_Contrast, IVideoProcAmp::put_Contrast, IVideoProcAmpput_Contrast, dshow.ivideoprocamp_put_contrast, put_Contrast, put_Contrast method [DirectShow], put_Contrast method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Contrast
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVideoProcAmp.put_Contrast
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoProcAmp::put_Contrast

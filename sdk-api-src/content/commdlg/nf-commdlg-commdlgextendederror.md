@@ -4,17 +4,16 @@ title: CommDlgExtendedError function
 author: windows-sdk-content
 description: Returns a common dialog box error code. This code indicates the most recent error to occur during the execution of one of the common dialog box functions.
 old-location: dlgbox\commdlgextendederror.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\commdlgextendederror.htm
 ms.author: windowssdkdev
-ms.date: 08/21/2018
+ms.date: 08/24/2018
 ms.keywords: CommDlgExtendedError, CommDlgExtendedError function [Dialog Boxes], _win32_CommDlgExtendedError, _win32_commdlgextendederror_cpp, commdlg/CommDlgExtendedError, dlgbox.commdlgextendederror, winui._win32_commdlgextendederror
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commdlg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UDACCEL, *LPUDACCEL
+req.lib: Comdlg32.lib
+req.dll: Comdlg32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CommDlgExtendedError
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Comdlg32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CommDlgExtendedError function

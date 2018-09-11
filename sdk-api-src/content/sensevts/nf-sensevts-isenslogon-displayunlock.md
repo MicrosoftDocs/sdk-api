@@ -4,17 +4,16 @@ title: ISensLogon::DisplayUnlock
 author: windows-sdk-content
 description: The DisplayUnLock method notifies an application that the screen display is unlocked.
 old-location: sens\isenslogon_displayunlock.htm
-old-project: sens
+tech.root: Sens
 ms.assetid: aa1b1beb-f59a-4990-84e1-deca1432f6cf
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: DisplayUnLock method [SENS], DisplayUnLock method [SENS],ISensLogon interface, DisplayUnlock, ISensLogon interface [SENS],DisplayUnLock method, ISensLogon.DisplayUnlock, ISensLogon::DisplayUnLock, ISensLogon::DisplayUnlock, _zaw_isenslogon_displayunlock, sens.isenslogon_displayunlock, sensevts/ISensLogon::DisplayUnLock, syncmgr.isenslogon_displayunlock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Sensevts.tlb
-tech.root: 
-req.typenames: QOCINFO, *LPQOCINFO
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensLogon.DisplayUnLock
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sens.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensLogon::DisplayUnlock

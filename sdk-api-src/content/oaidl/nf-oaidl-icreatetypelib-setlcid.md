@@ -4,17 +4,16 @@ title: ICreateTypeLib::SetLcid
 author: windows-sdk-content
 description: Sets the binary Microsoft national language ID associated with the library.
 old-location: automat\icreatetypelib_setlcid.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 4281058b-a617-4504-bc36-b18763b40897
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetLcid method, ICreateTypeLib.SetLcid, ICreateTypeLib::SetLcid, SetLcid, SetLcid method [Automation], SetLcid method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetLcid, automat.icreatetypelib_setlcid, oaidl/ICreateTypeLib::SetLcid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeLib.SetLcid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeLib::SetLcid

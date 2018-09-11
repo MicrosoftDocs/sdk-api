@@ -4,7 +4,7 @@ title: "_ADSPROPINITPARAMS"
 author: windows-sdk-content
 description: Used with the ADsPropGetInitInfo function to obtain object data that a display specifier applies to.
 old-location: ad\adspropinitparams.htm
-old-project: ad
+tech.root: ad
 ms.assetid: cbee3515-5037-4d65-8817-4c63fe13ef5d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: adsprop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADSPROPINITPARAMS, *PADSPROPINITPARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ADSPROPINITPARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ADSPROPINITPARAMS, *PADSPROPINITPARAMS
+req.redist: 
 ---
 
 # _ADSPROPINITPARAMS structure

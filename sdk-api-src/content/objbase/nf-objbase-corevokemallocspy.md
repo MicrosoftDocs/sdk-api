@@ -4,17 +4,16 @@ title: CoRevokeMallocSpy function
 author: windows-sdk-content
 description: Revokes a registered IMallocSpy object.
 old-location: com\corevokemallocspy.htm
-old-project: com
+tech.root: com
 ms.assetid: e1e984a2-2aee-452c-840c-42201ef5ee96
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoRevokeMallocSpy, CoRevokeMallocSpy function [COM], _com_CoRevokeMallocSpy, com.corevokemallocspy, objbase/CoRevokeMallocSpy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - CoRevokeMallocSpy
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CoRevokeMallocSpy function

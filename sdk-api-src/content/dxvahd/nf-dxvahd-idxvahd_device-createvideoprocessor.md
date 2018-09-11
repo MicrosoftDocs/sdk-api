@@ -4,17 +4,16 @@ title: IDXVAHD_Device::CreateVideoProcessor
 author: windows-sdk-content
 description: Creates a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\idxvahd_device_createvideoprocessor.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 903e2c05-e4d4-42ca-a28d-6d4738ae6cfc
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreateVideoProcessor, CreateVideoProcessor method [Media Foundation], CreateVideoProcessor method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],CreateVideoProcessor method, IDXVAHD_Device.CreateVideoProcessor, IDXVAHD_Device::CreateVideoProcessor, dxvahd/IDXVAHD_Device::CreateVideoProcessor, mf.idxvahd_device_createvideoprocessor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_SURFACE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXVAHD_Device.CreateVideoProcessor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXVAHD_Device::CreateVideoProcessor

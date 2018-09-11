@@ -4,17 +4,16 @@ title: IAnalogRadioTuningSpace::get_Step
 author: windows-sdk-content
 description: The get_Step method retrieves the step value to the next frequency.
 old-location: mstv\ianalogradiotuningspace_get_step.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 8fed3a33-c37c-486d-8bd6-4b80252867e1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],get_Step method, IAnalogRadioTuningSpace.get_Step, IAnalogRadioTuningSpace::get_Step, IAnalogRadioTuningSpaceget_Step, get_Step, get_Step method [Microsoft TV Technologies], get_Step method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, mstv.ianalogradiotuningspace_get_step, tuner/IAnalogRadioTuningSpace::get_Step
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnalogRadioTuningSpace.get_Step
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAnalogRadioTuningSpace::get_Step
@@ -62,7 +60,7 @@ The <b>get_Step</b> method retrieves the step value to the next frequency.
 
 ### -param StepVal
 
-
+TBD
 
 
 

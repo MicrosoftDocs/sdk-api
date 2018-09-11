@@ -4,17 +4,16 @@ title: IAzBizRuleParameters::AddParameters
 author: windows-sdk-content
 description: Adds parameters to the list of parameters available to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters_addparameters_method.htm
-old-project: secauthz
+tech.root: SecAuthZ
 ms.assetid: ebf336a9-a64a-4ded-b508-56491ebf48e2
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AddParameters, AddParameters method [Security], AddParameters method [Security],IAzBizRuleParameters interface, IAzBizRuleParameters interface [Security],AddParameters method, IAzBizRuleParameters.AddParameters, IAzBizRuleParameters::AddParameters, azroles/IAzBizRuleParameters::AddParameters, security.iazbizruleparameters_addparameters_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzBizRuleParameters.AddParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzBizRuleParameters::AddParameters

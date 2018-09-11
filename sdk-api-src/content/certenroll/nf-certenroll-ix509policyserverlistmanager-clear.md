@@ -4,17 +4,16 @@ title: IX509PolicyServerListManager::Clear
 author: windows-sdk-content
 description: Removes all IX509PolicyServerUrl objects from the collection.
 old-location: security\ix509policyserverlistmanager_clear.htm
-old-project: seccertenroll
+tech.root: SecCertEnroll
 ms.assetid: c9be8128-ed19-4087-9057-3d1a0d215a96
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509PolicyServerListManager interface, IX509PolicyServerListManager interface [Security],Clear method, IX509PolicyServerListManager.Clear, IX509PolicyServerListManager::Clear, certenroll/IX509PolicyServerListManager::Clear, security.ix509policyserverlistmanager_clear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509PolicyServerListManager.Clear
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PolicyServerListManager::Clear

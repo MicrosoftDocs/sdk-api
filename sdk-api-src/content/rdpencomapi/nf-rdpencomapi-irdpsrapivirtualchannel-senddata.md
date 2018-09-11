@@ -4,17 +4,16 @@ title: IRDPSRAPIVirtualChannel::SendData
 author: windows-sdk-content
 description: Sends data on the channel.
 old-location: rdp\irdpsrapivirtualchannel_senddata.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: d861de01-70e3-49b0-91b3-01f6b0051823
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CHANNEL_FLAGS_UNCOMPRESSED, IRDPSRAPIVirtualChannel interface [RDP],SendData method, IRDPSRAPIVirtualChannel.SendData, IRDPSRAPIVirtualChannel::SendData, SendData, SendData method [RDP], SendData method [RDP],IRDPSRAPIVirtualChannel interface, rdp.irdpsrapivirtualchannel_senddata, rdpencomapi/IRDPSRAPIVirtualChannel::SendData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPIVirtualChannel.SendData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIVirtualChannel::SendData

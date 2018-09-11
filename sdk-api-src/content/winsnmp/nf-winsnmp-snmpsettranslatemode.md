@@ -4,17 +4,16 @@ title: SnmpSetTranslateMode function
 author: windows-sdk-content
 description: The WinSNMP SnmpSetTranslateMode function enables a WinSNMP application to change the entity and context translation mode. The entity and context translation mode affects the interpretation and return of WinSNMP input and output string parameters.
 old-location: snmp\snmpsettranslatemode.htm
-old-project: snmp
+tech.root: SNMP
 ms.assetid: 8ee7e660-e718-40e6-adcd-1554eb7391d9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpSetTranslateMode, SnmpSetTranslateMode function [SNMP], _snmp_snmpsettranslatemode, snmp.snmpsettranslatemode, winsnmp/SnmpSetTranslateMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK
+req.lib: Wsnmp32.lib
+req.dll: Wsnmp32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SnmpSetTranslateMode
 product: Windows
 targetos: Windows
-req.lib: Wsnmp32.lib
-req.dll: Wsnmp32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SnmpSetTranslateMode function

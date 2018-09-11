@@ -4,17 +4,16 @@ title: "_SHFILEINFOW"
 author: windows-sdk-content
 description: Contains information about a file object.
 old-location: shell\SHFILEINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9dbf873a-b447-4579-961e-20f2a64c87fe
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHFILEINFO, SHFILEINFO structure [Windows Shell], SHFILEINFOW, _SHFILEINFOW, _win32_SHFILEINFO, shell.SHFILEINFO, shellapi/SHFILEINFO
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHFILEINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHFILEINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHFILEINFOW
+req.redist: 
 ---
 
 # _SHFILEINFOW structure

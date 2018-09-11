@@ -4,17 +4,16 @@ title: WICCreateBitmapFromSection function
 author: windows-sdk-content
 description: Returns a IWICBitmapSource that is backed by the pixels of a Windows Graphics Device Interface (GDI) section handle.
 old-location: wic\_wic_codec_wiccreatebitmapfromsection.htm
-old-project: wic
+tech.root: wic
 ms.assetid: a14022a0-7af6-4c06-9afa-4709b81efc96
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WICCreateBitmapFromSection, WICCreateBitmapFromSection function [Windows Imaging Component], _wic_codec_wiccreatebitmapfromsection, wic._wic_codec_wiccreatebitmapfromsection, wincodec/WICCreateBitmapFromSection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: 
+req.dll: Windowscodecs.dll; Wincodec.lib
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WICCreateBitmapFromSection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windowscodecs.dll; Wincodec.lib
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WICCreateBitmapFromSection function

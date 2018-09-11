@@ -4,17 +4,16 @@ title: MprAdminAcceptNewLink function
 author: windows-sdk-content
 description: Remote Access Service (RAS) calls the MprAdminAcceptNewLink function each time a link is created for a particular connection.
 old-location: rras\mpradminacceptnewlink.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: a4cbca7d-a8b0-4396-9201-648bcca6a8c8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminAcceptNewLink, MprAdminAcceptNewLink callback, MprAdminAcceptNewLink callback function [RAS], _mpr_mpradminacceptnewlink, mprapi/MprAdminAcceptNewLink, rras.mpradminacceptnewlink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminAcceptNewLink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminAcceptNewLink function

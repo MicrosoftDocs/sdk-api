@@ -4,17 +4,16 @@ title: IWMDMOperation::BeginWrite
 author: windows-sdk-content
 description: The BeginWrite method indicates that a &#0034;write to device&#0034; action is beginning. Windows Media Device Manager only calls this method if the application calls IWMDMStorageControl/2/3::Insert/2/3 and passes in this interface.
 old-location: wmdm\iwmdmoperation_beginwrite.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 1b35b026-1fc1-44e8-befc-211d3387bc92
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: BeginWrite, BeginWrite method [windows Media Device Manager], BeginWrite method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],BeginWrite method, IWMDMOperation.BeginWrite, IWMDMOperation::BeginWrite, IWMDMOperationBeginWrite, mswmdm/IWMDMOperation::BeginWrite, wmdm.iwmdmoperation_beginwrite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMOperation.BeginWrite
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMOperation::BeginWrite

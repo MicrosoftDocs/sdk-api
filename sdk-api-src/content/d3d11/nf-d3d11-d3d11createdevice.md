@@ -4,17 +4,16 @@ title: D3D11CreateDevice function
 author: windows-sdk-content
 description: Creates a device that represents the display adapter.
 old-location: direct3d11\d3d11createdevice.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 763ee631-eef7-d99f-1d0d-58e3651843f9, D3D11CreateDevice, D3D11CreateDevice function [Direct3D 11], d3d11/D3D11CreateDevice, direct3d11.d3d11createdevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: D3D11.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11CreateDevice
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: D3D11.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D3D11CreateDevice function

@@ -4,17 +4,16 @@ title: IUIAutomationScrollPattern::Scroll
 author: windows-sdk-content
 description: Scrolls the visible region of the content area horizontally and vertically.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_Scroll.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 2deb7399-604d-45eb-95d6-f1135550a18f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationScrollPattern interface [Windows Accessibility],Scroll method, IUIAutomationScrollPattern.Scroll, IUIAutomationScrollPattern::Scroll, Scroll, Scroll method [Windows Accessibility], Scroll method [Windows Accessibility],IUIAutomationScrollPattern interface, uiauto.uiauto_IUIAutomationScrollPattern_Scroll, uiauto_IUIAutomationScrollPattern_Scroll, uiautomationclient/IUIAutomationScrollPattern::Scroll, winauto.uiauto_IUIAutomationScrollPattern_Scroll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationScrollPattern.Scroll
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationScrollPattern::Scroll
@@ -60,9 +58,14 @@ Scrolls the visible region of the content area horizontally and vertically.
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

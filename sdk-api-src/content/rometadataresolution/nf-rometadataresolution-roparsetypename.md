@@ -4,17 +4,16 @@ title: RoParseTypeName function
 author: windows-sdk-content
 description: Parses a type name and existing type parameters, in the case of parameterized types.
 old-location: winrt\roparsetypename.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: AF007D43-7BAC-4753-9D2B-8F397B4A464A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RoParseTypeName, RoParseTypeName function [Windows Runtime], rometadataresolution/RoParseTypeName, winrt.roparsetypename
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rometadataresolution.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: WinTypes.lib
+req.dll: WinTypes.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RoParseTypeName
 product: Windows
 targetos: Windows
-req.lib: WinTypes.lib
-req.dll: WinTypes.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RoParseTypeName function

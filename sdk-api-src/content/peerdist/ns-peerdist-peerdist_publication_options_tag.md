@@ -4,7 +4,7 @@ title: peerdist_publication_options_tag
 author: windows-sdk-content
 description: PEERDIST_PUBLICATION_OPTIONS structure contains publication options, including the API version information and possible option flags.
 old-location: p2p\peerdist_publication_options.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 990b6551-eaf6-47f7-bc35-ea91820f917b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: peerdist.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEERDIST_PUBLICATION_OPTIONS, *PPEERDIST_PUBLICATION_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEERDIST_PUBLICATION_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEERDIST_PUBLICATION_OPTIONS, *PPEERDIST_PUBLICATION_OPTIONS
+req.redist: 
 ---
 
 # peerdist_publication_options_tag structure

@@ -4,17 +4,16 @@ title: IOfflineFilesCache::GetEncryptionStatus
 author: windows-sdk-content
 description: Retrieves the current encryption state (encrypted or unencrypted) of the Offline Files cache.
 old-location: of\iofflinefilescache_getencryptionstatus.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 87c2aced-84c9-40cb-bdf2-6974925e89d5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetEncryptionStatus, GetEncryptionStatus method [Offline Files], GetEncryptionStatus method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetEncryptionStatus method, IOfflineFilesCache.GetEncryptionStatus, IOfflineFilesCache::GetEncryptionStatus, cscobj/IOfflineFilesCache::GetEncryptionStatus, of.iofflinefilescache_getencryptionstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesCache.GetEncryptionStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesCache::GetEncryptionStatus

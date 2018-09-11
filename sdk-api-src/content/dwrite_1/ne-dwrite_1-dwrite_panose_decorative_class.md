@@ -4,17 +4,16 @@ title: DWRITE_PANOSE_DECORATIVE_CLASS
 author: windows-sdk-content
 description: The DWRITE_PANOSE_DECORATIVE_CLASS enumeration contains values that specify the general look of the character face.
 old-location: directwrite\dwrite_panose_decorative_class.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 54885610-7749-4012-AB25-8968871CEBCE
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_PANOSE_DECORATIVE_CLASS, DWRITE_PANOSE_DECORATIVE_CLASS enumeration [Direct Write], DWRITE_PANOSE_DECORATIVE_CLASS_ANY, DWRITE_PANOSE_DECORATIVE_CLASS_CARTOON, DWRITE_PANOSE_DECORATIVE_CLASS_COLLAGE, DWRITE_PANOSE_DECORATIVE_CLASS_DERIVATIVE, DWRITE_PANOSE_DECORATIVE_CLASS_INITIALS, DWRITE_PANOSE_DECORATIVE_CLASS_MONTAGE, DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_ASPECT, DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_ELEMENTS, DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_TOPOLOGY, DWRITE_PANOSE_DECORATIVE_CLASS_NO_FIT, DWRITE_PANOSE_DECORATIVE_CLASS_ORNAMENTED, DWRITE_PANOSE_DECORATIVE_CLASS_PICTURE_STEMS, DWRITE_PANOSE_DECORATIVE_CLASS_TEXT_AND_BACKGROUND, directwrite.dwrite_panose_decorative_class, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_ANY, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_CARTOON, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_COLLAGE, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_DERIVATIVE, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_INITIALS, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_MONTAGE, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_ASPECT, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_ELEMENTS, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_NONSTANDARD_TOPOLOGY, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_NO_FIT, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_ORNAMENTED, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_PICTURE_STEMS, dwrite_1/DWRITE_PANOSE_DECORATIVE_CLASS_TEXT_AND_BACKGROUND
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_PANOSE_DECORATIVE_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_PANOSE_DECORATIVE_CLASS enumeration

@@ -4,17 +4,16 @@ title: "_CLUS_CSV_VOLUME_INFO"
 author: windows-sdk-content
 description: Represents information about a cluster shared volume (CSV).
 old-location: mscs\clus_csv_volume_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: C672B42B-0DB9-4E70-8157-15C3189102EF
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUS_CSV_VOLUME_INFO, CLUS_CSV_VOLUME_INFO, CLUS_CSV_VOLUME_INFO structure [Failover Cluster], PCLUS_CSV_VOLUME_INFO, PCLUS_CSV_VOLUME_INFO structure pointer [Failover Cluster], _CLUS_CSV_VOLUME_INFO, clusapi/CLUS_CSV_VOLUME_INFO, clusapi/PCLUS_CSV_VOLUME_INFO, mscs.clus_csv_volume_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_CSV_VOLUME_INFO, *PCLUS_CSV_VOLUME_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_CSV_VOLUME_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_CSV_VOLUME_INFO, *PCLUS_CSV_VOLUME_INFO
+req.redist: 
 ---
 
 # _CLUS_CSV_VOLUME_INFO structure

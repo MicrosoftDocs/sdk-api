@@ -4,17 +4,16 @@ title: "_CRYPT_TRUST_REG_ENTRY"
 author: windows-sdk-content
 description: Identifies a provider function by DLL name and function name.
 old-location: security\crypt_trust_reg_entry.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: 1a531219-f254-4057-934b-af95bfe0bb83
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_TRUST_REG_ENTRY, CRYPT_TRUST_REG_ENTRY, CRYPT_TRUST_REG_ENTRY structure [Security], PCRYPT_TRUST_REG_ENTRY, PCRYPT_TRUST_REG_ENTRY structure pointer [Security], _CRYPT_TRUST_REG_ENTRY, security.crypt_trust_reg_entry, wintrust/CRYPT_TRUST_REG_ENTRY, wintrust/PCRYPT_TRUST_REG_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_TRUST_REG_ENTRY, *PCRYPT_TRUST_REG_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_TRUST_REG_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: CRYPT_TRUST_REG_ENTRY, *PCRYPT_TRUST_REG_ENTRY
+req.redist: 
 ---
 
 # _CRYPT_TRUST_REG_ENTRY structure

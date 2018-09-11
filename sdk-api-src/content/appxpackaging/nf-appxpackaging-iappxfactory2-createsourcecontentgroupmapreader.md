@@ -4,17 +4,16 @@ title: IAppxFactory2::CreateSourceContentGroupMapReader
 author: windows-sdk-content
 description: Creates an IAppxSourceContentGroupMapReader.
 old-location: appxpkg\iappxfactory2_createsourcecontentgroupmapreader.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: DB0FFB8D-A9DB-4B9C-B277-76623ECA3D6B
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: CreateSourceContentGroupMapReader, CreateSourceContentGroupMapReader method [App packaging and management], CreateSourceContentGroupMapReader method [App packaging and management],IAppxFactory2 interface, IAppxFactory2 interface [App packaging and management],CreateSourceContentGroupMapReader method, IAppxFactory2.CreateSourceContentGroupMapReader, IAppxFactory2::CreateSourceContentGroupMapReader, appxpackaging/IAppxFactory2::CreateSourceContentGroupMapReader, appxpkg.iappxfactory2_createsourcecontentgroupmapreader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxFactory2.CreateSourceContentGroupMapReader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxFactory2::CreateSourceContentGroupMapReader

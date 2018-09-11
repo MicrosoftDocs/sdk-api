@@ -4,7 +4,7 @@ title: "_WRDS_DYNAMIC_TIME_ZONE_INFORMATION"
 author: windows-sdk-content
 description: Contains dynamic time zone information.
 old-location: termserv\wrds_dynamic_time_zone_information.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: D529B7BB-380F-462E-99B8-E565B9636D97
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRDS_DYNAMIC_TIME_ZONE_INFORMATION, *PWRDS_DYNAMIC_TIME_ZONE_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WRDS_DYNAMIC_TIME_ZONE_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WRDS_DYNAMIC_TIME_ZONE_INFORMATION, *PWRDS_DYNAMIC_TIME_ZONE_INFORMATION
+req.redist: 
 ---
 
 # _WRDS_DYNAMIC_TIME_ZONE_INFORMATION structure

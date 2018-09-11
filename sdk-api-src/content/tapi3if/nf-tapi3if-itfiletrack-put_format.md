@@ -4,17 +4,16 @@ title: ITFileTrack::put_Format
 author: windows-sdk-content
 description: The put_Format method sets the format type of the track.
 old-location: tapi3\itfiletrack_put_format.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 76a60e3f-d310-457d-8d1b-17860165c1e9
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITFileTrack interface [TAPI 2.2],put_Format method, ITFileTrack.put_Format, ITFileTrack::put_Format, _tapi3_itfiletrack_put_format, put_Format, put_Format method [TAPI 2.2], put_Format method [TAPI 2.2],ITFileTrack interface, tapi3.itfiletrack_put_format, tapi3if/ITFileTrack::put_Format
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITFileTrack.put_Format
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITFileTrack::put_Format

@@ -4,17 +4,16 @@ title: NetworkIsolationSetupAppContainerBinaries function
 author: windows-sdk-content
 description: Is used by software installers to provide information about the image paths of applications that are running in an app container.
 old-location: ics\networkisolationsetupappcontainerbinaries.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 67a183ec-b318-4f43-9241-cc34b9b251f1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: NetworkIsolationSetupAppContainerBinaries, NetworkIsolationSetupAppContainerBinaries function [ICS/ICF], ics.networkisolationsetupappcontainerbinaries, networkisolation/NetworkIsolationSetupAppContainerBinaries
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netfw.h
 req.include-header: Netfw.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: Firewallapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - NetworkIsolationSetupAppContainerBinaries
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Firewallapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NetworkIsolationSetupAppContainerBinaries function

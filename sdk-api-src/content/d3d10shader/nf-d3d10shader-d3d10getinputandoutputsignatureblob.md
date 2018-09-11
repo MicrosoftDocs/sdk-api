@@ -4,17 +4,16 @@ title: D3D10GetInputAndOutputSignatureBlob function
 author: windows-sdk-content
 description: Get a buffer that contains shader signatures.
 old-location: direct3d10\d3d10getinputandoutputsignatureblob.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10getinputandoutputsignatureblob.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: D3D10GetInputAndOutputSignatureBlob, D3D10GetInputAndOutputSignatureBlob function [Direct3D 10], d3d10shader/D3D10GetInputAndOutputSignatureBlob, direct3d10.d3d10getinputandoutputsignatureblob, f10e041a-6f66-0e2b-400e-a60c10b92deb
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3d10shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_MESSAGE
+req.lib: D3D10.lib
+req.dll: D3D10.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10GetInputAndOutputSignatureBlob
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: D3D10.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D3D10GetInputAndOutputSignatureBlob function

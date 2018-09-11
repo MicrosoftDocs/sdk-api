@@ -4,17 +4,16 @@ title: SHPathPrepareForWriteW function
 author: windows-sdk-content
 description: Checks to see if the path exists.
 old-location: shell\SHPathPrepareForWrite.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1b65e34f-2c31-421b-9d27-ed263dfb372b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHPPFW_ASKDIRCREATE, SHPPFW_DEFAULT, SHPPFW_DIRCREATE, SHPPFW_IGNOREFILENAME, SHPPFW_MEDIACHECKONLY, SHPPFW_NONE, SHPPFW_NOWRITECHECK, SHPathPrepareForWrite, SHPathPrepareForWrite function [Windows Shell], SHPathPrepareForWriteA, SHPathPrepareForWriteW, _shell_shpathprepareforwrite, shell.SHPathPrepareForWrite, shlobj_core/SHPathPrepareForWrite, shlobj_core/SHPathPrepareForWriteA, shlobj_core/SHPathPrepareForWriteW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHPathPrepareForWriteW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHPathPrepareForWriteW function

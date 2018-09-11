@@ -4,17 +4,16 @@ title: "_SET_VIRTUAL_DISK_INFO"
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) information to use when you call the SetVirtualDiskInformation function to set VHD properties.
 old-location: vhd\set_virtual_disk_info.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 04b2bb75-7905-469a-abf1-15591dc64686
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSET_VIRTUAL_DISK_INFO, PSET_VIRTUAL_DISK_INFO, PSET_VIRTUAL_DISK_INFO structure pointer [VHD], SET_VIRTUAL_DISK_INFO, SET_VIRTUAL_DISK_INFO structure [VHD], _SET_VIRTUAL_DISK_INFO, vdssys/PSET_VIRTUAL_DISK_INFO, vdssys/SET_VIRTUAL_DISK_INFO, vhd.set_virtual_disk_info, virtdisk/PSET_VIRTUAL_DISK_INFO, virtdisk/SET_VIRTUAL_DISK_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SET_VIRTUAL_DISK_INFO, *PSET_VIRTUAL_DISK_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SET_VIRTUAL_DISK_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: SET_VIRTUAL_DISK_INFO, *PSET_VIRTUAL_DISK_INFO
+req.redist: 
 ---
 
 # _SET_VIRTUAL_DISK_INFO structure

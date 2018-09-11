@@ -4,7 +4,7 @@ title: ID3D12SharingContract
 author: windows-sdk-content
 description: Part of a contract between D3D11On12 diagnostic layers and graphics diagnostics tools.
 old-location: direct3d12\id3d12sharingcontract.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 10E61C88-0CDC-42E6-AB70-4911D254C40A
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12sdklayers.h
 req.include-header: D3D12.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_RLDO_FLAGS
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12SharingContract
 product: Windows
 targetos: Windows
-req.lib: D3D12.lib
-req.dll: D3D12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12SharingContract interface

@@ -4,17 +4,16 @@ title: ldap_parse_page_controlW function
 author: windows-sdk-content
 description: The ldap_parse_page_control parses the results of a search into pages.
 old-location: ldap\ldap_parse_page_control.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: babf74d1-2f9c-40f8-ba82-e298e49ad937
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_parse_page_control, ldap.ldap__parse__page__control, ldap.ldap_parse_page_control, ldap_parse_page_control, ldap_parse_page_control function [LDAP], ldap_parse_page_controlA, ldap_parse_page_controlW, winldap/ldap_parse_page_control, winldap/ldap_parse_page_controlA, winldap/ldap_parse_page_controlW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldap_parse_page_controlW
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_parse_page_controlW function

@@ -4,17 +4,16 @@ title: IDXVAHD_VideoProcessor::GetVideoProcessBltState
 author: windows-sdk-content
 description: Gets the value of a state parameter for blit operations performed by a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\idxvahd_videoprocessor_getvideoprocessbltstate.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5fdb0d39-7a64-41fd-8f70-4085ddbc7ebc
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetVideoProcessBltState, GetVideoProcessBltState method [Media Foundation], GetVideoProcessBltState method [Media Foundation],IDXVAHD_VideoProcessor interface, IDXVAHD_VideoProcessor interface [Media Foundation],GetVideoProcessBltState method, IDXVAHD_VideoProcessor.GetVideoProcessBltState, IDXVAHD_VideoProcessor::GetVideoProcessBltState, dxvahd/IDXVAHD_VideoProcessor::GetVideoProcessBltState, mf.idxvahd_videoprocessor_getvideoprocessbltstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_SURFACE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXVAHD_VideoProcessor.GetVideoProcessBltState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXVAHD_VideoProcessor::GetVideoProcessBltState

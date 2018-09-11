@@ -4,17 +4,16 @@ title: DecryptFileW function
 author: windows-sdk-content
 description: Decrypts an encrypted file or directory.
 old-location: fs\decryptfile.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 6b8f0ed0-8825-4c84-bf58-3a89cda882b4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DecryptFile, DecryptFile function [Files], DecryptFileA, DecryptFileW, _win32_decryptfile, base.decryptfile, fs.decryptfile, winbase/DecryptFile, winbase/DecryptFileA, winbase/DecryptFileW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - DecryptFileW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DecryptFileW function

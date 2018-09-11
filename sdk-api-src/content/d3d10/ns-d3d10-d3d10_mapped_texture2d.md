@@ -4,17 +4,16 @@ title: D3D10_MAPPED_TEXTURE2D
 author: windows-sdk-content
 description: Provides access to subresource data in a 2D texture.
 old-location: direct3d10\d3d10_mapped_texture2d.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_mapped_texture2d.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: D3D10_MAPPED_TEXTURE2D, D3D10_MAPPED_TEXTURE2D structure [Direct3D 10], a2002d27-1e59-abab-3507-86a1666a3405, d3d10/D3D10_MAPPED_TEXTURE2D, direct3d10.d3d10_mapped_texture2d
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_MAPPED_TEXTURE2D
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_MAPPED_TEXTURE2D
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D10_MAPPED_TEXTURE2D
+req.redist: 
 ---
 
 # D3D10_MAPPED_TEXTURE2D structure

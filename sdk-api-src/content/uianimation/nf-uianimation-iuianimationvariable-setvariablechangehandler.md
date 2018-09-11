@@ -4,17 +4,16 @@ title: IUIAnimationVariable::SetVariableChangeHandler
 author: windows-sdk-content
 description: Specifies a variable change handler. This handler is notified of changes to the value of the animation variable.
 old-location: uianimation\iuianimationvariable_setvariablechangehandler.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: d773a59f-10a5-41e4-92f1-af72d8d15105
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetVariableChangeHandler method, IUIAnimationVariable.SetVariableChangeHandler, IUIAnimationVariable::SetVariableChangeHandler, SetVariableChangeHandler, SetVariableChangeHandler method [Windows Animation], SetVariableChangeHandler method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setvariablechangehandler, uianimation/IUIAnimationVariable::SetVariableChangeHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationVariable.SetVariableChangeHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationVariable::SetVariableChangeHandler

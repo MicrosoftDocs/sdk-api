@@ -4,17 +4,16 @@ title: CryptDeriveKey function
 author: windows-sdk-content
 description: Generates cryptographic session keys derived from a base data value.
 old-location: security\cryptderivekey.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: b031e3b4-0102-400e-96db-019d31402adc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_CREATE_SALT, CRYPT_EXPORTABLE, CRYPT_NO_SALT, CRYPT_SERVER, CRYPT_UPDATE_KEY, CryptDeriveKey, CryptDeriveKey function [Security], _crypto2_cryptderivekey, security.cryptderivekey, wincrypt/CryptDeriveKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CryptDeriveKey
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptDeriveKey function

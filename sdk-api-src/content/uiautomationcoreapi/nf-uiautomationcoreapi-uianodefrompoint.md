@@ -4,17 +4,16 @@ title: UiaNodeFromPoint function
 author: windows-sdk-content
 description: Retrieves the UI Automation node for the element at the specified point.
 old-location: winauto\uiauto_UiaNodeFromPointFunction.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 46da2f6a-3cb7-4220-b578-4fcf9711b99f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UiaNodeFromPoint, UiaNodeFromPoint function [Windows Accessibility], uiauto.uiauto_UiaNodeFromPointFunction, uiauto_UiaNodeFromPointFunction, uiautomationcoreapi/UiaNodeFromPoint, winauto.uiauto_UiaNodeFromPointFunction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UiaNodeFromPoint
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaNodeFromPoint function

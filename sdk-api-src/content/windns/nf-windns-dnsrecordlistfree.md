@@ -4,17 +4,16 @@ title: DnsRecordListFree macro
 author: windows-sdk-content
 description: Frees memory allocated for DNS records obtained using the DnsQuery function.
 old-location: dns\dnsrecordlistfree.htm
-old-project: dns
+tech.root: dns
 ms.assetid: fc4c0cb4-646f-4946-8f07-b5a858f7064a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DnsRecordListFree, DnsRecordListFree function [DNS], _dns_dnsrecordlistfree, dns.dnsrecordlistfree, windns/DnsRecordListFree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_FREE_TYPE
+req.lib: Dnsapi.lib
+req.dll: Dnsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DnsRecordListFree
 product: Windows
 targetos: Windows
-req.lib: Dnsapi.lib
-req.dll: Dnsapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DnsRecordListFree macro

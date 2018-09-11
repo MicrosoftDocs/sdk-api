@@ -4,17 +4,16 @@ title: IShellImageData::GetResolution
 author: windows-sdk-content
 description: Gets the resolution, in dots per inch (dpi), of the image.
 old-location: shell\IShellImageData_GetResolution.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9e3c3e0f-010b-4d7d-a8fa-178a808687f8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetResolution, GetResolution method [Windows Shell], GetResolution method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetResolution method, IShellImageData.GetResolution, IShellImageData::GetResolution, _shell_IShellImageData_GetResolution, shell.IShellImageData_GetResolution, shimgdata/IShellImageData::GetResolution
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageData.GetResolution
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageData::GetResolution

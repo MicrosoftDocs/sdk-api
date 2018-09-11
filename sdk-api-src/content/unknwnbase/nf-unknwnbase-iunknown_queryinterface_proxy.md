@@ -4,17 +4,16 @@ title: IUnknown_QueryInterface_Proxy function
 author: windows-sdk-content
 description: The IUnknown_QueryInterface_Proxy function implements the QueryInterface method for all interface proxies.
 old-location: rpc\iunknown_queryinterface_proxy.htm
-old-project: rpc
+tech.root: Rpc
 ms.assetid: 4f266740-e33a-4dc1-8ade-720308bb82fe
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IUnknown_QueryInterface_Proxy, IUnknown_QueryInterface_Proxy function [RPC], rpc.iunknown_queryinterface_proxy, unknwnbase/IUnknown_QueryInterface_Proxy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: unknwnbase.h
 req.include-header: Unknwn.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUnknown_QueryInterface_Proxy
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUnknown_QueryInterface_Proxy function

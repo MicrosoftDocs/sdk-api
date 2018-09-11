@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxOutgoingMessage.get_Sender
 title: IFaxOutgoingMessage::get_Sender
 author: windows-sdk-content
-description: The Sender property retrieves an object containing information about the sender of the fax message.
-old-location: fax\_mfax_faxoutgoingmessage_sender.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_1iya.htm
+description: The IFaxOutgoingMessage::get_Sender property retrieves an interface containing information about the sender of the fax message.
+old-location: fax\_mfax_faxoutgoingmessage_sender_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_1iya_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxOutgoingMessage object [Fax Service],Sender property, FaxOutgoingMessage.Sender, IFaxOutgoingMessage.get_Sender, IFaxOutgoingMessage::get_Sender, Sender property [Fax Service], Sender property [Fax Service],FaxOutgoingMessage object, _mfax_faxoutgoingmessage.sender, fax._mfax_faxoutgoingmessage_sender, get_Sender
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxOutgoingMessage interface [Fax Service],Sender property, IFaxOutgoingMessage.Sender, IFaxOutgoingMessage.get_Sender, IFaxOutgoingMessage::Sender, IFaxOutgoingMessage::get_Sender, Sender property [Fax Service], Sender property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.sender_cpp, fax._mfax_faxoutgoingmessage_sender_cpp, faxcomex/IFaxOutgoingMessage::Sender, faxcomex/IFaxOutgoingMessage::get_Sender, get_Sender
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxOutgoingMessage.Sender
+ - IFaxOutgoingMessage.Sender
  - IFaxOutgoingMessage.get_Sender
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxOutgoingMessage::get_Sender
@@ -53,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Sender</b> property retrieves an object containing information about the sender of the fax message.
+The <b>IFaxOutgoingMessage::get_Sender</b> property retrieves an interface containing information about the sender of the fax message.
 
 This property is read-only.
 

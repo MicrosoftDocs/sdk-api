@@ -4,7 +4,7 @@ title: IKEEXT_CERT_CRITERIA_NAME_TYPE_
 author: windows-sdk-content
 description: Specifies the type of NAME fields possible for a certificate selection &#0034;subject&#0034; criteria.
 old-location: fwp\ikeext_cert_criteria_name_type.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: ec59d6b2-3bfc-4e5b-9222-609d3141db5c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iketypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEEXT_CERT_CRITERIA_NAME_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEEXT_CERT_CRITERIA_NAME_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEEXT_CERT_CRITERIA_NAME_TYPE
+req.redist: 
 ---
 
 # IKEEXT_CERT_CRITERIA_NAME_TYPE_ enumeration

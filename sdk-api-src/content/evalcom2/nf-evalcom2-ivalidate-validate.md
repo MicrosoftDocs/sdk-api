@@ -4,17 +4,16 @@ title: IValidate::Validate
 author: windows-sdk-content
 description: The Validate method performs validation of the installation package or merge module using the specified internal consistency evaluator file.
 old-location: setup\ivalidate_validate.htm
-old-project: msi
+tech.root: msi
 ms.assetid: f7a50031-52ac-4ea2-847c-6212706a9cbd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IValidate interface,Validate method, IValidate.Validate, IValidate::Validate, Validate, Validate method, Validate method,IValidate interface, evalcom2/IValidate::Validate, setup.ivalidate_validate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evalcom2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Evalcom2.dll version 3.0.3790.371 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
+req.lib: 
+req.dll: Evalcom2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IValidate.Validate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Evalcom2.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IValidate::Validate
@@ -62,7 +60,7 @@ The <b>Validate</b> method performs validation of the installation package or me
 
 ### -param wzICEs
 
-
+TBD
 
 
 

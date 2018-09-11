@@ -4,17 +4,16 @@ title: IFsrmFileScreenTemplateManager::ExportTemplates
 author: windows-sdk-content
 description: Exports the templates as an XML string.
 old-location: fsrm\ifsrmfilescreentemplatemanager_exporttemplates.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 27a0141d-0906-400e-bd5f-81da67a3c501
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: ExportTemplates, ExportTemplates method [File Server Resource Manager], ExportTemplates method [File Server Resource Manager],FsrmFileScreenTemplateManager class, ExportTemplates method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, FsrmFileScreenTemplateManager class [File Server Resource Manager],ExportTemplates method, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],ExportTemplates method, IFsrmFileScreenTemplateManager.ExportTemplates, IFsrmFileScreenTemplateManager::ExportTemplates, fs.ifsrmfilescreentemplatemanager_exporttemplates, fsrm.ifsrmfilescreentemplatemanager_exporttemplates, fsrmscreen/IFsrmFileScreenTemplateManager::ExportTemplates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmFileScreenTemplateManager.ExportTemplates
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileScreenTemplateManager::ExportTemplates

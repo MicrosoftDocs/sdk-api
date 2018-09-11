@@ -4,17 +4,16 @@ title: SetThreadpoolCallbackPersistent function
 author: windows-sdk-content
 description: Specifies that the callback should run on a persistent thread.
 old-location: base\setthreadpoolcallbackpersistent.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 3f209586-5452-4928-8f97-70648b22460d
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: SetThreadpoolCallbackPersistent, SetThreadpoolCallbackPersistent function, base.setthreadpoolcallbackpersistent, winbase/SetThreadpoolCallbackPersistent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetThreadpoolCallbackPersistent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetThreadpoolCallbackPersistent function

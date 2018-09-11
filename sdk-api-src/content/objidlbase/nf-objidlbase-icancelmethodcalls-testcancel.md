@@ -4,17 +4,16 @@ title: ICancelMethodCalls::TestCancel
 author: windows-sdk-content
 description: Determines whether a call has been canceled.
 old-location: com\icancelmethodcalls_testcancel.htm
-old-project: com
+tech.root: com
 ms.assetid: 31141d97-241e-4717-b707-e37d86c2267d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICancelMethodCalls interface [COM],TestCancel method, ICancelMethodCalls.TestCancel, ICancelMethodCalls::TestCancel, TestCancel, TestCancel method [COM], TestCancel method [COM],ICancelMethodCalls interface, _com_icancelmethodcalls_testcancel, com.icancelmethodcalls_testcancel, objidlbase/ICancelMethodCalls::TestCancel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICancelMethodCalls.TestCancel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICancelMethodCalls::TestCancel

@@ -4,17 +4,16 @@ title: IBootOptions::get_PlatformId
 author: windows-sdk-content
 description: Retrieves the platform identifier that identifies the operating system architecture that the boot image supports.
 old-location: imapi\ibootoptions_get_platformid.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 8d5ceb0e-4fd2-4146-8e15-b157c80a9d5b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBootOptions interface [IMAPI],get_PlatformId method, IBootOptions.get_PlatformId, IBootOptions::get_PlatformId, get_PlatformId, get_PlatformId method [IMAPI], get_PlatformId method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_platformid, imapi2fs/IBootOptions::get_PlatformId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBootOptions.get_PlatformId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IBootOptions::get_PlatformId

@@ -4,7 +4,7 @@ title: "_BATTERY_WMI_STATUS"
 author: windows-sdk-content
 description: Defines battery status information.
 old-location: battery\battery_wmi_status.htm
-old-project: battery
+tech.root: battery
 ms.assetid: BE3FB7CA-928D-4A2E-A11D-20E9D3F8841E
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: batclass.h
 req.include-header: Batclass.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BATTERY_WMI_STATUS, *PBATTERY_WMI_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BATTERY_WMI_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BATTERY_WMI_STATUS, *PBATTERY_WMI_STATUS
+req.redist: 
 ---
 
 # _BATTERY_WMI_STATUS structure

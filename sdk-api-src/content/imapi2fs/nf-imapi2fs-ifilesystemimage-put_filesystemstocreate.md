@@ -4,17 +4,16 @@ title: IFileSystemImage::put_FileSystemsToCreate
 author: windows-sdk-content
 description: Sets the file systems to create when generating the result stream.
 old-location: imapi\ifilesystemimage_put_filesystemstocreate.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: c9bb2a86-2bdb-495e-ab5c-479667a211b2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_FileSystemsToCreate method, IFileSystemImage.put_FileSystemsToCreate, IFileSystemImage::put_FileSystemsToCreate, imapi.ifilesystemimage_put_filesystemstocreate, imapi2fs/IFileSystemImage::put_FileSystemsToCreate, put_FileSystemsToCreate, put_FileSystemsToCreate method [IMAPI], put_FileSystemsToCreate method [IMAPI],IFileSystemImage interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImage.put_FileSystemsToCreate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImage::put_FileSystemsToCreate

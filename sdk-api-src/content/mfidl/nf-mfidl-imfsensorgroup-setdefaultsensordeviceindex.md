@@ -4,17 +4,16 @@ title: IMFSensorGroup::SetDefaultSensorDeviceIndex
 author: windows-sdk-content
 description: Configures one of the devices in the sensor group as the default device.
 old-location: mf\imfsensorgroup_setdefaultsensordeviceindex.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 06E2E2DB-8361-49BB-9369-0D0C33DF0C32
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFSensorGroup interface [Media Foundation],SetDefaultSensorDeviceIndex method, IMFSensorGroup.SetDefaultSensorDeviceIndex, IMFSensorGroup::SetDefaultSensorDeviceIndex, SetDefaultSensorDeviceIndex, SetDefaultSensorDeviceIndex method [Media Foundation], SetDefaultSensorDeviceIndex method [Media Foundation],IMFSensorGroup interface, mf.imfsensorgroup_setdefaultsensordeviceindex, mfidl/IMFSensorGroup::SetDefaultSensorDeviceIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorGroup.SetDefaultSensorDeviceIndex
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorGroup::SetDefaultSensorDeviceIndex

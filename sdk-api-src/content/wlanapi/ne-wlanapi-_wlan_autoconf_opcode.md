@@ -4,7 +4,7 @@ title: "_WLAN_AUTOCONF_OPCODE"
 author: windows-sdk-content
 description: Specifies an automatic configuration parameter.
 old-location: nwifi\wlan_autoconf_opcode.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: d7816d6f-0f8c-4d53-aa70-357aaca360d0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wlanapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLAN_AUTOCONF_OPCODE, *PWLAN_AUTOCONF_OPCODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLAN_AUTOCONF_OPCODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLAN_AUTOCONF_OPCODE, *PWLAN_AUTOCONF_OPCODE
+req.redist: 
 ---
 
 # _WLAN_AUTOCONF_OPCODE enumeration

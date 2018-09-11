@@ -4,17 +4,16 @@ title: IControlbar::Attach
 author: windows-sdk-content
 description: The IControlbar::Attach method allows the snap-in to associate a control with a control bar.
 old-location: mmc\icontrolbar_attach.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 60ed8f9a-d5ad-4a68-8019-6887104c9b2a
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: Attach, Attach method [MMC], Attach method [MMC],IControlbar interface, IControlbar interface [MMC],Attach method, IControlbar.Attach, IControlbar::Attach, _slate_icontrolbar_attach, mmc.icontrolbar_attach, mmc/IControlbar::Attach
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IControlbar.Attach
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IControlbar::Attach

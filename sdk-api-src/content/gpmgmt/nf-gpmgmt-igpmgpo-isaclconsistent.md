@@ -4,17 +4,16 @@ title: IGPMGPO::IsACLConsistent
 author: windows-sdk-content
 description: Checks for the consistency of ACLs between the Directory Service and the system volume folder (SysVol).
 old-location: gpmc\igpmgpo_isaclconsistent.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 4a4f2d87-bfaa-453a-9dbe-de19ba1d1953
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMGPO class [GPMC],IsACLConsistent method, IGPMGPO interface [GPMC],IsACLConsistent method, IGPMGPO.IsACLConsistent, IGPMGPO::IsACLConsistent, IsACLConsistent, IsACLConsistent method [GPMC], IsACLConsistent method [GPMC],GPMGPO class, IsACLConsistent method [GPMC],IGPMGPO interface, _win32_igpmgpo_isaclconsistent, gpmc.igpmgpo_isaclconsistent, gpmgmt/IGPMGPO::IsACLConsistent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMGPO.IsACLConsistent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMGPO::IsACLConsistent

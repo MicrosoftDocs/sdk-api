@@ -4,17 +4,16 @@ title: IMFASFStreamSelector::SetOutputOverride
 author: windows-sdk-content
 description: Sets the selection status of an output, overriding other selection criteria.
 old-location: mf\imfasfstreamselector_setoutputoverride.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c8affecd-107f-4701-88df-200db06ad49e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFASFStreamSelector interface [Media Foundation],SetOutputOverride method, IMFASFStreamSelector.SetOutputOverride, IMFASFStreamSelector::SetOutputOverride, SetOutputOverride, SetOutputOverride method [Media Foundation], SetOutputOverride method [Media Foundation],IMFASFStreamSelector interface, c8affecd-107f-4701-88df-200db06ad49e, mf.imfasfstreamselector_setoutputoverride, wmcontainer/IMFASFStreamSelector::SetOutputOverride
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFStreamSelector.SetOutputOverride
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFStreamSelector::SetOutputOverride

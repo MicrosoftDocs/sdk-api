@@ -4,17 +4,16 @@ title: IMFSensorDevice::GetSensorDeviceMode
 author: windows-sdk-content
 description: Gets a value that specifies the current sharing mode of the sensor device, which is either controller or shared.
 old-location: mf\imfsensordevice_getsensordevicemode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 21594884-DAA5-450C-855D-E800FE164C5E
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetSensorDeviceMode, GetSensorDeviceMode method [Media Foundation], GetSensorDeviceMode method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetSensorDeviceMode method, IMFSensorDevice.GetSensorDeviceMode, IMFSensorDevice::GetSensorDeviceMode, mf.imfsensordevice_getsensordevicemode, mfidl/IMFSensorDevice::GetSensorDeviceMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorDevice.GetSensorDeviceMode
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorDevice::GetSensorDeviceMode

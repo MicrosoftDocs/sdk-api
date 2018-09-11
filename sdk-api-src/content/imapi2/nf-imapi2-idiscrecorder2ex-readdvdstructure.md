@@ -4,17 +4,16 @@ title: IDiscRecorder2Ex::ReadDvdStructure
 author: windows-sdk-content
 description: Reads a DVD structure from the media.
 old-location: imapi\idiscrecorder2ex_readdvdstructure.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 6842573a-68e5-47ea-8441-953ab85b9482
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],ReadDvdStructure method, IDiscRecorder2Ex.ReadDvdStructure, IDiscRecorder2Ex::ReadDvdStructure, ReadDvdStructure, ReadDvdStructure method [IMAPI], ReadDvdStructure method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_readdvdstructure, imapi2/IDiscRecorder2Ex::ReadDvdStructure
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder2Ex.ReadDvdStructure
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder2Ex::ReadDvdStructure

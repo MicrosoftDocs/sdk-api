@@ -4,17 +4,16 @@ title: DrvStartPage function
 author: windows-sdk-content
 description: The DrvStartPage function is called by GDI when it is ready to start sending the contents of a physical page to the driver for rendering.
 old-location: display\drvstartpage.htm
-old-project: display
+tech.root: display
 ms.assetid: 31e42524-de9a-459a-95a7-94b2597c3cd8
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvStartPage, DrvStartPage function [Display Devices], ddifncs_eef4f1da-1923-4282-82d2-ac1ab5386ab9.xml, display.drvstartpage, winddi/DrvStartPage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvStartPage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvStartPage function

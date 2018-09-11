@@ -4,17 +4,16 @@ title: IWICDdsEncoder::GetParameters
 author: windows-sdk-content
 description: Gets DDS-specific data.
 old-location: wic\iwicddsencoder_getparameters.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 2172A086-D0F6-4CFE-849C-A2EF1E89C050
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetParameters, GetParameters method [Windows Imaging Component], GetParameters method [Windows Imaging Component],IWICDdsEncoder interface, IWICDdsEncoder interface [Windows Imaging Component],GetParameters method, IWICDdsEncoder.GetParameters, IWICDdsEncoder::GetParameters, wic.iwicddsencoder_getparameters, wincodec/IWICDdsEncoder::GetParameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICDdsEncoder.GetParameters
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICDdsEncoder::GetParameters

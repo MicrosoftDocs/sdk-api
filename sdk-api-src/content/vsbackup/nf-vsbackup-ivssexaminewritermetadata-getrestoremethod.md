@@ -4,17 +4,16 @@ title: IVssExamineWriterMetadata::GetRestoreMethod
 author: windows-sdk-content
 description: The GetRestoreMethod method returns information about how a writer wants its data to be restored.
 old-location: base\ivssexaminewritermetadata_getrestoremethod.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: c93f841f-057c-4aee-b8f2-263395e84c7b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetRestoreMethod, GetRestoreMethod method [VSS], GetRestoreMethod method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetRestoreMethod method, IVssExamineWriterMetadata.GetRestoreMethod, IVssExamineWriterMetadata::GetRestoreMethod, _win32_ivssexaminewritermetadata_getrestoremethod, base.ivssexaminewritermetadata_getrestoremethod, vsbackup/IVssExamineWriterMetadata::GetRestoreMethod
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssExamineWriterMetadata.GetRestoreMethod
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssExamineWriterMetadata::GetRestoreMethod
@@ -80,7 +78,7 @@ Pointer to the URL of an HTML or XML document describing to the user how the res
 
 ### -param pwriterRestore
 
-
+TBD
 
 
 ### -param pbRebootRequired [out]
@@ -90,7 +88,7 @@ Pointer to a Boolean value indicating whether a reboot will be required after th
 
 ### -param pcMappings
 
-
+TBD
 
 
 

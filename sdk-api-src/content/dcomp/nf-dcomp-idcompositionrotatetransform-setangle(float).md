@@ -4,17 +4,16 @@ title: IDCompositionRotateTransform::SetAngle(float)
 author: windows-sdk-content
 description: Changes the value of the Angle property of a 2D rotation transform. The Angle property specifies the rotation angle.
 old-location: directcomp\idcompositionrotatetransform_setangle_float.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 1CF4C203-46CA-488D-B164-0D2212EA63AC
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionRotateTransform interface [DirectComposition],SetAngle method, IDCompositionRotateTransform.SetAngle, IDCompositionRotateTransform.SetAngle(float), IDCompositionRotateTransform::SetAngle, IDCompositionRotateTransform::SetAngle(float), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionRotateTransform interface, dcomp/IDCompositionRotateTransform::SetAngle, directcomp.idcompositionrotatetransform_setangle_float
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionRotateTransform.SetAngle
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionRotateTransform::SetAngle(float)

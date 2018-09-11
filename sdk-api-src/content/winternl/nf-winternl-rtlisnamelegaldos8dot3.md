@@ -4,17 +4,16 @@ title: RtlIsNameLegalDOS8Dot3 function
 author: windows-sdk-content
 description: Determines whether or not a specified name can be used to create a file on the FAT file system.
 old-location: winprog\rtlisnamelegaldos8dot3.htm
-old-project: devnotes
+tech.root: DevNotes
 ms.assetid: 705fd65a-dd56-46c8-9910-5c07caff9173
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RtlIsNameLegalDOS8Dot3, RtlIsNameLegalDOS8Dot3 function [Windows API], base.rtlisnamelegaldos8dot3, fs.rtlisnamelegaldos8dot3, winprog.rtlisnamelegaldos8dot3, winternl/RtlIsNameLegalDOS8Dot3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_VERSION
+req.lib: 
+req.dll: NtDll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtlIsNameLegalDOS8Dot3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: NtDll.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RtlIsNameLegalDOS8Dot3 function

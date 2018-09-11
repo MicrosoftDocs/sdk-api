@@ -4,7 +4,7 @@ title: MF_CAPTURE_ENGINE_DEVICE_TYPE
 author: windows-sdk-content
 description: Specifies a type of capture device.
 old-location: mf\mf_capture_engine_device_type.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 302C998E-51F6-4CEC-8940-DAF561D08EFD
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_DEVICE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_CAPTURE_ENGINE_DEVICE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_CAPTURE_ENGINE_DEVICE_TYPE
+req.redist: 
 ---
 
 # MF_CAPTURE_ENGINE_DEVICE_TYPE enumeration

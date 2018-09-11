@@ -4,7 +4,7 @@ title: "_USBUSER_REQUEST_HEADER"
 author: windows-sdk-content
 description: The USBUSER_REQUEST_HEADER structure is used with the IOCTL_USB_USER_REQUEST I/O control request to send a user-mode request to the USB host controller driver.
 old-location: buses\usbuser_request_header.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: f5f1e136-f603-4f9a-8ebb-8f6ad847e04d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USBUSER_REQUEST_HEADER, *PUSBUSER_REQUEST_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USBUSER_REQUEST_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: USBUSER_REQUEST_HEADER, *PUSBUSER_REQUEST_HEADER
+req.redist: 
 ---
 
 # _USBUSER_REQUEST_HEADER structure

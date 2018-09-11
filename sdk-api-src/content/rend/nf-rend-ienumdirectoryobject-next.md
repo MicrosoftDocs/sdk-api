@@ -4,17 +4,16 @@ title: IEnumDirectoryObject::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdirectoryobject_next.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 034a704a-f5c7-46bf-a8fa-9bb6298dd4d2
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IEnumDirectoryObject interface [TAPI 2.2],Next method, IEnumDirectoryObject.Next, IEnumDirectoryObject::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumDirectoryObject interface, _tapi3_ienumdirectoryobject_next, rend/IEnumDirectoryObject::Next, tapi3.ienumdirectoryobject_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumDirectoryObject.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumDirectoryObject::Next

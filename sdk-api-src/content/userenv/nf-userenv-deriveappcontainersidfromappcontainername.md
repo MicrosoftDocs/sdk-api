@@ -4,17 +4,16 @@ title: DeriveAppContainerSidFromAppContainerName function
 author: windows-sdk-content
 description: Gets the SID of the specified profile.
 old-location: shell\deriveappcontainersidfromappcontainername.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 233EFA95-289D-4D55-9D56-0630C015ABC7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DeriveAppContainerSidFromAppContainerName, DeriveAppContainerSidFromAppContainerName function [Windows Shell], shell.deriveappcontainersidfromappcontainername, userenv/DeriveAppContainerSidFromAppContainerName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DeriveAppContainerSidFromAppContainerName
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # DeriveAppContainerSidFromAppContainerName function

@@ -4,17 +4,16 @@ title: IBrowserService2::InitializeTravelLog
 author: windows-sdk-content
 description: Deprecated. Allows the derived class to specify a navigation record to be used in a new window.
 old-location: shell\IBrowserService2_InitializeTravelLog.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ff2165da-e195-4cc1-ba89-c11eb37ac4c3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],InitializeTravelLog method, IBrowserService2.InitializeTravelLog, IBrowserService2::InitializeTravelLog, InitializeTravelLog, InitializeTravelLog method [Windows Shell], InitializeTravelLog method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::InitializeTravelLog, shell.IBrowserService2_InitializeTravelLog, zone_IBrowserService2_InitializeTravelLog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2.InitializeTravelLog
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

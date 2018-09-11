@@ -4,17 +4,16 @@ title: IWMPMediaCollection::getByName
 author: windows-sdk-content
 description: The getByName method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items with the specified name.
 old-location: wmp\iwmpmediacollection_getbyname.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 114b0449-a45e-42e5-9e68-428c40a388cf
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByName method, IWMPMediaCollection.getByName, IWMPMediaCollection::getByName, IWMPMediaCollectiongetByName, getByName, getByName method [Windows Media Player], getByName method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getbyname, wmp/IWMPMediaCollection::getByName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPMediaCollection.getByName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPMediaCollection::getByName

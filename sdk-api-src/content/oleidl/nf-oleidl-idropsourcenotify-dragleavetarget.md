@@ -4,17 +4,16 @@ title: IDropSourceNotify::DragLeaveTarget
 author: windows-sdk-content
 description: OLE calls this method when the user drags the mouse cursor out of a potential drop target window.
 old-location: com\idropsourcenotify_dragleavetarget.htm
-old-project: com
+tech.root: com
 ms.assetid: 6267db46-92ce-43b8-8e3f-ffd7d2b8a2e8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DragLeaveTarget, DragLeaveTarget method [COM], DragLeaveTarget method [COM],IDropSourceNotify interface, IDropSourceNotify interface [COM],DragLeaveTarget method, IDropSourceNotify.DragLeaveTarget, IDropSourceNotify::DragLeaveTarget, _ole_idropsourcenotify_dragleavetarget, com.idropsourcenotify_dragleavetarget, oleidl/IDropSourceNotify::DragLeaveTarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDropSourceNotify.DragLeaveTarget
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDropSourceNotify::DragLeaveTarget

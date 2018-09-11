@@ -4,17 +4,16 @@ title: ITraceDataProvider::Query
 author: windows-sdk-content
 description: Retrieves details about a registered provider.
 old-location: pla\itracedataprovider_query.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: b3d1720f-3a74-4040-803b-266bd0d50cfc
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ITraceDataProvider interface [PLA],Query method, ITraceDataProvider.Query, ITraceDataProvider::Query, Query, Query method [PLA], Query method [PLA],ITraceDataProvider interface, base.itracedataprovider_query, pla.itracedataprovider_query, pla/ITraceDataProvider::Query
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITraceDataProvider.Query
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataProvider::Query

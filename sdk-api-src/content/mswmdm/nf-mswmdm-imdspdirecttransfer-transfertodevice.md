@@ -4,17 +4,16 @@ title: IMDSPDirectTransfer::TransferToDevice
 author: windows-sdk-content
 description: The TransferToDevice method is called by Windows Media Device Manager to delegate content transfer content to the service provider. The source can be specified either as a file or as an operation interface.
 old-location: wmdm\imdspdirecttransfer_transfertodevice.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 7a95a23d-751e-4101-a150-3a1e47a14a95
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPDirectTransfer interface [windows Media Device Manager],TransferToDevice method, IMDSPDirectTransfer.TransferToDevice, IMDSPDirectTransfer::TransferToDevice, IMDSPDirectTransferTransferToDevice, TransferToDevice, TransferToDevice method [windows Media Device Manager], TransferToDevice method [windows Media Device Manager],IMDSPDirectTransfer interface, mswmdm/IMDSPDirectTransfer::TransferToDevice, wmdm.imdspdirecttransfer_transfertodevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPDirectTransfer.TransferToDevice
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPDirectTransfer::TransferToDevice
@@ -66,7 +64,7 @@ The <b>TransferToDevice</b> method is called by Windows Media Device Manager to 
 
 ### -param pwszSourceFilePath
 
-
+TBD
 
 
 ### -param pSourceOperation [in]

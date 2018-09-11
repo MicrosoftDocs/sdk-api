@@ -4,17 +4,16 @@ title: MprAdminTransportCreate function
 author: windows-sdk-content
 description: The MprAdminTransportCreate function loads a new transport, and starts the router manager for the transport.
 old-location: rras\mpradmintransportcreate.htm
-old-project: rras
+tech.root: RRAS
 ms.assetid: 14639cec-9c9a-48f5-b7cc-0aaca7ececbc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminTransportCreate, MprAdminTransportCreate function [RAS], _mpr_mpradmintransportcreate, mprapi/MprAdminTransportCreate, rras.mpradmintransportcreate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminTransportCreate
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminTransportCreate function

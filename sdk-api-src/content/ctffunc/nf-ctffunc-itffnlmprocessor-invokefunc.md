@@ -4,17 +4,16 @@ title: ITfFnLMProcessor::InvokeFunc
 author: windows-sdk-content
 description: ITfFnLMProcessor::InvokeFunc method
 old-location: tsf\itffnlmprocessor_invokefunc.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 9545c715-ec31-4360-b8f9-bb0746164878
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],InvokeFunc method, ITfFnLMProcessor.InvokeFunc, ITfFnLMProcessor::InvokeFunc, InvokeFunc, InvokeFunc method [Text Services Framework], InvokeFunc method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_invokefunc_ref, ctffunc/ITfFnLMProcessor::InvokeFunc, tsf.itffnlmprocessor_invokefunc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfFnLMProcessor.InvokeFunc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfFnLMProcessor::InvokeFunc

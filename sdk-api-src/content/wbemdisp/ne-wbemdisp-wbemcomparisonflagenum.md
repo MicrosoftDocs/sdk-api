@@ -4,17 +4,16 @@ title: WbemComparisonFlagEnum
 author: windows-sdk-content
 description: Define the settings for object comparison and are used by SWbemObject.CompareTo_.
 old-location: wmi\wbemcomparisonflagenum.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 83fda164-1e98-499b-b599-f999e69ad501
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: WbemComparisonFlagEnum, WbemComparisonFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemcomparisonflagenum, wbemComparisonFlagIgnoreCase, wbemComparisonFlagIgnoreClass, wbemComparisonFlagIgnoreDefaultValues, wbemComparisonFlagIgnoreFlavor, wbemComparisonFlagIgnoreObjectSource, wbemComparisonFlagIgnoreQualifiers, wbemComparisonFlagIncludeAll, wbemdisp/WbemComparisonFlagEnum, wbemdisp/wbemComparisonFlagIgnoreCase, wbemdisp/wbemComparisonFlagIgnoreClass, wbemdisp/wbemComparisonFlagIgnoreDefaultValues, wbemdisp/wbemComparisonFlagIgnoreFlavor, wbemdisp/wbemComparisonFlagIgnoreObjectSource, wbemdisp/wbemComparisonFlagIgnoreQualifiers, wbemdisp/wbemComparisonFlagIncludeAll, wmi.wbemcomparisonflagenum
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemComparisonFlagEnum
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WbemComparisonFlagEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WbemComparisonFlagEnum
+req.redist: 
 ---
 
 # WbemComparisonFlagEnum enumeration

@@ -4,17 +4,16 @@ title: ISyncMgrSynchronizeCallback::Progress
 author: windows-sdk-content
 description: Called by a registered application to update the progress information and determine whether an operation should continue.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_progress.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 924310aa-e210-476d-b532-f235de943498
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],Progress method, ISyncMgrSynchronizeCallback.Progress, ISyncMgrSynchronizeCallback::Progress, Progress, Progress method [Windows Shell], Progress method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::Progress, shell.syncmgr_isyncmgrsynchronizecallback_progress, syncmgr.isyncmgrsynchronizecallback_progress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRSTATUS
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSynchronizeCallback.Progress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mobsync.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSynchronizeCallback::Progress

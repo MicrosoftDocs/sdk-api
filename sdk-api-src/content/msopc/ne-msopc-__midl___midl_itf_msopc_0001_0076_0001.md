@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_msopc_0001_0076_0001"
 author: windows-sdk-content
 description: Describes the canonicalization method to be applied to XML markup.
 old-location: opc\opc_canonicalization_method.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: f8401d12-da2e-4b35-b473-ebe3d1f91abd
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_CANONICALIZATION_METHOD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPC_CANONICALIZATION_METHOD
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: OPC_CANONICALIZATION_METHOD
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_msopc_0001_0076_0001 enumeration

@@ -4,17 +4,16 @@ title: NPPropertyDialog function
 author: windows-sdk-content
 description: Called when the user clicks a button added by using the NPPropertyDialog function. The NPPropertyDialog function is called only for file and directory network properties.
 old-location: security\nppropertydialog.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: 856057f3-2746-4c1e-89a6-6d4e06d0e353
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: NPPropertyDialog, NPPropertyDialog function [Security], WNPS_DIR, WNPS_FILE, WNPS_MULT, _mnp_nppropertydialog, npapi/NPPropertyDialog, security.nppropertydialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFICATION_USER_INPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NPPropertyDialog
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NPPropertyDialog function

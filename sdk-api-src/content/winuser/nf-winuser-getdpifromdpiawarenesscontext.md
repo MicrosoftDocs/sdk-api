@@ -4,17 +4,16 @@ title: GetDpiFromDpiAwarenessContext function
 author: windows-sdk-content
 description: Retrieves the DPI from a given DPI_AWARENESS_CONTEXT handle. This enables you to determine the DPI of a thread without needed to examine a window created within that thread.
 old-location: hidpi\getdpifromdpiawarenesscontext.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: E47A7A12-AE11-4E66-AE49-463C9F4A6330
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDpiFromDpiAwarenessContext, GetDpiFromDpiAwarenessContext function [High DPI], hidpi.getdpifromdpiawarenesscontext, winuser/GetDpiFromDpiAwarenessContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetDpiFromDpiAwarenessContext
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetDpiFromDpiAwarenessContext function

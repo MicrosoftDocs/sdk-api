@@ -4,17 +4,16 @@ title: IMSVidCtl::get_BackColor
 author: windows-sdk-content
 description: The get_BackColor method retrieves the background color of the Video Control.
 old-location: mstv\imsvidctl_get_backcolor.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1f67f1f9-e4e1-47fc-a92d-b6dfb65e7ec9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_BackColor method, IMSVidCtl.get_BackColor, IMSVidCtl::get_BackColor, IMSVidCtlget_BackColor, get_BackColor, get_BackColor method [Microsoft TV Technologies], get_BackColor method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_backcolor, msvidctl/IMSVidCtl::get_BackColor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.get_BackColor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::get_BackColor
@@ -62,7 +60,7 @@ The <b>get_BackColor</b> method retrieves the background color of the Video Cont
 
 ### -param backcolor
 
-
+TBD
 
 
 

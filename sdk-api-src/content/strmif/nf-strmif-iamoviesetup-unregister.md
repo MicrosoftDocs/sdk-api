@@ -4,17 +4,16 @@ title: IAMovieSetup::Unregister
 author: windows-sdk-content
 description: Note  The IAMovieSetup interface is deprecated. Use the AMovieDllRegisterServer2 function instead. Removes the filter from the registry.
 old-location: dshow\iamoviesetup_unregister.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 96266aef-f1ef-4b75-9d2e-e574f76fdec7
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMovieSetup interface [DirectShow],Unregister method, IAMovieSetup.Unregister, IAMovieSetup::Unregister, IAMovieSetupUnregister, Unregister, Unregister method [DirectShow], Unregister method [DirectShow],IAMovieSetup interface, dshow.iamoviesetup_unregister, strmif/IAMovieSetup::Unregister
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMovieSetup.Unregister
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMovieSetup::Unregister

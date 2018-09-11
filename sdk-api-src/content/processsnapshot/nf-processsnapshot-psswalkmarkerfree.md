@@ -4,17 +4,16 @@ title: PssWalkMarkerFree function
 author: windows-sdk-content
 description: Frees a walk marker created by PssWalkMarkerCreate.
 old-location: proc_snap\psswalkmarkerfree.htm
-old-project: proc_snap
+tech.root: proc_snap
 ms.assetid: 74158846-6A5F-4F81-B4D7-46DED1EE017C
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: PssWalkMarkerFree, PssWalkMarkerFree function, proc_snap.psswalkmarkerfree, processsnapshot/PssWalkMarkerFree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSS_WALK_INFORMATION_CLASS
+req.lib: 
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PssWalkMarkerFree
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PssWalkMarkerFree function

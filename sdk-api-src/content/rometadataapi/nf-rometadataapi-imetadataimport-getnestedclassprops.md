@@ -4,17 +4,16 @@ title: IMetaDataImport::GetNestedClassProps
 author: windows-sdk-content
 description: Gets the TypeDef token for the parent Type of the specified nested type.
 old-location: winrt\imetadataimport_getnestedclassprops.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 5633d226-8f02-4527-b435-b75b1e1d5064
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetNestedClassProps, GetNestedClassProps method [Windows Runtime], GetNestedClassProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetNestedClassProps method, IMetaDataImport.GetNestedClassProps, IMetaDataImport::GetNestedClassProps, rometadataapi/IMetaDataImport::GetNestedClassProps, winrt.imetadataimport_getnestedclassprops
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.GetNestedClassProps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::GetNestedClassProps

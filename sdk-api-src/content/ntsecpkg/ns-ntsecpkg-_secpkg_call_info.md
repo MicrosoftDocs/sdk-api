@@ -4,17 +4,16 @@ title: "_SECPKG_CALL_INFO"
 author: windows-sdk-content
 description: Contains information about a currently executing call.
 old-location: security\secpkg_call_info.htm
-old-project: secauthn
+tech.root: SecAuthN
 ms.assetid: ac25ef88-7c64-42dd-8daa-fad039453043
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSECPKG_CALL_INFO, PSECPKG_CALL_INFO, PSECPKG_CALL_INFO structure pointer [Security], SECPKG_CALL_ANSI, SECPKG_CALL_ASYNC_UPDATE, SECPKG_CALL_BUFFER_MARSHALL, SECPKG_CALL_CLEANUP, SECPKG_CALL_INFO, SECPKG_CALL_INFO structure [Security], SECPKG_CALL_IN_PROC, SECPKG_CALL_IS_TCB, SECPKG_CALL_KERNEL_MODE, SECPKG_CALL_NEGO, SECPKG_CALL_NEGO_EXTENDER, SECPKG_CALL_NETWORK_ONLY, SECPKG_CALL_PROCESS_TERM, SECPKG_CALL_RECURSIVE, SECPKG_CALL_SYSTEM_PROC, SECPKG_CALL_THREAD_TERM, SECPKG_CALL_URGENT, SECPKG_CALL_WINLOGON, SECPKG_CALL_WOWCLIENT, _SECPKG_CALL_INFO, _ssp_secpkg_call_info, ntsecpkg/PSECPKG_CALL_INFO, ntsecpkg/SECPKG_CALL_INFO, security.secpkg_call_info"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_CALL_INFO, *PSECPKG_CALL_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_CALL_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_CALL_INFO, *PSECPKG_CALL_INFO
+req.redist: 
 ---
 
 # _SECPKG_CALL_INFO structure

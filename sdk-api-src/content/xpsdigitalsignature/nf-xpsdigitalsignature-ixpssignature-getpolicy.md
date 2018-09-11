@@ -4,17 +4,16 @@ title: IXpsSignature::GetPolicy
 author: windows-sdk-content
 description: Gets the XPS_SIGN_POLICY value that represents the signing policy used when the signature is created.
 old-location: xps\ixpssignature_getpolicy.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 632e5e53-1677-4b55-9085-0def97531a5d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPolicy, GetPolicy method [XPS Documents and Packaging], GetPolicy method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetPolicy method, IXpsSignature.GetPolicy, IXpsSignature::GetPolicy, xps.ixpssignature_getpolicy, xpsdigitalsignature/IXpsSignature::GetPolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSignature.GetPolicy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSignature::GetPolicy

@@ -4,17 +4,16 @@ title: IAMDirectSound::ReleaseSecondaryBufferInterface
 author: windows-sdk-content
 description: The ReleaseSecondaryBufferInterface method is not implemented.
 old-location: dshow\iamdirectsound_releasesecondarybufferinterface.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ba563876-074e-49eb-bc53-889ead49ceb8
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMDirectSound interface [DirectShow],ReleaseSecondaryBufferInterface method, IAMDirectSound.ReleaseSecondaryBufferInterface, IAMDirectSound::ReleaseSecondaryBufferInterface, IAMDirectSoundReleaseSecondaryBufferInterface, ReleaseSecondaryBufferInterface, ReleaseSecondaryBufferInterface method [DirectShow], ReleaseSecondaryBufferInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleaseSecondaryBufferInterface, dshow.iamdirectsound_releasesecondarybufferinterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKADDR_IRDA, *PSOCKADDR_IRDA, *LPSOCKADDR_IRDA
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAMDirectSound.ReleaseSecondaryBufferInterface
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMDirectSound::ReleaseSecondaryBufferInterface

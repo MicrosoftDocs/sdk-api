@@ -4,17 +4,16 @@ title: IMbnInterfaceManager::GetInterface
 author: windows-sdk-content
 description: Gets a specific interface.
 old-location: mbn\imbninterfacemanager_getinterface.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: f44aa20d-7edd-4227-8eca-9aacb19619e8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetInterface, GetInterface method [Microsoft Broadband Networks], GetInterface method [Microsoft Broadband Networks],IMbnInterfaceManager interface, IMbnInterfaceManager interface [Microsoft Broadband Networks],GetInterface method, IMbnInterfaceManager.GetInterface, IMbnInterfaceManager::GetInterface, mbn.imbninterfacemanager_getinterface, mbnapi/IMbnInterfaceManager::GetInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnInterfaceManager.GetInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnInterfaceManager::GetInterface

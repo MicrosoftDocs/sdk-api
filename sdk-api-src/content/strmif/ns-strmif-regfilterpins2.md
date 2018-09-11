@@ -4,7 +4,7 @@ title: REGFILTERPINS2
 author: windows-sdk-content
 description: The REGFILTERPINS2 structure contains information for registering a filter through the IFilterMapper2 interface.
 old-location: dshow\regfilterpins2.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a78327f1-a0aa-4e25-b6f8-cf45b92191fa
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGFILTERPINS2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - REGFILTERPINS2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: REGFILTERPINS2
+req.redist: 
 ---
 
 # REGFILTERPINS2 structure

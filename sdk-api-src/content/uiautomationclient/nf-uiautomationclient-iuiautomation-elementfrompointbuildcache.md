@@ -4,17 +4,16 @@ title: IUIAutomation::ElementFromPointBuildCache
 author: windows-sdk-content
 description: Retrieves the UI Automation element at the specified point on the desktop, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomation_ElementFromPointBuildCache.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: fb3a8773-270a-4e33-bcbe-bde7794ea4ad
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ElementFromPointBuildCache, ElementFromPointBuildCache method [Windows Accessibility], ElementFromPointBuildCache method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromPointBuildCache method, IUIAutomation.ElementFromPointBuildCache, IUIAutomation::ElementFromPointBuildCache, uiauto.uiauto_IUIAutomation_ElementFromPointBuildCache, uiauto_IUIAutomation_ElementFromPointBuildCache, uiautomationclient/IUIAutomation::ElementFromPointBuildCache, winauto.uiauto_IUIAutomation_ElementFromPointBuildCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomation.ElementFromPointBuildCache
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation::ElementFromPointBuildCache

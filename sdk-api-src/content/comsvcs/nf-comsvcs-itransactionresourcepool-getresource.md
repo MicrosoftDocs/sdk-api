@@ -4,17 +4,16 @@ title: ITransactionResourcePool::GetResource
 author: windows-sdk-content
 description: Retrieves an object from the list of pooled objects.
 old-location: cos\itransactionresourcepool_getresource.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 68e71746-e3a1-4f33-a3b8-fa8bf9608776
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetResource, GetResource method [COM+], GetResource method [COM+],ITransactionResourcePool interface, ITransactionResourcePool interface [COM+],GetResource method, ITransactionResourcePool.GetResource, ITransactionResourcePool::GetResource, _cos_ITransactionResourcePool_GetResource, comsvcs/ITransactionResourcePool::GetResource, cos.itransactionresourcepool_getresource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITransactionResourcePool.GetResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITransactionResourcePool::GetResource

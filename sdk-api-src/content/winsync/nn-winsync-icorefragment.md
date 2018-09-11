@@ -4,17 +4,16 @@ title: ICoreFragment
 author: windows-sdk-content
 description: Represents knowledge of all items in the scope for a specific set of change units.
 old-location: winsync\icorefragment.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 3e232531-ad44-4ad1-b186-46edbc07291b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICoreFragment, ICoreFragment interface [Windows Sync], ICoreFragment interface [Windows Sync],described, winsync.icorefragment, winsync/ICoreFragment
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICoreFragment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ICoreFragment interface

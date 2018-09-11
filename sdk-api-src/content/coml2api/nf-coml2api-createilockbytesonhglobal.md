@@ -4,17 +4,16 @@ title: CreateILockBytesOnHGlobal function
 author: windows-sdk-content
 description: Creates a byte array object that uses an HGLOBAL memory handle to store the bytes intended for in-memory storage of a compound file.
 old-location: stg\createilockbytesonhglobal.htm
-old-project: stg
+tech.root: Stg
 ms.assetid: e7963be7-ccd8-49fb-85bb-e22fbbb6dc5c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateILockBytesOnHGlobal, CreateILockBytesOnHGlobal function [Structured Storage], _stg_createilockbytesonhglobal, coml2api/CreateILockBytesOnHGlobal, stg.createilockbytesonhglobal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Ole2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - CreateILockBytesOnHGlobal
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CreateILockBytesOnHGlobal function

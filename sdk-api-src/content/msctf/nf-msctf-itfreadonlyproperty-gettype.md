@@ -4,17 +4,16 @@ title: ITfReadOnlyProperty::GetType
 author: windows-sdk-content
 description: ITfReadOnlyProperty::GetType method
 old-location: tsf\itfreadonlyproperty_gettype.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: a0c47d13-c290-4efe-ad73-6dcb654dc18f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GUID_TFCAT_PROPSTYLE_CUSTOM, GUID_TFCAT_PROPSTYLE_STATIC, GUID_TFCAT_PROPSTYLE_STATICCOMPACT, GetType, GetType method [Text Services Framework], GetType method [Text Services Framework],ITfReadOnlyProperty interface, ITfReadOnlyProperty interface [Text Services Framework],GetType method, ITfReadOnlyProperty.GetType, ITfReadOnlyProperty::GetType, _tsf_itfreadonlyproperty_gettype_ref, msctf/ITfReadOnlyProperty::GetType, tsf.itfreadonlyproperty_gettype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfReadOnlyProperty.GetType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfReadOnlyProperty::GetType

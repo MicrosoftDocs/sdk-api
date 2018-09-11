@@ -4,17 +4,16 @@ title: IShellItem2::GetPropertyStoreWithCreateObject
 author: windows-sdk-content
 description: Uses the specified ICreateObject instead of CoCreateInstance to create an instance of the property handler associated with the Shell item on which this method is called.
 old-location: shell\IShellItem2_GetPropertyStoreWithCreateObject.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6a90ea62-e4d7-4876-802a-9c1f6c296714
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetPropertyStoreWithCreateObject, GetPropertyStoreWithCreateObject method [Windows Shell], GetPropertyStoreWithCreateObject method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetPropertyStoreWithCreateObject method, IShellItem2.GetPropertyStoreWithCreateObject, IShellItem2::GetPropertyStoreWithCreateObject, _shell_IShellItem2_GetPropertyStoreWithCreateObject, shell.IShellItem2_GetPropertyStoreWithCreateObject, shobjidl_core/IShellItem2::GetPropertyStoreWithCreateObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellItem2.GetPropertyStoreWithCreateObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellItem2::GetPropertyStoreWithCreateObject
@@ -69,7 +67,7 @@ The <a href="https://msdn.microsoft.com/d3fde1b9-b19f-431d-9cea-bffc289ee683">GE
 
 ### -param punkCreateObject
 
-
+TBD
 
 
 ### -param riid [in]

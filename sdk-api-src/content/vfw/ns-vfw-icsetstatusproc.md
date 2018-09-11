@@ -4,7 +4,7 @@ title: ICSETSTATUSPROC
 author: windows-sdk-content
 description: The ICSETSTATUSPROC structure contains status information used with the ICM_SET_STATUS_PROC message.
 old-location: multimedia\icsetstatusproc_struct.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 32f115a4-3096-4af0-a254-1bac39a830d7
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICSETSTATUSPROC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICSETSTATUSPROC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: ICSETSTATUSPROC
+req.redist: 
 ---
 
 # ICSETSTATUSPROC structure

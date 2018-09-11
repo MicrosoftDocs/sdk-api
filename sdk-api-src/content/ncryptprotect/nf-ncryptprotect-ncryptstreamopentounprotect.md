@@ -4,17 +4,16 @@ title: NCryptStreamOpenToUnprotect function
 author: windows-sdk-content
 description: Opens a stream object that can be used to decrypt large amounts of data to the same protection descriptor used for encryption.
 old-location: security\ncryptstreamopentounprotect.htm
-old-project: seccng
+tech.root: SecCNG
 ms.assetid: 9848082E-EDDA-4DA1-9896-42EAF2ADFAB4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptStreamOpenToUnprotect, NCryptStreamOpenToUnprotect function [Security], ncryptprotect/NCryptStreamOpenToUnprotect, security.ncryptstreamopentounprotect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NCRYPT_UI_POLICY
+req.lib: NCrypt.lib
+req.dll: NCrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCryptStreamOpenToUnprotect
 product: Windows
 targetos: Windows
-req.lib: NCrypt.lib
-req.dll: NCrypt.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NCryptStreamOpenToUnprotect function

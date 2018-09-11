@@ -4,17 +4,16 @@ title: IDCompositionSkewTransform::SetAngleY(IDCompositionAnimation)
 author: windows-sdk-content
 description: Changes the value of the AngleY property of a 2D skew transform.
 old-location: directcomp\idcompositionskewtransform_setangley_float.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 5B356D5E-2F69-4620-880C-14F51786A8A5
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetAngleY method, IDCompositionSkewTransform.SetAngleY, IDCompositionSkewTransform.SetAngleY(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleY, IDCompositionSkewTransform::SetAngleY(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleY(float), SetAngleY, SetAngleY method [DirectComposition], SetAngleY method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetAngleY, directcomp.idcompositionskewtransform_setangley_float
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionSkewTransform.SetAngleY
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionSkewTransform::SetAngleY(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Changes the value of the AngleY property of a 2D skew transform. The AngleY prop
 
 ### -param animation
 
-
+TBD
 
 
 

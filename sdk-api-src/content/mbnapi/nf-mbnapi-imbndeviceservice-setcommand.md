@@ -4,17 +4,16 @@ title: IMbnDeviceService::SetCommand
 author: windows-sdk-content
 description: Sends a SET control command to the device service of a Mobile Broadband device.
 old-location: mbn\imbndeviceservice_setcommand.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: DA45B319-4E6A-4999-85A7-7F5A4F9BED7B
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],SetCommand method, IMbnDeviceService.SetCommand, IMbnDeviceService::SetCommand, SetCommand, SetCommand method [Microsoft Broadband Networks], SetCommand method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_setcommand, mbnapi/IMbnDeviceService::SetCommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnDeviceService.SetCommand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnDeviceService::SetCommand

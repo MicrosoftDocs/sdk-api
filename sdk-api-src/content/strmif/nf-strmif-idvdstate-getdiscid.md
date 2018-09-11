@@ -4,17 +4,16 @@ title: IDvdState::GetDiscID
 author: windows-sdk-content
 description: The GetDiscID method retrieves the unique ID of the disc from which the bookmark was made.
 old-location: dshow\idvdstate_getdiscid.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1a3d8dba-4281-4385-b48f-d9d1b1134676
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDiscID, GetDiscID method [DirectShow], GetDiscID method [DirectShow],IDvdState interface, IDvdState interface [DirectShow],GetDiscID method, IDvdState.GetDiscID, IDvdState::GetDiscID, IDvdStateGetDiscID, dshow.idvdstate_getdiscid, strmif/IDvdState::GetDiscID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdState.GetDiscID
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdState::GetDiscID

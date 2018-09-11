@@ -4,17 +4,16 @@ title: ISecurityProperty::ReleaseSID
 author: windows-sdk-content
 description: Releases the security identifier returned by one of the other ISecurityProperty methods.
 old-location: cos\isecurityproperty_releasesid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 572bf3fd-eb85-40de-b607-26b77b9d9cf8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISecurityProperty interface [COM+],ReleaseSID method, ISecurityProperty.ReleaseSID, ISecurityProperty::ReleaseSID, ReleaseSID, ReleaseSID method [COM+], ReleaseSID method [COM+],ISecurityProperty interface, _cos_ISecurityProperty_ReleaseSID, comsvcs/ISecurityProperty::ReleaseSID, cos.isecurityproperty_releasesid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISecurityProperty.ReleaseSID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISecurityProperty::ReleaseSID

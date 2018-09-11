@@ -4,17 +4,16 @@ title: ISettingsNamespace::Settings
 author: windows-sdk-content
 description: Retrieves an enumerator for the top-level settings for the namespace.
 old-location: smi\isettingsnamespace_settings.htm
-old-project: smi
+tech.root: SMI
 ms.assetid: 86ec9224-5704-4a7d-b554-f9baf3f14531
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISettingsNamespace interface [SMI],Settings method, ISettingsNamespace.Settings, ISettingsNamespace::Settings, Settings, Settings method [SMI], Settings method [SMI],ISettingsNamespace interface, smi.isettingsnamespace_settings, wcmconfig/ISettingsNamespace::Settings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsNamespace.Settings
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsNamespace::Settings

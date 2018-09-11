@@ -4,17 +4,16 @@ title: IBitsPeerCacheRecord::GetFileRanges
 author: windows-sdk-content
 description: Gets the ranges of the file that are in the cache.
 old-location: bits\ibitspeercacherecord_getfileranges.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 63f9821c-f5b6-4646-96e0-4ec61ce16e9b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetFileRanges, GetFileRanges method [BITS], GetFileRanges method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetFileRanges method, IBitsPeerCacheRecord.GetFileRanges, IBitsPeerCacheRecord::GetFileRanges, bits.ibitspeercacherecord_getfileranges, bits3_0/IBitsPeerCacheRecord::GetFileRanges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBitsPeerCacheRecord.GetFileRanges
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBitsPeerCacheRecord::GetFileRanges

@@ -4,17 +4,16 @@ title: IAMResourceControl::Reserve
 author: windows-sdk-content
 description: The Reserve method reserves or unreserves a device resource.
 old-location: dshow\iamresourcecontrol_reserve.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 5f264b87-dae4-4478-811f-1c99e670928a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMResourceControl interface [DirectShow],Reserve method, IAMResourceControl.Reserve, IAMResourceControl::Reserve, IAMResourceControlReserve, Reserve, Reserve method [DirectShow], Reserve method [DirectShow],IAMResourceControl interface, dshow.iamresourcecontrol_reserve, strmif/IAMResourceControl::Reserve
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMResourceControl.Reserve
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMResourceControl::Reserve

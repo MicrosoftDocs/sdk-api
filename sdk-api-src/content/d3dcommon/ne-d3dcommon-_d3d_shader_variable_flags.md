@@ -4,7 +4,7 @@ title: "_D3D_SHADER_VARIABLE_FLAGS"
 author: windows-sdk-content
 description: Values that identify information about a shader variable.
 old-location: direct3d11\d3d_shader_variable_flags.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: b89dc001-c335-4994-a644-88bfbeb7d663
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_VARIABLE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D_SHADER_VARIABLE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: D3d9.lib
-req.dll: 
-req.irql: 
+req.typenames: D3D_SHADER_VARIABLE_FLAGS
+req.redist: 
 ---
 
 # _D3D_SHADER_VARIABLE_FLAGS enumeration

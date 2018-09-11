@@ -4,17 +4,16 @@ title: IAppxBlockMapFilesEnumerator::GetCurrent
 author: windows-sdk-content
 description: Gets the file at the current position of the enumerator.
 old-location: appxpkg\iappxblockmapfilesenumerator_getcurrent.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 6911EBF6-6D0A-4BA5-AD88-3F173141FA5B
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxBlockMapFilesEnumerator interface, IAppxBlockMapFilesEnumerator interface [App packaging and management],GetCurrent method, IAppxBlockMapFilesEnumerator.GetCurrent, IAppxBlockMapFilesEnumerator::GetCurrent, appxpackaging/IAppxBlockMapFilesEnumerator::GetCurrent, appxpkg.iappxblockmapfilesenumerator_getcurrent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxBlockMapFilesEnumerator.GetCurrent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxBlockMapFilesEnumerator::GetCurrent

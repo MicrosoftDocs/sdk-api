@@ -4,7 +4,7 @@ title: "_STORAGE_HW_FIRMWARE_DOWNLOAD"
 author: windows-sdk-content
 description: This structure contains a firmware image payload to be downloaded to the target.
 old-location: fs\storage_hw_firmware_download.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: BD1D39C7-9624-400C-BF4D-5F7583AA82FB
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STORAGE_HW_FIRMWARE_DOWNLOAD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD
+req.redist: 
 ---
 
 # _STORAGE_HW_FIRMWARE_DOWNLOAD structure

@@ -4,7 +4,7 @@ title: CALL_STATE_EVENT_CAUSE
 author: windows-sdk-content
 description: The CALL_STATE_EVENT_CAUSE enum is returned by the ITCallStateEvent::get_Cause method.
 old-location: tapi3\call_state_event_cause.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 9bc9e050-41f7-4330-a263-db745d3fa3f8
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALL_STATE_EVENT_CAUSE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CALL_STATE_EVENT_CAUSE
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: CALL_STATE_EVENT_CAUSE
+req.redist: 
 ---
 
 # CALL_STATE_EVENT_CAUSE enumeration

@@ -4,17 +4,16 @@ title: ISecurityIdentityColl::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an enumerator for the security identity collection.
 old-location: cos\isecurityidentitycoll_get__newenum.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 8e138b0b-cea1-47ca-a73b-473b9f5860db
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISecurityIdentityColl interface [COM+],get__NewEnum method, ISecurityIdentityColl.get__NewEnum, ISecurityIdentityColl::get__NewEnum, _cos_ISecurityIdentityColl_get__NewEnum, comsvcs/ISecurityIdentityColl::get__NewEnum, cos.isecurityidentitycoll_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ISecurityIdentityColl interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISecurityIdentityColl.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISecurityIdentityColl::get__NewEnum

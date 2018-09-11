@@ -4,17 +4,16 @@ title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0002"
 author: windows-sdk-content
 description: Defines values for the reasons why an attendee was disconnected from the session.
 old-location: rdp\attendee_disconnect_reason.htm
-old-project: rdp
+tech.root: Rdp
 ms.assetid: 2fbe5df8-54da-49b2-a9b8-275e838c6d39
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ATTENDEE_DISCONNECT_REASON, ATTENDEE_DISCONNECT_REASON enumeration [RDP], ATTENDEE_DISCONNECT_REASON_APP, ATTENDEE_DISCONNECT_REASON_CLI, ATTENDEE_DISCONNECT_REASON_ERR, ATTENDEE_DISCONNECT_REASON_MAX, ATTENDEE_DISCONNECT_REASON_MIN, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0002, rdp.attendee_disconnect_reason, rdpencomapi/ATTENDEE_DISCONNECT_REASON, rdpencomapi/ATTENDEE_DISCONNECT_REASON_APP, rdpencomapi/ATTENDEE_DISCONNECT_REASON_CLI, rdpencomapi/ATTENDEE_DISCONNECT_REASON_ERR, rdpencomapi/ATTENDEE_DISCONNECT_REASON_MAX, rdpencomapi/ATTENDEE_DISCONNECT_REASON_MIN
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -26,9 +25,10 @@ req.idl: Rdpencomapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: MsTscAx.dll
-tech.root: 
-req.typenames: ATTENDEE_DISCONNECT_REASON
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ATTENDEE_DISCONNECT_REASON
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsTscAx.dll
-req.irql: 
-req.product: ADAM
+req.typenames: ATTENDEE_DISCONNECT_REASON
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_rdpencomapi_0000_0000_0002 enumeration

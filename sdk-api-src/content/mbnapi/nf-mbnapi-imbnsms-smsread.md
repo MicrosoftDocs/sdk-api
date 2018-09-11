@@ -4,17 +4,16 @@ title: IMbnSms::SmsRead
 author: windows-sdk-content
 description: Reads a set of SMS messages from a device.
 old-location: mbn\imbnsms_smsread.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: d15eab89-c2bb-45af-8a6b-077517973fb1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsRead method, IMbnSms.SmsRead, IMbnSms::SmsRead, SmsRead, SmsRead method [Microsoft Broadband Networks], SmsRead method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smsread, mbnapi/IMbnSms::SmsRead
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnSms.SmsRead
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSms::SmsRead

@@ -4,17 +4,16 @@ title: ICertServerExit::EnumerateAttributes
 author: windows-sdk-content
 description: Returns the name of the next request attribute within the current context, then increments the internal pointer to the following attribute.
 old-location: security\icertserverexit_enumerateattributes.htm
-old-project: SecCrypto
+tech.root: seccrypto
 ms.assetid: df778207-3b20-45a5-a705-8dba566eb658
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertServerExit object [Security],EnumerateAttributes method, EnumerateAttributes, EnumerateAttributes method [Security], EnumerateAttributes method [Security],CCertServerExit object, EnumerateAttributes method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateAttributes method, ICertServerExit.EnumerateAttributes, ICertServerExit::EnumerateAttributes, _certsrv_icertserverexit_enumerateattributes, certif/ICertServerExit::EnumerateAttributes, security.icertserverexit_enumerateattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertServerExit.EnumerateAttributes
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertServerExit::EnumerateAttributes

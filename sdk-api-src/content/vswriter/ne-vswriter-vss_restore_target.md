@@ -4,17 +4,16 @@ title: VSS_RESTORE_TARGET
 author: windows-sdk-content
 description: Used by a writer at restore time to indicate how all the files included in a selected component, and all the files in any component set it defines, are to be restored.
 old-location: base\vss_restore_target.htm
-old-project: vss
+tech.root: VSS
 ms.assetid: 85b154c0-ebe8-4c17-8cab-0f886bf070e2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: VSS_RESTORE_TARGET, VSS_RESTORE_TARGET enumeration [VSS], VSS_RT_ALTERNATE, VSS_RT_DIRECTED, VSS_RT_ORIGINAL, VSS_RT_ORIGINAL_LOCATION, VSS_RT_UNDEFINED, _win32_vss_restore_target, base.vss_restore_target, enumeration [VSS], vswriter/VSS_RESTORE_TARGET, vswriter/VSS_RT_ALTERNATE, vswriter/VSS_RT_DIRECTED, vswriter/VSS_RT_ORIGINAL, vswriter/VSS_RT_ORIGINAL_LOCATION, vswriter/VSS_RT_UNDEFINED
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: vswriter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_RESTORE_TARGET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_RESTORE_TARGET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_RESTORE_TARGET
+req.redist: 
 ---
 
 # VSS_RESTORE_TARGET enumeration

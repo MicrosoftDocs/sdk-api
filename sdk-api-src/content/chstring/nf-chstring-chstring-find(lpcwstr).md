@@ -4,17 +4,16 @@ title: CHString::Find(LPCWSTR)
 author: windows-sdk-content
 description: The Find method searches a string for the first match of a substring.
 old-location: wmi\chstring_find_lpcwstr_.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: d2a8998c-e0e3-47d0-9539-9ae1d1fba5c8
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?Find@CHString@@QBEHPBG@Z, ?Find@CHString@@QEBAHPEBG@Z, CHString interface [Windows Management Instrumentation],Find method, CHString.Find, CHString.Find(LPCWSTR), CHString::Find, CHString::Find(LPCWSTR), Find, Find method [Windows Management Instrumentation], Find method [Windows Management Instrumentation],CHString interface, _hmm_chstring_find, chstring/CHString::Find, wmi.chstring_find_lpcwstr_"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - ?Find@CHString@@QEBAHPEBG@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHString::Find(LPCWSTR)

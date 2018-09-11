@@ -4,17 +4,16 @@ title: "_USER_INFO_11"
 author: windows-sdk-content
 description: The USER_INFO_11 structure contains information about a user account, including the account name, privilege level, the path to the user's home directory, and other user-related network statistics.
 old-location: netmgmt\user_info_11_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 718e7143-a6df-4912-954c-cc63bb490044
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPUSER_INFO_11, *PUSER_INFO_11, AF_OP_ACCOUNTS, AF_OP_COMM, AF_OP_PRINT, AF_OP_SERVER, LPUSER_INFO_11, LPUSER_INFO_11 structure pointer [Network Management], PUSER_INFO_11, PUSER_INFO_11 structure pointer [Network Management], USER_INFO_11, USER_INFO_11 structure [Network Management], USER_PRIV_ADMIN, USER_PRIV_GUEST, USER_PRIV_USER, _USER_INFO_11, _win32_user_info_11_str, lmaccess/LPUSER_INFO_11, lmaccess/PUSER_INFO_11, lmaccess/USER_INFO_11, netmgmt.user_info_11_str"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INFO_11, *PUSER_INFO_11, *LPUSER_INFO_11
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USER_INFO_11
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: USER_INFO_11, *PUSER_INFO_11, *LPUSER_INFO_11
+req.redist: 
 ---
 
 # _USER_INFO_11 structure

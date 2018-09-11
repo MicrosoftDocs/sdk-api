@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_pla_0001_0043_0001"
 author: windows-sdk-content
 description: Defines the data collector types.
 old-location: pla\datacollectortype.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 535b17a9-2e71-4513-83be-56a93ab87627
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DataCollectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DataCollectorType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DataCollectorType
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_pla_0001_0043_0001 enumeration

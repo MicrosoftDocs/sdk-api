@@ -4,17 +4,16 @@ title: IDWriteFontFileEnumerator::MoveNext
 author: windows-sdk-content
 description: Advances to the next font file in the collection. When it is first created, the enumerator is positioned before the first element of the collection and the first call to MoveNext advances to the first file.
 old-location: directwrite\IDWriteFontFileEnumerator_MoveNext.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: ffacdf0b-2e37-4b69-a6b5-7c6552ecdb60
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteFontFileEnumerator interface [Direct Write],MoveNext method, IDWriteFontFileEnumerator.MoveNext, IDWriteFontFileEnumerator::MoveNext, MoveNext, MoveNext method [Direct Write], MoveNext method [Direct Write],IDWriteFontFileEnumerator interface, directwrite.IDWriteFontFileEnumerator_MoveNext, dwrite/IDWriteFontFileEnumerator::MoveNext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFileEnumerator.MoveNext
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFileEnumerator::MoveNext

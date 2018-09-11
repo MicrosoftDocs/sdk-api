@@ -4,17 +4,16 @@ title: IEC_GESTUREINFO
 author: windows-sdk-content
 description: Contains information about a specific gesture.
 old-location: tablet\iec_gestureinfo__win32_only_.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: f932508b-44d3-4605-97a7-bb6eed248939
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IEC_GESTUREINFO, IEC_GESTUREINFO (Win32 Only), IEC_GESTUREINFO (Win32 Only) structure [Tablet PC], f932508b-44d3-4605-97a7-bb6eed248939, inked/IEC_GESTUREINFO, tablet.iec_gestureinfo__win32_only_
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEC_GESTUREINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IEC_GESTUREINFO structure
